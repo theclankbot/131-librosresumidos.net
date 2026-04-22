@@ -1,0 +1,1390 @@
+{
+  "batchName": "replenish-20260420T0428Z-topup-next",
+  "createdAt": "2026-04-20T04:28:13Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "curial-y-guelfa-de-anonimo",
+      "title": "Curial Y Guelfa",
+      "authorName": "Anonimo",
+      "authorSlug": "anonimo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Curial e Güelfa",
+        "authorName": "Anónimo",
+        "authorSlug": "anonimo",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa",
+          "romance"
+        ],
+        "year": null,
+        "pages": 343,
+        "summary": "Curial e Güelfa es una novela caballeresca catalana del siglo XV que combina aventuras cortesanas, ascenso social, pruebas militares y una historia amorosa marcada por el deseo, los celos y la fidelidad. Curial, un joven caballero de origen modesto criado en la corte del marqués de Montferrat, recibe la protección amorosa de Güelfa, viuda rica y poderosa. Gracias a ese apoyo inicia un recorrido de torneos, viajes y reconocimientos, pero su progreso siempre queda amenazado por la ambición, las tentaciones sentimentales y la inestabilidad de la fortuna. La obra no se limita a repetir el esquema heroico de la caballería: introduce ironía, diálogo vivo, referencias clásicas y una mirada más compleja sobre el prestigio, el mérito y la formación moral del protagonista. Por eso se lee a la vez como relato de aventuras, historia de amor y reflexión literaria sobre qué significa convertirse en un caballero digno.",
+        "aboutThisBook": "La Gran Enciclopèdia Catalana la presenta como una novela caballeresca catalana escrita probablemente entre 1435 y 1462 por un autor anónimo y dividida en tres libros. La crítica moderna la valora como una obra singular dentro de la prosa medieval por su mezcla de materia caballeresca, sensibilidad cortesana e influencias humanistas italianas. Conservada en un único manuscrito y difundida tardíamente, hoy ocupa un lugar central en el canon medieval catalán junto a otras grandes narraciones del período.",
+        "forWhom": "Para lectores de clásicos medievales, estudiantes de literatura hispánica o catalana y quienes disfrutan novelas de formación caballeresca con amor, viajes, intriga cortesana y un trasfondo cultural más sofisticado de lo habitual en el género.",
+        "whyItMatters": "Importa porque muestra que la narrativa caballeresca tardomedieval podía ser elegante, psicológica y autoconsciente. Además, ayuda a entender la transición entre la tradición caballeresca y una sensibilidad más humanista en la literatura peninsular.",
+        "editorialIntro": "Curial e Güelfa no es solo un viejo libro de caballerías: es una obra que sorprende por su inteligencia narrativa. Bajo la superficie de duelos, viajes y amores cortesanos, aparece una novela muy pendiente del prestigio, la educación sentimental y el papel ambiguo de la fortuna. Su modernidad relativa está en cómo examina a un héroe que necesita aprender, caer y corregirse antes de merecer el final feliz.",
+        "readingLevel": "Lectura media-alta para público adulto. La trama es accesible si se sigue como novela de aventuras, pero el contexto medieval, la tradición caballeresca y las alusiones culturales enriquecen mucho la lectura comentada.",
+        "whyReadToday": "Porque permite volver a la Edad Media sin encontrar un texto plano ni arqueológico: aquí hay deseo, movilidad social, política cortesana, humor y preguntas muy actuales sobre mérito, imagen pública y fidelidad.",
+        "studyNotes": [
+          "La obra está estructurada en tres libros, lo que facilita leerla como un proceso de aprendizaje: ascenso, prueba y reintegración del héroe.",
+          "Güelfa no es un personaje pasivo: su poder económico y simbólico condiciona el destino de Curial y complica la idea tradicional del caballero autónomo.",
+          "Conviene observar la mezcla de materia caballeresca y referencias clásicas, rasgo que acerca el texto al humanismo italiano mencionado por la crítica.",
+          "El recorrido de Curial no es solo militar; también es moral, porque sus errores sentimentales y su relación con la fortuna pesan tanto como sus victorias."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Libro I: ascenso del caballero protegido",
+            "summary": "Curial aparece como un joven de origen modesto educado en la corte de Montferrat. Güelfa, viuda joven y hermana del marqués, se enamora de él y lo impulsa socialmente. Desde ese punto, la historia une protección amorosa, promoción caballeresca y el primer conflicto: Curial debe demostrar su valía sin traicionar el vínculo que lo ha hecho posible."
+          },
+          {
+            "title": "Libro II: torneos, prestigio y tentación",
+            "summary": "Ya convertido en caballero reconocido, Curial entra en un mundo de desafíos, torneos y relaciones cortesanas más complejas. El prestigio ganado lo expone también a nuevas tentaciones amorosas y a malentendidos que afectan su relación con Güelfa. La caballería se vuelve aquí una prueba de constancia tanto sentimental como pública."
+          },
+          {
+            "title": "Libro III: caída, pruebas lejanas y restitución",
+            "summary": "El último tramo intensifica el componente aventurero con viajes, peligros y episodios de separación. Curial atraviesa pérdidas, aprendizaje y una depuración moral antes de recuperar honra y amor. El desenlace confirma que el héroe no triunfa solo por fuerza o linaje, sino por una maduración trabajosa que lo hace merecedor de su lugar."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Amor y patronazgo",
+            "content": "La relación entre Curial y Güelfa no responde al esquema sentimental simple. Ella ama, protege y financia; él depende de ese apoyo para existir como figura pública. La novela convierte el amor en una red de deuda, poder, deseo y vigilancia que complica la identidad heroica del protagonista."
+          },
+          {
+            "heading": "Caballería con conciencia literaria",
+            "content": "Aunque pertenece a la tradición caballeresca, la obra introduce una elaboración verbal y cultural que la distingue. Los diálogos, la ironía y las referencias clásicas hacen pensar en un texto que conoce el género desde dentro y lo refina, en lugar de repetirlo mecánicamente."
+          },
+          {
+            "heading": "La fortuna como fuerza narrativa",
+            "content": "El avance de Curial no es lineal. La fortuna altera su posición, lo pone a prueba y revela lo frágil que es el prestigio cortesano. Esa oscilación sostiene la tensión dramática y convierte el ascenso del héroe en algo más inestable y humano."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Quién escribió Curial e Güelfa?",
+            "answer": "La obra se atribuye a un autor anónimo. La crítica ha debatido posibles autorías, pero no existe un consenso definitivo y suele presentarse simplemente como una novela anónima del siglo XV."
+          },
+          {
+            "question": "¿Es un libro de caballerías parecido al Tirant lo Blanc?",
+            "answer": "Comparte con otras novelas caballerescas la materia de torneos, viajes y prestigio militar, pero destaca por su tono más refinado, su tratamiento amoroso y la presencia de elementos humanistas que la vuelven especialmente singular."
+          },
+          {
+            "question": "¿Hace falta saber catalán medieval para leerlo?",
+            "answer": "No necesariamente. Existen ediciones modernizadas, traducidas y anotadas. Con una buena introducción, puede leerse como una novela de aventuras amorosas y luego profundizar en su contexto histórico y literario."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Enciclopèdia.cat: Curial e Güelfa",
+            "url": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/curial-e-guelfa"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Amors de Curial e Güelfa",
+            "url": "https://www.cervantesvirtual.com/obra/amors-de-curial-e-guelfa--0/"
+          },
+          {
+            "label": "Open Library: Curial e Güelfa",
+            "url": "https://openlibrary.org/works/OL19150878W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "del-color-de-la-leche-de-nell-leyshon",
+      "title": "Del Color De La Leche",
+      "authorName": "Nell Leyshon",
+      "authorSlug": "nell-leyshon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Del color de la leche",
+        "authorName": "Nell Leyshon",
+        "authorSlug": "nell-leyshon",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 2012,
+        "pages": 176,
+        "summary": "Del color de la leche es una novela breve narrada por Mary, una adolescente campesina de la Inglaterra rural de 1830 que cuenta su historia con una voz directa, oral y aparentemente despojada. Nacida en una familia pobre y violenta, Mary vive marcada por el trabajo agotador, la dureza del padre y una diferencia física que la vuelve aún más visible. Cuando es enviada a servir a la casa del vicario y su esposa enferma, su vida cambia: allí aprende a leer y escribir, descubre una forma nueva de conciencia y también entra en un espacio de poder donde la religión, la clase social y el género se combinan de manera cruel. La novela avanza como una confesión escrita desde la urgencia, de modo que cada aprendizaje ilumina también una amenaza. Su fuerza no está en el sentimentalismo, sino en cómo la voz de Mary convierte una historia de opresión en un testimonio inolvidable.",
+        "aboutThisBook": "Publicada originalmente en 2012 como The Colour of Milk, la novela consolidó a Nell Leyshon entre las voces británicas contemporáneas más atentas a la oralidad, la memoria y las relaciones de poder. La ficha editorial de HarperCollins la define como una obra de ficción histórica ambientada en la Inglaterra de 1830 y centrada en el despertar emocional e intelectual de una joven analfabeta. Su brevedad engaña: es un texto muy trabajado en ritmo, punto de vista y tensión moral, capaz de producir una lectura rápida pero difícil de olvidar.",
+        "forWhom": "Para lectores adultos que buscan novela breve contemporánea con voz potente, perspectiva femenina, crítica social y un tratamiento duro pero literariamente muy controlado de la violencia, la educación y la desigualdad.",
+        "whyItMatters": "Importa porque demuestra cuánto puede hacer una novela corta cuando domina la voz narrativa. También es valiosa para estudiar clase, género, alfabetización y abuso de poder sin perder intensidad emocional ni precisión estilística.",
+        "editorialIntro": "Hay novelas históricas que reconstruyen una época desde fuera y otras que te meten dentro de una conciencia. Del color de la leche pertenece al segundo grupo. Nell Leyshon trabaja con una prosa desnuda, casi sin ornamento, para que la inteligencia de Mary vaya apareciendo línea a línea. El resultado es una narración de aprendizaje que pronto se revela como una denuncia feroz de las jerarquías sociales y de la violencia ejercida sobre los cuerpos vulnerables.",
+        "readingLevel": "Lectura accesible en superficie, pero emocionalmente exigente. El lenguaje es llano y la sintaxis reproduce la voz de Mary, aunque el trasfondo de abuso, clase y poder hace recomendable una lectura adulta o guiada.",
+        "whyReadToday": "Porque sigue interpelando debates muy presentes: quién puede contar su historia, qué significa aprender a escribir y cómo las instituciones respetables pueden encubrir la violencia contra quienes menos poder tienen.",
+        "studyNotes": [
+          "La primera persona no es un adorno estilístico: el aprendizaje de la escritura forma parte del argumento y cambia el sentido de toda la novela.",
+          "La ambientación histórica importa porque revela la unión entre pobreza rural, autoridad masculina y dependencia económica de las mujeres jóvenes.",
+          "Mary narra con una franqueza que produce cercanía, pero también obliga al lector a reconstruir silencios, amenazas y relaciones de poder que ella no siempre formula de manera abstracta.",
+          "La novela puede leerse como relato de formación truncada: el acceso al lenguaje abre conciencia, pero no garantiza libertad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: la granja y la infancia endurecida",
+            "summary": "Mary presenta su vida familiar en el campo: trabajo físico, pobreza, violencia doméstica y una identidad marcada por su diferencia corporal y su temperamento. Desde el principio se perfila como una narradora viva, observadora y resistente, aunque atrapada en un mundo muy estrecho."
+          },
+          {
+            "title": "Parte 2: servicio en la casa del vicario",
+            "summary": "El traslado a la vicaría parece una oportunidad de mejora, pero pronto se convierte en un espacio ambiguo. Mary entra en contacto con otra clase social, con nuevas rutinas y con la posibilidad de la alfabetización, mientras aprende también que el poder respetable puede ser tan amenazante como la pobreza abierta."
+          },
+          {
+            "title": "Parte 3: escritura, revelación y tragedia",
+            "summary": "A medida que Mary aprende a leer y escribir, gana herramientas para ordenar su experiencia. Esa conquista intelectual da lugar al verdadero núcleo del libro: la escritura como testimonio final. El cierre reinterpreta todo lo anterior y vuelve devastadora la aparente sencillez de su voz."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La voz narrativa como centro moral",
+            "content": "La novela depende de la voz de Mary: seca, concreta, sin ornamento y, por eso mismo, profundamente conmovedora. El lector no recibe grandes explicaciones históricas ni psicológicas, sino una experiencia encarnada que obliga a sentir la desigualdad desde dentro."
+          },
+          {
+            "heading": "Alfabetización y poder",
+            "content": "Aprender a leer y escribir aparece primero como una promesa de ampliación del mundo. Sin embargo, Leyshon muestra que el acceso al lenguaje no anula por sí solo las estructuras de clase y género. La escritura da conciencia y memoria, pero llega demasiado tarde para evitar ciertos daños."
+          },
+          {
+            "heading": "Violencia bajo apariencia de orden",
+            "content": "Uno de los logros del libro es mostrar que la violencia no se limita al padre brutal o al trabajo extenuante. También habita instituciones respetadas, discursos religiosos y relaciones jerárquicas que se presentan como tutela o protección. Esa ambigüedad vuelve la novela especialmente perturbadora."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Del color de la leche es una novela histórica o psicológica?",
+            "answer": "Es ambas cosas. Está ambientada en la Inglaterra rural de 1830, pero su verdadera fuerza está en la construcción de la conciencia de Mary y en cómo su voz transforma la experiencia histórica en testimonio íntimo."
+          },
+          {
+            "question": "¿Por qué la forma de escribir de Mary es tan importante?",
+            "answer": "Porque el libro convierte la alfabetización en parte del argumento. El modo en que Mary escribe refleja su origen, su aprendizaje y la urgencia de dejar constancia de lo sucedido."
+          },
+          {
+            "question": "¿Es una lectura dura?",
+            "answer": "Sí. Aunque es breve y de prosa clara, aborda violencia física, abuso de poder y desigualdad de género de una manera frontal. Su impacto proviene justamente de esa sobriedad."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "HarperCollins / Ecco: The Colour of Milk",
+            "url": "https://www.harpercollins.com/products/the-colour-of-milk-nell-leyshon"
+          },
+          {
+            "label": "Open Library: Colour of Milk",
+            "url": "https://openlibrary.org/works/OL19958312W"
+          },
+          {
+            "label": "Open Library: edición de Colour of Milk",
+            "url": "https://openlibrary.org/books/OL38672687M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "desayuno-en-tiffanys-de-truman-capote",
+      "title": "Desayuno En Tiffanys",
+      "authorName": "Truman Capote",
+      "authorSlug": "truman-capote",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Desayuno en Tiffany's",
+        "authorName": "Truman Capote",
+        "authorSlug": "truman-capote",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1958,
+        "pages": 153,
+        "summary": "Desayuno en Tiffany's es la célebre novela corta en la que un narrador escritor recuerda su encuentro, años atrás, con Holly Golightly, vecina fascinante e inasible del Nueva York de posguerra. Holly parece vivir entre fiestas, llamadas intempestivas, hombres adinerados y una libertad cuidadosamente improvisada, pero Capote construye su figura a partir de huecos, gestos y contradicciones. Lo que al principio parece una historia ligera sobre bohemia urbana se vuelve poco a poco un retrato melancólico de la invención de uno mismo, del miedo al arraigo y de la fragilidad escondida detrás del encanto social. El narrador observa a Holly con una mezcla de fascinación, ternura y distancia, y esa mirada convierte la obra en algo más que un mito pop: es una meditación breve y precisa sobre la soledad, la identidad y el deseo de escapar de cualquier jaula, incluso de las afectivas.",
+        "aboutThisBook": "Britannica señala que Breakfast at Tiffany’s fue publicada primero en Esquire en 1958 y luego como libro junto con otros relatos; desde entonces se volvió una de las obras más populares de Truman Capote. Aunque la adaptación cinematográfica amplificó su fama, la novela conserva un tono propio: más ambiguo, más melancólico y menos complaciente con su protagonista. Su prestigio viene de esa combinación entre ligereza aparente, estilo pulido y extraordinaria capacidad para crear un personaje inolvidable en muy pocas páginas.",
+        "forWhom": "Para lectores de clásicos del siglo XX, amantes de la novela corta y quienes buscan una historia urbana elegante, irónica y triste sobre la invención del yo, la vulnerabilidad emocional y las máscaras sociales.",
+        "whyItMatters": "Importa porque Holly Golightly se convirtió en un icono cultural, pero el libro sigue siendo mucho más rico que su fama visual. Capote logra una miniatura literaria donde glamour, precariedad afectiva y soledad quedan inseparablemente unidos.",
+        "editorialIntro": "Pocas novelas breves han producido un personaje tan reconocible como Holly Golightly. Sin embargo, leer Desayuno en Tiffany's después de décadas de mitificación cinematográfica permite recuperar algo esencial: el talento de Capote para hacer convivir brillo y desamparo. La prosa es limpia, observadora y sutilmente irónica, y en ese equilibrio levanta una historia que parece leve mientras va dejando un poso de pérdida cada vez más hondo.",
+        "readingLevel": "Lectura accesible para público adulto. La extensión es breve y el estilo fluye con naturalidad, pero la riqueza real está en los matices del narrador, en lo que no se dice y en la ambivalencia moral de Holly.",
+        "whyReadToday": "Porque sigue hablando de la autopresentación, la performance social y el deseo de reinventarse en la ciudad. En una época obsesionada con la imagen, Holly Golightly resulta más contemporánea de lo que parece.",
+        "studyNotes": [
+          "La novela se cuenta desde el recuerdo de un narrador que nunca domina del todo a Holly; esa distancia es clave para su misterio.",
+          "Conviene distinguir entre el imaginario popular creado por la película y el tono del texto de Capote, más ambiguo, frágil y a veces cruel.",
+          "Holly encarna una libertad seductora, pero también una identidad construida sobre la huida constante y el rechazo de cualquier forma de pertenencia.",
+          "La brevedad del libro intensifica su efecto: cada escena aporta información indirecta sobre un personaje que nunca queda cerrado."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: llegada de Holly y fascinación del narrador",
+            "summary": "El narrador recuerda su juventud en Nueva York y el impacto que le produce Holly Golightly, vecina imprevisible de hábitos nocturnos y encanto desconcertante. Desde el inicio, Holly aparece menos como un personaje explicado que como una presencia magnética hecha de rumores, escenas y contradicciones."
+          },
+          {
+            "title": "Momento clave 2: intimidad, máscaras y mundo social",
+            "summary": "A medida que la relación entre ambos avanza, el narrador conoce mejor el entorno de Holly: fiestas, visitas masculinas, dinero precario y amistades ambiguas. Lo importante no es tanto la intriga externa como el contraste entre la imagen luminosa que ella proyecta y la vulnerabilidad que intenta mantener fuera de la vista."
+          },
+          {
+            "title": "Momento clave 3: desaparición y mito",
+            "summary": "El desenlace transforma a Holly en una figura aún más esquiva. Su huida final confirma que su identidad depende del movimiento y de la negativa a quedar fijada. Lo que queda para el narrador, y para el lector, es una mezcla de pérdida, admiración e imposibilidad de poseer del todo su historia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Holly Golightly como personaje de fuga",
+            "content": "Holly no se define por una esencia estable, sino por su capacidad de escapar a toda clasificación: amante, oportunista, soñadora, superviviente, actriz de sí misma. Capote hace de esa inestabilidad el núcleo de su atractivo y también de su tragedia."
+          },
+          {
+            "heading": "Nueva York y la invención del yo",
+            "content": "La ciudad no es simple decorado elegante. Nueva York permite experimentar identidades, esconder el pasado y circular entre clases y ambientes distintos. En ese sentido, el espacio urbano sostiene la ilusión de libertad que Holly encarna y a la vez revela lo precaria que es."
+          },
+          {
+            "heading": "La nostalgia del narrador",
+            "content": "El libro está filtrado por una memoria posterior. Esa elección vuelve la novela más melancólica: el narrador no cuenta una aventura presente, sino el recuerdo de alguien que sabe que aquello ya se perdió. La voz retrospectiva protege a Holly y, al mismo tiempo, subraya su inaccesibilidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La novela y la película cuentan exactamente la misma historia?",
+            "answer": "No. La película hizo mundialmente famoso al personaje, pero suavizó y transformó varios rasgos del libro. La versión de Capote es más ambigua, más triste y menos romántica en sentido convencional."
+          },
+          {
+            "question": "¿Qué simboliza Tiffany's en la obra?",
+            "answer": "Para Holly representa una fantasía de orden, seguridad y belleza sin amenaza. Es un lugar imaginario de calma frente al caos emocional y material de su vida."
+          },
+          {
+            "question": "¿Por qué Holly Golightly sigue siendo tan recordada?",
+            "answer": "Porque Capote creó un personaje contradictorio y abierto: brillante y vulnerable, libre y desamparado, encantador y evasivo. Esa mezcla impide reducirla a un simple icono de estilo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Britannica: Truman Capote",
+            "url": "https://www.britannica.com/biography/Truman-Capote"
+          },
+          {
+            "label": "Open Library: Breakfast at Tiffany's",
+            "url": "https://openlibrary.org/works/OL1992167W"
+          },
+          {
+            "label": "Wikipedia: Breakfast at Tiffany's (novella)",
+            "url": "https://en.wikipedia.org/wiki/Breakfast_at_Tiffany%27s_(novella)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "diario-secreto-de-susi-diario-secreto-de-paul-de-christine-nostlinger",
+      "title": "Diario Secreto De Susi Diario Secreto De Paul",
+      "authorName": "Christine Nostlinger",
+      "authorSlug": "christine-nostlinger",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Diario secreto de Susi. Diario secreto de Paul",
+        "authorName": "Christine Nöstlinger",
+        "authorSlug": "christine-nostlinger",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa",
+          "infantil"
+        ],
+        "year": 2017,
+        "pages": 128,
+        "summary": "Esta novela breve de Christine Nöstlinger cuenta una misma historia amorosa y escolar desde dos diarios distintos: el de Susi y el de Paul. La gracia del libro está en que los hechos parecen cambiar según quien los escribe. Lo que para Susi es una humillación o una prueba de afecto, para Paul puede ser una torpeza, una fanfarronada o un malentendido. A partir de esa estructura en espejo, el libro retrata el despertar sentimental, los celos, las inseguridades y la presión del grupo con un humor muy reconocible. Nöstlinger no idealiza la adolescencia temprana: muestra chicos que exageran, se confunden, mienten un poco y a veces no saben nombrar lo que sienten. Precisamente por eso el relato resulta tan vivo y tan útil para leer cómo se construyen los afectos antes de que exista una verdadera madurez emocional.",
+        "aboutThisBook": "La edición española localizada en catálogos públicos aparece en 2017 en Ediciones SM, con 128 páginas. El libro reúne en un solo volumen la voz de Susi y la de Paul para convertir un conflicto cotidiano en una pequeña comedia de perspectivas. Nöstlinger, una de las autoras europeas más importantes de la literatura infantil y juvenil, trabaja aquí con una fórmula muy eficaz: dos versiones parciales de una misma experiencia. Ese recurso permite observar cómo nacen los malentendidos, cómo operan el orgullo y la vergüenza, y por qué la escritura íntima se vuelve un espacio de sinceridad y autoengaño al mismo tiempo.",
+        "forWhom": "Para lectores juveniles desde los últimos cursos de primaria y primeros de secundaria, además de docentes y familias que busquen una historia breve sobre amistad, enamoramiento, puntos de vista y comunicación afectiva.",
+        "whyItMatters": "Importa porque enseña, sin didactismo pesado, que toda relación está atravesada por interpretaciones parciales. El libro ayuda a pensar empatía, perspectiva y educación sentimental con una forma narrativa muy accesible para lectores jóvenes.",
+        "editorialIntro": "Hay libros juveniles que hablan del primer amor como si todo fuera intensidad pura, y otros que entienden mejor el ridículo, la confusión y la susceptibilidad que acompañan esa etapa. Este pertenece al segundo grupo. Nöstlinger usa el diario como dispositivo narrativo para mostrar dos conciencias a la vez: cada una cree contar la verdad, pero el lector descubre enseguida que la verdad completa solo aparece en el contraste. Esa sencillez estructural hace del libro una lectura ágil, divertida y muy aprovechable para comentar en clase o en familia.",
+        "readingLevel": "Lectura accesible para público juvenil: frases claras, capítulos cortos y situaciones cotidianas. La mayor riqueza no está en la dificultad verbal, sino en captar diferencias de tono, ironía y punto de vista entre los dos diarios.",
+        "whyReadToday": "Porque sigue siendo una forma excelente de hablar con lectores jóvenes sobre malentendidos, autoestima, relaciones y la distancia que suele existir entre lo que sentimos, lo que decimos y lo que otros entienden.",
+        "studyNotes": [
+          "La estructura doble es el núcleo del libro: conviene comparar cómo Susi y Paul narran el mismo hecho y qué omite o exagera cada uno.",
+          "El diario funciona como espacio de intimidad, pero no garantiza objetividad; también revela autojustificaciones, deseos y miedos.",
+          "La novela retrata la educación sentimental desde el humor y no desde la solemnidad, lo que facilita la identificación de lectores jóvenes.",
+          "Puede trabajarse en clase para hablar de narrador en primera persona, focalización y conflicto afectivo cotidiano."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: el cuaderno de Susi",
+            "summary": "El libro abre con la mirada de Susi, que registra sus ilusiones, sus enfados y su necesidad de interpretar cada gesto de Paul. Desde ese primer cuaderno ya se ve que el amor juvenil está lleno de expectativas y lecturas apresuradas."
+          },
+          {
+            "title": "Parte 2: la versión de Paul",
+            "summary": "Cuando aparece la voz de Paul, muchos episodios cambian de sentido. El lector descubre que detrás de conductas que parecían frías o calculadas hay torpeza, miedo al ridículo y dificultad para expresar afecto."
+          },
+          {
+            "title": "Momentos clave: choques, celos y reconciliaciones",
+            "summary": "En el tramo central y final, el contraste entre ambos diarios muestra cómo los rumores, las amistades y el orgullo agrandan los conflictos. La novela avanza hacia una comprensión más matizada del vínculo, sin perder humor ni ligereza."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Dos voces, una sola historia incompleta",
+            "content": "El libro demuestra que ningún narrador domina por completo la verdad de una relación. Susi y Paul escriben desde su sensibilidad herida o entusiasmada, y el lector arma el sentido a partir del desacuerdo entre ambos relatos."
+          },
+          {
+            "heading": "Humor y educación sentimental",
+            "content": "Nöstlinger evita moralizar. Prefiere exhibir la desproporción emocional típica de la edad: un gesto mínimo puede parecer una catástrofe o una promesa. Gracias a ese humor, el libro habla de sentimientos serios sin volverse solemne."
+          },
+          {
+            "heading": "El diario como forma de autoconocimiento limitado",
+            "content": "Escribir ayuda a Susi y a Paul a ordenar lo que viven, pero también deja ver cuánto se engañan a sí mismos. El diario es íntimo y sincero, aunque nunca neutral; por eso resulta tan fértil como recurso literario."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela romántica juvenil?",
+            "answer": "Sí, pero en un sentido cotidiano y humorístico. Más que idealizar el amor, muestra el desconcierto, los celos y los malentendidos del despertar sentimental."
+          },
+          {
+            "question": "¿Por qué están los dos nombres en el título?",
+            "answer": "Porque la obra reúne dos diarios y dos perspectivas. La historia se entiende de verdad cuando se comparan la voz de Susi y la de Paul."
+          },
+          {
+            "question": "¿Se puede leer en contexto escolar?",
+            "answer": "Sí. Es muy útil para trabajar narración en primera persona, punto de vista, comunicación afectiva y conflictos propios de la adolescencia temprana."
+          },
+          {
+            "question": "¿Qué aporta Christine Nöstlinger en este libro?",
+            "answer": "Su capacidad para escribir sobre niños y adolescentes sin condescendencia. Observa sus exageraciones con humor, pero también con mucho respeto por lo que sienten."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library - obra: Diario secreto de Susi. Diario secreto de Paul",
+            "url": "https://openlibrary.org/works/OL35030876W"
+          },
+          {
+            "label": "Open Library - edición de Ediciones SM (2017)",
+            "url": "https://openlibrary.org/books/OL47399479M"
+          },
+          {
+            "label": "Wikipedia - Christine Nöstlinger",
+            "url": "https://es.wikipedia.org/wiki/Christine_N%C3%B6stlinger"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "donde-esta-wally-de-martin-handford",
+      "title": "Donde Esta Wally",
+      "authorName": "Martin Handford",
+      "authorSlug": "martin-handford",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "¿Dónde está Wally?",
+        "authorName": "Martin Handford",
+        "authorSlug": "martin-handford",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "infantil",
+          "aventura"
+        ],
+        "year": 2015,
+        "pages": 32,
+        "summary": "¿Dónde está Wally? no es una narración convencional, pero sí construye un mundo reconocible y expansivo a través de escenas ilustradas llenas de gente, objetos, bromas visuales y pequeños relatos simultáneos. Martin Handford invita al lector a buscar a Wally en dobles páginas abarrotadas donde cada centímetro contiene pistas falsas, personajes recurrentes y microhistorias cómicas. El libro convierte la lectura en observación activa: no se trata solo de encontrar una figura con jersey a rayas, sino de aprender a mirar con paciencia, distinguir detalles y orientarse en el caos. En esa aparente simplicidad reside su fuerza. Cada lámina propone un viaje visual, mezcla juego y concentración, y ofrece una experiencia compartible entre niños y adultos. Por eso la serie se volvió un clásico duradero de la edición infantil ilustrada.",
+        "aboutThisBook": "Los catálogos de Open Library registran ediciones en español de Ediciones B y B de Blok; una edición de 2015 figura con 32 páginas, formato típico del álbum ilustrado de búsqueda visual. Aunque la franquicia internacional comenzó en los años ochenta, el título sigue reeditándose porque no depende de una trama fechada, sino de una mecánica lúdica muy sólida. Handford, ilustrador británico, diseñó escenas masivas donde el lector debe localizar a Wally y otros elementos escondidos. El libro se sitúa entre el álbum ilustrado, el pasatiempo y el juego de observación, y demuestra que un libro infantil puede ser muy interactivo sin dejar de ser un objeto narrativo y artístico.",
+        "forWhom": "Para niños que disfrutan los libros-juego, para familias que buscan lectura compartida y para docentes o mediadores interesados en atención visual, vocabulario espacial, paciencia y lectura de imágenes.",
+        "whyItMatters": "Importa porque amplía la idea de lectura: aquí leer también significa explorar, comparar, rastrear y reconocer patrones. Además, consolidó un formato visual que marcó a generaciones de lectores infantiles y convirtió la observación en placer narrativo.",
+        "editorialIntro": "Pocos libros infantiles han logrado una identidad visual tan inmediata como este. Basta una multitud dibujada por Martin Handford para que el lector entre en modo búsqueda. Sin necesidad de una trama lineal, cada doble página propone una aventura distinta y convierte el acto de mirar en el verdadero motor del libro. Esa combinación de humor minúsculo, desafío visual y relectura casi infinita explica por qué ¿Dónde está Wally? sigue funcionando décadas después de su aparición y por qué tantos niños vuelven a él una y otra vez.",
+        "readingLevel": "Lectura muy accesible en lo verbal, pero exigente en atención visual. Funciona desde la infancia temprana con acompañamiento y también como juego autónomo para lectores que disfrutan explorar imágenes complejas y seguir instrucciones simples.",
+        "whyReadToday": "Porque sigue ofreciendo una experiencia analógica de concentración y juego compartido muy valiosa en un entorno saturado de pantallas, estímulos rápidos y atención fragmentada.",
+        "studyNotes": [
+          "Aunque suele llamarse libro-juego, también puede leerse como un álbum ilustrado de observación, con escenas llenas de microrelatos simultáneos.",
+          "La dificultad no está en el texto, sino en la percepción visual: conviene trabajar orientación espacial, detalle y paciencia.",
+          "Cada doble página produce una pequeña aventura autónoma y, al mismo tiempo, sostiene la continuidad icónica del personaje de Wally.",
+          "Es especialmente útil para hablar de lectura de imágenes, diseño editorial infantil e interacción entre juego y libro."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: entrar en el juego de la búsqueda",
+            "summary": "Las primeras páginas presentan la consigna central: localizar a Wally entre multitudes y escenarios llenos de distracciones. El lector comprende enseguida que la observación cuidadosa será la verdadera forma de avanzar."
+          },
+          {
+            "title": "Parte 2: escenas repletas de historias mínimas",
+            "summary": "Cada lámina abre un universo visual con personajes secundarios, chistes gráficos y acciones paralelas. Buscar a Wally implica también recorrer ese caos ordenado y descubrir que cada imagen cuenta mucho más de lo que parece."
+          },
+          {
+            "title": "Momentos clave: reto, repetición y relectura",
+            "summary": "El libro gana valor en la repetición. Después de encontrar a Wally, el lector puede volver para localizar objetos, otros personajes y detalles escondidos, de modo que la obra se renueva en cada lectura."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Leer imágenes también es leer",
+            "content": "El libro cuestiona la idea de que la lectura depende solo de palabras. Aquí comprender consiste en escanear, discriminar, volver atrás y construir sentido visual a partir de pistas mínimas y relaciones espaciales."
+          },
+          {
+            "heading": "El placer del detalle",
+            "content": "Handford llena cada escena de bromas diminutas y episodios secundarios. Eso convierte la búsqueda en una experiencia menos mecánica y más artística: no se trata solo de hallar un personaje, sino de demorarse en la riqueza del dibujo."
+          },
+          {
+            "heading": "Juego, concentración y memoria",
+            "content": "La mecánica del libro fortalece hábitos de atención sostenida y reconocimiento de patrones. Por eso funciona tan bien con niños, pero también con adultos que disfrutan del reto visual y de la lectura compartida."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un cuento o un libro-juego?",
+            "answer": "Es sobre todo un libro-juego ilustrado, aunque cada escena contiene pequeñas historias visuales que le dan una dimensión narrativa propia."
+          },
+          {
+            "question": "¿Para qué edades sirve mejor?",
+            "answer": "Puede disfrutarse desde la infancia con mediación adulta, pero también funciona con lectores algo mayores porque el reto visual y la relectura siguen siendo estimulantes."
+          },
+          {
+            "question": "¿Por qué tuvo tanto éxito?",
+            "answer": "Porque une una consigna clarísima con ilustraciones muy ricas y rejugables. Encontrar a Wally es solo el comienzo de una exploración visual más amplia."
+          },
+          {
+            "question": "¿Se puede usar en el aula?",
+            "answer": "Sí. Es útil para trabajar observación, ubicación espacial, vocabulario descriptivo, atención sostenida y conversación sobre cómo se leen las imágenes."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library - obra: ¿Dónde está Wally?",
+            "url": "https://openlibrary.org/works/OL25631330W"
+          },
+          {
+            "label": "Open Library - edición en español de 32 páginas",
+            "url": "https://openlibrary.org/books/OL35458724M"
+          },
+          {
+            "label": "Wikipedia - Martin Handford",
+            "url": "https://es.wikipedia.org/wiki/Martin_Handford"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "donde-las-mujeres-de-alvaro-pombo",
+      "title": "Donde Las Mujeres",
+      "authorName": "Alvaro Pombo",
+      "authorSlug": "alvaro-pombo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Donde las mujeres",
+        "authorName": "Álvaro Pombo",
+        "authorSlug": "alvaro-pombo",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "romance"
+        ],
+        "year": 1996,
+        "pages": 280,
+        "summary": "En Donde las mujeres, Álvaro Pombo construye una novela de atmósfera moral y psicológica donde la memoria, el deseo, la enfermedad y la dependencia afectiva se entrelazan dentro de un espacio doméstico muy cargado. La historia se articula alrededor de un joven que entra en una casa dominada por presencias femeninas, jerarquías sentimentales y tensiones apenas dichas. Más que avanzar por grandes acontecimientos externos, la novela progresa por modulaciones de conciencia: observaciones, ironías, incomodidades, alianzas movedizas y revelaciones sobre el poder que unas personas ejercen sobre otras. Pombo combina lucidez analítica y extrañeza emocional para mostrar cómo la intimidad puede ser refugio, manipulación y teatro moral al mismo tiempo. Es una obra de lectura pausada, muy verbal y muy atenta a los matices de la convivencia, donde lo decisivo no es solo lo que sucede, sino la manera en que cada personaje interpreta lo vivido.",
+        "aboutThisBook": "Los registros catalográficos de Open Library sitúan la edición de 1996 en Barcelona, publicada por Editorial Anagrama, con 280 páginas, ISBN 8433910302 y correspondencias en Library of Congress y WorldCat. La novela pertenece al momento de madurez de Pombo y fue distinguida con el Premio Nacional de Narrativa, un dato ampliamente asociado a su trayectoria crítica. Más que una novela de argumento rápido, es una exploración de vínculos asimétricos, deseo, culpa y observación social. Su título ya sugiere una localización cargada de sentido: un ámbito donde las mujeres ordenan la memoria y la vida emocional, mientras el narrador o protagonista masculino queda implicado en una red de dependencias y fascinaciones que lo excede.",
+        "forWhom": "Para lectores adultos de narrativa literaria española contemporánea, especialmente quienes disfrutan novelas psicológicas, prosa reflexiva, conflictos de dependencia afectiva y retratos morales más importantes que la acción exterior.",
+        "whyItMatters": "Importa porque es una de las novelas con las que Pombo consolidó su prestigio narrativo en los noventa. Sigue siendo valiosa por su fineza psicológica y por la forma en que observa poder, deseo, clase y vulnerabilidad dentro de la intimidad doméstica.",
+        "editorialIntro": "Álvaro Pombo no suele escribir novelas para lectores que solo buscan trama veloz. Sus libros piden atención a la frase, a la ironía y a la oscilación moral de los personajes. Donde las mujeres responde plenamente a ese mundo literario. La novela encierra a sus criaturas en una red de afectos, dependencias y observaciones cruzadas donde nadie es del todo transparente para sí mismo. El resultado es un texto denso pero muy sugerente, capaz de convertir conversaciones, silencios y gestos mínimos en materia de verdadera tensión narrativa.",
+        "readingLevel": "Lectura media-alta para adultos. La prosa exige atención al matiz psicológico, a la ironía y a los desplazamientos de punto de vista; no es difícil por vocabulario raro, sino por la densidad moral y verbal de su construcción.",
+        "whyReadToday": "Porque sigue ofreciendo una mirada muy aguda sobre las relaciones desiguales, la fragilidad emocional y la teatralidad de la vida privada, asuntos que permanecen plenamente vigentes en la narrativa contemporánea.",
+        "studyNotes": [
+          "Conviene leer la novela como un estudio de atmósferas morales: la casa y sus vínculos importan tanto como la acción visible.",
+          "Pombo trabaja con ambigüedad psicológica; sus personajes rara vez pueden explicarse de forma simple o estable.",
+          "El título orienta la lectura hacia un espacio organizado por presencias femeninas, memoria afectiva y relaciones de poder íntimas.",
+          "Resulta útil atender a la ironía del narrador y a cómo el lenguaje modela la percepción moral del lector."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: entrada en un mundo doméstico cerrado",
+            "summary": "El comienzo sitúa al protagonista en una casa gobernada por rutinas, afectos y tensiones preexistentes. Más que un escenario neutro, ese espacio funciona como organismo moral que condiciona todas las relaciones."
+          },
+          {
+            "title": "Parte 2: deseo, dependencia y observación",
+            "summary": "A medida que avanza la novela, los vínculos entre personajes se vuelven más complejos. Lo afectivo nunca aparece desligado de la fragilidad, la manipulación, el resentimiento o la necesidad de ser reconocido."
+          },
+          {
+            "title": "Tramo final: revelaciones morales sin cierre simple",
+            "summary": "La novela no desemboca en una resolución tajante, sino en una comprensión más honda de las lealtades y daños que sostienen la convivencia. El lector termina con una visión más compleja, no más tranquilizadora, de sus personajes."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La casa como escenario de poder",
+            "content": "En Pombo, el espacio doméstico no es mero decorado. La casa organiza jerarquías, dependencias y memorias. Todo lo íntimo aparece cargado de historia, y por eso cada gesto cotidiano puede adquirir una resonancia moral intensa."
+          },
+          {
+            "heading": "Psicología, ironía y ambigüedad",
+            "content": "La novela destaca por una mirada psicológica que nunca se conforma con etiquetas rápidas. Pombo combina análisis fino e ironía para mostrar cómo deseo, compasión y dominio suelen mezclarse dentro de una misma relación."
+          },
+          {
+            "heading": "Presencias femeninas y vulnerabilidad masculina",
+            "content": "El título orienta la lectura hacia un universo donde las mujeres sostienen el centro afectivo y simbólico. Frente a ellas, la subjetividad masculina aparece observadora pero también dependiente, fascinada y moralmente descolocada."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué tipo de novela es Donde las mujeres?",
+            "answer": "Es una novela literaria y psicológica, más interesada en la atmósfera moral, la observación de los vínculos y la ambigüedad de los personajes que en una trama de acción rápida."
+          },
+          {
+            "question": "¿Por qué se considera un libro importante en la obra de Pombo?",
+            "answer": "Porque pertenece a una etapa central de su narrativa y suele asociarse a su consolidación como novelista de gran finura psicológica en la España de los noventa."
+          },
+          {
+            "question": "¿Es una lectura fácil?",
+            "answer": "No especialmente. La prosa es clara, pero exige atención al matiz, a la ironía y a los cambios de clima emocional."
+          },
+          {
+            "question": "¿Qué temas conviene seguir durante la lectura?",
+            "answer": "Dependencia afectiva, enfermedad, deseo, culpa, relaciones de poder en la intimidad y la forma en que la casa concentra memoria y conflicto."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library - obra: Donde las mujeres",
+            "url": "https://openlibrary.org/works/OL11099258W"
+          },
+          {
+            "label": "Open Library - edición de Anagrama (1996)",
+            "url": "https://openlibrary.org/books/OL22173857M"
+          },
+          {
+            "label": "Wikipedia - Álvaro Pombo",
+            "url": "https://es.wikipedia.org/wiki/%C3%81lvaro_Pombo"
+          },
+          {
+            "label": "Internet Archive - ficha bibliográfica de la edición",
+            "url": "https://archive.org/details/dondelasmujeres0000pomb"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-bosque-de-los-corazones-dormidos-de-esther-sanz",
+      "title": "El Bosque De Los Corazones Dormidos",
+      "authorName": "Esther Sanz",
+      "authorSlug": "esther-sanz",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El bosque de los corazones dormidos",
+        "authorName": "Esther Sanz",
+        "authorSlug": "esther-sanz",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasia",
+          "romance",
+          "juvenil"
+        ],
+        "year": 2011,
+        "pages": 352,
+        "summary": "Primera entrega de la trilogía El Bosque, esta novela sigue a Clara, una adolescente que, tras la muerte de su abuela, debe abandonar Barcelona y marcharse a un pueblo soriano donde vive un tío casi desconocido. El cambio de escenario no es solo geográfico: la protagonista queda rodeada por una casa aislada, recuerdos familiares confusos y una sensación persistente de amenaza. Lo que empieza como duelo y desarraigo se convierte en una historia de secretos, presencias inquietantes y atracción amorosa. Mientras Clara intenta reconstruirse, conoce a dos jóvenes muy distintos, Braulio y Bosco, y descubre que el bosque guarda una lógica propia, ligada al pasado de su familia y a una forma de magia oscura. Esther Sanz combina romance juvenil, atmósfera gótica y misterio sobrenatural para contar un proceso de crecimiento atravesado por pérdida, deseo y peligro.",
+        "aboutThisBook": "El libro se sitúa en la zona de cruce entre la fantasía romántica juvenil y la novela de iniciación con tono sombrío. Su fuerza no depende de una gran épica externa, sino de la tensión entre intimidad emocional y amenaza fantástica. El duelo de Clara, su necesidad de pertenecer a un lugar nuevo y la aparición de un mundo escondido bajo la superficie rural construyen una lectura muy visual y muy afectiva. Como apertura de trilogía, deja preguntas abiertas, pero al mismo tiempo fija con claridad el clima, los vínculos y el conflicto central.",
+        "forWhom": "Para lectores juveniles y adultos jóvenes que disfrutan las historias de amor con misterio, los bosques encantados, las protagonistas en transición y las tramas donde lo sobrenatural se mezcla con emociones muy terrenales. También puede interesar a quienes buscan fantasía romántica española con ambientación cercana y tono melancólico.",
+        "whyItMatters": "Importa porque muestra una vía propia de la fantasía juvenil en español: menos orientada al espectáculo y más a la atmósfera, la intimidad y la construcción emocional del enigma. Además, retrata bien cómo el duelo y la identidad adolescente pueden narrarse mediante símbolos fantásticos.",
+        "editorialIntro": "El bosque de los corazones dormidos propone una entrada eficaz a una fantasía juvenil de tono oscuro, sentimental y muy atmosférico. Esther Sanz traslada a su protagonista desde la ciudad a un paisaje rural cargado de secretos, y convierte ese desplazamiento en una experiencia de extrañeza, deseo y amenaza. La novela destaca por su combinación de misterio familiar, romance ambiguo y sensación constante de que la naturaleza observa y responde.",
+        "readingLevel": "Lectura media: el estilo es ágil y accesible, pero conviene seguir con atención las pistas sobre el pasado familiar, los cambios emocionales de Clara y la manera en que el elemento fantástico altera la percepción de lo real.",
+        "whyReadToday": "Sigue funcionando hoy porque une romance juvenil y fantasía oscura sin depender de mundos lejanos: trabaja con duelo, aislamiento, atracción y secretos heredados, temas que siguen conectando con lectores que buscan emoción y atmósfera en una misma historia.",
+        "studyNotes": [
+          "El bosque funciona como espacio simbólico: no es solo escenario, sino extensión del pasado familiar y de los miedos de Clara.",
+          "La novela gana interés si se observa cómo el duelo inicial de la protagonista prepara su vulnerabilidad y también su capacidad de ver lo que otros niegan.",
+          "Braulio y Bosco no operan solo como triángulo amoroso: representan formas distintas de acceso al misterio y de relación con el secreto."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Duelo, traslado y llegada al caserón",
+            "summary": "Tras perder a su abuela, Clara abandona la vida que conocía y llega a un entorno montañoso dominado por el silencio, la incomodidad y la distancia emocional con su tío. La nueva casa, aislada y llena de presencias ambiguas, instala desde el inicio una atmósfera de inquietud."
+          },
+          {
+            "title": "Parte 2: El bosque, los secretos y los vínculos ambiguos",
+            "summary": "A medida que explora su nuevo entorno, Clara descubre indicios de una historia familiar incompleta y empieza a sentirse observada. El acercamiento a Braulio y Bosco intensifica tanto la dimensión romántica como la sensación de que el bosque esconde una verdad peligrosa."
+          },
+          {
+            "title": "Parte 3: Revelaciones y apertura del conflicto mayor",
+            "summary": "La protagonista comprende que los hechos extraños no son imaginaciones nacidas del duelo, sino señales de una trama sobrenatural ligada a su linaje. El cierre no resuelve todo: confirma el peligro, redefine las lealtades y deja abierta la evolución del conflicto para el resto de la trilogía."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Duelo y fantasía como lenguajes complementarios",
+            "content": "El dolor por la muerte de la abuela no es un simple punto de partida argumental. Esther Sanz utiliza ese vacío para abrir la percepción de Clara a lo extraño y para convertir la fantasía en una forma de narrar desorientación, ausencia y deseo de reconstrucción."
+          },
+          {
+            "heading": "Naturaleza gótica y espacio rural",
+            "content": "La novela explota el contraste entre ciudad y montaña para cargar de sentido el paisaje. El bosque, la casa apartada y el clima de vigilancia transforman la naturaleza en presencia activa, casi moral, más cercana a la tradición gótica que a la fantasía de aventura convencional."
+          },
+          {
+            "heading": "Romance juvenil con misterio identitario",
+            "content": "La dimensión amorosa sostiene gran parte del atractivo del libro, pero no se limita a la intriga sentimental. Las relaciones con Braulio y Bosco ayudan a Clara a interrogar quién es, qué hereda y hasta qué punto puede confiar en quienes la atraen."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela autoconclusiva?",
+            "answer": "Funciona como primera parte con arco propio, pero está concebida claramente como apertura de trilogía. Resuelve algunas incógnitas inmediatas y deja otras centrales preparadas para las continuaciones."
+          },
+          {
+            "question": "¿Predomina más el romance o la fantasía?",
+            "answer": "Ambos elementos están muy entrelazados. El romance impulsa la implicación emocional de Clara, mientras que la fantasía y el misterio familiar dan profundidad al conflicto y al tono oscuro del libro."
+          },
+          {
+            "question": "¿Qué tipo de ambiente tiene la novela?",
+            "answer": "Tiene un clima melancólico y gótico, con casa aislada, bosque inquietante, secretos heredados y una sensación continua de amenaza velada. Más que por acción constante, atrapa por atmósfera y tensión emocional."
+          },
+          {
+            "question": "¿Para qué lector juvenil suele encajar mejor?",
+            "answer": "Para quien disfrute sagas de fantasía romántica, triángulos afectivos, protagonistas en duelo y tramas donde el misterio sobrenatural crece poco a poco a partir de un entorno cotidiano."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin Libros: El bosque de los corazones dormidos (El bosque 1)",
+            "url": "https://www.penguinlibros.com/es/libros-romanticos-juveniles/29761-libro-el-bosque-de-los-corazones-dormidos-el-bosque-1-9788484417248"
+          },
+          {
+            "label": "Google Libros: El bosque de los corazones dormidos",
+            "url": "https://books.google.com/books/about/El_bosque_de_los_corazones_dormidos.html?id=iSXQygAACAAJ"
+          },
+          {
+            "label": "Open Library: El bosque de los corazones dormidos",
+            "url": "https://openlibrary.org/books/OL25446868M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-bosque-de-los-pigmeos-de-isabel-allende",
+      "title": "El Bosque De Los Pigmeos",
+      "authorName": "Isabel Allende",
+      "authorSlug": "isabel-allende",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El bosque de los pigmeos",
+        "authorName": "Isabel Allende",
+        "authorSlug": "isabel-allende",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "aventura",
+          "fantasia",
+          "juvenil"
+        ],
+        "year": 2004,
+        "pages": 220,
+        "summary": "Tercera y última novela de la serie Memorias del Águila y el Jaguar, El bosque de los pigmeos lleva a Alexander Cold, Nadia Santos y Kate Cold a África, donde un encargo periodístico sobre safaris con elefantes acaba derivando en una expedición mucho más peligrosa. Lo que parecía una aventura exótica pronto se convierte en una confrontación con el tráfico de marfil, la esclavitud, la violencia política y la explotación de comunidades vulnerables. En el corazón de la historia aparece un bosque habitado por pigmeos, un espacio que conserva saberes, ritos y relaciones espirituales que chocan con la codicia de quienes quieren dominar el territorio. Isabel Allende mezcla aventura juvenil, conciencia ecológica y crítica moral para cerrar la trilogía con una reflexión sobre amistad, coraje y responsabilidad frente al abuso de poder.",
+        "aboutThisBook": "Este libro mantiene el impulso aventurero de las dos entregas anteriores, pero endurece su mirada ética. El viaje africano no es solo escenario de peripecias, sino un marco para pensar la depredación de la naturaleza, la corrupción y la supervivencia de culturas amenazadas. Allende escribe para lectores jóvenes sin rebajar la complejidad moral del conflicto: los protagonistas avanzan entre acción, magia, humor y peligro real. Como cierre de trilogía, la novela refuerza la maduración de Alexander y Nadia y devuelve al centro la alianza entre curiosidad, empatía y valentía.",
+        "forWhom": "Para lectores juveniles que disfrutan novelas de aventura con viaje, animales, tensión y dimensión fantástica, pero también para quienes valoran historias con trasfondo ecológico y crítica al colonialismo, la esclavitud y la codicia. Es una buena opción para clubes de lectura escolares por su ritmo y por los temas que abre.",
+        "whyItMatters": "Sigue siendo relevante porque traduce asuntos graves como el expolio ambiental, la trata humana y la violencia sobre pueblos minoritarios a una narración accesible para lectores jóvenes. Además, muestra que la aventura puede ser entretenida sin renunciar a una conciencia ética muy visible.",
+        "editorialIntro": "Con El bosque de los pigmeos, Isabel Allende cierra su trilogía juvenil llevando a sus protagonistas a una África cruzada por maravilla y violencia. La novela conserva el gusto por el viaje y lo extraordinario, pero introduce con claridad problemas materiales muy concretos: marfil, esclavitud, corrupción y saqueo del territorio. Ese equilibrio entre relato de aventura y mirada moral es una de sus mayores virtudes.",
+        "readingLevel": "Lectura media: la prosa es fluida y está pensada para atraer a lectores jóvenes, aunque conviene atender a las referencias culturales, al trasfondo político y a la dimensión simbólica del mundo espiritual que acompaña la expedición.",
+        "whyReadToday": "Vale la pena leerlo hoy porque enlaza imaginación aventurera con debates actuales sobre medio ambiente, extracción de recursos, explotación humana y respeto a comunidades indígenas. Sigue siendo una puerta eficaz para hablar de ética global con lectores jóvenes.",
+        "studyNotes": [
+          "La novela funciona mejor si se lee como aventura iniciática y también como crítica al saqueo económico y ambiental.",
+          "Alexander y Nadia maduran porque la expedición los obliga a unir intuición, coraje y juicio moral, no solo destreza física.",
+          "El elemento espiritual no aparece como adorno exótico, sino como parte de una visión del mundo opuesta a la lógica depredadora de los antagonistas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Safari, misión periodística y cambio de escala",
+            "summary": "Kate Cold acepta un encargo ligado a los safaris con elefantes y viaja con Alexander, Nadia y el equipo de International Geographic a Kenia. La expedición cambia de sentido cuando aparece la petición de ayuda de un misionero y el grupo comprende que hay una red de violencia mayor detrás del viaje."
+          },
+          {
+            "title": "Parte 2: Ingreso al territorio amenazado",
+            "summary": "Los protagonistas se internan en un espacio donde se cruzan cazadores furtivos, militares, traficantes y comunidades vulnerables. El bosque y sus habitantes dejan de ser decorado para convertirse en el centro moral de la novela: proteger ese mundo implica enfrentarse a intereses muy poderosos."
+          },
+          {
+            "title": "Parte 3: Resistencia, revelación y cierre de trilogía",
+            "summary": "La fase final combina rescates, confrontaciones y decisiones éticas que ponen a prueba el valor del grupo. Alexander y Nadia cierran su recorrido juvenil entendiendo que la aventura verdadera no consiste solo en explorar, sino en actuar frente a la injusticia aunque el riesgo sea real."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Aventura juvenil con conciencia ecológica",
+            "content": "Allende utiliza la estructura clásica del viaje peligroso para introducir un discurso sobre destrucción de ecosistemas y tráfico de marfil. La emoción narrativa no elimina el mensaje: lo vuelve más legible para lectores jóvenes."
+          },
+          {
+            "heading": "Poder, explotación y mirada crítica",
+            "content": "El libro enfrenta a los protagonistas con formas concretas de abuso: esclavitud, militarización, corrupción y saqueo de comunidades marginalizadas. Esa dimensión social impide leer la novela solo como fantasía exótica y la acerca a una ética de la responsabilidad."
+          },
+          {
+            "heading": "Cierre formativo de Alexander y Nadia",
+            "content": "Como final de serie, la novela importa por lo que confirma en sus héroes. Alexander y Nadia ya no son solo adolescentes curiosos, sino sujetos capaces de interpretar culturas distintas, resistir el miedo y decidir en función de algo más que su propia seguridad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Se puede leer sin haber leído los dos libros anteriores?",
+            "answer": "Sí, porque la aventura central se entiende por sí sola, pero se disfruta más conociendo el recorrido previo de Alexander, Nadia y Kate. Como cierre de trilogía, algunas resonancias emocionales ganan fuerza si se viene de los libros anteriores."
+          },
+          {
+            "question": "¿Es una novela infantil o juvenil?",
+            "answer": "Encaja mejor como juvenil. Tiene ritmo accesible y elementos maravillosos, pero trata violencia, explotación y decisiones morales con una seriedad que supera la aventura infantil ligera."
+          },
+          {
+            "question": "¿Qué papel juega lo fantástico?",
+            "answer": "Lo fantástico convive con la aventura realista y con la crítica social. No sustituye los conflictos materiales, sino que amplía la percepción del mundo y contrapone una lógica espiritual a la codicia de los explotadores."
+          },
+          {
+            "question": "¿Qué temas conviene discutir después de leerla?",
+            "answer": "El tráfico de recursos, la explotación humana, la representación de culturas no occidentales, la ética del viaje y la relación entre aventura juvenil y responsabilidad política."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Isabel Allende: resumen oficial de El bosque de los pigmeos",
+            "url": "https://isabelallende.com/es/book/forest/summary"
+          },
+          {
+            "label": "Google Libros: El bosque de los pigmeos",
+            "url": "https://books.google.com/books/about/El_bosque_de_los_pigmeos.html?id=d5t5AAAAMAAJ"
+          },
+          {
+            "label": "Open Library: El bosque de los pigmeos",
+            "url": "https://openlibrary.org/books/OL57383995M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-canon-occidental-la-escuela-y-los-libros-de-todas-las-epocas-de-harold-bloom",
+      "title": "El Canon Occidental La Escuela Y Los Libros De Todas Las Epocas",
+      "authorName": "Harold Bloom",
+      "authorSlug": "harold-bloom",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El canon occidental: la escuela y los libros de todas las épocas",
+        "authorName": "Harold Bloom",
+        "authorSlug": "harold-bloom",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 1996,
+        "pages": 592,
+        "summary": "En este ensayo central de Harold Bloom, publicado en español con el subtítulo La escuela y los libros de todas las épocas, el crítico estadounidense defiende la existencia de una tradición literaria occidental sostenida por la fuerza estética de ciertas obras y autores. El libro responde a los debates culturales de finales del siglo XX y discute frontalmente lo que Bloom llamó la Escuela del Resentimiento: corrientes críticas que, a su juicio, subordinaban la lectura literaria a programas ideológicos, identitarios o pedagógicos ajenos al placer estético. A partir de Shakespeare como figura axial, Bloom recorre una constelación de autores decisivos, de Dante y Cervantes a Proust, Borges o Beckett, y propone una idea exigente de lectura, memoria y juicio. Más que una lista cerrada, el volumen es una defensa polémica, erudita y apasionada de por qué ciertos libros siguen pidiendo relectura.",
+        "aboutThisBook": "El canon occidental no debe leerse solo como inventario de nombres ilustres, sino como intervención en una batalla intelectual concreta. Bloom mezcla historia literaria, crítica de autores, autobiografía de lector y polémica cultural para defender que la literatura posee un valor estético irreductible a la utilidad política o moral inmediata. El resultado es un libro amplio, combativo y muy discutido, que sigue siendo importante tanto por sus argumentos como por las objeciones que provocó. Su lectura ayuda a entender cómo se pensó el canon en el final del siglo XX y por qué la discusión continúa abierta.",
+        "forWhom": "Para lectores adultos interesados en teoría literaria, historia de la lectura, crítica cultural y debates sobre qué obras se enseñan, se conservan y se consideran indispensables. También resulta valioso para estudiantes de humanidades y docentes que quieran discutir el concepto de canon desde una postura fuerte, polémica y muy influyente, aunque no la compartan por completo.",
+        "whyItMatters": "Importa porque convirtió una discusión académica en debate público y porque formuló, con enorme claridad polémica, una defensa de la autonomía estética frente a lecturas puramente ideológicas. Incluso quienes rechazan sus conclusiones siguen dialogando con sus preguntas.",
+        "editorialIntro": "Pocos ensayos literarios recientes han sido tan citados, discutidos y combatidos como El canon occidental. Harold Bloom no ofrece una guía neutral de clásicos, sino una defensa apasionada de la lectura estética y de una tradición que considera amenazada por usos instrumentales de la literatura. Su tono combativo, su amplitud de referencias y su centralidad otorgada a Shakespeare convierten este volumen en una obra clave para pensar qué significa llamar clásico a un libro y quién decide ese prestigio.",
+        "readingLevel": "Lectura alta: aunque el argumento general puede seguirse sin especialización extrema, el libro presupone familiaridad con autores, obras y debates críticos. Se aprovecha mejor con paciencia, gusto por el ensayo largo y disposición a contrastar sus juicios con otras tradiciones críticas.",
+        "whyReadToday": "Sigue siendo actual porque las discusiones sobre currículo, clásicos, identidad, representación y lectura pública no han desaparecido. Leer a Bloom hoy permite entender una de las defensas más influyentes del valor estético y medir sus alcances, sesgos y límites desde el presente.",
+        "studyNotes": [
+          "No conviene reducir el libro a una lista de autores: su núcleo real es una teoría del valor literario y una polémica sobre cómo y para qué leemos.",
+          "Shakespeare ocupa en Bloom una función estructural, no solo admirativa: aparece como centro de irradiación de la tradición occidental moderna.",
+          "La lectura más productiva combina atención a la brillantez crítica de Bloom con examen de sus exclusiones, jerarquías y presupuestos culturales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La defensa del canon y la polémica inicial",
+            "summary": "Bloom presenta el marco de su intervención y explica por qué considera que la lectura estética está siendo desplazada por agendas ideológicas. Desde el comienzo, el libro fija un tono combativo y sitúa la discusión del canon como una disputa sobre memoria cultural y juicio literario."
+          },
+          {
+            "title": "Parte 2: Shakespeare en el centro y la constelación de autores canónicos",
+            "summary": "El ensayo avanza por autores y tradiciones que Bloom entiende como imprescindibles dentro de la literatura occidental. Shakespeare aparece como eje, y a su alrededor se ordenan lecturas de Dante, Cervantes, Montaigne, Milton, Austen, Dickens, Tolstói, Borges, Beckett y muchos otros."
+          },
+          {
+            "title": "Parte 3: Canon, escuela y supervivencia de la lectura",
+            "summary": "En la parte final, el libro vuelve sobre la pregunta institucional: qué ocurre con la literatura cuando la escuela y la universidad cambian sus criterios de legitimidad. Bloom insiste en la relectura, la memoria y el goce intelectual como condiciones para que un canon siga vivo y no se vuelva simple burocracia cultural."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La autonomía de la estética",
+            "content": "El gran argumento de Bloom es que la literatura no se agota en su utilidad política, moral o social. Sin negar que esos usos existan, insiste en que el valor de ciertas obras procede de su extrañeza, intensidad verbal y capacidad de supervivencia en la memoria de los lectores."
+          },
+          {
+            "heading": "Shakespeare como centro de gravedad",
+            "content": "La centralidad de Shakespeare resume la lógica bloomiana del canon: un autor modifica la imaginación de quienes vienen después y se vuelve medida de comparación para toda una tradición. Esa apuesta ilumina la fuerza del libro, pero también expone sus jerarquías y exclusiones."
+          },
+          {
+            "heading": "Un libro imprescindible y discutible",
+            "content": "La vigencia del ensayo no depende de aceptarlo sin reservas, sino de su capacidad para obligar a tomar posición. Leerlo hoy permite ver tanto la potencia de su defensa de la lectura exigente como las limitaciones históricas y culturales de un canon pensado desde una perspectiva muy específica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es solo una lista de clásicos recomendados?",
+            "answer": "No. Incluye muchos autores y juicios de lectura, pero su verdadero objetivo es defender una concepción del valor literario y discutir cómo se forma, se enseña y se disputa un canon."
+          },
+          {
+            "question": "¿Hace falta haber leído a todos los autores mencionados?",
+            "answer": "No, aunque ayuda. Puede leerse como mapa de orientación y como ensayo polémico; luego cada lector decide qué nombres seguir, contrastar o discutir con lecturas propias."
+          },
+          {
+            "question": "¿Por qué el libro generó tanta controversia?",
+            "answer": "Porque Bloom rechazó corrientes críticas muy influyentes y defendió con dureza una jerarquía estética que muchos consideraron excluyente, eurocéntrica o insuficiente para pensar otras tradiciones y experiencias."
+          },
+          {
+            "question": "¿Sigue siendo útil si no se comparte a Bloom?",
+            "answer": "Sí. Precisamente porque formula una posición fuerte, el libro sirve para entender el debate sobre los clásicos y para construir acuerdos o desacuerdos mejor argumentados sobre qué significa enseñar literatura."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Google Libros: El canon occidental (Anagrama)",
+            "url": "https://books.google.com/books?id=iBFEDwAAQBAJ&hl=es"
+          },
+          {
+            "label": "Open Library: El Canon Occidental",
+            "url": "https://openlibrary.org/books/OL9420785M"
+          },
+          {
+            "label": "Google Books: The Western Canon: The Books and School of the Ages",
+            "url": "https://books.google.com/books?id=bLDqDwAAQBAJ&hl=en"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-caso-saint-fiacre-los-casos-de-maigret-de-georges-simenon",
+      "title": "El Caso Saint Fiacre Los Casos De Maigret",
+      "authorName": "Georges Simenon",
+      "authorSlug": "georges-simenon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El caso Saint-Fiacre",
+        "authorName": "Georges Simenon",
+        "authorSlug": "georges-simenon",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1932,
+        "pages": 150,
+        "summary": "En esta novela de la serie Maigret, Georges Simenon convierte una investigación criminal en un regreso íntimo al pasado. El comisario recibe un aviso anónimo que anuncia un crimen durante la misa en Saint-Fiacre, el pueblo donde transcurrió parte de su infancia. Allí presencia la muerte de la condesa de Saint-Fiacre, una mujer de salud frágil, causada no por un arma visible sino por un golpe emocional cuidadosamente preparado. La pesquisa avanza entre herederos arruinados, viejos resentimientos, decadencia aristocrática y recuerdos personales que alteran la habitual distancia profesional de Maigret. Más que un caso de pistas espectaculares, la novela trabaja la atmósfera, la psicología y el desgaste moral de un mundo social en ruinas. El desenlace reúne a los sospechosos en una escena de revelación sobria y tensa, típica del mejor Simenon.",
+        "aboutThisBook": "Publicada originalmente en 1932 como L'Affaire Saint-Fiacre, esta entrega de Maigret destaca porque el detective no llega a un lugar extraño, sino al escenario de su propia memoria. Simenon sitúa el misterio en un entorno rural aristocrático marcado por el declive económico y el peso de las apariencias. La novela es breve, concentrada y muy eficaz en la manera en que mezcla crimen, observación social y melancolía.",
+        "forWhom": "Es una lectura ideal para quienes disfrutan la novela policial clásica con más atmósfera que acción, para lectores de Simenon que quieran una entrega especialmente personal de Maigret y para quienes aprecian historias donde el delito revela tensiones familiares, sociales y morales. También funciona muy bien en cursos o lecturas guiadas sobre novela negra europea del siglo XX.",
+        "whyItMatters": "Importa porque muestra una de las facetas más humanas de Maigret: la del investigador atravesado por sus recuerdos. Simenon convierte un crimen aparentemente sencillo en una exploración del fin de un orden social y de la fragilidad emocional, demostrando cómo la novela policial puede ser también una gran novela psicológica.",
+        "editorialIntro": "No todas las novelas de Maigret se recuerdan por la complejidad del enigma; algunas perduran por la forma en que iluminan un ambiente entero. El caso Saint-Fiacre pertenece a ese grupo. Simenon usa una muerte anunciada y una pesquisa breve para abrir una historia de decadencia, memoria y silencios de clase, en la que el pueblo, la iglesia y el castillo importan tanto como el culpable.",
+        "readingLevel": "Accesible para lectores habituales adultos o juveniles avanzados: lenguaje claro, muchos matices psicológicos y una trama breve pero sutil.",
+        "whyReadToday": "Sigue siendo actual por su mirada sobre la manipulación emocional, la erosión de las élites y la tensión entre deber profesional y memoria personal. Además, ofrece un policial breve y muy legible, perfecto para comprobar por qué Simenon sigue siendo una referencia del género.",
+        "studyNotes": [
+          "El crimen no depende de la violencia física directa, sino de un cálculo psicológico que explota la fragilidad de la víctima.",
+          "La vuelta de Maigret al pueblo de su infancia modifica su mirada: el detective observa, pero también recuerda y se implica emocionalmente.",
+          "La novela retrata la decadencia de la aristocracia rural y la pérdida de autoridad simbólica del castillo y sus habitantes.",
+          "Simenon privilegia la atmósfera y la conducta de los personajes sobre la exhibición de pistas espectaculares."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El aviso y la muerte anunciada",
+            "summary": "Maigret recibe una advertencia anónima sobre un crimen que ocurrirá durante la misa en Saint-Fiacre. Viaja al pueblo y presencia la muerte de la condesa, comprendiendo que se trata de un asesinato sin mecanismo evidente."
+          },
+          {
+            "title": "Parte 2: Sospechosos, recuerdos y tensiones familiares",
+            "summary": "La investigación pone el foco en el entorno de la condesa: su hijo, las personas vinculadas al castillo y quienes se benefician de su desaparición. Mientras interroga, Maigret revive escenas y afectos de su infancia."
+          },
+          {
+            "title": "Parte 3: Revelación en el castillo",
+            "summary": "La verdad emerge en una reunión final donde las relaciones de dependencia, resentimiento y ruina económica quedan expuestas. La solución confirma que el móvil nace del deterioro moral de ese pequeño mundo cerrado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Maigret frente a su pasado",
+            "content": "Una singularidad de la novela es que el comisario investiga en un territorio emocionalmente cargado. No actúa como simple observador externo: el lugar le devuelve recuerdos, jerarquías antiguas y una sensibilidad distinta. Esa cercanía vuelve la pesquisa más introspectiva."
+          },
+          {
+            "heading": "Crimen y decadencia social",
+            "content": "El asesinato no aparece aislado, sino unido al derrumbe de una casa noble y de su prestigio. Simenon sugiere que la ruina económica y la pérdida de autoridad generan un clima donde la humillación, la codicia y el resentimiento prosperan."
+          },
+          {
+            "heading": "La economía narrativa de Simenon",
+            "content": "Con pocos personajes, escenas contenidas y una prosa muy sobria, Simenon logra una novela densa. La brevedad no empobrece el relato; al contrario, concentra la tensión y deja que cada gesto y cada silencio tengan peso narrativo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela independiente o conviene leer otras de Maigret antes?",
+            "answer": "Puede leerse por separado. Conocer a Maigret ayuda a apreciar matices, pero la trama se entiende sin haber leído la serie completa."
+          },
+          {
+            "question": "¿Qué hace especial a esta entrega dentro de los casos de Maigret?",
+            "answer": "Que la investigación ocurre en el pueblo ligado a la infancia del comisario, lo que da al relato una dimensión autobiográfica y melancólica poco habitual en la serie."
+          },
+          {
+            "question": "¿Predomina el misterio o la psicología?",
+            "answer": "Predomina la psicología. Hay enigma policial, pero el gran interés está en el clima, los vínculos entre personajes y el retrato del mundo social del castillo."
+          },
+          {
+            "question": "¿Es una novela larga?",
+            "answer": "No. Es una obra breve y concentrada, una buena puerta de entrada al estilo de Simenon."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library: L'affaire Saint-Fiacre (obra)",
+            "url": "https://openlibrary.org/works/OL1242942W/L'affaire_Saint-Fiacre"
+          },
+          {
+            "label": "Open Library: edición de L'Affaire Saint-Fiacre",
+            "url": "https://openlibrary.org/books/OL23013697M"
+          },
+          {
+            "label": "Wikipedia en francés: L'Affaire Saint-Fiacre",
+            "url": "https://fr.wikipedia.org/wiki/L%27Affaire_Saint-Fiacre"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-collar-de-los-caracoles-de-felix-casanova-de-ayala",
+      "title": "El Collar De Los Caracoles De Felix Casanova",
+      "authorName": "Ayala",
+      "authorSlug": "ayala",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El collar de caracoles",
+        "authorName": "Félix Casanova de Ayala",
+        "authorSlug": "felix-casanova-de-ayala",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "poesia",
+          "clasicos"
+        ],
+        "year": 1983,
+        "pages": 172,
+        "summary": "El collar de caracoles es un libro poético de Félix Casanova de Ayala, una de las voces significativas de la literatura canaria de la segunda mitad del siglo XX. Más que contar una historia lineal, el volumen construye una experiencia lírica hecha de imágenes marinas, memoria, intimidad, paisaje insular y resonancias culturales del archipiélago. El título sugiere desde el inicio una poética de lo natural convertido en símbolo: el caracol, la costa, el rumor del mar y los objetos cotidianos pasan a ser materia de contemplación y meditación. La lectura avanza por asociaciones, ritmos y núcleos emocionales, no por una trama cerrada. En ese recorrido aparecen la conciencia del tiempo, la identidad isleña, la fragilidad de la experiencia humana y una sensibilidad que combina atención al detalle con impulso reflexivo. Es una obra para leer despacio, escuchando su música verbal y su densidad imaginativa.",
+        "aboutThisBook": "La obra figura entre los títulos más conocidos de Félix Casanova de Ayala y fue publicada en edición de 1983 por el Centro de la Cultura Popular Canaria. En ella se reconoce una voz poética ya madura, interesada en la imagen, la memoria y la relación entre paisaje y subjetividad. No es un libro narrativo ni argumental: su fuerza reside en la concentración expresiva y en la creación de una atmósfera lírica coherente.",
+        "forWhom": "Resulta especialmente valioso para lectores de poesía española contemporánea, estudiosos de la literatura canaria, clubes de lectura que quieran salir de la narrativa convencional y estudiantes que busquen un ejemplo claro de cómo un libro de poemas puede construir unidad temática sin depender de una historia lineal. También puede atraer a quien disfrute una escritura sensorial, vinculada al paisaje y a la memoria.",
+        "whyItMatters": "Importa porque preserva y proyecta una sensibilidad poética ligada a Canarias sin reducirla al costumbrismo. El libro muestra cómo el paisaje insular puede convertirse en pensamiento, símbolo y música verbal. Además, ayuda a situar a Félix Casanova de Ayala dentro de una tradición poética española que dialoga con lo local y lo universal al mismo tiempo.",
+        "editorialIntro": "Hay libros de poemas que se leen como una sucesión dispersa de textos, y hay otros que crean una respiración común desde la primera página. El collar de caracoles pertenece a esta segunda clase. Su imaginario marino e insular, su atención a la memoria y su cuidado verbal componen una obra de identidad propia, capaz de convertir un detalle del paisaje en una imagen duradera.",
+        "readingLevel": "Nivel medio-alto: lenguaje poético accesible en superficie, pero con símbolos, asociaciones y matices que se disfrutan más con lectura lenta y relectura.",
+        "whyReadToday": "Leerlo hoy permite volver a una poesía que piensa el territorio sin estridencias y que ofrece una relación más atenta con el lenguaje, el paisaje y el tiempo. También sirve para ampliar el canon habitual de lecturas poéticas en español con una voz canaria de gran personalidad.",
+        "studyNotes": [
+          "No debe abordarse como una novela: su unidad es temática y tonal, no argumental.",
+          "El mar y los elementos naturales funcionan como símbolos de memoria, identidad y paso del tiempo.",
+          "La obra ayuda a estudiar la inserción de la literatura canaria en la poesía española contemporánea.",
+          "Conviene fijarse en la musicalidad del verso y en la recurrencia de imágenes materiales transformadas en emblemas líricos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Núcleo 1: Imágenes del mar y del territorio",
+            "summary": "Los poemas convierten la materia del paisaje insular en una fuente de símbolos. Caracoles, costa, rumor marino y objetos naturales sostienen la identidad visual del libro."
+          },
+          {
+            "title": "Núcleo 2: Memoria e intimidad",
+            "summary": "La voz poética se desplaza de la contemplación exterior a una reflexión más personal sobre el tiempo, el recuerdo y la experiencia interior."
+          },
+          {
+            "title": "Núcleo 3: Símbolo y resonancia cultural",
+            "summary": "El cierre de la lectura deja ver que el paisaje no es mero decorado, sino una vía para pensar la condición humana y la pertenencia cultural desde la poesía."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Paisaje insular como lenguaje",
+            "content": "En el libro, el entorno canario no se limita a describirse. Se transforma en un sistema de signos que organiza la emoción y el pensamiento. Esa conversión del paisaje en lenguaje es una de sus claves más fértiles."
+          },
+          {
+            "heading": "Unidad de un libro de poemas",
+            "content": "Aunque no haya argumento lineal, la obra mantiene cohesión mediante motivos recurrentes, una sensibilidad reconocible y un ritmo de imágenes persistente. Es útil para enseñar que un poemario también puede tener arquitectura interna fuerte."
+          },
+          {
+            "heading": "Tradición y singularidad canaria",
+            "content": "Casanova de Ayala dialoga con la poesía española de su tiempo, pero filtra esa tradición por una experiencia insular concreta. El resultado no es folclórico ni cerrado, sino una poesía local con aspiración universal."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro de poemas?",
+            "answer": "Es un libro de poesía. Su lectura se organiza por núcleos líricos y motivos recurrentes, no por una trama narrativa."
+          },
+          {
+            "question": "¿Por qué se considera una obra representativa del autor?",
+            "answer": "Porque reúne rasgos centrales de su voz: atención al paisaje, trabajo simbólico de las imágenes, musicalidad y una relación intensa entre memoria y territorio."
+          },
+          {
+            "question": "¿Hace falta conocer la literatura canaria para disfrutarlo?",
+            "answer": "No, aunque ese contexto enriquece la lectura. El libro también puede apreciarse por su calidad verbal y su potencia simbólica."
+          },
+          {
+            "question": "¿Qué conviene observar en una primera lectura?",
+            "answer": "La repetición de motivos marinos, la función de los objetos naturales y el modo en que el paisaje exterior se convierte en reflexión interior."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library: El collar de caracoles (obra)",
+            "url": "https://openlibrary.org/works/OL1408242W/El_collar_de_caracoles"
+          },
+          {
+            "label": "Open Library: edición de El collar de caracoles",
+            "url": "https://openlibrary.org/books/OL1671055M"
+          },
+          {
+            "label": "Wikipedia en español: Félix Casanova de Ayala",
+            "url": "https://es.wikipedia.org/wiki/F%C3%A9lix_Casanova_de_Ayala"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-dios-de-la-lluvia-llora-sobre-mexico-de-laszlo-passuth",
+      "title": "El Dios De La Lluvia Llora Sobre Mexico",
+      "authorName": "Laszlo Passuth",
+      "authorSlug": "laszlo-passuth",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El dios de la lluvia llora sobre México",
+        "authorName": "László Passuth",
+        "authorSlug": "laszlo-passuth",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1939,
+        "pages": 720,
+        "summary": "Esta ambiciosa novela histórica de László Passuth recrea el mundo de Hernán Cortés y la conquista del imperio mexica con una mirada amplia, dramática y muy documentada. Lejos de presentar la historia como una simple aventura militar, el libro muestra el choque entre dos civilizaciones, la fragilidad de las alianzas políticas, el peso de la religión y la complejidad moral de la empresa conquistadora. A medida que avanzan la expedición, los pactos y las traiciones, el relato va incorporando la grandeza ceremonial de Tenochtitlan, la tensión entre cálculo político y fanatismo, y la incertidumbre de personajes atrapados en un proceso histórico devastador. Passuth combina ritmo novelesco, amplitud panorámica y sensibilidad por los detalles culturales para construir una obra extensa y absorbente. El resultado es una novela donde la conquista aparece como epopeya, tragedia y crisis de mundos simultáneamente.",
+        "aboutThisBook": "Publicada originalmente en 1939 y conocida en inglés como The Rain God Weeps over Mexico o Tlaloc Weeps for Mexico, esta obra fue la primera que dio proyección internacional a Passuth. Se trata de una novela histórica de gran aliento, centrada en Cortés y en la caída del imperio azteca, que ha circulado en varias lenguas y ediciones. Su interés radica en la escala del relato y en su voluntad de narrar la historia como conflicto humano y civilizatorio.",
+        "forWhom": "Es muy recomendable para lectores de novela histórica extensa, para quienes disfrutan relatos sobre la conquista de América con densidad política y cultural, y para estudiantes interesados en comparar ficción histórica y proceso real. También puede atraer a lectores de clásicos del siglo XX que busquen una obra absorbente, rica en personajes, escenarios y dilemas de poder.",
+        "whyItMatters": "Sigue siendo importante porque convierte uno de los episodios más decisivos de la historia americana en una novela de gran escala que no simplifica el conflicto. Passuth subraya la mezcla de ambición, violencia, religión, diplomacia y malentendido cultural que marcó la conquista, y por eso su lectura todavía abre preguntas históricas y éticas muy vigentes.",
+        "editorialIntro": "Hay novelas históricas que solo reconstruyen decorados, y otras que consiguen devolver a un tiempo desaparecido su densidad política, espiritual y humana. El dios de la lluvia llora sobre México pertenece a las segundas. Passuth mira la conquista desde la amplitud de la epopeya, pero también desde la fragilidad de quienes actúan sin comprender del todo el mundo que están destruyendo o intentando dominar.",
+        "readingLevel": "Nivel medio-alto: prosa narrativa clara, pero con extensión considerable, muchos personajes y abundante contexto histórico y cultural.",
+        "whyReadToday": "Leerla hoy permite pensar de nuevo la conquista fuera de los esquemas más pobres. La novela no reemplaza a la historia, pero ayuda a percibir la magnitud humana del acontecimiento, sus ambigüedades y sus consecuencias. Además, recupera a un novelista histórico europeo menos leído de lo que merece en español.",
+        "studyNotes": [
+          "La obra fue publicada originalmente en 1939 y fue el primer gran éxito internacional de Passuth.",
+          "El centro del relato es la conquista de México y la figura de Hernán Cortés, pero la novela insiste en el choque de mundos más que en el heroísmo unilateral.",
+          "Conviene leerla atendiendo a la relación entre documentación histórica y construcción novelesca.",
+          "La dimensión religiosa del título remite a la interpretación simbólica de la catástrofe desde el imaginario mesoamericano."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Llegada y primer contacto",
+            "summary": "La novela sitúa la expedición española ante un territorio desconocido y políticamente complejo. Desde el inicio aparecen la ambición, la diplomacia y el desconcierto cultural."
+          },
+          {
+            "title": "Parte 2: Alianzas, avance y tensión imperial",
+            "summary": "Cortés y sus hombres consolidan apoyos estratégicos mientras el poder mexica revela sus propias fisuras. La historia gana espesor político y moral."
+          },
+          {
+            "title": "Parte 3: Caída, duelo y sentido histórico",
+            "summary": "El desenlace muestra la derrota del mundo mexica no solo como victoria militar, sino como colapso civilizatorio. El tono se vuelve elegíaco y reflexivo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La conquista como tragedia histórica",
+            "content": "Passuth evita reducir el episodio a una aventura gloriosa. El libro insiste en la devastación material, simbólica y humana que acompaña la conquista, lo que acerca la novela a una lectura trágica de la historia."
+          },
+          {
+            "heading": "Entre epopeya y crítica",
+            "content": "La obra conserva el impulso épico propio de la gran novela histórica, pero lo matiza con una mirada crítica sobre la ambición, la violencia y los malentendidos entre culturas. Esa tensión le da complejidad."
+          },
+          {
+            "heading": "Religión, poder y legitimidad",
+            "content": "Uno de los ejes más interesantes del libro es la manera en que la religión estructura la percepción del conflicto. Profecías, símbolos y creencias no son adorno, sino fuerzas que condicionan decisiones políticas y lecturas del desastre."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica rigurosa o puramente aventurera?",
+            "answer": "Es una novela histórica ambiciosa y documentada, aunque naturalmente trabaja el material histórico con recursos de ficción y dramatización."
+          },
+          {
+            "question": "¿Quién ocupa el centro del relato?",
+            "answer": "Hernán Cortés es una figura central, pero la novela busca abarcar un proceso más amplio: el encuentro violento entre españoles y el mundo mexica."
+          },
+          {
+            "question": "¿La extensión intimida mucho?",
+            "answer": "Es larga, pero su ritmo narrativo y la amplitud del fresco histórico la vuelven absorbente para lectores acostumbrados a la novela histórica extensa."
+          },
+          {
+            "question": "¿Por qué el título menciona al dios de la lluvia?",
+            "answer": "Porque subraya una lectura simbólica de la conquista desde el horizonte religioso mesoamericano, acentuando el tono elegíaco de la caída de un mundo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library: edición de 2015 de El dios de la lluvia llora sobre México",
+            "url": "https://openlibrary.org/books/OL47440068M"
+          },
+          {
+            "label": "Open Library: edición de 1998 de El dios de la lluvia llora sobre México",
+            "url": "https://openlibrary.org/books/OL47212977M"
+          },
+          {
+            "label": "Wikipedia en inglés: László Passuth",
+            "url": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Passuth"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-20T05:05:50Z"
+}

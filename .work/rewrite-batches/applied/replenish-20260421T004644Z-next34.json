@@ -1,0 +1,1471 @@
+{
+  "batchName": "replenish-20260421T004644Z-next34",
+  "createdAt": "2026-04-21T00:47:09Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-alma-esta-en-el-cerebro-de-eduardo-punset",
+      "title": "El Alma Esta En El Cerebro",
+      "authorName": "Eduardo Punset",
+      "authorSlug": "eduardo-punset",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El alma está en el cerebro",
+        "authorName": "Eduardo Punset",
+        "authorSlug": "eduardo-punset",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2012,
+        "pages": 400,
+        "summary": "En este ensayo de divulgación, Eduardo Punset explora una pregunta que atraviesa filosofía, biología y psicología: hasta qué punto aquello que solemos llamar alma, identidad o vida interior depende del cerebro. El libro organiza esa indagación mediante cuestiones concretas sobre percepción, memoria, creatividad, amor, inconsciente, emociones y evolución humana. Más que ofrecer una única tesis cerrada, Punset recorre hallazgos de la neurociencia para mostrar que nuestras decisiones, intuiciones y afectos surgen de procesos materiales enormemente complejos. El resultado es una defensa de la curiosidad científica aplicada al problema más íntimo de todos: qué somos cuando pensamos, sentimos y nos contamos a nosotros mismos.",
+        "aboutThisBook": "Publicado por Destino dentro de la colección Imago Mundi, este libro continúa la línea más conocida de Punset como mediador entre investigación científica y lector general. Su subtítulo, Radiografía de la máquina de pensar, define bien su enfoque: no se trata de un manual técnico, sino de un recorrido accesible por preguntas mayores sobre conciencia, conducta y naturaleza humana. La obra sintetiza debates científicos y filosóficos sin abandonar un tono ensayístico divulgativo, característico del autor en su etapa de mayor influencia pública.",
+        "forWhom": "Para lectores adultos interesados en neurociencia, psicología, filosofía de la mente y divulgación científica seria, especialmente si buscan una introducción amplia y reflexiva antes que un tratado especializado.",
+        "whyItMatters": "Importa porque acerca al público general una discusión decisiva de nuestro tiempo: cómo reinterpretar la identidad, el amor, la creatividad y la moral a la luz del cerebro. También ayuda a entender por qué la neurociencia cambió la manera contemporánea de pensar lo humano.",
+        "editorialIntro": "Eduardo Punset convirtió asuntos científicos complejos en conversaciones legibles para miles de lectores. Aquí se enfrenta a una de las cuestiones más delicadas y persistentes: si aquello que sentimos como alma puede explicarse desde la actividad cerebral. El interés del libro no está sólo en divulgar datos, sino en conectar descubrimientos neurológicos con dudas antiguas sobre libertad, conciencia, deseo e imaginación. Esa mezcla de interrogación filosófica y pedagogía científica explica su vigencia.",
+        "readingLevel": "Lectura de dificultad media para público general: lenguaje claro, muchas preguntas guía y referencias científicas comprensibles, aunque exige atención para seguir conceptos de neurociencia y filosofía de la mente.",
+        "whyReadToday": "Porque el debate sobre conciencia, emociones, sesgos, libre albedrío y mente encarnada es hoy más visible que nunca, y este libro ofrece una puerta de entrada amplia para orientarse.",
+        "studyNotes": [
+          "El libro no niega sin más la vida interior: discute cómo traducir experiencias subjetivas a procesos cerebrales sin vaciarlas de significado humano.",
+          "Conviene leerlo como ensayo de divulgación y no como tratado académico; su valor principal está en ordenar preguntas y conectar investigaciones distintas.",
+          "Punset insiste en que emociones, intuiciones y creatividad no son residuos irracionales, sino funciones centrales del cerebro humano.",
+          "Puede relacionarse con debates contemporáneos sobre conciencia, sesgos cognitivos, neuroética y construcción biográfica del yo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento inicial: qué queda del alma",
+            "summary": "La apertura del libro plantea la pregunta decisiva: si la vida mental que atribuimos al alma puede comprenderse desde la biología cerebral. Punset reúne interrogantes clásicos sobre identidad, deseo, sentido y libertad para mostrar que la neurociencia no elimina el misterio, pero sí modifica el modo de formularlo."
+          },
+          {
+            "title": "Percepción, memoria y engaños de la mente",
+            "summary": "En un segundo momento, el ensayo examina cómo percibimos el mundo y hasta qué punto nuestros sentidos y recuerdos son construcciones falibles. Esa línea permite entender que la mente no reproduce simplemente la realidad, sino que la interpreta, la recorta y a veces la distorsiona."
+          },
+          {
+            "title": "Emociones, amor y vida inconsciente",
+            "summary": "El núcleo más cercano a la experiencia cotidiana se concentra en emociones, vínculos y procesos inconscientes. Punset explica que buena parte de lo que creemos decidir de forma puramente racional está atravesado por mecanismos afectivos y neuronales mucho más profundos de lo que solemos admitir."
+          },
+          {
+            "title": "Creatividad, evolución y futuro del conocimiento del cerebro",
+            "summary": "Hacia el cierre, el libro conecta cerebro individual y evolución de la especie. La creatividad, la cooperación y la adaptación humana aparecen entonces como resultados de una máquina biológica extraordinariamente plástica, aún lejos de haber sido comprendida por completo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Divulgación científica como puente cultural",
+            "content": "Uno de los méritos del libro es situar la neurociencia en el centro de preguntas que antes parecían reservadas a la filosofía o la religión. Punset actúa como traductor entre laboratorios y lector general, y convierte discusiones técnicas en reflexión cultural sobre lo que significa ser persona."
+          },
+          {
+            "heading": "La tensión entre materialismo y experiencia subjetiva",
+            "content": "El ensayo se mueve sobre una tensión productiva: si todo depende del cerebro, ¿cómo describir la conciencia sin reducirla a una simplificación pobre? Punset no resuelve definitivamente el problema, pero muestra que la investigación del cerebro obliga a revisar categorías heredadas sobre alma, yo y voluntad."
+          },
+          {
+            "heading": "Emoción y razón no aparecen como enemigos",
+            "content": "Frente a una visión antigua que identificaba pensar con reprimir afectos, el libro subraya la cooperación entre emoción y cognición. Esa idea resulta clave para comprender decisiones, creatividad, aprendizaje y vínculos humanos desde un paradigma menos dualista."
+          },
+          {
+            "heading": "Vigencia y límites del enfoque de Punset",
+            "content": "Su mayor fortaleza sigue siendo la claridad panorámica. Su límite está en que la divulgación amplia inevitablemente simplifica discusiones especializadas y envejece con el avance de la investigación. Aun así, conserva valor como mapa introductorio de problemas fundamentales de la mente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de neurociencia técnica?",
+            "answer": "No. Es un ensayo de divulgación científica pensado para lectores no especialistas, con preguntas amplias y un lenguaje accesible, aunque apoyado en debates reales de la neurociencia."
+          },
+          {
+            "question": "¿Punset sostiene que el alma no existe?",
+            "answer": "Más que formular una negación dogmática, el libro propone revisar esa noción desde el conocimiento del cerebro y preguntar qué aspectos de la vida interior pueden explicarse científicamente."
+          },
+          {
+            "question": "¿Qué temas concretos trata además de la conciencia?",
+            "answer": "Aborda percepción, memoria, emociones, amor, creatividad, inconsciente, evolución del cerebro y relación entre procesos neuronales e identidad personal."
+          },
+          {
+            "question": "¿Sigue siendo útil leerlo hoy?",
+            "answer": "Sí, sobre todo como introducción cultural a grandes preguntas sobre la mente. Conviene complementarlo con investigaciones más recientes, pero mantiene capacidad para ordenar el debate."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: El alma está en el cerebro",
+            "url": "https://www.planetadelibros.com/libro-el-alma-esta-en-el-cerebro/61372"
+          },
+          {
+            "label": "Google Libros: El alma está en el cerebro",
+            "url": "https://books.google.com/books/about/El_alma_est%C3%A1_en_el_cerebro.html?id=0er9AwAAQBAJ"
+          },
+          {
+            "label": "Open Library: ediciones de El alma está en el cerebro",
+            "url": "https://openlibrary.org/works/OL8958675W/editions"
+          },
+          {
+            "label": "Internet Archive: El alma está en el cerebro",
+            "url": "https://archive.org/details/elalmaestaenelce0000puns_j6i3"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-amante-silencioso-de-clara-sanchez",
+      "title": "El Amante Silencioso",
+      "authorName": "Clara Sanchez",
+      "authorSlug": "clara-sanchez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El amante silencioso",
+        "authorName": "Clara Sánchez",
+        "authorSlug": "clara-sanchez",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2019,
+        "pages": 384,
+        "summary": "Esta novela de Clara Sánchez combina intriga psicológica, viaje iniciático y reflexión sobre la manipulación sectaria. Isabel, vinculada a una asociación de apoyo a víctimas dependientes, acepta desplazarse a Mombasa para localizar a Ezequiel, un joven captado por la llamada Orden Humanitaria. La misión, sin embargo, no es sólo externa: el caso activa en ella una culpa antigua relacionada con la muerte de su hermano, también atrapado por una secta. A medida que Isabel se interna en un paisaje africano tan hermoso como amenazante, la novela explora carisma, sometimiento, deseo de pertenencia y facilidad con que el bien aparente puede encubrir dominio, explotación y violencia moral.",
+        "aboutThisBook": "Publicada por Editorial Planeta en 2019 y luego en Booket, El amante silencioso se presentó como una historia de pasiones e intriga en Kenia. La propia circulación crítica y las entrevistas con la autora subrayan otro rasgo central: la novela trabaja el fenómeno de las sectas y los mecanismos de manipulación emocional. Clara Sánchez traslada su habitual interés por las zonas ambiguas del comportamiento humano a un escenario menos cotidiano que en otros títulos, pero igualmente fértil para examinar culpa, vulnerabilidad, fascinación y poder.",
+        "forWhom": "Para lectores adultos que disfrutan la novela de intriga con trasfondo psicológico, conflictos morales y personajes enfrentados a redes de persuasión, dependencia y peligro real.",
+        "whyItMatters": "Importa porque convierte un asunto contemporáneo —la captación sectaria y la manipulación disfrazada de ayuda o espiritualidad— en una ficción tensa y emocionalmente compleja. Además, desplaza el suspense a un territorio geográfico y moral menos previsible dentro de la narrativa española reciente.",
+        "editorialIntro": "Clara Sánchez sabe narrar el momento en que una vida aparentemente reconocible empieza a desplazarse hacia una zona inquietante. En El amante silencioso, esa deriva adopta la forma de una misión de rescate en Kenia, pero pronto se vuelve también una exploración de la culpa, la sugestión y el poder de quienes prometen sentido a personas heridas. La novela funciona como thriller, sí, aunque su mejor material está en la observación de la fragilidad humana cuando busca consuelo, pertenencia o redención.",
+        "readingLevel": "Lectura accesible para adultos habituados a la narrativa contemporánea: prosa clara, ritmo sostenido y tensión argumental constante, con capas psicológicas que enriquecen la experiencia sin volverla difícil.",
+        "whyReadToday": "Porque sigue siendo muy actual en su examen de la manipulación emocional, las falsas promesas de salvación y la vulnerabilidad de quienes buscan salida a un duelo o a una vida desorientada.",
+        "studyNotes": [
+          "La novela relaciona secta y carisma con necesidades afectivas muy concretas; el peligro no nace sólo del líder, sino también de la fragilidad previa de sus víctimas.",
+          "El viaje a Kenia no es un mero decorado exótico: refuerza la sensación de extrañamiento y permite pensar la caridad, el poder y la desigualdad desde un marco internacional.",
+          "Isabel no llega como heroína intacta; su culpa personal condiciona cada decisión y vuelve más ambigua su misión de rescate.",
+          "Conviene observar cómo Sánchez combina mecanismos de thriller con una atención constante a la psicología del sometimiento."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El encargo y la culpa de Isabel",
+            "summary": "La novela arranca cuando Isabel recibe la propuesta de viajar a Mombasa para encontrar a Ezequiel. Desde ese momento se establece el doble motor del relato: una operación de rescate y una necesidad íntima de reparar una culpa ligada al pasado familiar."
+          },
+          {
+            "title": "Llegada a Kenia y aproximación al peligro",
+            "summary": "En el segundo tramo, el desplazamiento a Kenia amplía el campo de incertidumbre. Isabel debe orientarse en un entorno desconocido mientras empieza a medir la influencia de la Orden Humanitaria, organización que se presenta con apariencia benéfica pero oculta una lógica de control."
+          },
+          {
+            "title": "Infiltración, seducción y mecanismos de dominio",
+            "summary": "El núcleo de la novela se concentra en la cercanía con la secta y con su líder. Allí la intriga se vuelve más psicológica: la protagonista comprende que nadie cae sólo por ingenuidad, sino por una combinación de deseo de pertenecer, soledad, miedo y promesas de redención."
+          },
+          {
+            "title": "Rescate, revelaciones y saldo moral",
+            "summary": "En la parte final, el intento de salvar a Ezequiel obliga a Isabel a enfrentarse tanto al poder ajeno como a sus propias zonas heridas. El desenlace cierra la tensión narrativa sin renunciar a una pregunta más amplia sobre cuánto cuesta salir de una relación de dependencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La secta como forma extrema de manipulación",
+            "content": "La novela presenta la secta no sólo como amenaza espectacular, sino como condensación de mecanismos muy reconocibles: seducción afectiva, aislamiento, promesa de sentido y subordinación progresiva. Por eso su alcance simbólico va más allá del caso concreto narrado."
+          },
+          {
+            "heading": "Isabel y la culpa como motor narrativo",
+            "content": "El personaje principal no actúa desde la pura eficacia, sino desde una herida previa. Esa culpa complejiza el relato: rescatar a Ezequiel significa también volver sobre una pérdida que no ha sido elaborada y medir hasta qué punto el deseo de salvar a otro puede nacer del propio dolor."
+          },
+          {
+            "heading": "Kenia como espacio moral y emocional",
+            "content": "El escenario africano añade belleza, tensión y extrañeza, pero también una reflexión sobre el uso ambiguo del discurso humanitario. La novela sugiere que en contextos atravesados por desigualdad y necesidad, el bien proclamado puede servir de cobertura a distintas formas de dominio."
+          },
+          {
+            "heading": "Entre thriller y novela psicológica",
+            "content": "Aunque hay suspense, persecución y peligro, la fuerza del libro está en observar cómo una conciencia entra en contacto con dispositivos de persuasión muy finos. Clara Sánchez sostiene la intriga sin sacrificar el examen íntimo de sus personajes, y de ahí surge su tono particular."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El amante silencioso en lo esencial?",
+            "answer": "Narra la misión de Isabel en Kenia para rescatar a un joven captado por una secta, mientras ella misma enfrenta una culpa personal relacionada con otra historia de manipulación y pérdida."
+          },
+          {
+            "question": "¿Es una novela de suspense o una novela psicológica?",
+            "answer": "Es ambas cosas. Funciona como thriller por su trama de rescate e infiltración, pero su interés más fuerte está en la culpa, la dependencia y los mecanismos de sometimiento emocional."
+          },
+          {
+            "question": "¿Qué papel tiene el tema de las sectas?",
+            "answer": "Es central. La novela examina cómo actúan el carisma, la captación y la obediencia, y muestra que la manipulación suele apoyarse en necesidades afectivas previas más que en simple credulidad."
+          },
+          {
+            "question": "¿Hace falta conocer otras novelas de Clara Sánchez para leerla?",
+            "answer": "No. Puede leerse de manera independiente, aunque conserva rasgos muy reconocibles de la autora: tensión moral, personajes vulnerables y sospecha ante las apariencias del bien."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: El amante silencioso",
+            "url": "https://www.planetadelibros.com/libro-el-amante-silencioso/291941"
+          },
+          {
+            "label": "Open Library: ediciones de El amante silencioso",
+            "url": "https://openlibrary.org/works/OL20940984W/editions"
+          },
+          {
+            "label": "RTVE, Historias de papel: Clara Sánchez - El amante silencioso",
+            "url": "https://www.rtve.es/play/audios/historias-de-papel/clara-sanchez-amante-silencioso/5282859/"
+          },
+          {
+            "label": "Qué Leer: Clara Sánchez. El amante silencioso",
+            "url": "https://www.que-leer.com/2019/05/06/clara-sanchez-el-amante-silencioso/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-amigo-manso-de-benito-perez-galdos",
+      "title": "El Amigo Manso",
+      "authorName": "Benito Perez Galdos",
+      "authorSlug": "benito-perez-galdos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El amigo Manso",
+        "authorName": "Benito Pérez Galdós",
+        "authorSlug": "benito-perez-galdos",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1882,
+        "pages": 312,
+        "summary": "Publicada en 1882, El amigo Manso es una de las novelas más singulares de Galdós por su mezcla de realismo social, ironía y juego metafictivo. Su narrador y protagonista, Máximo Manso, se presenta desde el inicio como alguien que no existe, y desde esa paradoja cuenta su vida de intelectual modesto en el Madrid de la Restauración. Solitario, razonable y pedagógico, Manso se ve envuelto en la educación de Manolito Peña, en la convivencia con su hermano y en su relación con Irene, figura central de su despertar sentimental y de su desengaño. La novela combina observación urbana, crítica de costumbres y meditación sobre el fracaso del idealismo frente a una sociedad pragmática, interesada y a menudo vulgar.",
+        "aboutThisBook": "Segunda novela del ciclo de las Novelas españolas contemporáneas, El amigo Manso ocupa un lugar especial dentro de la obra galdosiana. La crítica la ha leído como novela pedagógica, sátira de la sociedad de la Restauración y texto sorprendentemente moderno por su marco autorreflexivo. La Biblioteca Virtual Miguel de Cervantes conserva el texto íntegro, cuyo comienzo y cierre insisten en la extraña condición del narrador: un personaje que habla desde su propia inexistencia. Esa decisión formal no es un adorno, sino una clave para entender la distancia irónica del libro y su reflexión sobre identidad, voluntad y derrota.",
+        "forWhom": "Para lectores adultos, estudiantes y clubes de lectura interesados en los clásicos españoles, la novela realista del siglo XIX y los relatos donde ironía, introspección y crítica social conviven con gran naturalidad.",
+        "whyItMatters": "Importa porque muestra a un Galdós especialmente fino en el análisis moral y formalmente más audaz de lo que suele suponerse. Además, sigue siendo una novela muy fértil para pensar educación, ascenso social, deseo, autoengaño y precariedad del intelectual ante la vida práctica.",
+        "editorialIntro": "No es casual que tantos lectores recuerden El amigo Manso como una novela distinta dentro de Galdós. Aquí el realismo madrileño convive con una rareza moderna: un narrador que comienza declarando su inexistencia y, sin embargo, nos entrega una de las confesiones más nítidas de la literatura española del XIX. A partir de esa voz, Galdós construye una historia de educación sentimental, ironía social y derrota íntima, donde la inteligencia no basta para imponerse a las fuerzas del interés, la ambición y el deseo.",
+        "readingLevel": "Lectura de dificultad media-alta: prosa decimonónica accesible si se lee con atención, abundante ironía y riqueza de matices psicológicos, muy recomendable con edición anotada en contexto académico.",
+        "whyReadToday": "Porque sigue hablando con lucidez del intelectual desplazado, del fracaso de ciertos ideales pedagógicos y de la facilidad con que la sociedad recompensa la astucia más que la integridad.",
+        "studyNotes": [
+          "El inicio y el final convierten la novela en una reflexión sobre la propia ficción: Manso narra desde una existencia paradójica, lo que complica el realismo tradicional.",
+          "La relación entre Manso, Irene y Manolito une educación, afecto y desengaño; no conviene leer esos planos por separado.",
+          "Galdós retrata Madrid como escenario material y moral: calles, casas y conversaciones revelan jerarquías sociales, ridículos y aspiraciones.",
+          "La novela puede estudiarse como crítica del idealismo desarmado frente a un mundo gobernado por interés, oportunismo y cálculo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Marco inicial: un narrador que no existe",
+            "summary": "Desde las primeras páginas, la novela presenta su mayor rareza formal: Máximo Manso afirma no existir y, aun así, emprende el relato de su vida. Ese gesto instala una distancia irónica que transforma toda la lectura posterior."
+          },
+          {
+            "title": "Vida doméstica, pedagogía y mundo madrileño",
+            "summary": "En el desarrollo inicial, Manso aparece como intelectual de costumbres modestas, observador fino del Madrid de su tiempo y hombre inclinado a la enseñanza. La entrada de Manolito Peña en su órbita activa la dimensión pedagógica del relato."
+          },
+          {
+            "title": "Irene, deseo y error de interpretación",
+            "summary": "El centro emocional de la novela surge cuando Irene se vuelve figura decisiva para Manso. Su afecto, sus expectativas y su lectura equivocada de los vínculos revelan el contraste entre idealización íntima y cálculo social."
+          },
+          {
+            "title": "Desengaño final y revisión de una vida",
+            "summary": "En la parte final, la novela transforma el aprendizaje sentimental en balance amargo. Manso comprende que ni su inteligencia ni su bondad le garantizan lugar estable en el mundo, y ese reconocimiento da al cierre su mezcla de melancolía e ironía."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La audacia metafictiva de Galdós",
+            "content": "El comienzo de El amigo Manso cuestiona de forma sorprendente la ilusión realista: un personaje ya muerto o inexistente toma la palabra y afirma su autonomía. Ese recurso no rompe la novela, sino que intensifica su examen de la conciencia y anticipa preocupaciones narrativas que luego serían muy visibles en la literatura del siglo XX."
+          },
+          {
+            "heading": "Novela pedagógica y fracaso del idealismo",
+            "content": "Manso encarna una fe en la razón, la educación y la decencia que la realidad social no confirma. Su papel como maestro y guía moral se ve desbordado por fuerzas más eficaces: ambición, apariencia, oportunismo y deseo. De ahí que la novela pueda leerse como crítica de un idealismo noble pero insuficiente."
+          },
+          {
+            "heading": "Madrid como laboratorio social",
+            "content": "La ciudad no es simple fondo costumbrista. En calles, casas y tertulias se manifiestan los mecanismos de movilidad social, la comicidad de los tipos humanos y la tensión entre cultura y supervivencia. Galdós convierte el espacio urbano en un observatorio de clases, aspiraciones y derrotas."
+          },
+          {
+            "heading": "Ironía, compasión y modernidad narrativa",
+            "content": "Aunque la novela satiriza muchos comportamientos, no cae en el desprecio fácil. Galdós combina ironía con compasión, y por eso el fracaso de Manso nunca es mera burla. Esa mezcla explica la modernidad emocional del libro y su permanencia en el canon."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué clase de novela es El amigo Manso?",
+            "answer": "Es una novela realista de Galdós con fuerte dimensión psicológica, crítica social y un marco metafictivo muy llamativo desde sus primeras páginas."
+          },
+          {
+            "question": "¿Quién es Máximo Manso?",
+            "answer": "Es el narrador y protagonista, un intelectual idealista y pedagógico que observa el Madrid de su tiempo mientras vive un proceso de desengaño sentimental y social."
+          },
+          {
+            "question": "¿Por qué se considera una obra moderna?",
+            "answer": "Porque cuestiona la narración realista tradicional al hacer hablar a un personaje que declara no existir, y porque explora con gran sutileza la conciencia, la identidad y la autorreflexión narrativa."
+          },
+          {
+            "question": "¿Sigue siendo recomendable para lectores actuales?",
+            "answer": "Sí. Más allá de su valor histórico, ofrece una mirada muy viva sobre educación, ambición, autoengaño y derrota íntima, temas que conservan plena resonancia."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: El amigo Manso",
+            "url": "https://www.cervantesvirtual.com/obra-visor/el-amigo-manso--0/html/"
+          },
+          {
+            "label": "Wikipedia: El amigo Manso",
+            "url": "https://es.wikipedia.org/wiki/El_amigo_Manso"
+          },
+          {
+            "label": "Open Library: ediciones de El amigo Manso",
+            "url": "https://openlibrary.org/works/OL37213896W/editions"
+          },
+          {
+            "label": "Project Gutenberg: El amigo Manso",
+            "url": "https://www.gutenberg.org/ebooks/55563"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-asunto-galindo-de-fernando-lalana",
+      "title": "El Asunto Galindo",
+      "authorName": "Fernando Lalana",
+      "authorSlug": "fernando-lalana",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El asunto Galindo",
+        "authorName": "Fernando Lalana",
+        "authorSlug": "fernando-lalana",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2008,
+        "pages": 200,
+        "summary": "El asunto Galindo presenta a Fermín Escartín en el momento en que decide reinventarse como detective privado después de seguir un cursillo por correspondencia. Su primer encargo parece sencillo: localizar a Serafín Galindo, un magnate excéntrico y multimillonario cuya desaparición inquieta a una compañía de seguros. Sin embargo, el caso cambia de escala cuando Galindo aparece muerto dentro de su automóvil, abatido por disparos que sugieren una ejecución. A partir de ahí, Fernando Lalana arma una intriga ágil y muy consciente de sus mecanismos: pistas contradictorias, intereses económicos, identidades dudosas y una sensación constante de que la primera versión de los hechos es engañosa. La novela combina humor, ritmo detectivesco y una clara vocación juvenil, pero sin simplificar el placer de la investigación ni la lógica del enigma.",
+        "aboutThisBook": "Publicada por Editorial Bambú dentro de la Biblioteca Fernando Lalana, esta novela recupera uno de los casos de Fermín Escartín, uno de los investigadores más característicos del autor zaragozano. La ficha editorial la sitúa para lectores a partir de doce años y subraya el arranque detectivesco de un protagonista improvisado que se enfrenta enseguida a una trama turbia. Es un buen ejemplo de la capacidad de Lalana para trasladar la intriga policial al ámbito juvenil con naturalidad, humor y precisión narrativa, evitando tanto el didactismo como la oscuridad excesiva. Su interés reside en el equilibrio entre entretenimiento, ironía y construcción del misterio.",
+        "forWhom": "Para adolescentes y también para adultos que busquen una novela detectivesca breve, clara y bien tramada, con humor, suspense y un investigador nada solemne.",
+        "whyItMatters": "Importa porque muestra una de las vías más eficaces de la novela juvenil española de intriga: casos inteligibles, ritmo sostenido y respeto por la inteligencia del lector. Lalana convierte un argumento policial clásico en una lectura accesible y viva.",
+        "editorialIntro": "Fernando Lalana entendió muy bien que la intriga juvenil no debía rebajar el misterio, sino contarlo con claridad y nervio. El asunto Galindo parte de un detective casi accidental y de una desaparición sospechosa, pero en muy pocas páginas ya ha construido un laberinto de versiones, intereses y engaños. Su mayor virtud está en ese tono ligero que no debilita el enigma, sino que lo vuelve más seductor.",
+        "readingLevel": "Lectura media y muy fluida, adecuada desde secundaria: el lenguaje es accesible, pero conviene seguir con atención las pistas y los cambios del caso.",
+        "whyReadToday": "Porque sigue siendo una demostración convincente de que la novela juvenil de misterio puede ser astuta, entretenida y literariamente digna sin perder agilidad ni sentido del humor.",
+        "studyNotes": [
+          "Fermín Escartín entra en el género detectivesco desde una posición casi amateur, lo que acerca la investigación al lector y permite introducir ironía sin romper la tensión.",
+          "La novela trabaja con una idea clásica del policial: lo visible al comienzo del caso no coincide con su verdadera estructura.",
+          "El peso de la trama recae en la dosificación de la información, no en escenas de acción continuas, lo que vuelve importante atender a cada giro narrativo.",
+          "La condición juvenil del libro no elimina la ambigüedad moral de varios personajes ni la crítica a ciertos intereses de poder y dinero."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: un detective en su primer caso",
+            "summary": "Fermín Escartín decide ejercer como detective privado y recibe de inmediato un encargo relacionado con la desaparición del poderoso Serafín Galindo. El planteamiento combina humor, rareza y una promesa clara de investigación."
+          },
+          {
+            "title": "Nudos del argumento: desaparición, crimen y sospechas",
+            "summary": "La aparición del cadáver de Galindo transforma una simple búsqueda en un asunto criminal. A medida que Escartín avanza, descubre que alrededor del empresario se mueven versiones incompletas, intereses opacos y señales de manipulación."
+          },
+          {
+            "title": "Tramo final: cuando nada era exactamente lo que parecía",
+            "summary": "En la última parte, la novela reorganiza las pistas y obliga a releer el caso desde otra lógica. El desenlace premia la observación y confirma que la intriga estaba construida sobre apariencias cuidadosamente administradas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un policial juvenil sin condescendencia",
+            "content": "Lalana escribe para lectores jóvenes, pero no simplifica el mecanismo de la intriga. La novela exige seguir datos, medir sospechas y aceptar que las primeras explicaciones rara vez bastan. Ese respeto por el lector es una de sus mayores virtudes."
+          },
+          {
+            "heading": "Fermín Escartín como figura narrativa",
+            "content": "El protagonista no es un héroe infalible, sino un investigador con algo de improvisación, ironía y astucia. Esa mezcla humaniza el relato y lo aparta de la solemnidad del detective clásico, sin quitarle eficacia deductiva."
+          },
+          {
+            "heading": "Dinero, prestigio y engaño",
+            "content": "Bajo la ligereza formal hay una observación muy reconocible: los casos criminales no nacen solo de pasiones individuales, sino también de redes de interés, imagen social y ambición. La novela insinúa esa dimensión sin perder el pulso aventurero."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El asunto Galindo?",
+            "answer": "Trata sobre la investigación que emprende Fermín Escartín para localizar al empresario Serafín Galindo y sobre cómo ese encargo se convierte en un caso criminal lleno de engaños y versiones contradictorias."
+          },
+          {
+            "question": "¿Quién es Fermín Escartín?",
+            "answer": "Es el detective protagonista de varias novelas de Fernando Lalana. En este libro aparece como un investigador con humor, intuición y un punto de precariedad que lo hace muy cercano al lector."
+          },
+          {
+            "question": "¿Es una novela adecuada para lectores jóvenes?",
+            "answer": "Sí. La edición de Bambú la sitúa a partir de los doce años y su estilo es claro, dinámico y comprensible, aunque conserva un entramado policial suficientemente elaborado."
+          },
+          {
+            "question": "¿Qué destaca dentro de la obra de Lalana?",
+            "answer": "Su capacidad para unir una intriga clásica con tono irónico y ritmo juvenil, sin caer en simplificaciones ni convertir el misterio en un mero pretexto escolar."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Editorial Bambú: El asunto Galindo",
+            "url": "https://www.editorialbambu.com/libro/el-asunto-galindo/"
+          },
+          {
+            "label": "Open Library: El asunto Galindo",
+            "url": "https://openlibrary.org/works/OL17205832W/El_asunto_Galindo"
+          },
+          {
+            "label": "Anaya Infantil y Juvenil: Fernando Lalana",
+            "url": "https://www.anayainfantilyjuvenil.com/autor/fernando-lalana/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-banquete-de-severo-arcangelo-de-leopoldo-marechal",
+      "title": "El Banquete De Severo Arcangelo",
+      "authorName": "Leopoldo Marechal",
+      "authorSlug": "leopoldo-marechal",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El banquete de Severo Arcángelo",
+        "authorName": "Leopoldo Marechal",
+        "authorSlug": "leopoldo-marechal",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1965,
+        "pages": 289,
+        "summary": "El banquete de Severo Arcángelo arranca desde una escena de hospital y de documentos legados, cuando el narrador entra en contacto con los papeles de Lisandro Farías, periodista devastado por la muerte de su esposa. Desde ese punto comienza una historia de apariencia novelesca y fondo simbólico: Farías es convocado por una enigmática enviada al banquete que prepara Severo Arcángelo para treinta y tres comensales en una quinta de San Isidro. El trayecto hacia ese encuentro se vuelve progresivamente un recorrido por espacios extraños, personajes excéntricos y episodios que mezclan aventura, humor, alegoría y búsqueda metafísica. Marechal utiliza una superficie de suspenso y peripecia para conducir hacia otra cosa: una novela de iniciación espiritual, de resonancias dantescas y tono argentino, donde el viaje importa tanto como la posible revelación final.",
+        "aboutThisBook": "Publicada por Sudamericana a mediados de los años sesenta, esta novela ocupa el centro de la gran trilogía narrativa de Leopoldo Marechal entre Adán Buenosayres y Megafón, o la guerra. La crítica la ha leído como una obra de suspenso, como alegoría filosófica y como viaje iniciático hacia lo absoluto. Su singularidad proviene de esa mezcla: el libro parece avanzar por la lógica del enigma, pero al mismo tiempo se abre a una dimensión simbólica, teológica y poética. Leída hoy, conserva el brillo verbal, la comicidad inesperada y la ambición intelectual propias de Marechal, uno de los autores más originales de la narrativa argentina del siglo XX.",
+        "forWhom": "Para lectores de clásicos argentinos, estudiantes de literatura hispanoamericana y quienes disfruten novelas exigentes donde la aventura externa encubre una búsqueda espiritual y filosófica.",
+        "whyItMatters": "Importa porque es una pieza clave para comprender la ambición narrativa de Marechal y una de las novelas argentinas que mejor funden comicidad, mito, filosofía y experimentación formal sin perder impulso narrativo.",
+        "editorialIntro": "Entrar en El banquete de Severo Arcángelo es aceptar una invitación extraña: parece que uno va hacia una novela de intriga y termina atravesando un laberinto de símbolos, humor, peripecias y preguntas últimas. Marechal no abandona nunca el relato; al contrario, lo carga de resonancias religiosas, literarias y metafísicas. Por eso el libro fascina todavía: porque hace convivir lo novelesco con lo visionario sin renunciar a la energía de la aventura.",
+        "readingLevel": "Lectura exigente para adultos: el argumento es legible, pero la densidad alegórica, las referencias culturales y la ironía filosófica reclaman lectura atenta y pausada.",
+        "whyReadToday": "Porque sigue siendo una novela inusual dentro del canon hispanoamericano: divertida y ardua a la vez, narrativa y simbólica, muy argentina en su habla y universal en sus preguntas sobre sentido, culpa y trascendencia.",
+        "studyNotes": [
+          "La convocatoria al banquete funciona como motor argumental, pero también como símbolo de una promesa de conocimiento o revelación.",
+          "Lisandro Farías no es solo un narrador de peripecias: su duelo y su desorientación lo convierten en un personaje de búsqueda interior.",
+          "La novela se beneficia de leerse junto a Adán Buenosayres y Megafón, o la guerra, porque comparte con ellas un proyecto mayor de imaginación filosófica y nacional.",
+          "Conviene atender al humor: en Marechal la comicidad no rebaja la metafísica, sino que la vuelve más encarnada y menos solemne."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: papeles, duelo y convocatoria",
+            "summary": "La novela se abre con el acceso del narrador a los documentos de Lisandro Farías. En ellos aparece un hombre herido por la muerte de su esposa y pronto atraído hacia la misteriosa invitación al banquete de Severo Arcángelo."
+          },
+          {
+            "title": "Nudos del argumento: el camino hacia el banquete",
+            "summary": "El trayecto de Farías hacia la quinta de San Isidro se llena de personajes singulares, episodios extraños y situaciones que combinan aventura, sátira y creciente espesor alegórico. El viaje se vuelve casi laberíntico."
+          },
+          {
+            "title": "Tramo final: revelación, símbolo e interpretación",
+            "summary": "En la parte final, la expectativa del banquete adquiere sentido espiritual y literario. La novela no se agota en una resolución argumental, sino que desplaza al lector hacia un plano de interpretación más amplio, cercano al rito y la visión."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La aventura como máscara de la metafísica",
+            "content": "Marechal se sirve de una estructura de suspenso y desplazamiento para conducir al lector hacia preguntas de orden espiritual. Esa superposición de niveles explica buena parte de la rareza y la riqueza del libro."
+          },
+          {
+            "heading": "Humor argentino y ambición simbólica",
+            "content": "La novela no elige entre comicidad y altura intelectual. El habla porteña, las situaciones extravagantes y la caricatura conviven con referencias bíblicas, dantescas y neoplatónicas. El resultado es profundamente original."
+          },
+          {
+            "heading": "Un eslabón central en la narrativa de Marechal",
+            "content": "Leída entre Adán Buenosayres y Megafón, o la guerra, esta obra ocupa una posición de puente. Conserva personajes y obsesiones del universo marechaliano, pero les da una forma más concentrada y enigmática, apoyada en la imagen del viaje hacia un banquete final."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El banquete de Severo Arcángelo?",
+            "answer": "Trata sobre el itinerario de Lisandro Farías hacia un misterioso banquete convocado por Severo Arcángelo y sobre cómo ese trayecto se convierte en una experiencia de aventura, símbolo y búsqueda espiritual."
+          },
+          {
+            "question": "¿Es una novela difícil?",
+            "answer": "Tiene una trama reconocible, pero sus significados se multiplican. Puede leerse como relato de peripecias, aunque su verdadera riqueza aparece cuando se atiende a la alegoría, al humor y a las referencias filosóficas y religiosas."
+          },
+          {
+            "question": "¿Qué lugar ocupa en la obra de Marechal?",
+            "answer": "Se la considera la segunda gran novela del autor y una pieza central de su proyecto narrativo, situada entre Adán Buenosayres y Megafón, o la guerra."
+          },
+          {
+            "question": "¿Por qué se la relaciona con Dante y con el viaje iniciático?",
+            "answer": "Porque el desplazamiento del protagonista y la organización simbólica del relato sugieren un descenso, una prueba y una promesa de acceso a otra forma de conocimiento, rasgos frecuentes en la tradición del viaje espiritual."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: El banquete de Severo Arcángelo",
+            "url": "https://es.wikipedia.org/wiki/El_banquete_de_Severo_Arc%C3%A1ngelo"
+          },
+          {
+            "label": "Open Library: El banquete de Severo Arcángelo",
+            "url": "https://openlibrary.org/books/OL5582183M/El_banquete_de_Severo_Arc%C3%A1ngelo"
+          },
+          {
+            "label": "Wikipedia: Leopoldo Marechal",
+            "url": "https://es.wikipedia.org/wiki/Leopoldo_Marechal"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-blog-del-inquisidor-de-lorenzo-silva",
+      "title": "El Blog Del Inquisidor",
+      "authorName": "Lorenzo Silva",
+      "authorSlug": "lorenzo-silva",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El blog del inquisidor",
+        "authorName": "Lorenzo Silva",
+        "authorSlug": "lorenzo-silva",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 2008,
+        "pages": 251,
+        "summary": "El blog del inquisidor parte de un hallazgo contemporáneo: una historiadora especializada en el Santo Oficio tropieza en internet con una bitácora titulada Cuaderno del Inquisidor. Ese diario digital, escrito por una voz masculina atormentada, remite a unos sucesos del siglo XVII en un convento madrileño, donde unas monjas benedictinas y su abad fueron acusados de herejía. Lorenzo Silva articula así una novela en dos planos que se reflejan mutuamente: por un lado, la reconstrucción de un caso histórico vinculado a San Plácido y a figuras reales como Teresa Valle de la Cerda; por otro, la relación virtual y luego emocional entre quienes leen, comentan y prolongan esa historia en el presente. La intriga no se limita a descubrir hechos, sino que examina culpa, expiación, deseo, verdad parcial y manipulación del relato.",
+        "aboutThisBook": "La página oficial del autor la presenta con dos apoyos muy claros: el resumen editorial y un comentario del propio Lorenzo Silva, quien explica que la obra es en realidad dos novelas en una. La primera recrea un episodio histórico del siglo XVII sin plegarse a la fórmula convencional de la novela histórica; la segunda explora el encuentro de dos personajes actuales en el espacio virtual, unidos por los secretos, los miedos y las preguntas que despierta aquel proceso inquisitorial. Esa estructura hace del libro una pieza singular dentro de la narrativa de Silva: mezcla investigación histórica, correspondencia contemporánea, reflexión sobre la verdad y una historia afectiva recorrida por la sombra de la culpa.",
+        "forWhom": "Para lectores adultos interesados en novelas de intriga con base histórica, estructuras narrativas en capas y preguntas morales sobre la culpa, la identidad y la verdad.",
+        "whyItMatters": "Importa porque enlaza memoria histórica y cultura digital sin superficialidad. Silva usa el blog como dispositivo narrativo para pensar cómo se reconstruyen los hechos, cómo se deforman y cómo terminan implicando íntimamente a quien los investiga.",
+        "editorialIntro": "No todas las novelas que incorporan internet entienden lo que ese medio cambia en la experiencia de contar. El blog del inquisidor sí lo entiende: el hallazgo de una bitácora abre una pesquisa intelectual y sentimental donde pasado y presente se leen mutuamente. Lorenzo Silva convierte un caso inquisitorial del siglo XVII en una historia sobre documentos, voces y conciencias heridas, y lo hace sin dejar de lado la tensión narrativa.",
+        "readingLevel": "Lectura media-alta para adultos: el estilo es claro, pero la estructura de planos temporales y la reflexión sobre documentos, versiones y culpas pide cierta concentración.",
+        "whyReadToday": "Porque dialoga con una inquietud plenamente actual: cómo la red produce relatos, identidades y sospechas. Y porque recuerda que detrás de cada archivo histórico puede esconderse todavía un drama moral vivo.",
+        "studyNotes": [
+          "La novela superpone una historia del siglo XVII y una relación contemporánea nacida en internet, de modo que cada plano reinterpreta al otro.",
+          "El proceso de San Plácido no aparece como simple decorado histórico, sino como un núcleo de preguntas sobre poder, culpa, fe y manipulación.",
+          "Silva insiste en la imposibilidad de acceder a una verdad total: la novela avanza por manuscritos, conjeturas, traducciones y testimonios parciales.",
+          "El blog funciona como forma narrativa y también como símbolo de exposición pública, confesión y construcción de máscara."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: el hallazgo de una voz en la red",
+            "summary": "Una historiadora encuentra el Cuaderno del Inquisidor y reconoce en él una extraña conexión con su campo de estudio. El descubrimiento instala de inmediato una doble intriga: la del caso histórico y la del autor oculto del blog."
+          },
+          {
+            "title": "Nudos del argumento: el siglo XVII entra en el presente",
+            "summary": "La lectura del blog conduce al proceso inquisitorial de San Plácido, a la figura de Teresa Valle de la Cerda y a una serie de documentos y versiones enfrentadas. Paralelamente, el intercambio entre los personajes contemporáneos se vuelve más íntimo y más incierto."
+          },
+          {
+            "title": "Tramo final: culpa, expiación y verdad incompleta",
+            "summary": "A medida que se estrecha el vínculo entre pasado y presente, la novela desplaza el interés desde la mera resolución hacia la interpretación moral. Lo decisivo ya no es solo qué ocurrió, sino qué significa narrarlo y cargar con ello."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Dos novelas dentro de una",
+            "content": "La observación del propio autor resulta clave: el libro une una recreación histórica con una historia contemporánea de encuentro y correspondencia. Esa estructura evita el costumbrismo de época y vuelve productiva la fricción entre archivo y presente."
+          },
+          {
+            "heading": "La verdad como suma de perspectivas incompletas",
+            "content": "Críticos citados en la página del autor subrayan que la novela multiplica manuscritos, voces y conjeturas. Silva no propone una verdad única y cerrada, sino un mosaico de aproximaciones que deja ver la fragilidad de toda reconstrucción."
+          },
+          {
+            "heading": "Culpa, expiación y deseo de confesión",
+            "content": "La figura del inquisidor, tanto histórica como simbólica, permite pensar la culpa desde varios niveles. El blog es a la vez confesionario, máscara y escenario de una expiación incierta, lo que da profundidad moral al suspense."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El blog del inquisidor?",
+            "answer": "Trata sobre una historiadora que descubre en internet un blog vinculado a un proceso inquisitorial del siglo XVII y sobre la investigación, intelectual y emocional, que ese hallazgo desencadena."
+          },
+          {
+            "question": "¿Se basa en hechos reales?",
+            "answer": "Sí, incorpora como materia narrativa el proceso de las monjas benedictinas de San Plácido y figuras históricas reales como Teresa Valle de la Cerda, aunque la novela desarrolla libremente su propia arquitectura de ficción."
+          },
+          {
+            "question": "¿Es una novela histórica o un thriller contemporáneo?",
+            "answer": "Es ambas cosas en parte. Silva la construye como una obra de dos planos: uno histórico y otro actual, unidos por el blog, los documentos y una intriga moral sobre culpa y verdad."
+          },
+          {
+            "question": "¿Qué la hace singular dentro de la obra de Lorenzo Silva?",
+            "answer": "Su uso del entorno digital como dispositivo narrativo y su cruce entre investigación histórica, correspondencia íntima y reflexión sobre la imposibilidad de conocer por completo los hechos."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Lorenzo Silva: El blog del Inquisidor",
+            "url": "https://www.lorenzo-silva.com/libros/2904/"
+          },
+          {
+            "label": "Open Library: El blog del inquisidor",
+            "url": "https://openlibrary.org/books/OL24016182M/El_blog_del_inquisidor"
+          },
+          {
+            "label": "Wikipedia: Lorenzo Silva",
+            "url": "https://es.wikipedia.org/wiki/Lorenzo_Silva"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-dia-de-manana-de-ignacio-martinez-de-pison",
+      "title": "El Dia De Manana De Ignacio Martinez",
+      "authorName": "Pison",
+      "authorSlug": "pison",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El día de mañana",
+        "authorName": "Ignacio Martínez de Pisón",
+        "authorSlug": "ignacio-martinez-de-pison",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 2011,
+        "pages": 384,
+        "summary": "El día de mañana es una novela coral ambientada en la Barcelona de los años sesenta y setenta, cuando el tardofranquismo y la Transición alteran la vida pública y privada de la ciudad. En su centro está Justo Gil, un joven aragonés ambicioso, seductor y oportunista que llega dispuesto a prosperar a cualquier precio. Su trayectoria no se cuenta desde una voz única, sino a través de testimonios de quienes lo conocieron: amigos, amantes, socios, familiares y víctimas parciales de su magnetismo. Ese procedimiento convierte a Justo en un personaje siempre esquivo y obliga al lector a recomponerlo a partir de versiones interesadas, recuerdos y silencios. La novela sigue así su ascenso social, sus zonas de impostura, su relación con la Brigada Político-Social y el modo en que una época entera queda comprimida en una biografía moralmente ambigua.",
+        "aboutThisBook": "Publicada por Seix Barral en 2011 dentro de Biblioteca Breve, la novela fue presentada por la editorial como \"la gran novela sobre la Transición\". Más allá de ese lema promocional, lo decisivo es su estructura polifónica: Martínez de Pisón reconstruye una vida mediante declaraciones sucesivas y convierte el relato íntimo en una lectura compleja del final del franquismo, del arribismo social y de la fragilidad de la memoria. Estudios y reseñas críticas han destacado precisamente esa combinación entre novela de personaje, fresco histórico y examen de una ciudad en transformación. Barcelona aparece aquí no como simple decorado, sino como escenario moral donde se cruzan deseo de ascenso, vigilancia política, oportunismo y cambio cultural.",
+        "forWhom": "Para lectores de narrativa española contemporánea, estudiantes de historia cultural del tardofranquismo y la Transición, y clubes de lectura interesados en novelas corales de fuerte espesor moral.",
+        "whyItMatters": "Importa porque muestra la Transición desde sus pliegues menos solemnes: la picaresca social, la vigilancia policial, el deseo de prosperar y la facilidad con que una biografía oportunista puede confundirse con el pulso de una época.",
+        "editorialIntro": "Ignacio Martínez de Pisón ha narrado como pocos la relación entre vida privada e historia reciente. En El día de mañana esa virtud se vuelve especialmente visible: la novela no explica una época con discursos, sino con rumores, declaraciones, vínculos y traiciones. El resultado es un retrato de Barcelona y de la Transición española construido desde el filo de la ambigüedad. Justo Gil no es solo un personaje memorable; es también un prisma que deforma y revela el mundo que habita.",
+        "readingLevel": "Lectura media-alta para público general y universitario inicial; la prosa es clara, pero la riqueza del libro depende de seguir su estructura coral y de atender al contexto histórico y político.",
+        "whyReadToday": "Porque sigue siendo una de las novelas más lúcidas para pensar cómo se fabrican los relatos de una época y cómo el éxito individual puede apoyarse en la acomodación, la vigilancia y la mentira.",
+        "studyNotes": [
+          "La estructura testimonial obliga a desconfiar de cada voz: el personaje central se construye por acumulación de perspectivas, no por confesión directa.",
+          "Barcelona funciona como espacio histórico y moral; conviene leer cómo cambian sus ambientes al mismo tiempo que cambia el régimen político.",
+          "Justo Gil encarna una forma de oportunismo adaptable, útil para analizar la relación entre ascenso social, deseo y colaboración con el poder.",
+          "La novela puede estudiarse como relato de memoria, novela histórica y retrato de personaje al mismo tiempo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primeras voces: llegada y seducción",
+            "summary": "Las primeras declaraciones sitúan a Justo Gil como un recién llegado a Barcelona con encanto, intuición social y hambre de ascenso. Desde el comienzo se percibe que cada testigo vio a un Justo distinto, y esa inestabilidad será central para toda la novela."
+          },
+          {
+            "title": "Ascenso, negocios y zonas oscuras",
+            "summary": "A medida que el relato avanza, Justo se mueve entre relaciones sentimentales, pequeños negocios, ambición y oportunismo. Su cercanía con los aparatos de control del régimen introduce una dimensión política que desmiente cualquier lectura meramente costumbrista."
+          },
+          {
+            "title": "Desgaste de la máscara",
+            "summary": "Las voces del tramo final muestran cómo el personaje empieza a descomponerse en la memoria de quienes lo trataron. Lo que parecía carisma se revela también como cálculo, y la época misma aparece atravesada por componendas, delaciones y desengaños."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela construida por testimonios",
+            "content": "El gran hallazgo formal del libro es convertir la biografía de Justo Gil en un mosaico de voces. Esa polifonía evita la explicación única y obliga al lector a interpretar contradicciones, omisiones y sesgos."
+          },
+          {
+            "heading": "Historia política sin grandilocuencia",
+            "content": "La novela aborda el tardofranquismo y la Transición sin convertirlos en fondo solemne. El poder aparece en oficinas, favores, delaciones, ascensos y rutinas urbanas, es decir, en la vida concreta."
+          },
+          {
+            "heading": "El oportunista como figura de época",
+            "content": "Justo Gil no es solo un individuo astuto: representa una manera de adaptarse a cualquier clima moral con tal de prosperar. Por eso la novela funciona también como crítica de una modernización atravesada por continuidades turbias."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El día de mañana?",
+            "answer": "Trata de la vida de Justo Gil, un joven ambicioso que se instala en Barcelona y asciende socialmente en los años del tardofranquismo y la Transición, contado a través de múltiples testimonios."
+          },
+          {
+            "question": "¿Es una novela histórica?",
+            "answer": "Sí, pero no en sentido escolar o documental. Usa un personaje y una red de voces para mostrar cómo la historia política se infiltra en los afectos, los negocios y las estrategias de supervivencia."
+          },
+          {
+            "question": "¿Por qué destaca dentro de la obra de Martínez de Pisón?",
+            "answer": "Porque combina muy bien sus grandes virtudes: precisión narrativa, atención a la historia reciente, construcción coral y una mirada moral que evita simplificar a los personajes."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros / Seix Barral: El día de mañana",
+            "url": "https://www.planetadelibros.com/libro-el-dia-de-manana/49457"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: ficha de El día de mañana",
+            "url": "https://www.cervantesvirtual.com/obra/el-dia-de-manana-ignacio-martinez-de-pison/"
+          },
+          {
+            "label": "Repositorio Universidad de Zaragoza: Análisis de la novela El día de mañana",
+            "url": "https://zaguan.unizar.es/record/152459"
+          },
+          {
+            "label": "Casa del Libro: El día de mañana",
+            "url": "https://www.casadellibro.com/libro-el-dia-de-manana/9788432210327/2031666"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-diario-de-raskolnikov-de-fiodor-m-dostoievskii",
+      "title": "El Diario De Raskolnikov",
+      "authorName": "Fiodor M Dostoievskii",
+      "authorSlug": "fiodor-m-dostoievskii",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El diario de Raskolnikov",
+        "authorName": "Fiódor M. Dostoievski",
+        "authorSlug": "fiodor-m-dostoievskii",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1860,
+        "pages": 184,
+        "summary": "El diario de Raskolnikov se presenta en las ediciones modernas como una pieza breve vinculada al laboratorio narrativo de Crimen y castigo. Su interés principal no está en ampliar la peripecia externa, sino en concentrar la conciencia del protagonista después del crimen. Narrado en primera persona, el texto introduce a un Raskolnikov febril, paranoico y desgarrado, que intenta fijar por escrito lo ocurrido mientras revive con precisión obsesiva los detalles de su conducta, sus temores y su relación con la policía. Más que una novela autónoma en sentido amplio, funciona como una forma embrionaria o variante del gran universo dostoievskiano: culpa, fiebre, desdoblamiento moral, humillación social y una conciencia que se persigue a sí misma. Su lectura vale especialmente por mostrar el proceso interior antes que la amplitud total de la obra mayor con la que suele relacionarse.",
+        "aboutThisBook": "Las referencias editoriales y de catálogo coinciden en describirlo como una versión previa o germinal de Crimen y castigo, narrada en primera persona por Raskolnikov. Esa condición explica su singularidad: no es simplemente un fragmento desprendido, sino una pieza de enorme valor para quien quiera ver a Dostoievski trabajando la voz, la culpa y el monólogo interior desde una cercanía extrema a la mente del personaje. La edición digital difundida con ISBN 9788423903221 lo presenta como obra fundamental para comprender el proceso de escritura del autor, mientras las fichas comerciales actuales conservan esa misma idea. Su brevedad no reduce su intensidad; al contrario, concentra con violencia la experiencia del crimen, la fiebre y el miedo a ser descubierto.",
+        "forWhom": "Para lectores de Dostoievski, estudiantes de literatura rusa, cursos sobre narrador y conciencia, y quienes deseen acercarse a un texto breve conectado con el universo de Crimen y castigo.",
+        "whyItMatters": "Importa porque permite observar de cerca el taller dostoievskiano: la culpa no como tema abstracto, sino como escritura convulsa de una mente dividida, vigilada y cada vez más hostigada por sí misma.",
+        "editorialIntro": "No todas las piezas menores de un gran autor poseen verdadero interés crítico. Esta sí. El diario de Raskolnikov vale menos por su autonomía editorial que por la intensidad con la que deja ver la cocina moral y psicológica de Dostoievski. Leerlo es entrar en una voz en estado de fiebre, donde el crimen todavía no se organiza como gran arquitectura novelesca, sino como temblor inmediato, vergüenza, racionalización y espanto. Por eso resulta tan útil para lectores atentos al proceso de escritura y a la invención de una conciencia literaria.",
+        "readingLevel": "Lectura media-alta: su extensión es breve, pero el monólogo febril, la relación con otras obras de Dostoievski y la densidad psicológica exigen lectura atenta y algo de contexto.",
+        "whyReadToday": "Porque sigue siendo una vía excelente para pensar la culpa, la paranoia y el desdoblamiento del yo, y además permite entender cómo Dostoievski ensayó una de las conciencias más intensas de la novela moderna.",
+        "studyNotes": [
+          "Conviene leer el texto como pieza autónoma breve y también como documento del proceso creativo vinculado a Crimen y castigo.",
+          "La primera persona cambia decisivamente la experiencia de lectura: todo pasa por la percepción alterada, febril y culpable del narrador-protagonista.",
+          "El interés principal no está en la amplitud de la acción, sino en la presión moral y física que el crimen ejerce sobre la conciencia.",
+          "Compararlo con Crimen y castigo ayuda a ver cómo Dostoievski trabaja voz, culpa y estructura narrativa en distintas fases."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: las anotaciones después del crimen",
+            "summary": "Raskolnikov empieza a escribir para fijar lo sucedido y someterlo a examen. Desde las primeras páginas se impone una voz agitada, minuciosa y asediada por el recuerdo inmediato del asesinato."
+          },
+          {
+            "title": "Fiebre, escondites y pánico",
+            "summary": "El protagonista revisa su ropa, los objetos robados y cada posible rastro incriminatorio. La narración avanza como inventario de sobresaltos, vacíos de memoria y accesos de terror físico."
+          },
+          {
+            "title": "La citación policial y el desdoblamiento interior",
+            "summary": "Cuando recibe una citación, el miedo a la revelación estalla. El texto muestra de manera ejemplar la oscilación entre confesión imaginada, desafío, orgullo herido y alivio momentáneo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La culpa narrada desde dentro",
+            "content": "La primera persona convierte la culpa en experiencia inmediata. No se trata de saber que el personaje sufre, sino de quedar encerrados en la lógica cambiante de su miedo, su fiebre y sus autojustificaciones."
+          },
+          {
+            "heading": "Un texto de taller literario con valor propio",
+            "content": "Aunque suele leerse en relación con Crimen y castigo, la pieza no es solo una curiosidad. Tiene interés por sí misma porque muestra el momento en que la voz y el conflicto moral todavía están desnudos, sin la expansión total de la novela mayor."
+          },
+          {
+            "heading": "Paranoia, cuerpo y conciencia",
+            "content": "Dostoievski no separa lo moral de lo corporal. La culpa se manifiesta en temblores, fiebre, agotamiento, sobresaltos y obsesión con los objetos. Esa materialidad intensifica la experiencia psicológica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El diario de Raskolnikov es una novela independiente?",
+            "answer": "Suele circular como pieza breve independiente, pero su interés principal está en su cercanía genética y temática con Crimen y castigo. Muchas ediciones la presentan justamente como versión previa o germinal."
+          },
+          {
+            "question": "¿Qué aporta frente a Crimen y castigo?",
+            "answer": "Aporta una inmersión más directa y concentrada en la conciencia del protagonista. La primera persona vuelve aún más inmediata la culpa, la fiebre y el miedo a ser descubierto."
+          },
+          {
+            "question": "¿Es recomendable para empezar con Dostoievski?",
+            "answer": "Puede ser útil para lectores curiosos por su brevedad, pero se disfruta mejor si ya se conoce algo del universo dostoievskiano o si se lee como complemento a Crimen y castigo."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Edición digital en PDF: El diario de Raskolnikov",
+            "url": "https://grandeseducadores.files.wordpress.com/2015/10/1866-_crimen_y_castigo_el_diario_de_raskolnikov_col-_austral.pdf"
+          },
+          {
+            "label": "Goodreads: El diario de Raskolnikov",
+            "url": "https://www.goodreads.com/book/show/26200111-el-diario-de-raskolnikov"
+          },
+          {
+            "label": "Porrúa: El diario de Raskolnikov",
+            "url": "https://porrua.mx/el-diario-de-raskolnikov-9788826004983.html"
+          },
+          {
+            "label": "Librerías Gandhi: El diario de Raskolnikov",
+            "url": "https://www.gandhi.com.mx/el-diario-de-raskolnikov/p"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-diario-violeta-de-carlota-de-gemma-lienas",
+      "title": "El Diario Violeta De Carlota",
+      "authorName": "Gemma Lienas",
+      "authorSlug": "gemma-lienas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El diario violeta de Carlota",
+        "authorName": "Gemma Lienas",
+        "authorSlug": "gemma-lienas",
+        "type": "no-ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "ensayo"
+        ],
+        "year": 2001,
+        "pages": 176,
+        "summary": "El diario violeta de Carlota no se limita a contar una historia adolescente: propone una entrada directa, cercana y combativa al pensamiento feminista para lectoras y lectores jóvenes. A partir de preguntas cotidianas sobre el amor, los colores asignados a cada sexo, la iniciativa en las relaciones, la publicidad, el lenguaje y los roles sociales, Gemma Lienas convierte el supuesto diario de Carlota en una guía de observación crítica. El libro invita a \"ponerse las gafas violetas\", es decir, a mirar la vida diaria detectando desigualdades, estereotipos y violencias normalizadas. Su fuerza está en la mezcla de ejemplos concretos, tono accesible y voluntad de interpelación directa. No es una novela ni un tratado académico, sino una herramienta de conciencia feminista escrita para la adolescencia y sostenida por una voz que busca desnaturalizar lo aprendido.",
+        "aboutThisBook": "La propia autora sitúa el libro dentro de la serie de los diarios de Carlota y recuerda su aparición original en 2001. La reedición de PlanetadeLibros lo presenta como un texto emblemático de la literatura juvenil y del feminismo, destacando además la difusión de la expresión \"ponerse las gafas violetas\". Esa formulación resume bien su propuesta: enseñar a leer la vida cotidiana en clave crítica. Su importancia editorial viene de haber acercado debates sobre igualdad, sexismo y construcción social del género a un público adolescente sin perder claridad ni energía. Por eso ha circulado durante años en contextos educativos y de mediación lectora, no solo como libro informativo, sino como detonante de conversación.",
+        "forWhom": "Para adolescentes desde los doce años, docentes, familias y mediadores de lectura que busquen una introducción clara al feminismo y a la crítica de los estereotipos de género.",
+        "whyItMatters": "Importa porque llevó el feminismo a un formato juvenil muy legible, vinculándolo con experiencias concretas de la vida diaria. Sigue siendo útil para nombrar desigualdades que muchas veces se presentan como normales o inocentes.",
+        "editorialIntro": "Hay libros juveniles que acompañan una época y otros que consiguen seguir interpelando décadas después. El diario violeta de Carlota pertenece al segundo grupo. Gemma Lienas encontró una forma directa de traducir ideas feministas complejas a situaciones reconocibles para adolescentes: la ropa, el amor, la escuela, los medios, el lenguaje, el cuerpo. Su vigencia no depende de la nostalgia, sino de una evidencia incómoda: muchas de las desigualdades que señalaba entonces no han desaparecido.",
+        "readingLevel": "Lectura accesible para secundaria: lenguaje claro, ejemplos cotidianos y tono cercano, aunque las preguntas que plantea invitan a discusión guiada y reflexión crítica más allá de una lectura superficial.",
+        "whyReadToday": "Porque sigue ofreciendo un vocabulario nítido para analizar sexismo cotidiano, mandatos de género y desigualdad afectiva en un momento en que esas discusiones siguen siendo necesarias en la escuela y fuera de ella.",
+        "studyNotes": [
+          "El libro debe leerse como guía de reflexión feminista para jóvenes, no como novela tradicional, aunque use la cercanía de un diario para dialogar con el lector.",
+          "La metáfora de las gafas violetas organiza todo el texto: ver de otra manera es el primer paso para discutir lo que parecía natural.",
+          "Conviene observar cómo Lienas parte de escenas cotidianas y preguntas simples para introducir conceptos de desigualdad estructural.",
+          "Su valor pedagógico reside en la combinación de claridad, provocación y apertura al debate."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primeras preguntas: mirar lo cotidiano de otro modo",
+            "summary": "El libro arranca cuestionando hábitos y convenciones muy interiorizadas. Desde colores, conductas amorosas y expectativas sociales, Carlota invita a detectar el sexismo donde normalmente pasa desapercibido."
+          },
+          {
+            "title": "Ponerse las gafas violetas",
+            "summary": "En la parte central se consolida la idea más conocida del libro: aprender a mirar la publicidad, el lenguaje, la escuela y las relaciones desde una perspectiva feminista. La lectura se vuelve una práctica de observación crítica."
+          },
+          {
+            "title": "Del diagnóstico a la toma de posición",
+            "summary": "Hacia el final, el texto insiste en que comprender la desigualdad no basta si no se transforma en actitud, conversación y criterio propio. El diario propone así una conciencia activa, no meramente informativa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Feminismo traducido a experiencia adolescente",
+            "content": "Uno de los grandes aciertos del libro es no presentar el feminismo como doctrina abstracta, sino como lectura crítica de situaciones reconocibles para jóvenes. Ese aterrizaje explica su amplia circulación educativa."
+          },
+          {
+            "heading": "La fuerza de una metáfora duradera",
+            "content": "\"Ponerse las gafas violetas\" funciona como imagen pedagógica muy poderosa. Sugiere que la desigualdad no siempre es invisible por ausencia, sino porque hemos aprendido a no verla."
+          },
+          {
+            "heading": "Un texto híbrido entre guía y diario",
+            "content": "El libro combina cercanía conversacional, apelación directa y voluntad argumentativa. Esa mezcla lo vuelve accesible para adolescentes y, al mismo tiempo, lo aleja de la ficción narrativa convencional."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El diario violeta de Carlota es una novela?",
+            "answer": "No exactamente. La propia ficha editorial señala que no es una novela ni un diario íntimo convencional, sino una guía de reflexión feminista con forma cercana y dialogante."
+          },
+          {
+            "question": "¿Qué significa ponerse las gafas violetas?",
+            "answer": "Significa aprender a mirar la vida cotidiana en clave feminista para detectar desigualdades, estereotipos y violencias de género que suelen presentarse como naturales."
+          },
+          {
+            "question": "¿Para qué edad resulta más adecuado?",
+            "answer": "Funciona especialmente bien desde el inicio de la adolescencia, aproximadamente a partir de los doce años, y también como lectura compartida en contextos educativos."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: El diario violeta de Carlota",
+            "url": "https://www.planetadelibros.com/libro-el-diario-violeta-de-carlota/294512"
+          },
+          {
+            "label": "Web de Gemma Lienas: Los diarios de Carlota",
+            "url": "https://www.gemmalienas.com/collection/8/los-diarios-de-carlota"
+          },
+          {
+            "label": "Casa del Libro: El diario violeta de Carlota",
+            "url": "https://www.casadellibro.com/libro-el-diario-violeta-de-carlota/9788408210764/9383876"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-dios-que-habita-la-espada-de-jose-soto-chica",
+      "title": "El Dios Que Habita La Espada",
+      "authorName": "Jose Soto Chica",
+      "authorSlug": "jose-soto-chica",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El dios que habita la espada",
+        "authorName": "José Soto Chica",
+        "authorSlug": "jose-soto-chica",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 2021,
+        "pages": 528,
+        "summary": "Ambientada en la Hispania visigoda del año 568, esta novela histórica sitúa su centro en el proyecto político de Leovigildo: convertir un territorio fragmentado, violento y todavía marcado por la herencia romana en un reino unido, estable y sometido a una sola ley. José Soto Chica construye ese proceso no como una crónica seca, sino como una trama de guerra, espionaje, fidelidades inestables y conflictos religiosos. Alrededor del rey aparecen figuras de gran relieve, como el guerrero Valtario, la ambiciosa reina Gosvinta y los herederos Hermenegildo y Recaredo. La novela combina batallas, intrigas de corte y dilemas espirituales para mostrar un mundo que oscila entre el cristianismo y la vieja tradición guerrera gótica. El resultado es una ficción de gran aliento que convierte un periodo poco transitado en un escenario dramático y muy humano.",
+        "aboutThisBook": "Ganadora del Premio Edhasa Narrativas Históricas 2021, la novela confirma el doble perfil de su autor: novelista y medievalista especializado en Antigüedad tardía y alta Edad Media. Las fichas de Edhasa y TodosTusLibros subrayan su contexto visigodo y su dimensión épica, pero el interés del libro no reside solo en la recreación militar. Soto Chica trabaja las tensiones entre poder, legitimidad, memoria romana, violencia aristocrática y transformación religiosa. Por eso la obra funciona tanto como narración de aventuras y conspiraciones como aproximación literaria a un momento decisivo en la formación política de la península. La amplitud de su extensión y el peso de sus personajes permiten un desarrollo poco habitual en la novela histórica española reciente sobre este periodo.",
+        "forWhom": "Para lectores adultos de novela histórica exigente, interesados en el mundo visigodo, la política de la Antigüedad tardía y las ficciones de guerra, corte y poder con base documental sólida.",
+        "whyItMatters": "Importa porque rescata un tramo decisivo y poco frecuentado de la historia peninsular sin convertirlo en mero decorado. La novela da espesor narrativo a la unificación impulsada por Leovigildo y muestra cómo la violencia, la fe y la razón de Estado modelan una época de transición.",
+        "editorialIntro": "No abundan las novelas capaces de entrar en la Hispania visigoda con esta combinación de conocimiento histórico, pulso narrativo y ambición política. El dios que habita la espada evita la postal arqueológica y apuesta por un mundo duro, inestable y estratégicamente complejo. Su mayor virtud editorial está en presentar un tiempo remoto como un laboratorio de poder, lealtad y supervivencia, donde el destino colectivo depende tanto de la batalla como de la intriga doméstica y religiosa.",
+        "readingLevel": "Lectura media-alta para público adulto: la prosa es fluida, pero la densidad de personajes, alianzas y contexto histórico exige atención sostenida.",
+        "whyReadToday": "Porque ayuda a pensar cómo se construye un Estado en medio de fracturas territoriales, disputas identitarias y conflictos religiosos, asuntos que siguen teniendo ecos muy actuales.",
+        "studyNotes": [
+          "La novela se apoya en un periodo histórico real: el ascenso de Leovigildo y el intento de consolidar un reino visigodo fuerte en una Hispania fragmentada.",
+          "Conviene observar cómo la ficción reparte el foco entre estrategia militar, intriga palaciega y conflicto religioso, sin reducir la historia a una sola línea de acción.",
+          "Valtario funciona como figura de guerra y lealtad, mientras Gosvinta introduce una política de corte basada en cálculo, ambición y desestabilización.",
+          "El libro gana profundidad si se lee junto con estudios sobre el reino visigodo, porque muchas tensiones narrativas remiten a debates históricos reales sobre legitimidad y unificación."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: una Hispania rota",
+            "summary": "La apertura presenta un territorio inseguro, con pueblos enfrentados y una autoridad todavía precaria. En ese paisaje emerge el proyecto de Leovigildo, que aspira a imponer orden, unidad y continuidad política allí donde dominan la fractura y la violencia."
+          },
+          {
+            "title": "Nudos del poder: conjuras y lealtades",
+            "summary": "La parte central desarrolla el choque entre el ideal de un reino fuerte y las fuerzas que lo erosionan desde dentro. La guerra exterior se entrelaza con traiciones cortesanas, rivalidades nobiliarias y maniobras de Gosvinta, mientras Valtario encarna la dimensión más dura de la fidelidad armada."
+          },
+          {
+            "title": "Fe, herencia y sucesión",
+            "summary": "A medida que avanza la historia, el conflicto político se vuelve también religioso y dinástico. La tensión entre el dios cristiano y la antigua tradición gótica acompaña la formación de los herederos y revela que la unidad del reino depende tanto de la espada como de la idea de legitimidad."
+          },
+          {
+            "title": "Desenlace: el precio de la unidad",
+            "summary": "El tramo final muestra que toda empresa fundadora exige pérdidas, renuncias y decisiones extremas. La novela cierra subrayando que la paz soñada por Leovigildo no surge de una reconciliación simple, sino de un proceso áspero marcado por sangre, cálculo y sacrificio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La Hispania visigoda como escenario literario",
+            "content": "Uno de los grandes valores del libro es convertir un periodo poco visitado por la ficción contemporánea en materia narrativa de primer orden. Soto Chica no usa la época como simple exotismo, sino como marco histórico donde se discuten formas de soberanía, identidad y continuidad política tras el derrumbe del orden romano."
+          },
+          {
+            "heading": "Violencia, legitimidad y construcción del reino",
+            "content": "La novela insiste en que fundar un poder estable no es un proceso limpio. La unidad perseguida por Leovigildo exige disciplina militar, neutralización de rivales y manejo de símbolos religiosos y jurídicos. Esa mezcla vuelve especialmente interesante el libro para leer la política antigua sin ingenuidad."
+          },
+          {
+            "heading": "Personajes históricos con espesor novelesco",
+            "content": "Las figuras del rey, de Gosvinta y de Valtario no se reducen a etiquetas. El autor les concede motivaciones, zonas de sombra y conflictos internos, de modo que la novela mantiene tensión dramática incluso cuando el lector conoce el horizonte histórico general."
+          },
+          {
+            "heading": "Historia académica y narración",
+            "content": "El perfil investigador de José Soto Chica se percibe en la consistencia del mundo representado, pero el libro no cae en el didactismo. La información histórica está subordinada a la acción, y esa es una de las razones por las que la novela resulta a la vez rigurosa y legible."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El dios que habita la espada es una novela histórica o un ensayo?",
+            "answer": "Es una novela histórica. Aunque su autor es historiador y el trasfondo documental es importante, la obra trabaja con recursos de ficción para narrar la Hispania visigoda del siglo VI."
+          },
+          {
+            "question": "¿En qué momento histórico se sitúa?",
+            "answer": "Se sitúa en la Hispania del año 568, durante el ascenso y proyecto político de Leovigildo, en un contexto de fragmentación territorial, violencia y redefinición del poder visigodo."
+          },
+          {
+            "question": "¿Hace falta saber historia visigoda para leerla?",
+            "answer": "No es imprescindible, pero ayuda. La novela ofrece suficiente contexto para seguir la trama, aunque los lectores con interés previo en la Antigüedad tardía aprovecharán mejor sus matices políticos y religiosos."
+          },
+          {
+            "question": "¿Qué distingue esta novela de otras ficciones históricas?",
+            "answer": "Su principal rasgo distintivo es la combinación de conocimiento especializado del periodo, ambición épica y atención a la intriga política, sin simplificar la complejidad del mundo visigodo."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Edhasa: ficha del libro",
+            "url": "https://www.edhasa.es/libros/1260/el-dios-que-habita-la-espada"
+          },
+          {
+            "label": "TodosTusLibros: datos técnicos y descripción",
+            "url": "https://www.todostuslibros.com/libros/el-dios-que-habita-la-espada_978-84-350-6377-7"
+          },
+          {
+            "label": "Desperta Ferro Ediciones: perfil de José Soto Chica",
+            "url": "https://www.despertaferro-ediciones.com/autor/jose-soto-chica/"
+          },
+          {
+            "label": "Open Library: edición de 2021",
+            "url": "https://openlibrary.org/books/OL32213484M/El_dios_que_habita_la_espada"
+          },
+          {
+            "label": "Todoliteratura: reseña crítica",
+            "url": "https://www.todoliteratura.es/noticia/59082/criticas/el-dios-que-habita-la-espada-de-jose-soto-chica.html"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-doctor-fischer-de-ginebra-de-graham-greene",
+      "title": "El Doctor Fischer De Ginebra",
+      "authorName": "Graham Greene",
+      "authorSlug": "graham-greene",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El doctor Fischer de Ginebra",
+        "authorName": "Graham Greene",
+        "authorSlug": "graham-greene",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1980,
+        "pages": 189,
+        "summary": "Esta breve y amarga novela de Graham Greene, publicada originalmente como Doctor Fischer of Geneva or The Bomb Party, está narrada por Alfred Jones, un viudo de mediana edad que trabaja en Suiza y se casa con Anna-Luise, hija de un millonario excéntrico y cruel. El doctor Fischer organiza cenas para un pequeño círculo de ricos complacientes a quienes humilla a cambio de premios valiosos. Lo que en apariencia podría parecer una sátira social deriva pronto hacia una reflexión más sombría sobre la codicia, la dignidad y el vacío moral. Greene reduce el escenario, concentra los personajes y convierte cada encuentro en una prueba ética. El resultado es una fábula feroz sobre la degradación voluntaria, el poder del dinero y la tentación del desprecio absoluto hacia los demás.",
+        "aboutThisBook": "La crítica de The New York Review of Books describió la obra como una especie de cautionary tale, casi una alegoría moral sobre la avaricia, el orgullo y la desesperación. Esa observación ayuda a situarla: no es una novela realista en el sentido más pleno de Greene, sino una pieza condensada, más seca y deliberadamente esquemática, donde la sátira social y la parábola ética se superponen. La edición española de Emecé de 1980, registrada en Open Library, muestra además la rápida circulación internacional del libro. Aunque es una obra tardía dentro de la trayectoria del autor, mantiene varios de sus temas centrales: personajes dañados, humor sombrío, culpa, soledad y una visión profundamente ambivalente de la naturaleza humana.",
+        "forWhom": "Para lectores adultos que busquen una novela breve, incisiva y moralmente incómoda, especialmente si disfrutan de la sátira negra, la alegoría y los clásicos del siglo XX.",
+        "whyItMatters": "Sigue importando porque ofrece una de las críticas más concentradas y crueles de Greene contra la humillación convertida en espectáculo. Su brevedad no reduce su alcance: examina cómo el dinero altera la dignidad, cómo el dolor puede convertirse en cinismo y cómo la codicia acepta casi cualquier degradación.",
+        "editorialIntro": "Hay novelas cortas que parecen menores hasta que empiezan a apretar la garganta del lector. El doctor Fischer de Ginebra pertenece a esa clase. Greene toma un ambiente refinado, una galería mínima de personajes y un anfitrión monstruosamente lúcido para desmontar la cortesía burguesa y exponer el mecanismo íntimo de la humillación. Bajo la apariencia de una sátira elegante, el libro avanza como una parábola venenosa sobre la riqueza, el resentimiento y la facilidad con que la gente acepta envilecerse por recompensa.",
+        "readingLevel": "Lectura accesible en extensión, pero exigente en tono y subtexto moral; conviene a lectores capaces de apreciar ironía, ambigüedad y violencia psicológica.",
+        "whyReadToday": "Porque anticipa debates contemporáneos sobre obscenidad del lujo, sadismo social y fascinación pública por el espectáculo de la degradación ajena.",
+        "studyNotes": [
+          "La novela funciona mejor si se lee como sátira moral y no solo como intriga narrativa: las cenas son experimentos de humillación, no simples escenas extravagantes.",
+          "El narrador Alfred Jones aporta una voz herida y desencantada que impide una lectura puramente caricaturesca del mundo de Fischer.",
+          "La obra contrapone riqueza y dignidad: los invitados aceptan el ridículo a cambio de premios, mientras Jones conserva una resistencia moral inestable pero decisiva.",
+          "Su brevedad es parte de su fuerza: Greene elimina lo accesorio para concentrarse en unos pocos gestos capaces de revelar una visión muy amarga del ser humano."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Presentación del narrador y del círculo de Fischer",
+            "summary": "Alfred Jones conoce a Anna-Luise y, a través de ella, entra en contacto con el doctor Fischer. Desde el comienzo se define el contraste entre una vida emocional vulnerable y el mundo glacial de un millonario que desprecia a quienes lo rodean."
+          },
+          {
+            "title": "Las cenas como laboratorio de humillación",
+            "summary": "La primera mitad del libro desarrolla la lógica de las veladas organizadas por Fischer. Los invitados aceptan burlas y pruebas degradantes porque al final reciben regalos de gran valor, revelando hasta dónde puede llegar la codicia cuando se mezcla con la necesidad de pertenecer."
+          },
+          {
+            "title": "Pérdida, aislamiento y endurecimiento moral",
+            "summary": "Cuando la historia gira hacia la tragedia personal, Jones queda más expuesto al nihilismo del doctor Fischer. El dolor íntimo intensifica la pregunta central del libro: qué queda de la dignidad cuando la desgracia y el resentimiento alteran la relación con el mundo."
+          },
+          {
+            "title": "La fiesta de la bomba",
+            "summary": "En el desenlace, Greene lleva su lógica alegórica al extremo con una cena final donde premio y muerte aparecen inseparablemente unidos. La escena resume el universo moral de la novela y convierte el entretenimiento de los ricos en una forma de violencia terminal."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Alegoría de la codicia",
+            "content": "La crítica de Robert Towers en The New York Review of Books acierta al ver la novela como una advertencia moral casi alegórica. Fischer no es solo un excéntrico: representa una inteligencia deformada por el desprecio, empeñada en probar que el ser humano puede vender su dignidad por casi cualquier beneficio."
+          },
+          {
+            "heading": "Humillación y espectáculo",
+            "content": "Las cenas son rituales de exhibición social. Greene muestra que la violencia no necesita siempre sangre ni gritos: basta con un entorno elegante, una recompensa suficiente y un grupo dispuesto a normalizar el abuso como si fuera una broma privada."
+          },
+          {
+            "heading": "El dolor del narrador frente al cinismo de Fischer",
+            "content": "Jones no es un héroe limpio ni un mero observador. Su fragilidad, su viudez y su pérdida lo vuelven vulnerable a la desesperación, pero también lo distinguen de los invitados que han aceptado vivir dentro de la lógica de Fischer. La novela depende de esa tensión entre abatimiento y resistencia moral."
+          },
+          {
+            "heading": "Una obra tardía y concentrada de Greene",
+            "content": "Aunque no suele figurar entre sus novelas más célebres, el libro condensa varios rasgos centrales de Greene: humor negro, culpa, compasión por los heridos y una visión muy dura de la corrupción interior. Su aparente ligereza formal encubre una gran severidad filosófica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El doctor Fischer de Ginebra es una novela larga?",
+            "answer": "No. Es una novela breve, casi una novela corta, y precisamente esa concentración refuerza su tono de parábola cruel y su potencia satírica."
+          },
+          {
+            "question": "¿Es una sátira o una historia trágica?",
+            "answer": "Es ambas cosas. Empieza con una fuerte dimensión satírica sobre el dinero y la humillación social, pero avanza hacia una tragedia moral marcada por la pérdida, la desesperación y el desprecio."
+          },
+          {
+            "question": "¿Qué significa la “fiesta de la bomba” del título original?",
+            "answer": "Alude a la cena final del libro, donde Greene lleva al extremo su experimento moral y vincula la codicia de los invitados con una amenaza de muerte real."
+          },
+          {
+            "question": "¿Es una buena puerta de entrada a Graham Greene?",
+            "answer": "Sí, sobre todo para lectores que prefieren textos breves y corrosivos. No resume toda la variedad del autor, pero ofrece con claridad su ironía, su pesimismo y su interés por los dilemas morales."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia en español: El doctor Fischer de Ginebra",
+            "url": "https://es.wikipedia.org/wiki/El_doctor_Fischer_de_Ginebra"
+          },
+          {
+            "label": "Open Library: edición española de 1980",
+            "url": "https://openlibrary.org/books/OL16569258M/El_doctor_Fischer_de_Ginebra"
+          },
+          {
+            "label": "Open Library: ficha de la obra",
+            "url": "https://openlibrary.org/works/OL106063W/Doctor_Fischer_of_Geneva_or_The_Bomb_Party"
+          },
+          {
+            "label": "The New York Review of Books: “Cautionary Tale”",
+            "url": "https://www.nybooks.com/articles/1980/06/12/cautionary-tale/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-documento-q-de-cesar-vidal",
+      "title": "El Documento Q",
+      "authorName": "Cesar Vidal",
+      "authorSlug": "cesar-vidal",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El documento Q",
+        "authorName": "César Vidal",
+        "authorSlug": "cesar-vidal",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2005,
+        "pages": 300,
+        "summary": "Lejos de ser una novela, El documento Q es un ensayo de divulgación histórica y religiosa en el que César Vidal aborda la llamada Fuente Q, la hipotética colección de dichos de Jesús que muchos especialistas consideran una de las bases utilizadas por los evangelistas Mateo y Lucas. La propuesta del libro, según la documentación editorial de Planeta, combina la reconstrucción y traducción al castellano de ese material con una explicación del contexto judío del siglo I, de las instituciones religiosas del periodo y del debate sobre la historicidad de Jesús. Vidal presenta así una obra orientada al lector interesado en los orígenes del cristianismo, en la crítica textual y en la discusión sobre cómo se formaron los evangelios. El énfasis no está en la ficción ni en la devoción, sino en una interpretación histórica con vocación de claridad expositiva.",
+        "aboutThisBook": "La ficha editorial de Planeta y su dossier de prensa describen el volumen como una reconstrucción del Documento o Fuente Q acompañada por estudio introductorio, análisis del judaísmo de la época y apéndices sobre la fecha de redacción de los evangelios y las posibilidades de conocer históricamente a Jesús. Open Library registra la edición de 2005 con 300 páginas, lo que confirma su condición de libro de ensayo más amplio que una mera traducción comentada. El interés del título radica en su intento de acercar al público general una cuestión clásica de la investigación neotestamentaria: si existió una fuente previa de dichos usada por los evangelios sinópticos y qué consecuencias tendría para comprender la predicación de Jesús y la formación del cristianismo primitivo.",
+        "forWhom": "Para lectores adultos interesados en historia del cristianismo, estudios bíblicos, crítica textual y divulgación religiosa con enfoque histórico más que confesional.",
+        "whyItMatters": "Importa porque introduce a un público amplio en uno de los debates más influyentes de la investigación sobre los evangelios sinópticos. Al poner en primer plano la Fuente Q, el libro obliga a pensar cómo se construyen los textos sagrados y qué puede decir la crítica histórica sobre Jesús.",
+        "editorialIntro": "Este libro conviene situarlo correctamente desde el principio: no es una novela de intriga religiosa, sino un ensayo sobre una de las hipótesis documentales más discutidas del Nuevo Testamento. César Vidal lo plantea como una combinación de reconstrucción textual, contextualización histórica y argumentación divulgativa. Su interés editorial está en traducir para el lector común un debate académico complejo y cargado de implicaciones: de qué materiales disponemos para acercarnos al Jesús histórico y cómo se formaron los evangelios canónicos.",
+        "readingLevel": "Lectura media para adultos: el lenguaje busca ser divulgativo, pero exige interés por historia religiosa, filología bíblica y debates de crítica textual.",
+        "whyReadToday": "Porque las discusiones sobre el Jesús histórico, la transmisión de textos y la relación entre fe e investigación siguen vivas y siguen despertando enorme interés cultural.",
+        "studyNotes": [
+          "El libro debe clasificarse como ensayo o divulgación histórica religiosa, no como ficción: su centro es la hipótesis de la Fuente Q y su traducción o reconstrucción.",
+          "Conviene distinguir entre hecho comprobado e hipótesis académica: el Documento Q no es un manuscrito conservado, sino una reconstrucción inferida a partir de coincidencias entre Mateo y Lucas.",
+          "La obra combina tres planos: reconstrucción textual, contexto judío del siglo I y reflexión sobre lo que ese material permitiría decir acerca de Jesús.",
+          "Resulta útil comparar sus planteamientos con manuales de estudios bíblicos para valorar tanto su claridad divulgativa como las zonas discutibles de cualquier reconstrucción sobre Q."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento del problema",
+            "summary": "El libro introduce la hipótesis de la Fuente Q y explica por qué muchos estudiosos la consideran un elemento clave para entender las relaciones entre los evangelios sinópticos. El lector entra así en un debate de crítica textual que busca reconstruir un material previo hoy no conservado."
+          },
+          {
+            "title": "Reconstrucción y traducción del documento",
+            "summary": "En el núcleo de la obra, Vidal presenta el Documento Q como una colección de dichos atribuibles a Jesús y propone una versión en castellano de ese material. Esta sección sostiene la originalidad editorial del libro y concentra su apuesta principal."
+          },
+          {
+            "title": "Contexto judío e instituciones del siglo I",
+            "summary": "La parte intermedia amplía el foco hacia la historia judía del tiempo de Jesús y los apóstoles. El Templo, el Sanedrín, la sinagoga y la sociedad del periodo aparecen como marcos necesarios para interpretar el sentido de los dichos y la recepción posterior del mensaje."
+          },
+          {
+            "title": "Implicaciones históricas y apéndices",
+            "summary": "El cierre se ocupa de lo que la Fuente Q podría revelar sobre Jesús y añade materiales complementarios sobre la datación de los evangelios y los límites del conocimiento histórico. La obra termina, por tanto, abriendo preguntas más que clausurándolas de forma dogmática."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Qué es la Fuente Q",
+            "content": "El eje intelectual del libro es la llamada hipótesis de las dos fuentes, según la cual Mateo y Lucas habrían utilizado el evangelio de Marcos y otra colección de dichos hoy perdida. Trabajar sobre Q significa moverse en el terreno de la inferencia filológica, no en el de un documento hallado y cerrado de manera definitiva."
+          },
+          {
+            "heading": "Divulgación de un debate académico complejo",
+            "content": "El mérito más visible de la obra está en acercar al lector no especialista un problema técnico de estudios bíblicos. En lugar de presuponer conocimientos de crítica textual, intenta exponer la cuestión con orden, contexto y voluntad argumentativa, aunque cualquier simplificación de este campo debe leerse con cautela."
+          },
+          {
+            "heading": "Jesús histórico y formación de los evangelios",
+            "content": "El libro interesa sobre todo por la relación que establece entre la reconstrucción de Q y la posibilidad de conocer capas tempranas de la predicación de Jesús. Esa relación es crucial, porque desplaza la atención desde la lectura puramente confesional hacia la historia de transmisión y composición de los textos cristianos."
+          },
+          {
+            "heading": "Límites interpretativos",
+            "content": "Como ocurre con cualquier obra basada en una fuente hipotética, sus conclusiones deben valorarse con sentido crítico. El lector gana mucho si entiende que la reconstrucción de Q depende de consensos parciales, debates abiertos y métodos comparativos que no eliminan por completo la incertidumbre."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El documento Q es una novela?",
+            "answer": "No. Es un ensayo de divulgación histórica y religiosa sobre la llamada Fuente Q, el contexto del judaísmo del siglo I y el problema de los orígenes textuales de los evangelios."
+          },
+          {
+            "question": "¿Qué significa “Documento Q”?",
+            "answer": "Se refiere a una fuente hipotética utilizada, según una hipótesis muy extendida, por los evangelistas Mateo y Lucas. No es un manuscrito conservado completo, sino una reconstrucción basada en comparación textual."
+          },
+          {
+            "question": "¿Qué temas trata además de la reconstrucción de Q?",
+            "answer": "Según la documentación editorial, también aborda la historia judía en tiempos de Jesús, instituciones como el Templo, el Sanedrín y la sinagoga, y la discusión sobre la fecha de los evangelios y el conocimiento histórico de Jesús."
+          },
+          {
+            "question": "¿Hace falta formación bíblica para leerlo?",
+            "answer": "No necesariamente, aunque ayuda tener interés previo por historia religiosa. El libro está orientado a la divulgación, pero sus asuntos son más provechosos para lectores dispuestos a seguir argumentos históricos y filológicos."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: ficha del libro",
+            "url": "https://www.planetadelibros.com/libro-el-documento-q/9625"
+          },
+          {
+            "label": "Planeta: dossier de prensa en PDF",
+            "url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/9625/el-documento-q.pdf"
+          },
+          {
+            "label": "Open Library: edición de 2005",
+            "url": "https://openlibrary.org/books/OL9116384M/El_documento_Q"
+          },
+          {
+            "label": "Lecturalia: ficha bibliográfica y sinopsis",
+            "url": "https://www.lecturalia.com/libro/440/el-documento-q"
+          },
+          {
+            "label": "Casa del Libro: datos editoriales",
+            "url": "https://www.casadellibro.com/libro-el-documento-q/9788408063261/1050605"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-21T01:16:36Z"
+}

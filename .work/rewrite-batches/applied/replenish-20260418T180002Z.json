@@ -1,0 +1,1555 @@
+{
+  "batchName": "replenish-20260418T180002Z",
+  "createdAt": "2026-04-18T18:00:06Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-placebo-eres-tu-de-joe-dispenza",
+      "title": "El Placebo Eres Tu",
+      "authorName": "Joe Dispenza",
+      "authorSlug": "joe-dispenza",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 10,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El placebo eres tú",
+        "authorName": "Joe Dispenza",
+        "authorSlug": "joe-dispenza",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "desarrollo-personal",
+          "ensayo"
+        ],
+        "year": 2014,
+        "pages": 345,
+        "summary": "El placebo eres tú es un libro de divulgación y autoayuda en el que Joe Dispenza intenta explicar el llamado efecto placebo como una muestra del poder que tienen las creencias, la expectativa y la atención sobre el cuerpo y la conducta. A partir de casos clínicos, referencias a neurociencia, biología, psicología y medicina mente-cuerpo, el autor sostiene que una persona puede modificar hábitos, estados emocionales e incluso ciertos procesos fisiológicos si cambia de manera sostenida sus pensamientos y respuestas internas. La obra combina exposición teórica con una propuesta práctica de transformación personal, y culmina en ejercicios de preparación mental y meditación orientados a romper patrones limitantes y ensayar una identidad distinta.",
+        "aboutThisBook": "Publicado originalmente como You Are the Placebo: Making Your Mind Matter, este libro pertenece a la zona más conocida de la obra de Joe Dispenza, donde convergen discurso motivacional, medicina alternativa y divulgación sobre mente y cuerpo. No es un tratado académico ni un manual clínico, sino una defensa persuasiva de la idea de que la expectativa y la conciencia pueden intervenir en la salud y en la conducta. Su estructura combina explicación del fenómeno placebo, historias de recuperación y una guía práctica para aplicar esa lógica al cambio personal.",
+        "forWhom": "Para lectores adultos interesados en autoayuda, hábitos, meditación, bienestar mente-cuerpo y discursos contemporáneos sobre transformación personal, especialmente quienes buscan un libro accesible y argumentativo más que una obra académica.",
+        "whyItMatters": "Sigue siendo relevante porque popularizó, para un público amplio, una conversación muy extendida sobre creencias, neuroplasticidad, sugestión y responsabilidad personal en los procesos de cambio. También importa porque obliga a distinguir entre inspiración, evidencia científica y promesas terapéuticas.",
+        "editorialIntro": "Pocos libros de desarrollo personal han explotado tanto una pregunta fronteriza entre ciencia, expectativa y deseo: ¿hasta dónde puede llegar la mente en la transformación del cuerpo y de la vida cotidiana? Dispenza construye su respuesta con una mezcla muy reconocible de casos llamativos, lenguaje científico popularizado y una invitación insistente a abandonar la identidad repetida. El interés editorial del libro está tanto en su tesis como en el enorme eco que ha tenido dentro de la cultura del bienestar.",
+        "readingLevel": "Lectura media para público general adulto. El lenguaje busca ser accesible, pero introduce vocabulario de neurociencia, psicología y biología que conviene leer con atención crítica.",
+        "whyReadToday": "Porque resume una corriente muy influyente de pensamiento sobre hábitos, creencias y cambio personal, y permite examinar con claridad tanto su atractivo como sus zonas más discutibles.",
+        "studyNotes": [
+          "El núcleo del libro no es solo el placebo médico, sino la idea de que la expectativa puede reorganizar percepciones, emociones y conductas.",
+          "Conviene separar tres planos: los casos narrados por el autor, la evidencia científica general sobre el efecto placebo y las conclusiones más ambiciosas que él extrae.",
+          "La segunda parte del libro convierte la teoría en método: preparación mental, revisión de creencias y meditación para consolidar cambios.",
+          "Es útil leerlo comparándolo con divulgación científica más estricta sobre neuroplasticidad, sugestión y medicina basada en evidencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: qué es el efecto placebo",
+            "summary": "El libro abre con una explicación histórica y conceptual del placebo. Dispenza repasa cómo la expectativa, la autoridad médica y la creencia pueden influir en la mejoría percibida, y presenta el fenómeno como una puerta de entrada para pensar el poder de la mente sobre el cuerpo."
+          },
+          {
+            "title": "Cerebro, cuerpo y creencias",
+            "summary": "En la zona central, el autor enlaza placebo, actividad cerebral, emociones y respuestas fisiológicas. Su argumento insiste en que pensamientos repetidos y percepciones arraigadas crean estados corporales duraderos, por lo que modificar la interpretación de la experiencia podría alterar también la biología cotidiana."
+          },
+          {
+            "title": "Historias de transformación",
+            "summary": "Dispenza incorpora casos de personas que, según su exposición, lograron cambios profundos en salud o conducta al modificar convicciones y estados internos. Estas historias cumplen una función persuasiva: traducen una tesis abstracta en relatos de posibilidad y refuerzan la idea de que la identidad no es fija."
+          },
+          {
+            "title": "Segunda parte: práctica de cambio interior",
+            "summary": "El tramo final propone ejercicios de preparación y meditación destinados a identificar creencias limitantes, interrumpir automatismos mentales y ensayar una nueva forma de pensar y sentir. La tesis práctica es que la transformación requiere repetición consciente, no solo comprensión intelectual."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Entre divulgación y promesa de transformación",
+            "content": "El libro trabaja en una frontera muy efectiva para el mercado editorial: toma conceptos científicos reconocibles y los integra en una narrativa de empoderamiento personal. Esa combinación lo vuelve atractivo para lectores no especializados, pero también exige cautela al evaluar cuánto pertenece a la evidencia sólida y cuánto a la extrapolación motivacional."
+          },
+          {
+            "heading": "El placebo como argumento cultural",
+            "content": "Más que describir un fenómeno médico puntual, Dispenza convierte el placebo en símbolo de una posibilidad humana general: la capacidad de rehacer la experiencia desde la conciencia. Esa ampliación explica su impacto, porque transforma un concepto clínico en una filosofía de vida centrada en creencias, intención y cambio de identidad."
+          },
+          {
+            "heading": "El papel de los casos narrativos",
+            "content": "Los testimonios y ejemplos cumplen una función central en la persuasión del libro. No solo ilustran; organizan emocionalmente la lectura y producen la impresión de que el cambio extraordinario está al alcance. Analizar esa estrategia ayuda a entender por qué la obra convence a tantos lectores incluso cuando algunos fundamentos son debatidos."
+          },
+          {
+            "heading": "Lectura crítica contemporánea",
+            "content": "Hoy conviene leer este libro junto a debates sobre bienestar, pseudociencia, medicina integrativa y responsabilidad individual. Su interés no reside únicamente en aceptar o rechazar su tesis, sino en observar cómo se construye un discurso de transformación que promete autonomía, sentido y control en contextos de incertidumbre."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro científico o de autoayuda?",
+            "answer": "Se acerca más a la divulgación de corte motivacional y a la autoayuda que a un tratado científico académico. Usa lenguaje y referencias científicas, pero su propósito principal es impulsar una práctica de transformación personal."
+          },
+          {
+            "question": "¿Cuál es la idea central de El placebo eres tú?",
+            "answer": "Que las creencias, la expectativa y la atención no solo influyen en la experiencia subjetiva, sino que pueden participar activamente en cambios físicos, emocionales y conductuales cuando se entrenan de manera deliberada."
+          },
+          {
+            "question": "¿El libro incluye ejercicios prácticos?",
+            "answer": "Sí. La parte final propone preparación mental y meditación orientadas a identificar viejos patrones, modificar percepciones y sostener una nueva respuesta interna frente a la realidad cotidiana."
+          },
+          {
+            "question": "¿Conviene leerlo críticamente?",
+            "answer": "Sí. Resulta útil como síntesis de una corriente de pensamiento muy difundida, pero conviene distinguir entre el efecto placebo reconocido por la investigación médica y las conclusiones más amplias que el autor deriva de ese fenómeno."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Hay House: You Are the Placebo",
+            "url": "https://www.hayhouse.com/you-are-the-placebo-paperback"
+          },
+          {
+            "label": "Open Library: You are the placebo",
+            "url": "https://openlibrary.org/works/OL19983409W"
+          },
+          {
+            "label": "Google Books: You are the Placebo",
+            "url": "https://books.google.es/books?id=agpCnwEACAAJ"
+          },
+          {
+            "label": "Wikipedia: Joe Dispenza",
+            "url": "https://es.wikipedia.org/wiki/Joe_Dispenza"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-principe-destronado-de-miguel-delibes",
+      "title": "El Principe Destronado",
+      "authorName": "Miguel Delibes",
+      "authorSlug": "miguel-delibes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 10,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El príncipe destronado",
+        "authorName": "Miguel Delibes",
+        "authorSlug": "miguel-delibes",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela",
+          "realismo",
+          "ficción literaria"
+        ],
+        "year": 1973,
+        "pages": 176,
+        "summary": "El príncipe destronado concentra su mirada en Quico, un niño pequeño que vive el desconcierto de haber dejado de ser el centro absoluto de la casa tras el nacimiento de una nueva hermana. Delibes convierte esa crisis doméstica en una novela de gran precisión psicológica: los celos, la necesidad de atención, las pequeñas injusticias y la imaginación infantil aparecen filtrados por una voz muy cercana al habla del niño. A lo largo de escenas cotidianas, el libro retrata también la estructura familiar, la educación sentimental y el clima social de la España de su tiempo. Sin recurrir a grandes acontecimientos, la novela muestra cómo una vida doméstica aparentemente menor puede contener conflictos profundos de identidad, afecto y aprendizaje.",
+        "aboutThisBook": "Publicada en 1973, esta novela de Miguel Delibes es una de sus obras más finas sobre la infancia. La Fundación Miguel Delibes la presenta como la historia de un niño que se siente desplazado por la llegada de una hermana menor, y esa premisa basta para desplegar un retrato familiar lleno de matices. La fuerza del libro está en la combinación de humor, ternura y observación social. Delibes no idealiza la niñez: la muestra vulnerable, egoísta, imaginativa y muy atenta a los gestos de los adultos.",
+        "forWhom": "Para lectores de narrativa literaria, estudiantes de bachillerato o universidad y quienes busquen novelas breves con gran profundidad psicológica.",
+        "whyItMatters": "Importa porque demuestra hasta qué punto la mirada infantil puede revelar tensiones familiares y sociales que los adultos normalizan. Es una novela breve, pero muy rica para estudiar punto de vista, lenguaje y realismo.",
+        "editorialIntro": "Hay novelas que parecen pequeñas por lo que cuentan y enormes por la exactitud con que lo cuentan. El príncipe destronado pertenece a esa clase. Delibes toma un conflicto doméstico sencillo y lo transforma en una exploración memorable de la infancia, de la fragilidad del lugar propio dentro de la familia y de la manera en que un niño interpreta un mundo que no controla.",
+        "readingLevel": "Accesible en la superficie, pero especialmente provechosa para lectores que quieran fijarse en ironía, focalización y matices del habla infantil.",
+        "whyReadToday": "Sigue siendo actual porque retrata los celos infantiles, la redistribución del afecto en la familia y la mirada de un niño ante un mundo adulto que cambia sin pedirle permiso. Esa combinación de ternura, humor y observación psicológica mantiene la novela viva para lectores de hoy.",
+        "studyNotes": [
+          "La novela trabaja desde una focalización muy próxima a la percepción de Quico.",
+          "El lenguaje reproduce la lógica y las deformaciones propias del habla infantil.",
+          "La familia funciona como microcosmos de normas, afectos y desigualdades.",
+          "Los celos no se presentan como simple capricho, sino como herida de desplazamiento.",
+          "La cotidianeidad sustituye al gran argumento y se vuelve el verdadero campo dramático."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El reino perdido",
+            "summary": "La novela sitúa al lector en la experiencia íntima de un niño que percibe que su lugar privilegiado en la casa se ha debilitado. Desde el comienzo, los gestos de los adultos y la presencia absorbente del bebé alteran su seguridad emocional. Lo importante no es un hecho único, sino la acumulación de pequeñas señales de desplazamiento."
+          },
+          {
+            "title": "Parte 2: La casa vista desde abajo",
+            "summary": "A través de conversaciones, juegos, prohibiciones y malentendidos, Delibes muestra cómo el mundo adulto resulta opaco para el protagonista. La lógica de la familia aparece fragmentada y a veces arbitraria. Esa distancia entre lo que los mayores creen decir y lo que el niño entiende sostiene buena parte de la tensión narrativa."
+          },
+          {
+            "title": "Parte 3: Celos, fantasía y desorden afectivo",
+            "summary": "El malestar del protagonista se convierte en rabietas, comparaciones y pensamientos que revelan su necesidad de recuperar atención. La novela no juzga al niño: lo observa con cercanía. En ese proceso, el lector entiende que los celos infantiles son una forma de miedo y también una lucha por la identidad."
+          },
+          {
+            "title": "Parte 4: Comprensión parcial",
+            "summary": "Hacia el final no hay una resolución melodramática, sino un reajuste emocional. La vida familiar sigue, pero el lector percibe que el protagonista ha atravesado una pequeña crisis decisiva. Delibes deja una impresión de ternura crítica: crecer implica aceptar que el amor compartido nunca vuelve a sentirse como posesión exclusiva."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La infancia como punto de observación",
+            "content": "Delibes construye la novela desde la percepción limitada pero intensísima de un niño. Esa elección no empobrece la realidad: al contrario, la vuelve más reveladora. Lo que el protagonista no entiende por completo obliga al lector a reconstruir las dinámicas familiares y a advertir la distancia entre experiencia y explicación adulta."
+          },
+          {
+            "heading": "Realismo sin solemnidad",
+            "content": "La novela pertenece al mejor realismo de Delibes porque no necesita grandes escenas para mostrar conflicto. La comedia cotidiana, las palabras mal oídas, los hábitos de la casa y las reacciones del niño bastan para dar espesor humano al relato. El tono combina ternura con una observación social muy precisa."
+          },
+          {
+            "heading": "El destronamiento como metáfora",
+            "content": "El título nombra una pérdida concreta, pero también una verdad más amplia: nadie conserva para siempre el centro del mundo. El paso de ser hijo único o favorito a compartir afectos se vuelve aquí una experiencia fundacional. Por eso la novela habla tanto de familia como de aprendizaje emocional."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El príncipe destronado?",
+            "answer": "Trata del desconcierto y los celos de un niño pequeño que siente que ha perdido su lugar privilegiado en la familia tras la llegada de una nueva hermana."
+          },
+          {
+            "question": "¿Es una novela infantil?",
+            "answer": "No exactamente. Aunque su protagonista es un niño y la mirada narrativa se acerca a la infancia, es una novela literaria pensada para lectores generales y muy útil en contextos de estudio."
+          },
+          {
+            "question": "¿Qué temas destacan más?",
+            "answer": "La infancia, los celos, la familia, el aprendizaje afectivo, la percepción parcial del mundo adulto y el realismo cotidiano."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Fundación Miguel Delibes: El príncipe destronado",
+            "url": "https://fundacionmigueldelibes.es/obras/el-principe-destronado/"
+          },
+          {
+            "label": "PlanetadeLibros: ficha de El príncipe destronado",
+            "url": "https://www.planetadelibros.com/libro-el-principe-destronado/308045"
+          },
+          {
+            "label": "Open Library: El príncipe destronado",
+            "url": "https://openlibrary.org/books/OL1825175M"
+          },
+          {
+            "label": "Wikipedia: El príncipe destronado",
+            "url": "https://es.wikipedia.org/wiki/El_pr%C3%ADncipe_destronado"
+          },
+          {
+            "label": "Britannica: Miguel Delibes",
+            "url": "https://www.britannica.com/biography/Miguel-Delibes"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-vuelo-del-angel-de-michael-connelly",
+      "title": "El Vuelo Del Angel",
+      "authorName": "Michael Connelly",
+      "authorSlug": "michael-connelly",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 10,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El vuelo del ángel",
+        "authorName": "Michael Connelly",
+        "authorSlug": "michael-connelly",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 1999,
+        "pages": 382,
+        "summary": "En esta entrega de la serie de Harry Bosch, Michael Connelly convierte una investigación criminal en un examen duro de Los Ángeles, de su policía y de sus fracturas raciales. El asesinato del abogado Howard Elias, conocido por denunciar abusos del LAPD, coloca a Bosch ante un caso políticamente explosivo: si descubre al culpable, puede exponer también la violencia institucional y el resentimiento acumulado en la ciudad. A medida que sigue las pistas, el detective se adentra en un entramado de intereses judiciales, viejas lealtades policiales y miedo público. La novela combina ritmo de procedimiento, tensión moral y una mirada muy concreta sobre cómo el crimen se mezcla con poder, prejuicio y memoria urbana.",
+        "aboutThisBook": "Publicada originalmente como Angels Flight en 1999, esta novela es la octava de Michael Connelly y la sexta protagonizada por Harry Bosch. Su título remite al célebre funicular de Los Ángeles, convertido aquí en un símbolo de la ciudad y en una escena clave del caso. El libro pertenece al mejor Connelly: investigación policial minuciosa, presión política constante y un detective que avanza aunque cada descubrimiento complique más el panorama. La edición española circuló como El vuelo del ángel y consolidó la recepción del autor en el ámbito hispano.",
+        "forWhom": "Para lectores de novela negra y thriller policial que disfrutan investigaciones complejas, conflictos institucionales y protagonistas obligados a elegir entre obedecer al sistema o seguir la verdad.",
+        "whyItMatters": "Importa porque une el suspense con una reflexión muy concreta sobre racismo, violencia policial y credibilidad institucional. No se limita a resolver un crimen: muestra cómo una ciudad entera queda implicada en aquello que prefiere no mirar.",
+        "editorialIntro": "Michael Connelly domina como pocos la novela policial urbana, y en El vuelo del ángel esa destreza alcanza una de sus formas más tensas. El caso central parece, al comienzo, un asesinato de alta repercusión mediática; pronto se vuelve algo más incómodo: una exploración de la relación entre justicia, policía, opinión pública y conflicto racial en Los Ángeles. Por eso la novela funciona tanto como thriller adictivo como retrato moral de una ciudad herida.",
+        "readingLevel": "Lectura media-alta para público adulto. La prosa es clara y muy fluida, pero la trama exige seguir procedimientos policiales, nombres de funcionarios, giros de investigación y tensiones sociales que enriquecen el caso.",
+        "whyReadToday": "Porque sigue dialogando con debates muy actuales sobre brutalidad policial, confianza pública y uso político de la justicia penal, sin perder eficacia como novela de suspense.",
+        "studyNotes": [
+          "El caso de Howard Elias no es solo una investigación de homicidio: organiza una crítica al vínculo entre policía, fiscalía, medios y conflicto racial.",
+          "Harry Bosch actúa como figura ética clásica de la novela negra: pertenece a la institución, pero su sentido de la verdad lo obliga a desafiarla.",
+          "El espacio urbano importa mucho: Los Ángeles no es un simple fondo, sino una ciudad marcada por división social, memoria de violencia y simbolismo geográfico.",
+          "Conviene observar cómo Connelly alterna procedimiento policial, presión política y suspense sin abandonar la dimensión moral del relato."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El crimen que enciende la ciudad",
+            "summary": "La aparición del cadáver de Howard Elias sitúa a Bosch ante un caso de enorme sensibilidad pública. La víctima había denunciado brutalidad policial y preparaba una ofensiva judicial que amenazaba con exponer a varios agentes del LAPD."
+          },
+          {
+            "title": "Bosch contra la versión conveniente",
+            "summary": "Mientras la investigación avanza, Bosch percibe que muchos actores quieren una solución rápida antes que una verdad incómoda. Las presiones internas, la vigilancia mediática y los intereses cruzados vuelven cada pista más arriesgada."
+          },
+          {
+            "title": "Testigos, secretos y nuevos peligros",
+            "summary": "El caso se ensancha cuando aparecen conexiones con otras muertes y con zonas oscuras del propio departamento. Bosch comprende que el asesinato no puede separarse del clima de miedo, resentimiento y encubrimiento que lo rodea."
+          },
+          {
+            "title": "Resolver el caso y asumir su costo",
+            "summary": "En la parte final, la novela confronta a Bosch con las consecuencias reales de descubrir la verdad. Resolver el crimen implica también poner en cuestión la legitimidad de ciertas prácticas policiales y aceptar que la justicia rara vez deja intactas a las instituciones."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La ciudad como problema moral",
+            "content": "Connelly construye Los Ángeles como una red de barrios, jerarquías y heridas históricas. El crimen investigado revela que la ciudad no está unida por una ley común, sino atravesada por desigualdades y memorias de violencia que condicionan cada lectura del caso."
+          },
+          {
+            "heading": "Harry Bosch y la ética del procedimiento",
+            "content": "Bosch no investiga solo para cerrar expedientes. Su rasgo distintivo es la convicción de que el procedimiento importa porque define la diferencia entre justicia y abuso. Esa insistencia lo enfrenta a compañeros, mandos y cálculos políticos que preferirían resultados manejables."
+          },
+          {
+            "heading": "Racismo, institución y relato policial",
+            "content": "La novela utiliza la estructura del thriller para introducir una cuestión mayor: qué ocurre cuando la institución encargada de proteger también puede ser sospechosa. El caso de Elias vuelve visible la fragilidad de la confianza pública cuando el racismo y la violencia policial forman parte del problema."
+          },
+          {
+            "heading": "Suspense con densidad social",
+            "content": "Uno de los méritos del libro es que nunca sacrifica tensión narrativa por discurso. Connelly mantiene el ritmo del policial clásico, pero cada hallazgo añade espesor social y político, de modo que el lector sigue una intriga y a la vez una radiografía de poder."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario haber leído otros libros de Harry Bosch?",
+            "answer": "No de forma estricta. La novela se sostiene por sí sola, aunque conocer entregas anteriores ayuda a captar mejor la trayectoria moral y profesional de Bosch dentro del LAPD."
+          },
+          {
+            "question": "¿Qué tipo de novela es El vuelo del ángel?",
+            "answer": "Es una novela negra con fuerte componente de procedimiento policial. Combina investigación criminal, tensión institucional, crítica social y ritmo de thriller urbano."
+          },
+          {
+            "question": "¿El libro se centra más en la acción o en la investigación?",
+            "answer": "Predomina la investigación. Hay escenas tensas y momentos de peligro, pero el interés principal está en seguir cómo Bosch conecta pruebas, interroga versiones y enfrenta las presiones del caso."
+          },
+          {
+            "question": "¿Por qué suele considerarse una novela importante dentro de Connelly?",
+            "answer": "Porque lleva a primer plano temas decisivos en su obra: la integridad de Bosch, la corrupción o ceguera institucional y la relación entre crimen individual y conflicto colectivo en Los Ángeles."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Angels Flight (novel)",
+            "url": "https://en.wikipedia.org/wiki/Angels_Flight_(novel)"
+          },
+          {
+            "label": "Open Library: Angels flight",
+            "url": "https://openlibrary.org/works/OL111734W"
+          },
+          {
+            "label": "Open Library edition: El vuelo del ángel",
+            "url": "https://openlibrary.org/books/OL23013589M/El_vuelo_del_%C3%A1ngel"
+          },
+          {
+            "label": "Google Books: El vuelo del ángel [AdN]",
+            "url": "https://play.google.com/store/books/details?id=_z-gEQAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Wikipedia: Michael Connelly",
+            "url": "https://es.wikipedia.org/wiki/Michael_Connelly"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-biblia-satanica-de-anton-szandor-lavey",
+      "title": "La Biblia Satanica",
+      "authorName": "Anton Szandor Lavey",
+      "authorSlug": "anton-szandor-lavey",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 10,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La Biblia satánica",
+        "authorName": "Anton Szandor LaVey",
+        "authorSlug": "anton-szandor-lavey",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "religión",
+          "filosofía",
+          "ocultismo",
+          "manifiesto"
+        ],
+        "year": 1969,
+        "pages": 272,
+        "summary": "La Biblia satánica es el texto fundacional del satanismo laveyano y reúne ensayos, aforismos, listas doctrinales y rituales con los que Anton Szandor LaVey formuló una religión no teísta centrada en el individualismo, la autosoberanía, la gratificación de los impulsos y el rechazo de la moral cristiana tradicional. El libro no narra una historia ni propone una novela de ideas: organiza una cosmovisión polémica en cuatro secciones que combinan invectiva, provocación, teoría moral y escenografía ritual. Su intención principal es redefinir la figura de Satanás como símbolo de rebeldía, materialidad y afirmación del yo, más que como deidad sobrenatural. Por eso su influencia se entiende mejor como intervención cultural y religiosa dentro de la contracultura de fines de los sesenta.",
+        "aboutThisBook": "Publicado en 1969, tres años después de la fundación de la Church of Satan, el libro se convirtió en el texto más asociado con LaVey y en la referencia básica para comprender el satanismo moderno de orientación laveyana. Su importancia no reside en una elaboración filosófica sistemática, sino en haber dado forma pública, lenguaje y ritualidad a una corriente que se presentaba a la vez como religión, crítica moral y gesto de oposición cultural. Sigue siendo un libro citado, discutido y a menudo malinterpretado.",
+        "forWhom": "Para lectores adultos interesados en historia de las religiones contemporáneas, contracultura, estudios sobre nuevas espiritualidades y textos polémicos del siglo XX leídos con distancia crítica e histórica.",
+        "whyItMatters": "Importa porque es uno de los documentos más influyentes en la codificación del satanismo moderno y porque muestra cómo una provocación cultural puede convertirse en sistema de identidad religiosa y discurso público.",
+        "editorialIntro": "La Biblia satánica sigue generando reacciones rápidas: rechazo inmediato, curiosidad morbosa o lecturas simplificadoras. Conviene acercarse a ella como un artefacto cultural muy específico de su momento, pero también como un texto que logró fijar una retórica duradera sobre individualismo, transgresión y teatralidad religiosa. Leerlo hoy exige separar mito, escándalo mediático y doctrina efectiva para entender qué quiso construir LaVey y por qué el libro dejó huella.",
+        "readingLevel": "Lectura media. La prosa es directa y provocadora, pero el tono panfletario, las referencias rituales y el contexto ideológico del libro exigen lectura crítica.",
+        "whyReadToday": "Porque ayuda a entender la relación entre religión, performance, contracultura y construcción mediática de identidades extremas en el siglo XX y en el presente digital.",
+        "studyNotes": [
+          "No es una novela ni un tratado académico: mezcla manifiesto, listas doctrinales, reflexiones y rituales con fuerte intención provocadora.",
+          "La figura de Satanás funciona en el laveyanismo sobre todo como símbolo de oposición, orgullo, naturaleza e individualismo, no como dios personal al estilo teísta clásico.",
+          "Conviene leerlo dentro del clima cultural de fines de los años sesenta, cuando varias corrientes desafiaban instituciones religiosas y morales establecidas.",
+          "Su influencia histórica es mayor que su solidez argumentativa: parte de su relevancia viene de haber dado forma pública a una identidad religiosa minoritaria."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El Libro de Satán",
+            "summary": "La apertura adopta un tono de desafío frontal. Reescribe y subvierte lenguajes morales heredados para afirmar una ética de la fuerza, la autoafirmación y el rechazo de la abnegación cristiana."
+          },
+          {
+            "title": "El Libro de Lucifer",
+            "summary": "Aquí se concentran buena parte de las formulaciones doctrinales más citadas, incluidas las declaraciones satánicas y la defensa de una visión materialista, hedonista y escéptica del ser humano."
+          },
+          {
+            "title": "El Libro de Belial",
+            "summary": "La tercera sección desarrolla la dimensión práctica y ritual. LaVey describe principios de magia ceremonial y teatraliza procedimientos que buscan canalizar deseo, ira o compasión dentro de su sistema."
+          },
+          {
+            "title": "El Libro de Leviatán",
+            "summary": "El cierre reúne invocaciones y fórmulas rituales que intensifican el componente performativo del libro. La obra termina consolidando una identidad simbólica y litúrgica para su comunidad de lectores."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Texto fundador antes que escritura sagrada clásica",
+            "content": "Aunque sus seguidores lo tratan como referencia central, el libro no funciona como revelación antigua ni como escritura sagrada tradicional. Su autoridad procede de haber fijado una doctrina moderna, pública y reconocible para la Church of Satan."
+          },
+          {
+            "heading": "Provocación, mercado y religión",
+            "content": "La eficacia del libro depende también de su escándalo calculado. LaVey comprendió muy bien el valor mediático de la blasfemia, la inversión simbólica y la teatralidad, y convirtió esa estrategia en parte del mensaje."
+          },
+          {
+            "heading": "Individualismo y moral de la autosoberanía",
+            "content": "En el centro del texto aparece una defensa del yo, del deseo y de la responsabilidad entendida como autodefensa y jerarquía. Ese núcleo permite leer la obra como manifiesto de egoafirmación más que como simple repertorio de rituales."
+          },
+          {
+            "heading": "Límites y controversias",
+            "content": "Su influencia cultural no elimina sus problemas: simplificaciones históricas, afirmaciones grandilocuentes y una filosofía más declarativa que rigurosa. Precisamente por eso conviene leerlo como documento ideológico y cultural, no como fuente neutral."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un texto religioso o un manifiesto filosófico?",
+            "answer": "Es ambas cosas en sentido laveyano: un texto doctrinal para la Church of Satan y, al mismo tiempo, un manifiesto de individualismo materialista presentado con lenguaje ritual."
+          },
+          {
+            "question": "¿Propone creer en Satanás como ser sobrenatural?",
+            "answer": "No en su formulación laveyana clásica. Satanás aparece sobre todo como símbolo de rebeldía, naturaleza, orgullo y oposición a la moral cristiana tradicional."
+          },
+          {
+            "question": "¿Por qué fue tan influyente?",
+            "answer": "Porque dio un cuerpo doctrinal visible, breve y fácilmente citables a una corriente religiosa marginal, además de aprovechar con eficacia el impacto público de la provocación."
+          },
+          {
+            "question": "¿Se recomienda leerlo de manera crítica?",
+            "answer": "Sí. Es importante situarlo en su contexto histórico, distinguir descripción de propaganda y no confundir su tono enfático con argumentación verificable."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: The Satanic Bible",
+            "url": "https://en.wikipedia.org/wiki/The_Satanic_Bible"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Anton LaVey",
+            "url": "https://www.britannica.com/biography/Anton-LaVey"
+          },
+          {
+            "label": "Open Library: The Satanic Bible (Avon Books edition)",
+            "url": "https://openlibrary.org/books/OL17546374M/The_Satanic_Bible"
+          },
+          {
+            "label": "Church of Satan: Sources in Print",
+            "url": "https://churchofsatan.com/sources-print/"
+          },
+          {
+            "label": "Google Books: Satanic Bible",
+            "url": "https://books.google.com/books/about/Satanic_Bible.html?id=6GouSabpvDIC"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-ojos-del-perro-siberiano-de-antonio-santa-ana",
+      "title": "Los Ojos Del Perro Siberiano",
+      "authorName": "Antonio Santa Ana",
+      "authorSlug": "antonio-santa-ana",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 10,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los ojos del perro siberiano",
+        "authorName": "Antonio Santa Ana",
+        "authorSlug": "antonio-santa-ana",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa"
+        ],
+        "year": 1998,
+        "pages": 136,
+        "summary": "Los ojos del perro siberiano es una novela juvenil narrada en primera persona por un adolescente que intenta comprender el silencio que rodea a su hermano mayor, Ezequiel, apartado del núcleo familiar desde hace años. Cuando decide buscarlo por su cuenta, descubre que ese alejamiento está relacionado con el sida y con el miedo social que la enfermedad despierta en su entorno. A partir de ese encuentro, la novela relata el acercamiento entre ambos hermanos y el aprendizaje doloroso del narrador frente a la enfermedad, el prejuicio, la vergüenza y la muerte. El libro combina sobriedad emocional con una mirada íntima sobre la discriminación, el afecto fraterno y la necesidad de mirar al otro sin reducirlo a una etiqueta.",
+        "aboutThisBook": "Publicada por primera vez en 1998, esta novela de Antonio Santa Ana se convirtió en uno de los títulos juveniles argentinos más leídos de las últimas décadas. Su fuerza proviene de una decisión narrativa precisa: contar una historia sobre VIH/sida desde la perspectiva desconcertada de un hermano menor que crece entre silencios, órdenes familiares y descubrimientos tardíos. Lejos del sermón o de la lección explícita, la obra trabaja con escenas breves, sensibilidad contenida y una prosa clara que vuelve más intenso el impacto emocional. Es un libro breve, pero deja una huella duradera por la combinación de ternura, dolor y lucidez moral.",
+        "forWhom": "Para lectores juveniles y adultos que busquen una novela breve sobre vínculos familiares, adolescencia, enfermedad, duelo y prejuicio social, especialmente útil en contextos de lectura escolar o de conversación sobre empatía y discriminación.",
+        "whyItMatters": "Importa porque convirtió un tema difícil en una experiencia narrativa accesible sin trivializarlo. La novela ayudó a muchos lectores jóvenes a pensar el sida, el miedo y el rechazo desde la intimidad de una familia concreta y no desde el estereotipo abstracto.",
+        "editorialIntro": "Hay novelas breves que parecen pequeñas hasta que se terminan y entonces revelan la amplitud de lo que han logrado. Los ojos del perro siberiano pertenece a esa clase. Con pocos personajes, una voz narrativa contenida y escenas de enorme nitidez afectiva, Antonio Santa Ana construyó un relato sobre el sida y la exclusión que evita tanto el sentimentalismo fácil como el didactismo. Su potencia está en mostrar cómo el prejuicio rompe familias y cómo la mirada compasiva puede restituir una parte de la dignidad perdida.",
+        "readingLevel": "Lectura accesible para adolescentes y público general. El estilo es claro, breve y directo, aunque los temas que aborda exigen madurez emocional para apreciar sus silencios y su carga ética.",
+        "whyReadToday": "Porque sigue siendo una novela muy eficaz para hablar de estigma, miedo, desinformación y cuidado, temas que no han perdido vigencia cuando una sociedad decide apartar a quienes considera distintos.",
+        "studyNotes": [
+          "La novela está narrada por un hermano menor sin nombre, lo que refuerza la sensación de descubrimiento y aprendizaje progresivo.",
+          "El sida aparece no solo como enfermedad, sino como revelador del miedo moral y social de una familia y de un entorno.",
+          "Sacha, el perro siberiano, funciona como imagen de aceptación sin juicio y de reconocimiento del otro en su vulnerabilidad.",
+          "Conviene observar cómo el libro trabaja el silencio: lo que la familia no dice pesa tanto como los hechos narrados."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera mitad: el secreto familiar",
+            "summary": "El narrador presenta una casa marcada por la distancia afectiva y por la ausencia enigmática de Ezequiel, el hermano mayor. La curiosidad crece hasta transformarse en búsqueda, y esa búsqueda revela que el silencio de los adultos no protegía a nadie: solo ocultaba dolor, vergüenza y miedo."
+          },
+          {
+            "title": "El encuentro con Ezequiel",
+            "summary": "Cuando el protagonista logra ver a su hermano, descubre una verdad que reorganiza toda su percepción de la familia: Ezequiel vive con sida y ha quedado separado del mundo doméstico. El impacto del hallazgo no rompe el vínculo; lo inaugura de verdad por primera vez."
+          },
+          {
+            "title": "Aprender a mirar sin prejuicio",
+            "summary": "A medida que los encuentros se repiten, el narrador comprende mejor quién es Ezequiel, qué le gusta, cómo piensa y cuánto lo ha deformado la mirada ajena. La novela desplaza el foco desde la enfermedad en sí hacia el modo en que la sociedad y la familia convierten esa enfermedad en estigma."
+          },
+          {
+            "title": "Despedida y maduración",
+            "summary": "El deterioro físico de Ezequiel obliga al protagonista a crecer con rapidez. La muerte no aparece como golpe melodramático, sino como culminación de un proceso de acercamiento que deja una enseñanza decisiva: la vida de una persona no puede reducirse al miedo que despierta en los demás."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La enfermedad como núcleo narrativo y social",
+            "content": "El sida organiza el conflicto del libro, pero la verdadera materia narrativa es la reacción social ante la enfermedad. Santa Ana desplaza el interés desde el dato médico hacia el miedo, el ocultamiento y la estigmatización, mostrando cómo una dolencia también puede convertirse en condena moral dentro del imaginario colectivo."
+          },
+          {
+            "heading": "La fraternidad como aprendizaje ético",
+            "content": "La relación entre el narrador y Ezequiel no parte de la intimidad, sino de la distancia. Precisamente por eso su acercamiento tiene una intensidad especial: el hermano menor no hereda una cercanía previa, sino que la construye a través del conocimiento, la duda, la vergüenza y finalmente la compasión lúcida."
+          },
+          {
+            "heading": "El valor simbólico de Sacha",
+            "content": "El perro siberiano del título no es un adorno. Sacha representa una forma de mirar que no clasifica ni margina. Frente a los ojos temerosos o avergonzados de la familia y del entorno, el animal ofrece una imagen de reconocimiento simple, casi radical, que da sentido emocional al libro entero."
+          },
+          {
+            "heading": "Una novela juvenil sin concesiones fáciles",
+            "content": "Aunque suele leerse en contextos escolares, la obra evita el tono aleccionador. Su mérito consiste en confiar en la inteligencia emocional del lector joven, presentando una historia dura con lenguaje claro pero sin simplificar el dolor, la injusticia ni las contradicciones de los adultos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Los ojos del perro siberiano?",
+            "answer": "Trata del reencuentro entre un adolescente y su hermano mayor, Ezequiel, separado de la familia y enfermo de sida. A través de esa relación, la novela examina el prejuicio, el silencio familiar y el aprendizaje afectivo del narrador."
+          },
+          {
+            "question": "¿Por qué es una novela tan leída en ámbitos juveniles?",
+            "answer": "Porque está escrita con claridad, es breve y aborda un tema duro desde una experiencia íntima y comprensible. Permite hablar de discriminación, enfermedad y empatía sin caer en un discurso abstracto."
+          },
+          {
+            "question": "¿Qué simboliza el perro siberiano del título?",
+            "answer": "Sacha simboliza una mirada sin condena. Su presencia ayuda a entender cómo Ezequiel se reconoce en un ser también apartado por ser distinto y por no ajustarse a lo esperado."
+          },
+          {
+            "question": "¿La novela busca dar una moraleja explícita?",
+            "answer": "No de forma escolar o sermoneadora. Más bien confía en que el lector saque conclusiones a partir del contraste entre el amor fraterno, el miedo social y la dignidad de Ezequiel frente al rechazo que lo rodea."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Los ojos del perro siberiano",
+            "url": "https://es.wikipedia.org/wiki/Los_ojos_del_perro_siberiano"
+          },
+          {
+            "label": "Open Library: Los ojos del perro siberiano",
+            "url": "https://openlibrary.org/works/OL13750543W"
+          },
+          {
+            "label": "Google Books: Los ojos del perro siberiano",
+            "url": "https://books.google.es/books?id=r_n3OQf9nCYC"
+          },
+          {
+            "label": "WorldCat: Los ojos del perro siberiano",
+            "url": "https://search.worldcat.org/title/43350183"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-pasos-de-lopez-de-jorge-ibarguengoitia",
+      "title": "Los Pasos De Lopez",
+      "authorName": "Jorge Ibarguengoitia",
+      "authorSlug": "jorge-ibarguengoitia",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 10,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los pasos de López",
+        "authorName": "Jorge Ibargüengoitia",
+        "authorSlug": "jorge-ibarguengoitia",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela histórica",
+          "sátira",
+          "ficción literaria"
+        ],
+        "year": 1982,
+        "pages": 154,
+        "summary": "Los pasos de López es una novela satírica que reimagina, con nombres desplazados y tono burlón, el clima político y humano que precede al movimiento de independencia en la Nueva España. Ibargüengoitia no escribe una epopeya patriótica, sino una desmontaje irónico de los discursos heroicos, las conspiraciones improvisadas, las vanidades personales y el azar histórico. A medida que los personajes se involucran en reuniones clandestinas, planes contradictorios y entusiasmos poco consistentes, la novela muestra cómo la historia también se hace con torpezas, intereses cruzados y equívocos. El resultado es una obra ágil y mordaz que revisa el mito nacional desde el humor, sin dejar de reconocer la gravedad política del momento.",
+        "aboutThisBook": "Considerada la última novela de Jorge Ibargüengoitia, Los pasos de López apareció primero en España con el título Los conspiradores y después circuló en México con el nombre por el que hoy se la conoce. Su rasgo decisivo es el uso de la parodia histórica: no niega la relevancia del proceso independentista, pero rechaza contarlo como un relato solemne y unívoco. La novela convierte la revisión del pasado en una crítica del heroísmo oficial, de la improvisación política y de la mitología patriótica.",
+        "forWhom": "Ideal para lectores interesados en la novela histórica, la sátira política y las reinterpretaciones críticas del pasado nacional mexicano.",
+        "whyItMatters": "Importa porque cuestiona los relatos patrióticos rígidos y enseña a leer la historia con ironía, distancia crítica y atención a las debilidades humanas de sus protagonistas.",
+        "editorialIntro": "Pocas novelas mexicanas combinan con tanta naturalidad el humor y la inteligencia histórica como Los pasos de López. Ibargüengoitia toma un episodio asociado al origen de la nación y lo devuelve a la escala de los individuos concretos: conspiradores inseguros, ambiciones mal disimuladas, entusiasmos frágiles y decisiones precipitadas. La risa, en esta novela, no trivializa la historia; la limpia de retórica.",
+        "readingLevel": "Muy legible por su tono ágil, aunque rinde más en lectores capaces de captar la ironía política y la reescritura satírica de hechos históricos mexicanos.",
+        "whyReadToday": "Vale la pena leerla hoy porque ayuda a desconfiar de los relatos oficiales demasiado perfectos y muestra cómo el humor puede ser una forma seria de pensamiento histórico.",
+        "studyNotes": [
+          "La novela reescribe un episodio fundacional de México desde la sátira, no desde la épica.",
+          "El humor de Ibargüengoitia desmonta tanto a los héroes como a las instituciones.",
+          "La distancia entre mito patriótico y conducta real es uno de los motores del libro.",
+          "El relato sugiere que la historia avanza entre improvisación, azar y cálculo personal.",
+          "Es útil leerla junto con versiones escolares del inicio de la Independencia para comparar enfoques."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Provincia, rutina y descontento",
+            "summary": "La novela presenta un mundo provincial donde la normalidad cotidiana convive con resentimientos políticos, jerarquías sociales y conversaciones cada vez más cargadas de intención. Desde ese marco, los personajes empiezan a imaginar que la historia puede cambiar. El tono ya deja claro que la ambición y la ridiculez caminarán juntas."
+          },
+          {
+            "title": "Parte 2: La conspiración toma forma",
+            "summary": "Las reuniones, confidencias y alianzas reúnen a personajes que no siempre comparten la misma claridad ni los mismos fines. La preparación del movimiento revela entusiasmo, cálculo y desorganización. Ibargüengoitia muestra que los grandes proyectos colectivos suelen nacer entre improvisaciones muy humanas."
+          },
+          {
+            "title": "Parte 3: Del ideal al desorden",
+            "summary": "Cuando el plan entra en una fase más comprometida, aumentan los errores, los temores y las contradicciones. La novela insiste en la distancia entre la retórica heroica y la fragilidad real de quienes participan en ella. El humor se vuelve una herramienta crítica para pensar el nacimiento de una causa histórica."
+          },
+          {
+            "title": "Parte 4: Historia y mito",
+            "summary": "En el tramo final, el lector ve cómo los hechos concretos empiezan a transformarse en relato público. Ahí aparece uno de los logros centrales del libro: mostrar que entre lo que sucede y lo que después se recuerda media siempre una operación de selección, embellecimiento y simplificación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La sátira como método histórico",
+            "content": "Ibargüengoitia no usa el humor para restar importancia al pasado, sino para examinarlo sin reverencia. La sátira permite ver intereses, vanidades y accidentes que suelen quedar borrados en la versión monumental de la historia. Ese desplazamiento vuelve más compleja, no menos seria, la lectura del proceso independentista."
+          },
+          {
+            "heading": "Contra el heroísmo de cartón",
+            "content": "Uno de los grandes efectos de la novela es desmontar la imagen perfecta del héroe nacional. Los personajes aparecen atravesados por el deseo, la inseguridad, la torpeza y la improvisación. Esa humanización crítica cuestiona la pedagogía patriótica que convierte a los actores históricos en estatuas."
+          },
+          {
+            "heading": "Ibargüengoitia y la tradición de la ironía mexicana",
+            "content": "La novela se inscribe en una línea de escritura que desconfía de la pompa oficial y de los relatos cerrados sobre la nación. Su ironía no es evasiva: sirve para pensar el poder, la memoria y la manera en que una comunidad narra su propio origen. Por eso el libro sigue dialogando con debates contemporáneos sobre identidad e historia pública."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué episodio histórico inspira Los pasos de López?",
+            "answer": "Se inspira en el ambiente conspirativo que antecede al inicio de la independencia mexicana, aunque lo reescribe con nombres y situaciones transformadas por la sátira."
+          },
+          {
+            "question": "¿La novela ridiculiza la historia de México?",
+            "answer": "No la trivializa; la revisa críticamente. El humor sirve para cuestionar la retórica heroica y mostrar la complejidad humana detrás de los relatos patrióticos."
+          },
+          {
+            "question": "¿Por qué es una obra importante de Ibargüengoitia?",
+            "answer": "Porque condensa su estilo más reconocible: ironía, claridad narrativa, crítica política y desconfianza frente a las versiones oficiales del poder y de la historia."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Los pasos de López",
+            "url": "https://es.wikipedia.org/wiki/Los_pasos_de_L%C3%B3pez"
+          },
+          {
+            "label": "Open Library: Los pasos de López",
+            "url": "https://openlibrary.org/works/OL1638411W"
+          },
+          {
+            "label": "Internet Archive: Los pasos de López",
+            "url": "https://archive.org/details/lospasosdelopez0000ibar"
+          },
+          {
+            "label": "Google Books: Los pasos de López",
+            "url": "https://books.google.com/books?id=q0o2AAAAIAAJ"
+          },
+          {
+            "label": "Wikipedia: Jorge Ibargüengoitia",
+            "url": "https://es.wikipedia.org/wiki/Jorge_Ibarg%C3%BCengoitia"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sangre-en-la-calle-del-turco-de-jose-calvo-poyato",
+      "title": "Sangre En La Calle Del Turco",
+      "authorName": "Jose Calvo Poyato",
+      "authorSlug": "jose-calvo-poyato",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 10,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Sangre en la calle del Turco",
+        "authorName": "José Calvo Poyato",
+        "authorSlug": "jose-calvo-poyato",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "thriller"
+        ],
+        "year": 2021,
+        "pages": 528,
+        "summary": "José Calvo Poyato sitúa esta novela en la España convulsa de 1870 para narrar una intriga donde periodismo, conspiración política y ambición histórica avanzan al mismo ritmo. Fernando Besora, joven periodista de Reus, llega a Madrid decidido a abrirse paso en el mundo literario y se topa con una pista que lo conduce hacia una sociedad secreta y hacia la trama que rodea al general Prim. Mientras intenta comprender las fuerzas que se disputan el futuro del país, también debe moverse entre intereses familiares, amores difíciles y una capital donde cada noticia puede costar la vida. El resultado es una novela histórica de gran movimiento, apoyada en hechos reales y construida con pulso de thriller.",
+        "aboutThisBook": "Publicado por HarperCollins Ibérica en 2021, el libro retoma uno de los episodios más inquietantes del siglo XIX español: el atentado contra el general Juan Prim en la madrileña calle del Turco, episodio decisivo en la crisis del final del reinado borbónico y del Sexenio Democrático. Calvo Poyato, historiador además de novelista, combina documentación política con mecanismos propios de la narrativa de suspense. El centro de la novela no es solo reconstruir un magnicidio, sino mostrar cómo el poder, la prensa, las alianzas clandestinas y la fragilidad institucional se entrecruzan en un momento de cambio histórico.",
+        "forWhom": "Para lectores de novela histórica española, intrigas políticas y relatos ambientados en el siglo XIX que valoran tanto el trasfondo documental como la tensión narrativa sostenida.",
+        "whyItMatters": "Importa porque recupera un episodio clave de la historia española y lo vuelve legible para el gran público sin vaciarlo de complejidad. Ayuda a pensar cómo se fabrican los relatos políticos y cómo los momentos de transición concentran violencia, propaganda y lucha por el poder.",
+        "editorialIntro": "No toda novela histórica consigue que el pasado parezca abierto, incierto y peligroso. Sangre en la calle del Turco sí lo logra. Calvo Poyato parte de un acontecimiento muy conocido por los historiadores —el atentado contra Prim— para devolverle densidad dramática y convertirlo en una maquinaria de conspiración. La novela interesa tanto por su recreación de época como por la manera en que recuerda que la modernización política nunca estuvo separada del miedo, la maniobra y la violencia.",
+        "readingLevel": "Lectura media para adultos. El estilo es accesible, pero aparecen numerosas referencias políticas, personajes históricos y tensiones del siglo XIX español que enriquecen la experiencia si se leen con atención contextual.",
+        "whyReadToday": "Porque muestra que los procesos de cambio político suelen estar acompañados por desinformación, sectarismo, cálculo mediático y violencia, asuntos que siguen siendo reconocibles en el presente.",
+        "studyNotes": [
+          "La novela trabaja sobre un hecho histórico real: el atentado contra el general Prim en la calle del Turco, pieza central del cambio político español de 1870.",
+          "Fernando Besora funciona como mediador entre lector y época: su oficio periodístico permite entrar en la red de rumores, documentos e intereses ocultos.",
+          "Conviene distinguir entre personajes históricos y figuras ficcionales, porque Calvo Poyato mezcla documentación y dramatización con intención novelesca.",
+          "El libro puede leerse como una reflexión sobre prensa, poder y fabricación de versiones oficiales en tiempos de crisis institucional."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Un periodista llega a la capital",
+            "summary": "Fernando Besora entra en el Madrid de 1870 con aspiraciones literarias y periodísticas. Muy pronto descubre que la ciudad no es solo un centro cultural, sino un escenario de alianzas ocultas, vigilancia y conflicto político."
+          },
+          {
+            "title": "Pistas oscuras alrededor de Prim",
+            "summary": "La preparación de una crónica empuja al protagonista hacia un asunto que lo supera. Las conexiones con sociedades secretas y con el entorno del general Prim convierten la curiosidad periodística en una investigación peligrosa."
+          },
+          {
+            "title": "Amor, familia y cálculo social",
+            "summary": "En paralelo a la intriga política, la relación con Paloma Azpeitia muestra el peso de las convenciones sociales y de los intereses familiares. La novela cruza así la historia pública con las limitaciones íntimas del tiempo."
+          },
+          {
+            "title": "Conspiración y violencia en el desenlace",
+            "summary": "La parte final acelera el relato hacia la revelación de la trama y hacia las consecuencias del magnicidio. El cierre subraya que, en una coyuntura histórica frágil, verdad y justicia no siempre avanzan al mismo paso."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia nacional convertida en suspense",
+            "content": "Calvo Poyato no usa el pasado como decorado, sino como campo de fuerzas narrativas. El lector avanza porque quiere entender una conspiración, pero también porque percibe que de ese episodio depende la orientación política de un país entero."
+          },
+          {
+            "heading": "El periodismo como forma de conocimiento",
+            "content": "Elegir a un periodista joven como protagonista permite explorar el siglo XIX desde periódicos, rumores, confidencias y documentos. La novela sugiere que conocer la verdad pública siempre exige atravesar filtros de poder y versiones interesadas."
+          },
+          {
+            "heading": "Prim y la fragilidad del cambio político",
+            "content": "La figura de Prim concentra una tensión decisiva: representa posibilidad de reorganización nacional y, al mismo tiempo, el riesgo de que todo cambio desemboque en violencia. La novela aprovecha esa ambigüedad para pensar la transición como terreno inestable."
+          },
+          {
+            "heading": "Recreación de época y legibilidad contemporánea",
+            "content": "Uno de los aciertos del libro es volver comprensible una coyuntura histórica compleja sin simplificarla del todo. La ambientación, el ritmo y el conflicto sentimental ayudan a que el lector entre en el periodo, pero la trama conserva densidad política real."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La novela se basa en hechos históricos reales?",
+            "answer": "Sí. Toma como núcleo el atentado contra el general Prim en la calle del Turco y lo desarrolla mediante personajes y situaciones noveladas que articulan la intriga."
+          },
+          {
+            "question": "¿Hace falta saber historia de España para disfrutarla?",
+            "answer": "No. El libro ofrece suficiente contexto para seguir la trama, aunque conocer el Sexenio Democrático y la figura de Prim permite apreciar mejor sus resonancias históricas."
+          },
+          {
+            "question": "¿Predomina más la reconstrucción histórica o el suspense?",
+            "answer": "Ambas dimensiones están muy equilibradas. Hay documentación y contexto, pero el motor de lectura es claramente el suspense alrededor de la conspiración y sus implicados."
+          },
+          {
+            "question": "¿Qué aporta José Calvo Poyato como autor a este tipo de novela?",
+            "answer": "Su doble perfil de historiador y narrador le permite manejar con soltura el marco documental y, al mismo tiempo, construir una intriga accesible, dinámica y orientada al gran público lector."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "HarperCollins Ibérica: Sangre en la calle del Turco",
+            "url": "https://www.harpercollinsiberica.com/products/sangre-en-la-calle-del-turco"
+          },
+          {
+            "label": "Open Library: Sangre en la calle del Turco",
+            "url": "https://openlibrary.org/works/OL34824106W"
+          },
+          {
+            "label": "Google Books: Sangre en la calle del Turco",
+            "url": "https://play.google.com/store/books/details?id=ocAmEAAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Wikipedia: José Calvo Poyato",
+            "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Calvo_Poyato"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "viven-la-tragedia-de-los-andes-de-piers-paul-read",
+      "title": "Viven La Tragedia De Los Andes",
+      "authorName": "Piers Paul Read",
+      "authorSlug": "piers-paul-read",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 10,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "¡Viven! La tragedia de los Andes",
+        "authorName": "Piers Paul Read",
+        "authorSlug": "piers-paul-read",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "crónica",
+          "reportaje",
+          "supervivencia",
+          "historia real"
+        ],
+        "year": 1974,
+        "pages": 480,
+        "summary": "¡Viven! La tragedia de los Andes reconstruye el accidente del vuelo 571 de la Fuerza Aérea Uruguaya y los setenta y dos días en que un grupo de sobrevivientes permaneció aislado en la cordillera hasta lograr un rescate que parecía imposible. Piers Paul Read transforma un episodio extremo en una crónica coral donde importan tanto los hechos materiales —frío, hambre, lesiones, avalanchas, expediciones fallidas— como las decisiones morales y religiosas que los pasajeros debieron tomar para seguir con vida. El libro no explota el morbo de manera gratuita: organiza testimonios, contexto y secuencia dramática para mostrar cómo un grupo de jóvenes pasó del desconcierto inicial a una forma precaria de comunidad, disciplina y resistencia. De ahí su fuerza duradera como relato de supervivencia y como investigación sobre los límites humanos.",
+        "aboutThisBook": "Publicado originalmente en 1974, poco después del rescate, el libro dio forma definitiva al caso para el público internacional. Read trabajó con testimonios de los sobrevivientes y convirtió la tragedia en una narración documental de gran circulación. Desde entonces, la obra se volvió referencia obligada no solo para entender el episodio andino, sino también para pensar la supervivencia extrema, el liderazgo improvisado, la fe, la culpa y la manera en que una catástrofe real se vuelve memoria colectiva. Su recepción sostenida explica nuevas ediciones, traducciones y adaptaciones audiovisuales.",
+        "forWhom": "Para lectores de no ficción narrativa, crónica histórica, deportes y supervivencia, así como para quienes busquen un caso real contado con tensión, documentación y atención seria a los dilemas morales.",
+        "whyItMatters": "Importa porque convirtió un hecho traumático en una obra mayor de periodismo narrativo y porque obliga a pensar, sin simplificaciones, qué decisiones resultan posibles cuando la supervivencia queda reducida a lo extremo.",
+        "editorialIntro": "Pocas crónicas de desastre conservan una potencia tan intacta como ¡Viven! La tragedia de los Andes. Se conoce el desenlace general, pero eso no debilita la lectura: la vuelve aún más tensa. Piers Paul Read organiza el relato con precisión documental y pulso novelesco para mostrar hambre, agotamiento, compañerismo, conflicto, fe y lucidez estratégica bajo condiciones casi inimaginables. El resultado es un clásico de la no ficción que no reduce a sus protagonistas a símbolos, sino que los presenta como personas empujadas hasta el límite.",
+        "readingLevel": "Lectura media. El relato es muy fluido, pero la intensidad emocional, la cantidad de personajes reales y los dilemas éticos hacen que la experiencia sea exigente.",
+        "whyReadToday": "Porque sigue siendo una referencia excepcional sobre resiliencia, toma de decisiones en crisis, liderazgo compartido y construcción de sentido después de una catástrofe real.",
+        "studyNotes": [
+          "Conviene leerlo como crónica documental: la tensión narrativa está al servicio de testimonios y hechos, no de una invención novelesca.",
+          "La obra examina la supervivencia como problema material y también moral, religioso y colectivo; no se limita al dato espectacular del canibalismo.",
+          "El grupo evoluciona desde el shock hacia una organización práctica del trabajo, la comida, las expediciones y el sostén emocional mutuo.",
+          "El libro ayudó a fijar la memoria pública del accidente, por lo que también puede leerse como una intervención decisiva en la construcción del relato histórico del caso."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El vuelo y el desastre inicial",
+            "summary": "La primera parte narra el viaje del equipo de rugby y sus acompañantes, el choque en la cordillera y la brutal transición desde una excursión deportiva hacia una lucha inmediata por la supervivencia."
+          },
+          {
+            "title": "Los días de espera y organización",
+            "summary": "Cuando descubren que la búsqueda oficial ha cesado, los sobrevivientes deben aceptar que nadie llegará pronto. A partir de ahí construyen una disciplina mínima para repartir tareas, conservar energía y sostener la esperanza."
+          },
+          {
+            "title": "La decisión extrema",
+            "summary": "El libro aborda con sobriedad la decisión de alimentarse de los cuerpos de los muertos. Esa elección, central para la continuidad del grupo, aparece como dilema doloroso y no como recurso sensacionalista."
+          },
+          {
+            "title": "La expedición final y el rescate",
+            "summary": "En el tramo decisivo, algunos sobrevivientes emprenden la salida a través de la montaña y logran contactar ayuda. El rescate transforma una historia casi cerrada en uno de los episodios más impactantes de supervivencia del siglo XX."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Periodismo narrativo de alta intensidad",
+            "content": "Read combina documentación, estructura dramática y manejo del suspenso para convertir un caso real en una narración absorbente sin borrar su dimensión testimonial. Esa mezcla explica su permanencia como clásico de la no ficción."
+          },
+          {
+            "heading": "Supervivencia como problema colectivo",
+            "content": "El libro muestra que nadie sobrevive solo: la organización de tareas, la toma de decisiones compartidas y la circulación del ánimo fueron tan importantes como la resistencia física individual."
+          },
+          {
+            "heading": "Fe, culpa y legitimación moral",
+            "content": "Una parte crucial del libro reside en cómo los sobrevivientes procesan religiosamente y éticamente decisiones insoportables. Read atiende ese debate interno y lo trata como núcleo humano del caso."
+          },
+          {
+            "heading": "Más allá del morbo del titular",
+            "content": "Reducir la obra al canibalismo empobrece su sentido. El verdadero centro está en la adaptación extrema, la inteligencia práctica, la fraternidad y la reconstrucción narrativa de un acontecimiento traumático."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es novela o crónica documental?",
+            "answer": "Es una obra de no ficción. Read reconstruye el accidente y la supervivencia en los Andes a partir de testimonios y documentación, con técnicas de narración muy eficaces."
+          },
+          {
+            "question": "¿El libro se concentra solo en el aspecto más escandaloso del caso?",
+            "answer": "No. Trata la antropofagia como parte del contexto extremo, pero dedica mucha más atención a la organización del grupo, la resistencia física, la fe y la decisión de salir a buscar ayuda."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose después de tantas décadas?",
+            "answer": "Porque combina una historia real extraordinaria con una reflexión duradera sobre liderazgo, comunidad, trauma y voluntad de vivir en condiciones límite."
+          },
+          {
+            "question": "¿Puede leerse como periodismo literario?",
+            "answer": "Sí. Es uno de los ejemplos más claros de crónica documental con pulso narrativo, capaz de sostener tensión sin abandonar el compromiso con los hechos."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Penguin Books: Alive",
+            "url": "https://www.penguin.co.uk/books/357053/alive-by-piers-paul-read/9780099574521"
+          },
+          {
+            "label": "Piers Paul Read official site: Alive",
+            "url": "http://www.pierspaulread.co.uk/reportage.htm#alive"
+          },
+          {
+            "label": "Wikipedia: Alive: The Story of the Andes Survivors",
+            "url": "https://en.wikipedia.org/wiki/Alive:_The_Story_of_the_Andes_Survivors"
+          },
+          {
+            "label": "Open Library: Alive!",
+            "url": "https://openlibrary.org/books/OL7966215M/Alive!"
+          },
+          {
+            "label": "Google Books: Alive",
+            "url": "https://books.google.com/books/about/Alive.html?id=bn5TPgAACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "aurora-roja-de-pio-baroja",
+      "title": "Aurora Roja",
+      "authorName": "Pio Baroja",
+      "authorSlug": "pio-baroja",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 9,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Aurora roja",
+        "authorName": "Pío Baroja",
+        "authorSlug": "pio-baroja",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1904,
+        "pages": 218,
+        "summary": "Aurora roja cierra la trilogía La lucha por la vida y sigue a Manuel cuando ya no es el muchacho errante de las novelas anteriores, sino un trabajador que intenta afirmarse en Madrid como impresor y futuro dueño de su propio taller. En ese proceso, la novela lo sitúa en contacto con ambientes obreros, círculos anarquistas y debates sociales de comienzos del siglo XX. Baroja retrata un mundo urbano áspero, inestable y desigual, donde las aspiraciones de ascenso, dignidad y trabajo conviven con el desencanto político, la miseria y la violencia latente. Más que ofrecer una tesis cerrada, la obra observa con mirada seca y móvil cómo un individuo busca orientarse en medio de una sociedad quebrada.",
+        "aboutThisBook": "Publicada en 1904, Aurora roja es la tercera entrega de una de las trilogías más representativas de Pío Baroja. Dentro de La lucha por la vida, esta novela desplaza el foco desde la mera supervivencia callejera hacia la inquietud social y política del Madrid popular. Manuel aparece aquí en una etapa distinta: más asentado, más trabajador y también más expuesto a las corrientes ideológicas de su tiempo. El libro conserva el estilo característico de Baroja —rápido, directo, antirretórico— y convierte la ciudad en un escenario vivo de tensiones laborales, frustraciones individuales y crítica a las ilusiones redentoras. Su interés no depende del argumento espectacular, sino de la densidad social y moral del mundo que retrata.",
+        "forWhom": "Para lectores adultos o estudiantes de literatura interesados en la Generación del 98, la novela social española, el retrato del Madrid popular y las ficciones que combinan peripecia individual con crítica del entorno histórico.",
+        "whyItMatters": "Importa porque muestra a Baroja en un punto clave de su narrativa: el momento en que el itinerario personal de Manuel se cruza con la cuestión obrera, el anarquismo y la inestabilidad de la modernización urbana. Es una pieza central para entender la novela social temprana en España.",
+        "editorialIntro": "Leer Aurora roja hoy es volver a un momento en que la novela española observó con crudeza el trabajo, la ciudad y las promesas ideológicas del cambio social. Baroja no idealiza ni a los desposeídos ni a los reformadores: mira el mundo con escepticismo, velocidad y una atención extraordinaria a los ambientes. El resultado es una obra sobria y nerviosa, capaz de convertir el Madrid de comienzos del siglo XX en un laboratorio de tensiones políticas, económicas y morales que todavía resultan legibles.",
+        "readingLevel": "Lectura media-alta. La prosa es ágil y directa, pero el contexto histórico, el trasfondo ideológico y la inserción en una trilogía enriquecen mucho la comprensión del libro.",
+        "whyReadToday": "Porque ayuda a pensar cómo se cruzan trabajo, desigualdad, radicalización política y deseo de ascenso social, cuestiones que siguen organizando buena parte de la experiencia urbana contemporánea.",
+        "studyNotes": [
+          "La novela debe leerse como cierre de La lucha por la vida: Manuel ya no ocupa el mismo lugar vital que en las entregas anteriores.",
+          "Baroja no ofrece una defensa programática del anarquismo; más bien observa sus ambientes, su atractivo y sus límites desde una mirada crítica.",
+          "Madrid funciona como escenario moral además de geográfico: la ciudad concentra trabajo, pobreza, movilidad y choque de ideas.",
+          "El estilo barojiano favorece la impresión de inmediatez: escenas breves, desplazamientos rápidos y atención al detalle social antes que al ornamento."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: Manuel ya instalado en el trabajo",
+            "summary": "El libro presenta a Manuel en una fase más estable que en las novelas anteriores. Su esfuerzo por convertirse en un trabajador respetable y aspirar a una empresa propia introduce un conflicto nuevo: cómo sostener una vida digna dentro de un medio urbano todavía precario y desigual."
+          },
+          {
+            "title": "Encuentro con el ambiente social y anarquista",
+            "summary": "La novela amplía el horizonte individual de Manuel al ponerlo en contacto con inquietudes obreras, discusiones políticas y figuras del anarquismo madrileño. Ese entorno abre preguntas sobre justicia, reforma y violencia, pero también sobre la distancia entre ideal y realidad."
+          },
+          {
+            "title": "Trabajo, ambición y desorden urbano",
+            "summary": "En la parte media, Baroja contrapone la voluntad de progreso personal con un mundo social atravesado por carencias materiales, tensiones laborales y promesas colectivas difíciles de concretar. El destino de Manuel se vuelve inseparable del pulso convulso de la ciudad."
+          },
+          {
+            "title": "Cierre: una mirada sin ilusiones fáciles",
+            "summary": "Hacia el final, Aurora roja reafirma la mirada escéptica de Baroja sobre las soluciones tajantes. Más que resolver todos los conflictos, la novela deja al lector ante una sociedad fragmentada donde la lucha por vivir, trabajar y orientarse moralmente sigue abierta."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La dimensión social de la trilogía",
+            "content": "Si las novelas anteriores seguían de cerca la formación dura de Manuel, Aurora roja ensancha el encuadre y convierte esa trayectoria en una forma de leer la sociedad madrileña. El individuo no desaparece, pero queda atravesado por fuerzas históricas y colectivas que vuelven más complejo su lugar en el mundo."
+          },
+          {
+            "heading": "Baroja ante el anarquismo",
+            "content": "La obra interesa especialmente por su aproximación al ambiente anarquista de principios del siglo XX. Baroja muestra su energía crítica y su capacidad de seducción para quienes padecen la injusticia, pero evita transformarlo en una respuesta pura o idealizada. Esa ambivalencia es clave para entender su mirada política."
+          },
+          {
+            "heading": "Madrid como organismo narrativo",
+            "content": "La ciudad no es un simple fondo escénico. En Aurora roja, Madrid aparece como un espacio de circulación de oficios, ideas, miserias y expectativas. La novela gana espesor precisamente porque las calles, los trabajos y los ambientes moldean a los personajes tanto como sus decisiones individuales."
+          },
+          {
+            "heading": "Un clásico de prosa antirretórica",
+            "content": "Baroja escribe con una economía expresiva que rechaza el exceso ornamental. Ese estilo, unido a su capacidad para captar ambientes y tensiones sociales, explica que la novela conserve frescura: su mirada puede ser áspera, pero rara vez resulta solemne o estática."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Aurora roja puede leerse sin haber leído las dos novelas anteriores?",
+            "answer": "Sí, aunque se aprecia mejor como cierre de La lucha por la vida. Conocer el recorrido previo de Manuel permite entender con más profundidad el cambio de perspectiva entre la supervivencia juvenil y la inquietud social adulta."
+          },
+          {
+            "question": "¿De qué trata principalmente la novela?",
+            "answer": "Trata de la etapa en que Manuel, ya trabajador e impresor, intenta afirmarse en Madrid mientras entra en contacto con ambientes obreros y anarquistas. El libro cruza aspiración personal, conflicto social y crítica del entorno urbano."
+          },
+          {
+            "question": "¿Es una novela política?",
+            "answer": "Tiene una dimensión política muy clara, pero no funciona como propaganda. Baroja observa ideas, grupos y tensiones sociales con interés, aunque mantiene una distancia crítica frente a las soluciones ideológicas cerradas."
+          },
+          {
+            "question": "¿Por qué sigue siendo importante dentro de Baroja?",
+            "answer": "Porque condensa varias de sus virtudes mayores: prosa veloz, observación social, escepticismo intelectual y capacidad para retratar la fricción entre individuo y sociedad en un momento decisivo de la España moderna."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikisource: Aurora roja",
+            "url": "https://es.wikisource.org/wiki/Aurora_roja"
+          },
+          {
+            "label": "Wikidata: Aurora roja",
+            "url": "https://www.wikidata.org/wiki/Q19451107"
+          },
+          {
+            "label": "Google Books: Aurora roja",
+            "url": "https://books.google.es/books?id=kIjujgEACAAJ"
+          },
+          {
+            "label": "Open Library: Aurora roja",
+            "url": "https://openlibrary.org/works/OL745026W"
+          },
+          {
+            "label": "Wikipedia: Pío Baroja",
+            "url": "https://es.wikipedia.org/wiki/P%C3%ADo_Baroja"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-agente-secreto-de-joseph-conrad",
+      "title": "El Agente Secreto",
+      "authorName": "Joseph Conrad",
+      "authorSlug": "joseph-conrad",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 9,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El agente secreto",
+        "authorName": "Joseph Conrad",
+        "authorSlug": "joseph-conrad",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela",
+          "thriller político",
+          "ficción clásica"
+        ],
+        "year": 1907,
+        "pages": 268,
+        "summary": "El agente secreto sitúa al lector en el Londres de 1886 para seguir a Adolf Verloc, comerciante de fachada y espía al servicio de una potencia extranjera, arrastrado a participar en un atentado destinado a provocar alarma política. A partir de esa premisa, Conrad construye una novela que es al mismo tiempo relato de espionaje, crítica del terrorismo, estudio de la manipulación ideológica y tragedia familiar. La intriga no depende solo del complot, sino de sus consecuencias morales sobre Winnie, Stevie y el entorno de Verloc. La obra examina cómo el poder usa a los débiles, cómo la retórica política encubre intereses turbios y cómo la violencia pública termina descomponiendo la vida privada.",
+        "aboutThisBook": "Publicada en 1907 tras una primera aparición seriada, The Secret Agent: A Simple Tale es una de las novelas políticas más influyentes de Conrad. Lejos de sus relatos marítimos, aquí se concentra en la ciudad moderna, la vigilancia, el extremismo y la atmósfera de sospecha. El libro mantiene la tensión del espionaje, pero su verdadero peso literario está en la complejidad moral de sus personajes y en la visión sombría de un mundo donde diplomáticos, policías, revolucionarios y oportunistas participan del mismo desgaste ético.",
+        "forWhom": "Muy recomendable para lectores de clásicos modernos, novela política, estudios sobre terrorismo y cursos de literatura inglesa o comparada.",
+        "whyItMatters": "Importa porque anticipa debates muy actuales sobre terrorismo, propaganda, vigilancia y manipulación del miedo, y lo hace con una profundidad moral que va mucho más allá del simple suspense.",
+        "editorialIntro": "El agente secreto conserva una cualidad rara: parece una novela de otra época y, al mismo tiempo, habla con inquietante precisión a la nuestra. Conrad toma un atentado fallido, una red de espías y una familia frágil para mostrar cómo la violencia política se alimenta de cinismo burocrático, ideologías huecas y explotación de los más vulnerables. Es un clásico de intriga, pero sobre todo una novela feroz sobre responsabilidad y daño.",
+        "readingLevel": "Exige atención media o alta por su ironía, sus cambios de perspectiva y su densidad moral, aunque la trama mantiene siempre un fuerte impulso narrativo.",
+        "whyReadToday": "Leerlo hoy ayuda a pensar la relación entre miedo público, radicalización, Estado y espectáculo político sin caer en simplificaciones contemporáneas.",
+        "studyNotes": [
+          "La novela mezcla espionaje, crítica política y tragedia doméstica.",
+          "Londres aparece como un espacio moralmente turbio, no solo como escenario urbano.",
+          "Conrad cuestiona tanto a los revolucionarios como a los aparatos estatales que instrumentalizan el caos.",
+          "Stevie encarna la vulnerabilidad explotada por discursos e intereses ajenos.",
+          "La estructura narrativa administra la información para intensificar la dimensión ética del relato."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Un espía en Soho",
+            "summary": "La novela introduce a Verloc y el mundo ambiguo en que se mueve: comercio, clandestinidad, diplomacia y vigilancia. Desde el inicio, Conrad sugiere que la política subterránea y la rutina doméstica conviven de forma inquietante. Nada en la vida del protagonista está realmente separado."
+          },
+          {
+            "title": "Parte 2: El encargo y la deriva",
+            "summary": "La presión para ejecutar una acción espectacular convierte la intriga en una cadena de decisiones cada vez más comprometidas. El complot no se narra como una aventura gloriosa, sino como una maniobra sórdida marcada por la manipulación. La idea del atentado funciona como núcleo de la tensión narrativa y moral."
+          },
+          {
+            "title": "Parte 3: La catástrofe íntima",
+            "summary": "Cuando las consecuencias del plan alcanzan a la familia, la novela deja claro que el centro del libro no es solo político, sino afectivo y ético. La violencia pública revela su costo privado. Conrad hace visible cómo el cálculo ideológico se sostiene muchas veces sobre cuerpos y vidas ajenas."
+          },
+          {
+            "title": "Parte 4: Responsabilidad y vacío",
+            "summary": "El desenlace empuja a los personajes hacia decisiones extremas y muestra que ninguna institución ofrece verdadero amparo moral. Policías, diplomáticos y militantes quedan expuestos en un panorama de cinismo y descomposición. La novela cierra con una sensación de fatalidad moderna que sigue resultando perturbadora."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Terrorismo antes del siglo XXI",
+            "content": "Una de las razones por las que la novela sigue leyéndose es su capacidad para pensar el terrorismo como fenómeno político, mediático y simbólico. Conrad entiende que el atentado no busca solo destruir un objetivo, sino producir efecto público, interpretación y miedo. Esa intuición hace que el libro conserve una sorprendente vigencia."
+          },
+          {
+            "heading": "La familia como zona de impacto",
+            "content": "Aunque la novela se presenta como un relato de espionaje, su núcleo emocional está en la familia de Verloc. Winnie y Stevie no son figuras secundarias decorativas: son el lugar donde el daño político se vuelve irreparable. Conrad muestra así que las abstracciones ideológicas terminan medidas en sufrimiento concreto."
+          },
+          {
+            "heading": "Una crítica general del poder",
+            "content": "El libro no distribuye la culpa de manera cómoda entre buenos y malos. Los revolucionarios aparecen ridículos o crueles; los diplomáticos, calculadores; la policía, atrapada en sus propios intereses; y Verloc, degradado por su oportunismo. Esa amplitud crítica convierte la novela en una exploración del poder moderno más que en una simple denuncia sectorial."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El agente secreto es solo una novela de espionaje?",
+            "answer": "No. Usa elementos del espionaje, pero también es una novela política, psicológica y moral sobre terrorismo, manipulación y daño familiar."
+          },
+          {
+            "question": "¿Dónde y cuándo se sitúa la historia?",
+            "answer": "Se sitúa en el Londres de 1886, especialmente en el ambiente urbano y social de Soho y sus redes clandestinas."
+          },
+          {
+            "question": "¿Por qué sigue siendo tan actual?",
+            "answer": "Porque analiza la fabricación del miedo público, la instrumentalización política de la violencia y el uso de personas vulnerables dentro de sistemas de poder."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: The Secret Agent",
+            "url": "https://en.wikipedia.org/wiki/The_Secret_Agent"
+          },
+          {
+            "label": "Open Library: The Secret Agent",
+            "url": "https://openlibrary.org/books/OL2640257M"
+          },
+          {
+            "label": "Standard Ebooks: The Secret Agent",
+            "url": "https://standardebooks.org/ebooks/joseph-conrad/the-secret-agent"
+          },
+          {
+            "label": "Britannica: Joseph Conrad",
+            "url": "https://www.britannica.com/biography/Joseph-Conrad"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-misterio-de-las-siete-esferas-de-agatha-christie",
+      "title": "El Misterio De Las Siete Esferas",
+      "authorName": "Agatha Christie",
+      "authorSlug": "agatha-christie",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 9,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El misterio de las siete esferas",
+        "authorName": "Agatha Christie",
+        "authorSlug": "agatha-christie",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "clasicos",
+          "thriller"
+        ],
+        "year": 1929,
+        "pages": 254,
+        "summary": "Agatha Christie combina aquí la intriga detectivesca con el tono ligero del thriller de aventuras. Todo comienza como una broma de casa de campo: varios invitados deciden gastar una jugarreta al dormilón Gerry Wade colocando ocho despertadores en su habitación. A la mañana siguiente, Gerry aparece muerto y uno de los relojes ha desaparecido. Ese detalle abre la puerta a una red de claves, sociedades secretas y amenazas que transforman el juego social en una investigación peligrosa. Lady Eileen \"Bundle\" Brent, uno de los personajes más vivaces de Christie, impulsa una pesquisa donde el ingenio, la observación y la valentía importan tanto como la deducción. Es una novela de misterio con humor, ritmo y atmósfera claramente británica.",
+        "aboutThisBook": "Publicada en 1929, The Seven Dials Mystery retoma personajes de El secreto de Chimneys y ocupa un lugar singular dentro de la obra de Christie porque se acerca al espionaje ligero y al thriller de conspiración más que al enigma cerrado de sus novelas de Poirot o Miss Marple. La propia web oficial de la autora la presenta como uno de sus primeros thrillers de espionaje ambientados en el Londres de los años veinte. Su interés no reside solo en descubrir quién está detrás de los crímenes, sino en el placer del ritmo, los diálogos y el contraste entre ambiente elegante y peligro real.",
+        "forWhom": "Para lectores que disfrutan los clásicos policiales británicos, las novelas de intriga con tono ágil y los libros de Christie menos centrados en un detective icónico y más abiertos al juego aventurero.",
+        "whyItMatters": "Importa porque muestra una faceta distinta de Christie: más juguetona, más cercana al thriller de conspiración y muy atenta al encanto del reparto coral. También ayuda a entender la amplitud de registros que la autora cultivó dentro del género policial.",
+        "editorialIntro": "Cuando se piensa en Agatha Christie, suelen venir primero Poirot, Miss Marple o el enigma perfectamente cerrado. El misterio de las siete esferas ofrece otra puerta de entrada: una intriga con casa de campo, bromas que salen mal, sociedades secretas y una energía de aventura que adelanta parte del thriller británico posterior. Esa combinación de ligereza superficial y amenaza auténtica explica por qué sigue siendo una lectura tan entretenida y tan característica de la autora.",
+        "readingLevel": "Lectura accesible para público general. El estilo es claro y rápido, aunque conviene prestar atención a los cambios de escenario, al reparto de personajes y a las claves del misterio para disfrutar plenamente la construcción de la intriga.",
+        "whyReadToday": "Porque recuerda que el policial clásico no solo ofrece acertijos: también puede mezclar humor, crítica social ligera, espionaje y aventura sin perder elegancia narrativa.",
+        "studyNotes": [
+          "La novela enlaza con El secreto de Chimneys y recupera a Lady Bundle Brent, figura esencial para entender el tono más aventurero del relato.",
+          "El arranque con los ocho despertadores es un excelente ejemplo de cómo Christie convierte un detalle cotidiano en detonante de misterio.",
+          "A diferencia de otras obras más analíticas de la autora, aquí pesa mucho la atmósfera de thriller ligero y sociedad secreta.",
+          "Conviene observar el equilibrio entre humor social, entretenimiento y lógica detectivesca, rasgo que distingue este título dentro del canon christiano."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Una broma que termina en muerte",
+            "summary": "En una reunión de jóvenes acomodados, el plan para despertar a Gerry Wade con ocho relojes parece una travesura inocente. El hallazgo del cuerpo y la desaparición de uno de los despertadores convierten el episodio en el inicio del enigma."
+          },
+          {
+            "title": "Bundle entra en escena",
+            "summary": "Lady Bundle Brent asume un papel decisivo cuando comprende que el caso encierra algo más que una muerte extraña. Su iniciativa y su curiosidad empujan la investigación hacia una red de indicios cada vez más inquietantes."
+          },
+          {
+            "title": "La amenaza de Seven Dials",
+            "summary": "La pesquisa lleva a los personajes hacia el misterioso nombre de Seven Dials y a un entramado que mezcla conspiración, espionaje y peligros ocultos. La novela amplía entonces su escala más allá del crimen inicial."
+          },
+          {
+            "title": "Revelación, ingenio y cierre",
+            "summary": "En la parte final, Christie ordena las piezas dispersas del caso y muestra cómo los detalles aparentemente triviales habían preparado la solución. El desenlace combina explicación detectivesca y satisfacción aventurera."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Christie más allá del enigma puro",
+            "content": "Este libro interesa porque desplaza el centro de gravedad desde el rompecabezas clásico hacia una forma más ligera y dinámica del thriller. La autora conserva su control sobre las pistas, pero se permite una atmósfera de aventura, humor y conspiración poco habitual en sus novelas más canónicas."
+          },
+          {
+            "heading": "El talento para convertir lo trivial en siniestro",
+            "content": "Los despertadores son una gran invención narrativa: objetos domésticos, casi cómicos, que pasan a producir inquietud. Christie demuestra así uno de sus recursos más eficaces, transformar una escena social menor en la puerta de entrada a una amenaza organizada."
+          },
+          {
+            "heading": "Bundle Brent y la vitalidad del reparto coral",
+            "content": "Lady Bundle Brent aporta inteligencia, movimiento y descaro al relato. Su presencia evita la solemnidad y permite que la novela respire como aventura social, con un grupo de personajes cuya interacción importa casi tanto como la resolución del misterio."
+          },
+          {
+            "heading": "Clasicismo, ligereza y perdurabilidad",
+            "content": "La obra sigue funcionando porque ofrece exactamente lo que promete: intriga bien dosificada, ambiente británico, ritmo sostenido y una sensación de juego inteligente. Incluso cuando no figura entre los títulos más célebres de Christie, revela la amplitud de su oficio narrativo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de Poirot o de Miss Marple?",
+            "answer": "No. Pertenece a otra línea de Agatha Christie y recupera personajes vinculados con El secreto de Chimneys, especialmente a Lady Bundle Brent y al superintendente Battle."
+          },
+          {
+            "question": "¿Puede leerse sin haber leído El secreto de Chimneys?",
+            "answer": "Sí. Hay conexiones y personajes compartidos, pero la trama principal se entiende de forma independiente y ofrece todas las claves necesarias para seguir el caso."
+          },
+          {
+            "question": "¿Qué distingue a este libro dentro de la obra de Christie?",
+            "answer": "Su combinación de misterio clásico, tono ligero, humor social y elementos de espionaje. Es menos un duelo cerebral puro y más una intriga de conspiración con aire aventurero."
+          },
+          {
+            "question": "¿Sigue siendo una buena puerta de entrada a Agatha Christie?",
+            "answer": "Sí, especialmente para lectores que prefieren una novela más móvil y menos concentrada en un detective estrella. Quizá no sea la más representativa de su fórmula clásica, pero sí muy disfrutable y reveladora de su versatilidad."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Agatha Christie official: The Seven Dials Mystery",
+            "url": "https://www.agathachristie.com/stories/the-seven-dials-mystery"
+          },
+          {
+            "label": "Wikipedia: The Seven Dials Mystery",
+            "url": "https://en.wikipedia.org/wiki/The_Seven_Dials_Mystery"
+          },
+          {
+            "label": "Open Library: The Seven Dials Mystery",
+            "url": "https://openlibrary.org/works/OL471784W"
+          },
+          {
+            "label": "Open Library edition: El misterio de las siete esferas",
+            "url": "https://openlibrary.org/books/OL13228026M/El_misterio_de_las_siete_esferas"
+          },
+          {
+            "label": "Wikipedia: Agatha Christie",
+            "url": "https://es.wikipedia.org/wiki/Agatha_Christie"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-sospechoso-viste-de-negro-de-norma-huidobro",
+      "title": "El Sospechoso Viste De Negro",
+      "authorName": "Norma Huidobro",
+      "authorSlug": "norma-huidobro",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 9,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El sospechoso viste de negro",
+        "authorName": "Norma Huidobro",
+        "authorSlug": "norma-huidobro",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "misterio",
+          "policial",
+          "aventura"
+        ],
+        "year": 2001,
+        "pages": 176,
+        "summary": "El sospechoso viste de negro es una novela juvenil de misterio en la que Marcos decide investigar a un hombre enigmático que parece amenazar al farmacéutico del barrio. Lo que empieza como un juego detectivesco inspirado en Sherlock Holmes o Hércules Poirot pronto se vuelve una pesquisa más compleja, con pistas confusas, persecuciones, adultos difíciles de descifrar y un trasfondo que conecta la intriga con problemas ambientales y conflictos locales. Norma Huidobro administra muy bien la información: deja que el lector avance junto al protagonista, combine indicios y descubra que mirar, deducir y preguntar no siempre alcanza cuando la realidad tiene zonas turbias. La novela une suspenso, humor, observación cotidiana y aprendizaje, y convierte la curiosidad juvenil en motor narrativo.",
+        "aboutThisBook": "Publicado por Grupo Editorial Norma dentro de la colección Torre de Papel Amarilla, el libro forma parte del tramo más reconocible de la obra juvenil de Huidobro, autora argentina muy asociada al cruce entre intriga, vida cotidiana y lectores escolares. Su brevedad y claridad no impiden que trabaje problemas centrales del policial: sospecha, interpretación de pistas, errores de lectura y aparición progresiva de la verdad. Además, la dimensión ecológica amplía el conflicto y evita que todo quede reducido a un enigma personal o doméstico.",
+        "forWhom": "Para lectores desde el final de primaria o primeros años de secundaria, docentes, mediadores de lectura y quienes busquen un policial juvenil breve, ágil y discutible en clase.",
+        "whyItMatters": "Importa porque muestra cómo la novela policial juvenil puede entretener y, al mismo tiempo, enseñar a observar, dudar de las apariencias y conectar una intriga barrial con un problema colectivo.",
+        "editorialIntro": "Norma Huidobro domina una fórmula difícil: escribir para lectores jóvenes sin simplificar el placer de investigar. El sospechoso viste de negro parte de una premisa irresistible —un hombre misterioso, un farmacéutico amenazado, un chico dispuesto a averiguar qué ocurre— y desarrolla la intriga con buen ritmo, pistas dosificadas y una mirada muy atenta al barrio y sus conversaciones. Es una novela ideal para descubrir cómo funciona el deseo de saber dentro de un policial accesible pero nada bobo.",
+        "readingLevel": "Lectura accesible para lectores juveniles. El lenguaje es claro, pero seguir la investigación exige atención a pistas, sospechosos y cambios en la interpretación de los hechos.",
+        "whyReadToday": "Porque sigue siendo una puerta de entrada eficaz al policial juvenil y porque vincula curiosidad, pensamiento crítico y preocupación por asuntos ambientales concretos.",
+        "studyNotes": [
+          "Marcos funciona como investigador aprendiz: su entusiasmo lector por los detectives clásicos impulsa la acción, pero también lo expone a errores de interpretación.",
+          "La novela trabaja la lógica del policial desde el barrio y la vida cotidiana, sin necesidad de grandes escenarios criminales.",
+          "La temática ecológica no es decorativa: amplía el conflicto y le da a la intriga una dimensión social más amplia que la mera amenaza individual.",
+          "Es útil observar cómo Huidobro administra la información: oculta lo justo, siembra indicios y mantiene siempre activo el deseo de saber del lector."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El enigma aparece en el barrio",
+            "summary": "Marcos detecta la presencia inquietante de un hombre vestido de negro y percibe que alrededor del farmacéutico ocurre algo anormal. La curiosidad inicial se convierte en una investigación personal."
+          },
+          {
+            "title": "Pistas, hipótesis y confusiones",
+            "summary": "A medida que sigue indicios y observa conductas extrañas, Marcos ensaya explicaciones inspiradas en sus modelos detectivescos. Sin embargo, las señales no encajan de manera simple y la pesquisa se complica."
+          },
+          {
+            "title": "La trama oculta se vuelve visible",
+            "summary": "En la parte final, el misterio empieza a aclararse y el protagonista comprende que detrás de las apariencias había intereses y relaciones más amplias. La resolución confirma el aprendizaje del mirar con cuidado antes de concluir."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Aprender a investigar",
+            "content": "La novela convierte la curiosidad lectora en método narrativo. Marcos mira el mundo con ojos de detective aficionado, y esa mezcla de entusiasmo y torpeza vuelve muy convincente su aprendizaje."
+          },
+          {
+            "heading": "Un policial de cercanía",
+            "content": "Huidobro demuestra que el suspenso no necesita escenarios grandilocuentes. El barrio, la farmacia y las conversaciones cotidianas bastan para producir sospecha, tensión y descubrimiento."
+          },
+          {
+            "heading": "Misterio y ecología",
+            "content": "El componente ambiental ensancha la novela y le da espesor ético. La investigación ya no se limita a descubrir a una persona sospechosa, sino a entender un conflicto que afecta a una comunidad."
+          },
+          {
+            "heading": "Legibilidad sin simplismo",
+            "content": "Su claridad verbal y su extensión breve la vuelven apta para lectores jóvenes, pero la estructura de pistas y errores obliga a leer con atención y a revisar hipótesis, que es una de las lecciones centrales del género."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela policial para lectores jóvenes?",
+            "answer": "Sí. Está pensada para público juvenil y usa con inteligencia recursos clásicos del policial: observación, pistas, sospechosos y resolución gradual del enigma."
+          },
+          {
+            "question": "¿Quién investiga el misterio?",
+            "answer": "El protagonista, Marcos, que decide averiguar por su cuenta quién es el hombre de negro y por qué parece amenazar al farmacéutico."
+          },
+          {
+            "question": "¿Solo importa el enigma personal?",
+            "answer": "No. La novela incorpora una dimensión ecológica y comunitaria que ensancha el conflicto y le da un sentido social más interesante."
+          },
+          {
+            "question": "¿Funciona bien en contexto escolar?",
+            "answer": "Sí. Su extensión, su ritmo y su estructura de investigación la vuelven muy útil para trabajar inferencias, género policial y lectura atenta en clase."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Norma Infantil y Juvenil: El sospechoso viste de negro",
+            "url": "https://www.normainfantilyjuvenil.com/ar/libro/el-sospechoso-viste-de-negro"
+          },
+          {
+            "label": "Norma Infantil y Juvenil: Norma Huidobro",
+            "url": "https://www.normainfantilyjuvenil.com/pe/autores/norma-huidobro"
+          },
+          {
+            "label": "Open Library: El Sospechoso Viste de Negro",
+            "url": "https://openlibrary.org/books/OL13200526M/El_Sospechoso_Viste_de_Negro"
+          },
+          {
+            "label": "Google Books: Sospechoso viste de negro",
+            "url": "https://books.google.com/books/about/Sospechoso_viste_de_negro.html?id=3tEGGwAACAAJ"
+          },
+          {
+            "label": "Lecturalia: El sospechoso viste de negro",
+            "url": "https://www.lecturalia.com/libro/96752/el-sospechoso-viste-de-negro"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-18T18:33:28Z"
+}

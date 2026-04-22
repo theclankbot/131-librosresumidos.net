@@ -1,0 +1,1498 @@
+{
+  "batchName": "replenish-20260420T090258Z-topup-next6",
+  "createdAt": "2026-04-20T09:03:06Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-cazador-de-suenos-de-stephen-king",
+      "title": "El Cazador De Suenos",
+      "authorName": "Stephen King",
+      "authorSlug": "stephen-king",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El cazador de sueños",
+        "authorName": "Stephen King",
+        "authorSlug": "stephen-king",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "terror",
+          "ciencia ficción",
+          "thriller"
+        ],
+        "year": 2001,
+        "pages": 838,
+        "summary": "Esta novela de Stephen King mezcla terror corporal, invasión extraterrestre y amistad masculina en una historia extensa y deliberadamente desbordada. Cuatro amigos de Maine —Jonesy, Beaver, Pete y Henry— arrastran desde la adolescencia un vínculo casi psíquico nacido cuando protegieron a Duddits, un chico vulnerable que cambió sus vidas para siempre. Durante una salida de caza, ese pasado íntimo choca con una amenaza alienígena que se manifiesta a través de cuerpos infectados, visiones mentales y una operación militar dispuesta a borrar cualquier rastro. King alterna escenas de camaradería, horror grotesco y persecución paranoica para contar no solo una lucha por sobrevivir, sino también un combate por conservar la identidad cuando algo ajeno intenta ocupar la mente y el cuerpo.",
+        "aboutThisBook": "Publicado en 2001, El cazador de sueños pertenece a la etapa en la que King llevaba su imaginación hacia novelas largas, híbridas y sin miedo al exceso. Su interés no está solo en la amenaza exterior, sino en la forma en que la memoria compartida, la culpa y la lealtad sostienen a los personajes. Aunque el propio autor ha sido ambivalente con el resultado, sigue siendo una obra útil para entender su mezcla de terror popular, ciencia ficción pulp, humor sombrío y mitología de Derry.",
+        "forWhom": "Para lectores que disfrutan novelas largas de terror con criaturas, conspiraciones militares, amistad a prueba de trauma y una imaginación grotesca muy visual.",
+        "whyItMatters": "Importa porque muestra a Stephen King trabajando el cruce entre horror íntimo y espectáculo apocalíptico. También revela cómo sus novelas convierten la amistad, la infancia y la memoria en defensas morales frente a lo monstruoso.",
+        "editorialIntro": "El cazador de sueños no es una novela discreta: avanza con exceso, mutaciones, telepatía, humor negro y una energía de pesadilla que nunca busca ser elegante. Justamente por eso resulta interesante en clave editorial. Reúne varias obsesiones de King —la amistad masculina, la herida infantil, el cuerpo invadido, el secreto militar, Derry como territorio maldito— y las convierte en una narración áspera, irregular, pero muy reconocible.",
+        "readingLevel": "Lectura media-alta para público adulto. La prosa es accesible, pero la extensión, los cambios de punto de vista y las escenas de horror corporal exigen continuidad y tolerancia a lo grotesco.",
+        "whyReadToday": "Sigue siendo una lectura vigente para quien busque una novela de invasión alienígena menos fría y más emocional, donde el miedo nace tanto del contagio como de perder la propia conciencia.",
+        "studyNotes": [
+          "La amistad entre los cuatro protagonistas funciona como la verdadera estructura defensiva de la novela; sin ese pasado común, la trama sería solo una historia de monstruos.",
+          "Duddits no actúa solo como recuerdo sentimental: encarna una forma de diferencia convertida en fuente de poder moral y psíquico.",
+          "El horror corporal no es adorno: King lo usa para volver visible la invasión de la intimidad y la fragilidad del cuerpo humano.",
+          "La presencia del ejército introduce una crítica clásica de King al secreto institucional y a la violencia administrada en nombre del orden."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Amistad y origen del vínculo",
+            "summary": "La novela presenta a Jonesy, Beaver, Pete y Henry, unidos desde jóvenes por el rescate de Duddits. Ese episodio funda una conexión mental y afectiva que luego será decisiva para comprender la amenaza."
+          },
+          {
+            "title": "La cabaña y la irrupción del contagio",
+            "summary": "En el viaje anual de caza, la rutina se rompe con la llegada de un hombre desorientado y enfermo. El aislamiento del bosque se convierte en laboratorio del horror cuando aparecen los primeros signos de infección alienígena."
+          },
+          {
+            "title": "Mr. Gray y la guerra por la mente",
+            "summary": "Jonesy queda atrapado en una lucha interior contra la entidad que intenta usar su cuerpo. Desde ese momento, la novela combina persecución externa y resistencia mental, una de sus tensiones más efectivas."
+          },
+          {
+            "title": "Militares, secreto y confrontación final",
+            "summary": "La intervención del coronel Kurtz y del aparato militar eleva el conflicto a escala colectiva. Henry y Owen comprenden que solo recuperando el vínculo con Duddits podrán detener una expansión devastadora."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Amistad masculina como núcleo moral",
+            "content": "Frente al espectáculo alienígena, King sostiene la novela sobre una amistad imperfecta pero persistente. Los protagonistas no son héroes abstractos: son hombres marcados por la memoria, el cansancio y la lealtad. Eso da espesor emocional a una trama que podría haber quedado en pura acción."
+          },
+          {
+            "heading": "El cuerpo invadido",
+            "content": "El libro explota el miedo a que lo extraño entre en el organismo y lo vuelva irreconocible. Parásitos, esporas y mutaciones convierten el cuerpo en campo de batalla. Esa imaginería grotesca conecta la ciencia ficción con una ansiedad muy física y muy humana."
+          },
+          {
+            "heading": "Derry, trauma y continuidad del universo King",
+            "content": "Situar parte de la historia cerca de Derry no es un mero guiño. King vuelve a una geografía donde el mal parece sedimentado. Así enlaza esta novela con otras obras suyas y refuerza la idea de que el horror no llega de la nada: encuentra siempre un terreno ya herido."
+          },
+          {
+            "heading": "Exceso narrativo y recepción",
+            "content": "El cazador de sueños suele dividir a los lectores por su longitud y su desmesura tonal. Precisamente esa irregularidad también la vuelve útil para estudiar a King: exhibe sin filtros su impulso de mezclar emoción popular, monstruosidad, humor y melodrama."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El cazador de sueños es una novela de terror o de ciencia ficción?",
+            "answer": "Es ambas cosas. Usa una base de invasión alienígena, pero la desarrolla con recursos típicos del terror corporal, la paranoia y la pesadilla psicológica."
+          },
+          {
+            "question": "¿Hace falta conocer otros libros de Stephen King para leerla?",
+            "answer": "No. Puede leerse por separado, aunque los lectores habituales reconocerán ecos de Derry y de otras obsesiones del autor."
+          },
+          {
+            "question": "¿Es una lectura recomendable para adolescentes?",
+            "answer": "Solo para lectores muy entrenados y con tolerancia a escenas fuertes. Por violencia, asco y complejidad, encaja mejor en público adulto."
+          },
+          {
+            "question": "¿Por qué suele considerarse una novela discutida dentro de la obra de King?",
+            "answer": "Porque su extensión, su tono excesivo y algunas decisiones de trama generan opiniones encontradas. Aun así, conserva ideas potentes y escenas memorables."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Stephen King — Dreamcatcher",
+            "url": "https://stephenking.com/works/novel/dreamcatcher.html"
+          },
+          {
+            "label": "Open Library — Dreamcatcher",
+            "url": "https://openlibrary.org/works/OL81598W/Dreamcatcher"
+          },
+          {
+            "label": "Google Books — El cazador de sueños",
+            "url": "https://play.google.com/store/books/details?id=A18bBAAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Wikipedia — Dreamcatcher (novel)",
+            "url": "https://en.wikipedia.org/wiki/Dreamcatcher_(novel)"
+          },
+          {
+            "label": "Britannica — Stephen King",
+            "url": "https://www.britannica.com/biography/Stephen-King"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-color-que-cayo-del-cielo-de-h-p-lovecraft",
+      "title": "El Color Que Cayo Del Cielo",
+      "authorName": "H P Lovecraft",
+      "authorSlug": "h-p-lovecraft",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El color que cayó del cielo",
+        "authorName": "H. P. Lovecraft",
+        "authorSlug": "h-p-lovecraft",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "terror cósmico",
+          "ciencia ficción",
+          "cuento"
+        ],
+        "year": 1927,
+        "pages": null,
+        "summary": "Este cuento largo de Lovecraft narra la ruina de una granja de Nueva Inglaterra después de la caída de un meteorito imposible de clasificar. El narrador reconstruye los hechos a partir del testimonio de Ammi Pierce, vecino de los Gardner, familia sobre la que recae el desastre. Primero llegan las anomalías: cosechas gigantes pero incomibles, animales deformados, agua sospechosa, luces extrañas y una sensación de contaminación que no puede explicarse con categorías humanas. Después llega el verdadero espanto: la descomposición mental y física de los habitantes de la casa. La fuerza invasora no tiene forma estable ni nombre suficiente; es, apenas por analogía, un color. Esa imposibilidad de describir lo que destruye la vida es la clave del relato.",
+        "aboutThisBook": "Es uno de los textos más influyentes de Lovecraft y un ejemplo claro de su llamado terror cósmico: el miedo no nace de un monstruo reconocible, sino de una alteridad radical que rebasa el lenguaje humano. Escrito en 1927 y publicado ese mismo año en Amazing Stories, el cuento combina imaginería rural, contaminación ambiental, decadencia familiar y una ciencia impotente frente a lo desconocido. Su importancia también reside en la precisión con que transforma un paisaje cotidiano en una zona donde la realidad parece haber sido corrompida desde adentro.",
+        "forWhom": "Para lectores interesados en el terror clásico, la ciencia ficción inquietante y los relatos breves que construyen atmósfera antes que acción frenética.",
+        "whyItMatters": "Importa porque condensa de forma ejemplar la idea lovecraftiana de que el universo contiene fuerzas ajenas a la experiencia humana. Además, su influencia alcanza literatura, cine, cómic y videojuegos contemporáneos.",
+        "editorialIntro": "Si alguien quiere entender por qué el nombre de Lovecraft sigue apareciendo cada vez que se habla de horror cósmico, este cuento es una puerta de entrada excelente. El color que cayó del cielo no depende de una mitología enciclopédica ni de criaturas con biografía. Su potencia está en mostrar cómo algo verdaderamente ajeno corroe la materia, el lenguaje y la vida doméstica hasta volver irreconocible un paisaje entero.",
+        "readingLevel": "Lectura media para adultos y jóvenes avanzados. El texto no es largo, pero su sintaxis, su tono arcaizante y su énfasis atmosférico piden atención sostenida.",
+        "whyReadToday": "Se lee con fuerza hoy porque anticipa miedos muy contemporáneos: contaminación invisible, daño ecológico, pérdida de confianza en la percepción y límites de la ciencia para nombrar lo anómalo.",
+        "studyNotes": [
+          "El cuento está construido como investigación retrospectiva: sabemos desde el inicio que el lugar quedó arrasado, y el interés pasa a ser cómo ocurrió.",
+          "Lovecraft insiste en la insuficiencia del lenguaje; llamar “color” a la entidad es ya reconocer que no existe una palabra exacta para ella.",
+          "La degradación de la granja convierte el paisaje en signo moral y físico de contaminación, mucho antes de que el ecoterror fuera una categoría crítica frecuente.",
+          "La familia Gardner funciona como escala humana del desastre cósmico: el espanto universal se vuelve insoportable cuando entra en la casa y en el cuerpo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El paraje maldito y el testimonio",
+            "summary": "Un narrador que investiga una zona evitada por todos escucha a Ammi Pierce, quien conserva la memoria del caso Gardner y del origen del “erial maldito”."
+          },
+          {
+            "title": "La caída del meteorito",
+            "summary": "Un objeto celeste cae en la granja de Nahum Gardner y desconcierta a los científicos. Su materia desafía la explicación y deja claro desde el principio que no se trata de un fenómeno normal."
+          },
+          {
+            "title": "La corrupción de la vida cotidiana",
+            "summary": "Las cosechas crecen deformadas, los animales se alteran y el agua del pozo se vuelve amenazante. La contaminación ya no es un rumor: entra en el ciclo de la vida doméstica."
+          },
+          {
+            "title": "Disolución de la familia y revelación final",
+            "summary": "La locura, la enfermedad y la desaparición destruyen a los Gardner uno por uno. El desenlace confirma que la amenaza no era simbólica, sino una fuerza auténticamente ajena al mundo humano."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Terror de lo innombrable",
+            "content": "Lovecraft no necesita describir con precisión a la entidad para volverla memorable. Al contrario: la vuelve más perturbadora al mostrar que el lenguaje humano fracasa ante ella. Esa estrategia desplaza el miedo desde el objeto hacia el límite de nuestra comprensión."
+          },
+          {
+            "heading": "Naturaleza contaminada",
+            "content": "El relato convierte la tierra, el agua y la cosecha en vehículos del horror. No hay refugio en el campo ni idealización rural. La granja, símbolo de continuidad y sustento, aparece tomada por una fuerza que pervierte todo lo vivo."
+          },
+          {
+            "heading": "Ciencia impotente",
+            "content": "Los expertos observan el meteorito, lo analizan y lo nombran mal. Su presencia inicial da un marco racional, pero pronto queda claro que el conocimiento disponible no basta. El cuento no ataca la ciencia: la enfrenta con algo que excede sus instrumentos."
+          },
+          {
+            "heading": "Una forma canónica del horror cósmico",
+            "content": "La historia es central porque resume varias constantes lovecraftianas: testimonio indirecto, entorno aislado, degradación material y revelación de una alteridad absoluta. Su huella se reconoce en innumerables relatos posteriores sobre invasiones invisibles o paisajes corruptos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un cuento o una novela corta?",
+            "answer": "Suele clasificarse como cuento largo o relato extenso. Tiene la concentración de un cuento, pero desarrolla con bastante amplitud su atmósfera y su progresión del desastre."
+          },
+          {
+            "question": "¿Qué significa exactamente el “color” del título?",
+            "answer": "No designa un color normal del espectro visible. El relato insiste en que solo por analogía puede llamarse así, porque se trata de algo que el ojo y el lenguaje no saben clasificar."
+          },
+          {
+            "question": "¿Da miedo por sustos o por ambiente?",
+            "answer": "Sobre todo por ambiente, deterioro y extrañeza. El espanto crece lentamente a medida que el lector comprende que la naturaleza misma ha sido alterada."
+          },
+          {
+            "question": "¿Es una buena puerta de entrada a Lovecraft?",
+            "answer": "Sí. Reúne su atmósfera, su idea de lo cósmico y su capacidad para sugerir lo inexplicable sin exigir conocer todo su universo mitológico."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "The H. P. Lovecraft Archive — The Colour out of Space",
+            "url": "https://www.hplovecraft.com/writings/texts/fiction/cs.aspx"
+          },
+          {
+            "label": "Wikipedia — The Colour Out of Space",
+            "url": "https://en.wikipedia.org/wiki/The_Colour_Out_of_Space"
+          },
+          {
+            "label": "Google Books — El color que cayó del cielo",
+            "url": "http://books.google.es/books?id=OTrpzgEACAAJ&dq=El+color+que+cay%C3%B3+del+cielo+Lovecraft&hl=&source=gbs_api"
+          },
+          {
+            "label": "Britannica — H.P. Lovecraft",
+            "url": "https://www.britannica.com/biography/H-P-Lovecraft"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-cuento-de-navidad-de-auggie-wren-de-paul-auster",
+      "title": "El Cuento De Navidad De Auggie Wren",
+      "authorName": "Paul Auster",
+      "authorSlug": "paul-auster",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El cuento de Navidad de Auggie Wren",
+        "authorName": "Paul Auster",
+        "authorSlug": "paul-auster",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "cuento",
+          "literatura contemporánea",
+          "navideño"
+        ],
+        "year": 1991,
+        "pages": 30,
+        "summary": "En este relato breve y célebre, Paul Auster convierte un encargo navideño en una reflexión sobre el arte de contar, la identidad y la bondad ambigua. El narrador, llamado Paul, frecuenta la tabaquería de Auggie Wren en Brooklyn y descubre en él a un personaje aparentemente menor pero lleno de mirada artística. Auggie fotografía cada mañana la misma esquina; esa rutina revela que ver de verdad exige lentitud. Más tarde, cuando el narrador necesita una historia de Navidad, Auggie le cuenta un episodio extraño: encuentra una cartera perdida, sigue una dirección y acaba pasando la jornada con una anciana ciega que lo confunde con su nieto. Lo que sigue mezcla compasión, impostura, comida compartida, pequeño delito y una última duda sobre si el relato ocurrió realmente así.",
+        "aboutThisBook": "Auggie Wren’s Christmas Story apareció primero en The New York Times el 25 de diciembre de 1990 y luego circuló como libro breve en distintas ediciones. Su prestigio nace de algo muy austeriano: tomar una anécdota mínima y cargarla de preguntas sobre verdad, representación y azar. El cuento dialoga además con la sensibilidad urbana de Brooklyn y con la importancia de los gestos pequeños. Más que una fábula sentimental, es una historia sobre cómo una mentira puede contener una forma difícil de generosidad.",
+        "forWhom": "Para lectores que prefieren cuentos breves, elegantes y urbanos, con capas morales y un cierre que deja una duda deliberada sobre la verdad de lo narrado.",
+        "whyItMatters": "Importa porque en muy pocas páginas resume rasgos centrales de Auster: azar, dobles identidades, arte cotidiano y fronteras movedizas entre verdad y ficción. También ofrece una Navidad menos decorativa y más humana.",
+        "editorialIntro": "Pocas historias navideñas contemporáneas logran ser tan cálidas sin volverse ingenuas. El cuento de Navidad de Auggie Wren funciona como un pequeño laboratorio de Paul Auster: un narrador-escritor, una conversación casual, un objeto perdido, una mentira que quizá sea también un acto de cuidado y un final que impide cerrar del todo el sentido. Su brevedad engaña; es un texto corto, pero muy comentable.",
+        "readingLevel": "Lectura accesible para adultos y jóvenes lectores avanzados. La prosa es clara, pero su verdadero interés está en las implicaciones éticas y metaliterarias del relato.",
+        "whyReadToday": "Sigue valiendo la pena porque ofrece una historia de Navidad urbana, sobria y poco sentimental, centrada en la atención, la compañía y el poder ambiguo de una buena narración.",
+        "studyNotes": [
+          "Las fotografías de Auggie anticipan el sentido del cuento: mirar lo mismo todos los días no produce repetición vacía, sino variación y memoria.",
+          "La historia de la cartera perdida funciona como cadena de casualidades típicamente austeriana, donde un detalle menor abre una experiencia decisiva.",
+          "El encuentro con la anciana ciega obliga a leer la mentira no solo como fraude, sino también como improvisación compasiva.",
+          "El final mantiene en suspenso la verdad factual de la anécdota y desplaza el foco hacia su eficacia narrativa y emocional."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Auggie como artista de lo cotidiano",
+            "summary": "El narrador presenta al tabaquero de Brooklyn y descubre su proyecto fotográfico: retratar la misma esquina cada mañana durante años. Ese gesto define la sensibilidad del cuento."
+          },
+          {
+            "title": "El encargo navideño y la cartera perdida",
+            "summary": "Cuando el narrador necesita una historia de Navidad, Auggie empieza a contar cómo encontró una cartera abandonada y decidió seguir la dirección del documento hallado."
+          },
+          {
+            "title": "La visita a Granny Ethel",
+            "summary": "En el apartamento, una anciana ciega confunde a Auggie con su nieto Robert. Auggie acepta el papel y comparte con ella una jornada íntima, hecha de conversación, comida y consuelo."
+          },
+          {
+            "title": "La duda final",
+            "summary": "Tras relatar el episodio, Auggie deja al narrador —y al lector— con la sospecha de que quizá lo inventó todo. Esa incertidumbre convierte al cuento en una reflexión sobre la verdad literaria."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Ver despacio",
+            "content": "La secuencia de las fotografías no es un adorno excéntrico. Define una ética de la atención: las cosas cambian incluso cuando parecen iguales. Auster conecta así percepción artística y experiencia moral."
+          },
+          {
+            "heading": "Mentira, compasión y representación",
+            "content": "Auggie suplanta al nieto ausente, pero el relato evita condenarlo de forma simple. La mentira es también una respuesta improvisada al deseo de compañía de la anciana. Esa ambivalencia sostiene la fuerza del cuento."
+          },
+          {
+            "heading": "Brooklyn como escenario moral",
+            "content": "El cuento depende de una geografía concreta: tabaquería, calles, apartamentos modestos, trayectos a pie. La ciudad no es decorado; es el espacio donde el azar cruza vidas y donde lo cotidiano adquiere densidad narrativa."
+          },
+          {
+            "heading": "Una poética de la historia bien contada",
+            "content": "El desenlace sugiere que tal vez Auggie inventó su gran historia de Navidad. Lejos de restarle valor, eso refuerza la pregunta central: ¿qué buscamos en un cuento, exactitud documental o una forma de verdad humana?"
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un cuento independiente o parte de otro libro?",
+            "answer": "Se lee perfectamente de forma independiente. Nació como relato publicado en prensa y luego se editó como libro breve en distintas versiones."
+          },
+          {
+            "question": "¿Tiene relación con la película Smoke?",
+            "answer": "Sí. El personaje de Auggie Wren y la atmósfera del relato están ligados al universo que Auster desarrolló alrededor de Smoke, obra con la que suele asociarse esta historia."
+          },
+          {
+            "question": "¿Es un cuento navideño tradicional?",
+            "answer": "No del todo. Tiene Navidad, pero evita el tono edulcorado y trabaja más bien la soledad, la compañía, la memoria y la ambigüedad moral."
+          },
+          {
+            "question": "¿Por qué se estudia tanto en cursos de literatura?",
+            "answer": "Porque en pocas páginas permite analizar narrador, marco narrativo, fiabilidad, ética de la mentira y relación entre arte y vida cotidiana."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library — Auggie Wren’s Christmas story",
+            "url": "https://openlibrary.org/works/OL15841619W/Auggie_Wren%27s_Christmas_story"
+          },
+          {
+            "label": "Google Books — El cuento de Navidad de Auggie Wren",
+            "url": "http://books.google.es/books?id=V9EIAAAACAAJ&dq=Auggie+Wren%27s+Christmas+Story+Paul+Auster&hl=&source=gbs_api"
+          },
+          {
+            "label": "NPR — Paul Auster: Auggie Wren’s Christmas",
+            "url": "https://www.npr.org/2004/12/25/4244994/paul-auster-auggie-wrens-christmas"
+          },
+          {
+            "label": "XTEC — PDF de Auggie Wren's Christmas Story",
+            "url": "http://www.xtec.cat/~dsanz4/materiales/auggie_wren.pdf"
+          },
+          {
+            "label": "Britannica — Paul Auster",
+            "url": "https://www.britannica.com/biography/Paul-Auster"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-cuerpo-humano-guia-para-ocupantes-de-bill-bryson",
+      "title": "El Cuerpo Humano Guia Para Ocupantes",
+      "authorName": "Bill Bryson",
+      "authorSlug": "bill-bryson",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El cuerpo humano: guía para ocupantes",
+        "authorName": "Bill Bryson",
+        "authorSlug": "bill-bryson",
+        "type": "no-ficcion",
+        "audience": "general",
+        "genres": [
+          "divulgación científica",
+          "ciencia",
+          "salud"
+        ],
+        "year": 2020,
+        "pages": 512,
+        "summary": "En este libro Bill Bryson convierte el cuerpo humano en un territorio narrable, sorprendente y profundamente cercano. Su recorrido avanza de la cabeza a los pies, pero no como un manual escolar, sino como una investigación llena de historia de la medicina, datos llamativos, preguntas abiertas y ejemplos que devuelven extrañeza a lo cotidiano. Explica cómo funcionan órganos, tejidos, huesos, sangre, cerebro y sistema inmunitario, pero también cuánto ignoramos todavía sobre nosotros mismos. El resultado no es solo una introducción a la biología del cuerpo: es una celebración de su complejidad, de su capacidad de reparación y de la mezcla de fragilidad y resistencia que sostiene la vida diaria.",
+        "aboutThisBook": "Es un libro de divulgación científica pensado para lectores no especialistas. La edición española publicada por RBA presenta la obra como una guía para entender ese “vehículo” que habitamos siempre y conocemos poco. Bryson combina curiosidad periodística, humor sobrio y síntesis accesible para enlazar anatomía, medicina, evolución e historia de los descubrimientos científicos. No intenta reemplazar un tratado médico, sino ofrecer una visión amplia, inteligible y asombrosa del cuerpo como sistema vivo.",
+        "forWhom": "Para lectores curiosos, estudiantes que buscan una entrada amena a la anatomía, clubes de lectura de no ficción y cualquiera que disfrute la divulgación clara con tono narrativo.",
+        "whyItMatters": "Importa porque devuelve escala humana a la ciencia: recuerda que vivir dentro de un cuerpo no implica comprenderlo. Bryson organiza conocimientos complejos de forma memorable y muestra cuánto dependen la salud, la historia y la identidad de procesos invisibles.",
+        "editorialIntro": "Pocos libros de ciencia logran el equilibrio entre asombro, claridad y ligereza narrativa que Bill Bryson encuentra aquí. El cuerpo humano aparece como una maquinaria extraordinaria, pero también como una historia inacabada: cada explicación convive con zonas de misterio, errores médicos del pasado y preguntas que siguen abiertas. Esa mezcla vuelve la lectura especialmente viva.",
+        "readingLevel": "Accesible desde secundaria avanzada y bachillerato; ideal para adultos sin formación científica que quieran leer ciencia sin tecnicismo excesivo.",
+        "whyReadToday": "Sigue siendo muy pertinente en un momento de gran circulación de información sobre salud. Ayuda a distinguir entre fascinación superficial y comprensión real, y recupera el valor de la buena divulgación para lectores comunes.",
+        "studyNotes": [
+          "Conviene leerlo como un mapa general del cuerpo, no como un manual clínico: su fuerza está en relacionar sistemas y convertir hechos dispersos en una visión unificada.",
+          "Bryson usa la anécdota histórica para fijar conceptos científicos. Observar esa estrategia sirve para estudiar cómo la divulgación transforma datos complejos en relato comprensible.",
+          "Una idea central del libro es la desproporción entre lo mucho que el cuerpo hace por nosotros y lo poco que sabemos de él en la vida cotidiana.",
+          "Resulta útil comparar sus capítulos con contenidos escolares de biología para ver qué añade la perspectiva histórica y cultural a la explicación puramente técnica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Tramo inicial: entrar en el cuerpo",
+            "summary": "El libro abre con una invitación a mirar el cuerpo como una construcción extraordinaria y poco comprendida. Bryson sitúa al lector entre la maravilla biológica y la historia de los descubrimientos que hicieron visible lo invisible."
+          },
+          {
+            "title": "Tramo central: órganos, sistemas y equilibrios",
+            "summary": "La parte media recorre funciones vitales y muestra cómo órganos, sangre, huesos, piel, cerebro y defensas trabajan de manera interdependiente. El énfasis está tanto en el funcionamiento normal como en los fallos que permiten entender mejor el conjunto."
+          },
+          {
+            "title": "Tramo final: enfermedad, reparación y límites del saber",
+            "summary": "Hacia el cierre, Bryson insiste en la capacidad de recuperación del cuerpo y en los límites persistentes de la medicina. La conclusión deja una sensación doble: admiración por lo que la ciencia ya sabe y humildad ante lo que aún desconoce."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Divulgación con estructura narrativa",
+            "content": "Bryson no presenta una enciclopedia en miniatura, sino un viaje guiado. Esa forma hace que la información no se acumule como lista de datos, sino como experiencia de lectura donde cada órgano remite a una historia científica y humana."
+          },
+          {
+            "heading": "La ciencia como asombro y corrección",
+            "content": "Una de las ideas más valiosas del libro es que el conocimiento médico avanza entre errores, hipótesis revisadas y descubrimientos parciales. El cuerpo aparece así como objeto de estudio, pero también como recordatorio de la provisionalidad del saber."
+          },
+          {
+            "heading": "Una ética de la atención al propio cuerpo",
+            "content": "Sin sermonear, el libro sugiere una consecuencia ética: prestar atención al cuerpo implica respetar su complejidad. La lectura fomenta una relación menos banal con la salud y más consciente de la fragilidad material de la vida."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro médico o un libro de divulgación?",
+            "answer": "Es divulgación científica. Explica anatomía, fisiología e historia de la medicina para lectores generales, pero no funciona como manual clínico ni como guía de diagnóstico."
+          },
+          {
+            "question": "¿Hace falta saber biología para leerlo?",
+            "answer": "No. Está escrito precisamente para lectores no especialistas y su tono evita el exceso de tecnicismos, aunque ofrece bastante información y conviene leerlo con calma."
+          },
+          {
+            "question": "¿Qué lo distingue de otros libros sobre el cuerpo?",
+            "answer": "Su combinación de claridad, humor, contexto histórico y capacidad de convertir funciones corporales cotidianas en una fuente constante de asombro intelectual."
+          },
+          {
+            "question": "¿La edición española tiene respaldo visible para sus datos básicos?",
+            "answer": "Sí. Casa del Libro y Google Books registran la edición española de 2020 con el título El cuerpo humano: guía para ocupantes y una extensión de 512 páginas."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Casa del Libro — El cuerpo humano: guía para ocupantes",
+            "url": "https://www.casadellibro.com/libro-el-cuerpo-humano-guia-para-ocupantes/9788491874805/11258322"
+          },
+          {
+            "label": "Google Books — El cuerpo humano",
+            "url": "https://play.google.com/store/books/details?id=017RDwAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Penguin Random House — The Body",
+            "url": "https://www.penguinrandomhouse.com/books/239783/the-body-by-bill-bryson/"
+          },
+          {
+            "label": "Wikipedia — The Body: A Guide for Occupants",
+            "url": "https://en.wikipedia.org/wiki/The_Body:_A_Guide_for_Occupants"
+          },
+          {
+            "label": "Open Library — The Body",
+            "url": "https://openlibrary.org/books/OL28720778M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-despertar-de-los-dragones-reyes-y-hechiceros-1-de-morgan-rice",
+      "title": "El Despertar De Los Dragones Reyes Y Hechiceros 1",
+      "authorName": "Morgan Rice",
+      "authorSlug": "morgan-rice",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El despertar de los dragones (Reyes y hechiceros—Libro 1)",
+        "authorName": "Morgan Rice",
+        "authorSlug": "morgan-rice",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasía épica",
+          "fantasía juvenil",
+          "aventura"
+        ],
+        "year": 2015,
+        "pages": 330,
+        "summary": "Esta primera entrega de la serie Reyes y hechiceros sigue a Kyra, una adolescente criada en un fuerte de varones que sueña con convertirse en guerrera. Desde muy pronto la novela plantea que su identidad es más compleja de lo que ella misma imagina: hay un secreto sobre su origen, una fuerza interior que todavía no comprende y una profecía que empieza a cercarla. Cuando intentan decidir su destino por ella, Kyra se resiste y emprende un camino propio. La historia combina formación personal, conflicto político, criaturas fantásticas y una promesa de saga: el despertar de un poder que puede alterar el equilibrio entre reinos, magia y violencia.",
+        "aboutThisBook": "Es una novela de fantasía orientada a lectores que buscan ritmo, aventura y una heroína joven en proceso de descubrimiento. Las fichas de Google Books y Apple Books coinciden en presentar a Kyra como una chica de quince años marcada por un linaje oculto y por el encuentro con un dragón herido, detonante de una transformación mayor. Como apertura de serie, el libro prioriza la construcción del mundo, el conflicto de identidad y la puesta en marcha de varias líneas narrativas futuras.",
+        "forWhom": "Para lectores juveniles y adultos que disfrutan la fantasía épica de iniciación, las sagas con profecías, castillos, criaturas míticas y protagonistas que deben conquistar autonomía.",
+        "whyItMatters": "Importa dentro de su registro porque articula una fantasía de crecimiento personal muy reconocible: la lucha por nombrarse a sí misma frente a estructuras familiares, militares y políticas que quieren imponer un papel cerrado.",
+        "editorialIntro": "El atractivo de esta novela no reside solo en dragones, combates y profecías, sino en la energía con la que pone en marcha una historia de emancipación. Morgan Rice construye un arranque de saga rápido, de lectura fluida, donde cada revelación sobre Kyra funciona a la vez como dato de trama y como señal de un mundo más amplio que todavía se está abriendo.",
+        "readingLevel": "Lectura ágil para secundaria y público juvenil; también funciona para adultos que busquen fantasía accesible, con lenguaje directo y mucha progresión argumental.",
+        "whyReadToday": "Sigue siendo una opción eficaz para quien quiera entrar en una saga fantástica sin una barrera alta de complejidad. Su foco en una protagonista joven que rechaza el destino impuesto mantiene vigencia entre lectores actuales.",
+        "studyNotes": [
+          "Es útil leerla como novela de iniciación: el centro no es solo la aventura exterior, sino la lenta comprensión de quién es Kyra y por qué su diferencia importa.",
+          "El libro trabaja varios motivos clásicos de la fantasía épica —profecía, linaje oculto, bestia legendaria, reino en peligro— desde una estructura muy orientada al suspense seriado.",
+          "La figura del dragón no es solo decorativa: representa un vínculo con poderes antiguos y con una identidad que la protagonista todavía no sabe habitar.",
+          "Como primer volumen, resuelve conflictos inmediatos pero deja abiertos varios interrogantes para sostener la continuación de la saga."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primer movimiento: una joven fuera de lugar",
+            "summary": "El inicio presenta a Kyra en un entorno que no termina de aceptarla del todo. Su deseo de ser guerrera y sus habilidades singulares la colocan en tensión con las expectativas que otros tienen para ella."
+          },
+          {
+            "title": "Segundo movimiento: huida, bosque y revelación",
+            "summary": "Cuando fuerzas externas intentan controlar su futuro, la protagonista toma su propio camino. El contacto con el bosque y con un dragón herido vuelve visible que su historia personal está ligada a algo mucho mayor."
+          },
+          {
+            "title": "Tercer movimiento: destino, poder y apertura de saga",
+            "summary": "La parte final amplía el conflicto hacia el plano del reino y de la profecía. Más que cerrar del todo la trama, consolida la identidad emergente de Kyra y prepara el horizonte épico de los libros siguientes."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Heroína de iniciación y resistencia",
+            "content": "Kyra responde al modelo de protagonista joven que debe inventarse contra la norma. La novela la construye desde la fricción entre obediencia y autodeterminación, clave para el tono emocional del relato."
+          },
+          {
+            "heading": "Uso de convenciones épicas",
+            "content": "Linaje secreto, profecía, reinos en disputa y criaturas legendarias son elementos reconocibles del género. El libro los emplea para ofrecer una entrada inmediata a la fantasía épica sin exigir un sistema de mundo excesivamente denso."
+          },
+          {
+            "heading": "Serie y promesa narrativa",
+            "content": "Su diseño como primer volumen es evidente: importa tanto lo que cuenta como lo que anuncia. Muchas decisiones formales buscan generar continuidad, ampliando el universo mientras mantienen un foco claro en la protagonista."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es el primer libro de una saga?",
+            "answer": "Sí. Las fuentes editoriales lo presentan como el Libro 1 de la serie Reyes y hechiceros, por lo que funciona como arranque y preparación de un arco más amplio."
+          },
+          {
+            "question": "¿Quién es la protagonista?",
+            "answer": "La protagonista es Kyra, una joven que desea ser guerrera y descubre que su origen y sus poderes la vinculan con una profecía y con el despertar de fuerzas mayores."
+          },
+          {
+            "question": "¿Qué tipo de fantasía ofrece?",
+            "answer": "Una fantasía épica y juvenil de lectura rápida, con castillos, bosques, criaturas míticas, conflictos de poder y un eje fuerte de crecimiento personal."
+          },
+          {
+            "question": "¿Hay respaldo visible para la edición en español?",
+            "answer": "Sí. Google Books registra la edición en español de 2015 con el título El despertar de los dragones (Reyes y hechiceros—Libro 1) y una extensión de 330 páginas."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Google Play Books — El despertar de los dragones (Reyes y hechiceros—Libro 1)",
+            "url": "https://play.google.com/store/books/details?id=MbUFCAAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Apple Books — Rise of the Dragons (Kings and Sorcerers—Book 1)",
+            "url": "https://books.apple.com/us/book/rise-of-the-dragons-kings-and-sorcerers-book-1/id942230549"
+          },
+          {
+            "label": "Open Library — Rise of the Dragons",
+            "url": "https://openlibrary.org/books/OL32697931M/Rise_of_the_Dragons"
+          },
+          {
+            "label": "Google Play Books — Rise of the Dragons (English edition)",
+            "url": "https://play.google.com/store/books/details/Rise_of_the_Dragons_Kings_and_Sorcerers_Book_1?id=KTdrBQAAQBAJ&hl=en-US"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-diario-de-la-princesa-de-meg-cabot",
+      "title": "El Diario De La Princesa",
+      "authorName": "Meg Cabot",
+      "authorSlug": "meg-cabot",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El diario de la princesa",
+        "authorName": "Meg Cabot",
+        "authorSlug": "meg-cabot",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "comedia romántica",
+          "coming of age"
+        ],
+        "year": 2001,
+        "pages": 240,
+        "summary": "La novela presenta a Mia Thermopolis, una adolescente neoyorquina que intenta sobrevivir al instituto, al álgebra, a sus inseguridades y a un puñado de situaciones sociales incómodas. Todo cambia cuando descubre que su padre es el príncipe heredero de Genovia y que ella, por tanto, es la siguiente en la línea de sucesión. A partir de ese momento, su vida cotidiana se convierte en un choque continuo entre intimidad y exposición pública, deseo personal y obligación dinástica. El formato de diario permite seguir con humor, vergüenza, ironía y ternura la construcción de una identidad adolescente atravesada por la pregunta decisiva: cómo cambiar sin dejar de ser una misma.",
+        "aboutThisBook": "Es la primera entrega de una de las series juveniles más populares de Meg Cabot. HarperCollins la presenta como el arranque de la saga y Wikipedia recuerda que el libro apareció en 2000 antes de su famosa adaptación cinematográfica. Su fuerza está en la voz de Mia: nerviosa, observadora, sarcástica y muy consciente de sus propias torpezas. Más que un simple cuento de transformación, la novela convierte la fantasía de “ser princesa” en una experiencia incómoda, divertida y formativa.",
+        "forWhom": "Para lectores juveniles, fans de historias de instituto y crecimiento personal, y adultos que quieran revisar una novela clave del cambio de siglo en la ficción adolescente anglosajona.",
+        "whyItMatters": "Importa porque ayudó a consolidar una forma de novela juvenil basada en voz íntima, humor diario y conflicto identitario. Además, desmonta el glamour automático de la realeza al mostrar sus exigencias, protocolos y renuncias.",
+        "editorialIntro": "Detrás de su premisa pop y muy adaptable al cine, El diario de la princesa funciona porque escucha de verdad la incomodidad adolescente. Meg Cabot no idealiza a Mia: la deja exagerar, equivocarse, sentirse observada y pensar mal de casi todo. Ese tono confesional le da al libro una frescura que va más allá de la fantasía romántica y lo vuelve una novela de formación muy legible.",
+        "readingLevel": "Lectura muy accesible desde primeros cursos de secundaria; útil también para lectores adultos que busquen una novela juvenil ágil, humorística y centrada en la voz narradora.",
+        "whyReadToday": "Sigue resultando actual por su mirada sobre exposición pública, construcción de identidad y presión social. Leída hoy, muestra cómo una premisa de cuento puede convertirse en reflexión cómica sobre pertenencia y autonomía.",
+        "studyNotes": [
+          "El formato diarístico es clave: no solo cuenta hechos, también construye la personalidad de Mia a través de su tono, sus exageraciones y sus omisiones.",
+          "La novela trabaja el motivo del “cambio de estatus” como conflicto emocional antes que como premio. Ser princesa complica la vida de la protagonista en vez de resolverla.",
+          "Conviene observar cómo el humor convive con una verdadera educación sentimental: vergüenza, deseo, amistad, familia y autoestima se desarrollan al mismo tiempo.",
+          "Puede leerse como un ejemplo muy claro de novela juvenil de iniciación urbana a comienzos de los años 2000."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primer tramo: la vida normal de Mia",
+            "summary": "El comienzo instala a Mia en sus problemas cotidianos: inseguridad corporal, dificultades escolares, amistad, enamoramientos y la sensación de no encajar del todo en su entorno."
+          },
+          {
+            "title": "Segundo tramo: la revelación de Genovia",
+            "summary": "La noticia de su condición de heredera altera por completo el horizonte del relato. La protagonista entra en conflicto con la idea de deber convertirse en algo que no ha elegido."
+          },
+          {
+            "title": "Tercer tramo: aprender a ser visible sin disolverse",
+            "summary": "La fase final profundiza en las lecciones de protocolo, las presiones familiares y la transformación pública de Mia. La novela avanza hacia una aceptación parcial de su nueva realidad, pero sin borrar su resistencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La voz del diario como motor narrativo",
+            "content": "La novela depende menos de una gran intriga externa que de la voz de Mia. Su manera de registrar el mundo da forma al humor, al ritmo y a la empatía del libro."
+          },
+          {
+            "heading": "Realeza y adolescencia",
+            "content": "Cabot cruza dos imaginarios poderosos: el del cuento de princesa y el del instituto contemporáneo. El contraste revela que ascender simbólicamente no elimina la ansiedad adolescente, sino que la redobla."
+          },
+          {
+            "heading": "Identidad, imagen pública y autenticidad",
+            "content": "Mia debe aprender a habitar una identidad pública que otros diseñan para ella. Ese conflicto anticipa debates muy actuales sobre representación, presión externa y derecho a definir la propia imagen."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es el mismo libro que inspiró la película de Disney?",
+            "answer": "Sí. Las fuentes editoriales y enciclopédicas coinciden en que esta novela de Meg Cabot sirvió de base para la posterior adaptación cinematográfica."
+          },
+          {
+            "question": "¿Hace falta leer la saga completa para disfrutarlo?",
+            "answer": "No. Funciona bien por sí solo como inicio de la historia de Mia, aunque deja sembrado el camino para los siguientes volúmenes."
+          },
+          {
+            "question": "¿Qué edad tiene Mia al comienzo?",
+            "answer": "Las descripciones editoriales la presentan como una estudiante de instituto muy joven, todavía en pleno inicio adolescente, enfrentada a clases, bailes escolares y conflictos familiares."
+          },
+          {
+            "question": "¿Qué edición española respalda los datos básicos usados aquí?",
+            "answer": "Casa del Libro registra una edición española de 2001, publicada en Barcelona, con 240 páginas y el título El diario de la princesa."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Casa del Libro — El diario de la princesa",
+            "url": "https://www.casadellibro.com/libro-el-diario-de-la-princesa/9788484411055/764768"
+          },
+          {
+            "label": "HarperCollins — The Princess Diaries",
+            "url": "https://www.harpercollins.com/products/the-princess-diaries-meg-cabot"
+          },
+          {
+            "label": "Meg Cabot — The Princess Diaries (Princess Diaries, 1)",
+            "url": "https://megcabot.com/book/the-princess-diaries-middle-grade-edition/"
+          },
+          {
+            "label": "Wikipedia — The Princess Diaries (novel)",
+            "url": "https://en.wikipedia.org/wiki/The_Princess_Diaries_(novel)"
+          },
+          {
+            "label": "Open Library — The Princess Diaries",
+            "url": "https://openlibrary.org/books/OL24931134M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-eunuco-formion-la-suegra-de-publio-terencio",
+      "title": "El Eunuco Formion La Suegra",
+      "authorName": "Publio Terencio",
+      "authorSlug": "publio-terencio",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El eunuco, Formión, La suegra",
+        "authorName": "Publio Terencio Africano",
+        "authorSlug": "publio-terencio",
+        "type": "teatro",
+        "audience": "adultos",
+        "genres": [
+          "comedia romana",
+          "teatro clasico",
+          "literatura latina"
+        ],
+        "year": null,
+        "pages": null,
+        "summary": "Esta entrada reúne tres de las comedias más estudiadas de Terencio: El eunuco, Formión y La suegra. Aunque cada pieza tiene argumento propio, las tres comparten el gusto del autor por los enredos familiares, los equívocos sentimentales y la observación precisa de la conducta humana. En El eunuco domina una trama de deseo, disfraces y abuso de poder; en Formión, un parásito astuto manipula la ley y las convenciones para resolver un conflicto matrimonial; en La suegra, la intriga se desplaza hacia las tensiones domésticas, los malentendidos y la reputación femenina. Leídas juntas, permiten ver cómo Terencio adapta la comedia nueva griega a un teatro latino más sobrio, elegante y atento a la psicología que al mero chiste escénico.",
+        "aboutThisBook": "No se trata de una sola novela, sino de un volumen que suele circular en ediciones escolares o de clásicos con tres obras teatrales independientes del dramaturgo romano Terencio. Su interés está en el contraste entre argumentos muy eficaces y una escritura más refinada que la de Plauto: diálogos ágiles, conflictos de familia, jóvenes enamorados, padres severos, esclavos mediadores y una mirada menos caricaturesca sobre los personajes. Para estudio resulta especialmente valioso porque permite comparar tres variantes de la comedia latina: la más provocadora, la más estructurada y la más doméstica.",
+        "forWhom": "Para estudiantes de literatura clásica, lectores de teatro grecolatino y quienes quieran acercarse a la comedia romana desde textos breves pero muy influyentes.",
+        "whyItMatters": "Importa porque Terencio fue decisivo para la tradición de la comedia de costumbres en Occidente. Estas tres piezas muestran cómo el teatro antiguo podía tratar deseo, autoridad, matrimonio y reputación con ironía, ritmo y gran claridad moral.",
+        "editorialIntro": "Leer juntas estas tres comedias ayuda a entender por qué Terencio siguió siendo modelo escolar durante siglos. No ofrecen solo intrigas ingeniosas: también afinan la conversación, el conflicto de generaciones y la tensión entre norma social y deseo privado. En un volumen así se percibe con nitidez su estilo, menos ruidoso que el de Plauto y más atento a los matices de conducta.",
+        "readingLevel": "Intermedio: los argumentos se siguen bien, pero conviene leer con atención el contexto de la comedia latina y las notas de edición si se quiere aprovechar del todo.",
+        "whyReadToday": "Porque sus enredos siguen hablando de manipulación, consentimiento, prestigio social y pactos familiares, asuntos que todavía organizan buena parte de la vida privada y pública.",
+        "studyNotes": [
+          "Conviene leer cada obra como una variación distinta del conflicto entre deseo individual y norma familiar.",
+          "Terencio adapta modelos griegos, pero los vuelve especialmente útiles para estudiar diálogo, ritmo escénico y caracterización.",
+          "La comparación entre las tres piezas permite ver cambios de tono: de la picardía y el escándalo a la negociación legal y al drama doméstico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Obra 1: El eunuco",
+            "summary": "La pieza gira en torno a una cadena de engaños, rivalidades amorosas y disfraces que desembocan en una situación moralmente incómoda. Terencio combina la energía cómica con una mirada menos complaciente sobre el deseo masculino y la vulnerabilidad de las jóvenes esclavizadas."
+          },
+          {
+            "title": "Obra 2: Formión",
+            "summary": "Un parásito ingenioso aprovecha los resquicios de la ley para intervenir en los problemas amorosos de dos jóvenes. La comedia destaca por su estructura casi perfecta, por la habilidad verbal de su protagonista y por el juego entre interés económico, matrimonio y autoridad paterna."
+          },
+          {
+            "title": "Obra 3: La suegra",
+            "summary": "Aquí el foco pasa del enredo vistoso al conflicto doméstico. Un matrimonio en crisis, un embarazo problemático y los prejuicios contra la suegra construyen una comedia más contenida, donde el malentendido social pesa tanto como la acción visible."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Terencio y la comedia de modales",
+            "content": "Estas obras muestran un teatro menos basado en la explosión verbal que en la conversación estratégica. Terencio importa de la comedia nueva una atención muy fina a la cortesía, la negociación y la apariencia social, rasgos que luego alimentarán la comedia de costumbres europea."
+          },
+          {
+            "heading": "Familia, ley y deseo",
+            "content": "En las tres piezas los afectos nunca están aislados del marco legal o doméstico. Matrimonios concertados, diferencias de estatus, reconocimiento de hijos y reputación de las mujeres forman la materia real del conflicto."
+          },
+          {
+            "heading": "Tres tonos de una misma tradición",
+            "content": "El eunuco se recuerda por su audacia y su éxito escénico; Formión, por su arquitectura dramática; La suegra, por su sutileza psicológica. Juntas permiten leer a Terencio no como autor de una sola fórmula, sino como un dramaturgo capaz de modular la comedia hacia registros distintos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Son tres libros o tres obras teatrales en un mismo volumen?",
+            "answer": "Lo habitual es que el título agrupe tres comedias independientes de Terencio en una sola edición de clásicos."
+          },
+          {
+            "question": "¿Hace falta saber latín para disfrutarlas?",
+            "answer": "No. En traducción se siguen bien, aunque una buena introducción ayuda a situar el contexto romano y las convenciones del género."
+          },
+          {
+            "question": "¿Cuál de las tres suele considerarse más famosa?",
+            "answer": "El eunuco fue la más exitosa en vida del autor, mientras que Formión suele admirarse mucho por su construcción dramática."
+          },
+          {
+            "question": "¿La suegra también es una comedia?",
+            "answer": "Sí, pero su comicidad es más contenida y se apoya en malentendidos familiares y tensión doméstica más que en el enredo espectacular."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Encyclopaedia Britannica: Terence",
+            "url": "https://www.britannica.com/biography/Terence"
+          },
+          {
+            "label": "Wikipedia: Eunuchus",
+            "url": "https://en.wikipedia.org/wiki/Eunuchus"
+          },
+          {
+            "label": "Wikipedia: Phormio (play)",
+            "url": "https://en.wikipedia.org/wiki/Phormio_(play)"
+          },
+          {
+            "label": "Wikipedia: Hecyra",
+            "url": "https://en.wikipedia.org/wiki/Hecyra"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-gran-arcano-de-paloma-sanchez-garnica",
+      "title": "El Gran Arcano",
+      "authorName": "Paloma Sanchez Garnica",
+      "authorSlug": "paloma-sanchez-garnica",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El gran arcano",
+        "authorName": "Paloma Sánchez-Garnica",
+        "authorSlug": "paloma-sanchez-garnica",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "thriller historico",
+          "novela de misterio",
+          "aventura",
+          "ficcion religiosa"
+        ],
+        "year": 2006,
+        "pages": 544,
+        "summary": "El gran arcano arranca con la desaparición del profesor Armando Dorado, que llevaba años investigando unos bifolios asociados a un antiguo códice y a un secreto capaz de alterar la lectura de una parte central de nuestra tradición cultural. A partir de ese vacío, su discípula Laura y su compañero Carlos se ven arrastrados a una investigación que funciona al mismo tiempo como búsqueda, persecución y viaje por escenarios cargados de resonancia histórica, entre ellos Francia, Jordania, el Vaticano o Petra. Paloma Sánchez-Garnica construye así un thriller de manuscritos, sociedades discretas, claves eruditas y amenazas muy concretas, donde la aventura exterior se mezcla con preguntas sobre la autoridad de los relatos, la custodia del conocimiento y el precio personal de perseguir una verdad incómoda.",
+        "aboutThisBook": "La novela apareció originalmente en 2006 y después ha circulado en distintas reediciones, entre ellas una edición de Booket de 2018. Pertenece a una línea de ficción histórica y de suspense que combina investigación académica, viajes, conspiración y un misterio de raíz cultural o religiosa. No se limita al acertijo libresco: el motor narrativo es la presión que ese hallazgo ejerce sobre quienes lo buscan y sobre las instituciones interesadas en controlarlo. Dentro de la trayectoria de Sánchez-Garnica, el libro deja ver ya su gusto por enlazar peripecia, documentación y personajes obligados a descifrar su lugar en una historia mayor que ellos.",
+        "forWhom": "Para lectores de thrillers históricos, novelas de manuscritos perdidos y tramas de investigación en las que la erudición forma parte real de la aventura.",
+        "whyItMatters": "Importa porque activa una pregunta muy fértil para la ficción contemporánea: qué sucede cuando un documento o una pista amenaza versiones asentadas del pasado. Esa tensión entre conocimiento, poder e interpretación sostiene toda la novela.",
+        "editorialIntro": "El gran arcano se lee como un thriller cultural de ritmo clásico: un investigador desaparece, un secreto documental reaparece y varios personajes deben decidir cuánto están dispuestos a arriesgar para seguir una pista que quizá no debería salir a la luz. Su mayor atractivo está en ese cruce entre aventura geográfica y discusión sobre el valor de los textos, los archivos y las narraciones legitimadas por la historia.",
+        "readingLevel": "Intermedio: la prosa es accesible, aunque el placer del libro crece si se disfruta de referencias históricas, códices, itinerarios y enigmas documentales.",
+        "whyReadToday": "Porque sigue funcionando en una época obsesionada con archivos, versiones oficiales y revelaciones documentales. La novela recuerda que todo hallazgo importante también desencadena luchas por su interpretación.",
+        "studyNotes": [
+          "La desaparición inicial del profesor no es solo un arranque de suspense: organiza toda la novela como pesquisa y relevo intelectual.",
+          "El manuscrito buscado debe leerse como objeto material y como símbolo del poder de los textos para alterar relatos colectivos.",
+          "El libro combina movimiento aventurero con una pregunta constante sobre quién administra la verdad histórica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La desaparición de Armando Dorado",
+            "summary": "El profesor se esfuma cuando su investigación parece acercarse a una prueba decisiva. Laura y Carlos comprenden que la ausencia no es accidental y que seguir sus pasos puede exponerlos a un peligro semejante."
+          },
+          {
+            "title": "Parte 2: La búsqueda entre códices y fronteras",
+            "summary": "Las pistas conducen a una investigación itinerante por distintos espacios de fuerte carga histórica. La novela amplía entonces su escala y convierte el misterio documental en una carrera contra otros intereses."
+          },
+          {
+            "title": "Parte 3: El secreto del Gran Arcano",
+            "summary": "Con el cerco cada vez más estrecho, los protagonistas se acercan a la naturaleza real del hallazgo perseguido. El cierre enfatiza el choque entre conocimiento, ambición y consecuencias personales."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller cultural y novela de persecución",
+            "content": "Sánchez-Garnica utiliza un armazón muy reconocible del thriller de enigmas, pero lo sostiene con viajes, documentos y una amenaza persistente. El suspense no nace solo de descubrir una clave, sino de quién llega antes a ella."
+          },
+          {
+            "heading": "El manuscrito como centro del poder",
+            "content": "El supuesto hallazgo no interesa únicamente por su valor erudito. En la lógica de la novela, un texto puede modificar creencias, prestigios e instituciones; por eso cada documento tiene un peso político además de histórico."
+          },
+          {
+            "heading": "Conocimiento y vulnerabilidad",
+            "content": "Los personajes no son héroes invulnerables, sino lectores e investigadores obligados a actuar. Esa combinación da al libro un tono atractivo: la inteligencia bibliográfica sirve para avanzar, pero también expone a quienes la poseen."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica o un thriller contemporáneo?",
+            "answer": "Funciona sobre todo como thriller de misterio e investigación, pero está muy apoyado en materiales históricos, religiosos y documentales."
+          },
+          {
+            "question": "¿El libro forma parte de una saga?",
+            "answer": "No suele presentarse como saga, sino como una novela independiente dentro de la obra de Paloma Sánchez-Garnica."
+          },
+          {
+            "question": "¿Predominan la acción o las claves eruditas?",
+            "answer": "El libro combina ambas dimensiones: mantiene ritmo de persecución y viaje, pero su motor profundo está en el valor del códice y de las pistas documentales."
+          },
+          {
+            "question": "¿La edición de Booket cambia la fecha original de la obra?",
+            "answer": "No. La obra figura en Open Library con primera publicación en 2006, aunque existen reediciones posteriores como la de Booket de 2018."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library: El gran arcano (obra)",
+            "url": "https://openlibrary.org/works/OL13667497W/El_gran_arcano"
+          },
+          {
+            "label": "Open Library: El Gran Arcano (edición Booket 2018)",
+            "url": "https://openlibrary.org/books/OL32593736M/El_Gran_Arcano"
+          },
+          {
+            "label": "Google Books: El Gran Arcano",
+            "url": "https://play.google.com/store/books/details?id=pkhGDwAAQBAJ"
+          },
+          {
+            "label": "Wikipedia: Paloma Sánchez-Garnica",
+            "url": "https://es.wikipedia.org/wiki/Paloma_S%C3%A1nchez-Garnica"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-hobbit-de-j-r-r-tolkienjemima-catlin",
+      "title": "El Hobbit",
+      "authorName": "J R R Tolkienjemima Catlin",
+      "authorSlug": "j-r-r-tolkienjemima-catlin",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El hobbit",
+        "authorName": "J. R. R. Tolkien",
+        "authorSlug": "j-r-r-tolkien",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasia",
+          "aventura",
+          "clasico juvenil",
+          "literatura fantastica"
+        ],
+        "year": 2013,
+        "pages": 368,
+        "summary": "El hobbit cuenta la inesperada transformación de Bilbo Bolsón, un personaje doméstico y prudente que sale de su madriguera para acompañar a un grupo de enanos en la recuperación de un tesoro custodiado por el dragón Smaug. Lo que empieza como una expedición casi cómica se convierte en un viaje de aprendizaje atravesado por trolls, trasgos, acertijos, arañas gigantes, bosques encantados, tensiones políticas y una guerra final. Tolkien sostiene la aventura con una prosa clara y una imaginación de mundo extraordinariamente fértil, pero el centro del libro está en la evolución de Bilbo: de hobbit cómodo y reacio a figura capaz de actuar con astucia, valor y sentido moral. La edición ilustrada asociada a Jemima Catlin refuerza además su dimensión de clásico accesible y visual para nuevos lectores.",
+        "aboutThisBook": "Publicado por primera vez en 1937, El hobbit ocupa un lugar fundador dentro de la fantasía moderna y funciona a la vez como relato autónomo y como puerta de entrada al legendarium de la Tierra Media. El registro es más ligero y fabuloso que el de El Señor de los Anillos, aunque ya aparecen temas esenciales en Tolkien: el viaje, la codicia, la hospitalidad, el coraje improbable y el coste moral del poder. La ficha original de este slug parece mezclar al autor con Jemima Catlin; bibliográficamente, Tolkien es el autor de la obra y Catlin corresponde a una edición ilustrada de 2013 registrada por Open Library con 368 páginas.",
+        "forWhom": "Para lectores jóvenes, adultos que buscan un clásico de aventura fantástica y quienes quieren entrar en la Tierra Media sin empezar por una obra más extensa.",
+        "whyItMatters": "Importa porque fijó muchas claves de la fantasía contemporánea sin perder claridad narrativa ni sentido del asombro. También sigue siendo un gran relato de formación sobre cómo alguien común descubre recursos que ignoraba poseer.",
+        "editorialIntro": "Pocas novelas de fantasía envejecen con tanta naturalidad como El hobbit. Su argumento parece sencillo —un viaje, un dragón, un tesoro—, pero el libro conserva una rara mezcla de humor, peligro, invención lingüística y emoción moral. La figura de Bilbo explica buena parte de su permanencia: no es un héroe predestinado, sino alguien pequeño, razonable y reticente que aprende a estar a la altura de lo inesperado.",
+        "readingLevel": "Accesible-intermedio: puede leerse desde edades tempranas, aunque sus capas simbólicas y su construcción de mundo ofrecen mucho también al lector adulto.",
+        "whyReadToday": "Porque sigue siendo una de las mejores puertas de entrada a la fantasía y porque su defensa del ingenio, la amistad y la valentía sin grandilocuencia conserva una vigencia rara.",
+        "studyNotes": [
+          "La evolución de Bilbo es el eje real del libro: cada episodio prueba una faceta nueva de su carácter.",
+          "Conviene observar cómo Tolkien alterna tono de cuento, aventura épica y construcción de mundo sin perder claridad.",
+          "La codicia asociada al tesoro y al dragón da al libro una dimensión moral que va más allá del simple viaje."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La salida de la Comarca",
+            "summary": "Bilbo, empujado por Gandalf y por una compañía de enanos, abandona la seguridad doméstica para integrarse en una misión que no parece hecha para él. El inicio subraya el contraste entre comodidad y aventura."
+          },
+          {
+            "title": "Parte 2: Pruebas del camino",
+            "summary": "Los encuentros con trolls, trasgos, Gollum, arañas y otros peligros convierten el viaje en un aprendizaje continuo. Bilbo gana ingenio, confianza y un papel cada vez menos secundario dentro del grupo."
+          },
+          {
+            "title": "Parte 3: Smaug y el desenlace",
+            "summary": "La llegada a la Montaña Solitaria coloca a los viajeros ante el dragón y ante el problema mayor del tesoro. El final enlaza hazaña, conflicto político y una guerra que redefine el sentido de la expedición."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Bilbo como héroe improbable",
+            "content": "La gran intuición de Tolkien está en convertir a un personaje pequeño, amante del orden y la mesa bien servida, en protagonista de una aventura épica. El heroísmo aquí no nace de la fuerza, sino de la mezcla entre prudencia, compasión e iniciativa."
+          },
+          {
+            "heading": "Aventura, codicia y mundo moral",
+            "content": "Aunque el libro tiene ritmo de cuento de viaje, nunca reduce el tesoro a recompensa neutra. Smaug, los enanos y los pueblos que rodean la montaña muestran que la riqueza modifica las relaciones y puede deformar el juicio."
+          },
+          {
+            "heading": "La puerta de entrada a la Tierra Media",
+            "content": "El hobbit presenta un universo vasto sin exigir al lector un conocimiento previo. Por eso sigue siendo una obra ideal para iniciar el recorrido por Tolkien: abre la mitología sin sacrificar ligereza ni placer inmediato."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro infantil o también para adultos?",
+            "answer": "Ambas cosas. Su tono es accesible para lectores jóvenes, pero su construcción narrativa y sus temas morales permiten una lectura plenamente adulta."
+          },
+          {
+            "question": "¿Hace falta leer El Señor de los Anillos antes?",
+            "answer": "No. El hobbit se disfruta perfectamente por sí solo y, de hecho, suele ser la mejor puerta de entrada al universo de Tolkien."
+          },
+          {
+            "question": "¿Quién es Jemima Catlin en esta ficha?",
+            "answer": "Corresponde a una edición ilustrada de 2013. El autor de la obra es J. R. R. Tolkien; Catlin figura como ilustradora en registros bibliográficos de esa edición."
+          },
+          {
+            "question": "¿La novela ya contiene temas importantes de Tolkien?",
+            "answer": "Sí. Aunque tiene un tono más ligero que obras posteriores, ya aparecen el viaje transformador, la tentación de la riqueza, la hospitalidad, la valentía y la construcción de un mundo legendario coherente."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Encyclopaedia Britannica: The Hobbit",
+            "url": "https://www.britannica.com/topic/The-Hobbit"
+          },
+          {
+            "label": "Wikipedia: The Hobbit",
+            "url": "https://en.wikipedia.org/wiki/The_Hobbit"
+          },
+          {
+            "label": "Open Library: The Hobbit (obra)",
+            "url": "https://openlibrary.org/works/OL27482W/The_Hobbit"
+          },
+          {
+            "label": "Open Library: Hobbit Illustrated Edition (2013)",
+            "url": "https://openlibrary.org/books/OL29678394M/Hobbit"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-hombre-que-se-convirtio-en-dios-de-gerald-messadie",
+      "title": "El Hombre Que Se Convirtio En Dios",
+      "authorName": "Gerald Messadie",
+      "authorSlug": "gerald-messadie",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El hombre que se convirtió en Dios",
+        "authorName": "Gérald Messadié",
+        "authorSlug": "gerald-messadie",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela histórica",
+          "ficción religiosa",
+          "drama filosófico"
+        ],
+        "year": 2000,
+        "pages": 550,
+        "summary": "Esta novela de Gérald Messadié propone una recreación narrativa y polémica de la vida de Jesús desde una perspectiva humanizada. En lugar de presentar un relato devocional, el autor imagina a un protagonista inmerso en tensiones políticas, religiosas y culturales de su tiempo, y explora cómo un hombre concreto pudo convertirse en figura divina para millones de creyentes. La trama sigue su formación, su predicación, sus vínculos con corrientes espirituales de la época y el conflicto creciente con los poderes establecidos. Más que negar la dimensión sagrada del personaje, la novela dramatiza las preguntas alrededor de los milagros, la fe, la estrategia, la interpretación de los hechos y la construcción posterior del mito cristiano.",
+        "aboutThisBook": "El libro se sitúa en la frontera entre la novela histórica, la especulación religiosa y el ensayo dramatizado. Messadié utiliza episodios de la tradición cristiana y debates históricos sobre el judaísmo del Segundo Templo, los esenios, el poder romano y la transmisión de los evangelios para construir una versión literaria de Jesús deliberadamente discutible. No es una biografía académica ni una lectura confesional: funciona mejor como ficción provocadora que invita a pensar cómo nacen las grandes narraciones religiosas y cómo se forja una figura espiritual en medio de intereses humanos e interpretaciones sucesivas.",
+        "forWhom": "Para lectores de novela histórica con interés en religión, cristianismo primitivo y reinterpretaciones literarias audaces de personajes sagrados y fundacionales.",
+        "whyItMatters": "Sigue siendo un libro relevante porque obliga a distinguir entre fe, historia, literatura e interpretación ideológica. Incluso cuando se discrepa de su enfoque, plantea preguntas fértiles sobre el origen de los relatos fundacionales.",
+        "editorialIntro": "Hay novelas que buscan confirmar una creencia y otras que prefieren tensionarla. El hombre que se convirtió en Dios pertenece con claridad al segundo grupo: toma una figura central de la tradición occidental y la devuelve al terreno de la historia, el conflicto y la incertidumbre. Esa apuesta lo vuelve incómodo para algunos lectores y fascinante para otros.",
+        "readingLevel": "Medio-alto: conviene leerlo con paciencia y cierta familiaridad con referencias bíblicas e históricas.",
+        "whyReadToday": "Porque en una época de debates sobre relato, verdad y construcción cultural, esta novela recuerda que las grandes figuras históricas siempre se leen también desde el presente.",
+        "studyNotes": [
+          "Léelo como novela histórica especulativa, no como fuente académica sobre Jesús de Nazaret.",
+          "Distingue entre los episodios tomados de la tradición cristiana y las hipótesis narrativas del autor.",
+          "Observa cómo el libro contrapone carisma personal, contexto político y posterior canonización religiosa.",
+          "Conviene anotar las referencias a grupos y tensiones del judaísmo antiguo para entender mejor el conflicto."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Infancia, aprendizaje y primeras preguntas",
+            "summary": "La novela presenta a Jesús en un entorno histórico concreto y subraya que su identidad no surge aislada, sino moldeada por una tradición religiosa, una ocupación política y una búsqueda intelectual temprana. Desde el comienzo, Messadié siembra la idea de que detrás del futuro símbolo hay un hombre que aprende, duda y observa su tiempo."
+          },
+          {
+            "title": "Predicación, seguidores y choque con el orden establecido",
+            "summary": "A medida que el protagonista gana influencia, crece también la ambigüedad entre experiencia espiritual, magnetismo personal y estrategia pública. Sus palabras atraen a discípulos y al mismo tiempo despiertan la vigilancia de autoridades religiosas y políticas, que perciben en él una fuerza difícil de encajar."
+          },
+          {
+            "title": "Milagros, interpretación y construcción del mito",
+            "summary": "Uno de los ejes de la novela consiste en reinterpretar los milagros y preguntarse cómo determinados hechos pueden adquirir sentido sobrenatural según quién los narre. El interés no está solo en lo que ocurre, sino en cómo circula, se recuerda y se transforma la historia."
+          },
+          {
+            "title": "Pasión, muerte y legado posterior",
+            "summary": "En la parte final, el conflicto desemboca en la caída del protagonista y en la persistencia de su figura más allá de la vida biográfica. El desenlace insiste en que la dimensión divina nace también de la lectura posterior de los acontecimientos, de la necesidad de sentido y de la fuerza del relato compartido."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela que discute la frontera entre historia y fe",
+            "content": "El principal interés del libro está en esa zona delicada donde la historia documentable se encuentra con la tradición religiosa. Messadié no escribe para confirmar dogmas, sino para imaginar qué pudo ocurrir si se mira a Jesús como sujeto histórico antes que como figura teológica plena."
+          },
+          {
+            "heading": "La humanización como recurso narrativo y polémico",
+            "content": "Al insistir en deseos, dudas, inteligencia y circunstancias, la novela humaniza a un personaje habitualmente leído desde la reverencia. Ese gesto explica tanto su potencia literaria como su capacidad de incomodar: humanizar aquí no significa empequeñecer, sino cambiar radicalmente el ángulo de lectura."
+          },
+          {
+            "heading": "El poder de los relatos fundacionales",
+            "content": "Más allá del caso de Jesús, el libro sugiere que toda civilización se organiza alrededor de relatos que mezclan memoria, interpretación y necesidad simbólica. Por eso funciona también como reflexión sobre cómo nace una tradición y qué papel cumplen quienes la transmiten."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una biografía fiel de Jesús?",
+            "answer": "No. Es una novela histórica y especulativa que reimagina episodios y debates sobre la vida de Jesús desde una perspectiva literaria, no confesional ni académica."
+          },
+          {
+            "question": "¿Puede incomodar a lectores creyentes?",
+            "answer": "Sí. Su enfoque cuestionador y su tendencia a reinterpretar milagros y tradiciones pueden resultar provocadores para lectores que busquen una aproximación devocional."
+          },
+          {
+            "question": "¿Hace falta saber historia del cristianismo para leerlo?",
+            "answer": "No es imprescindible, pero ayuda mucho conocer de forma básica el contexto romano, judío y evangélico para captar matices y controversias."
+          },
+          {
+            "question": "¿Qué aporta frente a otras novelas religiosas?",
+            "answer": "Aporta una mirada más racionalista y polémica, interesada en cómo una figura histórica puede convertirse en mito, símbolo y objeto de fe colectiva."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Google Books — El Hombre que se convirtió en Dios",
+            "url": "https://books.google.com/books/about/El_Hombre_que_se_convirti%C3%B3_en_Dios.html?hl=&id=lS-GPQAACAAJ"
+          },
+          {
+            "label": "Open Library — El hombre que se convirtió en Dios",
+            "url": "https://openlibrary.org/works/OL35237387W"
+          },
+          {
+            "label": "Wikipedia (FR) — Gérald Messadié",
+            "url": "https://fr.wikipedia.org/wiki/Gerald_Messadi%C3%A9"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-juego-del-alma-de-javier-castillo",
+      "title": "El Juego Del Alma",
+      "authorName": "Javier Castillo",
+      "authorSlug": "javier-castillo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El juego del alma",
+        "authorName": "Javier Castillo",
+        "authorSlug": "javier-castillo",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "thriller",
+          "novela negra",
+          "suspense psicológico"
+        ],
+        "year": 2021,
+        "pages": 350,
+        "summary": "Ambientada en Nueva York en 2011, El juego del alma arranca con una imagen de alto impacto: una adolescente aparece crucificada en un suburbio. Al mismo tiempo, la periodista de investigación Miren Triggs recibe un sobre con la polaroid de otra chica desaparecida años atrás, Gina Pebbles. A partir de ahí, Javier Castillo articula una investigación doble en la que Miren y su antiguo profesor Jim Schmoer intentan descifrar qué une ambos casos y qué secretos esconde una institución religiosa que parece operar detrás de varias capas de silencio. La novela combina ritmo de thriller, heridas emocionales de sus protagonistas y un juego continuo de pistas, manipulación, fe y trauma.",
+        "aboutThisBook": "Esta novela continúa el territorio narrativo de Miren Triggs, una investigadora marcada por su propio pasado y por una forma obsesiva de perseguir la verdad. Castillo construye una historia de capítulos breves, giros frecuentes y tensión sostenida, pero no se limita al mecanismo del crimen: también trabaja el peso del dolor, la explotación de la vulnerabilidad y el modo en que ciertas instituciones usan el lenguaje moral para encubrir abusos. Es un thriller comercial muy legible, pensado para lectores que disfrutan de avances rápidos, cliffhangers y una intriga que mezcla desapariciones, símbolos religiosos y secretos enterrados.",
+        "forWhom": "Para lectores de thriller contemporáneo, novela de investigación y suspense intenso con ritmo ágil y giros muy marcados.",
+        "whyItMatters": "Importa porque muestra cómo el thriller popular puede abordar trauma, manipulación religiosa y violencia simbólica sin perder legibilidad ni impulso narrativo. También consolida a Miren Triggs como personaje reconocible dentro del fenómeno Javier Castillo.",
+        "editorialIntro": "Javier Castillo domina una clase de suspense que no pierde tiempo: abre con una escena poderosa, entrega una pista inquietante y obliga al lector a encadenar capítulos casi sin pausa. En El juego del alma, ese mecanismo se combina con una investigación de resonancias morales incómodas, donde la fe, el dolor y el secreto institucional se convierten en piezas de un mismo rompecabezas.",
+        "readingLevel": "Medio: prosa directa, capítulos cortos y estructura muy accesible incluso para lectores ocasionales de novela negra.",
+        "whyReadToday": "Porque conecta con preocupaciones contemporáneas sobre abuso de poder, trauma juvenil, verdad mediática y la necesidad de investigar incluso aquello que las instituciones prefieren ocultar.",
+        "studyNotes": [
+          "Sigue por separado la línea del crimen presente y la del caso Gina Pebbles para detectar cuándo y cómo convergen.",
+          "Observa el papel de Miren Triggs: no solo investiga, también carga una historia personal que afecta su mirada.",
+          "La novela usa símbolos religiosos como atmósfera, pero el foco real está en la manipulación y el control.",
+          "Fíjate en cómo los capítulos breves administran la información para producir suspense serial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El crimen que abre la grieta",
+            "summary": "La aparición de una chica crucificada instala de inmediato una atmósfera brutal y ritualizada. El caso no solo exige identificar a un culpable, sino entender qué mensaje hay detrás de una puesta en escena tan extrema."
+          },
+          {
+            "title": "La polaroid de Gina Pebbles",
+            "summary": "El sobre que recibe Miren Triggs introduce una segunda línea de investigación y convierte el crimen inicial en parte de una red más compleja. La imagen de Gina funciona como detonante emocional y narrativo: obliga a revisar un pasado no resuelto."
+          },
+          {
+            "title": "Miren y Jim siguen la pista",
+            "summary": "La alianza entre Miren y su antiguo profesor Jim Schmoer da forma al motor detectivesco de la novela. Ambos avanzan entre documentos, recuerdos, intuiciones y puertas cerradas mientras sospechan que una institución religiosa protege información clave."
+          },
+          {
+            "title": "Secretos, trauma y revelación final",
+            "summary": "En el tramo final, las dos historias revelan su conexión y exponen hasta qué punto el dolor de las víctimas y el silencio de los adultos sostuvieron el misterio. El cierre busca tanto la resolución del caso como el impacto emocional de lo descubierto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller de alto ritmo y lectura compulsiva",
+            "content": "Castillo trabaja con capítulos cortos, finales de escena tensos y revelaciones dosificadas. Esa estructura hace que la novela funcione con una lógica de avance constante, muy cercana al consumo seriado y al suspense audiovisual."
+          },
+          {
+            "heading": "Fe, poder y encubrimiento",
+            "content": "La novela se aproxima al universo religioso no tanto para debatir doctrina como para mostrar cómo determinadas jerarquías pueden blindarse bajo discursos morales. El interés está en el uso del poder, el silencio y la vulnerabilidad juvenil."
+          },
+          {
+            "heading": "Miren Triggs como centro emocional",
+            "content": "Aunque el misterio sea importante, buena parte del peso del libro recae en la protagonista. Miren no es una investigadora neutra: lee el dolor ajeno desde sus propias heridas, y eso añade tensión, empatía e inestabilidad a la pesquisa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Se puede leer sin haber leído otras novelas de Miren Triggs?",
+            "answer": "Sí, porque el caso principal se entiende por sí solo, aunque conocer libros anteriores añade contexto emocional sobre la protagonista."
+          },
+          {
+            "question": "¿Predomina la investigación o el drama personal?",
+            "answer": "Predomina la investigación, pero el drama personal de Miren y el peso del trauma son esenciales para el tono y las decisiones del relato."
+          },
+          {
+            "question": "¿Es una novela muy dura?",
+            "answer": "Tiene escenas y temas duros relacionados con menores, violencia y abuso de poder, aunque su tratamiento está integrado en un thriller de lectura rápida."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutarla más?",
+            "answer": "Quien busque suspense inmediato, capítulos breves, giros frecuentes y un misterio de fuerte carga emocional."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Google Play Books / Google Books — El juego del alma",
+            "url": "https://play.google.com/store/books/details?id=qEYTEAAAQBAJ"
+          },
+          {
+            "label": "Open Library — El juego del alma",
+            "url": "https://openlibrary.org/works/OL24244595W"
+          },
+          {
+            "label": "Wikipedia — Javier Castillo",
+            "url": "https://es.wikipedia.org/wiki/Javier_Castillo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-medico-de-noah-gordon",
+      "title": "El Medico",
+      "authorName": "Noah Gordon",
+      "authorSlug": "noah-gordon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El médico",
+        "authorName": "Noah Gordon",
+        "authorSlug": "noah-gordon",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela histórica",
+          "aventuras",
+          "ficción médica"
+        ],
+        "year": 1986,
+        "pages": null,
+        "summary": "El médico narra la gran travesía de Rob J. Cole, un niño de la Inglaterra del siglo XI que descubre un extraño don para percibir la cercanía de la muerte y desarrolla una vocación irresistible por curar. Tras iniciarse con un cirujano barbero ambulante, Rob comprende los límites de la medicina rudimentaria de su entorno y decide emprender un viaje extraordinario hacia Persia para estudiar con Avicena, el sabio más prestigioso de su tiempo. Noah Gordon convierte esa búsqueda en una novela de formación, aventura y conocimiento, donde el aprendizaje médico se entrelaza con cuestiones de identidad, religión, supervivencia, amor y choque entre culturas.",
+        "aboutThisBook": "Publicada originalmente como The Physician, esta novela es la primera entrega de la saga de la familia Cole y una de las obras más reconocidas de Noah Gordon. Su fuerza reside en combinar una narración muy accesible con un amplio fresco histórico sobre la medicina medieval, los prejuicios religiosos, el viaje iniciático y el deseo de saber. Aunque la reconstrucción histórica está al servicio de la aventura, el libro consigue que el lector sienta el contraste entre superstición y observación, entre curanderismo y estudio, y entre los mundos cerrados de la Europa cristiana y la sofisticación intelectual de Persia.",
+        "forWhom": "Para lectores de novela histórica clásica, grandes viajes, aprendizaje personal y relatos donde el conocimiento cambia una vida.",
+        "whyItMatters": "Sigue importando porque une entretenimiento y curiosidad intelectual de una forma poco frecuente. Hace visible la historia de la medicina como una aventura humana y muestra que aprender también puede ser una forma de rebeldía.",
+        "editorialIntro": "Pocas novelas históricas han conseguido entrar en tantos hogares con la naturalidad de El médico. Noah Gordon construye un relato amplio, emotivo y muy narrativo, capaz de interesar tanto a quien busca aventura como a quien disfruta con el detalle cultural y la evolución interior de un personaje. Su vigencia nace de esa mezcla entre épica accesible y amor por el conocimiento.",
+        "readingLevel": "Medio: es un libro largo, pero su estilo es claro, narrativo y muy fluido para lectores constantes.",
+        "whyReadToday": "Porque recuerda el valor del conocimiento riguroso, del intercambio entre culturas y de la vocación de servicio en tiempos donde la desinformación sanitaria sigue siendo un problema real.",
+        "studyNotes": [
+          "Rob Cole es un héroe de formación: analiza cómo cada maestro y cada viaje modifican su idea de la medicina.",
+          "El libro contrapone superstición y observación, pero evita simplificar del todo los saberes populares medievales.",
+          "Fíjate en el peso de la identidad religiosa y cultural en el viaje a Persia y en la necesidad de adaptarse para sobrevivir.",
+          "La novela funciona también como historia del deseo de aprender contra los límites sociales del propio origen."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Pérdida, don y vocación inicial",
+            "summary": "La infancia de Rob está marcada por la muerte, la precariedad y el descubrimiento de una intuición especial ante el final de la vida. Ese don no resuelve su sufrimiento, pero orienta su deseo profundo de comprender cómo sanar."
+          },
+          {
+            "title": "Aprendizaje con el cirujano barbero",
+            "summary": "Bajo la tutela de Henry Croft, Rob entra en contacto con la medicina práctica, ambulante y precaria de su tiempo. Allí aprende oficio, observación y resistencia, pero también advierte los límites de una formación basada más en la costumbre que en el conocimiento sistemático."
+          },
+          {
+            "title": "El viaje a Persia y el encuentro con Avicena",
+            "summary": "Movido por una ambición intelectual mayor, Rob emprende una travesía exigente hacia Oriente. El desplazamiento físico se convierte en transformación interior cuando descubre una cultura médica más avanzada y debe reinventarse para poder estudiar."
+          },
+          {
+            "title": "Madurez, amor y sentido del regreso",
+            "summary": "La experiencia en Persia no solo convierte a Rob en médico, también lo obliga a decidir qué hará con lo aprendido y qué clase de vida quiere sostener. El final combina logro profesional, vínculos afectivos y la conciencia del precio pagado por ese conocimiento."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La medicina como aventura moral e intelectual",
+            "content": "En la novela, curar no es una destreza técnica aislada, sino una forma de mirar el mundo. Rob aprende que la medicina exige observación, disciplina, empatía y disposición a revisar creencias heredadas."
+          },
+          {
+            "heading": "Choque y diálogo entre culturas",
+            "content": "Uno de los grandes aciertos del libro es mostrar la diferencia entre la estrechez del horizonte europeo de Rob y la riqueza intelectual que encuentra en Persia. Gordon convierte ese contraste en una defensa narrativa del intercambio cultural."
+          },
+          {
+            "heading": "El héroe de formación en clave histórica",
+            "content": "El médico funciona como bildungsroman histórico: seguimos a un niño vulnerable que se convierte en adulto competente a través de pérdidas, viajes, maestros y decisiones éticas. Esa estructura explica buena parte de su enorme capacidad de seducción lectora."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es solo una novela sobre medicina?",
+            "answer": "No. También es una aventura histórica, una novela de formación y un relato sobre viaje, identidad, amor y choque cultural."
+          },
+          {
+            "question": "¿Hace falta interés previo por la historia medieval?",
+            "answer": "No. La novela se sostiene por su trama y sus personajes, y el contexto histórico se entiende con facilidad dentro de la narración."
+          },
+          {
+            "question": "¿Por qué ha tenido tanta popularidad?",
+            "answer": "Porque combina una historia muy absorbente con un tema universal: el deseo de aprender, superarse y poner el conocimiento al servicio de otros."
+          },
+          {
+            "question": "¿Es el inicio de una saga?",
+            "answer": "Sí. Es la primera entrega de la saga de la familia Cole, aunque puede leerse de forma completamente independiente."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Noah Gordon — página oficial de El médico",
+            "url": "https://noahgordon.com/es/book/el-medico/"
+          },
+          {
+            "label": "Open Library — The Physician",
+            "url": "https://openlibrary.org/works/OL2296577W"
+          },
+          {
+            "label": "Google Books — El médico",
+            "url": "https://books.google.com/books/about/El_m%C3%A9dico.html?hl=&id=hW8vqAAACAAJ"
+          },
+          {
+            "label": "Wikipedia — Noah Gordon",
+            "url": "https://es.wikipedia.org/wiki/Noah_Gordon"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-20T09:32:36Z"
+}

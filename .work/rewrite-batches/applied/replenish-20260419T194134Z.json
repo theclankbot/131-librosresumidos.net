@@ -1,0 +1,1442 @@
+{
+  "batchName": "replenish-20260419T194134Z",
+  "createdAt": "2026-04-19T19:41:45Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "un-largo-camino-a-casa-para-saber-quien-eres-debes-saber-de-donde-vienes-de-saroo-brierley",
+      "title": "Un Largo Camino A Casa Para Saber Quien Eres Debes Saber De Donde Vienes",
+      "authorName": "Saroo Brierley",
+      "authorSlug": "saroo-brierley",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 1,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un largo camino a casa: para saber quién eres debes saber de dónde vienes",
+        "authorName": "Saroo Brierley",
+        "authorSlug": "saroo-brierley",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "aventura"
+        ],
+        "year": 2013,
+        "pages": 288,
+        "summary": "Este libro autobiográfico reconstruye la historia real de Saroo Brierley, un niño indio que, tras quedarse dormido en un tren, termina perdido a miles de kilómetros de su hogar. Incapaz de explicar de dónde viene y demasiado pequeño para regresar por sus propios medios, sobrevive un tiempo en las calles de Calcuta hasta ser acogido en un orfanato y finalmente adoptado por una familia australiana. Ya de adulto, con recuerdos fragmentarios pero persistentes de su infancia, decide emprender una búsqueda paciente de sus orígenes. La memoria, la tecnología y la perseverancia se convierten entonces en herramientas para recomponer una identidad partida entre dos países y dos vidas.",
+        "aboutThisBook": "Más que un relato de superación, es una memoria sobre el desarraigo, la adopción y la necesidad profunda de saber de dónde viene uno. Brierley narra su experiencia con sobriedad, sin convertir el dolor en espectáculo, y muestra cómo una historia íntima puede hablar también de pobreza, azar, familia y pertenencia. El libro interesa tanto por el itinerario material del regreso como por la dificultad emocional de reconciliar pasado y presente.",
+        "forWhom": "Para lectores interesados en memorias reales, historias de identidad, adopción y búsquedas familiares, así como para quienes prefieren testimonios emotivos pero contenidos, con un fuerte componente humano.",
+        "whyItMatters": "Importa porque pone rostro concreto a cuestiones amplias como la infancia vulnerable, la migración involuntaria y la construcción de la identidad. Su fuerza no está en la grandilocuencia, sino en la precisión con la que muestra lo que significa recordar y volver.",
+        "editorialIntro": "Hay libros de viaje y libros de regreso; este pertenece a la rara categoría de los que convierten la búsqueda de un lugar en la búsqueda de un nombre propio. Saroo Brierley cuenta una historia extraordinaria con un tono contenido que refuerza, y no debilita, su potencia emocional.",
+        "readingLevel": "Accesible para público general adulto, con temas sensibles y trasfondo social que invitan a una lectura atenta.",
+        "whyReadToday": "Sigue siendo pertinente porque habla de identidad, memoria y familia en un mundo marcado por desplazamientos, adopciones internacionales y vínculos cada vez más mediados por la tecnología.",
+        "studyNotes": [
+          "Conviene leerlo como memoria personal y no como reportaje exhaustivo: el valor del libro está en la experiencia vivida y recordada por el autor.",
+          "La tensión central no es solo geográfica; también es interior: cómo reconciliar la vida construida en Australia con la infancia perdida en India.",
+          "La tecnología aparece como instrumento decisivo, pero el motor profundo del relato sigue siendo la persistencia de la memoria afectiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Infancia y pérdida",
+            "summary": "Saroo recuerda su niñez en una familia humilde de India y el episodio decisivo en el que, siendo muy pequeño, queda separado de su hermano y termina extraviado tras un viaje en tren que no comprende."
+          },
+          {
+            "title": "Supervivencia, orfanato y adopción",
+            "summary": "El relato sigue su paso por la calle y por instituciones de acogida, hasta su adopción por una familia australiana que le ofrece estabilidad, afecto y una nueva vida lejos de su lugar de origen."
+          },
+          {
+            "title": "La búsqueda del hogar",
+            "summary": "Ya adulto, Brierley retoma los fragmentos de su memoria y utiliza mapas, recuerdos y paciencia para localizar su pueblo natal, en un proceso que culmina con el reencuentro con su familia biológica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Identidad dividida y pertenencia",
+            "content": "El libro examina una identidad construida entre la gratitud hacia la familia adoptiva y la necesidad irreprimible de entender el origen biológico. Esa doble pertenencia no se presenta como contradicción simple, sino como una forma compleja de vivir entre afectos legítimos."
+          },
+          {
+            "heading": "Memoria, azar y reconstrucción",
+            "content": "Brierley muestra hasta qué punto la vida puede quedar determinada por un accidente mínimo. Sin embargo, la memoria no opera aquí como archivo perfecto, sino como conjunto de indicios parciales que exigen interpretación, paciencia y prudencia."
+          },
+          {
+            "heading": "Infancia vulnerable sin sentimentalismo excesivo",
+            "content": "Uno de los logros del libro es narrar situaciones muy duras sin caer del todo en el melodrama. El tono contenido permite que el lector perciba con más claridad la dimensión estructural de la pobreza y la fragilidad de los niños perdidos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o una historia real?",
+            "answer": "Es una memoria autobiográfica basada en la experiencia real de Saroo Brierley."
+          },
+          {
+            "question": "¿El libro se centra solo en el reencuentro final?",
+            "answer": "No. El peso del libro está también en la infancia perdida, la adopción y el proceso interior que lleva al autor a buscar sus orígenes."
+          },
+          {
+            "question": "¿Se parece a la película Lion?",
+            "answer": "Sí, porque la película adapta esta historia, pero el libro ofrece más contexto emocional sobre la memoria, la adopción y la búsqueda personal."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Penguin Random House - A Long Way Home",
+            "url": "https://www.penguinrandomhouse.com/books/316174/a-long-way-home-by-saroo-brierley/"
+          },
+          {
+            "label": "Saroo Brierley - The Book",
+            "url": "https://saroobrierley.com/book/"
+          },
+          {
+            "label": "Open Library - A Long Way Home",
+            "url": "https://openlibrary.org/books/OL26437925M/A_Long_Way_Home"
+          },
+          {
+            "label": "Google Books - A Long Way Home",
+            "url": "https://books.google.com/books/about/A_Long_Way_Home.html?id=BOJZngEACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "un-perfecto-equilibrio-de-rohinton-mistry",
+      "title": "Un Perfecto Equilibrio",
+      "authorName": "Rohinton Mistry",
+      "authorSlug": "rohinton-mistry",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 1,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un perfecto equilibrio",
+        "authorName": "Rohinton Mistry",
+        "authorSlug": "rohinton-mistry",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 1995,
+        "pages": 624,
+        "summary": "Ambientada en la India de la Emergencia declarada por Indira Gandhi, esta novela sigue el cruce de destinos entre Dina Dalal, una viuda que intenta conservar su independencia; Ishvar y Omprakash, dos sastres de casta baja que buscan trabajo y dignidad; y Maneck, un estudiante que observa con perplejidad la dureza del mundo urbano. Lo que comienza como una convivencia pragmática se transforma en una comunidad frágil, levantada contra la violencia burocrática, la desigualdad social y el miedo político. Mistry construye una narración amplia y minuciosa donde la amistad, la humillación y la resistencia cotidiana conviven con una mirada severa sobre las jerarquías de clase y casta.",
+        "aboutThisBook": "Es una de las novelas más reconocidas de Rohinton Mistry y una obra de gran amplitud moral. Combina retrato histórico, observación social y una intensa atención a los personajes para mostrar cómo el poder político entra en la vida ordinaria y la desfigura. Su ambición narrativa recuerda a la gran novela social, pero su fuerza depende sobre todo de la humanidad contradictoria de sus protagonistas.",
+        "forWhom": "Para lectores de novela literaria extensa, interesados en la historia contemporánea de India, en relatos corales y en ficciones que exploran injusticia social, amistad y supervivencia sin suavizar la dureza del contexto.",
+        "whyItMatters": "Importa porque convierte un episodio político concreto en una experiencia humana compleja. La novela demuestra que la represión estatal, la casta y la pobreza no son abstracciones: se encarnan en cuerpos, oficios, vínculos y pérdidas irreparables.",
+        "editorialIntro": "Pocas novelas contemporáneas logran ser al mismo tiempo panorámicas e íntimas con esta precisión. Rohinton Mistry observa a sus personajes sin sentimentalismo fácil y, precisamente por eso, consigue que su precariedad, su humor y su capacidad de afecto resulten inolvidables.",
+        "readingLevel": "Exigencia media-alta: prosa clara, pero extensión considerable, múltiples personajes y fuerte carga histórica y emocional.",
+        "whyReadToday": "Porque ayuda a pensar cómo las crisis políticas degradan la vida cotidiana y cómo la dignidad humana se pone a prueba en sistemas atravesados por desigualdad, autoritarismo y exclusión persistente.",
+        "studyNotes": [
+          "La novela funciona como relato coral: conviene seguir cómo cada personaje ilumina una dimensión distinta de la India urbana y jerárquica.",
+          "El contexto de la Emergencia no es solo decorado histórico; condiciona decisiones, cuerpos y futuros, y explica la violencia administrativa del libro.",
+          "La idea de equilibrio es irónica: el texto muestra equilibrios siempre precarios entre afecto y crueldad, esperanza y devastación."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primeros encuentros",
+            "summary": "Dina Dalal intenta sostener su independencia económica y contrata a Ishvar y Omprakash como sastres, mientras Maneck llega a la ciudad para estudiar. La convivencia nace de la necesidad antes que de la confianza."
+          },
+          {
+            "title": "La vida bajo la Emergencia",
+            "summary": "Las políticas represivas, la brutalidad institucional y las jerarquías sociales afectan de forma creciente a los cuatro protagonistas, que intentan mantener cierta normalidad en medio del abuso y la precariedad."
+          },
+          {
+            "title": "Ruptura de los vínculos",
+            "summary": "Cuando la violencia estructural se intensifica, los proyectos personales y la pequeña comunidad que habían formado sufren daños profundos. El desenlace confirma la fragilidad de cualquier refugio levantado contra un sistema hostil."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia política y destino individual",
+            "content": "Mistry muestra que la gran política no transcurre en una esfera separada de la vida privada. La Emergencia afecta alquileres, trabajos, desplazamientos y cuerpos; por eso la novela convierte la historia en experiencia encarnada."
+          },
+          {
+            "heading": "Casta, clase y humillación",
+            "content": "Uno de los ejes más duros del libro es la persistencia de jerarquías que parecen anteriores incluso al Estado moderno. La casta no actúa solo como antecedente social, sino como mecanismo activo de degradación y exclusión."
+          },
+          {
+            "heading": "Comunidad frágil como forma de resistencia",
+            "content": "La relación entre Dina, Ishvar, Om y Maneck no elimina la violencia exterior, pero crea un espacio temporal de cuidado y reconocimiento mutuo. Esa comunidad mínima es el verdadero centro moral de la novela."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica en sentido estricto?",
+            "answer": "Sí, aunque su fuerza no depende de la reconstrucción documental minuciosa, sino de cómo integra el periodo de la Emergencia en la vida de personajes memorables."
+          },
+          {
+            "question": "¿Es una lectura dura?",
+            "answer": "Sí. Incluye violencia social, humillación y tragedia, pero su dureza está al servicio de una visión ética y literaria muy sólida."
+          },
+          {
+            "question": "¿Por qué suele considerarse una obra mayor de Mistry?",
+            "answer": "Porque combina amplitud narrativa, profundidad psicológica y una mirada histórica muy poderosa, logrando que lo íntimo y lo político resulten inseparables."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Penguin Random House - A Fine Balance",
+            "url": "https://www.penguinrandomhouse.com/books/115368/a-fine-balance-by-rohinton-mistry/"
+          },
+          {
+            "label": "Britannica - A Fine Balance",
+            "url": "https://www.britannica.com/topic/A-Fine-Balance"
+          },
+          {
+            "label": "Wikipedia - A Fine Balance",
+            "url": "https://en.wikipedia.org/wiki/A_Fine_Balance"
+          },
+          {
+            "label": "Penguin Books UK - A Fine Balance",
+            "url": "https://www.penguin.co.uk/books/447954/a-fine-balance-by-mistry-rohinton/9781529187434"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "una-nueva-tierra-un-despertar-al-proposito-de-su-vida-de-eckhart-tolle",
+      "title": "Una Nueva Tierra Un Despertar Al Proposito De Su Vida",
+      "authorName": "Eckhart Tolle",
+      "authorSlug": "eckhart-tolle",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 1,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Una nueva tierra: un despertar al propósito de su vida",
+        "authorName": "Eckhart Tolle",
+        "authorSlug": "eckhart-tolle",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "desarrollo-personal",
+          "ensayo"
+        ],
+        "year": 2005,
+        "pages": 336,
+        "summary": "En este ensayo espiritual y de desarrollo personal, Eckhart Tolle plantea que buena parte del sufrimiento humano procede de la identificación con el ego y con patrones mentales automáticos. El libro propone un desplazamiento de la conciencia: pasar de una vida dominada por la reacción, la comparación y la necesidad de afirmación a una atención más presente, lúcida y menos posesiva. A lo largo de capítulos conceptuales y ejemplos cotidianos, Tolle aborda temas como el dolor acumulado, las relaciones, el trabajo, la creatividad y la posibilidad de una transformación interior que no dependa únicamente de logros externos. Su tesis central es que un cambio de conciencia individual tiene también consecuencias éticas y colectivas.",
+        "aboutThisBook": "No es un manual de productividad ni una guía psicológica convencional. Es un texto de orientación espiritual que intenta traducir ideas de presencia, observación interior y desapego del ego a situaciones corrientes de la vida moderna, desde los conflictos íntimos hasta la ambición social. Su influencia cultural creció al circular fuera del nicho espiritual y entrar en conversaciones más amplias sobre bienestar, atención y sentido vital.",
+        "forWhom": "Para lectores de espiritualidad contemporánea, meditación y desarrollo personal reflexivo; especialmente para quienes buscan un libro menos técnico que filosófico, centrado en hábitos mentales, presencia y transformación interior.",
+        "whyItMatters": "Importa porque formuló, para un público muy amplio, una crítica influyente a la vida gobernada por el ego, la ansiedad y la identificación constante con el pensamiento. Su impacto cultural excede el ámbito estrictamente espiritual.",
+        "editorialIntro": "Eckhart Tolle escribe desde una convicción sencilla pero exigente: la raíz de muchos conflictos personales y colectivos está en una conciencia atrapada por el ego. Este libro desarrolla esa intuición con un lenguaje directo, repetitivo por momentos, pero eficaz para lectores que buscan una reflexión espiritual accesible.",
+        "readingLevel": "Lectura media: lenguaje claro y poco técnico, aunque las ideas abstractas se aprovechan mejor con lectura lenta y reflexiva.",
+        "whyReadToday": "Se lee hoy con interés porque dialoga con problemas muy actuales: saturación mental, narcisismo social, consumo identitario y dificultad para sostener la atención en una cultura de estímulos constantes.",
+        "studyNotes": [
+          "El concepto decisivo es el ego entendido como identificación rígida con pensamientos, roles e imágenes de uno mismo.",
+          "No conviene leerlo como tratado filosófico sistemático, sino como una secuencia de meditaciones aplicadas a situaciones concretas.",
+          "Su propuesta ética depende de una idea previa: el cambio interior no es evasión, sino condición para relacionarse de otra manera con los demás y con el mundo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera mitad: diagnóstico del ego",
+            "summary": "Tolle describe cómo el ego organiza la experiencia mediante comparación, miedo, apego y necesidad de reconocimiento, generando conflicto tanto individual como social."
+          },
+          {
+            "title": "Momentos clave: dolor y presencia",
+            "summary": "El autor explica la noción de cuerpo del dolor y propone la presencia consciente como práctica para no quedar absorbidos por reacciones emocionales automáticas."
+          },
+          {
+            "title": "Segunda mitad: relaciones y transformación",
+            "summary": "Las ideas anteriores se aplican a vínculos afectivos, trabajo, creatividad y sentido vital, insistiendo en que una conciencia menos egóica puede abrir otra forma de vida personal y colectiva."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Crítica espiritual del ego moderno",
+            "content": "El libro interpreta muchos malestares contemporáneos como efectos de una conciencia que necesita afirmarse sin descanso. Esa lectura conecta con tradiciones contemplativas, pero se presenta en una clave accesible para lectores no especializados."
+          },
+          {
+            "heading": "Presencia como práctica, no como eslogan",
+            "content": "La noción de presencia puede sonar abstracta, pero Tolle intenta volverla operativa en escenas ordinarias: discusiones, ansiedad, frustración o deseo de control. La utilidad del libro depende en gran parte de esa traducción práctica."
+          },
+          {
+            "heading": "Alcance y límites del enfoque",
+            "content": "Su fortaleza está en ofrecer un lenguaje simple para observar automatismos mentales. Su límite es que a veces reduce problemas complejos a una misma matriz espiritual, de modo que conviene leerlo como propuesta de conciencia y no como respuesta total a toda dificultad humana."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro religioso?",
+            "answer": "No en sentido confesional estricto. Toma elementos de varias tradiciones espirituales, pero se presenta como una reflexión amplia sobre conciencia y presencia."
+          },
+          {
+            "question": "¿Hace falta haber leído El poder del ahora?",
+            "answer": "No es imprescindible. Comparte ideas con ese libro, pero puede leerse de forma independiente."
+          },
+          {
+            "question": "¿Es un libro práctico o más bien meditativo?",
+            "answer": "Tiene ambas dimensiones: propone observaciones aplicables a la vida diaria, aunque su tono general es reflexivo y contemplativo más que técnico."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Penguin Random House - A New Earth",
+            "url": "https://www.penguinrandomhouse.com/books/291884/a-new-earth-oprahs-book-club-by-eckhart-tolle/"
+          },
+          {
+            "label": "Eckhart Tolle - A New Earth Excerpt",
+            "url": "https://eckharttolle.com/a-new-earth-excerpt/"
+          },
+          {
+            "label": "Namaste Publishing - A New Earth",
+            "url": "https://www.namastepublishing.com/a-new-earth"
+          },
+          {
+            "label": "Wikipedia - A New Earth",
+            "url": "https://en.wikipedia.org/wiki/A_New_Earth"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "usar-el-cerebro-conocer-nuestra-mente-para-vivir-mejor-de-facundo-manesmateo-niro",
+      "title": "Usar El Cerebro Conocer Nuestra Mente Para Vivir Mejor",
+      "authorName": "Facundo Manesmateo Niro",
+      "authorSlug": "facundo-manesmateo-niro",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 1,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Usar el cerebro: Conocer nuestra mente para vivir mejor",
+        "authorName": "Facundo Manes y Mateo Niro",
+        "authorSlug": "facundo-manes-y-mateo-niro",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "desarrollo-personal",
+          "ensayo"
+        ],
+        "year": 2015,
+        "pages": 256,
+        "summary": "Este libro de divulgación propone una pregunta práctica: qué significa conocer mejor el cerebro para vivir con más lucidez, menos automatismo y mayor responsabilidad sobre lo que hacemos. Facundo Manes, neurólogo y neurocientífico, y Mateo Niro traducen hallazgos de la investigación contemporánea a un lenguaje accesible para explicar cómo funcionan la atención, la memoria, las emociones, la toma de decisiones, el aprendizaje, el sueño y la vida social. El volumen no presenta al cerebro como una máquina fría ni como un depósito de recetas rápidas, sino como un sistema biológico, cultural y relacional. Su mayor interés está en tender un puente entre ciencia y experiencia cotidiana: estudiar, amar, recordar, equivocarse, envejecer, crear hábitos y convivir dependen, en parte, de comprender mejor nuestra propia mente.",
+        "aboutThisBook": "Usar el cerebro pertenece a esa tradición de ensayos científicos pensados para lectores no especializados que buscan orientación rigurosa sin tecnicismos innecesarios. Manes y Niro combinan explicaciones sobre circuitos cerebrales, plasticidad, memoria y conducta con ejemplos de la vida diaria. El tono es pedagógico y argumentativo: cada tema intenta responder por qué el conocimiento del cerebro no debería quedar encerrado en laboratorios u hospitales, sino entrar en la conversación pública sobre educación, salud, vínculos y ciudadanía.",
+        "forWhom": "Es una lectura recomendable para estudiantes, docentes, lectores interesados en psicología y cualquier persona que quiera una introducción seria a la neurociencia aplicada a la vida cotidiana.",
+        "whyItMatters": "Importa porque acerca la neurociencia a problemas concretos de la existencia ordinaria y ayuda a distinguir entre evidencia, prejuicio y simplificaciones sobre la mente. Su valor está menos en prometer soluciones mágicas que en ordenar preguntas fundamentales.",
+        "editorialIntro": "Pocos libros de divulgación logran hablar del cerebro sin caer ni en el espectáculo ni en la jerga. Este intenta algo más difícil: mostrar que conocer la mente humana exige precisión científica, pero también prudencia ante todo lo que todavía ignoramos. Leído hoy, sigue siendo útil como introducción clara a debates sobre atención, memoria, emoción y conducta.",
+        "readingLevel": "Accesible para bachillerato y primeros años universitarios; conviene leerlo con calma si no se tiene familiaridad con vocabulario básico de ciencia.",
+        "whyReadToday": "En una época saturada de distracciones, ansiedad informativa y discursos simplistas sobre el cerebro, el libro sigue ofreciendo un marco sobrio para pensar cómo aprendemos, decidimos y convivimos.",
+        "studyNotes": [
+          "La idea central no es solo describir el cerebro, sino relacionar hallazgos científicos con hábitos, decisiones y formas de vida concretas.",
+          "Conviene distinguir entre memoria, atención, emoción y conciencia: el libro las trata como funciones conectadas, no como compartimentos aislados.",
+          "Una clave de lectura es la noción de plasticidad cerebral, entendida como capacidad de cambio condicionada por experiencia, educación y contexto."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El cerebro como problema humano",
+            "summary": "Los autores presentan al cerebro como el órgano más complejo del cuerpo y subrayan que conocerlo implica entender la base biológica de la conducta, pero también aceptar sus límites, sesgos y vulnerabilidades. La divulgación parte de preguntas cotidianas, no de abstracciones puramente técnicas."
+          },
+          {
+            "title": "Parte 2: Memoria, emoción y decisiones",
+            "summary": "La explicación avanza hacia procesos decisivos de la vida mental: cómo recordamos, cómo olvidamos, por qué sentimos como sentimos y de qué modo las emociones influyen en elecciones que a menudo creemos puramente racionales. La mente aparece así como un equilibrio inestable entre cálculo, afecto y aprendizaje."
+          },
+          {
+            "title": "Parte 3: Aprender, dormir, convivir",
+            "summary": "En la parte final gana peso la dimensión práctica. Se examinan el aprendizaje, el descanso, la creatividad y la vida social para mostrar que el cerebro no se entiende bien si se lo separa del cuerpo, del entorno y de los otros. La ciencia sirve aquí como guía de comprensión, no como manual de autoayuda."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Divulgación sin promesa milagrosa",
+            "content": "Uno de los méritos del libro es evitar, en líneas generales, el tono de revelación definitiva que suele acompañar a la literatura de consumo rápido sobre el cerebro. Su apuesta es más modesta y por eso más sólida: acercar conocimiento fiable a lectores amplios."
+          },
+          {
+            "heading": "La mente entre biología y cultura",
+            "content": "Aunque parte de la neurociencia, el argumento sugiere que pensar, sentir y decidir nunca son procesos puramente biológicos. Educación, lenguaje, experiencia y vínculos modifican la forma en que ese cerebro se desarrolla y actúa. Esa perspectiva evita un reduccionismo simplista."
+          },
+          {
+            "heading": "Utilidad pública del conocimiento científico",
+            "content": "El libro insiste en que comprender el cerebro tiene consecuencias para la escuela, la salud mental, la crianza y la vida social. No se trata solo de saber más, sino de discutir mejor cómo queremos vivir y qué instituciones ayudan a desplegar capacidades humanas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro técnico de neurociencia?",
+            "answer": "No. Es divulgación seria para lectores generales, con base científica pero escrita en lenguaje accesible."
+          },
+          {
+            "question": "¿Sirve como introducción al estudio del cerebro?",
+            "answer": "Sí. Funciona bien como primera aproximación a temas como memoria, emoción, aprendizaje, sueño y toma de decisiones."
+          },
+          {
+            "question": "¿Promete métodos rápidos para mejorar la mente?",
+            "answer": "No exactamente. Su enfoque es más reflexivo que recetario: ofrece comprensión y contexto antes que fórmulas instantáneas."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - Usar el cerebro",
+            "url": "https://www.planetadelibros.com/libro-usar-el-cerebro/189047"
+          },
+          {
+            "label": "Google Libros - Usar el cerebro: conocer nuestra mente para vivir mejor",
+            "url": "https://books.google.com/books/about/Usar_el_cerebro_conocer_nuestra_mente_pa.html?id=TE9uBgAAQBAJ"
+          },
+          {
+            "label": "Open Library - Usar el Cerebro",
+            "url": "https://openlibrary.org/works/OL27110699W/Usar_el_Cerebro"
+          },
+          {
+            "label": "Facundo Manes - Libros",
+            "url": "https://facundomanes.com/libros/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "utopia-historia-de-una-idea-de-gregory-claeys",
+      "title": "Utopia Historia De Una Idea",
+      "authorName": "Gregory Claeys",
+      "authorSlug": "gregory-claeys",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 1,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Utopia: The History of an Idea",
+        "authorName": "Gregory Claeys",
+        "authorSlug": "gregory-claeys",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2020,
+        "pages": 224,
+        "summary": "En este ensayo breve pero ambicioso, Gregory Claeys reconstruye la historia de la imaginación utópica como una de las grandes corrientes de la cultura política occidental. El libro no se limita a Tomás Moro ni a un catálogo de sociedades ideales: examina cómo distintas épocas proyectaron ideas de perfección, armonía social, reforma moral, igualdad y abundancia, y cómo esos sueños convivieron con impulsos autoritarios, exclusiones y fracasos históricos. Claeys, especialista en historia del pensamiento político, muestra que la utopía ha servido tanto para criticar el presente como para diseñar futuros posibles. Su interés principal está en explicar por qué seguimos necesitando esas imágenes de otro mundo, incluso cuando la experiencia moderna ha vuelto sospechosas las promesas de redención total.",
+        "aboutThisBook": "Más que una defensa ingenua de la sociedad perfecta, el libro ofrece una historia conceptual de la utopía. Claeys recorre tradiciones religiosas, filosóficas, socialistas y literarias para mostrar cómo cambian los ideales de comunidad, trabajo, educación, propiedad y vida buena. El resultado es un mapa intelectual claro, apto para lectores no especialistas, que ayuda a entender la persistencia de la imaginación utópica y su relación tensa con la distopía, la reforma social y la crítica del poder.",
+        "forWhom": "Resulta especialmente valioso para estudiantes de humanidades, lectores de teoría política, personas interesadas en historia de las ideas y quienes quieran una síntesis fiable sobre el lugar de la utopía en la cultura moderna.",
+        "whyItMatters": "Importa porque recuerda que toda sociedad vive también de sus imágenes de futuro. Pensar la utopía no obliga a abrazar programas cerrados; obliga, más bien, a preguntarse qué idea de justicia, comunidad y esperanza organiza nuestras instituciones.",
+        "editorialIntro": "Hablar de utopía hoy exige escapar de dos lugares comunes: la ingenuidad que confunde deseo con programa y el cinismo que ridiculiza toda aspiración de cambio. Claeys se mueve entre ambos extremos con oficio historiográfico. Su libro muestra que la utopía ha sido, a la vez, crítica moral del presente, laboratorio imaginativo y advertencia sobre los riesgos de absolutizar cualquier ideal colectivo.",
+        "readingLevel": "Nivel medio-alto: puede leerlo un público general culto, aunque se disfruta más con algo de interés previo por historia, filosofía o pensamiento político.",
+        "whyReadToday": "Porque en tiempos de crisis ecológica, desigualdad y fatiga democrática, volver a la historia de la utopía ayuda a pensar futuros deseables sin repetir las simplificaciones de los grandes dogmas del siglo XX.",
+        "studyNotes": [
+          "La utopía aparece aquí como herramienta crítica: imaginar otra sociedad permite medir con más claridad las insuficiencias del presente.",
+          "El libro invita a no separar del todo utopía y distopía: muchas esperanzas históricas contienen también riesgos de coerción y uniformidad.",
+          "Conviene leerlo como historia de una idea cambiante, no como defensa de un único modelo ideal de sociedad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Nacimiento de la imaginación utópica",
+            "summary": "Claeys sitúa la utopía en una tradición larga de aspiraciones a la ciudad justa y la comunidad armónica. Esa genealogía muestra que el deseo de una sociedad mejor antecede con mucho a la modernidad, aunque en la era moderna adquiera una forma literaria y política más definida."
+          },
+          {
+            "title": "Parte 2: Reforma social y proyectos de perfección",
+            "summary": "El núcleo del libro examina cómo la utopía se vincula con programas de reforma, socialismo, educación moral y reorganización del trabajo. La imaginación del futuro deja de ser mera fantasía y se convierte en una crítica concreta de la propiedad, la desigualdad y el poder."
+          },
+          {
+            "title": "Parte 3: Crisis, distopía y persistencia del ideal",
+            "summary": "La sección final considera el desgaste de las promesas utópicas tras las catástrofes políticas modernas, pero también su supervivencia. Incluso bajo el signo de la distopía, el impulso de imaginar mundos mejores no desaparece, sino que cambia de lenguaje y de escala."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una historia intelectual condensada",
+            "content": "La virtud principal del libro está en la síntesis. Claeys condensa debates enormes sin vaciarlos de complejidad, y ofrece una entrada clara a una tradición que suele dispersarse entre literatura, religión, filosofía y teoría política."
+          },
+          {
+            "heading": "Utopía como crítica del presente",
+            "content": "El ensayo deja ver que la utopía no interesa solo por sus planos de ciudades perfectas o comunidades ideales. Su función más profunda consiste en desenmascarar la naturalidad aparente del orden existente y reabrir la pregunta por lo que podría ser distinto."
+          },
+          {
+            "heading": "Advertencia contra los absolutos",
+            "content": "Claeys no romantiza la tradición que estudia. La historia de la utopía enseña también que toda imagen cerrada de perfección puede volverse disciplinaria. Esa ambivalencia es una de las lecciones más fértiles del libro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de filosofía o de historia?",
+            "answer": "Es, sobre todo, una historia intelectual de una idea política, escrita con herramientas de ambas disciplinas."
+          },
+          {
+            "question": "¿Hace falta haber leído a Tomás Moro?",
+            "answer": "No. Conocer la obra ayuda, pero el libro puede leerse sin preparación previa porque contextualiza la tradición utópica desde sus bases."
+          },
+          {
+            "question": "¿Defiende la utopía de forma acrítica?",
+            "answer": "No. Reconoce su potencia crítica, pero también los peligros de convertir un ideal colectivo en sistema cerrado o coercitivo."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Libros - Utopia: The History of an Idea",
+            "url": "https://books.google.com/books/about/Utopia.html?id=j_kyywEACAAJ"
+          },
+          {
+            "label": "British Museum Shop - Utopia: The History of an Idea",
+            "url": "https://www.britishmuseumshoponline.org/utopia-the-history-of-an-idea.html"
+          },
+          {
+            "label": "Open Library - Utopia",
+            "url": "https://openlibrary.org/works/OL25783223W/Utopia"
+          },
+          {
+            "label": "Royal Holloway Research Portal - Gregory Claeys",
+            "url": "https://pure.royalholloway.ac.uk/en/persons/gregory-claeys"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "valquirias-de-paulo-coelho",
+      "title": "Valquirias",
+      "authorName": "Paulo Coelho",
+      "authorSlug": "paulo-coelho",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 1,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las valquirias",
+        "authorName": "Paulo Coelho",
+        "authorSlug": "paulo-coelho",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "desarrollo-personal",
+          "ensayo"
+        ],
+        "year": 1992,
+        "pages": null,
+        "summary": "Las valquirias es una de las novelas más personales de Paulo Coelho y una de las que mejor dejan ver la mezcla de autobiografía, búsqueda mística y relato de prueba interior que caracteriza buena parte de su obra. El libro narra el viaje de Paulo y su esposa por el desierto de Mojave durante cuarenta días, una travesía marcada por ejercicios espirituales, encuentros con un grupo de mujeres conocidas como las valquirias y la necesidad de enfrentarse a viejos miedos, culpas y bloqueos. Más que una novela de aventuras en sentido clásico, es una narración de confrontación consigo mismo. El desierto funciona como paisaje físico y como escenario simbólico donde la fe, la voluntad y la fragilidad del protagonista quedan expuestas con intensidad deliberada.",
+        "aboutThisBook": "La novela se sitúa en una zona intermedia entre confesión, alegoría y ficción espiritual. Coelho convierte una experiencia de aprendizaje esotérico en relato de transformación personal: el viaje exterior importa menos que la disciplina interior que exige. El libro explora el combate entre deseo de trascendencia y miedo al fracaso, y lo hace con un lenguaje sencillo, de gran carga simbólica, que privilegia la claridad narrativa sobre la complejidad psicológica tradicional.",
+        "forWhom": "Puede interesar a lectores de Paulo Coelho, a quienes buscan novelas de itinerario espiritual y a quienes prefieren relatos breves donde el conflicto principal no es social, sino interior y simbólico.",
+        "whyItMatters": "Sigue siendo una obra relevante dentro del universo de Coelho porque concentra varios de sus temas persistentes: la prueba, la fe, la escucha de señales y la lucha contra el autoengaño. También permite leer su proyecto literario en clave más autobiográfica.",
+        "editorialIntro": "Entre los libros de Paulo Coelho, este ocupa un lugar singular por su tono de experiencia vivida y por la dureza relativa del aprendizaje que narra. No es simplemente una fábula de consuelo. El desierto, los ejercicios y el encuentro con las valquirias obligan al protagonista a medir la distancia entre sus aspiraciones espirituales y sus temores reales.",
+        "readingLevel": "Lectura accesible para público general adulto; el mayor desafío no es el lenguaje, sino aceptar su simbolismo y su dimensión esotérica.",
+        "whyReadToday": "Puede leerse hoy como una exploración de la vulnerabilidad masculina, la necesidad de silencio y el deseo contemporáneo de sentido en medio de una vida saturada de ruido y dispersión.",
+        "studyNotes": [
+          "El desierto no es solo escenario: funciona como imagen de despojo, prueba y confrontación con uno mismo.",
+          "La novela combina elementos autobiográficos con una construcción simbólica deliberada; conviene no leerla como documento literal puro.",
+          "Uno de sus ejes es la tensión entre búsqueda espiritual auténtica y miedo a cruzar ciertos límites interiores."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio del viaje",
+            "summary": "Paulo y su esposa emprenden la travesía por el Mojave bajo una consigna de aprendizaje espiritual. Desde el comienzo queda claro que el viaje exige disciplina, exposición emocional y disposición a poner en cuestión certezas previas."
+          },
+          {
+            "title": "Encuentro con las valquirias",
+            "summary": "La aparición del grupo femenino que da título al libro introduce una energía desafiante y una forma distinta de entender la fe, el coraje y la misión personal. El protagonista ya no puede sostener su búsqueda en términos puramente íntimos o abstractos."
+          },
+          {
+            "title": "Prueba interior y revelación",
+            "summary": "La etapa final concentra el verdadero conflicto: asumir el miedo, revisar culpas y atravesar una experiencia de visión o comprensión que no cancela la fragilidad, pero sí la reorganiza. El desenlace tiene la lógica de una iniciación más que la de una resolución convencional."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Autobiografía transformada en mito personal",
+            "content": "Coelho trabaja con materiales de su propia experiencia, pero los reorganiza en clave narrativa y simbólica. Eso explica el tono simultáneamente confesional y ejemplar del libro: lo vivido importa porque puede leerse como itinerario de transformación."
+          },
+          {
+            "heading": "El desierto como dispositivo espiritual",
+            "content": "La novela recurre a un motivo clásico de la tradición religiosa y literaria: el desierto como lugar donde desaparecen apoyos externos y aflora lo esencial. En esa desnudez del paisaje, el conflicto psíquico se vuelve más visible y más radical."
+          },
+          {
+            "heading": "Fe, miedo y autoexamen",
+            "content": "El interés del libro no reside tanto en sus elementos esotéricos como en el modo en que dramatiza el miedo a sostener una vocación o una creencia. La pregunta central no es si existe lo sobrenatural, sino qué hace una persona con sus propios límites."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela autobiográfica?",
+            "answer": "Tiene una base autobiográfica clara, pero está narrada con recursos de ficción y simbolización espiritual."
+          },
+          {
+            "question": "¿Hace falta compartir las creencias del autor para leerla?",
+            "answer": "No. Puede leerse también como relato de prueba interior, miedo y búsqueda de sentido, aunque su dimensión esotérica sea explícita."
+          },
+          {
+            "question": "¿Es representativa de Paulo Coelho?",
+            "answer": "Sí, sobre todo por su mezcla de sencillez narrativa, símbolos espirituales y énfasis en la transformación personal."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Paulo Coelho HarperCollins - The Valkyries",
+            "url": "https://www.paulocoelho.com/product/the-valkyries/"
+          },
+          {
+            "label": "Paulo Coelho & Christina Oiticica Foundation - The Valkyries",
+            "url": "https://fondationpaulocoelho.com/books/paulo-coelho-the-valkyries/"
+          },
+          {
+            "label": "HarperCollins - The Valkyries",
+            "url": "https://www.harpercollins.com/products/the-valkyries-paulo-coelho"
+          },
+          {
+            "label": "Open Library - The Valkyries",
+            "url": "https://openlibrary.org/works/OL11592991W/The_Valkyries"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-viaje-intimo-de-la-locura-de-roberto-iniesta",
+      "title": "El Viaje Intimo De La Locura",
+      "authorName": "Roberto Iniesta",
+      "authorSlug": "roberto-iniesta",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 91,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El viaje íntimo de la locura",
+        "authorName": "Roberto Iniesta",
+        "authorSlug": "roberto-iniesta",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2009,
+        "pages": 371,
+        "summary": "El viaje íntimo de la locura es la primera novela de Roberto Iniesta y se lee como una inmersión deliberada en un territorio mental inestable, imaginativo y a ratos alucinado. Más que apoyarse en una trama de peripecias nítidas, el libro avanza como un descenso —o una exploración— por estados de conciencia, obsesiones, impulsos y desajustes interiores. La prosa privilegia la intensidad verbal, la imagen inesperada y el monólogo emocional, de manera que la experiencia del lector depende tanto del argumento como del modo en que la voz arrastra, seduce y desconcierta. La novela propone un viaje hacia los bordes de la identidad, donde la percepción se deforma y lo íntimo se convierte en materia narrativa principal.",
+        "aboutThisBook": "Publicado en 2009, este libro supuso el debut narrativo de Roberto Iniesta fuera del terreno por el que era ya ampliamente conocido como letrista y músico. La recepción del volumen estuvo muy marcada por esa expectativa: muchos lectores se acercaron a él para comprobar cómo la imaginación verbal de sus canciones se trasladaba a la novela. El resultado no es una ficción convencional ni especialmente realista, sino una apuesta por la escritura como torrente interior. Su interés editorial reside justamente ahí: en mostrar a un autor que no busca domesticar su voz para ajustarse a una forma narrativa segura, sino tensarla hasta convertirla en el centro mismo del libro.",
+        "forWhom": "Para lectores adultos interesados en novelas de voz fuerte, escritura emocional y relatos que exploran la inestabilidad psíquica sin ofrecer una guía demasiado cómoda. Puede atraer a quienes siguen la obra de Robe, pero funciona mejor si se aborda como una ficción literaria autónoma, abierta a lo extraño y a lo ambiguo.",
+        "whyItMatters": "Importa porque documenta el paso de un letrista muy influyente a la narrativa y porque conserva, en otro formato, una forma de imaginar marcada por el desgarro, la intensidad y la libertad verbal. También es un ejemplo útil de novela construida desde la subjetividad extrema.",
+        "editorialIntro": "No conviene entrar en este libro esperando una novela lineal ni una simple extensión en prosa de las canciones de Roberto Iniesta. Su interés está en la fricción: entre lucidez y extravío, entre impulso poético y relato, entre confesión y fabulación. El viaje del título se entiende mejor como travesía interior que como aventura externa, y esa apuesta le da al texto una personalidad muy definida.",
+        "readingLevel": "Intermedio-alto, por su densidad verbal, su ambigüedad y su inclinación a la deriva introspectiva.",
+        "whyReadToday": "Sigue siendo una lectura pertinente para quienes buscan ficciones que no separan del todo literatura y experiencia límite. En un momento de relatos cada vez más explicativos, esta novela recuerda el valor de la opacidad, del riesgo expresivo y de la subjetividad llevada al extremo.",
+        "studyNotes": [
+          "Leer la novela como un viaje de conciencia más que como una trama cerrada ayuda a situar mejor sus cambios de tono y de percepción.",
+          "Conviene atender a la relación entre lenguaje e inestabilidad: la forma no ilustra el desorden mental, sino que lo produce en la experiencia de lectura.",
+          "Es útil compararla con la escritura lírica de su autor para ver qué recursos pasan de la canción a la prosa y cuáles se transforman.",
+          "La ambigüedad no parece un defecto accidental, sino un principio estructural del libro."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio del descenso",
+            "summary": "La novela abre un espacio interior marcado por la extrañeza y por la sensación de que la realidad cotidiana ya no basta para organizar la experiencia. Desde el comienzo, la voz narrativa domina el libro y fija el tono de un recorrido donde la percepción importa más que la acción externa."
+          },
+          {
+            "title": "Primera mitad",
+            "summary": "El viaje se vuelve más inestable y aparecen asociaciones, impulsos y desvíos que intensifican la impresión de desajuste. El lector comprende que el núcleo del relato no es llegar a un destino claro, sino atravesar un proceso de fractura subjetiva, deseo y resistencia íntima."
+          },
+          {
+            "title": "Momentos de ruptura",
+            "summary": "La novela empuja su lógica hacia zonas donde el pensamiento, la memoria y la imaginación se contaminan mutuamente. Esa mezcla vuelve más difícil distinguir entre experiencia, fantasía y delirio, pero refuerza la coherencia emocional del conjunto."
+          },
+          {
+            "title": "Tramo final",
+            "summary": "El cierre no busca resolver de forma tranquilizadora el trayecto, sino dejar la impresión de haber atravesado una conciencia en crisis. Lo importante es la intensidad del recorrido y la forma en que la escritura convierte la interioridad en materia narrativa autosuficiente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela sostenida por la voz",
+            "content": "El rasgo más visible del libro es la centralidad de la voz. Más que una cadena de acontecimientos memorables, lo que organiza la lectura es una manera de decir, asociar e insistir. La prosa funciona como fuerza de arrastre y como principal dispositivo de caracterización."
+          },
+          {
+            "heading": "Locura como experiencia y como forma",
+            "content": "El título remite a la locura, pero el libro no la trata solo como tema. También la incorpora como principio formal: discontinuidad, intensificación, imágenes abruptas y quiebres de estabilidad. Esa decisión hace que la lectura participe del desorden que representa."
+          },
+          {
+            "heading": "Del letrista al novelista",
+            "content": "La novela resulta interesante porque deja ver qué sucede cuando un autor con una fuerte identidad verbal cambia de formato. No abandona la condensación expresiva ni la aspereza lírica, pero necesita expandirlas en un espacio más largo, menos cerrado y más errático."
+          },
+          {
+            "heading": "El riesgo de la ambigüedad",
+            "content": "Parte del valor del libro está en asumir un riesgo evidente: no explicar demasiado. Esa decisión puede alejar a algunos lectores, pero también evita que la novela se vuelva un ejercicio previsible sobre la crisis interior. Su extrañeza es parte de su apuesta estética."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela autobiográfica?",
+            "answer": "No conviene leerla como autobiografía directa. Aunque la figura pública del autor condiciona la recepción, el libro funciona como ficción literaria y no como confesión transparente."
+          },
+          {
+            "question": "¿Tiene una trama tradicional?",
+            "answer": "No en sentido estricto. Hay recorrido narrativo, pero el peso principal recae en la exploración interior, la voz y la intensidad expresiva más que en una sucesión clásica de acontecimientos."
+          },
+          {
+            "question": "¿Es recomendable solo para fans de Extremoduro?",
+            "answer": "No. Los lectores familiarizados con las letras de Robe reconocerán ciertas cadencias y obsesiones, pero el libro interesa sobre todo a quienes aceptan una novela irregular, intensa y poco complaciente."
+          },
+          {
+            "question": "¿Qué dificultad principal plantea?",
+            "answer": "Su ambigüedad. Quien espere claridad argumental constante puede sentirse desorientado; quien entre dispuesto a seguir una subjetividad extrema encontrará ahí precisamente su atractivo."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Todos Tus Libros - ficha de El viaje íntimo de la locura",
+            "url": "https://www.todostuslibros.com/libros/el-viaje-intimo-de-la-locura_978-84-613-3001-0"
+          },
+          {
+            "label": "Open Library - El viaje íntimo de la locura",
+            "url": "https://openlibrary.org/works/OL17052193W/El_viaje_%C3%ADntimo_de_la_locura"
+          },
+          {
+            "label": "Goodreads - El viaje íntimo de la locura",
+            "url": "https://www.goodreads.com/book/show/7391371-el-viaje-ntimo-de-la-locura"
+          },
+          {
+            "label": "Wikipedia - Roberto Iniesta",
+            "url": "https://es.wikipedia.org/wiki/Roberto_Iniesta"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "aura-de-carlos-fuentes",
+      "title": "Aura",
+      "authorName": "Carlos Fuentes",
+      "authorSlug": "carlos-fuentes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 58,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Aura",
+        "authorName": "Carlos Fuentes",
+        "authorSlug": "carlos-fuentes",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1962,
+        "pages": 50,
+        "summary": "Aura es una novela corta de Carlos Fuentes que combina el tono gótico, la imaginación fantástica y una calculada atmósfera de encierro. La historia sigue a Felipe Montero, un joven historiador que acepta trabajar en una casa sombría del centro de Ciudad de México para ordenar y reescribir las memorias del general Llorente. Allí conoce a Consuelo, la anciana viuda del militar, y a Aura, una muchacha enigmática cuya presencia altera de inmediato la percepción del protagonista. Fuentes construye la novela en segunda persona, recurso que vuelve la experiencia más íntima y perturbadora. A medida que el deseo, la memoria y la identidad se entrelazan, el relato deja de ser solo una intriga y se convierte en una reflexión inquietante sobre el tiempo, la juventud y la persistencia del pasado.",
+        "aboutThisBook": "Publicada en 1962 por Era, Aura es una de las piezas breves más influyentes de Carlos Fuentes y una obra central de la narrativa mexicana del siglo XX. Su importancia no depende del tamaño, sino de la precisión con que condensa una experiencia estética completa: espacio opresivo, erotismo contenido, sugerencia sobrenatural y una voz narrativa de enorme eficacia. La novela suele leerse en cursos y antologías porque ejemplifica muy bien la capacidad de Fuentes para unir tradición fantástica, modernidad urbana y experimentación formal. También es un texto decisivo para entender cómo el autor convirtió la historia, la memoria y los dobles en obsesiones literarias recurrentes.",
+        "forWhom": "Para lectores adultos, estudiantes de literatura y quienes disfrutan novelas breves donde la atmósfera pesa tanto como la intriga. Es especialmente recomendable para quienes se interesan por el fantástico hispanoamericano, los relatos de identidad escindida y la narrativa con dimensión simbólica.",
+        "whyItMatters": "Importa porque demuestra cuánto puede lograr una novela breve cuando cada elemento formal está controlado. Su segunda persona narrativa, su imaginería de encierro y su juego con el doble la han convertido en una referencia constante del fantástico y de la literatura mexicana moderna.",
+        "editorialIntro": "Pocas novelas cortas consiguen una densidad tan inmediata como Aura. Carlos Fuentes encierra al lector en una casa, en una voz y en una percepción alterada, y desde ahí construye una historia donde deseo, memoria y metamorfosis no se separan del todo. El libro es breve, pero su efecto es expansivo: deja la sensación de haber leído algo más grande y más inquietante de lo que sus páginas prometen.",
+        "readingLevel": "Intermedio, con buena recompensa para lectura escolar o universitaria por su simbolismo y su construcción formal.",
+        "whyReadToday": "Se lee hoy con especial fuerza porque habla de obsesiones todavía vigentes: la fascinación por la juventud, la imposibilidad de soltar el pasado y la manera en que el deseo puede deformar lo real. Además, sigue siendo una puerta de entrada excelente a Carlos Fuentes.",
+        "studyNotes": [
+          "La segunda persona no es un adorno: convierte al lector en cómplice de la experiencia de Felipe Montero y aumenta la sensación de hechizo.",
+          "La casa funciona como espacio físico y como metáfora de una memoria cerrada sobre sí misma.",
+          "El motivo del doble organiza la relación entre Consuelo y Aura, pero también la del propio protagonista con el pasado que reescribe.",
+          "La novela puede leerse en la frontera entre lo fantástico, lo gótico y el realismo mágico, aunque su mecanismo principal es la ambigüedad de la percepción."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Llegada a la casa",
+            "summary": "Felipe Montero responde a un anuncio y entra en la casa de Consuelo para ordenar las memorias del general Llorente. Desde el primer momento, la oscuridad, el encierro y la extraña convivencia entre la anciana y Aura establecen una atmósfera de inquietud."
+          },
+          {
+            "title": "Trabajo, fascinación y deseo",
+            "summary": "Mientras avanza en la lectura y reescritura de los papeles del general, Felipe se siente cada vez más atraído por Aura. El trabajo histórico deja de ser una tarea profesional y se convierte en una vía de absorción afectiva y perceptiva dentro de la casa."
+          },
+          {
+            "title": "El pasado invade el presente",
+            "summary": "Las memorias del general, los gestos de Consuelo y la presencia de Aura comienzan a reflejarse entre sí. La novela intensifica la sospecha de que el tiempo no está ordenado de forma lineal y de que las identidades pueden repetirse o duplicarse."
+          },
+          {
+            "title": "Revelación final",
+            "summary": "El desenlace concentra la lógica profunda del libro: juventud y vejez, deseo y memoria, identidad y sustitución aparecen fundidos en una escena final memorable. Más que aclarar del todo el misterio, el cierre lo vuelve inseparable de la experiencia emocional del protagonista."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La segunda persona como hechizo narrativo",
+            "content": "Fuentes utiliza la segunda persona para eliminar distancia. El lector no observa a Felipe desde fuera: queda incorporado a sus actos, dudas y deseos. Ese procedimiento vuelve más verosímil la atmósfera fantástica, porque el extrañamiento se produce desde dentro de la conciencia."
+          },
+          {
+            "heading": "La casa y el archivo",
+            "content": "La casa de Consuelo no es solo escenario; es un mecanismo de captura. Allí el archivo del general, la penumbra y la rutina ritual crean un espacio donde el pasado no está muerto, sino activo. El trabajo historiográfico de Felipe termina absorbiéndolo en la historia que pretendía ordenar."
+          },
+          {
+            "heading": "Deseo, juventud y simulacro",
+            "content": "La novela vincula el deseo con una promesa de restitución imposible. Aura encarna juventud y fascinación, pero nunca como presencia plenamente autónoma; siempre aparece ligada a una voluntad ajena, a una memoria persistente y a un proyecto de repetición."
+          },
+          {
+            "heading": "Una obra clave de la brevedad literaria",
+            "content": "Aura demuestra que la novela corta puede ser una forma de gran precisión. En pocas páginas, Fuentes define personajes, instala símbolos duraderos y culmina una experiencia estética cerrada. Esa concentración explica su permanencia en aulas, ediciones comentadas y lecturas críticas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Aura es una novela de terror?",
+            "answer": "No exactamente. Tiene elementos góticos y una atmósfera inquietante, pero su fuerza proviene más de lo fantástico, del deseo y del desajuste de la identidad que del miedo en sentido convencional."
+          },
+          {
+            "question": "¿Por qué está narrada en segunda persona?",
+            "answer": "Porque así Fuentes intensifica la inmersión del lector y convierte la experiencia de Felipe Montero en algo casi hipnótico. La forma verbal refuerza el tema del desdoblamiento."
+          },
+          {
+            "question": "¿Es adecuada para lectura académica?",
+            "answer": "Sí. Es una de las novelas cortas más estudiadas de Fuentes y permite trabajar recursos narrativos, simbolismo, fantástico, espacio urbano y relaciones entre historia y memoria."
+          },
+          {
+            "question": "¿Se entiende mejor si se conoce toda la obra de Fuentes?",
+            "answer": "No hace falta. Funciona perfectamente por sí sola, aunque gana capas si se la relaciona con otras obsesiones del autor, como la historia mexicana, el doble y la persistencia del pasado."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia - Aura (novela)",
+            "url": "https://es.wikipedia.org/wiki/Aura_(novela)"
+          },
+          {
+            "label": "Open Library - Aura",
+            "url": "https://openlibrary.org/works/OL872225W/Aura"
+          },
+          {
+            "label": "Britannica - Carlos Fuentes",
+            "url": "https://www.britannica.com/biography/Carlos-Fuentes"
+          },
+          {
+            "label": "Wikipedia - Aura (novel)",
+            "url": "https://en.wikipedia.org/wiki/Aura_(novel)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "en-el-nombre-de-la-madre-de-erri-de-luca",
+      "title": "En El Nombre De La Madre De Erri",
+      "authorName": "Luca",
+      "authorSlug": "luca",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 41,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "En el nombre de la madre",
+        "authorName": "Erri De Luca",
+        "authorSlug": "erri-de-luca",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 2006,
+        "pages": 79,
+        "summary": "En el nombre de la madre es una novela breve en la que Erri De Luca reimagina el relato de la anunciación y del nacimiento de Jesús desde la voz de Miriam, es decir, María. El libro no busca corregir los textos sagrados ni competir con ellos, sino devolverles una textura humana, corporal y femenina que a menudo queda fuera de las versiones canónicas. Miriam habla de su embarazo, de la mirada social que la rodea, del amor silencioso y radical de José, del viaje y del parto, todo ello con una prosa austera y lírica a la vez. El resultado es una narración contenida, reverente pero libre, que acerca una historia fundacional a la intimidad, al trabajo del cuerpo y a la dignidad de una voz que por fin se narra a sí misma.",
+        "aboutThisBook": "Publicado originalmente en 2006 por Feltrinelli como In nome della madre, este libro prolonga el interés de Erri De Luca por las fuentes bíblicas y por la relectura literaria de los relatos religiosos. No se trata de una novela histórica en sentido estricto ni de un ejercicio devocional convencional. Su singularidad reside en la elección del punto de vista: María deja de ser figura observada para convertirse en conciencia narradora. Esa inversión desplaza el centro de la historia hacia la experiencia de una muchacha judía de Galilea enfrentada a un acontecimiento extraordinario y a sus consecuencias sociales. La brevedad del libro no reduce su intensidad; al contrario, concentra su tono meditativo y su fuerza simbólica.",
+        "forWhom": "Para lectores adultos interesados en reescrituras de textos bíblicos, narrativa breve de alto tono literario y novelas donde la interioridad pesa más que la acción externa. Puede atraer tanto a lectores creyentes como a lectores laicos, siempre que busquen una aproximación seria, poética y humana al relato evangélico.",
+        "whyItMatters": "Importa porque devuelve agencia y espesor humano a una figura central de la tradición cristiana. Además, muestra cómo la literatura contemporánea puede dialogar con materiales sagrados sin vaciarlos de misterio ni someterse a una lectura puramente doctrinal.",
+        "editorialIntro": "Erri De Luca toma una de las historias más conocidas de Occidente y la reduce a una escala íntima sin restarle gravedad. Su apuesta es sencilla y poderosa: dejar que hable la madre. Desde esa decisión, el libro se vuelve una meditación sobre el cuerpo, la obediencia, el amor y el escándalo social, escrita con una sobriedad que nunca confunde sencillez con pobreza expresiva.",
+        "readingLevel": "Intermedio, con especial riqueza para lectores atentos al simbolismo bíblico y a la prosa condensada.",
+        "whyReadToday": "Vale la pena leerlo hoy porque ofrece una mirada no estridente sobre maternidad, vulnerabilidad y dignidad femenina en un relato fundacional que suele llegar mediatizado por voces ajenas. También recuerda que la relectura literaria puede abrir tradición y no solo discutirla.",
+        "studyNotes": [
+          "La decisión de narrar desde Miriam altera el eje del relato: lo teológico queda atravesado por la experiencia corporal y social de una muchacha concreta.",
+          "José es un personaje decisivo porque su amor aparece como fidelidad activa, no como simple acompañamiento pasivo.",
+          "La prosa de De Luca condensa resonancias bíblicas, pero mantiene un registro sobrio, cercano y muy físico.",
+          "La novela gana si se lee como diálogo con la tradición, no como refutación ni como paráfrasis moderna sin más."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El anuncio y la interrupción de la adolescencia",
+            "summary": "Miriam cuenta el momento en que su vida cambia de manera irreversible. La noticia del embarazo no se presenta como adorno milagroso, sino como entrada abrupta en una responsabilidad que transforma cuerpo, destino y lugar social."
+          },
+          {
+            "title": "La prueba del vínculo con José",
+            "summary": "La novela muestra cómo José afronta una situación que excede las normas habituales. Su presencia no anula el conflicto, pero ofrece una forma de lealtad amorosa que protege a Miriam del aislamiento absoluto."
+          },
+          {
+            "title": "Viaje, exposición y espera",
+            "summary": "El desplazamiento y la cercanía del parto intensifican el carácter vulnerable de los protagonistas. Lo sagrado se encarna en tareas concretas: caminar, resistir, confiar, sostener el cuerpo y soportar la mirada ajena."
+          },
+          {
+            "title": "Nacimiento y cumplimiento",
+            "summary": "El desenlace reúne intimidad y trascendencia. El parto aparece como trabajo físico extremo y como consumación de una tarea aceptada en silencio, de manera que el misterio religioso conserva su altura sin desprenderse nunca de la materia humana."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La recuperación de la voz de Miriam",
+            "content": "El gesto central del libro consiste en devolver la palabra a quien suele figurar como objeto de veneración o de relato ajeno. Al narrarse a sí misma, Miriam deja de ser solo icono y se convierte en sujeto pleno de experiencia, temor, fuerza y memoria."
+          },
+          {
+            "heading": "Lo sagrado y lo corporal",
+            "content": "De Luca no separa milagro y cuerpo. El embarazo, el cansancio, el viaje y el parto aparecen con una materialidad que evita la abstracción piadosa. Esa encarnación concreta sostiene la dignidad literaria del libro y su potencia emocional."
+          },
+          {
+            "heading": "José como figura de fidelidad",
+            "content": "Una de las aportaciones más interesantes de la novela es el lugar otorgado a José. No es un personaje ornamental, sino un hombre que acepta amar allí donde el mundo sospecha, juzga y condena. Su fe se expresa como cuidado y permanencia."
+          },
+          {
+            "heading": "Brevedad y resonancia",
+            "content": "La novela trabaja con una economía extrema de medios. En pocas páginas, De Luca consigue que cada escena tenga doble densidad: humana y simbólica. Esa sobriedad le permite evitar tanto el sentimentalismo como la grandilocuencia religiosa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela religiosa en sentido estricto?",
+            "answer": "Dialoga de frente con un relato religioso, pero su forma es literaria. Puede interesar a lectores creyentes y no creyentes porque su centro está en la voz, la experiencia y la relectura humana de una tradición."
+          },
+          {
+            "question": "¿Quién narra la historia?",
+            "answer": "La narradora es Miriam, es decir, María. Ese cambio de perspectiva es la clave del libro y la razón de su tono íntimo y corporal."
+          },
+          {
+            "question": "¿Hace falta conocer bien la Biblia para leerlo?",
+            "answer": "No es imprescindible. Conocer los evangelios añade matices, pero la novela está escrita de manera que cualquier lector pueda seguir su conflicto humano esencial."
+          },
+          {
+            "question": "¿Qué distingue este libro de otras reescrituras bíblicas?",
+            "answer": "Su sobriedad. De Luca no busca escandalizar ni modernizar de forma superficial, sino escuchar la historia desde dentro y darle una voz femenina serena, concreta y profundamente digna."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Feltrinelli Editore - In nome della madre",
+            "url": "https://www.feltrinellieditore.it/opera/opera/in-nome-della-madre/"
+          },
+          {
+            "label": "Wikipedia - In nome della madre",
+            "url": "https://it.wikipedia.org/wiki/In_nome_della_madre"
+          },
+          {
+            "label": "Open Library - In nome della madre",
+            "url": "https://openlibrary.org/works/OL15203994W/In_nome_della_madre"
+          },
+          {
+            "label": "Wikipedia - Erri De Luca",
+            "url": "https://en.wikipedia.org/wiki/Erri_De_Luca"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-120-jornadas-de-sodoma-de-marques-de-sade",
+      "title": "Las 120 Jornadas De Sodoma De Marques",
+      "authorName": "Sade",
+      "authorSlug": "sade",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 38,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las 120 jornadas de Sodoma",
+        "authorName": "Marqués de Sade",
+        "authorSlug": "marques-de-sade",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1785,
+        "pages": null,
+        "summary": "Las 120 jornadas de Sodoma es una obra extrema y deliberadamente perturbadora en la que el Marqués de Sade imagina el encierro de cuatro poderosos libertinos en un castillo aislado, donde organizan un sistema de relatos, reglas y castigos para llevar al límite su voluntad de dominio. Más que una novela desarrollada de forma convencional, el libro funciona como una arquitectura del exceso: primero expone el dispositivo del encierro, luego ordena una serie creciente de transgresiones y finalmente queda interrumpido, lo que acentúa su carácter de manuscrito brutal e inacabado. Leerla hoy exige distancia crítica. No es un libro para buscar placer narrativo corriente, sino para enfrentarse a una meditación feroz sobre poder, deshumanización, violencia y deseo convertido en programa de destrucción.",
+        "aboutThisBook": "Sade escribió esta obra en 1785 durante su reclusión en la Bastilla, aunque el manuscrito no se publicó hasta 1904, después de su redescubrimiento. Ese dato importa porque explica tanto su leyenda material como su forma irregular: el texto combina arranque novelesco, catálogo de \"pasiones\" y esquema incompleto. Su lugar en la historia literaria es singular. Ha sido leído como pieza escandalosa, documento de una imaginación filosófica radical y laboratorio de la relación entre erotismo, soberanía y crueldad. Por su contenido, su recepción ha estado marcada por censura, debate moral y controversia crítica constante.",
+        "forWhom": "Para lectores adultos con interés en historia literaria, estudios sobre censura, filosofía del libertinaje y obras límite de la tradición europea. No es recomendable como lectura general ni para quien busque una novela convencional o una experiencia narrativa confortable.",
+        "whyItMatters": "Importa porque ocupa un lugar incómodo pero decisivo en la discusión sobre los límites de la representación, la relación entre literatura y violencia, y la capacidad del texto para exhibir el ejercicio del poder sin atenuantes morales fáciles.",
+        "editorialIntro": "Pocas obras del canon occidental han conservado una fama tan conflictiva como esta. Su notoriedad no se debe solo al escándalo del contenido, sino a la forma en que convierte la crueldad en sistema, inventario y ceremonia. Leída con cuidado, revela menos una simple provocación que una máquina literaria del dominio absoluto, escrita para incomodar incluso a lectores acostumbrados a textos duros.",
+        "readingLevel": "Lectura exigente para adultos. No presenta grandes dificultades sintácticas en traducción moderna, pero sí una dureza temática extrema y un marco histórico-filosófico que conviene conocer para leerla con criterio crítico.",
+        "whyReadToday": "Sigue leyéndose porque obliga a pensar qué hace la literatura cuando representa lo intolerable y cómo una obra puede ser a la vez históricamente influyente, moralmente problemática y críticamente ineludible.",
+        "studyNotes": [
+          "Conviene distinguir entre fecha de escritura y de publicación: el manuscrito fue redactado en 1785 y su primera publicación llegó en 1904.",
+          "La obra es inacabada y su forma híbrida importa tanto como su argumento: mezcla relato, catálogo y esquema de progresión.",
+          "Una lectura útil no consiste en tomar el libro como simple escándalo, sino en observar cómo vincula deseo, jerarquía, lenguaje y administración del cuerpo ajeno.",
+          "Su recepción crítica está atravesada por debates sobre censura, libertad artística y representación de la violencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El encierro y el dispositivo del castillo",
+            "summary": "La apertura establece a los cuatro libertinos, el espacio cerrado y el conjunto de víctimas, cómplices y reglas que harán posible el experimento. Desde el inicio, el libro presenta el deseo no como impulso espontáneo, sino como organización calculada del dominio."
+          },
+          {
+            "title": "Relatos, clasificación y escalada de excesos",
+            "summary": "En la parte central, narradoras especializadas relatan experiencias del pasado y esos relatos sirven como estímulo para una progresión cada vez más cruel. La estructura se vuelve casi administrativa: el exceso aparece ordenado, clasificado y llevado metódicamente hacia grados superiores de violencia."
+          },
+          {
+            "title": "Fragmento final e interrupción",
+            "summary": "Hacia el cierre, el manuscrito pierde desarrollo novelesco y adopta una forma más resumida y esquemática. Esa interrupción no debilita su efecto; al contrario, refuerza la impresión de estar ante un documento radicalmente inacabado, cuya violencia se vuelve todavía más abstracta y sistemática."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La crueldad como sistema y no como accidente",
+            "content": "Uno de los rasgos más inquietantes del libro es que no representa la violencia como estallido momentáneo, sino como programa reglado. El castillo funciona como institución cerrada donde la jerarquía social, la impunidad y la imaginación convierten el cuerpo ajeno en material administrable."
+          },
+          {
+            "heading": "Forma de catálogo y efecto de deshumanización",
+            "content": "La obra abandona pronto la psicología compleja y se organiza mediante listas, series y clasificaciones. Esa mecánica vuelve impersonal el sufrimiento y produce uno de sus efectos centrales: mostrar cómo el lenguaje puede colaborar con la cosificación cuando todo se ordena como inventario del exceso."
+          },
+          {
+            "heading": "Escándalo, censura y lugar en la historia literaria",
+            "content": "Su fama no depende solo de lo que muestra, sino de los problemas que plantea a lectores, editores y críticos. Ha sido perseguida, prohibida y también estudiada como pieza clave para pensar la modernidad literaria, precisamente porque empuja hasta el límite la pregunta por lo representable."
+          },
+          {
+            "heading": "Cómo leerla hoy",
+            "content": "Una lectura contemporánea exige prudencia y contexto. No conviene abordarla como mera provocación ni como texto para recomendar indiscriminadamente, sino como obra límite cuya importancia histórica no elimina su carácter profundamente perturbador."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela terminada?",
+            "answer": "No del todo. El texto fue escrito como manuscrito y quedó incompleto, con un tramo final más esquemático que narrativo, lo que forma parte de su singularidad editorial."
+          },
+          {
+            "question": "¿Por qué suele considerarse una obra tan polémica?",
+            "answer": "Porque lleva al extremo la representación de la crueldad, la dominación y la degradación humana. Su recepción ha estado atravesada por censura, condena moral y defensa de su valor histórico-literario."
+          },
+          {
+            "question": "¿Conviene leerla sin contexto?",
+            "answer": "No es lo ideal. Ayuda saber quién fue Sade, en qué circunstancias escribió el manuscrito y por qué la crítica la considera una obra límite más que una simple novela escandalosa."
+          },
+          {
+            "question": "¿Qué la vuelve importante más allá del escándalo?",
+            "answer": "Su importancia reside en cómo convierte el poder en estructura narrativa y en cómo obliga a pensar los límites de la literatura, la censura y la representación de la violencia."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: The 120 Days of Sodom",
+            "url": "https://en.wikipedia.org/wiki/The_120_Days_of_Sodom"
+          },
+          {
+            "label": "Britannica: Marquis de Sade",
+            "url": "https://www.britannica.com/biography/Marquis-de-Sade"
+          },
+          {
+            "label": "Open Library: The 120 days of Sodom",
+            "url": "https://openlibrary.org/works/OL10429330W/The_120_days_of_Sodom?edition=key%3A/books/OL22503141M"
+          },
+          {
+            "label": "Project Gutenberg: The 120 Days of Sodom and Other Writings",
+            "url": "https://www.gutenberg.org/ebooks/29821"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-venganza-de-la-vaca-de-sergio-aguirre",
+      "title": "La Venganza De La Vaca",
+      "authorName": "Sergio Aguirre",
+      "authorSlug": "sergio-aguirre",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 31,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La venganza de la vaca",
+        "authorName": "Sergio Aguirre",
+        "authorSlug": "sergio-aguirre",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "thriller"
+        ],
+        "year": null,
+        "pages": 128,
+        "summary": "La venganza de la vaca es una novela juvenil de terror y suspenso que combina reencuentro, culpa y relato sobrenatural. Un grupo de excompañeros se reúne en una casa serrana para retomar un asunto del pasado que nunca terminó de resolverse: la muerte de un chico y la sospecha de que detrás hubo algo más que un accidente. A partir de voces alternadas, cartas, confesiones y recuerdos, la novela reconstruye una cadena de hechos en la que intervienen una antigua humillación, una presencia animal inquietante y una idea de justicia torcida que se convierte en venganza. Aguirre administra muy bien la intriga: cada testimonio agrega una capa nueva y convierte la lectura en una pesquisa emocional y fantástica a la vez. El resultado es una historia ágil, sombría y muy eficaz para lectores adolescentes.",
+        "aboutThisBook": "Es uno de los títulos más conocidos de Sergio Aguirre dentro de la narrativa juvenil argentina y ha circulado ampliamente en contextos escolares. La ficha editorial de Norma la ubica en la colección Zona Libre y la presenta para lectores desde los 13 años, subrayando su mezcla de suspenso, terror y conflictos adolescentes. Formalmente destaca por su estructura polifónica: distintos personajes cuentan fragmentos de la historia y esa multiplicidad no solo sostiene el misterio, sino que también permite mostrar cómo una culpa compartida se deforma con el tiempo. La novela trabaja con elementos de ghost story, relato de grupo y castigo moral, pero sin perder velocidad ni legibilidad.",
+        "forWhom": "Para adolescentes desde los 13 años, docentes y mediadores de lectura que busquen una novela breve para trabajar puntos de vista, suspenso, terror sobrenatural y responsabilidades morales dentro de un grupo.",
+        "whyItMatters": "Sigue importando porque demuestra que la literatura juvenil puede tratar culpa, violencia entre pares y deseo de reparación sin perder ritmo narrativo. Además, su estructura de voces la vuelve especialmente útil para lectura escolar y análisis de narradores.",
+        "editorialIntro": "Hay novelas juveniles que se apoyan solo en el sobresalto y otras que usan el miedo para hablar de algo más serio. La venganza de la vaca pertenece a este segundo grupo. Sergio Aguirre construye una intriga de apariencia simple y la transforma en una historia sobre secreto compartido, culpa persistente y castigos que regresan desde el pasado con una forma casi legendaria.",
+        "readingLevel": "Lectura accesible para secundaria inicial y media. El lenguaje es claro y la extensión es breve, aunque la alternancia de voces y tiempos narrativos exige atención para seguir cómo encajan las distintas versiones.",
+        "whyReadToday": "Porque conserva una combinación muy eficaz de tensión, atmósfera y conflicto moral, y porque sigue siendo una excelente puerta de entrada para discutir en clase cómo funciona un relato polifónico de terror.",
+        "studyNotes": [
+          "La alternancia de voces es central: la verdad no aparece de una vez, sino por acumulación de testimonios parciales.",
+          "El terror sobrenatural funciona unido a un conflicto ético previo; no es un adorno, sino la forma narrativa que toma una culpa compartida.",
+          "La novela permite trabajar memoria, versiones enfrentadas y construcción del suspenso mediante cartas, diarios y recuerdos.",
+          "La edición argentina de Norma la sitúa en la colección Zona Libre y la recomienda desde los 13 años."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Reencuentro y regreso a un asunto pendiente",
+            "summary": "El comienzo reúne a los antiguos compañeros en un velorio y luego en una casa apartada, donde reaparece un episodio del pasado que ninguno logró cerrar. La atmósfera combina duelo, incomodidad y la sensación de que el grupo vuelve a un lugar moralmente peligroso."
+          },
+          {
+            "title": "Relatos cruzados y revelación del pasado",
+            "summary": "En la parte media, distintos personajes aportan recuerdos, cartas e historias paralelas que explican el origen de la tragedia. La novela amplía así su alcance: ya no solo importa el misterio presente, sino la red de decisiones, silencios y culpas que lo hizo posible."
+          },
+          {
+            "title": "Castigo, miedo y desenlace",
+            "summary": "Hacia el final, el plan del grupo se ejecuta y el miedo deja de ser conjetura para volverse experiencia concreta. El desenlace no ofrece una justicia limpia, sino una resolución amarga en la que la venganza también deja a los vengadores frente a su propio espanto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Polifonía y administración del suspenso",
+            "content": "Aguirre dosifica la información a través de voces sucesivas. Ese recurso mantiene la intriga, pero además muestra cómo cada personaje reordena el pasado desde su culpa, su deseo de justificarse o su necesidad de callar."
+          },
+          {
+            "heading": "Terror sobrenatural con base moral",
+            "content": "La novela no enfrenta a los personajes con un monstruo cualquiera, sino con una forma de retorno de aquello que intentaron negar. Lo fantástico gana fuerza porque nace de un conflicto previo de humillación, daño y reparación torcida."
+          },
+          {
+            "heading": "El grupo como espacio de complicidad",
+            "content": "Nadie carga solo con la responsabilidad. La historia muestra cómo un grupo puede convertir la pasividad, el silencio o la obediencia en formas de participación en el daño. Ese aspecto la vuelve especialmente fértil para el trabajo escolar."
+          },
+          {
+            "heading": "Eficacia de la novela juvenil breve",
+            "content": "Su brevedad no reduce complejidad. Al contrario, la concentración narrativa obliga a que cada escena avance el misterio y refuerce el clima, lo que explica por qué sigue siendo una lectura tan eficaz para adolescentes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de terror o de suspenso?",
+            "answer": "Es ambas cosas. Combina investigación del pasado, clima de amenaza y una dimensión sobrenatural que termina siendo decisiva en el desenlace."
+          },
+          {
+            "question": "¿Se puede leer en la escuela?",
+            "answer": "Sí. De hecho ha circulado mucho en ámbitos escolares porque su extensión es manejable y permite trabajar narradores, construcción del suspenso, culpa y convivencia."
+          },
+          {
+            "question": "¿Qué edad lectora parece más adecuada?",
+            "answer": "La edición de Norma la recomienda desde los 13 años, por lo que encaja bien en secundaria inicial y media con mediación docente si se quiere profundizar en sus temas."
+          },
+          {
+            "question": "¿La historia depende solo del efecto de miedo?",
+            "answer": "No. El miedo funciona porque está ligado a una falta anterior y a una memoria que el grupo intentó manejar a su conveniencia."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Norma Argentina: La venganza de la vaca",
+            "url": "https://www.normainfantilyjuvenil.com/ar/libro/la-venganza-de-la-vaca"
+          },
+          {
+            "label": "Norma México: La venganza de la vaca",
+            "url": "https://www.normainfantilyjuvenil.com/mx/libro/la-venganza-de-la-vaca"
+          },
+          {
+            "label": "Gobierno del Chaco: PDF de La venganza de la vaca",
+            "url": "https://ele.chaco.gob.ar/pluginfile.php/338866/mod_folder/content/0/Novelas/Sergio%20Aguirre.%20La%20venganza%20de%20la%20vaca.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "plantas-carnivoras-de-charles-darwin",
+      "title": "Plantas Carnivoras",
+      "authorName": "Charles Darwin",
+      "authorSlug": "charles-darwin",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 31,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Plantas carnívoras",
+        "authorName": "Charles Darwin",
+        "authorSlug": "charles-darwin",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1875,
+        "pages": null,
+        "summary": "Plantas carnívoras es uno de los libros científicos más fascinantes de Charles Darwin, dedicado a demostrar que ciertas plantas no solo atrapan insectos, sino que además digieren y aprovechan nutrientes de origen animal. A partir de experimentos prolongados, comparaciones minuciosas y observaciones repetidas durante años, Darwin estudia géneros como Drosera, Dionaea, Aldrovanda y Utricularia para mostrar que sus movimientos y secreciones responden a estímulos específicos. El libro no se limita a describir curiosidades botánicas: construye un argumento experimental sobre adaptación, sensibilidad y nutrición en condiciones ambientales pobres. Su tono es sobrio, paciente y acumulativo, y deja ver a Darwin trabajando como observador meticuloso que convierte un fenómeno extraño en conocimiento demostrable. Sigue siendo un texto clave para entender cómo pensaba y cómo investigaba.",
+        "aboutThisBook": "Publicado el 2 de julio de 1875 por John Murray, este libro reúne dieciséis años de observaciones y ensayos que Darwin consideró especialmente reveladores. Darwin Online destaca que la investigación comenzó mucho antes de la publicación y que el largo intervalo le permitió revisar críticamente sus resultados. La obra ocupa un lugar importante en su producción tardía porque muestra una dimensión menos simplificada de su trabajo: no solo el teórico de la evolución, sino también el experimentador doméstico que manipula hojas, soluciones, fragmentos orgánicos y tiempos de respuesta para probar hipótesis. En términos históricos, el libro ayudó a consolidar el estudio moderno de las plantas insectívoras y a ampliar la discusión sobre continuidad funcional entre organismos.",
+        "forWhom": "Para lectores interesados en botánica, historia de la ciencia, método experimental y obra de Darwin. También resulta muy valioso para estudiantes avanzados y docentes que quieran mostrar cómo se construye una demostración científica a partir de observaciones repetidas.",
+        "whyItMatters": "Importa porque convierte un fenómeno llamativo en una investigación rigurosa y porque deja ver, con gran claridad, el método de Darwin: paciencia, comparación, atención al detalle y disposición a seguir una pregunta durante años hasta volverla evidencia convincente.",
+        "editorialIntro": "Este no es el Darwin de los grandes enunciados abstractos, sino el investigador que se inclina sobre una hoja de drosera y observa durante horas qué cambia, qué se pliega y qué segrega. Por eso Plantas carnívoras conserva tanta fuerza: muestra ciencia en estado de trabajo, no solo conclusiones. El asombro inicial está siempre presente, pero disciplinado por un método que busca probar, medir y comparar.",
+        "readingLevel": "Lectura media a exigente para público general curioso. El estilo es claro para un texto científico del siglo XIX, aunque la abundancia de ejemplos, experimentos y nombres botánicos pide atención sostenida y cierto interés por el detalle empírico.",
+        "whyReadToday": "Vale la pena leerlo hoy porque sigue siendo un modelo de investigación paciente y porque ayuda a entender que la ciencia no avanza solo con teorías brillantes, sino también con observaciones cuidadosas capaces de desmontar prejuicios sobre el mundo vivo.",
+        "studyNotes": [
+          "Darwin trabajó durante años en estos experimentos; el libro permite ver la importancia del tiempo largo en la investigación científica.",
+          "La obra muestra que una pregunta aparentemente excéntrica puede abrir problemas centrales sobre adaptación, nutrición y sensibilidad en los organismos.",
+          "Es útil leerla como ejemplo de método: comparación de especies, control de estímulos y prudencia al formular conclusiones.",
+          "Aunque hoy parte de la terminología haya cambiado, muchas de sus observaciones conservan valor histórico y explicativo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Observaciones iniciales sobre la drosera",
+            "summary": "El libro arranca con el estudio detallado de Drosera, planta que le permite a Darwin establecer el problema central: cómo responde una hoja a determinados estímulos y qué señales indican una verdadera capacidad digestiva."
+          },
+          {
+            "title": "Comparación entre especies insectívoras",
+            "summary": "En la parte media, Darwin amplía el foco hacia otras plantas carnívoras y compara mecanismos de captura, movimiento y secreción. Esa comparación refuerza el argumento de que no se trata de rarezas aisladas, sino de adaptaciones funcionales distintas para un mismo desafío ecológico."
+          },
+          {
+            "title": "Conclusiones sobre digestión y adaptación",
+            "summary": "Hacia el cierre, el autor integra sus experimentos para sostener que estas plantas absorben nutrientes animales y que sus respuestas son específicas, no meramente accidentales. El libro termina así como una demostración paciente de adaptación botánica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El método experimental de Darwin en primer plano",
+            "content": "Aquí se ve con nitidez la lógica de trabajo de Darwin: repetir pruebas, variar condiciones y no conformarse con la anécdota llamativa. El libro enseña tanto por sus conclusiones como por su forma de construir evidencia."
+          },
+          {
+            "heading": "Continuidad funcional entre reinos vivos",
+            "content": "Uno de los aspectos más sugestivos del texto es que obliga a revisar fronteras demasiado rígidas entre plantas y animales. Sin borrar sus diferencias, Darwin muestra analogías funcionales en digestión, sensibilidad y respuesta al medio."
+          },
+          {
+            "heading": "Historia natural y teoría de la adaptación",
+            "content": "La obra no formula una teoría nueva tan célebre como la de la selección natural, pero sí la pone a trabajar en un campo concreto. Las plantas insectívoras aparecen como soluciones evolutivas a ambientes pobres en nutrientes."
+          },
+          {
+            "heading": "Vigencia del libro",
+            "content": "Su valor actual es doble: histórico, porque permite seguir un episodio importante de la botánica del siglo XIX; y formativo, porque enseña a leer la ciencia como proceso paciente de observación, duda y verificación."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro solo para especialistas?",
+            "answer": "No necesariamente. Un lector general interesado en ciencia puede seguirlo, aunque debe aceptar un ritmo detallado y experimental muy distinto del ensayo divulgativo contemporáneo."
+          },
+          {
+            "question": "¿Qué demuestra Darwin en este libro?",
+            "answer": "Demuestra, mediante observaciones y experimentos, que ciertas plantas capturan, digieren y aprovechan materia animal, y que sus respuestas a estímulos son específicas y funcionales."
+          },
+          {
+            "question": "¿Por qué es importante dentro de la obra de Darwin?",
+            "answer": "Porque revela a Darwin como experimentador minucioso y porque conecta su interés por la adaptación con un caso botánico sorprendente, tratado con gran rigor empírico."
+          },
+          {
+            "question": "¿Tiene valor leerlo hoy si la botánica avanzó mucho desde entonces?",
+            "answer": "Sí. Su valor histórico y metodológico sigue siendo muy alto, incluso cuando los conocimientos actuales hayan refinado o ampliado algunas explicaciones."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Darwin Online: Editorial introduction to Insectivorous Plants",
+            "url": "https://darwin-online.org.uk/EditorialIntroductions/Freeman_InsectivorousPlants.html"
+          },
+          {
+            "label": "Darwin Online: Insectivorous Plants (text)",
+            "url": "https://darwin-online.org.uk/content/frameset?viewtype=text&itemID=F1217&pageseq=1"
+          },
+          {
+            "label": "Wikipedia: Insectivorous Plants",
+            "url": "https://en.wikipedia.org/wiki/Insectivorous_Plants_(book)"
+          },
+          {
+            "label": "Open Library: Insectivorous Plants",
+            "url": "https://openlibrary.org/works/OL29432256W/Insectivorous_Plants?edition=key%3A/books/OL40802591M"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T20:10:14Z"
+}

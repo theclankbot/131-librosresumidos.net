@@ -1,0 +1,1415 @@
+{
+  "batchName": "replenish-20260421T0503Z-next39",
+  "createdAt": "2026-04-21T03:25:47Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "herrumbrosas-lanzas-de-juan-benet",
+      "title": "Herrumbrosas Lanzas",
+      "authorName": "Juan Benet",
+      "authorSlug": "juan-benet",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Herrumbrosas lanzas",
+        "authorName": "Juan Benet",
+        "authorSlug": "juan-benet",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 1983,
+        "pages": 720,
+        "summary": "Herrumbrosas lanzas es la gran novela bélica y territorial de Juan Benet, una obra ambientada en la imaginaria Región durante la Guerra Civil española. Más que seguir a un único héroe, el libro organiza un vasto mosaico de mandos militares, combatientes, civiles, familias y paisajes atrapados por una campaña republicana destinada a romper un cerco y por la posterior contraofensiva que conduce al desgaste y a la derrota. Benet convierte la guerra en una materia narrativa densa, donde importan tanto las operaciones militares como la memoria, el destino y la ruina moral de un mundo entero. El resultado no es una novela histórica convencional, sino una reconstrucción literaria de enorme ambición en la que el territorio de Región, sus linajes, sus rencores y su atmósfera casi mítica pesan tanto como los hechos de armas.",
+        "aboutThisBook": "La obra apareció originalmente en varios volúmenes entre 1983 y 1986 y quedó asociada a la fase final de la trayectoria de Benet. La edición posterior en un solo tomo incorporó materiales póstumos y ayudó a leerla como una de sus empresas narrativas mayores. Su importancia reside en cómo combina relato de campaña, invención geográfica y reflexión sobre la historia española sin renunciar al estilo exigente y analítico característico del autor.",
+        "forWhom": "Para lectores adultos interesados en la Guerra Civil española, la narrativa española de alta ambición formal y las novelas que construyen un mundo completo más allá de una trama lineal sencilla.",
+        "whyItMatters": "Importa porque muestra una forma singular de narrar la guerra: no como simple crónica de bandos, sino como experiencia de desgaste, fatalidad y descomposición de un territorio. También es clave para entender la potencia con la que Benet convirtió Región en uno de los grandes espacios imaginarios de la literatura española contemporánea.",
+        "editorialIntro": "No conviene entrar en Herrumbrosas lanzas esperando una novela de frente y retaguardia contada de manera convencional. Benet usa la campaña militar como eje, sí, pero su verdadera apuesta está en la creación de un espacio narrativo autónomo, Región, donde historia, mito, memoria familiar y estrategia bélica se entrelazan. Es una novela exigente, amplia y de ritmo reflexivo, más cercana a una gran arquitectura literaria que a un relato de acción lineal.",
+        "readingLevel": "Lectura alta: el estilo es denso, la estructura es amplia y el libro exige atención a nombres, movimientos militares, voces narrativas y capas históricas y simbólicas.",
+        "whyReadToday": "Sigue siendo valiosa porque ofrece una mirada no simplista sobre la guerra civil, el poder del territorio y la relación entre memoria histórica y forma literaria.",
+        "studyNotes": [
+          "Región no es un mero escenario: funciona como territorio mítico, histórico y moral que condiciona a todos los personajes.",
+          "La novela mezcla relato de campaña militar, genealogía familiar y reflexión sobre el destino colectivo.",
+          "Benet no busca una transparencia documental absoluta; le interesa la verdad narrativa y la densidad del punto de vista.",
+          "La figura de Eugenio Mazón sirve para estudiar la idea de avance, destino y desgaste dentro de la guerra.",
+          "Conviene leerla como obra parcialmente inconclusa en su proyecto, pero cerrada en su potencia literaria y en su visión del derrumbe."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Preparativos de la campaña",
+            "summary": "La novela presenta la situación bélica en Región y los planes de una ofensiva republicana concebida como maniobra de socorro y ruptura. Desde el inicio, Benet combina estrategia militar, descripción territorial y tensiones entre mandos y facciones, de modo que la campaña aparece ya marcada por la incertidumbre y por un trasfondo de desgaste histórico."
+          },
+          {
+            "title": "Parte 2: Avance, fricción y mundo en guerra",
+            "summary": "Cuando la operación se pone en marcha, la atención se reparte entre movimientos de tropas, decisiones tácticas y el modo en que la guerra afecta a civiles, familias y jerarquías locales. La ofensiva produce éxitos parciales, pero también revela desorden, rivalidades y una sensación creciente de que el territorio absorbe cualquier esperanza de control total."
+          },
+          {
+            "title": "Parte 3: Derrota y dispersión",
+            "summary": "El tramo final acentúa la descomposición del proyecto republicano y la deriva de los personajes hacia la derrota, la muerte o la desaparición. Más que resolver todos los hilos de manera clásica, Benet deja la impresión de una catástrofe amplia en la que el fin militar coincide con la fractura moral y narrativa de todo un mundo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La guerra como destino y desgaste",
+            "content": "En Herrumbrosas lanzas la guerra no aparece solo como choque entre bandos, sino como proceso de agotamiento que arrastra a individuos y comunidades. Benet insiste en la idea de avance sin verdadera conquista, de impulso que se consume a sí mismo y termina revelando la fragilidad de toda empresa heroica."
+          },
+          {
+            "heading": "Región, espacio central de la novela",
+            "content": "Una de las claves del libro es la fuerza de Región como construcción literaria. El territorio concentra memoria, linaje, aislamiento, violencia y mito. Por eso la novela no puede leerse únicamente como ficción histórica sobre la Guerra Civil: es también la culminación del proyecto de Benet de inventar un espacio narrativo autónomo y reconocible."
+          },
+          {
+            "heading": "Historia narrada frente a historia documentada",
+            "content": "Benet se acerca a un conflicto histórico real, pero no subordina la novela al modelo documental. Le interesa cómo una voz narrativa organiza el pasado, opina, selecciona y convierte una campaña en experiencia literaria. Esa distancia respecto de la simple crónica explica tanto la dificultad del libro como su originalidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica convencional sobre la Guerra Civil?",
+            "answer": "No. Parte de un conflicto reconocible, pero lo transforma en una gran construcción literaria donde importan tanto el territorio imaginario, el estilo y la reflexión sobre la historia como los hechos militares."
+          },
+          {
+            "question": "¿Está terminada o inconclusa?",
+            "answer": "El proyecto general quedó incompleto en sentido estricto, pero la obra publicada suele leerse como una novela plenamente significativa y cerrada en su efecto de derrota, dispersión y ruina."
+          },
+          {
+            "question": "¿Qué dificultad tiene para un lector nuevo?",
+            "answer": "Es alta: requiere paciencia con el estilo de Benet, atención a muchos personajes y disposición para aceptar una narrativa más analítica y atmosférica que lineal."
+          },
+          {
+            "question": "¿Por qué es importante dentro de la obra de Juan Benet?",
+            "answer": "Porque reúne su ambición estilística, su visión de Región y su interés por la historia española en una de sus empresas narrativas más extensas y complejas."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Penguin Libros — Herrumbrosas lanzas",
+            "url": "https://www.penguinlibros.com/es/literatura-contemporanea/35655-libro-herrumbrosas-lanzas-9788499080079"
+          },
+          {
+            "label": "Revista de Libros — La guerra de Juan Benet",
+            "url": "https://www.revistadelibros.com/herrumbrosas-lanzas-de-juan-benet/"
+          },
+          {
+            "label": "Casa del Libro — Herrumbrosas lanzas",
+            "url": "https://www.casadellibro.com/libro-herrumbrosas-lanzas/9788499080079/1413694"
+          },
+          {
+            "label": "Open Library",
+            "url": "https://openlibrary.org/works/OL953260W/Herrumbrosas_lanzas"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hombrecitos-de-louisa-may-alcott",
+      "title": "Hombrecitos",
+      "authorName": "Louisa May Alcott",
+      "authorSlug": "louisa-may-alcott",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Hombrecitos",
+        "authorName": "Louisa May Alcott",
+        "authorSlug": "louisa-may-alcott",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "infantil",
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1871,
+        "pages": 320,
+        "summary": "Hombrecitos, conocido en inglés como Little Men, retoma el universo de Mujercitas y sigue la vida cotidiana en Plumfield, la escuela que Jo Bhaer dirige con su marido. La llegada del huérfano Nat Blake funciona como puerta de entrada a una comunidad de niños muy distintos entre sí, con travesuras, inseguridades, talentos y problemas morales. Alcott no construye una aventura única de gran tensión, sino una sucesión de episodios formativos donde la educación, la convivencia y el afecto importan más que el castigo o la disciplina rígida. El libro examina cómo se aprende a decir la verdad, compartir, trabajar, cuidar a otros y descubrir la propia vocación. Por eso su fuerza no está en el suspense, sino en la observación cálida de un pequeño mundo escolar donde Jo intenta educar con libertad, paciencia y sentido práctico.",
+        "aboutThisBook": "Publicada por primera vez en 1871, la novela funciona como continuación de Mujercitas y antecedente de Los muchachos de Jo. Está muy vinculada a las ideas educativas que rodeaban a la familia Alcott, especialmente a la importancia de combinar formación moral, experiencia cotidiana, contacto con la naturaleza e individualidad infantil. Aunque pertenece al siglo XIX, sigue leyéndose como un clásico de crecimiento y pedagogía afectiva.",
+        "forWhom": "Para lectores infantiles y juveniles, familias, docentes y quienes disfrutan de clásicos centrados en la educación, la convivencia y el crecimiento moral más que en la aventura pura.",
+        "whyItMatters": "Importa porque amplía el mundo de Mujercitas desde una perspectiva pedagógica y comunitaria. Alcott imagina una escuela donde los niños aprenden con responsabilidad, juego, trabajo y afecto, y ofrece una visión influyente de la infancia como etapa de formación ética y emocional, no solo de obediencia.",
+        "editorialIntro": "Hombrecitos suele leerse como un apéndice amable de Mujercitas, pero conviene tomarlo en serio como novela de formación colectiva. En Plumfield no hay un héroe único: hay un grupo de niños observados en sus defectos, entusiasmos y progresos. Jo Bhaer ya no es solo la muchacha impetuosa del libro anterior, sino una educadora que busca formar carácter sin sofocar la singularidad. Esa combinación de ternura, humor y disciplina flexible explica su perdurabilidad.",
+        "readingLevel": "Lectura accesible: el lenguaje y la estructura episódica facilitan la entrada, aunque el libro rinde mejor si se leen con calma sus enseñanzas morales y el contexto del universo de Mujercitas.",
+        "whyReadToday": "Sigue siendo actual por su defensa de una educación menos autoritaria y más atenta a la personalidad, la empatía y el aprendizaje mediante la experiencia.",
+        "studyNotes": [
+          "Nat Blake funciona como personaje de ingreso: a través de él se conoce Plumfield y su método educativo.",
+          "La novela es episódica; su unidad está en el proyecto pedagógico y afectivo de Jo, no en una intriga única y cerrada.",
+          "Plumfield representa una alternativa a la disciplina rígida: combina libertad, responsabilidad y aprendizaje práctico.",
+          "El libro permite estudiar la continuidad entre Mujercitas, Hombrecitos y Los muchachos de Jo.",
+          "También refleja debates del siglo XIX sobre infancia, género, moral y educación."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La llegada de Nat a Plumfield",
+            "summary": "El huérfano Nat Blake llega a la escuela de Jo y el profesor Bhaer, y el lector descubre un lugar donde la educación funciona de forma poco convencional. Nat trae timidez, talento musical y hábitos problemáticos como la mentira, de modo que su adaptación permite presentar el tono moral y afectivo del libro."
+          },
+          {
+            "title": "Parte 2: Vida cotidiana, juegos y aprendizajes",
+            "summary": "La novela desarrolla episodios con los distintos niños de Plumfield: travesuras, amistades, castigos creativos, tareas domésticas, lecturas y pequeños conflictos. Alcott muestra cómo cada alumno aprende de forma diferente y cómo la comunidad escolar intenta corregir sin humillar."
+          },
+          {
+            "title": "Parte 3: Crecimiento moral y comunidad",
+            "summary": "Con el avance del libro, los niños van mostrando cambios en su conducta y en su relación con los demás. Más que un final espectacular, la obra ofrece la sensación de una comunidad que madura poco a poco, guiada por el afecto, el ejemplo y una idea de educación centrada en formar buenas personas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La pedagogía de Plumfield",
+            "content": "Plumfield es el gran experimento de la novela. Alcott imagina una escuela donde el aprendizaje intelectual se combina con trabajo manual, juego, contacto con animales y observación moral. La autoridad existe, pero se ejerce con cercanía y con soluciones adaptadas a cada niño."
+          },
+          {
+            "heading": "De Mujercitas a una novela coral",
+            "content": "Aunque Jo sigue siendo central, Hombrecitos desplaza el foco desde una protagonista carismática hacia un conjunto de niños. Ese cambio vuelve la novela más coral y más pedagógica: importa menos la peripecia individual y más la formación de una pequeña sociedad."
+          },
+          {
+            "heading": "Infancia, verdad y carácter",
+            "content": "Uno de los ejes del libro es la formación del carácter. La mentira, la vanidad, la pereza o la rebeldía no se tratan como defectos fijos, sino como aspectos corregibles mediante afecto, ejemplo y experiencia. Esa confianza en la mejora moral define el tono del libro y su lugar dentro de la literatura infantil clásica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta leer Mujercitas antes?",
+            "answer": "No es imprescindible, pero ayuda mucho para apreciar quién es Jo y por qué su papel como directora de Plumfield tiene tanto peso emocional."
+          },
+          {
+            "question": "¿Es un libro infantil o juvenil?",
+            "answer": "Puede funcionar para ambos públicos, aunque su tono, su intención formativa y su estructura episódica lo acercan especialmente a la lectura infantil clásica."
+          },
+          {
+            "question": "¿Tiene una trama principal muy marcada?",
+            "answer": "No tanto como otras novelas. Su interés principal está en la vida diaria de Plumfield y en los cambios morales de los niños."
+          },
+          {
+            "question": "¿Qué tema domina la obra?",
+            "answer": "La educación del carácter a través de la convivencia, el afecto y una disciplina menos rígida que la habitual en la literatura escolar del siglo XIX."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia en español — Hombrecitos",
+            "url": "https://es.wikipedia.org/wiki/Hombrecitos"
+          },
+          {
+            "label": "Wikipedia — Little Men",
+            "url": "https://en.wikipedia.org/wiki/Little_Men"
+          },
+          {
+            "label": "Casa del Libro — Hombrecitos (Editorial Alma)",
+            "url": "https://www.casadellibro.com/libro-hombrecitos/9788418395031/12435162"
+          },
+          {
+            "label": "Project Gutenberg — Little Men",
+            "url": "https://www.gutenberg.org/ebooks/3795"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "infierno-en-el-paraiso-de-clara-sanchez",
+      "title": "Infierno En El Paraiso",
+      "authorName": "Clara Sanchez",
+      "authorSlug": "clara-sanchez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Infierno en el paraíso",
+        "authorName": "Clara Sánchez",
+        "authorSlug": "clara-sanchez",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2021,
+        "pages": 336,
+        "summary": "Infierno en el paraíso es una novela de Clara Sánchez que mezcla intriga, crítica social y observación psicológica a partir del choque entre dos mundos. Sonia Torres, una joven que trabaja como camarera y habla árabe, llega a un exclusivo entorno hotelero de Marbella frecuentado por jeques y miembros de la realeza saudí. Su conocimiento del idioma la convierte en asistente cercana de varias princesas y le permite entrar en un universo de lujo extremo, aparente privilegio y control férreo sobre la vida de las mujeres. Lo que al principio parece una oportunidad excepcional se transforma poco a poco en una experiencia inquietante, porque Sonia descubre que detrás del brillo hay miedo, encierro y falta de libertad. Sánchez construye así una trama de tensión sostenida donde la fascinación por el poder se convierte en denuncia de una cárcel dorada.",
+        "aboutThisBook": "Publicada por Editorial Planeta en 2021, la novela dialoga con noticias reales sobre princesas árabes vigiladas o privadas de libertad y traslada ese imaginario a la Marbella del lujo internacional. Clara Sánchez combina en ella un entorno muy reconocible para el lector español con una intriga de corte contemporáneo, interesada tanto por el suspense como por la situación de las mujeres sometidas a estructuras de poder opacas.",
+        "forWhom": "Para lectores adultos de novela contemporánea, thriller psicológico e historias donde el suspense sirve para explorar desigualdad, poder, libertad y mundos sociales cerrados.",
+        "whyItMatters": "Importa porque usa una trama atractiva y accesible para poner en primer plano la contradicción entre riqueza extrema y ausencia de derechos. La novela convierte un espacio asociado al placer, el verano y el lujo en escenario de vigilancia y cautiverio, y hace visible una violencia que no necesita mostrarse siempre de forma explícita para resultar opresiva.",
+        "editorialIntro": "Clara Sánchez parte de un decorado seductor: Marbella, hoteles exclusivos, séquitos reales, compras, yates y una promesa de ascenso ocasional para una camarera inteligente. Pero la novela no se queda en el brillo del escenario. Muy pronto desplaza la mirada hacia el precio de ese lujo y hacia la experiencia de mujeres que viven rodeadas de privilegios materiales y, al mismo tiempo, sometidas a control, miedo y obediencia. Ese contraste sostiene toda la tensión del libro.",
+        "readingLevel": "Lectura media: la prosa es fluida y la intriga empuja, aunque el libro gana si se atiende también a sus capas de crítica social, género y poder.",
+        "whyReadToday": "Vale la pena leerla hoy porque conecta ficción y actualidad en torno a la libertad femenina, la impunidad del poder y la seducción engañosa del lujo global.",
+        "studyNotes": [
+          "Sonia funciona como mediadora entre el mundo común y el espacio blindado del lujo saudí en Marbella.",
+          "El contraste entre apariencia paradisíaca y realidad opresiva da sentido al título de la novela.",
+          "La intriga no depende solo del peligro externo, sino también del descubrimiento gradual de una estructura de sometimiento.",
+          "Puede leerse como thriller social sobre género, dinero, privilegio e invisibilidad de la violencia.",
+          "La ambientación contemporánea permite relacionar la ficción con noticias reales sobre princesas árabes perseguidas o vigiladas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Entrada al mundo del lujo",
+            "summary": "Sonia llega a Marbella para trabajar en un entorno hotelero exclusivo y descubre un universo deslumbrante, lleno de protocolos, séquitos y desigualdades. Su dominio del árabe la distingue del resto del personal y le abre una cercanía inesperada con las mujeres de la realeza saudí."
+          },
+          {
+            "title": "Parte 2: La cárcel dorada",
+            "summary": "A medida que gana acceso al círculo íntimo de las princesas, Sonia percibe que el lujo no equivale a libertad. La fascinación inicial se mezcla con sospecha, porque aparecen señales de vigilancia, temor y obediencia forzada que revelan el reverso oscuro del paraíso marbellí."
+          },
+          {
+            "title": "Parte 3: Riesgo, conciencia y huida",
+            "summary": "La novela intensifica su tensión cuando Sonia comprende que ya no es una simple observadora y que cualquier gesto puede tener consecuencias. El conflicto final gira alrededor de la posibilidad de ayudar, callar o escapar de una red de poder que parece invulnerable desde fuera."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Lujo y opresión en el mismo espacio",
+            "content": "La gran fuerza simbólica del libro está en unir dos ideas que suelen presentarse como incompatibles: el paraíso material y el infierno íntimo. Marbella aparece como escaparate de riqueza, pero también como escenario perfecto para ocultar relaciones de dominación que pasan desapercibidas para quien solo mira la superficie."
+          },
+          {
+            "heading": "La protagonista como testigo implicada",
+            "content": "Sonia no pertenece al mundo del poder, pero entra en él gracias a su trabajo y a su conocimiento del idioma. Esa posición intermedia le permite ver lo que otros no ven. La novela aprovecha esa mirada para mostrar cómo la curiosidad se convierte en conciencia moral y después en riesgo personal."
+          },
+          {
+            "heading": "Thriller contemporáneo con trasfondo social",
+            "content": "Aunque la novela avanza como intriga, su interés no se reduce a la pregunta por lo que ocurrirá al final. Clara Sánchez la usa para reflexionar sobre la libertad de las mujeres, la opacidad de ciertas élites y la facilidad con la que el poder económico logra neutralizar la mirada pública."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un thriller puro o una novela social?",
+            "answer": "Es una combinación de ambas cosas: mantiene tensión narrativa, pero esa tensión está al servicio de una crítica al poder, al lujo y a la falta de libertad de las mujeres dentro de ciertas élites."
+          },
+          {
+            "question": "¿La historia se inspira en hechos reales?",
+            "answer": "No reproduce un caso exacto, pero la autora la relacionó con noticias sobre princesas árabes perseguidas o confinadas, lo que da al libro un trasfondo reconocible."
+          },
+          {
+            "question": "¿Qué papel cumple Marbella en la novela?",
+            "answer": "No es solo un decorado turístico: representa la cara visible del paraíso de lujo que oculta una realidad de vigilancia, desigualdad y sometimiento."
+          },
+          {
+            "question": "¿Qué tema domina la lectura?",
+            "answer": "La contradicción entre privilegio material y ausencia de libertad, observada a través de la conciencia creciente de una protagonista que entra en un mundo ajeno."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Planeta de Libros — Infierno en el paraíso",
+            "url": "https://www.planetadelibros.com/libro-infierno-en-el-paraiso/330100"
+          },
+          {
+            "label": "Casa del Libro — Infierno en el paraíso",
+            "url": "https://www.casadellibro.com/libro-infierno-en-el-paraiso/9788408242260/12230956"
+          },
+          {
+            "label": "Diario Crítico — Clara Sánchez nos traslada a un infierno y un paraíso muy particular",
+            "url": "https://www.diariocritico.com/clara-sanchez-el-infierno-en-el-paraiso"
+          },
+          {
+            "label": "ElPlural — Clara Sánchez se mete en la cárcel de oro de las princesas saudíes",
+            "url": "https://www.elplural.com/revista-bando/libros/clara-sanchez-mete-carcel-oro-princesas-saudies-realidad-supera-ficcion_266018102"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "juego-del-destino-de-jeffrey-archer",
+      "title": "Juego Del Destino",
+      "authorName": "Jeffrey Archer",
+      "authorSlug": "jeffrey-archer",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Juego del destino",
+        "authorName": "Jeffrey Archer",
+        "authorSlug": "jeffrey-archer",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2003,
+        "pages": 568,
+        "summary": "Esta novela, conocida en inglés como Sons of Fortune, sigue la vida de dos hermanos gemelos separados al nacer que crecen sin saber de la existencia del otro. Archer construye un relato de ascenso social, ambición, rivalidad política y dilemas morales, mostrando cómo dos trayectorias opuestas pueden nacer del mismo origen biológico. Uno de los hermanos se mueve en el mundo del privilegio y la política; el otro avanza desde un contexto muy distinto, marcado por la disciplina y la lucha personal. Décadas después, ambos terminan enfrentados públicamente, hasta que un crimen y un juicio transforman la rivalidad en una revelación familiar. El libro mezcla melodrama, suspense judicial y novela de destino, con el ritmo ágil característico del autor.",
+        "aboutThisBook": "Juego del destino es la edición en español de Sons of Fortune, una novela de Jeffrey Archer centrada en identidad, azar y poder. La obra usa la separación de dos gemelos como motor narrativo para explorar cuánto pesan la cuna, la educación, la ambición y las decisiones personales en la construcción de una vida. Además de su dimensión novelesca, el libro se apoya en una arquitectura de largo aliento, con cambios de foco, intriga familiar y una observación constante de cómo el origen social condiciona las oportunidades de cada personaje.",
+        "forWhom": "Para lectores adultos que disfrutan novelas de trama amplia, conflictos familiares, giros judiciales y rivalidades políticas narradas con ritmo comercial y mucha tensión.",
+        "whyItMatters": "Importa porque convierte una premisa clásica sobre hermanos separados en una reflexión muy legible sobre privilegio, destino, clase social y responsabilidad individual dentro de las instituciones públicas.",
+        "editorialIntro": "Jeffrey Archer plantea aquí una historia de vidas paralelas, ambición pública y secretos familiares. La novela avanza con rapidez, alternando drama personal y suspense político, y mantiene el interés al preguntar si el parentesco pesa más que la biografía vivida.",
+        "readingLevel": "Lectura intermedia-alta, accesible para lectores habituales de novela de intriga. Aunque la prosa es fluida, conviene leer con atención los saltos temporales y la alternancia de perspectivas para seguir bien la evolución paralela de los protagonistas.",
+        "whyReadToday": "Sigue siendo actual por su mirada sobre desigualdad, construcción mediática del poder y la tensión entre mérito personal, privilegio heredado e identidad.",
+        "studyNotes": [
+          "La novela contrapone biología y entorno: los gemelos comparten origen, pero no formación social ni oportunidades.",
+          "El suspense nace menos del misterio inicial que de ver cuándo y cómo se cruzarán las dos trayectorias.",
+          "La rivalidad política funciona también como conflicto ético entre imagen pública y vínculos privados.",
+          "Archer usa un estilo directo y episódico, pensado para sostener el interés con giros constantes."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Separación y destinos opuestos",
+            "summary": "El punto de partida muestra la separación de dos gemelos al nacer y el comienzo de vidas radicalmente distintas. Desde ese hecho inicial, la novela instala la pregunta central: cuánto depende una vida del origen y cuánto del entorno que la moldea."
+          },
+          {
+            "title": "Parte 2: Formación de dos ambiciones",
+            "summary": "A medida que crecen, ambos protagonistas desarrollan talentos, lealtades y visiones del mundo propias. Archer convierte sus carreras, vínculos y aspiraciones en un juego de espejos que subraya similitudes profundas y contrastes sociales muy marcados."
+          },
+          {
+            "title": "Parte 3: El choque público",
+            "summary": "Las trayectorias paralelas terminan convergiendo en el terreno político. Lo que parecía una simple rivalidad electoral se vuelve un conflicto mucho más complejo cuando la competencia pública empieza a rozar secretos familiares y responsabilidades legales."
+          },
+          {
+            "title": "Parte 4: Juicio, revelación y sentido del destino",
+            "summary": "La acusación de asesinato y la defensa judicial reordenan el vínculo entre los dos hombres. El desenlace obliga a reinterpretar la rivalidad previa y da a la idea de destino un sentido menos fatalista y más moral."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Destino frente a libre albedrío",
+            "content": "El título sugiere fatalidad, pero la novela no sostiene un determinismo absoluto. Archer muestra que el azar inaugura la historia, aunque las decisiones personales, la educación y la ambición terminan dando forma concreta a cada identidad."
+          },
+          {
+            "heading": "Clase social y acceso al poder",
+            "content": "El contraste entre los gemelos permite observar cómo el capital familiar, la red de contactos y la formación condicionan el acceso a prestigio y autoridad. La obra convierte esa diferencia en motor dramático y en comentario social."
+          },
+          {
+            "heading": "La familia como verdad oculta",
+            "content": "El parentesco opera como secreto estructural. Mientras los personajes compiten en la esfera pública, el lector percibe que la verdad familiar tiene capacidad para desmontar discursos, lealtades y enemistades aparentemente sólidas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Juego del destino es la misma novela que Sons of Fortune?",
+            "answer": "Sí. Juego del destino es la traducción al español de la novela Sons of Fortune de Jeffrey Archer."
+          },
+          {
+            "question": "¿Qué tipo de historia propone el libro?",
+            "answer": "Combina saga familiar, thriller político y drama judicial alrededor de dos gemelos separados al nacer."
+          },
+          {
+            "question": "¿El foco está en la acción o en las ideas?",
+            "answer": "Predomina la narración ágil y el giro de trama, pero el libro también invita a pensar en desigualdad, identidad y poder."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Jeffrey Archer - Sons of Fortune",
+            "url": "https://jeffreyarcher.com/book/sons-of-fortune-by-jeffrey-archer/"
+          },
+          {
+            "label": "Casa del Libro - Juego del destino",
+            "url": "https://www.casadellibro.com/libro-juego-del-destino/9788425338342/942162"
+          },
+          {
+            "label": "Lecturalia - Juego del destino",
+            "url": "https://www.lecturalia.com/libro/4185/juego-del-destino"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "juventud-en-extasis-2-de-carlos-cuauhtemoc-sanchez",
+      "title": "Juventud En Extasis 2",
+      "authorName": "Carlos Cuauhtemoc Sanchez",
+      "authorSlug": "carlos-cuauhtemoc-sanchez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Juventud en éxtasis 2",
+        "authorName": "Carlos Cuauhtémoc Sánchez",
+        "authorSlug": "carlos-cuauhtemoc-sanchez",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "desarrollo-personal",
+          "narrativa"
+        ],
+        "year": 1997,
+        "pages": 191,
+        "summary": "Juventud en éxtasis 2 continúa la línea formativa de la obra anterior y combina relato sentimental con exposición didáctica sobre sexualidad, noviazgo, matrimonio y responsabilidad afectiva. Carlos Cuauhtémoc Sánchez presenta el libro como una novela que también funciona como curso para estudiantes, padres y docentes, de modo que la trama sirve de vehículo para discutir principios morales y decisiones íntimas. Más que centrarse en un único conflicto externo, la obra organiza situaciones y diálogos destinados a cuestionar hábitos, prejuicios y conductas de riesgo. El resultado es un texto híbrido: por un lado busca emocionar mediante vínculos amorosos y crisis personales; por otro, pretende orientar al lector en temas de fidelidad, autocontrol, compromiso, comunicación de pareja y sentido ético de la vida sexual.",
+        "aboutThisBook": "Esta secuela amplía el enfoque pedagógico de Juventud en éxtasis y se presenta explícitamente como un curso sobre conducta sexual. Su rasgo distintivo es la mezcla de ficción accesible, consejos formativos y discusión de problemas que afectan a adolescentes, novios, matrimonios jóvenes y familias. Su interés no está en la complejidad formal, sino en la manera directa con que convierte los dilemas afectivos y sexuales de los protagonistas en escenas de debate, corrección y aprendizaje moral.",
+        "forWhom": "Para jóvenes, mediadores de lectura, madres, padres y docentes interesados en un libro narrativo que abra conversación sobre sexualidad, afectividad, límites, compromiso y consecuencias emocionales.",
+        "whyItMatters": "Sigue siendo relevante porque muestra cómo cierta literatura juvenil latinoamericana convirtió la novela en herramienta de orientación moral y debate sobre sexualidad responsable, familia y formación del carácter.",
+        "editorialIntro": "Carlos Cuauhtémoc Sánchez propone una secuela con intención claramente formativa. El libro mantiene un tono narrativo sencillo, pero su meta principal es abrir preguntas sobre amor, deseo, responsabilidad y proyecto de vida, especialmente en lectores jóvenes o en contextos educativos.",
+        "readingLevel": "Lectura media, directa y muy dialogada; adecuada para secundaria alta y bachillerato.",
+        "whyReadToday": "Puede leerse hoy como documento cultural sobre educación afectivo-sexual en el ámbito hispano y como punto de partida para discutir sus ideas con mirada crítica.",
+        "studyNotes": [
+          "Es una obra híbrida: la ficción está al servicio de una propuesta didáctica sobre conducta sexual.",
+          "El libro privilegia el diálogo moral y la ejemplificación por encima de la complejidad literaria formal.",
+          "Conviene leerlo junto con su contexto de recepción escolar y familiar en América Latina durante los años noventa.",
+          "Muchas de sus tesis pueden discutirse hoy desde perspectivas contemporáneas de educación sexual y género."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Continuidad emocional",
+            "summary": "La secuela retoma problemas afectivos ya planteados en la serie y vuelve a poner el foco en decisiones sentimentales, tentaciones y consecuencias personales. Desde el comienzo, la narración deja claro que el interés central no es sólo romántico, sino también formativo."
+          },
+          {
+            "title": "Parte 2: Sexualidad, límites y aprendizaje",
+            "summary": "A través de conversaciones, ejemplos y conflictos de pareja, el libro desarrolla su dimensión de curso sobre conducta sexual. La novela intenta orientar al lector hacia una ética del autocuidado, la responsabilidad y el compromiso."
+          },
+          {
+            "title": "Parte 3: Matrimonio y madurez",
+            "summary": "La obra desplaza parte de su atención hacia la vida en común, la fidelidad y la comunicación duradera. El amor deja de ser sólo impulso juvenil y aparece como tarea de construcción cotidiana."
+          },
+          {
+            "title": "Parte 4: Síntesis moral",
+            "summary": "En el cierre, la ficción y la enseñanza convergen para reforzar la idea de que la vida afectiva exige carácter, criterio y visión de futuro. El desenlace subraya que la libertad sexual, para el autor, debe ir acompañada de responsabilidad ética."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela didáctica y persuasión",
+            "content": "El libro no busca neutralidad: organiza su argumento para persuadir. Los personajes y situaciones funcionan como ejemplos destinados a reforzar una posición ética concreta sobre sexualidad, pareja y familia."
+          },
+          {
+            "heading": "Educación sentimental en clave moral",
+            "content": "La obra entiende la formación afectiva como parte del carácter. Por eso vincula deseo, autocontrol, respeto y proyecto de vida, insistiendo en que las decisiones íntimas tienen efectos sociales y espirituales."
+          },
+          {
+            "heading": "Lectura contemporánea crítica",
+            "content": "Leído hoy, el texto puede valorarse tanto por su impacto pedagógico como por sus límites. Resulta útil para analizar cómo cambiaron los discursos sobre sexualidad juvenil, género, autoridad y educación en pocas décadas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer antes Juventud en éxtasis?",
+            "answer": "Ayuda, porque esta segunda parte prolonga preocupaciones y vínculos de la serie, aunque también puede leerse como obra autónoma de intención formativa."
+          },
+          {
+            "question": "¿Es novela o manual?",
+            "answer": "Es una mezcla de ambos formatos: usa una trama narrativa, pero se presenta explícitamente como curso y texto de consulta sobre conducta sexual."
+          },
+          {
+            "question": "¿Para qué tipo de lector fue pensado?",
+            "answer": "Para jóvenes y para adultos que acompañan procesos educativos, especialmente en contextos escolares, familiares o pastorales."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Casa del Libro - Juventud en éxtasis 2",
+            "url": "https://www.casadellibro.com/ebook-juventud-en-extasis-2-ebook/9786077627357/9472661"
+          },
+          {
+            "label": "Internet Archive - Juventud en éxtasis 2",
+            "url": "https://archive.org/details/juventudenxtasis0000snch_l6h9"
+          },
+          {
+            "label": "Librería Unistmo - Juventud en éxtasis 2",
+            "url": "https://libreria.unistmo.edu.mx/detalles_libro.php?isbn=9786077627258"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "juventud-la-posada-de-las-dos-brujas-y-un-socio-de-joseph-conrad",
+      "title": "Juventud La Posada De Las Dos Brujas Y Un Socio",
+      "authorName": "Joseph Conrad",
+      "authorSlug": "joseph-conrad",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Juventud, La posada de las dos brujas y Un socio",
+        "authorName": "Joseph Conrad",
+        "authorSlug": "joseph-conrad",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "aventura",
+          "narrativa"
+        ],
+        "year": null,
+        "pages": null,
+        "summary": "Este volumen reúne tres relatos de Joseph Conrad que muestran registros distintos de su prosa: Youth ofrece una memoria marítima de iniciación y resistencia; The Inn of the Two Witches intensifica el suspense en clave casi gótica; y The Partner examina la codicia, la lealtad y el fracaso a través de una relación comercial turbia. Leídos en conjunto, los textos permiten ver la amplitud del autor: el mar como espacio de prueba moral, la narración retrospectiva como forma de experiencia y la fragilidad de los vínculos humanos cuando aparecen interés, miedo o ambición. Más que una simple colección de aventuras, el libro funciona como una muestra concentrada del universo conradiano, donde el riesgo exterior siempre revela una tensión interior.",
+        "aboutThisBook": "Se trata de una antología breve de relatos de Conrad, útil para entrar a su obra sin abordar de inmediato sus novelas largas. Las tres piezas comparten atmósferas de incertidumbre y personajes sometidos a situaciones límite, aunque cada una enfatiza un tono distinto: memoria heroica, misterio ominoso o ironía amarga. Leído como conjunto, el volumen permite ver distintas facetas de Conrad: el relato de iniciación, el misterio insinuado y la observación irónica de personajes puestos a prueba por viajes, negocios y decisiones ambiguas.",
+        "forWhom": "Para lectores de clásicos, estudiantes de narrativa breve y personas interesadas en relatos de mar, aventura psicológica y conflictos morales narrados con una prosa densa y evocadora.",
+        "whyItMatters": "Importa porque permite observar, en formato compacto, varios rasgos esenciales de Conrad: narradores complejos, tensión ética, aventura exterior y una mirada nada ingenua sobre el carácter humano.",
+        "editorialIntro": "En esta reunión de relatos, Joseph Conrad muestra tres maneras de narrar la incertidumbre. El entusiasmo juvenil, el peligro en espacios cerrados y la ambigüedad de los negocios humanos aparecen atravesados por una misma pregunta: qué revela una crisis sobre la verdad moral de una persona.",
+        "readingLevel": "Lectura media-alta por el estilo clásico, la ironía narrativa y la densidad atmosférica.",
+        "whyReadToday": "Vale la pena leerlo hoy porque condensa en pocos textos la vigencia de Conrad para pensar experiencia, miedo, ambición y narración de la memoria.",
+        "studyNotes": [
+          "Youth es clave para entender la figura de Marlow y la memoria de la juventud como mezcla de épica e ilusión perdida.",
+          "The Inn of the Two Witches aproxima a Conrad a un registro de suspense casi gótico, menos habitual en la imagen escolar del autor.",
+          "The Partner examina la relación entre negocios, confianza y degradación moral.",
+          "Leídos juntos, los tres relatos muestran que la aventura conradiana siempre implica una prueba ética."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Youth",
+            "summary": "El relato presenta una travesía marítima recordada desde la distancia. La experiencia del primer viaje, con sus averías, incendios y demoras, se transforma en una meditación sobre entusiasmo juvenil, resistencia y el modo en que el tiempo resignifica el sufrimiento vivido."
+          },
+          {
+            "title": "The Inn of the Two Witches",
+            "summary": "Aquí Conrad construye una situación de amenaza creciente en un espacio aparentemente cotidiano. La posada y sus habitantes producen una atmósfera inquietante donde hospitalidad, engaño y peligro se mezclan hasta volver incierta toda percepción."
+          },
+          {
+            "title": "The Partner",
+            "summary": "Este relato gira en torno a una relación comercial y personal marcada por la dependencia, la sospecha y la deslealtad. Más que aventura física, ofrece una exploración de cómo la codicia y la humillación deforman la conducta."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El mar y la prueba del carácter",
+            "content": "En Conrad, el viaje marítimo no es sólo escenario exótico. Es un laboratorio moral donde el cansancio, el peligro y la espera revelan el temple real de los personajes y corrigen sus ilusiones."
+          },
+          {
+            "heading": "Memoria y narración retrospectiva",
+            "content": "Especialmente en Youth, el acontecimiento importa tanto como la voz que lo recuerda. El relato no reproduce la juventud de forma directa, sino que la interpreta desde una conciencia posterior, más irónica y reflexiva."
+          },
+          {
+            "heading": "Ambigüedad moral",
+            "content": "Los tres relatos comparten una visión nada simplista del bien y del mal. Conrad prefiere personajes mezclados, situaciones opacas y decisiones marcadas por temor, interés o lealtades incompletas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o una colección de relatos?",
+            "answer": "Es una colección de tres relatos de Joseph Conrad reunidos en un solo volumen."
+          },
+          {
+            "question": "¿Hay que conocer antes otras obras de Conrad?",
+            "answer": "No. De hecho, esta antología funciona bien como puerta de entrada a sus temas y a su estilo narrativo."
+          },
+          {
+            "question": "¿Qué relato suele destacarse más?",
+            "answer": "Youth suele recibir especial atención crítica por su relación con el mundo marítimo de Conrad y por el uso de la memoria como forma narrativa."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia - Youth (Conrad short story)",
+            "url": "https://en.wikipedia.org/wiki/Youth_(Conrad_short_story)"
+          },
+          {
+            "label": "Project Gutenberg - Youth, a Narrative",
+            "url": "https://www.gutenberg.org/ebooks/525"
+          },
+          {
+            "label": "Project Gutenberg - Within the Tides: Tales",
+            "url": "https://www.gutenberg.org/ebooks/1053"
+          },
+          {
+            "label": "Britannica - Joseph Conrad",
+            "url": "https://www.britannica.com/biography/Joseph-Conrad"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "km-123-de-andrea-camilleri",
+      "title": "Km 123",
+      "authorName": "Andrea Camilleri",
+      "authorSlug": "andrea-camilleri",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Km 123",
+        "authorName": "Andrea Camilleri",
+        "authorSlug": "andrea-camilleri",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2020,
+        "pages": 224,
+        "summary": "Km 123 es un thriller coral y muy concentrado que arranca con una ausencia: Ester llama a Giulio Davoli y quien contesta no es él, sino Giuditta, su esposa. Poco después se descubre que Giulio está hospitalizado tras un accidente en el kilómetro 123 de la Via Aurelia, pero la versión del simple siniestro se resquebraja enseguida. Un testigo sugiere que hubo intención criminal y el inspector Attilio Bongioanni entra en una investigación donde adulterio, mentira, resentimiento y cálculo se mezclan con gran rapidez. Camilleri construye la intriga mediante voces cruzadas, conversaciones tensas y giros constantes, de modo que la novela avanza menos por la acción espectacular que por la revelación progresiva de motivos ocultos.",
+        "aboutThisBook": "Publicada originalmente en Italia en 2019 y aparecida en castellano en 2020 en Destino, esta novela pertenece a la etapa final de Andrea Camilleri. Aunque no forma parte de la serie de Montalbano, conserva varias de las virtudes más reconocibles del autor: ritmo ágil, oído para el diálogo, ironía amarga y una mirada muy precisa sobre la fragilidad moral de los personajes. Es una obra breve, urbana y cerrada sobre un caso concreto, pensada para sostener la tensión desde la primera llamada telefónica hasta el desenlace.",
+        "forWhom": "Ideal para lectores adultos que busquen novela negra breve, de lectura rápida y con una intriga basada en relaciones personales, secretos íntimos y sospechas cambiantes más que en violencia explícita continua.",
+        "whyItMatters": "Importa porque muestra a Camilleri fuera del universo Montalbano y confirma que podía condensar una investigación compleja en una estructura corta, precisa y muy legible, sin perder tensión ni ambigüedad moral.",
+        "editorialIntro": "Este libro funciona como una puerta de entrada eficaz al Camilleri más concentrado. Todo empieza con un accidente aparentemente trivial, pero cada conversación abre una nueva grieta en la versión oficial. La novela avanza por capas: amantes, cónyuges, testigos e investigadores aportan piezas parciales de una verdad que nadie controla del todo. Su fuerza está en la economía narrativa y en la sensación constante de que cualquier detalle puede cambiar el sentido del caso.",
+        "readingLevel": "Lectura accesible para adultos y jóvenes lectores avanzados: frases claras, capítulos breves y una trama que exige atención a los cambios de perspectiva.",
+        "whyReadToday": "Sigue siendo actual por su forma de mostrar cómo una crisis privada puede convertirse en investigación pública y por su retrato de la mentira cotidiana como motor del suspense.",
+        "studyNotes": [
+          "Observa cómo la novela transforma una llamada telefónica en detonante estructural de toda la intriga.",
+          "Fíjate en la importancia de las versiones parciales: casi nadie miente de forma total, pero nadie dice toda la verdad.",
+          "Analiza el papel del inspector Bongioanni como lector de gestos, silencios y contradicciones más que como héroe de acción.",
+          "La brevedad del libro obliga a Camilleri a caracterizar mediante diálogo y situación, no con largas explicaciones."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La llamada que rompe la rutina",
+            "summary": "Ester intenta comunicarse con Giulio y descubre, de manera inesperada, que el hombre con quien mantiene una relación clandestina ha sufrido un grave accidente. El simple hecho de que sea Giuditta quien responda instala desde el inicio una atmósfera de incomodidad, engaño y peligro."
+          },
+          {
+            "title": "Parte 2: Del accidente a la sospecha",
+            "summary": "Lo que parecía un siniestro causado por el mal tiempo cambia de naturaleza cuando aparece un testigo y se plantea la posibilidad de un intento de asesinato. La investigación empieza a reorganizar las relaciones entre los implicados y a revelar tensiones previas."
+          },
+          {
+            "title": "Parte 3: Voces, coartadas y dobles juegos",
+            "summary": "A medida que intervienen distintos personajes, la novela encadena versiones incompatibles, deseos ocultos y resentimientos acumulados. Camilleri convierte cada conversación en una pista y en una trampa, haciendo que el lector dude de todos."
+          },
+          {
+            "title": "Parte 4: La verdad detrás del kilómetro 123",
+            "summary": "El caso avanza hacia un desenlace donde lo decisivo no es solo identificar al responsable, sino entender la red emocional y moral que hizo posible el crimen. La resolución confirma que el suspense nace aquí de la intimidad herida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una intriga construida con conversaciones",
+            "content": "Camilleri reduce la espectacularidad externa y confía el suspense al diálogo, a la interrupción y al malentendido. La novela progresa porque cada intercambio verbal modifica lo que parecía sabido."
+          },
+          {
+            "heading": "Deseo, matrimonio y venganza",
+            "content": "El núcleo del conflicto no es solo policial. La investigación se apoya en relaciones afectivas deterioradas, celos y humillaciones que convierten la vida privada en terreno criminal."
+          },
+          {
+            "heading": "El estilo tardío de Camilleri",
+            "content": "Km 123 condensa rasgos del autor en una forma breve: ironía seca, observación psicológica y una notable capacidad para hacer que la trama avance a gran velocidad sin perder claridad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Km 123 forma parte de la serie del comisario Montalbano?",
+            "answer": "No. Es una novela independiente de Andrea Camilleri, aunque comparte con su obra policial el gusto por la intriga y por los personajes moralmente ambiguos."
+          },
+          {
+            "question": "¿Qué tipo de thriller propone el libro?",
+            "answer": "Más que un thriller de persecuciones, es un thriller de relaciones, sospechas y versiones cruzadas. La tensión nace de lo que cada personaje oculta."
+          },
+          {
+            "question": "¿Se puede leer sin conocer otras obras de Camilleri?",
+            "answer": "Sí. Funciona por completo como lectura autónoma y, de hecho, es una buena entrada para lectores que quieran probar al autor fuera de sus series más famosas."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Todos Tus Libros - ficha de la edición en castellano",
+            "url": "https://www.todostuslibros.com/libros/km-123_978-84-233-5666-9"
+          },
+          {
+            "label": "Wikipedia en italiano - Km 123",
+            "url": "https://it.wikipedia.org/wiki/Km_123"
+          },
+          {
+            "label": "Goodreads - Km 123",
+            "url": "https://www.goodreads.com/book/show/48711695-km-123"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-ballena-perdida-de-hannah-gold",
+      "title": "La Ballena Perdida",
+      "authorName": "Hannah Gold",
+      "authorSlug": "hannah-gold",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La ballena perdida",
+        "authorName": "Hannah Gold",
+        "authorSlug": "hannah-gold",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "infantil",
+          "aventura",
+          "narrativa"
+        ],
+        "year": 2023,
+        "pages": 320,
+        "summary": "La ballena perdida cuenta la historia de Rio, un niño que llega a California mientras su madre permanece hospitalizada. Desplazado, triste y poco seguro de su nuevo lugar, encuentra un primer punto de apoyo en Marina y en las salidas para avistar cetáceos que comparte con ella. Todo cambia cuando conoce a Morro Blanco, una gran ballena con la que establece un vínculo emocional inesperado. Cuando el animal desaparece, la búsqueda se convierte en aventura exterior y también en proceso interior: Rio debe aprender a interpretar el océano, asumir el miedo a la pérdida y redescubrir la esperanza. Hannah Gold combina emoción, conciencia ecológica y sentido del asombro sin perder la claridad propia de la narrativa infantil contemporánea.",
+        "aboutThisBook": "Es la edición española de The Lost Whale, novela de Hannah Gold ilustrada por Levi Pinfold y publicada en castellano por Duomo en 2023. Se sitúa dentro de la ficción infantil de sensibilidad ecológica, pero no se limita al mensaje ambiental: trabaja también el duelo, la soledad, la familia y la necesidad de encontrar un lazo de pertenencia cuando el mundo parece haberse desplazado. El libro fue muy bien recibido en el ámbito anglosajón y la propia web de la autora lo presenta como una aventura emotiva para lectores a partir de ocho años.",
+        "forWhom": "Muy recomendable para lectores infantiles de 8 a 12 años, familias que buscan novelas para leer y comentar juntos, y mediadores interesados en historias sobre animales, océanos, empatía y cuidado del planeta.",
+        "whyItMatters": "Importa porque une aventura accesible y educación emocional con una mirada ecológica nada sermoneadora. El vínculo entre Rio y la ballena vuelve concreto el debate sobre la conservación marina y la fragilidad de los ecosistemas.",
+        "editorialIntro": "Hannah Gold vuelve a demostrar que sabe escribir historias de naturaleza con corazón narrativo. Aquí el océano no es solo escenario, sino presencia viva que acompaña el crecimiento del protagonista. La novela trabaja la tristeza infantil con delicadeza y la transforma en movimiento, amistad y búsqueda. Su mayor acierto es que la conciencia ambiental aparece encarnada en una experiencia concreta: la de un niño que descubre que cuidar de otro ser también puede ayudarle a recomponerse a sí mismo.",
+        "readingLevel": "Lectura media para infantil avanzado: vocabulario claro, capítulos fluidos y una carga emocional comprensible para lectores desde los 8 años con acompañamiento o lectura autónoma.",
+        "whyReadToday": "Se lee hoy con especial fuerza porque conecta salud emocional y crisis ecológica desde una historia luminosa, capaz de despertar empatía por el mar sin convertir la novela en una lección escolar.",
+        "studyNotes": [
+          "Rio no solo busca una ballena: también busca una forma de sostener la incertidumbre sobre su madre.",
+          "El océano funciona como espacio simbólico de inmensidad, peligro y consuelo al mismo tiempo.",
+          "La amistad con Marina cumple una función narrativa clave: introduce a Rio en el nuevo entorno y activa la aventura.",
+          "La novela muestra cómo la literatura infantil puede abordar el cambio climático desde la emoción y no solo desde datos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Un niño lejos de casa",
+            "summary": "Rio llega a California en un momento vulnerable, separado de su madre enferma y obligado a convivir con una abuela a la que apenas conoce. El desarraigo marca el tono inicial de la novela."
+          },
+          {
+            "title": "Parte 2: El descubrimiento del océano",
+            "summary": "Gracias a Marina y a las salidas para observar cetáceos, Rio empieza a abrirse al nuevo paisaje. El mar deja de ser un fondo desconocido y se convierte en un espacio de encuentro y aprendizaje."
+          },
+          {
+            "title": "Parte 3: El vínculo con Morro Blanco",
+            "summary": "El encuentro con la ballena da a la historia su centro emocional. Rio proyecta en ese lazo su necesidad de esperanza y de conexión con algo más grande que su tristeza inmediata."
+          },
+          {
+            "title": "Parte 4: Búsqueda, riesgo y esperanza",
+            "summary": "Cuando Morro Blanco desaparece, la novela intensifica su dimensión aventurera. La búsqueda obliga a Rio a actuar, a confiar en otros y a comprender que cuidar del mundo también implica aceptar su fragilidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Naturaleza y emoción en equilibrio",
+            "content": "La novela destaca porque no separa el tema ecológico de la experiencia afectiva. La defensa de los animales marinos se vuelve creíble precisamente porque nace del vínculo emocional del protagonista con una ballena concreta."
+          },
+          {
+            "heading": "El crecimiento de Rio",
+            "content": "Rio pasa del extrañamiento y la tristeza a una forma más activa de esperanza. Su evolución no consiste en dejar de sufrir, sino en aprender a moverse dentro de la incertidumbre."
+          },
+          {
+            "heading": "Una aventura infantil con resonancia contemporánea",
+            "content": "Hannah Gold escribe para lectores jóvenes, pero introduce asuntos muy actuales: salud mental, pérdida, desplazamiento temporal del hogar y responsabilidad ambiental. Esa combinación explica buena parte de su alcance."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La ballena perdida es una novela infantil o juvenil?",
+            "answer": "Se orienta sobre todo a lectores infantiles y de middle grade, aproximadamente desde los 8 años, aunque también puede interesar a lectores juveniles sensibles a la naturaleza."
+          },
+          {
+            "question": "¿El libro insiste mucho en el mensaje ecológico?",
+            "answer": "Sí trabaja la conservación marina, pero lo hace a través de la aventura y del vínculo emocional entre Rio y la ballena, no como un discurso abstracto."
+          },
+          {
+            "question": "¿Hace falta haber leído otros libros de Hannah Gold?",
+            "answer": "No. Es una historia independiente y puede leerse por sí sola, aunque comparte con otras obras de la autora su amor por los animales y el entorno natural."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Todos Tus Libros - ficha de la edición española",
+            "url": "https://www.todostuslibros.com/libros/la-ballena-perdida_978-84-19521-36-1"
+          },
+          {
+            "label": "Hannah Gold - página oficial de The Lost Whale",
+            "url": "https://www.hannahgold.world/the-lost-whale"
+          },
+          {
+            "label": "Goodreads - La ballena perdida / The Lost Whale",
+            "url": "https://www.goodreads.com/book/show/97168778-la-ballena-perdida"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-biblia-de-los-caidos-tomo-1-del-testamento-de-nilia-de-fernando-trujillo",
+      "title": "La Biblia De Los Caidos Tomo 1 Del Testamento De Nilia",
+      "authorName": "Fernando Trujillo",
+      "authorSlug": "fernando-trujillo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La Biblia de los Caídos. Tomo 1 del testamento de Nilia",
+        "authorName": "Fernando Trujillo",
+        "authorSlug": "fernando-trujillo",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasia",
+          "narrativa"
+        ],
+        "year": 2016,
+        "pages": 216,
+        "summary": "Este volumen abre una nueva perspectiva dentro del universo de La Biblia de los Caídos al desplazar el foco hacia Nilia, una figura ligada al mundo de los demonios y definida por una mezcla de belleza, peligro y cálculo estratégico. La novela no se limita a presentar un personaje fascinante: la convierte en eje para explorar otra facción del conflicto sobrenatural de la saga. A medida que Nilia actúa, el lector comprende que sus decisiones están medidas y que sus motivaciones, aunque no del todo transparentes, pueden alterar muchas vidas. Fernando Trujillo combina acción, revelación progresiva y ampliación del lore para ofrecer un libro que funciona como pieza de expansión del universo y como retrato de una presencia magnética y letal.",
+        "aboutThisBook": "Publicado en 2016, este tomo forma parte de la serie La Biblia de los Caídos y se integra en una arquitectura narrativa más amplia que va desgranando testamentos, facciones y personajes del mundo oculto creado por Fernando Trujillo. Frente a otros volúmenes más centrados en la intriga general, aquí el interés recae en comprender a Nilia y el lugar que ocupa entre las fuerzas demoníacas. Es, por tanto, un libro de ampliación del universo, útil para entender mejor la saga y también para observar cómo el autor construye carisma, amenaza y misterio alrededor de un personaje secundario convertido en centro.",
+        "forWhom": "Adecuado para lectores juveniles y adultos que disfrutan la fantasía urbana en saga, los mundos sobrenaturales con facciones en conflicto y los libros que profundizan en personajes ambiguos, peligrosos y difíciles de clasificar moralmente.",
+        "whyItMatters": "Es relevante porque refuerza el universo de La Biblia de los Caídos desde dentro: no repite la fórmula central, sino que abre una vía lateral para entender mejor a los demonios, el poder de Nilia y las consecuencias de sus decisiones.",
+        "editorialIntro": "No todos los libros de expansión de una saga consiguen justificar su existencia. Este sí lo hace porque convierte a Nilia en mucho más que un nombre atractivo dentro del reparto sobrenatural. El tomo explora su potencia simbólica y narrativa: belleza extrema, violencia posible, inteligencia fría y capacidad para desplazar el equilibrio del mundo oculto. Para quien ya conoce la serie, aporta contexto y tensión; para quien entra por curiosidad en este tramo, deja claro que el universo de Trujillo se sostiene en personajes con agenda propia y fuerte capacidad de perturbación.",
+        "readingLevel": "Lectura media: prosa directa, ritmo ágil y conceptos de saga que se entienden mejor si el lector acepta entrar en un universo fantástico ya en marcha.",
+        "whyReadToday": "Sigue siendo una lectura atractiva para quienes buscan fantasía urbana de producción hispana, con mitología serial, personajes de moral gris y una atención especial al carisma de los antagonistas o figuras liminales.",
+        "studyNotes": [
+          "El libro destaca por desplazar el interés desde la gran trama hacia la construcción de un personaje-fuerza: Nilia.",
+          "Conviene analizar cómo la información sobre el mundo demoníaco se dosifica a través de acciones y consecuencias, no solo mediante explicación directa.",
+          "La ambigüedad moral es central: Nilia atrae y amenaza al mismo tiempo, y esa dualidad sostiene la tensión del volumen.",
+          "Como tomo de saga, su valor está tanto en lo que cuenta como en lo que reordena dentro del universo general."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El centro cambia de personaje",
+            "summary": "La novela sitúa a Nilia en primer plano y redefine la atención del lector. Lo que antes podía ser una presencia lateral se transforma en eje de observación y de conflicto."
+          },
+          {
+            "title": "Parte 2: Demonios, poder y estrategia",
+            "summary": "El libro profundiza en la facción demoníaca y muestra que Nilia no actúa por impulso simple, sino dentro de un marco de decisiones calculadas, alianzas implícitas y efectos duraderos."
+          },
+          {
+            "title": "Parte 3: Consecuencias sobre otros personajes",
+            "summary": "A medida que Nilia interviene, su influencia se extiende sobre quienes la rodean. La novela insiste en que conocerla mejor no la vuelve menos peligrosa, sino más compleja."
+          },
+          {
+            "title": "Parte 4: Expansión del universo de la saga",
+            "summary": "El desenlace de este tomo importa no solo por lo que resuelve, sino por lo que abre. El mundo de La Biblia de los Caídos gana profundidad y nuevas tensiones a partir del testamento de Nilia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Nilia como personaje magnético",
+            "content": "La novela se apoya en una figura cuya fuerza proviene de la mezcla entre fascinación y amenaza. Nilia concentra deseo, miedo e incertidumbre, y por eso reorganiza la atención narrativa con tanta facilidad."
+          },
+          {
+            "heading": "Fantasía urbana en clave de saga",
+            "content": "Este tomo demuestra cómo la fantasía serial puede crecer por capas. En lugar de repetir una misma línea argumental, añade puntos de vista y facciones que enriquecen el conjunto."
+          },
+          {
+            "heading": "El valor de los libros laterales",
+            "content": "Los volúmenes centrados en personajes secundarios suelen fracasar cuando solo rellenan huecos. Aquí, en cambio, el enfoque sobre Nilia aporta tono, información y nuevas preguntas decisivas para la serie."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario conocer La Biblia de los Caídos para disfrutar este tomo?",
+            "answer": "Se puede seguir en lo esencial, pero se aprovecha mejor si ya se conoce el universo de la saga, porque muchas resonancias proceden de conflictos previos."
+          },
+          {
+            "question": "¿Qué aporta Nilia al conjunto de la serie?",
+            "answer": "Aporta una mirada más cercana al mundo demoníaco y un personaje de enorme carisma cuya presencia modifica la percepción moral y estratégica del conflicto general."
+          },
+          {
+            "question": "¿Predomina más la acción o la construcción del personaje?",
+            "answer": "Ambas dimensiones son importantes, pero el rasgo distintivo del libro es cómo convierte a Nilia en el verdadero motor de interés narrativo."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Todos Tus Libros - ficha bibliográfica",
+            "url": "https://www.todostuslibros.com/libros/la-biblia-de-los-caidos-tomo-i-el-testamento-de-nilia_978-1-5233-9727-3"
+          },
+          {
+            "label": "Goodreads - ficha del libro",
+            "url": "https://www.goodreads.com/book/show/28758636-la-biblia-de-los-ca-dos-tomo-1-del-testamento-de-nilia"
+          },
+          {
+            "label": "Open Library",
+            "url": "https://openlibrary.org/works/OL24710362W/La_Biblia_de_los_Ca%C3%ADdos._Tomo_1_del_testamento_de_Nilia"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-boca-pobre-de-flann-obrien",
+      "title": "La Boca Pobre",
+      "authorName": "Flann Obrien",
+      "authorSlug": "flann-obrien",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La boca pobre",
+        "authorName": "Flann O'Brien",
+        "authorSlug": "flann-obrien",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1941,
+        "pages": 152,
+        "summary": "La boca pobre es una sátira feroz de Flann O'Brien sobre la idealización romántica de la pobreza rural irlandesa y sobre ciertos clichés del nacionalismo cultural. El narrador, Bonaparte O'Coonassa, cuenta su vida en una región miserable donde el hambre, la lluvia, el barro y la escasez se vuelven rutina, pero también espectáculo literario. La novela exagera a propósito los tópicos del campesinado sufrido, del idioma gaélico elevado a emblema y de la autenticidad entendida como miseria heroica. Bajo su comicidad disparatada, el libro desmonta discursos que convierten el sufrimiento en símbolo noble. Por eso funciona a la vez como parodia lingüística, crítica cultural y gran ejercicio de humor negro.",
+        "aboutThisBook": "Publicada originalmente en 1941 en irlandés con el título An Béal Bocht y firmada por Myles na gCopaleen, la novela ocupa un lugar central en la literatura irlandesa del siglo XX. La edición española reciente de Nórdica la presenta como una de las obras más brillantes y divertidas del autor. Su importancia reside en que satiriza tanto la literatura gaélica sentimental como la explotación ideológica de la identidad rural, sin perder nunca el ritmo cómico.",
+        "forWhom": "Para lectores adultos interesados en clásicos modernos, sátira literaria, literatura irlandesa y novelas breves que usan el humor para criticar mitos culturales y políticos.",
+        "whyItMatters": "Importa porque revela cómo una comunidad puede convertir la pobreza en emblema y cómo la literatura puede desenmascarar ese gesto. O'Brien ridiculiza la autenticidad impostada y muestra que detrás del folclore exaltado hay hambre real, lenguaje manipulado y mucha violencia simbólica.",
+        "editorialIntro": "Entrar en La boca pobre es aceptar una voz narrativa que lleva la exageración hasta el delirio. Todo parece empobrecido al máximo: el clima, la comida, las casas, los cuerpos y hasta las expectativas. Pero esa acumulación no busca solo provocar risa. Flann O'Brien la utiliza para desmontar la mirada complaciente con la que ciertos discursos culturales contemplaron la Irlanda rural. El libro es breve, muy ingenioso y más punzante de lo que su tono juguetón deja ver al principio.",
+        "readingLevel": "Lectura media-alta: la trama es breve, pero la ironía constante, la parodia cultural y el contexto irlandés enriquecen mucho la experiencia si se leen con atención.",
+        "whyReadToday": "Sigue siendo actual porque cuestiona la romantización de la pobreza y la fabricación de identidades culturales simplificadas para consumo político o sentimental.",
+        "studyNotes": [
+          "Bonaparte O'Coonassa narra su miseria con una seriedad exagerada que vuelve cómico todo el relato.",
+          "La novela parodia obras y discursos que presentaban la vida gaélica rural como esencia pura de Irlanda.",
+          "El humor negro convive con una crítica real a la pobreza material y a su explotación simbólica.",
+          "El idioma y la traducción son claves: el libro nació en irlandés y juega con la tradición literaria gaélica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Nacer en la miseria",
+            "summary": "Bonaparte presenta su infancia en un entorno donde la pobreza extrema parece ley natural. El relato acumula hambre, lluvia, suciedad y fatalidad de manera hiperbólica, dejando claro desde el inicio que la novela trabaja como parodia de la vida rural idealizada."
+          },
+          {
+            "title": "Parte 2: Aprender la lógica del absurdo",
+            "summary": "A medida que Bonaparte crece, conoce personajes, costumbres y situaciones cada vez más disparatadas. La comunidad convierte el sufrimiento cotidiano en marca de autenticidad, y el narrador describe con aparente naturalidad episodios que revelan el absurdo del sistema social y cultural que lo rodea."
+          },
+          {
+            "title": "Parte 3: La sátira se vuelve crítica cultural",
+            "summary": "En el tramo final, la comicidad intensifica su ataque contra los tópicos del gaelicismo sentimental y de la pobreza ennoblecida. El libro termina dejando la impresión de que la miseria no dignifica por sí sola y de que los discursos sobre la pureza cultural pueden esconder una profunda ceguera."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Parodia de la Irlanda auténtica",
+            "content": "O'Brien toma los elementos asociados a la Irlanda rural auténtica y los exagera hasta volverlos ridículos. Así demuestra que la autenticidad cultural, cuando se idealiza sin matices, puede convertirse en caricatura."
+          },
+          {
+            "heading": "Humor negro y denuncia",
+            "content": "La novela hace reír, pero no trivializa la miseria. Al contrario, usa el humor negro para mostrar la distancia entre el sufrimiento real y su explotación retórica en ciertos relatos culturales."
+          },
+          {
+            "heading": "Lengua, identidad y artificio",
+            "content": "Que el libro se escribiera en irlandés no es un dato accesorio. La obra discute desde dentro la relación entre lengua, identidad nacional y literatura, cuestionando la idea de que el idioma garantice por sí mismo verdad o pureza."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La boca pobre es una novela cómica?",
+            "answer": "Sí, pero su comicidad es satírica y muy ácida. Hace reír mientras desmonta tópicos sobre la pobreza rural y la identidad irlandesa."
+          },
+          {
+            "question": "¿Hace falta conocer la literatura irlandesa para leerla?",
+            "answer": "No es imprescindible, aunque saber que parodia la idealización de la vida gaélica ayuda a captar mejor muchos matices."
+          },
+          {
+            "question": "¿Es una defensa de la vida humilde tradicional?",
+            "answer": "Más bien lo contrario: critica la tendencia a convertir la miseria en símbolo noble o en mercancía cultural."
+          },
+          {
+            "question": "¿Por qué es importante dentro de la obra de Flann O'Brien?",
+            "answer": "Porque concentra su humor verbal, su gusto por el absurdo y su capacidad para convertir una burla literaria en crítica cultural de gran alcance."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Nórdica Libros — La boca pobre",
+            "url": "https://nordicalibros.com/product/la-boca-pobre/"
+          },
+          {
+            "label": "Agapea — La boca pobre (edición Nórdica 2023)",
+            "url": "https://www.agapea.com/Antonio-Rivero-Taravillo/La-boca-pobre-NE-2023-9788419735195-i.htm"
+          },
+          {
+            "label": "Wikipedia — An Béal Bocht",
+            "url": "https://en.wikipedia.org/wiki/An_B%C3%A9al_Bocht"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-cabeza-del-cordero-de-francisco-ayala",
+      "title": "La Cabeza Del Cordero",
+      "authorName": "Francisco Ayala",
+      "authorSlug": "francisco-ayala",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La cabeza del cordero",
+        "authorName": "Francisco Ayala",
+        "authorSlug": "francisco-ayala",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1949,
+        "pages": 216,
+        "summary": "La cabeza del cordero reúne varias novelas cortas de Francisco Ayala atravesadas por la Guerra Civil española y por sus secuelas morales. Más que ofrecer épica de combate, el libro se concentra en la fractura íntima que deja el conflicto: el miedo, la culpa, el exilio, la sospecha y la imposibilidad de regresar intacto a la vida anterior. Los relatos exploran situaciones concretas y personajes distintos, pero todos revelan un mismo desgarro histórico. Ayala evita el esquematismo partidista y prefiere examinar cómo la violencia altera la conciencia, la memoria y las relaciones humanas. El resultado es un volumen esencial para leer la guerra desde la complejidad ética, no desde la simplificación ideológica.",
+        "aboutThisBook": "El libro apareció en 1949, durante el exilio argentino de Ayala, y en su primera edición reunió cuatro novelas cortas: El mensaje, El Tajo, El regreso y la que da título al volumen. En 1962 se añadió La vida por la opinión. La Fundación Francisco Ayala y la Wikipedia en español coinciden en subrayar que se trata de un conjunto decisivo para entender la reflexión narrativa del autor sobre la Guerra Civil y sus consecuencias personales y colectivas.",
+        "forWhom": "Para lectores adultos, estudiantes de literatura española del siglo XX y quienes busquen relatos breves pero densos sobre guerra, memoria, exilio y responsabilidad moral.",
+        "whyItMatters": "Importa porque Ayala evita convertir la Guerra Civil en consigna. Sus relatos muestran heridas psicológicas, dilemas de conciencia y zonas grises que siguen siendo claves para comprender la literatura española del exilio y la memoria del conflicto.",
+        "editorialIntro": "La cabeza del cordero no debe leerse como un simple libro de relatos sobre la Guerra Civil, sino como un laboratorio narrativo donde Francisco Ayala examina cómo la historia entra en la intimidad. Cada pieza ofrece una situación distinta, pero todas comparten la misma pregunta: qué queda de una persona cuando la violencia política rompe sus vínculos, su identidad y su sentido de pertenencia. Esa sobriedad analítica es una de las grandes fuerzas del volumen.",
+        "readingLevel": "Lectura media-alta: los relatos son accesibles en extensión, pero exigen atención a la dimensión moral, al contexto histórico del exilio y a los matices psicológicos de cada situación.",
+        "whyReadToday": "Vale la pena leerlo hoy porque ofrece una mirada compleja sobre guerra civil, polarización y memoria sin caer en simplificaciones fáciles ni en sentimentalismo.",
+        "studyNotes": [
+          "El volumen nació en el exilio argentino de Ayala y eso condiciona su mirada sobre España y la guerra.",
+          "No es una obra unitaria en argumento, pero sí en tema: la Guerra Civil y sus secuelas morales.",
+          "La edición de 1962 añadió La vida por la opinión a los cuatro relatos iniciales.",
+          "Ayala privilegia la ambigüedad ética y la observación psicológica sobre la propaganda o la épica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El mensaje y El Tajo",
+            "summary": "Los primeros relatos sitúan al lector en un mundo alterado por la violencia y por la incertidumbre moral. Ayala muestra cómo incluso los gestos aparentemente simples quedan contaminados por el contexto bélico y por el miedo."
+          },
+          {
+            "title": "Parte 2: El regreso",
+            "summary": "El motivo del retorno revela que volver no equivale a recuperar lo perdido. La guerra ha transformado lugares, relaciones y conciencias, y el personaje que intenta reintegrarse descubre una distancia casi insalvable entre pasado y presente."
+          },
+          {
+            "title": "Parte 3: La cabeza del cordero y la ampliación posterior",
+            "summary": "El relato que da título al libro concentra de forma especialmente intensa los temas de culpa, sacrificio y memoria herida. La incorporación posterior de La vida por la opinión amplía el mapa moral del volumen y confirma la continuidad temática del conjunto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La guerra como problema moral",
+            "content": "Ayala no reduce la guerra a enfrentamiento militar. Le interesa cómo la violencia reorganiza la conciencia, deforma las lealtades y obliga a vivir entre culpa, miedo y justificación."
+          },
+          {
+            "heading": "Exilio y mirada narrativa",
+            "content": "Escrito en el exilio, el libro combina distancia y lucidez. Esa posición permite a Ayala observar el conflicto español sin inmediatez panfletaria y con una atención especial a sus consecuencias duraderas."
+          },
+          {
+            "heading": "Unidad temática en forma de relatos",
+            "content": "Aunque está compuesto por novelas cortas autónomas, el volumen funciona como un conjunto coherente. La repetición de motivos y dilemas construye una visión global de la fractura civil y de sus residuos en la vida cotidiana."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro de relatos?",
+            "answer": "Es un libro de novelas cortas o relatos largos reunidos en un mismo volumen y articulados por un tema común."
+          },
+          {
+            "question": "¿Qué tema domina la obra?",
+            "answer": "La Guerra Civil española y, sobre todo, sus consecuencias éticas, psicológicas y sociales en los individuos."
+          },
+          {
+            "question": "¿La edición original tenía cinco relatos?",
+            "answer": "No. La primera edición de 1949 tenía cuatro; en 1962 se añadió La vida por la opinión."
+          },
+          {
+            "question": "¿Por qué se considera importante en Ayala?",
+            "answer": "Porque condensa su forma de narrar la historia desde la complejidad moral y ocupa un lugar central dentro de su narrativa del exilio."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library",
+            "url": "https://openlibrary.org/works/OL913664W/La_cabeza_del_cordero"
+          },
+          {
+            "label": "Wikipedia en español — La cabeza del cordero",
+            "url": "https://es.wikipedia.org/wiki/La_cabeza_del_cordero"
+          },
+          {
+            "label": "Agapea — La cabeza del cordero (Alianza)",
+            "url": "https://www.agapea.com/libros/La-cabeza-del-cordero-9788420638102-i.htm"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-caligrafia-secreta-de-cesar-mallorqui",
+      "title": "La Caligrafia Secreta",
+      "authorName": "Cesar Mallorqui",
+      "authorSlug": "cesar-mallorqui",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La caligrafía secreta",
+        "authorName": "César Mallorquí",
+        "authorSlug": "cesar-mallorqui",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "aventura",
+          "novela-historica"
+        ],
+        "year": 2007,
+        "pages": 287,
+        "summary": "La caligrafía secreta es una novela juvenil de César Mallorquí ambientada en 1789, en pleno estallido de la Revolución francesa. La desaparición de un viejo amigo, el hallazgo de una escritura que oculta un secreto peligroso y la irrupción de la violencia política empujan a los protagonistas a una investigación donde se mezclan aventura, conspiración y aprendizaje. Mallorquí utiliza el contexto revolucionario no solo como decorado, sino como fuerza que altera vidas, ideas y lealtades. El libro combina ritmo ágil, misterio y trasfondo histórico, con una atención constante al miedo, la incertidumbre y el descubrimiento. Por eso funciona muy bien como puerta de entrada a la novela histórica para lectores jóvenes.",
+        "aboutThisBook": "La primera edición apareció en 2007 en SM y una reedición salió en 2018 dentro de Gran Angular. Las fichas de Agapea señalan el marco de 1789, el secreto escondido en una caligrafía y el tono de intriga de la obra. Dentro de la trayectoria de Mallorquí, destaca como ejemplo claro de su habilidad para unir aventura juvenil, documentación histórica y suspense narrativo sin perder claridad ni dinamismo.",
+        "forWhom": "Para lectores juveniles desde secundaria, clubes de lectura escolares y adultos que busquen una novela histórica accesible con misterio, ritmo y contexto revolucionario bien integrado.",
+        "whyItMatters": "Importa porque acerca un momento histórico complejo a lectores jóvenes mediante una trama de secretos y peligro. Demuestra, además, que la novela juvenil puede trabajar con contexto político, tensión moral y ambientación histórica sin renunciar al entretenimiento.",
+        "editorialIntro": "César Mallorquí sitúa la acción en un año decisivo: 1789. Pero en lugar de construir una lección de historia disfrazada, levanta una aventura en la que cada pista, cada desaparición y cada gesto de violencia están conectados con un mundo que se desmorona y otro que apenas empieza. La novela avanza con rapidez, aunque su mejor virtud está en cómo hace sentir que la Historia grande entra de golpe en la vida privada y la vuelve irreconocible.",
+        "readingLevel": "Lectura media: la prosa es clara y muy narrativa, adecuada para lectores juveniles, aunque el contexto de la Revolución francesa añade capas históricas que enriquecen la lectura.",
+        "whyReadToday": "Sigue siendo recomendable porque combina placer narrativo e imaginación histórica, y porque muestra a lectores jóvenes cómo una crisis política transforma amistades, miedos y decisiones personales.",
+        "studyNotes": [
+          "La novela se ambienta en 1789 y usa la Revolución francesa como motor real de la intriga.",
+          "El secreto escondido en la caligrafía articula el suspense y conecta escritura con poder.",
+          "Mallorquí combina aventura e historia sin convertir el libro en una novela escolar rígida.",
+          "La reedición de 2018 confirma la continuidad del libro dentro del catálogo juvenil de SM."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Un año que cambia el mundo",
+            "summary": "La novela presenta el escenario de 1789 y sitúa a los personajes en medio de una Europa convulsa. La desaparición de un viejo amigo y la aparición de señales extrañas ponen en marcha una investigación marcada por la tensión política."
+          },
+          {
+            "title": "Parte 2: El secreto de la escritura",
+            "summary": "El hallazgo de una caligrafía que esconde información decisiva convierte la aventura en un enigma. Los protagonistas deben descifrar pistas mientras crecen el miedo, la sospecha y el riesgo de quedar atrapados por fuerzas históricas mayores que ellos."
+          },
+          {
+            "title": "Parte 3: Revolución, peligro y revelación",
+            "summary": "En la recta final, la intriga personal y la agitación revolucionaria convergen. El secreto deja de ser una curiosidad y se vuelve una amenaza concreta, obligando a los personajes a elegir entre supervivencia, lealtad y verdad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Aventura histórica para lectores jóvenes",
+            "content": "Mallorquí domina un equilibrio difícil: mantener el ritmo de aventura y, al mismo tiempo, dar espesor histórico al mundo narrado. Esa combinación explica buena parte de la eficacia del libro."
+          },
+          {
+            "heading": "La escritura como clave de poder",
+            "content": "La caligrafía secreta no es un mero adorno del título. La novela convierte la escritura escondida en símbolo de conocimiento, peligro y control de la información, uniendo así cultura material e intriga."
+          },
+          {
+            "heading": "La Revolución francesa desde lo cercano",
+            "content": "En vez de narrar grandes líderes y grandes discursos, el libro muestra cómo un cambio histórico afecta amistades, temores y decisiones concretas. Esa escala humana facilita la entrada del lector juvenil en el periodo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica o de misterio?",
+            "answer": "Es ambas cosas: una aventura histórica juvenil sostenida por un enigma central y por una investigación peligrosa."
+          },
+          {
+            "question": "¿Hace falta saber mucho sobre la Revolución francesa?",
+            "answer": "No. El libro introduce el contexto de manera gradual, de modo que puede leerse sin conocimientos previos."
+          },
+          {
+            "question": "¿Qué edad lectora encaja mejor?",
+            "answer": "Funciona muy bien para lectores juveniles de secundaria en adelante, aunque también puede gustar a adultos que disfruten la novela histórica ágil."
+          },
+          {
+            "question": "¿Qué rasgo destaca de Mallorquí en esta obra?",
+            "answer": "Su capacidad para enlazar documentación histórica, claridad narrativa y suspense sin perder accesibilidad."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Agapea — La caligrafía secreta (SM, 2007)",
+            "url": "https://www.agapea.com/libros/La-caligrafia-secreta-9788467516982-i.htm"
+          },
+          {
+            "label": "Agapea — La caligrafía secreta (Gran Angular, 2018)",
+            "url": "https://www.agapea.com/Ca-sar-Mallorqua-/La-caligrafia-secreta-9788491079781-i.htm"
+          },
+          {
+            "label": "Wikipedia en español — César Mallorquí",
+            "url": "https://es.wikipedia.org/wiki/C%C3%A9sar_Mallorqu%C3%AD"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-21T03:57:46Z"
+}

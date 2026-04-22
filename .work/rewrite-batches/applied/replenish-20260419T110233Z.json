@@ -1,0 +1,1521 @@
+{
+  "batchName": "replenish-20260419T110233Z",
+  "createdAt": "2026-04-19T11:02:41Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "camino-a-cana-de-anne-rice",
+      "title": "Camino A Cana",
+      "authorName": "Anne Rice",
+      "authorSlug": "anne-rice",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Camino a Caná",
+        "authorName": "Anne Rice",
+        "authorSlug": "anne-rice",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 2008,
+        "pages": 336,
+        "summary": "Camino a Caná es la segunda novela del ciclo religioso que Anne Rice dedicó a la vida de Jesús. La obra imagina el paso entre la vida oculta de Nazaret y el comienzo de la misión pública, y lo hace desde una perspectiva íntima, atenta a la vida familiar, a la espera mesiánica y a la tensión entre humanidad y destino sagrado. Rice presenta a Jesús como una figura rodeada de rumores, preguntas y expectativas, mientras el mundo político de Judea y Galilea permanece bajo presión romana. El libro articula episodios evangélicos como Caná, el bautismo y la tentación en el desierto para explorar vocación, obediencia, duda, compasión y responsabilidad espiritual.",
+        "aboutThisBook": "Publicada originalmente en 2008 como Christ the Lord: The Road to Cana, esta novela continúa el proyecto con el que Anne Rice quiso narrar la vida de Cristo en clave narrativa y documentada. No es una recreación devocional simple ni una novela histórica convencional: combina investigación sobre el contexto judío y romano con una voz introspectiva que busca volver legible la dimensión humana de Jesús sin perder la referencia bíblica.",
+        "forWhom": "Para lectores adultos interesados en novela religiosa, reescrituras bíblicas, ficción histórica sobre el mundo antiguo y debates literarios sobre cómo representar a Jesús sin reducirlo ni al dogma ni al mero personaje novelesco.",
+        "whyItMatters": "Importa porque muestra un giro singular dentro de la trayectoria de Anne Rice y porque plantea una pregunta literaria exigente: cómo narrar la conciencia de una figura sagrada dentro de una novela contemporánea sin vaciar su densidad espiritual.",
+        "editorialIntro": "Dentro de la obra de Anne Rice, este libro ocupa un lugar poco habitual y por eso mismo muy interesante. Lejos del gótico por el que se hizo famosa, aquí ensaya una prosa más contenida para pensar la infancia tardía y el umbral público de Jesús. El resultado es una novela de imaginación reverente, ambición histórica y fuerte carga meditativa, útil para lectores que quieran comparar literatura, tradición evangélica y construcción narrativa.",
+        "readingLevel": "Lectura de nivel medio a alto para público adulto. Aunque el estilo es claro, el libro gana profundidad si el lector reconoce referencias evangélicas, contexto histórico de Judea y la dimensión simbólica de los episodios que la novela reelabora.",
+        "whyReadToday": "Sigue siendo pertinente para quienes buscan novelas que dialoguen con la tradición religiosa desde la ficción seria y para entender una etapa poco conocida de la producción tardía de Anne Rice.",
+        "studyNotes": [
+          "Conviene leerla como una novela de reescritura bíblica: no sustituye a los Evangelios, sino que imagina transiciones emocionales, domésticas e históricas entre episodios conocidos.",
+          "El interés principal no está en la sorpresa argumental, sino en cómo Rice articula humanidad, conciencia mesiánica y vida cotidiana en un personaje de enorme peso simbólico.",
+          "La obra puede compararse con otras ficciones sobre Jesús para discutir límites éticos y estéticos de representar literariamente una figura sagrada.",
+          "También ilumina la evolución de Anne Rice desde la ficción gótica hacia una narrativa de tema religioso y tono reflexivo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Nazaret y la espera silenciosa",
+            "summary": "La novela se detiene en la vida familiar y comunitaria de Jesús antes de la plenitud de su misión. En ese marco aparecen el trabajo, los lazos domésticos y la expectativa de quienes intuyen que su destino no será ordinario."
+          },
+          {
+            "title": "Rumores, signos y presión del entorno",
+            "summary": "A medida que crece la tensión espiritual del relato, los rumores sobre el origen y la identidad de Jesús adquieren más peso. Rice explora cómo esa expectativa afecta a la familia, a los allegados y al propio protagonista."
+          },
+          {
+            "title": "Desierto, prueba y obediencia",
+            "summary": "Los episodios vinculados al bautismo y a la tentación permiten a la autora pensar la vocación como combate interior. La misión no aparece como triunfo inmediato, sino como aceptación dolorosa de un mandato superior."
+          },
+          {
+            "title": "Caná como umbral de la vida pública",
+            "summary": "El signo de las bodas de Caná se presenta como momento de revelación y de paso. El milagro no funciona solo como prodigio, sino como escena en que la intimidad familiar se abre por fin a una dimensión pública e histórica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela bíblica desde la interioridad",
+            "content": "Rice no se limita a ilustrar episodios conocidos, sino que intenta construir una vida interior para Jesús. Ese gesto vuelve la novela arriesgada y valiosa: su centro está en la conciencia, la espera y la obediencia, no solo en la reconstrucción externa del pasado."
+          },
+          {
+            "heading": "Historia, fe y ficción",
+            "content": "El libro trabaja en la frontera entre la documentación histórica y la imaginación narrativa. Judea aparece bajo control romano, con tensiones religiosas y sociales reconocibles, pero el interés último es cómo ese marco histórico intensifica el drama espiritual del protagonista."
+          },
+          {
+            "heading": "El lugar de Camino a Caná dentro de Anne Rice",
+            "content": "Leer esta novela junto con la obra gótica de Rice permite medir un desplazamiento notable de registros. Persisten su gusto por la introspección y la intensidad emocional, pero ahora puestos al servicio de una ficción reverente, menos barroca y más meditativa."
+          },
+          {
+            "heading": "El milagro como problema narrativo",
+            "content": "Uno de los logros del libro consiste en presentar el milagro no como simple espectacularidad, sino como decisión, signo y punto de no retorno. Caná concentra el paso de una existencia protegida a una misión de alcance colectivo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Camino a Caná es una novela independiente?",
+            "answer": "Puede leerse por sí sola, pero gana mucho si se conoce que forma parte de la serie Christ the Lord y continúa la exploración que Rice había iniciado en Out of Egypt."
+          },
+          {
+            "question": "¿Es una novela histórica o religiosa?",
+            "answer": "Es ambas cosas en cierta medida. Usa recursos de novela histórica para situar Judea y Galilea en su contexto, pero su impulso principal es religioso y meditativo, centrado en la figura de Jesús."
+          },
+          {
+            "question": "¿La autora sigue fielmente los Evangelios?",
+            "answer": "Rice parte de los Evangelios y del estudio histórico, pero llena con imaginación narrativa los silencios, transiciones y motivaciones que el texto bíblico no desarrolla como una novela."
+          },
+          {
+            "question": "¿Por qué interesa dentro de la carrera de Anne Rice?",
+            "answer": "Porque muestra una etapa tardía muy distinta de sus libros góticos más famosos y permite ver cómo trasladó su intensidad narrativa a una ficción explícitamente cristiana."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Christ the Lord: The Road to Cana",
+            "url": "https://en.wikipedia.org/wiki/Christ_the_Lord%3A_The_Road_to_Cana"
+          },
+          {
+            "label": "Open Library: Christ the Lord: The Road to Cana",
+            "url": "https://openlibrary.org/works/OL15176751W"
+          },
+          {
+            "label": "Open Library edición 2008 de Christ the Lord: The Road to Cana",
+            "url": "https://openlibrary.org/books/OL36702884M/Christ_the_Lord"
+          },
+          {
+            "label": "Google Play Books: Camino a Caná (El Mesías 2)",
+            "url": "https://play.google.com/store/books/details?id=pu93CwAAQBAJ"
+          },
+          {
+            "label": "Britannica: Anne Rice",
+            "url": "https://www.britannica.com/biography/Anne-Rice"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cartas-de-relacion-de-hernan-cortes",
+      "title": "Cartas De Relacion",
+      "authorName": "Hernan Cortes",
+      "authorSlug": "hernan-cortes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cartas de relación",
+        "authorName": "Hernán Cortés",
+        "authorSlug": "hernan-cortes",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 1524,
+        "pages": null,
+        "summary": "Cartas de relación reúne las cartas que Hernán Cortés dirigió a Carlos V para informar, justificar y dar forma política a su empresa en México. Más que un simple testimonio, el conjunto es una pieza de autolegitimación en la que el conquistador narra ciudades, alianzas, combates, riquezas y tensiones con la Corona mientras construye una imagen de sí mismo como servidor eficaz y estratega providencial. Su interés no reside solo en lo que cuenta sobre la caída de México-Tenochtitlan, sino en cómo lo cuenta: con una prosa que mezcla descripción, argumentación política y cálculo retórico. Son textos fundamentales para estudiar la conquista, la escritura del poder y la fabricación temprana del archivo colonial.",
+        "aboutThisBook": "Las cartas fueron escritas entre 1519 y 1526 y circularon pronto en Europa, donde alimentaron el conocimiento y la imaginación sobre el Nuevo Mundo. Aunque hoy suelen leerse como fuente histórica, también son un artefacto literario y político muy consciente de su destinatario. Cortés escribe para persuadir al emperador, defender decisiones discutibles, reclamar méritos y fijar una interpretación de los hechos antes de que otros lo hagan por él.",
+        "forWhom": "Para lectores adultos de historia, literatura colonial, estudios latinoamericanos y teoría del poder, así como para estudiantes que necesiten una fuente primaria decisiva sobre la conquista de México y sobre la retórica imperial del siglo XVI.",
+        "whyItMatters": "Importa porque permite observar la conquista no como relato cerrado, sino como discurso en disputa. Leer estas cartas hoy obliga a pensar simultáneamente en violencia, propaganda, mirada europea, mediación escrita y nacimiento del orden colonial.",
+        "editorialIntro": "Pocos textos del siglo XVI americano resultan tan influyentes y tan problemáticos como estas cartas. En ellas, Hernán Cortés no solo informa: selecciona, ordena y argumenta para convertir una campaña militar en un relato políticamente defendible ante la monarquía. Ese doble valor, documental y retórico, hace de Cartas de relación una lectura central para entender tanto la conquista de México como la escritura temprana del imperio español.",
+        "readingLevel": "Lectura exigente para público adulto o universitario. El valor del texto aumenta con algún apoyo histórico y crítico, porque su sintaxis, su horizonte político y sus silencios requieren contextualización para una comprensión plena.",
+        "whyReadToday": "Porque sigue siendo una fuente insustituible para analizar cómo se narran la conquista, la legitimidad política y la violencia cuando quien escribe es también uno de sus principales agentes.",
+        "studyNotes": [
+          "Debe leerse como fuente primaria interesada: informa mucho, pero siempre desde la perspectiva de un actor que necesita justificarse ante la Corona.",
+          "La Segunda carta es especialmente famosa por la descripción de Tenochtitlan y por la manera en que convierte la observación urbana en argumento de admiración y dominio.",
+          "Las cartas permiten comparar hechos narrados por Cortés con crónicas indígenas, mestizas y posteriores para detectar omisiones, énfasis y maniobras de legitimación.",
+          "Son también un excelente caso de estudio sobre relación entre escritura, autoridad y expansión imperial en la temprana modernidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera carta y marco de la empresa",
+            "summary": "El conjunto se abre con la necesidad de presentar la expedición y fijar una versión inicial de los acontecimientos. Desde el comienzo, la escritura funciona como instrumento político para convertir una acción incierta en servicio digno de recompensa."
+          },
+          {
+            "title": "Segunda carta: Tenochtitlan y el momento decisivo",
+            "summary": "La Segunda carta concentra el pasaje más estudiado del corpus. Cortés describe el mundo mexica, la capital y la complejidad del territorio con una mezcla de asombro, cálculo diplomático y voluntad de apropiación simbólica."
+          },
+          {
+            "title": "Tercera carta: guerra y reorganización",
+            "summary": "Tras la ruptura abierta del equilibrio político, la narración se desplaza hacia el conflicto militar y la consolidación del dominio español. La prosa insiste en estrategia, resistencia, castigo y restitución del orden bajo autoridad castellana."
+          },
+          {
+            "title": "Cartas finales: gobierno, exploración y méritos",
+            "summary": "Las cartas posteriores amplían el foco hacia el gobierno del territorio, nuevas expediciones y defensa del prestigio personal de Cortés. El conquistador intenta asegurar que su papel histórico quede inscrito como indispensable y legítimo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Documento histórico y alegato político",
+            "content": "Las Cartas de relación valen por los datos que aportan, pero sobre todo por la forma interesada en que esos datos están organizados. Cortés selecciona hechos, enmarca decisiones y administra silencios para persuadir a Carlos V de la utilidad y legalidad de su conducta."
+          },
+          {
+            "heading": "La mirada imperial sobre México",
+            "content": "La descripción de ciudades, mercados, templos y jerarquías indígenas combina admiración genuina con una lógica de apropiación. El texto registra la complejidad del mundo mexica, pero lo traduce a categorías europeas que facilitan su dominación y administración."
+          },
+          {
+            "heading": "Retórica del yo conquistador",
+            "content": "Cortés construye una imagen de sí mismo como capitán prudente, obediente y excepcional. Esa autofiguración es clave para entender por qué el libro no puede leerse como testimonio neutral: su autor narra la historia mientras disputa honores, legitimidad y memoria."
+          },
+          {
+            "heading": "Lectura contemporánea y crítica colonial",
+            "content": "Hoy estas cartas se leen también contra sí mismas, es decir, atendiendo a lo que ocultan o minimizan: la violencia estructural, la destrucción de órdenes locales y la asimetría radical del proceso colonial. Su valor crece cuando se contrastan con otras voces del periodo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Cuántas cartas forman Cartas de relación?",
+            "answer": "Tradicionalmente se habla de cinco cartas dirigidas a Carlos V entre 1519 y 1526, aunque la transmisión textual y editorial del corpus tiene matices que suelen estudiarse en ediciones críticas."
+          },
+          {
+            "question": "¿Son literatura o historia?",
+            "answer": "Son ambas cosas. Funcionan como fuente histórica primaria, pero su eficacia depende de decisiones retóricas, descripciones construidas y una clara voluntad de persuasión política."
+          },
+          {
+            "question": "¿Por qué se estudia tanto la Segunda carta?",
+            "answer": "Porque contiene una de las descripciones más influyentes de Tenochtitlan y porque permite ver con nitidez cómo Cortés mezcla observación, admiración y estrategia de dominio."
+          },
+          {
+            "question": "¿Se pueden leer sin contexto?",
+            "answer": "Sí, pero es preferible acompañarlas de notas o estudios introductorios. Sin contexto, el lector puede perder de vista la lógica colonial y la dimensión propagandística del texto."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Cartas de relación",
+            "url": "https://es.wikipedia.org/wiki/Cartas_de_relaci%C3%B3n"
+          },
+          {
+            "label": "Open Library: Cartas de relación",
+            "url": "https://openlibrary.org/works/OL3069686W"
+          },
+          {
+            "label": "Britannica: Hernán Cortés",
+            "url": "https://www.britannica.com/biography/Hernan-Cortes"
+          },
+          {
+            "label": "Open Library edición de Cartas de relación (Porrúa)",
+            "url": "https://openlibrary.org/books/OL22902138M/Cartas_de_relaci%C3%B3n"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cerbero-son-las-sombras-de-juan-jose-millas",
+      "title": "Cerbero Son Las Sombras",
+      "authorName": "Juan Jose Millas",
+      "authorSlug": "juan-jose-millas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cerbero son las sombras",
+        "authorName": "Juan José Millás",
+        "authorSlug": "juan-jose-millas",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 1975,
+        "pages": 143,
+        "summary": "Cerbero son las sombras es la primera novela de Juan José Millás y ya contiene varias de las obsesiones que luego marcarían su narrativa: la identidad quebrada, la extrañeza de lo cotidiano, la fragilidad psíquica y la dificultad de habitar el mundo social. El libro adopta la forma de una larga carta o monólogo dirigido al padre, desde donde un narrador joven intenta ordenar una experiencia de abandono, encierro y desajuste con la realidad. Más que contar una peripecia externa compleja, la novela va cercando una conciencia herida que oscila entre confesión, memoria e inquietud. Esa voz inestable convierte el relato en una exploración de la soledad, la culpa y los fantasmas interiores antes que en una historia de argumento tradicional.",
+        "aboutThisBook": "Ganadora del Premio Sésamo de 1974 y publicada en 1975, esta novela inaugural suele leerse como el punto de partida del universo literario de Millás. Su brevedad no implica sencillez: el texto trabaja con condensación, ambigüedad y una intensa subjetividad. La crítica y las reediciones posteriores la han vuelto relevante porque permite ver, desde el comienzo, cómo el autor transforma el malestar íntimo en forma narrativa.",
+        "forWhom": "Para lectores adultos interesados en la narrativa española contemporánea, en novelas breves de fuerte densidad psicológica y en obras donde la voz narradora importa más que la acción externa o la intriga clásica.",
+        "whyItMatters": "Importa porque inaugura uno de los mundos narrativos más singulares de la literatura española reciente y porque muestra, desde su primera entrega, la mezcla millasiana de intimidad, extrañeza y descomposición de la normalidad.",
+        "editorialIntro": "Leer Cerbero son las sombras es volver al momento en que Juan José Millás formula por primera vez su tono propio. La novela ya trabaja con un yo vulnerable, una realidad ligeramente corrida y una escritura que convierte la confesión en territorio inquietante. Su interés editorial no depende solo de ser un debut: vale por sí misma como pieza compacta, intensa y muy reveladora de una sensibilidad literaria que después alcanzaría gran reconocimiento.",
+        "readingLevel": "Lectura media-alta para público adulto. El lenguaje no es oscuro en exceso, pero la novela exige atención a la voz, a las ambigüedades y a la dimensión psicológica del relato más que a una trama lineal y transparente.",
+        "whyReadToday": "Porque sigue ofreciendo una entrada excelente a la obra de Millás y porque su retrato de la fragilidad subjetiva dialoga muy bien con sensibilidades contemporáneas sobre aislamiento, identidad y percepción alterada.",
+        "studyNotes": [
+          "La forma epistolar o de carta al padre es clave: organiza la confesión y convierte la novela en diálogo frustrado con una autoridad ausente.",
+          "El interés principal está en la construcción de una conciencia inestable; conviene atender menos a la anécdota externa y más al modo en que el narrador percibe y deforma su entorno.",
+          "Puede leerse como prefiguración de temas centrales de Millás: extrañeza cotidiana, identidad fragmentada y convivencia entre lo real y lo fantasmal.",
+          "La obtención del Premio Sésamo ayuda a situarla dentro del panorama de la narrativa española de los años setenta y del temprano reconocimiento del autor."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La carta como espacio de confesión",
+            "summary": "Desde el comienzo, la novela instala una voz que escribe al padre para intentar explicarse. Esa dirección epistolar introduce distancia, dependencia afectiva y la sensación de que toda la narración busca una respuesta que quizá nunca llegue."
+          },
+          {
+            "title": "Encierro, abandono y desajuste",
+            "summary": "En el tramo central se vuelve más visible la ruptura entre el narrador y su entorno. La experiencia de soledad no aparece solo como hecho social, sino como percepción deformada del mundo y de sí mismo."
+          },
+          {
+            "title": "Los fantasmas de la realidad cotidiana",
+            "summary": "La novela convierte lo común en algo inquietante. Más que recurrir a lo fantástico explícito, introduce una rareza persistente que hace dudar de la estabilidad de la experiencia narrada."
+          },
+          {
+            "title": "Una identidad que no logra cerrarse",
+            "summary": "Hacia el final, el relato no ofrece una reconciliación plena, sino una conciencia más desnuda de la fractura interior. Esa ausencia de cierre total refuerza la intensidad psicológica del libro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El padre como destinatario imposible",
+            "content": "La elección de un padre como receptor del discurso no es un simple detalle argumental. Organiza la novela como búsqueda de validación, ajuste de cuentas y confesión ante una figura cuya distancia intensifica el desamparo del narrador."
+          },
+          {
+            "heading": "La rareza de lo cotidiano",
+            "content": "Millás empieza aquí a desarrollar una de sus marcas más reconocibles: mostrar que la vida ordinaria puede resultar extraña, casi irreal, cuando la conciencia que la atraviesa está dañada. La inquietud nace menos de hechos extraordinarios que de una percepción descentrada."
+          },
+          {
+            "heading": "Brevedad y densidad psicológica",
+            "content": "La novela es corta, pero trabaja con fuerte concentración verbal y afectiva. Cada episodio importa por su resonancia interior, de modo que el libro exige una lectura atenta a silencios, repeticiones y desplazamientos emocionales."
+          },
+          {
+            "heading": "Un debut que ya contiene un mundo narrativo",
+            "content": "Cerbero son las sombras interesa también porque anticipa buena parte de la obra posterior de Millás. El lector reconoce aquí el germen de su reflexión sobre identidad, desamparo y fractura entre apariencia social y vida íntima."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es realmente la primera novela de Juan José Millás?",
+            "answer": "Sí. Las reediciones y descripciones editoriales la presentan como la primera novela del autor y como el arranque visible de su trayectoria narrativa."
+          },
+          {
+            "question": "¿De qué depende su dificultad?",
+            "answer": "No depende de una trama complicada, sino de la intensidad de la voz narradora y de la ambigüedad psicológica. El lector debe seguir una conciencia inestable más que una acción lineal."
+          },
+          {
+            "question": "¿Es una novela fantástica?",
+            "answer": "No en sentido estricto. Lo que predomina es una atmósfera de extrañeza y perturbación de la realidad cotidiana, más cercana a la inquietud psicológica que al fantástico clásico."
+          },
+          {
+            "question": "¿Por qué conviene leerla hoy?",
+            "answer": "Porque permite entrar en la obra de Millás desde su origen y porque su tratamiento del aislamiento, la fragilidad del yo y la percepción distorsionada sigue siendo muy actual."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Play Books: Cerbero son las sombras",
+            "url": "https://play.google.com/store/books/details?id=Ia7smxDf750C"
+          },
+          {
+            "label": "Open Library: Cerbero son las sombras",
+            "url": "https://openlibrary.org/works/OL833218W"
+          },
+          {
+            "label": "Open Library edición de 1975 de Cerbero son las sombras",
+            "url": "https://openlibrary.org/books/OL4788292M/Cerbero_son_las_sombras"
+          },
+          {
+            "label": "Wikipedia: Juan José Millás",
+            "url": "https://es.wikipedia.org/wiki/Juan_Jos%C3%A9_Mill%C3%A1s"
+          },
+          {
+            "label": "Open Library edición Alfaguara de 1989",
+            "url": "https://openlibrary.org/books/OL20782247M/Cerbero_son_las_sombras"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cicatriz-de-juan-gomez-jurado",
+      "title": "Cicatriz",
+      "authorName": "Juan Gomez Jurado",
+      "authorSlug": "juan-gomez-jurado",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cicatriz",
+        "authorName": "Juan Gómez-Jurado",
+        "authorSlug": "juan-gomez-jurado",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "ensayo",
+          "romance"
+        ],
+        "year": 2015,
+        "pages": 480,
+        "summary": "Cicatriz es un thriller contemporáneo que combina suspense tecnológico, manipulación emocional y crimen organizado. La novela sigue a Simón Sax, un joven brillante que está a punto de triunfar gracias a un algoritmo con enorme valor comercial, pero cuya vida personal es torpe y solitaria. Esa fragilidad lo vuelve especialmente vulnerable cuando conoce por internet a Irina, una mujer fascinante y enigmática marcada por una cicatriz visible y por un pasado oscuro. Lo que comienza como una historia de atracción y dependencia pronto se convierte en una red de secretos, vigilancia, chantaje y violencia. Gómez-Jurado construye así una narración de ritmo alto donde el amor idealizado funciona como puerta de entrada a un conflicto mucho más peligroso y global.",
+        "aboutThisBook": "Publicada originalmente en 2015 y reeditada en formato de bolsillo por Penguin, Cicatriz se sitúa en la línea de los thrillers de alta tensión de Juan Gómez-Jurado. El libro mezcla romance obsesivo, cultura digital, crimen internacional y giros narrativos constantes. Su punto de partida sentimental sirve para desplegar una intriga que reflexiona sobre la exposición íntima, la vulnerabilidad y el precio psicológico de la dependencia.",
+        "forWhom": "Recomendado para lectores adultos que disfrutan del thriller comercial bien dosificado, con capítulos ágiles, tensión sostenida y giros frecuentes. También interesa a quienes buscan novelas sobre relaciones peligrosas, identidad digital, manipulación y crimen contemporáneo. No es la mejor puerta de entrada para lectores muy jóvenes por su violencia y por la dureza de varias situaciones.",
+        "whyItMatters": "Importa porque convierte un miedo muy actual, la intimidad entregada a distancia, en motor de suspense. La novela muestra cómo la soledad, la idealización romántica y la tecnología pueden entrelazarse con estructuras de violencia mucho más amplias.",
+        "editorialIntro": "Juan Gómez-Jurado construye en Cicatriz una novela de entretenimiento muy eficaz, pero no puramente evasiva. Bajo su superficie de thriller veloz aparecen preguntas sobre la confianza, el deseo de ser visto por otro y la facilidad con que una vida aparentemente racional puede desordenarse cuando entra en juego una relación opaca. El resultado es una lectura absorbente y útil para discutir mecanismos narrativos del suspense actual.",
+        "readingLevel": "Lectura media. El estilo es directo y muy fluido, pero conviene cierta familiaridad con narraciones de suspense que administran información de forma estratégica. Ideal para lectores que ya sostienen novelas largas de ritmo rápido.",
+        "whyReadToday": "Sigue siendo pertinente porque dramatiza riesgos ligados a la vida digital, la exposición emocional en línea y la manipulación afectiva en entornos aparentemente privados.",
+        "studyNotes": [
+          "Observar cómo la novela transforma una relación virtual en dispositivo de suspense y no solo en subtrama romántica.",
+          "Analizar la oposición entre inteligencia técnica y fragilidad emocional en la construcción de Simón Sax.",
+          "Seguir el uso de la información parcial: el autor dosifica pasado, motivos y amenazas para mantener tensión continua.",
+          "Examinar la cicatriz como signo físico y simbólico: marca biográfica, pista narrativa y emblema del daño."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: éxito exterior, soledad interior",
+            "summary": "La novela presenta a Simón Sax como un joven con talento extraordinario para la tecnología y con perspectivas económicas brillantes, pero emocionalmente aislado. Ese contraste prepara el terreno para que una conexión afectiva aparentemente improbable altere toda su vida."
+          },
+          {
+            "title": "Encuentro con Irina y nacimiento de la obsesión",
+            "summary": "El vínculo digital con Irina crece con rapidez y desplaza el centro de gravedad de la historia. Lo que parecía una relación improbable se vuelve una dependencia intensa, alimentada por distancia, misterio y una idealización que impide a Simón calibrar el peligro real."
+          },
+          {
+            "title": "Revelaciones, crimen y escalada del riesgo",
+            "summary": "A medida que emergen secretos del pasado de Irina y conexiones con redes criminales, la novela abandona cualquier apariencia de romance convencional. El conflicto se amplía y el suspense pasa a depender de persecuciones, engaños y decisiones extremas."
+          },
+          {
+            "title": "Desenlace y costo moral",
+            "summary": "La resolución obliga a reconsiderar todo lo leído a la luz de las motivaciones reales de los personajes. El cierre subraya que el daño no es solo físico o criminal, sino también psicológico, afectivo y moral."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Tecnología e intimidad",
+            "content": "La novela aprovecha herramientas cotidianas del entorno digital para mostrar que la conexión permanente no equivale a conocimiento verdadero del otro. La red facilita la proximidad emocional, pero también la fabricación de identidades y la ocultación de intereses."
+          },
+          {
+            "heading": "El deseo como punto vulnerable",
+            "content": "Simón no cae por falta de inteligencia, sino por una mezcla de soledad, necesidad de reconocimiento y deseo de excepcionalidad amorosa. Ese enfoque evita una lectura simplista y vuelve más convincente el mecanismo de manipulación."
+          },
+          {
+            "heading": "Arquitectura del thriller",
+            "content": "Gómez-Jurado organiza la novela con capítulos breves, información restringida y revelaciones progresivas. El texto busca una lectura compulsiva, donde cada giro reordena lo anterior y obliga al lector a reinterpretar gestos, silencios y lealtades."
+          },
+          {
+            "heading": "La cicatriz como símbolo",
+            "content": "La marca de Irina no funciona solo como rasgo visual memorable. Resume una historia de violencia, supervivencia y opacidad, y convierte el cuerpo en archivo de un pasado que la trama va descifrando poco a poco."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Cicatriz es principalmente una novela romántica o un thriller?",
+            "answer": "Su punto de partida sentimental es importante, pero el libro funciona sobre todo como thriller. La relación entre Simón e Irina es el mecanismo que activa una trama de secretos, violencia y crimen."
+          },
+          {
+            "question": "¿Hace falta saber de tecnología para leerla?",
+            "answer": "No. Aunque el protagonista desarrolla un algoritmo y el mundo digital importa para la historia, la novela está escrita para un público amplio y prioriza la tensión narrativa sobre la explicación técnica."
+          },
+          {
+            "question": "¿Qué rasgo distingue esta novela dentro del thriller comercial español?",
+            "answer": "Su capacidad para unir un miedo contemporáneo muy reconocible, la vulnerabilidad íntima en línea, con una trama de suspense de gran ritmo y vocación claramente internacional."
+          },
+          {
+            "question": "¿Es adecuada para lectores jóvenes?",
+            "answer": "Por tono, violencia y complejidad moral encaja mejor en público adulto, aunque lectores juveniles avanzados habituados al thriller también pueden seguirla sin problema."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Juan Gómez-Jurado — página del libro Cicatriz",
+            "url": "https://juangomezjurado.com/libro/cicatriz/"
+          },
+          {
+            "label": "Penguin Libros — ficha de Cicatriz",
+            "url": "https://www.penguinlibros.com/es/novela-negra-misterio-y-thriller/231513-libro-cicatriz-9788413143231"
+          },
+          {
+            "label": "Wikipedia en español — Cicatriz (novela)",
+            "url": "https://es.wikipedia.org/wiki/Cicatriz_(novela)"
+          },
+          {
+            "label": "TodosTusLibros — Cicatriz",
+            "url": "https://www.todostuslibros.com/libros/a_9788413143231"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "comedia-purgatorio-de-dante-alighieri",
+      "title": "Comedia Purgatorio",
+      "authorName": "Dante Alighieri",
+      "authorSlug": "dante-alighieri",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Purgatorio",
+        "authorName": "Dante Alighieri",
+        "authorSlug": "dante-alighieri",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "teatro",
+          "poesia",
+          "clasicos"
+        ],
+        "year": 1321,
+        "pages": null,
+        "summary": "Purgatorio es la segunda cántica de la Divina Comedia y narra el ascenso de Dante por la montaña del purgatorio tras abandonar el infierno. Guiado primero por Virgilio, el peregrino atraviesa el antepurgatorio y después las siete cornisas donde las almas expían los pecados capitales en un proceso que no es ya de condena eterna, sino de purificación y aprendizaje moral. El tono cambia respecto al Infierno: sigue habiendo dolor, pero domina la esperanza. Cada encuentro ofrece una reflexión sobre libertad, responsabilidad, arrepentimiento, virtud y orden del amor. La obra culmina en el paraíso terrenal, donde la presencia de Beatriz marca una transición decisiva en el viaje espiritual del poema.",
+        "aboutThisBook": "Dentro de la arquitectura de la Divina Comedia, Purgatorio ocupa un lugar central porque transforma el descenso en ascenso. Es una obra poética de enorme densidad simbólica, organizada en cantos y episodios alegóricos, donde la pedagogía moral se articula mediante imágenes memorables, conversaciones con almas penitentes y una geografía del más allá cuidadosamente jerarquizada. Su lectura exige atención, pero recompensa con claridad intelectual y potencia lírica.",
+        "forWhom": "Indicado para lectores universitarios, docentes, estudiantes de literatura, filosofía o teología, y para cualquier lector adulto dispuesto a enfrentarse a un clásico exigente. Resulta especialmente valioso para quienes ya conocen el Infierno o desean entender la lógica completa de la Comedia. Conviene leerlo con notas o edición comentada si no se tiene experiencia previa con poesía medieval y alegoría cristiana.",
+        "whyItMatters": "Importa porque ofrece una de las representaciones más influyentes de la transformación moral en la literatura occidental. Frente al castigo sin salida del Infierno, aquí aparece la idea de que el ser humano puede reordenar su deseo, aprender y orientarse hacia el bien.",
+        "editorialIntro": "Leer Purgatorio hoy es entrar en una obra donde la poesía sirve como laboratorio moral. Dante no presenta una simple secuencia de castigos, sino un proceso de depuración interior en el que cada escena pregunta qué significa amar bien, recordar el daño, arrepentirse y cambiar. Su equilibrio entre doctrina, imaginación y experiencia humana convierte esta cántica en una pieza central para entender no solo la Comedia, sino toda una tradición de lectura ética de la literatura.",
+        "readingLevel": "Lectura alta. Requiere paciencia, contexto histórico y cierta disposición para seguir referencias políticas, teológicas y alegóricas. Con una buena traducción anotada, el texto se vuelve mucho más accesible y provechoso.",
+        "whyReadToday": "Porque ofrece un modelo de cambio interior y responsabilidad que sigue siendo fértil para pensar culpa, memoria, reparación y esperanza.",
+        "studyNotes": [
+          "Distinguir el tono de Purgatorio del de Infierno: aquí la pena está orientada a la curación y no a la desesperación eterna.",
+          "Seguir la lógica de las siete cornisas y su relación con los pecados capitales y el desorden del amor.",
+          "Atender a la función de Virgilio como guía racional y al relevo posterior de Beatriz como figura de conocimiento superior.",
+          "Observar cómo la topografía del monte organiza una pedagogía moral del ascenso."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Antepurgatorio",
+            "summary": "En los primeros cantos, Dante sale del espacio infernal y entra en una zona marcada por la espera y la preparación. Las almas aún no han comenzado plenamente su purificación, y el poema establece un tono nuevo: penitencia sí, pero orientada por la esperanza."
+          },
+          {
+            "title": "Las siete cornisas del purgatorio",
+            "summary": "La parte central describe el ascenso por las terrazas donde se purgan los grandes desórdenes morales. Cada cornisa muestra una pedagogía específica y convierte la montaña en una escuela del alma, donde el sufrimiento corrige inclinaciones deformadas."
+          },
+          {
+            "title": "Encuentros y aprendizaje moral",
+            "summary": "A lo largo del camino, Dante conversa con almas que revisan su vida terrenal desde una nueva lucidez. Estos diálogos combinan memoria personal, historia política y examen ético, ampliando el sentido universal del viaje."
+          },
+          {
+            "title": "Paraíso terrenal y transición a Beatriz",
+            "summary": "En la cima, el poema cambia otra vez de registro. La llegada al paraíso terrenal y la aparición de Beatriz señalan el paso desde la purificación moral hacia una forma más alta de conocimiento y contemplación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Poética de la esperanza",
+            "content": "El rasgo distintivo de Purgatorio es que el sufrimiento ya no expresa condena definitiva, sino posibilidad de cambio. Esa diferencia tonal reorganiza toda la lectura y vuelve la obra menos sombría que Infierno, aunque no menos rigurosa."
+          },
+          {
+            "heading": "El amor como principio de orden o desorden",
+            "content": "Muchos episodios de la cántica giran alrededor de una idea decisiva: el problema moral no es dejar de amar, sino amar mal. Dante interpreta los vicios como deformaciones del deseo y propone una corrección gradual orientada al bien."
+          },
+          {
+            "heading": "Geografía moral y progreso espiritual",
+            "content": "La montaña no es un decorado arbitrario. Su estructura ascendente convierte el espacio en argumento: subir equivale a purificarse, clarificar la voluntad y ganar libertad interior. La topografía sostiene así la inteligencia ética del poema."
+          },
+          {
+            "heading": "Virgilio y Beatriz como figuras del conocimiento",
+            "content": "Virgilio guía a Dante mientras basta la razón natural y la sabiduría clásica; Beatriz aparece cuando el itinerario exige otro grado de verdad. El relevo entre ambos concentra una de las tensiones más ricas de la Comedia."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer antes Inferno para entender Purgatorio?",
+            "answer": "Ayuda mucho, porque Purgatorio continúa el viaje de Dante y conserva personajes, motivos y estructura general. Aun así, puede leerse de forma relativamente autónoma si se usa una buena introducción."
+          },
+          {
+            "question": "¿Por qué Purgatorio suele considerarse más luminoso que Infierno?",
+            "answer": "Porque las almas no están fijadas para siempre en su culpa. Sufren, pero avanzan hacia la salvación; por eso el poema está atravesado por la esperanza, la música, la oración y la expectativa de cambio."
+          },
+          {
+            "question": "¿Qué representa la montaña del purgatorio?",
+            "answer": "Representa un itinerario moral y espiritual. Cada tramo del ascenso traduce un aprendizaje: reconocer el pecado, corregir el deseo y prepararse para una visión más alta de la verdad."
+          },
+          {
+            "question": "¿Es una obra solo religiosa?",
+            "answer": "No. Aunque su marco es cristiano y medieval, también es una obra literaria y filosófica de enorme riqueza sobre política, memoria, lenguaje, deseo y formación ética."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Britannica — Purgatorio",
+            "url": "https://www.britannica.com/topic/Purgatorio-by-Dante"
+          },
+          {
+            "label": "Britannica — The Divine Comedy",
+            "url": "https://www.britannica.com/topic/The-Divine-Comedy"
+          },
+          {
+            "label": "Wikipedia — Purgatorio",
+            "url": "https://en.wikipedia.org/wiki/Purgatorio"
+          },
+          {
+            "label": "Project Gutenberg — The Divine Comedy, Purgatory",
+            "url": "https://www.gutenberg.org/files/1002/1002-h/1002-h.htm"
+          },
+          {
+            "label": "University of Leeds — Ante-Purgatory overview",
+            "url": "https://ahc.leeds.ac.uk/discover-dante/doc/purgatorio/page/3"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "diario-de-una-invasion-zombie-de-j-l-bourne",
+      "title": "Diario De Una Invasion Zombie",
+      "authorName": "J L Bourne",
+      "authorSlug": "j-l-bourne",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Diario de una invasión zombie",
+        "authorName": "J. L. Bourne",
+        "authorSlug": "j-l-bourne",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ciencia-ficcion",
+          "thriller",
+          "ensayo"
+        ],
+        "year": 2010,
+        "pages": 260,
+        "summary": "Diario de una invasión zombie, conocido en inglés como Day by Day Armageddon, se presenta como el cuaderno de un militar que intenta sobrevivir al derrumbe del orden civil cuando una plaga convierte a los muertos en una amenaza constante. La novela adopta forma de diario y aprovecha ese formato para transmitir incertidumbre, rutina defensiva y deterioro psicológico. El protagonista narra desde espacios fortificados, desplazamientos tácticos y encuentros con otros supervivientes, mientras intenta comprender el alcance del desastre. Más que apoyarse solo en escenas de horror, el libro enfatiza logística, improvisación, aislamiento y decisiones bajo presión. El resultado es un relato rápido y funcional donde la voz en primera persona sostiene la tensión y convierte la supervivencia cotidiana en argumento principal.",
+        "aboutThisBook": "Publicada originalmente en inglés y luego traducida al español, la novela de J. L. Bourne se volvió conocida dentro del auge contemporáneo del imaginario zombi por su combinación de diario personal, thriller militar y ficción apocalíptica. Su atractivo no reside tanto en la complejidad estilística como en la inmediatez del testimonio, el detalle práctico de la supervivencia y el retrato de un mundo que se vacía de instituciones confiables.",
+        "forWhom": "Adecuado para lectores adultos y juveniles muy avanzados interesados en ficción posapocalíptica, horror de supervivencia y narraciones con componente táctico o militar. Funciona especialmente bien para quienes disfrutan de novelas rápidas, centradas en procedimientos, refugios, desplazamientos y decisiones urgentes. Puede decepcionar a quien busque gran elaboración literaria o un desarrollo psicológico muy complejo, pero resulta eficaz como relato de tensión sostenida.",
+        "whyItMatters": "Importa porque ayudó a consolidar un modo de contar el apocalipsis zombi desde la inmediatez documental del diario. Su enfoque práctico, casi de bitácora de crisis, influyó en la recepción popular del subgénero durante los años de mayor expansión cultural del tema.",
+        "editorialIntro": "J. L. Bourne convierte la catástrofe en una secuencia de apuntes urgentes, decisiones tácticas y desgaste acumulado. Ese formato de diario reduce la distancia entre narrador y lector: no se contempla el fin del mundo desde una panorámica épica, sino desde listas, rutas, refugios y amenazas que irrumpen cada día. La novela interesa menos por su ambición formal que por la eficacia con la que traduce miedo, disciplina e improvisación en una experiencia de lectura continua.",
+        "readingLevel": "Lectura media. El lenguaje es accesible y la estructura diarística facilita avanzar con rapidez, aunque abundan referencias a protocolos, armas, refugios y maniobras que atraen especialmente a lectores acostumbrados al thriller de supervivencia.",
+        "whyReadToday": "Sigue siendo legible porque plantea de forma muy directa qué ocurre cuando colapsan las rutinas, la confianza institucional y la coordinación social ante una crisis masiva.",
+        "studyNotes": [
+          "Analizar cómo el formato de diario crea sensación de presente continuo y de información incompleta.",
+          "Observar la importancia de la logística: refugio, abastecimiento, movilidad y disciplina sostienen la trama tanto como los ataques zombis.",
+          "Comparar el tono militar del narrador con otras novelas zombis más corales o satíricas.",
+          "Examinar el aislamiento como problema psicológico además de táctico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primeras señales del colapso",
+            "summary": "La narración arranca con noticias fragmentarias, violencia creciente y la lenta constatación de que las instituciones ya no controlan la situación. El diario registra la transición del desconcierto a la preparación defensiva."
+          },
+          {
+            "title": "Fortificación y rutina de supervivencia",
+            "summary": "Una vez asumida la magnitud de la crisis, el protagonista organiza refugios, recursos y protocolos. La novela muestra que sobrevivir no depende solo de combatir, sino de mantener método, vigilancia y sangre fría."
+          },
+          {
+            "title": "Desplazamientos, contactos y ampliación del conflicto",
+            "summary": "El encierro inicial da paso a movimientos más arriesgados y a encuentros con otros supervivientes. Con ello, el peligro deja de ser exclusivamente biológico y se vuelve también social, estratégico y moral."
+          },
+          {
+            "title": "Resistencia prolongada",
+            "summary": "En la fase final pesa tanto el agotamiento como la amenaza externa. El diario insiste en que el apocalipsis no es un único estallido, sino una prueba sostenida de adaptación, pérdida y disciplina."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La forma de diario como técnica de inmersión",
+            "content": "El libro obtiene gran parte de su eficacia del registro íntimo y secuencial. Cada entrada parece escrita bajo presión, lo que limita el conocimiento del lector pero aumenta la sensación de autenticidad y urgencia."
+          },
+          {
+            "heading": "Supervivencia como problema práctico",
+            "content": "A diferencia de otras obras del subgénero que privilegian el espectáculo del horror, aquí dominan la planificación, el abastecimiento, el refugio y la toma de decisiones. Esa atención al procedimiento da a la novela un perfil casi manualístico."
+          },
+          {
+            "heading": "Militarización de la mirada",
+            "content": "La perspectiva del narrador ordena el caos según hábitos tácticos: evaluar amenazas, asegurar perímetros, calcular riesgos. Ese filtro narrativo produce una voz distintiva y define el tono del libro."
+          },
+          {
+            "heading": "El apocalipsis como desgaste",
+            "content": "La novela no presenta solo estallidos de violencia. También insiste en el cansancio, la repetición, el encierro y la erosión de la confianza. Allí encuentra una parte importante de su tensión narrativa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de zombis clásica o más bien un thriller de supervivencia?",
+            "answer": "Es ambas cosas, pero pesa más el thriller de supervivencia. El interés del libro está en cómo se organiza la vida bajo amenaza continua, no solo en los ataques de los muertos vivientes."
+          },
+          {
+            "question": "¿Qué aporta el formato de diario?",
+            "answer": "Aporta inmediatez, credibilidad y una sensación muy marcada de encierro en el presente. El lector descubre el desastre a la misma velocidad que el narrador lo registra."
+          },
+          {
+            "question": "¿Tiene un enfoque muy militar?",
+            "answer": "Sí, y ese es uno de sus rasgos más reconocibles. La novela presta mucha atención a procedimientos, refugios, desplazamientos y evaluación táctica del peligro."
+          },
+          {
+            "question": "¿Es recomendable para quien busca literatura de horror más atmosférica o simbólica?",
+            "answer": "Puede resultar menos satisfactoria en ese caso. Su fuerza está en la tensión funcional, el ritmo y la supervivencia práctica más que en una elaboración literaria densa o metafórica."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Books — Day by Day Armageddon",
+            "url": "https://books.google.com/books/about/Day_by_Day_Armageddon.html?id=czWrDnaeVXoC"
+          },
+          {
+            "label": "Goodreads — Day by Day Armageddon",
+            "url": "https://www.goodreads.com/book/show/74821.Day_by_Day_Armageddon"
+          },
+          {
+            "label": "Open Library — Day by day armageddon",
+            "url": "https://openlibrary.org/books/OL28757099M/Day_by_day_armageddon"
+          },
+          {
+            "label": "Internet Archive — Day by day armageddon",
+            "url": "https://archive.org/details/daybydayarmagedd0000bour_l5b2"
+          },
+          {
+            "label": "Lecturalia — Diario de una invasión zombie",
+            "url": "https://www.lecturalia.com/libro/46772/diario-de-una-invasion-zombie"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "dias-y-noches-de-andres-trapiello",
+      "title": "Dias Y Noches",
+      "authorName": "Andres Trapiello",
+      "authorSlug": "andres-trapiello",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Días y noches",
+        "authorName": "Andrés Trapiello",
+        "authorSlug": "andres-trapiello",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 2000,
+        "pages": 285,
+        "summary": "Días y noches narra el derrumbe material y moral de un vencido de la Guerra Civil española. Su protagonista, Justo García, tipógrafo afiliado a la UGT, atraviesa la retirada republicana, los campos de refugiados del sur de Francia y finalmente el viaje del Sinaia hacia México. La novela no se limita a reconstruir un episodio histórico: convierte el exilio en una experiencia íntima hecha de hambre, humillación, memoria y pérdida de horizonte. Trapiello elige una voz cercana al diario para mostrar cómo un hombre común intenta conservar dignidad, lucidez y lenguaje cuando todo alrededor se descompone. El resultado es una novela sobria y grave sobre la derrota, el desarraigo y la dificultad de seguir viviendo sin convertir el dolor en retórica.",
+        "aboutThisBook": "Publicada por Espasa en 2000, Días y noches aparece registrada con 285 páginas en la edición consultada y ha sido leída críticamente como una novela sobre el exilio republicano más interesada en la conciencia del personaje que en la reconstrucción épica de los hechos. Las fuentes consultadas coinciden en que la obra sigue a Justo García desde la derrota republicana hasta su salida hacia México en el Sinaia, barco histórico del exilio español. La forma de diario o cuaderno personal refuerza el tono de testimonio interior y permite que la novela avance entre observación concreta, escepticismo y desgaste moral.",
+        "forWhom": "Para lectores adultos, estudiantes de literatura española contemporánea, cursos sobre Guerra Civil y exilio, y clubes de lectura interesados en novelas históricas que prefieren la perspectiva humana y moral de un personaje común antes que el gran fresco político.",
+        "whyItMatters": "Importa porque aborda el exilio republicano sin grandilocuencia y desde una mirada concreta, vulnerable y escéptica. Trapiello muestra cómo la violencia histórica transforma no solo el destino de una persona, sino también su manera de recordar, confiar y nombrar el mundo.",
+        "editorialIntro": "Hay novelas sobre la guerra y hay novelas sobre lo que queda después de ella. Días y noches pertenece con claridad a la segunda clase. Su materia principal no es la batalla, sino la resaca humana de la derrota: la retirada, el campo, la espera, el viaje y la lenta comprensión de que la vida conocida ha terminado. Trapiello trabaja con contención, evitando el heroísmo fácil, y por eso la experiencia del exilio gana espesor moral. La novela interesa tanto por su marco histórico como por la forma en que sigue, casi al pulso, la resistencia interior de un hombre despojado de certezas.",
+        "readingLevel": "Lectura de dificultad media-alta. El estilo es claro, pero el trasfondo histórico, el tono reflexivo y la escritura cercana al diario exigen atención a los matices emocionales, al contexto del exilio republicano y a lo que la novela sugiere más que declara.",
+        "whyReadToday": "Porque sigue ayudando a pensar el exilio, la memoria y la derrota política desde la escala humana, sin sentimentalismo ni simplificación ideológica.",
+        "studyNotes": [
+          "La novela gana fuerza si se lee atendiendo a su forma de diario: no es un mero recurso formal, sino el modo en que la conciencia del protagonista organiza el trauma.",
+          "El Sinaia no es un detalle decorativo; conecta la ficción con un episodio histórico central del exilio republicano hacia México.",
+          "Trapiello desplaza el foco desde la épica bélica hacia la experiencia del vencido ordinario: hambre, suciedad, espera, decepción y supervivencia.",
+          "Conviene observar cómo el lenguaje del protagonista se vuelve una defensa mínima frente a la desposesión material y moral."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La derrota y la salida de España",
+            "summary": "La primera parte sitúa a Justo García en el momento en que la derrota republicana ya es irreversible. El personaje abandona España con otros milicianos y comprende que la pérdida no es solo militar, sino también biográfica y afectiva."
+          },
+          {
+            "title": "El campo de refugiados y la degradación cotidiana",
+            "summary": "La novela se vuelve especialmente dura cuando describe la vida en los campos del sur de Francia. Allí el exilio deja de ser una idea política y se convierte en intemperie, vejación y aprendizaje forzado de la supervivencia."
+          },
+          {
+            "title": "El Sinaia y el exilio hacia México",
+            "summary": "El embarque en el Sinaia abre una salida, pero no una reparación. El viaje concentra esperanza, incertidumbre y duelo: cambiar de continente no basta para borrar la derrota ni devolver lo perdido."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La derrota como experiencia moral",
+            "content": "Días y noches no reduce la Guerra Civil a bandos abstractos, sino que la traduce en una conciencia herida. Justo García no habla como héroe ni como portavoz doctrinal: habla como alguien que ha visto cómo la historia destruye lealtades, rutinas y expectativas."
+          },
+          {
+            "heading": "Diario, memoria y escepticismo",
+            "content": "La escritura en forma de diario da a la novela un pulso íntimo y discontinuo. Ese registro permite que el lector siga no solo lo que ocurre, sino el modo en que el personaje procesa el cansancio, la humillación y la pérdida de fe en los relatos totalizadores."
+          },
+          {
+            "heading": "Exilio sin retórica heroica",
+            "content": "Uno de los mayores logros del libro es evitar la solemnidad vacía. El exilio aparece como una suma de episodios materiales y afectivos concretos: barro, hambre, trámites, compañeros, recuerdos, miedo y desplazamiento. Esa precisión le da verosimilitud y peso humano."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata exactamente Días y noches?",
+            "answer": "Sigue a Justo García, un republicano derrotado, desde la huida de España hasta su paso por Francia y su salida hacia México en el Sinaia, mostrando el exilio como una experiencia de pérdida y resistencia interior."
+          },
+          {
+            "question": "¿Es una novela histórica o una obra más intimista?",
+            "answer": "Es ambas cosas, pero con predominio de lo intimista. El marco histórico es fundamental, aunque Trapiello se concentra sobre todo en la conciencia del personaje y en el desgaste moral de la derrota."
+          },
+          {
+            "question": "¿Hace falta saber mucho de la Guerra Civil para leerla?",
+            "answer": "No es imprescindible, pero ayuda. Incluso sin un conocimiento detallado, la novela se entiende por la fuerza de su situación humana; con contexto histórico, gana profundidad."
+          },
+          {
+            "question": "¿Qué vuelve singular a esta novela dentro de la narrativa del exilio?",
+            "answer": "Su sobriedad. En lugar de construir un relato épico, muestra la derrota y el exilio desde lo cotidiano, lo corporal y lo emocional, sin exageraciones melodramáticas."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Lecturalia: Días y noches",
+            "url": "https://www.lecturalia.com/libro/10603/dias-y-noches"
+          },
+          {
+            "label": "Aceprensa: reseña de Días y noches",
+            "url": "https://www.aceprensa.com/resenas-libros/d-as-y-noches/"
+          },
+          {
+            "label": "Revista de Libros: Del éxodo y del viento",
+            "url": "https://www.revistadelibros.com/dias-y-noches-novela-de-andres-trapiello/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "diez-10-mujeres-de-marcela-serrano",
+      "title": "Diez 10 Mujeres",
+      "authorName": "Marcela Serrano",
+      "authorSlug": "marcela-serrano",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Diez mujeres",
+        "authorName": "Marcela Serrano",
+        "authorSlug": "marcela-serrano",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "romance",
+          "narrativa"
+        ],
+        "year": 2011,
+        "pages": 300,
+        "summary": "Diez mujeres organiza su trama alrededor de un espacio de escucha: una terapeuta llamada Natasha reúne a nueve mujeres para que cuenten lo que arrastran en silencio. Desde esa situación inicial, la novela avanza como una serie de confesiones y contrastes entre edades, clases sociales, deseos, miedos y formas de entender la intimidad. Marcela Serrano no propone un retrato uniforme de “lo femenino”, sino un mosaico de experiencias marcadas por la soledad, la maternidad, el amor, el cuerpo, la decepción y la necesidad de reinventarse. La terapeuta forma parte también del cuadro y no queda fuera del examen. El libro se sostiene en la palabra compartida como vía de autoconocimiento y en la idea de que narrarse ante otras puede ser el primer paso para salir del aislamiento.",
+        "aboutThisBook": "Publicada originalmente en 2011 por Alfaguara, Diez mujeres es una novela chilena contemporánea que varias fuentes presentan como la historia de una psicóloga y nueve pacientes o participantes que comparten sus vidas en un marco terapéutico. La edición consultada en Open Library registra 300 páginas. Más que una novela de acción, es una novela coral de voces, confidencias y trayectorias personales. Su arquitectura permite a Serrano explorar distintos modelos de feminidad, tensiones afectivas y conflictos intergeneracionales sin perder una línea unificadora: la necesidad de comprender la propia vida cuando el relato heredado deja de servir.",
+        "forWhom": "Para lectores adultos interesados en narrativa contemporánea latinoamericana, estudios de género, clubes de lectura que busquen una novela coral de fuerte componente emocional y cursos que quieran trabajar voz, testimonio, identidad y representación de la intimidad femenina.",
+        "whyItMatters": "Importa porque convierte la conversación y la escucha en motor narrativo y porque ofrece un retrato plural de mujeres atravesadas por miedos, deseos y contradicciones. La novela evita una imagen única de la experiencia femenina y trabaja la fragilidad, la culpa y la reinvención con ambición coral.",
+        "editorialIntro": "El punto de partida de Diez mujeres es sencillo y eficaz: varias mujeres se sientan a hablar. Pero lo que emerge de esa reunión no es un catálogo de confesiones sentimentales, sino una cartografía compleja de heridas, expectativas, mandatos y zonas de resistencia. Marcela Serrano utiliza la estructura grupal para hacer visibles diferencias de edad, clase y trayectoria, y al mismo tiempo para mostrar un fondo común de miedo, cansancio afectivo y deseo de cambio. La novela se lee con interés porque cada voz amplía el cuadro y porque la terapeuta, lejos de dominarlo todo, también queda expuesta.",
+        "readingLevel": "Lectura de dificultad media. El lenguaje es directo y accesible, pero la novela exige atención a la polifonía, a los matices psicológicos y a la manera en que unas historias dialogan con otras dentro del dispositivo grupal.",
+        "whyReadToday": "Porque sigue ofreciendo un marco lúcido para pensar el aislamiento emocional, la presión sobre las identidades femeninas y el valor de la palabra compartida como forma de comprensión y cambio.",
+        "studyNotes": [
+          "El título alude al conjunto completo: nueve mujeres reunidas por Natasha, cuya propia experiencia también forma parte del retrato total.",
+          "La novela funciona como texto coral; conviene leer cada testimonio no de forma aislada, sino en relación con los demás.",
+          "El espacio terapéutico opera como recurso narrativo y como tema: organiza la estructura, pero además interroga qué significa hablar, escuchar y sanar.",
+          "Puede trabajarse en clase como ejemplo de narrativa contemporánea centrada en subjetividad, género e intimidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La reunión y el pacto de la palabra",
+            "summary": "La novela comienza con la formación del grupo reunido por Natasha. Ese marco terapéutico establece las reglas del relato: hablar, escuchar, compararse y descubrir que ninguna biografía individual puede leerse del todo sola."
+          },
+          {
+            "title": "Confesiones, diferencias y heridas compartidas",
+            "summary": "A medida que las mujeres cuentan sus historias, aparecen contrastes de clase, edad y trayectoria afectiva. Sin embargo, también surge un núcleo común de miedo, soledad, frustración y búsqueda de reconocimiento."
+          },
+          {
+            "title": "Relectura de sí mismas",
+            "summary": "En la parte final, la experiencia de escuchar y ser escuchadas modifica la mirada que cada una tiene sobre su vida. No hay soluciones mágicas, pero sí un desplazamiento: comprenderse de otra manera ya es una forma de cambio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela coral y construcción de subjetividades",
+            "content": "Serrano organiza la novela como un coro de voces diferenciadas. Esa forma evita reducir a las mujeres a un tipo único y permite observar cómo cada historia singulariza conflictos que, al mismo tiempo, poseen una dimensión social más amplia."
+          },
+          {
+            "heading": "La terapia como dispositivo narrativo",
+            "content": "El espacio terapéutico no es solo escenario: es la máquina formal del libro. Gracias a él, la autora introduce confesión, contraste, escucha, silencio y reevaluación. La estructura de grupo da cohesión a materiales vitales muy heterogéneos."
+          },
+          {
+            "heading": "Intimidad, mandato y reinvención",
+            "content": "La novela examina cómo las protagonistas han sido moldeadas por expectativas amorosas, maternales, familiares y sociales. Lo importante no es ofrecer moralejas, sino mostrar el trabajo difícil de revisar la propia vida cuando los papeles heredados ya no alcanzan."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Por qué se llama Diez mujeres si inicialmente se presentan nueve?",
+            "answer": "Porque la terapeuta Natasha completa el conjunto. Aunque coordina la reunión, su propia historia y su vulnerabilidad también forman parte del retrato global de las diez mujeres del título."
+          },
+          {
+            "question": "¿Es una novela de trama externa o de confesión psicológica?",
+            "answer": "Predomina claramente la exploración psicológica. La acción principal consiste en el intercambio de historias, la escucha y la reinterpretación de las vidas de las protagonistas."
+          },
+          {
+            "question": "¿Conviene a lectores que busquen una novela coral?",
+            "answer": "Sí. Su mayor interés está precisamente en la pluralidad de voces y en cómo cada testimonio ilumina o contradice a los demás."
+          },
+          {
+            "question": "¿Qué temas aparecen con más fuerza?",
+            "answer": "La soledad, el miedo, el deseo, la maternidad, la identidad femenina, las relaciones afectivas y la posibilidad de reconstruirse a través de la palabra compartida."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Lecturalia: Diez mujeres",
+            "url": "https://www.lecturalia.com/libro/65214/diez-mujeres"
+          },
+          {
+            "label": "Wikipedia: Diez mujeres",
+            "url": "https://es.wikipedia.org/wiki/Diez_mujeres"
+          },
+          {
+            "label": "Casa del Libro: Diez mujeres",
+            "url": "https://www.casadellibro.com/libro-diez-mujeres/9788420407678/1872452"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "dos-veces-junio-de-martin-kohan",
+      "title": "Dos Veces Junio",
+      "authorName": "Martin Kohan",
+      "authorSlug": "martin-kohan",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Dos veces junio",
+        "authorName": "Martín Kohan",
+        "authorSlug": "martin-kohan",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 2002,
+        "pages": 192,
+        "summary": "Dos veces junio es una novela breve y perturbadora sobre la última dictadura militar argentina. Kohan construye la historia alrededor de un conscripto ligado a un médico del aparato represivo y de una cadena de escenas donde el lenguaje administrativo, los eufemismos y la obediencia rutinaria conviven con el horror. La novela evita el énfasis sentimental y opta por una prosa contenida, casi seca, que vuelve más inquietante lo narrado: lo decisivo no es solo la violencia, sino la normalización de esa violencia por sujetos corrientes. El trasfondo del Mundial de 1978 intensifica el contraste entre la euforia pública y la clandestinidad represiva. Más que explicar la dictadura desde fuera, el libro la deja hablar a través de sus hábitos, silencios y mecanismos de desafección.",
+        "aboutThisBook": "Publicada en 2002, Dos veces junio es una de las novelas más estudiadas de Martín Kohan en relación con memoria, dictadura y lenguaje. Las fuentes consultadas la presentan como una novela breve de comienzos del siglo XXI centrada en un médico, un conscripto y un cuaderno cuya pregunta inicial abre el régimen de terror que la obra explora. Schavelzon la registra con 192 páginas y destaca su ambientación en junio de 1978, durante el Mundial, mientras estudios académicos posteriores han subrayado la importancia de la desafección y de la administración verbal del horror. Es una novela de gran concentración formal: dice poco en apariencia, pero obliga a leer mucho entre líneas.",
+        "forWhom": "Para lectores adultos, estudiantes de literatura argentina contemporánea, cursos sobre memoria y dictadura, y lectores interesados en novelas breves, densas y analíticas donde la violencia histórica aparece mediada por el lenguaje, la burocracia y la obediencia.",
+        "whyItMatters": "Importa porque muestra que el terror político no depende solo de grandes figuras siniestras, sino también de rutinas, omisiones y formas de hablar que vuelven tolerable lo intolerable. Es una novela clave para pensar la relación entre memoria, lenguaje y complicidad social.",
+        "editorialIntro": "Hay novelas sobre la dictadura que buscan denunciar; Dos veces junio, además, busca comprender cómo pudo funcionar. Kohan no recurre al golpe de efecto ni a la sentimentalidad inmediata. Prefiere una prosa fría, tensa y milimétrica que se acerca al horror por el costado de la rutina: órdenes, anotaciones, desplazamientos, silencios. Ese método vuelve el libro especialmente poderoso. La violencia no aparece como excepción espectacular, sino como parte de un sistema de percepción y de habla en el que casi nadie parece sorprenderse. Por eso la novela incomoda tanto y por eso sigue siendo una lectura imprescindible dentro de la narrativa argentina de la memoria.",
+        "readingLevel": "Lectura de dificultad media-alta. La extensión es breve, pero el libro exige un lector atento al subtexto, a la ironía fría, a los vacíos deliberados y al contexto histórico de la dictadura argentina y el Mundial de 1978.",
+        "whyReadToday": "Porque sigue siendo una de las ficciones más penetrantes para pensar cómo el lenguaje burocrático y la obediencia normalizan la violencia estatal y erosionan la sensibilidad moral.",
+        "studyNotes": [
+          "La novela trabaja mucho con lo no dicho: pausas, omisiones y eufemismos son parte esencial de su sentido.",
+          "El contraste entre Mundial de fútbol y represión clandestina organiza buena parte de la tensión histórica del libro.",
+          "Conviene leer el conscripto no como héroe ni villano simple, sino como figura de la obediencia y de la percepción anestesiada.",
+          "Los estudios críticos suelen subrayar la desafección: la novela muestra cómo una época fabrica sujetos capaces de convivir con el horror sin nombrarlo plenamente."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El cuaderno y la lógica del mando",
+            "summary": "La novela se abre con una escena de escritura y obediencia que instala de inmediato el problema central: la violencia entra al relato mediada por una pregunta, por el lenguaje y por la cadena jerárquica que decide qué puede hacerse y cómo debe formularse."
+          },
+          {
+            "title": "Junio de 1978: euforia pública y terror clandestino",
+            "summary": "Mientras el Mundial organiza la alegría nacionalista de la superficie, el narrador circula por un mundo donde la represión se administra con fría naturalidad. Kohan hace del contraste entre fiesta y horror uno de los núcleos más inquietantes del libro."
+          },
+          {
+            "title": "Memoria, repetición y resto moral",
+            "summary": "Hacia el final, la novela deja ver que lo más persistente no es solo el hecho violento, sino la forma en que ese hecho sigue operando en la memoria y en la sensibilidad. Junio reaparece como tiempo de repetición y de resto no resuelto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El lenguaje como instrumento del terror",
+            "content": "Kohan muestra que la represión no se sostiene únicamente con armas, sino también con vocabularios, notas, fórmulas y silencios. La novela examina cómo el lenguaje burocrático y médico puede encubrir, administrar o desplazar el horror."
+          },
+          {
+            "heading": "Desafección y obediencia",
+            "content": "Una de las claves del libro es la casi ausencia de reacción afectiva proporcional a lo que ocurre. Esa desafección no es un vacío psicológico casual, sino un rasgo histórico: el régimen produce sujetos que aprenden a mirar sin implicarse y a cumplir sin elaborar."
+          },
+          {
+            "heading": "Fútbol, nación y clandestinidad",
+            "content": "El Mundial de 1978 funciona como contrapunto brutal. La celebración pública no anula la violencia, sino que la cubre y la acompaña. La novela convierte esa simultaneidad en una imagen poderosa de una sociedad partida entre espectáculo patriótico y terror oculto."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela explícita en la denuncia o más bien indirecta?",
+            "answer": "Es indirecta en su método, pero muy contundente en su efecto. Kohan evita el énfasis retórico y deja que el horror aparezca a través de escenas mínimas, lenguaje administrativo y obediencia cotidiana."
+          },
+          {
+            "question": "¿Qué papel tiene el Mundial de 1978 en la novela?",
+            "answer": "Cumple una función decisiva como contraste histórico y simbólico: mientras la superficie pública celebra, en la clandestinidad actúan los mecanismos represivos del régimen."
+          },
+          {
+            "question": "¿Es un libro difícil de leer?",
+            "answer": "No por extensión ni por vocabulario, pero sí por densidad ética y formal. Requiere atención al subtexto y al modo en que la novela trabaja con silencios, repeticiones y omisiones."
+          },
+          {
+            "question": "¿Por qué se estudia tanto en cursos sobre memoria?",
+            "answer": "Porque ofrece una reflexión literaria muy precisa sobre la dictadura argentina, la complicidad cotidiana, la administración verbal del horror y la persistencia del pasado en el presente."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Lecturalia: Dos veces junio",
+            "url": "https://www.lecturalia.com/libro/17253/dos-veces-junio"
+          },
+          {
+            "label": "Penguin Libros Argentina: Dos veces junio",
+            "url": "https://www.penguinlibros.com/ar/literatura-contemporanea/327306-libro-dos-veces-junio-9789877693089"
+          },
+          {
+            "label": "Schavelzon: Dos veces junio",
+            "url": "https://schavelzongraham.com/libro/dos-veces-junio/"
+          },
+          {
+            "label": "Aletheia (UNLP): Formas de (des)afección: Dos veces junio de Martín Kohan",
+            "url": "https://www.aletheia.fahce.unlp.edu.ar/article/download/ALEe066/13598?inline=1"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-anarquista-que-se-llamaba-como-yo-de-pablo-martin-sanchez",
+      "title": "El Anarquista Que Se Llamaba Como Yo",
+      "authorName": "Pablo Martin Sanchez",
+      "authorSlug": "pablo-martin-sanchez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El anarquista que se llamaba como yo",
+        "authorName": "Pablo Martín Sánchez",
+        "authorSlug": "pablo-martin-sanchez",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2012,
+        "pages": 624,
+        "summary": "Esta novela parte de un hallazgo biográfico insólito: el autor descubre que comparte nombre con un anarquista real ejecutado en 1924 por su implicación en un complot contra la dictadura de Primo de Rivera. A partir de ese dato, Pablo Martín Sánchez reconstruye en clave novelesca la vida de su homónimo y convierte la investigación histórica en una narración amplia, ambiciosa y muy documentada. El libro sigue el itinerario vital del protagonista por España, París y Argentina, enlazando militancia, exilio, bohemia, redes obreras, vanguardias culturales y violencia política. Más que una simple recreación de época, la novela examina cómo una vida individual queda atrapada por las grandes convulsiones europeas de comienzos del siglo XX y cómo la literatura puede devolver espesor humano a un personaje condenado a quedar reducido a expediente policial.",
+        "aboutThisBook": "El anarquista que se llamaba como yo es una novela histórica contemporánea que mezcla archivo, pesquisa literaria y reconstrucción narrativa. Su singularidad está en el cruce entre el escritor actual y el personaje histórico que lleva su mismo nombre. El resultado no es una biografía académica, sino una obra de largo aliento que da forma novelesca a un mundo marcado por el anarquismo, el exilio, la represión estatal y la vida intelectual de entreguerras.",
+        "forWhom": "Es un libro especialmente recomendable para lectores de novela histórica exigente, estudiantes de historia cultural del siglo XX y quienes disfrutan de ficciones basadas en documentación real. También interesa a lectores atraídos por la relación entre política y literatura, por la memoria libertaria española y por las novelas extensas que combinan aventura vital, reflexión histórica y trabajo de estilo.",
+        "whyItMatters": "Importa porque rescata una figura olvidada y muestra cómo la novela puede intervenir en la memoria histórica sin renunciar a la complejidad literaria. Además, sitúa el anarquismo español en una red internacional y devuelve contexto humano a procesos políticos que a menudo se leen de forma abstracta.",
+        "editorialIntro": "Pablo Martín Sánchez convierte una coincidencia onomástica en el motor de una de las novelas históricas españolas más singulares de su generación. La obra no se limita a ilustrar una época: la revive desde dentro, con atención a las ideas, los desplazamientos, los debates y las fracturas del primer tercio del siglo XX. Su ambición documental se combina con una estructura narrativa absorbente, ideal para leer el pasado como experiencia viva y no como simple decorado.",
+        "readingLevel": "Nivel medio-alto. La prosa es accesible, pero la extensión, la densidad histórica y la variedad de contextos políticos y culturales piden lectura atenta y cierta familiaridad con la novela histórica de gran formato.",
+        "whyReadToday": "Se lee hoy con provecho porque dialoga con debates actuales sobre memoria, violencia política, radicalización, exilio y reconstrucción del pasado. También recuerda que los archivos no hablan solos: necesitan interpretación, imaginación crítica y responsabilidad narrativa.",
+        "studyNotes": [
+          "Observar cómo la coincidencia entre autor y personaje funciona como dispositivo de investigación y de legitimación narrativa.",
+          "Relacionar la trayectoria individual del protagonista con procesos históricos mayores: migración, militancia obrera, vigilancia estatal y dictadura.",
+          "Analizar el modo en que la novela combina materiales documentales con escenas de fuerte impulso novelesco sin presentarse como biografía cerrada.",
+          "Prestar atención al espacio transnacional: España, Francia y Argentina forman una misma red política e intelectual."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El descubrimiento de una vida doble",
+            "summary": "La novela se activa cuando la coincidencia de nombres lleva al autor a seguir la pista del anarquista Pablo Martín Sánchez. Desde ese punto, el lector entra en una reconstrucción que enlaza curiosidad personal, investigación histórica y promesa de tragedia futura."
+          },
+          {
+            "title": "Parte 2: Militancia, viajes y formación política",
+            "summary": "El protagonista circula por ambientes obreros, intelectuales y expatriados, en especial entre España, París y Argentina. La novela muestra cómo se forma una conciencia política en contacto con la precariedad, la propaganda, la sociabilidad revolucionaria y los conflictos sociales del periodo."
+          },
+          {
+            "title": "Parte 3: Conspiración y desenlace",
+            "summary": "La tensión narrativa se concentra en el complot contra la dictadura y en el destino final del protagonista. El libro convierte un final históricamente conocido en una experiencia de suspense moral: importa menos saber qué ocurrió que comprender cómo una vida llegó hasta allí."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela histórica y autorreflexividad",
+            "content": "Una de las claves del libro es que no separa del todo al investigador del personaje investigado. La coincidencia de nombres no es un detalle pintoresco, sino una forma de pensar la relación entre identidad, azar y escritura histórica."
+          },
+          {
+            "heading": "El anarquismo como experiencia humana",
+            "content": "La obra evita reducir el anarquismo a consigna o caricatura. Lo presenta como red de sociabilidad, ética, deseo de transformación y también como espacio atravesado por errores, derrotas y fracturas internas."
+          },
+          {
+            "heading": "Europa convulsa y circulación transnacional",
+            "content": "El libro insiste en que la historia española del periodo no puede entenderse aislada. París, Argentina, los exilios y los intercambios ideológicos muestran una modernidad política compartida y conflictiva."
+          },
+          {
+            "heading": "Memoria frente a archivo",
+            "content": "La novela sugiere que los documentos permiten reconstruir una trayectoria, pero no agotan su verdad humana. La literatura aparece como herramienta para restituir densidad emocional, ritmo y contradicción a una figura borrada por la represión."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Está basada en hechos reales?",
+            "answer": "Sí. Parte de la existencia histórica de un anarquista llamado Pablo Martín Sánchez, ejecutado en 1924, cuya vida el novelista reconstruye literariamente a partir de fuentes documentales."
+          },
+          {
+            "question": "¿Es una biografía o una novela?",
+            "answer": "Es una novela histórica. Usa investigación real y un fuerte apoyo documental, pero organiza el material con técnicas narrativas propias de la ficción."
+          },
+          {
+            "question": "¿Qué temas dominan la obra?",
+            "answer": "Memoria histórica, anarquismo, exilio, violencia política, identidad, azar biográfico y relación entre archivo y literatura."
+          },
+          {
+            "question": "¿Resulta adecuada para un club de lectura universitario?",
+            "answer": "Sí. Ofrece mucho material para discutir representación del pasado, fuentes históricas, política europea de entreguerras y estrategias narrativas de la novela histórica contemporánea."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Editorial Acantilado: ficha del libro",
+            "url": "https://www.acantilado.es/catalogo/el-anarquista-que-se-llamaba-como-yo/"
+          },
+          {
+            "label": "Google Books: edición de Acantilado",
+            "url": "https://play.google.com/store/books/details?id=QpKHDwAAQBAJ"
+          },
+          {
+            "label": "Open Library: ficha de la obra",
+            "url": "https://openlibrary.org/works/OL16812323W"
+          },
+          {
+            "label": "Wikipedia: Pablo Martín Sánchez",
+            "url": "https://es.wikipedia.org/wiki/Pablo_Mart%C3%ADn_S%C3%A1nchez"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-anillo-la-herencia-del-ultimo-templario-de-jorge-molist",
+      "title": "El Anillo La Herencia Del Ultimo Templario",
+      "authorName": "Jorge Molist",
+      "authorSlug": "jorge-molist",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El anillo: la herencia del último templario",
+        "authorName": "Jorge Molist",
+        "authorSlug": "jorge-molist",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "thriller",
+          "fantasia"
+        ],
+        "year": 2005,
+        "pages": 432,
+        "summary": "Jorge Molist construye en esta novela una trama que combina intriga contemporánea y pasado medieval. La protagonista, Cristina, una joven abogada neoyorquina, recibe en su vigésimo séptimo cumpleaños dos anillos: uno representa la seguridad social y sentimental de su presente; el otro, antiguo y misterioso, abre una búsqueda inesperada. Ese segundo objeto la empuja a viajar por Barcelona y por distintos escenarios del Mediterráneo, mientras su propia historia se entrelaza con la caída de los templarios y con la memoria del último de ellos. La novela trabaja la aventura como aprendizaje moral: el desplazamiento físico obliga a Cristina a revisar su escala de valores, su relación con el éxito y su comprensión del amor, la lealtad y la muerte. El resultado es una ficción histórica de lectura ágil, sustentada en una doble temporalidad que enlaza reliquia, linaje y revelación personal.",
+        "aboutThisBook": "El anillo es una novela histórica de vocación popular que usa un objeto heredado como puente entre presente y Edad Media. Molist articula una investigación sentimental e histórica: la protagonista sigue la pista de un legado templario, pero al hacerlo también reordena su propia biografía. La obra destaca por su mezcla de misterio, viaje, reconstrucción histórica, transformación interior y reflexión accesible sobre la memoria.",
+        "forWhom": "Conviene a lectores que buscan novela histórica accesible, con ritmo de aventura y un claro componente emocional. También funciona bien para quienes disfrutan de tramas templarias, reliquias, secretos familiares y protagonistas contemporáneos obligados a interpretar un pasado que modifica sus decisiones presentes. Puede ser una buena puerta de entrada al género para lectores no especializados.",
+        "whyItMatters": "Su interés radica en mostrar cómo la novela histórica comercial puede convertir un motivo muy conocido, el legado templario, en un relato de formación personal. Además, propone una reflexión sencilla pero efectiva sobre el peso del pasado en la identidad contemporánea.",
+        "editorialIntro": "Con El anillo, Jorge Molist propone una intriga histórica construida alrededor de un símbolo material que condensa memoria, poder y destino. La novela alterna impulso aventurero y aprendizaje íntimo, llevando a su protagonista desde una vida aparentemente resuelta hasta una exploración del Mediterráneo marcada por huellas templarias. Es una lectura de amplio alcance, pensada para mantener el interés narrativo sin abandonar el trasfondo histórico.",
+        "readingLevel": "Nivel medio. La estructura es lineal en su impulso principal, el argumento es claro y el contexto histórico se integra de forma explicativa, por lo que resulta accesible incluso para lectores que no frecuentan la novela histórica extensa.",
+        "whyReadToday": "Sigue siendo una lectura vigente para quienes buscan historias donde el pasado no es un decorado sino una fuerza que reordena la vida presente. También dialoga con el interés duradero por los templarios, las reliquias y las novelas de investigación histórica con ritmo de thriller suave.",
+        "studyNotes": [
+          "Comparar el valor simbólico de los dos anillos: uno representa estabilidad social; el otro, irrupción del pasado y cambio interior.",
+          "Analizar cómo la novela usa el viaje mediterráneo como proceso de aprendizaje y desclasamiento emocional.",
+          "Examinar la figura de los templarios no solo como misterio histórico, sino como legado narrativo que da sentido a la búsqueda contemporánea.",
+          "Observar el equilibrio entre documentación histórica y estrategias de novela de aventuras."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: El doble regalo",
+            "summary": "Cristina recibe dos anillos en su cumpleaños y el contraste entre ambos plantea el conflicto central. Lo que parecía una celebración del éxito se transforma en el comienzo de una inquietud difícil de ignorar."
+          },
+          {
+            "title": "Nudo: Viaje por el Mediterráneo",
+            "summary": "La protagonista sigue la pista del anillo antiguo y recorre escenarios que la conectan con secretos del pasado. El viaje amplía la intriga histórica y, al mismo tiempo, desmonta su visión cómoda de sí misma y de su futuro."
+          },
+          {
+            "title": "Desenlace: Herencia y transformación",
+            "summary": "La resolución vincula la historia del último templario con la elección vital de Cristina. La herencia deja de ser un simple enigma material y se convierte en una lección sobre amor, memoria y responsabilidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El objeto como motor narrativo",
+            "content": "El anillo concentra la promesa de aventura y el acceso al pasado. Como sucede en muchas novelas históricas de intriga, el objeto no vale solo por su antigüedad, sino por la red de historias y decisiones que desencadena."
+          },
+          {
+            "heading": "Cristina como protagonista en transformación",
+            "content": "La novela presenta a una heroína inicialmente definida por la ambición social y por una cierta superficialidad. El contacto con la herencia templaria la obliga a revisar sus afectos, sus prioridades y la manera en que interpreta el éxito."
+          },
+          {
+            "heading": "Uso narrativo del legado templario",
+            "content": "Molist emplea el imaginario templario como marco de aventura, pérdida y continuidad histórica. Más que demostrar una tesis histórica, la novela explota la potencia simbólica de una orden derrotada cuyo eco persiste en el presente."
+          },
+          {
+            "heading": "Pasado y presente en clave popular",
+            "content": "La obra funciona gracias a una mediación clara entre épocas. El lector accede al pasado medieval a través de una búsqueda contemporánea, fórmula eficaz para combinar divulgación histórica, suspense y emoción sentimental."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica o de aventuras?",
+            "answer": "Es ambas cosas. La base argumental es una aventura contemporánea, pero su sentido depende de la reconstrucción del pasado templario y de la relación entre herencia histórica y presente."
+          },
+          {
+            "question": "¿Quién protagoniza la historia?",
+            "answer": "La protagonista es Cristina, una joven abogada neoyorquina cuya vida cambia al recibir un antiguo anillo vinculado a un legado templario."
+          },
+          {
+            "question": "¿Hace falta saber historia medieval para disfrutarla?",
+            "answer": "No. La novela está escrita para un público amplio y va introduciendo el contexto histórico a medida que la intriga avanza."
+          },
+          {
+            "question": "¿Qué temas aparecen además del misterio?",
+            "answer": "Identidad, maduración personal, memoria, amor, muerte y relación entre éxito social y autenticidad vital."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Jorge Molist: página del libro",
+            "url": "https://www.jorgemolist.com/mis-libros/el-anillo/"
+          },
+          {
+            "label": "Google Books: El anillo",
+            "url": "https://books.google.com/books/about/El_anillo_la_herencia_del_%C3%BAltimo_templa.html?id=0zUfQwAACAAJ"
+          },
+          {
+            "label": "Open Library: ficha de la obra",
+            "url": "https://openlibrary.org/works/OL17100076W"
+          },
+          {
+            "label": "Wikipedia: Jorge Molist",
+            "url": "https://es.wikipedia.org/wiki/Jorge_Molist"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-aroma-de-la-lavanda-de-jude-deveraux",
+      "title": "El Aroma De La Lavanda",
+      "authorName": "Jude Deveraux",
+      "authorSlug": "jude-deveraux",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El aroma de la lavanda",
+        "authorName": "Jude Deveraux",
+        "authorSlug": "jude-deveraux",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "ensayo",
+          "romance"
+        ],
+        "year": 2012,
+        "pages": 349,
+        "summary": "Publicada originalmente en inglés como Lavender Morning y traducida al español como El aroma de la lavanda, esta novela abre el ciclo ambientado en Edilean, Virginia. La protagonista, Jocelyn Minton, ha crecido entre dos mundos sociales y nunca ha terminado de pertenecer del todo a ninguno. Su vínculo más importante es Edilean Harcourt, una mujer mayor que comprende su soledad y, al morir, le deja una casa del siglo XVIII, una serie de pistas y un misterio iniciado en 1941. Joce viaja entonces a un pequeño pueblo sureño que su benefactora nunca le había mencionado y se encuentra con una comunidad que parece conocer de antemano su destino afectivo. La intriga sentimental se mezcla con secretos del pasado, herencias familiares y la pregunta central de la novela: cómo construir una vida propia cuando otros parecen haber escrito ya el guion.",
+        "aboutThisBook": "El aroma de la lavanda es una novela romántica con fuerte componente de misterio doméstico y memoria familiar. Más que centrarse solo en la pareja, organiza la historia alrededor de una herencia inesperada, una casa antigua, un pueblo lleno de información previa sobre la protagonista y un secreto que viene de la década de 1940. Esa combinación le da al libro un tono de romance comunitario y de descubrimiento personal.",
+        "forWhom": "Es ideal para lectores de romance contemporáneo que prefieren tramas con atmósfera de pueblo pequeño, secretos familiares y crecimiento emocional. También puede interesar a quienes disfrutan de novelas donde la casa heredada, la comunidad local y los enigmas del pasado tienen tanto peso como la relación amorosa. Su tono accesible la hace apropiada para lectura recreativa o clubes de lectura centrados en ficción comercial.",
+        "whyItMatters": "Importa dentro de la obra de Jude Deveraux porque muestra bien su capacidad para mezclar romance, legado familiar y escenarios afectivamente densos. Además, el libro trabaja una cuestión reconocible: la tensión entre el destino que otros imaginan para nosotros y la identidad que elegimos construir.",
+        "editorialIntro": "Jude Deveraux sitúa esta historia en Edilean, un pueblo donde la memoria local parece tener voluntad propia. Lo que comienza como una herencia peculiar se transforma en una exploración de secretos antiguos, pertenencia social y deseo amoroso. La novela combina el confort del romance de pequeña comunidad con un enigma heredado que sostiene la lectura y da profundidad al recorrido de Jocelyn Minton.",
+        "readingLevel": "Nivel medio. La narración es fluida y de vocación amplia, con un argumento fácil de seguir. La mayor riqueza del libro está menos en la complejidad formal que en la acumulación de relaciones, secretos y señales dispersas a lo largo de la trama.",
+        "whyReadToday": "Sigue funcionando bien hoy porque une dos tendencias muy vigentes: el romance ambientado en comunidades pequeñas y la ficción de herencias, casas antiguas y secretos familiares. También ofrece una reflexión amable sobre clase social, pertenencia y autonomía sentimental.",
+        "studyNotes": [
+          "Seguir cómo la herencia de Miss Edi organiza no solo la intriga, sino también el itinerario emocional de Jocelyn.",
+          "Analizar el pueblo de Edilean como personaje colectivo que condiciona expectativas, rumores y vínculos amorosos.",
+          "Observar la importancia simbólica de la casa antigua: pasado, refugio, secreto y posibilidad de recomenzar.",
+          "Comparar la dimensión romántica con la investigación del misterio de 1941 para ver cómo ambas líneas se refuerzan."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: Pérdida y legado",
+            "summary": "Tras la muerte de Miss Edi, Jocelyn descubre que ha heredado bienes, instrucciones y un misterio que la obliga a abandonar la pasividad. La herencia redefine de inmediato su lugar en el mundo."
+          },
+          {
+            "title": "Segunda parte: Llegada a Edilean",
+            "summary": "En el pequeño pueblo virginiano, Jocelyn encuentra una comunidad que parece saber más de ella que ella misma. La casa, las pistas y la figura del abogado que otros consideran su pareja ideal intensifican la mezcla de desconcierto, atracción y desconfianza."
+          },
+          {
+            "title": "Tercera parte: Secreto del pasado y elección propia",
+            "summary": "La investigación del enigma iniciado en 1941 ilumina la historia de Miss Edi y ayuda a Jocelyn a tomar decisiones sobre su futuro afectivo. El cierre vincula revelación familiar y afirmación personal."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Romance y misterio doméstico",
+            "content": "La novela no se sostiene solo por la tensión amorosa. El misterio heredado, la casa histórica y las cartas o pistas del pasado introducen una lógica de investigación que amplía el interés narrativo."
+          },
+          {
+            "heading": "Clase social y sentimiento de pertenencia",
+            "content": "Jocelyn está marcada por una identidad social ambigua desde la infancia. Esa fractura explica su vulnerabilidad y también su resistencia a aceptar sin examen el destino sentimental que otros preparan para ella."
+          },
+          {
+            "heading": "Edilean como comunidad reguladora",
+            "content": "El pueblo no es un simple escenario pintoresco. Funciona como una comunidad que observa, recuerda, interpreta y empuja a los personajes hacia ciertos vínculos, con todo lo acogedor y lo invasivo que eso implica."
+          },
+          {
+            "heading": "Herencia femenina y continuidad afectiva",
+            "content": "La relación entre Miss Edi y Jocelyn da al libro una dimensión intergeneracional importante. La herencia no es solo material: transmite confianza, tareas pendientes y una lectura alternativa del futuro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El aroma de la lavanda es una novela independiente?",
+            "answer": "Forma parte del universo de Edilean, pero puede leerse por sí sola porque presenta su propio conflicto, sus personajes centrales y la resolución principal de la trama."
+          },
+          {
+            "question": "¿Predomina más el romance o el misterio?",
+            "answer": "Predomina el romance, pero el misterio de la herencia y del secreto iniciado en 1941 cumple una función decisiva para sostener el argumento y el desarrollo emocional de Jocelyn."
+          },
+          {
+            "question": "¿Qué tipo de protagonista es Jocelyn Minton?",
+            "answer": "Es una protagonista marcada por la inseguridad social y afectiva, pero capaz de crecer cuando una herencia inesperada la obliga a tomar decisiones por sí misma."
+          },
+          {
+            "question": "¿Qué rasgo distingue a la novela dentro del romance comercial?",
+            "answer": "La combinación de pequeña comunidad, casa heredada, secreto familiar e intervención póstuma de una mentora le da un tono de misterio afectivo poco más rico que el romance lineal convencional."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Jude Deveraux: página oficial de Lavender Morning",
+            "url": "https://judedeveraux.com/books/the-edilean-series/lavender-morning/"
+          },
+          {
+            "label": "Google Books: edición española",
+            "url": "https://books.google.com/books/about/El_aroma_de_la_lavanda.html?id=t5bakQEACAAJ"
+          },
+          {
+            "label": "Google Books: Lavender Morning",
+            "url": "https://books.google.com/books/about/Lavender_Morning.html?id=-sAQO8QfOo8C"
+          },
+          {
+            "label": "Wikipedia: Jude Deveraux",
+            "url": "https://en.wikipedia.org/wiki/Jude_Deveraux"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T11:25:51Z"
+}

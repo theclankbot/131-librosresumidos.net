@@ -1,0 +1,489 @@
+{
+  "batchName": "wave-20260416T212713Z-01",
+  "createdAt": "2026-04-16T21:27:26Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "entre-lineas-el-cuento-o-la-vida-de-luis-landero",
+      "title": "Entre líneas: el cuento o la vida",
+      "authorName": "Luis Landero",
+      "authorSlug": "luis-landero",
+      "type": "no-ficcion",
+      "audience": "adulto",
+      "genres": [
+        "ensayo"
+      ],
+      "year": 2001,
+      "pages": 208,
+      "clicks": 17,
+      "impressions": 93,
+      "priority": 1,
+      "current": {
+        "summary": "Landero reflexiona sobre la relación entre la vida y la escritura, sobre cómo las historias que contamos nos construyen y cómo la ficción y la realidad se alimentan mutuamente. Un ensayo narrativo que es también un autorretrato literario.",
+        "aboutThisBook": "Mezcla de ensayo, autobiografía y reflexión literaria. Landero escribe sobre escribir con la misma maestría que en sus novelas.",
+        "centralConflict": "",
+        "themes": [
+          "Escritura",
+          "Ficción y realidad",
+          "Autobiografía",
+          "Oficio literario"
+        ],
+        "keyIdeas": [
+          "La vida y la ficción se retroalimentan constantemente",
+          "Contar historias es una forma de entender quiénes somos",
+          "El oficio de escribir es también un oficio de vivir"
+        ],
+        "forWhom": "Lectores que disfrutan reflexiones sobre literatura y escritura.",
+        "whyItMatters": "Un texto que interesa tanto a escritores como a lectores curiosos sobre el oficio literario.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "Entre líneas: el cuento o la vida es un libro híbrido en el que Luis Landero cruza ensayo, memoria, relato y reflexión sobre la literatura. A través de Manuel Pérez Aguado, profesor, lector y escritor, y mediante otra voz que se acerca a la del propio autor, el texto examina cómo una vida se recuerda, se narra y acaba encontrando forma en las palabras. Más que defender una teoría abstracta de la escritura, Landero muestra que leer y contar son maneras de ordenar la experiencia, de inventarse una identidad y de convertir lo cotidiano en materia significativa. El libro interesa por su tono íntimo, su inteligencia serena y su capacidad para pensar la relación entre imaginación, memoria, educación sentimental y oficio literario sin perder humanidad ni placer narrativo.",
+        "aboutThisBook": "Este libro puede leerse como un ensayo literario, pero también como una narración en fragmentos donde la reflexión nace de escenas, recuerdos, voces y pequeñas historias. Landero no separa del todo vida y literatura: prefiere mostrar cómo ambas se contaminan. El resultado es una obra breve y densa que habla del aprendizaje sentimental, del mundo rural y urbano, de la formación del lector y del impulso de convertir la experiencia en relato. Es especialmente valiosa para quien quiera entender cómo piensa un escritor sobre su propio oficio sin caer en el tono académico rígido.",
+        "forWhom": "Para lectores adultos, estudiantes de literatura, docentes y clubes de lectura interesados en el ensayo narrativo, la autobiografía intelectual y la reflexión sobre la escritura.",
+        "whyItMatters": "Importa porque convierte preguntas centrales de la literatura en una experiencia legible y cercana: quién cuenta, desde dónde se recuerda y qué parte de invención hay en toda memoria.",
+        "editorialIntro": "Luis Landero propone aquí un libro de frontera: ni tratado teórico ni simple colección de recuerdos. Su fuerza está en pensar la literatura desde dentro, con ejemplos de vida, humor, nostalgia y observación moral. Para un lector de estudio, ofrece una puerta excelente a temas como autobiografía, ficción, voz narrativa y educación literaria.",
+        "readingLevel": "Nivel medio-alto: lenguaje claro, pero con capas reflexivas, ironía y referencias culturales que se disfrutan más con lectura atenta.",
+        "whyReadToday": "Sigue siendo actual porque plantea una cuestión muy contemporánea: cómo nos construimos a través de los relatos que contamos sobre nosotros mismos y sobre nuestro pasado.",
+        "studyNotes": [
+          "Observa cómo Landero evita separar tajantemente autobiografía, ficción y ensayo; esa mezcla es una de las claves formales del libro.",
+          "Conviene seguir la figura de Manuel Pérez Aguado como dispositivo narrativo: no solo organiza materiales, también problematiza la identidad del narrador.",
+          "El libro puede estudiarse junto con debates sobre memoria, autorrepresentación y formación del lector en la literatura española contemporánea."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Aprender a mirar y a recordar",
+            "summary": "La apertura del libro sitúa al lector en un territorio de memoria donde la infancia, el pueblo, los primeros mitos culturales y la educación sentimental empiezan a transformarse en materia verbal. Landero sugiere que la experiencia no llega ya hecha: necesita una mirada y un relato para adquirir forma."
+          },
+          {
+            "title": "Parte 2. El lector, el profesor y el escritor",
+            "summary": "En el centro del libro aparece con más claridad la figura de Manuel Pérez Aguado, profesor de literatura, lector apasionado y aspirante a escritor. Desde esa posición se enlazan escenas de formación, comentarios sobre libros y meditaciones sobre cómo la cultura modifica la vida de quien la recibe."
+          },
+          {
+            "title": "Parte 3. Contar para comprender la vida",
+            "summary": "En la última parte predomina una reflexión más explícita sobre el acto de contar. Las historias, lejos de ser un adorno, funcionan como instrumentos de conocimiento y como formas de identidad. El libro termina reforzando la idea de que vivir y narrar no son actividades separadas, sino experiencias que se iluminan mutuamente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Vida y literatura como vasos comunicantes",
+            "content": "Uno de los núcleos del libro es la imposibilidad de establecer una frontera limpia entre lo vivido y lo contado. Landero no afirma simplemente que toda vida sea ficción, pero sí muestra que la experiencia solo se vuelve inteligible cuando se organiza narrativamente. Esa idea le permite pensar la memoria no como archivo fiel, sino como elaboración significativa."
+          },
+          {
+            "heading": "La figura del narrador como problema",
+            "content": "La presencia de Manuel Pérez Aguado y la irrupción de una segunda voz cercana al propio Landero crean un juego de distancias muy fértil. El libro invita a preguntarse quién habla en cada momento, con qué grado de máscara y con qué intención. Ese desdoblamiento evita una confesión lineal y vuelve más rica la reflexión sobre la identidad autoral."
+          },
+          {
+            "heading": "Una pedagogía de la lectura",
+            "content": "Además de reflexionar sobre escribir, el libro piensa qué significa hacerse lector. La educación literaria aparece ligada a la biografía, al deseo de salir de los límites de origen y a la necesidad de comprender mejor el mundo. Por eso la obra interesa tanto en contextos docentes: muestra la lectura como experiencia transformadora y no solo como consumo cultural."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un ensayo o una narración?",
+            "answer": "Es, sobre todo, un libro híbrido. Tiene reflexión ensayística, pero avanza mediante escenas, recuerdos y voces narrativas que le dan una textura claramente literaria."
+          },
+          {
+            "question": "¿Hace falta conocer otras obras de Luis Landero para leerlo?",
+            "answer": "No. Puede leerse de forma autónoma, aunque quienes conozcan su narrativa reconocerán temas muy suyos: la memoria, la imaginación, el aprendizaje y la dignidad de la vida corriente."
+          },
+          {
+            "question": "¿Qué tema central conviene seguir durante la lectura?",
+            "answer": "La relación entre relato e identidad. El libro insiste en que las historias que contamos no solo describen una vida: también la interpretan y, en cierto modo, la crean."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "PlanetadeLibros / Tusquets Editores: ficha y sinopsis de Entre líneas: el cuento o la vida",
+            "url": "https://www.planetadelibros.com/libro-entre-lineas-el-cuento-o-la-vida/88523"
+          },
+          {
+            "label": "Google Libros: Entre líneas: el cuento o la vida",
+            "url": "https://books.google.com/books/about/Entre_l%C3%ADneas_el_cuento_o_la_vida.html?id=8rwuAgAAQBAJ"
+          },
+          {
+            "label": "Instituto Cervantes: biografía de Luis Landero",
+            "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/landero_luis.htm"
+          },
+          {
+            "label": "Instituto Cervantes: cronología de obras de Luis Landero",
+            "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/landero_luis_3.htm"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-reina-del-sur-de-arturo-perez-reverte",
+      "title": "La Reina del Sur",
+      "authorName": "Arturo Pérez-Reverte",
+      "authorSlug": "arturo-perez-reverte",
+      "type": "ficcion",
+      "audience": "adulto",
+      "genres": [
+        "narrativa",
+        "thriller"
+      ],
+      "year": 2002,
+      "pages": 544,
+      "clicks": 17,
+      "impressions": 85,
+      "priority": 2,
+      "current": {
+        "summary": "Teresa Mendoza huye de México tras la muerte de su novio narco y reconstruye su vida en España, donde se convierte en la narcotraficante más poderosa del Estrecho de Gibraltar. Una novela sobre el poder, la supervivencia y el precio de reinventarse.",
+        "aboutThisBook": "Pérez-Reverte investigó durante años el narcotráfico entre México y España para esta novela. Fue adaptada como serie de televisión con enorme éxito internacional.",
+        "centralConflict": "Sobrevivir y ascender en un mundo masculino y violento sin perder la humanidad por completo.",
+        "themes": [
+          "Poder",
+          "Narcotráfico",
+          "Supervivencia",
+          "Transformación",
+          "Soledad del poder"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Lectores adultos que disfrutan de narrativa de acción con profundidad.",
+        "whyItMatters": "Una de las novelas españolas contemporáneas más leídas internacionalmente.",
+        "tone": "Duro, cinematográfico, absorbente",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "La Reina del Sur narra el ascenso de Teresa Mendoza, una joven mexicana vinculada al narcotráfico que, tras una llamada que anuncia su condena, huye de Sinaloa y rehace su vida en España. A partir de ese desplazamiento, Arturo Pérez-Reverte construye una novela de aprendizaje criminal, supervivencia y poder en la que la protagonista aprende a leer códigos de violencia, lealtad e intereses transnacionales. El libro no se limita a contar una carrera delictiva: examina cómo se fabrica una leyenda, cómo una mujer atraviesa espacios dominados por hombres y qué precio personal exige convertirse en símbolo. Thriller, crónica de frontera y novela de personaje, la obra combina ritmo narrativo, documentación y una mirada crítica sobre el contrabando, el dinero y la reinvención de la identidad.",
+        "aboutThisBook": "Publicada originalmente en 2002, la novela es una de las obras más conocidas de Pérez-Reverte y una de las que mejor muestran su interés por mezclar documentación, tensión narrativa y construcción de mitos contemporáneos. Teresa Mendoza no aparece solo como heroína criminal ni como víctima: su complejidad sostiene una historia que va de Culiacán al Estrecho de Gibraltar y convierte el narcotráfico en escenario para pensar movilidad social, poder, lengua, violencia y ambición. La novela destaca también por su dimensión transnacional y por el modo en que la ficción dialoga con contextos reales del crimen organizado.",
+        "forWhom": "Para lectores adultos que busquen una novela intensa sobre supervivencia, crimen, frontera, poder y transformación personal, con trasfondo social y mirada crítica.",
+        "whyItMatters": "Importa porque convierte el thriller en una exploración de la violencia globalizada y del costo humano de ascender dentro de sistemas dominados por la fuerza y el dinero.",
+        "editorialIntro": "Pérez-Reverte abre la novela con una de esas escenas iniciales que definen un destino. A partir de ahí construye un relato de huida y ascenso que funciona a la vez como aventura, radiografía del crimen y estudio de personaje. Teresa Mendoza sostiene la historia con una mezcla de vulnerabilidad, cálculo y dureza que hace de esta obra una lectura especialmente útil para debatir poder, género y mito contemporáneo.",
+        "readingLevel": "Nivel medio-alto: prosa fluida y muy narrativa, pero con múltiples contextos, cambios de escenario y capas de interpretación sobre política, crimen y sociedad.",
+        "whyReadToday": "Se lee hoy con fuerza porque anticipa debates sobre narcotráfico, redes transnacionales, figuras mediáticas del crimen y construcción pública del poder femenino.",
+        "studyNotes": [
+          "Teresa Mendoza debe analizarse como personaje en transformación: la novela no la presenta idéntica al inicio y al final, sino construida por aprendizaje, trauma y cálculo.",
+          "Conviene observar cómo el espacio cambia la narración: México y el Estrecho no son simples decorados, sino sistemas morales, económicos y lingüísticos.",
+          "La obra gana profundidad cuando se lee no solo como thriller, sino como reflexión sobre leyenda, supervivencia y fabricación de autoridad en mundos violentos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. La llamada y la huida",
+            "summary": "La novela arranca con la noticia del peligro inminente y coloca a Teresa Mendoza en una situación límite. La muerte de su pareja y la amenaza que se cierne sobre ella la obligan a abandonar su mundo conocido. Esta primera etapa define el tono de supervivencia y desarraigo que sostendrá toda la obra."
+          },
+          {
+            "title": "Parte 2. Aprendizaje en el Estrecho",
+            "summary": "Ya en España, Teresa entra en contacto con nuevas redes, códigos y jerarquías. Aprende a leer a quienes la rodean, a negociar con la violencia y a convertir la vulnerabilidad inicial en capacidad de maniobra. La novela muestra aquí su formación práctica dentro de un universo criminal altamente estructurado."
+          },
+          {
+            "title": "Parte 3. Poder, leyenda y costo personal",
+            "summary": "La última parte consolida la transformación de Teresa en figura de poder. Sin embargo, el ascenso no se presenta como triunfo limpio, sino como resultado ambiguo de inteligencia, pérdidas, alianzas y endurecimiento. La protagonista gana nombre y autoridad, pero paga por ello con una profunda redefinición de sí misma."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Teresa Mendoza y la reinvención de la identidad",
+            "content": "La gran fuerza de la novela está en cómo narra una metamorfosis. Teresa no asciende porque la obra quiera celebrar el delito, sino porque sabe mostrar el aprendizaje de una mujer que convierte miedo, observación y experiencia en estrategia. Su identidad final no borra la inicial: la contiene como memoria de vulnerabilidad y origen."
+          },
+          {
+            "heading": "Thriller, frontera y economía criminal",
+            "content": "La Reina del Sur funciona como novela de suspense, pero su alcance es mayor. El narcotráfico aparece como una red que atraviesa territorios, lenguas y mercados. De ese modo, la obra conecta la peripecia individual con un sistema transnacional donde el contrabando, la circulación de capital y la violencia producen nuevas formas de poder."
+          },
+          {
+            "heading": "Género, mito y construcción de leyenda",
+            "content": "Pérez-Reverte convierte a Teresa en una figura mítica sin simplificarla. La novela examina qué significa que una mujer ocupe un espacio típicamente masculino y cómo esa excepcionalidad se vuelve relato, rumor y símbolo. La dimensión legendaria del personaje no elimina su humanidad; al contrario, hace más visible el costo de convertirse en emblema."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La novela glorifica el narcotráfico?",
+            "answer": "No de forma simple. Aunque retrata poder, dinero y ascenso, también subraya el miedo, la violencia, las pérdidas y la deshumanización que acompañan ese mundo."
+          },
+          {
+            "question": "¿Teresa Mendoza está basada en una persona real?",
+            "answer": "Pérez-Reverte explicó que no partió de una mujer concreta, sino de un contexto real que hacía verosímil un personaje así. La novela dialoga con realidades históricas, pero sigue siendo ficción."
+          },
+          {
+            "question": "¿Qué hace memorable a esta novela dentro del thriller en español?",
+            "answer": "La combinación de ritmo, documentación y construcción de personaje. Teresa Mendoza no es solo motor de la trama: es el centro moral y simbólico de una historia sobre frontera, poder y supervivencia."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Penguin Libros / Alfaguara: ficha y descripción de La Reina del Sur",
+            "url": "https://www.penguinlibros.com/es/novela-negra-misterio-y-thriller/7405-libro-la-reina-del-sur-9788420471983"
+          },
+          {
+            "label": "Google Libros: La Reina del Sur = The Queen of the South",
+            "url": "https://books.google.com/books/about/La_Reina_del_Sur_The_Queen_of_the_South.html?id=47sETwEACAAJ"
+          },
+          {
+            "label": "Open Library: registro bibliográfico de La reina del Sur",
+            "url": "https://openlibrary.org/search?q=La+Reina+del+Sur+Arturo+P%C3%A9rez-Reverte"
+          },
+          {
+            "label": "Gale / Mural: entrevista sobre la relación entre ficción y contexto real en La Reina del Sur",
+            "url": "https://go.gale.com/ps/i.do?p=IFME&u=googlescholar&id=GALE%7CA123893161&v=2.1&it=r&asid=5667440f"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "historia-de-un-pepe-de-millajose-vidaurre",
+      "title": "Historia de un pepe",
+      "authorName": "Millajosé Vidaurre",
+      "authorSlug": "millajose-vidaurre",
+      "type": "ficcion",
+      "audience": "juvenil",
+      "genres": [
+        "juvenil"
+      ],
+      "year": 1980,
+      "pages": 80,
+      "clicks": 16,
+      "impressions": 136,
+      "priority": 3,
+      "current": {
+        "summary": "La historia de un niño chileno que crece entre las dificultades cotidianas de una familia humilde. Un relato de iniciación que captura con honestidad la vida en los sectores populares y las experiencias que marcan la infancia.",
+        "aboutThisBook": "Texto representativo de la literatura infantil chilena comprometida con la realidad social.",
+        "centralConflict": "",
+        "themes": [
+          "Infancia",
+          "Pobreza",
+          "Crecimiento",
+          "Familia",
+          "Realidad social"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Estudiantes chilenos de primaria y secundaria.",
+        "whyItMatters": "Lectura escolar frecuente en Chile. Retrata una realidad que otros textos infantiles ignoran.",
+        "tone": "Directo, tierno, realista",
+        "escpilar": true
+      },
+      "rewritten": {
+        "summary": "Historia de un pepe es una novela extensa de formación y de costumbres ambientada en la Guatemala tardocolonial y en los años de la independencia. Las fuentes consultadas la vinculan con José Milla y Vidaurre, conocido como Pepe Milla, y no con una autora infantil chilena contemporánea. El centro del relato es Gabriel Bermúdez, un expósito al que llaman “pepe”, término local aplicado al niño recogido o abandonado. A partir de ese origen incierto, la novela sigue su crecimiento, su expulsión del hogar adoptivo, la aparición de protectores ambiguos, los amores, las intrigas urbanas y los conflictos de honor que marcan su entrada en la vida adulta. Milla combina narración sentimental, sátira social, escenas casi folletinescas e historia política para mostrar cómo un personaje sin linaje seguro intenta construir identidad, dignidad y lugar propio en una sociedad jerárquica.",
+        "aboutThisBook": "La investigación documental apunta a que esta obra corresponde a la novela decimonónica Historia de un Pepe de José Milla y Vidaurre, publicada en el siglo XIX y conservada en ediciones digitalizadas de dominio público. No se trata, según esos catálogos, de un libro infantil breve, sino de una narración histórica y costumbrista larga. El texto sigue a Gabriel Bermúdez desde su condición de expósito hasta su participación en redes familiares, militares y políticas de la Guatemala de fines del periodo colonial. Por eso conviene leerla como una novela de aprendizaje y de crítica social, con fuerte valor para cursos de literatura hispanoamericana y de historia cultural centroamericana.",
+        "forWhom": "Para estudiantes de literatura hispanoamericana, lectores de novela histórica, cursos sobre siglo XIX y quien quiera estudiar identidad, linaje, honor y movilidad social en Centroamérica.",
+        "whyItMatters": "Importa porque une relato novelesco e historia social. La figura del “pepe” convierte el problema del origen en una pregunta política y moral: quién pertenece, quién queda fuera y cómo se fabrica el prestigio en una sociedad obsesionada con el apellido, la honra y la posición.",
+        "editorialIntro": "Leer Historia de un pepe hoy exige cambiar de expectativa: no estamos ante una fábula juvenil breve, sino ante una novela de gran aliento, llena de humor, intriga y observación de costumbres. Su fuerza está en tomar a un personaje marcado por el abandono y hacerlo atravesar una sociedad entera. A través de Gabriel, José Milla mira la familia, la autoridad, el deseo de ascenso, la violencia del rumor y el peso del pasado colonial con una mezcla muy eficaz de dramatismo y detalle cotidiano.",
+        "readingLevel": "Nivel medio-alto o universitario inicial: prosa del siglo XIX, referencias históricas y sintaxis más exigente que la narrativa juvenil contemporánea.",
+        "whyReadToday": "Sigue siendo actual porque discute origen, estigma social y construcción de identidad. También ofrece una vía muy concreta para pensar cómo la ficción narra una sociedad desigual.",
+        "studyNotes": [
+          "Atiende al significado local de “pepe”: no es solo un apodo, sino una marca social que acompaña al protagonista.",
+          "Observa cómo la novela mezcla costumbrismo, intriga sentimental y contexto histórico sin separarlos por completo.",
+          "Analiza la relación entre honor público y verdad privada: muchos conflictos nacen de rumores, apariencias y secretos familiares.",
+          "Relaciona la trayectoria de Gabriel con el paso de la colonia a la independencia: el cambio político no elimina de inmediato las jerarquías sociales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Origen incierto y niñez marcada",
+            "summary": "La novela presenta el abandono del niño y su crianza en un hogar que no puede borrar del todo la sospecha sobre su origen. Desde temprano, Gabriel descubre que el nombre social pesa tanto como el afecto doméstico y que la palabra “pepe” funciona como herida y como destino."
+          },
+          {
+            "title": "Parte 2: Expulsión, protectores e ingreso al mundo adulto",
+            "summary": "Cuando se rompe la seguridad del hogar adoptivo, Gabriel queda expuesto a la ciudad, a sus jerarquías y a sus redes de poder. Aparecen figuras protectoras, pero también intereses ocultos. El aprendizaje del protagonista se da entre favores, sospechas, primeras pasiones y nuevas obligaciones."
+          },
+          {
+            "title": "Parte 3: Intrigas, revelaciones y prueba del honor",
+            "summary": "La trama se vuelve más compleja con conspiraciones, rivalidades y descubrimientos sobre el pasado. La novela liga el destino sentimental de Gabriel con asuntos de honra y reputación pública. Lo decisivo no es solo qué ocurrió, sino quién controla el relato de lo ocurrido."
+          },
+          {
+            "title": "Parte 4: Vida pública, historia y desenlace trágico",
+            "summary": "En su tramo final, la obra enlaza la biografía del protagonista con la agitación política de la independencia centroamericana. Gabriel alcanza una forma de reconocimiento, pero la novela evita un cierre puramente triunfal: su destino queda inscrito en la violencia de la historia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El expósito como problema social y narrativo",
+            "content": "La novela convierte el origen ilegítimo o incierto en motor de toda la acción. Gabriel no es solo un personaje individual: representa la fragilidad de quien carece de apellido firme y debe construirse a sí mismo en una sociedad que reparte prestigio antes de repartir justicia. Esa condición explica tanto su vulnerabilidad como su empuje."
+          },
+          {
+            "heading": "Costumbrismo con tensión novelesca",
+            "content": "José Milla destaca por describir ambientes, hablas, rituales urbanos y relaciones de clase, pero no se queda en la postal. Las escenas de costumbres están integradas a una narración de secretos, persecuciones, rivalidades y revelaciones. Por eso el libro vale tanto como documento cultural como por su eficacia narrativa."
+          },
+          {
+            "heading": "Historia privada e historia pública",
+            "content": "El paso del régimen colonial al tiempo de la independencia no aparece como telón de fondo decorativo. La vida íntima del protagonista termina implicada en procesos militares y políticos mayores. La novela sugiere que la identidad personal, la familia y la nación naciente se forman al mismo tiempo y bajo presión."
+          },
+          {
+            "heading": "Honor, género y violencia simbólica",
+            "content": "Muchos episodios muestran cómo la honra femenina, el rumor y la mirada social condicionan las decisiones de todos. La novela permite estudiar una cultura donde la reputación podía arruinar o salvar una vida, y donde el control del cuerpo y del nombre operaba como forma de poder."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Historia de un pepe?",
+            "answer": "Trata del crecimiento de Gabriel Bermúdez, un expósito o “pepe”, y de su esfuerzo por hacerse un lugar en la Guatemala tardocolonial entre secretos de origen, conflictos amorosos, intrigas sociales y cambios políticos."
+          },
+          {
+            "question": "¿Es realmente un libro juvenil breve?",
+            "answer": "No según las fuentes consultadas. Los catálogos y el texto digitalizado apuntan a una novela decimonónica larga de José Milla y Vidaurre, no a una obra infantil contemporánea de 80 páginas."
+          },
+          {
+            "question": "¿Qué significa “pepe” en el título?",
+            "answer": "En la propia edición digitalizada se explica como derivación local de “pepenado”, es decir, recogido del suelo o expósito. El término nombra al niño abandonado y le da al título su carga social."
+          },
+          {
+            "question": "¿Por qué se estudia esta novela?",
+            "answer": "Porque permite leer al mismo tiempo una historia de formación, un retrato de costumbres urbanas y una representación literaria del paso de la colonia a la independencia en Centroamérica."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Open Library, ficha de la obra \"Historia de un pepe\"",
+            "url": "https://openlibrary.org/works/OL3844737W"
+          },
+          {
+            "label": "Internet Archive, edición digitalizada de 1876/1898",
+            "url": "https://archive.org/details/historiadeunpepe00josguat"
+          },
+          {
+            "label": "Internet Archive / LibriVox, registro con descripción argumental",
+            "url": "https://archive.org/details/historiadeunpepe_2402_librivox"
+          },
+          {
+            "label": "Wikipedia, entrada biográfica de José Milla y Vidaurre",
+            "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Milla_y_Vidaurre"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "miedo-de-care-santos",
+      "title": "Miedo",
+      "authorName": "Care Santos",
+      "authorSlug": "care-santos",
+      "type": "ficcion",
+      "audience": "juvenil",
+      "genres": [
+        "juvenil",
+        "thriller"
+      ],
+      "year": 2007,
+      "pages": 160,
+      "clicks": 16,
+      "impressions": 114,
+      "priority": 4,
+      "current": {
+        "summary": "Un grupo de amigos se reúne para contar historias de miedo. Pero a medida que avanzan las historias, la línea entre ficción y realidad se difumina y el miedo deja de ser un juego.",
+        "aboutThisBook": "Una novela juvenil que funciona como colección de relatos de terror engarzados por una trama general. Care Santos domina el género con eficacia.",
+        "centralConflict": "",
+        "themes": [
+          "Miedo",
+          "Ficción vs. realidad",
+          "Amistad",
+          "Suspense"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Lectores juveniles que disfrutan del terror y el suspense.",
+        "whyItMatters": "Referencia del terror juvenil en español. Lectura frecuente en institutos.",
+        "tone": "Inquietante, ágil, adictivo",
+        "escpilar": true
+      },
+      "rewritten": {
+        "summary": "Miedo es una novela juvenil de Care Santos centrada menos en el terror sobrenatural que en el miedo a vivir, a decidir y a sufrir las consecuencias de los celos y la violencia emocional. Las fuentes oficiales consultadas la sitúan como una entrega de la serie iniciada por Mentira y continuada por Verdad, con Éric y Xenia como figuras clave. La sinopsis de la autora y de Edebé insiste en que el libro trata del miedo en su forma más íntima: miedo a no soportar la vida, a no saber cómo seguir y a destruir lo que se ama. Por eso la novela funciona como thriller afectivo y social. Mantiene tensión narrativa, pero su verdadero interés está en observar cómo una emoción aparentemente abstracta se convierte en decisiones equivocadas, daño real y aprendizaje doloroso.",
+        "aboutThisBook": "Miedo debe leerse como novela juvenil contemporánea de conflicto emocional y social, no como un simple libro de sustos. La página oficial de Care Santos y la editorial Edebé la presentan como continuación de la exitosa serie de Mentira y Verdad, y la edición catalogada por Open Library aparece en 2019 dentro de la colección Periscopio. Su centro temático es claro: el miedo y los celos como fuerzas destructivas. Care Santos utiliza una narración ágil, reconocible para lectores adolescentes, para explorar relaciones dañadas, decisiones precipitadas y la dificultad de aprender a vivir sin idealizar el amor ni la amistad.",
+        "forWhom": "Para lectores juveniles, docentes de secundaria, clubes de lectura y quienes trabajen en clase temas como celos, presión emocional, relaciones tóxicas y maduración afectiva.",
+        "whyItMatters": "Importa porque nombra miedos reales de la adolescencia y la juventud: no encajar, perder al otro, equivocarse, depender emocionalmente o no saber salir de una situación dañina. Lo hace sin sermón y con tensión narrativa.",
+        "editorialIntro": "Care Santos domina una zona muy difícil de la literatura juvenil: contar historias intensas y atractivas sin rebajar la complejidad emocional. En Miedo toma una palabra enorme y la vuelve concreta. El miedo no aparece como monstruo externo, sino como experiencia que corroe vínculos, altera juicios y convierte los celos en una fuerza devastadora. Esa elección vuelve la novela especialmente útil para lectura escolar: engancha como trama y permanece como discusión ética y afectiva.",
+        "readingLevel": "Lectura accesible para secundaria media y alta: prosa fluida, ritmo rápido y temas emocionales que exigen conversación guiada.",
+        "whyReadToday": "Conviene leerlo hoy porque habla de relaciones intensas, dependencia emocional y fragilidad psicológica con un lenguaje cercano al lector joven y sin romantizar el daño.",
+        "studyNotes": [
+          "Distingue entre miedo concreto y miedo existencial: la novela trabaja más el segundo que el primero.",
+          "Analiza el papel de los celos: no aparecen como prueba de amor, sino como mecanismo de destrucción.",
+          "Si se lee junto con Mentira y Verdad, compara la evolución de Éric y Xenia y cómo cambia el conflicto en cada entrega.",
+          "Observa cómo Care Santos combina intriga y reflexión moral para mantener interés sin perder profundidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El miedo como quiebre",
+            "summary": "La novela sitúa a sus personajes en un momento en que algo cambia de manera decisiva. El miedo deja de ser una sensación vaga y se convierte en una fuerza que afecta la manera de pensar, de amar y de actuar."
+          },
+          {
+            "title": "Parte 2: Celos, tensión y desgaste",
+            "summary": "A medida que avanza la historia, los vínculos se tensan. Los celos y la inseguridad alimentan malas interpretaciones y decisiones cada vez más dañinas. La intriga crece porque los personajes ya no controlan del todo lo que sienten."
+          },
+          {
+            "title": "Parte 3: Consecuencias emocionales y sociales",
+            "summary": "La narración muestra que el miedo no queda encerrado en la intimidad. Afecta la convivencia, rompe confianzas y expone a los personajes a errores que tienen repercusiones reales. El conflicto deja de ser solo sentimental."
+          },
+          {
+            "title": "Parte 4: Aprender a vivir",
+            "summary": "En su sentido más profundo, Miedo plantea que madurar no consiste en no sentir temor, sino en reconocerlo sin dejar que gobierne por completo la vida. La novela cierra sobre un aprendizaje duro, no idealizado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El miedo como tema moral y no solo atmosférico",
+            "content": "Aunque el título podría sugerir terror convencional, la novela se orienta hacia el miedo interior. Care Santos desplaza el foco desde el susto hacia el daño emocional, la vulnerabilidad y la dificultad de sostener una vida propia cuando el temor domina las decisiones."
+          },
+          {
+            "heading": "Celos y posesión afectiva",
+            "content": "La sinopsis oficial subraya que el libro también trata de los celos, y ese dato es central. La novela desmonta la idea de que los celos intensifican el amor; más bien muestra que deforman la percepción, vuelven sospechoso al otro y destruyen lo que pretenden conservar."
+          },
+          {
+            "heading": "Continuidad con la serie Mentira",
+            "content": "Leída en relación con Mentira y Verdad, esta entrega amplía el itinerario emocional de sus protagonistas. Ya no se trata solo del descubrimiento del otro, sino de la prueba que viene después: cómo vivir con verdad, deseo, inseguridad y responsabilidad cuando el vínculo ya no es ideal."
+          },
+          {
+            "heading": "Valor pedagógico de la novela",
+            "content": "Miedo funciona bien en el aula porque permite hablar de salud emocional, violencia simbólica y relaciones tóxicas sin perder interés narrativo. La historia ofrece un punto de entrada muy útil para discutir cómo nombramos el sufrimiento y cómo pedimos ayuda."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Miedo de Care Santos?",
+            "answer": "Trata del miedo entendido como experiencia emocional profunda y de los celos como fuerza destructiva dentro de una historia juvenil de alta tensión afectiva."
+          },
+          {
+            "question": "¿Es una novela de terror?",
+            "answer": "No en el sentido clásico. Tiene tensión y suspense, pero su núcleo está en el miedo a vivir, en la inseguridad y en el deterioro de las relaciones."
+          },
+          {
+            "question": "¿Forma parte de una serie?",
+            "answer": "Sí. Las fuentes oficiales la presentan como continuación del universo narrativo de Mentira y Verdad, con Éric y Xenia como referencias importantes."
+          },
+          {
+            "question": "¿Sirve para lectura escolar?",
+            "answer": "Sí. Su lenguaje es accesible y permite trabajar temas actuales como dependencia afectiva, celos, decisiones impulsivas y educación emocional."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Web oficial de Care Santos, ficha de \"Miedo\"",
+            "url": "https://www.caresantos.com/Miedo.htm"
+          },
+          {
+            "label": "Grupo Edebé, página editorial de \"Miedo\"",
+            "url": "https://edebe.com/libro/miedo/"
+          },
+          {
+            "label": "Open Library, registro de la obra",
+            "url": "https://openlibrary.org/works/OL23705097W"
+          },
+          {
+            "label": "Actualidad Literatura, artículo de contexto sobre la novela",
+            "url": "https://www.actualidadliteratura.com/miedo-care-santos/"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-16T21:38:32Z"
+}

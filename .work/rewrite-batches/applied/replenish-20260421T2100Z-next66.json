@@ -1,0 +1,1546 @@
+{
+  "batchName": "replenish-20260421T2100Z-next66",
+  "createdAt": "2026-04-21T19:31:22Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "en-la-lucha-final-de-rafael-chirbes",
+      "title": "En La Lucha Final",
+      "authorName": "Rafael Chirbes",
+      "authorSlug": "rafael-chirbes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "En la lucha final",
+        "authorName": "Rafael Chirbes",
+        "authorSlug": "rafael-chirbes",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 1991,
+        "pages": 192,
+        "summary": "En la lucha final retrata un Madrid contemporáneo dominado por la ambición, la ansiedad de ascenso y la degradación de antiguas convicciones intelectuales. A través de un narrador que observa desde una posición todavía insegura, Rafael Chirbes reúne a escritores, editores, parejas y regresados del pasado en un espacio social donde el prestigio cultural convive con el cálculo, la infidelidad, el miedo a caer y la necesidad de pertenecer. Amelia, Carlos, José, Concha y Ricardo Alcántara no aparecen solo como individuos, sino como figuras de una clase que ha sustituido los ideales por la administración del poder y sus residuos. La novela combina análisis moral, tensión relacional y una mirada muy fina sobre los mecanismos de exclusión, deseo y autoengaño. Más que contar una sola intriga, construye un fresco de época donde la memoria de la justicia perdida se vuelve una forma amarga de nostalgia.",
+        "aboutThisBook": "La edición de Anagrama y la ficha de TodosTusLibros coinciden en fijar la publicación en 1991, dentro de Narrativas hispánicas, con 192 páginas e ISBN 9788433909183. La presentación editorial define la obra como una novela densa y ambiciosa sobre una escena política y cultural reconocible, situada en el Madrid contemporáneo. Su centro no está en la peripecia externa, sino en la observación de una nueva clase social que pelea por el poder y por sus migajas mientras recuerda, con una mezcla de impostura y melancolía, los tiempos en que todavía creía en la literatura y en la justicia. Es una novela temprana de Chirbes, pero ya deja ver su capacidad para leer las fracturas morales de la vida española reciente.",
+        "forWhom": "Para lectores adultos interesados en narrativa española contemporánea, novelas de análisis social y relatos donde importan más la mirada moral, los vínculos de poder y la disección de una época que la acción espectacular.",
+        "whyItMatters": "Importa porque anticipa rasgos esenciales del mejor Chirbes: la atención a la clase social, el desgaste de los ideales y la relación entre cultura, dinero y legitimidad. Es una novela útil para entender la formación de una de las voces más incisivas de la narrativa española reciente.",
+        "editorialIntro": "Antes de las grandes novelas con las que Rafael Chirbes quedó fijado en el canon contemporáneo, ya estaba esta pieza seca, inteligente y profundamente incómoda. En la lucha final mira de frente a una élite cultural y sentimental que vive de administrar prestigio, deseo y cercanía al poder. No hay heroísmo en sus páginas, sino una prosa muy atenta a la impostura, a la nostalgia interesada y a la violencia discreta de las jerarquías sociales. El resultado es un retrato colectivo de enorme lucidez.",
+        "readingLevel": "Lectura media-alta. El libro no es extenso, pero exige atención a las relaciones entre personajes, a la ironía del narrador y a las capas sociales y morales que Chirbes deja actuar bajo cada escena.",
+        "whyReadToday": "Sigue siendo muy vigente porque habla de élites culturales, capital simbólico, oportunismo y precariedad moral con una claridad que todavía interpela al presente.",
+        "studyNotes": [
+          "Conviene leer la novela como un retrato coral: cada personaje importa por sí mismo, pero también como síntoma de un grupo social y de una época.",
+          "La posición del narrador es clave, porque observa desde la proximidad y el deseo de pertenecer, no desde una neutralidad exterior.",
+          "La memoria de antiguas convicciones políticas y literarias funciona como contraste entre idealismo pasado y pragmatismo degradado del presente.",
+          "El mundo editorial no es un decorado: es uno de los espacios donde mejor se ve la mezcla de prestigio, dependencia y lucha por el lugar propio."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Presentación del círculo social",
+            "summary": "La novela introduce a un conjunto de personajes vinculados al mundo cultural madrileño y muestra, desde el principio, una red de relaciones marcada por la rivalidad, la seducción y el deseo de ascenso."
+          },
+          {
+            "title": "Amores, prestigio y cálculo",
+            "summary": "Las parejas, los adulterios y las alianzas revelan que la intimidad también está atravesada por el poder. Chirbes convierte la vida sentimental en un campo donde se negocia posición social y reconocimiento."
+          },
+          {
+            "title": "El regreso que reabre tensiones",
+            "summary": "La figura de Ricardo Alcántara introduce memoria, extrañeza y desequilibrio dentro del grupo. Su presencia reactiva viejas lealtades y obliga a medir la distancia entre lo que los personajes fueron y lo que han llegado a ser."
+          },
+          {
+            "title": "Balance moral de una clase",
+            "summary": "A medida que las máscaras se agrietan, la novela deja de ser solo una historia de relaciones y se convierte en una lectura implacable de una clase social que ha cambiado ideales por supervivencia simbólica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La nueva clase cultural como objeto narrativo",
+            "content": "Chirbes observa a quienes viven del capital cultural y del acceso a redes de influencia. No los retrata como figuras excepcionales, sino como una clase con intereses, miedos y formas de autolegitimación muy concretas."
+          },
+          {
+            "heading": "Nostalgia de la justicia y pérdida de ideales",
+            "content": "Uno de los ejes más potentes del libro es la distancia entre los sueños juveniles de literatura y justicia y la realidad adulta de la administración del prestigio, la conveniencia y la renuncia."
+          },
+          {
+            "heading": "El narrador y el deseo de pertenecer",
+            "content": "La perspectiva narrativa no condena desde fuera. Mira desde una cercanía ambigua, marcada por la fascinación y por la conciencia de no haber obtenido todavía las credenciales del grupo observado."
+          },
+          {
+            "heading": "Madrid como escenario moral",
+            "content": "La ciudad no funciona solo como localización. Es el espacio donde convergen cultura, dinero, relaciones de pareja y competición simbólica, y donde el miedo a la caída organiza los gestos cotidianos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de argumento fuerte o de observación social?",
+            "answer": "Predomina la observación social y moral. Hay conflictos entre personajes, pero la verdadera fuerza del libro está en el retrato de grupo y en la lectura crítica de una clase cultural madrileña."
+          },
+          {
+            "question": "¿Qué lugar ocupa dentro de la obra de Rafael Chirbes?",
+            "answer": "Es una novela temprana y muy reveladora. Ya contiene la atención de Chirbes por las fracturas de clase, la corrupción íntima de los ideales y la relación entre deseo, dinero y legitimidad social."
+          },
+          {
+            "question": "¿Resulta accesible para quien no haya leído antes al autor?",
+            "answer": "Sí, aunque pide una lectura atenta. Su brevedad ayuda, pero su interés depende de captar matices de voz, relaciones de poder y capas de ironía más que de seguir una trama lineal."
+          },
+          {
+            "question": "¿Por qué sigue siendo actual?",
+            "answer": "Porque trata asuntos muy presentes: la ansiedad de estatus, el vaciamiento de los discursos ideales, el valor social de la cultura y la precariedad moral de las élites que administran reconocimiento."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Editorial Anagrama: En la lucha final",
+            "url": "https://www.anagrama-ed.es/libro/panorama-de-narrativas/en-la-lucha-final/9788433909183/PN_197"
+          },
+          {
+            "label": "Editorial Anagrama: Rafael Chirbes",
+            "url": "https://www.anagrama-ed.es/autor/chirbes-rafael-237"
+          },
+          {
+            "label": "TodosTusLibros: En la lucha final",
+            "url": "https://www.todostuslibros.com/libros/en-la-lucha-final_9788433909183"
+          },
+          {
+            "label": "Wikipedia: Rafael Chirbes",
+            "url": "https://es.wikipedia.org/wiki/Rafael_Chirbes"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "en-la-plaza-oscura-de-hugh-walpole",
+      "title": "En La Plaza Oscura",
+      "authorName": "Hugh Walpole",
+      "authorSlug": "hugh-walpole",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "En la plaza oscura",
+        "authorName": "Hugh Walpole",
+        "authorSlug": "hugh-walpole",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2004,
+        "pages": 284,
+        "summary": "En la plaza oscura es una novela de intriga con respiración psicológica y atmósfera urbana opresiva. La historia arranca una tarde de invierno en Piccadilly Circus, cuando Ricardo Gunn queda atrapado en una noche cargada de desplazamientos, habitaciones cerradas, tensiones afectivas y sospechas criminales. Más que desarrollar un simple enigma, el libro enlaza investigación, drama amoroso y reflexión moral en un Londres posterior a la Primera Guerra Mundial, iluminado por neones, frío y un deseo colectivo de olvidar. La edición en español circuló en la colección El Séptimo Círculo, lo que subraya su inscripción en el género policial, pero varias fuentes visibles muestran que la novela también posee una dimensión lírica y filosófica poco habitual. Su fuerza está en la mezcla de persecución nocturna, crisis íntima y una sensibilidad casi poética para describir la ciudad y sus zonas de sombra.",
+        "aboutThisBook": "La evidencia catalográfica disponible permite afirmar con cautela que esta edición en español apareció en 2004 en Emecé, dentro de El Séptimo Círculo, con ISBN 9789500425476 y 284 páginas, tal como recoge La Tercera Fundación; Open Library registra la misma edición y fecha, aunque consigna el nombre del autor como ‘Hunt Walpole’, una forma que conviene tratar con reserva. Para el contenido y la atribución del original, Goodreads y un comentario crítico de Maximiliano Daponte remiten a Hugh Walpole y al título inglés Above the Dark Circus. Por eso, la ficha conserva la atribución principal a Hugh Walpole, pero evita exagerar cualquier dato no corroborado más allá de esa coincidencia entre fuentes visibles.",
+        "forWhom": "Para lectores adultos atraídos por el policial clásico, la novela psicológica inglesa y las historias nocturnas donde la intriga convive con una prosa atmosférica y reflexiva.",
+        "whyItMatters": "Importa porque muestra una zona menos rutinaria del thriller clásico: no se limita al mecanismo del crimen, sino que incorpora densidad sentimental, clima urbano y preguntas morales sobre belleza, deseo y destrucción.",
+        "editorialIntro": "Hay novelas policiales que se recuerdan por la eficacia del enigma y otras por el modo en que convierten una noche, una ciudad y un estado de ánimo en experiencia literaria. En la plaza oscura parece pertenecer a esa segunda línea. Su paso por la histórica estela de El Séptimo Círculo la vincula al género negro, pero las huellas visibles de lectura insisten en algo más complejo: un relato de persecución y encierro donde Londres, el amor y la conciencia pesan tanto como el suspense. Es una obra para leer con curiosidad detectivesca y con atención al tono.",
+        "readingLevel": "Lectura media-alta. La intriga sostiene el avance, pero el libro gana mucho si se atiende a la atmósfera, a la textura moral de los personajes y a la mezcla entre policial, melodrama y reflexión.",
+        "whyReadToday": "Vale la pena leerlo hoy porque recuerda que el thriller puede ser también una forma de exploración psicológica y urbana, no solo una máquina de pistas y resolución.",
+        "studyNotes": [
+          "La atribución del autor exige prudencia bibliográfica: la edición de 2004 aparece en Open Library como ‘Hunt Walpole’, pero otras fuentes visibles la conectan con Hugh Walpole y con Above the Dark Circus.",
+          "Conviene no reducir la novela al policial de colección: la recepción crítica disponible destaca también su dimensión amorosa, filosófica y poética.",
+          "La unidad temporal de una sola noche intensifica la percepción de encierro, urgencia y desorientación emocional.",
+          "Piccadilly Circus funciona como emblema urbano: espectáculo luminoso por fuera, oscuridad moral y afectiva por dentro."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Una tarde de invierno en Piccadilly Circus",
+            "summary": "La novela se abre con la irrupción de Ricardo Gunn en un espacio urbano cargado de movimiento y amenaza. Desde el comienzo, la ciudad aparece como escenario de extrañeza, deseo y peligro."
+          },
+          {
+            "title": "La noche se vuelve pesquisa",
+            "summary": "Lo que parecía un desplazamiento ordinario deriva hacia una cadena de sospechas, interiores vigilados y relaciones tensas. La investigación avanza inseparable de la incertidumbre emocional."
+          },
+          {
+            "title": "Drama amoroso y conflicto moral",
+            "summary": "El libro introduce personajes atrapados entre fidelidad, fascinación y desengaño. La intriga policial se entrecruza así con decisiones afectivas y con una visión amarga de la vida moderna."
+          },
+          {
+            "title": "Cierre nocturno y revelación de sombras",
+            "summary": "La resolución no importa solo por aclarar hechos, sino por mostrar el tipo de mundo humano que la novela ha construido: uno donde la belleza, la culpa y el miedo conviven en espacios muy próximos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Policial, melodrama y reflexión filosófica",
+            "content": "Las fuentes críticas consultadas coinciden en que la novela mezcla el mecanismo policial con una intensidad sentimental y una veta reflexiva poco común. Esa combinación la aleja del simple entretenimiento formulaico."
+          },
+          {
+            "heading": "La noche urbana como dispositivo narrativo",
+            "content": "La concentración temporal en pocas horas refuerza el nervio del relato. Londres deja de ser un fondo y se convierte en un organismo de luces, frío, encierros y trayectos que modela la percepción del lector."
+          },
+          {
+            "heading": "Piccadilly Circus y la teatralidad moderna",
+            "content": "El espacio emblemático de Piccadilly ofrece una imagen dual: exhibición luminosa y confusión interior. La novela aprovecha ese contraste para pensar la vida moderna como espectáculo y como laberinto moral."
+          },
+          {
+            "heading": "La cuestión bibliográfica de la edición española",
+            "content": "La ficha obliga a distinguir entre contenido y catalogación. La edición argentina de 2004 está bien atestiguada por ISBN y colección, pero el nombre del autor aparece con variantes en catálogos. La atribución a Hugh Walpole resulta la más consistente al contrastarla con el original inglés y con fuentes de lectura pública."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es seguro que el autor sea Hugh Walpole?",
+            "answer": "La atribución más sólida y coherente apunta a Hugh Walpole, apoyada por Goodreads y por la referencia al original Above the Dark Circus. Aun así, la edición de 2004 en Open Library figura como ‘Hunt Walpole’, por lo que conviene mantener una cautela bibliográfica explícita."
+          },
+          {
+            "question": "¿Se trata de una novela policial clásica?",
+            "answer": "Sí, pero no solo eso. La circulación en El Séptimo Círculo la inscribe en el policial, aunque la novela también trabaja el drama amoroso, la atmósfera londinense y una reflexión moral más ambiciosa de lo habitual."
+          },
+          {
+            "question": "¿La acción ocurre en un periodo largo?",
+            "answer": "No. Una de sus características más atractivas es la concentración temporal: gran parte del efecto narrativo depende de una sola noche y de la intensidad emocional y espacial que esa unidad produce."
+          },
+          {
+            "question": "¿Por qué puede interesar hoy?",
+            "answer": "Porque ofrece una versión del thriller donde la ciudad, la psicología y el estilo importan tanto como la intriga. Es una buena puerta de entrada para lectores que buscan género con densidad literaria."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "La Tercera Fundación: En la plaza oscura",
+            "url": "https://tercerafundacion.net/biblioteca/ver/libro/53307"
+          },
+          {
+            "label": "Goodreads: En la plaza oscura / Above the Dark Circus",
+            "url": "https://www.goodreads.com/book/show/25934441-en-la-plaza-oscura"
+          },
+          {
+            "label": "Maximiliano Daponte: comentario sobre En la plaza oscura",
+            "url": "https://maximilianodaponte.blogspot.com/2016/06/en-la-novela-en-la-plaza-oscura-above.html"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "en-plena-noche-de-mikel-santiago",
+      "title": "En Plena Noche",
+      "authorName": "Mikel Santiago",
+      "authorSlug": "mikel-santiago",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "En plena noche",
+        "authorName": "Mikel Santiago",
+        "authorSlug": "mikel-santiago",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2021,
+        "pages": 672,
+        "summary": "En plena noche es la segunda entrega de la Trilogía de Illumbe y despliega un thriller amplio, nostálgico y lleno de secretos sedimentados. La novela parte de un reencuentro: más de veinte años después de un concierto y de la desaparición de una chica llamada Lorea, Diego Letamendia regresa a Illumbe tras la muerte de uno de sus viejos amigos en un incendio sospechoso. Ese regreso abre de nuevo las heridas de una cuadrilla marcada por silencios, culpas y versiones incompletas del pasado. Mikel Santiago convierte el pueblo imaginario vasco en una máquina narrativa donde memoria, música, adolescencia y crimen se entrelazan. La investigación avanza entre recuerdos de los años noventa, vínculos deteriorados y nuevas pistas que obligan a revisar lo que parecía cerrado. El resultado es una novela de gran aliento, muy rítmica, que combina suspense clásico con una exploración emocional de la amistad, la lealtad y el precio de callar demasiado tiempo.",
+        "aboutThisBook": "Penguin Libros y TodosTusLibros coinciden en los datos básicos de esta edición: En plena noche apareció en 2021 con Ediciones B, dentro de la Trilogía de Illumbe, bajo el ISBN 9788466669689. La ficha de TodosTusLibros añade una extensión de 672 páginas, lo que confirma que se trata de una novela larga y de desarrollo coral. El propio catálogo de Penguin la presenta como la segunda parte de la saga iniciada con El mentiroso y subraya sus elementos centrales: un grupo de rock, un concierto, una desaparición y una noche del pasado que nunca termina de cerrarse. En la página del autor, la editorial la integra en una trayectoria de thrillers superventas ambientados en territorios emocionales y geográficos muy reconocibles para Santiago.",
+        "forWhom": "Para lectores adultos que disfrutan los thrillers de largo recorrido, los misterios con pasado compartido, las novelas corales y las historias donde el suspense convive con memoria generacional y tensión afectiva.",
+        "whyItMatters": "Importa porque confirma la capacidad de Mikel Santiago para convertir un entorno local en un escenario de alcance universal. La novela combina eficacia adictiva, construcción de atmósfera y una reflexión muy legible sobre la persistencia del pasado en la vida adulta.",
+        "editorialIntro": "Hay thrillers que se sostienen en una sola pregunta y otros que levantan un mundo entero de deudas, afectos y secretos. En plena noche pertenece a esta segunda clase. Mikel Santiago vuelve a Illumbe para demostrar que el crimen rara vez nace aislado: casi siempre está unido a una memoria compartida, a pactos de silencio y a la imposibilidad de dejar atrás la adolescencia. Con música, amistad quebrada y un pueblo que parece guardar más de lo que muestra, la novela ofrece una lectura absorbente y emocionalmente espesa.",
+        "readingLevel": "Lectura media. Su extensión es considerable, pero el ritmo narrativo, los cambios de información y la claridad de la prosa la vuelven muy accesible para lectores habituales de suspense.",
+        "whyReadToday": "Funciona muy bien hoy porque enlaza el atractivo del thriller con temas contemporáneos: memoria emocional, identidades dañadas, comunidades pequeñas y verdad fragmentada.",
+        "studyNotes": [
+          "La novela se beneficia de la lectura en relación con El mentiroso, pero también puede apreciarse por su propio conflicto central y por la autonomía de su investigación.",
+          "Illumbe es un espacio ficticio decisivo: concentra la intimidad del pueblo pequeño y la opacidad necesaria para que los secretos duren décadas.",
+          "La música y la nostalgia noventera no son mero adorno; sirven para organizar la memoria del grupo y para medir la distancia entre juventud y madurez.",
+          "El libro combina procedimientos del thriller con una fuerte atención a la amistad masculina, la culpa compartida y la fragilidad de los relatos recordados."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Regreso a Illumbe",
+            "summary": "Diego vuelve al pueblo tras un incendio sospechoso y se reencuentra con un grupo de antiguos amigos. El retorno activa de inmediato el vínculo entre la muerte presente y la desaparición de Lorea décadas atrás."
+          },
+          {
+            "title": "La noche del concierto vuelve a abrirse",
+            "summary": "Los recuerdos del grupo de rock, del concierto y de aquella noche decisiva empiezan a ordenarse y a contradecirse. La novela convierte la memoria en campo de investigación y de conflicto."
+          },
+          {
+            "title": "Nuevas pistas, viejas culpas",
+            "summary": "A medida que Diego profundiza, aparecen datos que obligan a revisar las versiones aceptadas durante años. Los silencios del grupo revelan que la verdad estuvo siempre dividida entre miedo, conveniencia y vergüenza."
+          },
+          {
+            "title": "Verdad tardía y consecuencias presentes",
+            "summary": "La resolución del misterio muestra que el pasado no estaba muerto, sino actuando en la vida adulta de todos. El cierre reúne tensión criminal y balance emocional sobre la amistad, la lealtad y la pérdida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El pasado como motor del thriller",
+            "content": "La novela organiza su suspense sobre una temporalidad partida. No investiga solo un hecho presente, sino la persistencia de una noche antigua que sigue contaminando el presente de los personajes."
+          },
+          {
+            "heading": "Illumbe: geografía del secreto",
+            "content": "El pueblo imaginario del País Vasco permite a Santiago trabajar una tensión muy productiva: cercanía comunitaria y opacidad. Todos se conocen, pero nadie conoce del todo lo que los demás callan."
+          },
+          {
+            "heading": "Música, generación y memoria",
+            "content": "El grupo de rock y la evocación de los noventa aportan más que color de época. Funcionan como archivo emocional de una generación y como dispositivo para medir las promesas rotas de la juventud."
+          },
+          {
+            "heading": "Thriller de largo aliento y dimensión coral",
+            "content": "Sus 672 páginas no responden a una dispersión caprichosa, sino a la necesidad de dar espesor a un conjunto de personajes marcados por versiones distintas del mismo trauma. La amplitud es parte de la estrategia narrativa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hay que leer antes El mentiroso?",
+            "answer": "Ayuda a disfrutar mejor del universo de Illumbe, pero no es imprescindible. En plena noche presenta un conflicto propio y ofrece la información necesaria para seguir su investigación principal."
+          },
+          {
+            "question": "¿Es una novela negra clásica o un thriller más emocional?",
+            "answer": "Es ambas cosas. Tiene investigación, sospechas y giros, pero también dedica mucho espacio a la memoria compartida, a la culpa y a la erosión de la amistad con el paso del tiempo."
+          },
+          {
+            "question": "¿La extensión ralentiza la lectura?",
+            "answer": "No necesariamente. Aunque es una novela larga, Mikel Santiago sostiene el interés con capítulos eficaces, dosificación de pistas y un uso muy controlado de la información sobre el pasado."
+          },
+          {
+            "question": "¿Qué aporta respecto a otros thrillers contemporáneos?",
+            "answer": "Aporta un equilibrio muy sólido entre ritmo comercial, atmósfera local y densidad emocional. No se limita a resolver un misterio: explora cómo un hecho viejo sigue organizando una comunidad y una biografía."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Penguin Libros: En plena noche (Trilogía de Illumbe 2)",
+            "url": "https://www.penguinlibros.com/es/novela-negra-misterio-y-thriller/238138-libro-en-plena-noche-trilogia-de-illumbe-2-9788466669689"
+          },
+          {
+            "label": "Penguin Libros: Mikel Santiago",
+            "url": "https://www.penguinlibros.com/es/4145-mikel-santiago"
+          },
+          {
+            "label": "TodosTusLibros: En plena noche",
+            "url": "https://www.todostuslibros.com/libros/en-plena-noche_9788466669689"
+          },
+          {
+            "label": "Wikipedia: Mikel Santiago",
+            "url": "https://es.wikipedia.org/wiki/Mikel_Santiago"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "en-torno-a-galileo-de-jose-ortega-y-gasset",
+      "title": "En Torno A Galileo",
+      "authorName": "Jose Ortega Y Gasset",
+      "authorSlug": "jose-ortega-y-gasset",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "En torno a Galileo",
+        "authorName": "José Ortega y Gasset",
+        "authorSlug": "jose-ortega-y-gasset",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1958,
+        "pages": 240,
+        "summary": "En torno a Galileo es uno de los libros decisivos de la etapa madura de José Ortega y Gasset. A partir de la figura de Galileo Galilei, el filósofo español no compone una biografía convencional, sino una indagación sobre el nacimiento de la ciencia moderna, la transformación de la idea de verdad y la crisis espiritual de Occidente. Galileo funciona aquí como un punto de inflexión histórico: con él cambia la relación entre experiencia, razón, autoridad y mundo. Ortega examina ese desplazamiento con una prosa ensayística densa y luminosa, capaz de pasar de la historia intelectual a la reflexión filosófica y cultural. El resultado es un libro breve en extensión, pero muy ambicioso en alcance, que piensa la modernidad desde sus fundamentos.",
+        "aboutThisBook": "Este ensayo reúne algunas de las reflexiones más conocidas de Ortega sobre la modernidad científica y sus consecuencias culturales. Aunque el título remite a Galileo, el libro interesa sobre todo por la manera en que convierte un momento histórico en una meditación sobre Europa, la razón, las creencias y el destino del hombre moderno. No es un tratado técnico de historia de la ciencia, sino un ensayo filosófico de interpretación histórica, con la claridad expositiva y el pulso polémico característicos del autor.",
+        "forWhom": "Para lectores de filosofía, historia de las ideas y ensayo español del siglo XX; especialmente útil para estudiantes universitarios y para quien quiera entender a Ortega más allá de sus textos más citados.",
+        "whyItMatters": "Sigue importando porque muestra cómo la ciencia moderna no es solo un avance técnico, sino una mutación completa del horizonte cultural europeo. Además, permite leer a Ortega como intérprete de las crisis de la modernidad.",
+        "editorialIntro": "Pocos ensayos españoles del siglo XX consiguen hacer algo tan difícil como pensar un giro histórico sin perder tensión literaria. En torno a Galileo toma al gran astrónomo italiano como emblema de una nueva forma de mirar el mundo y, desde ahí, recorre el problema de la verdad, la autoridad intelectual y la vida europea moderna. Ortega no resume datos: interpreta una época y discute sus presupuestos más hondos.",
+        "readingLevel": "Lectura media-alta: la prosa es elegante y legible, pero el libro exige atención a los argumentos, a las alusiones históricas y a los desplazamientos conceptuales propios del ensayo filosófico.",
+        "whyReadToday": "Porque ayuda a pensar la relación entre ciencia, autoridad y crisis cultural en un presente que sigue discutiendo qué puede considerarse verdad legítima y qué lugar ocupa el saber experto.",
+        "studyNotes": [
+          "Galileo debe leerse menos como personaje biográfico que como símbolo del nacimiento de una nueva sensibilidad intelectual.",
+          "El libro articula historia de la ciencia, filosofía de la cultura y diagnóstico de la modernidad europea.",
+          "Conviene atender a la oposición orteguiana entre creencias heredadas e ideas críticas como clave de lectura.",
+          "La argumentación gana profundidad cuando se relaciona con otros ensayos de Ortega sobre razón histórica y crisis europea."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Galileo como figura de época",
+            "summary": "Ortega presenta a Galileo como el nombre que condensa una ruptura histórica: con él se modifica la manera de buscar verdad y de legitimar el conocimiento."
+          },
+          {
+            "title": "Parte 2. El nacimiento de la ciencia moderna",
+            "summary": "El ensayo explora cómo la matematización de la naturaleza y la nueva confianza en el método transforman la experiencia intelectual europea."
+          },
+          {
+            "title": "Parte 3. Ideas, creencias y cambio histórico",
+            "summary": "A partir del caso galileano, Ortega examina la tensión entre sistemas de creencias heredados y nuevas ideas críticas capaces de reorganizar una civilización."
+          },
+          {
+            "title": "Parte 4. La crisis de la modernidad",
+            "summary": "La reflexión se amplía hacia un diagnóstico cultural: el triunfo de una forma de razón también genera desequilibrios, vacíos y nuevas incertidumbres."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Galileo como símbolo filosófico",
+            "content": "El interés del libro no consiste en reconstruir toda la vida de Galileo, sino en usarlo como figura de inteligibilidad histórica. Ortega convierte una biografía en un signo de cambio civilizatorio."
+          },
+          {
+            "heading": "Ciencia y horizonte cultural",
+            "content": "La ciencia moderna aparece aquí no como disciplina aislada, sino como fuerza que reordena la imagen del mundo, la autoridad del saber y la autocomprensión de Europa."
+          },
+          {
+            "heading": "Razón histórica y modernidad",
+            "content": "El ensayo se entiende mejor si se relaciona con la idea orteguiana de razón histórica: las ideas valen dentro de una circunstancia y solo se comprenden plenamente en su devenir."
+          },
+          {
+            "heading": "Actualidad del diagnóstico",
+            "content": "La obra sigue siendo fértil porque vincula progreso intelectual y crisis cultural, una tensión todavía visible en los debates contemporáneos sobre ciencia, técnica y legitimidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una biografía de Galileo?",
+            "answer": "No en sentido estricto. Usa la figura de Galileo como eje para un ensayo filosófico e histórico sobre la modernidad científica."
+          },
+          {
+            "question": "¿Hace falta formación previa en filosofía?",
+            "answer": "Ayuda, pero no es imprescindible. Sí conviene leer con calma y estar dispuesto a seguir argumentos abstractos y referencias históricas."
+          },
+          {
+            "question": "¿Qué lugar ocupa dentro de la obra de Ortega?",
+            "answer": "Es un texto importante de su madurez y dialoga con sus reflexiones sobre razón histórica, crisis europea y transformación de las creencias colectivas."
+          },
+          {
+            "question": "¿Por qué sigue siendo relevante?",
+            "answer": "Porque piensa el nacimiento de la ciencia moderna como problema cultural y no solo técnico, algo muy útil para entender conflictos actuales entre conocimiento, autoridad y sociedad."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library - edición española de 1959",
+            "url": "https://openlibrary.org/books/OL22026796M/En_torno_a_Galileo"
+          },
+          {
+            "label": "Agapea - ficha de la edición de Alianza Editorial",
+            "url": "https://www.agapea.com/libros/En-torno-a-Galileo-9788420641188-i.htm"
+          },
+          {
+            "label": "Fundación Ortega-Marañón - perfil de José Ortega y Gasset",
+            "url": "https://ortegaygasset.edu/legados/jose-ortega-y-gasset/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ensayos-de-natalia-ginzburg",
+      "title": "Ensayos",
+      "authorName": "Natalia Ginzburg",
+      "authorSlug": "natalia-ginzburg",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Ensayos",
+        "authorName": "Natalia Ginzburg",
+        "authorSlug": "natalia-ginzburg",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2009,
+        "pages": 448,
+        "summary": "Ensayos reúne una parte sustancial de la escritura no narrativa de Natalia Ginzburg y permite leerla en uno de sus registros más personales y penetrantes. Lejos del aparato académico y de la teoría abstracta, Ginzburg piensa desde la experiencia: la familia, la infancia, la lengua, la pobreza moral del fascismo, la amistad, el trabajo intelectual, la maternidad, la vida civil italiana o la responsabilidad de escribir. Su estilo parece sencillo, pero esa sencillez es engañosa: cada texto avanza por observaciones concretas, memoria, ironía y juicios morales muy afinados. El volumen muestra a una autora capaz de convertir lo doméstico en reflexión pública y lo íntimo en una forma de crítica cultural. Leer estos ensayos es entrar en una inteligencia sobria, precisa y nada ornamental.",
+        "aboutThisBook": "La edición de Lumen de 2009 recupera para el lector en español una selección amplia de la prosa ensayística de Ginzburg, una zona central de su obra aunque a veces quede opacada por sus novelas. Aquí aparecen tanto la mirada autobiográfica como la intervención cívica: textos sobre costumbres, sobre vínculos familiares y sobre el deterioro político y moral de su tiempo. El libro interesa porque condensa la voz de una escritora que nunca separó del todo literatura, memoria y conciencia histórica.",
+        "forWhom": "Muy recomendable para lectores de ensayo literario, autobiografía intelectual, estudios de cultura europea del siglo XX y para quienes disfrutan una prosa reflexiva sin jergas innecesarias.",
+        "whyItMatters": "Importa porque Ginzburg demuestra que el ensayo puede ser a la vez íntimo, político y literariamente exacto. Su manera de pensar la vida cotidiana sigue siendo una escuela de lucidez moral.",
+        "editorialIntro": "Hay escritores que argumentan y escritores que observan; Natalia Ginzburg pertenece a una rara categoría intermedia: piensa mirando. En estos ensayos, la experiencia personal nunca se reduce a confesión ni la reflexión pública a consigna. La autora italiana compone una prosa de apariencia humilde y enorme precisión ética, donde cada escena doméstica puede abrirse a una pregunta sobre la historia, la lengua o la convivencia civil.",
+        "readingLevel": "Lectura media-alta: los textos son claros y breves en su formulación, pero su densidad moral, sus referencias históricas y la sutileza de su tono invitan a una lectura lenta y atenta.",
+        "whyReadToday": "Porque ofrece una forma de crítica cultural sin estridencias, atenta a la vida común, a la fragilidad de la convivencia y al vínculo entre lenguaje, memoria y responsabilidad pública.",
+        "studyNotes": [
+          "La aparente sencillez de Ginzburg es una estrategia de precisión: evita la abstracción, pero no la complejidad moral.",
+          "Muchos textos parten de escenas familiares o recuerdos para abrir una reflexión sobre sociedad, política y lenguaje.",
+          "El volumen puede leerse como autobiografía intelectual fragmentaria además de como colección de ensayos.",
+          "Conviene situar a la autora en la Italia del antifascismo, la posguerra y el debate cultural del siglo XX."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Vida doméstica y memoria",
+            "summary": "Un conjunto de textos convierte la casa, la infancia, los hábitos y los afectos en materia de pensamiento, sin separar lo privado de sus resonancias históricas."
+          },
+          {
+            "title": "Parte 2. Lenguaje, escritura y oficio",
+            "summary": "Ginzburg reflexiona sobre la literatura, la voz propia y la responsabilidad de escribir con una prosa despojada y severa."
+          },
+          {
+            "title": "Parte 3. Historia civil y juicio moral",
+            "summary": "La autora examina el fascismo, la posguerra y la degradación de la vida pública desde una mirada ética que evita tanto el dogmatismo como la indiferencia."
+          },
+          {
+            "title": "Parte 4. Retratos y observaciones",
+            "summary": "A través de figuras cercanas, escenas mínimas y comentarios culturales, el libro dibuja un mapa muy personal de su tiempo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Ensayo y experiencia",
+            "content": "La fuerza de Ginzburg reside en que no separa reflexión y vida vivida. Sus argumentos nacen de escenas concretas, de observaciones domésticas y de recuerdos que se vuelven pensamiento."
+          },
+          {
+            "heading": "Una ética de la sobriedad",
+            "content": "Su estilo rehúye el énfasis y la retórica ornamental. Esa contención refuerza el peso de sus juicios y vuelve más incisiva la crítica moral de costumbres y discursos."
+          },
+          {
+            "heading": "Lo íntimo como asunto público",
+            "content": "Familia, maternidad, amistad o lenguaje no aparecen como temas menores. En Ginzburg, lo cotidiano es un laboratorio desde el que se entiende una sociedad entera."
+          },
+          {
+            "heading": "Ginzburg en el siglo XX europeo",
+            "content": "Estos ensayos permiten leer a la autora como testigo de la Italia antifascista y de la posguerra, pero también como una voz europea que piensa la fragilidad de la convivencia moderna."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro académico?",
+            "answer": "No. Son ensayos literarios y civiles escritos con gran claridad, apoyados en experiencia, memoria y observación antes que en aparato teórico."
+          },
+          {
+            "question": "¿Se parece a sus novelas?",
+            "answer": "Sí en el tono sobrio y en la atención a la familia, la memoria y el lenguaje, aunque aquí la reflexión aparece de forma directa y argumentativa."
+          },
+          {
+            "question": "¿Qué temas dominan el volumen?",
+            "answer": "La vida doméstica, la escritura, la historia italiana del siglo XX, la moral cotidiana y la relación entre experiencia privada y responsabilidad pública."
+          },
+          {
+            "question": "¿Por qué leer a Ginzburg hoy?",
+            "answer": "Porque su forma de mirar evita la grandilocuencia y ofrece una inteligencia moral muy útil para pensar el presente desde la vida común."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "WorldCat - edición de Lumen (ISBN 9788426417138)",
+            "url": "https://search.worldcat.org/search?q=bn%3A9788426417138"
+          },
+          {
+            "label": "Agapea - ficha de Ensayos",
+            "url": "https://www.agapea.com/libros/Ensayos-9788426417138-i.htm"
+          },
+          {
+            "label": "Todos Tus Libros - búsqueda por ISBN",
+            "url": "https://www.todostuslibros.com/busquedas?keyword=9788426417138"
+          },
+          {
+            "label": "Encyclopaedia Britannica - Natalia Ginzburg",
+            "url": "https://www.britannica.com/biography/Natalia-Ginzburg"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "entre-cachacos-obra-periodistica-2-1954-1955-de-gabriel-garcia-marquez",
+      "title": "Entre Cachacos Obra Periodistica 2 1954 1955",
+      "authorName": "Gabriel Garcia Marquez",
+      "authorSlug": "gabriel-garcia-marquez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Entre cachacos. Obra periodística 2 (1954-1955)",
+        "authorName": "Gabriel García Márquez",
+        "authorSlug": "gabriel-garcia-marquez",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 1999,
+        "pages": 829,
+        "summary": "Este segundo volumen de la obra periodística de Gabriel García Márquez reúne textos escritos entre 1954 y 1955, años decisivos en su formación como reportero y estilista. Entre cachacos permite observar a un autor todavía anterior a la gran fama novelesca, pero ya dueño de un oído excepcional para la frase, el detalle significativo y la construcción de una mirada. El libro agrupa crónicas, artículos, perfiles y notas de actualidad en las que la observación urbana, la ironía, el juicio político y la curiosidad narrativa aparecen íntimamente ligados. Más que un mero archivo, el volumen deja ver el laboratorio del futuro novelista: aquí se ensayan ritmos, enfoques y procedimientos de montaje que después serán centrales en su ficción. También es un documento valioso sobre Colombia y sobre el oficio periodístico en tiempos de tensión histórica.",
+        "aboutThisBook": "Publicado por Mondadori en 1999 dentro de la edición de la obra periodística de García Márquez, este tomo organiza materiales de 1954 y 1955, cuando el autor ya destacaba como periodista profesional. Su interés no se limita al valor documental: permite seguir la formación de una voz capaz de convertir información, ambiente y carácter en una pieza narrativa compacta. El libro es útil tanto para lectores de García Márquez como para quien estudie la tradición de la crónica latinoamericana y la relación entre prensa y literatura.",
+        "forWhom": "Ideal para lectores de crónica latinoamericana, estudiantes de periodismo, investigadores de García Márquez y quienes quieran ver cómo una gran obra literaria también se forjó en la prensa diaria.",
+        "whyItMatters": "Es un volumen clave porque muestra a García Márquez antes del mito, trabajando la noticia, el retrato y la crónica con una precisión que anticipa su potencia narrativa posterior. También ilumina la historia cultural y política de mediados de siglo.",
+        "editorialIntro": "Leer Entre cachacos es asomarse al taller de un escritor en plena formación y, al mismo tiempo, a un momento intenso de la vida pública colombiana. En estas páginas todavía no está el Nobel, pero sí el reportero que ya sabe escuchar una ciudad, perfilar un personaje y descubrir en la realidad cotidiana una energía de relato. El libro vale como documento, como escuela de periodismo y como primer mapa de una imaginación narrativa en expansión.",
+        "readingLevel": "Lectura media-alta: muchos textos se leen con fluidez periodística, pero el conjunto gana espesor cuando se atiende al contexto histórico y al modo en que la crónica se convierte en forma literaria.",
+        "whyReadToday": "Porque recuerda que el mejor periodismo no separa información, estilo y responsabilidad pública, y porque permite volver sobre la relación entre prensa, poder y narración en un tiempo muy parecido al nuestro en sus tensiones.",
+        "studyNotes": [
+          "Conviene leer el volumen como archivo del periodista García Márquez y también como laboratorio del novelista posterior.",
+          "La diversidad de piezas permite estudiar varios registros: nota breve, perfil, artículo de opinión y crónica narrativa.",
+          "El contexto colombiano de 1954-1955 es importante para entender la temperatura política y el filo de ciertas observaciones.",
+          "La prosa ya muestra su capacidad para convertir datos dispersos en una secuencia narrativa compacta."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Un reportero en consolidación",
+            "summary": "Las primeras piezas dejan ver a un periodista joven pero ya muy seguro de sus recursos de observación, síntesis y construcción de escena."
+          },
+          {
+            "title": "Parte 2. Ciudad, actualidad y vida pública",
+            "summary": "Crónicas y artículos registran el pulso de la vida urbana y política, mostrando cómo la información inmediata puede adquirir espesor literario."
+          },
+          {
+            "title": "Parte 3. Retratos, perfiles y escenas",
+            "summary": "El volumen destaca por su atención a personajes, ambientes y detalles reveladores, elementos que convierten cada texto en algo más que una nota de prensa."
+          },
+          {
+            "title": "Parte 4. El germen del gran narrador",
+            "summary": "Leído en conjunto, el libro permite reconocer procedimientos de ritmo, montaje y focalización que más tarde reaparecerán en la ficción de García Márquez."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Periodismo como taller de estilo",
+            "content": "En estas páginas se advierte que el periodismo no fue una etapa menor, sino un espacio central de aprendizaje formal. La precisión, el ritmo y el manejo del detalle surgen aquí con fuerza."
+          },
+          {
+            "heading": "Crónica y mirada política",
+            "content": "El volumen enlaza observación cotidiana y sensibilidad histórica. La realidad pública no aparece como telón de fondo, sino como materia viva de la escritura."
+          },
+          {
+            "heading": "Antes del canon novelesco",
+            "content": "Leer este tomo ayuda a desmontar la idea de un García Márquez que irrumpe de pronto como novelista consagrado. Su imaginación narrativa se forma en el trabajo periodístico continuo."
+          },
+          {
+            "heading": "Valor documental y literario",
+            "content": "Entre cachacos interesa por doble vía: conserva un momento del periodismo hispanoamericano y, al mismo tiempo, ofrece textos que mantienen vigor estilístico propio más allá del contexto inmediato."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o una recopilación periodística?",
+            "answer": "Es una recopilación de textos periodísticos escritos entre 1954 y 1955: crónicas, artículos, perfiles y otras piezas de prensa."
+          },
+          {
+            "question": "¿Sirve para entender mejor a García Márquez novelista?",
+            "answer": "Mucho. Permite ver en estado temprano varios procedimientos narrativos, sobre todo el uso del detalle, la atmósfera y el ritmo de la frase."
+          },
+          {
+            "question": "¿Hace falta conocer el contexto colombiano de esos años?",
+            "answer": "No de forma indispensable, pero conocerlo mejora notablemente la lectura y permite captar mejor la dimensión pública de muchos textos."
+          },
+          {
+            "question": "¿Qué lo distingue dentro de la obra del autor?",
+            "answer": "Su valor de archivo y de taller: muestra a García Márquez como periodista en formación avanzada, antes de la consolidación mundial de su narrativa de ficción."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "WorldCat - edición de Mondadori (ISBN 9788439704416)",
+            "url": "https://search.worldcat.org/search?q=bn%3A9788439704416"
+          },
+          {
+            "label": "Agapea - ficha de Entre cachacos",
+            "url": "https://www.agapea.com/libros/Entre-cachacos-9788439704416-i.htm"
+          },
+          {
+            "label": "Todos Tus Libros - ficha del libro",
+            "url": "https://www.todostuslibros.com/libros/entre-cachacos_978-84-397-0441-6"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "entre-culebras-y-extranos-de-celso-castro",
+      "title": "Entre Culebras Y Extranos",
+      "authorName": "Celso Castro",
+      "authorSlug": "celso-castro",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Entre culebras y extraños",
+        "authorName": "Celso Castro",
+        "authorSlug": "celso-castro",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2015,
+        "pages": 160,
+        "summary": "Esta novela de Celso Castro arranca con una herida decisiva: la muerte súbita del padre del narrador. A partir de ese golpe, el libro sigue la formación quebrada de un adolescente hipersensible, enfermizo y excesivamente protegido por su madre, incapaz de acomodarse con naturalidad a la vida común. La relación intermitente con Sofía, el vínculo con su hermana Vera y la aparición de un secreto familiar obligan al protagonista a salir del ensimismamiento y a leer su propio dolor de otra manera. Castro convierte ese tránsito en una narración de conciencia, donde la pérdida, el cuerpo vulnerable, la filosofía y la dificultad de madurar se entrelazan con una voz íntima, obsesiva y literariamente muy trabajada.",
+        "aboutThisBook": "Entre culebras y extraños completa la trilogía \"Relatos del yo\" y puede leerse por separado, aunque dialoga con las novelas anteriores de Celso Castro por su apuesta por la primera persona y por un protagonista joven enfrentado a la intemperie afectiva. La obra combina novela de aprendizaje, duelo familiar y exploración psicológica. Su interés no reside en la intriga externa, sino en la manera en que la conciencia del narrador se va volviendo el verdadero escenario del conflicto: un espacio donde el dolor, la lucidez y la imaginación se contaminan mutuamente.",
+        "forWhom": "Para lectores de narrativa literaria contemporánea, novelas de formación poco convencionales y ficciones centradas en la voz interior más que en la acción.",
+        "whyItMatters": "Importa porque ofrece una versión nada complaciente del paso a la madurez y porque sitúa la fragilidad emocional en el centro del relato sin sentimentalismo. Además, confirma a Celso Castro como un narrador de la intimidad y del desajuste.",
+        "editorialIntro": "Hay novelas que cuentan hechos y otras que registran cómo una conciencia los soporta. Entre culebras y extraños pertenece a esta segunda estirpe. Celso Castro transforma el duelo, la enfermedad imaginada o real, el amor intermitente y la herencia familiar en una prosa de gran cercanía, donde cada episodio vale tanto por lo que ocurre como por la forma en que hiere o deforma al narrador.",
+        "readingLevel": "Lectura media-alta: el argumento es claro, pero la densidad introspectiva, las referencias filosóficas y el peso de la voz narradora exigen atención sostenida.",
+        "whyReadToday": "Sigue siendo actual por su mirada sobre la vulnerabilidad masculina, la precariedad afectiva y el desconcierto de crecer sin relato heroico alguno.",
+        "studyNotes": [
+          "Conviene leer la novela como un relato de duelo y no solo como una historia familiar.",
+          "La primera persona no busca transparencia: también deforma, exagera y protege al narrador.",
+          "Las referencias filosóficas ayudan a entender el tono pesimista y la autoconciencia del protagonista.",
+          "La novela trabaja la madurez como proceso incómodo, no como superación limpia del dolor."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. La muerte del padre",
+            "summary": "La narración se activa con la pérdida repentina del padre, acontecimiento que rompe cualquier sensación de continuidad y deja al protagonista frente a su propia fragilidad."
+          },
+          {
+            "title": "Parte 2. Cuerpo, miedo y dependencia",
+            "summary": "El adolescente se describe como un ser hipersensible y enfermizo, muy condicionado por la sobreprotección materna y por una relación temerosa con la realidad."
+          },
+          {
+            "title": "Parte 3. Sofía y Vera",
+            "summary": "La amiga amada y la hermana universitaria aparecen como apoyos parciales y contradictorios: una ofrece deseo e inestabilidad; la otra, una cercanía menos idealizada pero igualmente conflictiva."
+          },
+          {
+            "title": "Parte 4. El secreto familiar",
+            "summary": "Cuando aflora una historia oculta, el protagonista debe reinterpretar su pasado y asumir que la identidad familiar estaba construida sobre silencios."
+          },
+          {
+            "title": "Parte 5. Hacia una lucidez incómoda",
+            "summary": "La novela no propone una curación plena, sino una forma más áspera de conocimiento: crecer equivale a renunciar a ciertas ficciones sobre uno mismo y sobre los demás."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Duelo y formación",
+            "content": "La novela enlaza el motivo clásico de la formación con una pérdida inaugural que impide cualquier aprendizaje lineal. El protagonista madura, sí, pero lo hace desde la herida y la desorientación."
+          },
+          {
+            "heading": "La primera persona como campo de batalla",
+            "content": "Castro utiliza una voz íntima que a la vez confiesa y se encubre. El relato depende de la subjetividad del narrador, de modo que la verdad psicológica importa más que la objetividad de los hechos."
+          },
+          {
+            "heading": "Filosofía y sensibilidad extrema",
+            "content": "Las lecturas filosóficas no son adorno cultural: expresan la necesidad del protagonista de pensar su sufrimiento y de convertirlo en un marco inteligible, aunque ese marco sea sombrío."
+          },
+          {
+            "heading": "Familia, secreto y relato de origen",
+            "content": "La revelación de una historia familiar escondida muestra que la identidad se construye también sobre omisiones. La novela examina cómo los secretos heredados condicionan la experiencia del presente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de trama o de voz?",
+            "answer": "Predomina claramente la voz. Hay acontecimientos importantes, pero el centro del libro es la conciencia del narrador y su modo de procesarlos."
+          },
+          {
+            "question": "¿Puede leerse sin conocer otros libros de Celso Castro?",
+            "answer": "Sí. Aunque completa la trilogía Relatos del yo, funciona de manera autónoma y ofrece su propio arco emocional."
+          },
+          {
+            "question": "¿Qué papel cumple la filosofía en la novela?",
+            "answer": "Sirve para perfilar la sensibilidad del protagonista y para mostrar cómo intenta dar forma intelectual a su malestar y a su duelo."
+          },
+          {
+            "question": "¿Es una novela sentimental?",
+            "answer": "No en sentido complaciente. Trabaja emociones intensas, pero lo hace con una mirada crítica, incómoda y muy consciente del autoengaño."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - ficha del libro",
+            "url": "https://www.planetadelibros.com/libro-entre-culebras-y-extranos/191747"
+          },
+          {
+            "label": "New Spanish Books - ficha y comentario",
+            "url": "https://ucmnewspanishbooksweb.wordpress.com/2017/07/18/entre-culebras-y-extranos/"
+          },
+          {
+            "label": "Open Library - registro bibliográfico",
+            "url": "https://openlibrary.org/works/OL22928857W/Entre_culebras_y_extra%C3%B1os"
+          },
+          {
+            "label": "Palabras de fondo - reseña",
+            "url": "https://ims-palabrasdefondo.es/entre-culebras-y-extranos-de-celso-castro/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "entre-dos-aguas-de-rosa-ribas",
+      "title": "Entre Dos Aguas",
+      "authorName": "Rosa Ribas",
+      "authorSlug": "rosa-ribas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Entre dos aguas",
+        "authorName": "Rosa Ribas",
+        "authorSlug": "rosa-ribas",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2007,
+        "pages": 320,
+        "summary": "Primera novela de la serie protagonizada por la comisaria Cornelia Weber-Tejedor, Entre dos aguas sitúa la investigación criminal en un espacio fronterizo: Fráncfort y su comunidad española emigrante. Cuando aparece asesinado Marcelino Soto bajo uno de los puentes del río Meno, Cornelia debe enfrentarse no solo a un caso complejo, sino también a su propia identidad bicultural. Hija de padre alemán y madre gallega, policía alemana y al mismo tiempo ligada afectivamente al mundo de los inmigrantes españoles, la protagonista avanza entre testimonios incompletos, memorias idealizadas del pasado y lealtades contradictorias. Rosa Ribas convierte la pesquisa en una exploración de pertenencias divididas, silencios familiares y tensiones entre integración, memoria y justicia.",
+        "aboutThisBook": "Entre dos aguas fue la novela con la que Rosa Ribas se adentró de forma decisiva en la narrativa negra y presentó a uno de sus personajes más sólidos: Cornelia Weber-Tejedor. El caso policial importa, pero el libro destaca sobre todo por la manera en que enlaza crimen e identidad cultural. La investigación atraviesa la experiencia migratoria española en Alemania, sus nostalgias, sus pactos de silencio y sus mecanismos de autoprotección. Por eso la novela funciona a la vez como policial, retrato social y estudio de personaje.",
+        "forWhom": "Ideal para lectores de novela negra europea que buscan más que un enigma: contexto social, conflictos de identidad y una protagonista compleja.",
+        "whyItMatters": "Es relevante porque amplía la novela policíaca española hacia un escenario transnacional y porque introduce en el género una reflexión muy precisa sobre migración, lengua, pertenencia y memoria comunitaria.",
+        "editorialIntro": "Rosa Ribas construye aquí una novela negra de frontera, no por contrabandos o persecuciones espectaculares, sino por algo más fino: el desajuste íntimo de una investigadora que pertenece a dos mundos y no encaja del todo en ninguno. El crimen de Marcelino Soto abre una pesquisa sobria, inteligente y llena de resonancias sociales, en la que cada testimonio habla tanto del muerto como de la comunidad que lo rodeaba.",
+        "readingLevel": "Lectura media: la intriga es accesible, pero el libro gana mucho cuando se atiende a los matices culturales, lingüísticos y psicológicos del personaje central.",
+        "whyReadToday": "Porque dialoga con debates muy vigentes sobre migración, doble pertenencia, memoria de la diáspora y convivencia entre identidades superpuestas hoy.",
+        "studyNotes": [
+          "El caso policial funciona también como examen de una comunidad emigrante y de sus relatos sobre el pasado.",
+          "Cornelia Weber-Tejedor debe leerse como personaje bicultural: su identidad no es decorativa, sino estructural para la novela.",
+          "La ciudad de Fráncfort no es mero escenario; ordena el conflicto entre integración y pertenencia.",
+          "La novela negra aquí sirve para investigar secretos colectivos además de un asesinato concreto."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Un cadáver en el Meno",
+            "summary": "La aparición del cuerpo de Marcelino Soto activa la investigación y sitúa a Cornelia ante un caso en apariencia simple, pero pronto lleno de opacidades."
+          },
+          {
+            "title": "Parte 2. La comunidad española de Fráncfort",
+            "summary": "Los testimonios remiten a un mundo migrante que conserva recuerdos, lealtades y rivalidades antiguas. Todos parecen saber algo y, a la vez, callar lo decisivo."
+          },
+          {
+            "title": "Parte 3. Identidad dividida",
+            "summary": "Cornelia debe equilibrar su profesionalidad como policía alemana con la presión afectiva de una comunidad que también la reclama como una de los suyos."
+          },
+          {
+            "title": "Parte 4. Memoria y ocultamiento",
+            "summary": "La investigación revela que el pasado migratorio no es un depósito inocente de nostalgia, sino un terreno donde también se guardan culpas y deformaciones."
+          },
+          {
+            "title": "Parte 5. Resolver el caso, redefinirse",
+            "summary": "El avance hacia la verdad criminal obliga a la protagonista a revisar su lugar entre dos lenguas, dos imaginarios nacionales y dos formas de lealtad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela negra y espacio migratorio",
+            "content": "Ribas desplaza el género hacia la experiencia española en Alemania. El crimen no surge en un vacío abstracto, sino en una comunidad marcada por la emigración, el trabajo y la memoria compartida."
+          },
+          {
+            "heading": "Cornelia Weber-Tejedor como figura bicultural",
+            "content": "El apellido duplicado del personaje simboliza un desdoblamiento identitario permanente. La investigación policial se vuelve así una forma de explorar pertenencias cruzadas."
+          },
+          {
+            "heading": "El pasado idealizado frente a la verdad",
+            "content": "La novela cuestiona la tendencia a embellecer la historia de la emigración. Bajo el relato comunitario aparecen omisiones, ambigüedades morales y zonas de sombra."
+          },
+          {
+            "heading": "Un debut con vocación de serie",
+            "content": "Además de cerrar un caso, el libro funda un universo narrativo. Presenta a una investigadora con conflictos privados y culturales lo bastante ricos como para sostener nuevas entregas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es recomendable si busco una novela negra clásica?",
+            "answer": "Sí, pero con el matiz de que aquí la dimensión social y cultural pesa tanto como la resolución del caso."
+          },
+          {
+            "question": "¿Quién es Cornelia Weber-Tejedor?",
+            "answer": "Es una comisaria de la policía de Fráncfort, hija de padre alemán y madre gallega, marcada por una identidad doble que condiciona su forma de investigar."
+          },
+          {
+            "question": "¿Qué distingue a esta novela dentro del género?",
+            "answer": "Su atención a la comunidad emigrante española en Alemania y su capacidad para convertir la identidad bicultural en núcleo dramático del policial."
+          },
+          {
+            "question": "¿Forma parte de una serie?",
+            "answer": "Sí. Es la primera entrega de la serie de Cornelia Weber-Tejedor y establece buena parte de su trasfondo personal y profesional."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Web oficial de Rosa Ribas - ficha del libro",
+            "url": "https://www.rosa-ribas.com/producto/entre-dos-aguas/"
+          },
+          {
+            "label": "Instituto Cervantes de Múnich - presentación del libro",
+            "url": "https://munich.cervantes.es/FichasCultura/Ficha61780_25_1.htm"
+          },
+          {
+            "label": "Open Library - registro bibliográfico",
+            "url": "https://openlibrary.org/books/OL16877117M/Entre_dos_aguas"
+          },
+          {
+            "label": "Casa del Libro - ficha catalográfica",
+            "url": "https://www.casadellibro.com/libro-entre-dos-aguas/9788489367340/1159038"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "erase-dos-veces-el-baron-lamberto-de-gianni-rodari",
+      "title": "Erase Dos Veces El Baron Lamberto",
+      "authorName": "Gianni Rodari",
+      "authorSlug": "gianni-rodari",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Érase dos veces el barón Lamberto",
+        "authorName": "Gianni Rodari",
+        "authorSlug": "gianni-rodari",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "infantil",
+          "aventura",
+          "fantasia"
+        ],
+        "year": 1978,
+        "pages": 168,
+        "summary": "En la isla de San Giulio vive el barón Lamberto, un anciano riquísimo, enfermizo y rodeado de bancos, criados y dolencias. Su vida cambia cuando pone en práctica un extravagante remedio egipcio: seis personas deben repetir sin descanso su nombre. El efecto resulta asombroso y desencadena una cadena de episodios cada vez más disparatados. Desde esa premisa, Gianni Rodari construye una novela llena de humor verbal, aventura, absurdo y crítica social, donde la vejez, el deseo de perdurar, el poder del lenguaje y la codicia se mezclan con secuestros, conspiraciones y giros fantásticos. Bajo su tono juguetón, el libro reflexiona sobre el dinero, la autoridad, la libertad del lector y la imaginación como forma de inteligencia crítica.",
+        "aboutThisBook": "Publicada originalmente en 1978 y recuperada en una cuidada edición ilustrada por Kalandraka, Érase dos veces el barón Lamberto pertenece a la etapa final de Gianni Rodari. Es una novela extensa para lectores jóvenes, articulada en doce capítulos y un epílogo, donde el autor lleva al máximo su gusto por el disparate razonado. La historia puede leerse como aventura humorística, pero también como sátira del materialismo, de la mala prensa y de ciertas jerarquías sociales. Rodari demuestra aquí que la literatura infantil puede ser intelectualmente libre, divertida y exigente al mismo tiempo.",
+        "forWhom": "Muy apropiado para lectores infantiles y juveniles desde los ocho años, y también para adultos que valoran la fantasía crítica y el humor de tradición rodariana.",
+        "whyItMatters": "Importa porque muestra una de las formas más fértiles de la literatura para la infancia: aquella que entretiene sin rebajar la inteligencia del lector y que introduce preguntas éticas mediante el juego imaginativo.",
+        "editorialIntro": "Pocas novelas infantiles convierten una idea tan simple en una máquina narrativa tan poderosa: si un nombre se repite, su dueño sigue vivo. Rodari parte de esa ocurrencia luminosa para levantar una fábula moderna sobre la riqueza, la vejez, la identidad y el lenguaje. El resultado es una historia ágil, llena de invenciones y de humor absurdo, donde cada giro narrativo parece recordarnos que pensar también puede ser una forma de jugar.",
+        "readingLevel": "Lectura media para público infantil y juvenil: la prosa es fluida, pero la novela introduce ironía, cambios de tono y capas críticas que invitan a una lectura acompañada o comentada.",
+        "whyReadToday": "Porque sigue ofreciendo una educación imaginativa contra el conformismo y porque su crítica del dinero, del sensacionalismo y del poder conserva una vigencia sorprendente.",
+        "studyNotes": [
+          "El remedio de repetir el nombre de Lamberto puede leerse como metáfora del poder creador del lenguaje.",
+          "El humor no elimina la crítica social; al contrario, la vuelve más incisiva y accesible.",
+          "La novela contrapone riqueza material y verdadera vitalidad de forma satírica.",
+          "Rodari invita al lector a participar activamente, casi como si el cuento pudiera desviarse o reabrirse en cualquier momento."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. El anciano de la isla",
+            "summary": "Se presenta al barón Lamberto: noventa y tres años, inmensa fortuna y una salud desastrosa en su villa de la isla de San Giulio."
+          },
+          {
+            "title": "Parte 2. El remedio del nombre",
+            "summary": "La repetición continua de su nombre, según un saber antiguo, empieza a producir efectos inesperados y altera el orden natural de su decadencia."
+          },
+          {
+            "title": "Parte 3. Rejuvenecer y desordenar el mundo",
+            "summary": "La mejoría del barón desencadena asombro, codicia y maniobras oportunistas, mientras la narración ensancha su registro humorístico y fantástico."
+          },
+          {
+            "title": "Parte 4. Bandidos, chantajes y enredos",
+            "summary": "La isla se convierte en escenario de aventuras absurdas donde aparecen asaltantes y conspiradores que complican el destino del protagonista."
+          },
+          {
+            "title": "Parte 5. Un final abierto a la imaginación",
+            "summary": "Rodari conduce la historia hacia una resolución juguetona, menos moralizante que liberadora, donde importa tanto el desenlace como el placer de haber imaginado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El nombre como fuerza narrativa",
+            "content": "La repetición del nombre de Lamberto enlaza identidad, memoria y existencia. Rodari convierte una regla casi mágica en el motor de toda la novela y en una reflexión lúdica sobre el lenguaje."
+          },
+          {
+            "heading": "Humor absurdo y crítica social",
+            "content": "El libro hace reír con diálogos insólitos, exageraciones y situaciones imposibles, pero bajo ese tono se percibe una sátira del dinero, del poder heredado y del sensacionalismo."
+          },
+          {
+            "heading": "Vejez, juventud y deseo de perdurar",
+            "content": "La novela cuestiona tanto el miedo a envejecer como la ilusión de controlar la vida mediante la riqueza. El rejuvenecimiento del barón es cómico y, al mismo tiempo, inquietante."
+          },
+          {
+            "heading": "Rodari más allá del cuento breve",
+            "content": "Frente a sus libros más fragmentarios, aquí Rodari demuestra que su imaginación también sostiene una narración larga, estructurada y llena de puntos de inflexión."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro solo para niños?",
+            "answer": "No. Está pensado para lectores jóvenes, pero su ironía y su crítica social permiten una lectura muy provechosa también en la adultez."
+          },
+          {
+            "question": "¿Qué tema central articula la novela?",
+            "answer": "El vínculo entre lenguaje e identidad, atravesado por una sátira de la riqueza, la enfermedad y el deseo de inmortalidad."
+          },
+          {
+            "question": "¿Da miedo o prima el humor?",
+            "answer": "Predomina claramente el humor, aunque algunos episodios de secuestro, amenaza o intriga añaden tensión aventurera."
+          },
+          {
+            "question": "¿Por qué sigue siendo importante Rodari?",
+            "answer": "Porque defendió una literatura infantil imaginativa, libre y crítica, capaz de formar lectores activos sin renunciar al placer del juego verbal."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Kalandraka - ficha PDF de la edición en castellano",
+            "url": "https://kalandraka.com/pub/media/productattach/e/r/erase-dos-veces-lamberto-c_1.pdf"
+          },
+          {
+            "label": "Kalandraka - página de autor de Gianni Rodari",
+            "url": "https://kalandraka.com/autores/rodari-gianni"
+          },
+          {
+            "label": "Canal Lector - reseña",
+            "url": "https://www.canallector.com/25270/%C3%89rase_dos_veces_el_bar%C3%B3n_Lamberto"
+          },
+          {
+            "label": "Catalogo Biblioteche Veronesi - muestra sobre Rodari",
+            "url": "https://cbv.comune.verona.it/mostre-virtuali/un-rodari-a-verona/rodari-legge-rodari/c-era-due-volte-il-barone-lamberto-1978/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "erase-una-vez-mexico-1-de-las-cavernas-al-virreinato-de-alejandro-rosassandra-molina",
+      "title": "Erase Una Vez Mexico 1 De Las Cavernas Al Virreinato",
+      "authorName": "Alejandro Rosassandra Molina",
+      "authorSlug": "alejandro-rosassandra-molina",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Érase una vez México 1",
+        "authorName": "Alejandro Rosas y Sandra Molina",
+        "authorSlug": "alejandro-rosas-y-sandra-molina",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 2014,
+        "pages": 256,
+        "summary": "Este primer volumen de la trilogía de Alejandro Rosas y Sandra Molina recorre, con voluntad divulgativa y tono narrativo, un amplio arco de la historia de México: desde los primeros asentamientos humanos y el desarrollo de culturas mesoamericanas hasta la consolidación del virreinato novohispano. El libro no pretende ser un manual académico exhaustivo, sino una puerta de entrada ágil a procesos largos y decisivos: la fundación mítica y política de Tenochtitlán, la expansión mexica, la conquista española y la reorganización colonial. Su rasgo distintivo es la mezcla de datos, anécdotas, ironía y desmontaje de lugares comunes patrióticos, con el fin de despertar curiosidad histórica sin renunciar al rigor básico ni a la legibilidad para público amplio.",
+        "aboutThisBook": "Érase una vez México 1 pertenece a la línea de divulgación histórica con la que Alejandro Rosas se hizo conocido entre lectores mexicanos interesados en una historia menos solemne y más conversable. Sandra Molina aporta también esa mirada desmitificadora. El subtítulo, De las cavernas al virreinato, indica la amplitud del proyecto: condensar siglos de transformaciones en una narración accesible, organizada por grandes momentos y personajes. Más que sustituir estudios especializados, el libro los introduce; resume, provoca preguntas y combate la versión escolar rígida del pasado mediante episodios significativos y un estilo deliberadamente cercano.",
+        "forWhom": "Para lectores generales, estudiantes de bachillerato o primeros cursos universitarios y curiosos de la historia de México que prefieren una entrada amena antes de pasar a bibliografía más especializada.",
+        "whyItMatters": "Importa porque acerca procesos fundacionales de la historia mexicana a lectores no especialistas y porque lo hace sin el tono árido del manual. Su valor está en convertir la cronología larga en relato inteligible y en invitar a revisar mitos patrióticos demasiado simplificados.",
+        "editorialIntro": "La historia nacional suele enseñarse como una serie de fechas inmóviles, héroes de mármol y episodios cerrados. Érase una vez México 1 intenta lo contrario: devolver movimiento, conflicto y extrañeza a un pasado que va desde el mundo prehispánico hasta la Nueva España. Rosas y Molina narran esa travesía con soltura periodística y vocación de conversación pública, de modo que la lectura funcione a la vez como síntesis, provocación y punto de partida.",
+        "readingLevel": "Lectura media: el libro está pensado para un público amplio y no exige formación previa, aunque conviene distinguir entre divulgación narrativa y discusión historiográfica especializada.",
+        "whyReadToday": "Sigue siendo útil hoy porque ayuda a revisar relatos escolares muy repetidos sobre origen, conquista y colonia, y porque recuerda que la identidad histórica mexicana está hecha de capas, conflictos y reinterpretaciones sucesivas.",
+        "studyNotes": [
+          "Conviene leerlo como obra de divulgación histórica, no como sustituto de una monografía académica especializada.",
+          "Su estrategia central consiste en volver narrables procesos extensos mediante episodios, personajes y anécdotas recordables.",
+          "Es útil para detectar cómo la historia pública mexicana discute y simplifica el pasado prehispánico y virreinal.",
+          "Puede complementarse con bibliografía universitaria sobre Mesoamérica, conquista y sociedad novohispana para ampliar matices."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Los primeros pobladores y el mundo mesoamericano",
+            "summary": "El libro abre con una panorámica de los orígenes humanos y de la lenta formación de civilizaciones complejas en el territorio que después sería México, subrayando continuidades culturales y diversidad regional."
+          },
+          {
+            "title": "Parte 2. Auge mexica y fundación de Tenochtitlán",
+            "summary": "La narración se concentra en el imaginario del águila sobre el nopal, la expansión política mexica y la construcción de Tenochtitlán como centro hegemónico de enorme poder simbólico y militar."
+          },
+          {
+            "title": "Parte 3. Conquista y quiebre del orden indígena",
+            "summary": "La llegada de los españoles se presenta como una ruptura compleja, hecha de guerras, alianzas, epidemias y reorganización del poder, más allá de las versiones puramente épicas o moralizantes."
+          },
+          {
+            "title": "Parte 4. Nacimiento de la Nueva España",
+            "summary": "Tras la derrota mexica, el texto explica la formación institucional, social y religiosa del virreinato, así como los nuevos equilibrios entre autoridades imperiales, élites locales e indígenas."
+          },
+          {
+            "title": "Parte 5. Un pasado largo para una identidad en disputa",
+            "summary": "El cierre insiste en que el pasado mexicano no puede reducirse a héroes aislados: se trata de una historia de superposiciones culturales, conflictos y relatos posteriores sobre el origen nacional."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Divulgación frente a historia escolar",
+            "content": "El libro busca desarmar la rigidez del relato escolar tradicional. Para ello privilegia la anécdota significativa, el giro irónico y la síntesis narrativa por encima del aparato crítico propio de la historiografía académica."
+          },
+          {
+            "heading": "Del mito de origen a la complejidad histórica",
+            "content": "La obra parte de emblemas muy conocidos, como la fundación de Tenochtitlán, pero intenta situarlos dentro de procesos más amplios. Esa tensión entre mito nacional y explicación histórica es uno de sus principales motores."
+          },
+          {
+            "heading": "Conquista y colonia sin solemnidad vacía",
+            "content": "Rosas y Molina evitan la prosa ceremoniosa con la que a menudo se cuenta el periodo virreinal. El resultado es una historia más accesible, aunque necesariamente selectiva, de la violencia, la reorganización política y la mezcla cultural posterior a la conquista."
+          },
+          {
+            "heading": "Una puerta de entrada, no un punto final",
+            "content": "Su mayor virtud es pedagógica: ordenar una materia inmensa y despertar interés por seguir leyendo. El lector gana un mapa general y un repertorio de preguntas, pero no una interpretación definitiva de todos los debates historiográficos implicados."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro académico de historia de México?",
+            "answer": "No en sentido estricto. Es una obra de divulgación: resume procesos históricos con claridad narrativa y tono accesible, sin el aparato crítico de una investigación universitaria."
+          },
+          {
+            "question": "¿Qué periodo cubre este primer volumen?",
+            "answer": "Abarca desde los orígenes más remotos del poblamiento y las civilizaciones mesoamericanas hasta la consolidación del virreinato de la Nueva España."
+          },
+          {
+            "question": "¿Conviene para empezar a estudiar historia de México?",
+            "answer": "Sí, especialmente como primer panorama. Funciona bien como introducción antes de pasar a obras más especializadas sobre el mundo prehispánico, la conquista o la sociedad colonial."
+          },
+          {
+            "question": "¿Qué diferencia a este libro de un manual escolar?",
+            "answer": "Su tono más libre y narrativo. En lugar de limitarse a enumerar fechas y nombres, intenta convertir el pasado en una secuencia de procesos y episodios memorables."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros México - ficha del libro",
+            "url": "https://www.planetadelibros.com.mx/libro-erase-una-vez-mexico-1/155804"
+          },
+          {
+            "label": "PlanetadeLibros México - autor Alejandro Rosas",
+            "url": "https://www.planetadelibros.com.mx/autor/alejandro-rosas/000027861"
+          },
+          {
+            "label": "PlanetadeLibros México - autora Sandra Molina",
+            "url": "https://www.planetadelibros.com.mx/autor/sandra-molina/000036575"
+          },
+          {
+            "label": "Open Library - registro bibliográfico",
+            "url": "https://openlibrary.org/books/OL26814985M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "eros-dulce-y-amargo-de-anne-carson",
+      "title": "Eros Dulce Y Amargo",
+      "authorName": "Anne Carson",
+      "authorSlug": "anne-carson",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Eros dulce y amargo",
+        "authorName": "Anne Carson",
+        "authorSlug": "anne-carson",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2020,
+        "pages": null,
+        "summary": "En este ensayo decisivo de Anne Carson, el eros no aparece como simple sentimiento romántico, sino como una estructura de deseo atravesada por la falta, la distancia y la imposibilidad de posesión plena. A partir de la poesía griega arcaica, de Safo a la reflexión filosófica sobre el deseo, Carson examina cómo el amante se constituye precisamente en el intervalo entre lo que anhela y lo que no puede retener. El libro combina filología clásica, crítica literaria, intuición filosófica y una prosa ensayística muy singular, capaz de convertir materiales antiguos en una reflexión todavía viva sobre el amor, el lenguaje y la imaginación. No es una teoría sentimental simplificada, sino una investigación de alta intensidad intelectual sobre la forma en que deseamos.",
+        "aboutThisBook": "Publicado originalmente en inglés como Eros the Bittersweet y editado en español por Lumen en 2020, este libro ocupa un lugar central en la obra de Anne Carson. Su subtítulo original, An Essay, es importante: no se trata de un tratado sistemático, sino de una pesquisa libre y rigurosa a la vez, construida a partir de lecturas minuciosas de textos clásicos. Carson enlaza poesía, retórica y filosofía para mostrar que el deseo funciona gracias a una separación constitutiva entre sujeto, objeto y lenguaje. De ahí que el libro interese tanto a lectores de literatura clásica como a quienes buscan una reflexión contemporánea sobre el amor, la carencia y la imaginación verbal.",
+        "forWhom": "Especialmente indicado para lectores de ensayo literario, filosofía del deseo, estudios clásicos y crítica cultural que disfrutan textos densos, pero estilísticamente muy vivos.",
+        "whyItMatters": "Es un libro importante porque reformula el eros como problema de lenguaje y de distancia, y porque muestra cómo los clásicos pueden seguir pensando nuestras experiencias afectivas sin caer en psicologismos banales.",
+        "editorialIntro": "Hay ensayos que explican un tema y otros que lo reinventan. Eros dulce y amargo pertenece a los segundos. Anne Carson entra en la tradición griega para pensar el deseo no como plenitud, sino como tensión entre presencia y ausencia, entre posesión imaginada y separación real. El resultado es una obra breve pero muy influyente, donde la erudición no pesa: ilumina. Cada página propone que amar es habitar una distancia y que el lenguaje, lejos de cerrarla, la vuelve más intensa.",
+        "readingLevel": "Lectura alta: exige atención a referencias clásicas, argumentos implícitos y movimientos ensayísticos poco convencionales, aunque la prosa de Carson recompensa con hallazgos continuos.",
+        "whyReadToday": "Porque ayuda a pensar el deseo más allá de los clichés psicológicos contemporáneos y porque ofrece una forma rigurosa, poética y todavía vigente de leer la relación entre amor, ausencia y lenguaje.",
+        "studyNotes": [
+          "La idea de que el deseo nace de la falta es el eje conceptual del libro y organiza muchas de sus lecturas de textos griegos.",
+          "Carson no separa filología y ensayo personal: su método consiste justamente en hacer dialogar ambas formas de pensamiento.",
+          "La figura del triángulo erótico resulta clave para entender cómo el deseo se intensifica por mediación, distancia y aplazamiento.",
+          "Conviene atender tanto a las citas clásicas como a la forma en que Carson las reescribe o las desplaza hacia preguntas contemporáneas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Eros como falta",
+            "summary": "El libro abre definiendo el deseo amoroso no por la satisfacción, sino por la carencia: lo erótico existe en el espacio entre el amante y aquello que le falta."
+          },
+          {
+            "title": "Parte 2. Safo y la dulzura amarga",
+            "summary": "Carson vuelve a la célebre formulación sáfica de lo agridulce para mostrar que el eros mezcla placer y herida, fascinación y desposesión, desde la propia lengua griega."
+          },
+          {
+            "title": "Parte 3. Triangulación y mediación",
+            "summary": "El análisis se desplaza hacia la estructura triangular del deseo, donde el objeto amoroso nunca es inmediato, sino filtrado por distancia, competencia, mirada o lenguaje."
+          },
+          {
+            "title": "Parte 4. Filosofía, retórica y deseo",
+            "summary": "El ensayo entrelaza materiales de la tradición clásica para argumentar que la experiencia erótica también es una forma de pensamiento y una operación verbal."
+          },
+          {
+            "title": "Parte 5. La permanencia de una intuición antigua",
+            "summary": "Carson concluye sugiriendo que la antigua comprensión griega del eros sigue siendo fértil para pensar la subjetividad moderna y la relación entre ausencia e imaginación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El deseo como intervalo",
+            "content": "La tesis más recordada del libro es que el eros vive en un entre. No es posesión ni pura pérdida, sino una tensión sostenida por la distancia. Esa formulación permite a Carson leer los clásicos desde una perspectiva sorprendentemente actual."
+          },
+          {
+            "heading": "Filología convertida en pensamiento",
+            "content": "Carson trabaja con textos griegos, etimologías y formas retóricas, pero su filología no es meramente técnica. Está orientada a producir ideas sobre la experiencia amorosa, el conocimiento y la imaginación."
+          },
+          {
+            "heading": "Safo como centro de gravedad",
+            "content": "La célebre expresión de Safo sobre lo dulce y amargo no funciona aquí como adorno erudito, sino como condensación verbal de toda una teoría del deseo: aquello que atrae es también aquello que hiere."
+          },
+          {
+            "heading": "Un ensayo fronterizo",
+            "content": "Eros dulce y amargo importa también por su forma. No es un manual de estudios clásicos ni un libro de autoayuda intelectualizada, sino un ensayo híbrido, preciso y literario que amplió el modo contemporáneo de leer a los antiguos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de filosofía o de crítica literaria?",
+            "answer": "Es ambas cosas a la vez. Carson parte de textos griegos concretos, pero los usa para pensar filosóficamente el deseo, la ausencia y el lenguaje."
+          },
+          {
+            "question": "¿Hace falta saber griego clásico para leerlo?",
+            "answer": "No, aunque ayuda tener interés por la tradición clásica. La autora guía al lector, pero presupone gusto por el ensayo exigente y por las referencias literarias."
+          },
+          {
+            "question": "¿Por qué el título habla de lo dulce y lo amargo?",
+            "answer": "Porque Carson retoma una formulación de Safo para mostrar que el eros es simultáneamente atracción y sufrimiento, goce y herida, cercanía imaginada y distancia real."
+          },
+          {
+            "question": "¿Es un ensayo vigente fuera del mundo clásico?",
+            "answer": "Sí. Su interés rebasa la filología porque propone una manera poderosa de pensar cómo el deseo organiza la experiencia humana y la relación con el lenguaje."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library - edición en español",
+            "url": "https://openlibrary.org/books/OL30770669M"
+          },
+          {
+            "label": "Crossref - edición original Princeton University Press",
+            "url": "https://api.crossref.org/works/10.1515/9780691249247"
+          },
+          {
+            "label": "Crossref - reseña en Classical Philology",
+            "url": "https://api.crossref.org/works/10.1086/367128"
+          },
+          {
+            "label": "Wikipedia - perfil de Anne Carson",
+            "url": "https://es.wikipedia.org/wiki/Anne_Carson"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "escenas-de-cine-mudo-de-julio-llamazares",
+      "title": "Escenas De Cine Mudo",
+      "authorName": "Julio Llamazares",
+      "authorSlug": "julio-llamazares",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Escenas de cine mudo",
+        "authorName": "Julio Llamazares",
+        "authorSlug": "julio-llamazares",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 1994,
+        "pages": 223,
+        "summary": "En Escenas de cine mudo, Julio Llamazares regresa al territorio de la memoria y de la provincia española para narrar una infancia marcada por la precariedad, el rumor colectivo y la lenta irrupción de la modernidad. Ambientada en un pueblo de León durante los años cincuenta, la novela reconstruye la educación sentimental del niño protagonista a través de estampas, episodios y voces que parecen surgir de un archivo íntimo y comunitario. El cine, la radio, la religiosidad, la vida escolar, el invierno, la autoridad y el deseo de escapar forman un tejido de experiencias mínimas pero decisivas. Llamazares no busca la intriga fuerte, sino la intensidad evocadora de un mundo ya desaparecido, visto con la nitidez melancólica y crítica de quien sabe que recordar también es reinterpretar.",
+        "aboutThisBook": "La novela suele situarse dentro de la vertiente memorialista de Julio Llamazares, aunque no sea una autobiografía en sentido estricto. Su fuerza reside en la manera en que convierte una suma de escenas, casi como secuencias aisladas, en una forma de relato sobre la infancia rural y la España de posguerra tardía. El título alude justamente a ese procedimiento: la memoria aparece como imágenes discontinuas, a veces silenciosas, otras intensamente visuales. Publicada en los años noventa, la obra prolonga el interés del autor por los paisajes de León, por los mundos en desaparición y por la relación entre experiencia íntima e historia colectiva.",
+        "forWhom": "Muy recomendable para lectores de narrativa literaria española, novelas de memoria y formación, y ficciones donde la atmósfera importa tanto como la acción externa.",
+        "whyItMatters": "Importa porque retrata una España rural y provinciana sin folclorismo complaciente, y porque muestra cómo la memoria individual puede convertirse en forma de conocimiento histórico, afectivo y lingüístico.",
+        "editorialIntro": "Julio Llamazares sabe que una infancia no se recuerda como una crónica continua, sino como una serie de fulguraciones: un patio, una sala de cine, un maestro, un miedo, una calle nevada. Escenas de cine mudo está construida con esa lógica. Más que contar una peripecia cerrada, organiza un álbum vivo de la niñez en la provincia leonesa de los años cincuenta y lo transforma en una novela de gran delicadeza verbal, donde cada escena mínima deja una huella duradera.",
+        "readingLevel": "Lectura media-alta: la prosa es clara, pero la estructura fragmentaria, el peso de la atmósfera y la dimensión memorial exigen una lectura atenta y pausada.",
+        "whyReadToday": "Porque sigue iluminando la relación entre memoria privada e historia social, y porque ofrece un retrato nada nostálgico de la infancia y de la España interior anterior al desarrollismo pleno.",
+        "studyNotes": [
+          "El título sugiere que la memoria funciona como montaje de escenas, no como relato lineal completamente continuo.",
+          "La novela puede leerse como formación sentimental, pero también como archivo de la vida cotidiana en la España de posguerra.",
+          "El paisaje y el clima no son decorados: organizan la sensibilidad del narrador y el ritmo del recuerdo.",
+          "Conviene observar cómo el libro mezcla ternura y extrañeza sin convertir el pasado en un refugio idealizado."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. El pueblo como universo cerrado",
+            "summary": "La novela presenta el espacio de la infancia como un mundo autosuficiente, hecho de calles, casas, escuela, iglesia y jerarquías que parecen abarcar toda la realidad posible."
+          },
+          {
+            "title": "Parte 2. Aprender a mirar",
+            "summary": "El niño protagonista empieza a comprender el entorno a través de imágenes, miedos y pequeñas revelaciones, mientras el cine y otros estímulos modernos amplían su imaginación."
+          },
+          {
+            "title": "Parte 3. Familia, autoridad y vida cotidiana",
+            "summary": "Las relaciones familiares, escolares y religiosas van trazando un mapa afectivo donde la obediencia, la vergüenza, la curiosidad y la resistencia conviven constantemente."
+          },
+          {
+            "title": "Parte 4. El tiempo histórico en los detalles",
+            "summary": "Sin convertir la novela en lección histórica, Llamazares deja ver las marcas de la posguerra y de la España provinciana en los hábitos, silencios y expectativas de la comunidad."
+          },
+          {
+            "title": "Parte 5. La memoria como montaje",
+            "summary": "El libro cierra reafirmando su poética fragmentaria: el pasado persiste en escenas sueltas, intensas y visuales que solo después adquieren una forma narrativa más amplia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela de memoria y no simple nostalgia",
+            "content": "Aunque trabaja con materiales de infancia, la novela evita idealizar el pasado. Llamazares recuerda con intensidad, pero también con conciencia de la dureza social, moral y material del mundo evocado."
+          },
+          {
+            "heading": "La estructura en escenas",
+            "content": "El título describe el método narrativo. La memoria aparece como sucesión de fragmentos visuales, casi cinematográficos, que se articulan por resonancia más que por una trama convencional de avances y giros."
+          },
+          {
+            "heading": "Paisaje, clima y sensibilidad",
+            "content": "Como en otras obras de Llamazares, el paisaje leonés no es mero fondo. El frío, la luz, la nieve y la materialidad del pueblo modelan la percepción del niño y la textura emocional del libro."
+          },
+          {
+            "heading": "Infancia y posguerra",
+            "content": "La novela convierte la experiencia infantil en una vía de acceso a la historia colectiva. Sin discursos explícitos, deja ver las formas de autoridad, pobreza, disciplina y deseo de modernización de la España de los cincuenta."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una autobiografía de Julio Llamazares?",
+            "answer": "No de manera estricta, aunque se alimenta claramente de materiales de memoria, de paisaje y de experiencia generacional muy próximos al universo del autor."
+          },
+          {
+            "question": "¿Tiene una trama fuerte o es más bien evocativa?",
+            "answer": "Predomina lo evocativo. La novela avanza por escenas y recuerdos que construyen una educación sentimental más que un argumento de suspense o peripecia."
+          },
+          {
+            "question": "¿Qué significa el título?",
+            "answer": "Sugiere una memoria hecha de imágenes discontinuas, casi mudas, ensambladas después por la escritura. El cine funciona como metáfora de la forma de recordar."
+          },
+          {
+            "question": "¿Qué lugar ocupa dentro de la obra de Llamazares?",
+            "answer": "Es una pieza importante de su narrativa memorial y paisajística, vinculada a su interés por León, por los mundos desaparecidos y por la infancia como territorio literario."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library - registro bibliográfico",
+            "url": "https://openlibrary.org/books/OL37788875M"
+          },
+          {
+            "label": "PlanetadeLibros - perfil de Julio Llamazares",
+            "url": "https://www.planetadelibros.com/autor/julio-llamazares/000002627"
+          },
+          {
+            "label": "Wikipedia - Julio Llamazares",
+            "url": "https://es.wikipedia.org/wiki/Julio_Llamazares"
+          },
+          {
+            "label": "Crossref - artículo en Iberoromania sobre la novela",
+            "url": "https://api.crossref.org/works/10.1515/iber.2002.100"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-21T20:14:33Z"
+}

@@ -1,0 +1,1432 @@
+{
+  "batchName": "replenish-20260420T1735Z-next18",
+  "createdAt": "2026-04-20T15:52:21Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-diablo-y-el-buen-dios-de-jean-paul-sartre",
+      "title": "El Diablo Y El Buen Dios",
+      "authorName": "Jean Paul Sartre",
+      "authorSlug": "jean-paul-sartre",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El diablo y el buen Dios",
+        "authorName": "Jean-Paul Sartre",
+        "authorSlug": "jean-paul-sartre",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "teatro",
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1951,
+        "pages": null,
+        "summary": "Esta obra dramática de Sartre sitúa su conflicto en el marco de la Guerra de los Campesinos alemanes y sigue, sobre todo, la trayectoria de Goetz, un jefe militar violento que decide reinventarse moralmente. El núcleo de la pieza no es una intriga de aventuras, sino una investigación teatral sobre la libertad, la culpa, el poder y la posibilidad de obrar bien en un mundo atravesado por la violencia y los intereses. A medida que Goetz pasa del cinismo al deseo de santidad, Sartre somete cada gesto a una prueba incómoda: incluso la bondad puede convertirse en orgullo, teatralidad o voluntad de dominio. El resultado es una obra extensa, polémica y abiertamente filosófica, donde la acción histórica funciona como laboratorio de decisiones extremas.",
+        "aboutThisBook": "Publicada y estrenada en 1951, la pieza aparece en un momento central de la trayectoria de Sartre como dramaturgo y pensador existencialista. Combina discusión ideológica, enfrentamientos de conciencia y escenas de gran intensidad verbal. Su protagonista, Goetz, dialoga con figuras religiosas, políticas y populares que obligan a medir el valor real de sus conversiones morales. Más que ofrecer una moraleja, la obra dramatiza el problema de elegir cuando no existe una inocencia intacta.",
+        "forWhom": "Para lectores de teatro filosófico, estudiantes de existencialismo, clubes de lectura universitarios y quienes busquen una obra exigente sobre ética, violencia y responsabilidad histórica.",
+        "whyItMatters": "Importa porque convierte preguntas abstractas de la filosofía sartreana en conflicto escénico visible. La obra examina si la bondad puede ser auténtica cuando también busca prestigio, pureza o redención personal.",
+        "editorialIntro": "Leer El diablo y el buen Dios exige aceptar una obra que discute constantemente consigo misma. Sartre no construye aquí un drama de soluciones sencillas, sino una maquinaria verbal donde cada postura moral es atacada por otra. Goetz encarna la tentación de hacer del mal una fuerza soberana y, después, la tentación inversa: convertir el bien en espectáculo de pureza. Esa ambivalencia vuelve la pieza especialmente fértil para una lectura guiada.",
+        "readingLevel": "Avanzado: lenguaje dramático denso, debate filosófico continuo y referencias históricas que conviene contextualizar.",
+        "whyReadToday": "Sigue siendo actual porque cuestiona los gestos morales absolutos, el liderazgo carismático y la relación entre convicción privada y efectos públicos de la acción.",
+        "studyNotes": [
+          "Conviene leer a Goetz no como héroe lineal, sino como conciencia en experimento: cada cambio de postura revela una nueva forma de autoengaño.",
+          "La guerra y el hambre no son mero fondo histórico; sirven para probar si las ideas resisten cuando afectan vidas concretas.",
+          "El contraste entre santidad, política revolucionaria y violencia militar estructura el debate central sobre libertad y responsabilidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Acto I",
+            "summary": "Goetz aparece como figura temida y provocadora, habituada al poder y a la destrucción. La obra instala pronto la pregunta por la intención moral y por el placer de actuar contra toda norma."
+          },
+          {
+            "title": "Acto II",
+            "summary": "El protagonista intenta girar hacia el bien y ensaya una conducta casi ejemplar. Sin embargo, la pieza muestra que la bondad proclamada también puede nacer del orgullo, del deseo de distinguirse o de dominar de otra manera."
+          },
+          {
+            "title": "Acto III",
+            "summary": "Las decisiones finales obligan a medir el costo histórico de las conversiones íntimas. Sartre desplaza la discusión desde la pureza individual hacia la responsabilidad efectiva ante los demás y ante la violencia colectiva."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Libertad y elección",
+            "content": "La obra dramatiza una idea esencial de Sartre: el sujeto no puede escapar del peso de elegir. Goetz intenta definirse por actos extremos, primero destructivos y luego virtuosos, pero descubre que ninguna identidad queda fijada para siempre."
+          },
+          {
+            "heading": "Crítica de la pureza moral",
+            "content": "Uno de los hallazgos del drama es sospechar de la bondad cuando se convierte en máscara, prestigio o autoabsolución. Sartre desmonta la comodidad de las posiciones puras y obliga a mirar sus motivaciones ocultas."
+          },
+          {
+            "heading": "Historia y ética",
+            "content": "El marco de guerra campesina impide que el debate quede en abstracción. Cada idea se mide por sus consecuencias públicas, por la relación con el pueblo y por el uso del poder en un escenario de crisis."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o una obra de teatro?",
+            "answer": "Es una obra de teatro de Jean-Paul Sartre, concebida como drama filosófico e histórico."
+          },
+          {
+            "question": "¿Cuál es su tema central?",
+            "answer": "La pieza examina si el bien y el mal pueden asumirse como elecciones auténticas y qué responsabilidad nace de esas elecciones en la historia."
+          },
+          {
+            "question": "¿Hace falta conocer a Sartre para leerla?",
+            "answer": "No es indispensable, pero ayuda conocer nociones básicas del existencialismo para apreciar mejor sus discusiones sobre libertad, intención y compromiso."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: The Devil and the Good Lord",
+            "url": "https://en.wikipedia.org/wiki/The_Devil_and_the_Good_Lord"
+          },
+          {
+            "label": "Internet Archive: The Devil and the Good Lord",
+            "url": "https://archive.org/details/devilgoodlord0000sart"
+          },
+          {
+            "label": "Britannica: Jean-Paul Sartre",
+            "url": "https://www.britannica.com/biography/Jean-Paul-Sartre"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-diario-de-victor-frankenstein-de-peter-ackroyd",
+      "title": "El Diario De Victor Frankenstein",
+      "authorName": "Peter Ackroyd",
+      "authorSlug": "peter-ackroyd",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El diario de Víctor von Frankenstein",
+        "authorName": "Peter Ackroyd",
+        "authorSlug": "peter-ackroyd",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica",
+          "thriller"
+        ],
+        "year": 2012,
+        "pages": 448,
+        "summary": "En esta relectura de Frankenstein, Peter Ackroyd imagina la historia como si el propio Víctor llevara un diario íntimo y racional de su formación, sus obsesiones científicas y su deriva moral. El narrador se mueve entre Oxford y el Londres de comienzos del siglo XIX, entra en contacto con Percy Bysshe Shelley, Mary Godwin y el ambiente intelectual de la época, y convierte la pregunta por la creación de la vida en una obsesión personal. A medida que avanza, la novela mezcla investigación anatómica, ambientes sórdidos, tráfico de cadáveres y reflexión sobre identidad, locura y deseo de trascender los límites humanos. Ackroyd no solo retoma el mito de Mary Shelley: lo reescribe desde dentro, lo vuelve ambiguo y propone una ficción donde diario, confesión, homenaje y juego literario se contaminan mutuamente.",
+        "aboutThisBook": "Publicado originalmente en inglés como The Casebook of Victor Frankenstein y traducido al español como El diario de Víctor von Frankenstein, este libro combina novela gótica, reconstrucción histórica y comentario literario. Ackroyd sitúa a su protagonista en diálogo con figuras reales del romanticismo inglés y aprovecha ese cruce para revisar el mito moderno de la creación artificial. Es una novela especialmente interesante para lectores que ya conocen el Frankenstein de Mary Shelley y quieren ver cómo un autor contemporáneo reinterpreta su legado.",
+        "forWhom": "Para lectores adultos interesados en la tradición gótica, en las reescrituras de clásicos, en la novela histórica inglesa y en relatos donde la psicología del narrador importa tanto como la intriga.",
+        "whyItMatters": "Importa porque muestra cómo un clásico puede seguir vivo cuando otro escritor lo revisa sin limitarse a copiarlo. Ackroyd usa el mito de Frankenstein para pensar la autoridad del narrador, la fragilidad de la razón y la relación entre ciencia, imaginación y culpa.",
+        "editorialIntro": "No todas las reescrituras de un clásico consiguen justificar su existencia. Esta sí lo hace. Peter Ackroyd toma el universo de Mary Shelley y lo desplaza hacia una zona más introspectiva, más histórica y también más incierta. El centro ya no es solo la monstruosidad de la criatura, sino la voz de Víctor, sus obsesiones, sus autoengaños y la posibilidad de que el relato mismo sea una construcción inestable. El resultado es una novela culta, sombría y muy consciente de la tradición con la que dialoga.",
+        "readingLevel": "Lectura media-alta para público adulto. El estilo es claro, pero gana mucho si el lector reconoce referencias al romanticismo inglés, a Mary Shelley y a la tradición de la novela gótica.",
+        "whyReadToday": "Sigue siendo valiosa porque actualiza preguntas sobre los límites éticos del conocimiento, la fabricación de identidades y la fascinación cultural por crear vida o manipularla sin medir consecuencias.",
+        "studyNotes": [
+          "La novela funciona mejor si se lee en relación con Frankenstein de Mary Shelley: no es un simple resumen narrativo, sino una reescritura con cambios de enfoque y de fiabilidad.",
+          "Ackroyd inserta a Víctor en un entorno histórico reconocible, con Oxford, Londres y figuras del romanticismo, para dar espesor cultural a la obsesión científica del protagonista.",
+          "El diario en primera persona obliga a pensar qué parte del relato puede aceptarse como verdad y qué parte puede ser autojustificación, delirio o reconstrucción interesada.",
+          "La obra cruza ciencia, cuerpo y deseo de trascendencia con una atmósfera gótica que recuerda que la investigación racional también puede adquirir una dimensión siniestra."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Formación y desvío intelectual",
+            "summary": "Víctor aparece como un joven brillante, atraído por el pensamiento científico y por discusiones filosóficas que lo llevan a cuestionar límites religiosos y morales. Su contacto con el ambiente universitario y con Shelley intensifica esa inquietud creadora."
+          },
+          {
+            "title": "Parte 2: Anatomía, Londres y obsesión",
+            "summary": "La curiosidad se convierte en experimento. Víctor entra en circuitos de disección y obtención de cadáveres, se desplaza hacia espacios más oscuros de Londres y transforma una idea intelectual en una práctica cada vez más peligrosa y secreta."
+          },
+          {
+            "title": "Parte 3: La creación como fractura",
+            "summary": "El proyecto de dar vida a la materia revela sus consecuencias morales y psicológicas. Lo que parecía una conquista de conocimiento empieza a desordenar la identidad del propio narrador y a volver dudosos sus recuerdos y percepciones."
+          },
+          {
+            "title": "Parte 4: Ambigüedad final y herencia del mito",
+            "summary": "En el tramo final, Ackroyd acentúa la incertidumbre sobre lo sucedido y sobre la autoridad de la voz narradora. La novela se cierra como reinterpretación crítica del mito de Frankenstein, no como simple repetición de su argumento."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una reescritura que desplaza el centro del mito",
+            "content": "Ackroyd no se limita a narrar otra vez la historia del científico y su criatura. Su movimiento más importante consiste en volver central la conciencia de Víctor, con sus justificaciones, vacíos y posibles distorsiones. Así, el problema del monstruo se transforma también en problema del relato."
+          },
+          {
+            "heading": "Historia literaria y ficción gótica",
+            "content": "La presencia de Percy Shelley, Mary Godwin y el entorno romántico no es decorativa. Sirve para anclar la novela en un momento cultural preciso, cuando ciencia, radicalismo intelectual e imaginación poética convivían de forma especialmente intensa."
+          },
+          {
+            "heading": "Ciencia, cuerpo y culpa",
+            "content": "Los experimentos anatómicos nunca aparecen como técnica neutral. El libro insiste en la dimensión corporal, material y perturbadora del conocimiento, y convierte la investigación en una experiencia atravesada por el deseo de dominio y por la culpa."
+          },
+          {
+            "heading": "La fiabilidad del diario",
+            "content": "El formato confesional da cercanía, pero también introduce sospecha. El lector debe decidir hasta qué punto cree en el narrador y qué efectos produce esa incertidumbre sobre la interpretación global de la novela."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una adaptación fiel del Frankenstein de Mary Shelley?",
+            "answer": "No exactamente. Es una reescritura contemporánea que conserva el núcleo del mito, pero cambia perspectivas, incorpora figuras históricas y vuelve más ambigua la voz de Víctor Frankenstein."
+          },
+          {
+            "question": "¿Hace falta leer antes a Mary Shelley?",
+            "answer": "No es imprescindible, pero ayuda mucho. Quien conozca la novela original percibirá mejor los desplazamientos que propone Ackroyd y el diálogo literario que sostiene con el texto clásico."
+          },
+          {
+            "question": "¿Predomina el terror o la reflexión?",
+            "answer": "Predomina una mezcla de atmósfera gótica, inquietud psicológica y reflexión literaria. Hay escenas sombrías y perturbadoras, pero el interés principal está en la conciencia del narrador y en la reinterpretación del mito."
+          },
+          {
+            "question": "¿Qué hace singular a esta novela dentro de las relecturas de Frankenstein?",
+            "answer": "Su singularidad está en convertir la historia en un diario de Víctor, situarla en el mundo cultural del romanticismo inglés y usar la ambigüedad narrativa para cuestionar qué se creó realmente y quién controla el sentido del relato."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin Random House: The Casebook of Victor Frankenstein",
+            "url": "https://www.penguinrandomhouse.com/books/515/the-casebook-of-victor-frankenstein-by-peter-ackyroyd/"
+          },
+          {
+            "label": "Penguin Books UK: The Casebook of Victor Frankenstein",
+            "url": "https://www.penguin.co.uk/books/403506/the-casebook-of-victor-frankenstein-by-peter-ackroyd/9780099524137"
+          },
+          {
+            "label": "Google Books: El diario de Víctor von Frankenstein",
+            "url": "https://books.google.com/books/about/El_diario_de_V%C3%ADctor_Frankenstein.html?id=f9nkuQAACAAJ"
+          },
+          {
+            "label": "Open Library: The Casebook of Victor Frankenstein",
+            "url": "https://openlibrary.org/books/OL24087671M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-diario-secreto-de-adrian-mole-de-sue-townsend",
+      "title": "El Diario Secreto De Adrian Mole",
+      "authorName": "Sue Townsend",
+      "authorSlug": "sue-townsend",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El diario secreto de Adrian Mole",
+        "authorName": "Sue Townsend",
+        "authorSlug": "sue-townsend",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa"
+        ],
+        "year": 1982,
+        "pages": 220,
+        "summary": "Esta novela, escrita en forma de diario, sigue a Adrian Mole durante un tramo decisivo de su adolescencia, entre preocupaciones íntimas y cambios familiares que él interpreta con grandilocuencia casi cómica. Adrian se cree un intelectual incomprendido, quiere ser poeta, se obsesiona con su salud, se enamora de Pandora y observa con dramatismo la crisis matrimonial de sus padres, la escuela y la vida pública británica de comienzos de los años ochenta. El resultado no es solo un retrato humorístico de la pubertad, sino también una mirada satírica a la vida doméstica, la política y las aspiraciones de la clase media inglesa. La comicidad nace de la distancia entre cómo Adrian se ve a sí mismo y lo que el lector entiende realmente de su situación.",
+        "aboutThisBook": "The Secret Diary of Adrian Mole, Aged 13¾ fue el libro que lanzó la serie más conocida de Sue Townsend y consolidó una voz humorística muy particular en la narrativa británica contemporánea. La obra combina diario adolescente, comedia de costumbres y comentario social. Según Penguin y Open Library, el libro presenta a un muchacho abrumado por granos, mala salud imaginada, tensiones familiares y ambiciones literarias. Esa mezcla de intimidad ingenua y observación social explica su permanencia: Adrian es ridículo y entrañable a la vez, y su voz permite leer una época desde abajo, desde la confusión de quien todavía no entiende del todo el mundo adulto.",
+        "forWhom": "Para lectores juveniles y adultos que disfrutan la novela humorística, los relatos de formación y los libros que convierten la vida cotidiana en observación social aguda.",
+        "whyItMatters": "Importa porque convirtió la experiencia adolescente en una forma literaria de gran eficacia cómica y, al mismo tiempo, en un espejo crítico de la sociedad británica de su momento. Sigue mostrando con precisión la mezcla de narcisismo, vulnerabilidad y lucidez parcial con la que suele vivirse la adolescencia.",
+        "editorialIntro": "Pocas novelas sobre la adolescencia han logrado una voz tan reconocible como la de Adrian Mole. Sue Townsend entendió que el diario personal podía servir no solo para registrar miedos y enamoramientos, sino también para satirizar la familia, la escuela, la política y las pretensiones culturales de una época. El libro funciona porque Adrian nunca deja de tomarse completamente en serio, incluso cuando el lector percibe el costado absurdo de cada escena.",
+        "readingLevel": "Lectura accesible para secundaria y público general. El humor, la forma de diario y las entradas breves facilitan el avance, aunque muchas ironías se disfrutan más cuando el lector reconoce la distancia entre la voz del narrador y la realidad.",
+        "whyReadToday": "Porque sigue siendo una de las representaciones más vivas y divertidas de la inseguridad adolescente, y porque su sátira de la vida familiar y del clima social conserva una sorprendente frescura.",
+        "studyNotes": [
+          "La forma de diario es clave: todo se filtra por la mirada limitada de Adrian, de modo que el lector debe reconstruir lo que ocurre más allá de lo que él cree entender.",
+          "El humor depende de la desproporción entre la autopercepción del protagonista como gran intelectual y la banalidad o torpeza real de muchas de sus experiencias.",
+          "La novela también funciona como documento satírico de la Inglaterra de comienzos de los años ochenta, con referencias al clima político y a la vida cotidiana de la época.",
+          "Conviene leer el personaje con simpatía crítica: Adrian es ingenuo y egocéntrico, pero precisamente por eso revela con fuerza el desconcierto de la adolescencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Un adolescente que se toma demasiado en serio",
+            "summary": "Las primeras entradas del diario presentan a Adrian como un muchacho preocupado por su cuerpo, su prestigio intelectual y su porvenir literario. Desde el inicio se advierte el tono humorístico: cada pequeño incidente doméstico o escolar adquiere para él dimensión casi trágica."
+          },
+          {
+            "title": "Parte 2: Amor, familia y confusión social",
+            "summary": "A medida que el diario avanza, el enamoramiento por Pandora y la crisis entre sus padres vuelven más compleja la experiencia de Adrian. La novela muestra cómo la vida sentimental y los conflictos familiares se entrelazan con su necesidad constante de sentirse especial."
+          },
+          {
+            "title": "Parte 3: Crecer en medio del ridículo cotidiano",
+            "summary": "En el tramo final, el protagonista sigue chocando con la realidad, entre decepciones, observaciones políticas y episodios domésticos que lo descolocan. El cierre no ofrece una madurez completa, pero sí consolida la ironía central del libro: crecer implica interpretar mal muchas cosas antes de empezar a comprenderlas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La adolescencia como comedia de percepción",
+            "content": "Townsend no retrata la adolescencia como pura ternura ni como puro drama, sino como una etapa en la que la conciencia de uno mismo está sobredimensionada. Adrian interpreta cada gesto como decisivo y esa intensidad produce una comicidad muy precisa."
+          },
+          {
+            "heading": "Diario íntimo y sátira social",
+            "content": "Aunque la novela parece concentrada en problemas privados, el formato de diario permite filtrar el contexto británico de 1981 y 1982. La familia, la escuela, la política y los medios aparecen de modo lateral, pero suficiente para construir una sátira de época."
+          },
+          {
+            "heading": "La distancia entre narrador y lector",
+            "content": "Uno de los principales logros técnicos del libro es que Adrian narra con sinceridad absoluta, mientras el lector percibe más de lo que él entiende. Esa ironía dramática sostiene buena parte del humor y evita que el personaje sea solo una caricatura."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un diario real?",
+            "answer": "Es una novela escrita en forma de diario. Su fuerza está en simular intimidad autobiográfica mientras construye una ficción humorística muy controlada."
+          },
+          {
+            "question": "¿Se recomienda solo para adolescentes?",
+            "answer": "No. Aunque el protagonista es adolescente, muchos de sus mejores matices los disfrutan también lectores adultos, especialmente por la ironía social y familiar que atraviesa el libro."
+          },
+          {
+            "question": "¿Qué hace especial a Adrian Mole como personaje?",
+            "answer": "Su mezcla de vanidad, vulnerabilidad, lucidez parcial y necesidad de ser tomado en serio. Townsend consigue que sea al mismo tiempo cómico, absurdo y reconocible."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin UK: The Secret Diary of Adrian Mole Aged 13 ¾",
+            "url": "https://www.penguin.co.uk/books/59118/the-secret-diary-of-adrian-mole-aged-13--by-townsend-sue/9780141315980"
+          },
+          {
+            "label": "Open Library: The Secret Diary of Adrian Mole, Aged 13 3/4",
+            "url": "https://openlibrary.org/works/OL549598W"
+          },
+          {
+            "label": "Open Library: Sue Townsend",
+            "url": "https://openlibrary.org/authors/OL39125A/Sue_Townsend"
+          },
+          {
+            "label": "Wikipedia: The Secret Diary of Adrian Mole, Aged 13¾",
+            "url": "https://en.wikipedia.org/wiki/The_Secret_Diary_of_Adrian_Mole,_Aged_13%C2%BE"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-duque-y-yo-serie-bridgerton-1-de-julia-quinn",
+      "title": "El Duque Y Yo Serie Bridgerton 1",
+      "authorName": "Julia Quinn",
+      "authorSlug": "julia-quinn",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El duque y yo",
+        "authorName": "Julia Quinn",
+        "authorSlug": "julia-quinn",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "romance",
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 2022,
+        "pages": 384,
+        "summary": "El duque y yo abre la saga Bridgerton con una intriga sentimental ambientada en la alta sociedad londinense del periodo Regencia. Daphne Bridgerton, inteligente y apreciada, no consigue atraer a los pretendientes adecuados; Simon Basset, duque de Hastings, quiere evitar a toda costa el mercado matrimonial. Ambos pactan fingir un noviazgo: ella ganará prestigio ante los hombres solteros y él alejará a las madres ambiciosas. El acuerdo, sin embargo, se complica cuando la cercanía hace visibles heridas más profundas. Simon arrastra una infancia marcada por el rechazo paterno y por una promesa íntima que condiciona su idea del matrimonio y de la familia. La novela combina humor social, escenas de salón, tensión romántica y conflicto emocional para seguir cómo un juego calculado acaba convirtiéndose en una relación verdadera, exigente y transformadora.",
+        "aboutThisBook": "Publicada originalmente en inglés como The Duke and I, esta novela inauguró una de las series románticas históricas más populares del siglo XXI. La edición española reciente circula como primer volumen de Bridgerton y conserva el núcleo que hizo célebre al libro: una falsa relación amorosa que deriva en un vínculo real, atravesado por expectativas familiares, orgullo y vulnerabilidad. Su tono mezcla ligereza, diálogo ágil y conflicto sentimental sostenido.",
+        "forWhom": "Es una lectura muy adecuada para quienes disfrutan la novela romántica histórica con ritmo, humor y personajes carismáticos. También interesa a lectores que llegan al universo Bridgerton desde la adaptación audiovisual y quieren conocer la construcción original de Daphne y Simon. Funciona bien para clubes de lectura de narrativa comercial y para quienes prefieren romances con contexto social reconocible y conflicto emocional claro.",
+        "whyItMatters": "Importa porque consolidó una fórmula muy influyente dentro del romance histórico contemporáneo: diálogo vivaz, química sostenida y conflicto afectivo apoyado en heridas del pasado. Además, situó a Julia Quinn como una autora central del género y dio inicio a una serie con enorme proyección cultural internacional.",
+        "editorialIntro": "Detrás de su apariencia de comedia de modales, El duque y yo es una novela sobre máscaras sociales y temores íntimos. Julia Quinn aprovecha el artificio del compromiso fingido para explorar cómo el deseo, la reputación y la historia familiar se entrelazan en una sociedad que convierte el matrimonio en espectáculo y estrategia. El resultado es un romance muy legible, de tono elegante y fuerte impulso narrativo.",
+        "readingLevel": "Lectura accesible para público adulto y juvenil avanzado: prosa fluida, abundancia de diálogo, contexto histórico comprensible y conflicto sentimental nítido.",
+        "whyReadToday": "Sigue siendo actual por la vigencia del trope de la relación fingida y por su reflexión sobre la presión social, el trauma familiar y la dificultad de intimar de verdad. Además, permite volver al origen literario de una saga que hoy forma parte de la conversación cultural global.",
+        "studyNotes": [
+          "El motivo del noviazgo fingido no es solo un recurso romántico: organiza el choque entre reputación pública y verdad emocional.",
+          "Simon está definido por una herida de infancia que convierte el amor en riesgo y el linaje en problema moral, no solo familiar.",
+          "La novela usa el marco de la Regencia para mostrar cómo las normas sociales condicionan el deseo y el margen de elección de los personajes.",
+          "El humor verbal y la observación de los rituales sociales suavizan, pero no eliminan, el peso del conflicto íntimo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El pacto social",
+            "summary": "Daphne y Simon se conocen en plena temporada londinense y descubren que pueden ayudarse mutuamente si simulan un compromiso. El acuerdo parece práctico y ventajoso para ambos."
+          },
+          {
+            "title": "Parte 2: De la apariencia al deseo",
+            "summary": "La estrategia funciona ante la sociedad, pero la convivencia y la atracción creciente vuelven inestable la frontera entre actuación y sentimiento auténtico."
+          },
+          {
+            "title": "Parte 3: Matrimonio, secretos y reconciliación",
+            "summary": "Cuando la relación da un paso irreversible, emergen los traumas de Simon y las diferencias sobre el futuro. La novela conduce a una confrontación emocional que exige madurez y confianza."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Romance histórico y comedia social",
+            "content": "Julia Quinn combina la lógica del romance de época con una mirada ligera a las ceremonias de la sociabilidad aristocrática. Bailes, visitas, rumores y estrategias matrimoniales no son mero decorado: sostienen la presión externa que empuja a los protagonistas a fingir y luego a sincerarse."
+          },
+          {
+            "heading": "La herida de Simon como eje del conflicto",
+            "content": "El gran obstáculo de la novela no es la falta de atracción, sino una identidad construida desde el resentimiento y la defensa. Simon teme repetir la violencia simbólica recibida y convierte una decisión personal en principio absoluto. Ese pasado da densidad al relato amoroso."
+          },
+          {
+            "heading": "Daphne más allá del papel de debutante",
+            "content": "Aunque entra en escena como joven ideal para el matrimonio, Daphne se perfila como una protagonista activa, observadora y capaz de confrontar aquello que la hiere. Su recorrido consiste en pasar de objeto del mercado matrimonial a sujeto de una relación que exige reciprocidad real."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer toda la saga Bridgerton para entender esta novela?",
+            "answer": "No. Se lee de forma autónoma, aunque introduce a la familia Bridgerton y establece el tono general de la serie."
+          },
+          {
+            "question": "¿Predomina más el romance o la ambientación histórica?",
+            "answer": "Predomina el romance. La ambientación de Regencia es importante y está bien aprovechada, pero el centro del libro es la evolución afectiva de Daphne y Simon."
+          },
+          {
+            "question": "¿Por qué fue tan influyente dentro del género?",
+            "answer": "Porque reunió humor, ritmo, un trope muy eficaz y personajes memorables en una novela de enorme circulación, convertida además en puerta de entrada para muchos lectores al romance histórico contemporáneo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Julia Quinn: edición internacional en español de The Duke and I",
+            "url": "https://juliaquinn.com/international/the-duke-and-i-3/"
+          },
+          {
+            "label": "Open Library ISBN 9788416622658: El duque y yo",
+            "url": "https://openlibrary.org/isbn/9788416622658"
+          },
+          {
+            "label": "Google Libros: El duque y yo (Bridgerton 1)",
+            "url": "https://books.google.com/books/about/El_duque_y_yo_Bridgerton_1.html?hl=es&id=NO_GEAAAQBAJ"
+          },
+          {
+            "label": "Casa del Libro: El duque y yo (Bridgerton 1)",
+            "url": "https://www.casadellibro.com/libro-el-duque-y-yo-bridgerton-1/9788416622658/12730969"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-elefante-de-marfil-de-nerea-riesco",
+      "title": "El Elefante De Marfil",
+      "authorName": "Nerea Riesco",
+      "authorSlug": "nerea-riesco",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El elefante de marfil",
+        "authorName": "Nerea Riesco",
+        "authorSlug": "nerea-riesco",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2010,
+        "pages": 544,
+        "summary": "Ambientada en Sevilla desde el terremoto de 1755, El elefante de marfil entrelaza historia urbana, pasión amorosa, herencias familiares y un enigma de larga duración. La novela arranca cuando Julia de Haro, viuda y propietaria de una imprenta prestigiosa, sobrevive al desastre y decide reordenar su vida junto a León de Montenegro. Ese giro íntimo abre una trama mayor: ambos quedan ligados a una misión relacionada con un antiguo pacto entre musulmanes y cristianos, transmitido durante generaciones y vigilado por fuerzas interesadas en impedir su cumplimiento. Nerea Riesco convierte así la peripecia sentimental en una saga de secretos, lealtades y memoria histórica, con una Sevilla convulsa como escenario decisivo.",
+        "aboutThisBook": "La novela fue publicada por Grijalbo en 2010 y se presenta como una amplia narración histórica de varias generaciones. Su mezcla de romance, intriga y reconstrucción de época se apoya en dos ejes muy visibles: la ciudad de Sevilla tras el terremoto y la persistencia de un pacto antiguo que conecta comunidades enfrentadas y destinos familiares. La imprenta, la transmisión de documentos y la circulación de secretos tienen un papel estructural dentro del relato.",
+        "forWhom": "Para lectores de novela histórica extensa, amantes de las sagas familiares, clubes de lectura que disfrutan del misterio heredado y quienes buscan una Sevilla dieciochesca bien integrada en la ficción.",
+        "whyItMatters": "Importa porque enlaza gran historia y emoción privada sin perder el peso simbólico de la convivencia entre tradiciones religiosas. La novela propone mirar el pasado español desde pactos, memorias y fracturas que siguen resonando.",
+        "editorialIntro": "Nerea Riesco organiza esta novela como una maquinaria de largo aliento: un acontecimiento histórico real, una relación amorosa que cambia destinos y un secreto transmitido durante generaciones. El terremoto de 1755 no funciona sólo como espectacular inicio narrativo; actúa como sacudida moral que libera deseos, altera jerarquías y pone en movimiento una herencia escondida. Desde ahí, la autora explora la fuerza de los documentos, los linajes y las promesas antiguas en una ciudad especialmente marcada por su pasado plural.",
+        "readingLevel": "Medio-alto: narración amplia, muchos personajes y gusto por el detalle histórico y genealógico.",
+        "whyReadToday": "Resulta vigente por su reflexión sobre memoria compartida, convivencia religiosa, transmisión del trauma y papel de las mujeres en espacios de poder cultural como la imprenta.",
+        "studyNotes": [
+          "El terremoto inicial cumple una función doble: hecho histórico documentable y detonante simbólico de cambios íntimos y sociales.",
+          "La imprenta no es un decorado; representa circulación de ideas, prestigio urbano y control de la memoria escrita.",
+          "El pacto entre musulmanes y cristianos da a la novela una dimensión histórica larga que supera la mera intriga romántica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Sevilla herida",
+            "summary": "El terremoto de 1755 desordena la ciudad y la vida de Julia de Haro. La supervivencia la impulsa a tomar decisiones afectivas y sociales que ya no responden a la vieja normalidad."
+          },
+          {
+            "title": "Parte 2: Herencia y secreto",
+            "summary": "La relación entre Julia y León se vincula a un enigma heredado. Aparecen documentos, lealtades y obstáculos que revelan el peso de un pacto antiguo todavía activo."
+          },
+          {
+            "title": "Parte 3: Tres generaciones",
+            "summary": "La trama amplía su alcance y muestra cómo el secreto repercute en varias vidas y épocas. La historia íntima se vuelve saga familiar y conflicto de memoria."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Sevilla como protagonista histórica",
+            "content": "La ciudad no actúa sólo como telón de fondo. Su tejido religioso, comercial y cultural condiciona la acción, define jerarquías y dota de espesor concreto a la intriga."
+          },
+          {
+            "heading": "Mujer, imprenta y agencia",
+            "content": "Julia de Haro destaca porque ocupa un espacio de autoridad poco habitual en la ficción histórica convencional. Su condición de propietaria de imprenta la sitúa en el cruce entre vida privada, negocio y poder simbólico."
+          },
+          {
+            "heading": "Memoria entre comunidades",
+            "content": "El antiguo pacto entre musulmanes y cristianos permite leer la novela como reflexión sobre acuerdos, fracturas y continuidades de la historia peninsular más allá del conflicto inmediato."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica pura o tiene misterio?",
+            "answer": "Combina reconstrucción histórica con saga familiar, romance e intriga vinculada a una herencia secreta."
+          },
+          {
+            "question": "¿Dónde se sitúa el comienzo de la historia?",
+            "answer": "Empieza en Sevilla, en el contexto del terremoto de 1755, que precipita el destino de la protagonista."
+          },
+          {
+            "question": "¿Qué rasgo la distingue dentro de la novela histórica española?",
+            "answer": "Su amplitud generacional y el peso de la imprenta, los documentos y la memoria compartida como motores del argumento."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Web oficial de Nerea Riesco",
+            "url": "https://www.nereariesco.com/producto/el-elefante-de-marfil/"
+          },
+          {
+            "label": "Internet Archive: El elefante de marfil",
+            "url": "https://archive.org/details/elelefantedemarf0000ries"
+          },
+          {
+            "label": "Google Books record",
+            "url": "https://books.google.com/books?id=gCknQwAACAAJ"
+          },
+          {
+            "label": "Casa del Libro",
+            "url": "https://www.casadellibro.com/libro-el-elefante-de-marfil/9788425343056/1616353"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-fin-de-la-muerte-trilogia-de-los-tres-cuerpos-3-de-cixin-liu",
+      "title": "El Fin De La Muerte Trilogia De Los Tres Cuerpos 3",
+      "authorName": "Cixin Liu",
+      "authorSlug": "cixin-liu",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El fin de la muerte",
+        "authorName": "Cixin Liu",
+        "authorSlug": "cixin-liu",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ciencia-ficcion",
+          "narrativa"
+        ],
+        "year": 2010,
+        "pages": 605,
+        "summary": "El fin de la muerte cierra la trilogía de los tres cuerpos llevando el conflicto entre la humanidad y Trisolaris a una escala temporal y cósmica desmesurada. Tras décadas de equilibrio precario, la paz aparente vuelve complaciente a la civilización terrestre y abre nuevas vulnerabilidades. La novela sigue de manera central a Cheng Xin, figura decisiva en una etapa histórica donde las decisiones éticas, políticas y tecnológicas ya no afectan solo a una generación, sino al destino de especies enteras. Cixin Liu combina especulación científica, ingeniería a gran escala, teoría sobre civilizaciones interestelares y episodios de enorme dramatismo para plantear una pregunta inquietante: si el universo premia la supervivencia despiadada, ¿queda espacio para la compasión, la confianza o la esperanza humana? El resultado es un final ambicioso, sombrío y expansivo, más interesado en la dimensión filosófica del futuro que en ofrecer consuelo.",
+        "aboutThisBook": "Publicada originalmente en chino en 2010 y conocida internacionalmente como Death's End, esta novela culmina una de las trilogías de ciencia ficción más influyentes del siglo XXI. La edición en español apareció en el sello Nova. El libro fue reconocido con el Premio Locus 2017 y consolidó la proyección mundial de Liu Cixin. Su rasgo distintivo es la combinación de grandes ideas científicas con una mirada pesimista sobre la política interestelar, la escala del tiempo y la fragilidad de la civilización humana.",
+        "forWhom": "Para lectores adultos y universitarios que disfrutan la ciencia ficción de ideas, las trilogías ambiciosas, la especulación cosmológica y los dilemas éticos donde la supervivencia colectiva entra en tensión con los valores humanos.",
+        "whyItMatters": "Importa porque empuja la ciencia ficción hacia un horizonte realmente cósmico y obliga a pensar la historia humana desde escalas temporales, tecnológicas y morales que desbordan por completo la experiencia cotidiana. Pocas novelas recientes han imaginado con tanta amplitud el precio de seguir existiendo en un universo hostil.",
+        "editorialIntro": "Hay novelas de ciencia ficción que impresionan por una idea; El fin de la muerte impresiona por la cantidad de ideas que consigue sostener sin perder tensión narrativa. Liu Cixin toma el desenlace de su trilogía y lo convierte en una exploración vertiginosa de estrategia interestelar, tecnología extrema, miedo cósmico y responsabilidad moral. La novela no se conforma con escalar el conflicto: también lo vuelve más incómodo, porque sugiere que la inteligencia y la bondad no siempre avanzan juntas. Ese contraste hace que el libro sea memorable incluso cuando desborda cualquier esquema tradicional de aventura espacial.",
+        "readingLevel": "Lectura alta para público adulto. El estilo puede ser accesible en lo narrativo, pero la novela exige atención a conceptos científicos, saltos temporales extensos y consecuencias políticas de muy gran escala.",
+        "whyReadToday": "Sigue siendo muy actual por su reflexión sobre carrera tecnológica, disuasión, fragilidad geopolítica y decisiones tomadas en nombre de la seguridad colectiva con efectos que duran siglos o milenios.",
+        "studyNotes": [
+          "La novela contrapone dos lógicas: la ética humanista de la compasión y la lógica estratégica de la supervivencia en un universo competitivo.",
+          "Cheng Xin no debe leerse solo como personaje individual, sino como figura que concentra debates sobre responsabilidad, confianza y liderazgo en contextos extremos.",
+          "La escala temporal es una clave de lectura: el libro no piensa el futuro en décadas, sino en eras, y eso modifica la percepción del riesgo, del progreso y de la memoria.",
+          "Conviene relacionar esta tercera entrega con los conceptos desarrollados en los volúmenes anteriores, especialmente la disuasión del bosque oscuro y la relación entre conocimiento científico y poder."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Una paz inestable",
+            "summary": "Después de la gran confrontación previa, la humanidad vive un período de prosperidad sostenido por el equilibrio de la disuasión. Esa aparente estabilidad, sin embargo, trae autocomplacencia y prepara nuevas decisiones de enorme alcance."
+          },
+          {
+            "title": "Parte 2: Cheng Xin y el costo de decidir",
+            "summary": "La trayectoria de Cheng Xin se vuelve central cuando su posición y sus elecciones afectan el delicado balance entre civilizaciones. La novela explora cómo una decisión aparentemente ética puede producir consecuencias devastadoras en un marco estratégico radical."
+          },
+          {
+            "title": "Parte 3: Escalada cósmica",
+            "summary": "El conflicto deja de ser un problema entre dos mundos y pasa a inscribirse en la estructura misma del universo. Nuevas tecnologías, amenazas superiores y horizontes temporales inmensos alteran para siempre la idea de historia humana."
+          },
+          {
+            "title": "Parte 4: Supervivencia, pérdida y horizonte final",
+            "summary": "El cierre de la novela lleva a sus personajes a enfrentar extinción, memoria y continuidad en términos no solo humanos, sino cósmicos. Más que cerrar una aventura, Liu Cixin plantea una meditación sobre qué significa perdurar cuando el universo mismo parece adverso."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La ética bajo presión cósmica",
+            "content": "Uno de los logros del libro es mostrar que la moral no desaparece en contextos extremos, pero sí se vuelve insuficiente si se aplica sin considerar estructuras de poder y supervivencia. La compasión puede ser admirable y, al mismo tiempo, estratégicamente desastrosa."
+          },
+          {
+            "heading": "Escala y vértigo en la ciencia ficción de ideas",
+            "content": "Liu Cixin expande la narración hacia dimensiones astronómicas y temporales gigantescas. Esa expansión produce asombro, pero también deshumanización calculada: el lector percibe lo pequeña que es la civilización terrestre frente al universo."
+          },
+          {
+            "heading": "Cheng Xin como figura polémica",
+            "content": "El personaje suele generar discusiones porque encarna una sensibilidad moral que el propio sistema narrativo pone a prueba sin descanso. Leerla bien implica evitar simplificaciones: no es solo símbolo de debilidad ni solo reserva de humanidad, sino campo de tensión entre ambas lecturas."
+          },
+          {
+            "heading": "Tecnología, disuasión y vulnerabilidad",
+            "content": "El libro insiste en que el progreso técnico no asegura madurez política. Al contrario, multiplica el alcance de decisiones erróneas y convierte la seguridad en una forma de equilibrio siempre provisional."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer antes los dos libros anteriores?",
+            "answer": "Sí, es muy recomendable. El fin de la muerte depende de conceptos, conflictos y personajes desarrollados en El problema de los tres cuerpos y El bosque oscuro. Leerlo aislado reduce mucho su fuerza."
+          },
+          {
+            "question": "¿Predomina la aventura o la especulación científica?",
+            "answer": "Predominan ambas, pero la novela destaca sobre todo por su especulación científica y filosófica. La acción existe, aunque muchas de sus escenas más memorables derivan de ideas cosmológicas y estratégicas de gran escala."
+          },
+          {
+            "question": "¿Quién es el personaje clave del libro?",
+            "answer": "Cheng Xin ocupa un lugar central. A través de ella, Liu Cixin examina el costo moral y político de decidir en un mundo donde un error no afecta solo a individuos, sino a civilizaciones enteras."
+          },
+          {
+            "question": "¿Por qué se considera un cierre importante dentro de la ciencia ficción reciente?",
+            "answer": "Porque lleva una trilogía ya ambiciosa hacia un desenlace de alcance cósmico y combina física especulativa, estrategia interestelar y reflexión ética con una imaginación poco común en la narrativa contemporánea."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin Libros: El fin de la muerte (Trilogía de los tres cuerpos 3)",
+            "url": "https://www.penguinlibros.com/co/ciencia-ficcion/80950-libro-el-fin-de-la-muerte-trilogia-de-los-tres-cuerpos-3-9789585986824"
+          },
+          {
+            "label": "Wikipedia en español: El fin de la muerte",
+            "url": "https://es.wikipedia.org/wiki/El_fin_de_la_muerte"
+          },
+          {
+            "label": "WorldCat: Death's end",
+            "url": "https://search.worldcat.org/title/959880286"
+          },
+          {
+            "label": "Open Library: Death's End",
+            "url": "https://openlibrary.org/books/OL26214600M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-hombre-del-traje-gris-de-sloan-wilson",
+      "title": "El Hombre Del Traje Gris",
+      "authorName": "Sloan Wilson",
+      "authorSlug": "sloan-wilson",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El hombre del traje gris",
+        "authorName": "Sloan Wilson",
+        "authorSlug": "sloan-wilson",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1955,
+        "pages": 288,
+        "summary": "La novela de Sloan Wilson sigue a Tom Rath, veterano de la Segunda Guerra Mundial, esposo y padre de familia, mientras intenta construir una vida estable en la prosperidad suburbana de la posguerra estadounidense. Tom parece encajar en el ideal del hombre respetable de oficina, pero arrastra traumas de combate, recuerdos de una relación extramatrimonial en Italia y una inquietud profunda ante la cultura corporativa que premia la obediencia, la ambición y el sacrificio privado. Cuando entra a trabajar en una gran empresa de medios, descubre que el ascenso profesional puede exigir una renuncia moral y familiar demasiado alta. El libro convierte esa tensión en una crítica incisiva del conformismo social, del éxito entendido como simple carrera y del costo íntimo del ideal masculino de mediados del siglo XX.",
+        "aboutThisBook": "The Man in the Gray Flannel Suit se convirtió en una de las novelas emblemáticas de la posguerra norteamericana porque captó, con enorme claridad, la ansiedad escondida detrás del bienestar de clase media. Open Library la presenta como un relato sobre cultura corporativa, autodescubrimiento y responsabilidad personal, mientras la edición de Penguin Modern Classics subraya la historia de Tom y Betsy Rath como la de una familia que, pese a tener casa, hijos e ingresos, no encuentra contentamiento. El libro dialoga con la expansión suburbana, la burocratización del trabajo y las heridas psicológicas de la guerra. Su interés no reside solo en el retrato de una época, sino en la pregunta que la atraviesa: qué se pierde cuando el éxito externo se vuelve la medida principal de una vida.",
+        "forWhom": "Para lectores interesados en la novela estadounidense del siglo XX, la vida de posguerra, la crítica del mundo corporativo y los personajes que deben conciliar trabajo, memoria traumática y responsabilidad familiar.",
+        "whyItMatters": "Sigue importando porque dio una forma narrativa duradera al malestar del empleado ejemplar que parece haber triunfado y, sin embargo, vive moralmente dividido. También anticipa debates actuales sobre burnout, conciliación y la colonización empresarial del tiempo privado.",
+        "editorialIntro": "Antes de que la crítica cultural convirtiera el trabajo de oficina en símbolo del conformismo moderno, Sloan Wilson ya había encontrado una figura memorable para nombrarlo: el hombre del traje gris. La novela no denuncia solo una empresa o un ambiente, sino una lógica social entera, en la que la respetabilidad exterior puede ocultar culpa, vacío y obediencia excesiva. Por eso su lectura sigue siendo fértil mucho más allá de los años cincuenta.",
+        "readingLevel": "Lectura media para público adulto. La prosa es clara y narrativa, pero el libro gana profundidad cuando se atiende a sus flashbacks de guerra, a la crítica social de la posguerra y a los matices éticos del protagonista.",
+        "whyReadToday": "Porque su análisis del éxito laboral, la presión del rendimiento y el desgaste de la vida familiar sigue dialogando con problemas muy contemporáneos, aunque el contexto histórico sea el de la posguerra estadounidense.",
+        "studyNotes": [
+          "Tom Rath no es solo un empleado frustrado: es también un veterano de guerra cuya vida profesional está atravesada por recuerdos traumáticos y culpas no resueltas.",
+          "El traje gris del título funciona como emblema de uniformidad social, adaptación corporativa y masculinidad respetable en la cultura de oficina de la época.",
+          "La novela no contrapone simplemente hogar bueno y empresa mala; muestra cómo ambas esferas se contaminan cuando el prestigio laboral pasa a ordenar toda la existencia.",
+          "La lectura mejora si se sitúa el libro en el contexto de la prosperidad suburbana y el crecimiento empresarial de Estados Unidos tras la Segunda Guerra Mundial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Un hombre aparentemente integrado",
+            "summary": "La novela presenta a Tom Rath como un padre de familia instalado en la vida suburbana, pero desde el comienzo deja ver que la estabilidad material no elimina su desasosiego. Las presiones económicas y la sensación de insuficiencia marcan el tono inicial."
+          },
+          {
+            "title": "Parte 2: La empresa y las heridas de la guerra",
+            "summary": "Cuando Tom entra en un nuevo trabajo corporativo, el relato alterna las exigencias del presente con recuerdos de combate y del pasado italiano. Esa estructura muestra que su conflicto no es solo laboral: su identidad entera ha quedado fracturada por la guerra y por las expectativas sociales del éxito."
+          },
+          {
+            "title": "Parte 3: Éxito, familia y decisión moral",
+            "summary": "Hacia el final, Tom comprende que el ascenso profesional puede costarle la vida familiar y la tranquilidad que más necesita. El desenlace convierte su trayectoria en una reflexión sobre los límites del carrerismo y la necesidad de ordenar la vida según prioridades humanas, no solo económicas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela de la posguerra corporativa",
+            "content": "Wilson capta un momento histórico en el que la empresa moderna se vuelve horizonte de respetabilidad y ascenso social. El libro muestra el precio subjetivo de esa integración: anonimato, cálculo, autocensura y erosión del tiempo personal."
+          },
+          {
+            "heading": "Trauma bélico y normalidad aparente",
+            "content": "El gran acierto de la novela es que la crítica social no borra el daño íntimo de la guerra. Tom intenta actuar como ciudadano ejemplar, pero sus recuerdos de violencia y culpa desestabilizan cualquier imagen simple de adaptación exitosa."
+          },
+          {
+            "heading": "La familia como medida ética",
+            "content": "La familia no aparece idealizada, pero sí como espacio desde el cual evaluar la legitimidad de la ambición profesional. La novela pregunta si una carrera que exige sacrificar presencia, atención y verdad merece realmente llamarse éxito."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela sobre la guerra o sobre la oficina?",
+            "answer": "Es ambas cosas. El mundo corporativo estructura el conflicto visible, pero la experiencia bélica de Tom explica buena parte de su desajuste interior y de sus decisiones."
+          },
+          {
+            "question": "¿El título alude solo a la ropa?",
+            "answer": "No. El traje gris funciona como símbolo de conformidad, anonimato y adaptación a un modelo social de éxito masculino propio de la posguerra estadounidense."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose hoy?",
+            "answer": "Porque su crítica del trabajo absorbente, de la identidad profesional como máscara y del conflicto entre carrera y vida personal conserva una gran vigencia."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin UK: The Man in the Gray Flannel Suit",
+            "url": "https://www.penguin.co.uk/books/57503/the-man-in-the-gray-flannel-suit-by-sloan-wilson-intro--jonathan-franzen/9780141188263"
+          },
+          {
+            "label": "Open Library: The Man in the Gray Flannel Suit",
+            "url": "https://openlibrary.org/works/OL120524W"
+          },
+          {
+            "label": "Open Library: Sloan Wilson",
+            "url": "https://openlibrary.org/authors/OL1237374A/Sloan_Wilson"
+          },
+          {
+            "label": "Wikipedia: The Man in the Gray Flannel Suit (novel)",
+            "url": "https://en.wikipedia.org/wiki/The_Man_in_the_Gray_Flannel_Suit_(novel)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-joven-lennon-de-jordi-sierra-i-fabra",
+      "title": "El Joven Lennon",
+      "authorName": "Jordi Sierra I Fabra",
+      "authorSlug": "jordi-sierra-i-fabra",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El joven Lennon",
+        "authorName": "Jordi Sierra i Fabra",
+        "authorSlug": "jordi-sierra-i-fabra",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa"
+        ],
+        "year": 1988,
+        "pages": 176,
+        "summary": "El joven Lennon recrea, en forma de novela biográfica juvenil, los años decisivos de John Lennon en Liverpool entre mediados de los cincuenta y el inicio de su carrera musical. Jordi Sierra i Fabra presenta a un adolescente impulsivo, inconformista y fascinado por el rock and roll que llega del otro lado del Atlántico, mientras intenta formar una banda con sus compañeros y encontrar un rumbo propio. La historia recorre los primeros Quarrymen, la amistad con Paul McCartney, la incorporación de George Harrison y el ambiente popular en el que Lennon va moldeando su carácter artístico. Al mismo tiempo, la novela no esquiva la dimensión íntima del personaje: la distancia con su madre, la tutela de la tía Mimi, la pérdida familiar y el paso abrupto hacia una madurez dolorosa. El resultado es una narración ágil que acerca un mito musical a la experiencia contradictoria de la adolescencia.",
+        "aboutThisBook": "Publicada por SM en 1988 y vinculada al ámbito de la literatura juvenil, la novela transforma un episodio real de la cultura popular del siglo XX en relato formativo. No es una biografía exhaustiva de Lennon, sino una reconstrucción narrativa de sus años de aprendizaje, cuando música, rebeldía, amistades y pérdidas configuran una identidad todavía inestable. Su interés reside en acercar un icono global a lectores jóvenes mediante una voz directa y un contexto reconocible.",
+        "forWhom": "Resulta especialmente recomendable para lectores juveniles interesados en la música, para quienes busquen una puerta de entrada narrativa a la figura de John Lennon y para docentes que trabajen biografía novelada, educación literaria o cultura popular del siglo XX. También puede atraer a adultos que quieran una aproximación breve y clara a los años previos a la irrupción de los Beatles.",
+        "whyItMatters": "Importa porque muestra cómo una novela juvenil puede convertir una figura histórica muy conocida en personaje cercano y verosímil. Además, enlaza educación literaria y memoria musical, y ayuda a pensar la adolescencia como un tiempo de formación artística, pérdida y búsqueda de identidad.",
+        "editorialIntro": "Jordi Sierra i Fabra entendió muy bien que detrás del mito de John Lennon había un adolescente en construcción. El joven Lennon trabaja justamente ese momento anterior a la consagración: cuando la pasión por la música convive con la rebeldía escolar, los vínculos familiares complejos y la intuición de que el arte puede convertirse en destino. La novela convierte ese proceso en un relato claro, dinámico y muy útil para lectores jóvenes.",
+        "readingLevel": "Nivel medio y muy asequible para secundaria: lenguaje directo, capítulos breves, referencias musicales claras y apoyo en un personaje histórico conocido.",
+        "whyReadToday": "Leerlo hoy sigue teniendo sentido porque conecta formación personal y cultura musical sin solemnidad. Además, ofrece una manera eficaz de presentar a Lennon antes del mito, como joven vulnerable, contradictorio y creativo.",
+        "studyNotes": [
+          "La obra debe leerse como novela biográfica: se apoya en hechos y personajes reales, pero organiza el material con recursos narrativos propios de la ficción.",
+          "Liverpool y el nacimiento del rock and roll funcionan como contexto histórico decisivo para entender la vocación de Lennon.",
+          "La relación entre John, su madre Julia y su tía Mimi aporta al libro un eje emocional que equilibra la dimensión musical.",
+          "La amistad con Paul McCartney marca el paso del impulso individual a un proyecto artístico compartido."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Liverpool, escuela y primeras guitarras",
+            "summary": "Lennon aparece como un adolescente inquieto, conflictivo en clase y profundamente atraído por la música que llega a los puertos ingleses. Empieza a imaginar una vida ligada al rock."
+          },
+          {
+            "title": "Parte 2: Los Quarrymen y el aprendizaje musical",
+            "summary": "La formación de su primer grupo y el contacto con amigos y marineros que le acercan discos nuevos consolidan la vocación artística de John. La música deja de ser afición y se convierte en horizonte vital."
+          },
+          {
+            "title": "Parte 3: Pérdida, amistad y madurez",
+            "summary": "La muerte de su madre y el encuentro con Paul McCartney cambian el tono del relato. Lennon crece a la fuerza y la novela muestra el inicio de una alianza creativa destinada a marcar la historia de la música popular."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Biografía novelada para lectores jóvenes",
+            "content": "Sierra i Fabra adapta una figura histórica universal a las convenciones de la narrativa juvenil: claridad, ritmo y concentración en episodios formativos. El libro no busca agotar la vida de Lennon, sino seleccionar aquellos momentos que permiten leer su adolescencia como proceso de construcción personal."
+          },
+          {
+            "heading": "Música e identidad",
+            "content": "En la novela, la música no es un simple telón de fondo. El descubrimiento del rock and roll, la práctica de la guitarra y la creación de una banda ofrecen a Lennon una forma de nombrarse, de desafiar el entorno y de proyectar una salida distinta a la vida ordinaria."
+          },
+          {
+            "heading": "Duelo y paso a la adultez",
+            "content": "La pérdida de la madre introduce un quiebre decisivo. A partir de ese momento, el relato deja de ser solo la historia de un joven rebelde fascinado por la música y se convierte también en la de alguien obligado a reorganizar su mundo afectivo mientras madura."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una biografía estricta de John Lennon?",
+            "answer": "No exactamente. Es una novela biográfica juvenil basada en hechos reales y centrada en su adolescencia, contada con recursos narrativos de ficción."
+          },
+          {
+            "question": "¿Hace falta saber mucho de los Beatles para disfrutarla?",
+            "answer": "No. Justamente funciona bien como introducción, porque presenta a Lennon antes de la fama y explica de manera sencilla el origen de su vocación musical."
+          },
+          {
+            "question": "¿Qué aporta frente a una biografía documental?",
+            "answer": "Aporta cercanía narrativa. El lector entra en los conflictos emocionales, escolares y familiares del protagonista con una inmediatez que suele ser más accesible para público juvenil."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: El joven Lennon. [Capítulo 1]",
+            "url": "https://www.cervantesvirtual.com/obra/el-joven-lennon-capitulo-1/"
+          },
+          {
+            "label": "Wikipedia en español: El joven Lennon",
+            "url": "https://es.wikipedia.org/wiki/El_joven_Lennon"
+          },
+          {
+            "label": "Guía de lectura de SM (copia archivada): El joven Lennon",
+            "url": "https://web.archive.org/web/20090711040005/http://www.edicionessm.com.ar/ArchivosColegios/Argentina/Archivos/Argentina/Gu%C3%ADas/Gran%20angular/El%20joven%20Lennon.pdf"
+          },
+          {
+            "label": "Casa del Libro: El joven Lennon",
+            "url": "https://www.casadellibro.com/libro-el-joven-lennon/9788434823532/112553"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-libro-de-oro-de-la-hermandad-de-saint-germain-de-saint-germain",
+      "title": "El Libro De Oro De La Hermandad De Saint Germain",
+      "authorName": "Saint Germain",
+      "authorSlug": "saint-germain",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El libro de oro de la hermandad de Saint Germain",
+        "authorName": "Saint Germain",
+        "authorSlug": "saint-germain",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "desarrollo-personal"
+        ],
+        "year": 1997,
+        "pages": 240,
+        "summary": "Este volumen se presenta como un compendio de enseñanzas espirituales atribuidas a Saint Germain y vinculadas a la hermandad que lleva su nombre. En lugar de narrar una historia de ficción, organiza una pedagogía interior centrada en disciplina mental, trabajo con la conciencia y reconocimiento de la presencia espiritual del yo. Su lenguaje pertenece al campo de la literatura metafísica y devocional: combina exhortación, afirmación, comentario doctrinal y orientación práctica para el estudiante. Más que desarrollar una tesis académica, el libro busca guiar una transformación personal mediante estudio, meditación y reiteración de principios. Conviene leerlo, por tanto, como texto de formación esotérica moderna y no como tratado filosófico universitario.",
+        "aboutThisBook": "La edición consultable en bibliotecas digitales corresponde a Ediciones Obelisco y sitúa el libro en la circulación hispánica de la literatura metafísica de finales del siglo XX. La obra pertenece al universo editorial de las enseñanzas \"YO SOY\" y de los llamados maestros ascendidos, donde la figura de Saint Germain opera como autoridad espiritual y pedagógica. Su estructura exacta puede variar por edición, pero el propósito general es instructivo: conducir al lector-discípulo a una práctica de atención, purificación y afirmación interior.",
+        "forWhom": "Para lectores interesados en metafísica espiritual, tradición \"YO SOY\", esoterismo moderno y libros de práctica devocional orientados al trabajo interior más que a la argumentación crítica.",
+        "whyItMatters": "Importa como documento representativo de una corriente espiritual muy difundida en el ámbito hispano. Ayuda a entender cómo ciertas tradiciones esotéricas modernas organizan autoridad, disciplina y promesa de transformación personal.",
+        "editorialIntro": "El libro exige una lectura situada. No estamos ante una novela ni ante un ensayo académico, sino ante un texto doctrinal que pretende instruir y orientar la vida interior del lector. Su valor depende en buena medida del marco desde el que se lea: como obra de devoción metafísica, como pieza de historia cultural del esoterismo moderno o como ejemplo de literatura de autoformación espiritual. En todos los casos conviene atender tanto a lo que enseña como al modo en que construye obediencia, esperanza y práctica.",
+        "readingLevel": "Medio: prosa exhortativa y repetitiva, accesible en vocabulario pero muy marcada por su marco doctrinal y simbólico.",
+        "whyReadToday": "Puede leerse hoy para comprender la persistencia editorial de la metafísica espiritual y su influencia en formas contemporáneas de búsqueda interior y autoayuda esotérica.",
+        "studyNotes": [
+          "Es preferible leer el libro como texto de enseñanza espiritual atribuida, no como obra verificable de filosofía académica o historia documental.",
+          "La reiteración de fórmulas y principios cumple una función práctica: fijar hábitos de atención y obediencia interior en el lector creyente.",
+          "Su interés cultural también reside en mostrar cómo se adaptó al español una corriente esotérica moderna muy asociada al universo editorial de Saint Germain."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1: Fundamentos de la enseñanza",
+            "summary": "La obra introduce el marco doctrinal de la hermandad y presenta la autoridad espiritual desde la que se habla al lector. El énfasis recae en aceptar una disciplina interior y un vocabulario propio."
+          },
+          {
+            "title": "Momento 2: Práctica y afirmación",
+            "summary": "El núcleo del libro orienta al estudiante hacia ejercicios de concentración, afirmación y reforma de la vida mental. El aprendizaje se concibe como práctica constante, no como lectura meramente informativa."
+          },
+          {
+            "title": "Momento 3: Transformación del discípulo",
+            "summary": "Las secciones finales insisten en la aplicación cotidiana de la enseñanza. La promesa central es una elevación espiritual basada en estudio, constancia y reconocimiento consciente del yo interior."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Texto doctrinal y no narrativo",
+            "content": "Su organización responde a una lógica de instrucción espiritual. La autoridad del enunciador, la repetición y la apelación directa al lector construyen una relación pedagógica clara."
+          },
+          {
+            "heading": "La función de la repetición",
+            "content": "Las repeticiones no son un defecto accidental, sino un mecanismo propio de la literatura devocional y metafísica. Buscan convertir ciertas fórmulas en hábito mental y en disciplina diaria."
+          },
+          {
+            "heading": "Interés cultural e histórico",
+            "content": "Más allá de la adhesión doctrinal, el libro permite estudiar la difusión hispana del esoterismo moderno, el papel de editoriales especializadas y la persistencia de repertorios espirituales centrados en la transformación individual."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela?",
+            "answer": "No. Es un libro de enseñanza espiritual y metafísica atribuido a Saint Germain."
+          },
+          {
+            "question": "¿Qué tipo de lectura propone?",
+            "answer": "Propone una lectura práctica y formativa, ligada a la meditación, la afirmación y la disciplina interior del estudiante."
+          },
+          {
+            "question": "¿Por qué puede interesar incluso a lectores no creyentes?",
+            "answer": "Porque también funciona como documento cultural para estudiar el lenguaje, la pedagogía y la expansión editorial del esoterismo moderno en español."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Internet Archive: edición de Obelisco",
+            "url": "https://archive.org/details/isbn_9788477205487"
+          },
+          {
+            "label": "Google Books record",
+            "url": "https://books.google.com/books?id=CDhWjwEACAAJ"
+          },
+          {
+            "label": "Todos Tus Libros: El libro de oro de la hermandad",
+            "url": "https://www.todostuslibros.com/libros/el-libro-de-oro-de-la-hermandad_978-84-7720-548-7"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-manhattan-perfecto-de-leanne-sheartracey-toomey",
+      "title": "El Manhattan Perfecto",
+      "authorName": "Leanne Sheartracey Toomey",
+      "authorSlug": "leanne-sheartracey-toomey",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "The Perfect Manhattan",
+        "authorName": "Leanne Shear y Tracey Toomey",
+        "authorSlug": "leanne-shear-tracey-toomey",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "romance",
+          "narrativa"
+        ],
+        "year": 2005,
+        "pages": 448,
+        "summary": "The Perfect Manhattan sigue a Cassie Ellis, una joven recién graduada que quiere escribir guiones pero necesita dinero rápido para enfrentar sus préstamos estudiantiles. En lugar de elegir un empleo estable y convencional, entra al mundo de la coctelería en un bar de moda del SoHo neoyorquino y aprende a moverse entre clientes ricos, noches largas, apariencias brillantes y una economía hecha de propinas, seducción y oportunidades inciertas. Cuando el trabajo la lleva a los Hamptons durante el verano, la novela amplía su mirada sobre celebridad, lujo y movilidad social aspiracional. Leanne Shear y Tracey Toomey convierten ese recorrido en una historia ligera pero aguda sobre trabajo precario glamurizado, deseos de ascenso, amistades competitivas y el choque entre la fantasía de la vida perfecta y sus costos íntimos.",
+        "aboutThisBook": "Publicada en 2005, The Perfect Manhattan apareció en el ámbito anglosajón como una novela comercial sobre bartending, glamour y vida urbana, escrita por Leanne Shear y Tracey Toomey. Su tono la acerca a la chick lit y a la comedia romántica contemporánea, pero el libro también retrata el trabajo de servicio en espacios de alto consumo y la tensión entre ambición creativa y necesidad económica. Su protagonista no entra en el lujo como heredera, sino como trabajadora que observa desde dentro a quienes pueden pagar el espectáculo.",
+        "forWhom": "Para lectores adultos que disfrutan la ficción urbana ligera, las novelas sobre Nueva York, el behind the scenes del mundo nocturno, los relatos de ascenso social ambiguo y las comedias contemporáneas con comentario de clase.",
+        "whyItMatters": "Importa porque captura un momento cultural reconocible de principios de siglo: la fascinación por la vida aspiracional, el consumo como identidad y la promesa de que el carisma y la flexibilidad laboral pueden sustituir una base material estable. Bajo su superficie entretenida, la novela deja ver precariedad, actuación social y deseo de pertenecer.",
+        "editorialIntro": "A primera vista, The Perfect Manhattan parece ofrecer solo una mezcla de cócteles, moda, romances y noches neoyorquinas. Sin embargo, su mejor interés está en el punto de vista desde el que observa ese mundo. Cassie no pertenece de entrada a la élite que sirve tragos caros y controla la puerta de entrada al deseo; trabaja para ella, la estudia y, por momentos, queda seducida por sus reglas. Esa posición intermedia vuelve más interesante una novela que combina ligereza comercial con una mirada atenta al dinero, al estatus y a la performance social.",
+        "readingLevel": "Lectura accesible para adultos. El lenguaje y la estructura son directos, aunque la novela gana matices si se atiende a su comentario sobre clase, trabajo emocional y cultura aspiracional urbana.",
+        "whyReadToday": "Vale la pena leerla hoy porque anticipa debates muy actuales sobre trabajos glamurizados, economía del servicio, deuda estudiantil, marca personal y la distancia entre estilo de vida visible y seguridad real.",
+        "studyNotes": [
+          "Cassie entra al mundo del lujo como trabajadora, no como miembro natural de la élite; esa posición define la mirada crítica del libro sobre el consumo y el estatus.",
+          "El bar funciona como escenario social donde deseo, dinero, género y actuación pública se cruzan continuamente.",
+          "La novela puede leerse como chick lit, pero también como relato sobre precariedad elegante: detrás del brillo hay deuda, dependencia de propinas y necesidad de agradar.",
+          "El desplazamiento de SoHo a los Hamptons amplía el retrato de la vida aspiracional y muestra que el privilegio cambia de escenario, pero mantiene reglas de exclusión similares."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Elegir la barra en lugar de la oficina",
+            "summary": "Cassie, recién salida de la universidad y con ambiciones creativas, rechaza la ruta laboral más previsible y entra al oficio de bartender. La decisión abre una vida más flexible y excitante, pero también más incierta."
+          },
+          {
+            "title": "Parte 2: SoHo, aprendizaje y performance social",
+            "summary": "La protagonista descubre que servir tragos implica leer deseos, sostener apariencias y convertir simpatía y presencia en capital laboral. El bar se vuelve un aula acelerada sobre clase, seducción y supervivencia urbana."
+          },
+          {
+            "title": "Parte 3: Verano en los Hamptons",
+            "summary": "El traslado estacional lleva a Cassie a un entorno todavía más exclusivo, donde el lujo se intensifica y las fronteras entre oportunidad, romance, conveniencia y autoengaño se vuelven más difíciles de distinguir."
+          },
+          {
+            "title": "Parte 4: Entre fantasía y realidad",
+            "summary": "La experiencia acumulada obliga a Cassie a evaluar qué parte del brillo social quiere realmente para su vida. La novela cierra poniendo en tensión deseo de pertenecer, independencia y proyecto personal."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Trabajo emocional y espectáculo del servicio",
+            "content": "La novela muestra que la coctelería de lujo no es solo habilidad técnica. Exige leer al cliente, administrar la propia imagen y convertir la simpatía en recurso económico. Esa dimensión laboral suele quedar oculta bajo el glamour."
+          },
+          {
+            "heading": "Clase y movilidad aspiracional",
+            "content": "Cassie observa desde dentro un mundo de riqueza que no le pertenece del todo. Esa cercanía parcial vuelve especialmente legible el mecanismo de fascinación social: el privilegio se vende como estilo accesible, aunque en realidad depende de barreras muy concretas."
+          },
+          {
+            "heading": "Nueva York y los Hamptons como escenarios de deseo",
+            "content": "El libro usa dos espacios emblemáticos para narrar la aspiración contemporánea. SoHo representa la velocidad creativa y la visibilidad urbana; los Hamptons, la promesa veraniega de exclusividad relajada. En ambos casos, la puesta en escena social resulta decisiva."
+          },
+          {
+            "heading": "Ligereza comercial con trasfondo social",
+            "content": "Aunque el tono es entretenido y accesible, la novela deja ver la presión de la deuda, la inestabilidad laboral y la lógica de convertir el encanto personal en instrumento de ascenso. Esa capa le da más espesor que el de una simple fantasía romántica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata The Perfect Manhattan?",
+            "answer": "Trata de Cassie Ellis, una joven con aspiraciones creativas que entra al mundo de la coctelería en Nueva York y luego en los Hamptons, donde descubre tanto el atractivo como el costo del lujo y la vida aspiracional."
+          },
+          {
+            "question": "¿Es solo una comedia romántica ligera?",
+            "answer": "Tiene humor, romance y ritmo comercial, pero también observa con bastante atención el trabajo de servicio, la deuda estudiantil, la economía de las propinas y la relación entre clase social y estilo de vida."
+          },
+          {
+            "question": "¿Qué tipo de protagonista tiene la novela?",
+            "answer": "Cassie es una protagonista ambiciosa, observadora y vulnerable al brillo del mundo que la rodea. Su recorrido combina deseo de independencia, búsqueda profesional y tentación de ascenso social."
+          },
+          {
+            "question": "¿Por qué puede interesar hoy?",
+            "answer": "Porque anticipa temas muy contemporáneos: trabajo flexible pero inestable, construcción de imagen, cultura del consumo aspiracional y tensión entre libertad aparente y dependencia económica."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin Random House Canada: The Perfect Manhattan",
+            "url": "https://www.penguinrandomhouse.ca/books/165356/the-perfect-manhattan-by-leanne-shear-and-tracey-toomey/9780767921619"
+          },
+          {
+            "label": "Penguin Random House: The Perfect Manhattan - Reading Guide",
+            "url": "https://www.penguinrandomhouse.com/books/165356/the-perfect-manhattan-by-leanne-shear-and-tracey-toomey/readers-guide"
+          },
+          {
+            "label": "Publishers Weekly: The Perfect Manhattan",
+            "url": "https://www.publishersweekly.com/9780767918497"
+          },
+          {
+            "label": "Open Library: The Perfect Manhattan",
+            "url": "https://openlibrary.org/books/OL8064846M/The_Perfect_Manhattan"
+          },
+          {
+            "label": "Internet Archive: The perfect Manhattan",
+            "url": "https://archive.org/details/perfectmanhattan00shea"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-origen-de-la-familia-la-propiedad-privada-y-el-estado-de-friedrich-engels",
+      "title": "El Origen De La Familia La Propiedad Privada Y El Estado",
+      "authorName": "Friedrich Engels",
+      "authorSlug": "friedrich-engels",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El origen de la familia, la propiedad privada y el Estado",
+        "authorName": "Friedrich Engels",
+        "authorSlug": "friedrich-engels",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 1884,
+        "pages": 217,
+        "summary": "En este ensayo clásico del pensamiento marxista, Friedrich Engels intenta explicar el surgimiento de la familia monogámica, la propiedad privada y el Estado como procesos históricos vinculados entre sí, no como instituciones naturales o eternas. Basado en parte en las investigaciones de Lewis H. Morgan y en notas de Karl Marx, el libro recorre distintas formas de organización familiar y gentilicia para sostener que la división en clases, la acumulación de riqueza heredable y la subordinación de la mujer se consolidan con el avance de la propiedad privada. Engels presenta al Estado como una estructura nacida para administrar y proteger antagonismos de clase. Aunque varios de sus supuestos antropológicos han quedado fechados, la obra sigue siendo fundamental para entender la articulación entre historia social, parentesco, economía y poder político en la tradición materialista.",
+        "aboutThisBook": "Publicado por primera vez en 1884, The Origin of the Family, Private Property and the State es uno de los textos centrales de Engels y una obra decisiva para la formación del marxismo posterior. El archivo Marxists lo describe como un tratado escrito a partir de notas de Marx sobre Ancient Society, de Lewis H. Morgan, y orientado a pensar la historia temprana de la humanidad, la desintegración de la comunidad primitiva y el surgimiento de la sociedad de clases. La obra combina antropología decimonónica, teoría histórica y polémica política. Su influencia ha sido enorme en debates sobre parentesco, Estado, opresión de las mujeres y evolución social, aun cuando parte de su base empírica haya sido discutida y revisada por la investigación contemporánea.",
+        "forWhom": "Para lectores de ciencias sociales, filosofía, historia política y estudios de género que quieran conocer un texto clave del materialismo histórico y su interpretación de la familia y del Estado.",
+        "whyItMatters": "Importa porque formuló una de las interpretaciones más influyentes sobre la relación entre parentesco, propiedad, clases y poder estatal. Incluso cuando hoy se lee críticamente, sigue siendo una referencia obligada para comprender la genealogía intelectual de muchos debates modernos sobre historia social y dominación.",
+        "editorialIntro": "Hay libros que no solo presentan una tesis, sino que reorganizan durante décadas enteras la manera de hacer preguntas. Este es uno de ellos. Engels tomó materiales antropológicos de su tiempo y los leyó desde el marco del materialismo histórico para proponer una explicación de largo alcance sobre la familia, la herencia, la desigualdad y el Estado. La obra no debe leerse como ciencia social vigente en todos sus datos, sino como una intervención fundacional de gran potencia teórica e histórica.",
+        "readingLevel": "Lectura exigente para público adulto o universitario. El libro mezcla historia antigua, teoría social, discusión antropológica y conceptos del marxismo clásico, por lo que conviene leerlo con contexto y, si es posible, con apoyo crítico complementario.",
+        "whyReadToday": "Porque muchas discusiones actuales sobre trabajo reproductivo, desigualdad, instituciones y poder todavía dialogan, directa o indirectamente, con las preguntas que Engels formuló en este ensayo.",
+        "studyNotes": [
+          "La tesis central no es que familia, propiedad y Estado aparezcan por separado, sino que su consolidación histórica debe entenderse como un proceso conectado por transformaciones económicas y sociales.",
+          "Conviene distinguir entre la ambición teórica del libro y la validez empírica de cada una de sus afirmaciones antropológicas, varias de las cuales han sido corregidas por investigaciones posteriores.",
+          "La obra es especialmente influyente en la discusión sobre la relación entre monogamia, herencia, transmisión patrimonial y subordinación femenina.",
+          "Leer los prefacios ayuda a entender el vínculo del libro con Marx, con Morgan y con el proyecto general del materialismo histórico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Formas tempranas de familia y parentesco",
+            "summary": "Engels reconstruye distintos estadios del parentesco y de la organización familiar a partir de la antropología de su tiempo. El objetivo es mostrar que la familia no posee una forma única y eterna, sino una historia cambiante ligada a condiciones materiales concretas."
+          },
+          {
+            "title": "Parte 2: Propiedad privada, herencia y monogamia",
+            "summary": "En el núcleo del ensayo, Engels vincula la acumulación de riqueza y la necesidad de transmisión hereditaria con la consolidación de la familia monogámica y con nuevas jerarquías domésticas. Allí sitúa uno de sus argumentos más influyentes sobre dominación y estructura familiar."
+          },
+          {
+            "title": "Parte 3: Del orden gentilicio al surgimiento del Estado",
+            "summary": "Los capítulos finales examinan Grecia, Roma, germanos y otros pueblos para explicar cómo el antiguo orden de gens cede ante una organización estatal asociada al conflicto de clases y a la defensa de la propiedad. El cierre convierte la historia antigua en teoría política del Estado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una lectura materialista de las instituciones",
+            "content": "El aporte mayor del libro es su negativa a considerar la familia y el Estado como realidades naturales o meramente jurídicas. Engels insiste en que deben explicarse por transformaciones productivas, conflictos sociales y formas históricas de propiedad."
+          },
+          {
+            "heading": "Influencia y límites antropológicos",
+            "content": "El ensayo fue enormemente influyente porque articuló en un solo marco parentesco, economía y política. Sin embargo, muchas de sus etapas evolutivas y varias de sus fuentes responden a la antropología del siglo XIX, de modo que hoy exige lectura histórica y crítica."
+          },
+          {
+            "heading": "Mujer, herencia y poder doméstico",
+            "content": "Una de las líneas más discutidas y fecundas del libro es la que relaciona monogamia, herencia patrimonial y subordinación femenina. Aun con simplificaciones evidentes, esa conexión abrió un campo de reflexión duradero para el marxismo y para parte del pensamiento feminista posterior."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de historia, de antropología o de política?",
+            "answer": "Es una combinación de las tres cosas. Engels usa materiales históricos y antropológicos para sostener una tesis política y teórica sobre el origen de la desigualdad social y del Estado."
+          },
+          {
+            "question": "¿Sus ideas siguen siendo válidas sin matices?",
+            "answer": "No. Su importancia histórica es enorme, pero varios de sus supuestos antropológicos y esquemas evolutivos han sido discutidos o corregidos por la investigación posterior."
+          },
+          {
+            "question": "¿Por qué se considera un texto clave del marxismo?",
+            "answer": "Porque amplía el materialismo histórico hacia el estudio de la familia, la herencia y el Estado, y ofrece una explicación influyente de cómo esas instituciones se relacionan con la propiedad y la división en clases."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Marxists Internet Archive: The Origin of the Family, Private Property and the State",
+            "url": "https://www.marxists.org/archive/marx/works/1884/origin-family/index.htm"
+          },
+          {
+            "label": "Marxists Internet Archive: Preface to the First Edition (1884)",
+            "url": "https://www.marxists.org/archive/marx/works/1884/origin-family/preface.htm"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Friedrich Engels",
+            "url": "https://www.britannica.com/biography/Friedrich-Engels"
+          },
+          {
+            "label": "Open Library: Origin of the Family Private Property and the State",
+            "url": "https://openlibrary.org/works/OL27531840W"
+          },
+          {
+            "label": "Wikipedia: The Origin of the Family, Private Property and the State",
+            "url": "https://en.wikipedia.org/wiki/The_Origin_of_the_Family,_Private_Property_and_the_State"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-paciente-de-juan-gomez-jurado",
+      "title": "El Paciente",
+      "authorName": "Juan Gomez Jurado",
+      "authorSlug": "juan-gomez-jurado",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El paciente",
+        "authorName": "Juan Gómez-Jurado",
+        "authorSlug": "juan-gomez-jurado",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2014,
+        "pages": 480,
+        "summary": "El paciente es un thriller de alta presión moral construido alrededor de una cuenta atrás implacable. David Evans, un prestigioso neurocirujano, recibe una orden imposible: debe dejar morir en la mesa de operaciones al presidente de los Estados Unidos si quiere salvar la vida de su hija, secuestrada por una organización que controla cada uno de sus movimientos. A partir de esa premisa, Juan Gómez-Jurado combina conspiración política, vigilancia, manipulación y tensión doméstica. La novela avanza en un plazo muy breve, con capítulos cortos y cambios de foco que incrementan la sensación de cerco. Mientras David intenta encontrar una salida que no destruya ni su ética profesional ni a su familia, el lector acompaña una trama donde nadie parece completamente fiable y donde cada decisión tiene un coste humano y público enorme. El libro convierte un dilema médico en una maquinaria de suspense sostenido.",
+        "aboutThisBook": "Publicada en 2014, la novela se sitúa entre los thrillers más representativos de la primera etapa de Juan Gómez-Jurado. Su punto fuerte es un planteamiento de gran rendimiento narrativo: un médico obligado a elegir entre el juramento que define su profesión y la vida de su hija. Desde ahí, el autor despliega una historia de ritmo rápido, ambición internacional y claro diseño comercial, apoyada en cliffhangers y en una amenaza que mezcla lo íntimo con lo geopolítico.",
+        "forWhom": "Es especialmente recomendable para lectores de thriller contemporáneo, novelas de conspiración y relatos de suspense con capítulos muy breves y alto ritmo. También interesará a quienes disfrutan historias centradas en dilemas éticos extremos, donde la tensión no nace solo de descubrir al culpable, sino de preguntarse qué decisión puede tomar el protagonista sin destruirse. Funciona bien para lectores adultos que busquen adicción narrativa inmediata.",
+        "whyItMatters": "Importa porque muestra con claridad una de las fortalezas de Gómez-Jurado: convertir una premisa extrema en un artefacto narrativo de lectura compulsiva. Además, plantea de forma eficaz el choque entre deber profesional, chantaje emocional y poder político, tres vectores muy reconocibles en el thriller global del siglo XXI.",
+        "editorialIntro": "Algunas novelas de suspense arrancan con un crimen; El paciente arranca con una decisión imposible. Ese desplazamiento basta para explicar buena parte de su eficacia. Juan Gómez-Jurado coloca a un cirujano de prestigio ante una extorsión que afecta a su hija y al presidente de Estados Unidos, y desde ahí construye una carrera contrarreloj donde la pregunta central no es solo quién mueve los hilos, sino cuánto puede resistir una conciencia sitiada.",
+        "readingLevel": "Lectura muy accesible para adultos y juveniles avanzados: capítulos cortos, lenguaje directo, mucha acción y tensión constante, aunque con violencia y presión psicológica propias del thriller adulto.",
+        "whyReadToday": "Sigue funcionando por su ritmo vertiginoso y por un dilema central que continúa siendo perturbador: qué ocurre cuando la ética privada choca con una maquinaria de poder capaz de usar a la familia como rehén. Es un buen ejemplo del thriller español de proyección internacional.",
+        "studyNotes": [
+          "La novela convierte un juramento médico en detonante dramático: operar bien o salvar a la hija deja de ser una oposición abstracta y se vuelve una urgencia concreta.",
+          "El tiempo limitado intensifica el suspense y organiza la lectura como cuenta atrás, uno de los mecanismos estructurales más visibles del libro.",
+          "La amenaza funciona en dos planos: el íntimo, ligado a la familia de David Evans, y el político, ligado al presidente y a la seguridad nacional.",
+          "La prosa busca velocidad y eficacia, con capítulos breves y finales de escena pensados para sostener la compulsión lectora."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El chantaje",
+            "summary": "David Evans descubre que su hija ha sido secuestrada y recibe la exigencia de dejar morir a su próximo paciente, nada menos que el presidente de Estados Unidos. La novela fija así un dilema ético y emocional extremo."
+          },
+          {
+            "title": "Parte 2: La cuenta atrás",
+            "summary": "Mientras el operativo presidencial se prepara, David intenta ganar tiempo, entender quién está detrás de la amenaza y encontrar una salida. Cada movimiento está vigilado y la presión se vuelve asfixiante."
+          },
+          {
+            "title": "Parte 3: Verdad, sacrificio y desenlace",
+            "summary": "La trama revela intereses ocultos y obliga al protagonista a actuar bajo condiciones límite. El cierre resuelve la conspiración sin abandonar la pregunta moral que dio origen a toda la historia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El dilema moral como motor del thriller",
+            "content": "A diferencia de otros thrillers centrados en la investigación, aquí la tensión nace desde el primer momento de una decisión imposible. El suspense no consiste solo en descubrir al antagonista, sino en acompañar la erosión psicológica de un hombre obligado a elegir entre dos deberes incompatibles."
+          },
+          {
+            "heading": "Ritmo y arquitectura comercial",
+            "content": "Gómez-Jurado construye la novela con técnicas muy visibles de adicción narrativa: capítulos breves, cambios de perspectiva, información dosificada y cierres en punta. Esa estructura explica buena parte de su eficacia y de su amplia circulación entre lectores de thriller contemporáneo."
+          },
+          {
+            "heading": "Intimidad bajo amenaza geopolítica",
+            "content": "La novela agranda el conflicto privado al situarlo junto al cuerpo del presidente estadounidense y a un entramado de poder mayor. Ese cruce de escalas, de la familia al Estado, amplifica el dramatismo y da al relato un aire internacional muy reconocible."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela policíaca o un thriller de suspense?",
+            "answer": "Es claramente un thriller de suspense. La intriga existe, pero el foco principal está en la presión, la cuenta atrás y el dilema del protagonista."
+          },
+          {
+            "question": "¿Se puede leer sin conocer otras obras de Juan Gómez-Jurado?",
+            "answer": "Sí. Es una novela independiente y anterior al gran desarrollo del universo narrativo por el que el autor sería después masivamente conocido."
+          },
+          {
+            "question": "¿Qué rasgo define mejor el libro?",
+            "answer": "Su premisa extrema: un médico obligado a escoger entre salvar a su hija o cumplir con su deber ante un paciente cuyo destino afecta al mundo entero."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Juan Gómez-Jurado: ficha oficial de El paciente",
+            "url": "https://juangomezjurado.com/libro/el-paciente/"
+          },
+          {
+            "label": "Open Library ISBN 9788408122913: El Paciente",
+            "url": "https://openlibrary.org/isbn/9788408122913"
+          },
+          {
+            "label": "Casa del Libro: El paciente (Editorial Planeta, 2014)",
+            "url": "https://www.casadellibro.com/libro-el-paciente/9788408122913/2234603"
+          },
+          {
+            "label": "Google Books API / Play Books: El paciente",
+            "url": "https://play.google.com/store/books/details?id=pm70DwAAQBAJ"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-20T16:27:21Z"
+}

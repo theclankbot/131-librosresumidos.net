@@ -1,0 +1,1513 @@
+{
+  "batchName": "replenish-20260419T220957Z-topup",
+  "createdAt": "2026-04-19T22:10:04Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "un-gato-callejero-llamado-bob-de-james-bowen",
+      "title": "Un Gato Callejero Llamado Bob",
+      "authorName": "James Bowen",
+      "authorSlug": "james-bowen",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 13,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un gato callejero llamado Bob",
+        "authorName": "James Bowen",
+        "authorSlug": "james-bowen",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "narrativa",
+          "desarrollo-personal"
+        ],
+        "year": 2012,
+        "pages": 310,
+        "summary": "Un gato callejero llamado Bob es una memoria de supervivencia urbana y de vínculo afectivo. James Bowen cuenta el momento en que, viviendo en alojamiento asistido y tratando de salir de una adicción, encuentra a un gato naranja herido en el pasillo del edificio. Lo que empieza como un gesto práctico —curarlo y devolverlo a la calle— se convierte en una relación persistente: Bob decide quedarse y acompañarlo en su trabajo como músico callejero y vendedor de The Big Issue en Londres. A partir de ahí, el libro sigue una transformación lenta, nada idealizada, donde la responsabilidad cotidiana hacia el animal obliga al narrador a ordenar su vida, sostener rutinas y recuperar cierta dignidad. La historia combina dureza social, humor, observación de la ciudad y una convicción central: a veces una compañía inesperada cambia por completo la escala de una vida rota.",
+        "aboutThisBook": "Publicada originalmente en inglés como A Street Cat Named Bob, esta obra mezcla autobiografía, testimonio social y relato de amistad entre humano y animal. Su valor no está solo en la anécdota emotiva, sino en la manera en que Bowen describe la precariedad, la vergüenza, la dependencia y el esfuerzo de recuperación desde dentro. El libro tuvo amplia circulación internacional y terminó convirtiéndose en el texto que hizo conocida la historia de James y Bob fuera de Londres.",
+        "forWhom": "Para lectores interesados en memorias contemporáneas, historias reales de superación, relatos sobre animales y libros que muestran la vida urbana desde sus márgenes sin perder cercanía emocional.",
+        "whyItMatters": "Importa porque evita el sentimentalismo fácil: muestra que la recuperación personal no ocurre por revelaciones abstractas, sino por pequeñas responsabilidades sostenidas. También vuelve visible la soledad, la adicción y la exclusión social en una gran ciudad occidental.",
+        "editorialIntro": "Hay libros que parten de una premisa tan sencilla que parecen menores, y sin embargo encuentran su fuerza en el detalle verdadero. Un gato herido, un músico callejero sin estabilidad, una ciudad que casi siempre pasa de largo. Bowen convierte esa escena en una memoria sobria y legible, donde Bob no funciona como adorno tierno sino como presencia concreta que obliga al narrador a reorganizarse. El resultado es un libro accesible, emotivo y sorprendentemente duro en varios pasajes.",
+        "readingLevel": "Lectura media y muy fluida. El estilo es directo, autobiográfico y fácil de seguir, aunque los temas de adicción, precariedad y salud mental pueden pesar más en lectores muy jóvenes.",
+        "whyReadToday": "Porque sigue hablando con claridad sobre aislamiento, vulnerabilidad económica y necesidad de vínculos reales en contextos urbanos donde la indiferencia se vuelve norma.",
+        "studyNotes": [
+          "Conviene leerlo como memoria testimonial: el interés principal está en la experiencia narrada y en la construcción de una voz honesta más que en una trama de ficción cerrada.",
+          "Bob no es solo un símbolo de ternura; también representa disciplina, rutina y obligación afectiva, tres elementos decisivos en el proceso de recuperación del narrador.",
+          "El libro permite trabajar cómo se representan la exclusión social y la vida callejera sin convertir a los personajes en meros casos ejemplares.",
+          "La mirada sobre Londres es importante: la ciudad aparece como escenario de riesgo, anonimato y oportunidades mínimas de recomposición."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Fellow Travellers: el encuentro con Bob",
+            "summary": "Bowen encuentra a un gato naranja herido en el pasillo de su edificio y decide atenderlo aunque apenas puede sostenerse a sí mismo. Ese acto inicial de cuidado funda el vínculo central del libro."
+          },
+          {
+            "title": "Road to Recovery: rutina, trabajo y resistencia",
+            "summary": "Con Bob a su lado, el narrador intenta ordenar sus días, seguir trabajando en la calle y sostener su recuperación. La presencia del gato modifica la forma en que se relaciona con el espacio público y con su propia responsabilidad."
+          },
+          {
+            "title": "Centre of Attention: la ciudad mira de otra manera",
+            "summary": "El dúo formado por James y Bob despierta curiosidad y simpatía entre transeúntes, lo que mejora sus ingresos y también su autoestima. La calle deja de ser solo amenaza y se vuelve un lugar de encuentro."
+          },
+          {
+            "title": "One Man and His Cat: una lealtad que reorganiza la vida",
+            "summary": "A medida que la relación se afianza, Bowen comprende que Bob no es un acompañante pasajero. Cuidarlo significa también empezar a cuidarse a sí mismo de una forma más sostenida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria personal y testimonio social",
+            "content": "El libro funciona como autobiografía, pero también como registro de un problema social más amplio. La experiencia de Bowen ilumina cuestiones de vivienda precaria, adicción, salud mental y economía informal sin convertirlas en discurso abstracto."
+          },
+          {
+            "heading": "Bob como agente narrativo y ético",
+            "content": "Bob no aparece solo como mascota salvadora. Su presencia obliga al narrador a salir de la lógica de la pura supervivencia individual y asumir cuidado, constancia y previsión. Esa dimensión ética sostiene buena parte de la transformación que cuenta el libro."
+          },
+          {
+            "heading": "La calle como escenario de humillación y visibilidad",
+            "content": "Bowen muestra la calle como un espacio ambiguo: ahí se juega la exposición más dura, pero también la posibilidad de ser visto y reconocido. La fama inicial de Bob nace precisamente en ese cruce entre fragilidad, espectáculo y empatía pública."
+          },
+          {
+            "heading": "Emoción sin exceso melodramático",
+            "content": "Uno de los aciertos del libro está en no exagerar su propia moraleja. Aunque la historia es claramente conmovedora, el relato gana fuerza cuando se detiene en episodios concretos, pequeñas derrotas y avances modestos en lugar de buscar un efecto sentimental continuo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Un gato callejero llamado Bob es novela o historia real?",
+            "answer": "Es una historia real contada en forma de memoria autobiográfica por James Bowen. Narra su relación con Bob mientras intentaba rehacer su vida en Londres."
+          },
+          {
+            "question": "¿De qué trata principalmente el libro?",
+            "answer": "Trata del encuentro entre un músico callejero en recuperación y un gato herido que termina acompañándolo todos los días. A partir de ese vínculo, el libro explora cuidado, responsabilidad y reconstrucción personal."
+          },
+          {
+            "question": "¿Es un libro solo para amantes de los gatos?",
+            "answer": "No. Quienes disfrutan de historias con animales suelen entrar fácilmente, pero el núcleo del libro está en la autobiografía social y en el proceso de recuperación del autor."
+          },
+          {
+            "question": "¿Tiene adaptación audiovisual?",
+            "answer": "Sí. La historia inspiró una película estrenada en 2016, lo que amplió todavía más la difusión internacional del libro."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library: A Street Cat Named Bob",
+            "url": "https://openlibrary.org/works/OL17443393W/A_Street_Cat_Named_Bob"
+          },
+          {
+            "label": "Internet Archive: A street cat named Bob : and how he saved my life",
+            "url": "https://archive.org/details/streetcatnamedbo0000bowe_c4l6"
+          },
+          {
+            "label": "Kirkus Reviews: A Street Cat Named Bob",
+            "url": "https://www.kirkusreviews.com/book-reviews/james-bowen/a-street-cat-named-bob/"
+          },
+          {
+            "label": "Wikipedia: James Bowen",
+            "url": "https://en.wikipedia.org/wiki/James_Bowen_(author)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "andromaca-de-euripides",
+      "title": "Andromaca",
+      "authorName": "Euripides",
+      "authorSlug": "euripides",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 12,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Andrómaca",
+        "authorName": "Eurípides",
+        "authorSlug": "euripides",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "teatro",
+          "clasicos"
+        ],
+        "year": -426,
+        "pages": null,
+        "summary": "Andrómaca sitúa su conflicto después de la guerra de Troya, cuando la viuda de Héctor ya no es reina ni símbolo épico, sino esclava en la casa de Neoptólemo. Eurípides desplaza así la mirada desde el heroísmo guerrero hacia las consecuencias íntimas de la derrota. Andrómaca teme por su vida y por la de su hijo mientras Hermione, esposa legítima de Neoptólemo, la acusa de haber arruinado su matrimonio y su fertilidad. Menelao interviene con cálculo político y violencia, y la obra despliega una cadena de amenazas, humillaciones y maniobras que dejan ver el costo humano del poder. Más adelante aparecen Peleo, Orestes y finalmente Tetis, en una estructura que combina tensión doméstica, debate moral y resolución trágica. El centro del drama no es solo quién vence, sino qué queda de la justicia cuando los débiles dependen por completo de la fuerza ajena.",
+        "aboutThisBook": "Andrómaca es una tragedia ateniense atribuida a una fase media de Eurípides y normalmente fechada alrededor de 426 a. C., aunque la cronología exacta sigue siendo discutida por los especialistas. Su singularidad está en que no vuelve sobre la caída de Troya en sí, sino sobre sus secuelas: la esclavitud, la rivalidad entre mujeres dentro de una casa gobernada por la violencia masculina y el uso político del parentesco. Es una obra central para entender cómo la tragedia griega interroga la guerra desde sus sobrevivientes y no solo desde sus héroes.",
+        "forWhom": "Para lectores de clásicos, estudiantes de literatura, filosofía o teatro, y para quien quiera acercarse a la tragedia griega desde un texto menos citado que Medea o Las troyanas, pero igual de incisivo.",
+        "whyItMatters": "Importa porque muestra que la guerra no termina cuando cesa el combate: continúa en la casa, en el cuerpo de las mujeres, en la amenaza sobre los hijos y en la manipulación política de los vencidos. Eurípides vuelve visible esa posguerra moral.",
+        "editorialIntro": "Frente a otras tragedias más conocidas de Eurípides, Andrómaca puede parecer una obra lateral. No lo es. Su potencia nace precisamente de mirar la historia heroica desde el reverso: una cautiva, una esposa humillada, un niño en peligro, un anciano que intenta poner límite a los abusos. La pieza no busca la nobleza estable del mito, sino el temblor político de un hogar dominado por el resentimiento y por la arbitrariedad del poder. Leída hoy, su ferocidad doméstica resulta extraordinariamente moderna.",
+        "readingLevel": "Lectura media-alta. El argumento puede seguirse bien con una buena traducción, pero la densidad retórica, la mitología previa y el marco de la tragedia griega enriquecen mucho una lectura acompañada o de estudio.",
+        "whyReadToday": "Porque ayuda a pensar la guerra desde sus secuelas civiles y afectivas, y porque su representación de la humillación, el miedo y la vulnerabilidad sigue siendo inquietantemente contemporánea.",
+        "studyNotes": [
+          "Conviene observar cómo Eurípides transforma una figura épica conocida en personaje trágico atravesado por la esclavitud y la indefensión.",
+          "La obra contrapone legitimidad matrimonial, maternidad y estatus social para mostrar que la casa también es un campo de batalla político.",
+          "Menelao y Hermione no son solo antagonistas personales: representan formas de poder sostenidas por linaje, fuerza y privilegio.",
+          "La intervención final de Tetis debe leerse dentro de la lógica trágica del deus ex machina, no como simple solución realista del conflicto."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Andrómaca busca refugio",
+            "summary": "La protagonista se aferra al santuario de Tetis para evitar la violencia de Hermione y Menelao. Desde el comienzo quedan claras su fragilidad social y la amenaza que pesa también sobre su hijo."
+          },
+          {
+            "title": "Parte 2: el enfrentamiento con Hermione",
+            "summary": "Hermione acusa a Andrómaca de dañar su matrimonio y de desplazarla dentro de la casa. El choque verbal entre ambas concentra celos, diferencias de estatus y prejuicios contra la extranjera vencida."
+          },
+          {
+            "title": "Parte 3: Menelao impone la fuerza",
+            "summary": "Cuando Menelao entra en escena, el conflicto deja de ser solo doméstico y adquiere peso político. La coacción sobre Andrómaca y su hijo muestra hasta qué punto la ley queda sometida al poder del más fuerte."
+          },
+          {
+            "title": "Parte 4: giro final y destino trágico",
+            "summary": "La aparición de Peleo ofrece una defensa momentánea, pero luego irrumpen Orestes y la noticia de la muerte de Neoptólemo. El cierre, marcado por la intervención divina, redistribuye destinos sin borrar el sufrimiento acumulado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La posguerra como núcleo dramático",
+            "content": "Eurípides desplaza la atención desde la gesta heroica hacia sus consecuencias. Andrómaca no relata la gloria de Troya, sino la vida posterior de los vencidos: esclavitud, miedo y dependencia absoluta frente a quienes ganaron la guerra."
+          },
+          {
+            "heading": "Mujeres, estatus y violencia doméstica",
+            "content": "El conflicto entre Andrómaca y Hermione no puede reducirse a rivalidad sentimental. La obra muestra cómo la condición de esposa legítima, esclava, madre o extranjera define qué cuerpos pueden ser humillados y cuáles tienen protección política."
+          },
+          {
+            "heading": "Menelao y la crítica al poder arbitrario",
+            "content": "La figura de Menelao concentra una crítica muy dura al uso abusivo de la autoridad. Su intervención desproporcionada convierte un litigio doméstico en una demostración de fuerza que deja al descubierto la fragilidad de cualquier apelación a la justicia."
+          },
+          {
+            "heading": "El lugar incómodo del deus ex machina",
+            "content": "La aparición final de Tetis no anula la tensión previa, sino que la reordena desde un plano superior. Como en otras tragedias de Eurípides, el recurso revela tanto la necesidad de cierre como la imposibilidad de una reparación plenamente humana."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Andrómaca de Eurípides?",
+            "answer": "Trata de la situación de Andrómaca después de la guerra de Troya, cuando vive como esclava y debe defenderse de la hostilidad de Hermione y Menelao, además de proteger a su hijo."
+          },
+          {
+            "question": "¿Es una obra sobre la guerra de Troya o sobre sus consecuencias?",
+            "answer": "Sobre sus consecuencias. La guerra ya terminó, y la tragedia se concentra en la vida de los sobrevivientes, la esclavitud y las continuidades de la violencia."
+          },
+          {
+            "question": "¿Por qué se considera importante dentro de Eurípides?",
+            "answer": "Porque examina la posguerra, la vulnerabilidad femenina y el abuso del poder con una dureza muy característica del autor, alejándose de una visión heroica y noble del mito."
+          },
+          {
+            "question": "¿Hace falta conocer toda la mitología griega para leerla?",
+            "answer": "No es indispensable, aunque ayuda. Con una introducción básica sobre Troya, Neoptólemo, Hermione y Menelao ya puede seguirse bien el conflicto principal."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Britannica: Andromache",
+            "url": "https://www.britannica.com/topic/Andromache-play-by-Euripides"
+          },
+          {
+            "label": "Perseus Digital Library: Andromache",
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0090"
+          },
+          {
+            "label": "MIT Classics Archive: Andromache",
+            "url": "https://classics.mit.edu/Euripides/andromache.html"
+          },
+          {
+            "label": "Wikipedia: Andromache (play)",
+            "url": "https://en.wikipedia.org/wiki/Andromache_(play)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cro-dice-de-maria-ines-falconi",
+      "title": "Cro Dice",
+      "authorName": "Maria Ines Falconi",
+      "authorSlug": "maria-ines-falconi",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 12,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "C@ro dice",
+        "authorName": "María Inés Falconi",
+        "authorSlug": "maria-ines-falconi",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa",
+          "romance"
+        ],
+        "year": 2009,
+        "pages": 264,
+        "summary": "C@ro dice es una novela juvenil construida alrededor del chat, los nicks y las inseguridades propias de la adolescencia. Caro, que en línea se presenta como Luciérnaga, prefiere leer antes que entrar en los rituales sociales que su amiga Melisa considera normales. Tomás, conocido en la web como Gusano Empantanado, combina el básquet, el dibujo y la exploración de Internet como espacio para conocer gente. Cuando ambos empiezan a hablar en un chat, descubren afinidades que les permiten soltarse de un modo que en la vida cotidiana no siempre consiguen. La novela sigue ese acercamiento virtual y lo pone en tensión con las diferencias, los malentendidos y las presiones del entorno adolescente. Falconi convierte así una historia amorosa en una reflexión accesible sobre identidad, exposición, timidez, amistad y formas de comunicarse en una etapa donde cada gesto puede sentirse definitivo.",
+        "aboutThisBook": "Publicada en el ámbito de Alfaguara y luego difundida en circuitos de lectura escolar y librera, C@ro dice pertenece a una zona muy reconocible de la obra de María Inés Falconi: relatos pensados para lectores jóvenes, con lenguaje cercano y conflictos emocionales concretos. Su interés está en haber tomado tempranamente el chat como dispositivo narrativo y como problema de identidad. La novela no usa Internet solo como decorado generacional, sino como un espacio donde los adolescentes prueban versiones de sí mismos, se animan a decir lo que callan fuera de pantalla y también quedan expuestos a equívocos y desigualdades.",
+        "forWhom": "Para lectores juveniles desde la preadolescencia, docentes y mediadores que buscan una novela accesible sobre vínculos, timidez, comunicación digital y descubrimiento afectivo.",
+        "whyItMatters": "Importa porque registra un momento muy reconocible de la cultura juvenil en línea y lo convierte en experiencia literaria. La novela muestra que detrás de la pantalla no desaparecen la vergüenza, el deseo de pertenecer ni el miedo a ser juzgado.",
+        "editorialIntro": "Antes de que las redes sociales dominaran la conversación cotidiana, el chat ya era un laboratorio emocional para muchísimos adolescentes. Falconi entiende muy bien ese mundo y lo lleva a la novela sin tecnicismos ni nostalgia forzada. Lo que encuentra allí no es solo una moda de época, sino una pregunta todavía vigente: cómo se construye una relación cuando una parte importante de la identidad pasa por lo que se escribe, se oculta o se exagera en pantalla. C@ro dice sigue siendo legible justamente porque no reduce la tecnología al truco, sino que la integra al problema central de crecer.",
+        "readingLevel": "Lectura media-baja para público juvenil. El lenguaje es claro, la situación de partida resulta cercana y la dimensión afectiva ayuda a sostener la lectura incluso en lectores no muy habituados.",
+        "whyReadToday": "Porque permite pensar los vínculos digitales antes de la era de las plataformas actuales y, al mismo tiempo, muestra que muchas tensiones adolescentes siguen siendo exactamente las mismas.",
+        "studyNotes": [
+          "La novela puede trabajarse como relato de iniciación afectiva en el que la identidad online funciona como mediación entre lo que los personajes sienten y lo que se atreven a decir.",
+          "Conviene observar la función de los apodos Luciérnaga y Gusano Empantanado: no son meros detalles del chat, sino máscaras parciales que habilitan confianza y también distancia.",
+          "El libro dialoga bien con debates escolares sobre comunicación digital, amistad, imagen de sí y diferencias entre presencia física y presencia en línea.",
+          "Falconi usa un registro cercano sin renunciar a conflictos reales: timidez, presión del grupo y dificultad para encontrar un lugar propio en la adolescencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Caro y Tomás antes del encuentro",
+            "summary": "La novela presenta a Caro y a Tomás en sus mundos cotidianos, con gustos, amistades e inseguridades distintas. Ambos sienten que no encajan del todo en las expectativas sociales de su entorno."
+          },
+          {
+            "title": "Parte 2: el chat como espacio de confianza",
+            "summary": "Bajo los nombres de Luciérnaga y Gusano Empantanado, los protagonistas comienzan a hablar en línea y descubren intereses comunes. La conversación digital les permite mostrar facetas que fuera de la pantalla permanecen más protegidas."
+          },
+          {
+            "title": "Parte 3: diferencias, dudas y exposición",
+            "summary": "A medida que el vínculo crece, también aparecen obstáculos, malentendidos y temores ligados a la imagen personal y a la posibilidad de trasladar lo virtual al mundo cotidiano. La novela examina así la fragilidad del entusiasmo adolescente."
+          },
+          {
+            "title": "Tramo final: aprender a vincularse de verdad",
+            "summary": "El cierre transforma el juego de identidades del chat en una experiencia emocional más nítida. Lo importante ya no es solo el intercambio virtual, sino cómo cada personaje enfrenta sus propias inseguridades al relacionarse con el otro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Adolescencia e identidad digital",
+            "content": "Uno de los mayores aciertos de la novela es mostrar Internet como extensión de la vida emocional adolescente. En el chat, Caro y Tomás no dejan de ser quienes son, pero sí administran mejor qué partes de sí exponen y cuáles reservan."
+          },
+          {
+            "heading": "Romance juvenil sin idealización excesiva",
+            "content": "Aunque la trama amorosa organiza la lectura, Falconi evita convertirla en fantasía perfecta. El interés está en los titubeos, las diferencias y la fragilidad del vínculo cuando todavía no existe una identidad segura ni del todo asumida."
+          },
+          {
+            "heading": "Lenguaje cercano y mediación lectora",
+            "content": "La autora trabaja con un registro accesible, muy útil para lectores jóvenes y para circulación escolar. Esa claridad no simplifica en exceso los conflictos; al contrario, vuelve más reconocibles los problemas de pertenencia, timidez y comunicación."
+          },
+          {
+            "heading": "Tecnología de época y vigencia actual",
+            "content": "El chat ubica históricamente la novela, pero su núcleo sigue vigente. Las preguntas por autenticidad, imagen personal, deseo de aceptación y miedo al rechazo atraviesan también los entornos digitales contemporáneos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata C@ro dice?",
+            "answer": "Trata del vínculo que nace entre Caro y Tomás a través de un chat, donde se conocen mediante apodos y van descubriendo afinidades, inseguridades y diferencias propias de la adolescencia."
+          },
+          {
+            "question": "¿Es una novela romántica juvenil?",
+            "answer": "Sí, pero no solo eso. Además del componente amoroso, trabaja identidad digital, timidez, presión del grupo y formas de comunicación entre adolescentes."
+          },
+          {
+            "question": "¿Por qué sigue siendo interesante si habla de chats de otra época?",
+            "answer": "Porque el soporte tecnológico cambió, pero las preguntas centrales siguen vigentes: cómo mostrarse, cómo confiar, qué parte de uno circula en línea y cómo se pasa de lo virtual a lo real."
+          },
+          {
+            "question": "¿Es adecuado para lectura escolar?",
+            "answer": "Sí. Por tema, extensión y lenguaje, funciona bien en contextos escolares y en mediación docente, especialmente para conversar sobre vínculos, comunicación digital y adolescencia."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Loqueleo: PDF de C@ro dice",
+            "url": "https://www.loqueleo.com/ar/uploads/2016/04/caro-dice.pdf"
+          },
+          {
+            "label": "La Caverna Librería: C@ro dice",
+            "url": "https://www.lacavernalibreria.com/cro-dice-de-maria-ines-falconi-editorial-loqueleo-en-espanol"
+          },
+          {
+            "label": "Casa del Libro: C@ro dice",
+            "url": "https://www.casadellibro.com/libro-coro-dice/9789870407553/12768238"
+          },
+          {
+            "label": "SBS Librerías: Caro dice",
+            "url": "https://www.sbs.com.ar/caro-dice---loqueleo-azul-9504643708/p"
+          },
+          {
+            "label": "Wikipedia: María Inés Falconi",
+            "url": "https://es.wikipedia.org/wiki/Mar%C3%ADa_In%C3%A9s_Falconi"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hermosa-soledad-de-jimmy-liao",
+      "title": "Hermosa Soledad",
+      "authorName": "Jimmy Liao",
+      "authorSlug": "jimmy-liao",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 12,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Hermosa soledad",
+        "authorName": "Jimmy Liao",
+        "authorSlug": "jimmy-liao",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "poesia"
+        ],
+        "year": 2008,
+        "pages": 176,
+        "summary": "Hermosa soledad es un libro ilustrado de tono íntimo y poético que reúne imágenes y textos nacidos durante uno de los periodos más duros de la vida de Jimmy Liao. A partir de una experiencia de enfermedad, encierro y silencio, el autor construye un espacio visual donde la fragilidad no se presenta como simple derrota, sino como un territorio desde el cual mirar el mundo con otra sensibilidad. No sigue una trama novelesca cerrada: avanza por escenas, visiones y estados de ánimo en los que aparecen criaturas marinas, habitaciones vacías, cuerpos aislados y recuerdos que parecen suspendidos. El resultado es una obra sobre la soledad, la vulnerabilidad y la imaginación como forma de resistencia, escrita con delicadeza pero atravesada por una emoción muy concreta: la necesidad de sobrevivir sin renunciar a la belleza.",
+        "aboutThisBook": "Barbara Fiore Editora presenta el libro como una recopilación de obras del periodo en que Jimmy Liao afrontó la leucemia y vivió en reclusión. Ese origen autobiográfico convive con una elaboración artística que transforma el dolor en metáfora visual. Más que una confesión lineal, el libro funciona como cuaderno emocional: cada ilustración sugiere una escena interior, y cada frase breve abre un eco reflexivo. Por eso suele leerse tanto como álbum para adultos como pieza de iniciación a la obra más personal del autor.",
+        "forWhom": "Recomendable para lectores adultos, mediadores de lectura y admiradores del libro ilustrado que busquen una obra breve en apariencia, pero densa en resonancias emocionales y simbólicas.",
+        "whyItMatters": "Importa porque muestra cómo la literatura visual puede abordar la enfermedad, el aislamiento y la memoria sin caer en el sentimentalismo. También ayuda a entender el lugar singular de Jimmy Liao dentro del álbum contemporáneo para adultos.",
+        "editorialIntro": "No todos los libros sobre la soledad son sombríos. En Jimmy Liao, la tristeza se convierte en una forma de percepción: una manera de ver más despacio, de escuchar el silencio y de descubrir que incluso en el encierro puede nacer una imaginación fértil. Hermosa soledad pertenece a esa clase de obras que se leen y se contemplan a la vez.",
+        "readingLevel": "Accesible en extensión y lenguaje, pero de lectura interpretativa media-alta por su simbolismo, su estructura no lineal y el peso expresivo de las imágenes.",
+        "whyReadToday": "Sigue siendo pertinente en una época marcada por la fatiga emocional y el aislamiento. Ofrece una reflexión serena sobre la fragilidad y sobre el valor del arte cuando la experiencia cotidiana se vuelve difícil de nombrar.",
+        "studyNotes": [
+          "Leer texto e imagen como una unidad: muchas ideas no se explican, se sugieren visualmente.",
+          "Conviene relacionar la obra con la experiencia biográfica del autor, pero sin reducirla a testimonio literal.",
+          "La soledad aparece con doble valor: herida afectiva y espacio de introspección creadora.",
+          "El motivo de los animales y del mundo marino funciona como desplazamiento poético de emociones humanas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Umbral del aislamiento",
+            "summary": "El libro abre un clima de encierro y extrañamiento. El yo que observa parece separado del mundo cotidiano, y la imagen introduce una sensibilidad herida que todavía busca lenguaje para decirse."
+          },
+          {
+            "title": "Visiones de un mundo interior",
+            "summary": "Las ilustraciones despliegan criaturas, espacios vacíos y escenas imposibles que convierten la experiencia del dolor en una geografía simbólica. La imaginación no niega el sufrimiento: lo traduce."
+          },
+          {
+            "title": "Memoria, fragilidad y permanencia",
+            "summary": "Hacia el cierre, la obra sugiere una elaboración del pasado. La tristeza permanece, pero deja de ser puro encierro y se vuelve memoria artística, algo que puede compartirse con otros lectores."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Soledad como experiencia y como forma estética",
+            "content": "La obra no trata la soledad solo como tema, sino como principio compositivo. Los espacios amplios, los silencios y la brevedad verbal producen en el lector la misma suspensión que viven las figuras del libro."
+          },
+          {
+            "heading": "Autobiografía transformada en símbolo",
+            "content": "Aunque el punto de partida es la enfermedad del autor, el libro evita la crónica directa. Su fuerza reside en convertir un episodio biográfico en imágenes abiertas, capaces de representar pérdidas y encierros más universales."
+          },
+          {
+            "heading": "El álbum ilustrado para adultos",
+            "content": "Hermosa soledad confirma que el álbum no es un género exclusivamente infantil. Jimmy Liao utiliza la relación entre imagen y texto para construir una lectura lenta, contemplativa y emocionalmente compleja."
+          },
+          {
+            "heading": "Belleza frente a vulnerabilidad",
+            "content": "Uno de los logros del libro es no oponer belleza y dolor. Las imágenes delicadas no suavizan la experiencia difícil; la vuelven visible sin estridencia, permitiendo una lectura más reflexiva que melodramática."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hermosa soledad cuenta una historia lineal?",
+            "answer": "No de forma tradicional. Funciona más como una secuencia de escenas poéticas e imágenes vinculadas por una misma atmósfera emocional."
+          },
+          {
+            "question": "¿Es un libro infantil?",
+            "answer": "Aunque usa formato ilustrado, suele leerse mejor como álbum para adultos o jóvenes maduros por sus temas de enfermedad, introspección y pérdida."
+          },
+          {
+            "question": "¿Qué relación tiene con la vida de Jimmy Liao?",
+            "answer": "La editorial indica que recoge obras creadas durante el periodo en que el autor afrontó una leucemia, por lo que tiene un trasfondo autobiográfico importante."
+          },
+          {
+            "question": "¿Qué destaca más: el texto o las ilustraciones?",
+            "answer": "Las dos dimensiones son inseparables, pero la carga emocional principal suele descansar en las imágenes y en su potencia simbólica."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Barbara Fiore Editora: Hermosa soledad",
+            "url": "https://www.barbarafioreeditora.com/catalogo/hermosa_soledad"
+          },
+          {
+            "label": "Casa del Libro: Hermosa soledad",
+            "url": "https://www.casadellibro.com/libro-hermosa-soledad/9788493618520/1225743"
+          },
+          {
+            "label": "Librerías Gandhi: Hermosa soledad",
+            "url": "https://www.gandhi.com.mx/hermosa-soledad/p"
+          },
+          {
+            "label": "Goodreads: Hermosa soledad",
+            "url": "https://www.goodreads.com/en/book/show/7774893-hermosa-soledad"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-ciudad-de-las-bestias-de-isabel-allende",
+      "title": "La Ciudad De Las Bestias",
+      "authorName": "Isabel Allende",
+      "authorSlug": "isabel-allende",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 12,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La ciudad de las bestias",
+        "authorName": "Isabel Allende",
+        "authorSlug": "isabel-allende",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "aventura",
+          "fantasia",
+          "juvenil"
+        ],
+        "year": 2002,
+        "pages": 304,
+        "summary": "La ciudad de las bestias narra el viaje iniciático de Alexander Cold, un adolescente que debe abandonar su vida habitual cuando la enfermedad de su madre desordena por completo el entorno familiar. Enviado con su abuela Kate, una periodista tan exigente como intrépida, Alex participa en una expedición al Amazonas organizada para buscar a una criatura mítica conocida como la Bestia. Lo que empieza como aventura periodística se transforma en una experiencia de crecimiento: la selva pone a prueba sus certezas, lo enfrenta a la violencia de la codicia occidental y lo acerca a una visión del mundo donde lo racional convive con lo mágico. La novela combina exploración, peligro, ecología, espiritualidad indígena y aprendizaje moral, y convierte el trayecto físico hacia un territorio remoto en un proceso interior de descubrimiento personal.",
+        "aboutThisBook": "Es la primera entrega de la trilogía juvenil de Isabel Allende, seguida por El reino del Dragón de Oro y El bosque de los pigmeos. La propia autora la presenta como una novela de aventura y realismo mágico centrada en el viaje de un muchacho de quince años al Amazonas. El libro une ritmo narrativo accesible con cuestiones de fondo: la destrucción ambiental, el choque cultural, el poder, la iniciación afectiva y la construcción del coraje. Por eso ha mantenido una vida escolar y extracurricular muy sólida.",
+        "forWhom": "Ideal para lectores juveniles, clubes de lectura escolares y adultos que busquen una novela de aventuras con dimensión ética, ecológica y simbólica, sin perder fluidez narrativa.",
+        "whyItMatters": "Sigue siendo una puerta de entrada muy eficaz a Isabel Allende para lectores jóvenes. Además, articula temas de identidad, colonialismo y naturaleza desde una ficción de aventuras que no sacrifica reflexión por entretenimiento.",
+        "editorialIntro": "Pocas novelas juveniles en español logran mezclar expedición, aprendizaje y extrañeza con la naturalidad de La ciudad de las bestias. Isabel Allende toma la estructura clásica del viaje a lo desconocido y la atraviesa con preguntas contemporáneas: quién tiene derecho a nombrar una tierra, cómo se mira a los pueblos indígenas y qué significa crecer cuando el miedo deja de ser abstracto.",
+        "readingLevel": "Lectura media: prosa clara y ágil, adecuada para secundaria y bachillerato inicial, con capas simbólicas y culturales que enriquecen una segunda lectura más analítica.",
+        "whyReadToday": "Porque anticipa discusiones muy actuales sobre extractivismo, biodiversidad y respeto intercultural, y lo hace a través de una aventura capaz de atraer a lectores jóvenes sin tono didáctico pesado.",
+        "studyNotes": [
+          "Alex Cold vive un viaje de formación: la expedición exterior coincide con una transformación interior.",
+          "La novela contrapone mirada científica, codicia colonial y saberes espirituales indígenas sin simplificar del todo el conflicto.",
+          "La selva no es solo escenario; funciona como fuerza narrativa que descentra a los personajes urbanos.",
+          "Conviene leer la Bestia tanto como criatura posible dentro del relato como símbolo de lo desconocido y de los límites del control humano."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Ruptura del mundo cotidiano",
+            "summary": "La enfermedad de la madre de Alex lo obliga a salir de su entorno y a convivir con su abuela Kate Cold. El muchacho entra en una dinámica nueva, marcada por la incomodidad, la disciplina y la aventura inminente."
+          },
+          {
+            "title": "Parte 2: Expedición al Amazonas",
+            "summary": "El viaje con el equipo de exploradores introduce peligros físicos, tensiones culturales e intereses contradictorios. La selva aparece como un espacio vivo que desafía las categorías con que los visitantes pretenden comprenderla."
+          },
+          {
+            "title": "Parte 3: Encuentro con lo sagrado y decisión moral",
+            "summary": "Alex y Nadia se acercan al núcleo espiritual del territorio y entienden que la expedición no trata solo de capturar una criatura legendaria. Deben decidir de qué lado colocarse frente a la ambición destructiva de algunos adultos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela de aprendizaje",
+            "content": "El arco principal es formativo: Alex comienza como un adolescente inseguro y dependiente de las referencias familiares, y termina con una conciencia más compleja del peligro, la responsabilidad y la alteridad."
+          },
+          {
+            "heading": "Naturaleza, mito y poder",
+            "content": "Allende integra elementos de aventura clásica con una crítica a la explotación del territorio. La selva es un espacio físico, pero también mítico; allí la ambición tecnocrática encuentra límites que no sabe interpretar."
+          },
+          {
+            "heading": "Representación de lo indígena",
+            "content": "La novela apuesta por valorar saberes indígenas y cuestionar la mirada instrumental de los forasteros. En un análisis crítico conviene reconocer ese gesto de respeto y, al mismo tiempo, examinar cómo la ficción construye lo exótico."
+          },
+          {
+            "heading": "Realismo mágico en clave juvenil",
+            "content": "Lo fantástico no rompe la lógica emocional del relato, sino que amplía su horizonte. La experiencia de Alex demuestra que madurar también implica admitir zonas de realidad que no caben en una explicación puramente racional."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela independiente o parte de una serie?",
+            "answer": "Es la primera novela de una trilogía juvenil, seguida por El reino del Dragón de Oro y El bosque de los pigmeos."
+          },
+          {
+            "question": "¿Qué edad tiene el protagonista?",
+            "answer": "La autora lo presenta como un muchacho de quince años que viaja al Amazonas junto a su abuela periodista."
+          },
+          {
+            "question": "¿Predomina la aventura o la reflexión?",
+            "answer": "La aventura lleva el ritmo del libro, pero está acompañada por reflexiones sobre identidad, ecología, codicia y encuentro entre culturas."
+          },
+          {
+            "question": "¿Por qué se lee tanto en contextos escolares?",
+            "answer": "Porque combina accesibilidad narrativa con temas que favorecen discusión: crecimiento personal, medioambiente, mito, colonialismo y ética."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Isabel Allende: resumen oficial de City of the Beasts",
+            "url": "https://www.isabelallende.com/en/book/city/summary"
+          },
+          {
+            "label": "Wikipedia: La ciudad de las bestias",
+            "url": "https://es.wikipedia.org/wiki/La_ciudad_de_las_bestias"
+          },
+          {
+            "label": "Casa del Libro: edición de La ciudad de las bestias",
+            "url": "https://www.casadellibro.com/libro-la-ciudad-de-las-bestias/9788401341663/844386"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-hija-unica-de-guadalupe-nettel",
+      "title": "La Hija Unica",
+      "authorName": "Guadalupe Nettel",
+      "authorSlug": "guadalupe-nettel",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 12,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La hija única",
+        "authorName": "Guadalupe Nettel",
+        "authorSlug": "guadalupe-nettel",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2020,
+        "pages": 240,
+        "summary": "La hija única explora la maternidad desde un lugar poco complaciente y profundamente contemporáneo. La novela sigue sobre todo a dos amigas, Laura y Alina, mujeres urbanas que han llegado a la adultez con ideas distintas sobre tener hijos. Alina decide avanzar hacia la maternidad y, cuando su embarazo se complica por un diagnóstico devastador, debe atravesar una experiencia de duelo anticipado, apego y resistencia. Laura, que había rechazado de manera consciente la maternidad, se ve afectada por el vínculo inesperado que establece con el hijo pequeño de una vecina. Guadalupe Nettel no organiza el relato como tesis ni como melodrama, sino como una observación minuciosa de vínculos, miedos y deseos contradictorios. La novela indaga en la fragilidad de los cuerpos, en las formas alternativas de cuidado y en la familia como construcción emocional antes que como modelo fijo.",
+        "aboutThisBook": "Editorial Anagrama la presenta como una intensa novela sobre la familia actual y las distintas maneras de afrontar la maternidad. La agencia literaria de la autora subraya además su examen de una de las decisiones más decisivas de la vida adulta: tener o no tener hijos. Ese doble marco ayuda a leerla mejor. No es solo una novela sobre embarazo o crianza, sino una exploración de la ambivalencia, del mandato social y de los afectos que aparecen incluso cuando una persona cree haber definido con claridad su posición frente a la maternidad.",
+        "forWhom": "Muy recomendable para lectores de narrativa contemporánea, discusión universitaria o clubes de lectura interesados en familia, duelo, amistad femenina, autonomía corporal y nuevas formas de cuidado.",
+        "whyItMatters": "Importa porque evita los clichés del discurso maternal y ofrece una mirada compleja, ética y literariamente sobria sobre la vulnerabilidad. También muestra por qué Guadalupe Nettel ocupa un lugar central en la narrativa hispanoamericana reciente.",
+        "editorialIntro": "En La hija única, Guadalupe Nettel toma un tema cargado de opiniones previas y lo devuelve a la literatura: la maternidad deja de ser consigna, destino o ideal abstracto para convertirse en experiencia concreta, contradictoria y corporal. La novela mira de frente el miedo, el deseo, la pérdida y la ternura sin buscar soluciones limpias ni moralejas tranquilizadoras.",
+        "readingLevel": "Lectura media-alta por la densidad emocional y moral del tema, aunque la prosa es clara, precisa y muy fluida. Funciona bien tanto para lectura general como para análisis literario.",
+        "whyReadToday": "Porque dialoga con debates vivos sobre maternidad, cuidados, autonomía y modelos familiares, pero lo hace desde personajes complejos y no desde consignas. Su actualidad nace de su fineza narrativa, no del oportunismo temático.",
+        "studyNotes": [
+          "La novela contrapone maternidad biológica, rechazo voluntario de la maternidad y maternidad relacional o de cuidado.",
+          "El punto fuerte del libro está en la ambivalencia: casi ningún personaje encaja del todo en una postura simple o ideológica.",
+          "La amistad entre mujeres estructura la reflexión moral de la obra tanto como los vínculos familiares.",
+          "Conviene analizar cómo Nettel usa un estilo sobrio para tratar experiencias límite sin sentimentalismo excesivo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Decisiones y convicciones",
+            "summary": "Laura y Alina aparecen con posturas distintas ante la maternidad. El relato establece el contraste entre elecciones conscientes, expectativas sociales y deseos que todavía no han sido puestos a prueba por la experiencia."
+          },
+          {
+            "title": "Parte 2: Embarazo, diagnóstico y duelo anticipado",
+            "summary": "La gestación de Alina se ve atravesada por un anuncio médico devastador. La novela se concentra entonces en la incertidumbre, en el dolor de esperar y en la dificultad de tomar decisiones bajo presión afectiva."
+          },
+          {
+            "title": "Parte 3: Formas inesperadas del cuidado",
+            "summary": "Mientras Alina enfrenta una maternidad marcada por la fragilidad, Laura descubre que el cuidado puede surgir fuera de los modelos previstos. El cierre amplía la idea de familia y deja una reflexión abierta, no doctrinal."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Maternidad sin idealización",
+            "content": "Nettel se aparta de la representación edulcorada de la madre y pone en primer plano el miedo, la duda, la culpa y la ambivalencia. Esa renuncia a la idealización es una de las claves de la potencia crítica de la novela."
+          },
+          {
+            "heading": "Cuerpo, diagnóstico y vulnerabilidad",
+            "content": "La trama muestra cómo la medicina entra en la vida íntima con un lenguaje que puede ordenar, pero también desestabilizar. El cuerpo gestante aparece como territorio de esperanza y amenaza al mismo tiempo."
+          },
+          {
+            "heading": "Amistad femenina como estructura narrativa",
+            "content": "La relación entre Laura y Alina no es un simple telón de fondo. Gracias a ese vínculo, la novela despliega perspectivas distintas sobre maternidad, libertad y responsabilidad, evitando una mirada única o moralizante."
+          },
+          {
+            "heading": "Familia en el mundo actual",
+            "content": "El libro propone que la familia no depende exclusivamente del parentesco biológico. Los lazos de cuidado, la proximidad emocional y la respuesta ante la fragilidad redefinen quién sostiene realmente una vida."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La hija única es una novela sobre maternidad solamente?",
+            "answer": "No. La maternidad es el eje, pero la novela trata también de amistad, duelo, autonomía, enfermedad, vecindad y formas alternativas de familia."
+          },
+          {
+            "question": "¿Presenta una postura cerrada sobre tener hijos?",
+            "answer": "No. Su fuerza está en mostrar contradicciones y experiencias diversas sin convertirlas en doctrina única."
+          },
+          {
+            "question": "¿Es una lectura emocionalmente dura?",
+            "answer": "Sí, aborda embarazo de alto riesgo, pérdida y vulnerabilidad, aunque lo hace con una prosa contenida y muy medida."
+          },
+          {
+            "question": "¿Por qué tuvo tanta atención crítica?",
+            "answer": "Porque combina claridad narrativa con una exploración poco convencional de la maternidad y porque sitúa a Guadalupe Nettel en un debate literario y social muy actual."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Editorial Anagrama: ficha de La hija única",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/la-hija-unica/9788433999061/NH_652"
+          },
+          {
+            "label": "Indent Literary Agency: La hija única / Still Born",
+            "url": "https://www.indentagency.com/la-hija-unica"
+          },
+          {
+            "label": "Casa del Libro: edición de La hija única",
+            "url": "https://www.casadellibro.com/libro-la-hija-unica/9788433999061/11751239"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-chicas-de-alambre-de-jordi-sierra-i-fabra",
+      "title": "Las Chicas De Alambre",
+      "authorName": "Jordi Sierra I Fabra",
+      "authorSlug": "jordi-sierra-i-fabra",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 12,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las chicas de alambre",
+        "authorName": "Jordi Sierra i Fabra",
+        "authorSlug": "jordi-sierra-i-fabra",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa",
+          "thriller"
+        ],
+        "year": 1999,
+        "pages": 256,
+        "summary": "Las chicas de alambre combina novela juvenil, investigación periodística y crítica del mundo de la moda. Jon Boix, un joven reportero, recibe el encargo de reconstruir la historia de las Wire Girls, tres modelos célebres cuya fama estuvo ligada a la delgadez extrema, la presión mediática, las drogas y la autodestrucción. Dos de ellas han muerto; la tercera, Vanessa, desapareció hace diez años sin dejar rastro. A medida que Jon entrevista a fotógrafos, familiares, antiguos representantes y personas cercanas a las modelos, el libro avanza como una pesquisa llena de versiones parciales, silencios interesados y revelaciones progresivas. El resultado no es solo un misterio sobre una desaparición, sino también un retrato inquietante de una industria que convierte cuerpos y vidas en espectáculo consumible.",
+        "aboutThisBook": "Publicada originalmente en 1999, la novela es uno de los títulos juveniles más conocidos de Jordi Sierra i Fabra. Su fuerza viene de mezclar un ritmo de thriller accesible con asuntos muy concretos: anorexia, explotación de la imagen, fragilidad emocional, manipulación mediática y soledad. Aunque parte de una intriga clara, el libro nunca se limita al enigma detectivesco. Usa la investigación de Jon para mostrar cuánto hay de fabricación, violencia simbólica y dolor real detrás del brillo publicitario del éxito. Por eso ha seguido leyéndose en contextos escolares y en lecturas guiadas de secundaria.",
+        "forWhom": "Para lectores juveniles y adultos que buscan una novela de lectura ágil, con misterio, crítica social y temas cercanos a la adolescencia tardía: identidad, fama, presión estética y búsqueda de la verdad.",
+        "whyItMatters": "Sigue importando porque abordó de forma directa, dentro de la narrativa juvenil en español, el coste humano del culto a la imagen. También muestra cómo el periodismo y la investigación pueden servir para desmontar relatos públicos engañosos y devolver complejidad a vidas reducidas a escándalo.",
+        "editorialIntro": "Jordi Sierra i Fabra convirtió aquí un asunto muy visible de finales del siglo XX en una novela eficaz y todavía legible: la fascinación por las supermodelos y el reverso oscuro de esa fascinación. La desaparición de Vanessa es el motor de la trama, pero el libro interesa sobre todo por el camino de la búsqueda. Cada testimonio añade una pieza y, al mismo tiempo, revela la superficialidad de un sistema que premia la belleza extrema mientras destruye a quienes la encarnan. Esa mezcla de suspense y denuncia explica buena parte de su permanencia.",
+        "readingLevel": "Lectura media. La prosa es clara y muy narrativa, pero conviene seguir con atención la cadena de entrevistas, pistas y cambios de escenario para apreciar cómo se construye la verdad del caso.",
+        "whyReadToday": "Porque la novela dialoga con debates actuales sobre trastornos alimentarios, exposición pública, cultura de la imagen y fabricación mediática de referentes juveniles.",
+        "studyNotes": [
+          "La investigación de Jon Boix funciona como estructura narrativa: cada entrevista modifica la imagen previa de las modelos y del supuesto misterio central.",
+          "El libro no idealiza la fama. Presenta el éxito como un mecanismo que puede vaciar la identidad y agravar la vulnerabilidad psicológica.",
+          "Las tres modelos importan también como símbolo de un tiempo obsesionado con la delgadez, el consumo de imágenes y la espectacularización del sufrimiento.",
+          "Conviene atender al contraste entre la mirada periodística de Jon y la lógica frívola del ambiente que investiga."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El encargo del reportaje",
+            "summary": "Jon Boix recibe la tarea de reconstruir la historia de las Wire Girls en el décimo aniversario de su desaparición del primer plano mediático. Desde el inicio, la novela plantea que el pasado de las modelos está rodeado de mito, morbo y versiones incompletas."
+          },
+          {
+            "title": "Rastrear la vida después del glamour",
+            "summary": "La investigación lleva a Jon a hablar con personas vinculadas al mundo de la moda y a las protagonistas. El lector descubre un entorno dominado por la presión física, los intereses comerciales y una profunda deshumanización de las modelos."
+          },
+          {
+            "title": "La pista de Vanessa",
+            "summary": "El foco se estrecha sobre Vanessa, la única integrante del grupo que no murió pero sí desapareció. Las pistas falsas, las medias verdades y los silencios interesados convierten su búsqueda en el centro emocional y narrativo del libro."
+          },
+          {
+            "title": "Verdad, ocultamiento y cierre",
+            "summary": "En el tramo final, la pesquisa de Jon revela que la historia pública de las Wire Girls estaba construida sobre simplificaciones y engaños. El desenlace reordena el misterio y subraya el precio personal que puede esconder una figura convertida en icono."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Moda, cuerpo y violencia simbólica",
+            "content": "La novela muestra que la violencia del mundo de la moda no siempre adopta forma física directa. Aparece en exigencias de delgadez extrema, en la cosificación constante y en la reducción de la persona a una imagen rentable."
+          },
+          {
+            "heading": "La investigación como forma de conocimiento",
+            "content": "Jon no resuelve el caso mediante intuiciones brillantes, sino a través de testimonios, documentos y desplazamientos. Ese método da al libro una dimensión periodística que lo diferencia de un simple relato de misterio juvenil."
+          },
+          {
+            "heading": "Fama y desaparición",
+            "content": "El libro sugiere que la desaparición de Vanessa no puede entenderse solo como intriga argumental. También es una respuesta a un sistema que había vaciado su intimidad y convertido su dolor en mercancía pública."
+          },
+          {
+            "heading": "Crítica social en clave accesible",
+            "content": "Sierra i Fabra trabaja temas duros sin perder claridad narrativa. Esa accesibilidad explica por qué la novela ha circulado tanto en aulas: permite debatir problemas reales sin abandonar el interés por la trama."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las chicas de alambre es una novela juvenil o un thriller?",
+            "answer": "Es ambas cosas. Está escrita para un público juvenil, pero utiliza una estructura de investigación y suspense muy cercana al thriller periodístico."
+          },
+          {
+            "question": "¿Qué temas principales trata el libro?",
+            "answer": "Trata la presión estética, la fama, los trastornos alimentarios, el consumo de drogas, la manipulación mediática y la búsqueda de la verdad detrás de una imagen pública."
+          },
+          {
+            "question": "¿Hace falta conocer el mundo de la moda para entender la novela?",
+            "answer": "No. El libro explica ese ambiente desde la mirada de Jon, que investiga paso a paso y permite al lector entrar en el tema sin conocimientos previos."
+          },
+          {
+            "question": "¿Por qué se sigue leyendo en centros educativos?",
+            "answer": "Porque combina una historia atractiva con asuntos muy discutibles y actuales, lo que facilita el análisis en clase sobre cuerpo, fama, medios y adolescencia."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: Las chicas de alambre",
+            "url": "https://es.wikipedia.org/wiki/Las_chicas_de_alambre"
+          },
+          {
+            "label": "TodosTusLibros: Las chicas de alambre",
+            "url": "https://www.todostuslibros.com/libros/las-chicas-de-alambre_978-84-9122-137-1"
+          },
+          {
+            "label": "Casa del Libro: Las chicas de alambre",
+            "url": "https://www.casadellibro.com/libro-las-chicas-de-alambre/9788491221371/2935187"
+          },
+          {
+            "label": "Lecturalia: Las chicas de alambre",
+            "url": "https://www.lecturalia.com/libro/33869/las-chicas-de-alambre"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "lo-prohibido-de-benito-perez-galdos",
+      "title": "Lo Prohibido",
+      "authorName": "Benito Perez Galdos",
+      "authorSlug": "benito-perez-galdos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 12,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Lo prohibido",
+        "authorName": "Benito Pérez Galdós",
+        "authorSlug": "benito-perez-galdos",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa",
+          "romance"
+        ],
+        "year": 1884,
+        "pages": 560,
+        "summary": "Lo prohibido es una de las grandes novelas galdosianas sobre deseo, dinero y degradación moral en el Madrid de la Restauración. Narrada en primera persona por José María Bueno de Guzmán, un soltero rico, culto y cínico, la obra sigue su relación con tres primas casadas y convierte ese entramado sentimental en una observación incisiva de la alta burguesía madrileña. Galdós presenta una sociedad dominada por la especulación, el prestigio social, la apariencia y la hipocresía conyugal, donde la pasión no libera, sino que acelera el deterioro ético del protagonista. La novela combina análisis psicológico, crítica de costumbres y mirada urbana para mostrar cómo el deseo de poseer lo ajeno termina contaminando todos los vínculos. Es, a la vez, historia íntima y radiografía social de una capital entregada al capital.",
+        "aboutThisBook": "Publicada en dos tomos entre 1884 y 1885 dentro de las Novelas españolas contemporáneas, esta obra suele considerarse una de las aproximaciones más claras de Galdós a ciertos procedimientos del naturalismo. Su interés no reside solo en el adulterio o en la provocación del título. Importa por la complejidad con que enlaza eros, dinero, enfermedad, prestigio y decadencia social. José María no es un héroe romántico, sino un narrador implicado en su propia corrupción. Esa elección vuelve la novela especialmente rica: el lector asiste al avance del deseo y del autoengaño desde dentro, mientras Madrid aparece como escenario de lujo, cálculo y desgaste moral.",
+        "forWhom": "Para lectores adultos interesados en clásicos españoles, realismo del siglo XIX, crítica social, novelas de adulterio y retratos psicológicos narrados con ironía y densidad moral.",
+        "whyItMatters": "Importa porque muestra a un Galdós especialmente agudo en el análisis de la burguesía urbana y porque convierte la intimidad amorosa en un laboratorio de codicia, vanidad y descomposición ética. También ayuda a entender cómo la novela realista española integró dinero, ciudad y deseo en una misma maquinaria narrativa.",
+        "editorialIntro": "Lo prohibido no es una novela escandalosa en un sentido superficial, sino una exploración muy calculada de aquello que una sociedad desea y condena al mismo tiempo. Galdós sitúa la acción en un Madrid moderno, financiero y mundano, y deja que sea el propio protagonista quien cuente su caída. Esa primera persona resulta decisiva: el lector no contempla la corrupción desde fuera, sino desde una voz inteligente, seductora y profundamente poco fiable. De ahí nace buena parte de la fuerza del libro. Bajo la trama amorosa aparece una crítica severa del lujo, el arribismo y la moral acomodaticia de una clase social en expansión.",
+        "readingLevel": "Lectura media-alta. La sintaxis y la longitud responden al realismo del siglo XIX, y la novela exige atención a la psicología del narrador, a las relaciones familiares y al contexto social madrileño.",
+        "whyReadToday": "Porque sigue siendo una lectura muy lúcida sobre el cruce entre deseo, estatus, dinero y autoengaño, asuntos que no han perdido actualidad aunque cambien los códigos sociales.",
+        "studyNotes": [
+          "La primera persona es esencial: José María cuenta su historia, pero también la distorsiona. Leer la novela implica detectar esa falta de fiabilidad.",
+          "El deseo amoroso está unido al deseo de posesión. Galdós no separa pasión y economía moral.",
+          "Madrid no es un simple decorado: funciona como espacio de circulación del dinero, del prestigio y de la apariencia social.",
+          "La enfermedad y el deterioro físico del protagonista tienen un valor simbólico claro: acompañan su desgaste ético."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Regreso a Madrid y entrada en el círculo familiar",
+            "summary": "José María Bueno de Guzmán se instala en Madrid y entra en contacto estrecho con sus primas y con el mundo burgués que las rodea. Desde ese inicio quedan planteados el deseo, la comodidad económica y la fragilidad moral del protagonista."
+          },
+          {
+            "title": "La relación con Eloísa y el juego adulterino",
+            "summary": "La atracción por Eloísa convierte la novela en un relato de adulterio, pero también de cálculo y vanidad. La pasión aparece ligada al lujo, al gasto y a la construcción de una imagen social seductora."
+          },
+          {
+            "title": "Desplazamiento del deseo y deterioro moral",
+            "summary": "Cuando José María cambia el foco de su deseo y se acerca a otras primas, la novela muestra con más crudeza su inestabilidad ética. El problema deja de ser una relación concreta y pasa a ser una forma de vivir basada en la apropiación y el capricho."
+          },
+          {
+            "title": "Caída del narrador y balance final",
+            "summary": "El último tramo enlaza enfermedad, aislamiento y conciencia tardía del fracaso. Galdós cierra la historia como una caída íntima inseparable de la crítica a un medio social dominado por el interés y la apariencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Galdós y el naturalismo moral",
+            "content": "La novela se acerca al naturalismo no tanto por determinismos rígidos como por su atención al medio social, al cuerpo y al deterioro progresivo del personaje. El deseo se presenta como una fuerza ligada a contexto, herencia moral y hábitos de clase."
+          },
+          {
+            "heading": "Dinero, lujo y corrupción sentimental",
+            "content": "En Lo prohibido el dinero nunca es fondo neutro. Organiza relaciones, deseos y jerarquías. El lujo alimenta la ilusión amorosa y al mismo tiempo revela el vacío ético de una burguesía obsesionada con la posición."
+          },
+          {
+            "heading": "La voz del protagonista como trampa narrativa",
+            "content": "José María es inteligente y sabe narrarse, pero esa misma habilidad lo vuelve sospechoso. El lector debe leer entre líneas para advertir cómo justifica sus actos, minimiza daños y convierte su capricho en aparente lucidez."
+          },
+          {
+            "heading": "Madrid como organismo social",
+            "content": "La ciudad aparece como una red de salones, negocios, rumores y prestigios. Galdós hace visible una capital donde la intimidad está atravesada por la mirada pública y por la lógica del capital."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Lo prohibido es una novela romántica en sentido convencional?",
+            "answer": "No exactamente. Hay deseo y relaciones amorosas, pero Galdós utiliza ese material para analizar egoísmo, hipocresía social y deterioro moral, no para idealizar la pasión."
+          },
+          {
+            "question": "¿Por qué se considera una obra importante dentro de Galdós?",
+            "answer": "Porque reúne de forma muy clara varios de sus grandes intereses: crítica de la burguesía, análisis psicológico, Madrid como escenario social y observación del vínculo entre dinero y conducta."
+          },
+          {
+            "question": "¿Es una lectura difícil?",
+            "answer": "Exige más atención que una novela contemporánea breve, pero su intensidad psicológica y la claridad narrativa de Galdós compensan el esfuerzo."
+          },
+          {
+            "question": "¿Qué significa el título?",
+            "answer": "Alude al deseo por aquello que la moral social declara vedado. En la novela, esa prohibición no produce grandeza trágica, sino corrupción, autoengaño y desgaste."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: Lo prohibido",
+            "url": "https://es.wikipedia.org/wiki/Lo_prohibido"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Lo prohibido",
+            "url": "https://www.cervantesvirtual.com/obra-visor/lo-prohibido--0/html/"
+          },
+          {
+            "label": "Casa del Libro: Lo prohibido (Alianza Editorial)",
+            "url": "https://www.casadellibro.com/libro-lo-prohibido/9788491812197/7259530"
+          },
+          {
+            "label": "Project Gutenberg: Lo prohibido",
+            "url": "https://www.gutenberg.org/files/63412/63412-h/63412-h.htm"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "noche-de-viernes-de-jordi-sierra-i-fabra",
+      "title": "Noche De Viernes",
+      "authorName": "Jordi Sierra I Fabra",
+      "authorSlug": "jordi-sierra-i-fabra",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 12,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Noche de viernes",
+        "authorName": "Jordi Sierra i Fabra",
+        "authorSlug": "jordi-sierra-i-fabra",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa",
+          "thriller"
+        ],
+        "year": 1993,
+        "pages": 168,
+        "summary": "Noche de viernes es una novela juvenil de fuerte carga social que concentra su acción en unas pocas horas y sigue a cinco jóvenes que buscan diversión, escape y afirmación dentro de una noche aparentemente normal. Cada uno arrastra conflictos personales, frustraciones y una necesidad urgente de salir de la rutina. Sin embargo, el consumo de alcohol y drogas, la presión del grupo y la violencia de las tribus urbanas convierten la noche en una espiral de intolerancia que termina descargándose contra un joven marroquí. Jordi Sierra i Fabra transforma así una historia breve en una denuncia seca y directa del racismo, la violencia gratuita y la fragilidad moral de una juventud que confunde libertad con impunidad. El libro gana fuerza por su inmediatez y por su voluntad de mostrar consecuencias, no solo estallidos de agresión.",
+        "aboutThisBook": "Publicado en 1993 y reeditado después en colecciones juveniles de amplia circulación, el libro pertenece a una línea muy reconocible de Sierra i Fabra: novelas cortas, intensas y orientadas a problemas sociales concretos. Aquí no hay aventura escapista ni misterio clásico, sino una narración coral y comprimida en el tiempo que observa cómo pequeñas tensiones individuales pueden desembocar en una violencia colectiva irreversible. El autor trabaja con un lenguaje accesible y con escenas rápidas, pero el trasfondo es serio: xenofobia, consumo, vacío afectivo, presión del grupo y responsabilidad moral. Por eso sigue teniendo valor en contextos educativos.",
+        "forWhom": "Para lectores juveniles, docentes y mediadores de lectura interesados en novelas breves pero intensas sobre violencia, racismo, adolescencia, grupos urbanos y consecuencias éticas de los actos cotidianos.",
+        "whyItMatters": "Importa porque aborda sin rodeos una forma de violencia muy reconocible: la que nace de la mezcla entre frustración personal, pertenencia grupal e intolerancia hacia el diferente. Su brevedad no reduce su alcance; lo concentra y lo vuelve especialmente útil para leer y debatir.",
+        "editorialIntro": "Pocas novelas juveniles españolas han sido tan directas al mostrar cómo una noche cualquiera puede convertirse en tragedia social. Sierra i Fabra no construye aquí un sermón, sino una secuencia de decisiones pequeñas, impulsos, miedos y arrastres de grupo que terminan en una agresión racista. Esa progresión es la clave del libro. Todo ocurre con rapidez, pero nada aparece como accidente puro: la violencia se prepara en el lenguaje, en la desinhibición, en la necesidad de sentirse fuerte junto a otros y en la deshumanización del distinto. Su eficacia procede de esa claridad narrativa y moral.",
+        "readingLevel": "Lectura media-baja. El estilo es muy directo y la extensión breve, aunque el lector debe seguir una estructura coral y atender a cómo convergen las trayectorias de varios personajes en una misma noche.",
+        "whyReadToday": "Porque mantiene plena vigencia frente a debates actuales sobre racismo, violencia juvenil, consumo, masculinidad agresiva y contagio emocional dentro de los grupos.",
+        "studyNotes": [
+          "La unidad temporal es decisiva: el libro comprime la acción para mostrar cómo la violencia puede escalar muy rápido cuando se combinan grupo, drogas e intolerancia.",
+          "La novela no presenta monstruos excepcionales, sino jóvenes corrientes arrastrados por frustraciones y por la necesidad de pertenecer.",
+          "El joven marroquí funciona como víctima concreta, pero también como símbolo del rechazo al otro en contextos de xenofobia cotidiana.",
+          "Conviene analizar la relación entre responsabilidad individual y presión del grupo: ambos niveles están constantemente entrelazados."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Cinco jóvenes salen a la noche",
+            "summary": "La novela presenta a varios adolescentes o jóvenes con problemas distintos pero con un mismo deseo de evasión. La noche del viernes aparece como promesa de libertad, diversión y ruptura con una rutina asfixiante."
+          },
+          {
+            "title": "Alcohol, drogas y tensión creciente",
+            "summary": "A medida que avanzan las horas, el ambiente se carga de impulsividad y hostilidad. La búsqueda de intensidad y pertenencia transforma los conflictos individuales en agresividad compartida."
+          },
+          {
+            "title": "La agresión racista",
+            "summary": "La violencia acumulada termina descargándose contra un joven marroquí, elegido como blanco por su diferencia y vulnerabilidad. El libro convierte ese momento en el núcleo ético de toda la historia."
+          },
+          {
+            "title": "Después de la noche, nada sigue igual",
+            "summary": "El desenlace subraya que la violencia no se agota en el instante del ataque. Lo ocurrido modifica de forma irreversible a los implicados y obliga a leer la noche entera como un proceso de degradación moral."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La noche como laboratorio social",
+            "content": "La acción concentrada en unas horas permite observar cómo cambian las conductas bajo la lógica del ocio nocturno, la desinhibición y la presión del grupo. La noche no es solo escenario: es un acelerador moral."
+          },
+          {
+            "heading": "Violencia grupal e intolerancia",
+            "content": "El libro muestra que la agresión racista no surge de la nada. Se construye a partir de prejuicios previos, necesidad de afirmación masculina, frustración y contagio emocional entre iguales."
+          },
+          {
+            "heading": "Narrativa juvenil y denuncia",
+            "content": "Sierra i Fabra escribe con claridad, pero esa claridad no suaviza el conflicto. La novela usa recursos de lectura rápida para intervenir sobre un problema social concreto y hacerlo discutible en el aula y fuera de ella."
+          },
+          {
+            "heading": "Consecuencias frente a impunidad",
+            "content": "Uno de los rasgos más serios del libro es que insiste en las consecuencias. No convierte la violencia en espectáculo, sino en un hecho con víctimas reales y efectos irreversibles."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Noche de viernes es una novela policíaca?",
+            "answer": "No exactamente. Tiene tensión y un desenlace violento, pero su centro está en la crítica social y en la observación del comportamiento juvenil, no en la resolución de un enigma criminal."
+          },
+          {
+            "question": "¿Qué temas trabaja con más fuerza?",
+            "answer": "Trabaja racismo, violencia juvenil, presión del grupo, consumo de alcohol y drogas, vacío emocional y responsabilidad por las consecuencias de los actos."
+          },
+          {
+            "question": "¿Es adecuada para lectura escolar?",
+            "answer": "Sí, especialmente en secundaria, porque es breve, directa y permite debatir convivencia, xenofobia, violencia y ética de grupo sin perder interés narrativo."
+          },
+          {
+            "question": "¿Por qué sigue siendo actual?",
+            "answer": "Porque describe mecanismos sociales que siguen presentes: deshumanización del otro, agresividad grupal, ocio nocturno sin control y estallidos de odio contra quienes aparecen como diferentes."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "TodosTusLibros: Noche de viernes",
+            "url": "https://www.todostuslibros.com/libros/noche-de-viernes_978-84-204-4762-9"
+          },
+          {
+            "label": "Casa del Libro: Noche de viernes",
+            "url": "https://www.casadellibro.com/libro-noche-de-viernes/9788491223856/11464103"
+          },
+          {
+            "label": "Lecturalia: Noche de viernes",
+            "url": "https://www.lecturalia.com/libro/33859/noche-de-viernes"
+          },
+          {
+            "label": "Google Libros: Noche de viernes",
+            "url": "https://books.google.com/books/about/Noche_de_viernes.html?id=WmkGAAAACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pesadillas-la-casa-de-la-muerte-de-r-l-stine",
+      "title": "Pesadillas La Casa De La Muerte",
+      "authorName": "R L Stine",
+      "authorSlug": "r-l-stine",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 12,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La casa de la muerte",
+        "authorName": "R. L. Stine",
+        "authorSlug": "r-l-stine",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "infantil",
+          "thriller",
+          "fantasia"
+        ],
+        "year": 1992,
+        "pages": 144,
+        "summary": "Josh y Amanda Benson se mudan con sus padres a Dark Falls, un pueblo extraño donde han heredado una casa enorme, vieja y demasiado silenciosa. Desde la llegada, Amanda percibe que algo no encaja: la oscuridad constante, los vecinos amables pero inquietantes y la sensación de que la casa guarda presencias que nadie quiere explicar. Cuando su perro desaparece y los dos hermanos comienzan a descubrir tumbas con nombres de personas que siguen caminando por el barrio, entienden que la amenaza no es una superstición sino una realidad macabra. La novela convierte una mudanza familiar en una persecución contra muertos vivientes que necesitan nuevas víctimas para seguir existiendo, y sostiene el suspense desde la mirada de dos niños que deben actuar cuando los adultos no comprenden el peligro.",
+        "aboutThisBook": "Es uno de los títulos más conocidos del universo Pesadillas y, además, el arranque original de la serie Goosebumps. Publicada por primera vez en 1992, combina terror accesible, ritmo veloz y una imaginación visual muy eficaz: cementerios, casas heredadas, barrios vacíos y criaturas que parecen normales hasta que dejan de serlo. La edición española de Editorial Hidra presenta el libro como terror juvenil breve y directo, ideal para lectores que quieren empezar a explorar el género sin entrar todavía en novelas largas o especialmente duras.",
+        "forWhom": "Para lectores infantiles y prejuveniles que disfrutan del misterio, las casas encantadas y las historias de miedo con tensión constante pero lenguaje sencillo.",
+        "whyItMatters": "Importa porque muestra con claridad una de las fórmulas que hicieron de R. L. Stine un autor decisivo para la iniciación lectora en el terror: capítulos cortos, peligro creciente y protagonistas jóvenes obligados a desconfiar de lo cotidiano. También ilustra cómo el miedo infantil suele nacer de espacios familiares que dejan de ser seguros.",
+        "editorialIntro": "Antes de que Pesadillas se convirtiera en una marca global del terror para jóvenes lectores, este libro fijó varias de sus reglas esenciales: una premisa doméstica convertida en pesadilla, niños más perceptivos que los adultos y un escenario reconocible que poco a poco revela su lado monstruoso. La casa de la muerte sigue funcionando por su capacidad para transformar la inquietud inicial en amenaza abierta sin perder claridad narrativa.",
+        "readingLevel": "Lectura accesible: frases cortas, capítulos breves y vocabulario claro, aunque con suficiente tensión para lectores que ya toleran escenas inquietantes.",
+        "whyReadToday": "Sigue siendo una puerta de entrada eficaz al terror infantil y un buen ejemplo de cómo narrar suspense con economía, ritmo y escenas memorables.",
+        "studyNotes": [
+          "La novela trabaja el miedo desde una experiencia muy cotidiana: cambiar de casa y sentirse extranjero en un lugar nuevo.",
+          "La desconfianza hacia los adultos no nace de su maldad, sino de su incapacidad para percibir lo que los niños sí ven.",
+          "Dark Falls funciona como símbolo de comunidad cerrada: parece hospitalaria, pero exige sumisión y silencio.",
+          "La luz y la oscuridad tienen valor narrativo y moral: ver con claridad es también reconocer la verdad del peligro."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Llegada a Dark Falls",
+            "summary": "La familia Benson descubre la casa heredada y el aspecto enfermizo del pueblo. Amanda y Josh notan desde el primer momento que la mudanza no se parece a un nuevo comienzo normal, sino a una entrada en territorio hostil."
+          },
+          {
+            "title": "Vecinos demasiado amables",
+            "summary": "Los hermanos conocen a niños y adultos del lugar que se comportan con una cordialidad extraña. Las desapariciones, los ruidos y la conducta alarmada del perro aumentan la sospecha de que Dark Falls oculta una verdad siniestra."
+          },
+          {
+            "title": "El secreto del cementerio",
+            "summary": "La investigación conduce a Amanda y Josh a las tumbas del pueblo, donde descubren que algunos vecinos están muertos desde hace tiempo. El miedo cambia de tono: ya no se trata de una casa embrujada, sino de una comunidad entera sostenida por la muerte."
+          },
+          {
+            "title": "Huida y repetición de la amenaza",
+            "summary": "Cuando comprenden que ellos y sus padres han sido atraídos como nuevas víctimas, los hermanos luchan por escapar y romper el ciclo. El final conserva la lógica inquietante de la serie: sobrevivir no significa que el mal haya desaparecido para siempre."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La mudanza como detonante del terror",
+            "content": "Stine parte de un miedo infantil reconocible: perder la casa conocida, los amigos y las rutinas. La llegada a Dark Falls convierte esa inseguridad en materia sobrenatural y hace que el lector comparta la vulnerabilidad de Amanda y Josh desde la primera escena."
+          },
+          {
+            "heading": "Una comunidad entera como monstruo",
+            "content": "La amenaza no depende solo de una criatura o de un fantasma aislado. El pueblo completo participa en la lógica del horror, lo que intensifica la sensación de encierro: no hay refugio seguro porque la normalidad misma está corrompida."
+          },
+          {
+            "heading": "Ritmo serial y economía narrativa",
+            "content": "El libro avanza con capítulos muy breves, cierres de suspense y pistas dosificadas. Esa estructura explica parte de su éxito entre lectores jóvenes: exige poco tiempo de atención continua, pero mantiene una fuerte necesidad de seguir leyendo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro adecuado para empezar con R. L. Stine?",
+            "answer": "Sí. Al ser uno de los títulos fundacionales de Pesadillas, resume muy bien su estilo: tensión rápida, humor mínimo y miedo pensado para lectores jóvenes."
+          },
+          {
+            "question": "¿Da mucho miedo?",
+            "answer": "Para un lector infantil puede resultar intenso por su atmósfera oscura y por la idea de los muertos vivientes, pero no es una novela gráfica ni especialmente dura en el lenguaje."
+          },
+          {
+            "question": "¿Tiene un final cerrado?",
+            "answer": "Cierra la aventura principal de la familia Benson, aunque conserva una última inquietud típica de la serie, dejando la sensación de que el mal puede repetirse."
+          },
+          {
+            "question": "¿Qué temas aparecen además del terror?",
+            "answer": "La adaptación a un lugar nuevo, la desconfianza frente a las apariencias, la importancia de los hermanos y la intuición infantil frente a la ceguera adulta."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Editorial Hidra: La casa de la muerte",
+            "url": "https://www.editorialhidra.com/libro/la-casa-de-la-muerte_82831/"
+          },
+          {
+            "label": "Wikipedia (en): Welcome to Dead House",
+            "url": "https://en.wikipedia.org/wiki/Welcome_to_Dead_House"
+          },
+          {
+            "label": "Open Library: Welcome to Dead House",
+            "url": "https://openlibrary.org/books/OL22492903M/Welcome_to_Dead_House"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pupila-de-aguila-de-alfredo-gomez-cerda",
+      "title": "Pupila De Aguila",
+      "authorName": "Alfredo Gomez Cerda",
+      "authorSlug": "alfredo-gomez-cerda",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 12,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Pupila de águila",
+        "authorName": "Alfredo Gómez Cerdá",
+        "authorSlug": "alfredo-gomez-cerda",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "thriller",
+          "narrativa"
+        ],
+        "year": 1989,
+        "pages": 192,
+        "summary": "Martina, una adolescente madrileña, se recupera en el hospital de una operación cuando conoce a Igor, un chico que ha intentado suicidarse. El encuentro despierta en ella el recuerdo de Toni, su hermano mayor, cuya muerte supuestamente fue también un suicidio. Convencida de que hay algo mal explicado en aquella historia, Martina comienza junto a Igor una investigación que los lleva desde recuerdos familiares y objetos aparentemente inocentes hasta una red turbia relacionada con la pornografía, la droga y la explotación de jóvenes. A medida que avanza la pesquisa, la novela combina intriga, peligro real y descubrimiento afectivo. No solo se trata de averiguar qué ocurrió con Toni, sino de entender cómo el silencio, la manipulación y la soledad pueden empujar a los adolescentes hacia situaciones límite.",
+        "aboutThisBook": "Publicada por primera vez en 1989 dentro de Gran Angular, es una de las novelas juveniles más conocidas de Alfredo Gómez Cerdá. SM la presenta como una historia de misterio en la que la investigación detectivesca convive con el paso a la madurez. Su permanencia en el ámbito escolar se explica por esa doble capa: mantiene la tensión de un thriller, pero al mismo tiempo permite hablar de duelo, comunicación familiar, vulnerabilidad adolescente y construcción de la identidad. La combinación de ritmo narrativo y temas delicados la ha convertido en una lectura muy frecuente en secundaria.",
+        "forWhom": "Para lectores juveniles que busquen una novela de intriga con trasfondo emocional, conflictos adolescentes verosímiles y temas sociales tratados con claridad.",
+        "whyItMatters": "Sigue siendo relevante porque aborda asuntos difíciles —suicidio, drogas, pornografía, manipulación y desamparo afectivo— desde una perspectiva juvenil seria pero legible. Además, muestra cómo una novela para adolescentes puede sostener suspense real sin renunciar a la dimensión ética y formativa del relato.",
+        "editorialIntro": "Pupila de águila ocupa un lugar destacado en la narrativa juvenil española por su capacidad para unir investigación, crecimiento personal y crítica social. Gómez Cerdá no reduce a sus protagonistas a simples testigos de una trama criminal: Martina e Igor leen el mundo desde sus heridas, y precisamente por eso la búsqueda de la verdad se convierte también en una educación sentimental y moral.",
+        "readingLevel": "Nivel medio de secundaria: prosa clara y ágil, pero con temas sensibles y una trama de investigación que exige atención sostenida.",
+        "whyReadToday": "Porque sigue ofreciendo una forma honesta de hablar con adolescentes sobre riesgo, verdad, duelo y afectos sin trivializar sus conflictos.",
+        "studyNotes": [
+          "La novela enlaza el misterio externo con una pregunta íntima: quién era realmente Toni y qué no supo ver su entorno.",
+          "Martina e Igor investigan un crimen, pero también aprenden a nombrar su propia fragilidad y a confiar en otra persona.",
+          "El libro muestra cómo los adultos pueden fallar por silencio, miedo o complicidad, no solo por abierta maldad.",
+          "El amor juvenil aparece unido al reconocimiento mutuo y no como simple adorno romántico de la intriga."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Hospital, duelo y encuentro",
+            "summary": "Durante su convalecencia, Martina conoce a Igor, cuya tentativa de suicidio reactiva el recuerdo doloroso de Toni. La coincidencia abre una investigación que nace tanto de la curiosidad como de una herida familiar no cerrada."
+          },
+          {
+            "title": "Las huellas de Toni",
+            "summary": "Martina lleva a Igor al piso heredado de su hermano y ambos empiezan a revisar objetos, contactos y pistas. La imagen idealizada de Toni se vuelve cada vez más compleja al aparecer nombres ligados a ambientes sórdidos."
+          },
+          {
+            "title": "Barciela, Nino y la red oculta",
+            "summary": "La búsqueda conduce a un entramado de pornografía, drogas y chantaje. Los jóvenes descubren que la muerte de Toni probablemente no fue un simple suicidio, sino el resultado de una maquinaria de explotación y violencia."
+          },
+          {
+            "title": "Revelación, rescate y madurez",
+            "summary": "Con la intervención de Clara y de la policía, Martina e Igor logran reconstruir la verdad y salir de una situación extrema. El cierre de la trama criminal coincide con un paso emocional decisivo en ambos personajes."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Intriga juvenil con base social",
+            "content": "La novela utiliza recursos del thriller —pistas, vigilancias, persecuciones, revelaciones graduales— para hablar de problemas concretos del mundo adulto que alcanzan de lleno a los jóvenes. Por eso su suspense no es decorativo: nace de estructuras de abuso reales."
+          },
+          {
+            "heading": "Del duelo a la búsqueda de verdad",
+            "content": "Martina no investiga solo para resolver un enigma, sino para rehacer la imagen quebrada de su hermano. El relato muestra que el duelo se vuelve más doloroso cuando está rodeado de secretos, rumores y versiones incompletas."
+          },
+          {
+            "heading": "Aprender a crecer en medio del peligro",
+            "content": "La educación sentimental de Martina e Igor no ocurre en un espacio protegido, sino en un contexto amenazante. Gómez Cerdá vincula el paso a la madurez con la capacidad de mirar de frente lo incómodo, tomar decisiones y no aceptar explicaciones fáciles."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es solo una novela de misterio?",
+            "answer": "No. Aunque la investigación es central, el libro también trabaja el duelo, la soledad adolescente, la confianza y el paso a la madurez."
+          },
+          {
+            "question": "¿Por qué se lee tanto en secundaria?",
+            "answer": "Porque tiene una trama ágil y, al mismo tiempo, abre conversaciones útiles sobre temas difíciles sin perder claridad ni tensión narrativa."
+          },
+          {
+            "question": "¿La historia romántica eclipsa la intriga?",
+            "answer": "No. La relación entre Martina e Igor crece de forma paralela a la investigación y refuerza el sentido emocional del relato, pero no sustituye el conflicto principal."
+          },
+          {
+            "question": "¿Qué rasgo destaca en Martina como protagonista?",
+            "answer": "Su mezcla de vulnerabilidad y determinación. Investiga porque está herida, pero también porque se niega a aceptar una versión cómoda de los hechos."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Literatura SM: Pupila de águila",
+            "url": "https://es.literaturasm.com/libro/pupila-de-aguila"
+          },
+          {
+            "label": "Grupo SM PDF de muestra/edición",
+            "url": "https://ecat-server.grupo-sm.com/ecat_Documentos/ES185552_011563.pdf"
+          },
+          {
+            "label": "Wikipedia: Pupila de águila",
+            "url": "https://es.wikipedia.org/wiki/Pupila_de_%C3%A1guila"
+          },
+          {
+            "label": "Educarm: guía de lectura de Pupila de águila",
+            "url": "https://servicios.educarm.es/templates/portal/ficheros/websDinamicas/154/pupuliadeaguila.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "senas-de-identidad-de-juan-goytisolo",
+      "title": "Senas De Identidad",
+      "authorName": "Juan Goytisolo",
+      "authorSlug": "juan-goytisolo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 12,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Señas de identidad",
+        "authorName": "Juan Goytisolo",
+        "authorSlug": "juan-goytisolo",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1966,
+        "pages": 512,
+        "summary": "Álvaro Mendiola, fotógrafo barcelonés exiliado en París, regresa enfermo a España y convierte ese retorno en una exploración fragmentaria de su pasado personal y colectivo. El viaje no produce reconciliación, sino una revisión incómoda de la infancia, la Guerra Civil, la burguesía familiar, la represión franquista, la emigración y las formas en que un país fabrica relatos sobre sí mismo. La novela alterna recuerdos, documentos, voces ajenas, escenas dispersas y cambios de perspectiva para mostrar una identidad que ya no puede sostenerse en una narración lineal. Más que contar una peripecia convencional, Señas de identidad dramatiza la imposibilidad de sentirse plenamente dentro de una comunidad nacional y convierte el desarraigo en su verdadero núcleo narrativo y moral.",
+        "aboutThisBook": "Publicada en 1966 en México, cuando Goytisolo estaba exiliado en París, es la primera entrega de la trilogía de Álvaro Mendiola, continuada por Don Julián y Juan sin tierra. La crítica la considera un punto de inflexión en la novela española contemporánea por su ruptura con la linealidad, su mezcla de materiales heterogéneos y su exploración incisiva de la identidad española bajo la dictadura. La edición de Alianza la sitúa entre los hitos de la obra madura del autor, mientras la Agencia Balcells subraya el peso del exilio y de la búsqueda de raíces desdibujadas.",
+        "forWhom": "Para lectores adultos, universitarios o de bachillerato avanzado interesados en la novela española del siglo XX, el exilio y la experimentación formal.",
+        "whyItMatters": "Importa porque marca una renovación decisiva de la narrativa española de posguerra. Goytisolo abandona el realismo más estable para construir un collage de voces, documentos y memorias que cuestiona tanto la identidad individual como los mitos nacionales. Leerla ayuda a entender el vínculo entre forma literaria, crítica política y experiencia del exilio.",
+        "editorialIntro": "Señas de identidad no pide al lector una lectura pasiva: exige reconstruir, comparar voces y asumir que la memoria nunca llega ordenada. Esa exigencia es precisamente una de sus mayores virtudes. En lugar de ofrecer un relato tranquilizador sobre el regreso al país natal, Goytisolo convierte el retorno en una experiencia de extrañamiento y análisis, y hace de la novela un laboratorio de conciencia histórica.",
+        "readingLevel": "Lectura exigente: estructura fragmentaria, cambios de voz y abundantes referencias históricas y culturales que favorecen una lectura lenta y atenta.",
+        "whyReadToday": "Porque sigue iluminando debates vigentes sobre memoria histórica, pertenencia, exilio, relato nacional y conflicto entre biografía privada e historia pública.",
+        "studyNotes": [
+          "Álvaro Mendiola funciona como alter ego parcial desde el que Goytisolo examina España, pero también sus propias fisuras personales.",
+          "La fragmentación formal no es un adorno vanguardista: representa una identidad rota y una memoria imposible de ordenar del todo.",
+          "La novela enlaza historia íntima e historia colectiva para mostrar cómo la política atraviesa la vida privada.",
+          "El exilio aparece como experiencia doble: distancia crítica respecto de España y pérdida dolorosa de pertenencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Regreso y extrañamiento",
+            "summary": "Álvaro vuelve a España desde París y descubre que el retorno no restituye nada. El país, la familia y la propia memoria se presentan como espacios parcialmente irreconocibles."
+          },
+          {
+            "title": "Infancia, guerra y herencia familiar",
+            "summary": "La narración recompone escenas de infancia y recuerdos familiares atravesados por la Guerra Civil. La historia doméstica deja ver los privilegios, las cegueras y las fracturas de una clase social determinada."
+          },
+          {
+            "title": "España bajo el franquismo",
+            "summary": "A través de informes, testimonios y evocaciones, la novela dibuja la represión, la emigración, la pobreza, el turismo y la violencia simbólica del régimen. El país aparece como un mosaico de discursos oficiales y vidas dañadas."
+          },
+          {
+            "title": "Desarraigo como destino",
+            "summary": "La búsqueda de una identidad estable fracasa una y otra vez. Lo que emerge al final no es una reconciliación, sino la conciencia de que romper con ciertas raíces también forma parte de la verdad del protagonista."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La identidad como problema, no como esencia",
+            "content": "El título promete unas señas reconocibles, pero la novela demuestra lo contrario: identidad personal, familiar y nacional aparecen llenas de fisuras. Goytisolo cuestiona cualquier definición estable de lo español y del yo."
+          },
+          {
+            "heading": "Innovación formal y collage narrativo",
+            "content": "La obra mezcla narración, documentos, voces orales, informes y cambios de persona gramatical. Esa heterogeneidad obliga al lector a reconstruir el sentido y convierte la forma en parte del conflicto central de la novela."
+          },
+          {
+            "heading": "Memoria histórica y crítica del franquismo",
+            "content": "Sin reducirse a tesis política, la novela retrata la violencia, la represión y las deformaciones ideológicas del franquismo. Lo hace mostrando cómo el poder moldea percepciones, silencios y relatos familiares aparentemente privados."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela autobiográfica?",
+            "answer": "No de forma estricta, aunque incorpora claras resonancias autobiográficas. Álvaro Mendiola funciona como un personaje cercano a experiencias y conflictos del propio Goytisolo."
+          },
+          {
+            "question": "¿Por qué se considera tan importante?",
+            "answer": "Porque abrió nuevas posibilidades formales en la novela española de posguerra y unió experimentación narrativa con una crítica profunda de la historia reciente de España."
+          },
+          {
+            "question": "¿Resulta difícil de leer?",
+            "answer": "Puede resultar exigente por su estructura fragmentaria y sus saltos de voz y tiempo, pero esa dificultad forma parte de su proyecto literario y de su riqueza interpretativa."
+          },
+          {
+            "question": "¿Hace falta leer la trilogía completa?",
+            "answer": "No. Se puede leer de manera autónoma, aunque conocer Don Julián y Juan sin tierra ayuda a entender mejor la evolución del proyecto de Álvaro Mendiola."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Alianza Editorial: Señas de identidad",
+            "url": "https://www.alianzaeditorial.es/libro/bibliotecas-de-autor/senas-de-identidad-juan-goytisolo-9788420691893/"
+          },
+          {
+            "label": "Agencia Literaria Carmen Balcells: Señas de identidad",
+            "url": "https://www.agenciabalcells.com/autores/obra/juan-goytisolo/senas-de-identidad/"
+          },
+          {
+            "label": "Wikipedia: Señas de identidad",
+            "url": "https://es.wikipedia.org/wiki/Se%C3%B1as_de_identidad"
+          },
+          {
+            "label": "Wikipedia: Juan Goytisolo",
+            "url": "https://es.wikipedia.org/wiki/Juan_Goytisolo"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T22:34:24Z"
+}

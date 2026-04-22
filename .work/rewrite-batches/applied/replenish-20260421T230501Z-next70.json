@@ -1,0 +1,1423 @@
+{
+  "batchName": "replenish-20260421T230501Z-next70",
+  "createdAt": "2026-04-21T23:28:18Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "intemperie-de-jesus-carrasco",
+      "title": "Intemperie",
+      "authorName": "Jesus Carrasco",
+      "authorSlug": "jesus-carrasco",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Intemperie",
+        "authorName": "Jesús Carrasco",
+        "authorSlug": "jesus-carrasco",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "teatro"
+        ],
+        "year": 2013,
+        "pages": 224,
+        "summary": "Intemperie cuenta la huida de un niño que escapa de un entorno marcado por el abuso, la sequía y una violencia casi primitiva. En una llanura seca y hostil, sin referencias temporales precisas, el muchacho sobrevive escondiéndose hasta que se cruza con un viejo cabrero que decide protegerlo. A partir de esa alianza mínima, la novela sigue un viaje físico y moral: avanzar significa huir del alguacil y de los hombres que lo persiguen, pero también aprender qué tipo de humanidad puede sostenerse cuando el orden social se ha podrido. Carrasco convierte el paisaje en una fuerza narrativa total y escribe una historia áspera, contenida y profundamente compasiva sobre dignidad, miedo y resistencia.",
+        "aboutThisBook": "Publicada por Seix Barral en 2013, Intemperie fue uno de los debuts más celebrados de la narrativa española reciente. Su historia parece sencilla —un niño huye, un pastor lo ampara, una autoridad brutal los acecha—, pero la novela trabaja con una intensidad simbólica poco común. El campo seco, los animales, el hambre y el cuerpo herido no funcionan como decorado, sino como condiciones de existencia. Carrasco mezcla rudeza material y una prosa muy trabajada para construir una fábula dura sobre la violencia heredada y la posibilidad de conservar una ética mínima.",
+        "forWhom": "Ideal para lectores de narrativa literaria exigente, novela rural contemporánea y relatos de iniciación donde el paisaje pesa tanto como los personajes.",
+        "whyItMatters": "Importa porque renovó la tradición del campo y la violencia en la literatura española con una voz sobria, visual y nada costumbrista. Además, convirtió una historia de persecución en una reflexión memorable sobre la compasión, la masculinidad y la transmisión del daño.",
+        "editorialIntro": "Hay novelas que se recuerdan por su argumento y otras por el mundo físico que levantan desde la primera página. Intemperie pertenece a las segundas. Jesús Carrasco narra poco y sugiere mucho: cada gesto, cada sorbo de agua y cada amenaza tienen relieve moral. El resultado es una obra breve, tensa y muy atmosférica, capaz de ser leída como aventura de supervivencia, parábola ética y tragedia rural al mismo tiempo.",
+        "readingLevel": "Lectura de complejidad media-alta: la prosa es clara, pero el tono seco, la carga simbólica y la violencia implícita exigen atención sostenida y madurez lectora.",
+        "whyReadToday": "Sigue siendo actual por su mirada sobre el abuso, la intemperie social y la fragilidad de los vínculos humanos cuando las instituciones fallan por completo.",
+        "studyNotes": [
+          "El paisaje no solo ambienta: actúa como presión moral constante y redefine las decisiones de los personajes.",
+          "La falta de nombres precisos universaliza el conflicto y acerca la novela a la parábola o al relato arquetípico.",
+          "El vínculo entre el niño y el cabrero articula una ética de cuidado frente a la violencia aprendida.",
+          "Conviene observar cómo Carrasco alterna crudeza material y momentos de lirismo sin romper la tensión narrativa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La huida en la llanura",
+            "summary": "La novela arranca con el niño escondido mientras lo buscan. Desde ese inicio se establece un mundo seco, amenazante y sin refugio, donde cada movimiento implica riesgo y el pasado del protagonista se intuye más terrible que explicado."
+          },
+          {
+            "title": "El encuentro con el cabrero",
+            "summary": "La aparición del viejo cabrero introduce la primera forma de amparo. Entre ambos surge una relación hecha de prudencia, silencios y aprendizaje corporal: comer, caminar, esconderse y desconfiar son actos de supervivencia, pero también de formación moral."
+          },
+          {
+            "title": "La persecución y el juicio final",
+            "summary": "Cuando el alguacil se acerca, la novela se convierte en un enfrentamiento entre formas opuestas de autoridad. El cierre obliga al niño a situarse ante la violencia recibida y decidir si repetirá el daño o si será capaz de interrumpirlo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Naturaleza y violencia",
+            "content": "En Intemperie la sequía no es un telón de fondo, sino la traducción física de un mundo moral devastado. La escasez de agua, sombra y alimento organiza la conducta de todos y hace visible una sociedad donde la ley se ha reducido a fuerza bruta."
+          },
+          {
+            "heading": "Arquetipos sin abstracción",
+            "content": "El niño, el cabrero y el alguacil funcionan como figuras arquetípicas, pero Carrasco evita que se vuelvan meros símbolos. Sus cuerpos, cansancios y decisiones concretas les dan espesor humano y sostienen la tensión entre alegoría y realismo."
+          },
+          {
+            "heading": "Una ética mínima",
+            "content": "La novela pregunta qué queda de la dignidad cuando casi todo se ha perdido. El cabrero no ofrece grandes discursos: enseña con actos mínimos. Esa modestia ética es justamente lo que vuelve conmovedora la historia y evita cualquier sentimentalismo fácil."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Intemperie en pocas palabras?",
+            "answer": "Trata de la huida de un niño a través de un paisaje seco y violento, y de la relación que establece con un viejo cabrero que intenta protegerlo de sus perseguidores."
+          },
+          {
+            "question": "¿Es una novela realista o simbólica?",
+            "answer": "Es ambas cosas. Su mundo material está descrito con gran dureza realista, pero la ausencia de nombres precisos y el carácter arquetípico de los personajes le dan una dimensión simbólica muy marcada."
+          },
+          {
+            "question": "¿Qué temas centrales desarrolla?",
+            "answer": "Desarrolla la violencia, el abuso, la supervivencia, la compasión, la transmisión del daño y la posibilidad de conservar una ética mínima en un entorno deshumanizado."
+          },
+          {
+            "question": "¿Por qué tuvo tanto impacto en su publicación?",
+            "answer": "Porque fue un debut de gran fuerza verbal y visual, muy distinto del costumbrismo rural convencional, y porque consiguió unir tensión narrativa, ambición literaria y emoción sin adornos."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "Seix Barral / Planeta, dossier de prensa de Intemperie",
+            "url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/87741/intemperie.pdf"
+          },
+          {
+            "label": "Wikipedia en español, Intemperie (novela)",
+            "url": "https://es.wikipedia.org/wiki/Intemperie_(novela)"
+          },
+          {
+            "label": "Google Libros, ficha de Intemperie",
+            "url": "https://books.google.com/books/about/Intemperie.html?id=kf95rvxZhEcC&hl=es"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "introduccion-a-la-pragmatica-de-m-victoria-escandell",
+      "title": "Introduccion A La Pragmatica",
+      "authorName": "M Victoria Escandell",
+      "authorSlug": "m-victoria-escandell",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Introducción a la pragmática",
+        "authorName": "M. Victoria Escandell Vidal",
+        "authorSlug": "m-victoria-escandell",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1993,
+        "pages": 297,
+        "summary": "Introducción a la pragmática es un manual pensado para explicar cómo intervienen el contexto, las intenciones y las inferencias en el uso real del lenguaje. Escandell parte de conceptos básicos y avanza hacia problemas centrales de la disciplina: actos de habla, implicaturas, deíxis, presuposiciones, cortesía, metáfora e interpretación de enunciados. El libro combina claridad expositiva con ambición teórica, de modo que sirve tanto como puerta de entrada para estudiantes como base para cursos universitarios. Uno de sus mayores aciertos es mostrar que la pragmática no es un apéndice ornamental de la lingüística, sino una herramienta decisiva para entender por qué las palabras significan más —o algo distinto— de lo que literalmente dicen.",
+        "aboutThisBook": "La obra apareció originalmente en 1993 en coedición de Anthropos y la UNED, y se consolidó pronto como un texto de referencia en español. Su vigencia se debe a dos virtudes poco frecuentes a la vez: orden pedagógico y precisión conceptual. Escandell no se limita a enumerar escuelas o autores, sino que muestra cómo se construyen los problemas y qué gana el análisis lingüístico cuando incorpora la situación comunicativa. La edición posterior en Ariel confirmó esa condición de manual duradero y útil para cursos introductorios y de profundización.",
+        "forWhom": "Muy recomendable para estudiantes de lingüística, filología, traducción, comunicación y docencia del español que necesiten una base sólida y bien organizada en pragmática.",
+        "whyItMatters": "Importa porque acercó la pragmática a generaciones de lectores en lengua española con una exposición accesible, rigurosa y aplicable al análisis real del discurso. Sigue siendo un punto de partida especialmente eficaz para unir teoría lingüística y ejemplos concretos de uso.",
+        "editorialIntro": "No todos los manuales introductorios envejecen bien. Este sigue funcionando porque enseña a pensar antes que a memorizar etiquetas. Escandell organiza el campo de la pragmática de forma gradual, sitúa debates clave y los ilustra con problemas reconocibles del habla cotidiana, del discurso literario y del análisis lingüístico. Por eso puede leerse tanto como libro de estudio como mapa conceptual de una disciplina entera.",
+        "readingLevel": "Lectura universitaria de complejidad media: no exige especialización previa estricta, pero sí familiaridad con la lectura académica y disposición para seguir argumentaciones conceptuales.",
+        "whyReadToday": "Sigue siendo muy útil porque muchas discusiones actuales sobre interpretación, discurso, ironía o comunicación digital descansan en categorías pragmáticas que este libro explica con claridad de base.",
+        "studyNotes": [
+          "La idea central es que el significado lingüístico no se agota en la semántica literal: depende también de contexto, intención e inferencia.",
+          "Es útil distinguir qué fenómenos pertenecen al código lingüístico y cuáles se resuelven mediante conocimiento compartido y razonamiento contextual.",
+          "Los ejemplos del libro sirven para ver la pragmática como método de análisis, no solo como repertorio terminológico.",
+          "Conviene relacionar cada capítulo con autores clave del campo, pero sin perder de vista el enfoque didáctico global del manual."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Conceptos fundamentales",
+            "summary": "La primera parte delimita qué estudia la pragmática y por qué resulta necesaria. Se aclaran nociones como significado, contexto, emisor, destinatario e intención comunicativa, bases imprescindibles para el resto del libro."
+          },
+          {
+            "title": "Desarrollo de la disciplina",
+            "summary": "Escandell repasa cómo se ha configurado la pragmática contemporánea y la sitúa dentro de la teoría lingüística. El recorrido permite entender tanto sus deudas con la filosofía del lenguaje como su autonomía metodológica."
+          },
+          {
+            "title": "Aplicaciones analíticas",
+            "summary": "La obra estudia casos concretos —como valores de la conjunción copulativa, enunciados interrogativos, metáfora y comunicación literaria— para mostrar cómo un enfoque pragmático ilumina fenómenos que la descripción puramente gramatical deja incompletos."
+          },
+          {
+            "title": "Lugar de la pragmática en la teoría del lenguaje",
+            "summary": "En el tramo final, el manual vuelve a las preguntas generales y discute cómo se integra el conocimiento pragmático en una teoría amplia del lenguaje humano."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un manual que ordena el campo",
+            "content": "Uno de los méritos del libro es su capacidad para convertir una disciplina a menudo dispersa en un itinerario inteligible. Escandell no simplifica en exceso: jerarquiza problemas, enlaza conceptos y hace visible qué preguntas resuelve cada enfoque."
+          },
+          {
+            "heading": "Teoría con vocación didáctica",
+            "content": "La autora escribe desde la investigación, pero piensa en el aula. El tono es explicativo, los ejemplos están bien elegidos y la progresión evita el salto brusco desde nociones básicas a discusiones demasiado especializadas."
+          },
+          {
+            "heading": "Vigencia más allá de su fecha",
+            "content": "Aunque buena parte de la bibliografía ha seguido creciendo, el libro conserva valor porque trabaja categorías estructurales: inferencia, contexto, intencionalidad, interpretación. Son herramientas que siguen siendo esenciales para estudiar discurso, conversación y texto."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Este libro sirve para empezar desde cero?",
+            "answer": "Sí. Fue concebido como introducción y organiza los conceptos de forma gradual, por lo que resulta apto para cursos iniciales y para lectores que se acercan por primera vez a la pragmática."
+          },
+          {
+            "question": "¿Es un libro solo teórico?",
+            "answer": "No. Aunque tiene una base conceptual fuerte, incluye análisis de fenómenos concretos y muestra cómo aplicar la perspectiva pragmática a ejemplos reales de uso lingüístico."
+          },
+          {
+            "question": "¿Qué temas aborda además de los conceptos básicos?",
+            "answer": "Aborda, entre otros, actos de habla, interrogativos, metáfora, comunicación literaria, inferencia, relaciones entre semántica y pragmática, y el lugar de esta disciplina en la teoría del lenguaje."
+          },
+          {
+            "question": "¿Por qué sigue citándose tanto?",
+            "answer": "Porque en español sigue siendo uno de los manuales más claros y bien estructurados para comprender la disciplina, y porque ofrece una base estable para estudios posteriores más especializados."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "Google Libros, ficha de Introducción a la pragmática",
+            "url": "https://books.google.com/books/about/Introducci%C3%B3n_a_la_pragm%C3%A1tica.html?id=2XXtAAAAQBAJ&hl=es"
+          },
+          {
+            "label": "PlanetadeLibros, edición Ariel Letras",
+            "url": "https://www.planetadelibros.com/libro-introduccion-a-la-pragmatica/112776"
+          },
+          {
+            "label": "Colegio de México, reseña bibliográfica de la edición de 1993",
+            "url": "https://repositorio.colmex.mx/concern/parent/7d278t601/articles/7d278t601?locale=es"
+          },
+          {
+            "label": "Open Library, edición de 1993",
+            "url": "https://openlibrary.org/books/OL852361M/Introduccio%CC%81n_a_la_pragma%CC%81tica"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "invasor-de-fernando-marias",
+      "title": "Invasor",
+      "authorName": "Fernando Marias",
+      "authorSlug": "fernando-marias",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Invasor",
+        "authorName": "Fernando Marías",
+        "authorSlug": "fernando-marias",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller"
+        ],
+        "year": 2004,
+        "pages": 214,
+        "summary": "Invasor arranca en Irak, en agosto de 2003, cuando un médico militar español se pierde en el desierto junto a un compañero y acaba implicado en un episodio sangriento dentro de una casa aislada. Repatriado y aparentemente a salvo, el protagonista regresa a España para recuperarse con su mujer y su hija, pero pronto descubre que el horror no se ha quedado atrás. La experiencia bélica se transforma en una amenaza íntima: culpa, memoria y una presencia inquietante invaden la vida doméstica hasta volverla insoportable. Fernando Marías combina el pulso del thriller con elementos de terror para explorar cómo la violencia exterior coloniza la conciencia y convierte la posguerra personal en una persecución interior.",
+        "aboutThisBook": "Publicada por Ediciones Destino en 2004, Invasor se sitúa en la estela de las novelas que reaccionaron a la guerra de Irak desde la ficción, pero lo hace evitando el alegato plano. Marías toma un conflicto político reconocible y lo filtra a través de un relato de intriga, culpa y asedio psicológico. El resultado es una novela breve, muy visual y de lectura rápida, donde el terror sirve para dramatizar las consecuencias morales de matar. Su mezcla de novela bélica, thriller y relato espectral explica buena parte de su singularidad dentro de la narrativa española de su momento.",
+        "forWhom": "Recomendable para lectores que disfrutan del thriller oscuro, del terror psicológico y de novelas donde la guerra se convierte en conflicto íntimo y moral.",
+        "whyItMatters": "Importa porque transforma una guerra contemporánea en experiencia narrativa concreta, encarnada y perturbadora. En vez de discutir el conflicto desde la abstracción, muestra cómo la violencia bélica invade la vida privada, erosiona la identidad y rompe la frontera entre víctima, culpable y superviviente.",
+        "editorialIntro": "Fernando Marías escribió una novela corta y tensa que no separa el miedo político del miedo doméstico. Invasor comienza como una historia de guerra, deriva hacia la pesadilla y termina planteando una pregunta incómoda: qué permanece dentro de uno después de haber matado. Su eficacia está en esa mezcla de ritmo, imaginería inquietante y mala conciencia, más cercana al thriller existencial que a la simple novela de denuncia.",
+        "readingLevel": "Lectura de complejidad media: el estilo es ágil y directo, pero la mezcla de trauma, terror y ambigüedad psicológica pide atención a los cambios entre realidad, recuerdo y amenaza imaginada.",
+        "whyReadToday": "Se lee con interés hoy porque sigue interrogando la violencia militar, la responsabilidad individual y la forma en que la guerra vuelve a casa convertida en trauma, miedo y descomposición moral.",
+        "studyNotes": [
+          "La novela usa recursos del terror para representar la culpa y no solo para generar suspense superficial.",
+          "El paso del frente bélico al espacio familiar es clave: la invasión verdadera ocurre en la conciencia y en la casa.",
+          "El enigma de Qitalet Ibni articula la investigación moral del protagonista, no únicamente la intriga argumental.",
+          "Conviene leer la obra como reacción literaria a la guerra de Irak y como reflexión sobre la imposibilidad de salir indemne de la violencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Irak: el hecho inicial",
+            "summary": "Una misión que parecía rutinaria termina en un episodio brutal en el desierto. El protagonista mata para sobrevivir y sale herido, pero la verdadera consecuencia del suceso todavía no ha empezado a desplegarse."
+          },
+          {
+            "title": "El regreso y la convalecencia",
+            "summary": "Ya en España, el militar intenta volver a la normalidad junto a su familia. Sin embargo, la recuperación física se ve contaminada por recuerdos, lagunas y señales inquietantes que convierten el hogar en un lugar amenazado."
+          },
+          {
+            "title": "La identidad del invasor",
+            "summary": "La novela avanza como una búsqueda: entender qué ha regresado de Irak y quién es realmente Qitalet Ibni. La resolución obliga a enfrentar la relación entre violencia ejercida, culpa y venganza."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Guerra exterior, invasión interior",
+            "content": "El gran hallazgo de Marías consiste en desplazar el centro del conflicto desde el campo de batalla hasta la conciencia. El enemigo deja de ser solo un otro visible y se convierte en una presencia interiorizada que contamina identidad, memoria y vida familiar."
+          },
+          {
+            "heading": "Thriller y terror como forma ética",
+            "content": "La novela no usa el terror únicamente para asustar. Lo utiliza para traducir una culpa que no puede resolverse con explicaciones racionales. Por eso el suspense tiene una dimensión moral constante y no solo mecánica."
+          },
+          {
+            "heading": "Una ficción sobre la guerra de Irak",
+            "content": "Invasor se posiciona claramente frente a la guerra ilegítima de Irak, pero evita el panfleto. Su crítica aparece encarnada en cuerpos, recuerdos y vínculos dañados, lo que le da una fuerza narrativa mayor que la simple tesis explícita."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Invasor es una novela de guerra o de terror?",
+            "answer": "Es ambas cosas. Parte de una experiencia bélica concreta, pero desarrolla sus consecuencias mediante recursos de thriller y terror psicológico."
+          },
+          {
+            "question": "¿Qué papel cumple la culpa en la historia?",
+            "answer": "Cumple un papel central: la violencia ejercida en Irak no termina con el regreso del protagonista, sino que reaparece como memoria persecutoria, miedo y descomposición íntima."
+          },
+          {
+            "question": "¿La novela es política?",
+            "answer": "Sí, aunque no de manera discursiva o ensayística. Marías convierte la guerra de Irak en materia narrativa para cuestionar sus efectos humanos, morales y domésticos."
+          },
+          {
+            "question": "¿Es una lectura rápida?",
+            "answer": "Sí. Es breve, ágil y muy visual, pero deja margen para una lectura más analítica sobre trauma, responsabilidad y representación del horror contemporáneo."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "Ediciones Destino / Planeta, dossier de prensa de Invasor",
+            "url": "https://proapi.planetadelibros.com/descargas/sala-prensa-libro/sinopsis-y-biografia/1218/invasor.pdf"
+          },
+          {
+            "label": "Google Libros, ficha de Invasor",
+            "url": "https://books.google.com/books/about/Invasor.html?id=flFlAAAAMAAJ&hl=es"
+          },
+          {
+            "label": "Casa del Libro, ficha de Invasor",
+            "url": "https://www.casadellibro.com/libro-invasor/9788423336630/986605"
+          },
+          {
+            "label": "Culturamas, entrevista a Fernando Marías por Invasor",
+            "url": "https://www.culturamas.es/2013/01/15/entrevista-a-fernando-marias-por-invasor/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "joseph-andrews-de-henry-fielding",
+      "title": "Joseph Andrews",
+      "authorName": "Henry Fielding",
+      "authorSlug": "henry-fielding",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Joseph Andrews",
+        "authorName": "Henry Fielding",
+        "authorSlug": "henry-fielding",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 1742,
+        "pages": null,
+        "summary": "Joseph Andrews es una de las novelas fundacionales de la narrativa inglesa moderna y, al mismo tiempo, una burla inteligente de la sensibilidad moralizante de su época. Fielding imagina a Joseph como hermano de la Pamela de Samuel Richardson y convierte esa filiación paródica en punto de partida para una aventura llena de incidentes, posadas, equívocos, ataques, sermones y encuentros en el camino. Tras rechazar los avances de Lady Booby, Joseph pierde su empleo y emprende un regreso accidentado junto al despistado pero noble párroco Abraham Adams. En ese trayecto la novela mezcla humor, crítica social, observación de costumbres y una defensa de la bondad práctica frente a la hipocresía. El resultado no es solo una sátira literaria: es también una exploración viva de la moral, la clase social y la dignidad humana.",
+        "aboutThisBook": "Publicado en 1742, The History of the Adventures of Joseph Andrews and of his Friend Mr. Abraham Adams fue el primer gran logro novelesco de Henry Fielding. El propio autor lo definió como un \"comic epic poem in prose\", fórmula que ayuda a entender su ambición: tomar materiales de la épica, de la comedia y de la novela de costumbres para crear un relato expansivo, irónico y profundamente narrativo. Aunque nace en diálogo crítico con Pamela, la obra adquiere pronto autonomía gracias al personaje de Parson Adams, a la riqueza de sus episodios de camino y a su retrato satírico de la sociedad inglesa del siglo XVIII.",
+        "forWhom": "Para lectores de clásicos, estudiantes de literatura inglesa y quienes disfrutan novelas satíricas donde el viaje sirve para observar la sociedad y desmontar sus imposturas.",
+        "whyItMatters": "Importa porque muestra cómo la novela inglesa empezó a encontrar una forma propia: mezcla de comicidad, crítica moral, observación social y libertad estructural. Además, sigue siendo un texto clave para entender la tradición picaresca y la sátira moderna.",
+        "editorialIntro": "Leer Joseph Andrews hoy es volver a un momento en que la novela estaba probando sus posibilidades y descubriendo que podía ser divertida, crítica y ambiciosa al mismo tiempo. Fielding escribe con energía expansiva, gusto por el desvío y una mirada muy afilada sobre la respetabilidad fingida. Lo memorable no es solo la peripecia de Joseph, sino la forma en que cada encuentro en el camino revela una pequeña comedia social.",
+        "readingLevel": "Exige cierta paciencia con la prosa clásica, la ironía del siglo XVIII y las referencias a debates morales de su tiempo, pero se vuelve muy disfrutable con una lectura atenta y contextualizada.",
+        "whyReadToday": "Porque sigue siendo una novela muy lúcida sobre la apariencia de virtud, el abuso de poder, la desigualdad social y la distancia entre los discursos morales y la conducta real.",
+        "studyNotes": [
+          "Fielding concibe la obra como respuesta a Pamela, pero la novela supera pronto la simple parodia y construye una visión propia del mundo social.",
+          "El viaje por caminos, posadas y casas ajenas funciona como dispositivo narrativo para exhibir clases sociales, modales y formas de hipocresía.",
+          "Parson Adams es esencial para leer el libro: su distracción cómica convive con una integridad moral que sirve de contraste frente al oportunismo general.",
+          "La expresión \"comic epic poem in prose\" resume bien la ambición formal de Fielding y ayuda a situar la novela entre la épica burlesca y la narrativa moderna."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El despido y la inversión de Pamela",
+            "summary": "La novela arranca con una inversión satírica del modelo de Richardson: ahora es un criado varón quien debe resistir el deseo de una señora de rango superior. El rechazo de Joseph a Lady Booby desencadena el despido y pone en marcha el conflicto entre integridad moral y poder social."
+          },
+          {
+            "title": "El camino con Parson Adams",
+            "summary": "En la parte central, Joseph recorre caminos peligrosos acompañado por Abraham Adams. Los asaltos, los malentendidos, las posadas y los personajes secundarios convierten el viaje en una galería de conductas humanas donde la bondad, la codicia y la vanidad se cruzan continuamente."
+          },
+          {
+            "title": "Fanny, el reconocimiento y el cierre cómico",
+            "summary": "La relación entre Joseph y Fanny introduce la dimensión sentimental del relato, aunque siempre filtrada por la ironía. Hacia el desenlace, las revelaciones de identidad y las resoluciones típicas de la comedia permiten recomponer el orden y premiar a quienes han conservado lealtad y honestidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Parodia y emancipación del modelo de Richardson",
+            "content": "Joseph Andrews nace como respuesta a Pamela, pero Fielding no se limita a ridiculizarla. Usa la inversión de género y de perspectiva para cuestionar una moral demasiado sentimental y para afirmar una narrativa más abierta, corporal, social y cómica. Esa transformación explica por qué la obra sigue leyéndose por derecho propio."
+          },
+          {
+            "heading": "La carretera como escenario social",
+            "content": "El espacio del camino permite que entren en escena posaderos, clérigos, terratenientes, criados, ladrones y oportunistas. Cada episodio añade un pequeño examen de costumbres y convierte el viaje en un mapa moral de la Inglaterra del siglo XVIII, donde la caridad proclamada rara vez coincide con la conducta efectiva."
+          },
+          {
+            "heading": "Humor, virtud y crítica de la hipocresía",
+            "content": "Fielding no defiende una virtud solemne ni abstracta. Le interesan la generosidad concreta, la fidelidad y la buena disposición frente a un entorno lleno de cálculo social. Por eso el humor no suaviza la crítica: la vuelve más penetrante, porque deja ver con claridad el desfase entre lo que los personajes dicen ser y lo que realmente hacen."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Joseph Andrews es solo una parodia de Pamela?",
+            "answer": "No. Empieza como reacción satírica contra Pamela, pero pronto se convierte en una novela autónoma, con estructura de viaje, amplitud social y personajes memorables como Abraham Adams."
+          },
+          {
+            "question": "¿Por qué es importante en la historia de la novela?",
+            "answer": "Porque suele considerarse uno de los primeros grandes logros de la novela inglesa y un texto decisivo para entender la mezcla moderna de comicidad, observación social y narración en prosa extensa."
+          },
+          {
+            "question": "¿Es difícil de leer hoy?",
+            "answer": "Puede exigir adaptación al estilo del siglo XVIII, pero su humor, su dinamismo episódico y la nitidez de su sátira la vuelven bastante accesible con algo de contexto."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "Encyclopaedia Britannica: Joseph Andrews",
+            "url": "https://www.britannica.com/topic/Joseph-Andrews"
+          },
+          {
+            "label": "Wikipedia: Joseph Andrews",
+            "url": "https://en.wikipedia.org/wiki/Joseph_Andrews"
+          },
+          {
+            "label": "Open Library: The History of the Adventures of Joseph Andrews",
+            "url": "https://openlibrary.org/works/OL45709W/The_History_of_the_Adventures_of_Joseph_Andrews"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "juegos-de-la-edad-tardia-de-luis-landero",
+      "title": "Juegos De La Edad Tardia",
+      "authorName": "Luis Landero",
+      "authorSlug": "luis-landero",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Juegos de la edad tardia",
+        "authorName": "Luis Landero",
+        "authorSlug": "luis-landero",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 1989,
+        "pages": null,
+        "summary": "Juegos de la edad tardía cuenta la historia de Gregorio Olías, un hombre gris, rutinario y casi invisible que inventa para sí mismo una identidad más brillante: Faroni, figura imaginaria capaz de vivir la aventura, el prestigio y la intensidad que la existencia cotidiana le niega. A partir de esa impostura, Luis Landero construye una novela sobre la potencia de la imaginación y sobre sus peligros, porque soñar también puede convertirse en una trampa cuando reemplaza por completo la realidad. El libro alterna humor, melancolía, memoria y desmesura verbal para retratar a personajes que quieren ser más de lo que son y que convierten la conversación en escenario de invención. Bajo esa apariencia lúdica, la novela examina la frustración, el deseo de ascenso y la necesidad humana de fabularse otra vida.",
+        "aboutThisBook": "Publicada en 1989, esta primera novela de Luis Landero obtuvo el Premio de la Crítica y el Premio Nacional de Narrativa, algo que la situó de inmediato como una obra central de la narrativa española contemporánea. Su importancia no depende solo de los premios: la novela sorprendió por una voz muy personal, capaz de unir oralidad, imaginación desbordada, observación de la mediocridad cotidiana y una rara mezcla de comicidad y tristeza. La peripecia de Gregorio Olías y su alias Faroni sirve a Landero para explorar la frontera entre identidad real e identidad soñada, entre la vida trabajosa y la novela secreta que cada uno quisiera vivir.",
+        "forWhom": "Para lectores de literatura española contemporánea, clubes de lectura y estudiantes interesados en novelas sobre identidad, imaginación, fracaso social y construcción del yo.",
+        "whyItMatters": "Sigue importando porque convirtió la vida mediocre de personajes corrientes en materia de gran ambición literaria. Además, su reflexión sobre la autoficción íntima, el deseo de ser otro y la fantasía compensatoria conserva una enorme vigencia.",
+        "editorialIntro": "Hay novelas que narran hazañas y novelas que muestran cómo una vida aparentemente vulgar necesita inventarse una épica para soportarse. Juegos de la edad tardía pertenece a esa segunda estirpe y lo hace con una prosa exuberante, muy oral y muy precisa. Landero transforma el tedio en fábula, la frustración en delirio narrativo y la conversación en un mecanismo que fabrica mundos posibles y también peligrosos.",
+        "readingLevel": "Es una lectura de dificultad media-alta por la riqueza verbal, los cambios de tono y la importancia de captar ironías, ecos simbólicos y capas de memoria, aunque su fuerza narrativa sostiene muy bien el avance.",
+        "whyReadToday": "Porque dialoga con una ansiedad muy contemporánea: la presión de inventarse una versión más fascinante de uno mismo y el desgaste emocional que esa ficción produce cuando choca con la realidad.",
+        "studyNotes": [
+          "La novela gira alrededor de la impostura, pero no la trata solo como engaño: también la piensa como deseo de plenitud y resistencia imaginativa frente a una vida pobre.",
+          "Gregorio Olías y Faroni funcionan como doble real e ideal, una escisión que permite estudiar identidad, máscara y narración del yo.",
+          "El libro combina comicidad verbal con una honda melancolía; esa mezcla explica buena parte de su originalidad dentro de la narrativa española reciente.",
+          "Conviene relacionar la obra con tradiciones picarescas y quijotescas, porque el impulso fabulador de sus personajes reescribe ambas herencias en clave contemporánea."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Gregorio Olías y el nacimiento de Faroni",
+            "summary": "El comienzo presenta a un protagonista atrapado en una existencia rutinaria, sentimentalmente frustrada y socialmente deslucida. De ese vacío nace Faroni, el nombre imaginario con el que Gregorio ensaya una vida más alta, más audaz y más digna de ser contada."
+          },
+          {
+            "title": "La palabra como maquinaria de invencion",
+            "summary": "En la zona central de la novela, las conversaciones y relatos exagerados van dando espesor al personaje inventado. Landero muestra cómo la palabra no solo describe la realidad, sino que puede remodelarla, seducir a otros y comprometer a quien la pronuncia."
+          },
+          {
+            "title": "Cuando la fantasia exige consecuencias",
+            "summary": "A medida que la impostura avanza, Gregorio descubre que una identidad soñada también impone costos. El juego deja de ser inocente y la novela examina la tensión entre la grandeza imaginaria y la fragilidad real de quienes han querido vivir por encima de sí mismos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La impostura como deseo de otra vida",
+            "content": "Faroni no es solo una mentira funcional, sino la forma que toma una carencia profunda. Landero entiende que muchos sujetos corrientes necesitan inventarse una biografía más intensa para soportar la conciencia de haber quedado al margen de sus propios sueños. Esa mirada vuelve compleja la novela: no juzga de manera simple, sino que comprende y a la vez muestra el riesgo del autoengaño."
+          },
+          {
+            "heading": "Oralidad, exceso y estilo",
+            "content": "Una de las grandes virtudes del libro está en su música verbal. La sintaxis dilatada, las enumeraciones, los rodeos narrativos y el placer de contar convierten la prosa en un espectáculo de invención. Ese exceso no es decorativo: expresa justamente el impulso de engrandecer una realidad pobre mediante el lenguaje."
+          },
+          {
+            "heading": "Entre lo quijotesco y lo contemporaneo",
+            "content": "La novela recuerda al Quijote en su apuesta por una imaginación que reorganiza el mundo, pero lo hace desde la España urbana y desencantada de fines del siglo XX. El heroísmo aquí no nace de libros de caballerías, sino de la necesidad moderna de escapar a la insignificancia y de producir una identidad narrable."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata en el fondo Juegos de la edad tardía?",
+            "answer": "Trata sobre un hombre común que inventa una identidad más admirable para compensar su frustración y, a partir de ese gesto, explora la relación entre imaginación, mentira, deseo y dignidad."
+          },
+          {
+            "question": "¿Por qué fue tan importante la novela de Landero?",
+            "answer": "Porque su publicación reveló una voz literaria muy singular y obtuvo reconocimientos decisivos como el Premio de la Crítica y el Premio Nacional de Narrativa, además de convertirse en una referencia duradera de la narrativa española contemporánea."
+          },
+          {
+            "question": "¿Es una novela realista o fantástica?",
+            "answer": "Se apoya en una base realista, pero introduce una imaginación verbal y una atmósfera de desmesura que acercan la experiencia cotidiana a una especie de fabulacion casi legendaria."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "Wikipedia: Juegos de la edad tardía",
+            "url": "https://es.wikipedia.org/wiki/Juegos_de_la_edad_tard%C3%ADa"
+          },
+          {
+            "label": "Open Library: Juegos de la edad tardía",
+            "url": "https://openlibrary.org/works/OL745981W/Juegos_de_la_edad_tard%C3%ADa"
+          },
+          {
+            "label": "Cátedra: Juegos de la edad tardía",
+            "url": "https://catedra.com/libro/letras-hispanicas/juegos-de-la-edad-tardia-luis-landero-9788437638164/"
+          },
+          {
+            "label": "Casa del Libro: Juegos de la edad tardía",
+            "url": "https://www.casadellibro.com/libro-juegos-de-la-edad-tardia/9788490667040/9380212"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "jugando-con-fuego-de-walter-riso",
+      "title": "Jugando Con Fuego",
+      "authorName": "Walter Riso",
+      "authorSlug": "walter-riso",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Jugando con fuego",
+        "authorName": "Walter Riso",
+        "authorSlug": "walter-riso",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "desarrollo-personal"
+        ],
+        "year": 2000,
+        "pages": 188,
+        "summary": "En Jugando con fuego, Walter Riso aborda el deseo de infidelidad, las relaciones clandestinas y las ambivalencias afectivas desde un registro de divulgación psicológica orientado al lector general. El libro no se limita a condenar el adulterio de manera moralista ni a romantizarlo como simple aventura: intenta explicar qué impulsos, vacíos, fantasías y autoengaños suelen activarse cuando una persona entra en una doble vida amorosa. A partir de casos, reflexiones y argumentos accesibles, Riso examina la tensión entre pasión, compromiso, culpa, autojustificación y daño emocional. El centro del libro es una pregunta incómoda: qué significa realmente la fidelidad y por qué muchas personas invocan el amor mientras sostienen conductas que lo contradicen. Por eso funciona a la vez como ensayo práctico, advertencia psicológica y herramienta de discusión sobre vínculos adultos.",
+        "aboutThisBook": "Publicado originalmente por Norma, este libro apareció también bajo el subtítulo Amores clandestinos y otros enredos afectivos y en ediciones relacionadas con la idea de que la fidelidad es mucho más que amor. Esa variación editorial resume bien su enfoque: Riso no trata la fidelidad como una consigna abstracta, sino como un problema emocional, cognitivo y ético. Su escritura combina observaciones clínicas simplificadas para el gran público, tono directo y voluntad pedagógica. Más que ofrecer una teoría académica de la pareja, el autor busca que el lector reconozca mecanismos muy comunes en los vínculos paralelos: racionalización, idealización del amante, fragmentación de la identidad y consecuencias del engaño sostenido.",
+        "forWhom": "Para lectores adultos interesados en psicologia de pareja, fidelidad, dependencia emocional y toma de decisiones afectivas en contextos de ambivalencia o crisis relacional.",
+        "whyItMatters": "Importa porque pone nombre a una zona muy frecuente pero poco analizada con franqueza: la mezcla de deseo, mentira, culpa y autoengaño que acompaña a las relaciones clandestinas. Su valor está en volver discutible lo que muchos suelen vivir en secreto.",
+        "editorialIntro": "Los libros de Walter Riso suelen intervenir en conflictos sentimentales concretos con una mezcla de claridad, tono terapéutico y voluntad polémica. Jugando con fuego pertenece a esa línea, pero toca un tema especialmente delicado: la infidelidad no como accidente aislado, sino como entramado psicológico y moral. Por eso su lectura resulta útil incluso cuando uno no comparte todas sus conclusiones, porque obliga a pensar cómo se justifican los deseos y qué costo afectivo tienen ciertas decisiones.",
+        "readingLevel": "Lectura accesible para publico general adulto: lenguaje directo, ejemplos comprensibles y argumentos psicológicos presentados sin tecnicismo excesivo, aunque conviene leerlo con mirada critica y comparativa.",
+        "whyReadToday": "Porque las discusiones sobre exclusividad, lealtad, honestidad emocional y relaciones paralelas siguen plenamente vigentes, y el libro ofrece un vocabulario claro para pensar esas tensiones sin trivializarlas.",
+        "studyNotes": [
+          "El núcleo del libro no es solo la infidelidad consumada, sino el conjunto de autojustificaciones que la vuelven psicológicamente tolerable para quien engaña.",
+          "Riso plantea la fidelidad como una práctica ética y emocional, no únicamente como una norma social o religiosa.",
+          "Las relaciones clandestinas aparecen asociadas a idealización, fragmentación del yo y conflicto entre deseo inmediato y responsabilidad afectiva.",
+          "Conviene leer el texto como divulgación psicológica: es útil por su claridad, pero no sustituye enfoques clínicos o académicos más matizados sobre la pareja."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La atraccion de lo prohibido",
+            "summary": "El libro abre examinando por qué lo clandestino intensifica el deseo y facilita la fantasía. Riso sugiere que buena parte del magnetismo de una aventura no reside solo en la persona deseada, sino en la excitación psicológica de transgredir un límite."
+          },
+          {
+            "title": "Autoengaño, doble vida y racionalizaciones",
+            "summary": "En la parte central se analizan los argumentos con que muchas personas justifican la infidelidad: sentirse incomprendidas, separar sexo y amor, prometer un final que nunca llega o creer que nadie saldrá herido. El libro insiste en que esa narrativa protege momentáneamente, pero profundiza el conflicto."
+          },
+          {
+            "title": "Fidelidad como decision y responsabilidad",
+            "summary": "Hacia el cierre, Riso propone pensar la fidelidad más allá del romanticismo. La presenta como una elección consciente vinculada con la honestidad, el respeto y la coherencia entre lo que se siente, lo que se promete y lo que efectivamente se hace."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La infidelidad como problema psicologico y etico",
+            "content": "Uno de los aciertos del libro es no reducir la infidelidad a pecado ni a simple anécdota romántica. Riso la estudia como una red de decisiones, emociones y distorsiones cognitivas que afectan tanto a quien engaña como a quien resulta engañado. Esa doble dimensión vuelve más rica la discusión."
+          },
+          {
+            "heading": "El peso de la racionalizacion",
+            "content": "El texto muestra que las dobles relaciones suelen sostenerse mediante relatos justificatorios: \"me lo merezco\", \"no hago daño\", \"es solo pasión\" o \"ya terminaré mi relación principal\". Analizar esas fórmulas ayuda a entender que el autoengaño no es un detalle accesorio, sino un mecanismo central del enredo afectivo."
+          },
+          {
+            "heading": "Utilidad practica y limites del enfoque",
+            "content": "Como obra de divulgación, el libro gana en claridad y capacidad de interpelación, pero simplifica algunos contextos complejos. Su mayor valor está en ofrecer lenguaje y criterios para discutir honestidad, deseo y compromiso; su límite aparece cuando las situaciones concretas exigen más matices de los que un manual puede ofrecer."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Jugando con fuego es un libro moralista sobre el adulterio?",
+            "answer": "Tiene un componente normativo claro, pero su enfoque principal es psicológico: intenta explicar cómo se forman y se sostienen las relaciones clandestinas, qué autoengaños las acompañan y qué daño suelen producir."
+          },
+          {
+            "question": "¿El libro sirve solo para personas que han sido infieles?",
+            "answer": "No. También puede resultar útil para quienes quieren pensar la fidelidad, los límites en la pareja, la honestidad emocional y las señales de ambivalencia en una relación."
+          },
+          {
+            "question": "¿Qué aporta frente a otros libros de Walter Riso?",
+            "answer": "Aporta un foco muy concreto en los vínculos paralelos y en la psicología del engaño afectivo, un tema que el autor trata con su estilo habitual: directo, práctico y orientado a la reflexión sobre la conducta cotidiana."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "Open Library: Jugando con fuego",
+            "url": "https://openlibrary.org/works/OL5995998W/Jugando_con_fuego"
+          },
+          {
+            "label": "Planeta de Libros Chile: Jugando con fuego",
+            "url": "https://www.planetadelibros.cl/libro-jugando-con-fuego/127797"
+          },
+          {
+            "label": "Casa del Libro: Jugando con fuego",
+            "url": "https://www.casadellibro.com/libro-jugando-con-fuego-somos-infieles-por-naturaleza-como-prevenir-y-afrontar-la-infidelidad/9788408080015/1653807"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "julia-de-w-somerset-maugham",
+      "title": "Julia",
+      "authorName": "W Somerset Maugham",
+      "authorSlug": "w-somerset-maugham",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Julia",
+        "authorName": "W. Somerset Maugham",
+        "authorSlug": "w-somerset-maugham",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 1937,
+        "pages": 288,
+        "summary": "Publicada originalmente como \"Theatre\" y conocida en español como \"Julia\", esta novela sigue a Julia Lambert, una actriz célebre de mediana edad que domina los escenarios londinenses con una mezcla de oficio, intuición y vanidad. En apariencia controla su carrera, su matrimonio y su prestigio, pero la llegada de Tom Fennell, un admirador mucho más joven, desordena su equilibrio emocional. Maugham convierte ese vínculo en una exploración incisiva del deseo, el autoengaño y la teatralidad de la vida social. A medida que Julia descubre que el romance la expone al ridículo y a la humillación, la novela se desplaza hacia una refinada revancha artística. El resultado es un retrato brillante de una mujer que entiende que actuar no es sólo su profesión: también es su forma de sobrevivir.",
+        "aboutThisBook": "\"Julia\" es una novela breve y muy afilada sobre el mundo del teatro, la edad, el prestigio y la manipulación sentimental. Maugham observa a su protagonista con ironía, pero también con una admiración evidente por su inteligencia escénica. La obra interesa tanto como retrato psicológico como por su reflexión sobre la frontera entre autenticidad y representación: en Julia Lambert, la interpretación acaba invadiendo la intimidad, el matrimonio, el deseo y la venganza.",
+        "forWhom": "Ideal para lectores de clásicos del siglo XX, novelas sobre artistas, retratos femeninos complejos y tramas donde la inteligencia pesa más que la acción externa.",
+        "whyItMatters": "Sigue importando porque muestra cómo el carisma, la fama y la performance pública moldean la identidad. Su mirada sobre el envejecimiento, la vulnerabilidad narcisista y el uso del arte como contraataque emocional conserva una vigencia sorprendente.",
+        "editorialIntro": "Pocas novelas retratan con tanta elegancia el orgullo herido como esta historia de una gran actriz obligada a reconocer que fuera del escenario también interpreta un papel. Maugham combina comedia social, precisión psicológica y un conocimiento finísimo del teatro para construir una protagonista inolvidable, inteligente y cruel por necesidad.",
+        "readingLevel": "Accesible para lectores habituales de narrativa clásica: el estilo es claro, pero conviene atender a la ironía, los matices psicológicos y los dobles sentidos sociales.",
+        "whyReadToday": "Porque habla de imagen pública, deseo, ego y envejecimiento con una lucidez que dialoga muy bien con la cultura contemporánea de la exposición y la performance personal.",
+        "studyNotes": [
+          "La novela fue publicada en 1937 con el título original \"Theatre\"; \"Julia\" corresponde a una edición y recepción en español centradas en su protagonista.",
+          "El eje del libro no es sólo el adulterio o la pasión tardía, sino la relación entre identidad y actuación.",
+          "Maugham usa el mundo teatral para satirizar a la burguesía cultivada y sus jerarquías afectivas.",
+          "Julia Lambert es un personaje clave para estudiar la mezcla de vulnerabilidad íntima y control escénico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: una estrella en equilibrio inestable",
+            "summary": "Julia Lambert aparece como una actriz consagrada, admirada por el público y sostenida por una maquinaria profesional muy eficaz. Sin embargo, bajo ese control emergen el cansancio, la edad y la necesidad de sentirse todavía deseada fuera del aplauso."
+          },
+          {
+            "title": "Segunda parte: pasión, autoengaño y dependencia",
+            "summary": "La relación con Tom Fennell despierta en Julia una mezcla de entusiasmo amoroso y regresión emocional. Lo que parecía una revitalización íntima revela pronto una dependencia desigual, en la que ella proyecta fantasías mientras él actúa con oportunismo y frivolidad."
+          },
+          {
+            "title": "Tercera parte: el escenario como venganza",
+            "summary": "Cuando Julia comprende el alcance de la humillación, recupera su verdadera zona de poder: la escena. Allí transforma el dolor en cálculo artístico y usa su talento para imponer una forma de justicia teatral que reafirma su dominio sobre los demás."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Actuar como forma de identidad",
+            "content": "La novela plantea que Julia no separa del todo persona y personaje. Su oficio le ha dado una sensibilidad extraordinaria para leer a los demás, pero también le impide vivir sin construir una imagen. Esa ambigüedad vuelve más compleja su vida amorosa y su relación consigo misma."
+          },
+          {
+            "heading": "Edad, deseo y prestigio",
+            "content": "Maugham examina la ansiedad que produce en una mujer famosa el paso del tiempo en una sociedad que valora la juventud como capital erótico. Julia no lucha sólo por amor, sino por conservar la certeza de seguir siendo central en la mirada ajena."
+          },
+          {
+            "heading": "La inteligencia cruel de la comedia social",
+            "content": "Aunque la novela tiene un fondo melancólico, su tono dominante es irónico. Maugham observa con precisión los rituales del teatro, el matrimonio burgués y la ambición de clase, y convierte ese mundo en una comedia sofisticada sobre poder y humillación."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿\"Julia\" y \"Theatre\" son el mismo libro?",
+            "answer": "Sí. La obra original de 1937 se titula \"Theatre\" y varias ediciones en español circularon como \"Julia\", en referencia a Julia Lambert, su protagonista."
+          },
+          {
+            "question": "¿Es una novela romántica?",
+            "answer": "Incluye una historia amorosa decisiva, pero funciona mejor como novela psicológica y sátira social del mundo teatral y de las relaciones de poder."
+          },
+          {
+            "question": "¿Qué hace memorable a Julia Lambert?",
+            "answer": "Su mezcla de talento, lucidez, vanidad, inseguridad y capacidad de transformar la herida íntima en dominio escénico."
+          },
+          {
+            "question": "¿Se lee bien hoy?",
+            "answer": "Sí. Su prosa es fluida y su análisis de la imagen pública, la manipulación afectiva y el envejecimiento resulta muy actual."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "Open Library: edición española de Julia (2004)",
+            "url": "https://openlibrary.org/books/OL9134195M/Julia"
+          },
+          {
+            "label": "Open Library: ficha de obra con descripción",
+            "url": "https://openlibrary.org/works/OL9055682W"
+          },
+          {
+            "label": "Wikipedia: Theatre (novel)",
+            "url": "https://en.wikipedia.org/wiki/Theatre_(novel)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-alta-edad-media-de-isaac-asimov",
+      "title": "La Alta Edad Media",
+      "authorName": "Isaac Asimov",
+      "authorSlug": "isaac-asimov",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La Alta Edad Media",
+        "authorName": "Isaac Asimov",
+        "authorSlug": "isaac-asimov",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1968,
+        "pages": 336,
+        "summary": "En \"La Alta Edad Media\", Isaac Asimov aborda el largo periodo que se abre con la descomposición del Imperio romano de Occidente y que culmina con la formación de nuevas estructuras políticas en Europa. Lejos de tratar la época como un simple vacío entre la Antigüedad y el esplendor medieval posterior, Asimov la explica como una etapa de transición compleja en la que confluyen invasiones, mestizajes culturales, reinos germánicos, la expansión del cristianismo y la reorganización del poder. Su gran virtud está en ordenar procesos muy amplios sin perder claridad narrativa. A través de reyes, pueblos, instituciones y conflictos, el libro muestra cómo de las llamadas \"edades oscuras\" surgieron las bases de la Europa medieval, con especial atención al ascenso de los francos y a la figura de Carlomagno.",
+        "aboutThisBook": "Este volumen forma parte de la serie histórica de divulgación de Asimov y condensa en un lenguaje claro un periodo que a menudo se presenta de forma confusa en manuales introductorios. El autor no escribe para especialistas, sino para lectores que necesitan una visión de conjunto bien articulada. Su enfoque privilegia la continuidad histórica: interesa menos el dato aislado que la cadena de causas y consecuencias que enlaza la caída de Roma con el nuevo mapa político europeo.",
+        "forWhom": "Muy recomendable para estudiantes, lectores de historia general y quienes buscan una introducción sólida a la Alta Edad Media antes de pasar a estudios más académicos o especializados.",
+        "whyItMatters": "Importa porque ayuda a desmontar la idea simplista de una época puramente oscura o estancada. Asimov muestra la Alta Edad Media como un laboratorio de reorganización política, religiosa y cultural del que nacen instituciones y equilibrios decisivos para Europa.",
+        "editorialIntro": "Asimov aplica aquí una de sus grandes virtudes como divulgador: volver legible un periodo extenso, fragmentado y lleno de nombres, linajes y desplazamientos de poder. El libro funciona como mapa narrativo de siglos decisivos y permite entender por qué la caída de un imperio no significó el fin de la historia, sino el comienzo de otra configuración del mundo occidental.",
+        "readingLevel": "Nivel medio: la prosa es directa y didáctica, pero exige atención para seguir la sucesión de pueblos, dinastías, territorios y cambios institucionales a lo largo de varios siglos.",
+        "whyReadToday": "Porque ofrece contexto histórico valioso para comprender la formación de Europa, la persistencia del legado romano y la simplificación abusiva con la que todavía se habla de las \"edades oscuras\".",
+        "studyNotes": [
+          "El libro pertenece a la serie divulgativa de historia universal de Asimov, centrada en grandes procesos políticos y culturales.",
+          "Conviene leerlo como una panorámica interpretativa, no como una monografía especializada sobre cada reino o región.",
+          "Uno de sus ejes es la transición entre el mundo romano y las nuevas estructuras medievales occidentales.",
+          "La figura de Carlomagno aparece como culminación simbólica de una etapa de reorganización histórica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: del derrumbe romano a las invasiones",
+            "summary": "Asimov sitúa la crisis del Imperio romano de Occidente y explica cómo las migraciones e invasiones germánicas alteraron el equilibrio político heredado de la Antigüedad. El foco está en entender la transformación de las estructuras imperiales, no sólo su colapso."
+          },
+          {
+            "title": "Segunda parte: reinos sucesores y nuevas legitimidades",
+            "summary": "El libro sigue la evolución de los pueblos instalados en territorio romano y analiza cómo visigodos, ostrogodos, francos y otros grupos construyeron formas de autoridad propias, combinando herencias romanas con prácticas políticas nuevas."
+          },
+          {
+            "title": "Tercera parte: del orden franco a Carlomagno",
+            "summary": "La narración culmina con el fortalecimiento del poder franco y con la figura de Carlomagno como punto de reorganización imperial y cultural. Asimov presenta este momento como cierre de una fase y umbral de otra edad medieval."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Contra la idea de una oscuridad homogénea",
+            "content": "Uno de los aportes más útiles del libro es mostrar que la Alta Edad Media no fue un bloque uniforme de decadencia. Hubo pérdidas materiales y fractura política, pero también recomposición institucional, circulación de ideas y adaptación de herencias romanas."
+          },
+          {
+            "heading": "La pedagogía histórica de Asimov",
+            "content": "Asimov organiza los hechos con criterio narrativo. Su método consiste en simplificar sin banalizar: aclara genealogías, enlaza procesos y da al lector una línea temporal comprensible. Esa vocación didáctica explica la perdurabilidad del libro como introducción."
+          },
+          {
+            "heading": "Carlomagno como figura de síntesis",
+            "content": "El cierre en torno a Carlomagno no responde sólo a la fama del personaje. En la lógica del libro, representa la posibilidad de articular continuidad romana, poder cristiano y hegemonía franca en un nuevo marco político europeo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro académico o de divulgación?",
+            "answer": "Es un libro de divulgación histórica escrito con rigor general y vocación pedagógica. Está pensado para ofrecer una visión de conjunto clara y útil."
+          },
+          {
+            "question": "¿Hace falta saber historia medieval antes de leerlo?",
+            "answer": "No. Precisamente funciona muy bien como puerta de entrada para entender cronologías, pueblos y procesos antes de abordar lecturas más especializadas."
+          },
+          {
+            "question": "¿Qué periodo cubre en términos generales?",
+            "answer": "Se concentra en los siglos posteriores a la caída del Imperio romano de Occidente y llega hasta la consolidación del orden carolingio en torno a Carlomagno."
+          },
+          {
+            "question": "¿Por qué sigue siendo útil si es un libro de hace décadas?",
+            "answer": "Porque conserva una gran claridad expositiva y ayuda a ordenar un periodo históricamente complejo, aunque siempre puede complementarse con estudios recientes sobre aspectos concretos."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "Alianza Editorial: La Alta Edad Media",
+            "url": "https://alianzaeditorial.es/libro/historia/la-alta-edad-media-isaac-asimov-9788420674575/"
+          },
+          {
+            "label": "Open Library: edición española",
+            "url": "https://openlibrary.org/books/OL35634232M/La_Alta_Edad_Media"
+          },
+          {
+            "label": "Open Library: obra original The Dark Ages",
+            "url": "https://openlibrary.org/works/OL46101W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-asesina-ilustrada-de-enrique-vila-matas",
+      "title": "La Asesina Ilustrada",
+      "authorName": "Enrique Vila Matas",
+      "authorSlug": "enrique-vila-matas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La asesina ilustrada",
+        "authorName": "Enrique Vila-Matas",
+        "authorSlug": "enrique-vila-matas",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 1977,
+        "pages": 88,
+        "summary": "\"La asesina ilustrada\" es la primera novela de Enrique Vila-Matas y ya contiene varias de las obsesiones que marcarían su obra: la literatura como virus, la escritura como juego peligroso y la frontera inestable entre narración, comentario y sabotaje. La premisa es tan simple como perturbadora: imaginar un libro criminal, una obra capaz de matar a sus lectores. A partir de ahí, Vila-Matas construye una pieza breve, extraña y muy consciente de sí misma, donde lo importante no es la intriga en sentido clásico sino el modo en que la idea de un texto letal altera la relación entre autor, lector y relato. El libro dialoga con la tradición de Unamuno, con el ambiente literario parisino y con una sensibilidad irónica que convierte la lectura en experiencia de riesgo, deseo y autodestrucción.",
+        "aboutThisBook": "Esta novela breve, escrita en los años parisinos del autor y publicada en 1977, suele leerse como un laboratorio temprano de la poética vilamatiana. Más que desarrollar una trama convencional, ensaya una hipótesis literaria: qué ocurriría si la literatura dejara de ser representación y se volviera un agente de consecuencias reales, incluso mortales. Su interés reside en la condensación, el tono inquietante y el juego metaliterario con la figura del lector.",
+        "forWhom": "Especialmente recomendable para lectores de metaficción, narrativa breve experimental y para quienes quieran conocer el primer Vila-Matas antes de sus novelas más celebradas.",
+        "whyItMatters": "Importa porque anticipa con nitidez la relación entre literatura y vida que luego definirá gran parte de la obra de Vila-Matas. También propone una pregunta fértil: hasta qué punto leer transforma, contagia o desestabiliza a quien entra en un texto.",
+        "editorialIntro": "Antes de convertirse en una de las voces más reconocibles de la literatura en español, Vila-Matas publicó esta novela breve y radical donde ya late su imaginación libresca. \"La asesina ilustrada\" no busca acomodar al lector: lo invita a entrar en una trampa literaria donde la escritura es fetiche, amenaza y comentario sobre sí misma.",
+        "readingLevel": "Medio-alto: la extensión es breve, pero el libro exige familiaridad con la ironía, la intertextualidad y los desplazamientos propios de la metaficción.",
+        "whyReadToday": "Porque en tiempos de saturación textual y lecturas aceleradas, esta novela recuerda que un libro puede ser una fuerza de perturbación y no sólo un objeto de consumo cultural.",
+        "studyNotes": [
+          "Fue la primera novela publicada de Enrique Vila-Matas y un antecedente claro de sus futuras ficciones metaliterarias.",
+          "La idea del \"libro que mata\" enlaza con una tradición de obras autoconscientes y con referencias explícitas a Unamuno.",
+          "El contexto parisino y la cercanía simbólica con Marguerite Duras forman parte del mito de origen del libro.",
+          "Su brevedad no implica simplicidad: conviene leerla atendiendo a su dimensión conceptual más que a la trama lineal."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: la hipótesis del libro criminal",
+            "summary": "La novela presenta la idea central de una escritura capaz de actuar sobre la realidad de un modo extremo. Desde ese punto de partida, el lector entra en un espacio donde la literatura deja de ser inocente y se convierte en amenaza."
+          },
+          {
+            "title": "Desarrollo: lectura, obsesión y contagio",
+            "summary": "A medida que el motivo del libro letal se despliega, la obra explora el efecto mental y simbólico de la lectura. El texto insiste menos en explicar reglas que en intensificar la inquietud y el extrañamiento."
+          },
+          {
+            "title": "Cierre: literatura contra el lector",
+            "summary": "La parte final refuerza el juego metaficcional y deja al lector ante una paradoja central: el deseo de seguir leyendo precisamente aquello que podría destruirlo. Esa tensión resume la poética del libro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una poética temprana de Vila-Matas",
+            "content": "Muchas constantes del autor ya están aquí: fascinación por escritores reales, tramas construidas desde una idea literaria y una sospecha continua de que la lectura modifica la vida. El libro vale tanto por sí mismo como por lo que anuncia."
+          },
+          {
+            "heading": "El libro como objeto peligroso",
+            "content": "La novela lleva al extremo una intuición clásica: leer nunca es del todo inocuo. Al imaginar un texto que mata, Vila-Matas dramatiza el poder perturbador de la ficción y convierte al lector en parte del experimento."
+          },
+          {
+            "heading": "Brevedad, rareza y tradición experimental",
+            "content": "Su forma breve intensifica el efecto conceptual. No busca el desarrollo psicológico tradicional, sino una condensación próxima al artefacto literario, la fábula intelectual y el relato de culto."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es realmente la primera novela de Vila-Matas?",
+            "answer": "Sí, fue publicada en 1977 y suele considerarse su primer libro narrativo de referencia dentro de su trayectoria."
+          },
+          {
+            "question": "¿Tiene una trama convencional?",
+            "answer": "No del todo. Funciona mejor como novela breve de idea, centrada en una hipótesis metaliteraria y en la inquietud que genera, más que en una intriga lineal clásica."
+          },
+          {
+            "question": "¿Por qué se la considera metaficción?",
+            "answer": "Porque convierte la propia literatura en tema, problema y motor narrativo: el libro habla de libros, lectores, autores y del poder de la escritura sobre la realidad."
+          },
+          {
+            "question": "¿Es una buena puerta de entrada a Vila-Matas?",
+            "answer": "Sí, sobre todo para lectores interesados en ver el origen de sus obsesiones literarias. Si se busca una novela más amplia y narrativa, conviene complementarla con títulos posteriores."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "Web oficial de Enrique Vila-Matas: La asesina ilustrada",
+            "url": "https://www.enriquevilamatas.com/obra/l_laasesinailustrada.html"
+          },
+          {
+            "label": "MB Agencia Literaria: La asesina ilustrada",
+            "url": "https://mbagencialiteraria.es/books/la-asesina-ilustrada/"
+          },
+          {
+            "label": "Open Library: edición de 1977",
+            "url": "https://openlibrary.org/books/OL4308828M/La_asesina_ilustrada"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-asombrosa-historia-del-viajero-de-las-estrellas-de-jordi-sierra-i-fabra",
+      "title": "La Asombrosa Historia Del Viajero De Las Estrellas",
+      "authorName": "Jordi Sierra I Fabra",
+      "authorSlug": "jordi-sierra-i-fabra",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La asombrosa historia del viajero de las estrellas",
+        "authorName": "Jordi Sierra i Fabra",
+        "authorSlug": "jordi-sierra-i-fabra",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasia"
+        ],
+        "year": 2003,
+        "pages": 106,
+        "summary": "La novela arranca con una situación de peligro inmediato: tres piratas serán juzgados por la Corona española hacia 1700, y uno de ellos intenta salvar la vida contando por escrito la verdadera historia que lo llevó hasta allí. Desde ese marco casi judicial, Jordi Sierra i Fabra abre una aventura fantástica de gran impulso narrativo. El relato encadena viajes imposibles, criaturas y espacios extraordinarios, travesías submarinas y episodios que llevan la imaginación más allá del horizonte terrestre. La gracia del libro está en cómo combina el tono de fábula de aventuras con una defensa del poder del relato: el protagonista no solo quiere demostrar su inocencia, también necesita que alguien crea en lo que vio. Breve, dinámica y muy visual, la obra funciona como puerta de entrada a la fantasía para lectores jóvenes.",
+        "aboutThisBook": "Este libro propone una fantasía de aire clásico, con ecos de novela marinera, cuento de maravillas y relato de viajes extraordinarios. Su estructura enmarca la acción dentro de una confesión escrita, de modo que la aventura no aparece aislada: depende de la credibilidad de quien la cuenta y de la disposición del lector a aceptar lo imposible. Esa combinación vuelve la lectura especialmente ágil y, al mismo tiempo, útil para comentar cómo una historia se construye para convencer, emocionar y asombrar.",
+        "forWhom": "Muy recomendable para lectores juveniles, mediadores de lectura y aulas que busquen una fantasía breve, legible y con mucho movimiento narrativo.",
+        "whyItMatters": "Importa porque muestra una faceta muy accesible de Jordi Sierra i Fabra: imaginación desbordada, ritmo alto y una clara confianza en la lectura como experiencia de descubrimiento. Además, permite trabajar la frontera entre aventura, fantasía y relato enmarcado.",
+        "editorialIntro": "Hay libros que se leen como si un narrador se sentara enfrente y empezara a hablar antes de que nadie pueda interrumpirlo. Eso ocurre aquí: una condena inminente abre paso a una historia fabulosa que mezcla piratas, viajes imposibles y asombro puro. En pocas páginas, Sierra i Fabra consigue que la imaginación avance con naturalidad y que la intriga no decaiga.",
+        "readingLevel": "Accesible desde últimos cursos de primaria y primeros de secundaria; el vocabulario es manejable y la principal exigencia está en seguir el marco narrativo y aceptar el juego fantástico.",
+        "whyReadToday": "Sigue siendo una buena lectura porque recuerda que la fantasía no necesita enormes sagas para resultar memorable: basta una voz convincente, una aventura intensa y una imaginación capaz de ensanchar el mundo.",
+        "studyNotes": [
+          "Fíjate en el marco inicial del juicio: no es un adorno, sino el mecanismo que da tensión y credibilidad al relato fantástico.",
+          "Observa cómo el protagonista narra para salvarse: contar bien la historia forma parte del conflicto.",
+          "Relaciona la obra con la tradición del viaje maravilloso, desde los relatos marinos hasta la fantasía juvenil moderna.",
+          "Comenta el valor simbólico del viaje: no solo desplaza al personaje por espacios extraños, también lo pone a prueba ante la incredulidad ajena."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El tribunal y la confesión",
+            "summary": "La historia comienza con la condena inminente de tres piratas. Uno de ellos se declara inocente y solicita tiempo para escribir la secuencia de hechos que lo llevó hasta ese punto, creando un marco de urgencia y suspense."
+          },
+          {
+            "title": "Parte 2: El viaje hacia lo extraordinario",
+            "summary": "La narración se aparta del mundo ordinario y entra en territorios maravillosos: reinos ocultos, travesías imposibles y escenarios que amplían el horizonte del protagonista más allá de la experiencia común."
+          },
+          {
+            "title": "Parte 3: Pruebas, maravillas y supervivencia",
+            "summary": "Cada episodio del viaje pone al narrador frente a peligros y descubrimientos que exigen ingenio, resistencia y capacidad de asombro. La aventura se sostiene en la acumulación de hazañas y en la pregunta de si serán creídas."
+          },
+          {
+            "title": "Parte 4: El regreso al presente del relato",
+            "summary": "La tensión vuelve al marco inicial: lo importante ya no es solo lo vivido, sino si la historia escrita bastará para alterar el juicio sobre el protagonista. El desenlace subraya el poder de la palabra y de la imaginación narrativa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El relato enmarcado como motor de suspense",
+            "content": "El libro no presenta la aventura de forma lineal desde el inicio, sino que la coloca dentro de una declaración escrita en situación límite. Esa decisión hace que el lector lea cada episodio con doble interés: por lo que sucede y por su posible efecto sobre el juez que recibe el testimonio."
+          },
+          {
+            "heading": "Fantasia, maravilla y tradición de viajes",
+            "content": "La novela dialoga con relatos de navegación, piratería y exploración, pero desplaza esa tradición hacia la fantasía. Los fondos marinos, los territorios remotos y la expansión de lo posible convierten la aventura en una celebración del asombro más que del realismo histórico."
+          },
+          {
+            "heading": "Creer o no creer al narrador",
+            "content": "Uno de los ejes más interesantes del libro es la credibilidad. El protagonista necesita convencer, pero lo que cuenta parece excesivo. Esa tensión invita a pensar en la figura del narrador, en la exageración aventurera y en el pacto que toda ficción propone al lector."
+          },
+          {
+            "heading": "Una puerta de entrada a la lectura fantástica",
+            "content": "Su brevedad, su dinamismo y la claridad del conflicto la convierten en una obra muy útil para iniciar lectores en la fantasía. No exige conocer sagas previas ni universos complejos: apuesta por una imaginación directa, sostenida por una voz narrativa eficaz."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela infantil o juvenil?",
+            "answer": "Funciona mejor como novela juvenil de iniciación, aunque también puede leerse en los últimos cursos de primaria por su extensión breve y su tono aventurero."
+          },
+          {
+            "question": "¿Predomina más la aventura o la fantasía?",
+            "answer": "Las dos dimensiones van unidas, pero la aventura organiza el avance y la fantasía le da su singularidad: el viaje importa tanto como las maravillas que aparecen en él."
+          },
+          {
+            "question": "¿Tiene capítulos fácilmente identificables?",
+            "answer": "No conviene forzar un índice literal si se trabaja en clase; es más útil resumirla por momentos narrativos: juicio, confesión, viaje extraordinario y desenlace."
+          },
+          {
+            "question": "¿Qué se puede trabajar en un comentario escolar?",
+            "answer": "El marco narrativo, la figura del narrador, la tradición del viaje maravilloso y el valor de la imaginación como forma de resistencia y persuasión."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "Open Library: edición ISBN 9789580468721",
+            "url": "https://openlibrary.org/isbn/9789580468721"
+          },
+          {
+            "label": "Goodreads: ficha y sinopsis de La asombrosa historia del viajero de las estrellas",
+            "url": "https://www.goodreads.com/book/show/6279711-la-asombrosa-historia-del-viajero-de-las-estrellas"
+          },
+          {
+            "label": "Fundació Jordi Sierra i Fabra",
+            "url": "https://fundaciosierraifabra.org/"
+          },
+          {
+            "label": "Wikipedia: Jordi Sierra i Fabra",
+            "url": "https://es.wikipedia.org/wiki/Jordi_Sierra_i_Fabra"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-aventura-de-miguel-littin-clandestino-en-chile-de-gabriel-garcia-marquez",
+      "title": "La Aventura De Miguel Littin Clandestino En Chile",
+      "authorName": "Gabriel Garcia Marquez",
+      "authorSlug": "gabriel-garcia-marquez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La aventura de Miguel Littín, clandestino en Chile",
+        "authorName": "Gabriel García Márquez",
+        "authorSlug": "gabriel-garcia-marquez",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2003,
+        "pages": 190,
+        "summary": "En este libro Gabriel García Márquez convierte en crónica una operación real: el regreso clandestino del cineasta chileno Miguel Littín a su país en 1985, cuando todavía pesaba sobre él la prohibición de entrar en Chile bajo la dictadura de Augusto Pinochet. Durante varias semanas, Littín entra disfrazado, se mueve con identidades de cobertura y coordina la filmación secreta de imágenes destinadas a mostrar la vida chilena tras años de represión. El autor organiza ese material como un reportaje de gran tensión, escrito con pulso narrativo pero sin abandonar el carácter testimonial. El resultado es un texto fronterizo entre periodismo, memoria política y relato de operaciones clandestinas, donde importan tanto el riesgo físico como la necesidad moral de ver, registrar y contar. Es una obra breve, intensa y especialmente valiosa para comprender cómo la no ficción puede leerse con la fuerza de una novela de espionaje.",
+        "aboutThisBook": "No es una novela, aunque se lea con el vértigo de una. García Márquez trabaja a partir del testimonio directo de Miguel Littín y construye una crónica que combina investigación, reconstrucción narrativa y mirada política. El libro interesa por su tema —el retorno clandestino al país exiliador—, pero también por su forma: muestra cómo el periodismo literario puede ordenar una experiencia compleja, dosificar la tensión y volver inteligible una realidad marcada por la censura, el miedo y la vigilancia.",
+        "forWhom": "Especialmente útil para lectores de historia latinoamericana, periodismo narrativo, memoria del Cono Sur y cursos sobre dictadura, exilio y testimonio.",
+        "whyItMatters": "Importa porque reúne varias capas decisivas del siglo XX hispanoamericano: dictadura, exilio, cine político y escritura testimonial. Además, amplía la imagen de García Márquez más allá de la ficción y lo muestra como un cronista de enorme eficacia narrativa.",
+        "editorialIntro": "Pocas crónicas consiguen sostener al mismo tiempo la precisión del reportaje y la tensión de una infiltración. Aquí, el regreso prohibido de Miguel Littín a Chile se convierte en una historia de máscaras, vigilancia, memoria y coraje cívico. García Márquez no inventa la peripecia: la organiza con una claridad narrativa que permite ver cómo la literatura documental puede volver inolvidable un episodio político real.",
+        "readingLevel": "Adecuado para bachillerato avanzado, universidad y lectores generales con interés en historia reciente; exige atención a la referencia política y al pacto entre testimonio y crónica.",
+        "whyReadToday": "Se lee hoy como una advertencia sobre la fragilidad de las libertades y como un ejemplo poderoso de periodismo literario al servicio de la memoria democrática.",
+        "studyNotes": [
+          "Distingue entre testimonio directo de Miguel Littín y trabajo de montaje narrativo de García Márquez.",
+          "Anota los elementos de clandestinidad: disfraces, nombres, itinerarios, contactos y dispositivos de vigilancia.",
+          "Relaciona el libro con el cine documental y con la pregunta por quién tiene derecho a representar una realidad reprimida.",
+          "Observa cómo la tensión narrativa no elimina la dimensión política, sino que la hace más legible."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El regreso imposible",
+            "summary": "Miguel Littín prepara su entrada clandestina a Chile después de años de exilio. El libro sitúa de inmediato el riesgo político y personal de una operación que depende del sigilo y de identidades falsas."
+          },
+          {
+            "title": "Parte 2: Circular sin ser reconocido",
+            "summary": "Ya dentro del país, Littín se desplaza bajo cobertura mientras comprueba de primera mano el clima social impuesto por la dictadura. La tensión surge de la necesidad de observarlo todo sin delatarse."
+          },
+          {
+            "title": "Parte 3: Filmar la realidad prohibida",
+            "summary": "El núcleo del libro muestra la organización del rodaje clandestino. Filmar implica logística, complicidades y una lectura constante del peligro, porque cada imagen capturada desafía el control del régimen."
+          },
+          {
+            "title": "Parte 4: Testimonio, salida y memoria",
+            "summary": "La experiencia se transforma en relato: lo vivido debe ser contado y ordenado. El cierre subraya que la operación no termina al salir de Chile, sino al convertir esas semanas en documento y memoria compartida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Crónica con tensión de thriller",
+            "content": "Uno de los mayores logros del libro es que una historia documentada se lea con el pulso de una novela de infiltración. García Márquez administra el riesgo, las esperas y los desplazamientos para que el lector sienta la presión de cada movimiento clandestino."
+          },
+          {
+            "heading": "Exilio, identidad y máscara",
+            "content": "Littín vuelve a su país, pero no puede hacerlo como él mismo. Esa contradicción organiza buena parte del sentido del libro: regresar sin poder reaparecer, mirar la patria desde el ocultamiento, pertenecer y estar a la vez expulsado."
+          },
+          {
+            "heading": "La cámara como acto político",
+            "content": "Filmar no es aquí un gesto técnico, sino una intervención política. Registrar la vida chilena bajo dictadura supone disputar el monopolio de la versión oficial y producir una memoria visual que el poder preferiría impedir."
+          },
+          {
+            "heading": "García Márquez fuera de Macondo",
+            "content": "La obra es muy útil para estudiar a García Márquez como periodista. Su prosa conserva ritmo, economía y capacidad de escena, pero puesta al servicio de hechos verificables y de una experiencia histórica concreta."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o una crónica?",
+            "answer": "Es una obra de no ficción escrita como crónica periodística a partir del testimonio directo de Miguel Littín."
+          },
+          {
+            "question": "¿Hace falta conocer la historia de Chile para leerla?",
+            "answer": "No es imprescindible, pero sí ayuda. El libro puede leerse por su tensión narrativa, y después enriquecerse con contexto sobre la dictadura de Pinochet y el exilio chileno."
+          },
+          {
+            "question": "¿Qué lugar ocupa el cine en el libro?",
+            "answer": "Es central: la misión clandestina tiene como objetivo filmar el país real, de modo que la cámara funciona como herramienta de testimonio, denuncia y memoria."
+          },
+          {
+            "question": "¿Por qué se estudia en cursos de periodismo?",
+            "answer": "Porque muestra cómo convertir un material testimonial complejo en una narración clara, tensa y políticamente significativa sin perder la base factual."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "TodosTusLibros: edición Debolsillo ISBN 9788497592406",
+            "url": "https://www.todostuslibros.com/libros/la-aventura-de-miguel-littin-clandestino-en-chile_978-84-9759-240-6"
+          },
+          {
+            "label": "Open Library: edición ISBN 9788497592406",
+            "url": "https://openlibrary.org/isbn/9788497592406"
+          },
+          {
+            "label": "Goodreads: ficha de La aventura de Miguel Littín, clandestino en Chile",
+            "url": "https://www.goodreads.com/book/show/3303939-la-aventura-de-miguel-litt-n-clandestino-en-chile"
+          },
+          {
+            "label": "Wikipedia: Miguel Littín",
+            "url": "https://es.wikipedia.org/wiki/Miguel_Litt%C3%ADn"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-balada-del-abuelo-palancas-de-felix-grande",
+      "title": "La Balada Del Abuelo Palancas",
+      "authorName": "Felix Grande",
+      "authorSlug": "felix-grande",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La balada del abuelo Palancas",
+        "authorName": "Félix Grande",
+        "authorSlug": "felix-grande",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica"
+        ],
+        "year": 2003,
+        "pages": 400,
+        "summary": "Félix Grande construye en esta novela una amplia memoria familiar de raíz manchega que recorre buena parte del siglo XX español. A través de varias generaciones, la vida del abuelo Palancas y de los suyos aparece unida a la tierra, a los saberes heredados y a una sensibilidad popular que la guerra civil y la posguerra someten a una presión devastadora. Sin embargo, el libro no se limita a registrar desgracias históricas: también se ocupa de los afectos, de la obstinación por seguir viviendo y de la textura íntima de una comunidad. Grande, conocido sobre todo por su poesía y su ensayo flamenco, despliega aquí una prosa narrativa de largo aliento, muy atenta al dibujo de personajes y a la mezcla de ternura, dolor y dignidad. El resultado es una novela de memoria histórica desde abajo, centrada menos en los grandes discursos que en lo que los acontecimientos hacen sobre cuerpos, familias y voces concretas.",
+        "aboutThisBook": "La novela se puede leer como una saga familiar, pero también como una elegía narrativa sobre la España rural del siglo pasado. Su fuerza nace de la forma en que enlaza lo doméstico con lo histórico: la guerra y la posguerra no aparecen como telón de fondo abstracto, sino como golpes que transforman vínculos, ritmos de vida y modos de entender el mundo. Es un libro útil para estudiar memoria, representación de la violencia y construcción de personajes colectivos.",
+        "forWhom": "Recomendable para lectores de novela española contemporánea, memoria histórica y relatos familiares con trasfondo social, político y generacional.",
+        "whyItMatters": "Importa porque ofrece una mirada sensible y nada simplificadora sobre la guerra civil y la posguerra desde el espacio familiar. Además, confirma la amplitud literaria de Félix Grande más allá de su obra poética.",
+        "editorialIntro": "Hay novelas históricas que explican una época y otras que la hacen doler. La balada del abuelo Palancas pertenece a las segundas: su mirada sobre una familia manchega convierte el siglo XX español en experiencia íntima, hecha de amor a la tierra, pérdida, resistencia y memoria. Félix Grande narra con densidad emocional, pero sin perder claridad ni humanidad.",
+        "readingLevel": "Adecuado para lectores de secundaria alta, bachillerato y universidad; la prosa es clara, aunque la amplitud temporal, los matices emocionales y el trasfondo histórico exigen lectura atenta.",
+        "whyReadToday": "Se lee hoy como una novela necesaria para pensar la memoria histórica desde la vida cotidiana y para entender cómo las grandes fracturas nacionales se inscriben en familias concretas.",
+        "studyNotes": [
+          "Sigue la evolución de la familia a través de generaciones: la novela gana sentido cuando se observa la continuidad entre herencia y ruptura.",
+          "Analiza cómo la guerra civil y la posguerra afectan no solo a la economía o la política, sino también a la intimidad y a la lengua emocional de los personajes.",
+          "Comenta la presencia de La Mancha y de la naturaleza como espacio vital, moral y simbólico.",
+          "Relaciona el tono de la obra con la idea de balada: memoria dolorosa, coral y sostenida por una cadencia afectiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Un mundo heredado",
+            "summary": "La novela presenta la vida del abuelo Palancas y el entorno manchego en el que se forma la familia. El arraigo a la naturaleza y a una sabiduría popular heredada define el tono inicial del relato."
+          },
+          {
+            "title": "Parte 2: La fractura de la guerra",
+            "summary": "La guerra civil irrumpe como quiebre histórico y emocional. Las certezas cotidianas se resienten y los personajes deben reorganizar su vida bajo la presión de la violencia y la pérdida."
+          },
+          {
+            "title": "Parte 3: La obstinada posguerra",
+            "summary": "Tras la guerra, el sufrimiento no desaparece: se transforma en precariedad, silencios, humillaciones y resistencia diaria. La novela insiste en los efectos prolongados del conflicto sobre varias generaciones."
+          },
+          {
+            "title": "Parte 4: Memoria y continuidad",
+            "summary": "El cierre valora lo que la familia consigue preservar pese al daño: vínculos, recuerdos, dignidad y una forma de mirar el mundo. La memoria aparece como legado y como tarea."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Saga familiar y memoria colectiva",
+            "content": "La novela utiliza la escala familiar para dar cuerpo a procesos históricos amplios. Gracias a ese enfoque, la guerra civil y la posguerra se vuelven experiencia concreta: no se explican desde el esquema, sino desde la vida compartida de quienes las padecen."
+          },
+          {
+            "heading": "La Mancha como paisaje moral",
+            "content": "El mundo manchego no es solo un escenario geográfico. La relación con la tierra, la lentitud de ciertos ritmos y la memoria de los antepasados sostienen una ética de la permanencia que la violencia histórica pone en crisis."
+          },
+          {
+            "heading": "Personajes heridos pero no derrotados",
+            "content": "Félix Grande evita tanto la idealización como el miserabilismo. Sus personajes sufren, se equivocan y cargan con pérdidas profundas, pero conservan una densidad humana que impide reducirlos a meros símbolos históricos."
+          },
+          {
+            "heading": "Del lirismo a la novela",
+            "content": "La trayectoria poética del autor se percibe en la sensibilidad verbal y en la atención a la cadencia emocional. Sin embargo, el libro no sacrifica narratividad: combina intensidad expresiva con desarrollo amplio de escenas, vínculos y tiempos históricos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica en sentido estricto?",
+            "answer": "Sí, pero su interés principal no está en reconstruir grandes acontecimientos militares, sino en mostrar cómo la historia atraviesa una familia y un paisaje humano concretos."
+          },
+          {
+            "question": "¿Se centra solo en la guerra civil?",
+            "answer": "No. La guerra es decisiva, pero también lo son la vida anterior, la posguerra y la persistencia de la memoria a lo largo de varias generaciones."
+          },
+          {
+            "question": "¿Qué distingue esta novela de otras sobre memoria histórica?",
+            "answer": "Su énfasis en la intimidad rural, en la continuidad familiar y en una prosa con fuerte sensibilidad lírica, sin perder claridad narrativa."
+          },
+          {
+            "question": "¿Puede leerse sin conocer bien el contexto español?",
+            "answer": "Sí, porque los conflictos humanos están muy bien construidos, aunque una contextualización básica sobre guerra civil y franquismo enriquece mucho la lectura."
+          }
+        ],
+        "reviewedAt": "2026-04-22",
+        "sources": [
+          {
+            "label": "TodosTusLibros: ficha de La balada del abuelo Palancas",
+            "url": "https://www.todostuslibros.com/libros/la-balada-del-abuelo-palancas_978-84-8109-426-8"
+          },
+          {
+            "label": "Open Library: edición ISBN 9788481094268",
+            "url": "https://openlibrary.org/isbn/9788481094268"
+          },
+          {
+            "label": "Goodreads: ficha de La balada del abuelo Palancas",
+            "url": "https://www.goodreads.com/book/show/4420330-la-balada-del-abuelo-palancas"
+          },
+          {
+            "label": "Wikipedia: Félix Grande",
+            "url": "https://es.wikipedia.org/wiki/F%C3%A9lix_Grande"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-21T23:57:25Z"
+}

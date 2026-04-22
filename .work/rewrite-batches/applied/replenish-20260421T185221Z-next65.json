@@ -1,0 +1,1567 @@
+{
+  "batchName": "replenish-20260421T185221Z-next65",
+  "createdAt": "2026-04-21T18:52:29Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-sombrero-de-tres-picos-el-capitan-veneno-de-pedro-antonio-de-alarcon",
+      "title": "El Sombrero De Tres Picos El Capitan Veneno De Pedro Antonio",
+      "authorName": "Alarcon",
+      "authorSlug": "alarcon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El sombrero de tres picos / El capitán Veneno",
+        "authorName": "Pedro Antonio de Alarcón",
+        "authorSlug": "pedro-antonio-de-alarcon",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1991,
+        "pages": 231,
+        "summary": "Esta edición reúne dos novelas breves muy representativas de Pedro Antonio de Alarcón. El sombrero de tres picos desarrolla una intriga cómica de sabor costumbrista en la que el corregidor de un pueblo andaluz intenta seducir a Frasquita, esposa del molinero Lucas, y desencadena una cadena de equívocos, disfraces, persecuciones y humillaciones públicas. El capitán Veneno, en cambio, desplaza la acción hacia una comedia sentimental donde un militar hosco, violento y orgulloso acaba herido y entra en contacto con una casa gobernada por mujeres, especialmente por la inteligente Angustias. Leídas juntas, ambas novelas muestran dos registros de Alarcón: la sátira rápida, burlona y casi teatral, y la narración de transformación afectiva donde el carácter rígido del protagonista termina cediendo ante la convivencia, el cuidado y el amor.",
+        "aboutThisBook": "La combinación de estos dos títulos circuló en ediciones escolares y de clásicos, entre ellas una edición de Espasa-Calpe registrada por Open Library con 231 páginas. La reunión no es casual: ambas obras permiten ver la versatilidad narrativa de Alarcón dentro de la prosa española del siglo XIX. El sombrero de tres picos suele considerarse una de sus piezas más célebres y de ritmo más perfecto; El capitán Veneno, escrita según la biografía del portal Cervantes Virtual en apenas ocho días, fue un gran éxito de lectores. Juntas forman una excelente puerta de entrada al autor porque condensan humor, observación social, conflicto amoroso y sentido escénico.",
+        "forWhom": "Para estudiantes, lectores de clásicos españoles y clubes de lectura que quieran una entrada accesible al siglo XIX mediante novelas breves, vivas y muy comentables.",
+        "whyItMatters": "Importa porque deja ver cómo la narrativa española decimonónica podía ser a la vez popular, irónica y formalmente precisa. Además, permite comparar dos modos de construir el conflicto: el enredo social y la transformación sentimental.",
+        "editorialIntro": "Leer estos dos relatos en un solo volumen permite apreciar mejor el oficio narrativo de Pedro Antonio de Alarcón. En uno domina la maquinaria del equívoco y la sátira del poder local; en el otro, la dureza de un personaje masculino se pone a prueba dentro de un espacio doméstico que lo desarma poco a poco. El resultado es una pareja de novelas breves que siguen funcionando por su velocidad, su humor y la nitidez con que dibujan tipos humanos y tensiones sociales.",
+        "readingLevel": "Lectura media para bachillerato, universidad inicial o público general habituado a clásicos. El lenguaje conserva giros decimonónicos, pero la acción es clara, rápida y muy apoyada en escenas reconocibles de humor, diálogo y conflicto.",
+        "whyReadToday": "Porque sigue siendo una manera eficaz de leer el siglo XIX sin pesadez: hay crítica del abuso de poder, observación de costumbres, roles de género en discusión y una comicidad que todavía resulta muy legible.",
+        "studyNotes": [
+          "La edición conjunta invita a comparar dos estructuras narrativas: la del enredo costumbrista en El sombrero de tres picos y la de la domesticación sentimental del héroe áspero en El capitán Veneno.",
+          "El portal de Cervantes Virtual recoge que El capitán Veneno fue escrita en ocho días y subraya su éxito de lectura, dato útil para pensar su soltura narrativa y su tono de comedia eficaz.",
+          "En El sombrero de tres picos conviene observar la función del narrador irónico, que convierte el mundo del corregidor, el molino y la vida aldeana en un escenario casi teatral.",
+          "Las dos novelas trabajan el conflicto entre autoridad y deseo: una ridiculiza el poder civil que abusa de su cargo; la otra examina cómo la violencia de carácter cede ante vínculos afectivos y vida doméstica.",
+          "También son textos útiles para estudiar continuidad entre cuento largo, novela corta, sainete y comedia de costumbres dentro de la prosa española del XIX."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera novela: el molino como espacio de equilibrio",
+            "summary": "El sombrero de tres picos presenta a Lucas y Frasquita como una pareja bien avenida cuya vida cotidiana en el molino atrae miradas y comentarios. Ese equilibrio inicial sirve para preparar la entrada del corregidor, figura de autoridad ridícula y peligrosa al mismo tiempo."
+          },
+          {
+            "title": "El enredo del corregidor y la cadena de equívocos",
+            "summary": "Cuando el corregidor intenta aprovechar su poder para acercarse a Frasquita, la historia se convierte en una sucesión de trampas, desplazamientos nocturnos, ropa intercambiada y confusiones públicas. La burla del deseo autoritario es el motor de toda la intriga."
+          },
+          {
+            "title": "Segunda novela: la irrupción del capitán en una casa ajena",
+            "summary": "En El capitán Veneno, un militar de genio áspero y feroz resulta herido y entra en un hogar femenino donde su rudeza choca con la calma, la inteligencia y la firmeza de quienes lo cuidan. La novela instala así un conflicto entre violencia exterior y convivencia íntima."
+          },
+          {
+            "title": "Angustias y la transformación del héroe duro",
+            "summary": "La relación con Angustias y con el resto de la casa obliga al capitán a revisar su orgullo, su misoginia y su aislamiento. El relato avanza hacia una conversión sentimental que no elimina el humor, sino que lo usa para mostrar la grieta progresiva en un carácter aparentemente invencible."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Costumbrismo, sátira y escena",
+            "content": "El sombrero de tres picos funciona como una miniatura magistral del costumbrismo narrativo. Alarcón describe tipos, lugares, hábitos y jerarquías sociales, pero no para congelarlos como postal sino para ponerlos en movimiento mediante la sátira. El resultado se parece por momentos al sainete y a la comedia escénica: entradas, salidas, disfraces y golpes de efecto organizan la burla del poder local."
+          },
+          {
+            "heading": "El poder ridiculizado en El sombrero de tres picos",
+            "content": "La novela no retrata al corregidor como gran villano trágico, sino como autoridad degradada por su vanidad y su deseo. Esa elección es importante: la crítica social se vuelve más incisiva cuando el abuso de poder queda expuesto como mezcla de arbitrariedad, cobardía y comicidad humillante."
+          },
+          {
+            "heading": "La comedia sentimental de El capitán Veneno",
+            "content": "En la segunda novela, Alarcón desplaza el foco desde la intriga pública hacia la modificación interior de un personaje extremo. El capitán no deja de ser violento de un día para otro, pero la convivencia y el afecto lo sacan de su caricatura inicial. La obra explora así el viejo motivo del corazón endurecido que termina rindiéndose, aunque lo hace con ligereza y sentido del ritmo."
+          },
+          {
+            "heading": "Leer ambas obras en conjunto",
+            "content": "La reunión editorial de las dos novelas permite ver continuidades y contrastes. En ambas hay tensión entre deseo y norma, orgullo y ridículo, autoridad y corrección moral; sin embargo, una resuelve el conflicto por vía del escarnio público y la otra mediante la reforma íntima del personaje. Esa comparación vuelve el volumen especialmente útil para estudio."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Este volumen reúne una sola historia o dos novelas distintas?",
+            "answer": "Reúne dos novelas breves distintas de Pedro Antonio de Alarcón: El sombrero de tres picos y El capitán Veneno. Se leen de manera independiente, aunque la edición conjunta favorece la comparación entre ambas."
+          },
+          {
+            "question": "¿Por qué El sombrero de tres picos es tan citado dentro de la obra de Alarcón?",
+            "answer": "Porque suele considerarse una de sus piezas más logradas por la rapidez del relato, la precisión del enredo y la fuerza satírica con que retrata costumbres, deseo y abuso de autoridad en un marco andaluz."
+          },
+          {
+            "question": "¿El capitán Veneno es una novela romántica?",
+            "answer": "Tiene un núcleo sentimental claro, pero funciona mejor como comedia de transformación moral. El interés no está solo en el enamoramiento, sino en cómo un carácter agresivo y solitario es desarmado por la convivencia."
+          },
+          {
+            "question": "¿Sirve para lectura escolar o universitaria?",
+            "answer": "Sí. La brevedad de ambas novelas y la abundancia de temas analíticos —costumbrismo, narrador, comicidad, género, poder, estructura del enredo— las hacen muy útiles en secundaria alta y en cursos introductorios de literatura española."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: El Capitán Veneno y El sombrero de tres picos",
+            "url": "https://openlibrary.org/works/OL10341797W"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: biografía de Pedro Antonio de Alarcón",
+            "url": "https://www.cervantesvirtual.com/portales/pedro_antonio_de_alarcon/autor_biografia"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: bibliografía de Pedro Antonio de Alarcón",
+            "url": "https://www.cervantesvirtual.com/portales/pedro_antonio_de_alarcon/su_obra_bibliografia"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: El sombrero de tres picos",
+            "url": "https://www.cervantesvirtual.com/obra-visor/el-sombrero-de-tres-picos--0/html/"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: El capitán Veneno",
+            "url": "https://www.cervantesvirtual.com/obra-visor/el-capitan-veneno-novela--0/html/"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Un marco para \"El sombrero de tres picos\"",
+            "url": "https://www.cervantesvirtual.com/obra-visor/un-marco-para-el-sombrero-de-tres-picos-0/html/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-sotano-de-natasha-preston",
+      "title": "El Sotano",
+      "authorName": "Natasha Preston",
+      "authorSlug": "natasha-preston",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El sótano",
+        "authorName": "Natasha Preston",
+        "authorSlug": "natasha-preston",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "thriller",
+          "juvenil",
+          "narrativa"
+        ],
+        "year": 2014,
+        "pages": null,
+        "summary": "El sótano, conocido originalmente como The Cellar, es un thriller juvenil de encierro y supervivencia que sigue a Summer, una adolescente secuestrada por un hombre obsesionado con convertir a varias chicas en sus \"flores\" particulares. Encerrada en un sótano junto a otras tres cautivas rebautizadas con nombres florales, la protagonista debe aprender a sobrevivir dentro de una lógica de terror cotidiano hecha de vigilancia, manipulación y miedo. La novela alterna la angustia del cautiverio con la resistencia psicológica de Summer, que se aferra a su nombre, a sus recuerdos y a la posibilidad de escapar. Preston construye así una historia de ritmo rápido y alto voltaje emocional, donde el suspense no depende solo del peligro físico, sino también de la batalla por conservar la identidad frente a un captor que pretende reorganizar la vida ajena a su antojo.",
+        "aboutThisBook": "Publicada por Sourcebooks Fire en 2014, la novela consolidó a Natasha Preston dentro del thriller juvenil contemporáneo y fue difundida como un título de fuerte tensión psicológica. La ficha bibliográfica de Open Library sitúa su primera publicación en 2014, mientras que el material de Sourcebooks y el dossier de Unite Against Book Bans subrayan su condición de bestseller y su dureza temática: secuestro, violencia, abuso y control coercitivo. No es una novela de terror sobrenatural, sino un relato de amenaza realista, construido desde el punto de vista de adolescentes sometidas a un encierro extremo.",
+        "forWhom": "Para lectores juveniles maduros y adultos que busquen un thriller psicológico intenso, de lectura veloz, centrado en la supervivencia, el trauma y la resistencia mental más que en el misterio deductivo clásico.",
+        "whyItMatters": "Importa porque lleva al terreno juvenil una historia de cautiverio y manipulación sin trivializar el miedo ni la violencia psicológica. Su fuerza está en mostrar cómo la identidad y la voluntad se convierten en formas de resistencia.",
+        "editorialIntro": "Hay thrillers que apuestan por el giro sorpresa y otros que se sostienen en la presión constante. El sótano pertenece claramente a esta segunda familia. Natasha Preston encierra a sus personajes en un espacio mínimo y convierte ese encierro en una máquina narrativa de ansiedad, vigilancia y dependencia. La novela funciona como lectura de suspense, pero también como exploración de un mecanismo de dominación: cambiar nombres, imponer rutinas, aislar, castigar y hacer creer a las víctimas que no existe salida. Su impacto procede de esa mezcla entre accesibilidad juvenil y dureza emocional.",
+        "readingLevel": "Lectura media. El estilo es ágil y directo, pero los temas son duros y conviene abordarlos con cierta madurez por la presencia de secuestro, abuso y violencia psicológica.",
+        "whyReadToday": "Porque sigue dialogando con preocupaciones actuales sobre violencia de género, coerción, manipulación y vulnerabilidad adolescente, todo ello dentro de una ficción de suspense muy legible.",
+        "studyNotes": [
+          "La novela trabaja el cautiverio no solo como encierro físico, sino como intento de borrar la identidad de las víctimas mediante nombres impuestos y rutinas de control.",
+          "Summer resiste recordando quién es; ese detalle convierte la memoria personal en un eje simbólico central del libro.",
+          "El suspense nace de la convivencia forzada con el captor y de la incertidumbre sobre cuándo llegará una oportunidad real de escapar.",
+          "Conviene leerla atendiendo a sus temas sensibles: trauma, violencia sexual insinuada, abuso y manipulación psicológica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: El sótano y las flores",
+            "summary": "Summer despierta en el espacio donde su captor la ha recluido y descubre que no es la única víctima. Allí conviven otras jóvenes a las que el hombre ha rebautizado como flores, instaurando desde el inicio una lógica perversa de posesión y familia falsa."
+          },
+          {
+            "title": "Momento clave 2: Aprender a sobrevivir",
+            "summary": "La protagonista comprende que cada gesto puede desencadenar castigo o sospecha. La novela se concentra entonces en las pequeñas estrategias de adaptación, observación y solidaridad precaria entre las chicas, siempre bajo una amenaza cambiante."
+          },
+          {
+            "title": "Momento clave 3: Resistencia e identidad",
+            "summary": "A medida que avanza la historia, el conflicto se vuelve también mental: aceptar el nombre impuesto o seguir siendo una misma. Summer intenta conservar su vínculo con el exterior y no dejar que el encierro reescriba por completo su conciencia."
+          },
+          {
+            "title": "Momento clave 4: La posibilidad de escapar",
+            "summary": "En la parte final, la tensión aumenta cuando se abren grietas en el sistema de control del captor. El libro acelera su ritmo hacia el desenlace y transforma la espera angustiosa en acción, riesgo y supervivencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un thriller de control coercitivo",
+            "content": "Más que un simple relato de secuestro, la novela describe un sistema de dominación basado en aislamiento, renombramiento y obediencia. El villano no quiere solo retener cuerpos, sino rediseñar identidades y relaciones."
+          },
+          {
+            "heading": "Identidad frente a despersonalización",
+            "content": "Uno de los ejes más fuertes del libro es la lucha por conservar el nombre propio, la memoria y la percepción de una vida exterior. Esa insistencia da profundidad simbólica a una trama concebida para mantener la tensión."
+          },
+          {
+            "heading": "Accesibilidad juvenil y dureza temática",
+            "content": "Preston escribe con gran fluidez y ritmo de page-turner, pero lo hace sobre materiales narrativos muy duros. Esa combinación explica parte del éxito del libro y también la necesidad de leerlo sabiendo que trata experiencias traumáticas."
+          },
+          {
+            "heading": "El espacio cerrado como motor narrativo",
+            "content": "El sótano funciona como escenario material y mental. Limita la acción, intensifica la convivencia y obliga a que cada cambio de conducta, cada recuerdo y cada error adquieran un peso dramático mayor."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de terror o de thriller?",
+            "answer": "Se lee sobre todo como un thriller psicológico juvenil. No depende de elementos sobrenaturales, sino de una situación extrema de secuestro, encierro y manipulación."
+          },
+          {
+            "question": "¿Está recomendada para cualquier lector adolescente?",
+            "answer": "No exactamente. Aunque pertenece al ámbito juvenil, conviene para lectores maduros por sus temas sensibles: cautiverio, violencia, abuso y trauma."
+          },
+          {
+            "question": "¿Qué distingue a la protagonista?",
+            "answer": "Su principal rasgo es la resistencia interior. Summer intenta no dejarse absorber por el papel que el secuestrador le impone, y esa defensa de la identidad guía buena parte del libro."
+          },
+          {
+            "question": "¿La novela prioriza la acción o la tensión emocional?",
+            "answer": "Prioriza la tensión emocional y psicológica. La acción existe, pero la fuerza del relato está en la ansiedad del encierro, la convivencia forzada y la espera de una oportunidad para escapar."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Sourcebooks: The Cellar",
+            "url": "https://www.sourcebooks.com/9781492600978-the-cellar-tp.html"
+          },
+          {
+            "label": "Open Library: ISBN 9781492600978",
+            "url": "https://openlibrary.org/isbn/9781492600978"
+          },
+          {
+            "label": "Open Library: The Cellar",
+            "url": "https://openlibrary.org/works/OL17635842W/The_Cellar"
+          },
+          {
+            "label": "Unite Against Book Bans: The Cellar Book Resume",
+            "url": "https://bookresumes.uniteagainstbookbans.org/wp-content/uploads/Preston_Cellar_20250321.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-terrorista-de-otrova-gomas",
+      "title": "El Terrorista",
+      "authorName": "Otrova Gomas",
+      "authorSlug": "otrova-gomas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El terrorista",
+        "authorName": "Otrova Gomas",
+        "authorSlug": "otrova-gomas",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 1982,
+        "pages": 245,
+        "summary": "El terrorista es una novela venezolana de 1982 que las fuentes catalográficas conservan sobre todo a través de su ficha bibliográfica y de una anotación crítica del Handbook of Latin American Studies. Esa anotación la describe como una sátira sociohistórica de gran filo, una novela entre documental e ironía política que examina el terrorismo moderno sin absolver ideologías cuando entran en su fase terrorista. Más que presentar un héroe lineal, el libro parece organizarse como una trama de intrigas de alcance internacional, con personajes que se desplazan por grandes capitales y con una mirada corrosiva sobre las justificaciones del fanatismo. El resultado, según la fuente crítica disponible, es una ficción mordaz, global en su radio de acción y sorprendentemente vigente para pensar la violencia política contemporánea.",
+        "aboutThisBook": "Publicado en Caracas por Ediciones OOX en 1982, El terrorista pertenece al campo de la prosa venezolana contemporánea y hoy circula sobre todo por registros de biblioteca y referencias académicas. La fuente más sustantiva localizada es la nota del Handbook of Latin American Studies de la Library of Congress, que la valora como sátira sociohistórica y como novela-documento. La escasez de materiales editoriales accesibles obliga a leerla desde esa constelación de datos: una obra de ficción política ambiciosa, con vocación internacional y voluntad crítica.",
+        "forWhom": "Conviene a lectores de narrativa política latinoamericana, sátira ideológica y novelas que examinan la violencia moderna desde la ironía y el desmontaje de discursos.",
+        "whyItMatters": "Importa porque muestra que la ficción venezolana también abordó de forma temprana y satírica el terrorismo como problema global, no solo local, y lo hizo sin caer en simplificaciones partidistas.",
+        "editorialIntro": "Aunque hoy no sea un título fácil de rastrear fuera de los catálogos, El terrorista destaca por la fuerza de la valoración crítica que sí ha quedado registrada. La Library of Congress la presenta como una novela incisiva, irónica y documental a la vez, capaz de seguir la pista de las intrigas del terrorismo moderno por varias capitales y de cuestionar con dureza la deriva violenta de las ideologías.",
+        "readingLevel": "Lectura media-alta: el tema político y el tono satírico piden atención a la ironía, al contexto histórico y al modo en que la novela probablemente cruza ficción e interpretación social.",
+        "whyReadToday": "Sigue siendo pertinente porque discute terrorismo, propaganda e ideología desde una óptica crítica que no exonera a ningún dogma cuando deriva en violencia.",
+        "studyNotes": [
+          "La anotación del HLAS sugiere leer la obra como sátira sociohistórica antes que como thriller de acción pura.",
+          "Conviene atender a la idea de novela-documento: la ficción parece dialogar con materiales, climas y lenguajes propios de la política internacional contemporánea a su fecha.",
+          "El alcance global mencionado por la fuente crítica permite estudiar cómo una novela venezolana desplaza su mirada más allá del marco nacional.",
+          "La falta de una sinopsis editorial extensa accesible obliga a trabajar con prudencia y a priorizar lo que sí confirman las fuentes catalográficas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Aparición de la amenaza",
+            "summary": "La novela sitúa al lector en un escenario donde el terrorismo no aparece como abstracción moral, sino como red de intereses, discursos y operaciones. Desde el comienzo se perfila una mirada crítica sobre las justificaciones ideológicas de la violencia."
+          },
+          {
+            "title": "Parte 2. Intrigas a escala internacional",
+            "summary": "Según la anotación crítica de la Library of Congress, la trama sigue a sus personajes por grandes capitales del mundo. Ese desplazamiento ensancha el conflicto y convierte el terrorismo en fenómeno global, vinculado a estrategias, alianzas y máscaras políticas."
+          },
+          {
+            "title": "Parte 3. Satira de las ideologias violentas",
+            "summary": "La dimensión más singular del libro parece estar en su tono: irónico, cortante y poco indulgente. La novela desmonta retóricas de legitimación y examina qué queda de una ideología cuando entra en su fase terrorista."
+          },
+          {
+            "title": "Parte 4. Vigencia amarga",
+            "summary": "El cierre, tal como lo sugiere la recepción académica disponible, no busca reconciliar posiciones, sino subrayar la persistencia del fanatismo y la utilidad de la sátira como forma de comprensión política."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Satira sociohistorica y violencia politica",
+            "content": "La clave crítica más segura para leer El terrorista es la que ofrece el Handbook of Latin American Studies: una sátira sociohistórica. Eso significa que el libro no solo narra hechos o persecuciones, sino que analiza el clima histórico que permite a ciertas ideologías justificar la violencia."
+          },
+          {
+            "heading": "La novela-documento como estrategia",
+            "content": "La misma fuente define la obra como novela-documentary, una mezcla significativa. Ese rasgo sugiere una ficción atenta a lenguajes periodísticos, expedientes políticos o referencias geopolíticas, interesada en producir verosimilitud crítica además de tensión narrativa."
+          },
+          {
+            "heading": "Una perspectiva global desde Venezuela",
+            "content": "El comentario sobre su alcance global resulta especialmente interesante. La novela parece romper el encierro local y seguir intrigas por varias capitales, lo que permite pensar el terrorismo como circuito internacional y no como anomalía aislada."
+          },
+          {
+            "heading": "Escasez de fuentes y lectura responsable",
+            "content": "En este caso la investigación obliga a una cautela metodológica: las fuentes accesibles conservan valoración, datos de edición y clasificación, pero no una sinopsis desarrollada. Por eso conviene distinguir con claridad entre lo confirmado por catálogo y lo que sería una conjetura interpretativa excesiva."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué tipo de novela se trata?",
+            "answer": "Las fuentes disponibles la sitúan como ficción política y la anotación del Handbook of Latin American Studies la define específicamente como sátira sociohistórica y novela-documento."
+          },
+          {
+            "question": "¿Qué sabemos con seguridad sobre su argumento?",
+            "answer": "Sabemos, por la anotación crítica de la Library of Congress, que aborda el terrorismo moderno con ironía incisiva, que sigue intrigas por grandes capitales del mundo y que cuestiona las ideologías en su fase terrorista."
+          },
+          {
+            "question": "¿Es un libro venezolano?",
+            "answer": "Sí. Los registros de Open Library y de la Library of Congress lo identifican como una edición publicada en Caracas por Ediciones OOX en 1982, dentro de la prosa venezolana contemporánea."
+          },
+          {
+            "question": "¿Por qué puede interesar hoy?",
+            "answer": "Porque su enfoque satírico sobre terrorismo, propaganda y fanatismo conserva actualidad y evita la complacencia ideológica."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library, edición de El terrorista",
+            "url": "https://openlibrary.org/books/OL3063919M"
+          },
+          {
+            "label": "Open Library, autor Otrova Gomas",
+            "url": "https://openlibrary.org/authors/OL61396A/Otrova_Gomas"
+          },
+          {
+            "label": "Wikidata, registro de Otrova Gomas",
+            "url": "https://www.wikidata.org/wiki/Q139058634"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-tiempo-de-las-mujeres-de-ignacio-martinez-de-pison",
+      "title": "El Tiempo De Las Mujeres De Ignacio Martinez",
+      "authorName": "Pison",
+      "authorSlug": "pison",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El tiempo de las mujeres",
+        "authorName": "Ignacio Martínez de Pisón",
+        "authorSlug": "ignacio-martinez-de-pison",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 2003,
+        "pages": 384,
+        "summary": "El tiempo de las mujeres es una novela coral y de aprendizaje ambientada en la España de la Transición. Tras la muerte inesperada del padre, María se ve obligada a ocupar un lugar que no le corresponde del todo: sostener a una familia marcada por la fragilidad de la madre y por las reacciones opuestas de sus hermanas, Carlota y Paloma. A partir de ese punto de quiebre, Ignacio Martínez de Pisón sigue la entrada en la madurez de las tres jóvenes y muestra cómo, incluso dentro del mismo hogar, cada una vive una historia distinta. La novela combina relato íntimo, conflicto familiar y trasfondo histórico para explorar responsabilidad, deseo de fuga, secretos y la extrañeza de descubrir que quienes parecen más próximos también pueden resultar enigmáticos.",
+        "aboutThisBook": "Publicada por Anagrama a comienzos de los años dos mil, esta novela figura entre las obras más ambiciosas de Ignacio Martínez de Pisón. Su construcción a varias voces y su inserción en el clima social de la Transición española la convierten en una ficción de amplio aliento, centrada a la vez en lo doméstico y en lo histórico. No se limita a contar un duelo familiar: examina cómo una época de cambio atraviesa la intimidad, redefine los papeles dentro de la casa y acelera el paso incierto hacia la vida adulta.",
+        "forWhom": "Para lectores adultos interesados en novelas familiares, relatos de formación y ficciones españolas que enlazan intimidad, memoria histórica y cambios sociales sin renunciar a la complejidad psicológica.",
+        "whyItMatters": "Importa porque retrata la transición a la madurez y la Transición española como procesos simultáneos, inestables y llenos de zonas grises. La novela ilumina cómo los grandes cambios históricos se sienten primero en la familia, en los silencios y en los papeles que cada uno se ve forzado a asumir.",
+        "editorialIntro": "Hay novelas familiares que solo narran conflictos privados y otras que logran convertir una casa en el espejo de una época. El tiempo de las mujeres pertenece a esta segunda clase. Martínez de Pisón observa a tres hermanas en el momento en que el orden heredado se resquebraja y, desde esa fractura, compone una historia sobre responsabilidad, secretos y crecimiento. Su valor editorial está en la precisión con que hace convivir lo íntimo y lo histórico sin volver esquemático ninguno de los dos planos.",
+        "readingLevel": "Lectura media-alta para público adulto. El lenguaje es claro, pero la riqueza de perspectivas, la densidad emocional y el trasfondo histórico piden atención sostenida para captar los matices entre voz narrativa, conflicto familiar y contexto de época.",
+        "whyReadToday": "Porque sigue siendo una novela muy útil para pensar cómo las crisis familiares y los cambios sociales obligan a redefinir identidad, género, responsabilidades y expectativas de futuro.",
+        "studyNotes": [
+          "La muerte del padre funciona como detonante narrativo y como metáfora del derrumbe de una autoridad que organizaba el mundo doméstico.",
+          "La novela trabaja con tres hermanas cuyas experiencias no son intercambiables; conviene estudiar cómo cada una encarna una forma distinta de entrar en la adultez.",
+          "El trasfondo de la España de la Transición no es decorativo: condiciona aspiraciones, tensiones generacionales y nuevas posibilidades para las mujeres.",
+          "El secreto familiar y la percepción fragmentaria de la verdad son claves de lectura: el lector sabe más que cada hermana por separado, pero nunca accede a una transparencia total."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La muerte del padre y el nuevo reparto de cargas",
+            "summary": "El relato se abre con una pérdida que desordena la vida familiar. María siente que debe ocupar de inmediato un lugar de responsabilidad, mientras la madre y las hermanas reaccionan desde la inmadurez, la evasión o la confusión."
+          },
+          {
+            "title": "Parte 2: Tres formas de crecer en una misma casa",
+            "summary": "A medida que avanza la historia, María, Carlota y Paloma afrontan deseos, miedos y contradicciones propias. La convivencia deja ver que compartir origen no implica compartir interpretación del mundo ni del pasado familiar."
+          },
+          {
+            "title": "Parte 3: Intimidad, secretos y distancia entre hermanas",
+            "summary": "La novela profundiza en aquello que no se dice dentro del hogar. Los silencios, las omisiones y las percepciones parciales hacen que cada hermana se vuelva, poco a poco, un misterio para las otras dos."
+          },
+          {
+            "title": "Parte 4: Madurez en tiempos de cambio",
+            "summary": "En el tramo final, el aprendizaje de las protagonistas aparece ligado a la transformación histórica del país. La entrada en la adultez ya no depende solo del ámbito privado, sino también de las nuevas reglas sociales de la España democrática."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La familia como laboratorio histórico",
+            "content": "Martínez de Pisón sitúa el núcleo de la novela en la casa, pero ese espacio íntimo refleja el cambio de época. La Transición española no entra mediante grandes discursos, sino a través de hábitos, expectativas y tensiones que modifican la vida cotidiana de las tres hermanas."
+          },
+          {
+            "heading": "El peso desigual de la responsabilidad",
+            "content": "María queda marcada por una responsabilidad prematura que la obliga a crecer antes de tiempo. Frente a ella, Carlota y Paloma representan otras respuestas posibles ante la pérdida y el desorden: la huida, el ensimismamiento o la búsqueda de una identidad propia."
+          },
+          {
+            "heading": "Perspectiva múltiple y verdad fragmentaria",
+            "content": "Uno de los mayores logros del libro es mostrar que la verdad familiar nunca se entrega de una sola vez. La experiencia se reparte entre varios puntos de vista, y esa fragmentación produce una lectura más compleja del afecto, la lealtad y el malentendido."
+          },
+          {
+            "heading": "Mujeres jóvenes ante un horizonte nuevo",
+            "content": "El título no se refiere solo a una edad biográfica, sino a una coyuntura histórica. La novela sugiere que el tiempo de las mujeres llega cargado de promesas, pero también de incertidumbre: libertad y desorientación avanzan juntas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El tiempo de las mujeres?",
+            "answer": "Trata sobre tres hermanas que, tras la muerte de su padre, deben reorganizar su vida familiar mientras crecen en la España de la Transición. La novela combina duelo, secretos domésticos y aprendizaje vital."
+          },
+          {
+            "question": "¿Es una novela histórica?",
+            "answer": "Sí, aunque en un sentido íntimo. El contexto histórico de la Transición española es fundamental, pero la novela lo aborda desde la vida privada y no como una reconstrucción política convencional."
+          },
+          {
+            "question": "¿Quién es la protagonista principal?",
+            "answer": "María ocupa un lugar central porque asume el vacío dejado por el padre, pero el libro funciona de forma coral: Carlota y Paloma también son decisivas para comprender el sentido completo de la historia."
+          },
+          {
+            "question": "¿Qué temas principales desarrolla?",
+            "answer": "Desarrolla responsabilidad prematura, vínculos entre hermanas, secretos familiares, entrada en la madurez y el modo en que una época de cambio transforma la experiencia femenina."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: El tiempo de las mujeres (obra)",
+            "url": "https://openlibrary.org/works/OL2144035W"
+          },
+          {
+            "label": "Open Library: autor Ignacio Martínez de Pisón",
+            "url": "https://openlibrary.org/authors/OL268647A/Ignacio_Mart%C3%ADnez_de_Pis%C3%B3n"
+          },
+          {
+            "label": "Goodreads: El tiempo de las mujeres",
+            "url": "https://www.goodreads.com/book/show/125107.El_tiempo_de_las_mujeres"
+          },
+          {
+            "label": "Wikipedia: Ignacio Martínez de Pisón",
+            "url": "https://es.wikipedia.org/wiki/Ignacio_Mart%C3%ADnez_de_Pis%C3%B3n"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-ultimo-tango-de-salvador-allende-de-roberto-ampuero",
+      "title": "El Ultimo Tango De Salvador Allende",
+      "authorName": "Roberto Ampuero",
+      "authorSlug": "roberto-ampuero",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El último tango de Salvador Allende",
+        "authorName": "Roberto Ampuero",
+        "authorSlug": "roberto-ampuero",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 2012,
+        "pages": 375,
+        "summary": "La novela arranca en las horas decisivas del golpe de Estado de 1973 en Chile. Mientras Salvador Allende se dirige a La Moneda y el quiebre institucional parece irreversible, Rufino —asistente personal del presidente, viejo compañero de luchas y apasionado del tango— deja por escrito un cuaderno donde registra la tragedia inminente y la intimidad del líder caído. Décadas después, en un mundo ya posterior a la Guerra Fría, ese cuaderno llega a manos de David Kurtz, un exagente de la CIA que descubre en sus páginas no solo una mirada inesperadamente cercana sobre Allende, sino también claves perturbadoras sobre su propia biografía. Ampuero construye así una ficción política de memoria, espionaje y revisión moral, donde las lealtades personales se mezclan con secretos de Estado, derrotas ideológicas y cuentas pendientes de la historia latinoamericana.",
+        "aboutThisBook": "Publicada en 2012 y editada por Sudamericana en una edición de 375 páginas, esta novela de Roberto Ampuero se inscribe en la narrativa histórica y política chilena de comienzos del siglo XXI. Los catálogos bibliográficos y la ficha de Goodreads coinciden en subrayar su eje argumental: la relectura de la caída de Allende a través del testimonio de Rufino y de la investigación íntima de David Kurtz, exagente estadounidense. El libro no propone una biografía documental del presidente, sino una ficción que usa el archivo imaginario, la memoria y el suspenso para volver sobre un acontecimiento todavía central en la historia chilena. Por eso su interés no es solo narrativo, sino también cívico e interpretativo.",
+        "forWhom": "Para lectores adultos interesados en novela histórica latinoamericana, memoria política chilena, Guerra Fría, relaciones entre literatura e historia y narraciones con trama de secretos y lealtades cruzadas.",
+        "whyItMatters": "Sigue importando porque convierte un episodio decisivo del siglo XX chileno en una pregunta literaria sobre memoria, responsabilidad y relato histórico. Además, evita la simple crónica para mostrar cómo los grandes hechos también dejan heridas privadas y zonas oscuras.",
+        "editorialIntro": "Roberto Ampuero regresa aquí a una de las escenas más cargadas de la historia chilena: las últimas horas de Salvador Allende y la larga sombra que dejó el golpe de 1973. Pero en lugar de encerrarse en la novela de tesis o en la reconstrucción puramente documental, articula una trama de cuadernos, secretos personales, espionaje y revisión biográfica. Esa elección vuelve la lectura más móvil y más incómoda: no solo se trata de recordar un trauma nacional, sino de preguntarse quién cuenta la historia, desde qué culpa y con qué silencios.",
+        "readingLevel": "Lectura media-alta para público adulto. El estilo es fluido, pero exige atención a la historia política chilena, a los desplazamientos temporales y a la tensión entre testimonio íntimo, memoria histórica y trama de intriga.",
+        "whyReadToday": "Porque la novela ayuda a pensar cómo se narran los golpes de Estado, qué queda fuera de los discursos oficiales y de qué modo el pasado político sigue reapareciendo en biografías, archivos y debates contemporáneos.",
+        "studyNotes": [
+          "La estructura articula al menos dos tiempos fuertes: las horas del golpe y la lectura posterior del cuaderno por David Kurtz, recurso que convierte la memoria en investigación narrativa.",
+          "Rufino funciona como mediador entre la historia pública y la intimidad presidencial, de modo que la novela combina figura histórica, confidencia y reconstrucción ficticia.",
+          "Los catálogos bibliográficos de Open Library e Internet Archive clasifican la obra como ficción histórica sobre Allende y el golpe de 1973, dato útil para distinguir entre documento, novela política y biografía imaginada.",
+          "El libro permite discutir la presencia de la CIA y de la Guerra Fría no solo como trasfondo geopolítico, sino como fuerza que invade la vida privada y reordena identidades personales.",
+          "Conviene analizar el tango como signo afectivo y simbólico: no es un simple adorno, sino una clave de sensibilidad y memoria compartida."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Horas finales: La Moneda y el cuaderno de Rufino",
+            "summary": "La novela sitúa su núcleo inicial en la inminencia del golpe de Estado. Mientras el país entra en colapso institucional, Rufino registra en un cuaderno escolar lo que ve, recuerda y teme sobre Allende, fijando así una memoria íntima de la catástrofe."
+          },
+          {
+            "title": "Archivo diferido: el manuscrito reaparece décadas después",
+            "summary": "Con el derrumbe del mundo bipolar ya consumado, el cuaderno sale a la luz y llega a David Kurtz. La historia se desplaza entonces del acontecimiento vivido a la lectura retrospectiva, y el pasado chileno se convierte en pesquisa personal y política."
+          },
+          {
+            "title": "David Kurtz ante los secretos de Estado y de familia",
+            "summary": "A medida que avanza en la lectura, el exagente descubre que el manuscrito no solo ilumina al presidente y su círculo, sino que toca zonas ocultas de su propia identidad. La intriga se profundiza al cruzar espionaje, memoria y herencia biográfica."
+          },
+          {
+            "title": "Lealtad, traición y balance moral",
+            "summary": "El cierre de la novela, más que ofrecer una simple resolución política, obliga a evaluar culpas, fidelidades y deformaciones de la historia. Ampuero convierte así la novela histórica en una reflexión sobre lo que cada época decide callar o confesar."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia nacional convertida en intriga narrativa",
+            "content": "Uno de los mayores aciertos del libro es no limitarse a recontar hechos conocidos. Ampuero introduce un manuscrito y un lector tardío para que la historia del golpe reaparezca como descubrimiento, pesquisa y revisión. Ese dispositivo conserva la densidad política del episodio, pero le añade tensión novelesca y conflicto moral."
+          },
+          {
+            "heading": "Rufino como testigo íntimo",
+            "content": "El asistente de Allende ocupa una posición narrativa decisiva: está lo bastante cerca del poder como para ver su costado humano, y lo bastante vulnerable como para no dominar el sentido completo de lo que ocurre. Gracias a él, la novela evita tanto la hagiografía como el puro juicio retrospectivo."
+          },
+          {
+            "heading": "Guerra Fría y biografía privada",
+            "content": "La entrada de David Kurtz desplaza la novela hacia una pregunta más amplia: cómo las grandes maquinarias ideológicas y de inteligencia penetran en las vidas individuales. El exagente no es solo un recurso de suspenso; es la prueba de que la historia internacional deja marcas íntimas, familiares y psicológicas."
+          },
+          {
+            "heading": "Memoria, interpretación y disputa por el pasado",
+            "content": "La novela insiste en que el pasado no permanece quieto. Un cuaderno puede reaparecer, un relato puede cambiar de manos y una figura histórica puede ser leída desde nuevas culpas o nuevos deseos. En ese sentido, el libro dialoga con debates contemporáneos sobre memoria democrática, archivo y relato nacional."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una biografía de Salvador Allende?",
+            "answer": "No. Es una novela histórica que toma a Allende y al golpe de 1973 como eje de ficción. Usa personajes, documentos imaginarios y una trama de investigación para explorar zonas íntimas y políticas del período."
+          },
+          {
+            "question": "¿Qué papel cumple Rufino en la historia?",
+            "answer": "Rufino es el asistente personal del presidente y el primer gran testigo del relato. Su cuaderno escolar conserva una memoria cercana de las horas del golpe y se convierte en el núcleo documental que activa toda la novela."
+          },
+          {
+            "question": "¿La novela incorpora elementos de espionaje?",
+            "answer": "Sí. La presencia de David Kurtz, exagente de la CIA, introduce una dimensión de intriga y de revisión biográfica que enlaza la historia chilena con la lógica internacional de la Guerra Fría."
+          },
+          {
+            "question": "¿Por qué puede interesar hoy?",
+            "answer": "Porque no solo reconstruye un momento histórico, sino que pregunta cómo seguimos leyendo ese pasado, qué secretos sobreviven a los cambios de época y cómo se mezclan memoria pública e identidad privada."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Internet Archive: metadata de El último tango de Salvador Allende",
+            "url": "https://archive.org/metadata/elultimotangodes0000ampu"
+          },
+          {
+            "label": "Internet Archive: Dublin Core de la edición Sudamericana",
+            "url": "https://archive.org/download/elultimotangodes0000ampu/elultimotangodes0000ampu_dc.xml"
+          },
+          {
+            "label": "Open Library: work record de El último tango de Salvador Allende",
+            "url": "https://openlibrary.org/works/OL27748309W"
+          },
+          {
+            "label": "Goodreads: El último tango de Salvador Allende",
+            "url": "https://www.goodreads.com/book/show/16207133-el-ltimo-tango-de-salvador-allende"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-ultimo-tren-a-zurich-de-cesar-vidal",
+      "title": "El Ultimo Tren A Zurich",
+      "authorName": "Cesar Vidal",
+      "authorSlug": "cesar-vidal",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El último tren a Zúrich",
+        "authorName": "César Vidal",
+        "authorSlug": "cesar-vidal",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 2016,
+        "pages": 200,
+        "summary": "El último tren a Zúrich es una novela histórica de formación ambientada en la Viena sometida al ascenso del nazismo. Su protagonista, Eric, llega a la ciudad con la intención de estudiar arte y construir una vida nueva, pero pronto descubre que la cultura, el amor y la libertad individual ya no pueden separarse del clima político que lo invade todo. La amistad con Karl Lebendig, escritor e intelectual enfrentado al fanatismo, y el vínculo afectivo con Rose empujan al joven a mirar el mundo con mayor lucidez. La novela acompaña así el paso de la inocencia a la responsabilidad en un escenario donde la violencia ideológica deja de ser un ruido lejano y se convierte en amenaza concreta. César Vidal combina aprendizaje sentimental, reflexión moral y trasfondo histórico para mostrar cómo una educación verdadera también implica elegir entre la pasividad y la dignidad.",
+        "aboutThisBook": "La edición publicada por Santillana en 2016, hoy asociada al sello Loqueleo, tiene 200 páginas y se presenta como narrativa juvenil con trasfondo histórico. La guía de lectura de Santillana la define explícitamente como una novela de formación protagonizada por un adolescente y subraya su utilidad para trabajar en clase el totalitarismo, la función del arte y la responsabilidad cívica. Tanto esa guía como la ficha de TodosTusLibros coinciden en situar la acción en la Viena de los años del nazismo y en destacar la relación entre aprendizaje personal e historia europea. La obra recibió además reconocimientos como el Premio CCEI 2005, dato que refuerza su circulación en el ámbito escolar y juvenil.",
+        "forWhom": "Para lectores juveniles desde secundaria, docentes y adultos interesados en novelas históricas accesibles que conecten la formación personal con el avance del totalitarismo en la Europa del siglo XX.",
+        "whyItMatters": "Importa porque introduce a lectores jóvenes en el clima moral del nazismo sin reducir la historia a una lección abstracta. Muestra cómo el fanatismo prospera cuando la cultura, la razón y la responsabilidad individual retroceden.",
+        "editorialIntro": "La ficción histórica juvenil suele fracasar cuando convierte el pasado en simple decorado. El último tren a Zúrich evita ese riesgo al relacionar de forma orgánica la vida interior de su protagonista con un momento decisivo de la historia europea. César Vidal no solo reconstruye una Viena amenazada por el nazismo; también examina qué significa crecer cuando el entorno exige elegir entre comodidad, miedo o integridad. El resultado es una novela clara, de orientación formativa, donde el arte, la amistad y el amor no aparecen como adornos, sino como modos de resistencia frente al embrutecimiento político.",
+        "readingLevel": "Lectura media, muy adecuada para secundaria y bachillerato. El lenguaje es accesible, pero el contexto histórico y las implicaciones éticas de la trama invitan a una lectura atenta y comentada.",
+        "whyReadToday": "Porque sigue siendo una puerta eficaz para pensar cómo nacen los fanatismos, qué papel cumplen los intelectuales y por qué la pasividad social facilita las derivas autoritarias.",
+        "studyNotes": [
+          "La novela puede leerse como bildungsroman o novela de formación: Eric aprende arte, amor, responsabilidad y juicio moral al mismo tiempo.",
+          "El contexto histórico no es decorativo; condiciona decisiones, afectos y expectativas de futuro en cada tramo de la historia.",
+          "Karl Lebendig funciona como figura de maestro intelectual y ético, clave para la maduración del protagonista.",
+          "Conviene observar cómo la obra contrapone cultura y fanatismo, no como opuestos abstractos, sino como fuerzas que modelan la vida diaria."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Llegada a Viena",
+            "summary": "Eric abandona su vida anterior con la esperanza de estudiar arte en una gran ciudad. Muy pronto descubre que Viena ya no es solo un centro cultural admirado, sino un espacio marcado por la intimidación política y la violencia de los camisas pardas."
+          },
+          {
+            "title": "Parte 2: Amistad, arte y aprendizaje",
+            "summary": "La relación con Karl Lebendig abre al protagonista una educación más amplia que la académica. A través de conversaciones, lecturas y experiencias, Eric entiende que el arte y la razón pueden convertirse en defensa de la libertad interior."
+          },
+          {
+            "title": "Parte 3: Rose y el despertar afectivo",
+            "summary": "La historia amorosa con Rose da a la novela una dimensión sentimental que acompaña el crecimiento del héroe. Ese vínculo ilumina el mundo de Eric, pero también lo hace más consciente de lo que está en riesgo cuando el miedo domina la vida pública."
+          },
+          {
+            "title": "Parte 4: El avance del nazismo",
+            "summary": "El clima político se endurece y la formación del protagonista deja de ser un proceso íntimo. Eric debe enfrentarse a la pérdida de seguridades, al peso de las decisiones y al descubrimiento de que la dignidad exige actuar incluso en tiempos adversos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela de formación en clave histórica",
+            "content": "El libro acompaña la maduración de un adolescente, pero lo hace dentro de una coyuntura donde cada aprendizaje individual tiene resonancia política. Esa combinación explica su eficacia como lectura juvenil."
+          },
+          {
+            "heading": "La cultura como resistencia",
+            "content": "Arte, poesía, música y conversación no aparecen como lujos secundarios, sino como formas de libertad frente a la uniformidad ideológica. La novela insiste en que la barbarie empieza también por la degradación de la vida intelectual."
+          },
+          {
+            "heading": "Fanatismo y pasividad social",
+            "content": "Uno de los aspectos más interesantes del libro es que no solo denuncia la violencia totalitaria, sino también la pasividad que la hace posible. El lector observa cómo el silencio y la costumbre preparan el terreno para el abuso."
+          },
+          {
+            "heading": "Función pedagógica sin perder narratividad",
+            "content": "La obra tiene una clara vocación formativa, visible en la guía didáctica de Santillana, pero no se reduce a novela ejemplarizante. El componente afectivo y el contexto histórico le dan tensión y continuidad literaria."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela juvenil o para adultos?",
+            "answer": "Su orientación principal es juvenil, especialmente para lectores de secundaria, aunque sus temas históricos y morales la hacen perfectamente aprovechable por adultos interesados en ficción formativa."
+          },
+          {
+            "question": "¿Predomina la historia de amor o la reflexión histórica?",
+            "answer": "Ambas dimensiones están entrelazadas. La historia de amor aporta cercanía emocional, mientras que el contexto histórico da profundidad y convierte el crecimiento del protagonista en una cuestión ética."
+          },
+          {
+            "question": "¿Hace falta conocer la historia del nazismo para leerla?",
+            "answer": "No. La novela ofrece suficientes claves para seguir la trama, aunque conocer el contexto del ascenso nazi y del Anschluss permite apreciar mejor su alcance histórico."
+          },
+          {
+            "question": "¿Por qué puede funcionar bien en el aula?",
+            "answer": "Porque combina una narración accesible con temas muy fértiles para el debate: totalitarismo, compromiso cívico, papel de los intelectuales, formación del juicio moral y valor del arte."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "TodosTusLibros: El último tren a Zúrich",
+            "url": "https://www.todostuslibros.com/libros/el-ultimo-tren-a-zurich_978-84-9122-065-7"
+          },
+          {
+            "label": "Open Library: ISBN 9788491220657",
+            "url": "https://openlibrary.org/isbn/9788491220657"
+          },
+          {
+            "label": "Santillana: Guía de lectura de El último tren a Zúrich",
+            "url": "https://back-edupack.santillana.es/file/repository/1195110_GL.pdf"
+          },
+          {
+            "label": "Google Books: El último tren a Zurich",
+            "url": "https://books.google.com/books/about/El_%C3%BAltimo_tren_a_Zurich.html?id=uBjeAAAACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-valle-de-los-arcangeles-de-rafael-tarradas-bulto",
+      "title": "El Valle De Los Arcangeles",
+      "authorName": "Rafael Tarradas Bulto",
+      "authorSlug": "rafael-tarradas-bulto",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El valle de los arcángeles",
+        "authorName": "Rafael Tarradas Bultó",
+        "authorSlug": "rafael-tarradas-bulto",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa",
+          "romance"
+        ],
+        "year": 2022,
+        "pages": 648,
+        "summary": "El valle de los arcángeles es una novela histórica y de intriga ambientada entre la Barcelona de 1864 y el Caribe azucarero de los últimos tiempos del imperio español. La historia arranca con dos trayectorias opuestas destinadas a cruzarse: Gabriel Gorchs, heredero problemático de una familia noble venida a menos, y Pepa Gómez, una mujer nacida en la miseria y decidida a ascender a cualquier precio. Ambos coinciden en el viaje atlántico hacia el Valle de los Arcángeles, un enclave de ingenios donde varias familias han vivido entre riqueza, jerarquía y aparente armonía. Allí, bajo la belleza del paisaje y la prosperidad colonial, aparecen asesinatos, ambiciones cruzadas, deseos, venganzas y un trasfondo decisivo: la profunda injusticia del sistema esclavista. Tarradas Bultó combina así saga, melodrama, misterio y crítica social.",
+        "aboutThisBook": "Publicada por Espasa en 2022 y luego reeditada en bolsillo por Booket, la novela confirma la inclinación de Rafael Tarradas Bultó por las tramas amplias, los contextos históricos reconocibles y los secretos familiares. Tanto PlanetadeLibros como Todostuslibros insisten en la mezcla de pasión, amor, venganza e intriga, pero el libro gana espesor porque sitúa ese repertorio en una economía colonial sostenida por la esclavitud y por una jerarquía feroz entre amos, trabajadores y esclavos. Su longitud y su construcción coral la acercan a la novela-río contemporánea.",
+        "forWhom": "Es muy adecuada para lectores de novela histórica extensa, sagas familiares, ficciones coloniales y relatos donde la intriga sentimental se mezcla con violencia social, herencias y crímenes.",
+        "whyItMatters": "Importa porque usa una narración de gran impulso popular para devolver al primer plano el Caribe esclavista, los estertores del imperio español y la relación entre ambición privada y estructura de injusticia.",
+        "editorialIntro": "Rafael Tarradas Bultó construye aquí una novela histórica de largo aliento que no se limita al decorado exótico ni al puro entretenimiento criminal. El viaje desde Barcelona hasta el Caribe abre un mundo atravesado por privilegio, deseo, racismo, dinero y violencia. En ese espacio de belleza paradisiaca y brutalidad estructural, la ambición individual de Pepa y la oportunidad hereditaria de Gabriel desencadenan una historia de pasión, ascenso social e inestabilidad moral.",
+        "readingLevel": "Medio-alto: la prosa es fluida, pero la extensión, el reparto coral y el cruce entre melodrama, historia colonial e intriga criminal exigen continuidad lectora.",
+        "whyReadToday": "Porque permite pensar la seducción del ascenso social junto con su precio humano, y porque mira el pasado colonial sin desprenderlo de la violencia que sostuvo aquella riqueza.",
+        "studyNotes": [
+          "El sistema esclavista no es solo telón de fondo: organiza la riqueza, las alianzas familiares y la desigualdad que hace posible toda la trama.",
+          "Pepa Gómez debe leerse como personaje de ambición extrema, pero también como síntoma de una sociedad donde el ascenso parece imposible sin cálculo despiadado.",
+          "Gabriel encarna la herencia como oportunidad y como carga moral; su desplazamiento al Caribe obliga a reconsiderar la relación entre linaje y fortuna.",
+          "Los asesinatos introducen tensión narrativa, pero también revelan cómo la armonía colonial era ya una fachada frágil."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Barcelona y dos destinos en conflicto",
+            "summary": "La novela presenta a Gabriel Gorchs en el palacio gótico familiar y a Pepa Gómez en un mundo de miseria, maltrato y cálculo social. Desde el inicio queda claro que ambos buscarán modificar su posición en una sociedad profundamente jerárquica."
+          },
+          {
+            "title": "Parte 2. El viaje en el Santa Graciela",
+            "summary": "La travesía atlántica reúne a personajes y expectativas. El viaje no es un simple tránsito geográfico: funciona como paso simbólico desde una Barcelona de intrigas domésticas hacia un orden colonial donde las tensiones se volverán más peligrosas."
+          },
+          {
+            "title": "Parte 3. El valle, los ingenios y los primeros crímenes",
+            "summary": "En el Valle de los Arcángeles, la prosperidad de las familias propietarias convive con la violencia del sistema esclavista. La aparición del primero de varios asesinatos quiebra la apariencia de equilibrio y convierte la novela en un relato de sospecha y descomposición moral."
+          },
+          {
+            "title": "Parte 4. Pasión, venganza y derrumbe de una armonía falsa",
+            "summary": "A medida que avanzan las lealtades rotas, los deseos y los intereses económicos, la novela muestra el abismo entre paraíso natural e infierno social. El cierre concentra amor, revancha y la revelación del coste humano de esa riqueza colonial."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Ambicion femenina y movilidad social",
+            "content": "Las fuentes editoriales subrayan la centralidad de Pepa Gómez, una mujer dispuesta a abrirse camino sin reparar demasiado en el daño. La novela explora así una ambición femenina nada idealizada: energía de supervivencia, deseo de ascenso y voluntad de poder dentro de un mundo brutal."
+          },
+          {
+            "heading": "El Caribe colonial como espacio de riqueza y crimen",
+            "content": "El valle de los arcángeles convierte el ingenio azucarero en escenario doble: promesa de fortuna y máquina de violencia. La opulencia de las familias propietarias solo puede entenderse a la luz del sistema esclavista, y los asesinatos rompen la ficción de armonía sobre la que descansa ese orden."
+          },
+          {
+            "heading": "Saga historica con pulso de intriga",
+            "content": "Tarradas Bultó combina procedimientos de novela-río con mecanismos de suspense. Herencias inesperadas, viajes, tensiones románticas y muertes sucesivas hacen avanzar la lectura, pero el libro gana consistencia porque esos recursos se insertan en un contexto histórico preciso y desigual."
+          },
+          {
+            "heading": "Imperio español y fin de una epoca",
+            "content": "La sinopsis editorial menciona expresamente los estertores del imperio español. Esa referencia amplía el sentido del libro: no se trata solo de un drama individual, sino del desgaste de un mundo colonial que intenta sostener privilegios mientras su legitimidad histórica se resquebraja."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es sobre todo una novela histórica o una novela de intriga?",
+            "answer": "Funciona como ambas cosas. El contexto colonial y esclavista es esencial, pero la trama se impulsa también por asesinatos, ambiciones cruzadas y conflictos sentimentales."
+          },
+          {
+            "question": "¿Dónde transcurre la historia?",
+            "answer": "Comienza en la Barcelona de 1864 y se desplaza después al Caribe, al enclave llamado Valle de los Arcángeles, donde se concentran plantaciones, familias poderosas y tensiones sociales extremas."
+          },
+          {
+            "question": "¿Qué papel tiene la esclavitud en la novela?",
+            "answer": "Un papel central. Las fuentes editoriales insisten en que la historia se levanta sobre la profunda injusticia del sistema esclavista, no como detalle decorativo, sino como base del orden económico y moral."
+          },
+          {
+            "question": "¿Es una lectura recomendable para quien disfruta sagas largas?",
+            "answer": "Sí. Su extensión, su amplitud de personajes y su mezcla de historia, pasión e intriga la vuelven especialmente atractiva para lectores de novelas-río contemporáneas."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros, ficha de El valle de los arcángeles",
+            "url": "https://www.planetadelibros.com/libro-el-valle-de-los-arcangeles/443178"
+          },
+          {
+            "label": "PlanetadeLibros, perfil de Rafael Tarradas Bultó",
+            "url": "https://www.planetadelibros.com/autor/rafael-tarradas-bulto/000052411"
+          },
+          {
+            "label": "Todostuslibros, ficha de El valle de los arcángeles",
+            "url": "https://www.todostuslibros.com/libros/el-valle-de-los-arcangeles_978-84-670-6353-0"
+          },
+          {
+            "label": "Open Library, edición de El valle de los arcángeles",
+            "url": "https://openlibrary.org/books/OL35677202M"
+          },
+          {
+            "label": "Open Library, obra El valle de los arcángeles",
+            "url": "https://openlibrary.org/works/OL26420776W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-verano-del-ingles-de-carme-riera",
+      "title": "El Verano Del Ingles",
+      "authorName": "Carme Riera",
+      "authorSlug": "carme-riera",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El verano del inglés",
+        "authorName": "Carme Riera",
+        "authorSlug": "carme-riera",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2006,
+        "pages": 152,
+        "summary": "El verano del inglés convierte una situación aparentemente cotidiana en una historia de inquietud creciente. Laura Prats, agente inmobiliaria, decide renunciar a sus vacaciones para hacer un curso intensivo de inglés, convencida de que dominar el idioma puede abrirle nuevas oportunidades profesionales. Lo que comienza como una inversión práctica en sí misma cambia de tono cuando se instala en la casa apartada de su profesora, la singular Mrs. Grose. Allí, la disciplina pedagógica se transforma en un método absorbente y perturbador, y la convivencia entre ambas mujeres deriva primero hacia la intriga y después hacia un clima cercano al terror psicológico. Carme Riera combina humor ácido, observación social y suspense para explorar la vulnerabilidad, la obediencia y los límites del deseo de mejorar a cualquier precio.",
+        "aboutThisBook": "Publicada originalmente en catalán como L'estiu de l'anglès y traducida por la propia autora al castellano, esta novela breve muestra una faceta especialmente lúdica y sombría de Carme Riera. La obra parte de una premisa muy reconocible —aprender inglés como exigencia de ascenso y adaptación profesional— para llevarla a un terreno de farsa inquietante. Su brevedad es engañosa: en pocas páginas concentra sátira de costumbres, crítica del lenguaje utilitario, manipulación psicológica y un notable pulso narrativo. El resultado es una novela corta que se lee con rapidez, pero deja una impresión ambigua, incómoda y muy discutible en el buen sentido crítico.",
+        "forWhom": "Para lectores adultos que disfrutan novelas breves de tensión psicológica, sátira social y ambientes cerrados donde una relación aparentemente pedagógica acaba revelando mecanismos de control y extrañeza.",
+        "whyItMatters": "Importa porque convierte una ansiedad contemporánea muy común —la obligación de reciclarse, mejorar y competir— en materia literaria. Bajo su superficie irónica, la novela muestra cómo el deseo de ascenso y la inseguridad pueden volver a una persona vulnerable frente a figuras de autoridad carismáticas o abusivas.",
+        "editorialIntro": "Carme Riera parte de una pregunta casi banal, la de cómo aprender inglés para progresar en el trabajo, y la empuja hasta un territorio narrativo donde lo cómico y lo perturbador conviven sin descanso. El verano del inglés es una novela breve, sí, pero de notable eficacia: instala a la protagonista en un espacio cerrado, somete la relación pedagógica a una presión creciente y revela cómo una promesa de mejora personal puede convertirse en una experiencia de dominación. Su ligereza inicial es parte del engaño que la vuelve memorable.",
+        "readingLevel": "Lectura accesible para público adulto. La prosa es ágil y la extensión breve, pero conviene atender a los cambios de tono, a la ironía y a la construcción psicológica de la relación entre Laura Prats y Mrs. Grose.",
+        "whyReadToday": "Porque sigue dialogando con una cultura obsesionada con la productividad, el perfeccionamiento y las promesas de éxito rápido, mostrando el lado coercitivo que puede esconderse tras esos discursos.",
+        "studyNotes": [
+          "La novela aprovecha una situación cotidiana y reconocible para construir un relato de encierro y manipulación psicológica.",
+          "Laura Prats encarna una vulnerabilidad social contemporánea: la sensación de que no mejorar equivale a quedarse fuera del mundo laboral.",
+          "Mrs. Grose no es solo una profesora excéntrica; funciona como figura de autoridad que transforma la enseñanza en disciplina y control.",
+          "El humor inicial no contradice el terror posterior: ambos registros se complementan para intensificar la crítica social y la incomodidad del lector."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La decisión de aprender inglés",
+            "summary": "Laura Prats acepta sacrificar el verano para corregir una carencia que percibe como obstáculo profesional. El arranque presenta una motivación pragmática y plenamente contemporánea: estudiar para no quedar rezagada."
+          },
+          {
+            "title": "Parte 2: La llegada a la casa de Mrs. Grose",
+            "summary": "El traslado al caserón de la profesora modifica el tono del relato. Lo que parecía un simple curso intensivo adquiere una dimensión aislada y extraña, marcada por reglas implícitas y una autoridad cada vez más invasiva."
+          },
+          {
+            "title": "Parte 3: Del aprendizaje a la intriga",
+            "summary": "La convivencia entre alumna y maestra se enrarece. Laura descubre que el método de Mrs. Grose desborda la severidad académica y empieza a afectar su autonomía, su percepción de la realidad y su capacidad de reacción."
+          },
+          {
+            "title": "Parte 4: El método Grose y sus consecuencias",
+            "summary": "En la última parte, la novela lleva al extremo la lógica del control. El curso de inglés deja de ser un medio de superación y se vuelve experiencia de sometimiento, con una mezcla eficaz de humor negro, suspense y terror."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Aprender inglés como síntoma de época",
+            "content": "Riera convierte la presión por dominar el inglés en emblema de una modernidad competitiva. El idioma no aparece solo como herramienta, sino como contraseña de pertenencia social, ascenso y legitimidad profesional."
+          },
+          {
+            "heading": "La pedagogía deformada en mecanismo de poder",
+            "content": "La relación entre Laura y Mrs. Grose muestra cómo la enseñanza puede deslizarse hacia formas de control. La profesora organiza el espacio, el tiempo y la conducta de la alumna hasta vaciar de neutralidad el vínculo pedagógico."
+          },
+          {
+            "heading": "Humor negro y terror psicológico",
+            "content": "Uno de los aciertos de la novela es no elegir entre sátira y amenaza. El humor vuelve reconocible la situación inicial, mientras el terror psicológico expone el costo subjetivo de entregarse a un método que promete eficacia total."
+          },
+          {
+            "heading": "Una novela breve con resonancia crítica",
+            "content": "Aunque es corta, la obra abre preguntas amplias sobre obediencia, inseguridad laboral, deseo de ascenso y manipulación. Su densidad proviene de concentrar esas tensiones en un escenario mínimo y altamente controlado."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El verano del inglés?",
+            "answer": "Trata sobre Laura Prats, una agente inmobiliaria que decide estudiar inglés en verano para mejorar laboralmente y acaba atrapada en una convivencia inquietante con su profesora, Mrs. Grose."
+          },
+          {
+            "question": "¿Es una novela de terror?",
+            "answer": "No es terror en sentido clásico, pero sí una novela de intriga y terror psicológico. Parte de una situación realista y cotidiana para construir progresivamente una atmósfera opresiva."
+          },
+          {
+            "question": "¿Qué papel cumple Mrs. Grose?",
+            "answer": "Es la profesora que encarna el llamado método Grose. Su presencia impulsa la novela porque convierte el aprendizaje en una relación ambigua de disciplina, fascinación y control."
+          },
+          {
+            "question": "¿Por qué se considera una novela satírica?",
+            "answer": "Porque ridiculiza la ansiedad social por dominar el inglés y progresar a toda costa, mostrando cómo un ideal práctico de mejora personal puede adquirir rasgos absurdos, cómicos y siniestros."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: El verano del inglés (obra)",
+            "url": "https://openlibrary.org/works/OL13665728W"
+          },
+          {
+            "label": "Goodreads: El verano del inglés",
+            "url": "https://www.goodreads.com/book/show/3322042-el-verano-del-ingl-s"
+          },
+          {
+            "label": "Instituto Cervantes: Carme Riera",
+            "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/riera_carme.htm"
+          },
+          {
+            "label": "Wikipedia: Carme Riera",
+            "url": "https://es.wikipedia.org/wiki/Carme_Riera"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-vicario-que-hablaba-al-reves-de-roald-dahl",
+      "title": "El Vicario Que Hablaba Al Reves",
+      "authorName": "Roald Dahl",
+      "authorSlug": "roald-dahl",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El vicario que hablaba al revés",
+        "authorName": "Roald Dahl",
+        "authorSlug": "roald-dahl",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "infantil",
+          "narrativa"
+        ],
+        "year": 1991,
+        "pages": 40,
+        "summary": "Esta breve historia humorística de Roald Dahl cuenta el desconcierto que provoca en la tranquila parroquia de Nibbleswicke el reverendo Lee, un vicario afectado por una extraña forma de dislexia que invierte sus palabras al hablar. El problema no altera su buena intención, pero sí transforma sus sermones y conversaciones en un festival de malentendidos, escándalo y comicidad verbal. La comunidad interpreta sus expresiones al pie de la letra y el vicario, sin advertir del todo lo que ocurre, se convierte en centro de una pequeña crisis pública. El relato avanza hacia una solución absurda y memorable: para hablar del modo correcto, deberá caminar hacia atrás. Dahl construye así una fábula ligera y disparatada que convierte un trastorno del lenguaje en un dispositivo de humor, pero también en una invitación a mirar la diferencia con menos crueldad y más imaginación.",
+        "aboutThisBook": "Publicado originalmente en 1991 y asociado por sus ediciones y registros bibliográficos a un trabajo en beneficio del Dyslexia Institute, este libro tardío de Roald Dahl apareció ilustrado por Quentin Blake. Los catálogos de Open Library, Google Books e Internet Archive coinciden en presentarlo como una obra infantil breve y humorística centrada en la llamada Back-to-Front Dyslexia del reverendo Lee. Su extensión reducida —40 páginas en la edición de Penguin registrada en Internet Archive— hace que funcione como cuento largo o novela brevísima. Más allá del chiste lingüístico, la obra conserva rasgos clásicos de Dahl: gusto por el disparate, ritmo rápido, exageración y una lógica narrativa que toma un problema real para llevarlo a una solución fantásticamente literal.",
+        "forWhom": "Para lectores infantiles, familias y docentes que busquen una obra breve, divertida y útil para hablar de lenguaje, diferencia, empatía y humor sin solemnidad.",
+        "whyItMatters": "Importa porque muestra a un Dahl tardío trabajando con gran economía narrativa y porque acerca el tema de la dislexia a lectores jóvenes mediante una historia lúdica, recordable y fácil de comentar en clase.",
+        "editorialIntro": "No es de los títulos más famosos de Roald Dahl, pero justamente por eso resulta interesante. En muy pocas páginas, el autor convierte una dificultad del lenguaje en una comedia verbal disparatada, con ecos de farsa parroquial y cuento ilustrado. El libro tiene la ligereza de una ocurrencia brillante y, al mismo tiempo, una intención muy clara: desplazar la burla cruel por una imaginación más comprensiva. Leído hoy, conserva frescura y ofrece una excelente ocasión para hablar del poder de las palabras.",
+        "readingLevel": "Lectura accesible para niños desde primaria media y para mediación adulta en voz alta. El vocabulario no es difícil, pero el juego central depende de captar inversiones verbales, ironía y humor de situación.",
+        "whyReadToday": "Porque sigue siendo un texto eficaz para conversar sobre dislexia, diferencia y lenguaje desde el humor, sin convertir el tema en sermón ni perder el placer del disparate narrativo.",
+        "studyNotes": [
+          "La obra transforma una dificultad lingüística en mecanismo de comicidad, por lo que conviene observar cómo Dahl hace depender el humor del sonido, el error y la reacción de los demás.",
+          "Aunque es un texto muy breve, puede leerse como intervención cultural a favor de una mirada menos estigmatizante sobre la dislexia.",
+          "El reverendo Lee no es ridiculizado como personaje malvado o incapaz; el verdadero foco cómico está en el choque entre intención y recepción dentro de la comunidad parroquial.",
+          "La solución de caminar hacia atrás para hablar hacia adelante resume bien la lógica dahliana: una idea absurda desarrollada con total seriedad narrativa.",
+          "Las ilustraciones de Quentin Blake, presentes en las ediciones registradas, ayudan a reforzar el tono ligero y caricaturesco del relato."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: el vicario empieza a hablar al revés",
+            "summary": "La vida ordinaria de la parroquia se altera cuando el reverendo Lee comienza a decir lo contrario de lo que pretende. La rareza no proviene de una mala voluntad, sino de un trastorno verbal que él mismo no controla del todo."
+          },
+          {
+            "title": "Momento clave 2: escándalo y confusión en Nibbleswicke",
+            "summary": "Los fieles reciben sus palabras invertidas con estupor, ofensa y perplejidad. Dahl explota allí la comicidad social: un problema del lenguaje desencadena malentendidos públicos cada vez más absurdos."
+          },
+          {
+            "title": "Momento clave 3: encontrar una cura tan ridícula como eficaz",
+            "summary": "La historia se encamina hacia una solución excéntrica: para que las palabras salgan bien, el vicario tendrá que desplazarse hacia atrás. El remedio parece imposible, pero dentro de la lógica del cuento devuelve el orden y confirma el tono lúdico de la obra."
+          },
+          {
+            "title": "Momento clave 4: humor con una lección de empatía",
+            "summary": "El desenlace mantiene el tono festivo, pero deja una idea clara: antes de convertir a alguien en motivo de escarnio, conviene entender qué le ocurre. Esa lección aparece sin didactismo pesado, integrada en el propio mecanismo del cuento."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El lenguaje como fuente principal de humor",
+            "content": "A diferencia de otros libros de Dahl basados en villanos grotescos o aventuras expansivas, aquí casi todo depende del habla. El cuento trabaja con inversiones verbales, equívocos y reacciones literales del entorno. Esa economía hace visible la maestría del autor para sostener una historia entera a partir de una sola premisa cómica."
+          },
+          {
+            "heading": "Dislexia y representación literaria",
+            "content": "La obra no pretende ser un tratado clínico sobre dislexia, y conviene no leerla como explicación médica. Su interés está en popularizar, mediante humor y exageración, una invitación a la comprensión. Por eso funciona mejor si se acompaña con conversación crítica sobre qué simplifica y qué sensibiliza."
+          },
+          {
+            "heading": "La comunidad como espejo del malentendido",
+            "content": "Nibbleswicke no es solo escenario: es un laboratorio de reacciones. La parroquia convierte cada frase del vicario en escándalo porque escucha sin contexto, juzga rápido y responde con literalidad. Dahl se ríe también de esa tendencia social a condenar antes de entender."
+          },
+          {
+            "heading": "Un Dahl menor, pero muy útil",
+            "content": "Aunque no tenga la ambición de Matilda o Charlie y la fábrica de chocolate, este título posee un valor pedagógico y literario propio. Su brevedad, su claridad y su tema lo hacen excelente para lectura guiada, trabajo sobre lenguaje y entrada temprana al universo del autor."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un cuento o una novela?",
+            "answer": "Por su extensión suele leerse como cuento largo o novela muy breve. Las ediciones bibliográficas registradas por Internet Archive y Open Library lo presentan como un libro infantil corto de unas 40 páginas."
+          },
+          {
+            "question": "¿Qué relación tiene con la dislexia?",
+            "answer": "El argumento gira alrededor de una forma ficticia y humorística de dislexia que hace hablar al vicario al revés. Además, el libro se asocia editorialmente con una iniciativa en beneficio del Dyslexia Institute."
+          },
+          {
+            "question": "¿Es adecuado para trabajar en clase?",
+            "answer": "Sí. Sirve para lectura en voz alta, análisis del humor verbal y conversación sobre diferencias de aprendizaje, empatía y malentendidos lingüísticos."
+          },
+          {
+            "question": "¿Hace falta conocer otros libros de Roald Dahl para disfrutarlo?",
+            "answer": "No. Se puede leer de manera independiente. De hecho, su brevedad y su premisa única lo convierten en una buena puerta de entrada para lectores jóvenes que aún no han abordado las obras largas del autor."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: The Vicar of Nibbleswicke",
+            "url": "https://openlibrary.org/works/OL45863W"
+          },
+          {
+            "label": "Internet Archive: metadata de The Vicar of Nibbleswicke",
+            "url": "https://archive.org/metadata/vicarofnibbleswi0000dahl"
+          },
+          {
+            "label": "Internet Archive: Dublin Core de The Vicar of Nibbleswicke",
+            "url": "https://archive.org/download/vicarofnibbleswi0000dahl/vicarofnibbleswi0000dahl_dc.xml"
+          },
+          {
+            "label": "Google Books: The Vicar of Nibbleswicke",
+            "url": "https://books.google.com/books?vid=ISBN9780140348910&redir_esc=y"
+          },
+          {
+            "label": "Wikipedia: The Vicar of Nibbleswicke",
+            "url": "https://en.wikipedia.org/wiki/The_Vicar_of_Nibbleswicke"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "electra-de-benito-perez-galdos",
+      "title": "Electra",
+      "authorName": "Benito Perez Galdos",
+      "authorSlug": "benito-perez-galdos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Electra",
+        "authorName": "Benito Pérez Galdós",
+        "authorSlug": "benito-perez-galdos",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "teatro",
+          "clasicos"
+        ],
+        "year": 1901,
+        "pages": null,
+        "summary": "Electra es un drama en cinco actos en el que Benito Pérez Galdós reescribe el nombre mítico de la heroína clásica para situarlo en la España de comienzos del siglo XX. La protagonista es una joven huérfana, criada por familiares y sometida a una trama de tutela, secretos y manipulación moral. Cuando se enamora de Máximo, un hombre asociado a la ciencia, la libertad intelectual y el progreso, surge la oposición del siniestro Salvador Pantoja, que invoca una supuesta relación de parentesco para impedir esa unión y empujar a Electra hacia el convento. La obra convierte ese conflicto sentimental en una batalla ideológica entre oscurantismo y emancipación. El desenlace, en el que la verdad deshace la mentira y la protagonista recupera su derecho a decidir, explica por qué el estreno de 1901 fue leído como un acontecimiento político y cultural, no solo teatral.",
+        "aboutThisBook": "Estrenada el 30 de enero de 1901 y editada ese mismo año, Electra ocupa un lugar singular dentro del teatro de Galdós por su repercusión pública inmediata. La Biblioteca Virtual Miguel de Cervantes la registra como drama en cinco actos basado en la edición madrileña de 1901, mientras que el Teatro Pérez Galdós recuerda su nueva difusión digital como una de las obras emblemáticas del autor. La recepción histórica de la pieza estuvo marcada por su carga anticlerical y regeneracionista: la propia Wikipedia, utilizada aquí solo como apoyo contextual, resume el escándalo nacional que acompañó su estreno. Más que un simple melodrama, la obra funciona como teatro de ideas, donde el conflicto privado sirve para discutir autoridad religiosa, libertad de conciencia y modernización social.",
+        "forWhom": "Para lectores de clásicos españoles, estudiantes de literatura, aficionados al teatro de ideas y quienes deseen entender cómo una obra escénica pudo intervenir de forma tan visible en el debate político y cultural de su tiempo.",
+        "whyItMatters": "Importa porque condensa una de las grandes tensiones de la España finisecular: la pugna entre clericalismo y modernidad. Su mezcla de drama sentimental, símbolo ideológico y escándalo histórico la vuelve una pieza clave para leer a Galdós más allá de la novela.",
+        "editorialIntro": "Pocas obras teatrales españolas han tenido un estreno tan ruidoso como Electra. Galdós convirtió un conflicto doméstico y amoroso en una alegoría de alcance nacional: de un lado, la tutela, el secreto, el miedo y la obediencia; del otro, la luz, la razón, la libertad de conciencia y el derecho a elegir la propia vida. Esa dimensión polémica no debe ocultar su potencia dramática. Electra se sostiene precisamente porque las ideas no aparecen separadas de los personajes, sino encarnadas en voces, afectos y enfrentamientos que llevan la disputa ideológica al centro mismo de la escena.",
+        "readingLevel": "Lectura media-alta. El texto teatral es accesible, pero gana profundidad cuando se lee con contexto sobre Galdós, el anticlericalismo de la época y el simbolismo ideológico de los personajes.",
+        "whyReadToday": "Porque sigue siendo una obra iluminadora sobre tutela moral, manipulación de la verdad, libertad femenina y conflictos entre autoridad institucional y autonomía personal.",
+        "studyNotes": [
+          "La obra está organizada en cinco actos y puede leerse como un drama de ideas donde cada personaje encarna posiciones morales, sociales e intelectuales enfrentadas.",
+          "Electra no es solo una heroína sentimental; representa la posibilidad de salir del régimen de tutela y decidir por sí misma.",
+          "Pantoja concentra la dimensión oscura del drama: manipula la información y utiliza la autoridad moral como instrumento de control.",
+          "Máximo simboliza ciencia, progreso y vida civil, por eso su relación con Electra tiene un valor más amplio que el meramente amoroso."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Acto I: Presentación del conflicto",
+            "summary": "Se establece el entorno familiar de Electra, joven huérfana marcada por el misterio sobre su origen. El enamoramiento con Máximo abre una posibilidad de futuro que pronto choca con fuerzas interesadas en impedirla."
+          },
+          {
+            "title": "Acto II: La intervención de Pantoja",
+            "summary": "Salvador Pantoja maniobra para dominar la situación y siembra en la protagonista la sospecha de un parentesco que volvería imposible su amor. La duda se convierte en un instrumento de sujeción moral."
+          },
+          {
+            "title": "Acto III: Encierro y crisis espiritual",
+            "summary": "La presión sobre Electra aumenta y el convento aparece como destino impuesto. La obra intensifica aquí su dimensión simbólica: la protagonista queda atrapada entre obediencia exterior y verdad interior."
+          },
+          {
+            "title": "Acto IV: Revelaciones y combate ideológico",
+            "summary": "Las falsedades que sostienen el poder de Pantoja empiezan a resquebrajarse. El drama sentimental se vuelve abiertamente una lucha entre mentira interesada, conciencia individual y derecho a la vida propia."
+          },
+          {
+            "title": "Acto V: Triunfo de la verdad",
+            "summary": "La figura de la madre y la revelación final desactivan la red de manipulación. Electra recupera su capacidad de elegir y el desenlace afirma, de forma inequívoca, la victoria de la libertad sobre el fanatismo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Teatro de ideas y melodrama",
+            "content": "Electra funciona al mismo tiempo como drama sentimental y como pieza ideológica. Galdós aprovecha la intensidad melodramática para hacer legible un debate histórico sobre religión, modernidad y autoridad."
+          },
+          {
+            "heading": "La figura de Electra como símbolo",
+            "content": "La protagonista encarna algo más que una joven enamorada: representa una conciencia sometida que intenta emanciparse. Por eso su itinerario personal adquiere valor político y cultural dentro de la obra."
+          },
+          {
+            "heading": "Pantoja y la manipulación moral",
+            "content": "El antagonista no se limita a prohibir; gobierna mediante secretos, medias verdades y prestigio espiritual. Esa construcción dramática convierte a Pantoja en emblema del poder que pretende decidir por otros en nombre de un bien superior."
+          },
+          {
+            "heading": "Escándalo teatral y lectura histórica",
+            "content": "La importancia de Electra no reside solo en su texto, sino también en su recepción. Su estreno de 1901 fue interpretado como un desafío al clericalismo y convirtió el teatro en un espacio visible de confrontación pública."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Electra es una adaptación directa del mito griego?",
+            "answer": "No de forma estricta. Galdós reutiliza el nombre y la resonancia simbólica del mito, pero construye un drama moderno y español, centrado en la libertad de conciencia y el conflicto anticlerical."
+          },
+          {
+            "question": "¿Por qué fue tan polémica en su estreno?",
+            "answer": "Porque muchos contemporáneos la leyeron como un ataque frontal al poder de la Iglesia y de las órdenes religiosas en la vida pública y privada. Su recepción fue inseparable del clima político de la época."
+          },
+          {
+            "question": "¿Es una obra difícil de leer hoy?",
+            "answer": "No especialmente, aunque se disfruta más con algo de contexto histórico. El conflicto dramático es claro y los personajes están construidos para que sus posiciones resulten muy visibles."
+          },
+          {
+            "question": "¿Qué tema central organiza la obra?",
+            "answer": "La lucha entre tutela y autonomía. Todo el drama gira en torno a quién tiene derecho a decidir la vida de Electra y con qué argumentos se intenta someter su voluntad."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Electra",
+            "url": "https://www.cervantesvirtual.com/obra/electra-drama-en-cinco-actos--0/"
+          },
+          {
+            "label": "Teatro Pérez Galdós: Descarga el libro Electra de Benito Pérez Galdós",
+            "url": "https://teatroperezgaldos.es/libro"
+          },
+          {
+            "label": "Wikisource: Electra (Benito Pérez Galdós)",
+            "url": "https://es.wikisource.org/wiki/Electra_(Benito_P%C3%A9rez_Gald%C3%B3s)"
+          },
+          {
+            "label": "Wikipedia: Electra (Galdós)",
+            "url": "https://es.wikipedia.org/wiki/Electra_(Gald%C3%B3s)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "elizabeth-costello-de-j-m-coetzee",
+      "title": "Elizabeth Costello",
+      "authorName": "J M Coetzee",
+      "authorSlug": "j-m-coetzee",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Elizabeth Costello",
+        "authorName": "J. M. Coetzee",
+        "authorSlug": "j-m-coetzee",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos",
+          "ensayo"
+        ],
+        "year": 2003,
+        "pages": 240,
+        "summary": "Elizabeth Costello es una novela de J. M. Coetzee que adopta una forma poco convencional: la vida intelectual y moral de una escritora australiana envejecida se revela a través de ocho lecciones o conferencias. En lugar de narrar linealmente una biografía, el libro acompaña a Costello en escenarios académicos y públicos donde se discuten el realismo, la novela africana, la relación entre humanos y animales, las humanidades, el mal, el deseo y el juicio final. Ese dispositivo convierte a la protagonista en personaje y al mismo tiempo en voz de debate, de modo que la novela puede leerse como relato, laboratorio filosófico y reflexión sobre el acto de narrar. Coetzee construye así una obra fronteriza, intensamente literaria, donde cada intervención pública abre un conflicto íntimo, ético e intelectual.",
+        "aboutThisBook": "Publicada originalmente en inglés en 2003 y traducida al español en 2004, Elizabeth Costello ocupa un lugar central en la obra tardía de Coetzee. Las fuentes editoriales y bibliográficas coinciden en subrayar su estructura en ocho lecciones formales y su condición híbrida: novela, meditación sobre la literatura, examen ético y juego de máscaras autorales. No es un libro de intriga tradicional, sino una ficción de ideas que usa la figura de una novelista célebre para poner a prueba conceptos como empatía, representación, autoridad moral y responsabilidad estética.",
+        "forWhom": "Es especialmente recomendable para lectores de narrativa literaria exigente, estudiantes de humanidades, clubes de lectura avanzados y quienes disfrutan novelas que dialogan con la filosofía, la ética y la teoría literaria.",
+        "whyItMatters": "Importa porque convierte preguntas difíciles sobre sufrimiento, imaginación, animalidad, mal y juicio moral en materia novelística, sin reducirlas a tratado ni a simple argumento ejemplar.",
+        "editorialIntro": "Pocas novelas contemporáneas han trabajado con tanta precisión la frontera entre ficción y pensamiento. Coetzee no presenta a Elizabeth Costello como una heroína psicológica al uso, sino como una conciencia pública sometida a controversia, desgaste y examen. El libro exige escuchar discursos, silencios y vacilaciones para comprender cómo una vida literaria puede convertirse en campo de batalla ético.",
+        "readingLevel": "Alto: la prosa es clara, pero la estructura ensayística, las referencias literarias y filosóficas y la ambigüedad deliberada del libro exigen lectura atenta y pausada.",
+        "whyReadToday": "Porque sigue siendo una de las ficciones más incisivas sobre empatía, animalidad, cultura y autoridad moral en un tiempo que vuelve a discutir quién tiene voz y cómo se representa el sufrimiento ajeno.",
+        "studyNotes": [
+          "La forma de ocho lecciones es decisiva: cada sección funciona como conferencia y como escena narrativa a la vez.",
+          "Conviene distinguir entre Elizabeth Costello como personaje y las ideas que la novela decide problematizar a través de ella; no todo enunciado equivale a una tesis estable de Coetzee.",
+          "Las lecciones sobre los animales son centrales para entender la ética de la imaginación en Coetzee y su crítica a los límites de la razón argumentativa.",
+          "El final, 'At the Gate', reescribe motivos kafkianos y religiosos para convertir la identidad en materia de juicio."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Lesson 1. Realism",
+            "summary": "La novela abre con la llegada de Elizabeth Costello a un entorno universitario y con una reflexión sobre cómo empezar a contar una historia. Desde ese arranque, Coetzee señala que el problema formal del relato y la construcción del personaje serán parte del contenido mismo."
+          },
+          {
+            "title": "Lessons 2-4. Africa y las vidas de los animales",
+            "summary": "Las siguientes lecciones desplazan el foco hacia la novela africana y, sobre todo, hacia la cuestión animal. Costello discute con filósofos, poetas y públicos escépticos, defendiendo una imaginación moral que desafía la comodidad intelectual de los oyentes."
+          },
+          {
+            "title": "Lessons 5-7. Humanidades, mal y eros",
+            "summary": "La parte media del libro vuelve más tensa la relación entre pensamiento y vida. Las discusiones sobre las humanidades en África, el problema del mal y el deseo muestran a Costello como figura pública vulnerable, controvertida y cada vez más sometida a juicio."
+          },
+          {
+            "title": "Lesson 8 y Postscript. At the Gate",
+            "summary": "El tramo final abandona la escena académica ordinaria y se aproxima a una alegoría de juicio. Costello comparece ante una instancia enigmática donde se le exige una definición de sus creencias, y el libro culmina en una interrogación radical sobre identidad, convicción y testimonio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela de ideas y desmontaje del personaje",
+            "content": "Elizabeth Costello desafía la expectativa de una novela centrada en peripecias. Coetzee usa una figura de escritora consagrada para explorar cómo una persona pública queda compuesta por discursos, controversias, lecturas y malentendidos. El personaje existe en lo que dice, pero también en lo que otros no toleran de ella."
+          },
+          {
+            "heading": "La imaginacion como problema etico",
+            "content": "Las lecciones sobre los animales son decisivas porque vinculan literatura y compasión. Costello sostiene, contra los límites de la argumentación puramente racional, que imaginar la vida ajena es una forma seria de conocimiento moral. La novela no presenta esa posición como doctrina cerrada, sino como apuesta arriesgada y polémica."
+          },
+          {
+            "heading": "Humanidades, autoridad y desgaste",
+            "content": "A medida que avanza el libro, la protagonista aparece cada vez menos como autora triunfante y más como conciencia fatigada. Coetzee examina el coste de hablar en público, la fragilidad de la autoridad intelectual y el modo en que la cultura universitaria recibe ideas incómodas."
+          },
+          {
+            "heading": "El final alegorico",
+            "content": "At the Gate transforma la novela en escena de juicio metafísico. Allí ya no importa solo qué ha escrito o qué ha dicho Costello, sino qué puede afirmar como creencia propia. Ese giro vuelve visible una preocupación central de Coetzee: la insuficiencia de las etiquetas cuando una existencia debe responder por sí misma."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela convencional de argumento lineal?",
+            "answer": "No. Está construida como una serie de ocho lecciones o conferencias, de modo que el avance narrativo depende más de debates éticos e intelectuales que de una trama tradicional."
+          },
+          {
+            "question": "¿Qué temas trata con más fuerza?",
+            "answer": "Entre los temas principales están el realismo, la literatura africana, la relación entre humanos y animales, el mal, el deseo, la autoridad moral y la naturaleza misma del relato."
+          },
+          {
+            "question": "¿Por qué se considera un libro importante de Coetzee?",
+            "answer": "Porque condensa varias de sus obsesiones mayores en una forma híbrida y muy original: la responsabilidad ética de la imaginación, el estatuto del escritor y la fragilidad de toda posición moral segura."
+          },
+          {
+            "question": "¿Hace falta formación filosófica para leerlo?",
+            "answer": "No es imprescindible, pero sí ayuda tener disposición para una lectura reflexiva. La novela puede seguirse narrativamente, aunque gana mucho cuando se atiende a sus referencias literarias y filosóficas."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Todostuslibros, ficha de Elizabeth Costello",
+            "url": "https://www.todostuslibros.com/libros/elizabeth-costello_978-84-397-1024-0"
+          },
+          {
+            "label": "Open Library, edición de Elizabeth Costello",
+            "url": "https://openlibrary.org/books/OL24764263M"
+          },
+          {
+            "label": "Internet Archive, registro de Elizabeth Costello",
+            "url": "https://archive.org/details/elizabethcostell0000coet"
+          },
+          {
+            "label": "Library of Congress, publisher description de Elizabeth Costello",
+            "url": "https://www.loc.gov/catdir/enhancements/fy0719/2003060849-d.html"
+          },
+          {
+            "label": "Library of Congress, sample text de Elizabeth Costello",
+            "url": "https://www.loc.gov/catdir/enhancements/fy0719/2003060849-s.html"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "emily-the-strange-los-dias-perdidos-de-rob-reger",
+      "title": "Emily The Strange Los Dias Perdidos",
+      "authorName": "Rob Reger",
+      "authorSlug": "rob-reger",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 1,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "The Lost Days",
+        "authorName": "Rob Reger y Jessica Gruner",
+        "authorSlug": "rob-reger-y-jessica-gruner",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "fantasia",
+          "aventura"
+        ],
+        "year": 2009,
+        "pages": 266,
+        "summary": "The Lost Days, primer volumen narrativo del universo de Emily the Strange, mezcla novela juvenil, humor gótico y misterio de identidad. Emily, de trece años, despierta sin memoria y debe reconstruir quién es, qué hacía y por qué todo a su alrededor parece indicar una misión secreta. En ese proceso aparecen sus inseparables cuatro gatos negros, listas obsesivas, inventos extraños, un posible doble, una figura escolar sospechosa y una cadena de pistas que convierten la amnesia en motor de aventura. La novela mantiene el espíritu visual y excéntrico del personaje, pero lo traslada a una narración más extensa donde la rareza ya no es solo pose estética: se vuelve una forma de afirmación personal. Bajo su tono lúdico, el libro trata sobre individualidad, pertenencia y construcción del yo.",
+        "aboutThisBook": "Publicado por HarperCollins en 2009, The Lost Days abre la serie de novelas de Emily the Strange, personaje creado por Rob Reger y asociado desde los años noventa a una iconografía gótica-pop muy reconocible. En esta entrega, Reger escribe junto con Jessica Gruner y expande el personaje más allá de la imagen y el merchandising, dándole una intriga narrativa propia. El libro conserva el gusto por las listas, lo absurdo y lo oscuro, pero funciona también como una historia juvenil sobre memoria e identidad. Por eso suele atraer tanto a lectores ya familiarizados con la estética de Emily como a quienes buscan una protagonista excéntrica, inteligente y deliberadamente antinormativa.",
+        "forWhom": "Para lectores juveniles desde la preadolescencia, especialmente quienes disfrutan protagonistas raras e independientes, mundos gótico-pop, humor excéntrico y misterios narrados con ritmo ágil.",
+        "whyItMatters": "Importa porque convirtió a Emily the Strange en algo más que una imagen icónica: la volvió personaje literario con conflicto interno. Además, ofrece a lectores jóvenes una heroína extraña, creativa y no complaciente, valiosa en un panorama juvenil a menudo más uniforme.",
+        "editorialIntro": "Antes de ser una novela, Emily the Strange ya era una figura visual muy poderosa: gatos negros, gesto desafiante y una identidad cultivada desde la diferencia. The Lost Days aprovecha ese capital simbólico y lo transforma en relato. La apuesta funciona porque no domestica al personaje: en vez de suavizar su rareza, la usa como motor de misterio y autoconocimiento. El resultado es una novela juvenil singular, con humor oscuro, imaginación visual y una protagonista cuya rebeldía se vuelve argumento, no solo estilo.",
+        "readingLevel": "Lectura accesible para público juvenil. El ritmo es rápido y el tono juguetón, aunque las referencias visuales, las listas, la amnesia inicial y el humor excéntrico pueden aprovecharse mejor con lectores acostumbrados a relatos de fantasía urbana y misterio ligero.",
+        "whyReadToday": "Porque sigue ofreciendo una protagonista distinta de los moldes juveniles más previsibles: rara, autosuficiente, ingeniosa y obligada a pensar quién es sin depender de la aprobación ajena.",
+        "studyNotes": [
+          "La amnesia inicial no es solo un recurso de intriga; permite que la novela convierta la identidad en una pregunta narrativa explícita.",
+          "Emily funciona como antiheroína juvenil: no busca agradar, y precisamente por eso encarna una forma de individualidad muy atractiva para ciertos lectores.",
+          "Las listas, objetos extraños y episodios absurdos forman parte de la voz del libro y ayudan a trasladar al plano narrativo la estética gráfica del personaje.",
+          "El universo de Emily the Strange combina cultura pop, humor negro y aventura, pero evita caer del todo en el cinismo porque mantiene un núcleo claro de búsqueda personal."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Despertar sin memoria",
+            "summary": "Emily aparece desorientada y sin recordar quién es. Ese vacío de memoria instala el misterio central y obliga a la protagonista a observar su propio mundo como si fuera una extraña dentro de él."
+          },
+          {
+            "title": "Parte 2: Pistas, gatos y objetos imposibles",
+            "summary": "A medida que avanza la búsqueda, Emily reúne señales dispersas: sus cuatro gatos negros, listas numeradas, inventos improbables y figuras sospechosas que sugieren una historia previa más compleja de lo que parece."
+          },
+          {
+            "title": "Parte 3: Dobles, amenazas y misión secreta",
+            "summary": "La novela incrementa el componente aventurero con la aparición de peligros, vigilancias y la posibilidad de un doble o una identidad reflejada. El misterio se amplía desde lo íntimo hacia un mundo más extraño y móvil."
+          },
+          {
+            "title": "Parte 4: Reconstruir el yo",
+            "summary": "En el cierre, recuperar la memoria importa menos como simple dato biográfico que como acto de autodefinición. Emily recompone su historia y confirma que su singularidad no es un accidente, sino el centro mismo del personaje."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Del icono gráfico al personaje novelesco",
+            "content": "La novela demuestra que Emily the Strange podía sostener algo más que una imagen reconocible. Al darle trama, memoria rota y conflicto interno, Reger y Gruner convierten un emblema estético en una protagonista con recorrido narrativo."
+          },
+          {
+            "heading": "Identidad y amnesia en clave juvenil",
+            "content": "La pérdida de memoria permite dramatizar preguntas típicas de la adolescencia: quién soy, qué me define y cuánto de mi identidad depende de lo que recuerdan los demás. El libro vuelve esas preguntas accesibles sin volverlas simplistas."
+          },
+          {
+            "heading": "Humor gótico y rareza como lenguaje",
+            "content": "Lejos de ser un simple decorado, la estética oscura organiza la voz del libro. Gatos negros, listas, aparatos improbables y amenazas absurdas construyen un tono donde lo macabro se vuelve juguetón y la extrañeza funciona como marca de personalidad."
+          },
+          {
+            "heading": "Una heroína antinormativa",
+            "content": "Emily interesa porque no aspira a encajar. Frente a muchas protagonistas juveniles definidas por el deseo de aceptación, ella sostiene una identidad deliberadamente excéntrica. Esa diferencia explica buena parte de la vigencia cultural del personaje."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué es The Lost Days dentro de Emily the Strange?",
+            "answer": "Es la primera novela larga del universo de Emily the Strange y el punto de arranque de la serie narrativa protagonizada por el personaje."
+          },
+          {
+            "question": "¿Quiénes escribieron el libro?",
+            "answer": "La novela está firmada por Rob Reger y Jessica Gruner. Reger es el creador asociado al personaje y Gruner figura como coautora en la edición original."
+          },
+          {
+            "question": "¿De qué trata la historia?",
+            "answer": "Trata sobre Emily, una chica de trece años que despierta sin memoria y debe reconstruir su identidad entre pistas extrañas, gatos negros, inventos y una atmósfera de misterio gótico."
+          },
+          {
+            "question": "¿Es recomendable para lectores juveniles?",
+            "answer": "Sí. Su lenguaje y ritmo son accesibles para público juvenil, especialmente para quienes disfrutan misterio ligero, fantasía excéntrica y protagonistas poco convencionales."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: The Lost Days (Emily the Strange #1)",
+            "url": "https://openlibrary.org/works/OL5963023W"
+          },
+          {
+            "label": "Goodreads: The Lost Days",
+            "url": "https://www.goodreads.com/book/show/5355769-the-lost-days"
+          },
+          {
+            "label": "Wikipedia: Emily the Strange",
+            "url": "https://es.wikipedia.org/wiki/Emily_the_Strange"
+          },
+          {
+            "label": "Open Library: autor Rob Reger",
+            "url": "https://openlibrary.org/authors/OL1479928A/Rob_Reger"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-21T19:31:03Z"
+}

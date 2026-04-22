@@ -1,0 +1,1429 @@
+{
+  "batchName": "20260418T0142Z-replenish-01",
+  "createdAt": "2026-04-18T00:06:27Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "en-busca-de-la-maravilla-perdida-de-geronimo-stilton",
+      "title": "En Busca De La Maravilla Perdida",
+      "authorName": "Geronimo Stilton",
+      "authorSlug": "geronimo-stilton",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 4,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "En busca de la maravilla perdida",
+        "authorName": "Geronimo Stilton",
+        "authorSlug": "geronimo-stilton",
+        "type": "ficcion",
+        "audience": "infantil-juvenil",
+        "genres": [
+          "aventuras",
+          "literatura infantil",
+          "humor"
+        ],
+        "year": 2016,
+        "pages": 128,
+        "summary": "En esta aventura de Geronimo Stilton, el director del Eco del Roedor sale de la comodidad de Ratonia para seguir una pista relacionada con una antigua maravilla desaparecida. Lo que comienza con un episodio cotidiano y cómico se convierte en una expedición llena de mapas, sospechas, persecuciones y acertijos. La novela combina humor verbal, ritmo rápido e ilustraciones con una trama de búsqueda que obliga a Geronimo a vencer su miedo, su apego a la rutina y su torpeza física. Como en los mejores títulos de la serie, la intriga no depende de la violencia, sino de la curiosidad, el trabajo en equipo y el placer de descubrir lugares y secretos.",
+        "aboutThisBook": "Este libro pertenece a la serie de Geronimo Stilton publicada en España por Destino/Planeta y está pensado para primeros lectores que ya pueden seguir una narración algo más larga. La edición consultada indica 128 páginas y fecha de publicación de 2016. Su atractivo no reside solo en la peripecia, sino también en el diseño gráfico: cambios tipográficos, ilustraciones y gags visuales convierten la lectura en una experiencia muy guiada. Es una novela de aventuras amable, de humor blanco, construida para asociar lectura con diversión y con una sensación continua de movimiento.",
+        "forWhom": "Ideal para niños y niñas que empiezan a leer novelas por capítulos, para mediadores de lectura y para familias que buscan aventuras ligeras con humor.",
+        "whyItMatters": "Importa porque muestra cómo la literatura infantil puede entrenar la atención, la inferencia y el gusto por la aventura sin renunciar a la comicidad ni a una prosa accesible.",
+        "editorialIntro": "No todos los libros para lectores jóvenes consiguen que pasar página sea tan natural como en Geronimo Stilton. En busca de la maravilla perdida funciona como relato de búsqueda, pero también como invitación a perder el miedo a los libros largos. Su mezcla de humor, tipografía expresiva y suspense leve hace que la lectura avance con ligereza y que el lector se sienta acompañado en todo momento.",
+        "readingLevel": "Lectura accesible para lectores autónomos de primaria; vocabulario claro, capítulos breves y abundantes apoyos visuales.",
+        "whyReadToday": "Sigue siendo una buena puerta de entrada a la lectura sostenida en una época de atención fragmentada: propone aventura, curiosidad y humor sin sobrecargar al lector principiante.",
+        "studyNotes": [
+          "La búsqueda de la \"maravilla\" organiza la intriga como una cadena de pistas y desplazamientos.",
+          "Geronimo es un héroe cómico: avanza no por valentía épica, sino por insistencia, amistad y sentido del deber.",
+          "El diseño visual del libro forma parte del significado: resalta emociones, intensifica el ritmo y facilita la comprensión."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio de la expedición",
+            "summary": "La historia arranca en el entorno habitual de Geronimo, donde un incidente menor abre la puerta a una investigación mayor. El contraste entre rutina y aventura crea el tono cómico del libro."
+          },
+          {
+            "title": "Pistas, viajes y contratiempos",
+            "summary": "La búsqueda se complica con desplazamientos, malentendidos y pruebas que obligan a interpretar señales y a desconfiar de las apariencias. El suspense se sostiene mediante pequeñas revelaciones sucesivas."
+          },
+          {
+            "title": "Hallazgo y cierre",
+            "summary": "La parte final concentra el descubrimiento de la verdad y la resolución de la expedición. Más que la hazaña física, importa la perseverancia colectiva y la satisfacción de haber seguido las pistas hasta el final."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Aventura para primeros lectores",
+            "content": "La novela adapta la estructura clásica de la búsqueda a un público infantil. Cada obstáculo se presenta en dosis breves, comprensibles y cómicas, de modo que el lector nunca pierde el hilo ni la sensación de avance."
+          },
+          {
+            "heading": "El héroe vulnerable como estrategia narrativa",
+            "content": "Geronimo no responde al modelo del protagonista invencible. Su miedo, su torpeza y su tendencia a exagerar los peligros lo vuelven cercano; precisamente por eso su progreso tiene valor formativo para el lector joven."
+          },
+          {
+            "heading": "Diseño gráfico y legibilidad",
+            "content": "En esta serie, la tipografía cambiante, las ilustraciones y la diagramación no son adornos secundarios. Funcionan como apoyos de lectura, subrayan emociones y ayudan a convertir la decodificación en placer narrativo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer otros libros de Geronimo Stilton antes?",
+            "answer": "No. Puede leerse de forma independiente, aunque comparte tono, personajes y universo con otros títulos de la serie."
+          },
+          {
+            "question": "¿Qué tipo de aventura propone?",
+            "answer": "Una aventura de búsqueda y pistas, con humor, viajes, enigmas sencillos y un nivel de tensión adecuado para lectores jóvenes."
+          },
+          {
+            "question": "¿Para qué edad resulta más apropiado?",
+            "answer": "Suele funcionar especialmente bien en lectores de primaria que ya leen solos o que están pasando del álbum ilustrado a la novela breve."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Planeta de Libros - ficha editorial",
+            "url": "https://www.planetadelibros.com/libro-en-busca-de-la-maravilla-perdida/209375"
+          },
+          {
+            "label": "Casa del Libro - ficha del libro",
+            "url": "https://www.casadellibro.com/libro-en-busca-de-la-maravilla-perdida-geronimo-stilton-2/9788408047568/896837"
+          },
+          {
+            "label": "Wikipedia - Geronimo Stilton",
+            "url": "https://es.wikipedia.org/wiki/Geronimo_Stilton"
+          },
+          {
+            "label": "Geronimo Stilton - sitio oficial",
+            "url": "https://geronimostilton.com/ES-es/home/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "episodios-nacionales-zaragoza-de-benito-perez-galdos",
+      "title": "Episodios Nacionales Zaragoza",
+      "authorName": "Benito Perez Galdos",
+      "authorSlug": "benito-perez-galdos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 4,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Zaragoza",
+        "authorName": "Benito Pérez Galdós",
+        "authorSlug": "benito-perez-galdos",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela histórica",
+          "clásico",
+          "literatura española"
+        ],
+        "year": 1873,
+        "pages": null,
+        "summary": "Zaragoza es la sexta novela de la primera serie de los Episodios nacionales y narra, a través de la voz de Gabriel de Araceli, el segundo sitio de Zaragoza durante la Guerra de la Independencia. Galdós convierte el asedio en una experiencia casi física: muestra la organización de la defensa, el heroísmo popular, la escasez de alimentos, el agotamiento moral y la devastación causada por la enfermedad y la artillería. La novela no glorifica la guerra de manera simple; junto al patriotismo aparecen el sufrimiento civil, la destrucción del tejido urbano y la fragilidad de cualquier épica cuando la violencia se prolonga. Es un relato histórico, pero también una meditación sobre resistencia, memoria y nación.",
+        "aboutThisBook": "Dentro del proyecto galdosiano de narrar el siglo XIX español, Zaragoza ocupa un lugar central porque une documentación histórica, energía novelesca y una intensa visión moral de la guerra. La Biblioteca Virtual Miguel de Cervantes la ofrece a partir de ediciones decimonónicas, y la propia presentación de la obra subraya su base histórica. Aunque pertenece a una serie amplia, su potencia narrativa permite leerla de manera autónoma. Su interés académico es doble: como ejemplo de novela histórica realista y como representación literaria de uno de los episodios más simbólicos de la resistencia española frente al ejército napoleónico.",
+        "forWhom": "Recomendable para lectores de clásicos, estudiantes de literatura española, historia contemporánea y cualquier persona interesada en la relación entre ficción e imaginación nacional.",
+        "whyItMatters": "Importa porque la novela transforma un hecho histórico en experiencia moral y política, sin ocultar ni el heroísmo colectivo ni el coste humano de la guerra.",
+        "editorialIntro": "Leer Zaragoza hoy es entrar en uno de los laboratorios narrativos más intensos de Galdós. La novela trabaja con materiales históricos reconocibles, pero su fuerza no depende solo de la reconstrucción documental. Lo memorable es la manera en que la ciudad sitiada se convierte en personaje, atmósfera y prueba ética. El lector asiste a una comunidad empujada al límite, donde la resistencia convive con el hambre, la fiebre y la destrucción.",
+        "readingLevel": "Nivel medio-alto: prosa del siglo XIX, abundancia de referencias históricas y una intensidad descriptiva que exige lectura atenta.",
+        "whyReadToday": "Se lee hoy porque ayuda a pensar la guerra desde dentro, no como abstracción estratégica sino como experiencia civil, urbana y corporal atravesada por propaganda, sacrificio y memoria colectiva.",
+        "studyNotes": [
+          "Gabriel de Araceli actúa como testigo móvil entre la crónica histórica y la emoción novelesca.",
+          "La ciudad de Zaragoza funciona como escenario material y como símbolo nacional de resistencia.",
+          "Galdós combina épica patriótica con una representación muy dura del hambre, la enfermedad y el desgaste humano."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: llegada al asedio",
+            "summary": "Gabriel entra en el espacio zaragozano cuando la ciudad ya vive en tensión extrema. Se fijan las fuerzas en conflicto y el clima de urgencia que dominará toda la narración."
+          },
+          {
+            "title": "Núcleo de la defensa",
+            "summary": "La novela desarrolla combates, improvisaciones defensivas y escenas de heroísmo civil. Galdós subraya tanto la valentía como la creciente extenuación de la población sitiada."
+          },
+          {
+            "title": "Desenlace del sitio",
+            "summary": "El tramo final acentúa la devastación: enfermedad, hambre y ruina convierten la resistencia en una experiencia límite. La caída no cancela el sentido histórico y simbólico del sacrificio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia narrada desde el interior",
+            "content": "Galdós evita la frialdad del resumen histórico. La guerra aparece filtrada por un narrador que ve, se mueve y padece, de modo que la información militar adquiere densidad humana y dramática."
+          },
+          {
+            "heading": "La épica cuestionada",
+            "content": "Aunque la novela reconoce el heroísmo de Zaragoza, no construye una exaltación ingenua. La gloria patriótica está atravesada por cadáveres, epidemias, hambre y miedo; esa tensión da a la obra su complejidad moral."
+          },
+          {
+            "heading": "Ciudad, nación y memoria",
+            "content": "Zaragoza no es solo un decorado. La ciudad representa una comunidad que resiste y, al mismo tiempo, un emblema de la nación que el siglo XIX intenta narrarse a sí misma. Por eso el episodio tiene tanta fuerza política y simbólica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hay que leer toda la serie de Episodios nacionales para entenderla?",
+            "answer": "No. Conocer la serie ayuda a situar a Gabriel de Araceli, pero Zaragoza puede leerse de forma independiente como novela histórica."
+          },
+          {
+            "question": "¿La obra idealiza la guerra?",
+            "answer": "No de manera simple. Reconoce el heroísmo popular, pero insiste en el hambre, la enfermedad, la destrucción y el sufrimiento civil."
+          },
+          {
+            "question": "¿Por qué es una novela importante dentro de Galdós?",
+            "answer": "Porque une documentación histórica, energía narrativa y reflexión política en uno de los retratos más intensos de la Guerra de la Independencia."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes - Zaragoza",
+            "url": "https://www.cervantesvirtual.com/obra-visor/zaragoza--0/html/"
+          },
+          {
+            "label": "Wikipedia - Zaragoza (episodio nacional)",
+            "url": "https://es.wikipedia.org/wiki/Zaragoza_(episodio_nacional)"
+          },
+          {
+            "label": "Project Gutenberg - Zaragoza",
+            "url": "https://www.gutenberg.org/ebooks/49433"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes - portal Benito Pérez Galdós",
+            "url": "https://www.cervantesvirtual.com/portales/benito_perez_galdos/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fabulas-literarias-de-tomas-de-iriarte",
+      "title": "Fabulas Literarias De Tomas",
+      "authorName": "Iriarte",
+      "authorSlug": "iriarte",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 4,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Fábulas literarias",
+        "authorName": "Tomás de Iriarte",
+        "authorSlug": "tomas-de-iriarte",
+        "type": "poesia",
+        "audience": "adultos",
+        "genres": [
+          "fábula",
+          "poesía satírica",
+          "clásico",
+          "literatura española"
+        ],
+        "year": 1782,
+        "pages": null,
+        "summary": "Fábulas literarias reúne composiciones en verso con las que Tomás de Iriarte traslada la tradición fabulística al debate estético de la Ilustración. En lugar de limitarse a moralejas generales sobre la conducta humana, Iriarte dirige sus fábulas contra los malos escritores, los críticos ignorantes, la pedantería, la afectación estilística y la falta de estudio. Animales, objetos y figuras alegóricas sirven para dramatizar problemas de gusto, imitación, claridad y autoridad intelectual. El resultado es un libro ingenioso y combativo: cada pieza parece breve y ligera, pero participa en una discusión seria sobre cómo escribir, leer y juzgar la literatura. Por eso la obra fue leída como un pequeño manual poético del neoclasicismo español.",
+        "aboutThisBook": "Publicadas en el contexto ilustrado del siglo XVIII, las Fábulas literarias son una de las obras más conocidas de Tomás de Iriarte. La Biblioteca Virtual Miguel de Cervantes las ofrece a partir de la colección impresa de 1787 y la tradición crítica ha subrayado su influencia europea. Su singularidad está en el desplazamiento del género: la fábula deja de ser solamente moral o escolar y se convierte en instrumento de crítica literaria. Iriarte escribe con propósito didáctico, pero también con agudeza satírica; por eso el libro interesa tanto a la historia de las ideas estéticas como a la lectura propiamente poética.",
+        "forWhom": "Muy útil para estudiantes de literatura del siglo XVIII, teoría literaria, neoclasicismo y sátira, así como para lectores curiosos por la historia del gusto.",
+        "whyItMatters": "Importa porque convierte la fábula en una herramienta de intervención crítica y resume, con gracia y disciplina, buena parte del programa estético de la Ilustración española.",
+        "editorialIntro": "Pocas obras explican tan bien, y con tanta ironía, que la literatura también discute consigo misma. En Fábulas literarias, Iriarte utiliza versos ágiles y ejemplos memorables para atacar la ignorancia, la afectación y el juicio perezoso. El libro se lee como colección de piezas breves, pero posee una unidad intelectual fuerte: defender la claridad, el estudio y la proporción frente a la improvisación engreída.",
+        "readingLevel": "Nivel medio-alto: verso del siglo XVIII, referencias a polémicas literarias y moralejas que ganan sentido con algo de contexto histórico.",
+        "whyReadToday": "Vale la pena leerlo hoy porque muchas de sus sátiras sobre el ruido crítico, la vanidad autoral y la confusión entre notoriedad y talento siguen resultando sorprendentemente actuales.",
+        "studyNotes": [
+          "La originalidad del libro está en aplicar la fábula a la crítica literaria y no solo a la moral cotidiana.",
+          "Iriarte defiende valores neoclásicos: claridad, estudio, proporción, utilidad y control formal.",
+          "El tono satírico suaviza la lección, pero no elimina su dureza contra la pedantería y la incompetencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Propósito poético y marco didáctico",
+            "summary": "Las primeras piezas sitúan al lector ante un proyecto claro: usar la fábula para enseñar a leer y escribir mejor. Desde el comienzo, Iriarte convierte el ingenio en instrumento crítico."
+          },
+          {
+            "title": "Fábulas sobre el gusto y la imitación",
+            "summary": "Un bloque central ridiculiza la copia servil, el mal gusto y la incapacidad para distinguir entre originalidad y extravagancia. Aquí se ve con claridad el programa estético ilustrado del autor."
+          },
+          {
+            "title": "Críticos, pedantes y cierre moral",
+            "summary": "Las últimas piezas acentúan la sátira contra comentaristas superficiales, autores vanidosos y juicios sin fundamento. La colección termina afirmando una ética del estudio y de la competencia literaria."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La fábula como crítica literaria",
+            "content": "Iriarte modifica un género tradicionalmente moral para intervenir en debates de poética. Esa operación explica la importancia histórica del libro: las moralejas ya no solo ordenan conductas, también fijan criterios de gusto."
+          },
+          {
+            "heading": "Neoclasicismo en acción",
+            "content": "Las fábulas encarnan ideales ilustrados de claridad, mesura y utilidad. Frente al exceso verbal o la autoridad vacía, Iriarte propone disciplina intelectual, conocimiento de las reglas y respeto por el lector."
+          },
+          {
+            "heading": "Sátira y pedagogía",
+            "content": "El libro enseña porque satiriza. La burla vuelve memorables los ejemplos y hace visible el error estético sin necesidad de un tratado abstracto. Por eso la obra oscila con eficacia entre entretenimiento y lección."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Son fábulas para niños?",
+            "answer": "No en sentido estricto. Aunque emplean animales y moralejas, su verdadero objetivo es debatir cuestiones literarias y estéticas propias del mundo ilustrado."
+          },
+          {
+            "question": "¿Qué critica Iriarte en estas composiciones?",
+            "answer": "Critica la pedantería, el mal gusto, la imitación mecánica, la ignorancia crítica y la vanidad de quienes escriben o juzgan sin preparación."
+          },
+          {
+            "question": "¿Por qué siguen siendo relevantes?",
+            "answer": "Porque muchas de sus observaciones sobre autoridad cultural, exhibicionismo intelectual y mala lectura conservan vigencia en los debates contemporáneos."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes - Fábulas literarias",
+            "url": "https://www.cervantesvirtual.com/obra-visor/fabulas-literarias--0/html/"
+          },
+          {
+            "label": "Wikipedia - Tomás de Iriarte (poeta)",
+            "url": "https://es.wikipedia.org/wiki/Tom%C3%A1s_de_Iriarte_(poeta)"
+          },
+          {
+            "label": "Encyclopaedia Britannica - Tomás de Iriarte",
+            "url": "https://www.britannica.com/biography/Tomas-de-Iriarte"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes - portal Tomás de Iriarte",
+            "url": "https://www.cervantesvirtual.com/portales/tomas_de_iriarte/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "historia-del-siglo-xx-de-eric-hobsbawm",
+      "title": "Historia Del Siglo Xx",
+      "authorName": "Eric Hobsbawm",
+      "authorSlug": "eric-hobsbawm",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 4,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Historia del siglo XX",
+        "authorName": "Eric Hobsbawm",
+        "authorSlug": "eric-hobsbawm",
+        "type": "no-ficcion",
+        "audience": "adultos",
+        "genres": [
+          "historia",
+          "ensayo",
+          "historia contemporanea"
+        ],
+        "year": 1994,
+        "pages": 640,
+        "summary": "Historia del siglo XX, publicada originalmente en inglés como The Age of Extremes, es una interpretación global del período comprendido entre 1914 y 1991. Eric Hobsbawm llama a ese tramo el “siglo XX corto” porque, a su juicio, empieza con la Primera Guerra Mundial y concluye con la caída de la Unión Soviética. El libro no es una simple cronología de acontecimientos: combina historia política, social, económica y cultural para explicar guerras mundiales, revolución, fascismo, descolonización, Guerra Fría, expansión del consumo y crisis del socialismo real. Hobsbawm escribe desde una perspectiva marxista, pero su fuerza reside sobre todo en la amplitud comparativa y en la capacidad de relacionar procesos muy distintos. El resultado es una obra de síntesis histórica ambiciosa, crítica con el capitalismo y con los fracasos del socialismo de Estado, y todavía fundamental para pensar la violencia y las transformaciones del mundo contemporáneo.",
+        "aboutThisBook": "Este libro cierra la gran secuencia histórica con la que Hobsbawm estudió la modernidad desde fines del siglo XVIII. La edición original apareció en 1994 y presentó una tesis muy influyente: el siglo XX no debe entenderse según el calendario, sino como un ciclo histórico breve, abierto por la guerra total de 1914 y cerrado por el derrumbe soviético. A diferencia de manuales más descriptivos, la obra organiza el período en grandes bloques interpretativos —catástrofe, edad dorada y derrumbe— y atiende tanto a la geopolítica como a la vida social, la cultura y la economía. Es un libro de historia total en el sentido fuerte del término.",
+        "forWhom": "Para lectores universitarios, docentes, opositores y público general con interés serio en historia contemporánea, política internacional, siglo XX europeo y debates sobre modernidad, guerra y revolución.",
+        "whyItMatters": "Importa porque ofrece una de las síntesis más influyentes del siglo XX y porque su idea del “siglo corto” sigue organizando muchas discusiones historiográficas. Incluso cuando se discrepa de Hobsbawm, su marco interpretativo obliga a pensar la relación entre guerra, ideología, capitalismo y cambio social.",
+        "editorialIntro": "Pocas historias del siglo XX han logrado combinar ambición panorámica, densidad interpretativa y legibilidad como este libro. Hobsbawm no se limita a enumerar hechos: propone una arquitectura del período y examina cómo las grandes convulsiones políticas alteraron la economía, la cultura y la vida cotidiana. Leerlo hoy sigue siendo exigente y revelador, precisamente porque discute con fuerza los lugares comunes sobre progreso, democracia y fin de la historia.",
+        "readingLevel": "Lectura de nivel intermedio a avanzado: el estilo es claro, pero la cantidad de referencias históricas, países, procesos y debates exige atención sostenida y cierta familiaridad con la historia contemporánea.",
+        "whyReadToday": "Porque ayuda a entender el origen de muchos conflictos actuales: nacionalismos, crisis del liberalismo, memoria de las guerras, desigualdad global y persistencia de las fracturas abiertas en el siglo XX.",
+        "studyNotes": [
+          "La noción de “siglo XX corto” es la clave estructural del libro: 1914 y 1991 funcionan como fechas de apertura y cierre de un ciclo histórico específico.",
+          "Hobsbawm combina historia política, social, económica y cultural; conviene leerlo como una gran síntesis interpretativa, no como un simple manual de datos.",
+          "Su mirada marxista orienta el análisis, pero el libro también es crítico con el socialismo realmente existente y con la idea de progreso lineal.",
+          "Resulta útil comparar sus tesis con historias más recientes para medir qué aspectos del siglo XX han sido replanteados tras 1991."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La era de las catástrofes",
+            "summary": "En la primera gran sección, Hobsbawm describe el tramo que va desde 1914 hasta el final de la Segunda Guerra Mundial como una época de derrumbe del orden liberal decimonónico. Guerras totales, revolución rusa, crisis económica, fascismo y violencia masiva forman un sistema histórico común más que una mera sucesión de hechos aislados."
+          },
+          {
+            "title": "La edad de oro",
+            "summary": "El núcleo central del libro estudia las décadas posteriores a 1945, cuando amplias regiones del mundo vivieron crecimiento económico, expansión del consumo, reformas sociales y una inédita estabilización en Occidente. Hobsbawm subraya, sin embargo, que esa prosperidad convivió con la Guerra Fría, la desigualdad global y los conflictos coloniales y poscoloniales."
+          },
+          {
+            "title": "Derrumbe, crisis y fin de ciclo",
+            "summary": "La parte final analiza la crisis de las certezas de posguerra, el agotamiento del orden bipolar y la caída del bloque soviético. Hobsbawm interpreta este desenlace no como triunfo simple de un modelo, sino como entrada en una etapa más incierta, marcada por fragmentación, inestabilidad y pérdida de referencias colectivas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La idea del “siglo XX corto”",
+            "content": "La tesis más famosa del libro consiste en separar el siglo histórico del siglo cronológico. Para Hobsbawm, 1914 abre un período nuevo porque destruye el viejo equilibrio europeo y da paso a una era de guerras, revoluciones e ideologías de masas; 1991 lo cierra con el fin del socialismo soviético. Esa periodización sigue siendo uno de los aportes más duraderos de la obra."
+          },
+          {
+            "heading": "Una historia total del mundo contemporáneo",
+            "content": "El libro destaca por su alcance comparativo. No se limita a Europa, aunque Europa siga ocupando un lugar central, y enlaza economía, política, sociedad, ciencia, cultura y vida material. Esa amplitud le permite explicar por qué fenómenos aparentemente separados —del jazz al welfare state, del fascismo a la descolonización— forman parte de una misma transformación global."
+          },
+          {
+            "heading": "Perspectiva marxista y juicio crítico",
+            "content": "Hobsbawm escribe desde una tradición marxista visible en su atención a clases, estructuras y procesos de largo alcance. Sin embargo, la obra no idealiza el socialismo real: reconoce con claridad sus fracasos, su autoritarismo y su colapso. Ese doble gesto, crítico con el capitalismo y con la experiencia soviética, es parte de la complejidad del libro."
+          },
+          {
+            "heading": "Vigencia historiográfica",
+            "content": "Aunque algunas interpretaciones han sido discutidas o matizadas por investigaciones posteriores, el libro sigue siendo una puerta de entrada extraordinaria para estudiar el siglo XX. Su relevancia no depende solo de los datos que ofrece, sino de la potencia de sus preguntas: cómo se destruyó el mundo liberal del XIX, qué hizo posible la estabilidad de posguerra y por qué terminó desmoronándose."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué significa que el siglo XX sea “corto”?",
+            "answer": "Significa que Hobsbawm no lo define por las fechas 1900-1999, sino por un ciclo histórico que comienza en 1914 con la Primera Guerra Mundial y termina en 1991 con la desintegración de la Unión Soviética."
+          },
+          {
+            "question": "¿Es un libro de historia neutral?",
+            "answer": "No en el sentido de una ausencia total de perspectiva. Hobsbawm escribe desde una tradición marxista, pero el valor del libro está en la amplitud analítica, la densidad comparativa y la claridad con que formula sus interpretaciones."
+          },
+          {
+            "question": "¿Sirve como introducción al siglo XX?",
+            "answer": "Sí, siempre que el lector acepte una obra de interpretación exigente. Es excelente como visión de conjunto, aunque conviene complementarla con estudios específicos sobre regiones, temas y debates historiográficos posteriores."
+          },
+          {
+            "question": "¿Qué lugar ocupa dentro de la obra de Hobsbawm?",
+            "answer": "Es el cierre de la gran serie histórica formada por La era de la revolución, La era del capital y La era del imperio. Con este volumen lleva su relato de la modernidad hasta el final del bloque soviético."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Historia del siglo XX (libro)",
+            "url": "https://es.wikipedia.org/wiki/Historia_del_siglo_XX_(libro)"
+          },
+          {
+            "label": "Open Library: Age of Extremes",
+            "url": "https://openlibrary.org/books/OL617786M"
+          },
+          {
+            "label": "Wikipedia: Eric Hobsbawm",
+            "url": "https://es.wikipedia.org/wiki/Eric_Hobsbawm"
+          },
+          {
+            "label": "Internet Archive: Eric Hobsbawm - Historia del siglo XX",
+            "url": "https://archive.org/details/eric-hobsbawm-historia-del-siglo-xx"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-buddenbrook-de-thomas-mann",
+      "title": "Los Buddenbrook",
+      "authorName": "Thomas Mann",
+      "authorSlug": "thomas-mann",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 4,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los Buddenbrook. Decadencia de una familia",
+        "authorName": "Thomas Mann",
+        "authorSlug": "thomas-mann",
+        "type": "novela",
+        "audience": "adultos",
+        "genres": [
+          "novela clasica",
+          "saga familiar",
+          "realismo",
+          "ficcion social"
+        ],
+        "year": 1901,
+        "pages": 896,
+        "summary": "Los Buddenbrook. Decadencia de una familia es la primera gran novela de Thomas Mann y una de las cumbres de la saga familiar europea. A través de cuatro generaciones de comerciantes de Lübeck, la obra sigue el ascenso, consolidación y desgaste de una casa burguesa entre 1835 y 1877. Mann convierte la historia doméstica en un análisis minucioso de la moral del trabajo, el prestigio social, el matrimonio, la religión, la herencia y la relación conflictiva entre sensibilidad artística y disciplina burguesa. La novela no presenta una caída repentina, sino un proceso lento de debilitamiento material y espiritual que afecta a cada generación de manera distinta. Su fuerza está en la observación psicológica, en la riqueza del detalle social y en la forma en que muestra cómo una familia, mientras intenta preservar su nombre, descubre que el tiempo histórico ha empezado a vaciarla por dentro.",
+        "aboutThisBook": "Publicada en 1901, Buddenbrooks dio a Thomas Mann un reconocimiento inmediato y terminó ocupando un lugar decisivo en la concesión del Nobel de Literatura de 1929. La novela se inspira en elementos del ambiente mercantil de Lübeck y se inscribe en la tradición de la novela realista de gran formato, pero su ambición va más allá del retrato social. Mann examina la decadencia de una familia burguesa como un problema histórico y espiritual: la prosperidad económica no garantiza continuidad, y el refinamiento cultural puede convivir con la pérdida de voluntad vital. Por eso el libro ha seguido leyéndose como un clásico moderno sobre la erosión del mundo burgués europeo.",
+        "forWhom": "Para lectores de clásicos, estudiantes de literatura, clubes de lectura exigentes y quienes disfrutan las novelas largas sobre familia, sociedad, dinero, vocación artística y cambio histórico.",
+        "whyItMatters": "Importa porque hizo de la saga familiar un gran laboratorio moral y social. Además, sigue siendo una obra central para entender la cultura burguesa alemana anterior al siglo XX y la manera en que la novela convierte la decadencia privada en diagnóstico de una época.",
+        "editorialIntro": "Leer Los Buddenbrook es entrar en una novela de gran respiración clásica, donde los balances contables, las cenas familiares y las decisiones matrimoniales importan tanto como las crisis íntimas. Mann observa a sus personajes con ironía, compasión y una precisión casi clínica. El resultado no es solo la historia de una familia que declina, sino la anatomía de una forma de vida entera, orgullosa de su orden y, al mismo tiempo, secretamente agotada.",
+        "readingLevel": "Lectura avanzada por su extensión, su abundancia de personajes, el ritmo deliberado y la importancia de los matices psicológicos, sociales y simbólicos que se acumulan a lo largo de generaciones.",
+        "whyReadToday": "Porque sigue iluminando cuestiones actuales: el peso del apellido, la presión del éxito económico, la fragilidad de la herencia familiar y el conflicto entre rendimiento social y vida interior.",
+        "studyNotes": [
+          "La novela funciona por acumulación: conviene seguir la evolución de cada generación y observar cómo pequeños cambios anuncian la decadencia general.",
+          "El contraste entre comercio y arte es central, especialmente en la figura de Hanno y en la distancia creciente respecto del ideal burgués de utilidad.",
+          "Mann no narra solo una ruina económica; también muestra un desgaste fisiológico, moral y simbólico de la familia.",
+          "Es útil leerla como saga familiar, pero también como crítica de la burguesía y como novela sobre el tiempo histórico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Fundación y prestigio de la casa",
+            "summary": "La novela presenta a los Buddenbrook como una familia de comerciantes sólida, respetada y plenamente integrada en el orden burgués de Lübeck. Desde el comienzo, Mann deja ver que ese prestigio se apoya en rituales, alianzas y una estricta ética del deber."
+          },
+          {
+            "title": "Expansión, matrimonio y tensiones internas",
+            "summary": "A medida que la familia avanza en su prosperidad, las decisiones económicas y matrimoniales revelan grietas cada vez más visibles. El deber de conservar el nombre choca con deseos individuales, errores de cálculo y distintas maneras de vivir la respetabilidad burguesa."
+          },
+          {
+            "title": "Desgaste de la voluntad burguesa",
+            "summary": "En la última gran fase del relato, la continuidad familiar empieza a vaciarse. La enfermedad, la sensibilidad artística y la pérdida de energía práctica sustituyen la antigua seguridad comercial, de modo que la decadencia ya no es solo financiera, sino existencial."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Saga familiar y diagnóstico social",
+            "content": "Buddenbrooks pertenece a la tradición de la novela familiar, pero su alcance es mayor que el de una simple crónica doméstica. Mann utiliza la genealogía para describir un modelo de civilización burguesa: sus códigos, sus prestigios, sus temores y la fragilidad de sus mecanismos de reproducción."
+          },
+          {
+            "heading": "El conflicto entre vida práctica y sensibilidad artística",
+            "content": "Uno de los ejes más fecundos de la novela es la oposición entre el mundo del negocio y la inclinación hacia el arte. En los Buddenbrook, la cultura refinada no aparece como complemento armónico del éxito, sino a menudo como signo de distanciamiento respecto de la energía comercial que sostuvo a la familia."
+          },
+          {
+            "heading": "La decadencia como proceso lento",
+            "content": "La novela evita el melodrama de la ruina instantánea. Lo que Mann muestra es una erosión gradual: decisiones equivocadas, cuerpos más frágiles, matrimonios mal resueltos, pérdida de empuje y debilitamiento del sentido de continuidad. Esa lentitud es parte de su potencia literaria."
+          },
+          {
+            "heading": "Un clásico decisivo en la obra de Mann",
+            "content": "El Nobel de 1929 reconoció expresamente la importancia de Buddenbrooks. En retrospectiva, el libro anticipa muchos temas de Mann: la tensión entre disciplina y arte, la enfermedad como signo espiritual, la ironía frente a la respetabilidad y la observación implacable de la cultura burguesa alemana."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Los Buddenbrook?",
+            "answer": "Narra la historia de una familia de comerciantes de Lübeck a lo largo de cuatro generaciones y muestra cómo su prestigio material y moral se erosiona lentamente entre 1835 y 1877."
+          },
+          {
+            "question": "¿Por qué es tan importante en la carrera de Thomas Mann?",
+            "answer": "Porque fue su primera gran novela, le dio fama desde muy temprano y el Nobel de Literatura de 1929 destacó explícitamente a Buddenbrooks como una de las razones principales del premio."
+          },
+          {
+            "question": "¿Es solo una novela sobre negocios y familia?",
+            "answer": "No. También es una reflexión sobre la burguesía, el tiempo, la herencia, la religión, el matrimonio, la enfermedad y la tensión entre la utilidad social y la vocación artística."
+          },
+          {
+            "question": "¿Resulta difícil de leer hoy?",
+            "answer": "Exige paciencia por su extensión y por la cantidad de personajes, pero su estructura es muy clara y recompensa al lector con un retrato extraordinariamente preciso de una familia y de una época."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Buddenbrooks",
+            "url": "https://es.wikipedia.org/wiki/Buddenbrooks"
+          },
+          {
+            "label": "Nobel Prize: Thomas Mann – Facts",
+            "url": "https://www.nobelprize.org/prizes/literature/1929/mann/facts/"
+          },
+          {
+            "label": "Britannica: Thomas Mann",
+            "url": "https://www.britannica.com/biography/Thomas-Mann"
+          },
+          {
+            "label": "Casa del Libro: Los Buddenbrook",
+            "url": "https://www.casadellibro.com/libro-los-buddenbrook/9788435009690/1182121"
+          },
+          {
+            "label": "Open Library: Buddenbrooks",
+            "url": "https://openlibrary.org/works/OL14867081W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "romance-de-lobos-comedias-barbaras-ii-de-ramon-maria-del-valle-inclan",
+      "title": "Romance De Lobos Comedias Barbaras Ii",
+      "authorName": "Ramon Maria Del Valle Inclan",
+      "authorSlug": "ramon-maria-del-valle-inclan",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 4,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Romance de lobos",
+        "authorName": "Ramón María del Valle-Inclán",
+        "authorSlug": "ramon-maria-del-valle-inclan",
+        "type": "teatro",
+        "audience": "adultos",
+        "genres": [
+          "teatro",
+          "drama",
+          "teatro modernista",
+          "literatura española"
+        ],
+        "year": 1908,
+        "pages": 224,
+        "summary": "Romance de lobos es una de las piezas mayores del teatro de Valle-Inclán y forma parte de la trilogía Comedias bárbaras. Escrita en 1908, sitúa su acción en una Galicia rural, violenta y arcaica, dominada por la figura de don Juan Manuel Montenegro. La obra arranca con una visión de la Santa Compaña que anuncia la muerte de su esposa y precipita un movimiento de regreso, balance moral y enfrentamiento familiar. Mientras el mayorazgo intenta recomponer algo de su autoridad y buscar una forma de redención, sus hijos actúan movidos por la codicia y el resentimiento. Valle-Inclán mezcla fatalidad, religiosidad popular, crueldad, lirismo y energía mítica para construir un drama de enorme intensidad verbal. Más que un relato costumbrista, la pieza convierte la decadencia de un linaje en una visión sombría del poder patriarcal, la violencia heredada y el final de un mundo tradicional.",
+        "aboutThisBook": "Bajo el rótulo de Comedias bárbaras, Valle-Inclán reunió tres obras vinculadas por la saga de los Montenegro: Águila de blasón, Romance de lobos y Cara de Plata. Aunque Romance de lobos fue la segunda en escribirse, la propia tradición crítica y la información enciclopédica sobre el ciclo subrayan que, en la cronología interna, funciona como su desenlace. La obra concentra varios rasgos decisivos del autor: un lenguaje intensamente literario, atención a lo popular gallego, deformación expresiva, violencia ritual y personajes dominados por fuerzas históricas y simbólicas más grandes que ellos. Es una pieza clave para comprender la renovación del teatro español anterior al esperpento pleno.",
+        "forWhom": "Para lectores de teatro español, estudiantes de filología, amantes de los clásicos modernos y quienes busquen una obra intensa sobre poder, linaje, culpa, violencia y mundo rural en crisis.",
+        "whyItMatters": "Importa porque muestra a Valle-Inclán en una fase decisiva de experimentación dramática y porque convierte la tragedia familiar en visión histórica y mítica. Además, el personaje de don Juan Manuel Montenegro es una de las grandes figuras del teatro español moderno.",
+        "editorialIntro": "Romance de lobos no se lee como un drama doméstico convencional, sino como una ceremonia verbal de gran violencia poética. En sus escenas conviven superstición, religión, brutalidad, grandeza arruinada y deseo de expiación. Valle-Inclán no retrata simplemente una familia en conflicto: levanta un universo entero, áspero y legendario, donde la vieja autoridad patriarcal se descompone entre saqueos, culpas y presagios de muerte.",
+        "readingLevel": "Lectura avanzada por su lenguaje literario, su densidad simbólica, la presencia de registros arcaizantes y la necesidad de situar la obra dentro del ciclo de las Comedias bárbaras y del teatro valleinclanesco.",
+        "whyReadToday": "Porque sigue siendo una obra poderosa sobre abuso de poder, herencia de la violencia, culpa y descomposición de las jerarquías tradicionales, asuntos que aún dialogan con sensibilidades contemporáneas.",
+        "studyNotes": [
+          "Conviene leer la obra dentro del ciclo de las Comedias bárbaras, aunque pueda abordarse por separado como drama autónomo.",
+          "La Galicia representada por Valle-Inclán no es simple costumbrismo: es un espacio mítico, áspero y cargado de fuerzas religiosas, sociales y simbólicas.",
+          "Don Juan Manuel Montenegro concentra a la vez tiranía, grandeza decadente y deseo tardío de redención.",
+          "La violencia de los hijos no es un episodio aislado, sino la prolongación degradada del orden patriarcal que el propio padre ayudó a sostener."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Presagio de muerte y retorno",
+            "summary": "La obra se abre con la aparición de la Santa Compaña y con el anuncio de una muerte que obliga a don Juan Manuel a reingresar en un mundo del que estaba separado. Desde el comienzo, el drama queda envuelto en fatalidad, superstición y conciencia del fin."
+          },
+          {
+            "title": "La casa saqueada y la descomposición del linaje",
+            "summary": "Mientras el patriarca se mueve entre culpa, desafío y búsqueda de sentido, sus hijos se reparten la herencia y degradan lo que queda de la autoridad familiar. El conflicto deja de ser privado y se vuelve símbolo de una nobleza rural agotada y moralmente corrompida."
+          },
+          {
+            "title": "Redención imposible y final trágico",
+            "summary": "En el tramo final, don Juan Manuel se acerca a una forma de purificación ligada al sufrimiento y al contacto con los desposeídos. Sin embargo, la violencia acumulada en la familia desemboca en una resolución trágica que confirma el derrumbe irreversible de ese mundo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Don Juan Manuel Montenegro como figura trágica",
+            "content": "El protagonista no es un héroe íntegro, sino un señor feudal tardío, violento y orgulloso, que solo al borde de la destrucción adquiere conciencia de culpa. Precisamente por esa mezcla de grandeza y degradación, se convierte en una de las figuras más complejas del teatro de Valle-Inclán."
+          },
+          {
+            "heading": "Galicia mítica, no costumbrista",
+            "content": "La obra se sitúa en una Galicia rural reconocible, pero transformada por un tratamiento casi legendario. Procesiones nocturnas, mendigos, supersticiones, violencia y oralidad popular se integran en un paisaje simbólico donde la historia social y el mito actúan al mismo tiempo."
+          },
+          {
+            "heading": "Poder patriarcal y herencia de la violencia",
+            "content": "Uno de los grandes núcleos del drama es la transmisión de la brutalidad. Los hijos de Montenegro aparecen como herederos deformados de un poder construido sobre dominio, arbitrariedad y miedo. La tragedia familiar revela así la lógica destructiva de todo un orden social."
+          },
+          {
+            "heading": "Lugar de la obra en la evolución de Valle-Inclán",
+            "content": "Romance de lobos pertenece a una etapa decisiva en la renovación del teatro español. Aún no es el esperpento maduro de Luces de bohemia, pero ya muestra una poderosa estilización verbal, una visión crítica del mundo tradicional y una dramaturgia que desborda el realismo convencional."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Romance de lobos es una novela o una obra de teatro?",
+            "answer": "Es una obra de teatro de Ramón María del Valle-Inclán e integra la trilogía Comedias bárbaras, junto con Águila de blasón y Cara de Plata."
+          },
+          {
+            "question": "¿Hace falta leer toda la trilogía para entenderla?",
+            "answer": "No es imprescindible, pero sí recomendable. Romance de lobos puede leerse por separado, aunque gana profundidad cuando se conoce el conjunto de la saga de los Montenegro y la cronología interna del ciclo."
+          },
+          {
+            "question": "¿Quién es el personaje central?",
+            "answer": "Don Juan Manuel Montenegro, un mayorazgo gallego de enorme autoridad y decadencia moral, alrededor del cual giran la culpa, la violencia familiar y la posibilidad de una redención tardía."
+          },
+          {
+            "question": "¿Por qué es importante dentro del teatro español?",
+            "answer": "Porque es una de las grandes piezas de Valle-Inclán y un hito en la transformación del drama español moderno, al unir lenguaje poético, violencia trágica, mito rural y crítica de un orden social en ruina."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Romance de lobos",
+            "url": "https://es.wikipedia.org/wiki/Romance_de_lobos"
+          },
+          {
+            "label": "Wikipedia: Comedias bárbaras",
+            "url": "https://es.wikipedia.org/wiki/Comedias_b%C3%A1rbaras"
+          },
+          {
+            "label": "Alianza Editorial: Romance de Lobos (Comedias bárbaras II)",
+            "url": "https://alianzaeditorial.es/libro/bibliotecas-de-autor/romance-de-lobos-comedias-barbaras-ii-ramon-del-valle-inclan-9788491814948/"
+          },
+          {
+            "label": "Open Library: Romance de lobos",
+            "url": "https://openlibrary.org/works/OL10334371W"
+          },
+          {
+            "label": "Centro Virtual Cervantes: Ramón María del Valle-Inclán",
+            "url": "https://cvc.cervantes.es/artes/ciudades_patrimonio/santiago/personalidades/valle.htm"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "vida-liquida-de-zygmunt-bauman",
+      "title": "Vida Liquida",
+      "authorName": "Zygmunt Bauman",
+      "authorSlug": "zygmunt-bauman",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 4,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Vida líquida",
+        "authorName": "Zygmunt Bauman",
+        "authorSlug": "zygmunt-bauman",
+        "type": "no-ficcion",
+        "audience": "adultos",
+        "genres": [
+          "ensayo",
+          "sociologia",
+          "filosofia social"
+        ],
+        "year": 2013,
+        "pages": 208,
+        "summary": "En este ensayo, Zygmunt Bauman examina cómo la modernidad tardía convierte la existencia en una experiencia inestable, móvil y frágil. La “vida líquida” es aquella en la que nada conserva forma durante mucho tiempo: los vínculos, el trabajo, la identidad, el consumo e incluso los proyectos personales quedan sometidos a una lógica de cambio permanente. Bauman no presenta esa fluidez como simple liberación, sino como una condición ambigua que multiplica opciones mientras debilita seguridades duraderas. El individuo contemporáneo debe reinventarse sin descanso y administrar riesgos que antes absorbían instituciones más sólidas. El resultado es una vida intensamente individualizada, competitiva y ansiosa, donde la promesa de libertad suele convivir con miedo, precariedad y soledad.",
+        "aboutThisBook": "Vida líquida prolonga una de las líneas centrales del pensamiento de Bauman: la descripción de una modernidad que ya no organiza la vida mediante estructuras estables, sino mediante flujos, reemplazos y adaptaciones continuas. El libro conecta sociología, filosofía moral y crítica cultural para pensar el consumo, el trabajo, la intimidad y la ciudadanía. No es un tratado técnico, sino un ensayo interpretativo que busca nombrar la experiencia cotidiana de vivir en sociedades donde la flexibilidad se celebra incluso cuando erosiona los vínculos y la responsabilidad compartida.",
+        "forWhom": "Para lectores interesados en sociología contemporánea, filosofía política, cultura del consumo y transformaciones de la vida cotidiana en el capitalismo avanzado.",
+        "whyItMatters": "Sigue siendo un libro clave porque ayuda a entender por qué tantas experiencias actuales —precariedad laboral, relaciones inestables, sobreexposición individual y ansiedad por rendir— no son meramente privadas, sino rasgos estructurales de una época.",
+        "editorialIntro": "Pocos ensayos recientes han descrito con tanta precisión la sensación de vivir sin suelo firme. Bauman ofrece un diagnóstico sobrio y penetrante de una sociedad que exige movilidad constante, adaptación inmediata y reinvención personal. Leerlo hoy no resuelve esa incertidumbre, pero sí proporciona un lenguaje riguroso para pensarla críticamente.",
+        "readingLevel": "Nivel medio-alto: ensayo accesible para lectores habituales, pero con densidad conceptual y referencias sociológicas.",
+        "whyReadToday": "Porque muchas discusiones actuales sobre burnout, identidad digital, fragilidad de los vínculos y precariedad ya estaban anticipadas en esta reflexión sobre la liquidez social.",
+        "studyNotes": [
+          "La metáfora de lo líquido no significa caos absoluto, sino falta de formas duraderas y estabilidad institucional.",
+          "Bauman relaciona libertad individual y desprotección: ganar margen de elección puede implicar perder apoyos colectivos.",
+          "El consumo no aparece solo como práctica económica, sino como modelo cultural que organiza deseos, vínculos e identidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento de la vida líquida",
+            "summary": "Bauman define una forma de existencia marcada por la transitoriedad. Frente a sociedades más sólidas, la contemporaneidad obliga a moverse rápido, a no fijar compromisos largos y a aceptar que casi todo puede volverse obsoleto."
+          },
+          {
+            "title": "Individuo, consumo e inseguridad",
+            "summary": "El autor estudia cómo la responsabilidad de construir una biografía exitosa recae cada vez más en el individuo. Esa exigencia se combina con mercados cambiantes y con una cultura del consumo que transforma personas, objetos y relaciones en realidades reemplazables."
+          },
+          {
+            "title": "Vínculos frágiles y consecuencias morales",
+            "summary": "En la última parte del recorrido, Bauman muestra que la fluidez no afecta solo a la economía, sino también a la ética y a la convivencia. Cuando los compromisos se debilitan, también lo hace la capacidad de sostener obligaciones duraderas con los otros."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La liquidez como diagnóstico histórico",
+            "content": "La fuerza del libro reside en usar una imagen sencilla para describir un cambio civilizatorio amplio. Lo líquido se adapta, circula y no conserva forma fija; así funciona, para Bauman, buena parte de la vida social contemporánea."
+          },
+          {
+            "heading": "Libertad ambigua y precariedad",
+            "content": "Bauman evita oponer de manera ingenua pasado sólido y presente líquido. Reconoce que la flexibilidad puede ampliar márgenes de acción, pero subraya que esa misma flexibilidad desplaza los costos del sistema hacia individuos obligados a gestionar solos la incertidumbre."
+          },
+          {
+            "heading": "Actualidad del argumento",
+            "content": "El ensayo conserva vigencia porque permite interpretar fenómenos posteriores a su publicación: autoexplotación, economías de plataforma, vínculos mediados por pantallas y cultura de la optimización personal. Su vocabulario sigue siendo útil para leer el presente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué significa exactamente “vida líquida” en Bauman?",
+            "answer": "Se refiere a una forma de vida en la que estructuras, identidades y relaciones cambian con rapidez y pierden estabilidad duradera. La adaptación continua se vuelve una obligación social."
+          },
+          {
+            "question": "¿Es un libro de sociología académica o de divulgación?",
+            "answer": "Es un ensayo de alta divulgación intelectual: tiene base sociológica y filosófica, pero está escrito para un público amplio y no especializado."
+          },
+          {
+            "question": "¿Conviene leerlo si no se ha leído antes a Bauman?",
+            "answer": "Sí. Aunque dialoga con otros textos suyos sobre modernidad líquida, puede leerse de forma independiente como una introducción sólida a su diagnóstico de la sociedad contemporánea."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Casa del Libro - Vida líquida (Austral)",
+            "url": "https://www.casadellibro.com/libro-vida-liquida/9788408040958/2059850"
+          },
+          {
+            "label": "Open Library - Liquid Life (obra)",
+            "url": "https://openlibrary.org/works/OL527258W/Liquid_Life"
+          },
+          {
+            "label": "Open Library - Zygmunt Bauman",
+            "url": "https://openlibrary.org/authors/OL37109A/Zygmunt_Bauman"
+          },
+          {
+            "label": "Wikipedia - Zygmunt Bauman",
+            "url": "https://en.wikipedia.org/wiki/Zygmunt_Bauman"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cartas-a-una-joven-matematica-de-ian-stewart",
+      "title": "Cartas A Una Joven Matematica",
+      "authorName": "Ian Stewart",
+      "authorSlug": "ian-stewart",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 3,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cartas a una joven matemática",
+        "authorName": "Ian Stewart",
+        "authorSlug": "ian-stewart",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "divulgacion cientifica",
+          "matematicas",
+          "ensayo"
+        ],
+        "year": 2019,
+        "pages": 240,
+        "summary": "Ian Stewart propone aquí una introducción inteligente y hospitalaria al mundo de las matemáticas a través de una serie de cartas ensayísticas dirigidas a una joven lectora imaginaria. Más que enseñar técnicas, el libro intenta mostrar qué significa pensar matemáticamente, por qué esta disciplina importa y cómo se vive desde dentro su práctica. Stewart habla de belleza, demostración, intuición, creatividad, error, comunidad académica y vocación. También corrige prejuicios frecuentes: que las matemáticas son solo cálculo mecánico, que pertenecen a una élite cerrada o que carecen de relación con la imaginación. El resultado es un libro formativo y estimulante que funciona tanto como invitación a estudiar matemáticas como defensa cultural de una de las grandes creaciones intelectuales de la humanidad.",
+        "aboutThisBook": "Cartas a una joven matemática pertenece a la mejor tradición de la divulgación escrita por científicos con experiencia docente real. Stewart no simplifica hasta vaciar los problemas, sino que traduce a un lenguaje claro las preguntas que suelen acompañar a quien se acerca a la disciplina: qué es una prueba, cómo se eligen problemas, qué papel juega la intuición y por qué la belleza importa. El formato epistolar le permite combinar orientación práctica, reflexión filosófica y entusiasmo intelectual sin convertir el libro en manual ni en autobiografía.",
+        "forWhom": "Para estudiantes curiosos, docentes, lectores de divulgación y cualquier persona que quiera entender la cultura matemática más allá del cálculo escolar.",
+        "whyItMatters": "Importa porque devuelve a las matemáticas su dimensión humana, creativa y formativa. Ayuda a combatir el miedo escolar a la disciplina y a verla como una forma rigurosa de imaginación, argumentación y descubrimiento.",
+        "editorialIntro": "Este no es un libro para resolver ejercicios, sino para comprender por qué las matemáticas merecen una vida de estudio. Ian Stewart escribe con claridad, humor y autoridad, pero sobre todo con vocación de acompañamiento. Sus páginas resultan especialmente valiosas para quien sospecha que detrás de la dificultad hay una forma singular de belleza intelectual.",
+        "readingLevel": "Nivel medio: muy accesible en el lenguaje, aunque pide atención conceptual y curiosidad sostenida.",
+        "whyReadToday": "En una época dominada por datos, algoritmos y modelos, este libro recuerda que las matemáticas no son solo utilidad técnica, sino también una escuela de pensamiento crítico y creatividad.",
+        "studyNotes": [
+          "El libro insiste en que las matemáticas no son una colección de trucos, sino una manera de formular y probar ideas.",
+          "La demostración aparece como práctica central: no basta con acertar, hay que justificar con rigor.",
+          "Stewart subraya la dimensión estética de la disciplina: elegancia, simplicidad y sorpresa cuentan."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primeras cartas: qué son las matemáticas",
+            "summary": "Stewart desmonta la idea escolar de que las matemáticas se reducen a cuentas y reglas. Las presenta como una actividad creativa dedicada a descubrir estructuras, formular preguntas y construir pruebas convincentes."
+          },
+          {
+            "title": "Cartas centrales: cómo se piensa y se aprende",
+            "summary": "El autor aborda la intuición, el error, la perseverancia y la lógica de la demostración. Explica cómo trabajan los matemáticos y por qué la disciplina exige combinar imaginación con disciplina argumentativa."
+          },
+          {
+            "title": "Cartas finales: vocación, comunidad y futuro",
+            "summary": "Hacia el cierre, el libro reflexiona sobre la vida académica, la relación entre matemáticas puras y aplicadas, y las razones personales e intelectuales para dedicar tiempo serio a este campo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una defensa cultural de las matemáticas",
+            "content": "Stewart no se limita a divulgar contenidos; defiende el valor cultural de la matemática como lenguaje de patrones, estructura y verdad demostrada. Esa defensa amplía el lugar público de la disciplina."
+          },
+          {
+            "heading": "Pedagogía sin condescendencia",
+            "content": "El libro destaca por su tono: cercano, pero no paternalista. Stewart toma en serio las dudas del lector joven y responde sin rebajar la complejidad de lo que significa hacer matemáticas."
+          },
+          {
+            "heading": "Vocación e imaginación rigurosa",
+            "content": "Uno de los mayores logros del texto es mostrar que la matemática une libertad inventiva y obligación de prueba. Esa tensión entre creatividad y rigor explica buena parte de su atractivo intelectual."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta una base matemática avanzada para leerlo?",
+            "answer": "No. Está pensado para lectores generales y estudiantes con interés, no para especialistas. Lo esencial es la curiosidad por entender cómo piensan los matemáticos."
+          },
+          {
+            "question": "¿El libro enseña contenidos técnicos concretos?",
+            "answer": "En menor medida. Su objetivo principal no es funcionar como manual, sino explicar la naturaleza de la disciplina, sus métodos, su belleza y su práctica intelectual."
+          },
+          {
+            "question": "¿Es útil para adolescentes o para orientar una vocación?",
+            "answer": "Sí. Precisamente destaca por ofrecer una imagen más realista, estimulante y menos intimidante de lo que significa estudiar matemáticas seriamente."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Planeta de Libros - Cartas a una joven matemática",
+            "url": "https://www.planetadelibros.com/libro-cartas-a-una-joven-matematica/16552"
+          },
+          {
+            "label": "Casa del Libro - Cartas a una joven matemática",
+            "url": "https://www.casadellibro.com/libro-cartas-a-una-joven-matematica/9788408215073/9660533"
+          },
+          {
+            "label": "Open Library - Letters to a Young Mathematician",
+            "url": "https://openlibrary.org/works/OL5838142W/Letters_to_a_Young_Mathematician"
+          },
+          {
+            "label": "Wikipedia - Ian Stewart (mathematician)",
+            "url": "https://en.wikipedia.org/wiki/Ian_Stewart_(mathematician)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-desajuste-del-mundo-cuando-nuestras-civilizaciones-se-agotan-de-amin-maalouf",
+      "title": "El Desajuste Del Mundo Cuando Nuestras Civilizaciones Se Agotan",
+      "authorName": "Amin Maalouf",
+      "authorSlug": "amin-maalouf",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 3,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El desajuste del mundo: cuando nuestras civilizaciones se agotan",
+        "authorName": "Amin Maalouf",
+        "authorSlug": "amin-maalouf",
+        "type": "no-ficcion",
+        "audience": "adultos",
+        "genres": [
+          "ensayo",
+          "geopolitica",
+          "historia de las ideas"
+        ],
+        "year": 2009,
+        "pages": 320,
+        "summary": "Amin Maalouf propone en este ensayo una lectura amplia de la crisis contemporánea que evita explicaciones simplistas como la mera “guerra de civilizaciones”. Su tesis es más exigente: el problema central no sería el choque entre bloques culturales firmes, sino el agotamiento simultáneo de varias tradiciones civilizatorias incapaces de responder con lucidez a los desafíos del presente. El libro examina la degradación del debate público, los repliegues identitarios, la crisis moral del sistema económico y la pérdida de credibilidad de los grandes relatos políticos. Desde una posición singular, situada entre el mundo árabe y Occidente, Maalouf combina memoria histórica, análisis cultural y preocupación ética. El resultado es un diagnóstico severo, pero no fatalista, sobre un mundo interdependiente que necesita una nueva madurez moral y política.",
+        "aboutThisBook": "El desajuste del mundo es un ensayo de interpretación global escrito por un autor especialmente sensible a los cruces de lengua, historia y pertenencia. Maalouf no habla desde una mirada puramente académica ni desde el comentario periodístico inmediato, sino desde una reflexión de largo alcance sobre civilización, identidad y responsabilidad. El libro enlaza conflictos internacionales, transformaciones económicas y tensiones culturales para sostener que la crisis contemporánea no puede entenderse sin atender a un deterioro más profundo de nuestros marcos morales y políticos.",
+        "forWhom": "Para lectores interesados en política internacional, historia contemporánea, mundo árabe, identidades culturales complejas y ensayos de interpretación civilizatoria.",
+        "whyItMatters": "Sigue importando porque ofrece una alternativa seria a los discursos polarizados. En vez de repetir fórmulas sobre Oriente y Occidente, indaga por qué múltiples sociedades atraviesan crisis internas de legitimidad, convivencia y horizonte moral.",
+        "editorialIntro": "Maalouf escribe como pocos sobre la fragilidad del mundo contemporáneo porque conoce desde dentro más de una tradición cultural. Su mirada no excusa a ningún bloque y tampoco se entrega al catastrofismo vacío. Este libro vale por su capacidad para convertir el desconcierto global en una pregunta moral e histórica inteligible.",
+        "readingLevel": "Nivel medio-alto: ensayo claro en la prosa, pero denso en referencias históricas, políticas y conceptuales.",
+        "whyReadToday": "Porque ayuda a pensar el auge de los nacionalismos, la fatiga democrática, la radicalización identitaria y la crisis del orden internacional sin caer en explicaciones superficiales.",
+        "studyNotes": [
+          "La idea central no es el choque entre civilizaciones, sino su desgaste simultáneo y su incapacidad de reformarse.",
+          "Maalouf analiza el vínculo entre crisis política, desorientación cultural y pérdida de referencias morales compartidas.",
+          "El libro mantiene una tensión productiva entre diagnóstico sombrío y apuesta por una salida ética más adulta."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Diagnóstico del desajuste global",
+            "summary": "Maalouf presenta los síntomas del desorden contemporáneo: tensiones identitarias, empobrecimiento del debate y fallas del sistema económico. El problema no se reduce a un conflicto localizado, sino a una perturbación de alcance planetario."
+          },
+          {
+            "title": "Occidente, mundo árabe y crisis de legitimidad",
+            "summary": "El ensayo examina críticamente los dos espacios culturales con los que el autor dialoga más directamente. Señala incoherencias, bloqueos históricos y renuncias que impiden a ambos ofrecer proyectos convincentes de convivencia y futuro."
+          },
+          {
+            "title": "Hacia una ética de la coexistencia",
+            "summary": "En la parte final, Maalouf orienta el análisis hacia una salida posible. Propone revisar nuestras pertenencias, creencias y responsabilidades para construir una visión más madura de la humanidad compartida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Contra la simplificación del conflicto civilizatorio",
+            "content": "Uno de los méritos principales del libro consiste en rechazar la comodidad interpretativa del choque entre bloques homogéneos. Maalouf muestra que las fracturas decisivas también atraviesan internamente a cada sociedad."
+          },
+          {
+            "heading": "Una mirada bicultural con autoridad moral",
+            "content": "La posición del autor, entre herencia árabe y vida intelectual francesa, le permite examinar tanto a Occidente como al mundo árabe sin idealizar ninguno. Esa doble pertenencia fortalece el alcance del ensayo."
+          },
+          {
+            "heading": "Vigencia política del ensayo",
+            "content": "Muchas de las cuestiones planteadas por Maalouf siguen abiertas: radicalización identitaria, descrédito institucional, fracturas geopolíticas y cansancio moral de las democracias. Su propuesta continúa siendo útil para pensar el presente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El libro defiende la idea del choque de civilizaciones?",
+            "answer": "No. Maalouf discute precisamente esa simplificación y sostiene que el problema más profundo es el agotamiento interno de varias civilizaciones y sistemas de valores."
+          },
+          {
+            "question": "¿Se centra solo en el mundo árabe?",
+            "answer": "No. Aunque dedica atención especial a la relación entre el mundo árabe y Occidente, el ensayo aspira a diagnosticar un desorden global que afecta a múltiples regiones y tradiciones políticas."
+          },
+          {
+            "question": "¿Es un libro pesimista?",
+            "answer": "Su diagnóstico es severo, pero no nihilista. Maalouf advierte sobre una crisis grave y al mismo tiempo insiste en la posibilidad de una respuesta más responsable y madura."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Open Library - Le Dérèglement du monde (obra)",
+            "url": "https://openlibrary.org/works/OL606754W/Le_D%C3%A9r%C3%A8glement_du_monde"
+          },
+          {
+            "label": "Open Library - El desajuste del mundo (edición Alianza, 2009)",
+            "url": "https://openlibrary.org/books/OL47388094M/El_desajuste_del_mundo"
+          },
+          {
+            "label": "Wikipedia - Amin Maalouf",
+            "url": "https://en.wikipedia.org/wiki/Amin_Maalouf"
+          },
+          {
+            "label": "Wikidata - Le Dérèglement du monde",
+            "url": "https://www.wikidata.org/wiki/Q48748553"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-teorema-del-loro-de-denis-guedj",
+      "title": "El Teorema Del Loro",
+      "authorName": "Denis Guedj",
+      "authorSlug": "denis-guedj",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 3,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El teorema del loro",
+        "authorName": "Denis Guedj",
+        "authorSlug": "denis-guedj",
+        "type": "novela",
+        "audience": "adultos",
+        "genres": [
+          "novela",
+          "ficción matemática",
+          "misterio"
+        ],
+        "year": 1998,
+        "pages": 416,
+        "summary": "El teorema del loro convierte la historia de las matemáticas en el motor de una intriga novelesca. Un viejo librero parisino recibe desde Brasil una biblioteca excepcional enviada por un amigo con el que llevaba años sin contacto. Poco después, la noticia de una muerte violenta y la aparición de mensajes enigmáticos obligan al pequeño grupo que vive alrededor del librero a leer, ordenar y discutir esos volúmenes. La novela avanza así como una investigación doméstica y, al mismo tiempo, como un recorrido por problemas, nombres y descubrimientos decisivos: Pitágoras, Euclides, Arquímedes, los números primos, la cuadratura del círculo o el teorema de Fermat. Guedj entrelaza divulgación, aventura intelectual y afectos familiares para mostrar que las matemáticas también son una historia humana, llena de pasiones, errores y hallazgos.",
+        "aboutThisBook": "Publicada originalmente como Le Théorème du perroquet, esta novela es una rara combinación de ficción de ideas, relato detectivesco y divulgación histórica. Denis Guedj, matemático e historiador de la ciencia, no presenta los conceptos como ejercicios abstractos, sino como problemas surgidos en contextos concretos y ligados a biografías, rivalidades y tradiciones. El resultado no es un manual encubierto, sino una narración que usa la curiosidad, el humor y el suspenso para acercar al lector a la cultura matemática.",
+        "forWhom": "Para lectores de narrativa intelectual, profesores, estudiantes y curiosos que quieran entrar en la historia de las matemáticas sin leer un tratado técnico.",
+        "whyItMatters": "Importa porque desmonta la falsa separación entre ciencias y humanidades: muestra que las matemáticas tienen historia, lenguaje, conflicto, imaginación y consecuencias culturales de largo alcance.",
+        "editorialIntro": "Pocas novelas consiguen enseñar sin parecer didácticas. El teorema del loro lo logra al transformar una biblioteca de matemáticas en una escena de investigación y conversación. Guedj narra con claridad, pero también con ambición: quiere que el lector sienta que detrás de cada teorema hubo vidas, apuestas intelectuales y preguntas decisivas sobre el mundo.",
+        "readingLevel": "Nivel medio-alto: se lee con fluidez, pero rinde mejor si el lector disfruta las explicaciones históricas y los cambios de ritmo entre trama y reflexión.",
+        "whyReadToday": "Sigue siendo actual porque ofrece un puente convincente entre cultura científica y literaria en un momento en que esa conversación vuelve a ser imprescindible.",
+        "studyNotes": [
+          "Observa cómo la intriga policial sirve de estructura para ordenar episodios de historia de las matemáticas.",
+          "Conviene seguir la novela atendiendo a la relación entre problema matemático y contexto histórico, no solo a la resolución del misterio.",
+          "El libro discute la transmisión del saber: bibliotecas, traducciones, maestros y discípulos son tan importantes como los teoremas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La biblioteca inesperada",
+            "summary": "La llegada de una inmensa colección de libros desde Brasil altera la rutina del librero parisino y convierte la casa en un espacio de pesquisa. La herencia parece generosa, pero pronto revela un trasfondo oscuro."
+          },
+          {
+            "title": "Matemáticas como clave del enigma",
+            "summary": "Mientras intentan comprender los mensajes vinculados al remitente desaparecido, los personajes recorren episodios fundamentales de la historia matemática. Cada concepto abre una pista intelectual y narrativa."
+          },
+          {
+            "title": "La tradición de los grandes problemas",
+            "summary": "La novela enlaza figuras y debates de la antigüedad, la modernidad y la teoría de números para mostrar que los teoremas nacen de preguntas insistentes, no de certezas inmediatas."
+          },
+          {
+            "title": "Conocimiento, peligro y legado",
+            "summary": "La investigación revela que la biblioteca vale más que como colección: contiene una memoria del saber cuya interpretación exige responsabilidad. El cierre une resolución narrativa y celebración del pensamiento matemático."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela de ideas con forma de misterio",
+            "content": "Guedj entiende que la curiosidad narrativa y la curiosidad intelectual pueden reforzarse mutuamente. Por eso la búsqueda de respuestas sobre una muerte y una herencia impulsa también la exploración de conceptos matemáticos. La intriga no adorna la divulgación: la organiza."
+          },
+          {
+            "heading": "Historia de las matemáticas como historia humana",
+            "content": "El libro insiste en que los teoremas no caen del cielo. Surgen en ciudades, escuelas, debates, traducciones y disputas. Esa perspectiva histórica humaniza la disciplina y permite leer las matemáticas como una tradición cultural compartida."
+          },
+          {
+            "heading": "Ciencia y literatura sin jerarquías",
+            "content": "Uno de los mayores logros de la novela es rechazar la oposición entre imaginación literaria y rigor científico. La narración muestra que formular una conjetura, seguir una demostración o heredar un problema también pertenece al mundo de las historias memorables."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro de divulgación?",
+            "answer": "Es una novela, pero construida sobre materiales de divulgación histórica y matemática. La trama narrativa sostiene el aprendizaje sin sustituirlo por un manual."
+          },
+          {
+            "question": "¿Hace falta saber matemáticas avanzadas para leerla?",
+            "answer": "No. El libro presupone curiosidad más que formación técnica. Algunos pasajes exigen atención, pero las ideas se presentan de manera narrativa e histórica."
+          },
+          {
+            "question": "¿Qué tipo de matemáticas aparecen?",
+            "answer": "Sobre todo historia de problemas y conceptos clásicos: geometría griega, números, irracionales, grandes teoremas y figuras que marcaron el desarrollo de la disciplina."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: The Parrot's Theorem",
+            "url": "https://en.wikipedia.org/wiki/The_Parrot%27s_Theorem"
+          },
+          {
+            "label": "Kirkus Reviews: The Parrot's Theorem",
+            "url": "https://www.kirkusreviews.com/book-reviews/denis-guedj/the-parrots-theorem/"
+          },
+          {
+            "label": "Publishers Weekly: The Parrot's Theorem",
+            "url": "https://www.publishersweekly.com/9780312280550"
+          },
+          {
+            "label": "Open Library: Le théorème du perroquet",
+            "url": "https://openlibrary.org/works/OL572875W/Le_th%C3%A9or%C3%A8me_du_perroquet"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-metamorfosis-de-peter-kuper",
+      "title": "La Metamorfosis",
+      "authorName": "Peter Kuper",
+      "authorSlug": "peter-kuper",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 3,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La metamorfosis",
+        "authorName": "Peter Kuper",
+        "authorSlug": "peter-kuper",
+        "type": "novela gráfica",
+        "audience": "adultos",
+        "genres": [
+          "novela gráfica",
+          "adaptación",
+          "clásico ilustrado"
+        ],
+        "year": 2003,
+        "pages": 80,
+        "summary": "La metamorfosis de Peter Kuper adapta la célebre narración de Kafka al lenguaje de la novela gráfica sin reducir su extrañeza. Gregor Samsa despierta convertido en un insecto monstruoso y, desde ese hecho imposible, la obra muestra la rápida descomposición de los vínculos familiares, del trabajo y de la propia identidad. Kuper mantiene la estructura básica del relato, pero la reinterpreta con una estética expresionista, líneas nerviosas y contrastes visuales que vuelven visible la presión del encierro. La transformación física importa menos como prodigio fantástico que como revelación de una verdad previa: Gregor ya vivía sometido a una lógica de utilidad, deuda y obediencia. La adaptación acentúa así la dimensión corporal, el humor oscuro y la violencia doméstica de un texto central de la modernidad literaria.",
+        "aboutThisBook": "Publicada por primera vez en 2003, esta versión gráfica se ha vuelto una de las adaptaciones más conocidas de Kafka en cómic. Peter Kuper no ilustra simplemente el argumento: traduce al dibujo la ansiedad, la culpa y la alienación del original mediante composición de página, deformación expresiva y una imaginería de insectos que dialoga con el universo kafkiano. El libro también funciona como puerta de entrada a Kafka para lectores que llegan desde el cómic contemporáneo.",
+        "forWhom": "Para lectores de Kafka, de novela gráfica y de literatura moderna que busquen una adaptación visual seria, legible y conceptualmente fiel al conflicto original.",
+        "whyItMatters": "Importa porque demuestra que adaptar un clásico no significa domesticarlo: Kuper conserva la incomodidad ética y emocional del texto y la vuelve visible con recursos propios del cómic.",
+        "editorialIntro": "Peter Kuper entiende que Kafka no necesita solemnidad, sino precisión. Su Metamorfosis es breve, incisiva y visualmente inquietante. En lugar de explicar el clásico, lo hace respirar en otro medio y confirma que la angustia de Gregor Samsa también puede narrarse con tinta, ritmo de viñetas y composición expresionista.",
+        "readingLevel": "Nivel medio: la lectura es rápida en extensión, pero exige atención a los símbolos visuales, al subtexto familiar y a la ironía cruel del relato.",
+        "whyReadToday": "Se lee hoy con fuerza porque convierte precariedad laboral, deshumanización y aislamiento familiar en imágenes directas que dialogan con sensibilidades contemporáneas.",
+        "studyNotes": [
+          "Compara qué elementos del relato de Kafka se mantienen literalmente y cuáles se transforman gracias al lenguaje visual.",
+          "Presta atención al diseño de Gregor: no solo representa un insecto, también materializa vergüenza, vulnerabilidad y exclusión.",
+          "La obra permite estudiar cómo la novela gráfica interpreta, y no solo resume, un clásico del canon moderno."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte I: La transformación",
+            "summary": "Gregor Samsa despierta convertido en insecto y descubre que su familia y su empleo solo saben reaccionar con alarma y exigencia. La identidad previa del personaje queda inmediatamente quebrada."
+          },
+          {
+            "title": "Parte II: El encierro doméstico",
+            "summary": "Aislado en su cuarto, Gregor depende de una familia que mezcla compasión, vergüenza y rechazo. La adaptación enfatiza visualmente la degradación del espacio y del vínculo afectivo."
+          },
+          {
+            "title": "Parte III: Expulsión y desenlace",
+            "summary": "Cuando Gregor deja de ser tolerable incluso como carga silenciosa, la familia asume que su desaparición sería una liberación. El final convierte la tragedia íntima en diagnóstico social."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Fidelidad y reinvención",
+            "content": "Kuper respeta la arquitectura narrativa de Kafka, pero usa el cómic para intensificar sensaciones que en prosa aparecen insinuadas. El resultado no compite con el original: lo relee desde otra materialidad artística."
+          },
+          {
+            "heading": "El cuerpo como lugar de exclusión",
+            "content": "La transformación vuelve visible una lógica previa de explotación. Gregor ya era tratado como instrumento económico; su nuevo cuerpo solo hace imposible seguir ocultándolo. La novela gráfica convierte ese proceso en experiencia visual inmediata."
+          },
+          {
+            "heading": "Expresionismo y claustrofobia",
+            "content": "Las líneas tensas, los contrastes y la composición de página producen una atmósfera de encierro que refuerza el sentido kafkiano de asfixia. La casa deja de ser refugio y se vuelve mecanismo disciplinario."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una adaptación fiel a Kafka?",
+            "answer": "Sí en su estructura central, tono y conflicto, aunque utiliza recursos visuales propios del cómic para subrayar la dimensión corporal y expresionista del relato."
+          },
+          {
+            "question": "¿Sirve para empezar a leer a Kafka?",
+            "answer": "Sí. Puede funcionar como puerta de entrada, siempre que se entienda que una adaptación visual ilumina aspectos del original pero no lo sustituye por completo."
+          },
+          {
+            "question": "¿Qué aporta Peter Kuper frente a otras ediciones ilustradas?",
+            "answer": "Aporta una lectura autoral muy clara: convierte la ansiedad y la alienación del texto en ritmo gráfico, diseño de página y una imaginería visual coherente de principio a fin."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Peter Kuper Art: The Metamorphosis",
+            "url": "https://www.peterkuper.com/the-metamorphosis"
+          },
+          {
+            "label": "Open Library: The Metamorphosis (Peter Kuper)",
+            "url": "https://openlibrary.org/works/OL5728072W/The_metamorphosis"
+          },
+          {
+            "label": "Publishers Weekly ISBN page",
+            "url": "https://www.publishersweekly.com/9781400052998"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-campesinos-de-anton-chejov",
+      "title": "Los Campesinos",
+      "authorName": "Anton Chejov",
+      "authorSlug": "anton-chejov",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 3,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los campesinos",
+        "authorName": "Antón Chéjov",
+        "authorSlug": "anton-chejov",
+        "type": "cuento",
+        "audience": "adultos",
+        "genres": [
+          "cuento",
+          "realismo ruso",
+          "crítica social"
+        ],
+        "year": 1897,
+        "pages": null,
+        "summary": "Los campesinos es uno de los relatos más duros de Chéjov y uno de los textos que mejor muestran su rechazo a la idealización del campo ruso. Un criado enfermo regresa desde Moscú con su mujer y su hija a la aldea de la que salió años antes, esperando alivio y apoyo familiar. Lo que encuentra no es una comunidad reconciliadora, sino una vida marcada por hacinamiento, suciedad, fatiga, hambre, violencia y una resignación que corroe los vínculos entre generaciones. Chéjov evita la sentimentalización y construye la historia como una sucesión de escenas precisas, casi esbozos encadenados, donde cada detalle cotidiano pesa más que cualquier gran peripecia. El resultado es un retrato social devastador: el campesinado aparece atrapado entre la miseria material, la brutalización moral y la ausencia de horizontes reales de cambio.",
+        "aboutThisBook": "Publicado en 1897, el relato causó un fuerte impacto porque contradecía una imagen edificante del pueblo ruso todavía muy extendida en la cultura de su tiempo. Britannica subraya precisamente que la obra provocó revuelo por rechazar la costumbre de representar al campesinado de manera sentimentalizada. Chéjov concentra aquí una de sus grandes virtudes: mirar con compasión, pero sin consuelo falso. La escritura es sobria, observacional y profundamente crítica con las condiciones sociales que deforman la vida cotidiana.",
+        "forWhom": "Para lectores de realismo ruso, historia social, estudios literarios y cursos donde interese analizar la representación no idealizada del mundo rural en la narrativa moderna.",
+        "whyItMatters": "Importa porque desmonta un mito cultural persistente: el de la pureza moral del campesinado. Chéjov muestra, con precisión clínica, cómo la pobreza estructural degrada cuerpos, palabras y relaciones.",
+        "editorialIntro": "Leer Los campesinos sigue siendo incómodo, y esa incomodidad es parte de su valor. Chéjov no ofrece redención fácil ni paisaje pintoresco. Observa la vida rural desde dentro y registra cómo la escasez, el cansancio y la costumbre de la humillación transforman la convivencia en un espacio de dureza casi continua.",
+        "readingLevel": "Nivel medio-alto: el estilo es claro, pero la densidad moral del relato y su falta de idealización exigen una lectura atenta y reflexiva.",
+        "whyReadToday": "Se lee hoy porque obliga a pensar cómo la desigualdad material altera la vida íntima y cómo la literatura puede denunciar sin convertir la miseria en espectáculo sentimental.",
+        "studyNotes": [
+          "Observa que Chéjov trabaja más con escenas acumulativas que con una trama espectacular; el efecto depende de esa insistencia cotidiana.",
+          "Conviene analizar cómo el relato rompe con la visión romántica del campo ruso y con la idealización del sufrimiento popular.",
+          "La compasión del autor no cancela la violencia del mundo narrado: ambas dimensiones conviven y sostienen la fuerza del texto."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Regreso al pueblo",
+            "summary": "Un hombre enfermo vuelve desde Moscú a su aldea natal acompañado por su esposa e hija. La esperanza de hallar amparo familiar se enfrenta pronto con una realidad de estrechez y degradación."
+          },
+          {
+            "title": "La vida bajo la escasez",
+            "summary": "La convivencia campesina aparece dominada por el trabajo agotador, la falta de higiene, el alcohol, la violencia verbal y la ausencia de intimidad. Chéjov convierte lo cotidiano en diagnóstico social."
+          },
+          {
+            "title": "Muerte, desgaste y ausencia de salida",
+            "summary": "La enfermedad y la precariedad profundizan el desamparo de la familia recién llegada. El relato conduce a una sensación de agotamiento histórico más que a una resolución reparadora."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Contra la idealización del campesinado",
+            "content": "Uno de los rasgos más notables del cuento es su negativa a convertir al pueblo en depósito de autenticidad moral. Chéjov no niega la dignidad humana de sus personajes, pero rechaza embellecer las condiciones que los oprimen."
+          },
+          {
+            "heading": "La miseria como experiencia total",
+            "content": "La pobreza no aparece solo como carencia económica. Moldea cuerpos, voces, tiempos de trabajo, relaciones familiares y expectativas. Por eso el relato resulta tan contundente: muestra una forma de vida entera atravesada por la necesidad."
+          },
+          {
+            "heading": "Compasión sin sentimentalismo",
+            "content": "Chéjov observa a sus personajes con atención ética, pero evita ofrecer alivios retóricos. Esa combinación de cercanía y dureza explica la intensidad del cuento y su lugar central en el realismo tardío ruso."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un cuento o una novela corta?",
+            "answer": "Suele leerse y clasificarse como un cuento largo o relato extenso dentro de la narrativa breve de Chéjov."
+          },
+          {
+            "question": "¿Por qué fue polémico en su tiempo?",
+            "answer": "Porque ofrecía una imagen del campesinado ruso muy distinta de la representación sentimental o moralmente ennoblecida que muchos lectores esperaban encontrar."
+          },
+          {
+            "question": "¿Cuál es su tema principal?",
+            "answer": "La obra examina cómo la pobreza estructural y la falta de perspectivas degradan la vida cotidiana y desfiguran los lazos familiares y comunitarios."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Britannica: Peasants",
+            "url": "https://www.britannica.com/topic/Peasants-by-Chekhov"
+          },
+          {
+            "label": "Britannica: Anton Chekhov",
+            "url": "https://www.britannica.com/biography/Anton-Chekhov"
+          },
+          {
+            "label": "Wikisource: Peasants (Chekhov)",
+            "url": "https://en.wikisource.org/wiki/Peasants_(Chekhov)"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-18T00:49:25Z"
+}

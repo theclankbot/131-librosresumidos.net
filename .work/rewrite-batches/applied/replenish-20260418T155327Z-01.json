@@ -1,0 +1,1559 @@
+{
+  "batchName": "replenish-20260418T155327Z-01",
+  "createdAt": "2026-04-18T15:53:27Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-nino-estrella-de-oscar-wilde",
+      "title": "El Nino Estrella",
+      "authorName": "Oscar Wilde",
+      "authorSlug": "oscar-wilde",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 16,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El niño estrella",
+        "authorName": "Oscar Wilde",
+        "authorSlug": "oscar-wilde",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "cuento",
+          "fantasia",
+          "clasicos",
+          "literatura simbolica"
+        ],
+        "year": 1891,
+        "pages": null,
+        "summary": "Publicado dentro de A House of Pomegranates, \"El niño estrella\" cuenta la historia de un niño hallado en el bosque por dos leñadores tras la caída de una estrella. Su belleza extraordinaria lo vuelve orgulloso, cruel y desdeñoso con los pobres, hasta que rechaza brutalmente a una mendiga que resulta ser su madre. Ese acto desencadena su degradación: pierde su hermosura y debe atravesar humillaciones, esclavitud y pruebas morales antes de comprender el valor de la compasión. Wilde convierte el relato en una fábula severa sobre la vanidad, la culpa y la redención, donde la transformación exterior del protagonista refleja un aprendizaje interior que solo se completa cuando aprende a amar y a servir a otros.",
+        "aboutThisBook": "No es un cuento infantil complaciente, sino una pieza breve y densa de simbolismo moral. Wilde mezcla imaginería de cuento maravilloso, ecos cristianos y una sensibilidad decadente para narrar un itinerario de caída y reparación. La historia funciona al mismo tiempo como fábula ética, parábola sobre el egoísmo y reflexión sobre la belleza desligada del bien. Su fuerza está en la claridad del argumento y en la intensidad de sus imágenes.",
+        "forWhom": "Para lectores de clásicos breves, profesores, estudiantes y quienes busquen un cuento alegórico sobre orgullo, castigo y aprendizaje moral.",
+        "whyItMatters": "Sigue importando porque muestra, con lenguaje de cuento, una intuición central de Wilde: la belleza sin misericordia se corrompe. En pocas páginas plantea preguntas duraderas sobre dignidad, apariencia y responsabilidad hacia los otros.",
+        "editorialIntro": "Entre los relatos más memorables de Wilde, \"El niño estrella\" destaca por su dureza moral y por la elegancia de su construcción simbólica. Bajo la forma de un cuento maravilloso, el autor despliega una historia de orgullo, caída y reparación que no busca adormecer al lector, sino ponerlo frente al precio espiritual de la crueldad.",
+        "readingLevel": "Accesible en la trama, pero con simbolismo religioso y moral que gana profundidad en lectura guiada o adulta.",
+        "whyReadToday": "Porque su crítica de la belleza narcisista y de la indiferencia ante la miseria suena muy actual. Es un cuento antiguo con preguntas plenamente contemporáneas.",
+        "studyNotes": [
+          "La deformación física del protagonista no solo castiga: exterioriza una corrupción moral previa.",
+          "El cuento enlaza motivos del folclore con una estructura de parábola cristiana sobre arrepentimiento y reparación.",
+          "La mendiga-madre introduce el tema del reconocimiento: ver al otro de verdad exige superar el culto a la apariencia.",
+          "La belleza, en Wilde, aparece como un don ambiguo cuando no va acompañada de compasión."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El hallazgo en el bosque",
+            "summary": "Dos leñadores encuentran a un niño envuelto en un manto bordado tras la caída de una estrella. Uno de ellos decide llevarlo a casa y criarlo, pese a la pobreza del hogar, y el niño crece rodeado por la admiración de todos debido a su extraordinaria belleza."
+          },
+          {
+            "title": "Orgullo, rechazo y castigo",
+            "summary": "La admiración convierte al niño en un ser vanidoso y cruel, incapaz de compadecerse de los débiles. Cuando una mendiga llega al pueblo y él la humilla, descubre que es su madre; entonces pierde su hermosura y cae en desgracia, obligado a abandonar la posición privilegiada que daba por natural."
+          },
+          {
+            "title": "Pruebas de humillación y servicio",
+            "summary": "En su camino de expiación, el protagonista sufre hambre, esclavitud y mandatos imposibles. La experiencia del dolor lo acerca a quienes antes despreciaba y le enseña que la compasión vale más que la apariencia o el linaje."
+          },
+          {
+            "title": "Reconocimiento y redención",
+            "summary": "Solo cuando actúa con generosidad sincera, sin esperar recompensa, el niño recupera su verdadera dignidad. El relato concluye con un reconocimiento de su identidad y con una restauración que subraya que la belleza auténtica depende del carácter y no del rostro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Belleza y ética",
+            "content": "Wilde opone la fascinación por la hermosura a una pregunta moral decisiva: ¿qué vale la belleza cuando se vuelve instrumento de desprecio? El cuento responde mostrando que el atractivo exterior, sin disciplina interior, genera soberbia y ceguera ante el sufrimiento ajeno."
+          },
+          {
+            "heading": "Una parábola de reconocimiento",
+            "content": "El momento en que el protagonista rechaza a su madre es el verdadero centro del relato. La falta no consiste solo en ser descortés, sino en negar humanidad a quien aparece degradada. La historia convierte ese gesto en una prueba radical de visión moral."
+          },
+          {
+            "heading": "El valor de la humillación en el aprendizaje",
+            "content": "Las pruebas que atraviesa el niño estrella no son meros episodios de aventura. Funcionan como una pedagogía del dolor: solo quien ha conocido la precariedad puede comprender de verdad la vulnerabilidad de los otros."
+          },
+          {
+            "heading": "Tono de cuento y severidad simbólica",
+            "content": "Aunque utiliza recursos del cuento maravilloso, el texto posee una severidad poco infantil. Las imágenes de frío, suciedad, hambre y castigo le dan al relato un espesor alegórico que lo emparenta más con la fábula moral que con el entretenimiento ligero."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿\"El niño estrella\" es un cuento infantil?",
+            "answer": "Puede leerse como cuento para jóvenes, pero su tono moral, su dureza y su simbolismo lo acercan también a la lectura adulta y académica."
+          },
+          {
+            "question": "¿Forma parte de un libro mayor?",
+            "answer": "Sí. Es uno de los relatos incluidos en A House of Pomegranates, colección publicada por Oscar Wilde en 1891."
+          },
+          {
+            "question": "¿Cuál es su tema principal?",
+            "answer": "La relación entre belleza, orgullo y redención. El relato muestra cómo la compasión corrige una identidad fundada en la vanidad."
+          },
+          {
+            "question": "¿Por qué sigue siendo relevante?",
+            "answer": "Porque cuestiona el culto a la apariencia y recuerda que el valor de una persona se prueba en su trato hacia quienes no pueden ofrecer prestigio ni ventaja."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: A House of Pomegranates",
+            "url": "https://en.wikipedia.org/wiki/A_House_of_Pomegranates"
+          },
+          {
+            "label": "Wikisource: The Star-Child",
+            "url": "https://en.wikisource.org/wiki/House_of_Pomegranates/The_Star-Child"
+          },
+          {
+            "label": "Project Gutenberg: A House of Pomegranates",
+            "url": "https://www.gutenberg.org/files/873/873-h/873-h.htm"
+          },
+          {
+            "label": "Internet Archive: A House of Pomegranates",
+            "url": "https://archive.org/details/houseofpomegrana00wild"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "memorias-postumas-de-blas-cubas-de-joaquim-maria-machado-de-assis",
+      "title": "Memorias Postumas De Blas Cubas De Joaquim Maria Machado",
+      "authorName": "Assis",
+      "authorSlug": "assis",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 16,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Memorias póstumas de Brás Cubas",
+        "authorName": "Machado de Assis",
+        "authorSlug": "machado-de-assis",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela",
+          "clasicos",
+          "satira",
+          "realismo"
+        ],
+        "year": 1881,
+        "pages": null,
+        "summary": "Narrada por un difunto que decide escribir sus recuerdos desde la tumba, Memorias póstumas de Brás Cubas rompe desde la primera página con la novela decimonónica convencional. Brás Cubas, heredero ocioso y escéptico de la elite carioca, revisa su infancia, sus ambiciones fallidas, su relación adúltera con Virgília y sus múltiples frustraciones con una mezcla de ironía, capricho y lucidez cruel. Más que construir una trama lineal, Machado de Assis compone un mosaico de capítulos breves, digresivos y mordaces que desmontan las ilusiones de prestigio, amor, progreso y autorrealización. El resultado es una novela profundamente moderna: divertida, amarga y filosófica a la vez, donde la conciencia del narrador funciona como laboratorio de autoengaño y crítica social.",
+        "aboutThisBook": "Es una de las obras decisivas de la literatura brasileña y una de las novelas más innovadoras del siglo XIX. Su originalidad no reside solo en que el narrador esté muerto, sino en la libertad con que interrumpe, comenta, resume y contradice su propio relato. Machado convierte la memoria en un escenario de ironía donde cada triunfo se revela mezquino y cada ideal queda sometido al examen de una inteligencia escéptica.",
+        "forWhom": "Para lectores de clásicos exigentes, estudiantes de literatura, clubes de lectura y quienes disfrutan narradores irónicos, fragmentarios y poco confiables.",
+        "whyItMatters": "Importa porque anticipa recursos de la novela moderna: fragmentación, metaliteratura, humor negro y distancia crítica frente al yo. Además retrata con precisión la vanidad y el vacío de una clase dirigente incapaz de examinarse con honestidad.",
+        "editorialIntro": "Machado de Assis escribió aquí una novela que parece adelantarse varias décadas a su tiempo. Con capítulos cortos, interrupciones deliberadas y un narrador que presume incluso de sus fracasos, Memorias póstumas de Brás Cubas transforma la autobiografía en un artefacto satírico. Pocas obras combinan con tanta naturalidad inteligencia formal, comicidad y desengaño moral.",
+        "readingLevel": "Exige atención a la ironía, a las digresiones y a las alusiones sociales; muy recomendable para lectura pausada y comentada.",
+        "whyReadToday": "Porque su retrato del ego, la autojustificación y el prestigio vacío conserva una vigencia sorprendente. Su modernidad formal dialoga muy bien con lectores contemporáneos.",
+        "studyNotes": [
+          "El narrador muerto le permite a Machado eliminar el decoro autobiográfico y radicalizar la ironía.",
+          "Los capítulos breves y discontinuos forman parte del sentido: expresan una conciencia inestable, caprichosa y autoindulgente.",
+          "Brás Cubas no es un héroe trágico, sino una conciencia privilegiada que exhibe su propia esterilidad moral.",
+          "La novela satiriza tanto las ambiciones privadas como la cultura de prestigio de la elite del Río de Janeiro imperial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Desde la tumba",
+            "summary": "Brás Cubas inicia sus memorias después de muerto y convierte su fallecimiento en punto de partida narrativo. Desde ese lugar imposible adopta un tono libre, insolente y retrospectivo, dispuesto a contar su vida sin la obligación de parecer noble o edificante."
+          },
+          {
+            "title": "Infancia, formación y vanidad social",
+            "summary": "El narrador recuerda su origen acomodado, su educación sentimental y el modo en que aprendió a moverse en un mundo donde el apellido, la posición y la apariencia valen más que cualquier convicción profunda. La novela fija desde temprano la distancia entre prestigio y sustancia moral."
+          },
+          {
+            "title": "Virgília y las ambiciones frustradas",
+            "summary": "La relación con Virgília condensa deseo, cálculo social y fracaso. Lo amoroso nunca aparece separado de la conveniencia ni del narcisismo, y el vínculo sirve para mostrar la incapacidad de Brás Cubas para construir una vida significativa."
+          },
+          {
+            "title": "Balance de una vida estéril",
+            "summary": "En el tramo final, el narrador enumera sus derrotas con una mezcla de cinismo y alivio. Su célebre balance no glorifica una vida plena, sino una existencia sin legado verdadero, convertida en observación sardónica sobre el éxito y el fracaso."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El narrador post mortem como dispositivo crítico",
+            "content": "La voz de Brás Cubas no es un adorno ingenioso, sino el mecanismo central de la novela. Hablar desde la muerte le permite juzgar la vida social con una mezcla de desapego, exhibicionismo y crueldad que desarma las convenciones del memorialismo tradicional."
+          },
+          {
+            "heading": "Fragmentación y libertad formal",
+            "content": "Los 160 capítulos breves y a menudo disconexos no son una excentricidad superficial. Machado usa la interrupción, la digresión y el salto asociativo para quebrar la ilusión de continuidad psicológica y para exponer la arbitrariedad con que una vida se cuenta a sí misma."
+          },
+          {
+            "heading": "Sátira de la elite imperial",
+            "content": "La novela retrata un mundo de ociosidad, cálculo matrimonial, ambición burocrática y prestigio ornamental. En vez de denunciarlo con solemnidad, Machado lo vuelve visible mediante la autoconfesión de uno de sus propios beneficiarios."
+          },
+          {
+            "heading": "Modernidad y desencanto",
+            "content": "Leída hoy, la obra impresiona por su cercanía con procedimientos de la novela del siglo XX: narrador poco confiable, metaliteratura, humor autorreflexivo y desmontaje del yo. Su desencanto no cancela el placer de lectura; lo vuelve más incisivo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela difícil?",
+            "answer": "No por su extensión, pero sí por su ironía y por su estructura fragmentaria. Conviene leerla sin esperar una narración lineal tradicional."
+          },
+          {
+            "question": "¿Qué la hace tan original?",
+            "answer": "La combinación de un narrador muerto, capítulos muy breves, humor escéptico y una continua reflexión sobre el propio acto de narrar."
+          },
+          {
+            "question": "¿Es una crítica social o una historia personal?",
+            "answer": "Ambas cosas. La vida de Brás Cubas sirve para exponer el vacío moral de una clase social y, al mismo tiempo, para examinar la fabricación del yo autobiográfico."
+          },
+          {
+            "question": "¿Por qué se considera una obra clave de Machado de Assis?",
+            "answer": "Porque marca su gran ruptura estilística y condensa la ironía, la libertad formal y la profundidad psicológica que lo volvieron un clásico de alcance universal."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Britannica: Memórias póstumas de Brás Cubas",
+            "url": "https://www.britannica.com/topic/Memorias-postumas-de-Bras-Cubas"
+          },
+          {
+            "label": "Britannica: Joaquim Maria Machado de Assis",
+            "url": "https://www.britannica.com/biography/Joaquim-Maria-Machado-de-Assis"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Memórias póstumas de Brás Cubas",
+            "url": "https://www.cervantesvirtual.com/obra/memorias-postumas-de-bras-cubas--0/"
+          },
+          {
+            "label": "Wikipedia: The Posthumous Memoirs of Brás Cubas",
+            "url": "https://en.wikipedia.org/wiki/The_Posthumous_Memoirs_of_Br%C3%A1s_Cubas"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "metafisica-4-en-1-de-conny-mendez",
+      "title": "Metafisica 4 En 1",
+      "authorName": "Conny Mendez",
+      "authorSlug": "conny-mendez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 16,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Metafísica 4 en 1 (Libro 1)",
+        "authorName": "Conny Méndez",
+        "authorSlug": "conny-mendez",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "espiritualidad",
+          "autoayuda",
+          "filosofia practica",
+          "esoterismo"
+        ],
+        "year": 1969,
+        "pages": 156,
+        "summary": "Metafísica 4 en 1 (Libro 1) reúne varios textos con los que Conny Méndez buscó divulgar, en un lenguaje directo y accesible, una enseñanza espiritual de carácter práctico. El volumen abre con Metafísica al alcance de todos y despliega luego materiales sobre pensamiento, oración, decretos, amor, prosperidad, los llamados siete principios universales y la figura de Saint Germain. Más que un tratado sistemático, el libro funciona como manual de iniciación: define conceptos, propone ejercicios verbales y presenta una visión del mundo donde la transformación interior depende del dominio mental, la afirmación positiva y la disciplina espiritual. Su importancia cultural en el ámbito hispanoamericano radica en la enorme difusión de estas ideas y en la capacidad de Méndez para convertir doctrinas esotéricas complejas en un formato popular y memorables consignas de uso cotidiano.",
+        "aboutThisBook": "La obra está pensada como divulgación espiritual y no como filosofía académica. Su autora escribe en lo que llama \"palabras de a centavo\", es decir, con una voluntad explícita de sencillez. Ese tono explica tanto su alcance popular como su estructura: capítulos breves, definiciones directas, ejemplos prácticos y fórmulas repetibles. El libro no avanza por demostración crítica, sino por exposición, exhortación y aplicación cotidiana.",
+        "forWhom": "Para lectores interesados en espiritualidad popular, historia cultural de la autoayuda hispana y corrientes metafísicas difundidas en América Latina.",
+        "whyItMatters": "Importa menos como sistema filosófico riguroso que como fenómeno editorial y de recepción. Ayuda a entender cómo ciertas tradiciones esotéricas y devocionales se adaptaron a un lenguaje práctico, doméstico y masivo en el mundo hispano.",
+        "editorialIntro": "Pocos libros de espiritualidad popular en español tuvieron una circulación tan amplia como Metafísica 4 en 1. Conny Méndez condensó aquí enseñanzas, fórmulas y ejercicios que prometen ordenar la vida interior desde una mezcla de cristianismo reinterpretado, metafísica práctica y vocabulario esotérico. Leerlo hoy permite captar tanto su magnetismo pedagógico como el tipo de sensibilidad que lo convirtió en un texto de referencia para generaciones de lectores.",
+        "readingLevel": "Lectura muy accesible en el lenguaje, aunque exige distancia crítica para situar sus afirmaciones dentro de una tradición espiritual y no científica.",
+        "whyReadToday": "Porque sigue siendo una obra influyente dentro de la espiritualidad popular hispana y sirve para comprender el cruce entre autoayuda, devoción y esoterismo del siglo XX.",
+        "studyNotes": [
+          "El libro privilegia la claridad pedagógica sobre la argumentación filosófica especializada.",
+          "La repetición de decretos y fórmulas muestra que la obra busca uso práctico, no solo lectura contemplativa.",
+          "Su vocabulario combina referencias cristianas con elementos esotéricos y de metafísica popular.",
+          "Como documento cultural, permite estudiar la expansión latinoamericana de la autoayuda espiritual en el siglo XX."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Metafísica al alcance de todos",
+            "summary": "La apertura del volumen presenta los conceptos básicos en un registro deliberadamente sencillo. Méndez propone que cualquier lector pueda apropiarse de estas ideas para orientar la vida diaria, especialmente en asuntos de pensamiento, fe y actitud personal."
+          },
+          {
+            "title": "Te regalo lo que se te antoje",
+            "summary": "Esta sección desplaza el énfasis hacia la práctica: oración, deseo, amor, dinero, diezmo, meditación y el uso de expresiones afirmativas como \"Yo soy\". El tono es exhortativo y busca traducir la doctrina en hábitos cotidianos."
+          },
+          {
+            "title": "El maravilloso número siete",
+            "summary": "Aquí el libro ordena buena parte de su cosmología simbólica alrededor de siete aspectos de Dios, siete principios universales y siete rayos. Es una de las partes más abiertamente esotéricas y sistematizadoras del volumen."
+          },
+          {
+            "title": "¿Quién es y quién fue el Conde St. Germain?",
+            "summary": "El cierre reúne materiales en torno a Saint Germain, figura central para muchas corrientes metafísicas modernas. La autora lo integra como autoridad espiritual y como nexo entre doctrina, historia legendaria e instrucción devocional."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Divulgación espiritual y lenguaje popular",
+            "content": "Uno de los rasgos decisivos del libro es su esfuerzo por simplificar. La autora no escribe para especialistas, sino para lectores comunes interesados en aplicar una doctrina a la vida diaria. Esa vocación pedagógica explica su enorme alcance editorial."
+          },
+          {
+            "heading": "La práctica verbal como tecnología del yo",
+            "content": "Decretos, afirmaciones, oraciones y fórmulas breves ocupan un lugar central. El libro supone que la palabra repetida puede reordenar la conciencia y, con ello, la experiencia vital. Esa confianza en el lenguaje performativo lo acerca a mucha literatura posterior de autoayuda."
+          },
+          {
+            "heading": "Sincretismo doctrinal",
+            "content": "Metafísica 4 en 1 combina cristianismo reinterpretado, ideas esotéricas, nociones de causa y efecto y figuras como Saint Germain. El resultado no es un sistema homogéneo, sino un mosaico espiritual pensado para la apropiación práctica."
+          },
+          {
+            "heading": "Importancia cultural en el mundo hispano",
+            "content": "Más allá del acuerdo o desacuerdo con sus postulados, la obra resulta relevante por su difusión. Ayuda a explicar cómo ciertas creencias de autosuperación espiritual se consolidaron en librerías, grupos de estudio y lecturas domésticas en América Latina y entre lectores hispanohablantes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro religioso o de autoayuda?",
+            "answer": "Se sitúa en una zona híbrida: combina devoción, metafísica popular, consejos prácticos y fórmulas de transformación personal."
+          },
+          {
+            "question": "¿Metafísica 4 en 1 es un único libro o una compilación?",
+            "answer": "En esta edición se presenta como un volumen que reúne varios textos o secciones, entre ellos Metafísica al alcance de todos, Te regalo lo que se te antoje y otros materiales afines."
+          },
+          {
+            "question": "¿Su lenguaje es difícil?",
+            "answer": "No. Precisamente una de sus claves de difusión fue el uso de un lenguaje muy sencillo, pensado para lectores sin formación filosófica especializada."
+          },
+          {
+            "question": "¿Por qué puede interesar hoy?",
+            "answer": "Porque permite entender una tradición de espiritualidad práctica muy influyente en español y analizar su impacto cultural, editorial y emocional en varias generaciones de lectores."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Google Books, edición pública",
+            "url": "https://books.google.com/books?id=1uM1zwEACAAJ"
+          },
+          {
+            "label": "Google Books, otra edición pública",
+            "url": "https://books.google.com/books?id=Rz4oEAAAQBAJ"
+          },
+          {
+            "label": "Internet Archive: Metafísica 4 en 1 Libro 1",
+            "url": "https://archive.org/details/conny-mendez-metafisica-4-en-1-libro-1-e-pub-libre-1969"
+          },
+          {
+            "label": "Internet Archive: texto OCR de Metafísica 4 en 1 Libro 1",
+            "url": "https://archive.org/download/conny-mendez-metafisica-4-en-1-libro-1-e-pub-libre-1969/Conny%20M%C3%A9ndez%20-%20Metaf%C3%ADsica%204%20en%201%20Libro%201-ePubLibre%20%281969%29_djvu.txt"
+          },
+          {
+            "label": "Wikipedia: Conny Méndez",
+            "url": "https://es.wikipedia.org/wiki/Conny_M%C3%A9ndez"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-caso-de-la-misteriosa-epidemia-del-profesor-cuatro-amigos-y-medio-de-joachim-friedrich",
+      "title": "El Caso De La Misteriosa Epidemia Del Profesor Cuatro Amigos Y Medio",
+      "authorName": "Joachim Friedrich",
+      "authorSlug": "joachim-friedrich",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 15,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El caso de la misteriosa «epidemia del profesor»",
+        "authorName": "Joachim Friedrich",
+        "authorSlug": "joachim-friedrich",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "misterio",
+          "aventuras",
+          "novela infantil",
+          "detectives"
+        ],
+        "year": 2004,
+        "pages": 248,
+        "summary": "En esta entrega de la serie Cuatro amigos y medio, Charly y su pandilla salen de excursión escolar a una fortaleza medieval junto con el resto de la clase. Lo que promete ser una salida animada se complica cuando varios profesores empiezan a sufrir un extraño malestar gástrico. La coincidencia resulta demasiado rara para que el grupo la tome como un simple accidente, así que los chicos convierten el viaje en una investigación improvisada. Entre habitaciones compartidas, normas escolares, despistes de adultos y la energía caótica propia de una excursión, los protagonistas siguen pistas, observan conductas y tratan de averiguar qué hay detrás de la supuesta epidemia. El libro mezcla humor, intriga ligera y una mirada muy atenta al ingenio infantil para construir un caso accesible, dinámico y muy legible.",
+        "aboutThisBook": "Es una novela breve de misterio juvenil que combina la estructura clásica de una investigación con el tono desenfadado de una aventura escolar. Joachim Friedrich sitúa la intriga en un entorno reconocible para lectores jóvenes: una excursión, un grupo de amigos y un problema que los adultos no logran entender a tiempo. La serie Cuatro amigos y medio se apoya en esa fórmula de detectives infantiles capaces de ver conexiones que los mayores pasan por alto.",
+        "forWhom": "Para lectores de 10 a 13 años, especialmente si disfrutan de misterios con humor, pandillas y ritmo rápido.",
+        "whyItMatters": "Funciona bien como puerta de entrada a la narrativa detectivesca para lectores jóvenes. Además de entretener, muestra cómo la observación, la cooperación y la curiosidad pueden convertir una situación cotidiana en una investigación con sentido.",
+        "editorialIntro": "No todos los misterios ocurren en mansiones oscuras ni empiezan con un crimen. A veces basta una excursión escolar, varios profesores enfermos a la vez y un grupo de chicos que se niega a aceptar explicaciones fáciles. Joachim Friedrich convierte ese escenario en una aventura detectivesca ágil, humorística y muy bien calibrada para lectores jóvenes.",
+        "readingLevel": "Lectura media-baja: frases claras, abundante acción y una intriga fácil de seguir incluso para lectores en consolidación.",
+        "whyReadToday": "Sigue siendo una opción eficaz para despertar el gusto por el misterio en edades tempranas sin recurrir a tramas sombrías ni excesivamente complejas.",
+        "studyNotes": [
+          "La excursión escolar funciona como espacio cerrado: concentra personajes, sospechas y pistas en un mismo escenario.",
+          "El humor rebaja la tensión y hace que la investigación resulte adecuada para lectores jóvenes sin perder interés narrativo.",
+          "La novela insiste en la observación de detalles concretos como motor del razonamiento detectivesco.",
+          "La serie presenta a los niños como agentes activos, capaces de interpretar mejor que los adultos ciertas anomalías del entorno."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: una excursión que se tuerce",
+            "summary": "La salida a una fortaleza medieval reúne a alumnos, profesores y vigilancias más bien relajadas. El ambiente de viaje y vacaciones introduce un tono ligero, pero también prepara el terreno para que cualquier incidente se vuelva sospechoso."
+          },
+          {
+            "title": "Nudo: la extraña cadena de enfermedades",
+            "summary": "Cuando varios profesores empiezan a encontrarse mal, los protagonistas perciben que la coincidencia es demasiado perfecta. A partir de ahí observan rutinas, reacciones y pequeñas incongruencias para averiguar si hay una causa oculta."
+          },
+          {
+            "title": "Investigación en grupo",
+            "summary": "Charly y sus amigos ponen en común lo que cada uno ve, reparten su atención y avanzan gracias a la cooperación. La novela muestra cómo una pandilla complementa habilidades más que por genialidad individual."
+          },
+          {
+            "title": "Desenlace: explicación del caso",
+            "summary": "La intriga se resuelve cuando las pistas dispersas encajan y la supuesta epidemia deja de parecer un misterio médico. El final premia la curiosidad y el pensamiento práctico de los protagonistas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un misterio pensado para primeros lectores de intriga",
+            "content": "El libro simplifica la lógica detectivesca sin volverla trivial. Hay una anomalía clara, sospechas manejables y una resolución comprensible, de modo que el lector puede seguir el caso y sentirse parte de la pesquisa."
+          },
+          {
+            "heading": "La excursión como laboratorio narrativo",
+            "content": "El viaje escolar crea una comunidad temporal con reglas distintas a las del aula. Esa atmósfera favorece el desorden, la vigilancia imperfecta y la aparición de incidentes, elementos ideales para una trama de misterio infantil."
+          },
+          {
+            "heading": "Humor y camaradería",
+            "content": "La novela no busca el suspense oscuro, sino la diversión asociada a una pandilla que investiga. El tono amistoso y las situaciones cómicas sostienen la lectura y evitan que la tensión se vuelva opresiva."
+          },
+          {
+            "heading": "Adultos desorientados, niños atentos",
+            "content": "Como en buena parte de la literatura detectivesca juvenil, los adultos aparecen limitados por sus hábitos o por su exceso de confianza. Los niños, en cambio, destacan por mirar donde nadie más mira."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer otros libros de la serie antes?",
+            "answer": "No. Se puede leer de forma independiente, aunque conocer al grupo ayuda a captar mejor la dinámica entre los personajes."
+          },
+          {
+            "question": "¿Da miedo o es más bien una aventura?",
+            "answer": "Predomina claramente la aventura detectivesca con humor. La intriga existe, pero está pensada para lectores jóvenes y no busca asustar."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutarlo más?",
+            "answer": "Quien busque misterios ágiles, pandillas de amigos y casos resolubles a partir de pistas concretas."
+          },
+          {
+            "question": "¿Puede usarse en el aula?",
+            "answer": "Sí. Su extensión, claridad y estructura de investigación la hacen útil para trabajar comprensión lectora, hipótesis y secuenciación narrativa."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Casa del Libro: ficha y metadatos de la edición",
+            "url": "https://www.casadellibro.com/libro-el-caso-de-la-misteriosa-epidemia-del-profesor/9788423668359/988096"
+          },
+          {
+            "label": "Google Libros: referencia y sinopsis breve",
+            "url": "https://books.google.com/books/about/El_caso_de_la_misteriosa_epidemia_del_pr.html?hl=es&id=H6wSAAAACAAJ"
+          },
+          {
+            "label": "Open Library: registro bibliográfico de la edición Edebé",
+            "url": "https://openlibrary.org/books/OL26474274M/El_caso_de_la_misteriosa_epidemia_del_profesor"
+          },
+          {
+            "label": "Biblioteca Tajamar: nota de lectura sobre la novela",
+            "url": "https://bibliotecatajamar.blogspot.com/2022/01/el-caso-de-la-misteriosa-epidemia-del.html"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-rastro-brillante-del-caracol-de-gemma-lienas",
+      "title": "El Rastro Brillante Del Caracol",
+      "authorName": "Gemma Lienas",
+      "authorSlug": "gemma-lienas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 15,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El rastro brillante del caracol",
+        "authorName": "Gemma Lienas",
+        "authorSlug": "gemma-lienas",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "thriller",
+          "realismo social"
+        ],
+        "year": 2014,
+        "pages": 352,
+        "summary": "Sam tiene dieciséis años, síndrome de Asperger y una inteligencia extraordinaria para los ordenadores, los patrones y la lógica. Su vida cambia cuando conoce a Martina, una chica menor que él, vital y deportista, por la que siente una atracción que no sabe gestionar con naturalidad. Mientras intenta comprender sus propios sentimientos y salir de la rigidez con la que se mueve en el mundo, Sam descubre que Martina está siendo manipulada en internet por un adulto que se hace pasar por adolescente. La novela entrelaza aprendizaje emocional, peligro digital e investigación, y convierte la mirada singular de Sam en la gran fuerza del relato. Gemma Lienas construye así una historia de tensión creciente que combina empatía, denuncia y suspense sin perder claridad narrativa.",
+        "aboutThisBook": "Es una novela juvenil contemporánea que une dos hilos muy potentes: la representación de un protagonista con Asperger y una trama sobre grooming y seguridad en la red. Lienas no plantea a Sam como un mero caso clínico, sino como un personaje complejo, lúcido y vulnerable. El resultado es una historia de iniciación afectiva con pulso de thriller y clara vocación de diálogo con lectores adolescentes.",
+        "forWhom": "Para adolescentes y mediadores de lectura interesados en novelas realistas con tensión narrativa, conflicto emocional y temas actuales ligados a internet.",
+        "whyItMatters": "Sigue siendo relevante porque aborda con seriedad la neurodiversidad y los riesgos de la exposición digital sin caer en el didactismo tosco. La novela muestra cómo la vulnerabilidad online puede afectar a cualquiera y, al mismo tiempo, ofrece una voz protagonista poco habitual en la ficción juvenil generalista.",
+        "editorialIntro": "Gemma Lienas cruza en esta novela dos asuntos decisivos para la adolescencia contemporánea: la dificultad de entender al otro y el peligro de confiar demasiado en lo que ocurre en pantalla. El resultado no es un tratado, sino un relato ágil, emotivo y tenso, donde la singularidad de Sam ilumina de otro modo las relaciones, el deseo y el miedo.",
+        "readingLevel": "Lectura media: el estilo es claro, pero los temas emocionales y el suspense moral exigen cierta madurez lectora adolescente.",
+        "whyReadToday": "Porque sigue ofreciendo una conversación muy útil y actual sobre identidad, consentimiento, acoso digital y modos diversos de percibir el mundo.",
+        "studyNotes": [
+          "La voz de Sam organiza la novela desde una percepción precisa, lógica y a veces desajustada respecto a los códigos sociales dominantes.",
+          "La trama combina romance adolescente, thriller y novela de aprendizaje sin perder cohesión.",
+          "El libro funciona como herramienta para hablar de grooming, suplantación de identidad y prevención digital.",
+          "La obra propone una representación de la neurodiversidad centrada en la experiencia cotidiana y no solo en el diagnóstico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: la voz de Sam",
+            "summary": "La novela presenta a Sam desde dentro: su relación con la tecnología, su modo de clasificar el mundo y las dificultades que encuentra para interpretar dobles sentidos, gestos e intenciones ajenas."
+          },
+          {
+            "title": "Encuentro y deseo",
+            "summary": "La aparición de Martina altera la rutina de Sam. El interés amoroso lo obliga a salir de sus esquemas habituales y a ensayar formas nuevas de acercamiento, con ayuda de su entorno más cercano."
+          },
+          {
+            "title": "La amenaza digital",
+            "summary": "Mientras Martina se relaciona en redes con alguien que cree de su edad, el lector percibe el peligro antes de que ella lo entienda del todo. La intriga se intensifica a medida que la manipulación avanza."
+          },
+          {
+            "title": "Resolución y aprendizaje",
+            "summary": "La tensión desemboca en una confrontación con consecuencias reales. Más allá del suspense, el cierre subraya el crecimiento de Sam y la necesidad de leer críticamente el mundo digital."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Neurodiversidad narrada desde dentro",
+            "content": "Uno de los mayores aciertos del libro es que Sam no aparece definido solo por una etiqueta clínica. Su punto de vista modela la sintaxis del relato, la percepción del riesgo y la lectura de las emociones, dando densidad literaria a su experiencia."
+          },
+          {
+            "heading": "Thriller de proximidad",
+            "content": "La amenaza no procede de un universo fantástico, sino de un entorno cotidiano: chats, redes, conversaciones aparentemente inofensivas. Esa cercanía hace que el suspense sea especialmente eficaz para lectores adolescentes."
+          },
+          {
+            "heading": "Educación afectiva y educación digital",
+            "content": "La novela vincula el despertar sentimental con la necesidad de aprender límites, señales de manipulación y confianza crítica. No separa la emoción del peligro tecnológico, sino que muestra cómo ambos planos se entrecruzan."
+          },
+          {
+            "heading": "Un realismo con voluntad preventiva",
+            "content": "Lienas introduce información útil sobre conductas de riesgo sin convertir la novela en un manual. La dimensión pedagógica está integrada en la acción y en las decisiones de los personajes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela sobre Asperger o sobre acoso en internet?",
+            "answer": "Sobre ambas cosas. La fuerza del libro está precisamente en cómo une la mirada de Sam con una trama de grooming y peligro digital."
+          },
+          {
+            "question": "¿Tiene un tono moralizante?",
+            "answer": "No de forma pesada. Hay una intención formativa clara, pero la autora la integra en una historia con suspense y conflicto emocional genuino."
+          },
+          {
+            "question": "¿Para qué edad resulta más adecuada?",
+            "answer": "Funciona muy bien desde los 13 o 14 años, cuando ya pueden leerse con provecho sus implicaciones afectivas y tecnológicas."
+          },
+          {
+            "question": "¿Puede leerse en contextos educativos?",
+            "answer": "Sí. Es especialmente valiosa para trabajar convivencia, seguridad digital, empatía y representación de la diversidad neurológica."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Planeta de Libros Chile: ficha editorial",
+            "url": "https://www.planetadelibros.cl/libro-el-rastro-brillante-del-caracol/259339"
+          },
+          {
+            "label": "Casa del Libro: edición y metadatos",
+            "url": "https://www.casadellibro.com/libro-el-rastro-brillante-del-caracol/9788408131991/2363135"
+          },
+          {
+            "label": "Google Libros: sinopsis de la obra",
+            "url": "https://books.google.com/books/about/El_rastro_brillante_del_caracol.html?hl=es&id=Tut_BAAAQBAJ"
+          },
+          {
+            "label": "El Templo de las Mil Puertas: reseña crítica",
+            "url": "https://www.eltemplodelasmilpuertas.com/critica/rastro-brillante-caracol/933/"
+          },
+          {
+            "label": "Gretel: recomendación y contextualización",
+            "url": "https://www.gretel.cat/recomendaciones-lij/el-rastre-brillant-del-cargol/?lang=es"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "horda-de-ann-aguirre",
+      "title": "Horda",
+      "authorName": "Ann Aguirre",
+      "authorSlug": "ann-aguirre",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 15,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Horda",
+        "authorName": "Ann Aguirre",
+        "authorSlug": "ann-aguirre",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "ciencia ficcion juvenil",
+          "distopia",
+          "aventuras",
+          "supervivencia"
+        ],
+        "year": 2017,
+        "pages": 524,
+        "summary": "Horda cierra la trilogía Enclave con una comunidad cercada, una protagonista obligada a madurar a través de la violencia y una amenaza que ya no puede contenerse con pactos precarios. Trébol, que en libros anteriores abandonó el subsuelo y encontró un refugio incierto en la superficie, debe afrontar ahora el asedio de los Engendros sobre Salvación. La novela combina acción continua, estrategia defensiva, tensiones afectivas y decisiones morales propias de una distopía de supervivencia. Ann Aguirre no limita el conflicto al combate físico: también explora el coste emocional de liderar, pertenecer a un grupo y seguir siendo humana cuando el entorno empuja a vivir a la defensiva. Es un final de saga expansivo, orientado tanto al cierre épico como a la transformación interior de su protagonista.",
+        "aboutThisBook": "Se trata de la tercera y última entrega de una saga juvenil distópica muy apoyada en la acción, pero con una base emocional reconocible. El mundo de la trilogía enfrenta a sus personajes con comunidades frágiles, códigos de supervivencia y criaturas que encarnan el colapso de la civilización. En Horda, esos elementos confluyen en un desenlace donde importa tanto resistir el ataque como decidir qué clase de sociedad merece ser defendida.",
+        "forWhom": "Para lectores juveniles y adultos que disfrutan de sagas posapocalípticas con mucho ritmo, combates, vínculos intensos y cierre de gran escala.",
+        "whyItMatters": "Dentro de la ficción juvenil distópica, Horda destaca por llevar la supervivencia a una dimensión comunitaria: no basta con salvarse uno mismo, hay que sostener un mundo compartido. Su interés está en la mezcla de aventura, ética del grupo y desgaste emocional del liderazgo.",
+        "editorialIntro": "El final de una trilogía de supervivencia no se juega solo en el campo de batalla, sino en la pregunta por aquello que todavía merece ser protegido. En Horda, Ann Aguirre lleva a Trébol y a los habitantes de Salvación a un límite extremo: el asedio constante de los Engendros. La novela responde con acción, tensión y un cierre que mide el precio de seguir adelante.",
+        "readingLevel": "Lectura media: prosa accesible, pero con extensión considerable, continuidad de saga y abundantes escenas de combate y tensión sostenida.",
+        "whyReadToday": "Porque sigue funcionando como distopía de resistencia colectiva y como cierre sólido para lectores que buscan acción con implicaciones emocionales reales.",
+        "studyNotes": [
+          "El libro está diseñado como culminación de saga: muchas escenas tienen sentido pleno si se leen a la luz de los dos volúmenes previos.",
+          "La defensa de Salvación desplaza el foco desde la mera huida hacia la organización comunitaria y la responsabilidad compartida.",
+          "Los Engendros funcionan como amenaza física, pero también como recordatorio del derrumbe civilizatorio del mundo narrado.",
+          "La evolución de Trébol se mide tanto en términos de coraje como de capacidad para decidir por otros sin deshumanizarse."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: Salvación sitiada",
+            "summary": "La novela arranca con la sensación de cerco y desgaste. La comunidad que parecía ofrecer estabilidad descubre que su margen de seguridad se ha reducido al mínimo y que la amenaza exterior ya es constante."
+          },
+          {
+            "title": "Segunda parte: preparar la resistencia",
+            "summary": "Ante el avance de los Engendros, los personajes deben organizar recursos, alianzas y decisiones defensivas. El conflicto deja de ser individual y pasa a ser una prueba de cohesión colectiva."
+          },
+          {
+            "title": "Tercera parte: combate y pérdidas",
+            "summary": "La acción escala en intensidad y obliga a asumir riesgos, sacrificios y consecuencias. Aguirre convierte la lucha por sobrevivir en una experiencia emocionalmente costosa, no solo espectacular."
+          },
+          {
+            "title": "Cierre: qué significa salvar un hogar",
+            "summary": "El desenlace busca cerrar la saga tanto en el plano militar como en el moral. Más que una simple victoria o derrota, importa la redefinición de comunidad que queda después del asedio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un final de saga centrado en la comunidad",
+            "content": "Horda se distingue de otras distopías juveniles porque desplaza la lógica del héroe solitario hacia la defensa de un colectivo. La pregunta central no es solo quién sobrevive, sino cómo se preserva una forma de vida común."
+          },
+          {
+            "heading": "Acción con coste emocional",
+            "content": "La novela ofrece combates, urgencia y peligro continuo, pero no vacía de consecuencias la violencia. Cada decisión repercute en vínculos, lealtades y en la identidad moral de los personajes."
+          },
+          {
+            "heading": "La protagonista ante el liderazgo",
+            "content": "Trébol ya no puede limitarse a reaccionar. En este volumen debe evaluar riesgos, cuidar a los suyos y aceptar que la protección del grupo exige elecciones difíciles. Ese paso de la supervivencia al liderazgo sostiene buena parte del interés del libro."
+          },
+          {
+            "heading": "Distopía juvenil después del boom",
+            "content": "Leída hoy, la novela muestra una versión eficaz de la distopía juvenil basada menos en grandes sistemas políticos explícitos y más en la fragilidad material de las comunidades posapocalípticas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Puede leerse sin haber leído Enclave y el volumen intermedio?",
+            "answer": "Se puede seguir la acción básica, pero pierde mucho sentido emocional. Es claramente un cierre de saga."
+          },
+          {
+            "question": "¿Predomina más la acción o el desarrollo de personajes?",
+            "answer": "La acción ocupa un lugar central, aunque la novela intenta que el combate tenga consecuencias afectivas y morales para los personajes principales."
+          },
+          {
+            "question": "¿Qué clase de distopía propone?",
+            "answer": "Una distopía posapocalíptica de supervivencia, con comunidades vulnerables, escasez y criaturas amenazantes en lugar de un sistema político hiperdesarrollado."
+          },
+          {
+            "question": "¿Es adecuada para lectores jóvenes sensibles a la violencia?",
+            "answer": "Conviene tenerlo en cuenta: aunque la prosa es accesible, la novela contiene asedio, combates y una presión constante propia del género posapocalíptico."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Editorial Océano: ficha editorial de la edición en español",
+            "url": "https://oceano.mx/ficha-libro.aspx?id=15838"
+          },
+          {
+            "label": "Google Libros: metadatos y sinopsis",
+            "url": "https://books.google.com/books/about/Horda.html?hl=es&id=4qMoDwAAQBAJ"
+          },
+          {
+            "label": "Ann Aguirre: página de autora para Horde",
+            "url": "https://www.annaguirre.com/books/razorland/horde"
+          },
+          {
+            "label": "Goodreads: ficha de Horde (Razorland, #3)",
+            "url": "https://www.goodreads.com/book/show/10596724-horde"
+          },
+          {
+            "label": "Goodreads: orden de la serie Razorland",
+            "url": "https://www.goodreads.com/series/53296-razorland"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-piedra-oscura-de-alberto-conejero",
+      "title": "La Piedra Oscura",
+      "authorName": "Alberto Conejero",
+      "authorSlug": "alberto-conejero",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 15,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La piedra oscura",
+        "authorName": "Alberto Conejero",
+        "authorSlug": "alberto-conejero",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "drama",
+          "teatro contemporáneo",
+          "memoria histórica"
+        ],
+        "year": 2013,
+        "pages": 116,
+        "summary": "Esta pieza teatral encierra a dos hombres en una habitación de un hospital militar cercano a Santander, durante los últimos compases de la Guerra Civil. Uno es Rafael Rodríguez Rapún, herido y condenado casi de antemano por su vinculación con el bando republicano y por su cercanía a Federico García Lorca; el otro, Sebastián, un joven soldado del ejército sublevado que debe vigilarlo durante la noche. Lo que empieza como una relación de recelo y poder se transforma en una conversación cargada de miedo, culpa, ternura y memoria. En esa espera del amanecer, Conejero convierte la custodia de unos papeles y unos manuscritos en un conflicto moral de mayor alcance: qué hacer con lo que queda de los vencidos, cómo nombrar a los desaparecidos y si la compasión puede abrirse paso en medio de la violencia.",
+        "aboutThisBook": "La piedra oscura es una de las obras teatrales españolas más importantes de la década de 2010. Inspirada en la vida de Rafael Rodríguez Rapún, secretario de La Barraca y compañero de Lorca, trabaja con materiales históricos sin convertirse en teatro documental estricto. Su fuerza reside en la concentración dramática: una sola noche, dos personajes, una cuenta atrás y una conversación que va dejando al descubierto una verdad íntima y política. La escritura de Conejero combina tensión escénica, lirismo y reflexión sobre la memoria.",
+        "forWhom": "Para lectores y espectadores interesados en teatro contemporáneo, memoria democrática, Lorca y dramas de cámara con gran densidad emocional.",
+        "whyItMatters": "Importa porque devuelve humanidad a una zona silenciada de la Guerra Civil y muestra cómo la memoria no es un archivo muerto, sino una demanda de justicia, duelo y transmisión.",
+        "editorialIntro": "Hay libros que piden ser leídos como documentos sensibles de una época, y otros que además consiguen convertir esa materia histórica en emoción viva. La piedra oscura pertenece a ese raro grupo. Con una economía de medios admirable, Alberto Conejero levanta un duelo verbal donde el pasado español, la herida lorquiana y la compasión entre enemigos se entrecruzan sin simplificaciones.",
+        "readingLevel": "Accesible para bachillerato y universidad, aunque su densidad simbólica y su trasfondo histórico se aprovechan mejor con alguna referencia previa sobre la Guerra Civil y Federico García Lorca.",
+        "whyReadToday": "Sigue siendo actual porque plantea qué hacemos con los nombres borrados, con los afectos perseguidos y con las historias que un país prefiere no mirar de frente.",
+        "studyNotes": [
+          "La obra se inspira en Rafael Rodríguez Rapún, figura vinculada a La Barraca y a Federico García Lorca.",
+          "El espacio cerrado intensifica la sensación de cuenta atrás y convierte el diálogo en acción principal.",
+          "Memoria, redención, violencia y transmisión de los vencidos son ejes centrales del texto.",
+          "El manuscrito y los documentos funcionan como símbolo material de la herencia cultural amenazada.",
+          "Sebastián no es un simple antagonista: la obra explora su vacilación moral y su aprendizaje afectivo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La habitación y la vigilancia",
+            "summary": "La obra sitúa al lector en un hospital militar improvisado donde Rafael, herido y preso, queda bajo la custodia de Sebastián. El espacio cerrado y la inminencia del amanecer establecen desde el principio una tensión física y moral: uno depende del otro, pero ambos representan mundos enfrentados."
+          },
+          {
+            "title": "La noche de las confesiones",
+            "summary": "A medida que avanza la conversación, Rafael revela fragmentos de su pasado, de su vínculo con Lorca y del valor de los papeles que quiere salvar. Sebastián, por su parte, deja ver sus grietas, su juventud y la incomodidad que le produce cumplir obedientemente con una violencia heredada."
+          },
+          {
+            "title": "La memoria como encargo",
+            "summary": "La obra desemboca en una decisión sobre qué puede preservarse cuando todo parece perdido. El manuscrito deja de ser un simple objeto y se vuelve una obligación ética: transmitir una vida, un amor y una parte de la cultura amenazada por la represión."
+          },
+          {
+            "title": "El amanecer y la pérdida",
+            "summary": "La cercanía del final transforma la intimidad nacida durante la noche en tragedia. Más que resolver el conflicto con una salida fácil, Conejero subraya el carácter frágil de la compasión y el precio que exige recordar a los borrados por la Historia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria histórica sin tesis simplista",
+            "content": "La pieza habla de la Guerra Civil y de sus víctimas, pero evita el esquema del discurso cerrado. La memoria aparece como experiencia humana concreta: cuerpos heridos, nombres perseguidos, papeles que pueden perderse y palabras dichas demasiado tarde. Esa concreción le da fuerza ética a la obra."
+          },
+          {
+            "heading": "Lorca como ausencia activa",
+            "content": "Federico García Lorca no entra en escena, pero su nombre ordena el sentido del drama. Es una presencia ausente que articula deseo, cultura, pérdida y persecución. Gracias a esa estrategia, Conejero evita el biografismo directo y convierte a Lorca en un símbolo vivo de lo desaparecido."
+          },
+          {
+            "heading": "El duelo verbal como forma dramática",
+            "content": "La obra pertenece a la tradición de los dramas de cámara donde casi todo ocurre a través de la palabra. Sin embargo, el diálogo no es explicación, sino combate, tanteo, seducción moral y descubrimiento mutuo. Cada réplica modifica la relación de poder entre los personajes."
+          },
+          {
+            "heading": "Redención, no absolución",
+            "content": "Uno de los aciertos del texto es distinguir entre comprender a un personaje y absolverlo. Sebastián es presentado con complejidad, pero la obra no borra el marco de violencia del que forma parte. La posible redención nace del gesto humano, no del olvido de la responsabilidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La obra está basada en hechos reales?",
+            "answer": "Sí. Está inspirada en la figura histórica de Rafael Rodríguez Rapún, secretario de La Barraca y cercano a Federico García Lorca, aunque el desarrollo dramático es una recreación literaria de Alberto Conejero."
+          },
+          {
+            "question": "¿Es una novela o una obra de teatro?",
+            "answer": "Es una obra de teatro contemporáneo, construida casi por completo como un intenso diálogo en un espacio cerrado."
+          },
+          {
+            "question": "¿Hace falta conocer la biografía de Lorca para entenderla?",
+            "answer": "No es imprescindible, pero conocer el contexto de la Guerra Civil, La Barraca y el asesinato de Lorca enriquece mucho la lectura."
+          },
+          {
+            "question": "¿Cuál es su tema principal?",
+            "answer": "La memoria como deber de justicia, unida a la fragilidad de los vencidos y a la posibilidad de compasión incluso entre enemigos."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Ediciones Antígona - ficha editorial de La piedra oscura",
+            "url": "https://edicionesantigona.com/teatro/75-la-piedra-oscura-alberto-conejero-9788415906070.html"
+          },
+          {
+            "label": "Contexto Teatral - sinopsis y datos de la obra",
+            "url": "https://www.contextoteatral.es/lapiedraoscura.html"
+          },
+          {
+            "label": "Instituto Cervantes de Roma - actividad sobre La piedra oscura",
+            "url": "https://cultura.cervantes.es/roma/es/la-piedra-oscura/139167"
+          },
+          {
+            "label": "Casa del Libro - datos de edición",
+            "url": "https://www.casadellibro.com/libro-la-piedra-oscura/9788415906070/2177294"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-vida-sale-al-encuentro-de-jose-luis-martin-vigil",
+      "title": "La Vida Sale Al Encuentro",
+      "authorName": "Jose Luis Martin Vigil",
+      "authorSlug": "jose-luis-martin-vigil",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 15,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La vida sale al encuentro",
+        "authorName": "José Luis Martín Vigil",
+        "authorSlug": "jose-luis-martin-vigil",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela de formación",
+          "narrativa española",
+          "clásico juvenil"
+        ],
+        "year": 1955,
+        "pages": 360,
+        "summary": "La novela sigue la voz de un muchacho de quince años que cuenta su paso por una edad decisiva: la adolescencia. Desde la familia hasta el internado, desde el grupo de amigos hasta los primeros amores y decepciones, el protagonista observa cómo la vida deja de ser una promesa abstracta para convertirse en una experiencia concreta, a veces luminosa y a veces áspera. José Luis Martín Vigil construye un relato de crecimiento donde importan tanto los pequeños episodios cotidianos como las preguntas de fondo: la amistad verdadera, la lealtad, la educación sentimental, la fe, el deber y la necesidad de orientar el carácter. La novela avanza como un aprendizaje moral y afectivo, más interesado en formar una sensibilidad que en forzar grandes peripecias externas.",
+        "aboutThisBook": "La vida sale al encuentro fue una novela muy leída por varias generaciones de jóvenes españoles. Su prestigio no depende de una intriga espectacular, sino de la cercanía de su voz narrativa y de la seriedad con la que trata la formación del adolescente. Martín Vigil recoge experiencias de familia, colegio, amistad y despertar amoroso para componer un libro de iniciación que combina idealismo, observación de costumbres y una clara intención educativa. Leída hoy, permite entender un modelo de novela juvenil española de fuerte impronta ética y emocional.",
+        "forWhom": "Para lectores jóvenes, mediadores de lectura y adultos que busquen una novela clásica de adolescencia, educación sentimental y valores vividos sin cinismo.",
+        "whyItMatters": "Importa porque durante décadas ayudó a muchos lectores a poner nombre a la amistad, la vocación, la pérdida de la inocencia y la necesidad de crecer con algún horizonte moral.",
+        "editorialIntro": "No todas las novelas juveniles sobreviven al paso del tiempo. Algunas quedan fijadas a una época; otras conservan una verdad afectiva capaz de seguir interpelando. La vida sale al encuentro pertenece a esta segunda clase. Su tono puede remitir a otra España, pero la incertidumbre adolescente que retrata sigue resultando reconocible y, por momentos, conmovedora.",
+        "readingLevel": "Lectura clara y fluida para secundaria alta y bachillerato. Su mayor dificultad no está en el estilo, sino en el marco cultural y moral de la España de mediados del siglo XX.",
+        "whyReadToday": "Porque muestra una adolescencia menos cínica y más reflexiva, y permite comparar preguntas permanentes sobre crecer, amar y elegir con un contexto histórico distinto del actual.",
+        "studyNotes": [
+          "Es una novela de aprendizaje narrada desde la perspectiva de un adolescente de quince años.",
+          "La familia, el internado y el grupo de amigos forman los tres grandes espacios de socialización del protagonista.",
+          "El libro concede mucho peso a la educación sentimental y moral, no solo a la acción externa.",
+          "Su éxito histórico la convirtió en una referencia de la novela juvenil española del siglo XX.",
+          "Conviene leerla teniendo en cuenta el contexto cultural y religioso en que fue escrita."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primeros impulsos de adolescencia",
+            "summary": "El protagonista presenta su mundo inmediato y deja ver el desconcierto propio de los quince años. La vida familiar, las expectativas de los mayores y las primeras intuiciones sentimentales abren un periodo de cambios que ya no puede vivirse como simple infancia."
+          },
+          {
+            "title": "Colegio, amistades y pruebas de carácter",
+            "summary": "El internado y el círculo de compañeros se convierten en laboratorio moral. Allí aparecen la lealtad, la rivalidad, el deseo de pertenecer y las decisiones que distinguen la mera simpatía de la amistad verdadera."
+          },
+          {
+            "title": "Afectos, dudas y despertar interior",
+            "summary": "La novela profundiza en el descubrimiento del amor, la vergüenza, la ilusión y la herida. El protagonista empieza a comprender que crecer implica aceptar contradicciones y revisar la imagen que tenía de sí mismo."
+          },
+          {
+            "title": "Madurar sin perder la esperanza",
+            "summary": "En su tramo final, el relato no promete una madurez perfecta, pero sí una orientación. El muchacho entiende que la vida sale al encuentro cuando uno aprende a responder con responsabilidad, generosidad y alguna fidelidad íntima a lo mejor de sí mismo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una voz adolescente convincente",
+            "content": "Buena parte del atractivo del libro reside en su tono confesional y cercano. La narración reproduce la mezcla de entusiasmo, torpeza, vanidad y necesidad de afecto propia de la adolescencia, lo que permite que el lector acompañe el crecimiento interior del protagonista sin distancia excesiva."
+          },
+          {
+            "heading": "Educación sentimental y moral",
+            "content": "La novela no separa el aprendizaje afectivo del aprendizaje ético. Amar, tener amigos, obedecer o rebelarse no son gestos aislados, sino experiencias que van dando forma al carácter. Ese planteamiento explica tanto su valor formativo como el debate contemporáneo que puede suscitar."
+          },
+          {
+            "heading": "Retrato generacional de una época",
+            "content": "Más allá de la peripecia individual, el libro funciona como testimonio de una forma de vivir la juventud en la España de mediados del siglo XX. La familia, el colegio y la religión aparecen como instituciones centrales, y su peso ayuda a leer la novela también como documento cultural."
+          },
+          {
+            "heading": "Idealismo y vigencia",
+            "content": "Su idealismo puede parecer hoy poco habitual, pero precisamente ahí reside parte de su interés. Frente a ficciones juveniles dominadas por el sarcasmo o el desencanto, Martín Vigil defiende la posibilidad de crecer con aspiraciones nobles, aunque no oculte tropiezos ni contradicciones."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela juvenil o para adultos?",
+            "answer": "Es una novela juvenil clásica, pero muchos adultos la leen también como una narración de formación y como testimonio cultural de una época."
+          },
+          {
+            "question": "¿Tiene un argumento de grandes acontecimientos?",
+            "answer": "No especialmente. Su fuerza está en el proceso interior del protagonista y en cómo los hechos cotidianos van modelando su visión de la vida."
+          },
+          {
+            "question": "¿Por qué fue tan leída durante décadas?",
+            "answer": "Porque ofrecía a muchos lectores jóvenes una voz cercana, un espejo emocional reconocible y un horizonte moral claro en medio de la confusión adolescente."
+          },
+          {
+            "question": "¿Puede leerse bien hoy?",
+            "answer": "Sí, aunque conviene hacerlo con atención a su contexto histórico y a su sensibilidad religiosa y educativa, distinta de la actual."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Lecturalia - ficha y sinopsis de La vida sale al encuentro",
+            "url": "https://www.lecturalia.com/libro/21573/la-vida-sale-al-encuentro"
+          },
+          {
+            "label": "Catholic.net - reseña de Guillermo Urbizu sobre la novela",
+            "url": "https://es.catholic.net/op/articulos/41340/cat/906/la-vida-sale-al-encuentro-de-jose-luis-martin-vigil.html"
+          },
+          {
+            "label": "Casa del Libro - datos de edición y ficha del libro",
+            "url": "https://www.casadellibro.com/libro-la-vida-sale-al-encuentro/9788426109859/198353"
+          },
+          {
+            "label": "Enciclopedia de Oviedo - biografía de José Luis Martín Vigil",
+            "url": "https://el.tesorodeoviedo.es/index.php?title=Jos%C3%A9_Luis_Mart%C3%ADn_Vigil"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pipa-de-leopoldo-alas",
+      "title": "Pipa",
+      "authorName": "Leopoldo Alas",
+      "authorSlug": "leopoldo-alas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 15,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Pipá",
+        "authorName": "Leopoldo Alas «Clarín»",
+        "authorSlug": "leopoldo-alas-clarin",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "cuento",
+          "realismo",
+          "clásico español"
+        ],
+        "year": 1886,
+        "pages": 376,
+        "summary": "Pipá da título a una de las colecciones de cuentos más conocidas de Leopoldo Alas «Clarín». El volumen reúne relatos breves en los que el autor combina observación social, ironía, compasión y un agudo sentido trágico. El cuento titular, centrado en la breve y desdichada vida de un niño marginal, concentra buena parte de esa poética: la infancia aparece atravesada por la pobreza, la violencia y la indiferencia de un entorno incapaz de protegerla. A partir de ahí, el conjunto despliega escenas de costumbres, sátira moral y estudio de personajes donde Clarín examina hipocresías sociales, miserias íntimas y destellos de humanidad. Leído como libro, Pipá muestra a un cuentista en plena madurez, capaz de alternar crudeza, humor y profundidad ética en textos relativamente breves.",
+        "aboutThisBook": "Más que una sola historia, Pipá es una colección de ocho cuentos publicada en 1886 y organizada en torno al prestigio del relato que le da nombre. La edición moderna más difundida incorpora además estudio crítico y notas, lo que la vuelve especialmente útil para lectura académica. En estos cuentos Clarín confirma que no fue solo un gran novelista, sino una de las cimas del relato breve en español. Su mirada realista nunca es plana: observa la vida cotidiana con ironía, pero también con un fondo moral inquieto y una notable capacidad para la compasión. Por eso el libro admite una lectura literaria, histórica y ética.",
+        "forWhom": "Para lectores de clásicos, estudiantes de literatura española y quienes quieran entrar en Clarín por la vía breve del cuento antes de abordar La Regenta.",
+        "whyItMatters": "Importa porque resume, en formato breve, la mezcla clariniana de realismo, sátira social, tragedia moral y atención persistente a los desamparados, mostrando además la potencia del cuento dentro del canon español.",
+        "editorialIntro": "Pipá suele quedar a la sombra de La Regenta, pero basta leer unas páginas para advertir que Clarín encontró en el cuento un laboratorio excepcional. Aquí están su oído para las hablas, su ironía contra la solemnidad vacía y su sensibilidad para la injusticia social. El resultado no es una simple colección de piezas costumbristas, sino un mapa incisivo de la España de su tiempo.",
+        "readingLevel": "Adecuado para bachillerato y universidad. El léxico y algunos marcos sociales del siglo XIX exigen una lectura atenta, preferiblemente con edición anotada.",
+        "whyReadToday": "Porque su crítica de la hipocresía, su atención a los vulnerables y su dominio del cuento breve siguen dialogando con problemas morales muy reconocibles.",
+        "studyNotes": [
+          "Pipá es una colección de ocho cuentos publicada por Clarín en 1886, no solo el nombre de un relato aislado.",
+          "El cuento titular destaca por su visión trágica de la infancia desprotegida y marginal.",
+          "La ironía clariniana suele convivir con un trasfondo moral y compasivo, no con mero sarcasmo.",
+          "El volumen resulta clave para valorar a Clarín como cuentista, no únicamente como novelista.",
+          "Las ediciones de Cátedra añaden aparato crítico útil para contextualizar lengua, realismo y recepción."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El cuento titular: infancia y desamparo",
+            "summary": "El relato de Pipá presenta a un niño marcado por la marginalidad y por un destino prematuramente trágico. Clarín evita el sentimentalismo fácil y muestra cómo la pobreza, la brutalidad ambiental y la indiferencia social convierten una vida mínima en un símbolo perturbador."
+          },
+          {
+            "title": "Relatos de costumbres y sátira",
+            "summary": "Otros cuentos del volumen exploran ambientes reconocibles de la vida española decimonónica y desmontan, con humor e ironía, gestos de falsa respetabilidad, egoísmos cotidianos y pequeñas farsas sociales."
+          },
+          {
+            "title": "Figuras morales en conflicto",
+            "summary": "A lo largo del libro, Clarín construye personajes atrapados entre deseo, apariencia, culpa y autoengaño. La brevedad del cuento no reduce la complejidad; al contrario, la concentra en escenas de gran precisión psicológica."
+          },
+          {
+            "title": "Un libro de cuentos con unidad de mirada",
+            "summary": "Aunque cada pieza es autónoma, el conjunto mantiene coherencia por su tono crítico, su atención a lo vulnerable y su pregunta insistente por la responsabilidad moral en una sociedad desigual."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Clarín cuentista",
+            "content": "Pipá demuestra que Leopoldo Alas domina el relato breve con una eficacia distinta de la novela. Sus cuentos economizan medios, afinan la observación y alcanzan muy rápido una densidad ética y psicológica notable. No son ejercicios menores: son parte central de su proyecto literario."
+          },
+          {
+            "heading": "Infancia, marginación y tragedia",
+            "content": "El cuento titular convierte la vida infantil en lugar de exposición radical a la injusticia. La tragedia de Pipá no nace de un destino abstracto, sino de un medio social concreto que tolera la desprotección. Esa lectura social intensifica la emoción del relato."
+          },
+          {
+            "heading": "Ironía con fondo moral",
+            "content": "La ironía de Clarín no es un adorno estilístico ni un simple gesto burlón. Funciona como herramienta crítica para exponer hipocresías y discursos vacíos, pero siempre en tensión con una preocupación moral auténtica por el daño, el ridículo y la responsabilidad."
+          },
+          {
+            "heading": "Realismo y variedad tonal",
+            "content": "El libro alterna compasión, sátira, costumbrismo y momentos casi grotescos. Esa variedad tonal impide una lectura monótona y muestra que el realismo clariniano sabe incorporar contrastes muy vivos sin perder rigor en la observación."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Pipá es un cuento o un libro de cuentos?",
+            "answer": "Ambas cosas: Pipá es el cuento titular y también el título de la colección publicada por Clarín en 1886. En edición actual suele leerse como volumen de relatos."
+          },
+          {
+            "question": "¿Es una buena puerta de entrada a Clarín?",
+            "answer": "Sí. Permite conocer su estilo, su ironía y su profundidad moral en textos breves, antes de enfrentarse a la amplitud de La Regenta."
+          },
+          {
+            "question": "¿Predomina el tono triste?",
+            "answer": "Hay un claro fondo trágico, sobre todo en el cuento titular, pero el libro también contiene sátira, humor crítico y observación de costumbres."
+          },
+          {
+            "question": "¿Qué lo hace importante dentro del realismo español?",
+            "answer": "Su capacidad para unir precisión observadora, tensión moral e ironía social, mostrando que el cuento realista puede ser tan incisivo como la gran novela."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes - texto de Pipá",
+            "url": "https://www.cervantesvirtual.com/obra-visor/pipa--0/html/ff43f41c-82b1-11df-acc7-002185ce6064_3.html"
+          },
+          {
+            "label": "El Libro Total - ficha de Pipá",
+            "url": "https://www.ellibrototal.com/ltotal/ficha.jsp?idLibro=1267"
+          },
+          {
+            "label": "Casa del Libro - edición de Cátedra de Pipá",
+            "url": "https://www.casadellibro.com/libro-pipa-14-ed/9788437600666/297094"
+          },
+          {
+            "label": "Dialnet - artículo 'Pipá: Maniqueísmo, ironía y tragedia'",
+            "url": "https://dialnet.unirioja.es/descarga/articulo/143961.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-increible-caso-de-barnaby-brocket-de-john-boyne",
+      "title": "El Increible Caso De Barnaby Brocket",
+      "authorName": "John Boyne",
+      "authorSlug": "john-boyne",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 14,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El increíble caso de Barnaby Brocket",
+        "authorName": "John Boyne",
+        "authorSlug": "john-boyne",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "literatura infantil y juvenil",
+          "aventuras",
+          "fábula contemporánea"
+        ],
+        "year": 2012,
+        "pages": 256,
+        "summary": "Barnaby Brocket nace en Sídney dentro de una familia obsesionada con la normalidad. El problema, para sus padres, es que el niño no puede obedecer la gravedad: flota desde el primer día. Lo que podría entenderse como una maravilla se convierte en motivo de vergüenza doméstica, correcciones absurdas y rechazo. Cuando finalmente lo dejan ir, Barnaby inicia un viaje extraordinario por distintos lugares y conoce a personas que también viven fuera de la norma. Esa travesía le permite comprender que su rareza no es una falla, sino una manera singular de estar en el mundo. Boyne construye así una novela de aventuras con humor, ternura y una defensa clara de la diferencia frente al conformismo.",
+        "aboutThisBook": "Esta novela infantil y juvenil de John Boyne toma una premisa fantástica muy simple —un niño que flota— para convertirla en una historia sobre identidad, pertenencia y aceptación. El tono combina ironía, imaginación y emoción sin perder ligereza narrativa. Aunque está pensada para lectores jóvenes, el retrato de una familia que teme lo distinto también interpela a lectores adultos y permite conversar sobre crianza, exclusión y autoestima.",
+        "forWhom": "Para lectores juveniles, mediadores de lectura y adultos que busquen una fábula moderna sobre la diferencia, la presión familiar y el derecho a no encajar en modelos rígidos.",
+        "whyItMatters": "Importa porque convierte la extrañeza en una forma de dignidad. La novela trabaja, con recursos accesibles, temas como la exclusión, la vergüenza social y la necesidad de encontrar una comunidad donde lo singular no sea castigado.",
+        "editorialIntro": "Pocas novelas juveniles parten de una imagen tan poderosa como la de un niño suspendido en el aire dentro de una casa empeñada en parecer irreprochablemente normal. John Boyne aprovecha esa imagen para narrar una aventura luminosa y melancólica a la vez, donde cada episodio empuja al protagonista a entender que su diferencia no debe corregirse, sino asumirse.",
+        "readingLevel": "Accesible desde últimos cursos de primaria y secundaria inicial; lenguaje claro, estructura lineal y abundantes apoyos narrativos, aunque sus temas permiten una lectura simbólica más madura.",
+        "whyReadToday": "Sigue siendo pertinente porque habla de la presión por normalizar cuerpos, conductas y sensibilidades. Su defensa de la singularidad dialoga bien con debates actuales sobre inclusión y diversidad.",
+        "studyNotes": [
+          "La gravedad funciona como símbolo de la norma social: lo natural para Barnaby es precisamente lo que los demás consideran inaceptable.",
+          "La novela contrapone familia biológica y comunidad elegida, un motivo frecuente en la narrativa juvenil contemporánea.",
+          "El humor atenúa la dureza del rechazo inicial, pero no la oculta; por eso el libro admite una lectura crítica sobre la crianza y la vergüenza.",
+          "El viaje exterior de Barnaby equivale a un aprendizaje moral: deja de pedir permiso para existir como es."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Un nacimiento imposible",
+            "summary": "La familia Brocket descubre desde el parto que Barnaby desafía las leyes de la gravedad. Lo que debería despertar asombro produce incomodidad y miedo al ridículo."
+          },
+          {
+            "title": "Vivir atado a la normalidad",
+            "summary": "Durante su infancia, Barnaby crece sometido a intentos constantes de corrección. Sus padres buscan ocultar o controlar aquello que lo vuelve diferente, mientras él interioriza la idea de ser un problema."
+          },
+          {
+            "title": "El viaje por el aire y por el mundo",
+            "summary": "Cuando termina separado de su hogar, el protagonista entra en contacto con escenarios y personajes inesperados. Cada encuentro amplía su mirada y lo aleja de la lógica estrecha con la que fue educado."
+          },
+          {
+            "title": "Aceptar la propia rareza",
+            "summary": "La experiencia acumulada le permite a Barnaby entender que no necesita convertirse en otro para merecer afecto. El cierre afirma la diferencia como valor y no como defecto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La fantasía como alegoría social",
+            "content": "El elemento fantástico no sirve solo para maravillar, sino para hacer visible un mecanismo reconocible: la presión que ejerce una familia o una comunidad cuando alguien se desvía de lo esperado. Al exagerar la diferencia física de Barnaby, Boyne vuelve legible un conflicto cotidiano."
+          },
+          {
+            "heading": "Crítica de la normalidad",
+            "content": "Los Brocket no son villanos complejos, sino representantes de una idea rígida de respetabilidad. La novela muestra cómo la obsesión por lo normal puede convertirse en una forma de crueldad doméstica, especialmente cuando se impone sobre un niño."
+          },
+          {
+            "heading": "Aprendizaje, viaje y autodefinición",
+            "content": "La estructura responde al modelo clásico de la novela de formación: el protagonista sale de un entorno opresivo, conoce otras vidas y regresa con una comprensión más firme de sí mismo. El movimiento ascendente de Barnaby también simboliza una liberación interior."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro infantil o juvenil?",
+            "answer": "Funciona en ambos registros: su estilo y argumento son accesibles para lectores jóvenes, pero sus temas sobre exclusión y pertenencia sostienen una lectura juvenil e incluso adulta."
+          },
+          {
+            "question": "¿La historia es realista o fantástica?",
+            "answer": "Parte de un hecho abiertamente fantástico —un niño que flota—, pero lo utiliza para hablar de conflictos emocionales y sociales muy reales."
+          },
+          {
+            "question": "¿Cuál es el tema central de la novela?",
+            "answer": "La aceptación de la diferencia y la crítica a una idea de normalidad que convierte lo singular en motivo de vergüenza."
+          },
+          {
+            "question": "¿Se parece a otras obras de John Boyne?",
+            "answer": "Comparte con otras novelas del autor la mirada puesta en la infancia y en personajes sometidos a situaciones moralmente exigentes, aunque aquí predomina un tono más fabuloso y aventurero."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Google Books, edición Nube de Tinta",
+            "url": "https://books.google.com/books?id=HDhNudmvbQYC"
+          },
+          {
+            "label": "Penguin, ficha de la obra original",
+            "url": "https://www.penguin.co.uk/books/413401/the-terrible-thing-that-happened-to-barnaby-brocket-by-john-boyne/9780552573788"
+          },
+          {
+            "label": "Anaya Infantil y Juvenil, ficha en español",
+            "url": "https://www.anayainfantilyjuvenil.com/libro.php?id=3452"
+          },
+          {
+            "label": "Open Library, ficha de la obra original",
+            "url": "https://openlibrary.org/works/OL16810853W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-sociedad-de-la-nieve-de-pablo-vierci",
+      "title": "La Sociedad De La Nieve",
+      "authorName": "Pablo Vierci",
+      "authorSlug": "pablo-vierci",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 14,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La sociedad de la nieve",
+        "authorName": "Pablo Vierci",
+        "authorSlug": "pablo-vierci",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "testimonio",
+          "crónica",
+          "superación"
+        ],
+        "year": 2022,
+        "pages": 430,
+        "summary": "Pablo Vierci reconstruye la tragedia de los Andes a partir de la voz coral de los supervivientes del vuelo uruguayo que cayó en 1972. El libro no se limita a repetir un episodio conocido: intenta comprender cómo se organizó una comunidad mínima en condiciones extremas, qué decisiones éticas y materiales hicieron posible la supervivencia y cómo esa experiencia siguió actuando durante décadas en la vida de quienes volvieron. La narración combina investigación periodística, memoria y testimonio directo para mostrar no solo el accidente, el hambre, el frío y la expedición final, sino también la formación de un vínculo colectivo que dio sentido al sufrimiento. El resultado es un relato duro, sobrio y profundamente humano.",
+        "aboutThisBook": "Más que una simple crónica de supervivencia, este libro propone una interpretación del episodio de los Andes como experiencia colectiva. Vierci, cercano generacionalmente a los protagonistas, ordena decenas de voces para construir un mosaico testimonial en el que importan tanto los hechos como su huella moral. Esa mirada plural evita el sensacionalismo y desplaza el foco hacia la solidaridad, el liderazgo y la memoria.",
+        "forWhom": "Para lectores de no ficción narrativa, historia reciente, periodismo testimonial y estudios sobre comunidad, trauma, liderazgo y supervivencia en situaciones límite.",
+        "whyItMatters": "Importa porque devuelve espesor humano a una historia muchas veces reducida al titular del accidente o al morbo. El libro muestra cómo se construye una ética práctica cuando fallan todas las estructuras externas y solo queda la responsabilidad mutua.",
+        "editorialIntro": "La tragedia de los Andes ha sido contada muchas veces, pero pocas con la densidad coral que alcanza Pablo Vierci. En lugar de concentrarse solo en el impacto del accidente, el libro examina cómo un grupo de jóvenes improvisó reglas, tareas, consuelos y decisiones para seguir vivo. Esa perspectiva convierte el testimonio en una reflexión sobre comunidad y resistencia.",
+        "readingLevel": "Lectura media-alta por su extensión y carga emocional, aunque el estilo periodístico es claro. Adecuado para lectores adultos y juveniles maduros interesados en no ficción testimonial.",
+        "whyReadToday": "Porque ofrece una reflexión muy actual sobre cooperación, responsabilidad compartida y dignidad en contextos de crisis, más allá del episodio histórico concreto.",
+        "studyNotes": [
+          "El título subraya la idea de comunidad: no se trata solo de sobrevivientes aislados, sino de una sociedad improvisada en la nieve.",
+          "La estructura coral importa tanto como los hechos: el libro gana fuerza al cruzar recuerdos, matices y silencios de distintas voces.",
+          "Vierci desplaza el interés desde el sensacionalismo hacia la organización material y moral de la supervivencia.",
+          "La memoria posterior es parte esencial del libro: el accidente no termina con el rescate, sino que continúa en la vida de los testigos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El vuelo y la fractura inicial",
+            "summary": "El accidente rompe de forma brutal la continuidad de la vida cotidiana. Los jóvenes pasan de un viaje ordinario a una situación extrema donde cada recurso cuenta y el desconcierto es total."
+          },
+          {
+            "title": "Inventar una comunidad para sobrevivir",
+            "summary": "En la montaña, los supervivientes organizan tareas, cuidados y jerarquías prácticas. La convivencia bajo presión revela tensiones, pero también una solidaridad decisiva para resistir."
+          },
+          {
+            "title": "La decisión, la expedición y el rescate",
+            "summary": "Cuando esperar deja de ser suficiente, algunos asumen el riesgo de salir a buscar ayuda. La expedición final resume el paso de la resistencia pasiva a la acción consciente."
+          },
+          {
+            "title": "Después de la cordillera",
+            "summary": "El libro examina la memoria larga del episodio: cómo cada superviviente interpretó lo vivido, cómo narró el trauma y cómo esa experiencia reordenó su vida posterior."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una épica sin grandilocuencia",
+            "content": "Vierci evita convertir a los protagonistas en héroes abstractos. La épica nace de actos concretos: repartir comida, sostener a un herido, decidir en común, caminar cuando ya no quedan fuerzas. Esa sobriedad aumenta la potencia moral del relato."
+          },
+          {
+            "heading": "La sociedad como respuesta al desastre",
+            "content": "El libro sostiene que la supervivencia no fue solo biológica. Hubo que crear reglas, aceptar funciones, contener el miedo y dar sentido a decisiones extremas. La 'sociedad' del título designa precisamente ese orden mínimo pero indispensable."
+          },
+          {
+            "heading": "Memoria, testimonio y relectura",
+            "content": "La obra muestra que un hecho traumático nunca queda fijado de una vez para siempre. Cada testimonio reordena el pasado, ilumina zonas poco visibles y corrige simplificaciones previas. Por eso el libro vale también como trabajo de memoria histórica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro testimonial?",
+            "answer": "Es no ficción testimonial. Aunque su lectura tiene tensión narrativa, está construido a partir de investigación y de los relatos de los supervivientes."
+          },
+          {
+            "question": "¿Se centra solo en el accidente de 1972?",
+            "answer": "No. Además del accidente y la supervivencia en la montaña, dedica mucho espacio a la organización del grupo y a las consecuencias vitales y morales posteriores."
+          },
+          {
+            "question": "¿Qué aporta frente a otros relatos sobre los Andes?",
+            "answer": "Su principal aporte es la perspectiva coral: no privilegia una sola voz, sino que compone una memoria colectiva y matizada de lo ocurrido."
+          },
+          {
+            "question": "¿Es una lectura dura?",
+            "answer": "Sí, por el contenido y por la intensidad de los testimonios, pero el tratamiento de Vierci es sobrio y evita el efectismo innecesario."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Alrevés Editorial, ficha del libro",
+            "url": "https://alreveseditorial.com/libros/la-sociedad-de-la-nieve"
+          },
+          {
+            "label": "Google Books, edición pública",
+            "url": "https://books.google.com/books?id=3vnGEAAAQBAJ"
+          },
+          {
+            "label": "PlanetadeLibros Argentina, ficha del libro",
+            "url": "https://www.planetadelibros.com.ar/libro-la-sociedad-de-la-nieve/364879"
+          },
+          {
+            "label": "Open Library, ficha de la obra",
+            "url": "https://openlibrary.org/works/OL34803280W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sentir-los-colores-de-maria-carmen-de-la-bandera",
+      "title": "Sentir Los Colores De Maria Carmen",
+      "authorName": "La Bandera",
+      "authorSlug": "la-bandera",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 14,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Sentir los colores",
+        "authorName": "María Carmen de la Bandera",
+        "authorSlug": "maria-carmen-de-la-bandera",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "realismo social",
+          "deporte"
+        ],
+        "year": 2001,
+        "pages": 102,
+        "summary": "Quique, estudiante de Secundaria y aficionado obsesivo al fútbol, atraviesa un momento de fragilidad personal: la separación de sus padres ha alterado su vida familiar, sus notas empeoran y su relación con los demás se vuelve inestable. En ese contexto de malestar, el entusiasmo por el equipo se transforma en refugio y en identidad disponible. La invitación de Rodri, vinculado a un grupo ultra, introduce al protagonista en un ambiente donde la pasión deportiva se mezcla con la intimidación, la mentira y la violencia gratuita. María Carmen de la Bandera narra así un proceso de captación emocional muy reconocible: un adolescente vulnerable empieza buscando pertenencia y termina rozando una espiral destructiva. La novela combina rapidez narrativa, problema social y voluntad claramente formativa.",
+        "aboutThisBook": "Sentir los colores es una novela juvenil de realismo social que utiliza el fútbol como escenario para hablar de adolescencia, desorientación afectiva y violencia de grupo. Su interés no reside solo en denunciar a los ultras, sino en mostrar por qué un chico como Quique puede sentirse atraído por ellos. Esa atención a la vulnerabilidad previa del protagonista le da más profundidad que una simple moraleja escolar.",
+        "forWhom": "Para lectores jóvenes, docentes y familias que busquen una novela breve capaz de abrir conversación sobre identidad adolescente, presión de grupo, fracaso escolar y violencia alrededor del deporte.",
+        "whyItMatters": "Importa porque muestra un mecanismo social todavía vigente: la radicalización afectiva de adolescentes que buscan pertenencia, reconocimiento y una vía rápida para descargar frustraciones personales.",
+        "editorialIntro": "María Carmen de la Bandera toma un entorno muy cercano para muchos lectores jóvenes —el fútbol vivido como pasión total— y lo convierte en una novela de alerta moral sin perder verosimilitud. Lo decisivo no es solo el riesgo externo de los grupos violentos, sino la forma en que una crisis familiar y escolar deja a Quique expuesto a esa seducción.",
+        "readingLevel": "Lectura ágil para secundaria: capítulos breves, lenguaje directo y conflicto inmediato. Su valor crece en contextos educativos por los temas sociales y éticos que pone en juego.",
+        "whyReadToday": "Porque sigue dialogando con fenómenos contemporáneos de fanatismo, pertenencia juvenil y violencia identitaria, dentro y fuera del deporte, y ayuda a leer sus mecanismos de seducción.",
+        "studyNotes": [
+          "El fútbol no aparece solo como deporte, sino como espacio de identidad emocional y de posible manipulación colectiva.",
+          "La novela vincula vulnerabilidad íntima y riesgo social: la captación de Quique no se entiende sin la crisis familiar y escolar previa.",
+          "Rodri funciona como mediador entre la fascinación del espectáculo y la entrada efectiva en un grupo violento.",
+          "El texto puede leerse como novela de aprendizaje negativa: el protagonista madura al borde de una experiencia destructiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Una pasión que tapa el malestar",
+            "summary": "Quique vuelca en el fútbol una intensidad emocional que compensa su desorden familiar. La separación de sus padres y el deterioro escolar lo dejan especialmente expuesto a influencias externas."
+          },
+          {
+            "title": "La seducción del grupo ultra",
+            "summary": "A través de Rodri, el protagonista entra en contacto con los Radicales. Lo atraen el ambiente, el sentimiento de pertenencia y la energía colectiva que rodea al equipo."
+          },
+          {
+            "title": "Cruzar una frontera peligrosa",
+            "summary": "La fascinación inicial empieza a mostrar su coste. Quique comprueba que la pasión futbolística puede degradarse en coacción, mentira y violencia sin sentido."
+          },
+          {
+            "title": "Tomar distancia y elegir",
+            "summary": "El conflicto obliga al protagonista a replantearse qué significa realmente sentir los colores. El cierre orienta la experiencia hacia una toma de conciencia personal y ética."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Fútbol, identidad y adolescencia",
+            "content": "La novela entiende el fútbol como una experiencia emocional legítima, pero también como un terreno donde un adolescente puede buscar pertenencia absoluta. Esa ambivalencia evita una condena simplista del deporte y concentra la crítica en la deriva fanática."
+          },
+          {
+            "heading": "La violencia como forma de pertenencia",
+            "content": "Los Radicales ofrecen a Quique algo más que un plan de fin de semana: le prometen intensidad, grupo y reconocimiento. De ahí que la obra sea útil para pensar cómo ciertas violencias se presentan primero como comunidad."
+          },
+          {
+            "heading": "Dimensión pedagógica sin sermón excesivo",
+            "content": "Aunque el libro tiene una clara intención formativa, su eficacia reside en que dramatiza un proceso en vez de limitarse a moralizar. El lector acompaña el deslizamiento del protagonista y entiende desde dentro por qué el riesgo resulta atractivo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela sobre fútbol o sobre violencia juvenil?",
+            "answer": "Es ambas cosas, pero el fútbol funciona sobre todo como puerta de entrada a un problema mayor: la necesidad adolescente de pertenecer y el riesgo de que esa necesidad sea explotada por grupos violentos."
+          },
+          {
+            "question": "¿Está pensada para lectura escolar?",
+            "answer": "Sí. Por su extensión, claridad y tema social, encaja muy bien en secundaria y en actividades de tutoría o educación en valores."
+          },
+          {
+            "question": "¿El libro demoniza a los aficionados al fútbol?",
+            "answer": "No. Distingue entre afición deportiva y fanatismo violento, y muestra cómo esa frontera puede borrarse cuando un joven carece de referencias estables."
+          },
+          {
+            "question": "¿Qué tema de fondo destaca más?",
+            "answer": "La relación entre fragilidad personal y presión de grupo: Quique no entra en el conflicto por maldad, sino por desorientación y necesidad de reconocimiento."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Editorial Casals, ficha del libro",
+            "url": "https://www.editorialcasals.com/producto/sentir-los-colores/"
+          },
+          {
+            "label": "Agapea, ficha bibliográfica",
+            "url": "https://www.agapea.com/libros/Sentir-los-colores-9788421823996-i.htm"
+          },
+          {
+            "label": "Google Books, edición pública",
+            "url": "https://books.google.com/books?id=ib9HcAAACAAJ"
+          },
+          {
+            "label": "Open Library, ficha de la obra",
+            "url": "https://openlibrary.org/works/OL17455619W"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-18T16:24:13Z"
+}

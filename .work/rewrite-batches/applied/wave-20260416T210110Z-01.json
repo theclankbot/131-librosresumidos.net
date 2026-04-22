@@ -1,0 +1,489 @@
+{
+  "batchName": "wave-20260416T210110Z-01",
+  "createdAt": "2026-04-16T21:01:11Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "pulgarcito-de-charles-perrault",
+      "title": "Pulgarcito",
+      "authorName": "Charles Perrault",
+      "authorSlug": "charles-perrault",
+      "type": "ficcion",
+      "audience": "infantil",
+      "genres": [
+        "infantil",
+        "clasicos"
+      ],
+      "year": 1697,
+      "pages": 32,
+      "clicks": 18,
+      "impressions": 86,
+      "priority": 1,
+      "current": {
+        "summary": "El más pequeño de siete hermanos, abandonado por sus padres en el bosque por falta de recursos, utiliza su inteligencia para salvar a todos. Se enfrenta a un ogro, roba sus botas de siete leguas y consigue prosperidad para su familia.",
+        "aboutThisBook": "Cuento clásico de Charles Perrault incluido en 'Los cuentos de mamá ganso'. Una historia sobre el ingenio que supera a la fuerza bruta.",
+        "centralConflict": "Un niño diminuto y despreciado debe salvar a sus hermanos usando solo su inteligencia.",
+        "themes": [
+          "Ingenio",
+          "Supervivencia",
+          "Familia",
+          "Valentía",
+          "Justicia"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Lectores infantiles y estudiantes que trabajan con cuentos clásicos.",
+        "whyItMatters": "Uno de los cuentos más universales de la tradición europea.",
+        "tone": "Fantástico, moralizante, clásico",
+        "escpilar": true
+      },
+      "rewritten": {
+        "summary": "Pulgarcito cuenta la historia del menor de siete hermanos, un niño diminuto al que todos subestiman por su tamaño y su aparente fragilidad. En la versión clásica asociada a Charles Perrault, la pobreza extrema lleva a los padres a abandonar a los niños en el bosque. Pulgarcito, sin embargo, escucha, observa y planea: primero reúne piedras para encontrar el camino de regreso, y después, cuando el peligro crece, vuelve a ser el único capaz de pensar con sangre fría. La aventura lo conduce a la casa de un ogro temible, donde el cuento combina miedo, astucia y humor negro. Gracias a su inteligencia, el protagonista logra salvar a sus hermanos y convertir una situación desesperada en una salida posible para la familia. Es un relato breve, intenso y muy representativo del imaginario de los cuentos europeos.",
+        "aboutThisBook": "\"Pulgarcito\" es uno de los cuentos más conocidos de la tradición literaria francesa y forma parte de los relatos que Charles Perrault publicó a fines del siglo XVII en la colección conocida como \"Cuentos de mamá Oca\". Aunque hoy suele leerse como cuento infantil, conserva rasgos más duros de la literatura maravillosa antigua: hambre, abandono, miedo y violencia simbólica. Su interés no está en la fuerza física del héroe, sino en la capacidad de pensar mejor que los adultos y los monstruos. Por eso sigue siendo un texto muy útil para leer el funcionamiento del cuento clásico, sus moralejas implícitas y sus imágenes inolvidables.",
+        "forWhom": "Para lectores infantiles acompañados, estudiantes que trabajan cuentos clásicos y docentes que buscan un texto breve para hablar de ingenio, miedo, pobreza y estructura narrativa tradicional.",
+        "whyItMatters": "Importa porque convierte a un personaje aparentemente débil en el centro de una victoria intelectual. Además, conserva con claridad la lógica del cuento clásico europeo: prueba, peligro, astucia y restitución final.",
+        "editorialIntro": "Pocas historias muestran tan bien la fuerza del ingenio como \"Pulgarcito\". En muy pocas páginas, Perrault reúne el miedo del bosque, la amenaza del ogro y la figura inolvidable del niño pequeño que entiende el mundo mejor que todos. Es un cuento ideal para estudiar cómo un clásico infantil puede ser, al mismo tiempo, oscuro, simbólico y profundamente memorable.",
+        "readingLevel": "Adecuado para lectores desde primaria avanzada, con mediación si se quiere comentar su tono oscuro y sus símbolos tradicionales.",
+        "whyReadToday": "Porque sigue hablando de vulnerabilidad, desigualdad y supervivencia, pero sin sentimentalismo. Pulgarcito enseña a leer la inteligencia práctica como una forma de valentía.",
+        "studyNotes": [
+          "Conviene comentar que el cuento nace en un contexto de tradición oral y de fijación literaria: no todas las versiones populares coinciden en los mismos detalles.",
+          "El bosque funciona como símbolo de desamparo, pero también como espacio donde el protagonista revela su capacidad de observar y decidir.",
+          "La figura del ogro concentra los miedos del cuento maravilloso: devorar, perseguir y ejercer una fuerza desmedida frente a la fragilidad infantil.",
+          "El final puede leerse como una restauración del orden, aunque el camino para llegar a él está marcado por decisiones moralmente ambiguas propias del cuento clásico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La pobreza y el abandono",
+            "summary": "La miseria de la familia empuja a los padres a tomar la decisión extrema de dejar a sus siete hijos en el bosque. Pulgarcito oye el plan y, en vez de lamentarse, recoge pequeñas piedras que después le permiten guiar a sus hermanos de vuelta a casa."
+          },
+          {
+            "title": "Parte 2: La segunda pérdida",
+            "summary": "Cuando la escasez continúa, los niños vuelven a ser abandonados. Esta vez Pulgarcito no dispone del mismo recurso y el grupo se extravía de verdad. El cuento aumenta así la tensión y muestra que la inteligencia del héroe no elimina el peligro, pero sí le permite afrontarlo."
+          },
+          {
+            "title": "Parte 3: La casa del ogro",
+            "summary": "Los hermanos encuentran refugio en la vivienda de un ogro, una ayuda que pronto se vuelve amenaza. Pulgarcito descubre el peligro, actúa con sigilo y logra engañar al monstruo en una de las secuencias más famosas del relato."
+          },
+          {
+            "title": "Parte 4: Las botas de siete leguas y la salida final",
+            "summary": "Tras escapar, Pulgarcito obtiene ventaja del ogro y de sus famosas botas de siete leguas. Según la versión de Perrault, esa astucia le permite asegurar recursos y rescatar a su familia de la miseria, cerrando el cuento con una inversión completa de la debilidad inicial."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El héroe pequeño en el cuento clásico",
+            "content": "Pulgarcito pertenece a una tradición muy antigua: la del personaje mínimo en apariencia, pero excepcional en inteligencia. Su tamaño no es un detalle decorativo, sino la base del contraste central del cuento. Frente a adultos que fallan y monstruos que se confían, el niño piensa, escucha y anticipa. Esa oposición convierte la debilidad visible en una fuerza narrativa."
+          },
+          {
+            "heading": "Hambre, abandono y dureza moral",
+            "content": "Aunque hoy se lea en ámbitos infantiles, el cuento conserva una crudeza que conviene no suavizar demasiado. La pobreza no es un fondo pintoresco: pone en marcha toda la acción. Los padres toman una decisión terrible, y el relato no se entiende bien si se elimina esa dimensión de necesidad extrema. Por eso el cuento también sirve para hablar de contextos históricos en los que la infancia estaba mucho menos protegida."
+          },
+          {
+            "heading": "Astucia, miedo y justicia narrativa",
+            "content": "El relato recompensa la inteligencia práctica más que la inocencia. Pulgarcito no vence por pureza moral, sino por atención, rapidez mental y capacidad de engañar a quien quiere destruirlo. En el universo del cuento maravilloso, eso no se presenta como falta ética, sino como una forma legítima de supervivencia. La justicia final nace de haber sabido resistir en un mundo peligroso."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Pulgarcito es un cuento infantil o un cuento tradicional más oscuro?",
+            "answer": "Es ambas cosas. Hoy suele circular como lectura infantil, pero su origen y su tono conservan elementos duros del cuento tradicional europeo, como el hambre, el abandono y la amenaza del ogro."
+          },
+          {
+            "question": "¿Cuál es la idea principal del cuento?",
+            "answer": "Que la inteligencia y la capacidad de observación pueden valer más que la fuerza física o la autoridad. El personaje más pequeño es quien encuentra la salida."
+          },
+          {
+            "question": "¿Todas las versiones de Pulgarcito son iguales?",
+            "answer": "No. Existen variantes populares y adaptaciones posteriores. La versión más citada en el ámbito literario es la de Charles Perrault, publicada en 1697, pero algunos detalles pueden cambiar según la edición o la reescritura."
+          },
+          {
+            "question": "¿Por qué aparece tanto en clases sobre cuentos clásicos?",
+            "answer": "Porque ofrece con mucha claridad varios rasgos del género: fórmula breve, pruebas sucesivas, personaje astuto, monstruo reconocible, objetos maravillosos y un cierre que restaura el orden."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Britannica — Charles Perrault",
+            "url": "https://www.britannica.com/biography/Charles-Perrault"
+          },
+          {
+            "label": "Project Gutenberg — The Fairy Tales of Charles Perrault",
+            "url": "https://www.gutenberg.org/ebooks/29021"
+          },
+          {
+            "label": "Wikisource — Fairy Tales of Charles Perrault/Little Thumb",
+            "url": "https://en.wikisource.org/wiki/Fairy_Tales_of_Charles_Perrault/Little_Thumb"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-jardin-secreto-de-frances-hodgson-burnett",
+      "title": "El jardín secreto",
+      "authorName": "Frances Hodgson Burnett",
+      "authorSlug": "frances-hodgson-burnett",
+      "type": "ficcion",
+      "audience": "juvenil",
+      "genres": [
+        "clasicos",
+        "juvenil"
+      ],
+      "year": 1911,
+      "pages": 256,
+      "clicks": 17,
+      "impressions": 233,
+      "priority": 2,
+      "current": {
+        "summary": "Mary Lennox, una niña malcriada y solitaria, es enviada a vivir a la mansión de un tío tras quedar huérfana en la India. Allí descubre un jardín cerrado y abandonado que se convertirá en el motor de su transformación y la de quienes la rodean.",
+        "aboutThisBook": "Clásico universal de la literatura infantil que ha inspirado películas, musicales y adaptaciones. Su mensaje sobre la naturaleza como fuerza sanadora sigue vigente.",
+        "centralConflict": "Devolver la vida al jardín es devolver la vida a Mary, a Colin y a toda la casa.",
+        "themes": [
+          "Transformación",
+          "Naturaleza",
+          "Soledad",
+          "Amistad",
+          "Sanación"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Lectores de todas las edades. Imprescindible para cualquier lista de clásicos juveniles.",
+        "whyItMatters": "Un clásico que no envejece. Sigue siendo una de las historias más buscadas y recomendadas en español.",
+        "tone": "Lírico, esperanzador, envolvente",
+        "escpilar": true
+      },
+      "rewritten": {
+        "summary": "\"El jardín secreto\" narra la transformación de Mary Lennox, una niña hosca, solitaria y malcriada que queda huérfana en la India y es enviada a vivir a Misselthwaite Manor, la gran y silenciosa casa de su tío en Yorkshire. En ese nuevo entorno, marcado por pasillos cerrados, secretos familiares y una atmósfera de duelo, Mary empieza a cambiar cuando entra en contacto con la naturaleza. El hallazgo de un jardín clausurado durante años se convierte en el centro simbólico de la novela: cuidar ese espacio equivale a recuperar la alegría, la curiosidad y la vida. A medida que Mary entabla amistad con Dickon y conoce a Colin, un niño enfermo y aislado, la historia muestra cómo la atención, el afecto, el aire libre y el trabajo compartido pueden modificar la percepción de uno mismo y del mundo. Es una novela sobre crecimiento, imaginación y renovación emocional.",
+        "aboutThisBook": "Publicada en 1911, \"El jardín secreto\" es una de las obras más perdurables de Frances Hodgson Burnett y un clásico de la literatura infantil y juvenil en lengua inglesa. La novela combina elementos de iniciación, misterio doméstico y celebración de la naturaleza. Su fama no se debe solo a su argumento atractivo, sino a la manera en que convierte un espacio cerrado y abandonado en metáfora de la vida interior de sus personajes. Mary, Colin y la propia mansión cambian al mismo tiempo, de modo que el libro puede leerse como una historia de amistad, de duelo y de recuperación. Sigue siendo muy estudiado por su fuerza simbólica y por su capacidad de emocionar a lectores de distintas edades.",
+        "forWhom": "Para lectores juveniles, mediadores de lectura, docentes y adultos que buscan un clásico accesible sobre transformación personal, amistad, imaginación y poder reparador de la naturaleza.",
+        "whyItMatters": "Importa porque muestra, con gran claridad literaria, cómo el entorno, los vínculos y la esperanza pueden activar cambios profundos. Su influencia en la literatura infantil del siglo XX sigue siendo enorme.",
+        "editorialIntro": "\"El jardín secreto\" sigue vivo porque no ofrece una moraleja seca, sino una experiencia de cambio. Burnett toma a personajes heridos, orgullosos o aislados y los coloca frente a un espacio que exige paciencia, cuidado y tiempo. El resultado es una novela de crecimiento emocional que conserva encanto narrativo, misterio y una confianza muy poderosa en la amistad y en la renovación.",
+        "readingLevel": "Adecuado para lectores juveniles y adultos; su prosa es accesible, aunque algunas ediciones conservan giros y matices propios del inglés de comienzos del siglo XX.",
+        "whyReadToday": "Porque ofrece una reflexión todavía vigente sobre la soledad, el duelo y la necesidad de reconectar con otros y con el mundo natural. Su optimismo no resulta ingenuo, sino trabajado.",
+        "studyNotes": [
+          "El jardín no es solo un lugar físico: funciona como símbolo de memoria, duelo, cuidado y renacimiento.",
+          "Mary cambia porque aprende a mirar fuera de sí misma; Colin cambia cuando deja de definirse únicamente por su fragilidad.",
+          "Dickon representa una relación armoniosa con la naturaleza y actúa como mediador entre el encierro de la casa y la apertura del jardín.",
+          "La novela puede analizarse también desde sus contextos históricos, especialmente en relación con el imperio británico, la infancia y la educación emocional."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Mary llega a Misselthwaite",
+            "summary": "Tras quedar huérfana, Mary Lennox es trasladada desde la India a la mansión de su tío en Yorkshire. Allí encuentra una casa enorme, silenciosa y llena de habitaciones cerradas, un escenario que refleja su propia soledad y su carácter endurecido."
+          },
+          {
+            "title": "Parte 2: El descubrimiento del jardín",
+            "summary": "Mary empieza a explorar los alrededores, escucha historias sobre un jardín clausurado y finalmente encuentra la forma de entrar en él. Ese descubrimiento cambia el ritmo de la novela: de la pasividad y el aislamiento se pasa a la curiosidad, la observación y el cuidado."
+          },
+          {
+            "title": "Parte 3: La amistad con Dickon y Colin",
+            "summary": "Con ayuda de Dickon, Mary aprende a trabajar la tierra y a mirar la naturaleza con asombro. Más adelante conoce a Colin, un niño criado en el miedo y el encierro, y lo incorpora al secreto del jardín, iniciando una amistad decisiva para ambos."
+          },
+          {
+            "title": "Parte 4: Restauración y apertura",
+            "summary": "El jardín florece al mismo tiempo que Colin gana fuerza y confianza. La novela conduce hacia una recuperación compartida: no solo mejoran los niños, también cambia la atmósfera moral de la casa y se prepara la reconciliación con el mundo adulto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La naturaleza como fuerza de transformación",
+            "content": "Uno de los rasgos más recordados de la novela es su confianza en el poder reparador del aire libre, las estaciones y el trabajo en el jardín. Burnett no presenta la naturaleza como simple decorado bonito, sino como una presencia activa que educa la atención y devuelve energía vital. El jardín cura porque obliga a salir del encierro físico y mental."
+          },
+          {
+            "heading": "Mary Lennox y el aprendizaje de la empatía",
+            "content": "Mary no comienza la novela como heroína simpática. Es egoísta, áspera y está acostumbrada a que otros resuelvan sus necesidades. Precisamente por eso su evolución resulta convincente. A medida que observa, pregunta, cuida y comparte, abandona la rigidez inicial. La novela sugiere que la empatía no aparece de golpe: se aprende en la práctica cotidiana."
+          },
+          {
+            "heading": "El secreto como estructura narrativa y simbólica",
+            "content": "El jardín cerrado, las habitaciones prohibidas y los ruidos nocturnos crean un clima de misterio que sostiene la lectura. Pero el secreto no solo organiza la intriga: también simboliza dolores no elaborados, recuerdos reprimidos y posibilidades suspendidas. Abrir el jardín implica abrir una zona detenida del pasado para que vuelva a circular la vida."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué hace tan importante a El jardín secreto dentro de los clásicos juveniles?",
+            "answer": "Su combinación de misterio, crecimiento personal y simbolismo natural la convirtió en una referencia duradera de la literatura infantil y juvenil. Es una novela emotiva, accesible y muy rica para el análisis."
+          },
+          {
+            "question": "¿El jardín secreto es solo una historia sobre niños?",
+            "answer": "No. Aunque sus protagonistas son niños, el libro también trata el duelo, la memoria, la soledad, la educación emocional y la relación entre los espacios habitados y la vida interior."
+          },
+          {
+            "question": "¿Por qué el jardín tiene tanto peso simbólico?",
+            "answer": "Porque representa una vida que parecía perdida y que puede recuperarse con cuidado, paciencia y compañía. Es el espejo del cambio de Mary, Colin y de la propia casa."
+          },
+          {
+            "question": "¿Sigue siendo recomendable para lectores actuales?",
+            "answer": "Sí. Su mirada sobre la amistad, la necesidad de salir del aislamiento y el valor de la naturaleza sigue resultando cercana, incluso cuando algunos aspectos del contexto histórico requieren lectura crítica."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Britannica — The Secret Garden",
+            "url": "https://www.britannica.com/topic/The-Secret-Garden"
+          },
+          {
+            "label": "Britannica — Frances Hodgson Burnett",
+            "url": "https://www.britannica.com/biography/Frances-Hodgson-Burnett"
+          },
+          {
+            "label": "Project Gutenberg — The Secret Garden",
+            "url": "https://www.gutenberg.org/ebooks/113"
+          },
+          {
+            "label": "Standard Ebooks — The Secret Garden",
+            "url": "https://standardebooks.org/ebooks/frances-hodgson-burnett/the-secret-garden"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-ojos-de-mi-princesa-de-carlos-cuauhtemoc-sanchez",
+      "title": "Los ojos de mi princesa",
+      "authorName": "Carlos Cuauhtémoc Sánchez",
+      "authorSlug": "carlos-cuauhtemoc-sanchez",
+      "type": "ficcion",
+      "audience": "juvenil",
+      "genres": [
+        "juvenil",
+        "romance"
+      ],
+      "year": 2004,
+      "pages": 256,
+      "clicks": 17,
+      "impressions": 197,
+      "priority": 3,
+      "current": {
+        "summary": "Un adolescente tímido se enamora de una chica nueva en su instituto. Lo que empieza como un primer amor inocente se complica cuando descubre que ella vive una situación familiar difícil. Una novela que mezcla romance adolescente con temas más duros como el abuso y la superación.",
+        "aboutThisBook": "Uno de los libros juveniles más vendidos en México y América Latina. Cuauhtémoc Sánchez construye una historia que conecta directamente con las emociones adolescentes.",
+        "centralConflict": "",
+        "themes": [
+          "Primer amor",
+          "Adolescencia",
+          "Problemas familiares",
+          "Superación",
+          "Valentía"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Adolescentes. Muy popular entre lectores de 13 a 18 años en México y América Latina.",
+        "whyItMatters": "Un fenómeno editorial juvenil en español. Para bien o para mal, ha formado parte de la experiencia lectora de millones de jóvenes latinos.",
+        "tone": "Emotivo, directo, a veces melodramático",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "Los ojos de mi princesa sigue la educación sentimental de José Carlos, un adolescente que convierte su admiración por una compañera de colegio en el centro de su mundo interior. A esa muchacha la nombra Sheccid, enlazando el enamoramiento con un ideal casi mítico, y desde ahí la novela avanza entre ilusiones, torpezas juveniles, gestos de valentía y desengaños que obligan al narrador a madurar. Más que contar solo un romance, el libro observa cómo un primer amor puede moldear la identidad, la autoestima y la forma de leer la realidad. La historia, además, se amplía con cambios de perspectiva que matizan la imagen idealizada de la chica y vuelven más compleja la experiencia emocional.",
+        "aboutThisBook": "Es una novela juvenil muy asociada al recorrido lector de varias generaciones de adolescentes hispanohablantes. La ficha de Wikipedia recuerda que procede de una versión anterior titulada La fuerza de Sheccid y que en 2004 apareció en versión extendida como Los ojos de mi princesa. En la web oficial del autor se presenta, además, como una obra central dentro de la saga posterior. Su atractivo no está solo en la intriga afectiva, sino en la mezcla de confesión íntima, reflexión sentimental y lenguaje directo, pensado para lectores jóvenes que se reconocen en la intensidad del primer amor.",
+        "forWhom": "Para lectores juveniles y adultos que quieran estudiar cómo una novela romántica de formación trabaja la idealización amorosa, la voz confesional y los dilemas emocionales de la adolescencia.",
+        "whyItMatters": "Importa porque fue una puerta de entrada a la lectura para muchos jóvenes en español y porque muestra, con gran claridad, cómo el amor idealizado puede impulsar crecimiento personal pero también producir lecturas parciales de la otra persona.",
+        "editorialIntro": "Pocas novelas juveniles en español han dejado una huella tan persistente en lectores adolescentes como esta. Carlos Cuauhtémoc Sánchez construye aquí una historia de enamoramiento intenso y aprendizaje emocional que se lee con rapidez, pero que también permite discutir idealización, madurez, vulnerabilidad y expectativas afectivas.",
+        "readingLevel": "Lectura accesible para secundaria y bachillerato, con prosa directa, ritmo ágil y abundante contenido emocional para comentar en clase o en clubes de lectura.",
+        "whyReadToday": "Sigue siendo útil hoy porque permite conversar sobre vínculos adolescentes, fantasías románticas, autoestima y mirada crítica: no solo qué sentimos al enamorarnos, sino cómo interpretamos a la otra persona.",
+        "studyNotes": [
+          "Conviene fijarse en la distancia entre la Sheccid imaginada por José Carlos y la persona real que la novela va revelando poco a poco.",
+          "La obra funciona bien para analizar narrador adolescente, tono confesional y construcción de un ideal amoroso sostenido por símbolos y recuerdos.",
+          "Es preferible leer los momentos más delicados desde una perspectiva prudente: la novela busca impacto emocional, pero también abre preguntas sobre límites, madurez y responsabilidad afectiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El nacimiento del ideal amoroso",
+            "summary": "José Carlos descubre en una compañera de colegio una figura que concentra sus deseos, su admiración y su necesidad de sentido. La llama Sheccid y convierte ese nombre en una imagen casi legendaria, iniciando así una búsqueda sentimental marcada por la timidez, la observación y la esperanza."
+          },
+          {
+            "title": "Parte 2: Obstáculos, desencanto y crecimiento",
+            "summary": "A medida que intenta acercarse a ella, el protagonista tropieza con rivalidades, malentendidos y realidades que no encajan con su fantasía inicial. El relato deja de ser solo una historia de conquista y se vuelve un proceso de maduración en el que José Carlos debe revisar su mirada sobre el amor y sobre sí mismo."
+          },
+          {
+            "title": "Parte 3: Cambio de perspectiva y relectura de la historia",
+            "summary": "Cuando la novela incorpora una mirada complementaria, el lector entiende mejor que la experiencia amorosa no pertenece solo al narrador. Ese desplazamiento amplía el sentido del libro: lo que parecía una historia lineal de enamoramiento juvenil se transforma en una reflexión sobre percepción, verdad emocional y aprendizaje."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La idealización como motor narrativo",
+            "content": "El libro se apoya en una operación muy reconocible en la adolescencia: convertir a la persona amada en una figura excepcional. José Carlos no se enamora únicamente de una compañera, sino de una imagen construida con relatos, símbolos y expectativas. Esa idealización sostiene la intensidad del relato, pero también prepara el conflicto, porque la realidad nunca coincide del todo con el mito."
+          },
+          {
+            "heading": "Novela de formación afectiva",
+            "content": "Aunque suele leerse como romance juvenil, la obra funciona también como aprendizaje emocional. Lo decisivo no es solo si José Carlos logra o no acercarse a Sheccid, sino qué comprende sobre deseo, frustración, dignidad y crecimiento. El amor aparece como experiencia fundadora, capaz de ordenar la vida interior, pero también de exponer inmadureces y errores de interpretación."
+          },
+          {
+            "heading": "La importancia del cambio de punto de vista",
+            "content": "Uno de los elementos más interesantes para estudio es que la novela no se conforma con una sola versión de los hechos. Al abrir espacio a otra perspectiva, cuestiona la autoridad sentimental del narrador y recuerda que toda historia amorosa es, en parte, una construcción subjetiva. Ese recurso invita a releer los episodios iniciales con más cautela y menos ingenuidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es solo una novela romántica?",
+            "answer": "No exactamente. El romance es el eje visible, pero la lectura también funciona como historia de formación emocional y de revisión de la idealización adolescente."
+          },
+          {
+            "question": "¿Qué lugar ocupa dentro de la obra de Carlos Cuauhtémoc Sánchez?",
+            "answer": "Es una de sus novelas juveniles más conocidas y la propia web del autor la presenta como una obra central, vinculada además a la saga posterior de Los ojos de mi princesa."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose en institutos y entre lectores jóvenes?",
+            "answer": "Porque su lenguaje es accesible, aborda emociones intensas reconocibles para adolescentes y permite debatir temas como primer amor, autoestima, expectativas y madurez afectiva."
+          },
+          {
+            "question": "¿Conviene leerla críticamente hoy?",
+            "answer": "Sí. Precisamente su interés actual está en combinar la empatía con el protagonista con una lectura crítica de la idealización romántica y de las interpretaciones precipitadas que produce."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Carlos Cuauhtémoc Sánchez — web oficial",
+            "url": "https://carloscuauhtemoc.com/"
+          },
+          {
+            "label": "Lecturalia — Los ojos de mi princesa",
+            "url": "https://www.lecturalia.com/libro/18466/los-ojos-de-mi-princesa"
+          },
+          {
+            "label": "Casa del Libro — Los ojos de mi princesa",
+            "url": "https://www.casadellibro.com/ebook-los-ojos-de-mi-princesa-ebook/9786077627265/9472714"
+          },
+          {
+            "label": "Wikipedia — Los ojos de mi princesa",
+            "url": "https://es.wikipedia.org/wiki/Los_ojos_de_mi_princesa"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-color-de-las-cosas-invisibles-de-andrea-longarela",
+      "title": "El color de las cosas invisibles",
+      "authorName": "Andrea Longarela",
+      "authorSlug": "andrea-longarela",
+      "type": "ficcion",
+      "audience": "juvenil",
+      "genres": [
+        "romance",
+        "juvenil"
+      ],
+      "year": 2022,
+      "pages": 384,
+      "clicks": 17,
+      "impressions": 109,
+      "priority": 4,
+      "current": {
+        "summary": "Aurora, una chica ciega, y Liam, un chico que acaba de mudarse a su pueblo, se encuentran y construyen una relación donde la conexión emocional importa más que la mirada. Una historia de amor que explora la discapacidad visual desde la normalidad, no desde la pena.",
+        "aboutThisBook": "Una de las novelas juveniles españolas más leídas en los últimos años. Longarela trata la discapacidad con naturalidad y centra la historia en los personajes, no en su condición.",
+        "centralConflict": "",
+        "themes": [
+          "Amor",
+          "Discapacidad",
+          "Normalización",
+          "Conexión emocional",
+          "Superación"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Lectores juveniles y young adult. Especialmente quienes buscan romances con profundidad.",
+        "whyItMatters": "Aborda la discapacidad de forma respetuosa y natural en un género que rara vez lo hace.",
+        "tone": "Tierno, luminoso, emotivo",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "El color de las cosas invisibles presenta la relación cambiante entre Rain y Jack, dos jóvenes que parten de la fricción y la incompatibilidad aparente. La novela los hace encontrarse una y otra vez, primero en el instituto, después en otros escenarios y también años más tarde, cuando ya creen que su historia quedó atrás. Ese patrón de reencuentros convierte el libro en algo más que un romance de atracción entre opuestos: Andrea Longarela explora cómo maduran las emociones, cómo pesan las circunstancias y cómo ciertas conexiones persisten incluso cuando la vida empuja en direcciones distintas. El resultado es una novela juvenil de alto pulso sentimental, con diálogos vivos y una tensión constante entre casualidad, elección y destino afectivo.",
+        "aboutThisBook": "Se trata de una novela romántica juvenil de Andrea Longarela, autora muy leída dentro del ámbito young adult en español. La ficha de PlanetadeLibros la presenta como un enemies-to-lovers, mientras que Lecturalia y laSexta subrayan la repetición de encuentros entre Rain y Jack a lo largo de los años. Ese diseño permite que la historia no dependa solo de la chispa inicial, sino de la evolución de dos personajes que discuten, se rechazan, se observan y terminan midiendo cuánto de su vínculo responde a la lógica y cuánto a una atracción que no saben explicar. Es una lectura sentimental, sí, pero también muy consciente del paso del tiempo y de los cambios de etapa.",
+        "forWhom": "Para lectores juveniles, de bachillerato o new adult que disfruten romances intensos entre opuestos, diálogos ágiles y personajes que evolucionan en varias etapas de su vida.",
+        "whyItMatters": "Importa porque actualiza el romance juvenil con una estructura de reencuentros, tensión verbal y mirada generacional, mostrando que enamorarse no siempre sucede de una vez, sino por capas, choques y revisiones.",
+        "editorialIntro": "Andrea Longarela firma aquí una novela romántica de fuerte impulso emocional y construcción progresiva. Rain y Jack se llevan mal, discuten y parecen incompatibles, pero la narración insiste en reunirlos hasta demostrar que la distancia, el tiempo y las diferencias también pueden ser materiales de una gran historia de amor.",
+        "readingLevel": "Lectura fluida para público juvenil y joven adulto, con lenguaje contemporáneo, ritmo rápido y buen potencial para trabajar personajes, diálogos y evolución afectiva.",
+        "whyReadToday": "Vale la pena leerla hoy porque combina química romántica con crecimiento personal y porque retrata una forma contemporánea de vincularse: más irónica, más defensiva y, al mismo tiempo, profundamente vulnerable.",
+        "studyNotes": [
+          "La novela funciona bien para estudiar el esquema enemies-to-lovers sin reducirlo al cliché: la atracción se construye mediante reencuentros y cambios de etapa.",
+          "Conviene observar cómo Rain y Jack interpretan de forma distinta la casualidad, porque esa oposición intelectual organiza buena parte de la tensión emocional.",
+          "Además del romance, el libro ofrece una pequeña radiografía generacional sobre cómo los jóvenes se protegen, se acercan y negocian sus afectos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1: Choque inicial",
+            "summary": "Rain y Jack se conocen en un contexto juvenil marcado por la diferencia de temperamentos y de mundos personales. Desde el principio predominan el rechazo, la ironía y la sensación de que ambos pertenecen a universos incompatibles."
+          },
+          {
+            "title": "Momento 2: Reencuentros y tensión acumulada",
+            "summary": "La novela insiste en hacer que vuelvan a cruzarse en distintos escenarios y momentos vitales. Cada encuentro reabre el conflicto, pero también deja ver una atracción difícil de negar, sostenida por conversaciones afiladas y por una curiosidad mutua cada vez más evidente."
+          },
+          {
+            "title": "Momento 3: Intimidad, revisión y posibilidad amorosa",
+            "summary": "Cuando las circunstancias los obligan a compartir más tiempo y a mirarse con menos prejuicios, la relación cambia de tono. Lo que parecía solo choque entre opuestos se convierte en una indagación más seria sobre deseo, miedo, oportunidad y elección."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un enemies-to-lovers construido con tiempo",
+            "content": "El rasgo más interesante del libro es que no confía todo a una sola etapa del vínculo. Longarela hace crecer la relación por acumulación: encuentros, separaciones, reapariciones y nuevas lecturas del pasado. Eso da al romance una sensación de maduración y evita que la atracción dependa únicamente del impacto inicial."
+          },
+          {
+            "heading": "Casualidad frente a causalidad",
+            "content": "Las sinopsis editoriales insisten en una oposición central: Rain piensa una cosa sobre las casualidades y Jack otra sobre la explicación racional de lo que les ocurre. Ese contraste no es decorativo; organiza la novela y traduce dos modos de entender el mundo, el amor y la vulnerabilidad. El conflicto sentimental se vuelve también una discusión sobre cómo damos sentido a lo que sentimos."
+          },
+          {
+            "heading": "Retrato juvenil contemporáneo",
+            "content": "Según la reseña de laSexta, la novela traza una radiografía generacional en la manera de acercarse al otro, protegerse y amar. Esa observación se percibe en los diálogos rápidos, en la mezcla de deseo y defensa emocional, y en la idea de que la conexión afectiva puede atravesar años sin dejar de transformarse."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Quiénes son los protagonistas reales de la novela?",
+            "answer": "Los protagonistas son Rain y Jack, tal como aparece en las sinopsis de PlanetadeLibros, Lecturalia y Casa del Libro."
+          },
+          {
+            "question": "¿Es un romance juvenil ligero o tiene más desarrollo?",
+            "answer": "Tiene una lectura ágil, pero no es solo un flechazo inmediato. La historia trabaja el paso del tiempo, los reencuentros y la evolución emocional de ambos personajes."
+          },
+          {
+            "question": "¿Qué tipo de romance propone Andrea Longarela aquí?",
+            "answer": "Un enemies-to-lovers entre opuestos, con mucha tensión verbal y con la idea de que ciertas conexiones persisten incluso cuando la vida cambia de escenario."
+          },
+          {
+            "question": "¿Por qué puede interesar en un contexto de estudio?",
+            "answer": "Porque permite analizar tropos del romance actual, construcción de personajes duales, uso del tiempo narrativo y representación de vínculos juveniles contemporáneos."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "PlanetadeLibros — El color de las cosas invisibles",
+            "url": "https://www.planetadelibros.com/libro-el-color-de-las-cosas-invisibles/374174"
+          },
+          {
+            "label": "Casa del Libro — El color de las cosas invisibles",
+            "url": "https://www.casadellibro.com/libro-el-color-de-las-cosas-invisibles/9788408271949/13570581"
+          },
+          {
+            "label": "Lecturalia — El color de las cosas invisibles",
+            "url": "https://www.lecturalia.com/libro/109911/el-color-de-las-cosas-invisibles"
+          },
+          {
+            "label": "Ahora Qué Leo (laSexta) — ficha y reseña",
+            "url": "https://www.lasexta.com/ahoraqueleo/libros/color-cosas-invisibles-andrea-longarela_2023052164661e97ea31940001831d5c.html"
+          },
+          {
+            "label": "Lecturalia — Andrea Longarela",
+            "url": "https://www.lecturalia.com/autor/23102/andrea-longarela"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-16T21:10:38Z"
+}

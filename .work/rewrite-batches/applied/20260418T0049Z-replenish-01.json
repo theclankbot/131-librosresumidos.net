@@ -1,0 +1,1496 @@
+{
+  "batchName": "20260418T0049Z-replenish-01",
+  "createdAt": "2026-04-18T00:50:18Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "un-tranvia-llamado-deseo-de-tennessee-williams",
+      "title": "Un Tranvia Llamado Deseo",
+      "authorName": "Tennessee Williams",
+      "authorSlug": "tennessee-williams",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un tranvía llamado Deseo",
+        "authorName": "Tennessee Williams",
+        "authorSlug": "tennessee-williams",
+        "type": "teatro",
+        "audience": "adultos",
+        "genres": [
+          "teatro",
+          "drama",
+          "clásico estadounidense"
+        ],
+        "year": 1947,
+        "pages": 128,
+        "summary": "Blanche DuBois llega a Nueva Orleans para instalarse en la casa humilde de su hermana Stella y de su cuñado Stanley Kowalski. Trae consigo un pasado turbio, una educación sureña venida a menos y una necesidad casi desesperada de sostener una imagen frágil de sí misma. La convivencia con Stanley, directo, violento y profundamente desconfiado, convierte la casa en un campo de tensión moral, sexual y social. Mientras Stella queda atrapada entre ambos, la obra muestra el choque entre ilusión y brutalidad, entre decadencia aristocrática y energía moderna. Tennessee Williams convierte esa crisis doméstica en una tragedia íntima sobre el deseo, la vergüenza, la vulnerabilidad mental y la imposibilidad de volver atrás.",
+        "aboutThisBook": "Publicada en 1947, esta pieza suele considerarse la obra maestra de Tennessee Williams y fue reconocida con el Premio Pulitzer de Drama en 1948. Su fuerza no depende solo de la historia de Blanche, sino del modo en que encierra en un espacio pequeño grandes conflictos del siglo XX: clase social, sexualidad, violencia, fragilidad psicológica y pérdida de identidad. En escena, el texto combina intensidad lírica y realismo crudo, con personajes que rara vez se dejan reducir a una sola lectura moral.",
+        "forWhom": "Para lectores y estudiantes interesados en el teatro moderno, la literatura estadounidense y los conflictos psicológicos narrados con gran intensidad verbal.",
+        "whyItMatters": "Sigue siendo una obra central porque retrata con precisión incómoda cómo el deseo, el poder y la humillación moldean las relaciones humanas. También abrió una vía decisiva para el teatro psicológico del siglo XX.",
+        "editorialIntro": "Pocas obras convierten una casa pequeña en un territorio tan cargado de electricidad emocional. Tennessee Williams hace de la llegada de Blanche a Nueva Orleans una colisión inolvidable entre apariencia, memoria, deseo y violencia, y compone un drama que todavía hoy se lee y se representa con una vigencia asombrosa.",
+        "readingLevel": "Nivel medio-alto: el argumento es claro, pero la densidad simbólica, la tensión psicológica y los dobles sentidos piden una lectura atenta.",
+        "whyReadToday": "Porque su mirada sobre la violencia íntima, la vulnerabilidad mental y las ficciones con las que una persona intenta sobrevivir sigue interpelando al lector contemporáneo.",
+        "studyNotes": [
+          "Blanche no es solo una víctima ni solo una fabuladora: su complejidad nace de ambas dimensiones a la vez.",
+          "Stanley representa una fuerza moderna, material y dominante que choca con el mundo en decadencia que Blanche intenta conservar.",
+          "El espacio doméstico funciona como una olla a presión: casi toda la tragedia ocurre en una convivencia cerrada.",
+          "La obra contrapone deseo, compasión y crueldad sin ofrecer consuelos fáciles.",
+          "Conviene atender al simbolismo de la luz, la música y el baño como señales del estado emocional de Blanche."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La llegada de Blanche",
+            "summary": "Blanche DuBois llega a Nueva Orleans tras perder su antiguo mundo y busca refugio en casa de Stella. Desde el comienzo, su refinamiento herido contrasta con el ambiente popular del barrio y con la presencia física y dominante de Stanley."
+          },
+          {
+            "title": "Parte 2: La convivencia se vuelve combate",
+            "summary": "Stanley sospecha de las historias de Blanche y empieza a investigar su pasado. La tensión crece entre interrogatorios, escenas domésticas y una convivencia donde Stella queda emocionalmente dividida entre su hermana y su marido."
+          },
+          {
+            "title": "Parte 3: Deseo, mentira y derrumbe",
+            "summary": "Cuando las ilusiones de Blanche se vuelven cada vez más frágiles, Stanley fuerza una revelación brutal. El conflicto desemboca en una destrucción íntima que deja a la protagonista sin defensa y a los demás personajes frente a una verdad moralmente devastadora."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Blanche y la fabricación de una identidad",
+            "content": "Blanche intenta sostenerse mediante el lenguaje, la memoria selectiva y la teatralización de sí misma. No miente solo para engañar: también inventa una versión habitable del mundo porque la realidad le resulta insoportable."
+          },
+          {
+            "heading": "Stanley como poder material y corporal",
+            "content": "Stanley Kowalski encarna una energía moderna, práctica y agresiva. Frente a la fragilidad verbal de Blanche, él impone hechos, sospecha y dominio físico, convirtiendo el conflicto en una lucha por controlar el espacio y el relato."
+          },
+          {
+            "heading": "La tragedia del deseo y la humillación",
+            "content": "La obra no trata solo del deseo erótico, sino de la necesidad de ser visto, querido y creído. Williams muestra cómo esa necesidad puede convivir con la violencia, la dependencia afectiva y la degradación moral."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o una obra de teatro?",
+            "answer": "Es una obra de teatro escrita por Tennessee Williams y estrenada en 1947."
+          },
+          {
+            "question": "¿Por qué es tan importante en la literatura del siglo XX?",
+            "answer": "Porque renovó el teatro estadounidense con una mezcla de realismo, lirismo y profundidad psicológica, y convirtió a Blanche DuBois en uno de los grandes personajes dramáticos modernos."
+          },
+          {
+            "question": "¿Qué temas conviene seguir durante la lectura?",
+            "answer": "La tensión entre apariencia y verdad, la violencia doméstica, la decadencia social, la sexualidad, la culpa y la fragilidad mental."
+          },
+          {
+            "question": "¿Se puede leer sin conocimientos previos de teatro?",
+            "answer": "Sí. La trama es accesible, aunque gana mucho cuando se presta atención a los símbolos, al ritmo de los diálogos y a la puesta en escena implícita."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia en español: Un tranvía llamado Deseo",
+            "url": "https://es.wikipedia.org/wiki/Un_tranv%C3%ADa_llamado_Deseo_(obra_de_teatro)"
+          },
+          {
+            "label": "Penguin Classics: A Streetcar Named Desire",
+            "url": "https://www.penguin.co.uk/books/57648/a-streetcar-named-desire-by-tennessee-williams/9780141190273"
+          },
+          {
+            "label": "Open Library: A Streetcar Named Desire",
+            "url": "https://openlibrary.org/works/OL30294W/A_Streetcar_Named_Desire"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Tennessee Williams",
+            "url": "https://www.britannica.com/biography/Tennessee-Williams"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "abierto-toda-la-noche-de-david-trueba",
+      "title": "Abierto Toda La Noche",
+      "authorName": "David Trueba",
+      "authorSlug": "david-trueba",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Abierto toda la noche",
+        "authorName": "David Trueba",
+        "authorSlug": "david-trueba",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela",
+          "drama familiar",
+          "comedia negra"
+        ],
+        "year": 1995,
+        "pages": 236,
+        "summary": "En esta primera novela de David Trueba, la familia Belitre se convierte en el centro de una narración coral donde la ternura convive con el desorden, el absurdo y la melancolía. El hogar, presentado como un lugar siempre abierto, acoge personajes excéntricos, vulnerables y contradictorios: desde Matías, un niño de doce años marcado por una extraña enfermedad mental, hasta un abuelo entregado a la poesía y la religión en medio de la demencia senil, pasando por visitantes inesperados que encuentran refugio afectivo en la casa. Trueba arma así una crónica de educación sentimental y de convivencia extrema, donde la comicidad nunca borra el dolor y el melodrama siempre deja espacio para la compasión.",
+        "aboutThisBook": "Publicada por Anagrama en 1995, Abierto toda la noche fue la novela de debut de David Trueba y ya deja ver una voz capaz de mezclar ironía, observación afectiva y sentido del ritmo narrativo. La editorial la presenta como la historia de una familia tan numerosa como disparatada, y esa definición se queda corta: el libro trabaja el caos doméstico como forma de conocimiento, examina la fragilidad emocional de sus personajes y encuentra en la vida familiar una materia a la vez cómica, triste y profundamente humana.",
+        "forWhom": "Para lectores que disfrutan las novelas corales, las historias de familia imperfecta y una prosa capaz de alternar humor, extrañeza y emoción.",
+        "whyItMatters": "Importa porque muestra un primer Trueba ya atento a la dignidad de los personajes vulnerables y al potencial narrativo de lo doméstico. Es una novela breve, pero muy rica en tono, mirada y humanidad.",
+        "editorialIntro": "Hay hogares que ordenan la vida y otros que la desbordan. En la casa de los Belitre, David Trueba encuentra un territorio ideal para contar una educación sentimental llena de humor, rareza y heridas. El resultado es una novela de familia que no busca la solemnidad, pero tampoco rehúye el dolor ni la desorientación de crecer entre afectos inestables.",
+        "readingLevel": "Nivel medio: se lee con fluidez, aunque el carácter coral y el equilibrio entre comedia y desamparo invitan a fijarse en matices de tono.",
+        "whyReadToday": "Porque sigue siendo una novela muy reconocible sobre familias que sobreviven más por afecto improvisado que por equilibrio, y sobre cómo el humor puede convivir con la fragilidad mental y emocional.",
+        "studyNotes": [
+          "La familia Belitre funciona como protagonista colectiva: importa tanto el grupo como cada individuo.",
+          "El humor no rebaja el dolor; al contrario, muchas escenas ganan fuerza precisamente por esa mezcla de risa y herida.",
+          "Matías concentra una parte importante de la extrañeza emocional del libro, pero no agota su sentido.",
+          "El título resume bien la idea central: el hogar como espacio de refugio, tránsito y caos permanente.",
+          "Conviene observar cómo Trueba alterna compasión y distancia irónica sin convertir a sus personajes en caricaturas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La casa de los Belitre",
+            "summary": "La novela instala al lector en un hogar desbordado por presencias, tensiones y afectos imprevisibles. Desde el principio se dibuja a los Belitre como una familia excesiva, caótica y a la vez hospitalaria."
+          },
+          {
+            "title": "Parte 2: Rarezas, crisis y convivencia",
+            "summary": "A medida que se acumulan escenas de alta comedia y de melodrama negro, los personajes revelan sus fragilidades. Matías, el abuelo y otros habitantes o visitantes convierten la casa en un escenario de desequilibrios emocionales continuos."
+          },
+          {
+            "title": "Parte 3: Educación sentimental en desorden",
+            "summary": "La novela termina de afirmar que crecer y comprender a los otros no pasa aquí por la estabilidad, sino por el roce con la excentricidad, la compasión y la pérdida. El hogar aparece como refugio imperfecto, pero real."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La familia como mundo moral",
+            "content": "Trueba no usa la familia solo como decorado. Los Belitre forman un ecosistema afectivo donde cada gesto, manía o desajuste revela una manera concreta de pedir ayuda, ocupar un lugar o resistir la soledad."
+          },
+          {
+            "heading": "Humor, ternura y melodrama",
+            "content": "Uno de los aciertos del libro está en combinar la comicidad con zonas de auténtico desamparo. La risa nunca es puramente burlona: sirve para soportar la vulnerabilidad de los personajes sin negarla."
+          },
+          {
+            "heading": "Una primera novela con voz propia",
+            "content": "Aunque sea un debut, el libro ya muestra una sensibilidad muy definida: gusto por el personaje excéntrico, oído para el diálogo emocional y una mirada que evita tanto la dureza cínica como el sentimentalismo fácil."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de argumento lineal o más bien coral?",
+            "answer": "Es claramente coral. La familia Belitre y su entorno importan más que un único hilo argumental cerrado."
+          },
+          {
+            "question": "¿Predomina el humor o el drama?",
+            "answer": "Ambos. La novela se mueve entre la comedia y el melodrama negro, y precisamente ahí encuentra su tono más propio."
+          },
+          {
+            "question": "¿Fue una obra temprana de David Trueba?",
+            "answer": "Sí. Fue su primera novela, publicada en 1995."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutarla más?",
+            "answer": "Quien busque historias de familia poco convencionales, personajes excéntricos y una mezcla de ternura, ironía y desorden emocional."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Editorial Anagrama: Abierto toda la noche (Narrativas hispánicas)",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/abierto-toda-la-noche/9788433909961/NH_186"
+          },
+          {
+            "label": "Editorial Anagrama: Abierto toda la noche (Compactos)",
+            "url": "https://www.anagrama-ed.es/libro/compactos/abierto-toda-la-noche/9788433960399/CM_229"
+          },
+          {
+            "label": "Todos Tus Libros: Abierto toda la noche",
+            "url": "https://www.todostuslibros.com/libros/abierto-toda-la-noche_978-84-339-0996-1"
+          },
+          {
+            "label": "Open Library: A work page for Abierto toda la noche",
+            "url": "https://openlibrary.org/works/OL165621W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "valentia-de-gabriel-castello-alonso",
+      "title": "Valentia",
+      "authorName": "Gabriel Castello Alonso",
+      "authorSlug": "gabriel-castello-alonso",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Valentía",
+        "authorName": "Gabriel Castelló Alonso",
+        "authorSlug": "gabriel-castello-alonso",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela histórica",
+          "ficción histórica",
+          "novela romana"
+        ],
+        "year": 2008,
+        "pages": 666,
+        "summary": "Ambientada en Hispania en el año 72 a. C., Valentía se presenta como la historia de Cayo Antonio Naso, ciudadano romano de Valentia, elaborador de vinos, veterano de las legiones y hombre influyente en su ciudad. Su vida cambia cuando queda implicado en la revuelta impulsada por Quinto Sertorio, antiguo compañero de armas y nuevo gobernador provincial, contra los poderes que dominan la República. El relato, según la edición consultada, llega al lector a través de la voz del hijo del protagonista, también llamado Cayo Antonio Naso, que cuenta desde el exilio forzoso en la Beronia una cadena de aventuras, horrores, pasiones y traiciones. La novela convierte ese trasfondo político y militar en una amplia reconstrucción de la Hispania romana.",
+        "aboutThisBook": "La obra apareció originalmente en 2008 con el subtítulo Las memorias de Caius Antonius Nasus y tuvo una reedición posterior en GoodBooks. Por su extensión y su premisa, se sitúa en la tradición de la novela histórica de gran aliento, interesada tanto por la intriga política como por la vida cotidiana y militar de la Antigüedad. Más que una simple aventura romana, el libro propone una inmersión amplia en el conflicto sertoriano y en la experiencia de una ciudad hispanorromana sometida a tiempos de rebeldía, alianzas inestables y violencia.",
+        "forWhom": "Para lectores de novela histórica extensa, especialmente quienes disfrutan la Roma republicana, las guerras sertorianas y los relatos de memoria personal dentro de grandes procesos políticos.",
+        "whyItMatters": "Resulta valiosa porque traslada al terreno novelesco un episodio menos transitado de la Hispania romana y lo hace desde una perspectiva local, ligada a Valentia y a la experiencia de sus habitantes.",
+        "editorialIntro": "Roma suele llegar a la ficción a través de sus centros de poder, pero Valentía desplaza la mirada hacia Hispania y hacia la ciudad de Valentia en un momento de ruptura. Gabriel Castelló Alonso combina memoria personal, revuelta política y reconstrucción histórica para levantar una novela amplia, ambiciosa y claramente orientada al lector que busca inmersión de largo recorrido.",
+        "readingLevel": "Nivel medio-alto: la prosa histórica, la amplitud del contexto romano y la extensión del libro exigen constancia, aunque la premisa narrativa es clara.",
+        "whyReadToday": "Porque permite entrar en una zona menos habitual de la novela romana y pensar la política, la lealtad y el exilio desde una Hispania convulsa, lejos del tópico imperial más repetido.",
+        "studyNotes": [
+          "El eje histórico principal es la revuelta de Quinto Sertorio en Hispania, no una simple peripecia privada aislada.",
+          "La novela usa una voz memorialística: el pasado se ordena desde la distancia del exilio.",
+          "Valentia aparece no solo como escenario, sino como identidad política y emocional.",
+          "Conviene distinguir entre el protagonista Cayo Antonio Naso y su hijo narrador, que transmite los hechos.",
+          "La amplitud del libro sugiere una lectura por tramos, atendiendo a política, guerra y vida civil como planos complementarios."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Valentia y el mundo del protagonista",
+            "summary": "La novela sitúa al lector en la Hispania romana y presenta a Cayo Antonio Naso como ciudadano de peso en Valentia, veterano y productor de vino, en un entorno donde la estabilidad política empieza a resquebrajarse."
+          },
+          {
+            "title": "Parte 2: La revuelta sertoriana",
+            "summary": "La irrupción de Quinto Sertorio arrastra al protagonista al centro de una rebelión que enfrenta lealtades personales, intereses republicanos y poderes establecidos. El conflicto amplía la escala del relato y lo llena de peligro."
+          },
+          {
+            "title": "Parte 3: Memoria, exilio y consecuencias",
+            "summary": "Desde el exilio, el hijo de Naso recompone aventuras, traiciones y pérdidas. La dimensión memorialística da al relato un tono de balance histórico y personal, donde la experiencia íntima queda unida a una época turbulenta."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La Hispania romana como centro del relato",
+            "content": "Uno de los rasgos más atractivos del libro es su desplazamiento del foco habitual. En lugar de limitarse a Roma, la acción se asienta en Valentia y en la realidad hispanorromana, lo que da relieve propio al territorio y a sus tensiones."
+          },
+          {
+            "heading": "Memoria y legitimidad narrativa",
+            "content": "El hecho de que los acontecimientos lleguen a través del hijo del protagonista introduce una distancia narrativa significativa. No se trata solo de contar hechos, sino de ordenarlos, heredarlos y darles sentido desde la pérdida y el destierro."
+          },
+          {
+            "heading": "Política, aventura y reconstrucción histórica",
+            "content": "Valentía combina ingredientes de novela de acción con voluntad de ambientación histórica amplia. La rebelión, las alianzas y las traiciones no son mero espectáculo: organizan una visión de época donde lo privado depende de lo político."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica o una biografía novelada?",
+            "answer": "Es una novela histórica ambientada en la Hispania romana, construida alrededor de personajes y conflictos situados en el contexto de la revuelta de Sertorio."
+          },
+          {
+            "question": "¿En qué época transcurre?",
+            "answer": "Se sitúa en Hispania hacia el año 72 a. C., en plena etapa final del conflicto sertoriano."
+          },
+          {
+            "question": "¿Qué hace singular a su ambientación?",
+            "answer": "Que concede un papel central a Valentia y a la experiencia hispanorromana, en vez de concentrarse solo en Roma como centro político del mundo antiguo."
+          },
+          {
+            "question": "¿Es una lectura recomendable para iniciarse en la novela romana?",
+            "answer": "Sí, si el lector no teme una novela extensa. Ofrece aventura, contexto político y una ambientación histórica amplia, aunque su volumen pide cierta constancia."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Todos Tus Libros: Valentía (edición 2008)",
+            "url": "https://www.todostuslibros.com/libros/valentia_978-84-936725-1-5"
+          },
+          {
+            "label": "Todos Tus Libros: Valentía (edición 2013)",
+            "url": "https://www.todostuslibros.com/libros/valentia_978-84-940534-6-7"
+          },
+          {
+            "label": "Open Library: Valentia work page",
+            "url": "https://openlibrary.org/works/OL18752484W"
+          },
+          {
+            "label": "Agapea: Valentia",
+            "url": "https://www.agapea.com/libros/VALENTIA-9788493672515-i.htm"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-chica-del-semaforo-y-el-hombre-del-coche-de-david-orange",
+      "title": "La Chica Del Semaforo Y El Hombre Del Coche",
+      "authorName": "David Orange",
+      "authorSlug": "david-orange",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 1,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La chica del semáforo y el hombre del coche",
+        "authorName": "David Orange",
+        "authorSlug": "david-orange",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela negra",
+          "thriller",
+          "suspense"
+        ],
+        "year": 2020,
+        "pages": 384,
+        "summary": "Jack Miller, un matemático brillante especializado en probabilidad y fenómenos aleatorios, arriesga años de trabajo en un proyecto enigmático cuando irrumpe en su vida la posibilidad de un vínculo afectivo que nunca había tenido. Al mismo tiempo, un asesino en serie de método elaborado mantiene en vilo a la ciudad y obliga al FBI a perseguir una lógica criminal que parece esconder símbolos, patrones y una inteligencia fuera de lo común. La pista recurrente de un sedán negro conecta ambas líneas narrativas y convierte la novela en un thriller donde el cálculo, el azar y la identidad se entrelazan. David Orange plantea una historia de persecución y misterio, pero también una reflexión sobre hasta qué punto la mente humana puede anticipar, manipular o malinterpretar el destino.",
+        "aboutThisBook": "Publicada por Booket en 2020 dentro de la colección Crimen y Misterio, esta novela mezcla suspense policial con una premisa intelectual poco habitual en el género: el peso de las matemáticas y de la probabilidad en la lectura de la realidad. La sinopsis editorial subraya su ritmo adictivo, su componente filosófico y un desenlace pensado para el impacto. Es una obra concebida para lectores de thriller que agradecen, además de intriga, una capa de especulación sobre la identidad y el sentido de la existencia.",
+        "forWhom": "Para lectores adultos que disfrutan del thriller de alta tensión, las novelas negras con enigmas y las tramas donde ciencia, azar y crimen se combinan sin perder agilidad narrativa.",
+        "whyItMatters": "Importa porque intenta sacar la novela negra de sus rutinas más previsibles y la lleva a un terreno donde el cálculo, el símbolo y la obsesión personal pesan tanto como la persecución criminal.",
+        "editorialIntro": "Hay novelas de suspense que se limitan a esconder al culpable y otras que intentan alterar la manera en que el lector mira el mundo. La chica del semáforo y el hombre del coche pertenece a esta segunda clase: arranca como un thriller criminal, pero pronto convierte el azar, la inteligencia y la identidad en piezas de una intriga mucho más amplia.",
+        "readingLevel": "Media-alta: la trama es ágil, pero incorpora ideas sobre probabilidad, simbolismo e interpretación que invitan a leer con atención.",
+        "whyReadToday": "Porque conecta dos obsesiones muy actuales —la necesidad de encontrar patrones y el miedo a que todo sea manipulado— dentro de una ficción de suspense pensada para mantener la tensión hasta el final.",
+        "studyNotes": [
+          "Observa cómo la idea de probabilidad no aparece solo como tema, sino como forma de interpretar decisiones, coincidencias y crímenes.",
+          "Compara el hilo íntimo de Jack Miller con la investigación del asesino: la novela sugiere que razón y deseo nunca avanzan por carriles separados.",
+          "La pista del sedán negro funciona como imagen unificadora; conviene seguir cuándo aparece y qué modifica en la lectura del caso.",
+          "El texto parece buscar un equilibrio entre entretenimiento puro y reflexión filosófica sobre identidad y destino."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento",
+            "summary": "La novela presenta a Jack Miller como una mente excepcional dedicada al estudio de la probabilidad, mientras deja ver que su vida personal está marcada por la carencia afectiva y por un proyecto de enorme importancia para él."
+          },
+          {
+            "title": "La ciudad bajo amenaza",
+            "summary": "En paralelo, la investigación de un asesino en serie introduce el componente policial: un modus operandi singular, símbolos desconcertantes y una única pista material, el sedán negro, tensan el relato."
+          },
+          {
+            "title": "Cruce de obsesiones",
+            "summary": "Las conexiones entre cálculo, deseo, crimen y azar empiezan a estrecharse, de modo que la novela desplaza el foco desde el simple enigma hacia la relación entre mente analítica y caos humano."
+          },
+          {
+            "title": "Desenlace",
+            "summary": "El cierre busca el efecto de sorpresa prometido por la promoción editorial y reorganiza retrospectivamente las pistas para dar sentido al vínculo entre los personajes, la investigación y la idea de destino."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Probabilidad y narrativa",
+            "content": "El rasgo más distintivo del libro es que convierte la probabilidad en una herramienta dramática. No se trata solo de un rasgo profesional del protagonista, sino de una forma de leer el mundo, de sospechar que incluso lo aparentemente fortuito puede responder a una lógica."
+          },
+          {
+            "heading": "Thriller e identidad",
+            "content": "La sinopsis editorial insiste en que la novela explora la identidad humana. Eso sugiere que el crimen no funciona únicamente como motor de suspense, sino como mecanismo para poner a prueba quiénes son realmente sus personajes cuando el orden se rompe."
+          },
+          {
+            "heading": "El símbolo del coche",
+            "content": "El sedán negro actúa como emblema de amenaza y de enlace entre tramas. Su presencia concentra la inquietud del relato y da a la investigación una forma visual clara, casi cinematográfica."
+          },
+          {
+            "heading": "Ritmo comercial con ambición conceptual",
+            "content": "Aunque la novela se presenta como lectura adictiva, incorpora un armazón de ideas —azar, destino, sentido de la existencia— que la acerca a un thriller con vocación de debatir algo más que la resolución del caso."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela negra clásica?",
+            "answer": "Tiene elementos de novela negra y de thriller policial, pero añade una dimensión intelectual marcada por la probabilidad, el simbolismo y la reflexión sobre la identidad."
+          },
+          {
+            "question": "¿El componente matemático la vuelve difícil?",
+            "answer": "No necesariamente. Las fuentes editoriales la presentan como una novela muy adictiva; las ideas matemáticas funcionan más como atmósfera y clave temática que como tratado técnico."
+          },
+          {
+            "question": "¿Qué tipo de protagonista es Jack Miller?",
+            "answer": "Es un genio de los números especializado en fenómenos aleatorios. Su perfil combina talento analítico, aislamiento personal y una vulnerabilidad afectiva decisiva para la trama."
+          },
+          {
+            "question": "¿Por qué destaca el sedán negro?",
+            "answer": "Porque es la pista central del caso y el elemento simbólico que ordena la intriga criminal, uniendo amenaza, persecución y expectativa narrativa."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "url": "https://www.casadellibro.com/libro-la-chica-del-semaforo-y-el-hombre-del-coche/9788408233084/11652879",
+            "label": "Casa del Libro - La chica del semáforo y el hombre del coche"
+          },
+          {
+            "url": "https://openlibrary.org/books/OL47662169M/La_Chica_del_Semáforo_y_el_Hombre_del_Coche",
+            "label": "Open Library - edición Booket 2020"
+          },
+          {
+            "url": "https://www.agapea.com/David-Orange/La-Chica-del-Semaforo-y-el-Hombre-del-Coche-9788408233084-i.htm",
+            "label": "Agapea - ficha del libro"
+          },
+          {
+            "url": "https://bookfilmrights.planetadelibros.com/author/david-orange/000051539",
+            "label": "Planeta Book & Film Rights - perfil de David Orange"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-infierno-de-los-jemeres-rojos-testimonio-de-una-superviviente-de-denise-affonco",
+      "title": "El Infierno De Los Jemeres Rojos Testimonio De Una Superviviente",
+      "authorName": "Denise Affonco",
+      "authorSlug": "denise-affonco",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 721,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El infierno de los jemeres rojos: testimonio de una superviviente",
+        "authorName": "Denise Affonço",
+        "authorSlug": "denise-affonco",
+        "type": "no-ficcion",
+        "audience": "adultos",
+        "genres": [
+          "memorias",
+          "testimonio",
+          "historia",
+          "no ficción"
+        ],
+        "year": 2010,
+        "pages": 256,
+        "summary": "Denise Affonço cuenta en primera persona la destrucción de su mundo cuando los jemeres rojos toman Phnom Penh en abril de 1975 y fuerzan a millones de camboyanos a abandonar la ciudad para integrarse en un proyecto agrario totalitario. Desde esa expulsión inicial, el libro sigue la degradación cotidiana de la existencia: trabajo forzoso, hambre, enfermedad, vigilancia, humillación y muerte. Affonço no escribe desde la distancia académica, sino desde la experiencia directa de una superviviente que perdió a miembros de su familia y que transformó en testimonio las notas redactadas en 1979, poco después de la caída del régimen. El resultado es un relato sobrio y devastador que ilumina la violencia política no como abstracción ideológica, sino como destrucción concreta del cuerpo, de los afectos y de la vida civil.",
+        "aboutThisBook": "Libros del Asteroide publicó en 2010 la edición española de este testimonio, presentado como uno de los escasos relatos en primera persona sobre el régimen camboyano de 1975 a 1979. La autora trabajaba en la embajada francesa en Phnom Penh cuando se produjo la toma del poder y más tarde utilizó los cuadernos escritos tras su liberación para preparar su declaración en el proceso contra los dirigentes jemeres rojos. La obra se publicó originalmente en Francia en 2005 y combina memoria íntima, denuncia histórica y voluntad de justicia.",
+        "forWhom": "Para lectores de memoria histórica, derechos humanos y testimonios sobre totalitarismos, así como para quienes buscan una entrada directa y humana al desastre provocado por los jemeres rojos en Camboya.",
+        "whyItMatters": "Importa porque convierte una de las grandes catástrofes del siglo XX en experiencia legible y concreta, y recuerda que las cifras del terror solo adquieren dimensión ética plena cuando una voz superviviente las devuelve al cuerpo y a la vida diaria.",
+        "editorialIntro": "No todos los libros de historia consiguen que el lector sienta el peso real de una dictadura. El infierno de los jemeres rojos lo logra porque no teoriza el horror desde fuera: lo reconstruye desde dentro, con la precisión herida de quien vio cómo una revolución convertía el país entero en un mecanismo de hambre, miedo y aniquilación.",
+        "readingLevel": "Medio: la prosa testimonial es clara, pero la dureza de los hechos y el contexto histórico exigen una lectura atenta y emocionalmente preparada.",
+        "whyReadToday": "Porque sigue siendo urgente escuchar voces de supervivientes cuando los discursos autoritarios vuelven a simplificar la violencia política y a presentar la deshumanización como si fuera una solución histórica.",
+        "studyNotes": [
+          "El libro permite estudiar cómo un testimonio personal puede funcionar al mismo tiempo como documento histórico y como duelo privado.",
+          "Conviene fijarse en la materialidad del horror: hambre, enfermedad, desplazamiento y trabajo forzoso organizan la experiencia narrada.",
+          "Affonço escribe a partir de notas tomadas poco después de la liberación, lo que da al texto una intensidad de memoria inmediata muy distinta a la de una reconstrucción tardía.",
+          "La obra es especialmente útil para analizar la relación entre testimonio, justicia y responsabilidad política."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Caída de Phnom Penh",
+            "summary": "La autora sitúa el comienzo del desastre en la entrada de los jemeres rojos en la capital camboyana y en la expulsión masiva de los habitantes urbanos hacia el campo."
+          },
+          {
+            "title": "Vida bajo el régimen",
+            "summary": "El núcleo del libro describe el trabajo agrícola obligatorio, la escasez extrema, la vigilancia constante y el modo en que el régimen destruye vínculos familiares y cualquier margen de autonomía."
+          },
+          {
+            "title": "Pérdida y supervivencia",
+            "summary": "La narración se vuelve más íntima al mostrar el coste humano del terror: muerte de seres queridos, degradación física y resistencia elemental para seguir con vida día tras día."
+          },
+          {
+            "title": "Memoria y testimonio",
+            "summary": "Tras la caída del régimen, las notas escritas por Affonço y su preparación para declarar contra los dirigentes jemeres rojos convierten la experiencia vivida en acusación moral e histórica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El valor del testimonio",
+            "content": "La fuerza del libro reside en su condición de voz superviviente. Frente a los relatos generales sobre Camboya, Affonço ofrece una perspectiva encarnada que vuelve visible la textura diaria del terror político."
+          },
+          {
+            "heading": "Hambre, cuerpo y dominación",
+            "content": "Una de las claves de lectura más importantes es la centralidad del cuerpo. El régimen no aparece solo como ideología, sino como administración de la debilidad física, del agotamiento y de la vulnerabilidad extrema."
+          },
+          {
+            "heading": "Memoria contra borrado",
+            "content": "El texto combate la desaparición simbólica de las víctimas. Al escribir, Affonço recupera nombres, situaciones y emociones que el totalitarismo pretendía reducir a masa anónima."
+          },
+          {
+            "heading": "Justicia y después del horror",
+            "content": "El libro no concluye simplemente con la supervivencia. También abre la pregunta por la responsabilidad histórica, la posibilidad de testificar y el papel de la palabra en los procesos de reparación."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un testimonio real?",
+            "answer": "Es un testimonio autobiográfico. La propia edición española lo presenta como el relato de una superviviente del régimen de los jemeres rojos."
+          },
+          {
+            "question": "¿Qué periodo histórico cubre?",
+            "answer": "Se centra en la Camboya dominada por los jemeres rojos entre 1975 y 1979, a partir de la caída de Phnom Penh y la deportación de la población urbana al campo."
+          },
+          {
+            "question": "¿Por qué es un libro importante dentro de la memoria del siglo XX?",
+            "answer": "Porque existen relativamente pocos testimonios publicados con este nivel de cercanía sobre ese régimen, y el libro muestra cómo la violencia ideológica destruye vidas concretas."
+          },
+          {
+            "question": "¿Es recomendable para empezar a leer sobre Camboya?",
+            "answer": "Sí, especialmente si se busca una puerta de entrada humana y directa. Conviene complementarlo después con historia general del periodo para ampliar contexto."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "url": "https://librosdelasteroide.com/libro/el-infierno-de-los-jemeres-rojos",
+            "label": "Libros del Asteroide - El infierno de los jemeres rojos"
+          },
+          {
+            "url": "https://www.casadellibro.com/libro-el-infierno-de-los-jemeres-rojos/9788492663231/1805311",
+            "label": "Casa del Libro - El infierno de los jemeres rojos"
+          },
+          {
+            "url": "https://oceano.mx/ficha-libro.aspx?id=19438",
+            "label": "Editorial Océano - ficha del libro"
+          },
+          {
+            "url": "https://openlibrary.org/works/OL15594501W/El_infierno_de_los_jemeres_rojos",
+            "label": "Open Library - El infierno de los jemeres rojos"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tango-satanico-de-laszlo-krasznahorkai",
+      "title": "Tango Satanico",
+      "authorName": "Laszlo Krasznahorkai",
+      "authorSlug": "laszlo-krasznahorkai",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 105,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Tango satánico",
+        "authorName": "László Krasznahorkai",
+        "authorSlug": "laszlo-krasznahorkai",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "ficción literaria",
+          "sátira",
+          "novela filosófica",
+          "narrativa centroeuropea"
+        ],
+        "year": 1985,
+        "pages": 304,
+        "summary": "En una aldea húngara casi fantasmal, castigada por la lluvia, el barro y el derrumbe moral, los restos de una cooperativa fallida sobreviven entre la miseria, la rutina y una espera sin horizonte. La noticia del posible regreso de Irimiás, un personaje carismático al que daban por muerto, altera el equilibrio de esa comunidad exhausta y reactiva una esperanza tan intensa como peligrosa. Krasznahorkai sigue a distintos habitantes del lugar mientras el rumor se convierte en promesa, la promesa en movimiento colectivo y ese movimiento en una nueva forma de sometimiento. Más que contar una intriga lineal, la novela compone una visión del tiempo detenido, del engaño compartido y de la facilidad con que una comunidad desesperada entrega su voluntad a quien sabe administrar ilusiones. El resultado es una obra hipnótica, sombría y extrañamente irónica.",
+        "aboutThisBook": "Publicada originalmente en 1985, Sátántangó fue la primera novela de László Krasznahorkai y con el tiempo se convirtió en una de las obras decisivas de la narrativa húngara contemporánea. La edición española de Acantilado, traducida por Adan Kovacsics, la presenta como una novela paródica y mordaz sobre la esperanza y el valor de las promesas. La obra inspiró además la célebre adaptación cinematográfica de Béla Tarr. Su estructura de doce capítulos avanza y retrocede como un tango, reforzando la sensación de circularidad, estancamiento y repetición que domina toda la experiencia de lectura.",
+        "forWhom": "Para lectores de ficción exigente, literatura centroeuropea, novelas corales y obras donde la atmósfera, la estructura y la idea de comunidad importan tanto como la trama visible.",
+        "whyItMatters": "Importa porque muestra con una potencia poco común cómo el derrumbe social produce hambre de salvación, y cómo esa necesidad puede ser explotada por figuras carismáticas que prometen sentido allí donde solo hay ruina, miedo y desgaste moral.",
+        "editorialIntro": "Tango satánico no ofrece consuelo rápido ni desarrollo convencional. Lo que propone es una inmersión en un paisaje físico y moral devastado donde cada paso parece hundirse en el barro y cada promesa trae consigo una amenaza. Krasznahorkai construye así una de las novelas más intensas sobre la espera, la manipulación y la fatiga histórica en la Europa de finales del siglo XX.",
+        "readingLevel": "Alto: exige atención a la atmósfera, a la estructura circular y a una prosa densa que privilegia la percepción, el ritmo y la ambigüedad moral.",
+        "whyReadToday": "Porque sigue hablando con fuerza del deseo colectivo de creer en salvadores, de la fragilidad de las comunidades agotadas y de la facilidad con que una promesa puede reorganizar una realidad en ruinas.",
+        "studyNotes": [
+          "La estructura en doce movimientos, comparable a los pasos de un tango, es clave para entender la circularidad de la novela.",
+          "Irimiás importa menos como individuo psicológico que como figura de autoridad carismática capaz de capitalizar la desesperación ajena.",
+          "El paisaje no es decorado: lluvia, barro y decadencia material forman una extensión del estado moral de la comunidad.",
+          "Conviene seguir los cambios de perspectiva, porque la novela arma su sentido coral a partir de miradas parciales y desplazamientos temporales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "I. Noticias de su llegada",
+            "summary": "La aldea en ruinas se ve sacudida por el rumor de que Irimiás, dado por muerto, podría regresar. Ese anuncio despierta expectativas desproporcionadas en una comunidad sin horizonte."
+          },
+          {
+            "title": "II. Resurrección",
+            "summary": "La esperanza colectiva adquiere un tono casi mesiánico. Los habitantes comienzan a reinterpretar su miseria como un estado transitorio y a imaginar un cambio radical de destino."
+          },
+          {
+            "title": "VI. Irimiás pronuncia un discurso",
+            "summary": "Cuando Irimiás reaparece, su palabra organiza la energía dispersa del grupo. El liderazgo verbal funciona como seducción, disciplina y promesa de orden en medio del caos."
+          },
+          {
+            "title": "I. El círculo se cierra",
+            "summary": "El movimiento final devuelve a la novela su forma cerrada: la promesa de salida no anula la sensación de encierro, sino que confirma la repetición, la manipulación y el desgaste sin redención clara."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La esperanza como mecanismo de control",
+            "content": "Krasznahorkai retrata una comunidad tan erosionada por la pobreza y el aislamiento que la esperanza deja de ser una virtud y se vuelve una vía de captura. Irimiás triunfa porque ofrece relato antes que solución."
+          },
+          {
+            "heading": "Tiempo detenido y estructura circular",
+            "content": "La novela trabaja contra la idea de progreso lineal. Su disposición en movimientos que avanzan y retroceden reproduce una experiencia histórica de inmovilidad, donde todo parece cambiar para confirmar el mismo estancamiento."
+          },
+          {
+            "heading": "Paisaje moral de la decadencia",
+            "content": "La lluvia, el barro y la ruina arquitectónica no son simple ambientación. Funcionan como traducción material del cansancio moral, de la descomposición social y de la percepción apocalíptica que recorre el libro."
+          },
+          {
+            "heading": "Humor negro y visión apocalíptica",
+            "content": "Aunque suele recordarse por su intensidad sombría, la novela también despliega una ironía feroz. Esa mezcla de gravedad y sarcasmo vuelve más incisiva su crítica de las ilusiones colectivas y de la autoridad carismática."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es la novela en la que se basa la película de Béla Tarr?",
+            "answer": "Sí. Satantango fue adaptada por Béla Tarr en la célebre película Sátántangó, estrenada en 1994."
+          },
+          {
+            "question": "¿Hace falta conocer la historia de Hungría para leerla?",
+            "answer": "No es imprescindible, aunque ayuda entender el trasfondo de decadencia rural y fracaso colectivo. La novela funciona también como alegoría amplia sobre poder, espera y manipulación."
+          },
+          {
+            "question": "¿Qué significa que tenga estructura de tango?",
+            "answer": "La obra está organizada en doce partes que avanzan y retroceden de manera simétrica, como si la narración bailara hacia delante y hacia atrás, reforzando la idea de círculo y repetición."
+          },
+          {
+            "question": "¿Es una lectura principalmente argumental o atmosférica?",
+            "answer": "Ambas cosas, pero domina la atmósfera. Hay hechos importantes, aunque el gran efecto de la novela nace del ritmo, la percepción del tiempo y la presión moral del ambiente."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "url": "https://www.acantilado.es/catalogo/tango-satanico/",
+            "label": "Editorial Acantilado - Tango satánico"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Satantango_(novel)",
+            "label": "Wikipedia - Satantango (novel)"
+          },
+          {
+            "url": "https://openlibrary.org/works/OL3428975W/Sátántangó",
+            "label": "Open Library - Sátántangó"
+          },
+          {
+            "url": "https://www.casadellibro.com/libro-tango-satanico/9788416748679/5989980",
+            "label": "Casa del Libro - Tango satánico"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tradiciones-peruanas-de-ricardo-palma",
+      "title": "Tradiciones Peruanas",
+      "authorName": "Ricardo Palma",
+      "authorSlug": "ricardo-palma",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 104,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Tradiciones peruanas",
+        "authorName": "Ricardo Palma",
+        "authorSlug": "ricardo-palma",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "clásico latinoamericano",
+          "relato histórico",
+          "costumbrismo"
+        ],
+        "year": 1872,
+        "pages": null,
+        "summary": "Tradiciones peruanas es la obra más emblemática de Ricardo Palma y una de las piezas centrales de la literatura peruana. No se trata de una novela unitaria, sino de una amplia colección de relatos breves en los que el autor mezcla crónica, leyenda, ironía, memoria oral y comentario histórico para recrear episodios del Perú virreinal y republicano. Palma escribe con una voz conversadora, ingeniosa y muy flexible: cuenta sucesos del pasado, pero los vuelve cercanos mediante humor, giros populares y observaciones mordaces. El resultado es un libro decisivo para entender cómo la literatura puede convertir archivos, rumores y tradiciones locales en una visión viva de la historia nacional.",
+        "aboutThisBook": "Esta obra nació como una serie de textos publicados y reunidos en varios volúmenes a lo largo de décadas. Britannica la describe como la fuente principal de la fama de Palma y subraya que son prosas breves que mezclan hecho y fantasía sobre el esplendor y la intriga del Perú colonial. La Biblioteca Nacional del Perú conserva tomos de la edición barcelonesa de 1893, y la Biblioteca Virtual Miguel de Cervantes ofrece ediciones digitales de distintas series. Más que un simple repertorio anecdótico, Tradiciones peruanas fijó una manera original de narrar el pasado hispanoamericano con erudición ligera, humor y fuerte color local.",
+        "forWhom": "Para lectores interesados en clásicos hispanoamericanos, historia cultural del Perú, relatos breves con humor e ironía, y estudiantes que quieran acercarse a una obra clave de la prosa decimonónica.",
+        "whyItMatters": "Importa porque ayudó a construir una memoria literaria del Perú desde una forma híbrida, amena y muy influyente. Palma convirtió materiales históricos y populares en literatura perdurable y ofreció una imagen del pasado que marcó la identidad cultural peruana y latinoamericana.",
+        "editorialIntro": "Hay libros que cuentan la historia y libros que enseñan a escuchar cómo una nación se la cuenta a sí misma. Tradiciones peruanas pertenece a esa segunda categoría. Ricardo Palma no escribe como un historiador seco ni como un novelista puramente fantasioso: se mueve entre ambos registros con una libertad brillante. Sus relatos rescatan voces, supersticiones, chismes, episodios coloniales y escenas urbanas para mostrar que el pasado también vive en la imaginación popular.",
+        "readingLevel": "Lectura media a exigente: el estilo es ágil, pero abundan referencias históricas, ironías, arcaísmos y guiños culturales que se disfrutan más con cierta contextualización.",
+        "whyReadToday": "Porque sigue siendo una puerta privilegiada a la historia cultural peruana y un ejemplo magnífico de cómo la literatura puede dialogar con archivos, leyendas y memoria colectiva sin perder gracia narrativa.",
+        "studyNotes": [
+          "No es una novela cerrada, sino una colección de tradiciones; conviene leerla como proyecto literario de largo aliento y no como una única trama lineal.",
+          "El rasgo decisivo de Palma es la mezcla de dato histórico, oralidad, humor y ficción: esa hibridez define el género de la tradición peruana.",
+          "La edición de 1893 conservada por la Biblioteca Nacional del Perú muestra la organización en tomos y series, útil para estudiar la evolución del conjunto.",
+          "Muchas piezas funcionan como retratos de costumbres y como comentarios sobre el poder, la religión, la burocracia y la vida cotidiana colonial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera serie: fundación del tono tradicionalista",
+            "summary": "En las primeras tradiciones aparece con claridad la fórmula de Palma: relatos breves apoyados en episodios históricos, anécdotas urbanas y leyendas transmitidas por la memoria colectiva. El narrador se permite comentar, bromear y guiar al lector, estableciendo una relación muy cercana con quien lee."
+          },
+          {
+            "title": "Segunda serie: Lima virreinal, sátira y costumbres",
+            "summary": "El conjunto amplía su mirada sobre la sociedad colonial mediante historias de clérigos, funcionarios, vecinos, pleitos y supersticiones. Palma retrata una ciudad llena de ceremonias, desigualdades y picardía, y convierte cada caso en una miniatura narrativa donde el humor convive con la observación histórica."
+          },
+          {
+            "title": "Series posteriores: la tradición como memoria nacional",
+            "summary": "A medida que la obra crece, las tradiciones consolidan una visión del pasado peruano que no separa del todo historia y leyenda. El proyecto entero funciona como archivo literario de voces, escenas y mitos nacionales, y muestra cómo la prosa breve puede fijar una identidad cultural compleja."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Entre historia y ficción",
+            "content": "La originalidad de Palma está en no presentar el pasado como una sucesión neutra de hechos, sino como una materia narrativa maleable. Sus tradiciones mezclan documento, rumor, refrán, invención y comentario autoral. Esa mezcla no debilita la obra: le da precisamente su sello y explica por qué sigue siendo leída tanto por interés literario como histórico."
+          },
+          {
+            "heading": "La voz conversadora del narrador",
+            "content": "Uno de los mayores encantos del libro es la presencia de un narrador que parece hablarle directamente al lector. Palma interrumpe, ironiza, resume, exagera y remata con agudeza. Gracias a esa voz, incluso los asuntos eruditos o remotos adquieren ligereza y una marcada personalidad estilística."
+          },
+          {
+            "heading": "La construcción literaria del Perú colonial",
+            "content": "Tradiciones peruanas ayudó a fijar una imagen del mundo virreinal como espacio de intriga, ceremonial, malicia y color popular. No ofrece una historia exhaustiva ni objetiva, pero sí una visión literaria poderosa del pasado. Esa representación influyó en la forma en que generaciones posteriores imaginaron la colonia y su legado en la vida peruana."
+          },
+          {
+            "heading": "Un clásico útil para leer identidad cultural",
+            "content": "Hoy la obra interesa no solo por sus historias concretas, sino porque muestra cómo se fabrica una memoria nacional desde la escritura. Leer a Palma permite pensar qué se recuerda, qué se embellece, qué se satiriza y cómo la literatura organiza una tradición compartida."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Tradiciones peruanas es una novela?",
+            "answer": "No. Es una colección de relatos breves o “tradiciones” que combinan historia, leyenda, costumbrismo e invención literaria."
+          },
+          {
+            "question": "¿Está basada en hechos reales?",
+            "answer": "Parcialmente. Palma toma materiales históricos, folclóricos y anecdóticos, pero los reelabora con libertad narrativa, humor e imaginación."
+          },
+          {
+            "question": "¿Por qué es una obra tan importante en Perú?",
+            "answer": "Porque convirtió el pasado colonial y republicano en una forma literaria reconocible, influyente y muy accesible, decisiva para la memoria cultural peruana."
+          },
+          {
+            "question": "¿Se puede leer por fragmentos?",
+            "answer": "Sí. Como está compuesta por tradiciones independientes, admite una lectura parcial o selectiva, aunque leer varias piezas ayuda a apreciar mejor la coherencia del proyecto de Palma."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Encyclopaedia Britannica: Ricardo Palma",
+            "url": "https://www.britannica.com/biography/Ricardo-Palma"
+          },
+          {
+            "label": "Biblioteca Nacional del Perú: Tradiciones peruanas. Tomo I",
+            "url": "https://bibliotecadigital.bnp.gob.pe/items/58a7a22a-b4c3-4c44-912e-a5d63b073dcb"
+          },
+          {
+            "label": "Wikipedia: Tradiciones peruanas",
+            "url": "https://es.wikipedia.org/wiki/Tradiciones_peruanas"
+          },
+          {
+            "label": "Open Library: Tradiciones peruanas work page",
+            "url": "https://openlibrary.org/works/OL2783595W/Tradiciones_peruanas"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "como-el-grinch-robo-la-navidad-de-dr-seuss",
+      "title": "Como El Grinch Robo La Navidad",
+      "authorName": "Dr Seuss",
+      "authorSlug": "dr-seuss",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 89,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cómo el Grinch robó la Navidad",
+        "authorName": "Dr. Seuss",
+        "authorSlug": "dr-seuss",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "cuento infantil",
+          "álbum ilustrado",
+          "clásico navideño"
+        ],
+        "year": 1957,
+        "pages": 64,
+        "summary": "Cómo el Grinch robó la Navidad es uno de los cuentos infantiles más famosos de Dr. Seuss. La historia presenta a un ser huraño y malhumorado que vive aislado sobre Villaquién y detesta la alegría navideña de sus vecinos. Convencido de que la fiesta depende solo de regalos, adornos y comida, decide robar todo lo que encuentra en las casas del pueblo para arruinar la celebración. Sin embargo, la mañana de Navidad descubre que los Quiénes siguen cantando unidos. Ese momento transforma el sentido del relato: la Navidad deja de ser una acumulación de objetos y aparece como una experiencia de comunidad, afecto y reconciliación. Con verso, humor e imágenes memorables, el libro convierte una fábula simple en una lección emocional duradera.",
+        "aboutThisBook": "Publicada en 1957, esta obra apareció tanto en edición de Random House como en la revista Redbook. Penguin Random House registra la edición clásica como un libro de 64 páginas y la presenta como un título icónico del catálogo de Dr. Seuss. La historia se volvió rápidamente parte del imaginario navideño anglosajón y, con el tiempo, alcanzó una circulación internacional enorme gracias a traducciones, adaptaciones audiovisuales y reediciones constantes. Su fuerza está en la combinación de musicalidad verbal, humor visual y una moraleja que no sermonea: el corazón del relato es la posibilidad de cambiar.",
+        "forWhom": "Para niños desde primeros lectores, familias, docentes y cualquier lector que busque una historia breve, divertida y muy eficaz para hablar de empatía, comunidad y transformación personal.",
+        "whyItMatters": "Sigue importando porque convirtió una fábula navideña en una historia universal sobre el resentimiento, la soledad y la capacidad de abrirse a los demás. Pocos libros infantiles han fijado un personaje tan reconocible y una imagen moral tan clara sin perder humor.",
+        "editorialIntro": "Pocas historias navideñas modernas han alcanzado la potencia simbólica de esta. El Grinch ya no es solo un personaje: es casi una palabra para nombrar el rechazo amargo a la alegría ajena. Dr. Seuss logró esa permanencia con recursos muy sencillos y muy precisos: ritmo, repetición, dibujos expresivos y un giro emocional inolvidable. El libro se lee rápido, pero deja una intuición profunda sobre la celebración, el aislamiento y la posibilidad de cambiar de mirada.",
+        "readingLevel": "Adecuado para lectura infantil acompañada o autónoma temprana; el lenguaje rimado y repetitivo ayuda, aunque algunas ediciones traducidas se disfrutan más si hay mediación adulta.",
+        "whyReadToday": "Porque en una época de consumo acelerado el libro recuerda, con humor y ternura, que una celebración compartida vale más que los objetos que la rodean.",
+        "studyNotes": [
+          "La estructura del cuento es muy clara: resentimiento, plan de sabotaje, fracaso moral del plan y transformación del personaje.",
+          "El contraste entre el Grinch y los Quiénes permite trabajar oposición entre aislamiento y comunidad.",
+          "La moraleja no elimina el humor: el libro funciona porque el cambio del Grinch nace de una revelación emocional, no de un castigo externo.",
+          "Las ilustraciones y el ritmo verbal son parte esencial del efecto narrativo; no conviene leerlo como un texto separado de su dimensión visual."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Preparativos en Villaquién",
+            "summary": "El cuento presenta a los Quiénes celebrando la Navidad con entusiasmo, mientras el Grinch observa desde su cueva con fastidio y desprecio. Desde el inicio queda planteado el conflicto entre alegría comunitaria y aislamiento resentido."
+          },
+          {
+            "title": "El robo de la fiesta",
+            "summary": "Convencido de que la Navidad depende de regalos, árboles, banquetes y adornos, el Grinch idea un plan para quitarles todo a los habitantes de Villaquién. Su operación nocturna concentra el tono cómico y travieso del libro, pero también revela su profunda incomprensión del sentido de la celebración."
+          },
+          {
+            "title": "La mañana del cambio",
+            "summary": "Cuando descubre que los Quiénes siguen cantando pese a la pérdida de los objetos navideños, el Grinch entiende que la Navidad significa algo más hondo. Ese descubrimiento ensancha simbólicamente su corazón y lo lleva a regresar al pueblo y compartir el banquete."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una fábula contra el reduccionismo material",
+            "content": "El núcleo del libro está en la confusión del Grinch: cree que la Navidad puede destruirse si desaparecen sus signos materiales. La historia demuestra lo contrario y propone una idea simple pero poderosa: la fiesta tiene un fundamento afectivo y comunitario que no se agota en el consumo."
+          },
+          {
+            "heading": "El Grinch como figura del resentimiento",
+            "content": "El personaje funciona porque exagera un rasgo humano reconocible: la incapacidad de soportar la alegría de otros cuando uno vive encerrado en su propio malestar. Dr. Seuss no lo vuelve monstruoso de forma irreparable; lo presenta como alguien herido, deformado por el aislamiento y todavía capaz de cambiar."
+          },
+          {
+            "heading": "Ritmo, ilustración y memoria cultural",
+            "content": "La permanencia del libro no depende solo de su moraleja, sino de su forma. El verso juguetón, las repeticiones y las imágenes de Seuss hacen que la historia sea fácil de recordar y leer en voz alta. Esa eficacia formal explica su lugar privilegiado en el canon infantil del siglo XX."
+          },
+          {
+            "heading": "Una redención breve pero convincente",
+            "content": "El desenlace no castiga al Grinch ni lo humilla: lo reintegra. Esa decisión vuelve al libro especialmente valioso para lectores jóvenes, porque muestra que reconocer un error puede abrir la puerta a la pertenencia y no solo a la culpa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro solo para Navidad?",
+            "answer": "No necesariamente. Aunque su marco es navideño, el tema central es más amplio: la diferencia entre vivir encerrado en el resentimiento o abrirse a la comunidad."
+          },
+          {
+            "question": "¿Qué edad es adecuada para leerlo?",
+            "answer": "La edición clásica de Penguin Random House sitúa el rango de edad alrededor de 5 a 9 años, aunque también funciona muy bien en lectura familiar y escolar."
+          },
+          {
+            "question": "¿Por qué el Grinch cambia al final?",
+            "answer": "Porque comprende que la Navidad no depende de los objetos que ha robado. Al ver que los Quiénes siguen cantando unidos, descubre una forma de alegría que no había entendido."
+          },
+          {
+            "question": "¿Es importante la ilustración en este libro?",
+            "answer": "Sí. Como en otras obras de Dr. Seuss, el dibujo no es un adorno secundario: define el tono, la comicidad y la identidad visual de los personajes."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Penguin Random House: How the Grinch Stole Christmas!",
+            "url": "https://www.penguinrandomhouse.com/books/43047/how-the-grinch-stole-christmas-by-dr-seuss/"
+          },
+          {
+            "label": "Seussville: How the Grinch Stole Christmas!",
+            "url": "https://www.seussville.com/books/how-the-grinch-stole-christmas/"
+          },
+          {
+            "label": "Wikipedia: How the Grinch Stole Christmas!",
+            "url": "https://en.wikipedia.org/wiki/How_the_Grinch_Stole_Christmas!"
+          },
+          {
+            "label": "Open Library: How the Grinch Stole Christmas! work page",
+            "url": "https://openlibrary.org/works/OL133442W/How_the_Grinch_Stole_Christmas!"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "peluso-de-irina-korschunow",
+      "title": "Peluso",
+      "authorName": "Irina Korschunow",
+      "authorSlug": "irina-korschunow",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 78,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Peluso",
+        "authorName": "Irina Korschunow",
+        "authorSlug": "irina-korschunow",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "fantasía infantil",
+          "aventura",
+          "literatura infantil"
+        ],
+        "year": 1988,
+        "pages": 93,
+        "summary": "Peluso es un cuento largo o novela breve infantil de Irina Korschunow que introduce al lector en el mundo de los Peludos, una comunidad fantástica donde vive el pequeño Peludo Kale, conocido como Peluso por su escaso pelo al nacer. A partir de esa singularidad inicial, el libro desarrolla una serie de aventuras marcadas por el descubrimiento, la amistad y el contacto con criaturas extrañas, entre ellas una sílfide y Nock, el habitante verde del pantano negro. La historia combina ternura, humor y un tono de maravilla serena, propio de la buena fantasía para primeros lectores. Más que una epopeya, propone una experiencia de crecimiento: ser pequeño, distinto o frágil no impide explorar el mundo ni encontrar un lugar propio en él.",
+        "aboutThisBook": "La edición española de SM sitúa el libro en la colección El Barco de Vapor y una ficha bibliográfica de biblioteca escolar lo registra con 93 páginas, traducción de Myriam Delgado de Robles e ilustraciones de Reinhard Michl. Esa misma ficha indica que el título original es Kleiner Pelz y que la publicación original alemana es de 1984. Open Library documenta una edición de SM en Madrid publicada en 1988. Se trata, por tanto, de una obra de fantasía infantil europea trasladada al ámbito hispano en una colección muy influyente de lectura escolar y autónoma.",
+        "forWhom": "Para niños desde unos 7 años, familias y mediadores de lectura que busquen fantasía amable, aventuras breves y una historia accesible sobre identidad, curiosidad y amistad.",
+        "whyItMatters": "Importa porque ofrece una fantasía infantil de tono cálido, sin estridencias, centrada en el descubrimiento del mundo y en la afirmación de un personaje pequeño que aprende a moverse entre lo extraño y lo maravilloso.",
+        "editorialIntro": "Peluso pertenece a esa tradición de libros infantiles que no necesitan grandes batallas para resultar memorables. Irina Korschunow construye un universo pequeño, imaginativo y hospitalario, en el que la rareza del protagonista no se convierte en una desventaja definitiva, sino en el punto de partida de su aventura. El libro conserva el encanto de la fantasía clásica para primeros lectores: criaturas singulares, paisaje misterioso, humor suave y una sensación de descubrimiento constante.",
+        "readingLevel": "Lectura accesible para niños desde primeros cursos de primaria; el vocabulario es imaginativo pero la trama es clara y puede leerse de forma autónoma o acompañada.",
+        "whyReadToday": "Porque sigue siendo una opción valiosa para introducir a lectores jóvenes en la fantasía sin saturarlos de tramas agresivas, y porque trabaja con delicadeza la diferencia, la curiosidad y la confianza.",
+        "studyNotes": [
+          "El nombre del protagonista nace de una diferencia física y convierte la aparente fragilidad en rasgo identitario positivo.",
+          "La obra pertenece a la tradición de fantasía infantil breve donde el asombro y la amistad pesan más que el conflicto violento.",
+          "La edición española vinculada a El Barco de Vapor la vuelve especialmente útil para mediación lectora en primaria.",
+          "Conviene observar cómo el libro combina criaturas fantásticas con emociones muy cercanas a la infancia: curiosidad, timidez, juego y deseo de pertenecer."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El mundo de los Peludos",
+            "summary": "El libro presenta la comunidad donde viven los Peludos y explica por qué Peludo Kale recibe el nombre de Peluso. Desde ese arranque, la historia asocia identidad y afecto: el protagonista es singular, pero está inscrito en un entorno reconocible y cálido."
+          },
+          {
+            "title": "Aventuras y encuentros",
+            "summary": "Peluso sale al encuentro de amigos y seres extraños, y el relato introduce figuras como la sílfide y Nock, el curioso habitante verde del pantano negro. Estas peripecias amplían el horizonte del protagonista y convierten la curiosidad en motor de la acción."
+          },
+          {
+            "title": "Crecer en lo maravilloso",
+            "summary": "En su tramo final, la historia reafirma que la pequeñez no equivale a impotencia. Peluso aprende a relacionarse con lo desconocido, a confiar en sus vínculos y a habitar su mundo fantástico con mayor seguridad y alegría."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La diferencia como punto de partida",
+            "content": "El detalle de que Kale reciba el apodo de Peluso por haber nacido con muy poco pelo es importante porque define la lógica emocional del libro. La singularidad inicial no lo condena; al contrario, lo vuelve inolvidable. Korschunow sugiere así que la identidad puede construirse desde aquello que parece menor o raro."
+          },
+          {
+            "heading": "Fantasia amable para primeros lectores",
+            "content": "A diferencia de otras fantasías más sombrías o épicas, Peluso trabaja en una escala íntima. El interés no está en salvar un reino, sino en explorar un entorno maravilloso y aprender a moverse dentro de él. Ese tono hace que el libro resulte muy adecuado para niños que empiezan a disfrutar ficciones imaginativas más allá del cuento breve ilustrado."
+          },
+          {
+            "heading": "El valor de la mediación lectora",
+            "content": "Su pertenencia a una colección escolar tan conocida como El Barco de Vapor ayuda a entender su circulación. Es un libro especialmente útil para lectura acompañada porque permite conversar sobre nombres, diferencia, aventura, criaturas fantásticas y crecimiento personal sin exigir un aparato interpretativo complejo."
+          },
+          {
+            "heading": "Un imaginario europeo trasladado al lector hispano",
+            "content": "La historia conserva rasgos de la fantasía infantil alemana de los años ochenta, pero la traducción y la edición española la acercaron a generaciones de lectores en castellano. Ese tránsito editorial explica parte de su interés: muestra cómo un universo local puede encontrar nueva vida en otra tradición lectora."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Peluso es novela o cuento?",
+            "answer": "Se suele leer como un cuento largo o una novela breve infantil, porque desarrolla un pequeño mundo narrativo sostenido pero mantiene gran concisión."
+          },
+          {
+            "question": "¿Qué edad de lectura tiene?",
+            "answer": "La ficha bibliográfica consultada la orienta a niños desde 7 años, una franja coherente con su lenguaje accesible y su fantasía amable."
+          },
+          {
+            "question": "¿Cuál es el título original del libro?",
+            "answer": "El título original alemán es Kleiner Pelz, según la ficha bibliográfica de la edición española consultada."
+          },
+          {
+            "question": "¿Qué tipo de fantasía propone?",
+            "answer": "Una fantasía cálida y exploratoria, más centrada en la amistad, el descubrimiento y la afirmación del protagonista que en el peligro extremo o la épica heroica."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Open Library: Peluso (edición SM, Madrid)",
+            "url": "https://openlibrary.org/books/OL26318579M/Peluso"
+          },
+          {
+            "label": "Biblioteca San Andrés Apóstol: Peluso - Irina Korschunow",
+            "url": "https://sanandresapostol.com/details/3326.html"
+          },
+          {
+            "label": "Quelibroleo: Peluso",
+            "url": "https://quelibroleo.com/peluso"
+          },
+          {
+            "label": "Wikipedia en alemán: Irina Korschunow",
+            "url": "https://de.wikipedia.org/wiki/Irina_Korschunow"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "temporada-de-zopilotes-de-paco-ignacio-taibo-ii",
+      "title": "Temporada De Zopilotes",
+      "authorName": "Paco Ignacio Taibo Ii",
+      "authorSlug": "paco-ignacio-taibo-ii",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 62,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Temporada de zopilotes",
+        "authorName": "Paco Ignacio Taibo II",
+        "authorSlug": "paco-ignacio-taibo-ii",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela histórica",
+          "narrativa mexicana",
+          "ficción política"
+        ],
+        "year": 2009,
+        "pages": 155,
+        "summary": "Temporada de zopilotes es una novela breve de Paco Ignacio Taibo II situada en un México atravesado por la historia, la violencia y la disputa por el poder. Los registros bibliográficos de Open Library la describen como ficción histórica vinculada al periodo 1910-1946 y al espacio mexicano, y esa clave permite leerla como una pieza concentrada de memoria narrativa: no solo cuenta hechos, sino que examina el clima moral de una época en la que los oportunistas, los sobrevivientes y los depredadores políticos prosperan entre ruinas y lealtades rotas. Taibo II trabaja con una prosa directa, irónica y cargada de intención crítica. El libro convierte la historia en materia de tensión literaria y muestra cómo el pasado mexicano puede leerse también como una lucha por el relato, la justicia y la dignidad.",
+        "aboutThisBook": "Se trata de una novela corta publicada por Planeta en 2009, firmada por uno de los autores mexicanos más reconocibles en la mezcla de novela, crónica e intervención política. Aunque no es de sus libros más extensos, concentra rasgos muy propios de Taibo II: ritmo rápido, mirada crítica sobre la historia nacional y una sensibilidad muy atenta a los mecanismos del poder. Su brevedad no la vuelve menor; al contrario, la hace especialmente eficaz como pieza de lectura intensa, de atmósfera seca y significado histórico.",
+        "forWhom": "Para lectores adultos interesados en novela histórica mexicana, en ficciones con trasfondo político y en la obra de Taibo II como narrador de conflicto, memoria y poder.",
+        "whyItMatters": "Importa porque condensa en pocas páginas una forma muy característica de leer la historia desde la ficción: no como adorno de época, sino como terreno de disputa moral. También sirve para acercarse al imaginario político y narrativo de Taibo II sin empezar por una obra extensa.",
+        "editorialIntro": "Paco Ignacio Taibo II ha hecho de la historia mexicana una materia narrativa viva, conflictiva y profundamente discutible. En este libro breve vuelve sobre un país áspero, marcado por ambiciones, sobrevivencias y disputas de memoria. Temporada de zopilotes funciona como una ficción histórica de alta concentración: rápida en su avance, dura en su mirada y muy consciente de que el pasado no es un museo inmóvil, sino un campo de fuerzas que todavía interpela al presente.",
+        "readingLevel": "Lectura media para público adulto. La prosa es ágil, pero el mayor provecho aparece cuando el lector reconoce el trasfondo histórico y la ironía política con la que Taibo II suele trabajar.",
+        "whyReadToday": "Porque ayuda a pensar cómo la ficción puede iluminar los ciclos de oportunismo, violencia y disputa por la memoria que siguen presentes en la conversación pública latinoamericana.",
+        "studyNotes": [
+          "Open Library clasifica la obra como ficción histórica relacionada con México y con el periodo 1910-1946, un dato clave para orientar su lectura.",
+          "La brevedad del libro obliga a Taibo II a concentrar atmósfera, conflicto histórico y crítica política en una estructura muy contenida.",
+          "Conviene leer el título como una imagen moral: los zopilotes sugieren carroña, oportunismo y aprovechamiento del desastre.",
+          "Es útil comparar esta novela con otras obras de Taibo II para ver cómo cambia su registro cuando trabaja en formato breve."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Un país enrarecido por la historia",
+            "summary": "El comienzo instala una atmósfera de México convulso, donde el pasado no aparece como simple fondo escenográfico, sino como una fuerza activa que condiciona decisiones, alianzas y riesgos."
+          },
+          {
+            "title": "Parte 2: Poder, oportunismo y depredación",
+            "summary": "En el centro del libro se intensifica la dimensión política y moral del relato. La imagen de los zopilotes adquiere espesor simbólico y remite a quienes prosperan entre la violencia, la ruina o la fragilidad colectiva."
+          },
+          {
+            "title": "Parte 3: La historia como ajuste de cuentas",
+            "summary": "Hacia el cierre, la novela concentra su energía en mostrar que la memoria histórica nunca es neutra. Lo que queda en juego no es solo el destino de los personajes, sino la manera de narrar una época y sus responsables."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela histórica de condensación",
+            "content": "La extensión breve de Temporada de zopilotes obliga a una economía narrativa poco frecuente en libros históricos más panorámicos. Taibo II no intenta abarcarlo todo: selecciona un clima, una lógica de poder y un tono moral para producir un efecto compacto y contundente."
+          },
+          {
+            "heading": "El símbolo de los zopilotes",
+            "content": "El título sugiere una lectura ética de la historia. Los zopilotes no son solo una imagen del paisaje, sino una figura del aprovechamiento del cadáver político, de la ruina social y del beneficio obtenido en medio del derrumbe de otros."
+          },
+          {
+            "heading": "Historia y crítica política",
+            "content": "Como en buena parte de la obra de Taibo II, el pasado funciona aquí como un modo de interrogar el presente. La novela no separa reconstrucción histórica y juicio político: leer una época también supone identificar sus mecanismos de abuso, impunidad y cinismo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Temporada de zopilotes es novela o crónica?",
+            "answer": "Se registra bibliográficamente como novela de ficción histórica. Aunque Taibo II trabaja a menudo cerca de la crónica y del comentario político, este libro se presenta como obra narrativa."
+          },
+          {
+            "question": "¿En qué periodo histórico se sitúa?",
+            "answer": "Los registros de Open Library la vinculan con México y con el arco temporal 1910-1946, de modo que su lectura se orienta hacia el México revolucionario y posrevolucionario."
+          },
+          {
+            "question": "¿Es un buen libro para empezar con Paco Ignacio Taibo II?",
+            "answer": "Sí, especialmente para quien quiera una entrada breve a su manera de unir historia, crítica política y tensión narrativa, antes de pasar a obras más extensas."
+          },
+          {
+            "question": "¿Qué tono tiene el libro?",
+            "answer": "Predomina un tono seco, crítico e irónico, muy acorde con la mirada de Taibo II sobre la historia como espacio de conflicto y de disputa moral."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Open Library: Temporada de zopilotes work page",
+            "url": "https://openlibrary.org/works/OL15629385W"
+          },
+          {
+            "label": "Open Library: edición de 2009, Planeta, 155 páginas",
+            "url": "https://openlibrary.org/books/OL24577202M/Temporada_de_zopilotes"
+          },
+          {
+            "label": "Planeta de Libros México: autor Paco Ignacio Taibo II",
+            "url": "https://www.planetadelibros.com.mx/autor/paco-ignacio-taibo-ii/000003421"
+          },
+          {
+            "label": "Wikipedia: Paco Ignacio Taibo II",
+            "url": "https://en.wikipedia.org/wiki/Paco_Ignacio_Taibo_II"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "homo-ludens-de-johan-huizinga",
+      "title": "Homo Ludens",
+      "authorName": "Johan Huizinga",
+      "authorSlug": "johan-huizinga",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 48,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Homo Ludens",
+        "authorName": "Johan Huizinga",
+        "authorSlug": "johan-huizinga",
+        "type": "no-ficcion",
+        "audience": "adultos",
+        "genres": [
+          "ensayo",
+          "filosofía",
+          "historia cultural"
+        ],
+        "year": 1938,
+        "pages": 288,
+        "summary": "Homo Ludens es uno de los ensayos fundamentales del siglo XX sobre la cultura. Publicado originalmente en 1938, Johan Huizinga sostiene que el juego no es un simple entretenimiento añadido a la vida social, sino una dimensión originaria de la civilización. Desde esa idea central analiza cómo derecho, guerra, poesía, rito, competencia, fiesta, mito y saber conservan estructuras lúdicas incluso cuando se presentan como instituciones serias. El libro no reduce la cultura a diversión; más bien propone que muchas formas de orden simbólico nacen de reglas, ritmos, representaciones y tensiones propias del juego. Por eso sigue siendo una obra decisiva para pensar la creatividad humana, la vida colectiva y la fragilidad de una cultura que olvida su componente libre, ritual y creador.",
+        "aboutThisBook": "Huizinga, historiador neerlandés de enorme influencia, escribió este libro como una intervención intelectual de gran alcance. Su subtítulo original alude al elemento lúdico de la cultura, y esa formulación resume bien su ambición: repensar qué es una civilización si el juego forma parte de su origen y de su desarrollo. No se trata de un manual sobre juguetes o recreación, sino de un ensayo de filosofía histórica y cultural que ha influido en estudios literarios, antropología, teoría del juego, pedagogía, comunicación y estudios de medios. La edición española de Alianza ha contribuido a su circulación continuada en el ámbito hispano.",
+        "forWhom": "Para lectores de humanidades, filosofía, historia cultural, educación, arte, comunicación y estudios del juego, así como para cualquier lector curioso por las bases simbólicas de la cultura.",
+        "whyItMatters": "Sigue importando porque cambió la forma de pensar el juego: dejó de verse como un residuo infantil o una pausa irrelevante y pasó a entenderse como una estructura creadora de sentido, reglas, comunidad y representación.",
+        "editorialIntro": "Pocos ensayos han propuesto una idea tan simple y tan fértil a la vez: que la cultura humana no solo produce juegos, sino que nace también en formas de juego. Con esa intuición, Johan Huizinga escribió un clásico que atraviesa disciplinas y generaciones. Homo Ludens conserva su fuerza porque obliga a mirar de nuevo aquello que parecía secundario: la regla aceptada libremente, la competencia ritual, la fiesta, la máscara, la representación y el placer de crear un orden temporal distinto al de la vida corriente.",
+        "readingLevel": "Lectura media-alta. El lenguaje ensayístico es claro, pero exige atención sostenida a argumentos abstractos, ejemplos históricos y conexiones entre campos distintos de la cultura.",
+        "whyReadToday": "Porque en una época obsesionada con productividad, gamificación, espectáculo y cultura digital, el libro ofrece una base sólida para distinguir entre juego auténtico, manipulación lúdica y creación simbólica compartida.",
+        "studyNotes": [
+          "La tesis central no dice que todo sea juego, sino que muchas formas decisivas de cultura conservan una estructura lúdica en su origen o en su funcionamiento.",
+          "Huizinga relaciona juego con regla, límite, representación, competencia y creación temporal de un espacio aparte.",
+          "Conviene leer el libro junto con críticas posteriores, porque su propuesta es fundacional pero no agota las discusiones contemporáneas sobre juego y cultura.",
+          "La edición española de Alianza registra 288 páginas; el dato es útil si se trabaja con esa versión concreta."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Definir el juego como forma cultural",
+            "summary": "El libro arranca intentando precisar qué distingue al juego: libertad, reglas aceptadas, separación provisional respecto de la vida ordinaria, creación de un tiempo y un espacio propios, y tensión significativa para quienes participan."
+          },
+          {
+            "title": "Parte 2: El juego dentro de las instituciones humanas",
+            "summary": "Huizinga expande luego su tesis y muestra que derecho, guerra, competición, rito y fiesta conservan elementos lúdicos. La cultura aparece entonces no como negación del juego, sino como una de sus transformaciones históricas."
+          },
+          {
+            "title": "Parte 3: Poesía, mito y civilización",
+            "summary": "En el tramo final, el ensayo insiste en que imaginación, lenguaje poético, representación y vida simbólica no son accidentes secundarios. Son expresiones de una potencia lúdica que modela las formas más altas y más frágiles de la civilización."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La gran tesis de Huizinga",
+            "content": "La originalidad del libro radica en desplazar la pregunta clásica por el origen de la cultura. En vez de explicar la civilización solo desde economía, utilidad o racionalidad, Huizinga subraya el papel de una actividad libre, reglada y creadora que produce comunidad y sentido."
+          },
+          {
+            "heading": "Juego no es frivolidad",
+            "content": "Uno de los malentendidos más comunes consiste en creer que Huizinga defiende el juego como mero ocio ligero. En realidad, el ensayo muestra que lo lúdico puede ser solemne, competitivo, ritual y hasta trágico; su seriedad no elimina su forma de juego."
+          },
+          {
+            "heading": "Vigencia en el presente",
+            "content": "La obra sigue siendo muy útil para leer fenómenos contemporáneos: deportes de masas, cultura digital, mundos virtuales, espectáculos políticos y pedagogías basadas en dinámicas lúdicas. Su valor está en ofrecer un marco conceptual amplio para pensar esas prácticas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Homo Ludens es un libro de filosofía o de historia?",
+            "answer": "Es ambas cosas a la vez: un ensayo de historia cultural con una tesis filosófica fuerte sobre el lugar del juego en la civilización."
+          },
+          {
+            "question": "¿Qué significa el título?",
+            "answer": "Significa literalmente \"el hombre que juega\". Huizinga lo propone como complemento crítico de imágenes del ser humano definidas solo por trabajo, razón o utilidad."
+          },
+          {
+            "question": "¿Es un libro accesible para lectores no especialistas?",
+            "answer": "Sí, aunque exige concentración. No hace falta formación técnica previa, pero ayuda estar dispuesto a seguir un argumento ensayístico y a relacionar ejemplos históricos diversos."
+          },
+          {
+            "question": "¿Por qué sigue citándose tanto?",
+            "answer": "Porque ofreció una formulación fundacional del juego como principio cultural. Muchas investigaciones posteriores, incluso cuando lo corrigen, siguen dialogando con su propuesta."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Homo Ludens",
+            "url": "https://en.wikipedia.org/wiki/Homo_Ludens"
+          },
+          {
+            "label": "Open Library: obra 'Homo Ludens'",
+            "url": "https://openlibrary.org/works/OL1141874W"
+          },
+          {
+            "label": "Open Library: edición de Alianza, 2007, 288 páginas",
+            "url": "https://openlibrary.org/books/OL13191821M/Homo_ludens_(COLECCION_HISTORIA)_(Historias_History)"
+          },
+          {
+            "label": "Wikipedia: Johan Huizinga",
+            "url": "https://en.wikipedia.org/wiki/Johan_Huizinga"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-monstruo-de-colores-va-al-cole-de-anna-llenas",
+      "title": "El Monstruo De Colores Va Al Cole",
+      "authorName": "Anna Llenas",
+      "authorSlug": "anna-llenas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 47,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El monstruo de colores va al cole",
+        "authorName": "Anna Llenas",
+        "authorSlug": "anna-llenas",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "álbum ilustrado",
+          "literatura infantil",
+          "educación emocional"
+        ],
+        "year": 2018,
+        "pages": 40,
+        "summary": "En este álbum ilustrado, Anna Llenas acompaña al célebre Monstruo de Colores en una experiencia decisiva para muchos niños: el comienzo del colegio. La sinopsis oficial de la autora presenta a un personaje nervioso, lleno de preguntas y expectativas: si le gustará la escuela, qué aprenderá y cómo serán sus compañeros. A partir de esa situación, el libro transforma un momento de incertidumbre en una aventura de descubrimiento, amistad y adaptación. Como ocurre en otros títulos de la serie, el valor principal no está solo en contar una anécdota, sino en ayudar a nombrar emociones concretas y a reconocer que el miedo inicial puede convivir con la curiosidad, el juego y el entusiasmo. Su formato visual y su lenguaje sencillo lo vuelven especialmente apto para lectura compartida.",
+        "aboutThisBook": "Publicado en 2018 por Flamboyant, con texto e ilustraciones de Anna Llenas, este libro forma parte del universo de El Monstruo de Colores, una de las series infantiles más difundidas para trabajar emociones. La ficha oficial de la autora lo define como un álbum ilustrado de 40 páginas, en castellano y también disponible en otras lenguas. Su centro no es solo la escolarización, sino la transición emocional que supone entrar en un espacio nuevo, con normas, compañeros y aprendizajes desconocidos. Por eso funciona muy bien en casa, en aula infantil y en primeros cursos de primaria.",
+        "forWhom": "Para niños pequeños, familias, docentes y mediadores que busquen acompañar con palabras e imágenes el inicio del colegio y las emociones que lo rodean.",
+        "whyItMatters": "Importa porque convierte un cambio cotidiano en una experiencia legible y amable. Ayuda a anticipar el paso al colegio sin negar el nerviosismo, y ofrece una herramienta concreta para conversar sobre miedo, curiosidad, amistad y adaptación.",
+        "editorialIntro": "Entrar al colegio puede ser emocionante y abrumador al mismo tiempo, y pocos personajes infantiles resultan tan adecuados para contarlo como el Monstruo de Colores. Anna Llenas toma ese primer gran umbral de la infancia y lo convierte en un recorrido cálido, visual y tranquilizador. El libro no ridiculiza los nervios del comienzo: los reconoce, los ordena y los acompaña con una promesa sencilla pero poderosa, la de que en lo desconocido también esperan juego, afecto y nuevos amigos.",
+        "readingLevel": "Lectura muy accesible para primera infancia y lectura en voz alta. El texto es breve, claro y apoyado de forma constante por la ilustración, lo que facilita comprensión emocional y conversación guiada.",
+        "whyReadToday": "Porque el ingreso a la escuela sigue siendo uno de los grandes ritos emocionales de la infancia, y este álbum ofrece una manera cercana y útil de prepararlo en familia o en el aula.",
+        "studyNotes": [
+          "La sinopsis oficial subraya tres ejes del libro: nervios ante lo nuevo, curiosidad por aprender y expectativa frente a los futuros compañeros.",
+          "El libro puede trabajarse como álbum ilustrado y también como herramienta de educación emocional previa al inicio escolar.",
+          "La presencia del Monstruo de Colores favorece la identificación de niños que ya conocen la serie y sus códigos emocionales.",
+          "Por su extensión y formato, funciona muy bien en lectura compartida con preguntas antes, durante y después del relato."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1: Los nervios antes de empezar",
+            "summary": "El libro parte de una emoción muy concreta: el temor del Monstruo de Colores ante lo desconocido. Antes de entrar al cole, surgen preguntas sobre el lugar, el aprendizaje y las personas que encontrará allí."
+          },
+          {
+            "title": "Momento 2: Descubrir el colegio",
+            "summary": "A medida que avanza la aventura, la escuela deja de ser una amenaza abstracta y se convierte en un espacio de exploración. El libro desplaza poco a poco la ansiedad hacia la curiosidad."
+          },
+          {
+            "title": "Momento 3: Aprender con otros",
+            "summary": "La experiencia escolar aparece ligada a la convivencia: compañeros, amigos y nuevas rutinas. El cambio emocional central consiste en pasar del miedo aislado a una vivencia compartida y más confiada."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un álbum sobre la transición escolar",
+            "content": "El gran acierto del libro es abordar el inicio del colegio como una transición emocional completa. No presenta la escuela solo como espacio pedagógico, sino como escenario de separación, expectativa, adaptación y vínculo."
+          },
+          {
+            "heading": "La fuerza del personaje-serie",
+            "content": "El Monstruo de Colores ya funciona para muchos niños como un mapa emocional reconocible. Al llevarlo al contexto escolar, Anna Llenas aprovecha ese capital afectivo previo y facilita que el lector traduzca sus propios temores en imágenes comprensibles."
+          },
+          {
+            "heading": "Utilidad educativa y familiar",
+            "content": "El libro es especialmente valioso para mediación. Puede leerse antes del primer día de clase, durante el periodo de adaptación o como apoyo para conversar sobre qué se espera de la escuela y qué emociones despierta."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El monstruo de colores va al cole?",
+            "answer": "Trata sobre el inicio escolar del Monstruo de Colores, que llega al cole con nervios y preguntas, y descubre que allí también lo esperan aprendizajes, juego y nuevos amigos."
+          },
+          {
+            "question": "¿Para qué edades funciona mejor?",
+            "answer": "Está pensado para primera infancia y resulta muy adecuado para niños que están por empezar el colegio o se encuentran en proceso de adaptación escolar."
+          },
+          {
+            "question": "¿Es necesario haber leído otros libros del personaje?",
+            "answer": "No es imprescindible, aunque conocer al Monstruo de Colores ayuda a que los niños identifiquen más rápido el enfoque emocional del relato."
+          },
+          {
+            "question": "¿Se puede usar en clase?",
+            "answer": "Sí. Por su brevedad, formato de álbum ilustrado y tema claramente emocional, es muy útil en educación infantil y primeros cursos para hablar del comienzo de la vida escolar."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Anna Llenas: ficha oficial de El monstruo de colores va al cole",
+            "url": "https://www.annallenas.com/ilustracion-editorial/el-monstruo-de-colores-va-al-cole.html"
+          },
+          {
+            "label": "Anna Llenas: sitio oficial",
+            "url": "https://www.annallenas.com/"
+          },
+          {
+            "label": "Planeta de Libros México: Anna Llenas",
+            "url": "https://www.planetadelibros.com.mx/autor/anna-llenas/000039816"
+          },
+          {
+            "label": "Amazon España: edición referenciada por la autora",
+            "url": "https://www.amazon.es/gp/product/8494883240/"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-18T01:24:11Z"
+}

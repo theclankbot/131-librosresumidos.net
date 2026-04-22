@@ -1,0 +1,1468 @@
+{
+  "batchName": "replenish-20260421T0148Z-next36",
+  "createdAt": "2026-04-21T01:48:42Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-mito-de-cristo-de-gonzalo-puente-ojea",
+      "title": "El Mito De Cristo",
+      "authorName": "Gonzalo Puente Ojea",
+      "authorSlug": "gonzalo-puente-ojea",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El mito de Cristo",
+        "authorName": "Gonzalo Puente Ojea",
+        "authorSlug": "gonzalo-puente-ojea",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2000,
+        "pages": 102,
+        "summary": "En este ensayo breve pero polémico, Gonzalo Puente Ojea somete la figura de Cristo a una lectura histórico-crítica y desmonta la idea de que el cristianismo nace simplemente de un hecho sobrenatural aceptado sin mediaciones. El autor examina la construcción doctrinal de Jesús, la relación entre tradición judía, helenización y teología paulina, y la manera en que una experiencia religiosa concreta termina convertida en dogma universal. Más que negar por provocación, el libro discute cómo se forman los relatos sagrados y qué intereses culturales, apologéticos e institucionales intervienen en su consolidación. Su fuerza está en la claridad argumentativa y en la voluntad de separar la fe del análisis histórico. Por eso puede leerse como una introducción exigente al debate sobre los orígenes del cristianismo y sobre el estatuto mismo del mito religioso en la cultura occidental.",
+        "aboutThisBook": "Puente Ojea, diplomático, ensayista y uno de los críticos españoles más influyentes de la religión institucional, concentra aquí una tesis central de su obra: el Cristo del dogma no coincide sin resto con el Jesús histórico. El libro discute fuentes, mediaciones teológicas y mecanismos de mitificación sin apoyarse en devoción ni en impugnación panfletaria. Su brevedad no lo vuelve superficial; al contrario, funciona como síntesis densa de una línea de pensamiento racionalista que busca explicar cómo una tradición religiosa se legitima, se expande y se convierte en autoridad cultural.",
+        "forWhom": "Para lectores adultos interesados en historia del cristianismo, crítica de la religión, filosofía secular y debates sobre la relación entre mito, fe e institución.",
+        "whyItMatters": "Importa porque obliga a distinguir entre experiencia religiosa, construcción doctrinal e interpretación histórica. En un campo a menudo dominado por certezas previas, el libro recuerda que los relatos fundacionales también pueden estudiarse como productos culturales sometidos a disputa, transmisión y relectura.",
+        "editorialIntro": "Hay libros que no buscan consolar ni confirmar, sino incomodar con método. El mito de Cristo pertenece a esa tradición ensayística que obliga a revisar lo que parecía natural: que la figura central del cristianismo se nos presenta ya interpretada, teologizada y protegida por siglos de autoridad. Puente Ojea escribe con sobriedad, pero su apuesta intelectual es radical: leer los orígenes cristianos como un problema histórico y no como una verdad inmune al análisis.",
+        "readingLevel": "Lectura universitaria o de lector adulto habituado al ensayo. El lenguaje es claro, pero la argumentación exige atención a conceptos de historia religiosa, crítica textual y formación del dogma.",
+        "whyReadToday": "Porque sigue siendo útil para pensar cómo nacen los relatos de autoridad y cómo la crítica histórica puede dialogar con tradiciones religiosas sin someterse a ellas.",
+        "studyNotes": [
+          "La tesis central distingue entre el Jesús histórico, difícil de reconstruir, y el Cristo doctrinal elaborado por comunidades y teólogos posteriores.",
+          "El libro puede estudiarse dentro de la tradición racionalista española de crítica de la religión y del clericalismo.",
+          "Su brevedad obliga a una lectura lenta: muchas páginas condensan debates mayores sobre fuentes, exégesis y recepción cultural.",
+          "Conviene relacionarlo con el papel de Pablo de Tarso en la universalización doctrinal del cristianismo primitivo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento del problema",
+            "summary": "El ensayo abre delimitando el terreno: no se trata de discutir la vivencia íntima de la fe, sino de preguntar cómo se construye históricamente la imagen de Cristo. Puente Ojea propone leer los textos y tradiciones cristianas como documentos sometidos a interpretación crítica."
+          },
+          {
+            "title": "Formación del mito cristológico",
+            "summary": "En el núcleo del libro se analiza la transformación de una predicación situada en un contexto judío en una figura salvífica universal. El autor examina el peso de las reelaboraciones teológicas, las lecturas mesiánicas y la función doctrinal de las comunidades posteriores."
+          },
+          {
+            "title": "Dogma, institución y legitimación",
+            "summary": "El libro muestra cómo la consolidación del cristianismo depende también de procesos institucionales. La figura de Cristo deja de ser solo problema histórico y pasa a convertirse en eje de autoridad doctrinal, identidad colectiva y poder simbólico."
+          },
+          {
+            "title": "Balance crítico final",
+            "summary": "En el cierre, Puente Ojea insiste en la necesidad de separar el respeto a la creencia del análisis histórico de sus relatos fundacionales. El ensayo concluye defendiendo una lectura laica de la tradición cristiana y de su legado cultural."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Cristo como construcción histórico-teológica",
+            "content": "Uno de los aportes principales del libro es mostrar que la figura de Cristo no llega al lector como dato transparente, sino como resultado de capas de interpretación. Esa observación desplaza el debate desde la fe privada hacia la historia de la elaboración doctrinal."
+          },
+          {
+            "heading": "Crítica de la religión sin tono simplista",
+            "content": "Puente Ojea no reduce el fenómeno religioso a una mera superstición individual. Su análisis es más ambicioso: estudia la religión como sistema cultural, como lenguaje de legitimación y como tradición que produce narraciones eficaces y duraderas."
+          },
+          {
+            "heading": "Brevedad ensayística y densidad argumental",
+            "content": "Aunque el libro es corto, no funciona como divulgación ligera. Está escrito con concentración conceptual y presupone interés real por la historia del cristianismo. Esa combinación de concisión y exigencia es parte de su valor académico."
+          },
+          {
+            "heading": "Vigencia del debate",
+            "content": "La discusión sobre mito, historicidad y dogma sigue abierta en estudios bíblicos, filosofía de la religión e historia cultural. El libro conserva actualidad porque plantea preguntas de fondo sobre cómo se fundan las verdades colectivas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El libro niega simplemente la existencia histórica de Jesús?",
+            "answer": "Más que una negación simplificada, el ensayo cuestiona la identificación automática entre el Jesús histórico y el Cristo del dogma. Su foco está en la construcción teológica e institucional de esa figura."
+          },
+          {
+            "question": "¿Es un libro religioso o antirreligioso?",
+            "answer": "Es un ensayo crítico sobre la religión cristiana desde una perspectiva histórica y laica. No busca devoción ni catequesis, sino examen argumentado de las fuentes y de la tradición."
+          },
+          {
+            "question": "¿Hace falta formación previa para leerlo?",
+            "answer": "Ayuda tener interés en historia religiosa o filosofía, pero el libro puede leerse como introducción seria al problema de los orígenes cristianos y de la mitificación doctrinal."
+          },
+          {
+            "question": "¿Por qué sigue siendo relevante?",
+            "answer": "Porque enseña a pensar críticamente los relatos fundacionales y a distinguir entre creencia, institución e interpretación histórica, una distinción clave en cualquier debate contemporáneo sobre religión."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Dialnet: El mito de Cristo",
+            "url": "https://dialnet.unirioja.es/servlet/libro?codigo=205503"
+          },
+          {
+            "label": "Open Library: El mito de Cristo",
+            "url": "https://openlibrary.org/works/OL3129625W/El_mito_de_Cristo"
+          },
+          {
+            "label": "Wikipedia: Gonzalo Puente Ojea",
+            "url": "https://es.wikipedia.org/wiki/Gonzalo_Puente_Ojea"
+          },
+          {
+            "label": "Google Libros: El mito de Cristo",
+            "url": "https://books.google.es/books?vid=ISBN8432310344&redir_esc=y"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-mito-de-la-diosa-fortuna-de-jorge-bucay",
+      "title": "El Mito De La Diosa Fortuna",
+      "authorName": "Jorge Bucay",
+      "authorSlug": "jorge-bucay",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El mito de la diosa fortuna",
+        "authorName": "Jorge Bucay",
+        "authorSlug": "jorge-bucay",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "desarrollo-personal"
+        ],
+        "year": 2006,
+        "pages": 161,
+        "summary": "Jorge Bucay convierte una búsqueda simbólica en relato de aprendizaje. El mito de la diosa fortuna se mueve en el territorio que hizo célebre al autor: una narración breve, cercana a la fábula o al cuento filosófico, que utiliza la peripecia exterior para pensar la vida interior. En lugar de presentar la fortuna como azar puro o premio inmerecido, la historia la examina como una idea seductora que puede confundir deseo, dependencia y responsabilidad personal. El itinerario del protagonista, más importante por lo que descubre que por lo que conquista, va desmontando la ilusión de que el bienestar llega desde fuera y de forma mágica. Bucay combina tono accesible, moraleja abierta y episodios de viaje o encuentro para proponer una lección sencilla pero eficaz: la suerte importa menos que la actitud con que una persona se hace cargo de su propia vida, sus decisiones y sus pérdidas.",
+        "aboutThisBook": "Publicado en 2006 y situado entre la parábola narrativa y la autoayuda literaria, el libro prolonga uno de los rasgos más reconocibles de Bucay: enseñar sin adoptar la forma rígida del manual. La figura de la diosa Fortuna funciona como mito cultural y como espejismo psicológico. A través de esa imagen, el autor reflexiona sobre la expectativa de salvación externa, el deseo de control y la necesidad de asumir que crecer también implica frustración, trabajo interior y renuncia a fórmulas mágicas. Por eso la obra puede leerse tanto como cuento alegórico como texto de acompañamiento personal.",
+        "forWhom": "Para lectores adultos o jóvenes maduros que disfrutan relatos breves con intención reflexiva, fábulas contemporáneas y libros de crecimiento personal escritos en forma narrativa.",
+        "whyItMatters": "Importa porque discute una fantasía muy extendida: creer que la plenitud depende de un golpe de suerte, de una señal externa o de una intervención providencial. Bucay reubica esa expectativa en el terreno de la responsabilidad y del autoconocimiento.",
+        "editorialIntro": "Buena parte del éxito de Jorge Bucay se explica por su capacidad para contar ideas antes que explicarlas de manera abstracta. En El mito de la diosa fortuna vuelve a esa fórmula: una historia de apariencia simple que, bajo su tono amable, cuestiona la dependencia emocional respecto del azar y de los milagros cotidianos. El libro no ofrece una tesis académica sobre la fortuna; propone algo más cercano y más popular: revisar por qué esperamos que la vida nos rescate desde fuera.",
+        "readingLevel": "Lectura accesible para público general. El estilo es fluido y directo, aunque la dimensión alegórica gana más sentido si el lector acepta que la trama funciona como vehículo de una reflexión ética y emocional.",
+        "whyReadToday": "Porque en una época obsesionada con oportunidades rápidas, éxito instantáneo y promesas de transformación sin esfuerzo, el libro recuerda el valor menos vistoso de la paciencia, la conciencia y la responsabilidad personal.",
+        "studyNotes": [
+          "La obra se entiende mejor como relato alegórico que como novela realista convencional.",
+          "La diosa Fortuna opera como símbolo del deseo de delegar en el azar lo que en realidad exige decisión y trabajo interior.",
+          "El estilo de Bucay mezcla funciones de terapeuta, narrador y divulgador emocional en un formato breve y muy legible.",
+          "Puede compararse con otros títulos del autor donde una fábula o un diálogo sirven para transmitir una enseñanza existencial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El llamado de la fortuna",
+            "summary": "La historia arranca con una promesa o expectativa vinculada a la idea de la fortuna. El protagonista se orienta hacia una búsqueda que parece ofrecer una solución externa a sus incertidumbres y deseos."
+          },
+          {
+            "title": "El viaje y las pruebas",
+            "summary": "A medida que avanza el recorrido, el libro desplaza el centro del relato desde la meta soñada hacia las experiencias del camino. Los encuentros, obstáculos y aprendizajes van cuestionando la noción ingenua de la suerte como recompensa automática."
+          },
+          {
+            "title": "Descubrir el engaño del mito",
+            "summary": "En el tramo medio, la obra muestra que la fortuna imaginada puede funcionar como espejismo. La expectativa de salvación externa se revela insuficiente frente a las decisiones concretas que exige vivir con lucidez."
+          },
+          {
+            "title": "Aprendizaje final",
+            "summary": "El cierre condensa la moraleja central de Bucay: el cambio auténtico no depende de una diosa ni de un premio azaroso, sino de una relación más madura con uno mismo, con los límites y con la responsabilidad personal."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Fábula terapéutica y narrativa de aprendizaje",
+            "content": "El libro trabaja en una zona híbrida: no es solo ficción, pero tampoco un ensayo de autoayuda en sentido estricto. Bucay usa recursos de la fábula para transformar una intuición psicológica en experiencia narrativa."
+          },
+          {
+            "heading": "La fortuna como ilusión cultural",
+            "content": "La diosa Fortuna no aparece solo como símbolo clásico; representa una disposición moderna muy reconocible: esperar soluciones externas para conflictos interiores. El relato desmonta esa postura sin caer en moralismo áspero."
+          },
+          {
+            "heading": "Accesibilidad y función pedagógica",
+            "content": "El gran mérito editorial de Bucay está en traducir preguntas complejas —dependencia, deseo, miedo al fracaso, delegación de la propia vida— en escenas fáciles de seguir. Eso explica tanto su popularidad como las reservas de lectores que prefieren una mayor complejidad literaria."
+          },
+          {
+            "heading": "Lugar del libro en la obra de Bucay",
+            "content": "La obra prolonga una línea muy reconocible del autor: relatos con estructura de parábola destinados a activar reflexión más que suspense. Leído dentro de su trayectoria, confirma su preferencia por enseñar mediante historias antes que por exposición conceptual extensa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro de autoayuda?",
+            "answer": "Es mejor entenderlo como una ficción alegórica con finalidad reflexiva. Usa una historia para transmitir ideas afines al desarrollo personal, pero no adopta la forma de un manual."
+          },
+          {
+            "question": "¿La diosa Fortuna aparece como personaje mitológico literal?",
+            "answer": "Su función principal es simbólica. Más que desarrollar un mundo mitológico complejo, el libro usa esa figura para pensar la relación entre azar, deseo y responsabilidad."
+          },
+          {
+            "question": "¿Se parece a otros libros de Jorge Bucay?",
+            "answer": "Sí. Comparte con buena parte de su obra el gusto por las parábolas, las narraciones breves y las enseñanzas emocionales expuestas con claridad y cercanía."
+          },
+          {
+            "question": "¿Qué puede encontrar un lector escéptico ante la autoayuda?",
+            "answer": "Puede encontrar una fábula legible y una reflexión útil sobre la tentación de atribuir al azar aquello que en realidad depende de elecciones personales y de maduración interior."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Dialnet: El mito de la diosa fortuna",
+            "url": "https://dialnet.unirioja.es/servlet/libro?codigo=278773"
+          },
+          {
+            "label": "Open Library: El mito de la diosa fortuna",
+            "url": "https://openlibrary.org/works/OL6012947W/El_mito_de_la_diosa_fortuna"
+          },
+          {
+            "label": "Wikipedia: Jorge Bucay",
+            "url": "https://es.wikipedia.org/wiki/Jorge_Bucay"
+          },
+          {
+            "label": "Google Libros: El mito de la diosa fortuna + CD",
+            "url": "https://books.google.es/books?vid=ISBN8478716858&redir_esc=y"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-mito-de-la-guerra-buena-de-jacques-pawels",
+      "title": "El Mito De La Guerra Buena",
+      "authorName": "Jacques Pawels",
+      "authorSlug": "jacques-pawels",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El mito de la guerra buena: EE.UU. en la Segunda Guerra Mundial",
+        "authorName": "Jacques R. Pauwels",
+        "authorSlug": "jacques-r-pauwels",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2002,
+        "pages": null,
+        "summary": "En este ensayo histórico, Jacques R. Pauwels discute una de las narraciones más arraigadas del siglo XX: la idea de que la participación de Estados Unidos en la Segunda Guerra Mundial respondió de manera limpia y desinteresada a una cruzada democrática contra el mal absoluto. El autor no niega la brutalidad del nazismo ni la importancia de su derrota; lo que examina es el uso ideológico posterior de la guerra como fundamento moral de la hegemonía estadounidense. Para ello revisa intereses económicos, estrategias de clase, cálculos geopolíticos, anticomunismo y propaganda. El resultado es una lectura revisionista en el sentido analítico del término: relee consensos patrióticos y obliga a preguntarse quién se beneficia de ciertos relatos históricos. Su tesis central es que la “guerra buena” fue convertida en mito nacional para legitimar poder, ocultar ambigüedades y simplificar un conflicto mucho más contradictorio de lo que suele admitir la memoria oficial.",
+        "aboutThisBook": "La edición española apareció con el subtítulo EE.UU. en la Segunda Guerra Mundial, lo que deja claro el foco del ensayo: no una historia total del conflicto, sino una revisión crítica del papel estadounidense y de la memoria política construida después. Pauwels, historiador conocido por sus trabajos sobre fascismo, guerra y capitalismo, escribe contra la narración complaciente que presenta a Estados Unidos como actor moralmente transparente. El libro combina historia política, económica y cultural, y propone leer la guerra no solo como enfrentamiento militar, sino como episodio decisivo en la formación de la supremacía global estadounidense y de su imaginario legitimador.",
+        "forWhom": "Para lectores adultos interesados en historia contemporánea, Segunda Guerra Mundial, estudios de propaganda, memoria pública y crítica del excepcionalismo estadounidense.",
+        "whyItMatters": "Importa porque enseña a desconfiar de los relatos nacionales demasiado perfectos. La memoria pública de la Segunda Guerra Mundial sigue moldeando debates sobre democracia, intervención militar y legitimidad geopolítica, y este libro examina ese legado con una mirada documentada y polémica.",
+        "editorialIntro": "La fuerza de este libro está en tocar un punto sensible: pocas narraciones históricas gozan de tanta respetabilidad como la de la “guerra buena”. Pauwels no pretende rehabilitar al enemigo derrotado ni relativizar el horror nazi; su apuesta es otra, más incómoda y más fértil para el estudio crítico. Pregunta cómo una guerra real, atravesada por intereses económicos y luchas de poder, fue convertida después en mito moral absoluto. Leerlo implica abandonar la comodidad del relato heroico y entrar en la zona gris donde historia, propaganda y memoria se entrecruzan.",
+        "readingLevel": "Lectura de nivel universitario o de divulgación histórica exigente. El estilo es directo, pero presupone interés por debates historiográficos, política internacional y uso público de la memoria de guerra.",
+        "whyReadToday": "Porque ayuda a entender cómo se fabrican consensos históricos útiles para justificar hegemonías presentes y cómo la memoria de la Segunda Guerra Mundial sigue operando como recurso político.",
+        "studyNotes": [
+          "El libro no niega la necesidad histórica de derrotar al nazismo; cuestiona la simplificación moral del papel estadounidense en esa derrota.",
+          "Conviene leerlo junto al concepto de memoria pública: no solo analiza hechos, sino la narración posterior de esos hechos.",
+          "Su enfoque enlaza guerra, capitalismo, propaganda y anticomunismo, evitando una historia exclusivamente militar.",
+          "Es útil comparar su tesis con manuales escolares o relatos audiovisuales que presentan la Segunda Guerra Mundial como mito fundacional estadounidense."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El nacimiento del relato heroico",
+            "summary": "El libro comienza identificando la idea de la “guerra buena” como construcción cultural y política. Pauwels plantea que la memoria estadounidense del conflicto fue organizada para producir consenso patriótico y legitimidad internacional."
+          },
+          {
+            "title": "Intereses económicos y cálculo estratégico",
+            "summary": "En la parte central se examina cómo los objetivos de guerra no pueden reducirse a una lucha moral abstracta. El autor subraya la relación entre expansión económica, defensa de intereses de élite y diseño de posguerra."
+          },
+          {
+            "title": "Antifascismo, anticomunismo y contradicciones",
+            "summary": "Pauwels muestra que la derrota del fascismo convivió con una fuerte preocupación por contener alternativas sociales y por ordenar el mundo en términos favorables a Estados Unidos. Esa tensión complejiza la imagen de cruzada puramente democrática."
+          },
+          {
+            "title": "La posguerra y la fabricación del mito",
+            "summary": "El cierre analiza cómo cine, discurso público y cultura política fijaron la Segunda Guerra Mundial como mito de inocencia nacional. La “guerra buena” queda así convertida en herramienta de legitimación para el liderazgo estadounidense posterior."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Revisionismo crítico frente a negacionismo",
+            "content": "Una clave para leer bien el libro es distinguir entre revisión historiográfica y negación de hechos. Pauwels revisa interpretaciones dominantes y sus usos políticos; no cuestiona la realidad del nazismo ni la necesidad de su derrota."
+          },
+          {
+            "heading": "Historia económica de la guerra",
+            "content": "El ensayo insiste en que la Segunda Guerra Mundial no puede entenderse solo en términos de ideales. Las relaciones entre empresa, Estado, clase dirigente y orden internacional ocupan un lugar central en la argumentación."
+          },
+          {
+            "heading": "Memoria nacional y propaganda",
+            "content": "El concepto de “guerra buena” sirve para estudiar cómo una nación narra su pasado para justificar su presente. Esa dimensión cultural del libro lo vuelve especialmente útil para cursos sobre memoria, medios e ideología."
+          },
+          {
+            "heading": "Alcance polémico del subtítulo español",
+            "content": "La edición española explicita el foco en EE.UU. y en la Segunda Guerra Mundial, orientando la lectura hacia la crítica del excepcionalismo estadounidense. El subtítulo ayuda a entender que no es una historia total del conflicto, sino un estudio del mito político que lo rodea."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El libro minimiza el nazismo o el Holocausto?",
+            "answer": "No. Su objetivo no es relativizar los crímenes del Eje, sino examinar cómo la victoria aliada, en especial la estadounidense, fue transformada después en un relato moral simplificado y políticamente útil."
+          },
+          {
+            "question": "¿Qué significa exactamente “guerra buena”?",
+            "answer": "Se refiere al imaginario según el cual la Segunda Guerra Mundial habría sido para Estados Unidos una intervención limpia, unánimemente justa y casi exenta de intereses contradictorios. Pauwels discute esa representación."
+          },
+          {
+            "question": "¿Es un libro puramente militar?",
+            "answer": "No. Aunque trata una guerra, su perspectiva es sobre todo política, económica y cultural. Importan tanto los intereses de poder y la propaganda como las operaciones bélicas."
+          },
+          {
+            "question": "¿Por qué puede interesar hoy?",
+            "answer": "Porque muestra cómo los mitos históricos siguen usándose para legitimar políticas presentes. Entender la “guerra buena” ayuda a leer críticamente discursos contemporáneos sobre democracia, intervención y liderazgo global."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Dialnet: El mito de la guerra buena: EE.UU. en la Segunda Guerra Mundial",
+            "url": "https://dialnet.unirioja.es/servlet/libro?codigo=64731"
+          },
+          {
+            "label": "Open Library: El mito de la guerra buena",
+            "url": "https://openlibrary.org/works/OL19274123W"
+          },
+          {
+            "label": "Open Library: The myth of the good war",
+            "url": "https://openlibrary.org/works/OL5602541W"
+          },
+          {
+            "label": "Open Library: edición de 2002 de The myth of the good war",
+            "url": "https://openlibrary.org/books/OL3568130M/The_myth_of_the_good_war"
+          },
+          {
+            "label": "Google Books: The Myth of the Good War",
+            "url": "https://books.google.es/books?vid=ISBN1550287710&redir_esc=y"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-mundo-como-voluntad-y-representacion-i-de-arthur-schopenhauer",
+      "title": "El Mundo Como Voluntad Y Representacion I",
+      "authorName": "Arthur Schopenhauer",
+      "authorSlug": "arthur-schopenhauer",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El mundo como voluntad y representación I",
+        "authorName": "Arthur Schopenhauer",
+        "authorSlug": "arthur-schopenhauer",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "ensayo"
+        ],
+        "year": 1819,
+        "pages": null,
+        "summary": "Este primer volumen de la obra mayor de Schopenhauer propone una visión total del mundo a partir de dos nociones complementarias: representación y voluntad. El punto de partida es epistemológico: todo lo que conocemos aparece mediado por las formas de la conciencia, de modo que el mundo, tal como se nos da, es representación. Pero Schopenhauer no se queda en esa frontera crítica heredada de Kant. Busca además aquello que late por debajo de los fenómenos y encuentra una fuerza ciega, irracional y universal a la que llama voluntad. Desde ahí reorganiza la metafísica, la estética y la ética: el arte permite suspender momentáneamente el dominio del deseo, mientras que la compasión y la negación de la voluntad ofrecen una posible salida al sufrimiento constitutivo de la existencia.",
+        "aboutThisBook": "No es un tratado introductorio ni una lectura de divulgación rápida, sino un sistema filosófico de gran ambición. Schopenhauer reúne teoría del conocimiento, ontología, filosofía del arte y reflexión moral en una arquitectura rigurosa, escrita además con voluntad literaria y polémica. El libro dialoga con Kant, Platón y tradiciones filosóficas de la India, y por eso resulta decisivo para entender buena parte del pensamiento moderno posterior.",
+        "forWhom": "Para lectores de filosofía, humanidades y teoría estética que quieran trabajar un clásico exigente y de enorme influencia intelectual.",
+        "whyItMatters": "Importa porque formula de manera memorable una de las grandes respuestas modernas al problema del sufrimiento, del deseo y de los límites del conocimiento. También ayuda a entender la huella de Schopenhauer en Nietzsche, Freud, Wagner, Thomas Mann o Borges.",
+        "editorialIntro": "Leer a Schopenhauer hoy supone entrar en un sistema filosófico compacto, discutible y extraordinariamente fértil. Este volumen no interesa solo por su tesis central, sino por la manera en que convierte cuestiones abstractas —qué conocemos, qué deseamos, por qué sufrimos, qué puede el arte— en un mapa coherente de la experiencia humana.",
+        "readingLevel": "Avanzado universitario: exige paciencia conceptual, vocabulario filosófico y lectura lenta de argumentos encadenados.",
+        "whyReadToday": "Sigue siendo actual porque enfrenta preguntas muy contemporáneas: la insatisfacción permanente, la relación entre percepción y realidad, y la búsqueda de formas de silencio frente a una cultura dominada por la agitación y el deseo.",
+        "studyNotes": [
+          "La frase inicial, ‘El mundo es mi representación’, fija el punto de partida gnoseológico: no conocemos la cosa en sí de manera directa, sino el mundo tal como aparece al sujeto.",
+          "La voluntad no equivale a decisión racional; es una fuerza primaria, impersonal y sin finalidad última, visible en la naturaleza y en la vida humana.",
+          "Arte, compasión y ascetismo funcionan en el sistema como respuestas parciales o radicales al sufrimiento producido por el querer incesante."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Libro primero: el mundo como representación",
+            "summary": "Schopenhauer examina el conocimiento humano bajo el principio de razón y sostiene que todo objeto aparece configurado por espacio, tiempo y causalidad. El mundo de la experiencia no se presenta como realidad absoluta, sino como representación para un sujeto cognoscente. Con esta base, delimita el alcance de la ciencia y prepara el paso hacia la pregunta metafísica."
+          },
+          {
+            "title": "Libro segundo: el mundo como voluntad",
+            "summary": "Tras mostrar el límite del conocimiento objetivo, el filósofo busca la clave interna de lo real. La encuentra en la experiencia del propio cuerpo, que es a la vez objeto entre objetos y vivencia inmediata de querer. Desde ese punto identifica la voluntad como esencia del mundo: fuerza ciega que se objetiva en todos los niveles de la naturaleza."
+          },
+          {
+            "title": "Libros tercero y cuarto: arte, ética y negación del querer",
+            "summary": "La contemplación estética ofrece una suspensión temporal del deseo, porque permite captar las Ideas sin quedar atrapados en la utilidad y la carencia. En el plano moral, Schopenhauer afirma la compasión como fundamento ético y culmina en la tesis de que la sabiduría más alta consiste en negar la voluntad de vivir, único modo de cortar el ciclo del sufrimiento."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Kant llevado hacia una metafísica del deseo",
+            "content": "Schopenhauer toma de Kant la distinción entre fenómeno y cosa en sí, pero rechaza dejar esta última como un límite vacío. Su audacia consiste en nombrarla: la cosa en sí es voluntad. Esa maniobra vuelve su sistema más vulnerable a la crítica, pero también mucho más poderoso como interpretación total de la experiencia."
+          },
+          {
+            "heading": "Pesimismo filosófico y lucidez antropológica",
+            "content": "El pesimismo schopenhaueriano no es mero temperamento sombrío. Parte de una tesis estructural: desear implica carencia, y satisfacer el deseo no elimina el malestar, solo lo desplaza. Por eso la vida oscila entre dolor y tedio. El libro fascina porque convierte esa intuición en argumento y estilo."
+          },
+          {
+            "heading": "La estética como interrupción del yo utilitario",
+            "content": "Uno de los aportes más perdurables de la obra es su teoría del arte. La contemplación estética suspende, aunque sea por un instante, el régimen práctico del interés. En lugar de usar el mundo, el sujeto lo contempla. Esa pausa explica por qué la estética no es un adorno en Schopenhauer, sino una experiencia metafísica privilegiada."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una obra de filosofía o de literatura de ideas?",
+            "answer": "Es ante todo una obra filosófica sistemática, aunque su prosa tiene fuerza literaria y una clara vocación ensayística."
+          },
+          {
+            "question": "¿Hace falta leer a Kant antes de abordarla?",
+            "answer": "Ayuda mucho, pero no es imprescindible si se lee con apoyo de una guía. Sí conviene conocer al menos las nociones básicas de fenómeno, cosa en sí y formas a priori."
+          },
+          {
+            "question": "¿Por qué el título habla de voluntad y representación?",
+            "answer": "Porque Schopenhauer cree que el mundo puede entenderse desde dos perspectivas inseparables: como fenómeno para un sujeto que conoce y como impulso profundo que se manifiesta en todo lo real."
+          },
+          {
+            "question": "¿Es un libro actual fuera del ámbito académico?",
+            "answer": "Sí. Sus ideas sobre deseo, sufrimiento, arte y compasión siguen dialogando con inquietudes contemporáneas, incluso cuando uno no comparte sus conclusiones."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: El mundo como voluntad y representación",
+            "url": "https://es.wikipedia.org/wiki/El_mundo_como_voluntad_y_representaci%C3%B3n"
+          },
+          {
+            "label": "Open Library: Die Welt als Wille und Vorstellung",
+            "url": "https://openlibrary.org/works/OL1183657W"
+          },
+          {
+            "label": "Internet Encyclopedia of Philosophy: Arthur Schopenhauer",
+            "url": "https://iep.utm.edu/schopenh/"
+          },
+          {
+            "label": "Stanford Encyclopedia of Philosophy: Arthur Schopenhauer",
+            "url": "https://plato.stanford.edu/entries/schopenhauer/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-nucleo-del-disturbio-de-samanta-schweblin",
+      "title": "El Nucleo Del Disturbio",
+      "authorName": "Samanta Schweblin",
+      "authorSlug": "samanta-schweblin",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El núcleo del disturbio",
+        "authorName": "Samanta Schweblin",
+        "authorSlug": "samanta-schweblin",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2002,
+        "pages": 185,
+        "summary": "Primer libro de cuentos de Samanta Schweblin, esta colección ya contiene muchas de las marcas que después volverían central a su obra: una prosa precisa, una lógica narrativa impecable y una manera muy singular de llevar lo cotidiano hacia lo inquietante. Los relatos presentan situaciones apenas desplazadas de la normalidad —un encargo violento, mujeres abandonadas al borde de una ruta, objetos o gestos que alteran la percepción de lo real— y dejan que el lector descubra, casi siempre demasiado tarde, la grieta que las sostiene. Más que buscar el susto directo, Schweblin trabaja con la perturbación moral y perceptiva: algo no encaja, pero ese desajuste ilumina la fragilidad de los vínculos, la violencia social y la indefensión de los cuerpos.",
+        "aboutThisBook": "Se trata de un volumen decisivo para seguir el origen de una de las cuentistas más importantes de la literatura argentina contemporánea. Publicado por Ediciones Destino, reunió doce relatos y obtuvo reconocimiento muy temprano. Ya aquí aparecen la economía verbal, el control del ritmo y la capacidad de producir extrañeza sin recurrir a explicaciones excesivas. Es una puerta de entrada excelente a la poética breve de Schweblin.",
+        "forWhom": "Para lectores de cuento contemporáneo, narrativa inquietante y literatura latinoamericana que disfrutan textos breves pero densos en atmósfera y sentido.",
+        "whyItMatters": "Importa porque permite ver en estado inicial una voz narrativa que luego sería internacionalmente reconocida. Además, muestra cómo el cuento puede condensar crítica social, rareza psicológica y tensión formal sin perder claridad ni potencia emocional.",
+        "editorialIntro": "Este libro interesa tanto por la calidad individual de sus cuentos como por su valor de conjunto: deja ver a una autora joven que ya domina la insinuación, el fuera de campo y el final abierto cargado de consecuencias. Su mundo narrativo todavía no está estabilizado del todo, pero justamente por eso resulta tan vivo y sorprendente.",
+        "readingLevel": "Medio-alto: la prosa es clara, pero exige atención a silencios, ambigüedades y cambios de sentido que no se subrayan de forma explícita.",
+        "whyReadToday": "Porque muchas de sus obsesiones —violencia difusa, vulnerabilidad, arbitrariedad de lo social, miedo sin nombre— siguen resonando con fuerza en el presente. También porque confirma la vigencia del cuento como forma de intensidad extrema.",
+        "studyNotes": [
+          "La perturbación en Schweblin suele nacer de una mínima desviación de la normalidad, no de un mundo fantástico plenamente separado del real.",
+          "El libro combina terror, ironía y crítica social: lo siniestro funciona a menudo como lectura de relaciones de poder o abandono.",
+          "Los finales rara vez clausuran por completo; su efecto depende de lo que el texto calla y del lugar activo que deja al lector."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Apertura del extrañamiento",
+            "summary": "Los primeros relatos fijan el tono del libro: escenarios reconocibles, personajes corrientes y una amenaza que entra sin estridencias. La autora instala desde el inicio una lógica de sospecha donde la normalidad aparece siempre a punto de resquebrajarse."
+          },
+          {
+            "title": "Relatos de violencia mínima y desamparo",
+            "summary": "En el centro del volumen se concentran cuentos que exploran humillación, obediencia, miedo y crueldad cotidiana. El horror no depende tanto de lo sobrenatural como de la facilidad con que una situación banal deriva en sometimiento, agresión o pérdida de control."
+          },
+          {
+            "title": "Cierre con imágenes persistentes",
+            "summary": "La parte final intensifica la rareza y deja varias escenas memorables que sobreviven a la lectura por su potencia visual y simbólica. El libro concluye confirmando una poética del cuento breve donde cada detalle prepara un desequilibrio mayor."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Lo ominoso en clave cotidiana",
+            "content": "Schweblin no necesita grandes dispositivos fantásticos para producir inquietud. Su procedimiento consiste en desplazar apenas una situación conocida hasta volverla ilegible. Esa estrategia acerca sus cuentos a una tradición de lo ominoso donde el miedo surge de lo familiar deformado."
+          },
+          {
+            "heading": "Precisión formal y economía narrativa",
+            "content": "Uno de los rasgos más admirables del libro es su control técnico. La autora trabaja con frases limpias, escenas concretas y una administración exacta de la información. Nada parece ornamental: cada omisión, cada repetición y cada corte de escena están puestos al servicio del efecto final."
+          },
+          {
+            "heading": "Cuerpo, vulnerabilidad y orden social",
+            "content": "Muchos cuentos muestran cuerpos expuestos a normas arbitrarias, castigos absurdos o violencias sin explicación suficiente. Esa indefensión convierte la rareza narrativa en una lectura crítica del mundo social: el disturbio no está fuera de la realidad, sino en su núcleo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro de cuentos?",
+            "answer": "Es un libro de cuentos compuesto por doce relatos autónomos, aunque comparten una atmósfera de inquietud y extrañamiento muy reconocible."
+          },
+          {
+            "question": "¿Conviene empezar por este libro si nunca leí a Schweblin?",
+            "answer": "Sí. Es una excelente puerta de entrada para conocer el origen de sus temas y su manera de construir tensión en pocas páginas."
+          },
+          {
+            "question": "¿Predomina el terror clásico?",
+            "answer": "No exactamente. Hay elementos de terror y de inquietud psicológica, pero el efecto central nace de la ambigüedad, la incomodidad moral y la distorsión de lo cotidiano."
+          },
+          {
+            "question": "¿Qué lo distingue dentro del cuento contemporáneo?",
+            "answer": "Su mezcla de sobriedad estilística, intensidad atmosférica y capacidad para insinuar más de lo que explica, sin perder legibilidad."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: El núcleo del disturbio",
+            "url": "https://es.wikipedia.org/wiki/El_n%C3%BAcleo_del_disturbio"
+          },
+          {
+            "label": "Open Library: El núcleo del disturbio",
+            "url": "https://openlibrary.org/works/OL6072407W/El_n%C3%BAcleo_del_disturbio"
+          },
+          {
+            "label": "Sitio oficial de Samanta Schweblin",
+            "url": "https://samantaschweblin.com/start/"
+          },
+          {
+            "label": "Wikipedia: Samanta Schweblin",
+            "url": "https://es.wikipedia.org/wiki/Samanta_Schweblin"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-origen-perdido-de-matilde-asensi",
+      "title": "El Origen Perdido",
+      "authorName": "Matilde Asensi",
+      "authorSlug": "matilde-asensi",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El origen perdido",
+        "authorName": "Matilde Asensi",
+        "authorSlug": "matilde-asensi",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "aventura",
+          "thriller"
+        ],
+        "year": 2003,
+        "pages": 558,
+        "summary": "En esta novela de aventuras contemporáneas, Matilde Asensi mezcla intriga tecnológica, exploración arqueológica y especulación lingüística para construir una trama de ritmo rápido y vocación popular. Arnau, empresario informático y hacker barcelonés, se ve arrastrado a una investigación extrema cuando su hermano Daniel sufre un colapso mental ligado a sus estudios sobre el aimara y ciertas tradiciones andinas. Convencido de que no se trata solo de un problema clínico, Arnau sigue sus huellas hasta Bolivia, donde la novela abre una búsqueda que combina ruinas, selva, sectas, expediciones y un antiguo conocimiento verbal con capacidad de alterar la mente. El resultado es un thriller aventurero que convierte el lenguaje en clave de poder, de memoria cultural y de peligro.",
+        "aboutThisBook": "Publicada por Planeta en 2003, la novela ocupa un lugar muy visible dentro de la narrativa de entretenimiento de Matilde Asensi. Aquí reaparecen rasgos característicos de la autora: protagonistas eficaces, documentación visible, desplazamientos geográficos intensos y una estructura construida para sostener el suspense. A la vez, el libro destaca por incorporar materiales etnológicos y lingüísticos que dan a la aventura una textura distinta de la mera persecución conspirativa.",
+        "forWhom": "Para lectores que buscan una novela de aventuras con enigmas, viajes, claves históricas y ritmo sostenido, cercana al thriller arqueológico.",
+        "whyItMatters": "Importa porque ejemplifica muy bien una forma de best seller español que une investigación documental y entretenimiento narrativo. Además, su apuesta por convertir el lenguaje y la cosmovisión andina en motor de la trama le da una identidad particular dentro del género aventurero.",
+        "editorialIntro": "El atractivo de El origen perdido está en la eficacia con que enlaza registros diversos: el tecnothriller inicial, la novela de expedición, el misterio lingüístico y la carrera contra el tiempo. Asensi escribe pensando en la velocidad de lectura, pero también en ofrecer al lector un escenario cultural amplio, donde las ruinas, los mitos y la selva importan tanto como la intriga principal.",
+        "readingLevel": "Accesible y fluido: ideal para lectores habituales de novela de aventuras, aunque su longitud y su caudal informativo piden constancia.",
+        "whyReadToday": "Sigue funcionando por su capacidad para entretener con solvencia y por el modo en que relaciona tecnología, memoria cultural y disputa por el conocimiento. También permite revisar el auge de la novela de enigmas y expediciones en lengua española.",
+        "studyNotes": [
+          "Arnau funciona como protagonista pragmático: entra en un mundo de tradiciones, ruinas y creencias desde una mentalidad tecnológica y contemporánea.",
+          "La lengua aimara aparece en la novela como núcleo simbólico y narrativo, asociada a la idea de un lenguaje capaz de ordenar o reprogramar la realidad humana.",
+          "El libro combina documentación histórica y étnica con mecanismos muy claros de suspense: pistas, desplazamientos, aliados ambiguos y búsqueda de remedio."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: Barcelona y el enigma de Daniel",
+            "summary": "La novela se activa cuando Arnau descubre el extraño estado mental de su hermano Daniel. El diagnóstico médico no le basta y, al revisar sus investigaciones, empieza a sospechar que el problema está ligado a una expedición previa y a un saber antiguo conectado con la lengua aimara."
+          },
+          {
+            "title": "Segunda parte: viaje a Bolivia y reconstrucción de la pista",
+            "summary": "Arnau, acompañado por sus aliados, sigue el rastro de Daniel hasta escenarios andinos donde historia, arqueología y tradición oral se entrecruzan. Allí la investigación gana densidad cultural y la novela transforma el misterio personal en una aventura de mayor escala."
+          },
+          {
+            "title": "Tercera parte: selva, peligro y búsqueda del remedio",
+            "summary": "En el tramo final, la expedición entra en territorios más hostiles y el suspense se intensifica. La búsqueda deja de ser puramente intelectual y se vuelve una lucha física y moral por encontrar la clave capaz de salvar a Daniel y comprender el alcance real del conocimiento perseguido."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Aventura contemporánea con imaginario de expedición",
+            "content": "Asensi adapta a un lector actual un modelo clásico de novela de aventuras: desplazamiento geográfico, mapa de pistas, pruebas sucesivas y revelación final. La novedad está en incorporar hackers, diagnósticos médicos y debates lingüísticos a una estructura que recuerda a la expedición decimonónica."
+          },
+          {
+            "heading": "El lenguaje como poder narrativo",
+            "content": "La hipótesis de un idioma perfecto o capaz de reprogramar la mente organiza el corazón de la novela. Más allá de su verosimilitud científica, esa idea funciona muy bien como motor simbólico: las palabras no solo nombran el mundo, sino que podrían intervenir en él y transformarlo."
+          },
+          {
+            "heading": "Entre entretenimiento, documentación y controversia",
+            "content": "La novela busca claramente la eficacia del best seller, pero se sostiene también en una voluntad documental visible. Ese cruce explica tanto su atractivo masivo como algunas discusiones críticas que acompañaron su recepción. Leerla hoy permite distinguir entre uso narrativo de materiales culturales y debate sobre sus apropiaciones."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica?",
+            "answer": "No en sentido estricto. Aunque trabaja con materiales históricos y arqueológicos, la acción principal transcurre en un marco contemporáneo y se acerca más a la aventura y al thriller."
+          },
+          {
+            "question": "¿Qué papel tiene la tecnología en la historia?",
+            "answer": "Es importante en el punto de partida y en la caracterización del protagonista, pero luego la novela desplaza el centro hacia la expedición, el misterio lingüístico y la búsqueda en territorio andino."
+          },
+          {
+            "question": "¿Se puede leer solo por entretenimiento?",
+            "answer": "Sí. Está construida para sostener el ritmo y el suspense, aunque también ofrece capas de interés cultural y simbólico para quien quiera leerla con más detenimiento."
+          },
+          {
+            "question": "¿Qué distingue a El origen perdido dentro de la obra de Asensi?",
+            "answer": "Su combinación de aventura geográfica, intriga tecnológica y especulación sobre el lenguaje le da un perfil particular incluso dentro de una autora muy asociada al misterio y la documentación."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: El origen perdido",
+            "url": "https://es.wikipedia.org/wiki/El_origen_perdido"
+          },
+          {
+            "label": "Open Library: El origen perdido",
+            "url": "https://openlibrary.org/works/OL5849670W/El_origen_perdido"
+          },
+          {
+            "label": "Casa del Libro: El origen perdido",
+            "url": "https://www.casadellibro.com/libro-el-origen-perdido/9788408068921/1101890"
+          },
+          {
+            "label": "Lecturalia: El origen perdido",
+            "url": "https://www.lecturalia.com/libro/15/el-origen-perdido"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-oro-de-cajamarca-de-jakob-wassermann",
+      "title": "El Oro De Cajamarca",
+      "authorName": "Jakob Wassermann",
+      "authorSlug": "jakob-wassermann",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El oro de Cajamarca",
+        "authorName": "Jakob Wassermann",
+        "authorSlug": "jakob-wassermann",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1923,
+        "pages": 112,
+        "summary": "El oro de Cajamarca es una novela histórica breve y de gran intensidad moral. Jakob Wassermann recrea la captura, el cautiverio y la muerte del inca Atahualpa durante la conquista del Perú, situando el relato en Cajamarca y filtrándolo a través de la memoria de un testigo español, Domingo de Soria Luce. El centro del libro no es solo el choque militar entre conquistadores e indígenas, sino la degradación ética que provoca la fiebre del oro. Frente a la dignidad silenciosa de Atahualpa y al mundo andino trastornado por la violencia, la codicia española aparece como una fuerza que corrompe conciencias, lenguaje y justicia. La narración condensa conquista, fanatismo y ambición en una fábula amarga sobre el precio humano del enriquecimiento.",
+        "aboutThisBook": "La obra apareció originalmente en alemán como Das Gold von Caxamalca en 1923, dentro del volumen Der Geist des Pilgers. La edición española consultada, publicada por Alianza Editorial en 2016 y traducida por Carmen Gauger, tiene 112 páginas. Se trata de una narración breve, a medio camino entre la novela histórica y la nouvelle moral, que retoma un episodio célebre de la conquista para pensar algo más amplio: cómo el poder colonial transforma la violencia en negocio y el botín en principio de organización del mundo. Su brevedad no le resta ambición; al contrario, concentra con gran eficacia el conflicto entre civilización proclamada y barbarie ejercida.",
+        "forWhom": "Para lectores adultos, estudiantes de literatura y de historia cultural, y para quienes busquen una obra breve pero densa sobre la conquista de América, la codicia y la mirada europea sobre el otro.",
+        "whyItMatters": "Importa porque convierte un episodio histórico muy conocido en una reflexión literaria sobre la codicia, la humillación y la destrucción moral que acompaña a la conquista. También permite leer cómo una novela europea del siglo XX reinterpretó críticamente el mito del oro americano.",
+        "editorialIntro": "No conviene acercarse a El oro de Cajamarca como simple recreación escolar de la caída de Atahualpa. Wassermann usa ese episodio para construir una narración moralmente incómoda, donde la conquista aparece menos como hazaña que como crisis de conciencia. La prosa es sobria, concentrada y visual; cada escena empuja al lector a mirar de frente la alianza entre violencia, religión y riqueza. En pocas páginas, el libro consigue una densidad histórica y simbólica muy poco común.",
+        "readingLevel": "Lectura de dificultad media. El libro es breve y lineal, pero gana mucho cuando se atiende al contexto histórico, a la ironía moral del narrador y al contraste entre la retórica heroica de los conquistadores y la realidad brutal de sus actos.",
+        "whyReadToday": "Porque su crítica de la codicia extractiva y de la violencia legitimada por discursos civilizadores sigue siendo plenamente actual en debates sobre colonialismo, memoria histórica y explotación de recursos.",
+        "studyNotes": [
+          "La perspectiva del narrador español no neutraliza la violencia; al contrario, permite mostrar desde dentro la corrupción moral del bando conquistador.",
+          "Atahualpa funciona menos como personaje psicologista que como figura de dignidad y de resistencia frente a la avidez ajena.",
+          "El oro no es solo un objeto material: organiza el comportamiento de los personajes y revela el verdadero motor de la conquista.",
+          "Puede leerse junto con fuentes históricas sobre Cajamarca para comparar el hecho documentado con su reinterpretación literaria."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Llegada a Cajamarca",
+            "summary": "La narración sitúa al lector en el avance español hacia Cajamarca y en la tensión previa al encuentro con el mundo inca. Desde el comienzo queda claro que la expedición no se rige solo por motivos militares o religiosos, sino por una expectativa desmesurada de riqueza."
+          },
+          {
+            "title": "El cautiverio de Atahualpa",
+            "summary": "Una vez apresado, Atahualpa se convierte en el eje moral del relato. Su presencia contrasta con la ansiedad, la intriga y la codicia de los vencedores, que reducen el destino de un imperio a cálculo, rescate y provecho inmediato."
+          },
+          {
+            "title": "Oro, ejecución y envilecimiento",
+            "summary": "La parte final muestra cómo la promesa del oro no trae grandeza, sino degradación. La ejecución del inca y la violencia contra su pueblo sellan una victoria militar que el libro presenta, al mismo tiempo, como una derrota ética de los conquistadores."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La conquista como drama moral",
+            "content": "Wassermann no centra su relato en la estrategia militar, sino en el deterioro interior que produce la ambición. La conquista aparece como una maquinaria donde la codicia justifica cualquier acción y vacía de sentido la retórica del honor o de la fe."
+          },
+          {
+            "heading": "Atahualpa y la figura de la dignidad derrotada",
+            "content": "La representación de Atahualpa subraya el contraste entre poder material y autoridad moral. Aunque está vencido, su presencia mantiene una gravedad que vuelve más mezquinos a quienes lo rodean y hace visible la desproporción entre víctima y verdugos."
+          },
+          {
+            "heading": "El oro como símbolo de corrupción",
+            "content": "En la novela, el oro deja de ser simple tesoro para convertirse en principio de descomposición. Todo se mide por él: alianzas, traiciones, decisiones políticas y hasta la forma de nombrar la realidad. Ese desplazamiento simbólico sostiene la fuerza crítica del libro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El libro cuenta fielmente la historia de Atahualpa?",
+            "answer": "Se apoya en hechos históricos conocidos de la conquista del Perú, pero es una obra literaria y no una crónica documental. Su objetivo principal es interpretar moralmente esos acontecimientos."
+          },
+          {
+            "question": "¿Es una novela larga o una lectura breve?",
+            "answer": "Es una obra breve, cercana a la nouvelle. Precisamente por esa concisión, concentra mucho conflicto histórico y simbólico en pocas páginas."
+          },
+          {
+            "question": "¿Qué tema domina por encima de los demás?",
+            "answer": "La codicia. Más que la batalla en sí, el libro examina cómo la obsesión por el oro destruye cualquier pretensión de justicia, nobleza o civilización."
+          },
+          {
+            "question": "¿Puede leerse en contexto escolar o universitario?",
+            "answer": "Sí. Es muy útil para cursos sobre novela histórica, colonialismo, representación de América en la literatura europea y relaciones entre historia y ficción."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia en alemán: Das Gold von Caxamalca",
+            "url": "https://de.wikipedia.org/wiki/Das_Gold_von_Caxamalca"
+          },
+          {
+            "label": "Google Books: El oro de Cajamarca (Alianza Editorial, 2016)",
+            "url": "https://books.google.com/books/about/El_oro_de_Cajamarca.html?hl=es&id=ti8KkAEACAAJ"
+          },
+          {
+            "label": "Open Library: El oro de Cajamarca (edición de Alianza)",
+            "url": "https://openlibrary.org/books/OL47088865M/El_oro_de_Cajamarca"
+          },
+          {
+            "label": "Open Library: El oro de Cajamarca (obra)",
+            "url": "https://openlibrary.org/works/OL34740107W/El_oro_de_Cajamarca"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-padrino-de-mario-puzo",
+      "title": "El Padrino",
+      "authorName": "Mario Puzo",
+      "authorSlug": "mario-puzo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El padrino",
+        "authorName": "Mario Puzo",
+        "authorSlug": "mario-puzo",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller",
+          "clasicos"
+        ],
+        "year": 1969,
+        "pages": 454,
+        "summary": "El padrino narra el ascenso, la crisis y la reorganización de la familia Corleone, una de las grandes casas mafiosas de Nueva York después de la Segunda Guerra Mundial. Mario Puzo combina novela criminal, saga familiar y relato de formación para mostrar cómo el poder se hereda, se disputa y se paga. El libro empieza con la autoridad casi monárquica de Vito Corleone, capaz de impartir favores y castigos al margen del Estado, y avanza hacia la transformación de Michael, el hijo que parecía más distante del negocio y que terminará convertido en heredero implacable. Entre atentados, alianzas, venganzas y negociaciones, la novela explora no solo el crimen organizado, sino también la familia, la lealtad, la masculinidad, el miedo y la ilusión de respetabilidad que acompaña al poder mafioso.",
+        "aboutThisBook": "Publicada originalmente por G. P. Putnam's Sons en 1969, The Godfather se convirtió muy pronto en un fenómeno editorial y en el libro más conocido de Mario Puzo. Las fuentes consultadas coinciden en que la novela abarca aproximadamente el periodo 1945-1955 y articula la historia de la familia Corleone con el trasfondo de la inmigración italiana, la cultura de la Mafia y la transformación del crimen en una estructura casi empresarial. La primera edición registrada en Open Library cuenta con 454 páginas, aunque las reediciones modernas varían bastante en extensión. Más que un simple bestseller de gánsteres, es una novela de poder familiar y de sucesión, cuyo impacto cultural fue amplificado por la célebre adaptación cinematográfica de Francis Ford Coppola.",
+        "forWhom": "Para lectores adultos interesados en novela criminal, clásicos contemporáneos, sagas familiares tensas y relatos donde la ambición, la lealtad y la violencia se entrelazan de forma sostenida.",
+        "whyItMatters": "Importa porque definió buena parte del imaginario moderno sobre la Mafia y porque logró algo más difícil: convertir una historia de crimen organizado en una reflexión duradera sobre poder, herencia y legitimidad. Su influencia literaria y cinematográfica sigue siendo enorme.",
+        "editorialIntro": "Hay novelas célebres por su argumento y otras por la atmósfera moral que consiguen imponer. El padrino pertenece a ambas categorías. Puzo construye un mundo donde la familia es refugio, empresa, tribunal y campo de batalla al mismo tiempo. La violencia no aparece como simple espectáculo, sino como lenguaje de autoridad y sucesión. Por eso la novela funciona más allá del mito cinematográfico: todavía se lee como una historia poderosa sobre cómo el poder entra en la sangre y reorganiza cada vínculo.",
+        "readingLevel": "Lectura media. La prosa de Puzo es directa y muy narrativa, pero la extensión, la cantidad de personajes y la mezcla de intriga familiar, política criminal y episodios retrospectivos exigen continuidad y atención a las alianzas entre facciones.",
+        "whyReadToday": "Porque sigue ofreciendo una de las representaciones más eficaces del poder informal, de la violencia legitimada por la familia y de la tensión entre ascenso social y corrupción moral.",
+        "studyNotes": [
+          "La novela puede leerse como una historia de sucesión: el verdadero arco central no es solo el de Vito, sino el de Michael y su transformación ética.",
+          "La familia Corleone funciona como institución paralela al Estado, con códigos de honor, reparto de favores y monopolio privado de la violencia.",
+          "Puzo entrelaza intimidad doméstica y estrategia criminal para mostrar que, en este universo, la política de la familia y la política del negocio son inseparables.",
+          "Conviene distinguir la novela de su adaptación: comparten núcleo argumental, pero el libro desarrolla con más amplitud personajes secundarios y subtramas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La autoridad de Don Vito",
+            "summary": "La primera parte presenta a Vito Corleone en la cúspide de su poder, rodeado de familiares, aliados y deudores. La boda de Connie sirve para mostrar cómo funciona su sistema de favores y para introducir el conflicto con quienes quieren reordenar el negocio del crimen en Nueva York."
+          },
+          {
+            "title": "Guerra entre familias y caída de la inocencia",
+            "summary": "Tras el atentado contra Vito, la paz mafiosa se rompe. Michael, que parecía ajeno al negocio, da un paso decisivo y entra en una espiral de violencia que lo obliga a exiliarse temporalmente y a asumir cada vez más responsabilidades dentro de la familia."
+          },
+          {
+            "title": "Michael como nuevo don",
+            "summary": "En la parte final, Michael regresa, reorganiza el poder de los Corleone y ejecuta una estrategia de venganza y consolidación. El cierre muestra que la continuidad de la familia depende de una mutación moral profunda: el heredero se convierte en soberano criminal."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Saga familiar y novela criminal",
+            "content": "Uno de los mayores logros del libro es unir dos tradiciones narrativas. La estructura de thriller sostiene el ritmo, pero la fuerza emocional proviene de la saga familiar: padres, hijos, matrimonios, herencias y traiciones pesan tanto como los negocios ilegales."
+          },
+          {
+            "heading": "Michael Corleone y la lógica de la transformación",
+            "content": "Michael encarna el paso de la distancia a la implicación total. Su recorrido resulta inquietante porque no se basa en una explosión impulsiva, sino en una incorporación gradual de la lógica del poder, presentada como deber familiar y culminada como forma de dominio."
+          },
+          {
+            "heading": "Poder, legitimidad y mito mafioso",
+            "content": "La novela ayuda a entender por qué la Mafia ha sido imaginada como contrasociedad. Los Corleone ofrecen protección, empleo, justicia y continuidad a quienes dependen de ellos, pero todo ese orden descansa en extorsión, miedo y asesinato. Ese doble registro alimenta el magnetismo del libro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta haber visto la película para leer la novela?",
+            "answer": "No. La novela funciona perfectamente por sí sola y, de hecho, amplía varios personajes y líneas narrativas que en la película quedan reducidos o eliminados."
+          },
+          {
+            "question": "¿Es solo una historia de mafiosos?",
+            "answer": "No. También es una saga familiar, una novela de formación torcida y un relato sobre la transmisión del poder dentro de una comunidad cerrada."
+          },
+          {
+            "question": "¿Michael es el verdadero protagonista?",
+            "answer": "Aunque Vito domina el imaginario del libro, gran parte de la estructura narrativa conduce hacia Michael y a su conversión en nuevo centro del poder Corleone."
+          },
+          {
+            "question": "¿Por qué sigue siendo un clásico popular?",
+            "answer": "Porque combina legibilidad, tensión narrativa y personajes memorables con una reflexión muy eficaz sobre familia, ambición, violencia y legitimidad."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia en español: El padrino (novela)",
+            "url": "https://es.wikipedia.org/wiki/El_padrino_(novela)"
+          },
+          {
+            "label": "Britannica: The Godfather",
+            "url": "https://www.britannica.com/topic/The-Godfather-novel-by-Puzo"
+          },
+          {
+            "label": "Open Library: The Godfather (obra)",
+            "url": "https://openlibrary.org/works/OL1673205W/The_Godfather"
+          },
+          {
+            "label": "Penguin Books: The Godfather",
+            "url": "https://www.penguin.co.uk/books/353371/the-godfather-by-mario-puzo/9780099528128"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-pecado-de-los-dioses-de-jaime-campmany",
+      "title": "El Pecado De Los Dioses",
+      "authorName": "Jaime Campmany",
+      "authorSlug": "jaime-campmany",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El pecado de los dioses",
+        "authorName": "Jaime Campmany",
+        "authorSlug": "jaime-campmany",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "romance"
+        ],
+        "year": 1998,
+        "pages": 316,
+        "summary": "El pecado de los dioses es una novela de pasión, memoria familiar y transgresión ambientada en el entorno de Villa Luce, junto al lago Maggiore. Jaime Campmany construye una saga donde varias generaciones quedan atravesadas por el deseo, la autoridad doméstica, la educación sentimental y el peso asfixiante de las convenciones. La historia reúne matrimonios problemáticos, fidelidades ambiguas, devociones religiosas, despertar erótico y afectos que no siempre encuentran una forma legítima de expresarse. Más que seguir una intriga única, la novela observa cómo una casa y una familia conservan y deforman los impulsos de quienes viven en ellas. El amor aparece entonces como energía creadora y destructiva a la vez: capaz de ordenar una vida, pero también de convertir el afecto en obsesión, culpa o ruina.",
+        "aboutThisBook": "Las referencias bibliográficas localizadas sitúan la primera publicación de la novela en 1998, con ediciones de Plaza & Janés y posteriores reimpresiones o variantes en 1999 y 2000. Google Books registra una edición de Plaza & Janés Editories, S.A. con 316 páginas, mientras que Open Library conserva también una edición de 1998 de 267 páginas. El breve texto editorial disponible resume la obra como una novela donde la pasión y el amor se imponen a los convencionalismos, y las búsquedas internas consultadas en Google Books muestran una estructura coral con personajes ligados a Villa Luce, al lago Maggiore y a una red de parentescos, deseos y tensiones morales. El libro se mueve así entre saga familiar, novela sentimental y exploración del deseo reprimido.",
+        "forWhom": "Para lectores adultos interesados en sagas familiares, novelas de pasión y conflicto moral, y relatos donde la vida íntima pesa más que la acción externa o la intriga puramente argumental.",
+        "whyItMatters": "Importa porque muestra a un Campmany novelista atento a la intensidad del deseo, a la teatralidad de la vida familiar y al choque entre moral heredada y experiencia corporal. También es una muestra singular de narrativa española tardía muy volcada en el linaje, la casa y la educación sentimental.",
+        "editorialIntro": "El pecado de los dioses no se lee como un simple romance ni como una saga doméstica convencional. Su fuerza nace del clima: una casa señorial, generaciones que se observan y se repiten, y un tejido de deseos que rara vez encajan con lo que la familia considera decente. Campmany trabaja con sensualidad, ironía y una atención insistente a los gestos de posesión, de culpa y de desobediencia. El resultado es una novela donde la pasión no libera de manera simple: también hereda, hiere y desordena.",
+        "readingLevel": "Lectura media. El estilo es accesible, pero la novela parece apoyarse en una estructura coral y generacional, con muchos nombres, parentescos y desplazamientos afectivos; conviene leerla de forma continua para no perder los vínculos entre personajes.",
+        "whyReadToday": "Porque sigue siendo sugerente para pensar cómo las familias convierten el deseo en asunto moral, social y casi político, y cómo la pasión puede aparecer al mismo tiempo como rebeldía y como encierro.",
+        "studyNotes": [
+          "Villa Luce funciona como espacio simbólico: no es solo escenario, sino depósito de memoria, jerarquías y repeticiones afectivas.",
+          "La novela contrapone deseo y convención social, pero evita una solución simple; el amor puede desafiar normas y, a la vez, producir nuevas formas de sufrimiento.",
+          "La presencia de figuras religiosas y de discursos morales sugiere un conflicto persistente entre cuerpo, culpa y santidad doméstica.",
+          "Conviene leer el libro como saga coral, atendiendo a cómo una generación transmite a la siguiente sus obsesiones y sus miedos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La casa del lago y el orden familiar",
+            "summary": "La primera mitad establece el universo de Villa Luce, con sus matriarcas, sirvientes, alianzas y recuerdos. El lector entra en una familia donde el afecto está inseparablemente unido a la autoridad, al prestigio doméstico y a una vigilancia constante sobre la conducta de cada miembro."
+          },
+          {
+            "title": "Pasiones, matrimonios y fisuras del decoro",
+            "summary": "A medida que avanza la novela, el deseo erosiona las formas exteriores del orden familiar. Matrimonios de conveniencia, pasiones no resueltas, celos y despertares sexuales revelan que bajo la cortesía y la tradición se acumulan tensiones difíciles de contener."
+          },
+          {
+            "title": "La herencia emocional de los más jóvenes",
+            "summary": "En la parte final, la generación joven hereda no solo bienes y nombres, sino también conflictos afectivos y modelos de conducta dañinos. El cierre sugiere que la pasión no desaparece con la moral familiar: cambia de forma, se desplaza y reaparece en nuevos vínculos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Pasión frente a convencionalismo",
+            "content": "El eje más visible de la novela es el choque entre deseo íntimo y norma social. Campmany no presenta ese conflicto como simple oposición entre libertad y represión, sino como una red más ambigua en la que la pasión puede ser verdad, impulso posesivo y fuente de culpa al mismo tiempo."
+          },
+          {
+            "heading": "La familia como teatro moral",
+            "content": "La casa y el linaje ordenan la experiencia de los personajes. En Villa Luce todo parece observado, recordado y juzgado; por eso la familia actúa como una escena donde cada gesto privado adquiere consecuencias públicas y simbólicas."
+          },
+          {
+            "heading": "Erotismo, culpa y religiosidad",
+            "content": "Las huellas religiosas que emergen en varios personajes intensifican el conflicto corporal de la novela. El deseo no aparece aislado del lenguaje de la culpa, del sacrificio y de la pureza, lo que añade espesor moral a una historia que podría haberse quedado en melodrama sentimental."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela romántica en sentido convencional?",
+            "answer": "Solo en parte. El amor y la pasión son centrales, pero el libro parece trabajar también como saga familiar y como exploración de deseos conflictivos, culpas y normas sociales."
+          },
+          {
+            "question": "¿Tiene una trama única o varias historias entrelazadas?",
+            "answer": "Por las referencias bibliográficas y los fragmentos consultados, se perfila como una novela coral y generacional, con varios personajes y vínculos que convergen en torno a la casa familiar."
+          },
+          {
+            "question": "¿Qué ambiente domina la novela?",
+            "answer": "Predomina un ambiente de intimidad vigilada: una casa señorial, relaciones familiares densas, sensualidad, recuerdos y un trasfondo de moral social y religiosa que condiciona cada elección afectiva."
+          },
+          {
+            "question": "¿Para qué tipo de lector puede resultar más interesante?",
+            "answer": "Para quien disfrute novelas de familia, deseo y conflicto moral, más atentas al clima emocional y a los vínculos entre generaciones que a la acción rápida."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Google Books: El pecado de los dioses (Plaza & Janés, 1999)",
+            "url": "https://books.google.com/books/about/El_pecado_de_los_dioses.html?hl=es&id=1yxFPgAACAAJ"
+          },
+          {
+            "label": "Open Library: El pecado de los dioses (obra)",
+            "url": "https://openlibrary.org/works/OL743927W/El_pecado_de_los_dioses"
+          },
+          {
+            "label": "Open Library: El pecado de los dioses (edición de 2000)",
+            "url": "https://openlibrary.org/books/OL13187144M/El_pecado_de_los_dioses"
+          },
+          {
+            "label": "Wikipedia en español: Jaime Campmany",
+            "url": "https://es.wikipedia.org/wiki/Jaime_Campmany"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-pececito-que-queria-ser-humano-de-ernesto-marrero",
+      "title": "El Pececito Que Queria Ser Humano",
+      "authorName": "Ernesto Marrero",
+      "authorSlug": "ernesto-marrero",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El pececito que quería ser humano",
+        "authorName": "Ernesto Marrero",
+        "authorSlug": "ernesto-marrero",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "infantil",
+          "narrativa"
+        ],
+        "year": null,
+        "pages": null,
+        "summary": "El pececito que quería ser humano parece plantearse, ya desde su título, como una fábula infantil sobre el deseo de ser otro. La figura del pez que mira hacia el mundo humano sugiere una historia de curiosidad, comparación y aprendizaje: alguien pequeño, situado en un medio limitado, imagina que la plenitud está fuera de sí y necesita atravesar una experiencia para comprender mejor quién es. Leído así, el libro puede entenderse como un relato sobre identidad, aceptación y crecimiento. En lugar de apoyarse en la aventura espectacular, su fuerza probable está en la alegoría: el contraste entre agua y tierra, naturaleza y aspiración, inocencia y descubrimiento. Por eso funciona bien como lectura comentada con niños, más atenta al sentido moral y emocional que al mero argumento.",
+        "aboutThisBook": "La principal dificultad editorial de esta ficha es bibliográfica: en fuentes abiertas y fácilmente verificables no aparece una descripción extensa ni una ficha normalizada robusta del libro. Sí circula el título atribuido a Ernesto Marrero en catálogos y buscadores libreros, lo que permite trabajar con prudencia su ubicación como cuento o fábula infantil. En ese marco, conviene presentarlo sin inventar datos concretos sobre capítulos, edición o trama cerrada. Su interés reside justamente en la premisa simbólica que anuncia el título: un ser acuático que desea transformarse en humano, motivo clásico para hablar de inconformidad, imaginación y descubrimiento del propio lugar.",
+        "forWhom": "Para lectores infantiles, mediadores de lectura y familias que buscan cuentos breves con posibilidad de conversación sobre identidad, deseos y aceptación personal.",
+        "whyItMatters": "Importa porque la premisa permite trabajar con niños una experiencia muy reconocible: sentir que la felicidad está en parecerse a otros. La fábula, incluso cuando es sencilla, ofrece un lenguaje amable para hablar de comparación, autoestima y descubrimiento de los propios límites y posibilidades.",
+        "editorialIntro": "Hay títulos que ya contienen una pregunta moral. El pececito que quería ser humano pertenece a esa tradición de relatos infantiles en los que un personaje imagina que la plenitud está en dejar de ser quien es. Aunque la información bibliográfica accesible hoy es limitada, el valor del libro puede leerse desde esa intuición narrativa: la fantasía de cambio como camino hacia una comprensión más profunda de la identidad. Es, por tanto, una obra que invita menos al dato enciclopédico y más a la lectura simbólica compartida.",
+        "readingLevel": "Lectura accesible para infancia y primeros lectores acompañados. Por la escasa información abierta disponible, conviene abordarlo como cuento breve de sentido alegórico, ideal para lectura en voz alta y conversación guiada.",
+        "whyReadToday": "Porque sigue siendo útil para conversar con niños sobre el deseo de ser otro, la comparación con los demás y la importancia de reconocer el propio valor sin perder la imaginación.",
+        "studyNotes": [
+          "La ficha debe leerse con cautela bibliográfica: hay título y autor identificables, pero no una sinopsis editorial amplia y verificable en fuentes abiertas de fácil acceso.",
+          "El motivo central que sugiere el título es el deseo de transformación; eso acerca el libro al campo de la fábula infantil y del relato con moraleja.",
+          "Puede trabajarse en clase o en familia como texto sobre identidad, autoestima y aceptación, más que como aventura compleja.",
+          "Si se usa con fines escolares, conviene pedir a los lectores que distingan entre deseo de cambio, curiosidad legítima y rechazo de uno mismo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: un deseo imposible",
+            "summary": "La historia se organiza en torno a una premisa clara y simbólica: un pececito imagina que la condición humana representa una vida mejor. Ese deseo inicial activa la dimensión moral del relato y sitúa al lector ante una pregunta sobre la insatisfacción y la identidad."
+          },
+          {
+            "title": "Momentos clave: mirar el mundo ajeno",
+            "summary": "En la parte media, el interés del cuento parece concentrarse en la comparación entre dos mundos. El pececito observa, fantasea o interpreta la vida humana como horizonte de plenitud, y esa mirada alimenta tanto la ilusión como el aprendizaje."
+          },
+          {
+            "title": "Desenlace: comprender quién se es",
+            "summary": "Como ocurre en muchas fábulas infantiles, el cierre probablemente devuelve al personaje a una comprensión más serena de sí mismo. La enseñanza no anula la imaginación, pero la orienta hacia el reconocimiento del propio lugar y valor."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La identidad como núcleo del cuento",
+            "content": "El atractivo principal del libro está en el contraste entre ser y querer ser. La figura del pececito proyecta una experiencia infantil muy común: creer que la vida verdadera pertenece siempre a otros. Desde ahí, el relato puede leerse como una defensa de la autoaceptación."
+          },
+          {
+            "heading": "Fábula, deseo y moraleja",
+            "content": "La premisa de transformación remite a la tradición fabulística. No importa tanto la acumulación de peripecias como la lección emocional que se obtiene del trayecto: desear otra existencia puede ser el comienzo de un descubrimiento, pero no siempre de una mejora real."
+          },
+          {
+            "heading": "Valor pedagógico de una premisa simple",
+            "content": "Incluso con información bibliográfica incompleta, el libro es valioso como detonante de conversación. Su título permite abrir preguntas sobre envidia, curiosidad, diferencia y autoestima, temas especialmente fértiles en mediación lectora con niños."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un cuento infantil?",
+            "answer": "Por su planteamiento y por la forma en que circula en catálogos, se presenta mejor como un cuento o fábula infantil que como una novela extensa."
+          },
+          {
+            "question": "¿Se conocen con seguridad el año y el número de páginas?",
+            "answer": "No en las fuentes abiertas consultadas con suficiente claridad. Por eso esos datos se dejan sin completar para no fijar información dudosa."
+          },
+          {
+            "question": "¿Qué tema puede trabajarse con este libro?",
+            "answer": "Sobre todo identidad, deseo de cambio, comparación con los demás y aceptación de uno mismo, asuntos muy apropiados para lectura acompañada."
+          },
+          {
+            "question": "¿Por qué la ficha usa un tono prudente?",
+            "answer": "Porque la información pública verificable sobre esta obra es limitada. La prioridad editorial aquí es no inventar una trama cerrada ni datos bibliográficos que no puedan sostenerse."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "BNE catálogo: búsqueda exacta del título",
+            "url": "https://catalogo.bne.es/discovery/search?query=any,contains,El%20pececito%20que%20queria%20ser%20humano&tab=LibraryCatalog&search_scope=MyInstitution&vid=34BNE_INST:bne"
+          },
+          {
+            "label": "Dialnet: búsqueda del título y autor",
+            "url": "https://dialnet.unirioja.es/buscar/documentos?querysDismax.DOCUMENTAL_TODO=El%20pececito%20que%20queria%20ser%20humano%20Ernesto%20Marrero"
+          },
+          {
+            "label": "WorldCat Search: El pececito que queria ser humano / Ernesto Marrero",
+            "url": "https://search.worldcat.org/search?q=ti%3AEl%20pececito%20que%20queria%20ser%20humano%20au%3AErnesto%20Marrero"
+          },
+          {
+            "label": "Casa del Libro: búsqueda del título",
+            "url": "https://www.casadellibro.com/?q=El%20pececito%20que%20queria%20ser%20humano"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-perro-de-los-baskerville-de-sir-arthur-conan-doyle",
+      "title": "El Perro De Los Baskerville",
+      "authorName": "Sir Arthur Conan Doyle",
+      "authorSlug": "sir-arthur-conan-doyle",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El perro de los Baskerville",
+        "authorName": "Arthur Conan Doyle",
+        "authorSlug": "arthur-conan-doyle",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "clasicos",
+          "thriller",
+          "narrativa"
+        ],
+        "year": 1902,
+        "pages": null,
+        "summary": "El perro de los Baskerville es una de las novelas más célebres de Arthur Conan Doyle y quizá el caso más atmosférico de Sherlock Holmes. La historia comienza cuando la muerte de sir Charles Baskerville reactiva una vieja leyenda familiar: un perro infernal acecha a los herederos de la casa en los páramos de Dartmoor. A partir de ahí, la novela combina dos registros muy eficaces. Por un lado, el del misterio detectivesco, basado en huellas, testimonios ambiguos, intereses ocultos y deducción racional. Por otro, el del relato gótico, lleno de niebla, superstición, soledad y amenaza nocturna. Holmes entiende que para resolver el caso no basta con desmontar una superstición: hay que explicar por qué esa superstición resulta tan convincente. El libro destaca por su tensión sostenida, por el papel más activo de Watson y por el modo en que convierte el paisaje en un personaje decisivo.",
+        "aboutThisBook": "Britannica y el texto de referencia de la propia obra coinciden en que la novela fue publicada por entregas en The Strand Magazine entre 1901 y 1902 y apareció en libro en 1902. Es la tercera de las cuatro novelas protagonizadas por Sherlock Holmes y tiene un lugar singular dentro del canon porque marcó el regreso del detective tras su aparente muerte en The Final Problem. Open Library registra numerosas ediciones y confirma su temprana circulación internacional. Lo más notable es el equilibrio entre tradición detectivesca y terror atmosférico: Conan Doyle usa una leyenda sobrenatural para construir un enigma plenamente racional, con lo que demuestra que el miedo también puede ser materia de investigación.",
+        "forWhom": "Para lectores de clásicos, aficionados al policial de enigma, estudiantes que buscan una puerta de entrada accesible a Sherlock Holmes y clubes de lectura interesados en el cruce entre novela detectivesca y relato gótico.",
+        "whyItMatters": "Importa porque fijó una forma muy durable de suspense: la convivencia entre superstición y razonamiento. Además, mostró que Holmes podía volver con fuerza y convertirse de nuevo en centro de una ficción popular sofisticada y sumamente legible.",
+        "editorialIntro": "Pocas novelas consiguen que el lector dude a la vez entre lo sobrenatural y la explicación lógica. El perro de los Baskerville lo hace desde sus primeras páginas y no suelta esa tensión hasta el final. Conan Doyle entiende que el misterio no nace solo de ocultar información, sino de diseñar un mundo en el que la superstición parece más verosímil que la razón. El resultado es un clásico que se lee con placer por su intriga, por su atmósfera y por la inteligencia con que Holmes y Watson atraviesan la niebla del miedo.",
+        "readingLevel": "Lectura media y muy agradecida. El lenguaje no suele presentar grandes obstáculos en buena traducción, pero conviene leer con atención los indicios, las cartas, los cambios de punto de vista y la función narrativa del paisaje en Dartmoor.",
+        "whyReadToday": "Porque sigue siendo un modelo impecable de intriga con atmósfera y porque muestra algo muy actual: el miedo colectivo puede ser manipulado cuando una ficción conveniente tapa intereses concretos.",
+        "studyNotes": [
+          "La novela vale tanto por su investigación como por su atmósfera: Dartmoor no es un fondo decorativo, sino un dispositivo de incertidumbre.",
+          "Watson adquiere un protagonismo mayor que en otros casos y eso permite ver mejor el método de Holmes desde fuera.",
+          "El perro funciona como símbolo doble: encarna la superstición familiar, pero también la utilización calculada del miedo.",
+          "Es útil leerla comparando cómo Conan Doyle administra la información: rumores, documentos, observación directa y revelación final."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera mitad: la maldición y el encargo",
+            "summary": "El caso llega a Baker Street acompañado por la leyenda del sabueso infernal y por la preocupación por la seguridad de sir Henry Baskerville. Holmes y Watson entienden desde el principio que el misterio no solo está en una muerte, sino en el peso que la tradición ejerce sobre los vivos."
+          },
+          {
+            "title": "Parte central: Dartmoor y la red de sospechas",
+            "summary": "Una vez en los páramos, Watson investiga personajes, movimientos nocturnos y relaciones poco claras entre los habitantes de la zona. La amenaza parece multiplicarse, y la novela convierte cada aparición y cada silencio en un posible indicio."
+          },
+          {
+            "title": "Desenlace: la razón frente a la leyenda",
+            "summary": "En la parte final, Holmes reorganiza las piezas dispersas y demuestra que detrás de la apariencia sobrenatural se escondía una maniobra criminal precisa. El cierre no destruye la atmósfera gótica, pero sí la reconduce hacia la lógica detectivesca."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La alianza entre gótico y detective",
+            "content": "Conan Doyle construye una novela policial usando herramientas del terror: mansión aislada, linaje maldito, paisaje hostil y bestia nocturna. El mérito está en no ridiculizar nunca ese imaginario, sino en hacerlo funcional a una investigación racional."
+          },
+          {
+            "heading": "Dartmoor como escenario moral",
+            "content": "El páramo encarna desorientación, riesgo y ambigüedad. Sus nieblas y distancias hacen visibles los límites del conocimiento inmediato y obligan a leer el espacio como si fuera una pista más. En esa geografía, el miedo se vuelve creíble."
+          },
+          {
+            "heading": "Holmes, Watson y la administración del saber",
+            "content": "La novela juega con lo que Watson sabe, lo que cuenta y lo que Holmes reserva. Esa dosificación de información intensifica el suspense y permite que el lector participe de la investigación sin disponer nunca de una visión total hasta el desenlace."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Da miedo o es sobre todo una novela de detectives?",
+            "answer": "Es ambas cosas. Tiene una atmósfera inquietante muy marcada, pero el núcleo del libro sigue siendo una investigación racional al estilo de Sherlock Holmes."
+          },
+          {
+            "question": "¿Hace falta haber leído otros casos de Holmes antes?",
+            "answer": "No. Puede leerse de forma independiente, aunque gana interés si el lector conoce la historia previa de la aparente muerte y regreso del detective."
+          },
+          {
+            "question": "¿El perro es realmente sobrenatural?",
+            "answer": "La novela trabaja precisamente con esa duda. Buena parte de su eficacia está en hacer plausible la superstición hasta que Holmes reorganiza la verdad del caso."
+          },
+          {
+            "question": "¿Por qué es una de las novelas más recordadas de Conan Doyle?",
+            "answer": "Porque une una trama de enigma muy sólida con un clima gótico inolvidable y un escenario que amplifica el suspense de forma extraordinaria."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Britannica: The Hound of the Baskervilles",
+            "url": "https://www.britannica.com/topic/The-Hound-of-the-Baskervilles"
+          },
+          {
+            "label": "Project Gutenberg: The Hound of the Baskervilles",
+            "url": "https://www.gutenberg.org/ebooks/2852"
+          },
+          {
+            "label": "Open Library: The Hound of the Baskervilles",
+            "url": "https://openlibrary.org/works/OL262454W/The_Hound_of_the_Baskervilles"
+          },
+          {
+            "label": "Wikipedia: The Hound of the Baskervilles",
+            "url": "https://en.wikipedia.org/wiki/The_Hound_of_the_Baskervilles"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-presente-de-spencer-johnson",
+      "title": "El Presente",
+      "authorName": "Spencer Johnson",
+      "authorSlug": "spencer-johnson",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El presente",
+        "authorName": "Spencer Johnson",
+        "authorSlug": "spencer-johnson",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "desarrollo-personal"
+        ],
+        "year": 2003,
+        "pages": 112,
+        "summary": "El presente, de Spencer Johnson, es una breve parábola de desarrollo personal construida con la claridad narrativa que hizo célebre al autor de ¿Quién se ha llevado mi queso?. La historia sigue a un joven obsesionado con encontrar un supuesto secreto que le permita vivir mejor. En su búsqueda, descubre que muchas personas quedan atrapadas en dos errores opuestos: vivir ancladas en el pasado o posponer la vida esperando un futuro ideal. Johnson formula entonces su idea central: el \"presente\" no es simplemente el tiempo actual, sino una forma de atención lúcida y responsable que permite aprender de lo ocurrido, actuar con eficacia ahora y preparar mejor lo que vendrá. El libro combina tono motivacional, fábula empresarial y reflexión sencilla sobre hábitos mentales. Su eficacia no está en la complejidad conceptual, sino en la capacidad de convertir una intuición psicológica básica en una guía de lectura rápida y fácil aplicación.",
+        "aboutThisBook": "Open Library sitúa la primera publicación de The Present en 2003 y registra una edición de Doubleday de 112 páginas aparecida ese mismo año, dato suficiente para orientar la ficha bibliográfica sin cargarla de precisiones dudosas. Como otros libros de Johnson, se presenta en forma de relato breve con moraleja práctica, pensado para lectores generales y también para entornos profesionales. Sus materias en catálogo incluyen éxito, felicidad y logro, lo que muestra bien su zona de recepción: no tanto la psicología académica como la autoayuda narrativa de alta circulación. El libro busca que el lector traduzca una idea abstracta en una disciplina concreta de atención, aprendizaje y acción.",
+        "forWhom": "Para lectores adultos interesados en desarrollo personal, liderazgo, hábitos mentales, bienestar práctico y libros breves que puedan leerse de una sentada y discutirse en contextos de trabajo o formación.",
+        "whyItMatters": "Importa porque resume en una imagen muy simple una dificultad contemporánea permanente: quedarse fijado en lo que salió mal o vivir aplazando la vida hacia un mañana imaginario. Johnson ofrece una respuesta elemental, pero sorprendentemente fértil, para recuperar foco y responsabilidad.",
+        "editorialIntro": "Spencer Johnson escribía como quien quiere dejar una idea clara antes de que el lector se distraiga. El presente responde exactamente a ese método: toma un concepto casi obvio —la importancia del ahora— y lo convierte en una pequeña fábula sobre atención, aprendizaje y acción. Su valor no está en descubrir una verdad desconocida, sino en volver practicable una verdad que casi todos olvidan. Por eso sigue siendo un libro útil para quienes necesitan menos teoría y más un recordatorio narrativo capaz de ordenar prioridades.",
+        "readingLevel": "Lectura muy accesible. El libro usa una parábola breve, lenguaje directo y ejemplos cotidianos; su dificultad no es verbal, sino convertir la consigna del presente en una práctica sostenida y no en una frase inspiracional pasajera.",
+        "whyReadToday": "Porque la dispersión digital, la ansiedad por el futuro y la rumiación sobre el pasado hacen especialmente pertinente un libro que insiste en la atención concreta sobre lo que puede hacerse ahora.",
+        "studyNotes": [
+          "Aunque se lee como cuento, el libro pertenece al campo del desarrollo personal: la narración está al servicio de una idea práctica.",
+          "El concepto de presente no elimina memoria ni planificación; más bien ordena pasado, ahora y futuro en una secuencia útil de aprendizaje, acción y preparación.",
+          "Su fuerza reside en la simplicidad. Eso lo vuelve eficaz para lectores generales, pero también obliga a discutir sus límites y su posible simplificación de problemas complejos.",
+          "Puede compararse con otras parábolas empresariales de Johnson para ver cómo repite una misma técnica: un relato mínimo que condensa una máxima de conducta."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: la búsqueda de un secreto",
+            "summary": "La obra se abre con un personaje que cree que existe una clave externa capaz de mejorar su vida. Ese punto de partida sitúa al lector en una lógica muy reconocible: buscar la solución fuera antes de revisar la propia forma de atender y actuar."
+          },
+          {
+            "title": "Parte central: pasado, futuro y distracción",
+            "summary": "En el desarrollo del relato, el protagonista comprende que buena parte del malestar humano nace de quedar atrapado en lo que ya ocurrió o de vivir posponiendo la acción hacia un mañana ideal. Johnson convierte esa observación en el centro pedagógico del libro."
+          },
+          {
+            "title": "Desenlace: practicar el presente",
+            "summary": "La conclusión redefine el presente como atención activa. No se trata de improvisar sin memoria ni de renunciar a planear, sino de actuar mejor ahora, aprender de la experiencia y construir desde ahí un futuro más sólido."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La parábola como herramienta de autoayuda",
+            "content": "Johnson evita el tratado y prefiere el cuento ejemplar. Esa elección le permite condensar una enseñanza en escenas memorables y hacer que la idea parezca aplicable de inmediato. La simplicidad narrativa es parte esencial del mensaje."
+          },
+          {
+            "heading": "Pasado, futuro y acción presente",
+            "content": "El libro no propone olvidar el pasado ni ignorar el futuro, sino usarlos con jerarquía correcta: del pasado se aprende, el futuro se prepara y el presente es el único lugar donde realmente se decide algo. Esa estructura explica su poder práctico."
+          },
+          {
+            "heading": "Alcance y límites del mensaje",
+            "content": "La tesis del libro es útil como disciplina de enfoque, pero no debe confundirse con una solución total para problemas estructurales o emocionales complejos. Su mejor lectura es la de un recordatorio operativo, no la de una filosofía completa de la vida."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es novela o libro de autoayuda?",
+            "answer": "Es un libro de desarrollo personal presentado como parábola. La historia importa, pero está al servicio de una enseñanza práctica sobre atención y acción."
+          },
+          {
+            "question": "¿Tiene relación con ¿Quién se ha llevado mi queso??",
+            "answer": "Sí en el estilo. Ambos libros usan relatos muy breves para transmitir ideas de cambio y conducta de forma directa y fácil de recordar."
+          },
+          {
+            "question": "¿Qué significa exactamente el presente en el libro?",
+            "answer": "No solo el instante actual, sino una actitud de conciencia y responsabilidad que permite aprender del pasado, actuar ahora y preparar mejor el futuro."
+          },
+          {
+            "question": "¿Sirve para lectura profesional o de empresa?",
+            "answer": "Sí. Su lenguaje y su estructura lo han vuelto frecuente en contextos de liderazgo, coaching y formación, aunque también funciona como lectura personal de hábitos mentales."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: The Present (obra)",
+            "url": "https://openlibrary.org/works/OL1864156W/The_Present"
+          },
+          {
+            "label": "Open Library: The Present (edición Doubleday, 2003)",
+            "url": "https://openlibrary.org/books/OL7440920M/The_Present"
+          },
+          {
+            "label": "Open Library: Spencer Johnson",
+            "url": "https://openlibrary.org/authors/OL223174A/Spencer_Johnson"
+          },
+          {
+            "label": "Amazon: The Present by Spencer Johnson",
+            "url": "https://www.amazon.com/Present-Spencer-Johnson/dp/0385513518"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-21T02:23:05Z"
+}

@@ -1,0 +1,1395 @@
+{
+  "batchName": "replenish-20260420T2330Z-next29",
+  "createdAt": "2026-04-20T21:52:14Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "un-padre-de-pelicula-de-antonio-skarmeta",
+      "title": "Un Padre De Pelicula",
+      "authorName": "Antonio Skarmeta",
+      "authorSlug": "antonio-skarmeta",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un padre de película",
+        "authorName": "Antonio Skármeta",
+        "authorSlug": "antonio-skarmeta",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2010,
+        "pages": 147,
+        "summary": "Ambientada en el sur de Chile, esta novela de Antonio Skármeta combina aprendizaje sentimental, humor melancólico y búsqueda de identidad. El joven Jacques vive en Contulmo y arrastra la ausencia de un padre que ha regresado a París, dejando una herida íntima que condiciona su manera de mirar el mundo. En paralelo, entabla una relación decisiva con Augusto Gutiérrez, un muchacho de quince años que le pide ayuda para dar un paso torpe y simbólico hacia la vida adulta. A partir de ese encargo, la historia se mueve entre el despertar sexual, la educación afectiva y la reconstrucción imaginaria de la figura paterna. Skármeta no presenta la madurez como una línea recta, sino como una mezcla de deseo, confusión, vergüenza y descubrimiento. El resultado es una novela breve pero intensa, muy visual, donde la intimidad familiar y la memoria forman un relato de iniciación con fondo social chileno.",
+        "aboutThisBook": "Publicada por Planeta en 2010, Un padre de película pertenece a la etapa madura de Antonio Skármeta, un autor especialmente hábil para convertir la experiencia íntima en relato ágil, emotivo y cinematográfico. La novela fue llevada al cine por Selton Mello bajo el título O filme da minha vida, dato que confirma su potencia visual y su fuerte construcción de personajes. Más que narrar una simple anécdota juvenil, el libro trabaja la ausencia del padre, la educación sentimental y el paso incierto hacia la adultez desde una prosa limpia y cercana.",
+        "forWhom": "Para lectores de narrativa breve y de formación, y para quienes disfrutan novelas sobre adolescencia, familia, memoria y primeras pérdidas.",
+        "whyItMatters": "Importa porque condensa varios rasgos centrales de Skármeta: ligereza aparente, emoción contenida y una mirada compasiva sobre personajes que intentan crecer sin mapas claros. También ofrece una entrada accesible a su universo narrativo.",
+        "editorialIntro": "Hay novelas cortas que parecen pequeñas y, sin embargo, dejan una resonancia larga. Un padre de película funciona así: como una historia de iniciación que habla del deseo, de la torpeza de crecer y de la marca persistente de un padre ausente. Skármeta escribe con naturalidad, ironía y ternura, evitando tanto el sentimentalismo como la solemnidad.",
+        "readingLevel": "Lectura media: el estilo es claro y fluido, pero los matices afectivos y la memoria familiar piden atención interpretativa.",
+        "whyReadToday": "Sigue siendo actual porque explora cómo se construye la identidad masculina cuando faltan modelos estables y cuando la educación sentimental ocurre entre silencios, fantasías y errores.",
+        "studyNotes": [
+          "Observar cómo la ausencia del padre organiza la sensibilidad del protagonista más que cualquier acción espectacular.",
+          "Relacionar el tono ligero de ciertas escenas con el trasfondo melancólico de la novela.",
+          "Analizar el motivo del viaje iniciático como paso simbólico desde la adolescencia hacia una adultez todavía insegura."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: Contulmo y la herida de la ausencia",
+            "summary": "La novela sitúa al lector en el sur de Chile y presenta a Jacques, marcado por la marcha de su padre a París. Ese vacío no se expresa solo como dolor familiar, sino como una pregunta constante sobre identidad, pertenencia y futuro."
+          },
+          {
+            "title": "Nudo: amistad, deseo y aprendizaje",
+            "summary": "La relación con Augusto Gutiérrez activa el movimiento central del relato. A través de encargos, confidencias y situaciones incómodas, ambos personajes atraviesan un proceso de educación sentimental donde la sexualidad aparece unida a la vergüenza, la curiosidad y la improvisación."
+          },
+          {
+            "title": "Desenlace: memoria y recomposición del padre",
+            "summary": "A medida que la experiencia se acumula, Jacques reinterpreta la figura paterna y comprende que crecer no consiste en resolver todas las preguntas, sino en aprender a convivir con una herencia afectiva incompleta. La novela cierra con un tono de maduración más que de certidumbre."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela de formación en clave íntima",
+            "content": "Skármeta utiliza una estructura breve y concentrada para contar un tránsito a la adultez. El foco no está en una gran peripecia externa, sino en cómo pequeños episodios alteran la percepción que el protagonista tiene de sí mismo y de los demás."
+          },
+          {
+            "heading": "La figura paterna como ausencia activa",
+            "content": "El padre no desaparece del libro por estar lejos; al contrario, organiza la imaginación del hijo. La novela muestra que una ausencia puede convertirse en una presencia psíquica decisiva, capaz de modelar deseos, miedos y expectativas."
+          },
+          {
+            "heading": "Un estilo visual y cinematográfico",
+            "content": "La prosa de Skármeta favorece escenas vivas, diálogos ágiles y una sensibilidad casi fílmica. Esa cualidad explica en parte la adaptación cinematográfica y hace que la lectura resulte accesible sin perder espesor emocional."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela autobiográfica?",
+            "answer": "No se presenta como autobiografía, aunque trabaja temas habituales en Skármeta, como la memoria, la iniciación y los vínculos afectivos."
+          },
+          {
+            "question": "¿Es una lectura juvenil o adulta?",
+            "answer": "Puede ser leída por jóvenes avanzados, pero su tratamiento de la sexualidad, la nostalgia y la paternidad la acerca más al público adulto."
+          },
+          {
+            "question": "¿Por qué se la considera una novela de iniciación?",
+            "answer": "Porque sigue a personajes jóvenes en un proceso de descubrimiento del cuerpo, del deseo y de las zonas ambiguas de la vida adulta."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Google Libros: Un padre de película",
+            "url": "https://books.google.com/books?vid=ISBN9788408095408"
+          },
+          {
+            "label": "Open Library: ediciones de Un padre de película",
+            "url": "https://openlibrary.org/works/OL15890515W/editions"
+          },
+          {
+            "label": "Wikipedia: Antonio Skármeta",
+            "url": "https://es.wikipedia.org/wiki/Antonio_Sk%C3%A1rmeta"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "un-puente-sobre-el-drina-de-ivo-andric",
+      "title": "Un Puente Sobre El Drina",
+      "authorName": "Ivo Andric",
+      "authorSlug": "ivo-andric",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un puente sobre el Drina",
+        "authorName": "Ivo Andrić",
+        "authorSlug": "ivo-andric",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 1945,
+        "pages": 318,
+        "summary": "Un puente sobre el Drina es una de las grandes novelas históricas europeas del siglo XX. Ivo Andrić toma como centro el puente Mehmed Paša Sokolović, en Višegrad, y lo convierte en testigo material de varios siglos de vida balcánica. A su alrededor desfilan generaciones de habitantes, tensiones religiosas, conflictos imperiales, rutinas cotidianas, bodas, castigos, rumores y cambios políticos que modifican el destino de la región. La novela no sigue a un único héroe, sino a una comunidad entera atravesada por la dominación otomana, el avance austrohúngaro y la violencia que desemboca en la Primera Guerra Mundial. El puente funciona como símbolo de unión y de fractura al mismo tiempo: conecta orillas, pero también recuerda que la historia deja cicatrices profundas. Andrić narra con amplitud épica y precisión humana, haciendo visible cómo los grandes procesos históricos se encarnan en vidas ordinarias.",
+        "aboutThisBook": "Publicada en 1945 con el título original Na Drini ćuprija, la novela es la obra más conocida de Ivo Andrić y una referencia central para entender su Nobel de Literatura de 1961. Su singularidad reside en el modo en que combina historia, leyenda, crónica social y observación psicológica sin perder cohesión. Más que recrear un episodio aislado, el libro imagina la larga duración balcánica: el paso de imperios, la convivencia conflictiva entre comunidades y la persistencia de un espacio común cargado de memoria.",
+        "forWhom": "Para lectores de clásicos, novela histórica y literatura centroeuropea o balcánica, y para quienes buscan ficciones donde la historia colectiva pesa tanto como los personajes.",
+        "whyItMatters": "Sigue siendo una novela fundamental porque muestra cómo una comunidad vive el tiempo histórico no como abstracción, sino como sucesión de heridas, adaptaciones y supervivencias. Su mirada sobre frontera, convivencia y violencia conserva enorme vigencia.",
+        "editorialIntro": "Pocas novelas convierten un lugar físico en un personaje tan poderoso como lo hace Un puente sobre el Drina. Andrić no usa el puente solo como decorado: lo transforma en archivo de piedra, escenario de encuentros y prueba visible de que la historia nunca pasa del todo. Leerla es entrar en siglos de convivencia tensa, costumbres compartidas y fracturas políticas en los Balcanes.",
+        "readingLevel": "Lectura media-alta: exige atención a la perspectiva histórica, a los cambios generacionales y a la estructura coral del relato.",
+        "whyReadToday": "Ayuda a pensar cuestiones muy actuales: identidades superpuestas, memoria de la violencia, fronteras culturales y efectos concretos de los imperios sobre la vida cotidiana.",
+        "studyNotes": [
+          "Tomar el puente como símbolo ambivalente: une territorios, pero también concentra conflictos y jerarquías históricas.",
+          "Estudiar la estructura coral y observar cómo la comunidad sustituye al protagonista individual.",
+          "Relacionar la novela con la idea de larga duración histórica: siglos de cambio condensados en un mismo espacio."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Fundación del puente y orden imperial",
+            "summary": "La novela presenta la construcción del puente bajo dominio otomano y muestra cómo una obra material altera la vida del lugar. Desde el inicio, el progreso técnico aparece ligado al poder, al sacrificio y a la imposición histórica."
+          },
+          {
+            "title": "Vida cotidiana sobre la piedra",
+            "summary": "Durante generaciones, el puente se convierte en centro de circulación, charla, comercio y conflicto. Andrić retrata costumbres, ritos y relaciones entre comunidades que comparten espacio sin dejar de experimentar tensiones religiosas y políticas."
+          },
+          {
+            "title": "Crisis moderna y destrucción parcial",
+            "summary": "Con la llegada de nuevos poderes y el clima bélico del siglo XX, el puente deja de ser solo un símbolo de permanencia. La guerra revela la fragilidad del mundo que parecía estable y convierte el espacio común en escenario de ruptura."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El puente como protagonista histórico",
+            "content": "El centro narrativo no es una persona, sino una construcción que acumula memoria. Al desplazar el foco hacia el puente, Andrić logra representar siglos enteros sin reducirlos a una biografía individual."
+          },
+          {
+            "heading": "Historia y vida cotidiana",
+            "content": "La grandeza del libro está en mostrar que los imperios y las guerras no existen solo en documentos oficiales: transforman impuestos, hábitos, relaciones de vecindad, matrimonios, miedos y formas de hablar del futuro."
+          },
+          {
+            "heading": "Una novela sobre convivencia frágil",
+            "content": "La obra evita idealizar la armonía y también evita simplificar el conflicto. Muestra coexistencias parciales, solidaridades concretas y rivalidades persistentes, con una complejidad que ayuda a leer los Balcanes más allá del estereotipo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Tiene un protagonista único?",
+            "answer": "No. Es una novela coral donde el puente y la comunidad de Višegrad ocupan el verdadero centro del relato."
+          },
+          {
+            "question": "¿Es difícil de leer?",
+            "answer": "No por el estilo, que es claro, sino por su amplitud histórica y por la cantidad de personajes y situaciones que atraviesan varias generaciones."
+          },
+          {
+            "question": "¿Por qué fue tan importante para el Nobel de Andrić?",
+            "answer": "Porque resume su capacidad para transformar la historia balcánica en literatura de alcance universal, uniendo observación humana, memoria y ambición épica."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: Un puente sobre el Drina",
+            "url": "https://es.wikipedia.org/wiki/Un_puente_sobre_el_Drina"
+          },
+          {
+            "label": "Nobel Prize: Ivo Andrić Facts",
+            "url": "https://www.nobelprize.org/prizes/literature/1961/andric/facts/"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Ivo Andrić",
+            "url": "https://www.britannica.com/biography/Ivo-Andric"
+          },
+          {
+            "label": "Wikipedia: The Bridge on the Drina",
+            "url": "https://en.wikipedia.org/wiki/The_Bridge_on_the_Drina"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "una-bala-con-mi-nombre-de-susana-rodriguez-lezaun",
+      "title": "Una Bala Con Mi Nombre",
+      "authorName": "Susana Rodriguez Lezaun",
+      "authorSlug": "susana-rodriguez-lezaun",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Una bala con mi nombre",
+        "authorName": "Susana Rodríguez Lezaun",
+        "authorSlug": "susana-rodriguez-lezaun",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2020,
+        "pages": 304,
+        "summary": "Susana Rodríguez Lezaun plantea en esta novela un thriller de caída rápida y progresiva. Zoe Bennett, restauradora del Museo de Bellas Artes de Boston, lleva una vida gris, ordenada y relativamente aislada hasta que conoce a Noah en una velada del museo. Lo que parece una aventura tardía y excitante se transforma muy pronto en un torbellino de deseo, manipulación, codicia y violencia. A partir de una noche decisiva en el taller de restauración, la protagonista descubre que ha entrado en un mecanismo delictivo del que no podrá salir intacta. La novela explora cómo una persona aparentemente común puede verse arrastrada a decisiones extremas cuando se combinan soledad, atracción, miedo y oportunidad. Rodríguez Lezaun sostiene la tensión con ritmo ágil, giros frecuentes y una protagonista obligada a descubrir recursos morales y prácticos que ni ella misma sabía que poseía.",
+        "aboutThisBook": "Publicada en 2020 por HarperCollins Ibérica, Una bala con mi nombre se sitúa en el territorio del thriller contemporáneo de lectura veloz, pero no se limita al suspense mecánico. La autora construye una protagonista madura, vulnerable y observadora, y la coloca en una trama donde el crimen no surge de un gran plan criminal abstracto, sino de decisiones encadenadas, impulsos emocionales y zonas ciegas del deseo. El marco artístico del museo añade un contraste eficaz entre belleza, prestigio institucional y violencia subterránea.",
+        "forWhom": "Para lectores de thriller psicológico y criminal que disfrutan novelas rápidas, con protagonista femenina fuerte, tensión constante y giros ligados a la ambigüedad moral.",
+        "whyItMatters": "Importa porque demuestra cómo el thriller puede explorar la fragilidad cotidiana sin abandonar el entretenimiento. La novela convierte una vida rutinaria en laboratorio de miedo, deseo y supervivencia, y lo hace con eficacia narrativa.",
+        "editorialIntro": "Una bala con mi nombre parte de una premisa reconocible —una vida aparentemente controlada que se sale de eje— y la lleva con rapidez hacia un territorio cada vez más peligroso. Rodríguez Lezaun entiende bien el mecanismo del suspense: dosifica la información, acelera cuando hace falta y coloca a su protagonista ante decisiones que comprometen tanto su seguridad como su identidad.",
+        "readingLevel": "Lectura accesible: prosa directa, capítulos dinámicos y una intriga diseñada para mantener la atención sin exigir bagaje previo.",
+        "whyReadToday": "Porque dialoga con una ansiedad muy contemporánea: la sensación de que una cadena mínima de decisiones puede quebrar una vida estable y revelar lados desconocidos de uno mismo.",
+        "studyNotes": [
+          "Seguir la transformación de Zoe desde la rutina y el aislamiento hasta una lógica de supervivencia cada vez más extrema.",
+          "Analizar el uso del museo como espacio simbólico: conservación, valor material y belleza frente a violencia y codicia.",
+          "Observar cómo la novela articula deseo y peligro sin separar del todo atracción, manipulación y autoengaño."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: una vida gris que se resquebraja",
+            "summary": "Zoe Bennett aparece como una mujer madura, reservada y acostumbrada a una existencia rutinaria. El encuentro con Noah introduce una promesa de intensidad afectiva y sexual que rompe su equilibrio y la vuelve vulnerable."
+          },
+          {
+            "title": "Nudo: del romance al mecanismo criminal",
+            "summary": "La relación acelera y arrastra a Zoe hacia una noche decisiva en el museo. Desde ahí, la trama cambia de registro y la protagonista entra en un circuito de violencia, avaricia y sospecha donde ya no puede confiar en las apariencias."
+          },
+          {
+            "title": "Desenlace: resistencia y redefinición de sí misma",
+            "summary": "Cuando comprende el alcance real del peligro, Zoe deja de ser solo una víctima circunstancial. La novela la obliga a actuar, evaluar riesgos y enfrentarse a la pregunta central del thriller: hasta dónde puede llegar alguien común para sobrevivir."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una protagonista adulta fuera del estereotipo",
+            "content": "Uno de los aciertos del libro es no construir a Zoe como heroína invulnerable ni como víctima pasiva. Su edad, su rutina y su trabajo especializado le dan un perfil menos convencional dentro del thriller comercial."
+          },
+          {
+            "heading": "Deseo, manipulación y autoengaño",
+            "content": "La novela sugiere que el peligro no entra solo desde fuera. También se instala en las necesidades emocionales de la protagonista, en aquello que quiere creer y en lo que prefiere no mirar a tiempo."
+          },
+          {
+            "heading": "El museo como escenario moral",
+            "content": "El entorno del arte y la restauración no es un simple decorado elegante. Refuerza la idea de superficies valiosas, piezas ocultas, autenticidad y falsificación, temas que dialogan con las máscaras de los personajes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es más thriller psicológico o policial?",
+            "answer": "Se inclina claramente hacia el thriller psicológico y de suspense criminal, con menos interés en la investigación formal que en la experiencia de la protagonista dentro del peligro."
+          },
+          {
+            "question": "¿La novela depende sobre todo de los giros?",
+            "answer": "Los giros son importantes, pero funcionan porque están apoyados en la evolución emocional de Zoe y en su percepción cambiante de los demás."
+          },
+          {
+            "question": "¿Se puede leer sin conocer otras obras de la autora?",
+            "answer": "Sí. Es una novela autónoma y accesible, adecuada como puerta de entrada al universo narrativo de Rodríguez Lezaun."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Google Libros: Una bala con mi nombre",
+            "url": "https://books.google.com/books?vid=ISBN9788491393894"
+          },
+          {
+            "label": "Web oficial de Susana Rodríguez Lezaun: Una bala con mi nombre",
+            "url": "https://www.susanarodriguezlezaun.com/novelas/una-bala-con-mi-nombre/"
+          },
+          {
+            "label": "Open Library: Una bala con mi nombre",
+            "url": "https://openlibrary.org/works/OL22218671W/editions"
+          },
+          {
+            "label": "Susana Rodríguez Lezaun: reseña en MoonMagazine",
+            "url": "https://www.susanarodriguezlezaun.com/una-bala-con-mi-nombre-crea-un-personaje-inolvidable-en-moonmagazine/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ustedes-brillan-en-lo-oscuro-de-liliana-colanzi",
+      "title": "Ustedes Brillan En Lo Oscuro",
+      "authorName": "Liliana Colanzi",
+      "authorSlug": "liliana-colanzi",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Ustedes brillan en lo oscuro",
+        "authorName": "Liliana Colanzi",
+        "authorSlug": "liliana-colanzi",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "ciencia-ficcion",
+          "thriller"
+        ],
+        "year": 2022,
+        "pages": 120,
+        "summary": "Ustedes brillan en lo oscuro es un libro de cuentos en el que Liliana Colanzi combina imaginación especulativa, terror ambiental y memoria histórica para explorar distintos modos de violencia sobre los cuerpos y los territorios latinoamericanos. Sus relatos se mueven entre cuevas, ruinas amazónicas, colonias religiosas, ciudades contaminadas y zonas atravesadas por radiación, extracción y fanatismo. Más que ofrecer un realismo estable, Colanzi trabaja en una frontera inquieta entre lo fantástico, lo científico y lo mítico. Cada cuento propone una atmósfera propia, pero el conjunto comparte una sensibilidad común: el tiempo aparece roto, los espacios están enrarecidos y los personajes viven bajo fuerzas invisibles que alteran su percepción. El resultado es una colección breve, intensa y muy cohesionada, donde el extrañamiento sirve para pensar ecología, historia, deseo, miedo y futuro.",
+        "aboutThisBook": "Publicado por Páginas de Espuma en 2022 y distinguido con el VII Premio Ribera del Duero, este volumen confirmó a Liliana Colanzi como una de las voces más singulares del cuento latinoamericano contemporáneo. La autora boliviana ya venía trabajando cruces entre literatura fantástica, horror, ciencia ficción y archivo cultural andino, pero aquí esa mezcla adquiere una forma especialmente depurada. El libro puede leerse como colección de relatos autónomos, aunque también funciona como una constelación temática sobre contaminación, temporalidades rotas, extractivismo y mutación. Su densidad imaginativa convive con una prosa sensorial y muy controlada.",
+        "forWhom": "Para lectores adultos interesados en cuento contemporáneo, literatura latinoamericana, terror literario, ciencia ficción de registro cultural y ficciones que mezclan atmósfera, ideas y potencia verbal.",
+        "whyItMatters": "Importa porque demuestra que la ficción breve puede pensar el presente ecológico y político sin volverse panfletaria. Colanzi convierte la contaminación, la radiación y la memoria colonial en materia literaria de gran intensidad, y amplía el mapa de la narrativa fantástica en español.",
+        "editorialIntro": "Hay libros de cuentos que se recuerdan por una pieza aislada y otros que imponen una temperatura propia desde la primera página. Ustedes brillan en lo oscuro pertenece claramente al segundo grupo. Liliana Colanzi escribe relatos que no se conforman con inquietar: transforman paisajes latinoamericanos reconocibles en escenarios de extrañeza física, histórica y moral. El libro es breve, pero su resonancia es larga, porque cada historia deja la impresión de haber tocado algo invisible y persistente.",
+        "readingLevel": "Lectura media-alta: el lenguaje es claro, pero la densidad simbólica, la ambigüedad fantástica y las referencias históricas y ambientales invitan a una lectura atenta.",
+        "whyReadToday": "Se lee con especial fuerza hoy porque aborda crisis ecológicas, extractivismo, violencia sobre comunidades y futuros contaminados sin perder imaginación literaria. Es una manera exigente y original de pensar el presente desde la ficción.",
+        "studyNotes": [
+          "El libro trabaja una zona híbrida entre cuento literario, horror, ciencia ficción y mito, sin fijarse en un solo género.",
+          "La contaminación y la radiación no son solo temas argumentales: funcionan como metáforas de herencias históricas, sociales y afectivas difíciles de erradicar.",
+          "La temporalidad aparece fracturada en varios relatos; pasado colonial, presente precario y futuro distópico se contaminan entre sí.",
+          "Puede estudiarse como ejemplo de narrativa latinoamericana contemporánea que reescribe lo fantástico desde ecología, cuerpo y territorio."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Territorios alterados",
+            "summary": "Los primeros relatos sitúan al lector en paisajes donde la materia misma parece volverse inestable. Cuevas, ruinas y espacios periféricos funcionan como umbrales en los que el tiempo deja de ser lineal y la percepción humana ya no basta para explicar lo que ocurre."
+          },
+          {
+            "title": "Cuerpos bajo contaminación",
+            "summary": "En la zona central del libro, la radiación, los residuos y las formas de explotación inciden directamente sobre los cuerpos. La inquietud no procede solo del peligro físico, sino de la sensación de que la violencia ambiental altera identidades, vínculos y formas de memoria."
+          },
+          {
+            "title": "Comunidades, fe y mutación",
+            "summary": "Hacia el cierre, Colanzi intensifica la relación entre encierro social, deseo de trascendencia y amenaza invisible. Las comunidades retratadas buscan orden o redención, pero terminan revelando fisuras profundas en su relación con el pasado, la naturaleza y el porvenir."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Lo fantástico como lectura del extractivismo",
+            "content": "Colanzi no usa lo extraño como mero adorno atmosférico. Sus ficciones convierten la minería, la devastación amazónica, los residuos tóxicos y otras formas de explotación en experiencias narrativas donde lo invisible adquiere presencia material y moral."
+          },
+          {
+            "heading": "Tiempo roto y memoria profunda",
+            "content": "Uno de los grandes logros del libro es su modo de narrar tiempos superpuestos. El pasado geológico, la violencia colonial y los futuros imaginados conviven en un mismo plano narrativo, de modo que la historia deja de ser fondo y se vuelve una presión activa sobre el presente."
+          },
+          {
+            "heading": "Una prosa sensorial y enigmática",
+            "content": "La autora construye sus relatos con una escritura precisa, física y muy visual, pero evita la explicación total. Esa combinación de concreción sensorial y opacidad interpretativa sostiene la inquietud del libro y le da una identidad literaria muy marcada."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de cuentos o una novela?",
+            "answer": "Es un libro de cuentos. Sus relatos pueden leerse por separado, aunque el volumen gana fuerza cuando se lee como conjunto por la continuidad de temas, atmósferas y obsesiones."
+          },
+          {
+            "question": "¿Predomina el terror o la ciencia ficción?",
+            "answer": "Predomina una mezcla muy deliberada. Hay elementos de terror, ciencia ficción, realismo extraño y mito, pero Colanzi trabaja justamente en esa frontera inestable entre registros."
+          },
+          {
+            "question": "¿Por qué se cita tanto este libro dentro del cuento latinoamericano reciente?",
+            "answer": "Porque une ambición literaria, imaginación formal y lectura del presente. Su tratamiento de la ecología, la radiación y la violencia histórica lo volvió una referencia contemporánea muy visible."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Editorial Páginas de Espuma: Ustedes brillan en lo oscuro",
+            "url": "https://paginasdeespuma.com/libro/ustedes-brillan-en-lo-oscuro/"
+          },
+          {
+            "label": "Google Libros: Ustedes brillan en lo oscuro",
+            "url": "https://books.google.com/books?vid=ISBN9788483933145"
+          },
+          {
+            "label": "New Directions: You Glow in the Dark",
+            "url": "https://www.ndbooks.com/book/you-glow-in-the-dark/"
+          },
+          {
+            "label": "Wikipedia: Liliana Colanzi",
+            "url": "https://en.wikipedia.org/wiki/Liliana_Colanzi"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "vanina-vanini-de-stendhal",
+      "title": "Vanina Vanini",
+      "authorName": "Stendhal",
+      "authorSlug": "stendhal",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Vanina Vanini",
+        "authorName": "Stendhal",
+        "authorSlug": "stendhal",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "novela-historica",
+          "romance"
+        ],
+        "year": 1829,
+        "summary": "Vanina Vanini es una nouvelle de Stendhal ambientada en la Italia del primer Risorgimento. La protagonista, una joven aristócrata romana orgullosa y caprichosa, descubre en el palacio de su padre a un herido que se oculta disfrazado: Pietro Missirilli, carbonario perseguido por su actividad revolucionaria. Entre ambos nace una pasión intensa, pero también profundamente desigual. Vanina quiere poseer al amante; Pietro se siente llamado antes por la causa política que por el amor. A partir de esa tensión, Stendhal construye un relato breve y afilado donde se enfrentan deseo, ambición, orgullo, patriotismo y traición. La historia avanza con rapidez casi teatral, pero deja una impresión moral duradera: el amor no aparece como reconciliación, sino como fuerza capaz de revelar egoísmo, grandeza y violencia bajo las formas de la pasión.",
+        "aboutThisBook": "Publicada en 1829, esta obra breve ocupa un lugar significativo dentro de la narrativa de Stendhal por su concentración dramática y por la forma en que une psicología amorosa y contexto político. Aunque suele leerse junto a sus crónicas italianas, Vanina Vanini posee una autonomía clara y una intensidad propia. El marco del Risorgimento no sirve solo de decorado histórico: determina las decisiones de los personajes y convierte el conflicto sentimental en un examen de lealtades. La prosa de Stendhal es directa, veloz y analítica, y consigue que una historia relativamente corta adquiera una fuerza casi trágica.",
+        "forWhom": "Para lectores adultos interesados en clásicos europeos, novelas breves de alta concentración psicológica, literatura del siglo XIX y relatos donde el amor se cruza con la historia política.",
+        "whyItMatters": "Importa porque muestra a un Stendhal especialmente nítido en su análisis del deseo, el orgullo y la ilusión amorosa. Además, enlaza pasión privada y lucha política de una manera que anticipa conflictos centrales de la novela moderna.",
+        "editorialIntro": "Stendhal sabía que una historia breve podía ser tan incisiva como una gran novela cuando estaba construida alrededor de un conflicto esencial. Vanina Vanini es una prueba magnífica. En pocas páginas enfrenta a una aristócrata acostumbrada a dominar su entorno con un revolucionario para quien la causa nacional pesa más que la entrega amorosa. De ese choque nace una narración rápida, elegante y cruel, donde cada gesto sentimental es también una decisión ética y política.",
+        "readingLevel": "Lectura media-alta: la extensión es breve, pero el contexto histórico del Risorgimento y la ironía psicológica de Stendhal enriquecen mucho la experiencia si se leen con atención.",
+        "whyReadToday": "Sigue valiendo la pena porque permite pensar cómo el amor se deforma cuando choca con el narcisismo, la ideología y la necesidad de control. Su brevedad no reduce su complejidad moral; al contrario, la vuelve más incisiva.",
+        "studyNotes": [
+          "La oposición central no es solo amor frente a política, sino posesión frente a convicción.",
+          "Vanina es un personaje decisivo para estudiar orgullo aristocrático, deseo y humillación en la narrativa de Stendhal.",
+          "El marco del Risorgimento aporta urgencia histórica y convierte cada elección sentimental en una toma de partido.",
+          "La nouvelle puede compararse con otras obras de Stendhal por su velocidad narrativa y su lucidez sobre las pasiones."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El descubrimiento del fugitivo",
+            "summary": "Vanina advierte un secreto en el palacio de su padre y descubre a un herido escondido bajo apariencia femenina. La curiosidad inicial se convierte pronto en fascinación amorosa y abre el núcleo dramático del relato."
+          },
+          {
+            "title": "Pasión y causa revolucionaria",
+            "summary": "Una vez repuesto, Pietro Missirilli no concibe quedarse al abrigo del amor aristocrático. Su vocación carbonaria lo empuja de nuevo a la conspiración, mientras Vanina intenta retenerlo y convertir la pasión en posesión exclusiva."
+          },
+          {
+            "title": "La traición y su castigo moral",
+            "summary": "Movida por celos y orgullo, Vanina denuncia a los compañeros de Pietro con la esperanza de recuperarlo. La maniobra provoca el desenlace más duro de la obra: la revelación de la traición destruye cualquier posibilidad de reconciliación amorosa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Psicología de la pasión",
+            "content": "Stendhal retrata el amor no como sentimiento puro, sino como mezcla de deseo, imaginación, orgullo y voluntad de dominio. Vanina ama, pero también quiere imponerse; de ahí la violencia íntima que recorre toda la nouvelle."
+          },
+          {
+            "heading": "Historia y conflicto sentimental",
+            "content": "El Risorgimento no es un fondo pintoresco. La causa carbonaria da forma real a la decisión de Pietro y vuelve trágica la relación: para él, la patria futura pesa más que la satisfacción privada del presente."
+          },
+          {
+            "heading": "Brevedad y precisión narrativa",
+            "content": "La economía de Stendhal es ejemplar. Con pocos episodios y escenas muy concentradas, logra una trama de gran velocidad sin renunciar a la complejidad psicológica. Esa precisión explica parte de la vigencia del texto."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es novela, cuento o nouvelle?",
+            "answer": "Suele describirse como una nouvelle o relato breve largo. Tiene la concentración de un cuento extenso, pero también la densidad psicológica de una novela corta."
+          },
+          {
+            "question": "¿Quiénes son los carbonarios en la obra?",
+            "answer": "Son miembros de una sociedad revolucionaria italiana del siglo XIX. En el relato encarnan la lucha política contra el orden impuesto y dan al texto su dimensión histórica."
+          },
+          {
+            "question": "¿Qué vuelve tan importante a Vanina como personaje?",
+            "answer": "Su mezcla de orgullo, inteligencia, deseo y crueldad. No es una heroína sentimental convencional, sino una figura compleja cuya pasión revela una necesidad feroz de posesión."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: Vanina Vanini",
+            "url": "https://en.wikipedia.org/wiki/Vanina_Vanini"
+          },
+          {
+            "label": "Google Libros: Vanina Vanini",
+            "url": "https://books.google.com/books?id=Qxm0DwAAQBAJ&hl=es"
+          },
+          {
+            "label": "Wikipedia: Stendhal",
+            "url": "https://es.wikipedia.org/wiki/Stendhal"
+          },
+          {
+            "label": "Google Libros search: Vanina Vanini + Stendhal",
+            "url": "https://books.google.com/books?jscmd=Search&hl=es&q=intitle:%22Vanina%20Vanini%22%2Binauthor:%22Stendhal%22"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "vespera-de-anselm-audley",
+      "title": "Vespera",
+      "authorName": "Anselm Audley",
+      "authorSlug": "anselm-audley",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Vespera",
+        "authorName": "Anselm Audley",
+        "authorSlug": "anselm-audley",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasia",
+          "aventura",
+          "narrativa"
+        ],
+        "year": 2007,
+        "pages": 544,
+        "summary": "Vespera es una novela de fantasía épica y conspiración ambientada en el universo de Aquasilva. Tras un exilio autoimpuesto, Rafael Quiridion regresa para investigar el asesinato del emperador y descubre un imperio al borde del colapso. La sucesión abre una lucha por el poder en la que intervienen el nuevo emperador, los clanes de mercaderes, el aparato de espionaje y diversas flotas enfrentadas. A medida que Rafael avanza, la intriga política se expande y revela una conspiración mayor de lo que parecía al principio. La novela mezcla pesquisa, maniobras cortesanas, rivalidades comerciales y conflicto militar en un mundo de gran escala. Audley privilegia el movimiento narrativo y el entramado de facciones, de modo que la aventura individual del protagonista se convierte también en una historia sobre equilibrio imperial, lealtades ambiguas y secretos capaces de precipitar una guerra civil.",
+        "aboutThisBook": "Publicada en 2007 y presentada como continuación del universo de Aquasilva, Vespera muestra a Anselm Audley en un registro de fantasía más político e intrigante que el de una simple aventura heroica lineal. La novela se sostiene sobre un mundo ya desarrollado en libros anteriores, pero plantea un conflicto inteligible por sí mismo: una investigación criminal que destapa una crisis de Estado. El peso de mercaderes, clanes, redes de espionaje y flotas convierte el libro en una fantasía de corte imperial con resonancias de thriller. Su amplitud y su gusto por la conspiración son parte esencial de su atractivo.",
+        "forWhom": "Para lectores juveniles avanzados y adultos que disfrutan la fantasía épica con intriga política, mundos complejos, investigaciones dentro de la corte y conflictos entre facciones imperiales.",
+        "whyItMatters": "Importa porque amplía Aquasilva hacia una fantasía de conspiración imperial, donde el centro no es solo la aventura física, sino la fragilidad de un sistema político entero. También muestra la ambición narrativa de un autor que escribió dentro del género desde muy joven.",
+        "editorialIntro": "La fantasía épica suele prometer grandes mapas, linajes y guerras. Vespera ofrece todo eso, pero añade un impulso detectivesco que la vuelve especialmente atractiva. Anselm Audley arranca con un asesinato imperial y convierte esa muerte en la puerta de entrada a un tablero de clanes mercantiles, espionaje, flotas y traiciones. El libro se lee como aventura de mundo imaginario, sí, pero también como novela de investigación política dentro de un imperio que se agrieta desde arriba.",
+        "readingLevel": "Lectura media-alta por la cantidad de facciones, nombres propios y maniobras políticas, aunque el impulso de la intriga mantiene el avance y recompensa a lectores acostumbrados a la fantasía extensa.",
+        "whyReadToday": "Sigue siendo disfrutable para quien busca fantasía con tensión política real y no solo combate o viaje heroico. Su mezcla de espionaje, asesinato de Estado y equilibrio imperial le da una energía distinta dentro del género.",
+        "studyNotes": [
+          "La novela usa una investigación criminal como mecanismo para exponer la estructura entera del imperio y sus fracturas.",
+          "Rafael Quiridion funciona menos como héroe clásico invencible que como mediador entre facciones, secretos y lealtades cruzadas.",
+          "El peso de mercaderes, clanes y flotas sugiere una fantasía donde economía y poder político están profundamente entrelazados.",
+          "Puede analizarse como continuación de mundo compartido, pero también como relato autónomo de conspiración y crisis sucesoria."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Regreso del exiliado",
+            "summary": "Rafael Quiridion vuelve del exilio para investigar el asesinato del emperador. Su retorno lo coloca de inmediato en una capital inestable, donde cada información parece abrir una nueva capa de peligro y cálculo político."
+          },
+          {
+            "title": "Conspiración entre trono y clanes",
+            "summary": "La muerte imperial se revela como el inicio de una crisis más amplia. El nuevo emperador, los mercaderes y el sistema de espionaje maniobran en direcciones opuestas, mientras Rafael intenta identificar al responsable real antes de que el conflicto se vuelva irreversible."
+          },
+          {
+            "title": "Flotas, guerra civil y secreto final",
+            "summary": "Cuando las distintas flotas entran en confrontación abierta, la intriga deja de ser un asunto palaciego y amenaza la supervivencia misma del imperio. El descubrimiento de los objetivos del asesino redefine el sentido de toda la investigación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Fantasía épica con núcleo de thriller",
+            "content": "Una de las particularidades de Vespera es que parte de un crimen concreto y no de una profecía o un viaje iniciático. Ese arranque acerca la novela al thriller político y permite que el lector recorra el mundo de Aquasilva siguiendo pistas, intereses y encubrimientos."
+          },
+          {
+            "heading": "Imperio, comercio y espionaje",
+            "content": "El libro concede mucho peso a las estructuras de poder. No solo importan la nobleza o la sucesión, sino también los clanes mercantiles, las redes de información y la capacidad de movilizar flotas. Eso da densidad estratégica a la trama."
+          },
+          {
+            "heading": "Rafael Quiridion como figura de equilibrio inestable",
+            "content": "Rafael regresa como investigador, pero también como personaje marcado por su distancia y su ambivalencia. Esa posición le permite atravesar distintos sectores del imperio, aunque nunca desde una seguridad completa: su mirada organiza el caos, pero también revela lo imposible que resulta controlarlo del todo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta leer antes la trilogía Aquasilva?",
+            "answer": "Ayuda para captar mejor el trasfondo del mundo, pero Vespera plantea un conflicto propio —el asesinato imperial y la conspiración posterior— que permite seguir la novela por sí misma."
+          },
+          {
+            "question": "¿Es una fantasía más política que aventurera?",
+            "answer": "Tiene ambas dimensiones, pero destaca especialmente por la intriga imperial, las facciones en conflicto y la investigación del crimen inicial."
+          },
+          {
+            "question": "¿Qué tipo de protagonista es Rafael Quiridion?",
+            "answer": "Es un espía e investigador con perfil intelectual y estratégico, menos centrado en la hazaña individual que en descifrar redes de poder, alianzas y engaños."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Google Libros: Vespera",
+            "url": "https://books.google.com/books?vid=ISBN9788445076590"
+          },
+          {
+            "label": "Open Library: Vespera",
+            "url": "https://openlibrary.org/works/OL16819447W"
+          },
+          {
+            "label": "Wikipedia: Anselm Audley",
+            "url": "https://en.wikipedia.org/wiki/Anselm_Audley"
+          },
+          {
+            "label": "Wikipedia: Aquasilva Trilogy",
+            "url": "https://en.wikipedia.org/wiki/Aquasilva_Trilogy"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "yo-antes-de-ti-de-jojo-moyes",
+      "title": "Yo Antes De Ti",
+      "authorName": "Jojo Moyes",
+      "authorSlug": "jojo-moyes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Yo antes de ti",
+        "authorName": "Jojo Moyes",
+        "authorSlug": "jojo-moyes",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "romance"
+        ],
+        "year": 2012,
+        "pages": 496,
+        "summary": "\"Yo antes de ti\" es una novela romántica y emocional que enfrenta dos biografías detenidas en un momento de cambio. Louisa Clark lleva una vida modesta, rutinaria y bastante pequeña en un pueblo inglés; cuando pierde su empleo, acepta trabajar como cuidadora de Will Traynor, un hombre joven, brillante y adinerado que quedó tetrapléjico tras un accidente. Lo que comienza como una relación incómoda entre dos temperamentos opuestos se convierte en un vínculo complejo, tierno y conflictivo. Jojo Moyes usa esa cercanía para hablar de autonomía, dignidad, deseo, clase social y amor cuando no basta con querer a alguien. El resultado es una historia de intimidad, humor, dolor y decisiones morales que no admiten respuestas fáciles.",
+        "aboutThisBook": "Publicada originalmente en 2012, esta novela consolidó a Jojo Moyes como una de las autoras contemporáneas más leídas del ámbito anglosajón. Su éxito no depende solo del romance, sino de la forma en que mezcla una prosa accesible con una pregunta ética incómoda: qué significa cuidar a otro sin apropiarse de su voluntad. La edición en español más difundida ronda las 496 páginas.",
+        "forWhom": "Para lectores de narrativa contemporánea y de historias sentimentales con conflicto moral real; también para clubes de lectura que quieran debatir amor, discapacidad, cuidado, consentimiento y final de vida sin caer en respuestas simplistas.",
+        "whyItMatters": "Sigue importando porque convierte un best seller romántico en una conversación sobre dependencia, libertad personal y límites del amor. Su impacto cultural no viene solo de la emoción, sino del debate ético que deja abierto.",
+        "editorialIntro": "Pocas novelas comerciales han logrado combinar con tanta eficacia la química entre personajes y una discusión moral tan incómoda. \"Yo antes de ti\" entra por la vía del romance, pero permanece por la densidad de sus preguntas: qué le debemos a quienes amamos, cuánto puede cambiar una relación una vida rota y hasta dónde llega el derecho a decidir sobre uno mismo.",
+        "readingLevel": "Lectura de dificultad media, accesible por su prosa clara y capítulos breves, pero más provechosa para lectores capaces de sostener temas emocionales complejos y un debate ético sobre la autonomía personal.",
+        "whyReadToday": "Porque sigue siendo una referencia popular para pensar el cuidado, la empatía y la autonomía personal en una época especialmente sensible a esas conversaciones.",
+        "studyNotes": [
+          "Observa cómo Louisa y Will funcionan como contraste de clase, experiencia y horizonte vital.",
+          "Analiza el modo en que la novela desplaza el romance hacia un dilema ético más amplio.",
+          "Conviene distinguir entre representación emocional de la discapacidad y debate sobre autonomía personal.",
+          "El tono alterna ligereza, humor y tragedia para sostener una lectura masiva sin perder intensidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento",
+            "summary": "Louisa pierde su trabajo y acepta un empleo inesperado como asistente de Will Traynor. La novela presenta dos mundos muy distintos y deja claro, desde el inicio, que la tarea no será solo práctica, sino emocional."
+          },
+          {
+            "title": "Vínculo y transformación",
+            "summary": "La convivencia obliga a ambos personajes a revisar sus prejuicios. Louisa intenta ampliar el horizonte de Will, mientras él cuestiona la pequeñez resignada con la que ella había organizado su propia vida."
+          },
+          {
+            "title": "Decisión y consecuencias",
+            "summary": "Cuando Louisa comprende la profundidad de la decisión de Will, la historia gira desde el enamoramiento hacia el conflicto moral. El cierre se centra menos en resolver el dilema que en mostrar sus efectos íntimos y duraderos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Amor y autonomía",
+            "content": "La novela insiste en que amar a alguien no equivale a decidir por él. Ese choque entre afecto y libertad es el núcleo más discutido del libro."
+          },
+          {
+            "heading": "La voz de Louisa",
+            "content": "El punto de vista cercano a Louisa da ligereza y humor al relato, pero también limita lo que el lector sabe de Will, creando una tensión deliberada entre comprensión y opacidad."
+          },
+          {
+            "heading": "Best seller con ambición ética",
+            "content": "Aunque se presenta como narrativa sentimental, el libro busca ir más allá del esquema romántico y plantear un debate sobre dignidad, dependencia y proyecto de vida."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es solo una novela romántica?",
+            "answer": "No. Usa la estructura del romance para abrir un conflicto moral sobre cuidado, discapacidad y autonomía personal."
+          },
+          {
+            "question": "¿Se puede leer sin conocer la película?",
+            "answer": "Sí. La novela funciona de manera independiente y desarrolla con más amplitud la relación entre Louisa y Will."
+          },
+          {
+            "question": "¿Por qué generó tanto debate?",
+            "answer": "Porque su trama toca temas sensibles relacionados con la representación de la discapacidad y el derecho a decidir sobre la propia vida."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin Random House — Me Before You",
+            "url": "https://www.penguinrandomhouse.com/books/312485/me-before-you-by-jojo-moyes/"
+          },
+          {
+            "label": "Wikipedia — Me Before You (novel)",
+            "url": "https://en.wikipedia.org/wiki/Me_Before_You_(novel)"
+          },
+          {
+            "label": "Open Library — Yo antes de ti / edición",
+            "url": "https://openlibrary.org/books/OL47456424M/Yo_antes_de_ti"
+          },
+          {
+            "label": "Wikipedia — Jojo Moyes",
+            "url": "https://en.wikipedia.org/wiki/Jojo_Moyes"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "zara-y-el-librero-de-bagdad-de-fernando-marias",
+      "title": "Zara Y El Librero De Bagdad",
+      "authorName": "Fernando Marias",
+      "authorSlug": "fernando-marias",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Zara y el librero de Bagdad",
+        "authorName": "Fernando Marías",
+        "authorSlug": "fernando-marias",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa",
+          "aventura"
+        ],
+        "year": 2008,
+        "pages": 252,
+        "summary": "\"Zara y el librero de Bagdad\" es una novela juvenil de Fernando Marías ambientada en un escenario marcado por la guerra, la fragilidad de la vida cotidiana y el valor simbólico de los libros. Desde su propio título, la obra une a una joven protagonista con la figura de un librero en una ciudad herida, y convierte esa relación en el eje de una historia sobre memoria, resistencia cultural y crecimiento personal. Marías no plantea la aventura como simple entretenimiento: la usa para acercar al lector joven a la violencia, el miedo, la pérdida y también a la imaginación como refugio. El libro trabaja la tensión entre destrucción y cuidado, entre barbarie y palabra escrita, con un tono accesible pero cargado de gravedad moral.",
+        "aboutThisBook": "Publicada por Ediciones SM en 2008 y distinguida con el Premio Gran Angular 2010, esta novela forma parte del catálogo juvenil más reconocido del ámbito escolar en español. Su extensión, 252 páginas en la edición catalogada por Open Library, la sitúa en una franja cómoda para secundaria. Es una obra asociada al prestigio de Fernando Marías dentro de la literatura juvenil española.",
+        "forWhom": "Especialmente recomendable para lectores jóvenes, mediadores de lectura y docentes que busquen una novela capaz de abrir conversaciones sobre guerra, cultura, lectura y valentía sin renunciar a la tensión narrativa propia de una aventura juvenil.",
+        "whyItMatters": "Importa porque acerca un conflicto histórico y humano a lectores jóvenes desde el símbolo del libro como refugio, memoria y resistencia. También muestra por qué la literatura juvenil puede tratar asuntos duros con verdadera ambición ética.",
+        "editorialIntro": "Fernando Marías entendía muy bien que una novela juvenil no tiene por qué rebajar la complejidad del mundo. \"Zara y el librero de Bagdad\" se lee como aventura, pero deja una impresión más honda: la de una historia donde los libros no son adorno cultural, sino una forma de amparo, de identidad y de resistencia frente a la devastación.",
+        "readingLevel": "Lectura media para jóvenes y adultos: el lenguaje es directo, pero conviene cierta madurez para seguir el trasfondo bélico, cultural y simbólico que atraviesa el viaje de los protagonistas.",
+        "whyReadToday": "Porque la guerra contra la vida civil y contra la cultura sigue siendo una realidad contemporánea, y esta novela permite pensarla desde una perspectiva cercana al lector joven.",
+        "studyNotes": [
+          "Conviene atender al valor simbólico del librero como guardián de memoria y no solo como personaje funcional.",
+          "La novela puede leerse como puente entre aventura juvenil y reflexión sobre la guerra.",
+          "El título ya propone una alianza entre juventud y cultura escrita frente a la destrucción.",
+          "Su premio dentro del ámbito SM sugiere una clara vocación escolar y formativa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Encuentro con Bagdad",
+            "summary": "La obra sitúa a Zara en un espacio atravesado por la amenaza y el desorden. Desde ese arranque, la ciudad y el librero aparecen como focos de descubrimiento, riesgo y aprendizaje."
+          },
+          {
+            "title": "Libros frente a la destrucción",
+            "summary": "A medida que avanza la historia, los libros dejan de ser simples objetos y se convierten en una forma de resistencia cultural. La aventura adquiere entonces un espesor moral más claro."
+          },
+          {
+            "title": "Madurez y memoria",
+            "summary": "El tramo final concentra las consecuencias emocionales del conflicto y el crecimiento de la protagonista. La novela sugiere que preservar historias también es una forma de salvar vidas y futuro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Literatura juvenil y guerra",
+            "content": "Marías acerca un contexto bélico a lectores jóvenes sin vaciarlo de gravedad. Ese equilibrio entre legibilidad y dureza es una de las virtudes del libro."
+          },
+          {
+            "heading": "El libro como refugio",
+            "content": "La figura del librero y el peso material de los libros introducen una defensa de la cultura como memoria compartida. La novela subraya que leer también puede ser una forma de resistencia."
+          },
+          {
+            "heading": "Aprendizaje moral de Zara",
+            "content": "La protagonista no solo vive una peripecia externa; atraviesa un proceso de comprensión del dolor ajeno, del miedo y de la responsabilidad personal ante la violencia."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela infantil o juvenil?",
+            "answer": "Se ubica mejor como novela juvenil: su lenguaje es accesible, pero sus temas exigen cierta madurez lectora."
+          },
+          {
+            "question": "¿Trata la guerra de forma explícita?",
+            "answer": "Sí, aunque desde un enfoque narrativo apto para jóvenes, donde la experiencia humana y el valor de la cultura ocupan el centro."
+          },
+          {
+            "question": "¿Por qué destaca dentro de la obra de Fernando Marías?",
+            "answer": "Porque une aventura, tensión moral y defensa de la lectura en una novela reconocida además con el Premio Gran Angular."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Literatura Infantil y Juvenil SM — Fernando Marías",
+            "url": "https://es.literaturasm.com/autor/fernando-marias"
+          },
+          {
+            "label": "Open Library — Zara y el librero de Bagdad / edición",
+            "url": "https://openlibrary.org/books/OL23209344M/Zara_y_el_librero_de_Bagdad"
+          },
+          {
+            "label": "Open Library — obra",
+            "url": "https://openlibrary.org/works/OL13586383W/Zara_y_el_librero_de_Bagdad"
+          },
+          {
+            "label": "Wikipedia — Fernando Marías",
+            "url": "https://en.wikipedia.org/wiki/Fernando_Mar%C3%ADas"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "1-000-sitios-que-ver-antes-de-morir-de-patricia-schultz",
+      "title": "1 000 Sitios Que Ver Antes De Morir",
+      "authorName": "Patricia Schultz",
+      "authorSlug": "patricia-schultz",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "1.000 sitios que ver antes de morir",
+        "authorName": "Patricia Schultz",
+        "authorSlug": "patricia-schultz",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2003,
+        "pages": 974,
+        "summary": "\"1.000 sitios que ver antes de morir\" es un libro de viajes y recomendación cultural que convirtió el deseo de recorrer el mundo en una lista ambiciosa y muy legible. Patricia Schultz reúne destinos de naturaleza, ciudades, rutas, monumentos, hoteles, festivales y experiencias repartidas por continentes, con un enfoque que mezcla información práctica, contexto cultural y entusiasmo prescriptor. Más que una simple enumeración, el libro propone una imaginación del viaje: viajar para mirar mejor, comparar, elegir y dar valor a lugares que condensan historia, belleza o singularidad. Su tono accesible explica por qué se volvió un referente popular del género. La obra funciona a la vez como guía inspiracional, mapa de aspiraciones y archivo de lugares convertidos en hitos de una vida viajera.",
+        "aboutThisBook": "Publicado por Workman en 2003 y revisado después en nuevas ediciones, este título se convirtió en un fenómeno editorial dentro de los libros de viajes. La edición catalogada por Open Library alcanza 974 páginas, señal de un proyecto amplio y de consulta. Su repercusión fue tan grande que generó reediciones, adaptaciones de marca y una fuerte presencia mediática alrededor de la idea del viaje memorable.",
+        "forWhom": "Para lectores viajeros, planificadores obsesivos, curiosos culturales y personas que disfrutan de la lectura de no ficción orientada al descubrimiento. También sirve a quien no piensa viajar pronto, pero quiere leer el mundo desde la sugerencia, la comparación y el deseo de explorarlo.",
+        "whyItMatters": "Importa porque ayudó a popularizar una forma contemporánea de leer y organizar el viaje como proyecto vital. Su influencia va más allá de las listas: convirtió la curaduría de destinos en un género editorial reconocible.",
+        "editorialIntro": "Hay libros que se leen de corrido y otros que se hojean durante años. \"1.000 sitios que ver antes de morir\" pertenece a esta segunda especie: una obra de consulta placentera que no solo recomienda destinos, sino que construye una imaginación del mundo. Patricia Schultz no promete conocerlo todo; propone, más bien, elegir bien y viajar con atención.",
+        "readingLevel": "Lectura accesible para público general, sin exigencia técnica alta, aunque se disfruta más con curiosidad cultural y ganas de relacionar contextos históricos, artísticos y geográficos de destinos muy diversos.",
+        "whyReadToday": "Porque en plena sobreabundancia de recomendaciones digitales sigue ofreciendo una selección curada, amplia y reconocible que ayuda a pensar el viaje más allá del algoritmo.",
+        "studyNotes": [
+          "Úsalo como ejemplo de no ficción prescriptiva: combina criterio editorial, información y deseo.",
+          "Observa cómo la lista ordena el mundo en experiencias memorables más que en datos exhaustivos.",
+          "El libro también puede leerse como documento cultural sobre el turismo global de comienzos del siglo XXI.",
+          "Su éxito muestra el poder editorial del formato lista cuando se aplica a aspiraciones personales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La promesa del mundo",
+            "summary": "El libro abre una invitación a recorrer el planeta a través de una selección de lugares extraordinarios. Desde el principio se entiende que no será una guía cerrada, sino una brújula de descubrimientos."
+          },
+          {
+            "title": "Recorridos por regiones y experiencias",
+            "summary": "La parte central organiza destinos de naturaleza, patrimonio, ciudades y experiencias de viaje en distintas zonas del mundo. La autora combina descripción breve, contexto y recomendación."
+          },
+          {
+            "title": "Viajar como criterio vital",
+            "summary": "En conjunto, la obra termina proponiendo una filosofía implícita del viaje: elegir con curiosidad, valorar la diversidad de paisajes y reconocer ciertos lugares como hitos memorables de una vida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El formato lista como género",
+            "content": "El libro demuestra que una lista puede ser una estructura narrativa eficaz. Cada entrada funciona como promesa, síntesis y disparador de imaginación viajera."
+          },
+          {
+            "heading": "Curaduría frente a saturación",
+            "content": "Su valor histórico aumenta con el tiempo: frente al exceso de información turística en internet, la selección personal y editorial de Schultz adquiere un peso distintivo."
+          },
+          {
+            "heading": "Viaje, deseo y consumo cultural",
+            "content": "La obra refleja una época en la que viajar se presenta como proyecto identitario. Por eso puede leerse tanto como guía práctica como documento sobre aspiraciones contemporáneas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una guía práctica o un libro para inspirarse?",
+            "answer": "Es ambas cosas, aunque su fuerza principal está en la inspiración y en la selección editorial de destinos memorables."
+          },
+          {
+            "question": "¿Se lee de principio a fin?",
+            "answer": "Puede leerse así, pero funciona especialmente bien por consulta, saltando entre destinos y regiones según el interés del lector."
+          },
+          {
+            "question": "¿Por qué fue tan influyente?",
+            "answer": "Porque transformó la idea de la lista viajera en un fenómeno editorial masivo y fácilmente reconocible."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia — 1,000 Places to See Before You Die",
+            "url": "https://en.wikipedia.org/wiki/1,000_Places_to_See_Before_You_Die"
+          },
+          {
+            "label": "Wikipedia — Patricia Schultz",
+            "url": "https://en.wikipedia.org/wiki/Patricia_Schultz"
+          },
+          {
+            "label": "Open Library — obra",
+            "url": "https://openlibrary.org/works/OL16069456W/1_000_places_to_see_before_you_die"
+          },
+          {
+            "label": "Open Library — edición 2003",
+            "url": "https://openlibrary.org/books/OL24966775M/1_000_places_to_see_before_you_die"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "100-anos-de-bruguera-de-el-gato-negro-a-ediciones-b-de-antoni-guiral",
+      "title": "100 Anos De Bruguera De El Gato Negro A Ediciones B",
+      "authorName": "Antoni Guiral",
+      "authorSlug": "antoni-guiral",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "100 años de Bruguera: De El Gato Negro a Ediciones B",
+        "authorName": "Antoni Guiral",
+        "authorSlug": "antoni-guiral",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2010,
+        "pages": 168,
+        "summary": "100 años de Bruguera: De El Gato Negro a Ediciones B es un recorrido histórico por una de las casas editoriales más decisivas de la cultura popular española. Antoni Guiral reconstruye el paso de El Gato Negro a Editorial Bruguera y, más tarde, la continuidad del legado en Ediciones B, enlazando fechas, colecciones, revistas, autores y cambios industriales. El libro no se limita a la nostalgia por personajes célebres como los nacidos en el ecosistema de Pulgarcito, sino que muestra cómo Bruguera modeló hábitos de lectura, humor gráfico, serialidad y consumo masivo durante gran parte del siglo XX. A medida que avanza, la obra permite entender la relación entre negocio editorial, censura, modernización, iconos del tebeo y transformación del mercado, de modo que la historia de una empresa acaba funcionando como historia cultural de un país lector.",
+        "aboutThisBook": "Guiral escribe desde una posición especialmente autorizada: la de estudioso, divulgador y especialista en la tradición de la historieta española y, en particular, en Bruguera. Por eso el volumen combina valor documental con capacidad de síntesis divulgativa. Sirve tanto para orientarse en la cronología básica de la editorial como para comprender por qué Bruguera fue mucho más que un sello comercial: un sistema de producción cultural, una fábrica de personajes populares y un archivo sentimental de varias generaciones. Es un libro útil para lectores de cómic, investigadores de cultura popular y curiosos de la edición española.",
+        "forWhom": "Para lectores interesados en la historia del cómic español, la edición popular del siglo XX, los estudios culturales y el legado de revistas y personajes asociados a Bruguera.",
+        "whyItMatters": "Importa porque ayuda a entender cómo una editorial puede convertirse en institución cultural. Bruguera no solo publicó tebeos y libros: fijó imaginarios, humor, formatos de lectura y una parte decisiva de la memoria popular española.",
+        "editorialIntro": "Este libro interesa incluso a quien no se considere especialista en cómic. Antoni Guiral convierte la trayectoria de Bruguera en una narración clara sobre industria cultural, creatividad y permanencia de un catálogo que sigue marcando la memoria lectora española mucho después del cierre de la editorial original.",
+        "readingLevel": "Lectura media. El estilo es accesible y divulgativo, pero se disfruta más si el lector presta atención a la cronología editorial, a los nombres propios y al contexto cultural de la historieta española.",
+        "whyReadToday": "Sigue siendo pertinente porque la conversación sobre patrimonio cultural, industria editorial y memoria popular continúa abierta. Leerlo hoy ayuda a situar el origen de muchos personajes, formatos y hábitos de lectura todavía presentes en España.",
+        "studyNotes": [
+          "Conviene leerlo como historia cultural, no solo como catálogo de personajes o revistas: el centro del libro es la relación entre edición, mercado y cultura popular.",
+          "La autoridad de Guiral como especialista en Bruguera da al volumen un valor de síntesis muy útil para iniciarse en el tema sin perder rigor documental.",
+          "Es recomendable fijarse en la transición de El Gato Negro a Bruguera y después a Ediciones B, porque ahí se condensa la continuidad y la transformación del legado editorial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Orígenes: de El Gato Negro a la consolidación del sello",
+            "summary": "La obra sitúa los primeros pasos de la empresa y explica cómo la editorial construyó una identidad propia dentro del mercado popular, hasta convertirse en referencia de la historieta y la edición seriada en España."
+          },
+          {
+            "title": "Expansión: revistas, autores y cultura de masas",
+            "summary": "En la parte central se examina el crecimiento de Bruguera, la importancia de sus cabeceras, la aparición de autores fundamentales y el papel de la editorial en la formación de un público masivo y reconocible."
+          },
+          {
+            "title": "Legado: crisis, cierre y continuidad en Ediciones B",
+            "summary": "El tramo final atiende al declive de la editorial histórica, al traspaso de su fondo y a la manera en que personajes, series y materiales sobreviven en nuevas estructuras empresariales sin perder del todo su valor simbólico."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Bruguera como institución cultural",
+            "content": "El libro muestra que Bruguera fue algo más que una editorial de entretenimiento. Su peso en la cultura popular española la convierte en un laboratorio privilegiado para estudiar consumo, humor, serialidad y memoria colectiva."
+          },
+          {
+            "heading": "Historia editorial y lectura popular",
+            "content": "Uno de los logros del volumen está en conectar decisiones empresariales con hábitos reales de lectura. Guiral ayuda a ver cómo los formatos, las revistas y las colecciones influyeron en la vida cotidiana de varias generaciones."
+          },
+          {
+            "heading": "El especialista como narrador histórico",
+            "content": "La escritura de Guiral evita el tono excesivamente académico y también la mera nostalgia. Ese equilibrio entre documentación y claridad permite que el libro funcione como introducción solvente y como obra de consulta."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro sobre personajes concretos de Bruguera o sobre la editorial en conjunto?",
+            "answer": "Es sobre la editorial en conjunto. Los personajes y autores aparecen como parte de una historia más amplia que incluye fundación, crecimiento, revistas, estrategias de publicación, crisis y legado posterior."
+          },
+          {
+            "question": "¿Hace falta conocer los tebeos de Bruguera para aprovecharlo?",
+            "answer": "No. El volumen funciona también como introducción general para lectores que solo quieren entender por qué Bruguera fue tan importante en la cultura popular española."
+          },
+          {
+            "question": "¿Qué aporta Antoni Guiral frente a una simple cronología editorial?",
+            "answer": "Aporta contexto histórico, conocimiento especializado del medio y capacidad para explicar por qué Bruguera fue central en la formación de autores, públicos y estilos de humor gráfico."
+          },
+          {
+            "question": "¿Por qué interesa fuera del ámbito del cómic?",
+            "answer": "Porque sirve para estudiar industria cultural, edición popular, memoria generacional y circulación de imaginarios en la España contemporánea, más allá de la historia estricta de la historieta."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin Libros: ficha de 100 años de Bruguera",
+            "url": "https://www.penguinlibros.com/es/novela-grafica/8988-libro-100-anos-de-bruguera-9788466638166"
+          },
+          {
+            "label": "TodosTusLibros: datos bibliográficos de 100 años de Bruguera",
+            "url": "https://www.todostuslibros.com/libros/100-anos-de-bruguera_978-84-666-3816-6"
+          },
+          {
+            "label": "Tebeosfera: 100 AÑOS DE BRUGUERA (2010, B)",
+            "url": "https://tebeosfera.com/colecciones/100_anos_de_bruguera_2010_b.html"
+          },
+          {
+            "label": "Tebeosfera: ficha de autor de Antonio Guiral Conti",
+            "url": "https://www.tebeosfera.com/autores/guiral_conti_antonio.html"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "3001-odisea-final-de-arthur-c-clarke",
+      "title": "3001 Odisea Final",
+      "authorName": "Arthur C Clarke",
+      "authorSlug": "arthur-c-clarke",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "3001: Odisea final",
+        "authorName": "Arthur C. Clarke",
+        "authorSlug": "arthur-c-clarke",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ciencia-ficcion",
+          "aventura"
+        ],
+        "year": 1997,
+        "pages": 272,
+        "summary": "3001: Odisea final cierra la célebre serie iniciada con 2001 y sitúa a Frank Poole, el astronauta muerto por HAL 9000, en un futuro remotísimo. Mil años después de su desaparición, su cuerpo es recuperado en el espacio y reanimado en una civilización tecnológicamente avanzada, capaz de colonizar parte del sistema solar y de reorganizar la vida cotidiana alrededor de interfaces mentales, ascensores espaciales y una convivencia radicalmente transformada. Clarke usa ese choque temporal para ofrecer una doble novela: por un lado, un relato de asombro ante el porvenir; por otro, una nueva confrontación con el misterio de los monolitos y con la herencia de David Bowman y HAL. El resultado combina especulación científica, aventura cósmica y una reflexión clásica en Clarke sobre la fragilidad humana frente a inteligencias y escalas temporales desmesuradas.",
+        "aboutThisBook": "La novela es importante dentro de la saga porque no se limita a prolongar la intriga de los monolitos: la replantea desde un mundo casi poshumano. Clarke desplaza el foco hacia la adaptación de Frank Poole a una sociedad futura y convierte esa extrañeza en herramienta para describir instituciones, tecnologías y modos de vida del año 3001. A la vez, conserva el núcleo metafísico de la serie al volver sobre Europa, Bowman y HAL, y sobre la amenaza latente inscrita en la lógica de los monolitos. Es un libro especialmente útil para ver cómo Clarke combinaba imaginación tecnológica, claridad expositiva y sentido del asombro a gran escala.",
+        "forWhom": "Para lectores de ciencia ficción clásica, seguidores de la saga Odisea del espacio y quienes disfrutan novelas de ideas donde la especulación tecnológica convive con aventura, cosmología y preguntas sobre el destino humano.",
+        "whyItMatters": "Importa porque ofrece un cierre inteligible y ambicioso a una de las grandes series de la ciencia ficción moderna. Además, resume rasgos esenciales de Clarke: fascinación por el futuro, rigor imaginativo y apertura hacia problemas cósmicos que exceden lo humano.",
+        "editorialIntro": "Esta novela funciona como desenlace y como relectura de toda la tetralogía. Clarke convierte la resurrección de Frank Poole en una excusa narrativa brillante para mirar el año 3001 con ojos del pasado y, desde ahí, devolver al lector al misterio central de los monolitos.",
+        "readingLevel": "Lectura media. La prosa de Clarke es clara y directa, pero el libro se disfruta mucho más si el lector acepta su ritmo explicativo y presta atención a los conceptos científicos y a la continuidad con novelas previas de la serie.",
+        "whyReadToday": "Se lee con interés hoy porque muchas de sus preguntas siguen vigentes: qué significa vivir entre tecnologías cada vez más íntimas, cómo cambia lo humano en sociedades ultraavanzadas y qué lugar ocupa nuestra especie en una escala cósmica mayor.",
+        "studyNotes": [
+          "Conviene leerla como cierre de saga: buena parte de su resonancia depende del diálogo con 2001, 2010 y 2061, aunque la trama principal pueda seguirse por sí sola.",
+          "Frank Poole cumple la función de observador desplazado: gracias a su desconcierto, Clarke explica el futuro sin perder claridad narrativa.",
+          "El libro alterna dos impulsos de la ciencia ficción de Clarke: la ingeniería del porvenir y el asombro metafísico ante inteligencias no humanas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Prólogo y resurrección de Frank Poole",
+            "summary": "La novela abre con una escala cósmica que recuerda el origen remoto de los monolitos y luego devuelve la atención a Frank Poole, recuperado mil años después y enfrentado a una humanidad casi irreconocible."
+          },
+          {
+            "title": "Adaptación al año 3001",
+            "summary": "El núcleo central explora el aprendizaje de Poole dentro de una civilización hiperavanzada, mostrando tecnologías, costumbres y estructuras sociales que amplían el horizonte del universo Odisea."
+          },
+          {
+            "title": "Europa, Halman y la amenaza de los monolitos",
+            "summary": "En la parte decisiva, Poole vuelve a rozar el misterio central de la saga al contactar con la nueva forma de Bowman y HAL, mientras la humanidad debe responder a una amenaza relacionada con la lógica de los monolitos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El futuro como experiencia de extrañamiento",
+            "content": "Clarke utiliza a Frank Poole como testigo anacrónico. Su desconcierto permite representar el año 3001 no como simple catálogo de gadgets, sino como una transformación profunda de la condición humana."
+          },
+          {
+            "heading": "Ciencia ficción de ideas y sentido del asombro",
+            "content": "La novela combina exposición tecnológica con una imaginación cósmica de gran amplitud. Esa mezcla entre claridad racional y misterio metafísico es una de las marcas más reconocibles del autor."
+          },
+          {
+            "heading": "Cierre de la tetralogía",
+            "content": "Más que ofrecer solo una solución argumental, el libro reordena la serie entera. Reúne a Poole, Bowman, HAL y los monolitos en una última perspectiva sobre evolución, memoria y supervivencia de la especie."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es imprescindible haber leído las novelas anteriores?",
+            "answer": "No es estrictamente imprescindible, pero sí muy recomendable. La novela puede seguirse por su trama principal, aunque gana mucho cuando el lector reconoce el recorrido previo de Poole, Bowman, HAL y los monolitos."
+          },
+          {
+            "question": "¿Predomina la aventura o la especulación científica?",
+            "answer": "Ambas están presentes, pero el peso principal recae en la especulación científica y en la exploración conceptual del futuro. La aventura sirve para activar esas ideas, no para reemplazarlas."
+          },
+          {
+            "question": "¿Qué aporta Frank Poole como protagonista?",
+            "answer": "Aporta una perspectiva humana y desfasada en el tiempo. Su regreso permite a Clarke describir el año 3001 con claridad y convertir el futuro en experiencia concreta, no solo en escenario abstracto."
+          },
+          {
+            "question": "¿Cierra realmente el enigma de los monolitos?",
+            "answer": "Ofrece un cierre narrativo importante, pero mantiene parte del misterio cósmico. Esa mezcla de resolución y apertura es coherente con la tradición de la saga."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin Random House: 3001 The Final Odyssey",
+            "url": "https://www.penguinrandomhouse.com/books/28148/3001-the-final-odyssey-by-arthur-c-clarke/"
+          },
+          {
+            "label": "Wikipedia: 3001: The Final Odyssey",
+            "url": "https://en.wikipedia.org/wiki/3001:_The_Final_Odyssey"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Arthur C. Clarke",
+            "url": "https://www.britannica.com/biography/Arthur-C-Clarke"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "a-cada-cual-lo-suyo-de-leonardo-sciascia",
+      "title": "A Cada Cual Lo Suyo",
+      "authorName": "Leonardo Sciascia",
+      "authorSlug": "leonardo-sciascia",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "A cada cual, lo suyo",
+        "authorName": "Leonardo Sciascia",
+        "authorSlug": "leonardo-sciascia",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "thriller",
+          "narrativa"
+        ],
+        "year": 1966,
+        "pages": 192,
+        "summary": "A cada cual, lo suyo es una novela breve y filosa en la que Leonardo Sciascia usa la estructura del relato detectivesco para radiografiar la Sicilia de los notables, los silencios y los intereses opacos. Todo empieza con una amenaza anónima que en el pueblo se toma a broma, hasta que dos hombres aparecen asesinados y la rutina social vuelve a cerrarse sobre el crimen con una mezcla de indiferencia y resignación. El profesor Laurana, figura tímida e intelectual, decide investigar por su cuenta a partir de una pista verbal aparentemente menor. Su pesquisa lo conduce hacia una verdad que no solo afecta a los culpables, sino a la trama entera de prestigios, complicidades y autoengaños que sostiene la vida local. Sciascia convierte así la intriga en un instrumento crítico: cada avance de la investigación revela menos un misterio individual que una estructura social fundada en la impunidad.",
+        "aboutThisBook": "La novela ocupa un lugar central dentro de la obra de Sciascia porque lleva más lejos su forma de mezclar observación moral, crítica del poder y procedimientos del género policiaco. No ofrece un enigma clásico resuelto por la razón triunfante, sino una investigación que choca con un mundo donde la verdad carece de fuerza suficiente frente a las redes de influencia y al conformismo colectivo. Su brevedad y precisión la vuelven especialmente poderosa: no sobra casi nada, y cada diálogo o detalle apunta a la complicidad entre violencia privada, prestigio social y clima mafioso. Es una puerta de entrada excelente al universo del autor siciliano.",
+        "forWhom": "Para lectores de novela negra con dimensión política, admiradores de los clásicos europeos del siglo XX y estudiantes interesados en la relación entre crimen, poder local, lenguaje y crítica social.",
+        "whyItMatters": "Importa porque demuestra que la novela detectivesca puede ser una forma de pensamiento político. Sciascia usa el crimen para exhibir la alianza entre respetabilidad, miedo, deseo de no saber y violencia organizada en la Sicilia contemporánea.",
+        "editorialIntro": "Pocas novelas breves logran ser tan secas y tan reveladoras a la vez. Sciascia parte de un caso aparentemente pequeño y construye una crítica demoledora de la sociedad que rodea al crimen, donde el verdadero escándalo no es el asesinato, sino la normalidad que lo absorbe.",
+        "readingLevel": "Lectura media-alta. La prosa es sobria y precisa, pero la novela exige atención a la ironía, a las insinuaciones y a la dimensión política de escenas que en apariencia pertenecen solo al género policial.",
+        "whyReadToday": "Sigue siendo muy actual porque habla de entornos donde la verdad se conoce a medias, pero casi nadie quiere sostener sus consecuencias. Su reflexión sobre poder local, reputación e impunidad conserva una vigencia evidente.",
+        "studyNotes": [
+          "La novela debe leerse como policial crítico: resolver el crimen importa, pero importa más la red social que hace posible que la verdad no transforme nada.",
+          "Laurana no es un detective heroico, sino un intelectual ingenuo que subestima la densidad de las relaciones de poder del entorno en que investiga.",
+          "Sciascia utiliza la brevedad como arma: elimina lo accesorio para que cada conversación y cada pista revelen la atmósfera moral del pueblo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La amenaza y el doble crimen",
+            "summary": "El envío anónimo y el posterior asesinato del farmacéutico y su acompañante introducen una intriga que el pueblo prefiere trivializar o dar por resuelta antes de enfrentar sus implicaciones reales."
+          },
+          {
+            "title": "La investigación de Laurana",
+            "summary": "A partir de un indicio lingüístico, el profesor Laurana comienza a atar cabos y descubre que el caso se conecta con deseos, intereses y prestigios locales mucho menos inocentes de lo que parecía."
+          },
+          {
+            "title": "Verdad, aislamiento y desenlace",
+            "summary": "Cuando Laurana se aproxima demasiado a la verdad, la novela muestra que en ese universo social saber no equivale a poder. El desenlace confirma que la impunidad está sostenida por toda una comunidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El policial como crítica social",
+            "content": "Sciascia adopta la mecánica del enigma criminal para desmontar la ilusión de neutralidad del género. Lo que investiga no es solo quién mató, sino qué sociedad produce y protege a los culpables."
+          },
+          {
+            "heading": "Laurana y la fragilidad del intelectual",
+            "content": "El protagonista encarna una confianza insuficiente en la razón y en la interpretación de signos. Su inteligencia verbal no basta frente a un entramado de poder donde la información circula bajo otras reglas."
+          },
+          {
+            "heading": "Sicilia, notables e impunidad",
+            "content": "La novela inscribe el crimen en un paisaje moral muy preciso: una comunidad donde la respetabilidad pública convive con intereses privados, y donde el silencio colectivo resulta tan decisivo como la violencia directa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela negra clásica en el sentido convencional?",
+            "answer": "Solo en parte. Tiene crimen, investigación y pistas, pero su verdadero objetivo es mostrar cómo el poder social condiciona la verdad y desactiva la justicia."
+          },
+          {
+            "question": "¿Qué hace especial al profesor Laurana?",
+            "answer": "Su singularidad está en ser un investigador improvisado, culto e ingenuo a la vez. No domina el mundo que analiza y por eso su búsqueda de la verdad acaba volviéndose peligrosa."
+          },
+          {
+            "question": "¿La novela trata explícitamente sobre la mafia?",
+            "answer": "Más que ofrecer una exposición directa, muestra un clima mafioso de intereses, silencios y protección de los poderosos. Esa atmósfera es esencial para comprender el desenlace."
+          },
+          {
+            "question": "¿Por qué se considera una obra importante de Sciascia?",
+            "answer": "Porque condensa con enorme eficacia sus temas centrales: Sicilia, verdad, poder, ironía, corrupción y uso del género policial como forma de crítica moral y política."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Planeta de Libros: ficha de A cada cual, lo suyo",
+            "url": "https://www.planetadelibros.com/libro-a-cada-cual-lo-suyo/332022"
+          },
+          {
+            "label": "Wikipedia: To Each His Own (novel)",
+            "url": "https://en.wikipedia.org/wiki/To_Each_His_Own_(novel)"
+          },
+          {
+            "label": "Treccani: A ciascuno il suo",
+            "url": "https://www.treccani.it/enciclopedia/a-ciascuno-il-suo_res-61d90ab7-b22b-11e5-b181-00271042e8d9/"
+          },
+          {
+            "label": "Fondazione Leonardo Sciascia: biografía",
+            "url": "https://www.fondazioneleonardosciascia.it/it/leonardo-sciascia/biografia"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-20T22:20:52Z"
+}

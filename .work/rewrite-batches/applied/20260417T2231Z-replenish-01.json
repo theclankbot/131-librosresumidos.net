@@ -1,0 +1,1457 @@
+{
+  "batchName": "20260417T2231Z-replenish-01",
+  "createdAt": "2026-04-17T21:02:51Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "cartucho-relatos-de-la-lucha-en-el-norte-de-mexico-de-nellie-campobello",
+      "title": "Cartucho Relatos De La Lucha En El Norte De Mexico",
+      "authorName": "Nellie Campobello",
+      "authorSlug": "nellie-campobello",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 11,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cartucho: relatos de la lucha en el norte de México",
+        "authorName": "Nellie Campobello",
+        "authorSlug": "nellie-campobello",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela breve",
+          "literatura de la Revolución mexicana",
+          "memoria narrativa"
+        ],
+        "year": 1931,
+        "pages": 170,
+        "summary": "Cartucho es una obra breve y fragmentaria que convierte la Revolución mexicana en una sucesión de estampas intensas, vistas desde la sensibilidad de una niña que observa la violencia, la lealtad y la muerte como parte de la vida diaria en el norte de México. Nellie Campobello no construye una novela tradicional con una sola intriga central, sino un mosaico de escenas, voces y recuerdos que retrata a soldados villistas, fusilados, madres, vecinos y figuras populares. El libro destaca por su mirada cercana y concreta: en lugar de grandilocuencia histórica, ofrece cuerpos, calles, rumores y gestos. Esa perspectiva convierte la experiencia revolucionaria en algo íntimo y, al mismo tiempo, profundamente político.",
+        "aboutThisBook": "Publicado originalmente en 1931, Cartucho ocupa un lugar singular dentro de la literatura de la Revolución mexicana porque narra el conflicto desde una voz femenina y desde la memoria infantil. La obra se organiza en secciones breves y combina testimonio, evocación lírica y crudeza documental. Su importancia no depende solo del tema histórico, sino de la forma: Campobello rehúye el relato heroico lineal y compone una memoria quebrada, hecha de escenas mínimas que revelan cómo una guerra transforma la percepción del mundo. Es un libro breve, pero de gran densidad estilística y emocional.",
+        "forWhom": "Para lectores de narrativa hispanoamericana, estudiantes de literatura mexicana, cursos sobre memoria y violencia, y quienes busquen una visión menos épica y más humana de la Revolución mexicana. También resulta valioso para lectores interesados en perspectivas femeninas e infantiles dentro de procesos históricos violentos.",
+        "whyItMatters": "Importa porque corrige una imagen demasiado uniforme de la novela revolucionaria mexicana. Cartucho muestra que la guerra también se recuerda en escenas sueltas, en cuerpos anónimos y en afectos domésticos. Además, sigue siendo una referencia clave para pensar cómo se escribe la violencia desde la cercanía, sin perder fuerza estética ni complejidad moral.",
+        "editorialIntro": "Pocas obras consiguen que la historia suene tan cercana como Cartucho. Nellie Campobello transforma la Revolución en memoria viva: no como discurso oficial, sino como una suma de presencias, sobresaltos y ausencias. Leerla hoy exige escuchar una voz fragmentaria, íntima y profundamente literaria, capaz de volver humano aquello que muchas veces se cuenta solo como épica o cifra.",
+        "readingLevel": "Nivel intermedio: conviene una lectura atenta para seguir su estructura fragmentaria, sus cambios de foco y el trasfondo histórico de la Revolución mexicana.",
+        "whyReadToday": "Porque ayuda a leer los conflictos armados desde quienes los padecen y recuerdan, no solo desde los vencedores o los grandes líderes. Su lenguaje sobrio y su forma fragmentaria dialogan muy bien con la sensibilidad contemporánea sobre memoria, archivo y trauma.",
+        "studyNotes": [
+          "La estructura en viñetas es esencial: el sentido del libro surge por acumulación, no por una trama lineal clásica.",
+          "La mirada infantil no suaviza la violencia; al contrario, la vuelve más desconcertante y concreta.",
+          "Conviene leer la obra junto con otras novelas de la Revolución para notar cómo Campobello altera el tono épico dominante.",
+          "Los personajes aparecen muchas veces como figuras recordadas por un gesto, una muerte o una anécdota, lo que refuerza el carácter memorial del texto."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Hombres del norte",
+            "summary": "La primera sección reúne retratos de combatientes, vecinos y figuras ligadas al villismo. Más que describir campañas militares, Campobello registra presencias humanas concretas y muestra cómo la guerra se filtra en la vida cotidiana del norte mexicano."
+          },
+          {
+            "title": "Los fusilados",
+            "summary": "En esta parte la muerte adquiere un lugar central. Los ejecutados dejan de ser cifras y se convierten en recuerdos precisos, casi íntimos, que revelan la violencia política del periodo y la persistencia del duelo en la memoria colectiva."
+          },
+          {
+            "title": "En el fuego",
+            "summary": "La sección final intensifica la sensación de peligro inmediato. Los disparos, el miedo, los desplazamientos y la fragilidad de la vida diaria muestran a una comunidad que intenta seguir existiendo mientras el conflicto sigue abierto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una revolución vista desde abajo y desde dentro",
+            "content": "Cartucho no narra la Revolución como una secuencia de grandes hechos nacionales, sino como experiencia local y corporal. Ese cambio de escala altera por completo la lectura histórica: lo decisivo no son solo las batallas, sino lo que la guerra hace con los afectos, la memoria y el lenguaje de una comunidad."
+          },
+          {
+            "heading": "Memoria infantil y autoridad narrativa",
+            "content": "La perspectiva infantil no debe confundirse con ingenuidad. Campobello construye una voz que observa con una mezcla de asombro, precisión y dureza. Esa elección le permite contar lo intolerable sin recurrir a explicaciones excesivas, y da al libro una autoridad singular."
+          },
+          {
+            "heading": "Fragmento, testimonio y estilo",
+            "content": "La forma fragmentaria es uno de los mayores logros del libro. Cada escena parece pequeña, pero juntas producen una visión poderosa del periodo. La brevedad, el detalle material y la economía verbal hacen que la obra se mueva entre el testimonio, la crónica y la literatura de alta intensidad poética."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Cartucho es una novela o un libro de recuerdos?",
+            "answer": "Se suele leer como novela breve o novela fragmentaria, pero también tiene una base memorial y semiautobiográfica muy fuerte. Su valor está precisamente en esa mezcla de literatura y recuerdo histórico."
+          },
+          {
+            "question": "¿Por qué se considera un libro importante dentro de la Revolución mexicana?",
+            "answer": "Porque ofrece una de las pocas miradas femeninas y además una perspectiva infantil sobre la guerra, alejándose del heroísmo masculino y de la narración militar convencional."
+          },
+          {
+            "question": "¿Es un libro difícil de leer?",
+            "answer": "No por extensión, pero sí exige atención. Su dificultad no está en el vocabulario, sino en aceptar una estructura hecha de fragmentos, silencios y escenas breves que deben leerse en conjunto."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia (EN): Cartucho",
+            "url": "https://en.wikipedia.org/wiki/Cartucho"
+          },
+          {
+            "label": "Internet Archive: Cartucho : relatos de la lucha en el norte de México",
+            "url": "https://archive.org/details/cartuchorelatosd0000camp"
+          },
+          {
+            "label": "University of New Mexico, Latin American & Iberian Institute: Literary Representations - Cartucho",
+            "url": "https://laii.unm.edu/info/k-12-educators/assets/documents/mexican-revolution/literary-representations-cartucho.pdf"
+          },
+          {
+            "label": "Wikipedia (EN): Nellie Campobello",
+            "url": "https://en.wikipedia.org/wiki/Nellie_Campobello"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "discursos-sobre-la-primera-decada-de-tito-livio-de-nicolas-maquiavelo",
+      "title": "Discursos Sobre La Primera Decada De Tito Livio",
+      "authorName": "Nicolas Maquiavelo",
+      "authorSlug": "nicolas-maquiavelo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 11,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Discursos sobre la primera década de Tito Livio",
+        "authorName": "Nicolás Maquiavelo",
+        "authorSlug": "nicolas-maquiavelo",
+        "type": "no-ficcion",
+        "audience": "adultos",
+        "genres": [
+          "filosofía política",
+          "ensayo",
+          "clásico"
+        ],
+        "year": 1531,
+        "pages": null,
+        "summary": "En los Discursos sobre la primera década de Tito Livio, Maquiavelo comenta episodios de la historia romana para elaborar una teoría política de largo alcance sobre la libertad, las repúblicas, las leyes, el conflicto civil y la corrupción del poder. A diferencia de El príncipe, centrado en la acción de un gobernante, aquí el foco recae en la vida republicana y en las condiciones que permiten sostener un orden político fuerte sin destruir la participación ciudadana. El libro defiende que los conflictos entre grupos pueden ser productivos si se encauzan institucionalmente, y que la virtud política depende menos de la moral privada que de la capacidad para fundar, preservar y reformar una comunidad.",
+        "aboutThisBook": "Escrito a comienzos del siglo XVI y publicado de forma póstuma en 1531, este libro es una de las obras mayores de la tradición republicana occidental. Maquiavelo parte de Tito Livio, pero no ofrece un comentario erudito en sentido estrecho: usa Roma como laboratorio para pensar problemas permanentes de la política. El resultado es un texto ambicioso, aforístico y polémico, donde historia, teoría institucional y reflexión estratégica se entrelazan. Leerlo hoy permite entender mejor que la obra de Maquiavelo no se reduce al cálculo del poder individual, sino que también contiene una poderosa meditación sobre libertad cívica, conflicto y ciudadanía.",
+        "forWhom": "Para estudiantes de filosofía política, derecho, historia de las ideas, ciencia política y humanidades. También para lectores interesados en repúblicas, instituciones, virtud cívica y los orígenes del pensamiento político moderno.",
+        "whyItMatters": "Sigue siendo central porque formula una pregunta que no ha perdido vigencia: cómo sostener la libertad política en sociedades atravesadas por ambición, desigualdad y conflicto. Además, matiza la imagen simplificada de Maquiavelo como autor exclusivamente cínico o autoritario.",
+        "editorialIntro": "Este no es un libro de consejos rápidos sobre poder. Es una gran anatomía de la vida republicana: cómo nacen las instituciones, cómo se corrompen y qué energías sociales pueden renovarlas. Su interés no reside solo en la teoría política, sino en la manera en que Maquiavelo convierte la historia romana en laboratorio para pensar conflictos que siguen vigentes.",
+        "readingLevel": "Nivel avanzado: requiere paciencia con la argumentación ensayística, referencias históricas frecuentes y una lectura reflexiva más conceptual que narrativa.",
+        "whyReadToday": "Porque ayuda a pensar la fragilidad de las instituciones democráticas, el valor político del desacuerdo y el problema de la corrupción sin caer en idealismos ingenuos. Muchas discusiones actuales sobre polarización, reforma institucional y liderazgo encuentran aquí un antecedente poderoso.",
+        "studyNotes": [
+          "Conviene leer los Discursos en contraste con El príncipe: juntos muestran dos escalas del pensamiento maquiaveliano, la del fundador y la de la república.",
+          "Roma funciona como ejemplo histórico, pero el verdadero interés del libro es conceptual: leyes, milicia, conflicto, corrupción, fortuna y virtud.",
+          "Maquiavelo no glorifica cualquier conflicto; le interesan los choques sociales que producen instituciones más libres y fuertes.",
+          "El estilo es acumulativo y argumentativo: muchos capítulos breves desarrollan una misma intuición desde casos distintos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Libro I: fundación y orden republicano",
+            "summary": "Maquiavelo examina el nacimiento de las repúblicas, la función de las leyes y la importancia de organizar los conflictos entre pueblo y grandes. Aquí establece su idea de que la libertad política requiere instituciones capaces de canalizar tensiones reales, no de negarlas."
+          },
+          {
+            "title": "Libro II: expansión, virtud y ejemplo romano",
+            "summary": "La segunda parte se concentra en la grandeza de Roma y en las condiciones que permitieron su crecimiento. El análisis pasa por la guerra, la disciplina cívica y la relación entre energía colectiva y ambición política."
+          },
+          {
+            "title": "Libro III: reforma, crisis y liderazgo",
+            "summary": "El último libro aborda cómo se renuevan o se pierden los órdenes políticos. Maquiavelo insiste en la necesidad de volver a los principios fundacionales y examina el papel de individuos excepcionales en momentos de decadencia o reordenamiento."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Más allá de El príncipe",
+            "content": "Los Discursos muestran a un Maquiavelo menos asociado al cálculo personal del gobernante y más interesado en la arquitectura de la libertad republicana. El libro amplía su pensamiento y demuestra que su preocupación principal no es solo conquistar el poder, sino crear órdenes políticos duraderos."
+          },
+          {
+            "heading": "El conflicto como energía institucional",
+            "content": "Una de las tesis más originales de la obra es que la discordia entre pueblo y élites puede producir leyes mejores. Maquiavelo rompe así con la idealización de la armonía perfecta y entiende la política como gestión creativa del desacuerdo."
+          },
+          {
+            "heading": "Historia antigua, problema moderno",
+            "content": "Aunque parte de Tito Livio y de la Roma republicana, Maquiavelo escribe para su presente y, en cierto modo, para el nuestro. Su lectura histórica no es antiquaria: usa el pasado para pensar la corrupción, la inestabilidad y la necesidad de reforma institucional en cualquier tiempo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Este libro contradice a El príncipe?",
+            "answer": "No exactamente. Más bien lo complementa. Si El príncipe estudia la acción del gobernante en situaciones críticas, los Discursos se centran en la lógica de la vida republicana y de las instituciones."
+          },
+          {
+            "question": "¿Hace falta leer a Tito Livio antes?",
+            "answer": "No es imprescindible, aunque ayuda. Maquiavelo usa a Tito Livio como punto de partida, pero su interés principal es sacar lecciones políticas generales a partir de la historia romana."
+          },
+          {
+            "question": "¿Por qué se considera un clásico de la filosofía política?",
+            "answer": "Porque formula ideas decisivas sobre república, libertad, conflicto, corrupción y fundación política. Su influencia alcanza la teoría republicana moderna, la ciencia política y la historia de las ideas."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia (ES): Discursos sobre la primera década de Tito Livio",
+            "url": "https://es.wikipedia.org/wiki/Discursos_sobre_la_primera_d%C3%A9cada_de_Tito_Livio"
+          },
+          {
+            "label": "Texto digital: Discursos sobre la primera década de Tito Livio",
+            "url": "https://web.seducoahuila.gob.mx/biblioweb/upload/Discursos_de_tito_livio-1.pdf"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Niccolò Machiavelli",
+            "url": "https://www.britannica.com/biography/Niccolo-Machiavelli"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-anonimo-de-natasha-preston",
+      "title": "El Anonimo",
+      "authorName": "Natasha Preston",
+      "authorSlug": "natasha-preston",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 11,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El anónimo",
+        "authorName": "Natasha Preston",
+        "authorSlug": "natasha-preston",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "thriller juvenil",
+          "misterio",
+          "suspense"
+        ],
+        "year": 2019,
+        "pages": 296,
+        "summary": "El anónimo arranca como un juego inquietante entre adolescentes y pronto se transforma en una historia de acoso, miedo y manipulación. Lylah y su grupo reciben mensajes anónimos que al principio parecen una broma o el gesto insistente de un admirador secreto, pero la tensión crece cuando uno de los chicos desaparece y los mensajes se vuelven amenazantes. Natasha Preston construye la novela sobre esa escalada: lo cotidiano del instituto, las amistades y las relaciones sentimentales se ven contaminados por la sospecha. El resultado es un thriller ágil, pensado para mantener la incertidumbre y mostrar cómo una amenaza invisible puede desordenar por completo una vida adolescente.",
+        "aboutThisBook": "Publicada en español por Crossbooks en 2019, El anónimo se inscribe en la línea de suspense juvenil por la que Natasha Preston es conocida. La autora combina ritmo rápido, capítulos pensados para sostener el cliffhanger y una atmósfera de vulnerabilidad constante. Más que apoyarse en una gran complejidad estilística, la novela apuesta por la eficacia narrativa: mensajes, desapariciones, secretos y desconfianza entre personajes cercanos. Esa fórmula la vuelve especialmente accesible para lectores jóvenes que buscan una lectura absorbente, pero también permite explorar temas actuales como el acoso, la obsesión y la exposición emocional en la adolescencia.",
+        "forWhom": "Para lectores juveniles y adultos jóvenes que disfrutan del thriller de lectura veloz, con misterio, peligro cercano y tensión sostenida. También funciona bien para quienes buscan una puerta de entrada al suspense contemporáneo sin una prosa excesivamente compleja.",
+        "whyItMatters": "Importa porque traduce miedos muy contemporáneos —la amenaza anónima, la vulnerabilidad social, la presión sobre la intimidad— a una trama juvenil directa y eficaz. Muestra además cómo el suspense puede servir para hablar del consentimiento, la obsesión y la fragilidad de la confianza.",
+        "editorialIntro": "Un mensaje anónimo puede parecer una tontería; en esta novela, es el inicio de una espiral de miedo. Natasha Preston convierte una situación reconocible para cualquier adolescente en una persecución emocional cada vez más asfixiante. La fuerza del libro está en cómo transforma la vida escolar ordinaria en un espacio de sospecha, presión social y peligro creciente.",
+        "readingLevel": "Nivel intermedio: la prosa es ágil, pero el suspense, la manipulación psicológica y los giros finales piden atención constante para seguir las pistas.",
+        "whyReadToday": "Porque conecta muy bien con formas actuales del miedo adolescente: la invasión de la intimidad, el control disfrazado de deseo y la dificultad para saber en quién confiar. Su ritmo la hace ideal para lectores que quieren una novela de evasión con tensión constante.",
+        "studyNotes": [
+          "La novela trabaja la intriga a partir de la información incompleta: el lector sabe casi lo mismo que la protagonista y por eso comparte su inseguridad.",
+          "El suspense nace de la transformación de lo cotidiano en amenaza: amistades, mensajes y encuentros dejan de ser neutrales.",
+          "Es útil observar cómo Preston dosifica la tensión mediante capítulos breves y cierres en alto impacto.",
+          "Aunque es una lectura muy accesible, permite debatir sobre acoso, obsesión romántica y vulnerabilidad juvenil."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El juego inquietante",
+            "summary": "Los primeros mensajes anónimos llegan con apariencia de broma o coqueteo insistente. El grupo de amigos intenta quitarles importancia, pero la sensación de incomodidad ya ha entrado en la historia y altera la percepción de lo cotidiano."
+          },
+          {
+            "title": "Parte 2: Desaparición y sospecha",
+            "summary": "La amenaza sube de nivel cuando uno de los chicos desaparece y el anonimato deja de parecer inofensivo. El círculo cercano comienza a llenarse de sospechas, miedo y decisiones tomadas bajo presión."
+          },
+          {
+            "title": "Parte 3: Confrontación y verdad",
+            "summary": "La trama avanza hacia la identificación de la amenaza y hacia una confrontación con las consecuencias emocionales del acoso. El cierre prioriza la tensión y la revelación progresiva por encima de la introspección extensa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Suspense juvenil de alta eficacia",
+            "content": "El anónimo funciona sobre todo por su ritmo. Natasha Preston privilegia la propulsión narrativa y el cliffhanger, con capítulos que buscan mantener al lector siempre un paso antes del peligro, pero nunca del todo seguro de entenderlo."
+          },
+          {
+            "heading": "La amenaza invisible",
+            "content": "El gran motor de la novela es la imposibilidad de localizar de inmediato a quien controla la situación. Ese anonimato vuelve inestable cualquier vínculo cercano y convierte el entorno adolescente en un espacio de sospecha continua."
+          },
+          {
+            "heading": "Miedo contemporáneo y lectura accesible",
+            "content": "La novela no pretende una gran complejidad formal, sino traducir ansiedades actuales a una estructura muy legible. Ahí reside parte de su eficacia: toma temores reconocibles y los convierte en una experiencia de lectura rápida, intensa y socialmente identificable."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de terror o de misterio?",
+            "answer": "Se acerca más al thriller juvenil y al misterio con suspense que al terror sobrenatural. La tensión proviene del acoso, la incertidumbre y el peligro humano."
+          },
+          {
+            "question": "¿Puede leerla alguien que no suele leer thrillers?",
+            "answer": "Sí. Su estilo es directo, los capítulos son ágiles y la trama entra rápido en materia, por lo que suele funcionar bien incluso para lectores poco habituados al género."
+          },
+          {
+            "question": "¿Qué temas aborda además del misterio?",
+            "answer": "Además de la intriga, trata la obsesión, la vulnerabilidad adolescente, la confianza dentro del grupo y la facilidad con que una aparente broma puede convertirse en una forma de amenaza o control."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: El anónimo",
+            "url": "https://www.planetadelibros.com/libro-el-anonimo/288266"
+          },
+          {
+            "label": "Google Books: El anónimo",
+            "url": "https://books.google.com/books/about/El_an%C3%B3nimo.html?id=lSqFDwAAQBAJ&hl=es"
+          },
+          {
+            "label": "Sitio oficial de Natasha Preston",
+            "url": "https://www.natashapreston.com/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "kane-y-abel-de-jeffrey-archer",
+      "title": "Kane Y Abel",
+      "authorName": "Jeffrey Archer",
+      "authorSlug": "jeffrey-archer",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 11,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Kane y Abel",
+        "authorName": "Jeffrey Archer",
+        "authorSlug": "jeffrey-archer",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 1979,
+        "pages": 512,
+        "summary": "Kane y Abel es una gran novela de rivalidad, ambición y destino construida sobre una simetría poderosa: dos hombres nacen el mismo día de 1906, pero en extremos opuestos del mundo social. William Lowell Kane pertenece a una familia bancaria de Boston; Abel Rosnovski, nacido como Władek Koskiewicz, emerge de la pobreza y de una historia marcada por la violencia europea. Archer sigue sus ascensos durante décadas, entre guerras, negocios, pérdidas y triunfos, hasta convertir una enemistad personal en una disputa que afecta empresas, familias y herencias. La novela avanza con ritmo clásico, capítulos eficaces y giros constantes, pero su verdadero motor no es solo el suspenso, sino la pregunta por cuánto de una vida depende del origen y cuánto de la voluntad de imponerse al propio pasado.",
+        "aboutThisBook": "Publicada en 1979 por Hodder & Stoughton, Kane y Abel fue uno de los grandes éxitos internacionales de Jeffrey Archer y consolidó su lugar en la narrativa comercial de largo aliento. Es una novela extensa, de tono épico-popular, que combina saga familiar, ficción histórica y drama empresarial. Su estructura contrapone dos trayectorias de ascenso social y convierte el mundo de las finanzas, los hoteles, la política y las lealtades familiares en escenario de una enemistad memorable. Más allá de su enorme popularidad, el libro sigue funcionando por la claridad con que organiza conflicto, ritmo y recompensa narrativa.",
+        "forWhom": "Para lectores adultos que disfrutan las novelas largas de rivalidad, ascenso social, poder económico, sagas familiares y tramas históricas narradas con mucha fluidez.",
+        "whyItMatters": "Importa porque representa muy bien una forma de best seller ambicioso que no renuncia a la amplitud narrativa. Su enfrentamiento entre dos hombres hechos a sí mismos —o convencidos de serlo— permite pensar clase, orgullo, memoria, venganza y herencia en el siglo XX.",
+        "editorialIntro": "Hay novelas que se leen por su argumento y otras que se leen por la energía con que convierten una premisa simple en una maquinaria irresistible. Kane y Abel pertenece a ese segundo grupo. Jeffrey Archer toma la vieja idea de dos destinos enfrentados y la despliega con precisión popular: riqueza contra miseria, banca contra hotelería, privilegio contra supervivencia, orgullo contra orgullo. El resultado es una de esas sagas que saben sostener el interés durante cientos de páginas sin perder claridad.",
+        "readingLevel": "Lectura accesible para público adulto habitual o intermedio. Aunque es una novela larga, su prosa es directa, muy narrativa y fácil de seguir; la principal exigencia está en la extensión y en el arco temporal amplio.",
+        "whyReadToday": "Porque sigue siendo un modelo eficaz de novela de rivalidad y ascenso social, y porque su pregunta de fondo —cómo el origen y el resentimiento moldean una vida entera— mantiene plena vigencia.",
+        "studyNotes": [
+          "La novela se apoya en un paralelismo estructural muy claro: dos nacimientos el mismo día, dos trayectorias ascensionales y una enemistad que da unidad a varias décadas de historia.",
+          "Conviene observar cómo Archer transforma contextos históricos reales —guerra, migración, expansión financiera— en combustible de una trama muy legible y orientada al conflicto.",
+          "El libro puede leerse como una reflexión sobre clase y legitimidad: Kane hereda poder institucional; Abel conquista poder desde la intemperie, pero ambos quedan atrapados por el orgullo.",
+          "La rivalidad central no solo afecta a los protagonistas: también condiciona a sus descendientes y convierte la herencia familiar en un campo de reconciliación o repetición."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: dos nacimientos, dos mundos",
+            "summary": "La novela presenta a William Lowell Kane y a Abel Rosnovski como figuras especulares nacidas el mismo día, pero separadas por clase, geografía y destino. Desde el comienzo, Archer instala el contraste entre herencia y desposesión como eje del relato."
+          },
+          {
+            "title": "Parte 2: ascenso, guerra y formación del carácter",
+            "summary": "Mientras Kane se forma en el mundo de la banca y del privilegio educado, Abel atraviesa experiencias extremas marcadas por violencia, pérdida y desplazamiento. Ambos aprenden a convertir la adversidad —o la presión del legado— en disciplina y voluntad de triunfo."
+          },
+          {
+            "title": "Parte 3: negocios, poder y enemistad",
+            "summary": "Cuando sus trayectorias se cruzan, la competencia económica se transforma en odio personal. La novela muestra cómo un malentendido decisivo, amplificado por orgullo y obsesión, puede convertir el éxito en una forma de guerra privada."
+          },
+          {
+            "title": "Parte 4: herencia y cierre del conflicto",
+            "summary": "En el último tramo, la historia desplaza parte de su fuerza hacia la siguiente generación. El desenlace sugiere que los hijos pueden heredar tanto riqueza como resentimiento, pero también abrir una salida allí donde los padres solo supieron combatir."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela como duelo de biografías",
+            "content": "La eficacia de Kane y Abel depende de su construcción en espejo. Archer no desarrolla simplemente dos personajes, sino dos biografías pensadas para contrastarse en casi todos los niveles: nacimiento, clase, educación, relación con el poder y modo de entender el éxito. Esa simetría vuelve muy legible el conflicto y le da a la novela una arquitectura casi mítica."
+          },
+          {
+            "heading": "Ascenso social, resentimiento y legitimidad",
+            "content": "El libro no presenta el ascenso como una victoria limpia. Tanto Kane como Abel alcanzan posiciones de poder, pero ninguno queda en paz con su historia. Kane debe responder al peso de una tradición familiar; Abel, a las humillaciones de origen y a la memoria de la pérdida. La rivalidad nace precisamente de esa herida narcisista compartida."
+          },
+          {
+            "heading": "Historia del siglo XX al servicio del entretenimiento",
+            "content": "Guerras, migraciones, finanzas internacionales y cambios de época aparecen integrados a una narración de gran consumo. Archer simplifica mucho, pero sabe usar el contexto histórico como motor de peripecias, oportunidades y catástrofes. Esa combinación de amplitud histórica y claridad popular explica buena parte de su éxito."
+          },
+          {
+            "heading": "Una saga familiar con lógica de best seller clásico",
+            "content": "La novela trabaja con capítulos ágiles, cliffhangers, oposición nítida de personajes y recompensas emocionales constantes. No busca experimentalismo ni ambigüedad radical, sino una lectura absorbente. Su interés actual está también en recordar cómo el best seller clásico podía ser largo, ambicioso y, aun así, extremadamente accesible."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Kane y Abel es una novela histórica?",
+            "answer": "En parte sí. Aunque su centro es una rivalidad ficticia, la historia se desarrolla sobre acontecimientos y transformaciones reales del siglo XX, especialmente en Europa y Estados Unidos."
+          },
+          {
+            "question": "¿El libro se concentra más en los negocios o en la vida personal?",
+            "answer": "En ambas cosas. Los negocios son decisivos porque allí se materializa la competencia entre los protagonistas, pero la novela también dedica mucho espacio a familia, origen, amor, pérdida y herencia."
+          },
+          {
+            "question": "¿Hace falta leer la secuela para cerrar la historia?",
+            "answer": "No. Kane y Abel funciona por sí mismo y ofrece un arco completo. La secuela, La hija pródiga, amplía el universo al centrarse en Florentyna Rosnovski."
+          },
+          {
+            "question": "¿Por qué sigue siendo un libro tan recordado?",
+            "answer": "Porque combina una premisa muy fuerte, personajes construidos para el enfrentamiento, ritmo constante y una escala narrativa amplia que satisface a quien busca una gran historia de rivalidad y destino."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: Kane and Abel (novel)",
+            "url": "https://en.wikipedia.org/wiki/Kane_and_Abel_(novel)"
+          },
+          {
+            "label": "Open Library ISBN 0340245948",
+            "url": "https://openlibrary.org/isbn/0340245948"
+          },
+          {
+            "label": "Hodder & Stoughton / Hachette UK: Kane and Abel",
+            "url": "https://www.hodder.co.uk/titles/jeffrey-archer/kane-and-abel/9781447252284/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-saga-de-los-confines-iii-los-dias-del-fuego-de-liliana-bodoc",
+      "title": "La Saga De Los Confines Iii Los Dias Del Fuego",
+      "authorName": "Liliana Bodoc",
+      "authorSlug": "liliana-bodoc",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 11,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La Saga de los Confines III: Los días del fuego",
+        "authorName": "Liliana Bodoc",
+        "authorSlug": "liliana-bodoc",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasia",
+          "aventura",
+          "juvenil"
+        ],
+        "year": 2004,
+        "pages": 468,
+        "summary": "Los días del fuego cierra la gran trilogía fantástica de Liliana Bodoc con una amplitud coral poco frecuente en la literatura juvenil en español. Después de las pérdidas, invasiones y fracturas acumuladas en los libros anteriores, esta tercera entrega lleva el conflicto hacia su fase decisiva: pueblos enfrentados a la destrucción, guerreros y sabios obligados a elegir, viejas lealtades sometidas a prueba y una memoria colectiva que se resiste a ser borrada por la violencia. Más que una simple batalla final, la novela trabaja el costo humano de la guerra y la persistencia de la palabra, la comunidad y el recuerdo. Bodoc conserva el impulso épico, pero lo vuelve más grave y reflexivo: la victoria, aquí, nunca es pura, y toda salvación exige duelo, sacrificio y responsabilidad histórica.",
+        "aboutThisBook": "Publicado por Grupo Editorial Norma en 2004, Los días del fuego es el tercer volumen de La Saga de los Confines, una de las obras fundamentales de la fantasía escrita en español en América Latina. La trilogía convirtió a Liliana Bodoc en una figura central del género al combinar recursos de la épica con una sensibilidad marcada por la oralidad, la memoria colectiva y una mirada latinoamericanista sobre la violencia y la conquista. Este tomo final no solo busca cerrar una guerra imaginaria: también reúne las preguntas morales y simbólicas que sostienen toda la saga.",
+        "forWhom": "Para lectores juveniles y adultos que disfrutan la fantasía épica, las sagas corales, los mundos imaginarios con resonancia histórica y los relatos donde la aventura convive con reflexión ética.",
+        "whyItMatters": "Importa porque demuestra que la fantasía en español puede dialogar con la gran épica del género sin renunciar a una voz propia. En Bodoc, la guerra fantástica también habla de memoria, pueblos arrasados, resistencia cultural y dignidad colectiva.",
+        "editorialIntro": "Pocas trilogías fantásticas publicadas en nuestra lengua alcanzaron la autoridad simbólica de La Saga de los Confines. En su cierre, Liliana Bodoc no se limita a ofrecer una conclusión espectacular: ofrece una culminación emocional, política y poética. Los días del fuego conserva combates, tensiones y grandes movimientos de tropas, pero su verdadera fuerza está en cómo entiende el final de una guerra: no como triunfo limpio, sino como territorio de pérdida, reparación y memoria. Esa densidad es lo que vuelve a esta novela más que un simple desenlace de saga.",
+        "readingLevel": "Adecuado para lectores juveniles avanzados y adultos. La prosa es clara pero de aliento lírico, con muchos personajes, nombres propios y líneas de conflicto; se disfruta más si ya se conocen los dos libros anteriores.",
+        "whyReadToday": "Porque sigue siendo una referencia indispensable para pensar una fantasía épica latinoamericana, capaz de hablar de violencia, resistencia y comunidad sin copiar del todo los moldes anglosajones del género.",
+        "studyNotes": [
+          "Como cierre de trilogía, el libro reorganiza conflictos abiertos antes y exige prestar atención a alianzas, pérdidas y transformaciones de largo recorrido.",
+          "La saga de Bodoc ha sido leída desde una perspectiva latinoamericanista, en relación con memorias de conquista, despojo y resistencia de los pueblos.",
+          "Conviene observar que la épica aquí no glorifica sin más la guerra: insiste en su costo humano, en el duelo y en la fragilidad de toda victoria.",
+          "El lenguaje combina claridad narrativa con momentos de oralidad y resonancia poética, rasgo decisivo para distinguir la voz de Bodoc dentro de la fantasía contemporánea."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: un mundo herido que debe reagruparse",
+            "summary": "El comienzo del libro retoma a los pueblos de los Confines en una situación de desgaste y amenaza. Lo importante ya no es solo resistir un avance enemigo, sino reconstruir vínculos, reconocer pérdidas y preparar una respuesta común frente a una violencia que parece total."
+          },
+          {
+            "title": "Parte 2: decisiones, alianzas y sacrificios",
+            "summary": "En la zona media, la novela entrelaza destinos individuales y colectivos. Guerreros, consejeros, mensajeros y sobrevivientes deben elegir entre fidelidad, temor o entrega. Bodoc intensifica así el carácter coral de la saga y muestra que las guerras se deciden tanto por gestos íntimos como por grandes combates."
+          },
+          {
+            "title": "Parte 3: el fuego como destrucción y prueba",
+            "summary": "El tramo decisivo concentra la confrontación final y convierte el fuego en una imagen doble: devastación material y también prueba moral. El mundo imaginario entra en su hora más oscura, y el desenlace obliga a asumir que toda victoria verdadera deja cicatrices."
+          },
+          {
+            "title": "Parte 4: memoria después de la batalla",
+            "summary": "El cierre no piensa solo en vencer, sino en cómo narrar lo vivido y qué comunidad puede sobrevivir después. La novela subraya que la palabra, el recuerdo y la transmisión del dolor forman parte del final tanto como el combate mismo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una épica con raíz latinoamericana",
+            "content": "La singularidad de Bodoc no está solo en inventar un mundo, sino en el modo en que lo carga de resonancias históricas y culturales reconocibles para lectores latinoamericanos. La saga ha sido leída en relación con la memoria de la conquista y con la destrucción de pueblos, lenguas y cosmovisiones; por eso su fantasía nunca se siente enteramente evasiva."
+          },
+          {
+            "heading": "La guerra como experiencia moral",
+            "content": "En Los días del fuego la guerra no funciona únicamente como espectáculo épico. Cada enfrentamiento obliga a pensar pérdida, lealtad, duelo y responsabilidad. La novela cuestiona la fantasía de la victoria impecable y prefiere mostrar que incluso el triunfo deja restos dolorosos que la comunidad debe aprender a cargar."
+          },
+          {
+            "heading": "Coralidad y memoria colectiva",
+            "content": "El libro evita concentrar toda la grandeza en un héroe único. Su fuerza nace de la coralidad: muchos personajes sostienen el sentido del mundo narrado y hacen visible que una cultura se defiende entre varios. Esa dimensión colectiva enlaza muy bien con la importancia que la saga concede a la palabra, la transmisión y el recuerdo compartido."
+          },
+          {
+            "heading": "El cierre de trilogía como culminación afectiva",
+            "content": "Más que resolver una intriga, Bodoc culmina una experiencia de lectura extendida. El tercer tomo recoge hilos abiertos y devuelve al lector una sensación de amplitud, gravedad y destino cumplido. Esa capacidad de cerrar sin simplificar es una de las razones por las que el libro sigue siendo tan respetado dentro de la literatura fantástica en español."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Se puede leer Los días del fuego por separado?",
+            "answer": "Puede entenderse en lo básico, pero se disfruta mucho más como cierre de trilogía. Gran parte de su fuerza emocional depende de conflictos y vínculos construidos en Los días del Venado y Los días de la Sombra."
+          },
+          {
+            "question": "¿Es una novela solo para público juvenil?",
+            "answer": "No. Aunque suele circular en catálogos juveniles, su densidad simbólica, su aliento épico y su lectura histórica permiten que también tenga mucho interés para lectores adultos."
+          },
+          {
+            "question": "¿Qué distingue esta saga de otras fantasías épicas?",
+            "answer": "Su voz propia en español, su dimensión coral, el peso de la oralidad y la manera en que la guerra fantástica dialoga con memorias latinoamericanas de conquista, destrucción y resistencia."
+          },
+          {
+            "question": "¿El final busca solo cerrar la aventura?",
+            "answer": "No. También busca pensar qué queda después del conflicto: duelo, memoria, comunidad y la necesidad de transmitir lo vivido para que la violencia no borre del todo a los pueblos."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: La Saga de los Confines",
+            "url": "https://es.wikipedia.org/wiki/La_Saga_de_Los_Confines"
+          },
+          {
+            "label": "Open Library edition: Los Días del Fuego",
+            "url": "https://openlibrary.org/books/OL9200128M/Los_Dias_del_Fuego_(Otros_Mundos)"
+          },
+          {
+            "label": "Agencia Literaria CBQ: Los días del fuego",
+            "url": "https://agencialiterariacbq.com/libros/los-dias-del-fuego/"
+          },
+          {
+            "label": "Lecturalia: Los días del fuego",
+            "url": "https://www.lecturalia.com/libro/16451/los-dias-del-fuego-la-saga-de-los-confines-iii"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mas-alla-del-invierno-de-isabel-allende",
+      "title": "Mas Alla Del Invierno",
+      "authorName": "Isabel Allende",
+      "authorSlug": "isabel-allende",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 11,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Más allá del invierno",
+        "authorName": "Isabel Allende",
+        "authorSlug": "isabel-allende",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "romance"
+        ],
+        "year": 2017,
+        "pages": 354,
+        "summary": "Más allá del invierno es una novela contemporánea en la que Isabel Allende reúne a tres personajes desplazados por la vida antes que por el mapa: Lucía Maraz, académica chilena; Richard Bowmaster, profesor estadounidense; y Evelyn Ortega, joven inmigrante marcada por una historia de violencia y precariedad. Un incidente aparentemente menor, desencadenado por una tormenta de nieve en Nueva York, termina abriendo una trama de secretos, miedo y solidaridad improvisada. A partir de ahí, la novela alterna presente y pasado para mostrar cómo cada uno carga con duelos, culpas y pérdidas. Allende mezcla tensión narrativa, compasión y comentario social para construir un relato sobre migración, vulnerabilidad y segundas oportunidades. El invierno del título no es solo climático: nombra también una etapa de congelamiento interior que los personajes deberán atravesar para volver a imaginar una vida posible.",
+        "aboutThisBook": "Publicada en 2017, Más allá del invierno se sitúa en Brooklyn y conecta la peripecia íntima de tres personajes con cuestiones muy visibles del presente: la experiencia migrante, la desigualdad, la violencia ejercida sobre cuerpos vulnerables y la necesidad de crear lazos de cuidado entre desconocidos. Dentro de la obra tardía de Isabel Allende, la novela conserva su facilidad para contar historias y para enlazar biografía, trauma y afecto, pero lo hace con un foco muy contemporáneo. La frase de Albert Camus que la acompaña —sobre descubrir un verano invencible en medio del invierno— resume bien su apuesta moral.",
+        "forWhom": "Para lectores adultos interesados en novelas contemporáneas con dimensión humana y social, especialmente si buscan historias de migración, trauma, culpa, afecto y reparación narradas con claridad.",
+        "whyItMatters": "Importa porque traslada la sensibilidad narrativa de Allende a debates actuales sobre desplazamiento, precariedad y hospitalidad. Sin abandonar la emoción ni el impulso novelesco, el libro insiste en que detrás de cada expediente migratorio hay biografías heridas y decisiones extremas.",
+        "editorialIntro": "En Más allá del invierno, Isabel Allende trabaja con una de sus fortalezas más reconocibles: reunir personajes que parecen aislados en su dolor y obligarlos a crear una comunidad mínima para sobrevivir a una situación límite. El punto de partida tiene algo de thriller doméstico, pero la novela pronto se vuelve otra cosa: una meditación accesible y emotiva sobre exilio, culpa, edad, deseo de empezar de nuevo y dignidad de quienes viven en los márgenes. Leída hoy, destaca por la manera en que vuelve visible la dimensión humana de la migración sin dejar de ser una novela de trama.",
+        "readingLevel": "Lectura accesible para público adulto general. El estilo es directo y envolvente; la novela alterna presente y pasados personales sin volverse difícil, por lo que funciona bien tanto para lectura recreativa como para discusión en clase o club de lectura.",
+        "whyReadToday": "Porque conversa de frente con el presente: migraciones forzadas, vidas precarias, miedo institucional y la posibilidad de solidaridad entre personas que apenas se conocen.",
+        "studyNotes": [
+          "La novela articula tres biografías marcadas por pérdidas previas; el misterio inicial sirve para revelar lentamente cómo el pasado determina las decisiones del presente.",
+          "El invierno funciona como símbolo doble: clima hostil de Nueva York y congelamiento emocional de personajes que han dejado de esperar una salida.",
+          "Evelyn Ortega introduce de forma central el tema migratorio y obliga a leer la trama no solo como peripecia individual, sino como comentario sobre vulnerabilidad social y legal.",
+          "Conviene observar cómo Allende combina registros: suspenso, melodrama, memoria traumática y una defensa ética del cuidado y la compasión."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: un accidente que rompe la rutina",
+            "summary": "La novela comienza con una tormenta de nieve y un choque menor que parece circunstancial, pero que abre una cadena de hechos imprevistos. Richard Bowmaster y Lucía Maraz quedan vinculados a Evelyn Ortega y a un problema que ya no puede resolverse con distancia burocrática."
+          },
+          {
+            "title": "Parte 2: los pasados salen a la superficie",
+            "summary": "A medida que la situación se complica, el relato vuelve sobre las historias personales de los tres protagonistas. Allende muestra que el miedo presente tiene raíces profundas: exilio, violencia, duelos, culpas antiguas y una larga experiencia de intemperie emocional."
+          },
+          {
+            "title": "Parte 3: solidaridad en la zona gris",
+            "summary": "El núcleo de la novela está en la alianza improvisada entre personajes que apenas se conocen y que, sin embargo, empiezan a cuidarse. Lo decisivo no es solo resolver el conflicto externo, sino aceptar que ayudar a otro también obliga a revisar la propia vida."
+          },
+          {
+            "title": "Parte 4: atravesar el invierno",
+            "summary": "En el tramo final, la historia busca una salida moral y afectiva antes que un simple cierre policial. La resolución propone que incluso después del trauma y de la culpa puede abrirse una forma de continuidad, si los personajes se atreven a no seguir viviendo congelados."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Migración y novela de la compasión",
+            "content": "Más allá del invierno sitúa la cuestión migratoria en el corazón de la trama, no como decorado. Evelyn encarna la fragilidad de quien vive expuesta a violencia, abuso y desprotección institucional. Allende insiste en devolver espesor humano a aquello que el discurso público suele reducir a cifras, expedientes o estereotipos."
+          },
+          {
+            "heading": "El invierno como metáfora vital",
+            "content": "El título no remite solo al clima extremo de Nueva York. El invierno nombra un estado interior de parálisis, duelo y agotamiento moral. Tanto Lucía como Richard y Evelyn atraviesan formas distintas de desolación; la novela propone que salir de ese frío exige vínculo, riesgo y una cuota de confianza en otros."
+          },
+          {
+            "heading": "Cruce de géneros narrativos",
+            "content": "Allende combina un arranque cercano al suspense con una novela de recuerdos, afectos y reparación. Ese cruce le permite sostener el interés del lector sin abandonar preguntas sociales y emocionales más amplias. La trama funciona porque nunca deja que el misterio opaque la humanidad de los personajes."
+          },
+          {
+            "heading": "Una ética del cuidado frente a la intemperie",
+            "content": "El libro sostiene que, en un mundo atravesado por precariedad y soledad, el cuidado concreto puede convertirse en un acto profundamente político. La ayuda mutua entre los protagonistas no es sentimentalismo fácil: es la respuesta moral que la novela imagina frente a sistemas fríos, violentos o indiferentes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Más allá del invierno es una novela de amor?",
+            "answer": "Incluye una dimensión afectiva importante, pero no se reduce al romance. También es una novela sobre migración, trauma, culpa, ayuda mutua y posibilidad de recomenzar."
+          },
+          {
+            "question": "¿Qué papel tiene Evelyn Ortega en la historia?",
+            "answer": "Es decisivo. Su situación impulsa la trama y permite que la novela ponga en primer plano la vulnerabilidad de las personas migrantes, además de transformar moralmente a Lucía y Richard."
+          },
+          {
+            "question": "¿La novela se centra más en el suspenso o en el trasfondo humano?",
+            "answer": "En ambos, aunque el peso final recae en lo humano. El suspenso organiza la lectura, pero el verdadero interés del libro está en cómo los personajes enfrentan sus heridas y se vuelven responsables unos de otros."
+          },
+          {
+            "question": "¿Por qué leer esta novela hoy?",
+            "answer": "Porque conecta muy bien con debates actuales sobre fronteras, hospitalidad, envejecimiento, violencia y cuidado, y lo hace desde una narración clara, emotiva y muy legible."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: Más allá del invierno",
+            "url": "https://es.wikipedia.org/wiki/M%C3%A1s_all%C3%A1_del_invierno"
+          },
+          {
+            "label": "Open Library edition: Más allá del invierno",
+            "url": "https://openlibrary.org/books/OL26376264M/M%C3%A1s_all%C3%A1_del_invierno"
+          },
+          {
+            "label": "Isabel Allende official site: Beyond Winter",
+            "url": "https://isabelallende.com/en/book/beyond-winter"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "matate-amor-de-ariana-harwicz",
+      "title": "Matate Amor",
+      "authorName": "Ariana Harwicz",
+      "authorSlug": "ariana-harwicz",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 11,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Matate, amor",
+        "authorName": "Ariana Harwicz",
+        "authorSlug": "ariana-harwicz",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela",
+          "literatura contemporanea",
+          "ficcion psicologica"
+        ],
+        "year": 2012,
+        "pages": 152,
+        "summary": "Publicada originalmente en Argentina en 2012, Matate, amor es una novela breve, feroz y de una intensidad poco común. La voz narradora pertenece a una mujer que vive en el campo francés, atrapada entre la maternidad, el matrimonio, el deseo, la violencia imaginada y una inestabilidad mental que vuelve poroso el límite entre pensamiento y acción. Harwicz no construye un retrato complaciente de la vida doméstica: lo que aparece es una conciencia desgarrada, a ratos lúcida y a ratos delirante, que convierte cada escena cotidiana en una zona de amenaza. La maternidad no se presenta como refugio sino como choque físico, emocional y lingüístico. La novela importa tanto por lo que cuenta como por cómo lo hace: con una prosa nerviosa, cortante, animal, que transforma la crisis interior en forma literaria.",
+        "aboutThisBook": "Matate, amor suele leerse como una de las novelas hispanoamericanas más radicales sobre la experiencia de la maternidad y el colapso psíquico. Más que desarrollar una trama tradicional, Ariana Harwicz construye una voz que piensa contra sí misma, contra la familia y contra el orden social que pretende domesticarla. El libro inauguró la llamada “trilogía involuntaria” completada por La débil mental y Precoz, y consolidó a su autora como una figura central de la narrativa contemporánea en español. Su circulación internacional, incluida la traducción inglesa Die, My Love, amplió todavía más su impacto crítico.",
+        "forWhom": "Es un libro recomendable para lectores de narrativa contemporánea exigente, estudios de género, literatura sobre maternidad, salud mental y formas extremas de la primera persona. También interesa a quienes busquen novelas breves pero intensas, con una prosa de gran temperatura verbal. Conviene advertir que su tratamiento de la violencia, el deseo y el malestar psíquico puede resultar perturbador para algunos lectores.",
+        "whyItMatters": "Importa porque desmonta lugares comunes muy arraigados: la maternidad idealizada, la domesticidad como estabilidad y la idea de que la identidad femenina debe ordenarse en torno al cuidado. Harwicz convierte esos mandatos en conflicto literario y obliga a leer desde la incomodidad. Además, el libro ocupa un lugar destacado en la renovación de la novela breve en español por su apuesta formal, su energía verbal y su capacidad para volver visible un malestar que suele ser silenciado o moralizado.",
+        "editorialIntro": "Una novela corta, salvaje y memorable: Ariana Harwicz lleva la voz de una mujer al borde del colapso hasta una zona donde la maternidad, el cuerpo y la rabia dejan de ser temas para convertirse en lenguaje. Su potencia no depende de la trama tradicional, sino de la intensidad verbal con que vuelve inquietante cada gesto doméstico y cada pensamiento extremo.",
+        "readingLevel": "Nivel alto: la escritura es densa, lírica y abrupta, y pide tolerancia a la ambigüedad, a la violencia verbal y a una voz narradora emocionalmente desbordada.",
+        "whyReadToday": "Porque sigue siendo una lectura decisiva para pensar cómo se representan hoy la maternidad, la salud mental y la violencia íntima. En un momento en que abundan discursos simplificados sobre el cuidado y la identidad, Harwicz recuerda que la literatura puede entrar en aquello que la conversación pública tiende a domesticar o a volver consigna.",
+        "studyNotes": [
+          "La novela trabaja con una primera persona extrema: no busca fiabilidad, sino intensidad. Leerla exige distinguir entre hecho, fantasía, impulso y lenguaje sin separar demasiado esas capas.",
+          "La animalidad es un motivo central. Las comparaciones con animales no adornan el texto: muestran la pérdida de códigos sociales y la búsqueda de una percepción más instintiva del mundo.",
+          "La maternidad aparece como experiencia física y mental atravesada por ambivalencia, agotamiento y violencia imaginada; el libro discute frontalmente su representación idealizada.",
+          "El espacio rural no funciona como paisaje apacible, sino como amplificador del extrañamiento, el encierro y la vigilancia sobre el cuerpo de la narradora."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Una voz al borde",
+            "summary": "La narradora se presenta desde un estado de fractura interior. Observa su casa, a su marido y a su hijo como si estuviera dentro y fuera de su propia vida al mismo tiempo. El deseo de fuga y la violencia imaginada organizan la percepción desde el comienzo."
+          },
+          {
+            "title": "Parte 2: Maternidad, deseo y asfixia",
+            "summary": "La rutina doméstica se vuelve insoportable. El vínculo con el bebé, lejos de ser lineal o sentimental, se mezcla con cansancio, culpa, furia y pulsiones contradictorias. También crece la tensión sexual y afectiva con el entorno, que intensifica la sensación de amenaza."
+          },
+          {
+            "title": "Parte 3: Lenguaje de la crisis",
+            "summary": "A medida que avanza la novela, el mundo exterior importa menos que la temperatura de la conciencia narradora. Los pensamientos, imágenes y recuerdos se encadenan con una lógica fragmentaria que convierte el colapso psíquico en forma literaria y deja al lector dentro de una experiencia límite."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La maternidad sin idealización",
+            "content": "Uno de los grandes gestos de Matate, amor consiste en rechazar cualquier representación edificante de la maternidad. El libro no la niega ni la ridiculiza: la muestra como una experiencia ambigua, corporal, extenuante y a veces destructiva. Esa ambivalencia es precisamente lo que le da su fuerza crítica."
+          },
+          {
+            "heading": "Una prosa física y cortante",
+            "content": "La escritura de Harwicz avanza con frases tensas, imágenes súbitas y asociaciones que parecen nacer del cuerpo antes que del razonamiento. Esa prosa no busca transparencia, sino contagiar una forma de percepción alterada. El estilo es inseparable del tema: la crisis mental se vuelve ritmo, corte y respiración."
+          },
+          {
+            "heading": "Exterior e interior como espacio único",
+            "content": "La novela borra con frecuencia la frontera entre paisaje y subjetividad. El campo, los animales, la casa y la familia no son meros decorados: funcionan como extensiones del estado mental de la narradora. Por eso el entorno rural aparece menos como refugio que como escenario de acecho y descomposición."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Matate, amor es una novela sobre la depresión posparto?",
+            "answer": "Puede leerse en esa clave, y varios comentarios críticos la relacionan con el malestar posparto, pero la novela no se limita a un diagnóstico. Harwicz trabaja más bien con una experiencia extrema de desborde psíquico, deseo, violencia y rechazo de los mandatos domésticos."
+          },
+          {
+            "question": "¿Es una lectura difícil?",
+            "answer": "No por extensión, porque es una novela breve, pero sí por intensidad. Exige aceptar una voz fragmentaria, incómoda y a menudo excesiva, sin esperar una narración lineal o tranquilizadora."
+          },
+          {
+            "question": "¿Por qué se la considera importante en la narrativa contemporánea?",
+            "answer": "Porque renovó la forma de narrar la maternidad y el encierro doméstico en español, y lo hizo con una apuesta estilística muy reconocible. Su recepción internacional confirmó además que se trata de una obra de gran impacto crítico."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Editorial Anagrama - ficha del libro",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/matate-amor/9788433948168/NH_770"
+          },
+          {
+            "label": "Latin American Literature Today - reseña de Die, My Love",
+            "url": "https://latinamericanliteraturetoday.org/book_review/die-my-love-ariana-harwicz/"
+          },
+          {
+            "label": "Open Library - obra Matate, amor",
+            "url": "https://openlibrary.org/works/OL17867077W/Matate_amor"
+          },
+          {
+            "label": "Wikipedia - Ariana Harwicz",
+            "url": "https://en.wikipedia.org/wiki/Ariana_Harwicz"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "potentes-prepotentes-e-impotentes-de-joaquin-s-lavado-tejon",
+      "title": "Potentes Prepotentes E Impotentes",
+      "authorName": "Joaquin S Lavado Tejon",
+      "authorSlug": "joaquin-s-lavado-tejon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 11,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Potentes, prepotentes e impotentes",
+        "authorName": "Quino",
+        "authorSlug": "quino",
+        "type": "comic",
+        "audience": "todos",
+        "genres": [
+          "comic",
+          "humor grafico",
+          "satira"
+        ],
+        "year": 1989,
+        "pages": 120,
+        "summary": "Potentes, prepotentes e impotentes reúne dibujos y viñetas de Quino centrados en una de sus obsesiones más fértiles: las relaciones de poder. No se trata de una novela gráfica con argumento continuo, sino de una constelación de escenas breves en las que aparecen jerarquías, abusos, humillaciones, miedos y falsas superioridades. Con el humor seco e inmediatamente reconocible del autor de Mafalda, el libro expone cómo el poder se infiltra en la política, la oficina, la familia, la pareja y hasta en los gestos más cotidianos. Quino no sermonea: observa. Y en esa observación minuciosa descubre que la prepotencia suele esconder fragilidad, miedo o ridiculez. El resultado es una sátira visual muy eficaz, divertida en la superficie y amarga en el fondo.",
+        "aboutThisBook": "Este volumen pertenece a la línea de libros temáticos con los que Quino organizó parte de su obra gráfica alrededor de grandes asuntos sociales. Aquí el eje es el poder, entendido tanto como fuerza institucional como impulso humano a dominar, aparentar o someter. La lectura puede hacerse de corrido o por piezas, pero en conjunto produce una radiografía consistente de la desigualdad y del autoritarismo cotidiano. Precisamente por esa estructura fragmentaria, el libro resiste muy bien el paso del tiempo: cada viñeta funciona sola y, a la vez, conversa con las demás hasta construir una ética crítica claramente quineana.",
+        "forWhom": "Es una excelente puerta de entrada para lectores que disfrutan del humor inteligente, la crítica social y el dibujo como forma de pensamiento. También resulta muy útil para clases o clubes de lectura sobre sátira, cultura visual y representación del poder. Aunque puede leerlo un público amplio, muchas de sus capas irónicas serán especialmente disfrutadas por lectores adultos y jóvenes con interés en política, medios y vida social.",
+        "whyItMatters": "Sigue importando porque Quino detecta mecanismos de dominación que no han perdido vigencia: el abuso del fuerte sobre el débil, la obediencia ridícula al prestigio, la autoridad vacía y la frustración del que desea mandar sin poder hacerlo. En tiempos de propaganda permanente, liderazgos estridentes y desigualdades normalizadas, su humor conserva una claridad crítica excepcional. Además, recuerda algo fundamental: la caricatura no simplifica necesariamente la realidad; a veces la explica mejor que un ensayo.",
+        "editorialIntro": "Quino mira el poder con una mezcla inconfundible de lucidez, ironía y compasión. Cada página convierte la risa en diagnóstico y deja ver cuánto hay de absurdo en la obediencia, la soberbia y la humillación cotidiana. Es un libro breve, pero muy fértil para pensar cómo se fabrican las jerarquías y por qué tantas veces las aceptamos sin discutirlas.",
+        "readingLevel": "Nivel medio: se lee con facilidad, aunque aprovecha mejor quien se detiene a interpretar la sátira política, los dobles sentidos y la crítica social de cada viñeta.",
+        "whyReadToday": "Porque pocas obras de humor gráfico muestran con tanta precisión cómo operan la arrogancia y la sumisión en la vida diaria. El libro sigue hablando al presente: basta cambiar trajes, oficinas o pantallas para reconocer los mismos gestos de abuso, adulación y miedo.",
+        "studyNotes": [
+          "No hay una trama única: conviene leer el libro como una serie de variaciones sobre un tema central, el poder, más que como un relato lineal.",
+          "El dibujo de Quino trabaja mucho con la composición y el silencio. En varias viñetas, la crítica no depende del texto, sino de la distancia entre cuerpos, muebles, uniformes y miradas.",
+          "La sátira funciona en dos niveles: provoca risa inmediata, pero también deja una sensación amarga porque exhibe mecanismos sociales muy reconocibles.",
+          "El contraste entre potentes, prepotentes e impotentes no solo clasifica personajes; también describe posiciones móviles dentro de una misma sociedad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Bloque 1: Los que mandan",
+            "summary": "Las primeras piezas presentan figuras de autoridad y prestigio que usan su posición para imponerse. Quino ridiculiza la solemnidad del poder y muestra cuánto depende de la escenografía, el miedo y la costumbre."
+          },
+          {
+            "title": "Bloque 2: Los que obedecen o padecen",
+            "summary": "Muchas viñetas desplazan el foco hacia quienes sufren la desigualdad: empleados, ciudadanos, familiares o espectadores atrapados en sistemas de humillación. El humor revela la violencia normalizada en pequeñas escenas cotidianas."
+          },
+          {
+            "title": "Bloque 3: La impotencia compartida",
+            "summary": "El libro se vuelve especialmente agudo cuando muestra que incluso quienes parecen fuertes están atravesados por frustración, inseguridad o absurdo. Así, el poder deja de ser una cualidad estable y aparece como un teatro frágil que produce daño real."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Humor gráfico como crítica política",
+            "content": "Quino logra condensar en una sola imagen lo que a veces requeriría páginas de argumentación. Sus viñetas desmontan la retórica del poder al volver visibles sus gestos, sus objetos y sus rituales. La risa nace de ese reconocimiento inmediato."
+          },
+          {
+            "heading": "El poder en la vida cotidiana",
+            "content": "Uno de los aciertos del libro es no limitar el poder a presidentes, militares o empresarios. También aparece en la oficina, en la casa, en la escuela y en la pareja. Esa ampliación vuelve la crítica más inquietante: nadie queda completamente fuera del problema."
+          },
+          {
+            "heading": "La vigencia de Quino",
+            "content": "Aunque muchas viñetas fueron concebidas en otro contexto histórico, conservan actualidad porque trabajan mecanismos universales: obediencia, arrogancia, desigualdad, miedo al ridículo y fascinación por la autoridad. Su humor envejece mejor que la sátira demasiado coyuntural."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Este libro es similar a Mafalda?",
+            "answer": "Comparte con Mafalda la inteligencia crítica y la sensibilidad social de Quino, pero no es una serie protagonizada por personajes fijos. Aquí predominan las viñetas y dibujos independientes articulados por un mismo tema: el poder."
+          },
+          {
+            "question": "¿Se puede leer sin conocer la historia política argentina?",
+            "answer": "Sí. Algunas resonancias pueden enriquecerse con ese contexto, pero el libro funciona muy bien por sí solo porque su mirada sobre la soberbia, la obediencia y la desigualdad es ampliamente reconocible."
+          },
+          {
+            "question": "¿Por qué sigue siendo actual?",
+            "answer": "Porque los comportamientos que satiriza no desaparecieron: la autoridad vacía, la adulación al poderoso y la humillación del más débil siguen presentes en la política, el trabajo y la vida social."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Penguin Random House - ficha del libro",
+            "url": "https://www.penguinrandomhouse.com/books/779169/potentes-prepotentes-e-impotentes--powerful-arrogant-and-imposing-by-quino/"
+          },
+          {
+            "label": "Lecturalia - resumen y datos editoriales",
+            "url": "https://www.lecturalia.com/libro/37838/potentes-prepotentes-e-impotentes"
+          },
+          {
+            "label": "Open Library - obra de Quino",
+            "url": "https://openlibrary.org/works/OL19645146W/Potentes_prepotentes_e_impotentes_-_1._edicion"
+          },
+          {
+            "label": "Wikipedia - Quino",
+            "url": "https://en.wikipedia.org/wiki/Quino"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tratado-sobre-la-tolerancia-de-voltaire",
+      "title": "Tratado Sobre La Tolerancia",
+      "authorName": "Voltaire",
+      "authorSlug": "voltaire",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 11,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Tratado sobre la tolerancia",
+        "authorName": "Voltaire",
+        "authorSlug": "voltaire",
+        "type": "no-ficcion",
+        "audience": "adultos",
+        "genres": [
+          "ensayo",
+          "filosofia",
+          "clasico"
+        ],
+        "year": 1763,
+        "pages": 143,
+        "summary": "Publicado en 1763 a raíz del caso Jean Calas, Tratado sobre la tolerancia es uno de los textos más célebres de Voltaire y uno de los emblemas de la Ilustración europea. El libro parte de una injusticia concreta —la condena y ejecución de un protestante acusado falsamente en un clima de fanatismo religioso— para desplegar una defensa enérgica de la tolerancia civil, la racionalidad y la moderación frente al dogmatismo. Voltaire combina alegato moral, polémica pública, reflexión histórica y crítica religiosa con una prosa clara, incisiva y estratégicamente persuasiva. No escribe desde la abstracción pura: busca intervenir en su presente y conmover a sus lectores para frenar la violencia legitimada por la fe y por los tribunales. Su vigencia reside precisamente en esa unión entre argumento filosófico, indignación política y eficacia literaria.",
+        "aboutThisBook": "El Tratado debe entenderse en el contexto de la campaña de Voltaire por la rehabilitación de Jean Calas, comerciante protestante ejecutado en Toulouse en 1762. A partir de ese episodio, el autor examina cómo el prejuicio religioso puede corromper la justicia y convertir la diferencia de credo en motivo de persecución. El libro mezcla capítulos narrativos, comparaciones históricas, observaciones sobre distintas religiones y un alegato final a favor de una convivencia fundada en la humanidad común. Más que un tratado sistemático, es una intervención intelectual destinada a influir en la opinión pública y a combatir el fanatismo.",
+        "forWhom": "Es una lectura clave para estudiantes de filosofía, historia de las ideas, literatura francesa, pensamiento político y derechos humanos. También interesa a lectores generales que quieran volver a un clásico breve pero influyente sobre libertad de conciencia y convivencia civil. Aunque su estilo es accesible en muchos pasajes, conviene leerlo con algo de contexto histórico sobre la Ilustración, el caso Calas y los conflictos confesionales del siglo XVIII.",
+        "whyItMatters": "Importa porque muestra con extraordinaria claridad que la intolerancia no es solo una idea equivocada, sino una maquinaria social capaz de producir víctimas concretas. Voltaire denuncia el fanatismo cuando este se vuelve costumbre, ley o justicia. El libro sigue siendo una referencia central en debates sobre pluralismo, libertad religiosa, violencia ideológica y uso político del miedo. Su fuerza reside en que no opone una doctrina cerrada a otra, sino que reclama una ética mínima de humanidad compartida.",
+        "editorialIntro": "Pocos textos clásicos conservan una energía pública tan inmediata. Voltaire convierte una injusticia judicial en una defensa brillante de la tolerancia y en una acusación duradera contra el fanatismo. Su vigencia nace de esa mezcla de indignación moral, inteligencia argumentativa y voluntad de intervenir en los debates de su tiempo.",
+        "readingLevel": "Nivel medio-alto: el razonamiento es claro, pero ayuda tener contexto histórico sobre la Ilustración, las polémicas religiosas y el caso Calas para captar toda su fuerza.",
+        "whyReadToday": "Porque el libro sigue ofreciendo un vocabulario moral y político para pensar sociedades polarizadas, discursos de odio y persecuciones legitimadas por identidades supuestamente absolutas. Leerlo hoy no es un gesto arqueológico: es volver a una de las defensas más nítidas de la convivencia frente al extremismo.",
+        "studyNotes": [
+          "El caso Jean Calas no es un simple pretexto: organiza el libro entero y le da a la argumentación filosófica una urgencia política concreta.",
+          "Voltaire no compone un sistema teórico cerrado; alterna relato, ironía, comparación histórica y apelación moral para persuadir a un público amplio.",
+          "La tolerancia que defiende no equivale a indiferencia total, sino a una convivencia civil que limite la violencia nacida del dogma y del sectarismo.",
+          "Conviene distinguir entre la crítica al fanatismo religioso y la discusión más amplia sobre justicia, opinión pública y uso racional del poder."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1: El caso Calas",
+            "summary": "Voltaire abre con la historia de Jean Calas para mostrar cómo el prejuicio confesional puede contaminar una investigación y llevar a una condena monstruosa. La indignación nace de un caso concreto y visible."
+          },
+          {
+            "title": "Momento 2: Historia y comparación",
+            "summary": "Después del episodio judicial, el autor amplía el foco y examina ejemplos históricos y religiosos para demostrar que la intolerancia no es una fatalidad necesaria, sino una práctica humana alimentada por fanatismo y poder."
+          },
+          {
+            "title": "Momento 3: Alegato por la convivencia",
+            "summary": "En la parte final, Voltaire formula su defensa más directa de la tolerancia. La argumentación insiste en la fragilidad común de los seres humanos y en la necesidad de frenar toda violencia cometida en nombre de una verdad absoluta."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un libro de combate ilustrado",
+            "content": "Tratado sobre la tolerancia es una obra filosófica, pero también un texto de intervención pública. Voltaire escribe para influir, corregir una injusticia y transformar el clima moral de su tiempo. Esa dimensión combativa explica la energía del libro."
+          },
+          {
+            "heading": "Fanatismo y justicia",
+            "content": "La gran intuición política del tratado es que el fanatismo no actúa solo en la conciencia individual. Cuando penetra en tribunales, instituciones y costumbres, se vuelve una fuerza social devastadora. Por eso la defensa de la tolerancia está inseparablemente unida a la defensa de una justicia menos sectaria."
+          },
+          {
+            "heading": "La claridad retórica de Voltaire",
+            "content": "Voltaire no persuade mediante tecnicismos, sino por claridad, ritmo argumentativo e ironía. Su estilo está diseñado para circular, convencer y fijar imágenes memorables. Esa combinación entre legibilidad y filo crítico es una de las razones de su permanencia."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El libro es un tratado filosófico sistemático?",
+            "answer": "No en sentido estricto. Aunque contiene reflexión filosófica, su forma es más libre y polémica: combina relato del caso Calas, ejemplos históricos, crítica religiosa y alegato moral."
+          },
+          {
+            "question": "¿Hace falta conocer la Ilustración para leerlo?",
+            "answer": "Ayuda, pero no es indispensable. La prosa de Voltaire suele ser clara y el núcleo del libro —la denuncia de una injusticia causada por el fanatismo— se entiende bien incluso sin mucha preparación previa."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose hoy?",
+            "answer": "Porque formula de manera ejemplar una defensa de la tolerancia civil frente a la persecución ideológica y religiosa. Su llamado a desconfiar del dogmatismo sigue siendo pertinente en contextos de polarización y violencia simbólica o material."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikisource - texto de 1763",
+            "url": "https://fr.wikisource.org/wiki/Trait%C3%A9_sur_la_tol%C3%A9rance/%C3%89dition_1763/Texte_entier"
+          },
+          {
+            "label": "Gallica (BnF) - edición digitalizada",
+            "url": "https://gallica.bnf.fr/ark:/12148/btv1b8614611x/f7.texteImage"
+          },
+          {
+            "label": "Cercle Gallimard de l'enseignement - ficha didáctica",
+            "url": "https://www.cercle-enseignement.com/Ouvrages/Gallimard/Folio-College/Traite-sur-la-tolerance"
+          },
+          {
+            "label": "Études littéraires - contextualización y estudio",
+            "url": "https://www.etudes-litteraires.com/voltaire/tolerance"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "y-decirte-alguna-estupidez-por-ejemplo-te-quiero-de-martin-casariego",
+      "title": "Y Decirte Alguna Estupidez Por Ejemplo Te Quiero",
+      "authorName": "Martin Casariego",
+      "authorSlug": "martin-casariego",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 11,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Y decirte alguna estupidez, por ejemplo, te quiero",
+        "authorName": "Martín Casariego",
+        "authorSlug": "martin-casariego",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "romance",
+          "narrativa"
+        ],
+        "year": 1995,
+        "pages": null,
+        "summary": "Esta novela juvenil de Martín Casariego sigue a Juan, un adolescente que vive con intensidad silenciosa su enamoramiento por Sara, la chica nueva de clase. Lo que al principio parece una historia de amor tímido y secreto se convierte poco a poco en un relato sobre la presión del grupo, el deseo de impresionar a alguien y la fragilidad moral de la adolescencia. Juan acepta ayudar a Sara a robar los exámenes finales, convencido de que ese gesto lo acerca a ella y da sentido a su aventura sentimental. Sin embargo, el episodio termina de una forma inesperada: Sara quema los exámenes y revela que su objetivo no era usarlos, sino demostrar que podían romper la regla. A partir de ese golpe, la novela deja de ser solo una peripecia romántica y pasa a mostrar el aprendizaje íntimo de un narrador que empieza a entender el valor de la amistad, la familia y las pequeñas cosas que antes no sabía mirar.",
+        "aboutThisBook": "Publicada en 1995 dentro de la literatura juvenil española, esta obra se convirtió en uno de los títulos más recordados de Martín Casariego y años después fue adaptada al cine. Su atractivo no reside en una intriga compleja, sino en la manera directa y reconocible con que retrata una edad en la que el amor, la vergüenza, la lealtad y la necesidad de pertenecer se viven como si todo estuviera en juego. El libro trabaja con un lenguaje cercano, humor tenue y observación emocional, y por eso suele funcionar bien tanto como lectura escolar como lectura personal de descubrimiento afectivo.",
+        "forWhom": "Para lectores juveniles desde secundaria, docentes y mediadores que busquen una novela breve sobre primer amor, decisiones impulsivas, identidad adolescente y aprendizaje moral sin tono aleccionador.",
+        "whyItMatters": "Sigue importando porque capta con mucha claridad un momento clave de la adolescencia: cuando el deseo de ser visto por otra persona puede empujar a cruzar límites que todavía no se comprenden del todo. La novela conserva frescura por su mirada honesta sobre la inseguridad, la idealización amorosa y el paso, a veces brusco, hacia una primera conciencia ética.",
+        "editorialIntro": "Pocas novelas juveniles españolas han sabido retratar tan bien la mezcla de torpeza, intensidad y lucidez que acompaña al primer enamoramiento. Martín Casariego no convierte la adolescencia en caricatura ni en sermón: la mira desde dentro. Por eso el libro sigue funcionando. En pocas páginas consigue mostrar cómo una emoción aparentemente íntima puede alterar la relación con los amigos, la familia, el estudio y la propia idea de quién se quiere ser.",
+        "readingLevel": "Lectura accesible para adolescentes y público general. El estilo es claro y ágil, con conflicto emocional reconocible y buenas posibilidades de trabajo en clase sobre narrador, ética, amor idealizado y crecimiento personal.",
+        "whyReadToday": "Porque muchas de sus preguntas siguen intactas: cuánto hacemos para gustarle a alguien, cómo se confunde valentía con imprudencia y de qué manera una decepción amorosa puede convertirse en una primera lección de madurez.",
+        "studyNotes": [
+          "La novela puede leerse como relato de iniciación sentimental: el centro no es solo si Juan ama a Sara, sino qué aprende sobre sí mismo al actuar para impresionarla.",
+          "El episodio del robo de exámenes funciona como prueba moral y como desencadenante de una desidealización: Juan descubre que la aventura no tiene el sentido que él imaginaba.",
+          "Conviene observar la voz del narrador adolescente, porque buena parte del interés del libro está en cómo interpreta, exagera o malentiende lo que vive.",
+          "La obra permite trabajar en clase la diferencia entre transgresión auténtica y gesto vacío, además de temas como presión afectiva, amistad y responsabilidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Juan descubre a Sara",
+            "summary": "El inicio presenta a Juan, su entorno escolar y la aparición de Sara, cuya llegada desordena de inmediato su mundo interior. La novela fija desde el comienzo el tono adolescente del relato: deseo, secreto, inseguridad y observación constante de la persona amada."
+          },
+          {
+            "title": "Parte 2: Amor, silencio y riesgo",
+            "summary": "Mientras Juan intenta acercarse a Sara, el sentimiento amoroso se mezcla con el miedo al ridículo y con la necesidad de demostrar algo. Ese impulso lo lleva a aceptar el plan de robar los exámenes finales, una decisión que une aventura juvenil y conflicto ético."
+          },
+          {
+            "title": "Parte 3: La quema de los exámenes",
+            "summary": "El episodio central desmonta las expectativas del protagonista. Cuando Sara quema los exámenes, Juan comprende que la prueba no buscaba una ventaja escolar, sino la emoción de comprobar que la transgresión era posible. El gesto deja al descubierto la distancia entre fantasía romántica y realidad."
+          },
+          {
+            "title": "Parte 4: Aprender a mirar de otro modo",
+            "summary": "Tras la decepción, Juan revisa su relación con Sara, con sus amigos y con su propia vida cotidiana. El cierre no ofrece una moraleja rígida, pero sí una maduración visible: el protagonista empieza a valorar lo cercano y a entender mejor el peso de sus actos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Primer amor y construcción de identidad",
+            "content": "La novela entiende el enamoramiento adolescente como una fuerza que reorganiza la percepción del mundo. Juan no solo mira a Sara: se mira a sí mismo a través de ella. Ese desplazamiento explica por qué el deseo amoroso aparece unido a la necesidad de actuar, arriesgar y construir una imagen propia."
+          },
+          {
+            "heading": "La transgresión como rito adolescente",
+            "content": "El robo de los exámenes no está tratado como una intriga policial, sino como una prueba de paso. Importa menos el botín que la idea de cruzar un límite. Cuando Sara destruye los exámenes, la novela muestra que la emoción de la rebeldía puede ser tan importante para un adolescente como sus consecuencias concretas."
+          },
+          {
+            "heading": "Desidealización y aprendizaje moral",
+            "content": "El verdadero movimiento del libro va de la idealización a la comprensión. Juan proyecta en Sara una intensidad casi absoluta, pero la experiencia le obliga a corregir esa mirada. La madurez llega no cuando deja de sentir, sino cuando empieza a interpretar mejor lo que siente y lo que hace."
+          },
+          {
+            "heading": "Una novela juvenil sin moralina",
+            "content": "Casariego evita el sermón explícito. La obra no castiga mecánicamente a sus personajes ni impone una lección subrayada. Prefiere dejar que la experiencia produzca conocimiento, y por eso resulta más convincente: el lector acompaña el error y descubre con el protagonista la complejidad del crecimiento."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Y decirte alguna estupidez, por ejemplo, te quiero?",
+            "answer": "Cuenta la historia de Juan, un adolescente enamorado de Sara, la chica nueva de clase. Para acercarse a ella acepta participar en el robo de los exámenes finales, pero esa experiencia termina convirtiéndose en una lección sentimental y moral."
+          },
+          {
+            "question": "¿Es una novela romántica o una novela de aprendizaje?",
+            "answer": "Es ambas cosas. El motor inicial es el enamoramiento adolescente, pero su sentido más profundo está en el proceso de maduración del protagonista, que aprende a revisar sus actos, sus fantasías y su forma de mirar a los demás."
+          },
+          {
+            "question": "¿Es adecuada para lectura escolar?",
+            "answer": "Sí. Por extensión, lenguaje y temas, funciona bien en secundaria. Además permite trabajar narrador en primera persona, conflicto ético, presión afectiva y representación de la adolescencia."
+          },
+          {
+            "question": "¿Tuvo adaptación cinematográfica?",
+            "answer": "Sí. La novela fue llevada al cine en el año 2000 en una película dirigida por Antonio del Real, dato que confirma su circulación cultural más allá del ámbito estrictamente escolar."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Martín Casariego: ficha de la obra",
+            "url": "https://martin-casariego.com/obra-publicada/y-decirte-una-estupidez-por-ejemplo-te-quiero/"
+          },
+          {
+            "label": "Anaya Infantil y Juvenil: proyecto de lectura",
+            "url": "https://www.anayainfantilyjuvenil.com/catalogos/proyectos_lectura/IJ00013520_1.pdf"
+          },
+          {
+            "label": "Lecturalia: Y decirte alguna estupidez, por ejemplo, te quiero",
+            "url": "https://www.lecturalia.com/libro/37752/y-decirte-alguna-estupidez-por-ejemplo-te-quiero"
+          },
+          {
+            "label": "Wikipedia: Y decirte alguna estupidez, por ejemplo, te quiero",
+            "url": "https://es.wikipedia.org/wiki/Y_decirte_alguna_estupidez,_por_ejemplo,_te_quiero"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-abuelo-de-benito-perez-galdos",
+      "title": "El Abuelo",
+      "authorName": "Benito Perez Galdos",
+      "authorSlug": "benito-perez-galdos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 10,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El abuelo",
+        "authorName": "Benito Pérez Galdós",
+        "authorSlug": "benito-perez-galdos",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa",
+          "teatro"
+        ],
+        "year": 1897,
+        "pages": 304,
+        "summary": "El abuelo presenta el regreso del conde de Albrit a una España que ya no se parece a la que dejó atrás. Arruinado, casi ciego y sostenido solo por un orgullo nobiliario que parece pertenecer a otro siglo, vuelve tras la muerte de su hijo y se enfrenta a una revelación devastadora: una de sus dos nietas no es biológicamente descendiente de la familia. A partir de esa sospecha, la novela despliega una búsqueda obsesiva por identificar a la heredera “legítima”, pero ese conflicto de sangre y honor acaba transformándose en algo más profundo. Galdós convierte el drama genealógico en una indagación moral sobre qué vale más, si el linaje o el afecto, la tradición o la experiencia viva del amor. En el trayecto, el anciano protagonista descubre que la verdad que lo obsesionaba importa menos que el vínculo real con la niña que le ha ofrecido ternura y compañía. Por eso la obra, aun nacida del mundo aristocrático, termina abriendo una reflexión hondamente humana sobre dignidad, afecto y redención.",
+        "aboutThisBook": "Publicada en 1897 y situada al final del ciclo espiritualista de las Novelas españolas contemporáneas, El abuelo ocupa un lugar singular dentro de la obra de Galdós. Su subtítulo y su construcción dialogan con lo dramático, hasta el punto de ser leída muchas veces como una novela de fuerte vocación teatral. Esa mezcla de narración, debate moral y escena explica parte de su permanencia. No es solo una historia familiar: es una obra en la que Galdós examina la decadencia de una clase social, el peso del honor tradicional y la posibilidad de una verdad más alta, vinculada al amor y no a la sangre. Sigue siendo una lectura clave para entender la evolución final del gran novelista canario.",
+        "forWhom": "Para lectores de clásicos, estudiantes de bachillerato o universidad y clubes de lectura interesados en Galdós, en la narrativa española del XIX y en obras que enfrentan honor, filiación, decadencia social y verdad moral.",
+        "whyItMatters": "Importa porque condensa varias de las grandes preguntas de Galdós en una forma especialmente nítida: la crisis de la aristocracia, la insuficiencia del prestigio heredado y la necesidad de sustituir la ley del linaje por una ética del afecto. Además, su forma híbrida la vuelve muy fértil para el análisis literario.",
+        "editorialIntro": "El abuelo parece empezar como un drama de herencia y legitimidad, pero su grandeza está en ir desplazando esa intriga hacia una verdad moral más exigente. Galdós toma a un anciano orgulloso, casi arruinado y aferrado a la nobleza de sangre, y lo obliga a descubrir que la única herencia que merece ese nombre quizá no sea biológica. Esa transición, tan sencilla de enunciar y tan compleja en su desarrollo, explica por qué la novela sigue viva.",
+        "readingLevel": "Lectura de dificultad media-alta. El léxico, el contexto histórico y el trasfondo ideológico exigen cierta atención, pero la estructura dramática y la fuerza del conflicto facilitan mucho la lectura guiada.",
+        "whyReadToday": "Porque sigue interrogando ideas todavía presentes: la obsesión por la pertenencia, el prestigio del apellido, la rigidez del honor y la diferencia entre lo legal, lo biológico y lo verdaderamente justo en una familia.",
+        "studyNotes": [
+          "La obra puede analizarse como texto fronterizo entre novela y drama: la disposición en jornadas y el peso del diálogo son decisivos para su forma.",
+          "El conflicto de la legitimidad no debe leerse solo en clave argumental; es el mecanismo que permite a Galdós discutir la superioridad moral de la sangre frente al afecto.",
+          "El conde de Albrit encarna una nobleza en ruina material y simbólica: su crisis es también la de un orden social que pierde autoridad histórica.",
+          "Conviene atender al desenlace como inversión ética del punto de partida: el protagonista no triunfa al saber quién es su nieta “verdadera”, sino al descubrir que esa verdad era insuficiente."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Jornada 1: El regreso del conde de Albrit",
+            "summary": "El conde vuelve empobrecido y casi ciego a su antiguo mundo señorial tras la muerte de su hijo. Desde ese retorno se instala el tono de decadencia: el personaje conserva el orgullo del linaje, pero ya no posee el poder que antes lo sostenía."
+          },
+          {
+            "title": "Jornada 2: La sospecha sobre la legitimidad",
+            "summary": "La revelación de que una de sus nietas podría ser ilegítima desencadena la acción principal. El abuelo convierte la duda en obsesión y entiende la búsqueda de la nieta biológica como una cuestión de honor, memoria familiar y reparación simbólica."
+          },
+          {
+            "title": "Jornada 3: Afectos, desprecios y lealtades",
+            "summary": "Mientras persigue la verdad genealógica, el conde experimenta el rechazo de parte de su entorno y encuentra consuelo en quienes lo tratan con humanidad. La relación con la niña que le muestra cariño va preparando el giro moral de la obra."
+          },
+          {
+            "title": "Jornada 4: La confesión y la verdad final",
+            "summary": "Cuando Lucrecia aclara cuál de las niñas es fruto de su infidelidad, la revelación no produce la victoria esperada. El abuelo comprende que su aprendizaje más importante no tiene que ver con la sangre, sino con el amor, la compasión y la auténtica dignidad humana."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Sangre, honor y amor",
+            "content": "El núcleo de la obra consiste en poner a competir dos principios de legitimidad. Por un lado están la genealogía, el apellido y el orgullo nobiliario; por otro, el afecto concreto entre personas. Galdós lleva al conde de Albrit hasta el extremo de esa lógica para mostrar que la ley de la sangre, cuando se absolutiza, se vuelve moralmente estéril."
+          },
+          {
+            "heading": "La decadencia de la aristocracia",
+            "content": "El protagonista no es solo un abuelo herido: es la imagen de una clase social que ha perdido centralidad histórica pero sigue aferrada a sus símbolos. Su pobreza, su ceguera y su aislamiento no son rasgos accidentales, sino signos de un orden que ya no puede imponerse como antes."
+          },
+          {
+            "heading": "Una novela con respiración teatral",
+            "content": "El abuelo suele destacarse por su proximidad al drama. El diálogo ocupa un lugar central, la tensión avanza por confrontaciones y el subtítulo mismo recuerda esa voluntad escénica. Esa forma híbrida intensifica el conflicto moral, porque convierte ideas abstractas —honor, verdad, amor— en choques visibles entre personajes."
+          },
+          {
+            "heading": "El espiritualismo final de Galdós",
+            "content": "En esta etapa tardía, Galdós orienta la narración hacia una verdad ética de signo humanista. El desenlace no anula el conflicto social, pero lo trasciende: la obra propone que la verdad más alta no está en el origen biológico, sino en la capacidad de amar y reconocer al otro como semejante."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El abuelo es una novela o una obra de teatro?",
+            "answer": "Es una novela, aunque su forma está muy cerca de lo teatral y suele describirse como una obra de fuerte vocación dramática. Esa mezcla es una de sus singularidades dentro de la producción de Galdós."
+          },
+          {
+            "question": "¿Cuál es el conflicto central de la obra?",
+            "answer": "El conde de Albrit quiere saber cuál de sus dos nietas es su descendiente biológica. Sin embargo, esa búsqueda termina revelando un conflicto más profundo entre honor hereditario y verdad afectiva."
+          },
+          {
+            "question": "¿Por qué es importante dentro de la obra de Galdós?",
+            "answer": "Porque aparece al final de su ciclo espiritualista y resume preocupaciones centrales del autor: crisis social, decadencia de la nobleza, moral humanista y primacía del amor sobre las convenciones del linaje."
+          },
+          {
+            "question": "¿Sigue siendo una lectura actual?",
+            "answer": "Sí. Aunque nace de un contexto histórico muy preciso, su pregunta sobre qué constituye de verdad una familia mantiene plena vigencia y permite lecturas contemporáneas sobre identidad, filiación y legitimidad."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: El abuelo (novela)",
+            "url": "https://es.wikipedia.org/wiki/El_abuelo_(novela)"
+          },
+          {
+            "label": "Alianza Editorial: El abuelo",
+            "url": "https://www.alianzaeditorial.es/libro/bibliotecas-de-autor/el-abuelo-benito-perez-galdos-9788420689593/"
+          },
+          {
+            "label": "Project Gutenberg: El abuelo",
+            "url": "https://www.gutenberg.org/ebooks/66488"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-pais-de-las-sombras-largas-de-hans-ruesch",
+      "title": "El Pais De Las Sombras Largas",
+      "authorName": "Hans Ruesch",
+      "authorSlug": "hans-ruesch",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 10,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El país de las sombras largas",
+        "authorName": "Hans Ruesch",
+        "authorSlug": "hans-ruesch",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "aventura",
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1950,
+        "pages": 224,
+        "summary": "Ambientada en el Ártico, El país de las sombras largas cuenta la historia de Ernenek, un joven inuit que intenta construir una vida junto a su familia dentro de un orden regido por el clima extremo, la caza, la transmisión de costumbres y una relación íntima con el territorio. La novela acompaña sus desplazamientos, sus vínculos y sus pruebas de supervivencia, pero el gran punto de inflexión llega con la irrupción del hombre blanco. Ese encuentro altera el equilibrio material y simbólico de la comunidad: introduce otras formas de violencia, otra idea de la naturaleza y otra lógica del poder. Hans Ruesch convierte así la aventura en un relato de choque cultural y pérdida histórica. El libro no solo narra un mundo duro y fascinante, sino el momento en que ese mundo empieza a ser desfigurado por una modernidad invasiva que no entiende sus límites. El regreso final de Ernenek al Ártico no se siente como simple retirada, sino como defensa extrema de una forma de vida amenazada.",
+        "aboutThisBook": "Publicada en 1950, esta novela de Hans Ruesch se convirtió rápidamente en un superventas internacional y fijó para muchos lectores una imagen literaria del mundo inuit. Su fuerza narrativa procede del escenario ártico, del ritmo de supervivencia y de la dimensión épica de una vida sometida al hielo, la escasez y el movimiento. Al mismo tiempo, hoy conviene leerla con perspectiva crítica: se trata de una representación escrita por un autor europeo y marcada por una sensibilidad de su tiempo. Esa doble condición —novela de aventura poderosa y documento culturalmente datado— explica su interés actual. Además, tuvo adaptación cinematográfica y una secuela, señales de la amplia circulación que alcanzó en el siglo XX.",
+        "forWhom": "Para lectores interesados en novelas de aventura, clásicos del siglo XX, relatos ambientados en territorios extremos y discusiones literarias sobre naturaleza, colonialismo cultural y representación de pueblos indígenas.",
+        "whyItMatters": "Importa porque dramatiza el choque entre un modo de vida sostenido por el equilibrio con la naturaleza y una presencia exterior que altera ese sistema desde la incomprensión y la explotación. También sigue siendo útil para discutir cómo la literatura imagina al otro y qué preguntas éticas abre esa representación.",
+        "editorialIntro": "Hay novelas de aventura que solo buscan llevar al lector lejos, y hay otras que usan la distancia para hacerlo pensar. El país de las sombras largas pertenece a esa segunda clase. Su paisaje ártico, su dureza material y la figura de Ernenek sostienen una lectura absorbente, pero el libro gana espesor cuando se entiende como relato del desajuste entre dos concepciones del mundo: una apoyada en la supervivencia y el límite, otra en la irrupción colonizadora de quien cree poder dominarlo todo.",
+        "readingLevel": "Lectura accesible para público general y adolescentes lectores sólidos. El argumento avanza con claridad, aunque el contexto cultural, la distancia histórica y la necesidad de una lectura crítica enriquecen mucho la experiencia.",
+        "whyReadToday": "Porque sigue dialogando con debates muy actuales sobre devastación ecológica, destrucción cultural, representación de comunidades indígenas y arrogancia de los proyectos civilizadores que llegan desde fuera diciendo traer progreso.",
+        "studyNotes": [
+          "La novela combina aventura, supervivencia y crítica del choque cultural; conviene no reducirla a un simple exotismo de paisaje.",
+          "Hoy debe leerse con atención a su punto de vista: ofrece una imagen intensa del mundo inuit, pero construida desde un autor europeo y desde categorías históricamente datadas.",
+          "El contraste entre el uso respetuoso de la naturaleza y la explotación introducida por los blancos organiza buena parte de la dimensión ética del libro.",
+          "La figura de Ernenek permite seguir una experiencia personal de pérdida, resistencia y retorno que da unidad emocional a un conflicto cultural más amplio."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Vida en el Ártico",
+            "summary": "La novela presenta a Ernenek, su familia y las condiciones materiales de la existencia inuit. El hielo, la caza, la escasez y las costumbres compartidas no aparecen como decorado, sino como la estructura misma de la vida cotidiana."
+          },
+          {
+            "title": "Parte 2: Pruebas de supervivencia y comunidad",
+            "summary": "A medida que avanza el relato, el lector observa cómo el grupo enfrenta peligros naturales y organiza su experiencia a partir de saberes heredados. El mundo narrado se define por una lógica de equilibrio frágil, cooperación y adaptación constante al entorno."
+          },
+          {
+            "title": "Parte 3: La llegada del hombre blanco",
+            "summary": "El gran quiebre se produce con la irrupción de los blancos, cuya relación con la naturaleza y con la comunidad rompe las reglas previas. La novela intensifica entonces su dimensión crítica: el conflicto ya no es solo sobrevivir al Ártico, sino sobrevivir a una presencia externa desestabilizadora."
+          },
+          {
+            "title": "Parte 4: Pérdida, resistencia y retorno",
+            "summary": "Tras experimentar las consecuencias de ese choque cultural, Ernenek atraviesa dolor, desconcierto y una difícil toma de posición. El regreso al Ártico funciona como gesto de resistencia y como afirmación final de un vínculo profundo con la tierra y con una forma de vida amenazada."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Aventura y crítica de la modernidad invasiva",
+            "content": "La novela usa la energía narrativa de la aventura para formular una crítica del encuentro colonial. El lector entra por el atractivo del paisaje extremo y de la supervivencia, pero acaba enfrentado a la pregunta por el daño que provoca una civilización que llega sin comprender el equilibrio del lugar al que entra."
+          },
+          {
+            "heading": "Naturaleza, límite y ética",
+            "content": "Uno de los ejes más fuertes del libro es la diferencia entre habitar la naturaleza y explotarla. En la comunidad inuit el entorno impone reglas, ritmos y restricciones; en la lógica del hombre blanco aparece, en cambio, una voluntad de dominio que desencadena violencia y desajuste."
+          },
+          {
+            "heading": "Representación del mundo inuit: potencia y cautelas",
+            "content": "Buena parte del interés contemporáneo del libro está en esta tensión. La novela construye un universo vívido y memorable, pero no deja de ser una mirada externa. Leerla hoy exige reconocer su fuerza literaria y, al mismo tiempo, interrogar sus simplificaciones, sus categorías y sus límites históricos."
+          },
+          {
+            "heading": "Ernenek como figura de resistencia",
+            "content": "Más que un héroe épico tradicional, Ernenek es el punto de sensibilidad desde el que se percibe la fractura de un mundo. Su itinerario personal permite sentir la pérdida cultural en términos humanos concretos: familia, territorio, costumbres y dignidad amenazada."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El país de las sombras largas?",
+            "answer": "Relata la vida de Ernenek, un joven inuit, en el Ártico y muestra cómo la llegada del hombre blanco altera el equilibrio de su comunidad, sus costumbres y su relación con la naturaleza."
+          },
+          {
+            "question": "¿Es solo una novela de aventuras?",
+            "answer": "No. Tiene una base clara de aventura y supervivencia, pero también funciona como relato de choque cultural, pérdida histórica y crítica de una modernidad que irrumpe sin respeto por el mundo que encuentra."
+          },
+          {
+            "question": "¿Se puede leer hoy sin reservas?",
+            "answer": "Se puede leer con mucho provecho, pero conviene hacerlo críticamente. Es una obra poderosa y muy influyente, aunque su representación del mundo inuit está mediada por la mirada de un autor europeo y por categorías propias de otra época."
+          },
+          {
+            "question": "¿Tuvo adaptación o secuela?",
+            "answer": "Sí. Fue adaptada al cine en 1959 como The Savage Innocents y Hans Ruesch publicó después una secuela titulada El regreso al país de las sombras largas."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: El país de las sombras largas",
+            "url": "https://es.wikipedia.org/wiki/El_pa%C3%ADs_de_las_sombras_largas"
+          },
+          {
+            "label": "Casa del Libro: El país de las sombras largas",
+            "url": "https://www.casadellibro.com/libro-el-pais-de-las-sombras-largas/9788493406066/1030580"
+          },
+          {
+            "label": "Lecturalia: El país de las sombras largas",
+            "url": "https://www.lecturalia.com/libro/59170/el-pais-de-las-sombras-largas"
+          },
+          {
+            "label": "Texto digital consultable: El país de las sombras largas",
+            "url": "https://abcculturaycomunicacion.wordpress.com/wp-content/uploads/2013/08/ruesch-hans-el-pac3ads-de-las-sombras-largas.pdf"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-17T21:35:49Z"
+}

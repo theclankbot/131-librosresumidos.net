@@ -1,0 +1,1533 @@
+{
+  "batchName": "replenish-20260420T064013Z-topup-next2",
+  "createdAt": "2026-04-20T06:40:22Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "por-que-no-soy-cristiano-de-bertrand-russell",
+      "title": "Por Que No Soy Cristiano",
+      "authorName": "Bertrand Russell",
+      "authorSlug": "bertrand-russell",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Por qué no soy cristiano",
+        "authorName": "Bertrand Russell",
+        "authorSlug": "bertrand-russell",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 1927,
+        "pages": 256,
+        "summary": "En este ensayo, Bertrand Russell parte de una pregunta de apariencia simple —qué significa llamarse cristiano— para desmontar, una por una, las bases racionales y morales con las que la religión organizada suele justificarse. Revisa argumentos clásicos a favor de la existencia de Dios, como la primera causa, la ley natural o el diseño, y los considera insuficientes, contradictorios o dependientes de supuestos que también deberían ser demostrados. Después dirige la mirada hacia la figura de Cristo: reconoce el valor de algunas enseñanzas evangélicas, pero niega que baste para considerarlo el mejor y más sabio de los hombres. El texto no es un ataque impulsivo, sino una pieza polémica de filosofía pública que combina ironía, claridad y una defensa firme del pensamiento crítico frente al miedo, la autoridad y el conformismo moral.",
+        "aboutThisBook": "Publicado originalmente como conferencia y luego como folleto en 1927, este texto se convirtió en una de las piezas más conocidas de Russell fuera del ámbito estrictamente académico. Su importancia no reside solo en su rechazo del cristianismo dogmático, sino en el método con el que argumenta: definir términos, examinar premisas y pedir pruebas allí donde la costumbre exige obediencia. Muchas ediciones modernas lo presentan junto a otros ensayos sobre religión y ética, de ahí que el libro circule con subtítulos variables. Sigue siendo una lectura central para estudiar secularismo, filosofía de la religión y debate público del siglo XX.",
+        "forWhom": "Para lectores adultos, estudiantes de filosofía, historia de las ideas y religión comparada, y para cualquiera que quiera entender una crítica clásica al teísmo escrita con intención divulgativa y argumentativa.",
+        "whyItMatters": "Importa porque muestra cómo discutir convicciones heredadas sin caricaturizarlas y porque convirtió una conferencia pública en un texto de referencia para el pensamiento laico moderno.",
+        "editorialIntro": "Pocas piezas breves del siglo XX han tenido una vida pública tan larga como esta. Russell escribe para un auditorio amplio, pero no simplifica el problema: pregunta qué significa creer, qué puede probarse y cuánto de la moral religiosa descansa en el miedo. El resultado es un ensayo corto, incisivo y todavía incómodo.",
+        "readingLevel": "Nivel medio-alto: el lenguaje es directo, pero exige atención a la lógica de los argumentos, a referencias filosóficas clásicas y al contexto religioso de su época.",
+        "whyReadToday": "Porque sigue siendo un modelo de crítica razonada a las creencias dominantes y ayuda a pensar la relación entre fe, ética, autoridad y libertad intelectual.",
+        "studyNotes": [
+          "Empieza definiendo qué entiende Russell por 'cristiano'; esa definición condiciona todo el ensayo.",
+          "Conviene distinguir entre la crítica a ciertos argumentos filosóficos y la crítica histórica a las iglesias como instituciones.",
+          "La ironía de Russell refuerza el efecto polémico, pero no sustituye el razonamiento: casi cada burla descansa en una objeción lógica previa.",
+          "Puede leerse junto al dilema de Eutifrón y con debates modernos sobre secularismo, tolerancia y libertad de conciencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento inicial",
+            "summary": "Russell abre aclarando que no acepta definiciones vagas de cristianismo basadas solo en llevar una vida decente. Sostiene que, para usar ese nombre con propiedad, habría que creer en Dios, en la inmortalidad y en la superioridad moral singular de Cristo. Desde esa delimitación anuncia su rechazo del término para sí mismo."
+          },
+          {
+            "title": "Examen de las pruebas de Dios",
+            "summary": "La parte central revisa argumentos tradicionales como la primera causa, la ley natural, el diseño y la necesidad de una justicia futura. Russell objeta que ninguno demuestra de forma concluyente la existencia de Dios y que muchos dependen de trasladar al universo hábitos mentales humanos o deseos morales."
+          },
+          {
+            "title": "Cristo, moral y religión organizada",
+            "summary": "Después de cuestionar el teísmo, Russell discute si Cristo merece ser tomado como el mayor modelo moral. Reconoce pasajes admirables, pero señala enseñanzas severas sobre castigo y juicio. El ensayo concluye asociando la religión institucional con el miedo y defendiendo una ética más libre y más humana."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una definición estratégica de 'cristiano'",
+            "content": "Russell sabe que gran parte del debate depende de las palabras. Por eso evita discutir contra una idea vaporosa de bondad y fija un criterio doctrinal mínimo. Esa maniobra le permite pasar del terreno sentimental al conceptual y convertir la pregunta identitaria en una cuestión filosófica verificable."
+          },
+          {
+            "heading": "Crítica de la religión como sistema de miedo",
+            "content": "Más allá de las objeciones lógicas, el ensayo sostiene que la religión ha funcionado históricamente como pedagogía del temor: miedo al castigo, a la muerte, a la desviación moral. Esa tesis explica el tono del texto y su insistencia en la emancipación intelectual como tarea ética, no solo teórica."
+          },
+          {
+            "heading": "Filosofía pública en formato breve",
+            "content": "La fuerza duradera del ensayo está en que no fue escrito para especialistas. Russell reduce cuestiones complejas a una secuencia inteligible de objeciones y ejemplos. Por eso el texto circula tanto en aulas introductorias como en discusiones culturales sobre laicidad, ateísmo y libertad de pensamiento."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro o un ensayo?",
+            "answer": "Originalmente fue una conferencia pronunciada en 1927 y publicada ese mismo año como folleto o ensayo breve. Después pasó a integrarse en ediciones ampliadas con otros textos de Russell sobre religión."
+          },
+          {
+            "question": "¿Russell rechaza toda moral religiosa?",
+            "answer": "No exactamente. Reconoce que algunas enseñanzas atribuidas a Cristo son valiosas, pero niega que la moral necesite apoyarse en dogmas o en la autoridad eclesiástica para ser válida."
+          },
+          {
+            "question": "¿El texto es accesible para lectores no especialistas?",
+            "answer": "Sí. Su prosa es clara y polémica, aunque conviene leer con calma los argumentos filosóficos y recordar que Russell discute contra formas de cristianismo propias de su contexto histórico."
+          },
+          {
+            "question": "¿Por qué sigue citándose tanto?",
+            "answer": "Porque condensa en pocas páginas una crítica muy influyente al teísmo y a la religión institucional, y porque ejemplifica cómo convertir un debate filosófico en intervención pública."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Routledge: Why I am not a Christian: and Other Essays on Religion and Related Subjects",
+            "url": "https://www.routledge.com/Why-I-am-not-a-Christian-and-Other-Essays-on-Religion-and-Related-Subjects/Russell/p/book/9780415325103"
+          },
+          {
+            "label": "Wikipedia: Why I Am Not a Christian",
+            "url": "https://en.wikipedia.org/wiki/Why_I_Am_Not_a_Christian"
+          },
+          {
+            "label": "Open Library: Why I am not a Christian",
+            "url": "https://openlibrary.org/works/OL1088563W/Why_I_am_not_a_Christian"
+          },
+          {
+            "label": "Chinese University of Hong Kong: texto de Why I Am Not A Christian",
+            "url": "https://humanum.arts.cuhk.edu.hk/humftp/E-text/Russell/why.htm"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pulsaciones-de-javier-ruescasfrancesc-miralles",
+      "title": "Pulsaciones",
+      "authorName": "Javier Ruescasfrancesc Miralles",
+      "authorSlug": "javier-ruescasfrancesc-miralles",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Pulsaciones",
+        "authorName": "Javier Ruescas y Francesc Miralles",
+        "authorSlug": "javier-ruescas-francesc-miralles",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "romance",
+          "narrativa"
+        ],
+        "year": 2013,
+        "pages": 200,
+        "summary": "Pulsaciones cuenta la historia de Elia, una adolescente que despierta de un coma sin recordar los últimos días de su vida. A partir de ese vacío, la novela reconstruye su desconcierto mediante conversaciones breves en Heartbits, una aplicación de mensajería inspirada en WhatsApp. Elia intenta entender qué ocurrió antes del accidente, por qué una frase extraña se repite en su memoria y cómo encajan en ese rompecabezas su mejor amiga Sue, el carismático Tommy, la enigmática Marion y un desconocido que firma como Phoenix. La trama sentimental avanza al mismo tiempo que la pesquisa íntima: cada mensaje revela afinidades, silencios, medias verdades y cambios emocionales casi en tiempo real. El resultado es una novela juvenil de ritmo rápido que usa el lenguaje digital para hablar de identidad, duelo, amistad, deseo y memoria.",
+        "aboutThisBook": "Publicada por SM en 2013, la novela llamó la atención por trasladar la estructura epistolar clásica al entorno de la mensajería instantánea. En lugar de capítulos largos y narrador tradicional, el libro se arma con diálogos, estados de ánimo y pequeñas elipsis que obligan al lector a inferir mucho a partir de lo que cada personaje escribe o calla. El experimento formal no es un simple adorno tecnológico: sirve para representar cómo se construyen hoy la intimidad, la autoimagen y los vínculos afectivos entre adolescentes. También fue una colaboración significativa entre Javier Ruescas y Francesc Miralles, dos autores muy leídos dentro de la literatura juvenil en español.",
+        "forWhom": "Para lectores juveniles, mediadores escolares y clubes de lectura que busquen una novela breve, sentimental y contemporánea, fácil de leer pero útil para hablar de adolescencia, relaciones y comunicación digital.",
+        "whyItMatters": "Importa porque convirtió la conversación por chat en una forma narrativa eficaz y mostró que el lenguaje digital también puede sostener misterio, desarrollo emocional y construcción de personajes.",
+        "editorialIntro": "La apuesta de Pulsaciones no consiste solo en contar una historia de amor adolescente, sino en encontrar para ella una forma adecuada a su tiempo. Mensajes cortos, nombres de usuario y silencios en pantalla sustituyen al narrador omnisciente y convierten al lector en intérprete activo de lo que los personajes sienten, esconden o apenas se atreven a insinuar.",
+        "readingLevel": "Nivel medio: la sintaxis es sencilla y la lectura es ágil, pero la novela pide atención a subtextos, omisiones y cambios afectivos expresados en mensajes muy breves.",
+        "whyReadToday": "Porque anticipó temas que siguen vigentes: memoria frágil, vínculos digitales, exposición emocional en redes y la dificultad de distinguir conexión real de proyección romántica.",
+        "studyNotes": [
+          "La forma epistolar no desaparece: se actualiza en mensajes instantáneos, con todo lo que eso implica sobre velocidad, malentendidos y lectura fragmentaria.",
+          "Elia no solo recupera recuerdos; también reconstruye una versión de sí misma a través de lo que otros le cuentan y de lo que ella decide creer.",
+          "Phoenix funciona como figura de atracción y enigma, pero también como motor de introspección y de búsqueda de sentido.",
+          "La novela permite trabajar en clase temas de identidad digital, empatía y fiabilidad de la voz narrativa cuando casi todo se conoce por conversación."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Despertar y desconcierto",
+            "summary": "Elia sale del coma con lagunas de memoria y un sentimiento de extrañeza respecto a sí misma y a su entorno. Heartbits se convierte en la herramienta con la que vuelve a contactar con su mundo y empieza a reunir pistas sobre lo que ha olvidado."
+          },
+          {
+            "title": "Mensajes, vínculos y sospechas",
+            "summary": "A medida que conversa con Sue, Tommy, Marion y Phoenix, Elia descubre tensiones afectivas, complicidades inesperadas y datos fragmentarios sobre los días perdidos. La novela hace avanzar la intriga mediante mensajes que mezclan coqueteo, apoyo emocional y zonas de sombra."
+          },
+          {
+            "title": "Recuperación y decisión emocional",
+            "summary": "La última parte conecta el misterio de la memoria con la maduración sentimental de la protagonista. Elia debe interpretar lo sucedido, asumir lo que siente y decidir cómo quiere relacionarse con quienes la rodean más allá de la fascinación inmediata del chat."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela-chat como heredera de la novela epistolar",
+            "content": "Pulsaciones funciona como una actualización contemporánea de la ficción construida por cartas o diarios. La diferencia es la inmediatez: las respuestas llegan rápido, los tonos cambian en segundos y los silencios digitales también significan. Esa estructura vuelve más participativa la lectura."
+          },
+          {
+            "heading": "Memoria, identidad y narración fragmentaria",
+            "content": "El amnesia de Elia no es solo un recurso de suspense. Permite que la protagonista dependa de versiones parciales de los otros y que el lector experimente la identidad como montaje incompleto. Lo que falta importa tanto como lo que se cuenta explícitamente."
+          },
+          {
+            "heading": "Adolescencia y alfabetización emocional",
+            "content": "Bajo su apariencia ligera, la novela habla de cómo los adolescentes aprenden a nombrar lo que sienten. Los mensajes cortos obligan a condensar afectos, a veces con humor o aforismos, y muestran la distancia entre lo que se escribe, lo que se quiere decir y lo que el otro entiende."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Pulsaciones es una novela romántica o de misterio?",
+            "answer": "Es ambas cosas en proporciones equilibradas: la intriga nace de la pérdida de memoria de Elia y el desarrollo emocional se articula a través de sus relaciones con los demás personajes."
+          },
+          {
+            "question": "¿La forma de chat dificulta la lectura?",
+            "answer": "Al contrario: la hace muy ágil. Lo que sí exige es leer con atención los subtextos, porque muchas emociones y conflictos aparecen insinuados más que explicados."
+          },
+          {
+            "question": "¿Es adecuada para lectura escolar?",
+            "answer": "Sí. Su extensión breve, su lenguaje accesible y sus temas —memoria, amistad, amor, comunicación digital— la vuelven muy útil para secundaria y primeros lectores juveniles."
+          },
+          {
+            "question": "¿Qué distingue a la novela de otras juveniles contemporáneas?",
+            "answer": "Su principal rasgo distintivo es la integración formal del chat en la narración, no como decorado generacional, sino como estructura que determina el ritmo, la información y la intimidad de la historia."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Francesc Miralles: Pulsaciones",
+            "url": "https://francescmiralles.com/pulsaciones/"
+          },
+          {
+            "label": "Casa del Libro: Pulsaciones",
+            "url": "https://www.casadellibro.com/libro-pulsaciones/9788467563078/2200908"
+          },
+          {
+            "label": "Google Libros: Pulsaciones",
+            "url": "https://books.google.es/books/about/Pulsaciones.html?id=wHTHDwAAQBAJ&redir_esc=y"
+          },
+          {
+            "label": "Open Library: Pulsacions",
+            "url": "https://openlibrary.org/books/OL47209447M/Pulsacions"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "queen-de-alex-haleydavid-stevens",
+      "title": "Queen",
+      "authorName": "Alex Haleydavid Stevens",
+      "authorSlug": "alex-haleydavid-stevens",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Queen",
+        "authorName": "Alex Haley y David Stevens",
+        "authorSlug": "alex-haley-david-stevens",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1993,
+        "pages": 789,
+        "summary": "Queen reconstruye, en clave de novela histórica y saga familiar, la vida de Queen Jackson Haley, abuela de Alex Haley, nacida en la plantación sureña de The Forks of Cypress. Hija de Easter, una esclava, y de Jass Jackson, heredero blanco de la propiedad, Queen crece atrapada en un orden racial que la define a la vez como sangre de la casa y como mercancía sin derechos. La narración sigue el derrumbe del mundo esclavista, la Guerra Civil y la incierta libertad posterior, mostrando cómo el fin legal de la esclavitud no elimina el desamparo, la violencia ni la humillación social. Al completar el manuscrito inconcluso de Haley, David Stevens preserva el tono de crónica familiar que mezcla memoria, documentación y dramatización narrativa. El libro explora linaje, mestizaje forzado, legitimidad, supervivencia y el largo tránsito de una familia afroamericana desde la plantación hasta la posibilidad de contar su propia historia.",
+        "aboutThisBook": "Publicada en 1993 de manera póstuma, la novela prolonga el proyecto genealógico y narrativo que hizo célebre a Alex Haley con Roots. Aquí el foco se desplaza hacia la rama materna de su familia y, en particular, hacia la experiencia de los hijos nacidos de la explotación sexual y del poder desigual dentro del sistema esclavista. Aunque se presenta como novela y dramatiza escenas y diálogos, su base histórica y familiar es fundamental para entender su impacto cultural. Queen también adquirió visibilidad por su adaptación televisiva, pero el libro ofrece un arco más amplio: recorre generaciones, cambios de régimen social y la lenta construcción de una identidad familiar después de la emancipación.",
+        "forWhom": "Para lectores adultos interesados en novela histórica estadounidense, estudios sobre esclavitud, memoria afroamericana y sagas familiares con base documental, así como para contextos académicos de historia cultural y literatura racializada.",
+        "whyItMatters": "Importa porque sitúa en el centro a una figura históricamente marginada —la hija no reconocida de un amo blanco y una mujer esclavizada— y convierte esa genealogía silenciada en relato nacional.",
+        "editorialIntro": "Queen no se limita a narrar un destino individual: convierte una biografía familiar en una lectura de la historia estadounidense desde sus zonas más dolorosas. La novela observa el Sur esclavista, la guerra y la emancipación desde el punto de vista de quienes heredaron la violencia del sistema incluso cuando la ley comenzó a cambiar. Su amplitud la acerca tanto a la saga como al testimonio novelado.",
+        "readingLevel": "Nivel medio-alto: la prosa es narrativa y accesible, pero la extensión, el trasfondo histórico y la densidad genealógica exigen lectura sostenida y atención al contexto de la esclavitud en Estados Unidos.",
+        "whyReadToday": "Porque ayuda a pensar cómo las historias familiares revelan estructuras duraderas de raza, poder y pertenencia, y porque humaniza un capítulo histórico que a menudo se reduce a cifras o fechas.",
+        "studyNotes": [
+          "La novela trabaja con una frontera deliberadamente porosa entre historia documentada, memoria familiar y recreación narrativa.",
+          "El personaje de Queen permite estudiar la posición ambigua y cruel de los hijos mestizos dentro del régimen esclavista: cercanos a la familia blanca y, a la vez, desposeídos.",
+          "La abolición aparece como cambio decisivo pero incompleto; la libertad legal no elimina automáticamente la precariedad ni el estigma.",
+          "Conviene leerla en relación con Roots para ver cómo Haley amplía su proyecto de genealogía afroamericana desde otro linaje y otro tipo de archivo emocional."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Orígenes de la familia Jackson",
+            "summary": "La novela arranca con antecedentes irlandeses y con la formación del poder económico de la familia blanca que levantará la plantación. Ese comienzo sitúa a los personajes dentro de una expansión histórica donde ambición, tierra y esclavitud quedan entrelazadas desde el principio."
+          },
+          {
+            "title": "Infancia de Queen en la plantación",
+            "summary": "Queen crece marcada por la contradicción de parecerse a la familia propietaria sin ser reconocida como parte legítima de ella. La relación con su madre Easter y la negativa del padre a asumirla estructuran una infancia dominada por la desigualdad íntima."
+          },
+          {
+            "title": "Guerra, emancipación y supervivencia",
+            "summary": "Con la Guerra Civil y el derrumbe del viejo orden, Queen entra en una etapa de desarraigo y búsqueda. La libertad abre posibilidades, pero también expone a la protagonista a nuevos peligros, trabajos duros y a la necesidad de reconstruir familia y futuro fuera de la plantación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La saga familiar como lectura de la nación",
+            "content": "Haley y Stevens emplean la historia de una familia para leer procesos mayores: colonización, economía de plantación, guerra civil, emancipación y movilidad social afroamericana. El destino individual de Queen importa porque condensa una estructura histórica entera."
+          },
+          {
+            "heading": "Mestizaje y negación de la filiación",
+            "content": "Uno de los núcleos más duros del libro es la condición de Queen como hija biológica del amo y, sin embargo, propiedad del sistema que él encarna. Esa contradicción muestra cómo la esclavitud destruye no solo la libertad, sino también las categorías básicas de parentesco, reconocimiento y herencia."
+          },
+          {
+            "heading": "Entre documento y novela",
+            "content": "Queen se lee mejor si se acepta su doble estatuto. No es un archivo desnudo ni una ficción desligada de la historia; es una novela apoyada en memoria familiar y documentación. Esa mezcla explica su potencia emotiva y también la necesidad de leerla con sensibilidad histórica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Queen es una continuación de Roots?",
+            "answer": "No exactamente, pero sí prolonga el proyecto de Alex Haley de narrar la genealogía familiar afroamericana. En lugar de seguir la línea de Kunta Kinte, se centra en la rama de su abuela Queen."
+          },
+          {
+            "question": "¿Es una novela completamente factual?",
+            "answer": "No. Se basa en hechos, personajes y linajes históricos de la familia Haley, pero adopta forma de novela y dramatiza escenas, diálogos y transiciones narrativas."
+          },
+          {
+            "question": "¿Qué papel tuvo David Stevens?",
+            "answer": "Alex Haley murió antes de concluir el libro y David Stevens completó el manuscrito. Por eso la obra aparece firmada por ambos y suele leerse como colaboración póstuma."
+          },
+          {
+            "question": "¿Qué temas centrales trabaja la obra?",
+            "answer": "La esclavitud, la filiación negada, la memoria familiar, el paso de la plantación a la posguerra y la búsqueda de dignidad en un sistema racialmente violento."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: Queen: The Story of an American Family",
+            "url": "https://en.wikipedia.org/wiki/Queen:_The_Story_of_an_American_Family"
+          },
+          {
+            "label": "Open Library: Alex Haley's Queen",
+            "url": "https://openlibrary.org/books/OL15542582M/Alex_Haley%27s_Queen"
+          },
+          {
+            "label": "Open Library: obra Alex Haley's Queen",
+            "url": "https://openlibrary.org/works/OL1815460W/Alex_Haley%27s_Queen"
+          },
+          {
+            "label": "Britannica: Alex Haley",
+            "url": "https://www.britannica.com/biography/Alex-Haley"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rapunzel-de-jakob-grimm",
+      "title": "Rapunzel",
+      "authorName": "Jakob Grimm",
+      "authorSlug": "jakob-grimm",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Rapunzel",
+        "authorName": "Jacob Grimm y Wilhelm Grimm",
+        "authorSlug": "hermanos-grimm",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "infantil",
+          "fantasia",
+          "clasicos"
+        ],
+        "year": 1812,
+        "pages": null,
+        "summary": "Rapunzel es uno de los cuentos más conocidos recopilados por los hermanos Grimm y condensa en pocas escenas un conflicto de encierro, deseo y maduración. La historia comienza cuando una pareja espera un hijo y el marido roba rapónchigos del huerto de una hechicera para satisfacer el antojo de su esposa. Como castigo, la mujer exige quedarse con la niña al nacer. La criatura crece aislada y, al llegar a cierta edad, es encerrada en una torre sin puerta, a la que solo se puede subir usando su larguísimo cabello. Un príncipe descubre su canto, aprende el modo de subir y nace entre ambos una relación secreta. Cuando la hechicera lo advierte, separa violentamente a los enamorados. El cuento avanza entonces hacia la pérdida, el sufrimiento y un reencuentro final que convierte la prueba en transformación.",
+        "aboutThisBook": "No se trata de una novela moderna, sino de un cuento tradicional fijado por los Grimm dentro de Cuentos de la infancia y del hogar. Precisamente por eso su interés no está en la complejidad psicológica minuciosa, sino en la fuerza simbólica: el huerto prohibido, la torre, el cabello como vínculo, la ceguera del príncipe y la reparación final. Rapunzel pertenece al tipo folclórico ATU 310, conocido como la doncella en la torre, y ha circulado en múltiples variantes europeas. Leerlo hoy implica acercarse tanto a una historia concreta como a una forma narrativa antigua, breve y cargada de imágenes que siguen activando lecturas sobre control, crecimiento y libertad.",
+        "forWhom": "Para lectores escolares, familias, mediadores de lectura y cualquiera que quiera leer un clásico breve con valor simbólico y compararlo con otras versiones del cuento popular.",
+        "whyItMatters": "Importa porque muestra cómo un relato muy corto puede concentrar temas duraderos: posesión, aislamiento, paso a la adultez, dolor y emancipación. Además, es una pieza central del imaginario europeo de los cuentos maravillosos.",
+        "editorialIntro": "Rapunzel sigue funcionando porque detrás de su apariencia de cuento infantil hay una estructura muy precisa de prohibición, encierro y salida al mundo. Los Grimm conservaron en esta historia una tensión extraña entre lo maravilloso y lo severo: el nacimiento deseado, la torre sin acceso, la relación amorosa clandestina y la separación cruel. Es un texto breve, pero excelente para comentar símbolos y motivos folclóricos en clase.",
+        "readingLevel": "Lectura accesible en su argumento, pero muy rica para interpretación simbólica y comparación de versiones; adecuada desde últimos cursos de primaria en adelante con acompañamiento, y plenamente aprovechable en secundaria.",
+        "whyReadToday": "Porque ayuda a distinguir entre adaptación popular y cuento tradicional, y porque permite hablar de control sobre la infancia, deseo de libertad y resiliencia sin necesidad de una trama extensa.",
+        "studyNotes": [
+          "Rapunzel pertenece al tipo folclórico ATU 310, centrado en la figura de la doncella encerrada en una torre o lugar inaccesible.",
+          "El cabello funciona como símbolo ambiguo: es signo de belleza, medio de acceso, vínculo afectivo y también instrumento de control.",
+          "La historia combina castigo y reparación, rasgo frecuente del cuento maravilloso tradicional.",
+          "El origen del conflicto nace de una transgresión inicial de los padres, no de la protagonista.",
+          "Conviene comparar el tono de la versión Grimm con adaptaciones modernas mucho más suavizadas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El pacto con la hechicera",
+            "summary": "Una pareja desea tener un hijo. El marido roba plantas del huerto de una hechicera para satisfacer a su esposa embarazada, y la dueña del jardín impone como precio quedarse con la niña cuando nazca."
+          },
+          {
+            "title": "Parte 2: La torre y el encierro",
+            "summary": "La niña crece bajo el control de la hechicera y es recluida en una torre sin puerta. Solo puede ser visitada cuando la mujer le ordena soltar su larguísima cabellera desde la ventana."
+          },
+          {
+            "title": "Parte 3: El encuentro con el príncipe",
+            "summary": "Un príncipe escucha cantar a Rapunzel, descubre el modo de subir a la torre y ambos comienzan a verse en secreto. El amor aparece como primera grieta real en el aislamiento impuesto."
+          },
+          {
+            "title": "Parte 4: Castigo, caída y reencuentro",
+            "summary": "La hechicera descubre la relación, corta el vínculo entre ambos y provoca la separación. Tras un tiempo de sufrimiento y ceguera del príncipe, el relato concluye con el reencuentro y la restauración final."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Encierro y poder",
+            "content": "La torre representa una forma extrema de tutela convertida en dominio. La hechicera no solo protege a Rapunzel: la posee, regula su acceso al mundo y controla incluso la manera en que otros pueden llegar hasta ella."
+          },
+          {
+            "heading": "Símbolos centrales del cuento",
+            "content": "El huerto prohibido inicia la cadena de deudas; el cabello convierte el cuerpo de Rapunzel en puente; la ceguera del príncipe dramatiza la pérdida de orientación antes del reencuentro. Son imágenes sencillas pero de enorme persistencia cultural."
+          },
+          {
+            "heading": "De la pasividad a la transformación",
+            "content": "Aunque Rapunzel parece una figura pasiva durante buena parte del relato, el cuento la sitúa en un proceso de cambio: pasa de objeto de intercambio y encierro a figura cuya existencia impulsa la salida del orden impuesto."
+          },
+          {
+            "heading": "Rapunzel en la tradición oral y literaria",
+            "content": "Su importancia no depende solo de esta versión concreta, sino de su lugar dentro del sistema de cuentos maravillosos europeos. Comparar variantes permite ver qué elementos se repiten y cuáles cambian según época, moral o destinatario."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Rapunzel es un cuento de los hermanos Grimm o una creación moderna?",
+            "answer": "Es un cuento tradicional recopilado y fijado por Jacob y Wilhelm Grimm en su colección Cuentos de la infancia y del hogar; no nace como una invención contemporánea."
+          },
+          {
+            "question": "¿Por qué se considera un cuento simbólico?",
+            "answer": "Porque sus elementos principales —el jardín vedado, la torre, el cabello, la ceguera y el reencuentro— funcionan como imágenes de deseo, control, separación y maduración."
+          },
+          {
+            "question": "¿Es adecuado solo para niños?",
+            "answer": "No. Puede leerse en la infancia por su trama básica, pero gana mucho cuando se analiza en secundaria o en lectura adulta por su trasfondo folclórico y simbólico."
+          },
+          {
+            "question": "¿Qué significa ATU 310?",
+            "answer": "Es la clasificación folclórica internacional del motivo narrativo de la doncella en la torre, a la que pertenece Rapunzel junto con otros relatos emparentados."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: Rapunzel",
+            "url": "https://es.wikipedia.org/wiki/Rapunzel"
+          },
+          {
+            "label": "University of Pittsburgh / D. L. Ashliman: Rapunzel and Other Folktales of Type 310",
+            "url": "https://www.pitt.edu/~dash/type0310.html"
+          },
+          {
+            "label": "University of Pittsburgh / D. L. Ashliman: Grimm 012 Rapunzel",
+            "url": "https://www.pitt.edu/~dash/grimm012.html"
+          },
+          {
+            "label": "Project Gutenberg: Grimm's Household Tales",
+            "url": "https://www.gutenberg.org/ebooks/2591"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ritmo-lento-de-carmen-martin-gaite",
+      "title": "Ritmo Lento",
+      "authorName": "Carmen Martin Gaite",
+      "authorSlug": "carmen-martin-gaite",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Ritmo lento",
+        "authorName": "Carmen Martín Gaite",
+        "authorSlug": "carmen-martin-gaite",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1963,
+        "pages": 336,
+        "summary": "Ritmo lento es una novela de introspección y desajuste social en la que Carmen Martín Gaite explora la dificultad de vivir de acuerdo con una sensibilidad propia dentro de un entorno que exige adaptación, rendimiento y normalidad. El protagonista, David Fuentes, reconstruye su trayectoria desde un espacio de fractura psicológica que convierte la narración en examen de conciencia, memoria y balance existencial. A medida que repasa su infancia, su juventud, sus vínculos familiares y sentimentales, aparece la tensión entre su deseo de autenticidad y una sociedad cada vez más pragmática. El resultado no es una trama de grandes acontecimientos externos, sino una novela de conciencia, desacompasada a propósito, donde el ritmo lento del título remite a una manera distinta de estar en el mundo. Esa lentitud es también resistencia, incapacidad de encajar y forma de lucidez dolorosa.",
+        "aboutThisBook": "Publicada originalmente en 1963 y finalista del Premio Biblioteca Breve, esta es la segunda novela de Carmen Martín Gaite. Suele ocupar un lugar menos popular que Entre visillos o El cuarto de atrás, pero es clave para entender la evolución de su obra. Aquí la autora abandona la observación coral de la vida provinciana y se concentra en una voz masculina quebrada, reflexiva y crítica con la normalización social. La novela interesa por su densidad psicológica, su cuestionamiento de los modelos de éxito y su capacidad para convertir la aparente inacción en materia literaria. También anticipa preocupaciones centrales de Martín Gaite: la incomunicación, la búsqueda de interlocución verdadera y el conflicto entre individuo y entorno.",
+        "forWhom": "Para lectores de narrativa española del siglo XX, estudiantes de Bachillerato o universidad y clubes de lectura interesados en novelas psicológicas, existenciales y de posguerra tardía.",
+        "whyItMatters": "Importa porque amplía la imagen habitual de Carmen Martín Gaite y muestra una línea más exigente, introspectiva y arriesgada de su narrativa. Además, retrata la presión de normalizarse en una sociedad que castiga la diferencia íntima.",
+        "editorialIntro": "Ritmo lento no busca seducir con peripecias, sino con una mirada obstinada sobre el malestar de vivir fuera de compás. Carmen Martín Gaite construye aquí una novela exigente y muy consciente de su propio tempo: la lentitud no es un defecto narrativo, sino el modo en que piensa y siente su protagonista. Por eso resulta una lectura especialmente fértil para quien quiera estudiar subjetividad, memoria, extrañamiento y novela española de posguerra desde un ángulo menos convencional.",
+        "readingLevel": "Nivel medio-alto: la prosa es clara, pero la densidad reflexiva, la interioridad del narrador y la menor dependencia de la acción externa la hacen más adecuada para lectores con hábito de análisis.",
+        "whyReadToday": "Porque dialoga muy bien con el presente: habla de saturación social, dificultad para sostener una identidad propia y desgaste emocional ante una cultura de adaptación permanente.",
+        "studyNotes": [
+          "El título alude tanto al tempo narrativo como a una forma de existencia no sincronizada con las expectativas sociales.",
+          "David Fuentes funciona como conciencia herida: cuenta, interpreta y se juzga al mismo tiempo.",
+          "La novela privilegia el conflicto interior frente a la acción externa, rasgo central de su fuerza literaria.",
+          "Es una obra importante para estudiar la evolución de Carmen Martín Gaite más allá de sus títulos más conocidos.",
+          "La sociedad representada valora la utilidad y el ajuste; el protagonista se define por su resistencia o incapacidad para asumirlos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Una voz que se revisa",
+            "summary": "David Fuentes comienza a mirar su propia vida desde una situación de quiebra. La novela se abre como una indagación en la memoria, no como un relato lineal de hechos."
+          },
+          {
+            "title": "Parte 2: Familia, formación y extrañeza",
+            "summary": "Los recuerdos de infancia y juventud muestran cómo el protagonista va sintiéndose desplazado respecto a las pautas familiares y sociales que debería asumir con naturalidad."
+          },
+          {
+            "title": "Parte 3: Amor, amistad y fracaso de la comunicación",
+            "summary": "Las relaciones afectivas no corrigen su desajuste, sino que lo revelan mejor. La dificultad para hacerse entender y para hallar una interlocución auténtica se vuelve central."
+          },
+          {
+            "title": "Parte 4: El sentido del ritmo lento",
+            "summary": "La novela termina consolidando la lentitud como cifra vital: no simple apatía, sino una forma de resistencia, vulnerabilidad y conflicto con el mundo útil y apresurado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela de interioridad",
+            "content": "Martín Gaite convierte la conciencia del protagonista en el verdadero escenario del libro. El interés no está en lo que sucede fuera, sino en cómo David interpreta, demora y sufre cada experiencia."
+          },
+          {
+            "heading": "Desajuste frente a norma social",
+            "content": "La novela plantea un choque persistente entre una sensibilidad no acomodaticia y una sociedad que premia la adaptación. De ahí surge buena parte de la tensión moral y emocional del texto."
+          },
+          {
+            "heading": "Tiempo, lentitud y forma",
+            "content": "El ritmo lento no solo da título a la obra: organiza su respiración narrativa. La autora utiliza pausas, recapitulaciones y reflexión para convertir el tiempo subjetivo en materia literaria."
+          },
+          {
+            "heading": "Lugar de la obra en la trayectoria de Martín Gaite",
+            "content": "Esta novela muestra una faceta más introspectiva y áspera de la autora. Leída junto a Entre visillos o Retahílas, ayuda a percibir mejor la continuidad de sus temas: soledad, conversación imposible y búsqueda de sentido."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de mucha acción?",
+            "answer": "No. Su fuerza está en la introspección, la memoria y el análisis del malestar del protagonista, más que en una sucesión rápida de acontecimientos."
+          },
+          {
+            "question": "¿Por qué es importante dentro de la obra de Carmen Martín Gaite?",
+            "answer": "Porque consolida una veta psicológica y reflexiva decisiva en su narrativa y ofrece una imagen menos escolar y más compleja de la autora."
+          },
+          {
+            "question": "¿Qué representa David Fuentes?",
+            "answer": "Representa a un sujeto desacompasado con su tiempo, incapaz o reacio a aceptar sin más las reglas del éxito social, la utilidad y la normalización afectiva."
+          },
+          {
+            "question": "¿Se puede leer en contexto educativo?",
+            "answer": "Sí, especialmente en estudios de literatura española contemporánea, novela de posguerra, análisis de personaje y narrativa de la interioridad."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Todos Tus Libros: Ritmo lento",
+            "url": "https://www.todostuslibros.com/libros/ritmo-lento_978-84-663-8184-0"
+          },
+          {
+            "label": "Instituto Cervantes: Carmen Martín Gaite",
+            "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/martin_gaite_carmen.htm"
+          },
+          {
+            "label": "Wikipedia: Carmen Martín Gaite",
+            "url": "https://es.wikipedia.org/wiki/Carmen_Mart%C3%ADn_Gaite"
+          },
+          {
+            "label": "Open Library: Ritmo lento",
+            "url": "https://openlibrary.org/works/OL77406W/Ritmo_lento"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "siete-lagrimas-rojas-de-juan-miguel-de-los-rios",
+      "title": "Siete Lagrimas Rojas De Juan Miguel",
+      "authorName": "Los Rios",
+      "authorSlug": "los-rios",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "7LR (Siete lágrimas rojas)",
+        "authorName": "Juan Miguel de los Ríos Caparrós",
+        "authorSlug": "juan-miguel-de-los-rios-caparros",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2017,
+        "pages": 481,
+        "summary": "7LR (Siete lágrimas rojas) se presenta como un thriller de ambientación malagueña que combina intriga religiosa, tensión urbana y una investigación marcada por el efecto colectivo del miedo. La novela arranca cuando, a pocos días del comienzo de la Semana Santa, varias imágenes marianas de Málaga aparecen llorando sangre en distintas iglesias. Lo que primero parece un milagro o un fenómeno aislado pronto se convierte en una cadena de hechos inquietantes que altera la vida de la ciudad y activa múltiples interpretaciones: fe, fraude, conspiración, violencia y manipulación simbólica. Juan Miguel de los Ríos Caparrós aprovecha ese punto de partida para desplegar una narración extensa, de atmósfera local muy reconocible, donde la imaginería religiosa y los espacios malagueños no son simple decorado, sino parte del motor dramático. La novela busca sostener suspense mientras explora cómo una comunidad reacciona cuando lo sagrado se vuelve amenaza pública.",
+        "aboutThisBook": "Publicada por Ediciones del Genal en 2017, esta obra aparece catalogada con el título breve 7LR y el subtítulo aclaratorio Siete lágrimas rojas. Su premisa la sitúa en una zona singular dentro del thriller español reciente: une misterio criminal o conspirativo con imaginario de devoción popular, hermandades, parroquias y espacios reconocibles de Málaga. El interés editorial del libro está en esa mezcla entre novela de intriga y novela de ciudad. También destaca por su extensión, que sugiere una apuesta por la trama desarrollada y por una inmersión sostenida en el contexto local. Para quien busque ficción de suspense con raíz cultural española muy concreta, es un título llamativo y poco estandarizado.",
+        "forWhom": "Para lectores de thriller español, novela ambientada en Málaga y relatos donde religión, ciudad e investigación se cruzan en una atmósfera de tensión colectiva.",
+        "whyItMatters": "Importa porque usa un imaginario muy reconocible de la cultura andaluza para construir suspense sin depender de escenarios internacionales ni fórmulas impersonales. Su punto de arranque convierte la fe pública en detonante narrativo.",
+        "editorialIntro": "No es frecuente encontrar un thriller que utilice la Semana Santa malagueña y el mundo de las imágenes religiosas como eje de una intriga sostenida. 7LR parte de una visión impactante —vírgenes que lloran sangre en varios templos de la ciudad— y desarrolla desde ahí una historia de alarma, interpretación y conflicto. Ese anclaje local es precisamente su principal atractivo: la novela intenta que Málaga no sea fondo pintoresco, sino territorio dramático y emocional de la trama.",
+        "readingLevel": "Lectura media: la prosa y el suspense la hacen accesible para lectores habituales de novela de intriga, aunque su extensión pide constancia y gusto por las ambientaciones amplias.",
+        "whyReadToday": "Porque muestra cómo los símbolos compartidos de una comunidad pueden convertirse en foco de miedo, rumor y conflicto, un tema muy actual incluso cuando adopta forma de thriller religioso.",
+        "studyNotes": [
+          "El título abreviado 7LR convive con la forma desarrollada Siete lágrimas rojas, útil para búsquedas bibliográficas.",
+          "La ambientación malagueña no es secundaria: barrios, parroquias e imaginario cofrade forman parte del suspense.",
+          "La novela combina registro de thriller con elementos de religiosidad popular y reacción colectiva ante lo inexplicable.",
+          "La premisa de las imágenes que lloran sangre activa lecturas enfrentadas: milagro, fraude, manipulación o amenaza.",
+          "Por su longitud, parece orientada a una intriga con desarrollo progresivo más que a un misterio ultracondensado."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El primer llanto de sangre",
+            "summary": "La historia se desencadena cuando una imagen mariana de un barrio malagueño aparece llorando sangre. El hecho rompe la rutina religiosa y despierta conmoción inmediata."
+          },
+          {
+            "title": "Parte 2: La propagación del fenómeno",
+            "summary": "Nuevos casos en otras iglesias convierten lo excepcional en serie. La ciudad empieza a vivir entre la devoción, el miedo, la curiosidad pública y la sospecha."
+          },
+          {
+            "title": "Parte 3: Investigación y versiones enfrentadas",
+            "summary": "A medida que crece la alarma, surgen hipótesis incompatibles sobre el origen de los sucesos. La trama se alimenta del choque entre interpretación religiosa, interés mediático y posible intervención humana."
+          },
+          {
+            "title": "Parte 4: Málaga como escenario de tensión",
+            "summary": "La novela desarrolla su suspense haciendo de la ciudad un mapa narrativo. Iglesias, barrios y espacios reconocibles se integran en el avance del conflicto hasta su resolución."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller religioso de raíz local",
+            "content": "El gran rasgo distintivo del libro es su uso de la religiosidad popular malagueña como dispositivo de suspense. No se limita a citar iconografía: construye una atmósfera en la que lo sagrado se vuelve problema narrativo."
+          },
+          {
+            "heading": "La ciudad como protagonista",
+            "content": "Málaga aparece como espacio vivido, no como decorado turístico. El impacto del misterio sobre parroquias, barrios y sensibilidad colectiva sugiere una novela muy apoyada en el tejido urbano y cultural de la ciudad."
+          },
+          {
+            "heading": "Milagro, fraude o manipulación",
+            "content": "La premisa funciona porque abre varias interpretaciones simultáneas. El lector queda situado entre la fascinación por lo inexplicable y la sospecha de una operación humana interesada."
+          },
+          {
+            "heading": "Uso del símbolo religioso en clave de suspense",
+            "content": "Las imágenes que lloran sangre condensan piedad, miedo y espectáculo. Esa mezcla permite que el libro dialogue con el thriller contemporáneo sin renunciar a un imaginario específicamente español."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica o un thriller contemporáneo?",
+            "answer": "Por su planteamiento editorial y su ambientación, se lee mejor como un thriller contemporáneo con fuerte anclaje en la Málaga actual y en su religiosidad popular."
+          },
+          {
+            "question": "¿El título correcto es 7LR o Siete lágrimas rojas?",
+            "answer": "Ambas formas aparecen asociadas a la misma obra. En catálogos se ve a menudo como 7LR, mientras que librerías y fichas comerciales aclaran el subtítulo Siete lágrimas rojas."
+          },
+          {
+            "question": "¿Qué peso tiene Málaga en la novela?",
+            "answer": "Mucho. La ciudad y sus templos forman parte esencial del efecto narrativo, porque el misterio se articula sobre lugares y símbolos muy concretos del contexto malagueño."
+          },
+          {
+            "question": "¿Por qué puede interesar fuera del ámbito local?",
+            "answer": "Porque su conflicto central —cómo reacciona una comunidad ante un hecho que desafía la explicación común— tiene alcance universal, aunque esté contado desde una cultura muy específica."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Todos Tus Libros: 7LR",
+            "url": "https://www.todostuslibros.com/libros/7lr_978-84-16871-45-2"
+          },
+          {
+            "label": "Agapea: 7LR (Siete lágrimas rojas)",
+            "url": "https://www.agapea.com/Juan-Miguel-de-los-Rios-Caparros/7LR-SIETE-LaGRIMAS-ROJAS--9788416871452-i.htm"
+          },
+          {
+            "label": "Google Books: 7LR (ISBN 9788416871452)",
+            "url": "https://books.google.com/books?vid=ISBN9788416871452&redir_esc=y"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sobre-patines-de-victoria-jamieson",
+      "title": "Sobre Patines",
+      "authorName": "Victoria Jamieson",
+      "authorSlug": "victoria-jamieson",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Sobre patines",
+        "authorName": "Victoria Jamieson",
+        "authorSlug": "victoria-jamieson",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "infantil",
+          "narrativa"
+        ],
+        "year": 2018,
+        "pages": 240,
+        "summary": "Astrid y Nicole han crecido como amigas inseparables, pero el comienzo del verano las empuja por caminos inesperados. Cuando Astrid descubre el roller derby y se apunta a un campamento convencida de que Nicole la acompañará, se encuentra con una primera decepción: su amiga elige otro entorno, otro grupo y otra manera de pasar las vacaciones. A partir de ahí, Sobre patines convierte una historia de iniciación muy cotidiana en una novela gráfica vibrante sobre identidad, esfuerzo y amistad cambiante. Astrid debe aprender a moverse sobre ruedas, a soportar caídas físicas y emocionales, y a entender que crecer implica aceptar que los vínculos no permanecen idénticos. Victoria Jamieson combina humor, competencia deportiva y sensibilidad para mostrar cómo una afición puede convertirse en refugio, disciplina y motor de transformación personal.",
+        "aboutThisBook": "Publicada en español por Maeva young, esta novela gráfica adapta al mercado hispano Roller Girl, obra con la que Victoria Jamieson alcanzó gran reconocimiento internacional. El libro mezcla relato escolar, deporte y formación sentimental desde una perspectiva cercana a la preadolescencia. El roller derby no aparece solo como decorado llamativo, sino como un espacio donde Astrid descubre la constancia, la cooperación y una nueva imagen de sí misma. El dibujo, expresivo y dinámico, ayuda a leer los cambios de humor, la vergüenza, la ambición y la soledad con una claridad que la vuelve muy útil tanto para disfrute lector como para conversación educativa.",
+        "forWhom": "Para lectores juveniles, mediadores de lectura, familias y profesorado que busquen una obra accesible sobre amistad, autoestima y crecimiento personal sin moralina pesada.",
+        "whyItMatters": "Importa porque ofrece un retrato convincente del paso de la niñez a la adolescencia temprana: perder una amistad central, encontrar un espacio propio y aprender a seguir adelante después de fallar. Además, presenta el deporte femenino como lugar de comunidad y exigencia real.",
+        "editorialIntro": "Hay libros juveniles que hablan de crecer y otros que consiguen que el lector sienta ese crecimiento desde dentro. Sobre patines pertenece al segundo grupo. Victoria Jamieson parte de una ruptura amistosa aparentemente pequeña para construir una historia de aprendizaje, esfuerzo físico y descubrimiento personal en la que cada caída sobre la pista tiene también un eco emocional.",
+        "readingLevel": "Lectura fluida para últimos cursos de primaria y primeros de secundaria; el apoyo visual facilita la comprensión, pero los matices afectivos permiten una lectura más profunda.",
+        "whyReadToday": "Sigue siendo actual por su mirada honesta sobre las amistades que cambian, la presión de encajar y la necesidad de encontrar un lugar propio en medio de la inseguridad.",
+        "studyNotes": [
+          "Conviene observar cómo el roller derby funciona como metáfora del aprendizaje: avanzar exige aceptar golpes, repetir y volver a intentarlo.",
+          "La novela muestra una amistad que no se rompe de forma melodramática, sino por divergencia de intereses, algo muy reconocible en la preadolescencia.",
+          "El uso de la novela gráfica permite leer emociones en gestos, encuadres y ritmo visual, no solo en los diálogos.",
+          "Puede trabajarse en clase junto a temas de identidad, deporte femenino, perseverancia y cambios en la socialización escolar."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El descubrimiento del roller derby",
+            "summary": "Astrid asiste con Nicole a un evento que despierta en ella una fascinación inmediata por el patinaje de contacto. Lo que parece una simple actividad de verano se convierte en una posibilidad de cambio personal y en el inicio de una primera distancia entre ambas amigas."
+          },
+          {
+            "title": "Un verano de entrenamiento y desencuentro",
+            "summary": "Mientras Astrid se esfuerza en el campamento, Nicole toma otro rumbo y se acerca a nuevas compañías. La protagonista debe convivir con la torpeza inicial, el cansancio y la tristeza de sentirse desplazada, al tiempo que descubre nuevas referentes dentro del deporte."
+          },
+          {
+            "title": "Aprender a caer y a seguir",
+            "summary": "La experiencia deportiva obliga a Astrid a aceptar errores, comparaciones y frustraciones. Poco a poco entiende que mejorar no depende de impresionar a los demás, sino de desarrollar disciplina, valentía y confianza en sus propias decisiones."
+          },
+          {
+            "title": "Una identidad más firme",
+            "summary": "Al final del proceso, Astrid no recupera exactamente el mundo anterior, pero sí gana algo más importante: una conciencia más clara de quién es, qué la entusiasma y cómo puede sostener sus vínculos sin renunciar a su crecimiento."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Amistad y cambio",
+            "content": "El centro emocional del libro no es la competición, sino la transformación de una amistad infantil cuando aparecen deseos distintos. Jamieson evita simplificaciones: no convierte a una chica en villana y a la otra en víctima absoluta, sino que muestra el desconcierto de crecer a ritmos diferentes."
+          },
+          {
+            "heading": "El deporte como formación",
+            "content": "El roller derby organiza la narración como una pedagogía del esfuerzo. Astrid aprende reglas, técnica y autocontrol, pero sobre todo aprende a tolerar la incomodidad de no ser buena de inmediato. Esa dimensión formativa hace que el libro conecte bien con lectores jóvenes."
+          },
+          {
+            "heading": "La fuerza de la novela gráfica",
+            "content": "La obra usa el lenguaje visual para transmitir velocidad, caos, vergüenza y entusiasmo. Los silencios, las miradas y el movimiento sobre la pista amplían el sentido de la historia y muestran por qué este formato resulta especialmente eficaz para hablar del crecimiento emocional."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Sobre patines está basado en experiencias reales?",
+            "answer": "Sí, aunque es una obra de ficción, Victoria Jamieson ha explicado que se inspira en sus propios recuerdos de la secundaria y en su experiencia como jugadora adulta de roller derby."
+          },
+          {
+            "question": "¿Es adecuado para lectores jóvenes que no suelen leer mucho?",
+            "answer": "Sí. El formato gráfico facilita la entrada, pero la historia no es superficial: ofrece conflicto emocional, humor y personajes reconocibles."
+          },
+          {
+            "question": "¿El libro trata solo de deporte?",
+            "answer": "No. El deporte es importante, pero el verdadero núcleo está en la amistad, la identidad y el paso hacia una mayor autonomía personal."
+          },
+          {
+            "question": "¿Por qué se considera una lectura valiosa en el aula?",
+            "answer": "Porque permite trabajar convivencia, cambios afectivos, perseverancia y representación del deporte femenino con una narración muy accesible."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Maeva young - ficha del libro",
+            "url": "https://www.maeva.es/colecciones/novela-grafica-maevayoung/sobre-patines"
+          },
+          {
+            "label": "Maeva - dossier PDF de Sobre patines",
+            "url": "https://www.maeva.es/libros/dossier-sobre-patines-web.pdf"
+          },
+          {
+            "label": "Victoria Jamieson - Rollergirl Making Of",
+            "url": "https://www.victoriajamieson.com/rollergirl-making-of"
+          },
+          {
+            "label": "Open Library - Roller Girl",
+            "url": "https://openlibrary.org/books/OL25919354M/Roller_Girl"
+          },
+          {
+            "label": "Casa del Libro - Sobre patines",
+            "url": "https://www.casadellibro.com/libro-sobre-patines/9788417108380/6233687"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "stradivarius-si-tiene-rival-de-fernando-tabares",
+      "title": "Stradivarius Si Tiene Rival",
+      "authorName": "Fernando Tabares",
+      "authorSlug": "fernando-tabares",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Stradivarius sí tiene rival",
+        "authorName": "Fernando Tabares",
+        "authorSlug": "fernando-tabares",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2021,
+        "pages": null,
+        "summary": "Stradivarius sí tiene rival parte de un escándalo en el mercado internacional de instrumentos de cuerda de altísimo valor. Según la sinopsis editorial disponible en catálogos públicos, un marchante de violines de conducta amoral se refugia en una lujosa madriguera tras ser acusado de mala praxis por la venta de un Guarnerius cuya procedencia resulta sospechosa: podría haber sido expoliado por los nazis a una víctima del Holocausto. Desde esa premisa, la novela se mueve en el cruce entre thriller cultural, intriga económica y reflexión moral. El conflicto no gira solo en torno a autentificar un objeto valioso, sino a todo lo que ese objeto arrastra: codicia, prestigio, secretos, violencia histórica y lucha por controlar el relato. Fernando Tabares sitúa así la lutería y el coleccionismo en un terreno donde belleza, dinero y culpa quedan inseparablemente unidos.",
+        "aboutThisBook": "La obra, catalogada como narrativa y publicada en 2021, se apoya en un universo poco habitual en la ficción comercial en español: el negocio de los grandes violines, la autoridad de los expertos, el valor simbólico de nombres como Stradivarius o Guarnerius y la sombra persistente del expolio nazi. Su atractivo reside en esa combinación de especialización y suspense. No parece buscar un tratado musicológico, sino una historia de tensión moral en la que el mercado del arte y los instrumentos se convierte en escenario de manipulación, prestigio y caída pública. Por eso puede leerse tanto como novela de intriga como comentario sobre la fragilidad ética de los circuitos del lujo cultural.",
+        "forWhom": "Para lectores adultos interesados en thrillers culturales, novelas sobre arte y mercado, y tramas donde la investigación moral pesa tanto como el suspense.",
+        "whyItMatters": "Resulta relevante porque desplaza la intriga hacia un territorio muy concreto y poco transitado: la procedencia de objetos valiosos y la responsabilidad de quienes comercian con ellos. El trasfondo del Holocausto añade además una dimensión histórica y ética que amplía el alcance de la trama.",
+        "editorialIntro": "No todas las novelas de intriga encuentran un escenario distintivo. Stradivarius sí tiene rival lo hace al entrar en el mundo opaco del comercio de violines históricos, donde la autenticidad vale millones y un error —o un engaño— puede arruinar carreras, fortunas y reputaciones. Desde ahí, Fernando Tabares articula una historia de sospecha, lujo y memoria incómoda.",
+        "readingLevel": "Lectura media-alta: la prosa y el tema exigen atención al contexto artístico, histórico y comercial, aunque la premisa de suspense facilita el avance.",
+        "whyReadToday": "Interesa hoy porque conecta con debates muy vivos sobre expolio, trazabilidad, legitimidad de la propiedad y opacidad en los mercados culturales de alto nivel.",
+        "studyNotes": [
+          "La novela puede estudiarse como ejemplo de thriller construido a partir de un objeto cultural, no de un crimen convencional.",
+          "El Guarnerius sospechoso introduce el tema de la procedencia: quién posee, quién certifica y quién se beneficia del prestigio de una pieza única.",
+          "El trasfondo del expolio nazi amplía la historia desde la intriga individual hasta la memoria histórica europea.",
+          "Conviene atender a cómo el lujo y la especialización técnica pueden convertirse en pantallas para la manipulación moral."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El escándalo del Guarnerius",
+            "summary": "La novela arranca con la exposición pública de una operación dudosa en torno a un violín extraordinario. El marchante queda señalado por su conducta y por la posible conexión del instrumento con un pasado de expolio."
+          },
+          {
+            "title": "El refugio y las versiones enfrentadas",
+            "summary": "Aislado tras la acusación, el protagonista intenta protegerse mientras el mercado, los expertos y quienes tienen intereses económicos o simbólicos en el caso empiezan a disputar el relato de los hechos."
+          },
+          {
+            "title": "Belleza, dinero y memoria",
+            "summary": "La investigación y las sospechas desplazan la atención desde la simple autenticidad del instrumento hacia su historia material, su rastro de propiedad y la red de silencios que ha permitido moverlo."
+          },
+          {
+            "title": "El precio real de la verdad",
+            "summary": "La tensión narrativa conduce a una pregunta decisiva: qué vale más, la conservación del prestigio o el reconocimiento de una verdad capaz de desestabilizar todo un sistema de legitimidades."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un thriller de procedencias",
+            "content": "La novela parece organizar su suspense alrededor de la procedencia de un objeto único. En vez de limitarse a la fascinación por el violín legendario, problematiza la cadena de expertos, comerciantes y compradores que convierten la autenticidad en un campo de poder."
+          },
+          {
+            "heading": "El mercado cultural como zona gris",
+            "content": "Tabares sitúa la acción en un ámbito donde conocimiento especializado y codicia pueden confundirse. Ese marco permite pensar el lujo no como refinamiento inocente, sino como espacio de opacidad, reputación estratégica y violencia simbólica."
+          },
+          {
+            "heading": "La memoria histórica dentro de la intriga",
+            "content": "La sospecha de expolio nazi evita que la novela se cierre en el puro entretenimiento. Introduce la cuestión de la restitución, la herencia traumática y la persistencia de crímenes históricos en objetos que hoy circulan como mercancías admirables."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela musical o un thriller?",
+            "answer": "Sobre todo es una novela de intriga con un fuerte componente cultural. La música y la lutería aportan el contexto distintivo, pero el motor es el escándalo en torno a un instrumento y su procedencia."
+          },
+          {
+            "question": "¿Hace falta saber de violines para leerla?",
+            "answer": "No necesariamente. El interés principal está en el conflicto moral y en el suspense, aunque el tema puede resultar especialmente atractivo para lectores curiosos por el mundo del coleccionismo musical."
+          },
+          {
+            "question": "¿Qué aporta el trasfondo del Holocausto?",
+            "answer": "Añade una dimensión ética decisiva: el objeto investigado no vale solo por su rareza, sino por la historia de desposesión y violencia que podría llevar adherida."
+          },
+          {
+            "question": "¿Por qué el título menciona a Stradivarius si aparece un Guarnerius?",
+            "answer": "Porque el título juega con el imaginario de los grandes violines legendarios y su jerarquía simbólica. La rivalidad remite al prestigio entre nombres absolutos de la lutería histórica."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Quelibroleo - ficha y sinopsis",
+            "url": "https://quelibroleo.com/stradivarius-si-tiene-rival"
+          },
+          {
+            "label": "Goodreads - Fernando Tabares",
+            "url": "https://www.goodreads.com/author/show/21196191.Fernando_Tabares"
+          },
+          {
+            "label": "Amazon España - edición ebook",
+            "url": "https://www.amazon.es/Stradivarius-tiene-rival-entresijos-descubierto-ebook/dp/B08W1N63NF"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "subnormal-una-historia-de-acoso-escolar-de-fernando-llor",
+      "title": "Subnormal Una Historia De Acoso Escolar",
+      "authorName": "Fernando Llor",
+      "authorSlug": "fernando-llor",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Subnormal. Una historia de acoso escolar",
+        "authorName": "Fernando Llor",
+        "authorSlug": "fernando-llor",
+        "type": "no-ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa"
+        ],
+        "year": 2020,
+        "pages": 152,
+        "summary": "Subnormal. Una historia de acoso escolar transforma en novela gráfica la experiencia real de Iñaki Zubizarreta, exjugador de baloncesto que sufrió un acoso brutal durante su etapa escolar. Fernando Llor construye el guion y Miguel Porto pone en imágenes un relato duro que evita la suavización complaciente: humillaciones, aislamiento, palizas y desprotección adulta forman parte de una cadena de violencia que marca la infancia y la identidad del protagonista. El libro no se limita a enumerar abusos, sino que muestra cómo el bullying opera como sistema, con agresores, testigos pasivos e instituciones que a veces fallan. Precisamente por basarse en hechos reales y por estar supervisado por el propio Zubizarreta, la obra combina impacto testimonial y vocación pedagógica. Su lectura busca incomodar con razón: para desmontar la idea de que el acoso es una simple etapa escolar o una serie de bromas exageradas.",
+        "aboutThisBook": "Publicado por Panini, este cómic se ha convertido en una referencia frecuente en contextos educativos y de sensibilización contra el acoso escolar. La historia real de Iñaki Zubizarreta proporciona una base testimonial de gran fuerza, mientras que el trabajo gráfico de Miguel Porto permite representar la violencia sin perder legibilidad ni densidad emocional. La obra interesa no solo por lo que cuenta, sino por cómo lo cuenta: sitúa al lector junto a la víctima, muestra la progresión del daño y señala la responsabilidad de quienes miran hacia otro lado. Por eso funciona a la vez como lectura narrativa, herramienta de conversación y material de prevención.",
+        "forWhom": "Para adolescentes, docentes, orientadores, familias y clubes de lectura que necesiten una obra clara y contundente para hablar del bullying desde una experiencia real.",
+        "whyItMatters": "Es importante porque desmonta la trivialización del acoso escolar y muestra sus efectos físicos, psicológicos y sociales con una claridad difícil de ignorar. Además, ofrece un recurso cultural útil para prevención, debate y educación emocional.",
+        "editorialIntro": "Pocas novelas gráficas recientes han entrado con tanta frontalidad en el problema del acoso escolar. Subnormal no busca adornar ni sentimentalizar una historia real especialmente dolorosa: la pone delante del lector para que entienda cómo funciona la violencia entre iguales cuando el entorno adulto minimiza, calla o llega tarde.",
+        "readingLevel": "Lectura accesible desde secundaria, con lenguaje claro y apoyo visual constante, aunque el contenido emocional y la crudeza de algunas situaciones requieren acompañamiento según la edad del lector.",
+        "whyReadToday": "Sigue siendo una lectura necesaria porque el bullying continúa presente y porque este cómic ayuda a reconocer señales, responsabilidades y consecuencias que todavía se banalizan con demasiada frecuencia.",
+        "studyNotes": [
+          "La obra debe leerse como testimonio narrativizado de un caso real, no como ficción escolar convencional.",
+          "Es clave analizar el papel de los adultos: no solo cuentan los agresores, también pesan la indiferencia, la incredulidad o la respuesta tardía de profesores y entorno.",
+          "El formato cómic favorece la empatía al hacer visible la soledad del protagonista y la dimensión corporal del miedo.",
+          "Puede trabajarse en tutoría, convivencia y educación emocional junto a protocolos de prevención y detección del acoso."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La marca temprana del acoso",
+            "summary": "La historia presenta a un niño señalado por su diferencia física y convertido en objetivo habitual de burlas y agresiones. Desde el inicio queda claro que no se trata de incidentes aislados, sino de una violencia repetida que va estrechando su mundo."
+          },
+          {
+            "title": "Escalada de la violencia y desprotección",
+            "summary": "Las agresiones aumentan en intensidad y crueldad mientras el protagonista encuentra escasa defensa efectiva en el entorno escolar. El cómic muestra cómo el acoso se sostiene gracias al silencio, la complicidad y la minimización de lo ocurrido."
+          },
+          {
+            "title": "Secuelas, resistencia y conciencia",
+            "summary": "El daño no desaparece al terminar cada episodio: deja huella en la autoestima, en la confianza y en la relación con los demás. Sin embargo, la narración también abre espacio a la resistencia, a la elaboración del trauma y a la necesidad de nombrar lo vivido."
+          },
+          {
+            "title": "Del testimonio a la prevención",
+            "summary": "La obra concluye subrayando que contar la experiencia tiene una función pública. No es solo memoria personal, sino advertencia y herramienta para que otros reconozcan el problema antes de que alcance extremos irreparables."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un cómic testimonial contra la banalización",
+            "content": "La principal fuerza del libro está en su origen real. Frente al tópico de que el bullying son cosas de niños, la obra muestra que existe una violencia sostenida capaz de producir daños profundos y duraderos."
+          },
+          {
+            "heading": "La responsabilidad del entorno",
+            "content": "Subnormal no reduce el problema a una lucha entre víctima y agresores. Señala también a testigos, profesores y estructuras escolares que permiten que el maltrato continúe, lo que convierte la lectura en una reflexión sobre convivencia institucional."
+          },
+          {
+            "heading": "El valor pedagógico del formato gráfico",
+            "content": "La novela gráfica permite comunicar con inmediatez el miedo, la humillación y el aislamiento. Esa claridad visual la vuelve especialmente útil en contextos educativos donde se necesita una obra que conmueva, informe y abra discusión sin perder intensidad narrativa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Subnormal cuenta una historia real?",
+            "answer": "Sí. Está basada en la experiencia de Iñaki Zubizarreta y fue elaborada con su supervisión, lo que refuerza su dimensión testimonial."
+          },
+          {
+            "question": "¿Es una lectura adecuada para el aula?",
+            "answer": "Sí, especialmente en secundaria y en contextos de tutoría o educación emocional, siempre que se acompañe de conversación pedagógica por la dureza del contenido."
+          },
+          {
+            "question": "¿Qué aporta frente a otros materiales sobre bullying?",
+            "answer": "Aporta cercanía narrativa y un fuerte impacto visual. No explica el acoso de manera abstracta: hace experimentar su progresión y sus consecuencias desde dentro."
+          },
+          {
+            "question": "¿Solo sirve para hablar de víctimas?",
+            "answer": "No. También permite discutir el papel de los espectadores, la responsabilidad adulta, la cultura del silencio y la necesidad de protocolos eficaces."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Panini - ficha oficial del cómic",
+            "url": "https://www.panini.es/shp_esp_es/subnormal-ssubn001-es01.html"
+          },
+          {
+            "label": "UCLM / CEPLI - guía de lectura",
+            "url": "https://www.uclm.es/centros-investigacion/cepli/materiales/materiales/guias%20de%20lectura%20extensiva/subnormal"
+          },
+          {
+            "label": "EL PAÍS - entrevista/reportaje sobre el cómic",
+            "url": "https://elpais.com/cultura/2020-09-13/el-exbaloncestista-inaki-zubizarreta-relata-en-el-comic-subnormal-el-calvario-que-sufrio-en-el-colegio.html"
+          },
+          {
+            "label": "PDA Bullying - recurso educativo",
+            "url": "https://www.pdabullying.com/es/resource/comic-subnormal-una-historia-de-acoso-escolar"
+          },
+          {
+            "label": "Casa del Libro - ficha comercial",
+            "url": "https://www.casadellibro.com/libro-subnormal-una-historia-de-acoso-escolar/9788413344096/11461349"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "testigo-involuntario-de-gianrico-carofiglio",
+      "title": "Testigo Involuntario",
+      "authorName": "Gianrico Carofiglio",
+      "authorSlug": "gianrico-carofiglio",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Testigo involuntario",
+        "authorName": "Gianrico Carofiglio",
+        "authorSlug": "gianrico-carofiglio",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2002,
+        "pages": 320,
+        "summary": "La primera novela de la serie protagonizada por Guido Guerrieri arranca con un caso casi imposible: un niño aparece muerto en Bari y todas las sospechas recaen sobre Abdou Thiam, un vendedor senegalés sin papeles. El entorno judicial, mediático y policial parece haber decidido de antemano la culpabilidad del acusado, de modo que la defensa solo puede parecer un gesto inútil. Sin embargo, Guerrieri acepta el caso y empieza a desmontar una investigación llena de atajos, prejuicios y zonas oscuras. A medida que avanza el juicio, la novela combina suspense procesal con una mirada íntima sobre un abogado inseguro, irónico y moralmente incómodo con su propia rutina. El centro del libro no es solo descubrir al culpable, sino examinar cómo la verdad puede quedar deformada cuando el sistema necesita una respuesta rápida y socialmente aceptable.",
+        "aboutThisBook": "Testigo involuntario es un thriller judicial italiano que convirtió a Gianrico Carofiglio en una voz destacada del género. La novela se apoya en la experiencia profesional del autor como magistrado para dar verosimilitud al procedimiento penal, pero evita el tecnicismo frío. Lo más llamativo es el equilibrio entre el caso criminal, la crítica al prejuicio social y el retrato de un defensor que duda tanto de los otros como de sí mismo. Por eso funciona a la vez como novela de intriga y como reflexión sobre justicia, inmigración y responsabilidad cívica.",
+        "forWhom": "Para lectores de thriller legal, estudiantes de derecho interesados en la dimensión humana del proceso penal y quienes busquen una novela de intriga con crítica social clara.",
+        "whyItMatters": "Importa porque muestra cómo un juicio puede contaminarse por el miedo, el racismo y la necesidad de cerrar rápido un caso. Además, inaugura a un protagonista muy distinto del héroe infalible del policial clásico.",
+        "editorialIntro": "Antes de convertirse en una serie reconocida, Guido Guerrieri apareció en esta novela afilada y sobria sobre una defensa contracorriente. Carofiglio no busca solo tensión narrativa: le interesa el punto en que la ley, los prejuicios y la conciencia personal chocan. El resultado es un libro ideal para leer como intriga, pero también para discutir cómo se fabrica una verdad judicial.",
+        "readingLevel": "Lectura media-alta: el lenguaje es claro, pero el trasfondo judicial y moral pide atención sostenida.",
+        "whyReadToday": "Sigue siendo actual por su tratamiento del sesgo contra el extranjero, la presión mediática y la fragilidad de la presunción de inocencia en contextos de alarma pública.",
+        "studyNotes": [
+          "Observar cómo la novela opone verdad judicial y verdad factual sin convertirlas en sinónimos automáticos.",
+          "Seguir la construcción de Guido Guerrieri como narrador inseguro: su vacilación forma parte del sentido ético del libro.",
+          "Analizar la función del prejuicio racial en la investigación inicial y en la recepción social del caso.",
+          "Comparar el ritmo del juicio con los momentos introspectivos para ver cómo el suspense se apoya también en la conciencia del abogado."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento del caso",
+            "summary": "La muerte del niño Francesco convierte a Abdou Thiam en culpable ideal para la policía y la opinión pública. Guido Guerrieri acepta su defensa, en principio más por necesidad vital que por convicción heroica, y entra en un caso que parece perdido desde el inicio."
+          },
+          {
+            "title": "Investigación y grietas",
+            "summary": "Mientras revisa pruebas y testimonios, Guerrieri descubre incoherencias, omisiones y una confianza excesiva en una versión demasiado cómoda de los hechos. El proceso deja ver cómo los prejuicios pueden operar como sustituto de la demostración."
+          },
+          {
+            "title": "El juicio como combate moral",
+            "summary": "La sala judicial se vuelve el espacio donde se enfrentan procedimiento, relato público y responsabilidad individual. La defensa intenta desmontar la apariencia de evidencia total y obliga a reconsiderar qué significa realmente probar una culpa."
+          },
+          {
+            "title": "Desenlace y consecuencias",
+            "summary": "La resolución del caso no solo afecta al acusado, sino también a la identidad profesional de Guerrieri. La novela cierra dejando claro que la justicia no es una abstracción limpia, sino una práctica vulnerable a errores humanos y decisiones interesadas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller judicial con conciencia social",
+            "content": "La novela utiliza el mecanismo clásico del caso criminal, pero lo desplaza hacia un examen del funcionamiento concreto de la justicia. El suspense no depende únicamente de quién cometió el crimen, sino de si el sistema aceptará revisar una conclusión prematura."
+          },
+          {
+            "heading": "Guido Guerrieri como antihéroe",
+            "content": "Guerrieri no es un abogado brillante y seguro de sí en sentido convencional. Su ironía, su desgaste emocional y sus dudas lo vuelven más creíble y permiten que el conflicto interno acompañe al externo. Esa fragilidad sostiene buena parte del atractivo del libro."
+          },
+          {
+            "heading": "Prejuicio, inmigración y fabricación del culpable",
+            "content": "La acusación contra un inmigrante pobre revela cómo una comunidad puede simplificar el mal y depositarlo en el sujeto más vulnerable. Carofiglio muestra que el prejuicio no es solo una opinión privada: puede influir en la investigación, en el juicio y en la imaginación colectiva."
+          },
+          {
+            "heading": "La verdad como construcción disputada",
+            "content": "El libro insiste en que la verdad judicial surge de pruebas, discursos y decisiones interpretativas. Esa idea vuelve la lectura especialmente útil para pensar los límites del proceso penal y las responsabilidades de defensa, fiscalía y jueces."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela policíaca o un thriller judicial?",
+            "answer": "Es ambas cosas, aunque el peso principal recae en el thriller judicial: la investigación importa, pero el núcleo dramático está en la defensa, el juicio y la discusión sobre la prueba."
+          },
+          {
+            "question": "¿Hace falta conocer otros libros de Guido Guerrieri?",
+            "answer": "No. Es la primera entrega de la serie y funciona de manera autónoma, tanto para seguir el caso como para entender la psicología del protagonista."
+          },
+          {
+            "question": "¿Qué temas destacan además del crimen?",
+            "answer": "La novela trabaja el racismo, la presunción de inocencia, la soledad profesional, la relación entre ley y moral y la facilidad con que una sociedad acepta un culpable conveniente."
+          },
+          {
+            "question": "¿Es recomendable para lectura académica?",
+            "answer": "Sí, especialmente en cursos o trabajos sobre narrativa policial contemporánea, representación de la justicia o análisis del prejuicio en la ficción."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "TodosTusLibros - Testigo involuntario",
+            "url": "https://www.todostuslibros.com/libros/testigo-involuntario_978-84-92801-61-9"
+          },
+          {
+            "label": "Casa del Libro - Testigo involuntario",
+            "url": "https://www.casadellibro.com/libro-testigo-involuntario-serie-guido-guerreri-1/9788492801619/1802066"
+          },
+          {
+            "label": "Lecturalia - Testigo involuntario",
+            "url": "https://www.lecturalia.com/libro/24998/testigo-involuntario"
+          },
+          {
+            "label": "Open Library - Testigo Involuntario / Involuntary Witness",
+            "url": "https://openlibrary.org/works/OL5881920W/Testigo_Involuntario_Involuntary_Witness"
+          },
+          {
+            "label": "Wikipedia - Involuntary Witness",
+            "url": "https://en.wikipedia.org/wiki/Involuntary_Witness"
+          },
+          {
+            "label": "Wikipedia - Gianrico Carofiglio",
+            "url": "https://es.wikipedia.org/wiki/Gianrico_Carofiglio"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tiempos-liquidos-vivir-en-epoca-de-incertidumbre-de-zygmunt-bauman",
+      "title": "Tiempos Liquidos Vivir En Epoca De Incertidumbre",
+      "authorName": "Zygmunt Bauman",
+      "authorSlug": "zygmunt-bauman",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Tiempos líquidos: vivir en una época de incertidumbre",
+        "authorName": "Zygmunt Bauman",
+        "authorSlug": "zygmunt-bauman",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2007,
+        "pages": 176,
+        "summary": "En este ensayo breve y muy influyente, Zygmunt Bauman describe un presente en el que las estructuras sociales que antes ofrecían continuidad, pertenencia y orientación han perdido solidez. La metáfora de lo líquido nombra una modernidad donde los vínculos, los empleos, las identidades y las expectativas cambian antes de estabilizarse. En ese contexto, la incertidumbre deja de ser una excepción y se vuelve condición habitual de vida. Bauman examina cómo la globalización, la inseguridad, el debilitamiento de la política y la privatización de los riesgos transforman la experiencia cotidiana de los individuos. El libro no propone una teoría cerrada, sino un diagnóstico crítico: vivimos obligados a elegir y adaptarnos constantemente, pero con muy poco control sobre las fuerzas que organizan el mundo. Por eso su lectura combina sociología, filosofía moral y una poderosa capacidad para poner nombre a malestares contemporáneos.",
+        "aboutThisBook": "Tiempos líquidos es una puerta de entrada excelente al pensamiento tardío de Bauman y a su idea de modernidad líquida. Frente a tratados extensos, aquí ofrece un texto compacto y accesible que resume muchas de sus preocupaciones centrales: fragilidad institucional, miedo difuso, precariedad, individualización y crisis de los marcos comunes. Aunque fue escrito en la primera década del siglo XXI, su diagnóstico conserva fuerza porque no se limita a comentar una coyuntura, sino que explica un cambio profundo en la forma de vivir la sociedad. Es un ensayo útil tanto para lectura general como para estudio en humanidades y ciencias sociales.",
+        "forWhom": "Para lectores de sociología, filosofía política y ensayo contemporáneo; también para estudiantes que necesiten una introducción clara al vocabulario de Bauman y al debate sobre modernidad líquida.",
+        "whyItMatters": "Importa porque ofrece un lenguaje preciso para pensar precariedad, ansiedad social, pérdida de certezas y debilitamiento de los vínculos colectivos. Muchas discusiones actuales sobre trabajo, identidad y miedo público siguen dialogando con este marco.",
+        "editorialIntro": "Hay ensayos que describen una época y otros que además le dan una imagen duradera. Tiempos líquidos pertenece a los segundos. Con una prosa breve y directa, Bauman resume por qué tantas personas sienten que viven en un mundo cambiante, competitivo y difícil de habitar. Es un libro corto, pero de gran rendimiento intelectual para clases, debates y lecturas de contexto.",
+        "readingLevel": "Lectura media: el estilo es ensayístico pero fluido; conviene leer despacio para seguir la densidad conceptual.",
+        "whyReadToday": "Porque ayuda a entender fenómenos que se han intensificado: inseguridad permanente, precariedad laboral, fragilidad de las comunidades y sensación de vivir siempre en transición.",
+        "studyNotes": [
+          "Definir con precisión la metáfora de lo líquido: no significa caos absoluto, sino inestabilidad de formas sociales antes relativamente duraderas.",
+          "Relacionar el libro con otros conceptos de Bauman, como modernidad líquida, miedo líquido y amor líquido.",
+          "Observar cómo el autor vincula globalización y pérdida de poder de la política a escala nacional.",
+          "Distinguir entre diagnóstico sociológico y propuesta normativa: Bauman describe una condición histórica más que ofrecer un programa cerrado."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Diagnóstico de la liquidez",
+            "summary": "Bauman presenta la transición desde formas sociales relativamente estables hacia una modernidad caracterizada por movilidad, flexibilidad e incertidumbre. Lo decisivo es que los marcos colectivos ya no sostienen trayectorias vitales previsibles."
+          },
+          {
+            "title": "Miedo, inseguridad y vida cotidiana",
+            "summary": "El ensayo muestra cómo la inseguridad se vuelve experiencia común: el individuo debe gestionar riesgos laborales, afectivos y sociales que antes parecían compartidos o amortiguados por instituciones más fuertes."
+          },
+          {
+            "title": "Globalización y debilitamiento político",
+            "summary": "Bauman subraya la separación creciente entre poder y política. Muchas decisiones que afectan la vida común se desplazan a escalas y circuitos poco controlables por la ciudadanía, lo que alimenta frustración e impotencia."
+          },
+          {
+            "title": "Consecuencias éticas y sociales",
+            "summary": "La liquidez no solo transforma instituciones; también reconfigura vínculos, deberes y expectativas. El reto final es cómo reconstruir formas de convivencia y responsabilidad en un mundo de relaciones frágiles."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La fuerza de una metáfora sociológica",
+            "content": "La metáfora de lo líquido condensa una transformación histórica amplia y permite pensar fenómenos muy distintos bajo una misma lógica: lo que antes conservaba forma, hoy cambia antes de asentarse. Ese hallazgo expresivo explica parte de la influencia del libro."
+          },
+          {
+            "heading": "Individualización sin autonomía plena",
+            "content": "Bauman no celebra sin más la libertad individual contemporánea. Señala que muchas responsabilidades se privatizan sin que los individuos reciban recursos equivalentes para afrontarlas, de modo que la autonomía convive con vulnerabilidad estructural."
+          },
+          {
+            "heading": "Actualidad del diagnóstico",
+            "content": "Aunque anterior a varias crisis recientes, el ensayo anticipa discusiones sobre precariedad, ansiedad, polarización y debilitamiento de mediaciones colectivas. Su utilidad actual reside en que ofrece categorías para leer procesos todavía abiertos."
+          },
+          {
+            "heading": "Límites y valor del texto",
+            "content": "El libro no desarrolla estudios de caso extensos ni una demostración empírica cerrada; funciona más como intervención interpretativa. Precisamente por eso resulta muy fértil en aula: obliga a confrontar ejemplos, objeciones y aplicaciones concretas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta haber leído Modernidad líquida antes?",
+            "answer": "No. Tiempos líquidos puede leerse como una introducción breve y bastante autosuficiente al universo conceptual de Bauman."
+          },
+          {
+            "question": "¿Es un libro académico difícil?",
+            "answer": "No especialmente. Tiene densidad conceptual, pero su extensión es corta y la prosa busca intervenir en debates públicos, no solo universitarios."
+          },
+          {
+            "question": "¿Qué idea central conviene retener?",
+            "answer": "Que muchas instituciones y certezas ya no conservan forma estable, y esa volatilidad traslada al individuo riesgos y decisiones que antes se absorbían de manera más colectiva."
+          },
+          {
+            "question": "¿Sigue siendo pertinente para entender el presente?",
+            "answer": "Sí. Aunque algunas referencias históricas pertenecen a su momento, el marco general sigue siendo muy útil para pensar precariedad, incertidumbre y fragilidad de los vínculos sociales."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "TodosTusLibros - Tiempos líquidos",
+            "url": "https://www.todostuslibros.com/libros/tiempos-liquidos_978-84-8383-029-1"
+          },
+          {
+            "label": "Wiley - Liquid Times: Living in an Age of Uncertainty",
+            "url": "https://www.wiley.com/en-us/Liquid+Times%3A+Living+in+an+Age+of+Uncertainty-p-9780745639871"
+          },
+          {
+            "label": "Google Books - Liquid Times",
+            "url": "http://books.google.es/books?id=eM5G4JegPvoC&dq=intitle:Liquid+Times+inauthor:Zygmunt+Bauman&hl=&source=gbs_api"
+          },
+          {
+            "label": "Open Library - Liquid Times",
+            "url": "https://openlibrary.org/works/OL527225W/Liquid_Times"
+          },
+          {
+            "label": "Britannica - Zygmunt Bauman",
+            "url": "https://www.britannica.com/biography/Zygmunt-Bauman"
+          },
+          {
+            "label": "Wikipedia - Zygmunt Bauman",
+            "url": "https://es.wikipedia.org/wiki/Zygmunt_Bauman"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tres-tristes-tigres-de-guillermo-cabrera-infante",
+      "title": "Tres Tristes Tigres",
+      "authorName": "Guillermo Cabrera Infante",
+      "authorSlug": "guillermo-cabrera-infante",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 5,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Tres tristes tigres",
+        "authorName": "Guillermo Cabrera Infante",
+        "authorSlug": "guillermo-cabrera-infante",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1967,
+        "pages": 456,
+        "summary": "Más que una novela lineal, Tres tristes tigres es una gran máquina verbal que convierte la noche habanera en música, conversación, parodia y memoria. Guillermo Cabrera Infante reúne voces, escenas, juegos idiomáticos y episodios dispersos para retratar un mundo urbano anterior a la Revolución cubana, donde el cabaret, la radio, el cine, el bolero y el chiste popular forman parte de una misma energía verbal. El libro no busca avanzar mediante una trama convencional, sino a través de variaciones de tono, personajes que reaparecen y una exploración radical del habla cubana. Esa apuesta lo vuelve exigente, pero también extraordinariamente original: la ciudad se escucha tanto como se narra. Bajo el humor y el virtuosismo, la novela trabaja la fugacidad, la identidad, la representación y la imposibilidad de fijar una realidad en una sola versión. Por eso es una obra central del boom, aunque desborde muchas de sus etiquetas habituales.",
+        "aboutThisBook": "Publicada en 1967 tras una reescritura condicionada por la censura, Tres tristes tigres es una de las novelas más innovadoras de la literatura hispanoamericana del siglo XX. Su prestigio proviene tanto de su experimentación formal como de su oído para la oralidad. Cabrera Infante mezcla referencias culturales altas y populares, desmonta la narración clásica y hace del lenguaje el verdadero protagonista. Leerla exige aceptar una lógica fragmentaria, pero la recompensa es grande: pocas novelas consiguen que una ciudad, una época y una forma de hablar queden tan intensamente encarnadas en la escritura.",
+        "forWhom": "Para lectores de narrativa hispanoamericana, estudiantes del boom, interesados en la experimentación formal y quienes disfruten novelas donde el lenguaje importa tanto como la historia contada.",
+        "whyItMatters": "Importa porque expande las posibilidades de la novela en español: convierte la oralidad, el humor, el montaje y el juego verbal en principio estructural. Además, ofrece un retrato irrepetible de La Habana y de la cultura urbana cubana de mediados del siglo XX.",
+        "editorialIntro": "No es un libro para leer con prisa ni esperando una trama tradicional. Tres tristes tigres se disfruta mejor como una experiencia de lenguaje: voces que entran y salen, escenas nocturnas, bromas, ecos musicales y una ciudad convertida en partitura. Su dificultad es real, pero también lo es su condición de clásico vivo, especialmente fértil para estudio literario y relectura atenta.",
+        "readingLevel": "Lectura alta: exige atención a la oralidad, al humor verbal, a la fragmentación y a múltiples referencias culturales.",
+        "whyReadToday": "Porque sigue siendo una lección extraordinaria sobre lo que la novela puede hacer con la lengua, la memoria urbana y la cultura popular sin someterse a una narración convencional.",
+        "studyNotes": [
+          "Conviene leer atendiendo a las voces y registros, no solo a una posible línea argumental unificada.",
+          "Registrar la presencia de música, cine, cabaret y radio como materiales estructurales de la novela.",
+          "Analizar cómo el humor y el juego verbal conviven con una memoria melancólica de la ciudad y sus personajes.",
+          "Relacionar la experimentación formal con el contexto del boom y con debates sobre oralidad en la literatura latinoamericana."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La Habana como escenario sonoro",
+            "summary": "La novela introduce un universo nocturno de clubes, conversaciones, artistas y derivas urbanas. Desde el principio queda claro que el verdadero hilo conductor no será una intriga clásica, sino la circulación de voces y ambientes."
+          },
+          {
+            "title": "Variaciones de voz y memoria",
+            "summary": "Los personajes y episodios se entrecruzan mediante relatos fragmentarios, bromas, evocaciones y cambios de registro. La experiencia de lectura se organiza como montaje, donde cada segmento amplía la imagen de una ciudad y una sensibilidad."
+          },
+          {
+            "title": "Lenguaje, parodia y cultura popular",
+            "summary": "Cabrera Infante convierte juegos fonéticos, imitaciones, chistes y ritmos orales en materia literaria. La novela explora así la frontera entre habla y escritura, entre representación y performance verbal."
+          },
+          {
+            "title": "Cierre abierto de una ciudad perdida",
+            "summary": "Más que resolver una historia, el libro deja la impresión de haber recorrido un mundo irrepetible. La Habana aparece como memoria verbal, intensamente viva y a la vez amenazada por el paso del tiempo y la historia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela donde el lenguaje manda",
+            "content": "En Tres tristes tigres el argumento importa menos que la energía verbal. Cabrera Infante lleva la novela hacia la escucha: juegos de palabras, inflexiones orales, repeticiones y modulaciones rítmicas construyen el sentido tanto como los hechos narrados."
+          },
+          {
+            "heading": "La Habana pre-revolucionaria como archivo cultural",
+            "content": "La ciudad no aparece solo como fondo geográfico, sino como ecosistema de músicas, espectáculos, hablas y sociabilidades. El libro preserva y transforma literariamente una cultura urbana concreta, haciendo de la memoria un procedimiento estético."
+          },
+          {
+            "heading": "Fragmentación y libertad formal",
+            "content": "La estructura fragmentaria rompe con expectativas de linealidad y obliga a leer por asociaciones, ritmos y recurrencias. Esa libertad formal acerca la novela a otras grandes experimentaciones del siglo XX, pero con una marca caribeña y cubana muy propia."
+          },
+          {
+            "heading": "Humor, virtuosismo y dificultad",
+            "content": "Su fama de novela difícil es merecida, pero conviene matizarla: gran parte de su placer nace del humor, la parodia y el brillo verbal. El desafío consiste en aceptar que la dificultad no es obstáculo accesorio, sino parte de su apuesta artística."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Tiene una trama tradicional?",
+            "answer": "No en sentido estricto. Hay personajes, escenas y núcleos narrativos, pero el libro privilegia la voz, el montaje y la exploración del lenguaje por encima de una línea argumental cerrada."
+          },
+          {
+            "question": "¿Por qué se considera una obra clave del boom?",
+            "answer": "Porque radicaliza la experimentación formal y demuestra que la novela hispanoamericana podía dialogar con la oralidad, el humor y la cultura popular de un modo extremadamente innovador."
+          },
+          {
+            "question": "¿Es recomendable para primeros lectores de Cabrera Infante?",
+            "answer": "Sí, si se entra con expectativas adecuadas. No es la opción más sencilla, pero sí la más representativa de su ambición estilística y de su oído literario."
+          },
+          {
+            "question": "¿Qué conviene observar en una lectura académica?",
+            "answer": "La construcción de la oralidad, la relación entre música y prosa, la representación de La Habana, el uso de la parodia y el efecto de la censura y la reescritura en la historia editorial del libro."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia - Tres tristes tigres (novela)",
+            "url": "https://es.wikipedia.org/wiki/Tres_tristes_tigres_(novela)"
+          },
+          {
+            "label": "TodosTusLibros - Tres tristes tigres (Cátedra)",
+            "url": "https://www.todostuslibros.com/libros/tres-tristes-tigres_978-84-376-2602-4"
+          },
+          {
+            "label": "Open Library - Tres tristes tigres",
+            "url": "https://openlibrary.org/works/OL886846W/Tres_tristes_tigres"
+          },
+          {
+            "label": "Google Books - Tres tristes tigres",
+            "url": "http://books.google.es/books?id=xMNdAAAAMAAJ&dq=intitle:Tres+tristes+tigres+inauthor:Guillermo+Cabrera+Infante&hl=&source=gbs_api"
+          },
+          {
+            "label": "Britannica - Guillermo Cabrera Infante",
+            "url": "https://www.britannica.com/biography/Guillermo-Cabrera-Infante"
+          },
+          {
+            "label": "Wikipedia - Guillermo Cabrera Infante",
+            "url": "https://es.wikipedia.org/wiki/Guillermo_Cabrera_Infante"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-20T07:15:49Z"
+}

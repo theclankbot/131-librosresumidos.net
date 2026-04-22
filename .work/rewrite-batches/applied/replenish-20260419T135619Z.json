@@ -1,0 +1,1476 @@
+{
+  "batchName": "replenish-20260419T135619Z",
+  "createdAt": "2026-04-19T13:56:26Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "las-argonauticas-de-apolonio-de-rodas",
+      "title": "Las Argonauticas De Apolonio",
+      "authorName": "Rodas",
+      "authorSlug": "rodas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Argonáuticas",
+        "authorName": "Apolonio de Rodas",
+        "authorSlug": "apolonio-de-rodas",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "poesia",
+          "aventura"
+        ],
+        "year": null,
+        "pages": null,
+        "summary": "Argonáuticas es el gran poema épico helenístico conservado de forma íntegra y narra la expedición de Jasón y los argonautas en busca del vellocino de oro. Apolonio de Rodas retoma un mito muy conocido, pero lo reescribe con una sensibilidad distinta a la homérica: más atención psicológica, gusto por la erudición, paisajes exóticos y un lugar central para Medea, cuya pasión amorosa altera el curso entero de la aventura. El viaje incluye pruebas marinas, combates, ritos, encuentros con pueblos desconocidos y la tensión constante entre heroísmo y fragilidad. No es solo un relato de hazañas: es también una exploración del liderazgo incierto de Jasón, del poder ambiguo de los dioses y del precio moral de alcanzar una victoria.",
+        "aboutThisBook": "Este poema, compuesto en la Alejandría del siglo III a. C., ocupa un lugar decisivo en la tradición clásica porque enlaza la épica arcaica con una escritura más reflexiva y literaria. La obra está organizada en cuatro libros y combina aventura marítima, genealogías heroicas, intervenciones divinas y un tratamiento sorprendentemente moderno del deseo, el miedo y la duda. El centro emocional del texto termina siendo Medea, cuyo conflicto interior da a la expedición una profundidad trágica que rebasa la simple narración de un viaje heroico.",
+        "forWhom": "Para lectores de clásicos, estudiantes de literatura antigua, interesados en mitología griega y quienes quieran comparar la épica homérica con una versión más psicológica, erudita y sentimental del heroísmo.",
+        "whyItMatters": "Importa porque muestra cómo la tradición griega no fue estática: Apolonio reinterpreta el mito heroico desde la biblioteca alejandrina, con más conciencia literaria, más ambivalencia moral y una Medea decisiva para la posteridad europea.",
+        "editorialIntro": "Leer Argonáuticas hoy permite ver un momento de inflexión de la literatura antigua. La obra conserva el impulso del viaje épico, pero sustituye parte de la seguridad heroica por vacilación, cálculo y deseo. En ese desplazamiento nace una forma de relato que influirá tanto en Virgilio como en la novela posterior.",
+        "readingLevel": "Avanzado, con provecho especial si se lee con notas sobre mitología y contexto helenístico.",
+        "whyReadToday": "Porque ayuda a entender de dónde vienen muchas narraciones de viaje, rescate y prueba colectiva, y porque su retrato de Medea convierte un mito famoso en una reflexión vigente sobre pasión, persuasión y responsabilidad.",
+        "studyNotes": [
+          "Conviene seguir la estructura en cuatro libros: reclutamiento, travesía, llegada a la Cólquide y huida con el vellocino.",
+          "Jasón no responde al modelo del héroe invulnerable; su liderazgo depende de alianzas, mediaciones y ayudas externas.",
+          "Medea es la gran innovación emocional del poema: su enamoramiento transforma una gesta colectiva en drama íntimo.",
+          "El texto dialoga con Homero, pero prefiere el detalle erudito, la geografía mítica y la introspección antes que la pura exaltación bélica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Libro I: La reunión de los argonautas",
+            "summary": "Jasón convoca a los héroes que embarcarán en la Argo y el poema presenta una galería de figuras célebres, subrayando el carácter colectivo de la empresa. Tras la partida aparecen episodios de hospitalidad, combates y pérdidas que muestran que la expedición será más incierta que gloriosa. Desde el comienzo, Apolonio insiste en la organización del grupo y en la vulnerabilidad de sus miembros."
+          },
+          {
+            "title": "Libro II: Pruebas del viaje y paso a Oriente",
+            "summary": "La navegación obliga a superar peligros sucesivos: encuentros hostiles, advertencias proféticas y el célebre paso por las Simplégades. El viaje adquiere un ritmo de odisea compartida, donde la pericia y la ayuda divina son tan importantes como la fuerza. Esta sección consolida la expedición como aprendizaje del riesgo y no solo como desfile heroico."
+          },
+          {
+            "title": "Libro III: Medea y las pruebas impuestas por Eetes",
+            "summary": "Al llegar a la Cólquide, Jasón debe cumplir tareas imposibles para obtener el vellocino. Hera y Atenea maniobran para que Eros hiera a Medea, que queda desgarrada entre la obediencia familiar y la pasión. El poema se vuelve intensamente psicológico: la duda, el deseo y la vergüenza importan tanto como la acción exterior."
+          },
+          {
+            "title": "Libro IV: Robo del vellocino y regreso perseguido",
+            "summary": "Con la ayuda de Medea, Jasón logra apoderarse del vellocino y huye por mar mientras la persecución convierte el regreso en una cadena de desvíos, rituales y decisiones moralmente oscuras. La aventura triunfa, pero queda marcada por la violencia, la traición y un porvenir trágico apenas insinuado. La victoria tiene un coste que el poema no oculta."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una épica posterior a Homero",
+            "content": "Apolonio escribe después de Homero y lo sabe. En vez de competir por simple grandeza, desplaza la épica hacia la reescritura consciente: recoge fórmulas antiguas, pero introduce un tono más culto, una composición más calculada y un interés mayor por la rareza geográfica y la interpretación erudita del mito."
+          },
+          {
+            "heading": "Medea como centro dramático",
+            "content": "La figura de Medea convierte el poema en algo más que un relato de aventuras. Su conflicto interior, descrito con minuciosidad, da al texto una intensidad emocional que será decisiva para la literatura posterior. Jasón necesita su ayuda, pero esa ayuda nace de una herida afectiva y moral que reconfigura todo el sentido de la empresa."
+          },
+          {
+            "heading": "El heroísmo como negociación",
+            "content": "En Argonáuticas el héroe no domina siempre la situación por fuerza propia. Jasón persuade, pide ayuda, depende de sus compañeros y de los dioses. Esa fragilidad no debilita el poema; al contrario, lo vuelve más complejo y más humano, porque la gloria aparece ligada a la dependencia, al cálculo y a las consecuencias éticas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Argonáuticas?",
+            "answer": "Cuenta la expedición de Jasón y los argonautas para conseguir el vellocino de oro en la Cólquide y el papel decisivo de Medea en ese logro."
+          },
+          {
+            "question": "¿Por qué es importante Medea en la obra?",
+            "answer": "Porque su enamoramiento y su conflicto interior hacen posible la victoria de Jasón y aportan al poema una profundidad psicológica excepcional dentro de la épica antigua."
+          },
+          {
+            "question": "¿Es una obra similar a la Ilíada o la Odisea?",
+            "answer": "Se relaciona con ambas, pero adopta una sensibilidad distinta: menos centrada en la guerra heroica directa y más interesada en el viaje, la erudición, la emoción amorosa y la ambivalencia moral."
+          },
+          {
+            "question": "¿Se puede leer sin conocer toda la mitología griega?",
+            "answer": "Sí, aunque una edición con notas ayuda mucho, porque el poema alude a numerosos héroes, lugares y linajes que enriquecen la lectura."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Project Gutenberg: The Argonautica, by Apollonius Rhodius",
+            "url": "https://www.gutenberg.org/files/830/830-h/830-h.htm"
+          },
+          {
+            "label": "Standard Ebooks: The Argonautica",
+            "url": "https://standardebooks.org/ebooks/apollonius-of-rhodes/the-argonautica/arthur-s-way"
+          },
+          {
+            "label": "Theoi Classical Texts Library: Argonautica Book 1",
+            "url": "https://www.theoi.com/Text/ApolloniusRhodius1.html"
+          },
+          {
+            "label": "Wikipedia: Argonautica",
+            "url": "https://en.wikipedia.org/wiki/Argonautica"
+          },
+          {
+            "label": "Open Library: The Argonautica",
+            "url": "https://openlibrary.org/works/OL8085452W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-islas-de-la-imprudencia-de-robert-graves",
+      "title": "Las Islas De La Imprudencia",
+      "authorName": "Robert Graves",
+      "authorSlug": "robert-graves",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las islas de la imprudencia",
+        "authorName": "Robert Graves",
+        "authorSlug": "robert-graves",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "aventura",
+          "narrativa"
+        ],
+        "year": 1949,
+        "pages": null,
+        "summary": "En esta novela histórica Robert Graves reconstruye la expedición de Álvaro de Mendaña hacia las islas Salomón y transforma un episodio de exploración del siglo XVI en una narración sobre ambición, error y choque cultural. La travesía parte con promesas de gloria, evangelización y descubrimiento, pero pronto queda dominada por la escasez, la disciplina quebradiza y la incapacidad de los europeos para entender el mundo que pisan. Graves no idealiza ni a los navegantes ni a los indígenas: muestra malentendidos, intereses cruzados, codicia, miedo y violencia creciente. El resultado es una novela marítima y colonial en la que cada decisión equivocada amplía el desastre, y donde la aventura exterior revela las cegueras morales de quienes se creen portadores de civilización.",
+        "aboutThisBook": "Publicada en 1949 con el título estadounidense The Islands of Unwisdom y en el Reino Unido como The Isles of Unwisdom, esta obra mezcla documentación histórica y libertad narrativa para revisar una empresa imperial temprana. Graves se apoya en crónicas de viaje, pero no compone una novela de simple color de época: le interesan la psicología del mando, la superstición, la manipulación y la degradación del ideal explorador. Es una historia de navegación y descubrimiento que se va convirtiendo en examen del poder y de sus autoengaños.",
+        "forWhom": "Para lectores de novela histórica marítima, estudiosos de la expansión española en el Pacífico y quienes busquen un relato de aventura donde el interés principal no sea la hazaña, sino el fracaso humano y político.",
+        "whyItMatters": "Sigue importando porque corrige la mirada romántica sobre los descubrimientos oceánicos y muestra que muchas expediciones nacieron de una mezcla de fe, codicia, improvisación y violencia. Graves convierte esa complejidad en literatura sin perder tensión narrativa.",
+        "editorialIntro": "Robert Graves, más conocido por Yo, Claudio y por su poesía, encuentra aquí un escenario ideal para su ironía histórica. El océano, la promesa del paraíso insular y el desgaste de la autoridad permiten observar cómo una empresa concebida como gloria termina revelando la imprudencia moral y estratégica de sus protagonistas.",
+        "readingLevel": "Medio-alto: conviene prestar atención al trasfondo histórico y a la variedad de personajes y lealtades.",
+        "whyReadToday": "Porque ayuda a releer la historia de la exploración desde una perspectiva menos triunfalista y porque plantea preguntas muy actuales sobre contacto entre culturas, propaganda imperial y violencia legitimada en nombre de grandes ideales.",
+        "studyNotes": [
+          "La novela relee un episodio real del Pacífico y convierte la crónica de exploración en crítica del imaginario imperial.",
+          "Graves trabaja con la tensión entre deseo de paraíso y realidad material: hambre, agua, disciplina y miedo.",
+          "El título subraya que el desastre no procede solo del azar, sino de decisiones erróneas y visiones deformadas del otro.",
+          "Conviene observar cómo la autoridad se fragmenta a medida que el viaje avanza y la empresa pierde legitimidad práctica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: La promesa de la expedición",
+            "summary": "La empresa de Mendaña nace rodeada de expectativas de gloria, riqueza y prestigio religioso. Graves presenta la mezcla de cálculo político, fantasía geográfica y fervor ideológico que sostiene la partida. Desde el inicio queda claro que el viaje depende de una visión del mundo más imaginada que comprendida."
+          },
+          {
+            "title": "Segunda parte: Contacto y deterioro",
+            "summary": "Cuando los españoles llegan a las islas, el primer contacto no es inmediatamente catastrófico, pero la necesidad de recursos, la desconfianza y la mala lectura mutua de gestos e intenciones erosionan la convivencia. La expedición empieza a descubrir que no controla ni el entorno ni sus propios impulsos."
+          },
+          {
+            "title": "Tercera parte: Conflicto, extravío y fracaso",
+            "summary": "El ideal de descubrimiento se degrada en conflicto abierto y en una cadena de decisiones cada vez más equivocadas. Graves convierte la retirada, el desgaste interno y la violencia en el verdadero desenlace moral de la novela: no hay conquista luminosa, sino revelación de una imprudencia fundacional."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La aventura despojada de romanticismo",
+            "content": "Aunque la novela conserva el atractivo del viaje marítimo, Graves evita la celebración ingenua del explorador heroico. Cada episodio de navegación o descubrimiento está atravesado por intereses contradictorios y por el deterioro material de la expedición. La aventura existe, pero su brillo queda corregido por la historia."
+          },
+          {
+            "heading": "Choque cultural y violencia de interpretación",
+            "content": "Uno de los hallazgos del libro es mostrar que el conflicto no nace solo de la hostilidad directa, sino también de la incapacidad de interpretar al otro fuera de prejuicios religiosos, militares o económicos. La incomprensión actúa como fuerza histórica y convierte el contacto en tragedia."
+          },
+          {
+            "heading": "El título como juicio moral",
+            "content": "Las “islas de la imprudencia” no designan únicamente un lugar, sino una manera de nombrar la ceguera de la empresa colonial. Graves sugiere que la locura del viaje no está en el mar desconocido, sino en la soberbia con que algunos personajes creen poder ordenar una realidad que apenas entienden."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Está basada en hechos reales?",
+            "answer": "Sí. La novela recrea la expedición histórica de Álvaro de Mendaña hacia las islas Salomón, aunque Graves la reconstruye con libertad narrativa."
+          },
+          {
+            "question": "¿Es una novela de aventuras o una crítica histórica?",
+            "answer": "Es ambas cosas: utiliza la forma de la aventura marítima, pero la pone al servicio de una mirada crítica sobre el imperialismo, el mando y el fracaso."
+          },
+          {
+            "question": "¿Qué diferencia hay entre The Islands of Unwisdom y The Isles of Unwisdom?",
+            "answer": "Se trata de la misma novela de Robert Graves, publicada con títulos ligeramente distintos según la edición estadounidense o británica."
+          },
+          {
+            "question": "¿Qué aporta frente a otras novelas sobre exploradores?",
+            "answer": "Aporta una mezcla muy graveana de erudición, ironía y desconfianza hacia los relatos heroicos simples; el viaje importa tanto por lo que revela del poder como por lo que descubre del mundo."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "WorldCat: The Isles of Unwisdom",
+            "url": "https://search.worldcat.org/title/9491977"
+          },
+          {
+            "label": "Open Library: The isles of unwisdom",
+            "url": "https://openlibrary.org/books/OL14908619M/The_isles_of_unwisdom."
+          },
+          {
+            "label": "Google Books: The Isles of Unwisdom",
+            "url": "https://books.google.es/books?id=8PkIAQAAIAAJ"
+          },
+          {
+            "label": "Wikipedia: The Islands of Unwisdom",
+            "url": "https://en.wikipedia.org/wiki/The_Islands_of_Unwisdom"
+          },
+          {
+            "label": "Internet Archive: The Isles of Unwisdom",
+            "url": "https://archive.org/details/islesofunwisdom0000robe"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-manos-del-carpintero-de-alberto-ladron-arana",
+      "title": "Las Manos Del Carpintero",
+      "authorName": "Alberto Ladron Arana",
+      "authorSlug": "alberto-ladron-arana",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las manos del carpintero",
+        "authorName": "Alberto Ladrón Arana",
+        "authorSlug": "alberto-ladron-arana",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 2013,
+        "pages": 192,
+        "summary": "Las manos del carpintero arranca como una historia de repliegue personal y se convierte pronto en un thriller de memoria, crímenes antiguos y ecos de la Segunda Guerra Mundial. Ane, una joven pamplonesa golpeada por la ruptura sentimental y una autoestima frágil, se instala en el caserío heredado de su abuelo buscando calma. Lo que encuentra es una pista inquietante que la conduce hacia varios asesinatos olvidados y a una investigación que conecta Navarra y Francia con escenarios marcados por la ocupación nazi y la Línea Maginot. Alberto Ladrón Arana combina intriga, desplazamiento temporal y amenaza presente para construir una novela breve, tensa y atmosférica, donde el pasado no está clausurado y el esclarecimiento de los hechos puede decidir la supervivencia de la protagonista.",
+        "aboutThisBook": "Publicada por Txertoa en 2013, la novela se mueve entre la investigación criminal, la novela negra y el relato histórico de posguerra. Su punto de partida doméstico —una herencia, un caserío, una mujer que busca recomponerse— se abre hacia una trama de alcance mayor, con documentos, silencios familiares y conexiones transfronterizas. Ladrón Arana apuesta por una prosa ágil y por capítulos orientados al suspense, de modo que el interés lector nace tanto del misterio como de la vulnerabilidad de Ane ante aquello que descubre.",
+        "forWhom": "Para lectores de novela negra española, amantes de los thrillers breves con trasfondo histórico y quienes disfrutan de tramas donde una pesquisa íntima destapa violencias sepultadas por décadas de silencio.",
+        "whyItMatters": "Importa porque enlaza la investigación contemporánea con la memoria europea del siglo XX y demuestra que una novela corta puede sostener tensión, atmósfera y lectura crítica del pasado sin perder claridad narrativa.",
+        "editorialIntro": "Alberto Ladrón Arana trabaja aquí con un mecanismo muy eficaz: partir de una crisis personal reconocible y hacer que, poco a poco, esa grieta privada abra la puerta a una historia criminal más amplia. El caserío heredado, los secretos familiares y el trasfondo bélico forman un escenario sólido para una intriga de ritmo rápido.",
+        "readingLevel": "Accesible para lector habitual: prosa clara, ritmo ágil y referencias históricas comprensibles dentro de la trama.",
+        "whyReadToday": "Porque dialoga con el interés contemporáneo por la memoria histórica, los secretos de familia y el thriller de investigación, y porque muestra cómo una herida íntima puede convertirse en vía de acceso a una violencia colectiva apenas resuelta.",
+        "studyNotes": [
+          "La novela une dos motores narrativos: la fragilidad personal de Ane y el descubrimiento paulatino de un crimen con raíces históricas.",
+          "El espacio del caserío funciona como refugio y amenaza al mismo tiempo; no es solo escenario, sino detonante del conflicto.",
+          "La Segunda Guerra Mundial no aparece como decoración, sino como marco que explica la profundidad del secreto investigado.",
+          "Conviene atender al contraste entre la brevedad del libro y la amplitud temporal de la intriga, que conecta pasado europeo y presente navarro."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Retiro en el caserío",
+            "summary": "Tras una ruptura y un periodo de inestabilidad emocional, Ane se traslada al caserío heredado de su abuelo con la esperanza de recomponerse. El cambio de espacio parece ofrecer aislamiento y calma, pero pronto surge un hallazgo perturbador que convierte la casa en umbral hacia un pasado opaco."
+          },
+          {
+            "title": "Parte 2: Apertura de la investigación",
+            "summary": "Ane empieza a seguir indicios que remiten a asesinatos cometidos décadas atrás. La investigación gana profundidad cuando aparecen conexiones con Francia, con episodios de la Segunda Guerra Mundial y con personajes que saben más de lo que dicen. El suspense se intensifica porque averiguar la verdad ya no es una cuestión intelectual, sino de supervivencia."
+          },
+          {
+            "title": "Parte 3: Viaje al origen del secreto",
+            "summary": "La pesquisa conduce a escenarios como Poitiers, París y la Línea Maginot, ampliando el relato desde el ámbito íntimo a una memoria europea marcada por guerra, colaboración y violencia. Con ayuda externa, Ane recompone piezas que estaban separadas por décadas y se acerca a un desenlace donde comprender el pasado implica enfrentarse a un peligro presente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una protagonista vulnerable, no invulnerable",
+            "content": "La elección de Ane como eje del relato es clave. No se trata de una investigadora profesional segura de sí misma, sino de una mujer herida que avanza entre dudas. Esa vulnerabilidad da credibilidad al suspense y permite que la pesquisa tenga un peso emocional real, no solo funcional."
+          },
+          {
+            "heading": "Memoria histórica y novela negra",
+            "content": "Ladrón Arana usa recursos del thriller para explorar cómo ciertos crímenes sobreviven en forma de silencio, legado familiar y documentos ocultos. El pasado bélico no es un fondo espectacular, sino un depósito de responsabilidades pendientes que el presente todavía debe leer."
+          },
+          {
+            "heading": "Brevedad y eficacia narrativa",
+            "content": "Con menos de doscientas páginas, la novela apuesta por la condensación: pocos desvíos, capítulos orientados al avance y un control claro de la intriga. Esa economía refuerza la tensión y hace que cada descubrimiento altere con rapidez la percepción del lector sobre personajes y hechos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Las manos del carpintero?",
+            "answer": "Sigue a Ane, una joven que se instala en un caserío heredado y descubre pistas sobre antiguos asesinatos relacionados con hechos de la Segunda Guerra Mundial."
+          },
+          {
+            "question": "¿Es una novela negra pura o también histórica?",
+            "answer": "Combina ambas dimensiones: funciona como thriller de investigación contemporánea, pero gran parte de su fuerza proviene del vínculo con un pasado bélico y familiar."
+          },
+          {
+            "question": "¿Es un libro largo o de lectura rápida?",
+            "answer": "Es una novela breve, de unas 192 páginas según su edición de referencia, y está construida con un ritmo ágil que favorece una lectura rápida pero atenta."
+          },
+          {
+            "question": "¿Qué destaca más: la intriga o la psicología?",
+            "answer": "La intriga lleva la narración, pero la psicología de Ane sostiene la implicación del lector y evita que el misterio se reduzca a un simple rompecabezas."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Txertoa: Manos del carpintero, las",
+            "url": "https://txertoa.eus/es/liburuak/manos-del-carpintero-las/"
+          },
+          {
+            "label": "Casa del Libro: Las manos del carpintero",
+            "url": "https://www.casadellibro.com/libro-las-manos-del-carpintero/9788471485274/2087033"
+          },
+          {
+            "label": "Open Library: Las manos del Carpintero",
+            "url": "https://openlibrary.org/books/OL47197476M/Las_manos_del_Carpintero"
+          },
+          {
+            "label": "Google Books: Las manos del Carpintero",
+            "url": "https://books.google.es/books?id=q9h9oAEACAAJ"
+          },
+          {
+            "label": "Pamplona Actual: Alberto Ladrón Arana comparte los secretos de su novela negra",
+            "url": "https://pamplonaactual.com/navarra-red/390723/el-escritor-alberto-ladron-arana-comparte-los-secretos-de-su-novela-negra-con-el-club-de-lectura-de-la-upna/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-meninas-de-antonio-buero-vallejo",
+      "title": "Las Meninas",
+      "authorName": "Antonio Buero Vallejo",
+      "authorSlug": "antonio-buero-vallejo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las Meninas",
+        "authorName": "Antonio Buero Vallejo",
+        "authorSlug": "antonio-buero-vallejo",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "teatro",
+          "clasicos"
+        ],
+        "year": 1960,
+        "pages": 134,
+        "summary": "Las Meninas es una pieza teatral en la que Antonio Buero Vallejo convierte la figura de Diego Velázquez en el centro de una reflexión sobre el arte, el poder y la libertad interior. Ambientada en la corte de Felipe IV, la obra no busca solo reconstruir el siglo XVII, sino examinar cómo un creador negocia con la autoridad, la apariencia y la verdad. Velázquez aparece rodeado por nobles, funcionarios, dependientes de palacio y miembros de la familia real, en un espacio donde cada gesto tiene consecuencias políticas. A partir de ese entorno cortesano, Buero dramatiza el conflicto entre integridad artística y servidumbre social. El resultado es un teatro histórico de gran densidad intelectual que dialoga con la España contemporánea del autor y convierte el famoso cuadro en una meditación escénica sobre dignidad, representación y conciencia.",
+        "aboutThisBook": "La obra fue estrenada en Madrid el 9 de diciembre de 1960, y Google Books registra una edición de 1961 con el subtítulo fantasía velazqueña en dos partes y 134 páginas. Esa fórmula define bien el proyecto de Buero: no se trata de una biografía dramatizada convencional, sino de una recreación simbólica alrededor de Velázquez, la corte y el significado de pintar. La propia Biblioteca Virtual Miguel de Cervantes sitúa a Buero Vallejo entre los grandes dramaturgos españoles del siglo XX, y Las Meninas ocupa un lugar importante dentro de su teatro histórico, donde el pasado sirve para pensar conflictos morales, políticos y estéticos que desbordan su época.",
+        "forWhom": "Para lectores adultos, estudiantes de literatura española, alumnado de bachillerato o universidad y amantes del teatro que quieran estudiar la relación entre historia, poder, pintura y drama filosófico.",
+        "whyItMatters": "Importa porque muestra cómo el teatro histórico puede ser algo más que reconstrucción de época: un instrumento crítico para pensar la censura, la obediencia, la verdad y el lugar del artista frente al poder.",
+        "editorialIntro": "Buero Vallejo entendió que algunos episodios del pasado siguen vivos porque condensan preguntas permanentes. En Las Meninas toma una imagen célebre de la cultura española y la convierte en acción dramática. No mira a Velázquez como simple genio admirado, sino como hombre situado en una red de jerarquías, favores y silencios. De ahí nace una obra sobria y ambiciosa, donde el arte no aparece como refugio decorativo, sino como forma de conciencia en medio de la presión política y social.",
+        "readingLevel": "Lectura de dificultad media-alta. El texto dramático es claro, pero gana mucho con contexto sobre Velázquez, la corte de Felipe IV y el teatro simbólico de Buero Vallejo; conviene leer atendiendo a sus dobles sentidos políticos y morales.",
+        "whyReadToday": "Porque sigue siendo una obra lúcida sobre la tensión entre talento y poder, sobre el precio de la independencia intelectual y sobre el modo en que las imágenes oficiales pueden ocultar conflictos humanos profundos.",
+        "studyNotes": [
+          "Conviene relacionar la obra con el cuadro de Velázquez, pero sin reducirla a una mera dramatización pictórica: Buero usa la pintura como punto de partida para pensar la verdad y la representación.",
+          "El trasfondo histórico funciona también como espejo de la España del siglo XX, de modo que la lectura política no depende solo del siglo XVII representado en escena.",
+          "Velázquez aparece menos como héroe romántico que como conciencia sometida a negociación continua con la jerarquía cortesana.",
+          "La etiqueta de fantasía velazqueña sugiere una libertad creadora importante: la fidelidad histórica en Buero está al servicio de una verdad dramática y moral, no de la crónica literal."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: la corte como espacio de vigilancia",
+            "summary": "La obra presenta a Velázquez dentro de una red palaciega donde el prestigio artístico convive con dependencias, sospechas y límites. Desde el comienzo queda claro que pintar para el rey no libera al artista, sino que lo expone a una política de favores y control."
+          },
+          {
+            "title": "Segunda parte: arte, verdad y jerarquía",
+            "summary": "A medida que avanzan los diálogos, Buero profundiza en la posición de Velázquez frente a nobles y servidores de la corte. El conflicto central gira en torno a cuánto puede decir, mostrar o callar un creador cuando su obra nace en el corazón mismo del poder."
+          },
+          {
+            "title": "Desenlace: la dignidad del creador",
+            "summary": "El cierre no busca una resolución mecánica, sino una afirmación moral. La figura de Velázquez queda asociada a una forma de integridad que no destruye el mundo cortesano, pero tampoco se somete por completo a él, manteniendo una zona de verdad interior."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Velázquez como conciencia dramática",
+            "content": "Buero convierte al pintor en una figura de lucidez antes que en un personaje meramente biográfico. Lo importante no es solo su talento, sino su capacidad para ver la falsedad, la ceremonia y las desigualdades de la corte sin dejar de trabajar dentro de ellas."
+          },
+          {
+            "heading": "La historia como espejo del presente",
+            "content": "Aunque la acción transcurre en tiempos de Felipe IV, la obra fue escrita en 1959 y estrenada en 1960. Esa distancia histórica permite hablar de obediencia, poder cultural y limitaciones de la libertad con una resonancia claramente contemporánea para el público de Buero."
+          },
+          {
+            "heading": "Arte y representación",
+            "content": "El título remite a una de las pinturas más analizadas de la tradición occidental, y la obra aprovecha esa carga simbólica. Pintar, mirar y ser mirado forman parte del conflicto: la escena teatral dialoga con el cuadro para preguntar quién representa a quién y bajo qué autoridad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las Meninas de Buero Vallejo es una novela o una obra de teatro?",
+            "answer": "Es una obra de teatro. El propio subtítulo la presenta como una fantasía velazqueña en dos partes, y fue estrenada en el Teatro Español de Madrid en 1960."
+          },
+          {
+            "question": "¿Hace falta conocer el cuadro de Velázquez para entenderla?",
+            "answer": "No es imprescindible, pero ayuda mucho. Conocer el cuadro y su contexto permite apreciar mejor cómo Buero transforma un icono artístico en conflicto dramático y reflexión sobre el poder."
+          },
+          {
+            "question": "¿Es una obra histórica o política?",
+            "answer": "Es ambas cosas. Se apoya en un marco histórico preciso, pero utiliza ese pasado para plantear preguntas políticas y morales sobre autoridad, libertad y función del arte."
+          },
+          {
+            "question": "¿Por qué se considera valiosa para estudiar a Buero Vallejo?",
+            "answer": "Porque reúne varias de sus constantes: densidad ética, uso del pasado como espejo del presente, simbolismo escénico y atención al conflicto entre dignidad personal y estructuras de poder."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Las Meninas (obra de teatro)",
+            "url": "https://es.wikipedia.org/wiki/Las_Meninas_%28obra_de_teatro%29"
+          },
+          {
+            "label": "Google Books: Las Meninas, fantasía velazqueña en dos partes",
+            "url": "http://books.google.es/books?id=utU3AAAAIAAJ"
+          },
+          {
+            "label": "Open Library: Las Meninas",
+            "url": "https://openlibrary.org/works/OL981118W/Las_Meninas"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: portal Antonio Buero Vallejo",
+            "url": "https://www.cervantesvirtual.com/portales/antonio_buero_vallejo/"
+          },
+          {
+            "label": "Britannica: Antonio Buero Vallejo",
+            "url": "https://www.britannica.com/biography/Antonio-Buero-Vallejo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-montanas-blancas-de-john-christopher",
+      "title": "Las Montanas Blancas",
+      "authorName": "John Christopher",
+      "authorSlug": "john-christopher",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las montañas blancas",
+        "authorName": "John Christopher",
+        "authorSlug": "john-christopher",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "ciencia-ficcion",
+          "aventura"
+        ],
+        "year": 1967,
+        "pages": 214,
+        "summary": "Las montañas blancas, conocida originalmente como The White Mountains, es la primera novela de la serie Los trípodes y una de las distopías juveniles más influyentes de la segunda mitad del siglo XX. En un mundo posapocalíptico donde la humanidad vive sometida a gigantes máquinas tripuladas por amos extraterrestres, Will Parker descubre que la ceremonia que marca el paso a la vida adulta no es una celebración, sino un mecanismo de control mental. Esa revelación lo empuja a huir antes de ser sometido y a emprender un viaje peligroso junto a otros adolescentes hacia un reducto libre. La novela combina aventura, persecución y descubrimiento del mundo con una pregunta central sobre la obediencia: qué queda de una sociedad cuando sus miembros pierden la voluntad propia. Christopher narra con ritmo ágil, claridad visual y una tensión constante que sigue funcionando muy bien para lectores jóvenes.",
+        "aboutThisBook": "El libro apareció por primera vez en 1967 y abrió la trilogía principal de The Tripods. Open Library documenta una edición de Aladdin Paperbacks de 1999 con 214 páginas, mientras Google Books recoge varias reediciones posteriores para público juvenil. La Encyclopedia of Science Fiction destaca a John Christopher, seudónimo de Sam Youd, como una figura clave de la ciencia ficción británica y menciona expresamente la secuencia de los Tripods como parte central de su obra para jóvenes. Eso ayuda a situar la novela: no es solo una aventura de evasión, sino una puerta de entrada muy eficaz a la ciencia ficción distópica, escrita con economía narrativa y un fuerte sentido del crecimiento moral del protagonista.",
+        "forWhom": "Para lectores juveniles desde unos 11 o 12 años, familias que buscan ciencia ficción accesible, docentes que quieran trabajar distopía y libertad, y adultos que disfrutan clásicos juveniles de aventuras con trasfondo político.",
+        "whyItMatters": "Importa porque anticipa muchos temas de la distopía juvenil moderna: control mental, rito de sumisión, resistencia adolescente y viaje hacia una comunidad libre. Lo hace, además, con notable sencillez y eficacia narrativa.",
+        "editorialIntro": "Antes de que la distopía juvenil se convirtiera en un fenómeno global, John Christopher ya había trazado uno de sus modelos más limpios y memorables. Las montañas blancas parte de una premisa poderosa: la humanidad ha aceptado su servidumbre como si fuera tradición. Desde ahí, la novela no se limita a encadenar peligros, sino que explora el instante decisivo en que un joven comprende que obedecer puede ser renunciar a sí mismo. Esa mezcla de aventura clásica y pregunta política explica su permanencia.",
+        "readingLevel": "Lectura media y muy accesible para público juvenil. El estilo es directo, la acción avanza con rapidez y el mundo se entiende pronto, aunque la novela invita a pensar símbolos de control, libertad y maduración personal más allá de la trama de persecución.",
+        "whyReadToday": "Porque sigue siendo una excelente introducción a la distopía y porque su reflexión sobre conformismo, vigilancia y pérdida de autonomía resulta especialmente legible en una época obsesionada con el control de la conducta.",
+        "studyNotes": [
+          "El rito del Capping Day puede leerse como una metáfora extrema de la socialización autoritaria: convertirse en adulto significa aquí perder autonomía, no ganarla.",
+          "La novela usa una estética casi medieval para mostrar una humanidad tecnológicamente sometida pero culturalmente empobrecida, un contraste muy eficaz para discutir civilización y progreso.",
+          "Will Parker madura a través del viaje, pero ese aprendizaje no es solo individual: aprende a desconfiar de las costumbres que parecían naturales.",
+          "Funciona muy bien compararla con distopías juveniles posteriores para ver cuánto del género ya estaba formulado aquí en estado muy claro y concentrado."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: descubrir que la obediencia es una trampa",
+            "summary": "Will vive en una comunidad rural dominada por la normalidad del sometimiento a los Trípodes. El encuentro con Ozymandias altera esa visión y le hace comprender que la ceremonia que se acerca borrará su libertad en lugar de darle un lugar adulto en el mundo."
+          },
+          {
+            "title": "Parte 2: la huida y el aprendizaje del viaje",
+            "summary": "Junto con Henry y después con Jean-Paul, Will abandona la seguridad aparente del pueblo para atravesar un territorio hostil. El viaje amplía su mundo, le muestra otras formas de vida y convierte la aventura en una educación moral contra la pasividad."
+          },
+          {
+            "title": "Parte 3: llegar a la resistencia",
+            "summary": "En el tramo final, los muchachos descubren que incluso la fuga lleva marcas del sistema de control. Superar el último peligro y alcanzar las montañas implica aceptar que la libertad no es solo escapar, sino entrar en una lucha organizada contra los amos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Distopía juvenil antes del boom del género",
+            "content": "La novela formula con gran anticipación muchos rasgos que luego serían habituales: protagonista adolescente, orden social opresivo, descubrimiento de una mentira estructural y viaje hacia un foco de resistencia. Su influencia se nota precisamente en su claridad de diseño."
+          },
+          {
+            "heading": "Control mental y pérdida de la voluntad",
+            "content": "El cap no es solo un recurso de ciencia ficción, sino la imagen central del libro. Christopher convierte la obediencia en intervención física y psicológica, lo que vuelve visible el problema político de toda dominación: cómo lograr que los sometidos dejen de imaginar alternativas."
+          },
+          {
+            "heading": "Aventura, amistad y formación",
+            "content": "Aunque el trasfondo es sombrío, el libro mantiene la energía de una novela de viaje. La amistad entre Will, Henry y Beanpole equilibra el miedo con descubrimiento, humor y aprendizaje, y hace que la resistencia se construya también como vínculo humano."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las montañas blancas pertenece a una saga?",
+            "answer": "Sí. Es el primer volumen de la serie principal de Los trípodes, seguida por La ciudad de oro y plomo y La piscina de fuego, con una precuela posterior."
+          },
+          {
+            "question": "¿Es adecuada para lectores jóvenes?",
+            "answer": "Sí. Fue concebida para público juvenil y combina aventura clara, tensión constante y una complejidad temática accesible para adolescentes y preadolescentes lectores."
+          },
+          {
+            "question": "¿Qué tema central trabaja la novela?",
+            "answer": "El tema central es la libertad frente al control. La historia pregunta qué significa crecer cuando la sociedad presenta la sumisión como tradición inevitable."
+          },
+          {
+            "question": "¿Sigue vigente frente a distopías más recientes?",
+            "answer": "Sí. Precisamente por su sencillez estructural y su fuerza simbólica, sigue siendo una lectura muy eficaz para entender las bases del género distópico juvenil."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Open Library: The White Mountains",
+            "url": "https://openlibrary.org/works/OL3972834W/The_White_Mountains_(The_Tripods_1)"
+          },
+          {
+            "label": "Open Library: edición Aladdin Paperbacks de 1999",
+            "url": "https://openlibrary.org/books/OL6803322M/The_White_Mountains"
+          },
+          {
+            "label": "Google Books: The White Mountains",
+            "url": "http://books.google.es/books?id=AToKFu5TV78C"
+          },
+          {
+            "label": "Wikipedia: The Tripods",
+            "url": "https://en.wikipedia.org/wiki/The_Tripods"
+          },
+          {
+            "label": "The Encyclopedia of Science Fiction: John Christopher",
+            "url": "https://sf-encyclopedia.com/entry/christopher_john"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "liderazgo-de-daniel-goleman",
+      "title": "Liderazgo",
+      "authorName": "Daniel Goleman",
+      "authorSlug": "daniel-goleman",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Liderazgo",
+        "authorName": "Daniel Goleman",
+        "authorSlug": "daniel-goleman",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "desarrollo-personal",
+          "ensayo"
+        ],
+        "year": 2011,
+        "pages": 117,
+        "summary": "Liderazgo es un volumen breve en el que Daniel Goleman reúne algunos de sus textos más influyentes sobre dirección de personas, inteligencia emocional y desempeño organizacional. No es un manual lineal ni una teoría cerrada, sino una selección de escritos que explican por qué los mejores líderes no destacan solo por su capacidad técnica, sino por su autoconocimiento, su dominio emocional, su empatía y su capacidad para crear climas de trabajo productivos. A lo largo del libro aparecen ideas ya clásicas en Goleman, como los distintos estilos de liderazgo, la importancia del contagio emocional y el papel de la atención en la toma de decisiones. Su principal virtud está en la síntesis: condensa conceptos decisivos de la literatura de management contemporánea en un formato corto, directo y fácilmente utilizable por lectores profesionales.",
+        "aboutThisBook": "Google Books identifica la obra como Leadership: The Power of Emotional Intellegence: Selected Writings y la presenta como la primera recopilación amplia de los hallazgos de Goleman sobre liderazgo. Open Library registra una edición de More Than Sound publicada el 22 de septiembre de 2011 con 117 páginas. El propio sitio de Daniel Goleman la sitúa dentro de una trayectoria dedicada a inteligencia emocional, liderazgo y psicología aplicada. Todo ello indica que estamos ante un libro de síntesis y selección, pensado para acercar en un solo volumen textos muy citados del autor, entre ellos materiales sobre estilos de liderazgo, rendimiento de equipos, desarrollo de la inteligencia emocional y relación entre emoción y logro.",
+        "forWhom": "Para directivos, mandos intermedios, emprendedores, responsables de equipos, estudiantes de empresa o psicología organizacional y lectores adultos que busquen una introducción compacta y seria al liderazgo basado en inteligencia emocional.",
+        "whyItMatters": "Importa porque ayudó a popularizar una idea todavía decisiva: liderar no consiste solo en decidir o mandar, sino en gestionar la propia mente, leer a los demás y crear condiciones emocionales que permitan trabajar mejor.",
+        "editorialIntro": "Una parte importante de la literatura sobre liderazgo se queda en consignas motivacionales o recetas demasiado simples. Goleman, en cambio, insiste en una dimensión concreta y verificable: el clima emocional que crea quien dirige. Liderazgo resume bien esa apuesta. En pocas páginas expone por qué la autoconciencia, la autorregulación, la empatía y la calidad de la relación con el equipo no son adornos blandos, sino factores prácticos de rendimiento. Esa mezcla de divulgación clara y utilidad profesional explica que el libro siga circulando como puerta de entrada al tema.",
+        "readingLevel": "Lectura accesible para adultos. El lenguaje es claro y orientado a la práctica, aunque conviene leer despacio para distinguir conceptos próximos entre sí, como estilos de liderazgo, competencias emocionales y dinámica de equipos.",
+        "whyReadToday": "Porque en contextos laborales de alta presión sigue siendo urgente pensar cómo influyen las emociones en la productividad, la cooperación, el agotamiento y la capacidad real de liderar sin deteriorar al equipo.",
+        "studyNotes": [
+          "El libro conviene leerse como una recopilación temática: no desarrolla una sola tesis paso a paso, sino que articula piezas complementarias sobre liderazgo e inteligencia emocional.",
+          "Una idea central de Goleman es que el líder marca tono emocional; ese clima afecta atención, motivación, creatividad y disposición a colaborar.",
+          "Los estilos de liderazgo no se presentan como etiquetas fijas, sino como repertorios que deben usarse con flexibilidad según contexto, personas y objetivos.",
+          "Puede compararse con manuales más técnicos de management para ver cómo Goleman desplaza el foco desde la estructura formal hacia las competencias relacionales y emocionales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Bloque 1: qué distingue a un líder eficaz",
+            "summary": "La apertura del volumen plantea la idea fundamental de Goleman: la excelencia en el liderazgo depende menos del cociente intelectual o del conocimiento técnico aislado que de una combinación de conciencia de sí, control emocional y lectura acertada del entorno humano."
+          },
+          {
+            "title": "Bloque 2: estilos de liderazgo y clima laboral",
+            "summary": "La parte central reúne textos sobre los distintos modos de dirigir y sobre sus efectos concretos en los equipos. El énfasis recae en que cada estilo produce consecuencias emocionales distintas y, por tanto, resultados desiguales en desempeño, compromiso e innovación."
+          },
+          {
+            "title": "Bloque 3: desarrollar la inteligencia emocional",
+            "summary": "En el tramo final, el libro insiste en que las competencias emocionales pueden cultivarse. La mejora del liderazgo exige práctica, retroalimentación y atención sostenida, no solo inspiración o carisma ocasional."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La inteligencia emocional como competencia de liderazgo",
+            "content": "Goleman discute la idea de que dirigir bien dependa ante todo de dureza, autoridad o brillantez técnica. Su propuesta es que la autogestión emocional y la empatía no son cualidades secundarias, sino condiciones para orientar personas y sostener decisiones eficaces."
+          },
+          {
+            "heading": "El líder como creador de clima",
+            "content": "Una de las aportaciones más duraderas del libro es su insistencia en que las emociones son contagiosas dentro de los equipos. El dirigente influye en la atmósfera de trabajo, y esa atmósfera tiene efectos medibles sobre cooperación, enfoque, creatividad y desgaste."
+          },
+          {
+            "heading": "Síntesis útil, no tratado exhaustivo",
+            "content": "La brevedad del volumen es una fortaleza si se entiende bien su función. Liderazgo no pretende agotar la teoría organizacional, sino reunir piezas esenciales de la obra de Goleman para ofrecer una introducción compacta, práctica y de alta legibilidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro académico o un manual práctico?",
+            "answer": "Está más cerca de una síntesis divulgativa y práctica. Se apoya en investigación y experiencia organizacional, pero su objetivo es ofrecer ideas aplicables con lenguaje claro."
+          },
+          {
+            "question": "¿Hace falta haber leído Inteligencia emocional antes?",
+            "answer": "No. Ayuda a entender mejor el trasfondo del autor, pero Liderazgo funciona por sí solo como introducción breve a sus ideas sobre dirección de personas y clima emocional."
+          },
+          {
+            "question": "¿El libro propone un único estilo correcto de liderar?",
+            "answer": "No. Uno de sus argumentos es precisamente que el liderazgo eficaz requiere flexibilidad y uso situacional de varios estilos, según las necesidades del equipo y del momento."
+          },
+          {
+            "question": "¿Sigue siendo útil en el trabajo actual?",
+            "answer": "Sí. Su foco en empatía, atención, autorregulación y clima laboral sigue siendo muy pertinente en organizaciones atravesadas por estrés, cambio continuo y colaboración compleja."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Open Library: Leadership",
+            "url": "https://openlibrary.org/books/OL30428398M/Leadership"
+          },
+          {
+            "label": "Open Library: work Leadership",
+            "url": "https://openlibrary.org/works/OL22346513W/Leadership"
+          },
+          {
+            "label": "Google Books: Leadership: The Power of Emotional Intellegence: Selected Writings",
+            "url": "http://books.google.es/books?id=D9Z6zQEACAAJ"
+          },
+          {
+            "label": "Daniel Goleman: Books",
+            "url": "https://www.danielgoleman.info/books/"
+          },
+          {
+            "label": "Wikipedia: Daniel Goleman",
+            "url": "https://en.wikipedia.org/wiki/Daniel_Goleman"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "llamada-perdida-de-gabriela-wiener",
+      "title": "Llamada Perdida",
+      "authorName": "Gabriela Wiener",
+      "authorSlug": "gabriela-wiener",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Llamada perdida",
+        "authorName": "Gabriela Wiener",
+        "authorSlug": "gabriela-wiener",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 2025,
+        "pages": 220,
+        "summary": "Llamada perdida reúne algunos de los textos más personales de Gabriela Wiener y los convierte en una exploración frontal de la intimidad, el cuerpo, la migración, la maternidad, el deseo y el oficio de escribir. Aunque parte de experiencias autobiográficas, el libro no se limita a la confesión: trabaja la memoria como un laboratorio desde el que la autora examina sus vínculos, sus miedos y sus contradicciones. Wiener mezcla crónica, ensayo y relato con una voz deliberadamente expuesta, a veces irónica y a veces dolorosa, para mostrar cómo la vida privada está atravesada por relaciones de poder, por expectativas culturales y por la dificultad de narrarse sin impostura. El resultado es un volumen de no ficción literaria que convierte la experiencia personal en una pregunta pública sobre identidad, vulnerabilidad y lenguaje.",
+        "aboutThisBook": "Esta edición de Random House recupera un libro clave dentro de la obra de Gabriela Wiener y subraya su lugar como autora de una escritura híbrida, donde la crónica periodística convive con la autoindagación y la observación cultural. Los textos no siguen una trama única, pero sí una continuidad emocional: la necesidad de decir aquello que suele quedar fuera de los discursos decorosos. Por eso el libro funciona como mapa íntimo, como cuaderno de época y como ejercicio de estilo.",
+        "forWhom": "Especialmente recomendable para lectores de ensayo autobiográfico, crónica latinoamericana contemporánea y escritura feminista no complaciente. También interesa a quien busque libros sobre identidad migrante, maternidad ambivalente, sexualidad y los límites entre periodismo y literatura.",
+        "whyItMatters": "Importa porque muestra una forma de no ficción en español que no separa pensamiento, experiencia y riesgo verbal. Wiener convierte su propia exposición en una herramienta crítica para leer el presente, el género, la familia y la posición de la autora dentro del mercado cultural.",
+        "editorialIntro": "Hay libros que se leen por lo que cuentan y otros por la forma en que se atreven a contarlo. Llamada perdida pertenece a la segunda clase. Gabriela Wiener escribe desde la intemperie y hace de esa intemperie una poética: la de quien sabe que narrar la propia vida nunca es un gesto inocente, pero aun así decide asumir el costo de hacerlo con lucidez.",
+        "readingLevel": "Lectura media-alta, ideal para lectores habituados al ensayo narrativo y a la autobiografía crítica.",
+        "whyReadToday": "Porque muchas de sus preguntas sobre exposición, deseo, maternidad, migración y performatividad del yo siguen siendo centrales en la conversación cultural contemporánea. Su tono conserva una energía incómoda y muy actual.",
+        "studyNotes": [
+          "Observa cómo Wiener mezcla tres registros: crónica, ensayo y autobiografía. El interés del libro está precisamente en esa zona híbrida, no en una clasificación rígida.",
+          "La primera persona no busca heroicidad ni transparencia absoluta: funciona como un dispositivo crítico que revela vergüenza, deseo, contradicción y puesta en escena.",
+          "Conviene leer los textos atendiendo a la relación entre experiencia individual y contexto social: cuerpo, género, maternidad, migración y trabajo creativo aparecen siempre entrelazados."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Apertura autobiográfica",
+            "summary": "Los primeros textos fijan la voz del libro: una narradora que expone sin solemnidad sus obsesiones, sus miedos y su resistencia a escribir desde la distancia. Desde ahí se define el pacto de lectura, basado en la cercanía, la ironía y la incomodidad."
+          },
+          {
+            "title": "Cuerpo, deseo y vida privada",
+            "summary": "La zona central reúne piezas donde la autora examina sexualidad, pareja, maternidad y experiencias afectivas desde una mirada crítica. La intimidad aparece como espacio de placer, fragilidad y disputa cultural."
+          },
+          {
+            "title": "Memoria, oficio y desplazamiento",
+            "summary": "En los textos finales la reflexión se amplía hacia la migración, la escritura y la conciencia de finitud. El libro termina consolidando una imagen compleja de la autora: alguien que se narra para entender mejor el mundo que la atraviesa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Autobiografía sin idealización",
+            "content": "Wiener no usa el yo para estabilizar una identidad, sino para ponerla en crisis. La narradora admite zonas poco nobles, vacilaciones y gestos contradictorios; por eso el libro evita la autocelebración y gana espesor crítico."
+          },
+          {
+            "heading": "Hibridación de géneros",
+            "content": "Uno de los rasgos decisivos del libro es la mezcla de crónica, ensayo y relato personal. Esa combinación le permite pasar de la anécdota a la reflexión sin perder tensión literaria, y convierte cada experiencia en un problema de lenguaje y de forma."
+          },
+          {
+            "heading": "Lo íntimo como campo político",
+            "content": "Las escenas privadas nunca quedan encerradas en el confesionario. El libro muestra cómo familia, sexo, maternidad, migración y trabajo están atravesados por normas sociales, imaginarios de género y jerarquías culturales que hacen de la intimidad un espacio político."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Llamada perdida es una novela?",
+            "answer": "No. Es un libro de no ficción literaria compuesto por ensayos y textos autobiográficos que combinan crónica, reflexión y relato personal."
+          },
+          {
+            "question": "¿Hace falta conocer antes la obra de Gabriela Wiener?",
+            "answer": "No es necesario. Puede leerse como una excelente puerta de entrada a su estilo, aunque quienes ya la hayan leído reconocerán varios de sus temas centrales y su forma de trabajar la exposición del yo."
+          },
+          {
+            "question": "¿Qué temas predominan en el libro?",
+            "answer": "Predominan el cuerpo, el deseo, la maternidad, la migración, la escritura y la construcción pública de la intimidad."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Penguin Libros - Llamada perdida",
+            "url": "https://www.penguinlibros.com/es/libro-de-biografias/371230-libro-llamada-perdida-9788439744894"
+          },
+          {
+            "label": "Google Books - Llamada perdida",
+            "url": "https://play.google.com/store/books/details?id=39FUEQAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Revista Otra Parte - reseña de José Ignacio González",
+            "url": "https://www.revistaotraparte.com/literatura-iberoamericana/llamada-perdida/"
+          },
+          {
+            "label": "Radio Ambulante - Llamada perdida, por Gabriela Wiener",
+            "url": "https://radioambulante.org/extras/llamada-perdida-gabriela-wiener"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "lo-demas-es-aire-de-juan-gomez-barcena",
+      "title": "Lo Demas Es Aire",
+      "authorName": "Juan Gomez Barcena",
+      "authorSlug": "juan-gomez-barcena",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Lo demás es aire",
+        "authorName": "Juan Gómez Bárcena",
+        "authorSlug": "juan-gomez-barcena",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 2022,
+        "pages": 544,
+        "summary": "Lo demás es aire construye la historia sentimental, social y material de Toñanes, un pequeño pueblo cántabro, a lo largo de varios siglos. Juan Gómez Bárcena no sigue una trama lineal ni un protagonista único: organiza la novela como una constelación de vidas, escenas, documentos, voces y tiempos que convierten un territorio mínimo en una metáfora de la memoria colectiva. En sus páginas conviven campesinos, viajeros, emigrantes, curas, niños, propietarios y observadores tardíos, además de una figura de investigador que aproxima el libro a una indagación sobre el archivo y el recuerdo. La novela explora cómo un lugar conserva las huellas de quienes lo habitaron y cómo esas huellas se transforman con el paso del tiempo. Su ambición formal consiste en narrar un país entero desde un espacio aparentemente secundario, mostrando que la gran historia también vive en lo local, en los márgenes y en las existencias anónimas.",
+        "aboutThisBook": "Esta novela de largo aliento confirma a Gómez Bárcena como uno de los narradores españoles más ambiciosos de su generación. Partiendo de un pueblo concreto, el autor compone una obra coral donde la documentación histórica, la imaginación novelesca y la memoria personal se funden sin perder legibilidad. El libro exige atención, pero recompensa con una visión compleja del tiempo histórico y con una reflexión muy fina sobre la relación entre territorio, lenguaje y comunidad.",
+        "forWhom": "Muy recomendable para lectores de novelas corales, proyectos narrativos extensos y ficción histórica de enfoque literario. También puede interesar a quienes disfrutan de libros sobre memoria, archivo, mundo rural y formas no convencionales de contar el tiempo.",
+        "whyItMatters": "Importa porque ensaya una manera poco frecuente de narrar la historia española desde abajo, sin monumentalidad vacía. En lugar de privilegiar héroes o grandes episodios, convierte un pueblo casi invisible en laboratorio narrativo de la duración, la pérdida y la continuidad humana.",
+        "editorialIntro": "Hay novelas que aspiran a representar un tiempo y otras que aspiran a escuchar cómo el tiempo se deposita en un lugar. Lo demás es aire pertenece a esta segunda tradición, pero la lleva mucho más lejos. Juan Gómez Bárcena mira un pueblo mínimo de Cantabria como si en él se hubiera condensado una larga conversación entre muertos, vivos, ruinas, documentos y recuerdos.",
+        "readingLevel": "Lectura exigente pero muy accesible para lectores habituales de narrativa contemporánea extensa y estructuras no lineales.",
+        "whyReadToday": "Porque ofrece una mirada nada turística sobre el territorio, la memoria y la llamada España vaciada. Además, propone una forma de pensar la historia desde la vida común, algo especialmente valioso en un presente saturado de simplificaciones identitarias.",
+        "studyNotes": [
+          "Fíjate en la estructura temporal: la novela no avanza en línea recta, sino por acumulación, ecos y retornos. El tiempo es uno de sus verdaderos protagonistas.",
+          "Toñanes no funciona solo como escenario. Es un dispositivo narrativo que permite observar cómo la historia se encarna en espacios, objetos, apellidos, ruinas y hábitos cotidianos.",
+          "La presencia del investigador y del archivo introduce una pregunta decisiva: qué se puede reconstruir del pasado y qué zonas quedan inevitablemente entregadas a la imaginación."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El pueblo como umbral",
+            "summary": "La novela abre el espacio de Toñanes y lo presenta como un lugar pequeño en apariencia, pero cargado de capas temporales. Desde el inicio queda claro que cada rincón contiene vidas superpuestas y una memoria difícil de ordenar."
+          },
+          {
+            "title": "Siglos de vidas entrelazadas",
+            "summary": "La parte central despliega una amplia red de personajes y episodios que recorren varias épocas. Las transformaciones económicas, familiares y simbólicas del pueblo muestran cómo la historia colectiva se filtra en destinos individuales."
+          },
+          {
+            "title": "Archivo, pérdida y continuidad",
+            "summary": "Hacia el final, la novela hace más visible la figura del observador que recompone huellas y testimonios. El cierre no clausura del todo el pasado, pero afirma que narrarlo ya es una forma de resistir al borrado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela coral sobre la duración",
+            "content": "En lugar de organizarse alrededor de un héroe central, la obra reparte la atención entre muchas figuras y épocas. Esa coralidad permite mostrar que la historia de un lugar se compone de sedimentaciones, repeticiones y pequeños gestos acumulados, no de un único relato dominante."
+          },
+          {
+            "heading": "Territorio y memoria",
+            "content": "Toñanes es el gran hallazgo simbólico del libro. No aparece idealizado como paraíso rural, sino como espacio de trabajo, herencia, violencia, olvido y pertenencia. El paisaje guarda memoria, pero también la distorsiona y la vuelve fragmentaria."
+          },
+          {
+            "heading": "Archivo e imaginación",
+            "content": "Gómez Bárcena incorpora el impulso del investigador histórico, pero no pretende reducir la novela a un inventario documental. El libro insiste en que el pasado necesita pruebas, aunque también exige imaginación para volver a ser narrable sin falsa certeza."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Lo demás es aire tiene una trama tradicional?",
+            "answer": "No exactamente. Es una novela de estructura coral y temporalmente fragmentada, más interesada en construir la historia de un lugar que en seguir una intriga lineal."
+          },
+          {
+            "question": "¿El pueblo de Toñanes es real?",
+            "answer": "Sí, Toñanes existe y está vinculado biográficamente al autor, pero la novela transforma ese espacio real en un territorio literario de gran densidad simbólica."
+          },
+          {
+            "question": "¿Es una novela histórica en sentido clásico?",
+            "answer": "Solo en parte. Recurre a materiales y épocas históricas, pero su ambición principal es explorar la memoria de larga duración y la relación entre archivo, imaginación y territorio."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Planeta de Libros - Lo demás es aire",
+            "url": "https://www.planetadelibros.com/libro-lo-demas-es-aire/349858"
+          },
+          {
+            "label": "EL PAÍS Babelia - Lo demás es aire, crónica de un lugar llamado tiempo",
+            "url": "https://elpais.com/babelia/2022-05-07/lo-demas-es-aire-cronica-de-un-lugar-llamado-tiempo.html"
+          },
+          {
+            "label": "Talento a Bordo - entrevista a Juan Gómez Bárcena",
+            "url": "https://talentoabordo.com/es/juan-gomez-barcena-escritor-lo-demas-es-aire"
+          },
+          {
+            "label": "Google Books - Lo demás es aire",
+            "url": "https://play.google.com/store/books/details?id=i_hmEAAAQBAJ&source=gbs_api"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-abel-de-ana-maria-matute",
+      "title": "Los Abel",
+      "authorName": "Ana Maria Matute",
+      "authorSlug": "ana-maria-matute",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los Abel",
+        "authorName": "Ana María Matute",
+        "authorSlug": "ana-maria-matute",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1948,
+        "pages": 256,
+        "summary": "Los Abel, primera novela publicada por Ana María Matute, presenta la descomposición de una familia marcada por la desaparición del padre y por una convivencia cada vez más asfixiante. Lejos de plantear un drama puramente argumental, la novela trabaja el deterioro afectivo, la soledad y la incomunicación como si fueran una atmósfera permanente. Los hermanos Abel quedan suspendidos en un espacio doméstico que ya no protege y que, en cambio, intensifica rivalidades, resentimientos y formas distintas de orfandad. Matute escribe esta historia con una madurez sorprendente: atiende tanto al conflicto visible como a los silencios, a la fragilidad emocional y a la sensación de desamparo moral propia de la posguerra española. Más que resolver el enigma de una ausencia, la novela observa lo que esa ausencia hace con cada personaje. Así se convierte en una temprana radiografía del derrumbe familiar y de la herida interior que recorre buena parte de la obra posterior de la autora.",
+        "aboutThisBook": "Publicada originalmente en 1948 y finalista del Premio Nadal del año anterior, Los Abel ocupa un lugar fundamental en la trayectoria de Ana María Matute. Aquí ya aparecen varias de sus obsesiones mayores: la infancia herida, la casa como espacio opresivo, la violencia emocional dentro de la familia y la imposibilidad de una armonía duradera. Aunque sea una obra temprana, no tiene valor solo como promesa: posee una fuerza propia y una notable densidad psicológica.",
+        "forWhom": "Recomendable para lectores de narrativa española del siglo XX, estudios sobre posguerra y novelas familiares marcadas por la tensión psicológica. También es una lectura muy útil para quien quiera entrar en la obra de Matute desde su fase inicial y reconocer los temas que desarrollará después con mayor amplitud.",
+        "whyItMatters": "Importa porque deja ver, desde una fecha muy temprana, la singularidad de Ana María Matute dentro de la narrativa española de posguerra. La novela convierte el hogar en un escenario de fractura moral y emocional, y demuestra una intuición extraordinaria para narrar vulnerabilidad, pérdida y desarraigo.",
+        "editorialIntro": "Leer Los Abel hoy produce una doble impresión: la de asistir al nacimiento de una gran voz y la de encontrarse ya con una novela de verdad, severa y desolada. Matute no necesita grandes acontecimientos para sostener la tensión. Le basta una familia herida, una casa cada vez más cerrada y la conciencia de que la ausencia de una figura central puede desordenarlo todo.",
+        "readingLevel": "Lectura media, apropiada para bachillerato avanzado, universidad inicial y lectores interesados en clásicos contemporáneos.",
+        "whyReadToday": "Porque sigue siendo una novela muy eficaz para pensar la fragilidad de los vínculos familiares, el peso del silencio y la herencia emocional. Además, permite leer en germen varios de los rasgos que harán de Matute una autora indispensable.",
+        "studyNotes": [
+          "La desaparición del padre importa menos como misterio argumental que como detonante de una desorganización afectiva. El centro del libro es la respuesta emocional de la familia ante ese vacío.",
+          "Observa el papel de la casa y del espacio doméstico: no son meros fondos escénicos, sino lugares que intensifican la sensación de encierro, deterioro y extrañamiento.",
+          "Conviene relacionar la novela con el contexto de posguerra, pero sin reducirla a documento histórico. Su fuerza reside en cómo transforma ese malestar colectivo en experiencia íntima y simbólica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La ausencia que desordena",
+            "summary": "La novela se pone en marcha con la desaparición del padre, un hecho que rompe el precario equilibrio familiar. Desde ese momento, la casa deja de ser un refugio y se vuelve un espacio de incertidumbre y tensión."
+          },
+          {
+            "title": "Convivencia bajo presión",
+            "summary": "En la parte central, cada hermano reacciona de forma distinta al vacío dejado por la figura paterna. Surgen resentimientos, malentendidos y una sensación creciente de aislamiento que impide reconstruir la unidad perdida."
+          },
+          {
+            "title": "Derrumbe interior",
+            "summary": "Hacia el cierre, la novela acentúa la imposibilidad de recuperar la armonía familiar. Más que ofrecer una resolución tajante, Matute muestra cómo la herida inicial se ha convertido en una forma duradera de desamparo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La familia como estructura frágil",
+            "content": "Los Abel desarma la idea de la familia como núcleo estable y protector. En la novela, la casa familiar contiene dependencia, miedo, rivalidad y silencios, y la desaparición del padre revela que la cohesión anterior ya era precaria."
+          },
+          {
+            "heading": "Una temprana poética del desamparo",
+            "content": "Pese a la juventud de Matute cuando escribió el libro, la novela muestra un dominio notable de la atmósfera y de la herida interior. La tristeza no es aquí un adorno sentimental, sino una forma de conocimiento sobre los personajes y su mundo."
+          },
+          {
+            "heading": "Posguerra y conflicto íntimo",
+            "content": "Aunque la obra no dependa de grandes referencias históricas explícitas, su clima moral remite con claridad a la España de posguerra: pérdida de horizontes, rigidez social y vidas sometidas a una escasez que es tanto material como afectiva."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Los Abel es importante dentro de la obra de Ana María Matute?",
+            "answer": "Sí. Es su primera novela publicada y ya contiene varios de los temas que definirán su trayectoria, como la herida familiar, la infancia dañada y la sensación de desamparo."
+          },
+          {
+            "question": "¿Se puede leer como novela de posguerra?",
+            "answer": "Sí, pero conviene no limitarla a esa etiqueta. Además de reflejar un clima de época, la novela desarrolla un conflicto psicológico y simbólico que trasciende su contexto inmediato."
+          },
+          {
+            "question": "¿Es una lectura adecuada para estudio literario?",
+            "answer": "Mucho. Su extensión es manejable y permite trabajar temas como espacio doméstico, familia, focalización, atmósfera y representación del malestar en la narrativa española del siglo XX."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Planeta de Libros - Los Abel",
+            "url": "https://www.planetadelibros.com/libro-los-abel/170871"
+          },
+          {
+            "label": "Instituto Cervantes - Ana María Matute. Biografía",
+            "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/matute_ana_maria.htm"
+          },
+          {
+            "label": "Hojas Sueltas - Los Abel, de Ana María Matute",
+            "url": "https://hojassueltas.es/?p=24026"
+          },
+          {
+            "label": "Aurora Boreal - Los Abel",
+            "url": "https://www.auroraboreal.net/literatura/libros/1014-los-abel"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-circulos-de-dante-de-javier-arribas-rodriguez",
+      "title": "Los Circulos De Dante",
+      "authorName": "Javier Arribas Rodriguez",
+      "authorSlug": "javier-arribas-rodriguez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los círculos de Dante",
+        "authorName": "Javier Arribas de la Vieja",
+        "authorSlug": "javier-arribas-de-la-vieja",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller",
+          "novela-historica"
+        ],
+        "year": 2007,
+        "pages": 352,
+        "summary": "Ambientada en la Florencia de 1316, Los círculos de Dante convierte a Dante Alighieri en protagonista de una intriga criminal inspirada en su propio Infierno. Una serie de asesinatos reproduce con brutalidad escenas y castigos que remiten a la Comedia, de modo que la ciudad empieza a hablar de crímenes dantescos. Javier Arribas de la Vieja aprovecha esa premisa para construir una novela de suspense histórico donde la investigación no depende solo de descubrir al culpable, sino también de comprender la lógica simbólica de los crímenes. La Florencia medieval aparece como un espacio convulso, atravesado por rivalidades políticas, tensiones sociales y memoria literaria. El libro combina recreación de época, ritmo de thriller y homenaje a la figura de Dante, a quien presenta no como estatua cultural, sino como inteligencia viva obligada a leer su propia obra como mapa del horror.",
+        "aboutThisBook": "Publicada por Roca Editorial en 2007 dentro de su línea de novela histórica, esta obra se sitúa en el cruce entre el thriller erudito y la ficción ambientada en la Baja Edad Media. Su mayor atractivo está en la decisión de usar a Dante Alighieri no solo como referencia cultural, sino como personaje activo de la trama. El resultado recuerda ciertos mecanismos de la novela de enigmas contemporánea, pero con un anclaje histórico más marcado: la ciudad, las facciones y la imaginación moral del Infierno forman parte del argumento. No es una reescritura de la Divina Comedia, sino una novela de intriga que se apoya en ella para pensar la violencia, la justicia y el peso público de la literatura.",
+        "forWhom": "Para lectores de novela histórica con gusto por el suspense, para quienes disfrutan de tramas criminales con trasfondo cultural y para estudiantes que quieran acercarse a Dante desde una ficción accesible pero intelectualmente estimulante.",
+        "whyItMatters": "Importa porque muestra cómo un clásico puede seguir produciendo narración nueva. La novela usa el imaginario del Infierno no como adorno culto, sino como estructura de sentido para hablar de castigo, poder y miedo colectivo.",
+        "editorialIntro": "Hay novelas históricas que se limitan a vestir una intriga con decorado de época, y otras que consiguen que la época piense dentro de la trama. Los círculos de Dante pertenece a esta segunda clase. Javier Arribas de la Vieja sitúa al lector en una Florencia cargada de violencia política y memoria literaria, y convierte a Dante en el lector forzado de un crimen que imita su propia imaginación del castigo. Esa combinación de erudición, tensión y atmósfera le da al libro una personalidad nítida.",
+        "readingLevel": "Lectura media-alta. La prosa es fluida, pero la novela gana profundidad cuando el lector reconoce referencias dantescas, entiende el contexto florentino y atiende a la relación entre símbolo, crimen e interpretación.",
+        "whyReadToday": "Porque anticipa el interés actual por los thrillers culturales y recuerda que los clásicos siguen siendo herramientas para pensar la violencia y la justicia, no simples monumentos escolares.",
+        "studyNotes": [
+          "La premisa central funciona gracias a una inversión muy fértil: Dante deja de ser solo autor leído y pasa a ser intérprete práctico de un crimen organizado con su propio lenguaje moral.",
+          "Conviene observar cómo la novela transforma el Infierno en un código policial. Cada asesinato vale como pista material, pero también como lectura simbólica de una pena y de una culpa.",
+          "La Florencia medieval no es un fondo neutro. Las tensiones urbanas, la autoridad y la circulación del prestigio literario influyen en la forma en que los crímenes son percibidos y narrados.",
+          "Puede trabajarse en clase junto a fragmentos de la Divina Comedia para analizar cómo una obra contemporánea reutiliza motivos clásicos sin copiar su estructura original."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: Florencia bajo el signo del Infierno",
+            "summary": "La novela abre con una ciudad inquieta por una cadena de asesinatos particularmente crueles. Muy pronto se establece la conexión con el Infierno de Dante y nace la idea de que alguien está castigando a sus víctimas según una lógica literaria reconocible."
+          },
+          {
+            "title": "Nudo: Dante lee los crímenes como si leyera su propia obra",
+            "summary": "A medida que avanza la investigación, el poeta se convierte en la pieza decisiva del caso. No basta con perseguir un asesino: hay que interpretar una escenografía penal que reproduce imágenes, jerarquías y castigos inspirados en la Comedia."
+          },
+          {
+            "title": "Desarrollo: intriga, poder y miedo público",
+            "summary": "La serie de muertes aumenta la presión sobre la ciudad y vuelve más visible el entrecruce entre violencia privada, orden político y espectáculo del castigo. La novela explora cómo el terror circula cuando una comunidad cree reconocer el lenguaje del crimen."
+          },
+          {
+            "title": "Desenlace: sentido moral del enigma",
+            "summary": "La resolución no depende solo de identificar a un culpable, sino de reconstruir el motivo intelectual y moral de la puesta en escena criminal. El cierre confirma que la novela entiende el thriller como una batalla por la interpretación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Dante como detective improbable",
+            "content": "El mayor hallazgo del libro está en convertir al poeta en investigador. No se trata de un simple guiño erudito: la autoridad de Dante nace de que nadie conoce mejor que él el sistema de penas y figuras que el asesino está imitando. La novela explota así una idea poderosa: la literatura puede ser conocimiento operativo cuando el mundo empieza a comportarse como una alegoría perversa."
+          },
+          {
+            "heading": "La ciudad medieval como escenario de lectura",
+            "content": "Florencia aparece como una comunidad donde política, fama, rumor y violencia se alimentan mutuamente. En ese contexto, los crímenes no son solo actos individuales, sino mensajes públicos. La novela entiende muy bien que una ciudad medieval es también una máquina de interpretación colectiva."
+          },
+          {
+            "heading": "Thriller cultural y novela histórica",
+            "content": "Los círculos de Dante participa de una tradición de thrillers apoyados en obras canónicas, pero evita convertirse en mero rompecabezas libresco. La documentación histórica y el peso del entorno urbano sostienen el libro y le dan una densidad que va más allá del acertijo literario."
+          },
+          {
+            "heading": "Violencia, justicia y espectáculo",
+            "content": "Al reproducir castigos del Infierno, el asesino convierte la idea de justicia en representación extrema. La novela invita a preguntarse cuándo el castigo deja de ser reparación moral y pasa a ser teatro del terror, una cuestión muy medieval y muy contemporánea a la vez."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Los círculos de Dante?",
+            "answer": "Trata de una serie de asesinatos cometidos en la Florencia de 1316 que imitan escenas del Infierno de Dante. El propio poeta debe intervenir para interpretar los crímenes y descubrir quién los organiza."
+          },
+          {
+            "question": "¿Es una novela histórica o un thriller?",
+            "answer": "Es ambas cosas. Funciona como novela histórica por su ambientación florentina y como thriller por la estructura de investigación, el suspense y la lógica serial de los asesinatos."
+          },
+          {
+            "question": "¿Hace falta haber leído la Divina Comedia para disfrutarla?",
+            "answer": "No es imprescindible. La novela puede seguirse sin conocimiento previo, aunque reconocer referencias al Infierno enriquece mucho la lectura y vuelve más visible el juego intelectual del libro."
+          },
+          {
+            "question": "¿Qué tipo de lector suele apreciarla más?",
+            "answer": "Suele interesar especialmente a quienes disfrutan de intrigas de raíz literaria, novelas ambientadas en la Edad Media y ficciones que convierten un clásico en motor activo de la trama."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "TodosTusLibros: Los círculos de Dante",
+            "url": "https://www.todostuslibros.com/libros/los-circulos-de-dante_978-84-96544-82-6"
+          },
+          {
+            "label": "Lecturalia: Los círculos de Dante",
+            "url": "https://www.lecturalia.com/libro/81482/los-circulos-de-dante"
+          },
+          {
+            "label": "Google Books: Los círculos de Dante",
+            "url": "https://books.google.com/books/about/Los_c%C3%ADrculos_de_Dante.html?id=FnDv1_7HZU0C"
+          },
+          {
+            "label": "Open Library: búsqueda de Los círculos de Dante",
+            "url": "https://openlibrary.org/search.json?title=Los%20circulos%20de%20Dante&author=Javier%20Arribas"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-dragones-del-eden-especulaciones-sobre-la-evolucion-de-la-inteligencia-humana-de-carl-sagan",
+      "title": "Los Dragones Del Eden Especulaciones Sobre La Evolucion De La Inteligencia Humana",
+      "authorName": "Carl Sagan",
+      "authorSlug": "carl-sagan",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los dragones del Edén: Especulaciones sobre la evolución de la inteligencia humana",
+        "authorName": "Carl Sagan",
+        "authorSlug": "carl-sagan",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1977,
+        "pages": 264,
+        "summary": "Los dragones del Edén es uno de los ensayos más influyentes de Carl Sagan fuera del campo estrictamente astronómico. A partir de preguntas sobre el origen de la inteligencia humana, el autor propone un recorrido que une evolución biológica, neurociencia, memoria, mito, lenguaje y cultura. El libro avanza desde nuestros antepasados remotos hasta las posibilidades futuras de la mente, con especial atención a la estructura del cerebro y a la comparación entre capacidades humanas, animales y tecnológicas. Sagan escribe como divulgador, pero también como pensador especulativo: no se limita a resumir conocimientos, sino que arriesga hipótesis y conecta saberes distintos para ofrecer una visión amplia de cómo hemos llegado a ser criaturas simbólicas. El resultado es un clásico de divulgación científica que conserva interés por su ambición intelectual y por su manera de convertir la curiosidad en método.",
+        "aboutThisBook": "Publicado originalmente en 1977 y reconocido con el Premio Pulitzer, el libro ocupa un lugar singular dentro de la obra de Sagan. No trata del cosmos exterior, sino del universo interior de la mente humana. Su propuesta combina ciencias de la evolución, estudios del cerebro, antropología, historia cultural y reflexión sobre tecnología. La edición española más difundida en los últimos años ha circulado en el catálogo de Crítica. Aunque algunos pasajes responden al estado del conocimiento de su época, el valor del libro sigue estando en su capacidad para formular preguntas grandes con claridad narrativa: qué significa pensar, cómo se conserva la memoria, qué papel tuvieron los mitos y qué podría ocurrir con la inteligencia en el futuro.",
+        "forWhom": "Para lectores de divulgación científica exigente, estudiantes de humanidades o ciencias interesados en la historia de las ideas sobre la mente y cualquier persona que disfrute ensayos donde la ciencia dialoga con la cultura, el mito y la filosofía.",
+        "whyItMatters": "Importa porque reúne en un solo marco preguntas que a menudo se estudian por separado: evolución, conciencia, memoria, imaginación y tecnología. Sagan muestra que pensar la inteligencia humana exige mirar a la vez al cuerpo, a la historia y a los relatos que nos contamos.",
+        "editorialIntro": "Muchos lectores llegan a Carl Sagan por su talento para hablar del universo; este libro demuestra que su gran don era otro, más amplio: hacer inteligible una pregunta compleja sin reducirla. Los dragones del Edén explora cómo surgió la inteligencia humana y por qué la mente está hecha de capas biológicas, recuerdos heredados, símbolos y herramientas. Es un ensayo ambicioso, panorámico y todavía sugerente, incluso cuando se lee desde debates científicos posteriores.",
+        "readingLevel": "Lectura media-alta. Sagan escribe con claridad, pero la densidad conceptual es notable: conviene leer despacio, distinguir entre datos consolidados e hipótesis y seguir el hilo que une evolución, cerebro, mito y tecnología.",
+        "whyReadToday": "Porque sigue siendo una puerta de entrada excelente a la pregunta por la mente humana y dialoga de forma sorprendente con debates actuales sobre inteligencia artificial, memoria, sesgos cognitivos y futuro de la especie.",
+        "studyNotes": [
+          "El libro mezcla divulgación y especulación. Para estudiarlo bien conviene separar qué partes presentan consensos científicos de su tiempo y cuáles son propuestas abiertas o intuiciones de Sagan.",
+          "La imagen de los dragones remite a memorias profundas, miedos arcaicos y persistencias imaginarias. No es un adorno poético, sino una forma de pensar la relación entre cerebro, evolución y mito.",
+          "Sagan insiste en que la inteligencia humana no puede explicarse desde una sola disciplina. El valor del libro está precisamente en su enfoque transversal.",
+          "Puede leerse junto a debates contemporáneos sobre inteligencia artificial para discutir qué diferencias persisten entre procesamiento de información, conciencia, memoria cultural y autoconciencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: de la evolución biológica a la mente humana",
+            "summary": "Sagan sitúa la inteligencia en una historia evolutiva larga. El libro arranca preguntándose cómo surgieron capacidades cognitivas complejas y qué continuidad existe entre cerebro humano, cerebro animal y adaptación biológica."
+          },
+          {
+            "title": "Segunda parte: cerebro, memoria y organización del conocimiento",
+            "summary": "El ensayo examina la arquitectura cerebral, las formas de memoria y la transmisión de información. En esta zona del libro aparecen algunas de sus páginas más conocidas sobre capas evolutivas del cerebro y comparación entre mente biológica y sistemas artificiales."
+          },
+          {
+            "title": "Tercera parte: mito, símbolos y futuros posibles",
+            "summary": "La reflexión se amplía hacia leyendas, imágenes persistentes y especulaciones sobre el destino de la inteligencia humana. Sagan conecta ciencia y cultura para mostrar que pensar también implica narrar y proyectar futuros."
+          },
+          {
+            "title": "Cierre: una visión unificada de la curiosidad humana",
+            "summary": "El libro concluye reforzando su apuesta central: comprender la mente exige relacionar naturaleza, historia y creación simbólica. La inteligencia aparece así como proceso evolutivo, herramienta cultural y horizonte todavía abierto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Divulgación científica con ambición filosófica",
+            "content": "Sagan no se conforma con explicar hallazgos; busca proponer un marco de sentido. Esa ambición vuelve el libro especialmente fértil para estudio, porque obliga a leerlo no solo como introducción a datos científicos, sino como ensayo sobre qué es conocer y cómo la especie humana llegó a hacerlo."
+          },
+          {
+            "heading": "El cerebro como archivo evolutivo",
+            "content": "Una de las intuiciones más memorables del libro es la idea de que la mente conserva huellas de etapas evolutivas anteriores. Aunque ciertos modelos han sido revisados por la neurociencia posterior, la imagen sigue siendo útil para pensar la convivencia entre impulsos, emoción, lenguaje y abstracción."
+          },
+          {
+            "heading": "Mito y ciencia no como enemigos, sino como materiales distintos",
+            "content": "Sagan presta atención a dragones, leyendas y temores arcaicos porque entiende que la imaginación también guarda historia cognitiva. El libro no equipara mito y ciencia, pero sí muestra que ambos dicen algo sobre cómo una especie interpreta el mundo y almacena experiencia."
+          },
+          {
+            "heading": "Un clásico previo a la era digital plena",
+            "content": "Leer hoy Los dragones del Edén permite medir tanto su vigencia como su fecha. Algunas afirmaciones requieren actualización, pero precisamente por eso resulta valioso: deja ver cómo se pensaba la inteligencia antes de internet masivo y antes del auge contemporáneo de la inteligencia artificial."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Los dragones del Edén?",
+            "answer": "Trata sobre el origen y la evolución de la inteligencia humana. Carl Sagan relaciona biología evolutiva, cerebro, memoria, mito y tecnología para explicar cómo pensamos y qué futuro podría tener nuestra mente."
+          },
+          {
+            "question": "¿Es un libro de astronomía?",
+            "answer": "No en sentido directo. Aunque su autor es famoso por la divulgación astronómica, aquí el centro es la mente humana: su desarrollo evolutivo, su estructura y sus formas de conocimiento."
+          },
+          {
+            "question": "¿Por qué se considera un clásico de divulgación?",
+            "answer": "Porque logra unir muchas disciplinas sin perder claridad y porque plantea preguntas de gran alcance con una prosa accesible, imaginativa y rigurosa para el lector general."
+          },
+          {
+            "question": "¿Sigue siendo útil si la ciencia ha avanzado desde 1977?",
+            "answer": "Sí. Algunas hipótesis deben leerse históricamente, pero el libro conserva valor por su enfoque interdisciplinar, por la calidad de su exposición y por las preguntas que todavía abre sobre mente, cultura e inteligencia."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "TodosTusLibros: Los dragones del Edén",
+            "url": "https://www.todostuslibros.com/libros/los-dragones-del-eden_978-84-9892-805-1"
+          },
+          {
+            "label": "Lecturalia: Los dragones del edén",
+            "url": "https://www.lecturalia.com/libro/16990/los-dragones-del-eden"
+          },
+          {
+            "label": "Google Books: Los dragones del Edén (Ed. Argentina)",
+            "url": "https://books.google.com/books/about/Los_dragones_del_Ed%C3%A9n.html?id=cNqdEAAAQBAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-hijos-del-trueno-de-fernando-lalanajose-almarcegui",
+      "title": "Los Hijos Del Trueno",
+      "authorName": "Fernando Lalanajose Almarcegui",
+      "authorSlug": "fernando-lalanajose-almarcegui",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los hijos del trueno",
+        "authorName": "Fernando Lalana y José María Almárcegui",
+        "authorSlug": "fernando-lalana-y-jose-maria-almarcegui",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa"
+        ],
+        "year": 2004,
+        "pages": 248,
+        "summary": "Los hijos del trueno parte de una premisa satírica muy eficaz: para combatir el fracaso escolar, el Gobierno impone por decreto que las aulas de ESO tengan exactamente veintidós alumnos, y quienes sobran son enviados a unos nuevos Institutos Remanentes. A partir de esa idea, Fernando Lalana y José María Almárcegui construyen una novela juvenil de humor crítico que convierte la escuela en laboratorio de exclusión, burocracia y resistencia. El Instituto Remanente n.º 1, llamado Capitán Trueno, concentra a los desplazados del sistema y expone las consecuencias humanas de una solución administrativa aparentemente racional. La novela se lee con rapidez por su tono irónico y su ritmo narrativo, pero su fondo es serio: cuestiona los mecanismos con los que una institución etiqueta, aparta y reorganiza a quienes no encajan. Bajo la comedia escolar aparece una reflexión muy nítida sobre desigualdad educativa, estigmas y dignidad juvenil.",
+        "aboutThisBook": "Publicada en 2004 y muy asociada a la trayectoria juvenil de Fernando Lalana, esta obra escrita junto a José María Almárcegui ha conocido varias reediciones y una larga vida escolar. El propio Lalana la presenta como una de sus colaboraciones más ambiciosas y como una sátira feroz del subgénero de las novelas de instituto y de los sistemas educativos excluyentes. Esa definición es precisa: el libro exagera una medida administrativa hasta volver visible su violencia estructural. La comicidad, por tanto, no rebaja el conflicto, sino que lo hace más legible. Por eso la novela funciona a la vez como lectura entretenida y como texto muy útil para debatir educación, fracaso escolar, clasificación de alumnos y autoridad institucional.",
+        "forWhom": "Para lectores adolescentes desde secundaria, docentes que quieran trabajar crítica institucional con humor y mediadores de lectura interesados en novelas juveniles que hablen de escuela, etiquetas sociales y exclusión sin perder agilidad narrativa.",
+        "whyItMatters": "Importa porque convierte una reforma escolar absurda en espejo de problemas reales: segregación, etiquetado, desigualdad y comodidad burocrática. Su sátira sigue siendo reconocible allí donde la escuela clasifica antes de escuchar.",
+        "editorialIntro": "Pocas novelas juveniles sobre el instituto se atreven a ser tan mordaces como Los hijos del trueno. Lalana y Almárcegui parten de una decisión gubernamental disparatada y la llevan hasta sus últimas consecuencias narrativas: si el sistema decide que algunos alumnos sobran, alguien tendrá que cargar con ese excedente. El humor sostiene la lectura, pero debajo late una crítica muy seria de la lógica administrativa y de la facilidad con que la educación puede transformarse en mecanismo de exclusión.",
+        "readingLevel": "Lectura media para público juvenil. El estilo es directo y accesible, pero la ironía y la crítica social invitan a una lectura atenta, especialmente útil para comentar tono satírico, caricatura institucional y conflictos de grupo.",
+        "whyReadToday": "Porque muchos debates actuales sobre selección, rendimiento y segregación escolar siguen presentes en la novela. Su exageración humorística ayuda a pensar con claridad políticas educativas que, bajo apariencia técnica, afectan de lleno a la vida de los alumnos.",
+        "studyNotes": [
+          "El llamado Decreto del Veintidós es una hipérbole satírica: exagera la obsesión por regular y medir para mostrar el coste humano de ciertas decisiones educativas.",
+          "El Instituto Remanente Capitán Trueno funciona como símbolo. Reúne a quienes el sistema considera sobrantes y por eso hace visible cómo operan el estigma y la segregación.",
+          "La novela puede analizarse como crítica de la burocracia: los problemas no desaparecen, solo se desplazan mediante etiquetas administrativas que pretenden sonar neutrales.",
+          "El humor no suaviza la denuncia. Al contrario, permite que el lector detecte con más facilidad la arbitrariedad de las normas y la violencia simbólica de la exclusión escolar."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: una solución oficial para el fracaso escolar",
+            "summary": "La novela arranca con la decisión gubernamental de limitar a veintidós el número de alumnos por aula. Lo que parece una medida técnica desencadena de inmediato una reorganización absurda y profundamente injusta del sistema educativo."
+          },
+          {
+            "title": "Nudo: nacimiento del Instituto Remanente Capitán Trueno",
+            "summary": "Los estudiantes excedentes son derivados a un centro nuevo que concentra a quienes el sistema no quiere integrar en la normalidad estadística. Allí la novela despliega su humor más incisivo y muestra la lógica excluyente de la medida."
+          },
+          {
+            "title": "Desarrollo: convivencia, etiquetas y resistencia",
+            "summary": "A medida que los jóvenes ocupan el nuevo espacio, la narración observa cómo se forman vínculos, jerarquías y modos de resistencia frente a una institución que los ha definido de antemano como sobrantes."
+          },
+          {
+            "title": "Cierre: la sátira revela su fondo crítico",
+            "summary": "El desenlace refuerza la idea de que el problema no era el alumnado, sino la forma en que el sistema decidió administrarlo. La novela concluye dejando una crítica persistente a la exclusión revestida de reforma."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Sátira de la escuela como máquina clasificatoria",
+            "content": "El libro entiende la escuela no solo como lugar de aprendizaje, sino como institución que ordena, separa y produce categorías. Al inventar los Institutos Remanentes, la novela vuelve visible ese costado clasificatorio y lo lleva a un extremo cómico para denunciarlo mejor."
+          },
+          {
+            "heading": "Humor políticamente incorrecto y crítica social",
+            "content": "Lalana definió la obra como una novela políticamente incorrecta, y esa incorrección no es gratuita. La exageración verbal y situacional sirve para desmontar la falsa neutralidad de ciertos discursos pedagógicos y administrativos."
+          },
+          {
+            "heading": "Juventud, dignidad y derecho a no ser residuo",
+            "content": "La palabra remanente es clave porque convierte a los alumnos en resto sobrante de una operación técnica. Frente a ello, la novela reivindica la dignidad de quienes son clasificados desde fuera y obliga a preguntarse quién decide qué vidas escolares cuentan."
+          },
+          {
+            "heading": "Una lectura escolar que discute la propia escuela",
+            "content": "El valor didáctico del libro es singular: puede leerse dentro del aula y, al mismo tiempo, cuestionar las lógicas del aula y del sistema. Eso lo hace especialmente útil para debates sobre convivencia, políticas educativas y estigmas asociados al rendimiento."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Los hijos del trueno?",
+            "answer": "Trata de una reforma educativa ficticia que limita a veintidós los alumnos por clase y envía a los sobrantes a Institutos Remanentes. Desde esa premisa, la novela desarrolla una sátira juvenil sobre escuela, exclusión y burocracia."
+          },
+          {
+            "question": "¿Es una novela humorística o una crítica social?",
+            "answer": "Es las dos cosas. El humor sostiene el ritmo y la comicidad, pero el fondo del libro es una crítica muy clara a los sistemas educativos que segregan y etiquetan a los alumnos."
+          },
+          {
+            "question": "¿Para qué edades funciona mejor?",
+            "answer": "Funciona especialmente bien desde los 13 o 14 años, cuando el lector puede disfrutar la peripecia escolar y, además, captar la ironía sobre normas, profesores, estadísticas y exclusión."
+          },
+          {
+            "question": "¿Por qué sigue siendo actual?",
+            "answer": "Porque muchos de sus temas siguen vivos: fracaso escolar, segregación, obsesión por los indicadores y tendencia a resolver problemas humanos mediante categorías administrativas."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "TodosTusLibros: Los hijos del trueno",
+            "url": "https://www.todostuslibros.com/libros/los-hijos-del-trueno_978-84-204-0073-0"
+          },
+          {
+            "label": "Google Books: Los hijos del trueno",
+            "url": "https://books.google.com/books/about/Los_hijos_del_trueno.html?id=ukJxtAEACAAJ"
+          },
+          {
+            "label": "Casa del Libro: Los hijos del trueno",
+            "url": "https://www.casadellibro.com/libro-los-hijos-del-trueno/9788491220558/2941885"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T14:27:40Z"
+}

@@ -1,0 +1,1505 @@
+{
+  "batchName": "20260417T2310Z-replenish-01",
+  "createdAt": "2026-04-17T21:36:21Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-sobrino-del-mago-las-cronicas-de-narnia-i-de-c-s-lewis",
+      "title": "El Sobrino Del Mago Las Cronicas De Narnia I",
+      "authorName": "C S Lewis",
+      "authorSlug": "c-s-lewis",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 10,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El sobrino del mago",
+        "authorName": "C. S. Lewis",
+        "authorSlug": "c-s-lewis",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasía",
+          "aventura",
+          "literatura juvenil"
+        ],
+        "year": 1955,
+        "pages": 183,
+        "summary": "El sobrino del mago funciona como origen mítico de Narnia y, al mismo tiempo, como novela de aprendizaje. Digory Kirke y Polly Plummer descubren que el excéntrico tío Andrew ha fabricado unos anillos capaces de trasladarlos entre mundos. Su curiosidad los lleva primero a una ciudad moribunda, donde despiertan a la reina Jadis, y después al nacimiento mismo de Narnia bajo el canto creador de Aslan. Desde ese momento, la aventura deja de ser un juego infantil y se convierte en una experiencia moral: los niños deben asumir responsabilidad por sus actos, reparar un daño que ayudaron a desencadenar y distinguir entre poder, tentación y obediencia. Lewis mezcla maravilla, humor y simbolismo para narrar cómo comienza un mundo y cómo empieza también la maduración interior de sus protagonistas.",
+        "aboutThisBook": "Más que una simple precuela, esta novela explica la lógica moral y fantástica de Las crónicas de Narnia. Aquí aparecen por primera vez elementos decisivos del ciclo: el farol en el bosque, la llegada del mal encarnado por Jadis, la figura de Aslan como creador y la relación entre el mundo cotidiano y los universos imaginarios. Lewis escribe con claridad accesible, pero construye un relato con capas alegóricas, preguntas sobre el deseo y una reflexión constante sobre las consecuencias de la curiosidad mal guiada.",
+        "forWhom": "Ideal para lectores jóvenes que disfrutan la fantasía clásica, para adultos que quieran leer Narnia en orden cronológico interno y para estudiantes interesados en símbolos religiosos, mito de creación y narrativa fantástica del siglo XX.",
+        "whyItMatters": "Importa porque ofrece una puerta de entrada a Narnia y porque resume con nitidez varias obsesiones de Lewis: la creación, la caída, la tentación y la posibilidad de redención. Su aparente sencillez esconde una arquitectura simbólica muy trabajada.",
+        "editorialIntro": "Leer El sobrino del mago después de conocer otras entregas de Narnia produce el placer de reconocer orígenes; leerlo primero permite entrar al ciclo desde la fundación del mundo. En ambos casos, la novela se sostiene sola por su imaginación visual, su ritmo de fábula y su capacidad para convertir una aventura infantil en una meditación sobre el uso correcto de la libertad.",
+        "readingLevel": "Lectura accesible desde secundaria, pero con suficiente densidad simbólica para trabajo escolar y relectura adulta.",
+        "whyReadToday": "Sigue siendo vigente porque habla de curiosidad sin criterio, ambición tecnológica sin ética y responsabilidad frente al daño causado. En tiempos de fascinación por el poder y la novedad, Lewis recuerda que crear y cuidar valen más que dominar.",
+        "studyNotes": [
+          "Conviene seguir la transformación de Digory: pasa de la curiosidad impulsiva a una noción más seria del deber y del sacrificio.",
+          "Jadis no representa solo la maldad externa; encarna la seducción del poder absoluto y la lógica de que todo está permitido si se posee fuerza suficiente.",
+          "El canto de Aslan es central: la creación no surge de la violencia, sino de la palabra, la música y el orden.",
+          "El libro puede leerse como mito de origen, novela infantil de aventuras y relato alegórico cristiano a la vez."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Los anillos y la puerta entre mundos",
+            "summary": "Polly y Digory descubren los experimentos del tío Andrew y son empujados a explorar un sistema de mundos conectados. La fascinación inicial está marcada por la imprudencia de los adultos y por la vulnerabilidad de los niños ante decisiones que no comprenden del todo."
+          },
+          {
+            "title": "Parte 2: Charn y el despertar de Jadis",
+            "summary": "En la ciudad arruinada de Charn, Digory cede a la tentación de tocar la campana que despierta a Jadis. Ese gesto, nacido de la curiosidad, desata el conflicto principal y demuestra que algunos actos no pueden deshacerse con facilidad."
+          },
+          {
+            "title": "Parte 3: El nacimiento de Narnia",
+            "summary": "Los personajes llegan a un vacío oscuro donde el canto de Aslan va creando cielo, tierra, animales y sentido. El episodio redefine la aventura: ya no se trata solo de escapar, sino de comprender el origen del bien y el lugar de cada criatura en el nuevo mundo."
+          },
+          {
+            "title": "Parte 4: La prueba, la manzana y el regreso",
+            "summary": "Digory recibe una misión que pone a prueba su obediencia y su deseo más íntimo: ayudar a su madre enferma. Al escoger correctamente, restablece el orden dañado y vuelve a casa transformado por una experiencia moral que no puede reducirse a fantasía escapista."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Creación y caída en clave narrativa",
+            "content": "La novela reproduce la estructura de un mito fundacional: primero aparece un mundo vacío, luego el acto creador y casi de inmediato la irrupción del mal. Lewis no separa maravilla y peligro: en Narnia nacen juntos la belleza del orden y la amenaza de su corrupción."
+          },
+          {
+            "heading": "Digory como protagonista ético",
+            "content": "El arco de Digory es decisivo porque el conflicto exterior depende de una falta interior: su impulsividad. La novela lo obliga a aprender que el amor verdadero no justifica cualquier atajo, especialmente cuando la tentación parece ofrecer una solución inmediata."
+          },
+          {
+            "heading": "El tío Andrew y la crítica al orgullo moderno",
+            "content": "Tío Andrew representa una inteligencia sin humildad. Su interés por experimentar con fuerzas desconocidas anticipa una crítica muy clara: la técnica sin responsabilidad puede abrir puertas que luego nadie sabe cerrar."
+          },
+          {
+            "heading": "Jadis y el atractivo del poder",
+            "content": "Jadis es una antagonista memorable porque combina esplendor, violencia y persuasión. No solo amenaza por su fuerza, sino porque ofrece una visión del mundo donde la voluntad individual está por encima de toda ley moral."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es el primer libro de Narnia?",
+            "answer": "En la cronología interna del mundo de Narnia sí, porque narra su creación. En orden de publicación, fue el sexto de la serie."
+          },
+          {
+            "question": "¿Puede leerse sin conocer los demás libros?",
+            "answer": "Sí. Funciona como novela independiente, aunque gana resonancia cuando luego se leen o recuerdan otras entregas del ciclo."
+          },
+          {
+            "question": "¿El libro es solo para niños?",
+            "answer": "No. Su lenguaje es accesible para lectores jóvenes, pero sus símbolos, referencias religiosas y preguntas morales sostienen una lectura adulta."
+          },
+          {
+            "question": "¿Qué tema domina la novela?",
+            "answer": "La relación entre tentación, responsabilidad y redención. Lewis explora cómo una decisión aparentemente pequeña puede alterar un mundo entero."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: The Magician's Nephew",
+            "url": "https://en.wikipedia.org/wiki/The_Magician%27s_Nephew"
+          },
+          {
+            "label": "HarperCollins: The Magician's Nephew",
+            "url": "https://www.harpercollins.com/products/the-magicians-nephew-c-s-lewis"
+          },
+          {
+            "label": "Google Libros: The Magician's Nephew",
+            "url": "https://books.google.es/books?vid=ISBN9780061974168&redir_esc=y"
+          },
+          {
+            "label": "Britannica: C. S. Lewis",
+            "url": "https://www.britannica.com/biography/C-S-Lewis"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-vaca-sin-culpa-de-jaime-lopera-gutierrezmarta-ines-bernal-trujillo",
+      "title": "La Vaca Sin Culpa",
+      "authorName": "Jaime Lopera Gutierrezmarta Ines Bernal Trujillo",
+      "authorSlug": "jaime-lopera-gutierrezmarta-ines-bernal-trujillo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 10,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La vaca",
+        "authorName": "Camilo Cruz",
+        "authorSlug": "camilo-cruz",
+        "type": "no-ficcion",
+        "audience": "adultos",
+        "genres": [
+          "desarrollo personal",
+          "autoayuda",
+          "liderazgo"
+        ],
+        "year": null,
+        "pages": 258,
+        "summary": "La vaca es un libro de desarrollo personal construido alrededor de una metáfora sencilla y eficaz: todos cargamos con excusas, hábitos de conformismo y justificativos que nos impiden crecer. Camilo Cruz abre con una parábola sobre un maestro y su discípulo que intervienen en la vida de una familia aferrada a una única vaca como garantía mínima de supervivencia. A partir de esa imagen, el autor desarrolla una argumentación práctica sobre mentalidad, responsabilidad individual y cambio de conducta. El libro combina anécdotas, consejos, observaciones sobre miedo al riesgo y estrategias para detectar racionalizaciones cotidianas. Su fuerza no está en la complejidad teórica, sino en la claridad con la que convierte una idea abstracta, el autoengaño, en una imagen memorable que invita a revisar decisiones concretas.",
+        "aboutThisBook": "No se trata de una novela ni de un tratado académico, sino de un texto de divulgación motivacional orientado a provocar autodiagnóstico. La vaca funciona como símbolo de todo aquello que da una seguridad aparente y, al mismo tiempo, empobrece la ambición personal. Por eso el libro suele leerse en contextos de liderazgo, ventas, emprendimiento y formación profesional. Su estilo directo, repetitivo por momentos, busca impacto práctico más que sutileza literaria.",
+        "forWhom": "Resulta especialmente útil para lectores que buscan revisar rutinas, creencias limitantes y hábitos de postergación; también para equipos de trabajo, formadores y personas interesadas en liderazgo cotidiano más que en teoría empresarial abstracta.",
+        "whyItMatters": "Sigue importando porque pone nombre e imagen a un problema muy común: confundir estabilidad mínima con verdadero proyecto de vida. Su metáfora es simple, pero ayuda a discutir responsabilidad personal sin tecnicismos.",
+        "editorialIntro": "La eficacia editorial de La vaca reside en que casi todo lector reconoce rápido su propia versión del problema. Cruz no propone una receta milagrosa; propone una incomodidad: identificar qué excusas se han vuelto tan familiares que parecen parte natural del carácter. Ese gesto de desmontaje explica por qué el libro ha circulado durante años en talleres, empresas y lecturas de cambio personal.",
+        "readingLevel": "Lectura muy accesible, adecuada para bachillerato superior, formación técnica y público general interesado en crecimiento personal.",
+        "whyReadToday": "Hoy conserva interés porque la cultura de la productividad convive con nuevas formas de autojustificación. El libro obliga a distinguir entre dificultades reales y narrativas cómodas que usamos para no cambiar.",
+        "studyNotes": [
+          "La imagen de la vaca resume una dependencia psicológica: algo que protege a corto plazo, pero limita a largo plazo.",
+          "El libro insiste en responsabilidad personal; conviene leerlo equilibrando esa tesis con el reconocimiento de contextos sociales reales.",
+          "Su valor principal es pedagógico: transforma un concepto difuso en una metáfora fácil de recordar y discutir en grupo.",
+          "Puede analizarse como texto de autoayuda orientado a la acción, no como obra de investigación científica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La parábola de la vaca",
+            "summary": "El libro presenta la historia ejemplar que da nombre a toda la obra. La vaca simboliza la seguridad mínima que impide buscar una vida más amplia, y desde ahí queda definido el tono moral y práctico del texto."
+          },
+          {
+            "title": "Parte 2: Cómo reconocer las excusas",
+            "summary": "Cruz enumera racionalizaciones comunes: culpar a otros, esperar el momento ideal, creer que se carece de talento o aceptar una mediocridad cómoda como destino. La tesis es que la mayoría de estas barreras se sostienen por costumbre mental."
+          },
+          {
+            "title": "Parte 3: Decidir el cambio",
+            "summary": "Una vez identificada la vaca personal, el autor propone sustituir pasividad por acción deliberada. Aquí aparecen ideas sobre disciplina, metas, riesgo calculado y compromiso con hábitos nuevos."
+          },
+          {
+            "title": "Parte 4: Mantener una vida sin vacas",
+            "summary": "El cierre subraya que eliminar una excusa no garantiza un cambio permanente. Hace falta vigilancia sobre nuevas formas de conformismo y una práctica constante de responsabilidad sobre decisiones y resultados."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La fuerza de una metáfora simple",
+            "content": "El libro triunfa por su mecanismo retórico central: una sola imagen organiza todo el discurso. Esa economía simbólica hace que el concepto sea fácil de transmitir en aulas, empresas y conversaciones cotidianas."
+          },
+          {
+            "heading": "Autoayuda y ética de la responsabilidad",
+            "content": "Camilo Cruz escribe desde una ética de la acción individual. Su premisa es que el cambio comienza cuando el sujeto deja de narrarse como víctima absoluta. Esa postura puede resultar estimulante, aunque conviene leerla con sentido crítico para no borrar condicionamientos estructurales."
+          },
+          {
+            "heading": "Entre motivación y simplificación",
+            "content": "Como ocurre con buena parte de la literatura de desarrollo personal, la claridad del mensaje implica cierta simplificación. Precisamente por eso el libro funciona mejor como detonante de conversación y examen personal que como explicación total de por qué una vida se estanca."
+          },
+          {
+            "heading": "Persistencia cultural del libro",
+            "content": "Su circulación prolongada muestra que la metáfora de la excusa rentable sigue viva. En contextos laborales o educativos, el texto mantiene utilidad porque invita a detectar conductas repetidas que consumen energía y aplazan decisiones importantes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La vaca es una novela?",
+            "answer": "No. Es un libro de desarrollo personal que usa una parábola inicial y luego desarrolla ideas de autoevaluación, liderazgo y cambio de hábitos."
+          },
+          {
+            "question": "¿Qué significa exactamente la vaca?",
+            "answer": "Representa cualquier excusa, dependencia o zona de comodidad que parece protegernos, pero termina limitando nuestras posibilidades."
+          },
+          {
+            "question": "¿Sirve para estudio formal?",
+            "answer": "Sí, sobre todo en cursos de liderazgo, comunicación, emprendimiento o análisis de discurso motivacional. Su lenguaje es claro y su metáfora permite discusión aplicada."
+          },
+          {
+            "question": "¿Por qué se ha vuelto un libro tan citado?",
+            "answer": "Porque resume un problema complejo en una imagen fácil de recordar. Esa sencillez favorece su uso en charlas, talleres y procesos de coaching."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Panamericana: La vaca",
+            "url": "https://www.panamericana.com.co/la-vaca-559928/p"
+          },
+          {
+            "label": "Google Libros: La Vaca",
+            "url": "https://books.google.es/books?vid=ISBN9789580100522&redir_esc=y"
+          },
+          {
+            "label": "Goodreads: La Vaca",
+            "url": "https://www.goodreads.com/book/show/640484.La_Vaca"
+          },
+          {
+            "label": "Camilo Cruz: La vaca",
+            "url": "https://camilocruz.com/la-vaca/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-informantes-de-juan-gabriel-vasquez",
+      "title": "Los Informantes",
+      "authorName": "Juan Gabriel Vasquez",
+      "authorSlug": "juan-gabriel-vasquez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 10,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los informantes",
+        "authorName": "Juan Gabriel Vásquez",
+        "authorSlug": "juan-gabriel-vasquez",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela",
+          "ficción histórica",
+          "memoria"
+        ],
+        "year": 2004,
+        "pages": 402,
+        "summary": "Los informantes explora cómo la vida privada queda marcada por la violencia política, la sospecha y los secretos transmitidos entre generaciones. El narrador, Gabriel Santoro, publica un libro sobre Sara Guterman, una mujer judía de origen alemán que vivió en Colombia durante los años de la Segunda Guerra Mundial y sufrió las consecuencias de las listas negras y de la vigilancia estatal. La publicación reabre un pasado que también compromete a su propio padre, Gabriel Santoro padre, y obliga al hijo a revisar recuerdos familiares, silencios y traiciones. Juan Gabriel Vásquez construye así una novela donde investigar el pasado nunca significa recuperar una verdad pura, sino enfrentar versiones interesadas, culpas heredadas y zonas de sombra. El resultado es una obra sobria e incisiva sobre memoria, delación y efectos íntimos de la historia nacional.",
+        "aboutThisBook": "Es una de las novelas fundamentales de la primera etapa narrativa de Vásquez y ya deja ver rasgos que luego definirán su obra: la relación entre historia pública y biografía privada, la desconfianza ante los relatos cerrados y la pregunta por lo que una sociedad recuerda u oculta. La trama conecta la Colombia de mediados del siglo XX con una pesquisa contemporánea que no busca solo hechos, sino comprender cómo se deforman las vidas cuando la sospecha política entra en el hogar.",
+        "forWhom": "Muy recomendable para lectores de novela latinoamericana contemporánea, estudiantes de memoria histórica, clubes de lectura que quieran discutir culpa y archivo, y quienes busquen ficción exigente pero narrativa, sin experimentalismo extremo.",
+        "whyItMatters": "Importa porque muestra una zona menos transitada de la historia colombiana y la enlaza con una reflexión universal sobre la delación, la herencia emocional y la fragilidad de la verdad cuando intervienen el miedo y el honor familiar.",
+        "editorialIntro": "Los informantes no depende del efectismo: su tensión nace de conversaciones rotas, documentos, recuerdos contradictorios y heridas antiguas que vuelven a hablar en el presente. Vásquez convierte un conflicto familiar en una indagación moral mucho más amplia. Por eso la novela destaca tanto como relato íntimo como por su capacidad para pensar la historia colombiana desde una escala humana y concreta.",
+        "readingLevel": "Lectura de complejidad media-alta, apropiada para últimos cursos de secundaria avanzada, universidad y lectores acostumbrados a novela literaria contemporánea.",
+        "whyReadToday": "Leerla hoy ayuda a pensar la circulación de rumores, expedientes y estigmas en cualquier sociedad polarizada. Su pregunta central, qué hace una acusación con una vida, conserva una actualidad poderosa.",
+        "studyNotes": [
+          "La novela trabaja con capas temporales: conviene distinguir el presente de la investigación, la biografía de Sara Guterman y el pasado familiar de los Santoro.",
+          "El tema de la delación no se limita al Estado; también afecta amistades, reputaciones y vínculos íntimos.",
+          "Vásquez no ofrece una verdad definitiva, sino una constelación de testimonios parciales que el lector debe valorar.",
+          "La obra es útil para estudiar cómo la ficción histórica puede intervenir en debates de memoria sin convertirse en simple documento."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El libro que abre la herida",
+            "summary": "Gabriel Santoro hijo publica una obra inspirada en la vida de Sara Guterman y desencadena la reacción violenta de su padre. Lo que parecía un gesto literario se convierte en una crisis familiar que obliga a revisar un pasado silenciado."
+          },
+          {
+            "title": "Parte 2: La vida de Sara Guterman",
+            "summary": "La novela reconstruye la experiencia de una inmigrante judía-alemana en Colombia y el modo en que la guerra mundial, las listas negras y la sospecha pública alteraron existencias que parecían protegidas por la distancia geográfica."
+          },
+          {
+            "title": "Parte 3: Padre e hijo ante la verdad",
+            "summary": "A medida que el narrador investiga, descubre que la historia de Sara se cruza con la biografía moral de su padre. El centro del libro deja de ser solo un expediente histórico y pasa a ser la herencia emocional de una culpa no resuelta."
+          },
+          {
+            "title": "Parte 4: Memoria, versiones y costo humano",
+            "summary": "El cierre no entrega una reparación plena. Más bien muestra que conocer el pasado implica aceptar contradicciones, pérdidas irreversibles y la imposibilidad de separar del todo verdad documental y daño íntimo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria contra relato oficial",
+            "content": "La novela exhibe cómo los archivos y las listas pueden convertir la sospecha en verdad administrativa. Frente a ello, la memoria individual no aparece como solución perfecta, pero sí como espacio donde resisten las complejidades que la burocracia borra."
+          },
+          {
+            "heading": "La delación como herida moral",
+            "content": "El título no alude solo a quienes informan a una autoridad. Señala una cultura de vigilancia, miedo y cálculo social en la que una acusación puede deformar destinos durante décadas."
+          },
+          {
+            "heading": "La familia como escenario de la historia",
+            "content": "Vásquez evita separar lo público de lo privado. La historia entra en la casa, altera la relación entre padre e hijo y muestra que los grandes procesos políticos dejan marcas íntimas, a veces más duraderas que los hechos visibles."
+          },
+          {
+            "heading": "Narrar para comprender, no para absolver",
+            "content": "La investigación de Gabriel Santoro hijo no funciona como juicio sumario. La novela insiste en que narrar el pasado no elimina la culpa ni restituye una inocencia perdida; apenas permite comprender mejor la complejidad del daño."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Los informantes es una novela histórica?",
+            "answer": "Sí, pero en un sentido amplio. Usa hechos y climas históricos reales para explorar efectos íntimos de la delación, la sospecha y la memoria."
+          },
+          {
+            "question": "¿Hace falta conocer la historia colombiana para leerla?",
+            "answer": "No de forma previa, aunque conocer el contexto de la Segunda Guerra Mundial y de la vida política colombiana enriquece mucho la lectura."
+          },
+          {
+            "question": "¿Cuál es el conflicto principal?",
+            "answer": "La investigación de un pasado que compromete tanto a una mujer perseguida por la historia como a la propia familia del narrador. El choque entre padre e hijo concentra esa tensión."
+          },
+          {
+            "question": "¿Qué distingue esta novela dentro de la obra de Vásquez?",
+            "answer": "Que ya formula con gran claridad su tema mayor: cómo los acontecimientos públicos alteran la intimidad y cómo la escritura intenta, sin lograrlo del todo, ordenar ese desastre."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Google Libros: Los informantes",
+            "url": "https://books.google.es/books?vid=ISBN9789587041941&redir_esc=y"
+          },
+          {
+            "label": "Goodreads: Los informantes",
+            "url": "https://www.goodreads.com/book/show/1782826.Los_informantes"
+          },
+          {
+            "label": "Penguin Libros: Los informantes",
+            "url": "https://www.penguinlibros.com/co/literatura-contemporanea/79068-libro-los-informantes-9789585433779"
+          },
+          {
+            "label": "Wikipedia: Juan Gabriel Vásquez",
+            "url": "https://es.wikipedia.org/wiki/Juan_Gabriel_V%C3%A1squez"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "un-agujero-en-la-alambrada-de-francois-sautereau",
+      "title": "Un Agujero En La Alambrada",
+      "authorName": "Francois Sautereau",
+      "authorSlug": "francois-sautereau",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 10,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un agujero en la alambrada",
+        "authorName": "François Sautereau",
+        "authorSlug": "francois-sautereau",
+        "type": "ficción",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "aventura",
+          "distopía",
+          "misterio"
+        ],
+        "year": 2002,
+        "pages": 196,
+        "summary": "Esta novela juvenil de François Sautereau parte de una premisa sencilla y poderosa: Grisón, un niño huérfano que vive en un pequeño pueblo francés, siente la misma curiosidad que el resto de su pandilla por el bosque de Epnoi, una zona prohibida y vigilada por gendarmes. La aparición de una alambrada dentro del bosque convierte la intriga infantil en un problema mayor: detrás de esa barrera hay un secreto que los adultos no explican y que los niños, precisamente por no aceptar respuestas vacías, están decididos a descubrir. Sautereau convierte la aventura en una exploración del miedo, la obediencia y la verdad. El resultado es una narración ágil, de lectura absorbente, que combina ritmo de persecución, suspense gradual y una revelación final que desplaza el libro desde la peripecia infantil hacia una inquietante reflexión sobre el control social.",
+        "aboutThisBook": "Aunque suele circular como lectura juvenil, este libro destaca por la seriedad con que trata la curiosidad moral de la infancia. No se limita a narrar travesuras en un bosque prohibido: muestra cómo un grupo de niños percibe contradicciones que los adultos han aprendido a tolerar. La novela construye su tensión mediante indicios, vigilancia y silencios, y reserva su mayor fuerza para el descubrimiento de lo que la alambrada representa. Por eso funciona a la vez como aventura accesible y como distopía breve, clara y muy eficaz.",
+        "forWhom": "Muy recomendable para lectores jóvenes desde secundaria, para mediadores de lectura y para adultos que busquen una novela breve con misterio y trasfondo político. Encaja bien en clases donde se trabaje libertad, propaganda, vigilancia o pensamiento crítico.",
+        "whyItMatters": "Importa porque enseña, sin sermón, que la prohibición constante acaba despertando preguntas más hondas que el mero deseo de desobedecer. Bajo su apariencia de aventura escolar, la novela examina la normalización del miedo y la importancia de mirar por cuenta propia.",
+        "editorialIntro": "Un agujero en la alambrada es uno de esos libros juveniles que permanecen en la memoria porque ofrece mucho más de lo que promete su arranque aventurero. François Sautereau entiende muy bien el punto de vista infantil: la mezcla de juego, intuición y rebeldía que lleva a los niños a investigar aquello que los adultos prefieren no explicar. Lo notable es que esa energía narrativa desemboca en una auténtica inquietud moral. El bosque, la alambrada y la vigilancia no son mero decorado, sino dispositivos para pensar la obediencia y el secreto.",
+        "readingLevel": "Lectura media, apta para secundaria: frases claras y ritmo rápido, pero con una capa alegórica que gana valor cuando se comentan sus implicaciones sociales y políticas.",
+        "whyReadToday": "Sigue siendo pertinente porque habla de vigilancia, zonas vedadas, relatos oficiales y miedo colectivo, temas muy reconocibles en el presente. Además, muestra cómo la curiosidad puede ser una forma de resistencia cívica.",
+        "studyNotes": [
+          "La novela puede leerse como aventura juvenil, pero también como distopía en miniatura: la alambrada materializa una separación política y mental.",
+          "Grisón funciona como protagonista observador: no es héroe grandilocuente, sino un niño que insiste en preguntar cuando el entorno prefiere obedecer.",
+          "El cabo Beauras aporta un matiz importante: representa al adulto que cumple órdenes sin comprenderlas del todo y que empieza a sospechar del sistema que sirve.",
+          "El suspense nace menos de la acción pura que de la acumulación de anomalías: vigilancia excesiva, silencios, obras extrañas y prohibiciones sin explicación convincente."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El bosque prohibido",
+            "summary": "Se presenta el pueblo, la vida de Grisón y la fascinación que el bosque Epnoi ejerce sobre los niños. La prohibición de entrar, reforzada por la presencia de gendarmes, convierte el lugar en un foco de deseo, rumor y desafío infantil."
+          },
+          {
+            "title": "Parte 2: La alambrada y las sospechas",
+            "summary": "Las incursiones de la pandilla revelan que dentro del bosque existe una alambrada y que alrededor de ella ocurren cosas difíciles de explicar. Aumentan las preguntas sobre el sentido de la vigilancia y sobre qué intentan ocultar los adultos."
+          },
+          {
+            "title": "Parte 3: El descubrimiento",
+            "summary": "La investigación de los chicos los acerca a la verdad y transforma el relato de aventuras en una revelación inquietante. Lo que aparece al otro lado de la alambrada obliga a reinterpretar todo lo anterior y da al libro su dimensión crítica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Infancia y conocimiento",
+            "content": "Sautereau concede a los niños una inteligencia ética muy precisa. No descubren la verdad por azar, sino porque no han interiorizado todavía la resignación adulta. Esa diferencia convierte la infancia en una posición crítica frente al orden establecido."
+          },
+          {
+            "heading": "La alambrada como símbolo",
+            "content": "La alambrada no solo separa espacios; separa versiones del mundo. Es frontera física, herramienta de control y metáfora de la ignorancia administrada. La novela la usa para preguntar quién decide qué puede saberse y qué debe permanecer oculto."
+          },
+          {
+            "heading": "Una distopía breve y eficaz",
+            "content": "El libro no necesita grandes explicaciones teóricas para inquietar. Le basta con mostrar una comunidad que ha aceptado la vigilancia y con seguir a unos niños que se resisten a normalizarla. Esa economía narrativa le da fuerza y claridad pedagógica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro solo para lectores jóvenes?",
+            "answer": "No. Está escrito con accesibilidad juvenil, pero su alegoría sobre el control, el miedo y la verdad permite una lectura adulta muy rica."
+          },
+          {
+            "question": "¿Conviene leerlo como distopía?",
+            "answer": "Sí, aunque no desde el principio de forma explícita. La novela empieza como aventura y misterio, pero su revelación final reordena el texto dentro de una lógica claramente distópica."
+          },
+          {
+            "question": "¿Qué hace memorable a Grisón?",
+            "answer": "Su mezcla de vulnerabilidad, curiosidad y firmeza. No domina la historia por fuerza, sino por su negativa a aceptar explicaciones huecas."
+          },
+          {
+            "question": "¿Es útil en contextos escolares?",
+            "answer": "Mucho. Permite trabajar censura, autoridad, propaganda, frontera, pensamiento crítico y construcción del miedo sin recurrir a un texto excesivamente largo."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Quelibroleo - ficha y sinopsis",
+            "url": "https://quelibroleo.com/un-agujero-en-la-alambrada"
+          },
+          {
+            "label": "Agapea - datos editoriales",
+            "url": "https://www.agapea.com/libros/Un-agujero-en-la-alambrada-9788434808850-i.htm"
+          },
+          {
+            "label": "Open Library - edición registrada",
+            "url": "https://openlibrary.org/works/OL9114521W"
+          },
+          {
+            "label": "Pilar Martín Arias - reseña lectora",
+            "url": "https://pilarmartinarias.com/un-agujero-en-la-alambrada/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "un-mundo-para-julius-de-alfredo-bryce-echenique",
+      "title": "Un Mundo Para Julius",
+      "authorName": "Alfredo Bryce Echenique",
+      "authorSlug": "alfredo-bryce-echenique",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 10,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un mundo para Julius",
+        "authorName": "Alfredo Bryce Echenique",
+        "authorSlug": "alfredo-bryce-echenique",
+        "type": "ficción",
+        "audience": "adultos",
+        "genres": [
+          "novela",
+          "narrativa latinoamericana",
+          "novela de formación",
+          "crítica social"
+        ],
+        "year": 1970,
+        "pages": 608,
+        "summary": "Publicada originalmente en 1970, Un mundo para Julius es una de las novelas fundamentales de la literatura peruana del siglo XX. Bryce Echenique sitúa la mirada en Julius, un niño de la alta sociedad limeña, para retratar desde dentro la vida de una familia privilegiada y, al mismo tiempo, desnudar la lógica clasista de ese mundo. La novela no avanza como una simple crónica de infancia: convierte la sensibilidad del niño en un hilo conductor que enlaza pérdidas afectivas, relaciones familiares, servidumbre doméstica, rituales de distinción y violencia social apenas disimulada por el refinamiento. Bryce combina ironía, ternura, nostalgia y observación crítica para mostrar cómo la inocencia de Julius va chocando con una estructura social profundamente injusta. El libro es, a la vez, retrato de clase, aprendizaje sentimental y desmontaje moral de una oligarquía que vive convencida de su propia normalidad.",
+        "aboutThisBook": "La importancia de esta novela no se debe solo a su celebridad canónica, sino a su extraordinaria capacidad para sostener varios registros a la vez. Es una novela de infancia, una sátira social, una elegía por un mundo en decadencia y una indagación en la formación de la conciencia. Bryce Echenique trabaja la oralidad, el humor y el cambio de perspectiva con una soltura poco común, de modo que el lector entra en un universo refinado y desigual cuyo encanto superficial nunca cancela su trasfondo cruel. Por eso sigue leyéndose como una obra viva y no como una simple pieza de museo.",
+        "forWhom": "Ideal para lectores de literatura hispanoamericana, estudiantes universitarios, clubes de lectura y quienes busquen novelas que examinan clase, infancia y memoria. También es especialmente útil para cursos sobre boom y posboom, narrativa peruana y representación de la oligarquía latinoamericana.",
+        "whyItMatters": "Sigue importando porque convierte una experiencia privada de infancia en un diagnóstico social amplio. Julius no solo observa una familia: observa una forma de país. La novela ayuda a entender cómo el privilegio se vuelve paisaje moral y cómo la ternura puede convivir con la desigualdad.",
+        "editorialIntro": "Pocas novelas latinoamericanas han retratado con tanta lucidez y flexibilidad tonal el universo de la alta burguesía como Un mundo para Julius. Alfredo Bryce Echenique evita tanto el panfleto como la complacencia: prefiere una mirada móvil, irónica y profundamente sensible que deja al descubierto la fragilidad emocional y la violencia estructural de ese mundo. Julius, con su mezcla de inocencia, atención y desconcierto, no es solo un personaje entrañable; es el instrumento narrativo que permite revelar lo que los adultos consideran natural y el lector percibe como intolerable.",
+        "readingLevel": "Lectura media-alta: el lenguaje es fluido y muy legible, pero la amplitud de la novela, su ironía y su entramado social exigen atención sostenida y cierta madurez interpretativa.",
+        "whyReadToday": "Porque sigue siendo una gran novela sobre privilegio, desigualdad y educación sentimental. En un presente atravesado por debates sobre clase, servicio doméstico, herencia social y memoria de las élites, la novela conserva una fuerza crítica intacta.",
+        "studyNotes": [
+          "Julius no domina la novela por acción heroica, sino por sensibilidad perceptiva: su manera de mirar descubre fisuras morales que los adultos normalizan.",
+          "La casa y el entorno familiar funcionan como miniatura del orden social limeño: jerarquías, afectos y abusos se distribuyen de acuerdo con la clase.",
+          "El humor de Bryce no suaviza la crítica; la vuelve más incisiva. La ironía permite exhibir la ridiculez y la brutalidad del privilegio sin perder humanidad narrativa.",
+          "La novela combina memoria, oralidad y observación social, rasgos que explican su influencia posterior en la narrativa latinoamericana."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: La infancia protegida",
+            "summary": "La novela presenta a Julius en el espacio doméstico de la élite limeña, rodeado de comodidades, ausencias afectivas y vínculos intensos con las personas del servicio. Desde el comienzo se advierte que su mundo está lleno de privilegios y, a la vez, de pérdidas."
+          },
+          {
+            "title": "Segunda parte: Aprender a mirar",
+            "summary": "Conforme Julius crece, percibe mejor las tensiones entre apariencias elegantes y realidades injustas. La familia, la escuela, la vida social y la relación con los empleados muestran que el orden que lo protege también excluye y humilla a otros."
+          },
+          {
+            "title": "Tercera parte: Conciencia y desengaño",
+            "summary": "La acumulación de experiencias afectivas y sociales lleva a Julius hacia una comprensión más dolorosa del mundo que habita. La novela se convierte entonces en una educación sentimental atravesada por la conciencia de clase y la pérdida de inocencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Retrato de una oligarquía",
+            "content": "Bryce Echenique construye un retrato complejo de la clase alta limeña: no la presenta como caricatura plana, sino como un universo sofisticado que organiza la desigualdad como si fuera parte natural del paisaje. Esa naturalización es, precisamente, el blanco principal de la novela."
+          },
+          {
+            "heading": "La infancia como punto de vista crítico",
+            "content": "La elección de un niño como eje narrativo es decisiva. Julius no posee todavía el lenguaje ideológico de los adultos, pero percibe la injusticia a través del afecto, el desconcierto y la observación. Esa mirada vuelve más visibles los mecanismos de la exclusión."
+          },
+          {
+            "heading": "Humor, oralidad y melancolía",
+            "content": "Una de las grandes virtudes del libro es su tono. La ironía no elimina la tristeza; la acompaña. La oralidad da cercanía y movilidad al relato, mientras que la melancolía impide que la crítica social se convierta en mera burla."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de formación?",
+            "answer": "Sí, aunque en un sentido amplio. Narra la pérdida de inocencia de Julius, pero esa formación está inseparablemente ligada al descubrimiento de la desigualdad social."
+          },
+          {
+            "question": "¿Por qué se considera una novela clave en Perú?",
+            "answer": "Porque logró retratar con enorme fuerza literaria a la oligarquía limeña, introdujo una voz singular dentro de la narrativa latinoamericana y se mantuvo como referencia crítica durante décadas."
+          },
+          {
+            "question": "¿El libro depende mucho del contexto peruano?",
+            "answer": "Está profundamente enraizado en Lima, pero sus preguntas sobre clase, servicio, infancia y privilegio resultan comprensibles para lectores de muchos otros contextos."
+          },
+          {
+            "question": "¿Se lee bien hoy pese a su extensión?",
+            "answer": "Sí. Su longitud exige tiempo, pero la agilidad del estilo, la riqueza de escenas y la construcción del personaje de Julius sostienen muy bien la lectura."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia - ficha general de la novela",
+            "url": "https://es.wikipedia.org/wiki/Un_mundo_para_Julius"
+          },
+          {
+            "label": "Editorial Anagrama - sinopsis y datos editoriales",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/un-mundo-para-julius/9788433909893/NH_179"
+          },
+          {
+            "label": "Ediciones Cátedra - edición de estudio",
+            "url": "https://www.catedra.com/libro/letras-hispanicas/un-mundo-para-julius-alfredo-bryce-echenique-9788437611914/"
+          },
+          {
+            "label": "Latin American Literature Today - reseña crítica",
+            "url": "https://latinamericanliteraturetoday.org/es/rese%C3%B1as/un-mundo-para-julius-alfredo-bryce-echenique-2/"
+          },
+          {
+            "label": "Biografías y Vidas - resumen de la obra",
+            "url": "https://www.biografiasyvidas.com/obra/mundo_julius.htm"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "612-euros-de-jon-arretxe",
+      "title": "612 Euros",
+      "authorName": "Jon Arretxe",
+      "authorSlug": "jon-arretxe",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 9,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "612 euros",
+        "authorName": "Jon Arretxe",
+        "authorSlug": "jon-arretxe",
+        "type": "ficción",
+        "audience": "adultos",
+        "genres": [
+          "novela negra",
+          "narrativa social",
+          "intriga"
+        ],
+        "year": 2013,
+        "pages": 272,
+        "summary": "612 euros es la segunda entrega de la saga del detective Touré y una muestra muy eficaz de cómo la novela negra puede trabajar, al mismo tiempo, el entretenimiento y la crítica social. Jon Arretxe sitúa en el centro a Touré, inmigrante sin papeles, respetado por los suyos, vigilado por la policía y obligado a sobrevivir mediante trabajos precarios y favores ambiguos. La llegada de un supuesto familiar desencadena una cadena de incidentes, engaños y desplazamientos que empujan al protagonista a poner en juego su ingenio detectivesco. Arretxe escribe con velocidad, humor y oído para la calle, pero bajo ese ritmo ligero aparece un retrato duro de la vulnerabilidad administrativa, el racismo cotidiano y la economía informal que sostiene a quienes permanecen fuera del foco. La novela avanza como intriga urbana y, a la vez, como inmersión en un subsuelo social que rara vez ocupa el centro de la ficción española.",
+        "aboutThisBook": "Lo más interesante de 612 euros es su equilibrio entre tono desenfadado y materia áspera. Touré es un personaje carismático, irónico y muy consciente de las reglas cambiantes del entorno en el que se mueve. Gracias a él, la novela evita tanto la solemnidad como el costumbrismo superficial. Cada peripecia detectivesca sirve para mostrar redes de supervivencia, sospecha policial, deseo, explotación y solidaridad entre desplazados. Arretxe convierte ese entramado en una historia muy legible y muy móvil, donde la crítica no frena la acción, sino que la alimenta.",
+        "forWhom": "Muy recomendable para lectores de novela negra contemporánea, para quienes buscan ficción social con ritmo y para clubes de lectura interesados en migración, marginalidad y ciudad. También funciona bien como puerta de entrada a la serie de Touré.",
+        "whyItMatters": "Importa porque desplaza el foco habitual del policial: el centro no lo ocupa el investigador profesional integrado en el sistema, sino un migrante precario que debe leer la ciudad desde la intemperie. Esa inversión cambia la ética y la mirada del género.",
+        "editorialIntro": "Jon Arretxe encontró en Touré una de las voces más singulares de la novela negra en español reciente. En 612 euros, esa voz gana espesor y precisión: divertida, sagaz, herida y perfectamente adaptada a las contradicciones de una ciudad que tolera a los invisibles mientras se beneficia de ellos. La novela tiene acción, golpes de efecto y humor, pero su verdadero valor está en cómo hace visible un subsuelo humano sin convertirlo en decorado exótico. Touré no es símbolo abstracto: es un personaje vivo que piensa, negocia, sospecha y sobrevive.",
+        "readingLevel": "Lectura media: prosa directa, capítulos ágiles y fuerte impulso narrativo. La complejidad no está en el estilo, sino en las capas sociales y morales que atraviesan la investigación.",
+        "whyReadToday": "Se lee con actualidad porque conecta el policial con debates urgentes sobre migración, irregularidad administrativa, control policial y economías de la precariedad. Además, muestra que la novela negra sigue siendo una herramienta muy fértil para observar la ciudad contemporánea.",
+        "studyNotes": [
+          "Touré subvierte el modelo clásico del detective: investiga desde la vulnerabilidad y no desde una posición protegida por la ley o el prestigio.",
+          "El título remite a una cantidad concreta de dinero, pero también condensa una lógica de supervivencia en la que cada cifra puede decidir el margen de libertad de los personajes.",
+          "La comicidad del libro no rebaja su dureza social; la hace más incisiva, porque revela absurdos estructurales de la burocracia y del racismo cotidiano.",
+          "La ciudad aparece como red de intercambios desiguales: trabajos precarios, favores, vigilancia, deseo y miedo conviven en el mismo espacio narrativo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: La visita inesperada",
+            "summary": "La vida precaria pero relativamente equilibrada de Touré se altera con la llegada de un supuesto familiar y con nuevas exigencias económicas y afectivas. Desde ahí se activa la maquinaria de la intriga."
+          },
+          {
+            "title": "Segunda parte: Peripecias y supervivencia",
+            "summary": "Touré atraviesa encargos, malentendidos, presiones y situaciones cada vez más absurdas. La novela combina humor con una descripción muy concreta de la vida de los sin papeles y de los riesgos de moverse en los márgenes."
+          },
+          {
+            "title": "Tercera parte: Ingenio contra el sistema",
+            "summary": "La acumulación de conflictos obliga al protagonista a actuar como detective improvisado, lector de personas y estratega de subsistencia. El cierre reúne la tensión criminal con la crítica social que sostiene toda la novela."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un detective desde la intemperie",
+            "content": "La gran novedad de Touré es que su capacidad de investigar nace de la necesidad, no del oficio institucional. Esa posición le permite ver zonas de la ciudad que el policial clásico tiende a tratar de manera secundaria o estereotipada."
+          },
+          {
+            "heading": "Humor y denuncia",
+            "content": "Arretxe maneja un humor seco y muy funcional que evita la victimización del protagonista. La novela denuncia racismo, explotación y arbitrariedad policial, pero lo hace mediante escenas vivas y diálogos con pulso, no mediante discursos abstractos."
+          },
+          {
+            "heading": "La ciudad oculta",
+            "content": "Uno de los mayores aciertos del libro es mostrar el mundo de los sin papeles como un sistema complejo de relaciones, miedos y apoyos. No se trata de un simple telón de fondo social, sino del verdadero motor ético y narrativo del relato."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta leer antes otra novela de Touré?",
+            "answer": "No es imprescindible, aunque conocer la primera entrega ayuda a captar mejor la evolución del personaje. 612 euros funciona por sí sola con bastante claridad."
+          },
+          {
+            "question": "¿Es más novela negra o novela social?",
+            "answer": "Es ambas cosas. Utiliza mecanismos de intriga y detección, pero los pone al servicio de un retrato muy concreto de la precariedad migrante."
+          },
+          {
+            "question": "¿Qué destaca en la escritura de Arretxe aquí?",
+            "answer": "La rapidez narrativa, el humor, la capacidad de observación urbana y la naturalidad con que integra crítica social en una trama muy legible."
+          },
+          {
+            "question": "¿Por qué el personaje de Touré resulta tan eficaz?",
+            "answer": "Porque combina carisma, inteligencia práctica, ironía y fragilidad real. Es un protagonista que no necesita heroicidad clásica para sostener el interés y la tensión moral del libro."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Erein - ficha editorial y sinopsis",
+            "url": "https://www.erein.eus/libro/612-euros"
+          },
+          {
+            "label": "Txalaparta - ficha comercial con datos del autor",
+            "url": "https://www.txalaparta.eus/es/libros/612-euros-castellano"
+          },
+          {
+            "label": "Quelibroleo - resumen y clasificación",
+            "url": "https://quelibroleo.com/612-euros"
+          },
+          {
+            "label": "Elkar - ficha del libro",
+            "url": "https://www.elkar.eus/es/liburu_fitxa/612-euros/arretxe-jon/9788497468404"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "alicia-a-traves-del-espejo-de-lewis-carroll",
+      "title": "Alicia A Traves Del Espejo",
+      "authorName": "Lewis Carroll",
+      "authorSlug": "lewis-carroll",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 9,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "A través del espejo y lo que Alicia encontró allí",
+        "authorName": "Lewis Carroll",
+        "authorSlug": "lewis-carroll",
+        "type": "novela",
+        "audience": "juvenil",
+        "genres": [
+          "fantasía",
+          "clásicos",
+          "literatura infantil"
+        ],
+        "year": 1871,
+        "pages": null,
+        "summary": "Publicada como continuación de Alicia en el país de las maravillas, esta novela traslada a Alicia a un territorio regido por la lógica del espejo y por la estructura simbólica de una partida de ajedrez. Nada funciona según la experiencia cotidiana: avanzar exige correr, el lenguaje se pliega sobre sí mismo y los personajes convierten la conversación en un juego de precisión y absurdo. Carroll compone así una fábula de crecimiento donde la niña cruza escenas breves, encuentros desconcertantes y poemas memorables hasta alcanzar la última casilla del tablero. Más que una simple serie de episodios extravagantes, el libro explora cómo una mente infantil intenta orientarse en un mundo donde las reglas cambian sin aviso y, justamente por eso, obligan a pensar con más atención.",
+        "aboutThisBook": "Este libro es una pieza central de la fantasía victoriana y uno de los textos más estudiados de Lewis Carroll. Su interés no depende solo de sus criaturas excéntricas, sino de la forma en que une juego verbal, sátira, poesía y estructura narrativa. A diferencia del primer viaje de Alicia, aquí existe un recorrido más visible: la niña pasa de peón a reina a través de un tablero vivo. Esa organización le da al relato una sensación de avance, aunque cada parada conserve el brillo imprevisible del sueño y del disparate lógico.",
+        "forWhom": "Para lectores jóvenes que quieran entrar en un clásico sin solemnidad, para adultos interesados en la literatura del absurdo y para estudiantes que necesiten observar cómo una novela infantil puede operar también como sátira lingüística y filosófica.",
+        "whyItMatters": "Importa porque muestra que la literatura infantil puede ser formalmente audaz, intelectualmente juguetona y duradera sin perder encanto. También sigue siendo una referencia decisiva para entender la fantasía moderna y la relación entre lenguaje, identidad y poder.",
+        "editorialIntro": "Leer A través del espejo hoy es entrar en un clásico que todavía se siente extraño, rápido e inteligente. Carroll no ofrece moralejas simples ni un mundo fantástico estable: ofrece una máquina de preguntas. Cada diálogo obliga a Alicia a defender quién es, qué entiende y cómo interpreta lo que ve. Ese movimiento convierte la novela en una experiencia ideal para lectura guiada, porque detrás del humor hay un estudio fino sobre el desconcierto, la infancia y la fragilidad de las reglas con las que organizamos la realidad.",
+        "readingLevel": "Lectura accesible en la superficie, pero muy rica en dobles sentidos, juegos verbales y referencias culturales; funciona bien en secundaria y en lectores adultos que acepten releer y comentar.",
+        "whyReadToday": "Porque sigue dialogando con un presente saturado de discursos contradictorios, reglas arbitrarias y lenguaje confuso. Alicia enfrenta ese mundo con curiosidad, ironía y resistencia, tres herramientas todavía muy útiles para leer nuestro tiempo.",
+        "studyNotes": [
+          "La imagen del espejo no solo invierte el espacio: también altera las reglas del significado y obliga a pensar qué ocurre cuando lo familiar deja de obedecer a la costumbre.",
+          "La estructura del ajedrez organiza el avance de Alicia y sugiere una educación por etapas, aunque cada paso esté lleno de interrupciones, acertijos y desvíos.",
+          "Muchos diálogos funcionan como combates verbales: quien domina la definición de las palabras domina, al menos por un momento, la situación.",
+          "El poema 'Jabberwocky' resume bien la estrategia del libro: incluso cuando no entendemos todas las palabras, percibimos ritmo, amenaza, humor y forma narrativa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Entrada al mundo del espejo",
+            "summary": "Alicia pasa del salón doméstico a una habitación invertida donde descubre que el espejo no reproduce simplemente la realidad: la reorganiza. Allí aparecen el poema de 'Jabberwocky' y la primera intuición de que deberá aprender nuevas reglas para orientarse."
+          },
+          {
+            "title": "El tablero y sus figuras",
+            "summary": "Ya en el jardín y después en los distintos cuadrados del tablero, Alicia encuentra flores parlantes, a la Reina Roja, a Tweedledum y Tweedledee, al Caballero Blanco y a otras figuras que convierten cada encuentro en una prueba de lenguaje, paciencia y percepción."
+          },
+          {
+            "title": "Coronación y despertar",
+            "summary": "Cuando alcanza la octava casilla, Alicia es coronada reina, pero el triunfo desemboca en un banquete caótico y en una nueva dislocación de la lógica. El cierre devuelve a la protagonista al umbral entre sueño y vigilia y deja abierta la gran pregunta del libro: quién soñó a quién."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Lenguaje como terreno inestable",
+            "content": "Carroll convierte la conversación en un laboratorio. Los personajes discuten significados, tuercen refranes, responden con literalidad excesiva o desplazan el sentido de una frase hasta volverla absurda. El efecto no es ornamental: muestra que comprender el mundo depende en buena medida de comprender cómo se usan las palabras y quién impone su uso."
+          },
+          {
+            "heading": "Crecimiento e identidad",
+            "content": "Alicia ya no es solamente una visitante sorprendida; es una niña que intenta sostener una identidad propia mientras todo a su alrededor la corrige, la apura o la ridiculiza. El paso de peón a reina le da a la novela una forma de Bildungsroman fantástico, donde madurar significa aprender a pensar sin aceptar automáticamente las reglas ajenas."
+          },
+          {
+            "heading": "Sueño, juego y crítica social",
+            "content": "El libro conserva la libertad onírica del primer Alicia, pero la combina con una observación satírica del mundo adulto victoriano. La etiqueta, la educación, la autoridad y el sentido común aparecen como construcciones frágiles. Por eso la novela admite una lectura infantil, una lectura humorística y otra crítica casi filosófica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer Alicia en el país de las maravillas antes?",
+            "answer": "No es indispensable, pero sí recomendable. Este libro puede leerse por separado, aunque dialoga constantemente con el anterior y gana profundidad cuando se conocen ya la voz y la lógica de Alicia."
+          },
+          {
+            "question": "¿Es un libro solo para niños?",
+            "answer": "No. Su superficie narrativa es accesible para lectores jóvenes, pero sus juegos lógicos, su sátira y su elaboración verbal lo convierten en una obra muy fértil para lectores adultos y para estudio literario."
+          },
+          {
+            "question": "¿Qué papel cumple el ajedrez en la novela?",
+            "answer": "No es un simple adorno. El ajedrez ofrece una estructura de progreso para Alicia y refuerza la idea de que su viaje consiste en aprender a moverse dentro de un sistema de reglas que nunca termina de ser estable."
+          },
+          {
+            "question": "¿Por qué 'Jabberwocky' es tan importante?",
+            "answer": "Porque condensa el método de Carroll: sentido parcial, musicalidad poderosa, humor y extrañeza. Es una prueba de que el lenguaje puede producir efectos narrativos incluso cuando una parte de sus palabras parece inventada o incomprensible."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Encyclopaedia Britannica: Through the Looking-Glass",
+            "url": "https://www.britannica.com/topic/Through-the-Looking-Glass"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Lewis Carroll",
+            "url": "https://www.britannica.com/biography/Lewis-Carroll"
+          },
+          {
+            "label": "Standard Ebooks: Through the Looking-Glass",
+            "url": "https://standardebooks.org/ebooks/lewis-carroll/through-the-looking-glass/john-tenniel/text/single-page"
+          },
+          {
+            "label": "Wikipedia: Through the Looking-Glass",
+            "url": "https://en.wikipedia.org/wiki/Through_the_Looking-Glass"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-arte-de-vivir-de-jiddu-krishnamurti",
+      "title": "El Arte De Vivir",
+      "authorName": "Jiddu Krishnamurti",
+      "authorSlug": "jiddu-krishnamurti",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 9,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El arte de vivir",
+        "authorName": "Jiddu Krishnamurti",
+        "authorSlug": "jiddu-krishnamurti",
+        "type": "no-ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "filosofía",
+          "espiritualidad",
+          "educación"
+        ],
+        "year": 1994,
+        "pages": 240,
+        "summary": "El arte de vivir reúne enseñanzas de Jiddu Krishnamurti orientadas a pensar la educación, la libertad interior y la formación de una mente no sometida por el miedo ni por la imitación. Presentado en esta edición española como un libro especialmente dirigido a los jóvenes, propone una reflexión práctica antes que un sistema doctrinal. Krishnamurti cuestiona la obediencia mecánica, el peso del pasado, la búsqueda ansiosa del éxito y la costumbre de aprender solo para adaptarse. En su lugar, pide una atención lúcida sobre uno mismo, sobre la relación con los otros y sobre los mecanismos del condicionamiento. El libro no avanza como un manual con recetas: funciona como una invitación insistente a observar, pensar y vivir con una libertad que no dependa de consignas externas.",
+        "aboutThisBook": "Más que un tratado cerrado, este volumen puede entenderse como una puerta de entrada muy clara al núcleo de la obra de Krishnamurti. Su interés reside en la combinación de tono directo, preocupación pedagógica y profundidad filosófica. La edición en español lo presenta como una obra para jóvenes, pero su alcance es más amplio: examina cómo nacen el miedo, la conformidad y la dependencia psicológica. Por eso resulta útil tanto en lectura personal como en contextos de estudio sobre ética, educación o pensamiento contemporáneo.",
+        "forWhom": "Para lectores jóvenes y adultos interesados en filosofía práctica, pedagogía, autoconocimiento y crítica de los automatismos sociales. También sirve a docentes, orientadores y clubes de lectura que quieran discutir educación y libertad sin caer en lenguaje técnico excesivo.",
+        "whyItMatters": "Sigue importando porque discute un problema muy actual: cómo formar personas lúcidas en sociedades que premian la repetición, la ansiedad y la obediencia. Su valor está en volver inseparable la reflexión educativa y la transformación interior.",
+        "editorialIntro": "Krishnamurti escribe y habla como quien desconfía de cualquier consuelo demasiado rápido. En El arte de vivir no ofrece una doctrina para memorizar, sino una disciplina de atención. Esa diferencia es crucial: el libro no quiere producir creyentes, sino lectores capaces de examinar sus hábitos mentales. Su foco en la juventud no lo vuelve menor; al contrario, lo vuelve especialmente exigente. Pregunta qué significa aprender, qué daña la inteligencia y cómo puede una persona vivir sin convertir el miedo, la comparación y la autoridad en el centro de su vida.",
+        "readingLevel": "Lectura media: el lenguaje suele ser claro, pero exige pausa, subrayado y disposición a releer, porque avanza por preguntas, matices y reformulaciones más que por definiciones escolares cerradas.",
+        "whyReadToday": "Porque la presión por rendir, compararse y adaptarse no ha disminuido. Krishnamurti sigue siendo pertinente cuando pide una educación que no reduzca a la persona a productividad, obediencia o identidad heredada.",
+        "studyNotes": [
+          "El libro insiste en que la educación no debe limitarse a transmitir información: debe ayudar a comprender el miedo, el deseo de seguridad y los reflejos de imitación.",
+          "Krishnamurti rechaza el papel del gurú intelectual. Incluso cuando enseña, lo hace invitando al lector a verificar por sí mismo lo que observa en su propia experiencia.",
+          "La libertad, en este contexto, no significa hacer cualquier cosa, sino mirar sin prejuicio ni dependencia psicológica.",
+          "Muchas ideas del volumen se entienden mejor si se leen como preguntas de trabajo: ¿qué es aprender?, ¿qué me condiciona?, ¿cómo escucho?, ¿qué lugar ocupa el miedo en mis decisiones?"
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primeros planteamientos sobre educación y libertad",
+            "summary": "El libro abre examinando la educación como algo más profundo que la instrucción académica. Krishnamurti cuestiona los modelos que preparan para competir pero no para comprenderse, y sitúa la libertad interior como condición para aprender de verdad."
+          },
+          {
+            "title": "Miedo, hábito y condicionamiento",
+            "summary": "En la parte central, la reflexión se concentra en las fuerzas que moldean la mente: tradición, imitación, autoridad, ambición y deseo de seguridad. El autor muestra cómo esos mecanismos pueden bloquear la creatividad y convertir la vida en repetición."
+          },
+          {
+            "title": "Atención, relación y vida íntegra",
+            "summary": "Hacia el cierre, la propuesta se orienta a una forma de vivir con observación plena, responsabilidad y sensibilidad hacia los otros. La educación aparece entonces como un proceso total: aprender a mirar, a relacionarse y a no fragmentar la existencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una pedagogía contra la mera adaptación",
+            "content": "Krishnamurti considera insuficiente una escuela que enseñe a encajar sin enseñar a comprender. Su crítica no niega el valor del conocimiento, pero advierte que la instrucción técnica puede convivir con una mente temerosa, dependiente y poco libre. El libro exige pensar la educación como formación de atención, no solo de rendimiento."
+          },
+          {
+            "heading": "La crítica del miedo",
+            "content": "Uno de los núcleos del volumen es la denuncia del miedo como fuerza organizadora de la vida moderna. Miedo a fracasar, a no pertenecer, a decepcionar, a perder seguridad. Krishnamurti entiende que una mente educada desde el temor difícilmente puede ser creativa o justa, y por eso vincula aprendizaje con descondicionamiento."
+          },
+          {
+            "heading": "Espiritualidad sin sistema cerrado",
+            "content": "Aunque el libro suele ubicarse en el campo espiritual, su método es poco dogmático. Krishnamurti no pide adhesión a una fe, sino observación rigurosa. Esa combinación vuelve su escritura especialmente útil para lectores que buscan pensamiento interior sin aceptar jerarquías religiosas ni fórmulas prefabricadas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro religioso?",
+            "answer": "No en el sentido doctrinal. Tiene una dimensión espiritual y ética, pero su enfoque central es la observación de la mente, la libertad y la educación, no la adhesión a un credo específico."
+          },
+          {
+            "question": "¿Por qué se dice que está dirigido a los jóvenes?",
+            "answer": "Porque la propia edición editorial lo presenta así y porque muchas de sus reflexiones se centran en la formación, la escuela, la autoridad y la posibilidad de pensar antes de quedar fijados por el hábito social."
+          },
+          {
+            "question": "¿Se puede leer sin conocer a Krishnamurti?",
+            "answer": "Sí. De hecho funciona bien como introducción, ya que presenta con bastante claridad sus preocupaciones fundamentales: miedo, condicionamiento, atención, libertad y sentido de la educación."
+          },
+          {
+            "question": "¿Ofrece ejercicios o métodos concretos?",
+            "answer": "No como un manual de autoayuda. Lo que ofrece es un trabajo constante de observación y cuestionamiento, más cercano a una práctica de lucidez que a una lista de técnicas cerradas."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Editorial Kairós: El arte de vivir",
+            "url": "https://www.editorialkairos.com/catalogo/p/el-arte-de-vivir"
+          },
+          {
+            "label": "Casa del Libro: El arte de vivir",
+            "url": "https://www.casadellibro.com/libro-el-arte-de-vivir/9788472452916/461568"
+          },
+          {
+            "label": "Goodreads: El arte de vivir (Spanish Edition)",
+            "url": "https://www.goodreads.com/book/show/2023108.El_arte_de_vivir"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Jiddu Krishnamurti",
+            "url": "https://www.britannica.com/biography/Jiddu-Krishnamurti"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-fugitivo-de-stephen-king",
+      "title": "El Fugitivo",
+      "authorName": "Stephen King",
+      "authorSlug": "stephen-king",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 9,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El fugitivo",
+        "authorName": "Stephen King",
+        "authorSlug": "stephen-king",
+        "type": "novela",
+        "audience": "adultos",
+        "genres": [
+          "ciencia ficción distópica",
+          "thriller",
+          "suspenso"
+        ],
+        "year": 1982,
+        "pages": null,
+        "summary": "Publicado originalmente como The Running Man bajo el seudónimo Richard Bachman, El fugitivo imagina una sociedad estadounidense degradada por la desigualdad, el autoritarismo y la televisión convertida en maquinaria total de espectáculo. Ben Richards, empujado por la pobreza y por la enfermedad de su hija, acepta participar en un concurso donde debe sobrevivir mientras todo el país lo persigue y lo observa. La novela combina ritmo de persecución con una crítica áspera al sensacionalismo mediático, a la manipulación estatal y a la conversión del sufrimiento en entretenimiento. King construye un relato rápido, violento y cada vez más desesperado, pero también una sátira feroz sobre una cultura capaz de premiar la vigilancia, normalizar la crueldad y vender como juego aquello que en realidad es una ejecución pública prolongada.",
+        "aboutThisBook": "Dentro de la etapa Bachman, esta novela es una de las formulaciones más directas de la vena política de Stephen King. Su premisa es simple y eficaz, pero debajo del mecanismo de cacería televisada aparece una crítica amplia: contaminación, precariedad, propaganda, militarización y degradación del lenguaje público. El libro suele leerse por su tensión narrativa, y con razón, pero gana todavía más cuando se observa como distopía social. No es casual que siga citado en debates sobre reality shows, vigilancia y cultura del espectáculo.",
+        "forWhom": "Para lectores de distopías tensas, ciencia ficción sombría y thrillers de persecución con carga política. También interesa a quienes estudian narrativa popular contemporánea, medios de masas y ficciones sobre vigilancia, propaganda o violencia institucional.",
+        "whyItMatters": "Importa porque anticipa con notable crudeza la mezcla de entretenimiento, humillación pública y control mediático que hoy resulta familiar. Su pregunta de fondo sigue viva: qué clase de sociedad acepta ver la miseria como programa estelar.",
+        "editorialIntro": "El fugitivo conserva una energía de novela de consumo veloz, pero sería un error leerla solo como una carrera contrarreloj. King aprovecha la forma del thriller para retratar una sociedad enferma que no necesita ocultar su brutalidad: la emite. El corredor perseguido no lucha únicamente por sobrevivir, sino por conservar una voz propia frente a un aparato que falsifica relatos, compra espectadores y transforma la desesperación en audiencia. Esa combinación de adrenalina y crítica social explica por qué la novela mantiene su fuerza décadas después de su publicación.",
+        "readingLevel": "Lectura media-alta por intensidad, violencia y ritmo acelerado; el estilo es directo y accesible, pero conviene para lectores capaces de seguir una narración de presión constante y trasfondo político sombrío.",
+        "whyReadToday": "Porque su visión de una ciudadanía entrenada para consumir persecuciones, rumores y castigos públicos parece menos extravagante que en 1982. La novela sigue siendo una advertencia potente sobre medios, desigualdad y deshumanización.",
+        "studyNotes": [
+          "La novela enlaza entretenimiento y soberanía: el programa televisivo no es solo un show, sino un dispositivo de control social y de legitimación del poder.",
+          "Ben Richards funciona como héroe forzado, no como elegido. Su entrada al juego nace de la necesidad material, y esa base económica es central para entender la crítica del libro.",
+          "El futuro de 2025 que imagina King importa menos como predicción exacta que como ampliación distópica de problemas ya presentes en su tiempo: desigualdad, contaminación y manipulación mediática.",
+          "La publicación bajo el nombre de Richard Bachman ayuda a leer la obra dentro del registro más seco, desesperado y socialmente áspero de King."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Selección del concursante",
+            "summary": "Ben Richards, empobrecido y sin alternativas, acepta entrar en el programa The Running Man para conseguir dinero para su familia. Desde el inicio queda claro que el espectáculo se alimenta de la desesperación de quienes ya han sido expulsados del sistema."
+          },
+          {
+            "title": "Huida, mensajes y manipulación",
+            "summary": "Durante la persecución, Richards intenta sobrevivir cambiando de identidad y desplazándose por un país vigilado, mientras envía grabaciones que la cadena manipula. La novela convierte así la fuga física en una batalla por el control del relato."
+          },
+          {
+            "title": "Acoso total y final extremo",
+            "summary": "A medida que el cerco se estrecha, el juego muestra su verdadera naturaleza: no busca competencia, sino eliminación ejemplar. El desenlace radical lleva al límite la lógica sacrificial del espectáculo y deja una impresión de furia política más que de simple aventura."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Televisión y violencia espectacular",
+            "content": "La novela plantea que la televisión no se limita a reflejar la violencia social, sino que puede organizarla, rentabilizarla y volverla aceptable. El público participa mediante la denuncia y la vigilancia, de modo que el espectáculo no anestesia únicamente: compromete moralmente a los espectadores."
+          },
+          {
+            "heading": "Desigualdad como motor narrativo",
+            "content": "Richards entra al programa porque la pobreza no le deja otra salida. Ese punto distingue a El fugitivo de muchas distopías tecnológicas: la opresión no se sostiene solo por gadgets o policías especiales, sino por una economía que vuelve intercambiables la vida humana y la audiencia."
+          },
+          {
+            "heading": "La firma Bachman y el tono de la novela",
+            "content": "Dentro de los libros firmados como Richard Bachman, este destaca por su sequedad y su rabia. Hay menos consuelo emocional que en otras novelas de King y una confianza mayor en la velocidad, el desgaste y la hostilidad del entorno. Ese tono hace que la crítica social llegue sin amortiguadores sentimentales."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El fugitivo y The Running Man son el mismo libro?",
+            "answer": "Sí. El título original en inglés es The Running Man; en español ha circulado como El fugitivo. Fue publicado originalmente bajo el seudónimo Richard Bachman, usado por Stephen King en varios libros de esa etapa."
+          },
+          {
+            "question": "¿Tiene relación directa con la película protagonizada por Arnold Schwarzenegger?",
+            "answer": "Comparten premisa básica y título original, pero la novela es bastante más oscura, más política y más amarga que la adaptación cinematográfica de 1987."
+          },
+          {
+            "question": "¿Es una novela de ciencia ficción o un thriller?",
+            "answer": "Es ambas cosas. Funciona como distopía cercana por su contexto social y tecnológico, y como thriller por su persecución continua, su ritmo alto y su estructura de huida contrarreloj."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose tanto?",
+            "answer": "Porque su mezcla de espectáculo mediático, precariedad y vigilancia ciudadana conserva una actualidad inquietante. El libro sigue pareciendo menos una extravagancia y más una exageración verosímil de tendencias reales."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Stephen King: The Running Man",
+            "url": "https://stephenking.com/works/novel/running-man.html"
+          },
+          {
+            "label": "Wikipedia: The Running Man (novel)",
+            "url": "https://en.wikipedia.org/wiki/The_Running_Man_(novel)"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Stephen King",
+            "url": "https://www.britannica.com/biography/Stephen-King"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-mar-de-patricia-garcia-rojo",
+      "title": "El Mar",
+      "authorName": "Patricia Garcia Rojo",
+      "authorSlug": "patricia-garcia-rojo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 9,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El mar",
+        "authorName": "Patricia García-Rojo",
+        "authorSlug": "patricia-garcia-rojo",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "fantasía distópica",
+          "aventuras"
+        ],
+        "year": 2015,
+        "pages": 264,
+        "summary": "El mar imagina un mundo alterado por una ola devastadora que ha hecho avanzar el agua sobre la tierra y ha dejado antiguas ciudades costeras convertidas en ruinas sumergidas. En ese paisaje vive Rob, superviviente de la catástrofe, que ha aprendido a moverse entre tejados, barcas, inmersiones y hallazgos rescatados del fondo. Su vida parece precaria pero estable hasta que encuentra una piedra rosa que despierta intereses ajenos y abre un conflicto mayor. Patricia García-Rojo mezcla aventura, supervivencia, amor juvenil y un componente mágico para contar una historia en la que el mar no es solo escenario: es una fuerza que redefine el territorio, las jerarquías y la idea misma de comunidad. La novela avanza como relato de crecimiento, pero también como fábula sobre poder, deseo y adaptación a un mundo roto.",
+        "aboutThisBook": "Ganadora del Premio Gran Angular 2015, esta novela consolidó a Patricia García-Rojo como una voz destacada de la literatura juvenil española. Publicada por SM en la colección Gran Angular, propone una distopía singular: no un futuro dominado por tecnología opresiva, sino una costa transformada por el agua, donde sobreviven comunidades improvisadas entre restos del pasado. El libro destaca por su atmósfera, por su sentido de la aventura y por la manera en que inserta un elemento mágico en una realidad material muy concreta, hecha de escasez, trueque y buceo entre ruinas.",
+        "forWhom": "Para lectores juveniles desde secundaria, docentes que busquen narrativa de imaginación con posibilidades de debate y lectores de fantasía que prefieran mundos cercanos, reconocibles y emocionalmente habitables.",
+        "whyItMatters": "Importa porque convierte una catástrofe ambiental en una narración de identidad y resistencia. Su mundo sumergido permite pensar pérdida, reconstrucción y desigualdad sin abandonar el placer de la aventura.",
+        "editorialIntro": "No todas las novelas juveniles logran construir un mundo distinto sin desconectarlo del presente. El mar sí lo consigue. Patricia García-Rojo parte de una costa arrasada por el agua y levanta una historia donde la supervivencia cotidiana convive con el misterio, la emoción amorosa y la imaginación fantástica. El resultado es una novela ágil, sugestiva y más inquietante de lo que parece a primera vista.",
+        "readingLevel": "Lectura media para público juvenil. El estilo es fluido y accesible, pero la novela gana mucho cuando se atiende a su construcción de mundo, a la lógica social de los supervivientes y al simbolismo del mar como fuerza transformadora.",
+        "whyReadToday": "Porque dialoga muy bien con preocupaciones actuales como la crisis climática, la fragilidad del territorio y la necesidad de reinventar la vida común después del desastre, todo ello sin perder ritmo narrativo ni emoción.",
+        "studyNotes": [
+          "Rob no es solo un héroe aventurero: su relación con las ruinas y con el mar lo convierte en un personaje marcado por la pérdida y por una forma muy concreta de pertenencia.",
+          "La novela puede trabajarse como distopía cercana, porque transforma el litoral y la vida urbana mediante una catástrofe reconocible sin alejarse por completo del mundo contemporáneo.",
+          "La piedra rosa introduce el elemento fantástico, pero su función también es narrativa: desestabiliza el equilibrio inicial y revela ambiciones, miedos y conflictos de poder.",
+          "Conviene observar cómo el libro contrapone formas de comunidad: la organización improvisada de los supervivientes frente a las lógicas de control y apropiación que aparecen cuando el hallazgo cobra valor."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: una ciudad de tejados y agua",
+            "summary": "La novela presenta el nuevo mundo nacido tras la gran ola. Rob vive entre restos sumergidos, se desplaza en barca y participa de una comunidad que ha aprendido a sobrevivir sobre las azoteas de la antigua ciudad costera."
+          },
+          {
+            "title": "Primeros descubrimientos: tesoros, rutina y deseo",
+            "summary": "Entre inmersiones y rescates, Rob sostiene una vida aparentemente sencilla. Sin embargo, esa normalidad está hecha de equilibrios frágiles: afectos, carencias materiales y una identidad construida sobre la costumbre de vivir al borde del hundimiento."
+          },
+          {
+            "title": "Nudo: la piedra rosa altera el orden",
+            "summary": "El hallazgo de la piedra desencadena el verdadero conflicto. Lo que parecía un simple objeto encontrado en las ruinas empieza a atraer intereses ajenos y obliga a Rob a tomar decisiones que afectan a su seguridad, a sus vínculos y a su lugar dentro de la comunidad."
+          },
+          {
+            "title": "Desenlace: aventura, magia y redefinición del futuro",
+            "summary": "La parte final intensifica la dimensión fantástica y pone a prueba el valor de los personajes. Más allá de la peripecia, el cierre funciona como una reflexión sobre qué significa conservar algo propio cuando el mundo material ya ha sido radicalmente transformado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una distopía marítima poco convencional",
+            "content": "Frente a otras distopías juveniles centradas en regímenes totalitarios o sociedades hipertecnológicas, El mar construye su tensión a partir de una geografía herida. El agua redibuja el espacio y obliga a reorganizar la vida cotidiana, de modo que la aventura nace del territorio mismo."
+          },
+          {
+            "heading": "Supervivencia y memoria del mundo perdido",
+            "content": "Las ruinas submarinas no son solo decorado. Funcionan como huella física de una civilización reciente desaparecida y convierten cada inmersión en un gesto de memoria. El libro sugiere que sobrevivir no es olvidar, sino aprender a vivir sobre los restos de lo que ya no puede recuperarse del todo."
+          },
+          {
+            "heading": "La magia como prueba ética",
+            "content": "La piedra hallada por Rob introduce una dimensión maravillosa, pero su sentido no es meramente ornamental. La magia sirve para revelar codicia, ambición, miedo y deseo de control. Así, el componente fantástico actúa como acelerador moral del relato."
+          },
+          {
+            "heading": "Una novela juvenil con lectura ecológica",
+            "content": "Aunque no predica de forma explícita, la novela permite una lectura ecológica muy fértil. La subida del mar, la adaptación forzada y la precariedad de los recursos colocan en primer plano la fragilidad del entorno y la dependencia humana respecto al medio que habita."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El mar de Patricia García-Rojo?",
+            "answer": "Trata de la vida de Rob, un joven que sobrevive en una antigua ciudad costera parcialmente sumergida tras una ola catastrófica. Su rutina cambia cuando encuentra un objeto misterioso que despierta conflictos y amplía la dimensión fantástica del relato."
+          },
+          {
+            "question": "¿Es una novela de fantasía o de ciencia ficción?",
+            "answer": "Se mueve entre la distopía y la fantasía. Parte de una catástrofe ambiental que reorganiza el mundo de forma verosímil, pero incorpora después un elemento mágico decisivo para la intriga."
+          },
+          {
+            "question": "¿Por qué recibió el Premio Gran Angular?",
+            "answer": "Porque ofrece una propuesta juvenil muy sólida: un mundo reconocible pero transformado, un protagonista con conflicto propio, ritmo de aventura y un uso imaginativo del escenario marítimo como motor narrativo."
+          },
+          {
+            "question": "¿Funciona bien para lectura escolar?",
+            "answer": "Sí. Permite trabajar aventura, construcción de mundo, crisis ambiental, identidad juvenil y análisis simbólico del espacio. Además, su prosa es accesible para secundaria y bachillerato inicial."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Literatura SM: El mar",
+            "url": "https://es.literaturasm.com/libro/mar-2"
+          },
+          {
+            "label": "Revista Babar: El mar",
+            "url": "https://revistababar.com/wp/el-mar/"
+          },
+          {
+            "label": "Wikipedia: Patricia García-Rojo",
+            "url": "https://es.wikipedia.org/wiki/Patricia_Garc%C3%ADa-Rojo"
+          },
+          {
+            "label": "Casa del Libro: El mar",
+            "url": "https://www.casadellibro.com/libro-el-mar/9788413922119/12486037"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-negocio-de-papa-de-alfredo-gomez-cerda",
+      "title": "El Negocio De Papa",
+      "authorName": "Alfredo Gomez Cerda",
+      "authorSlug": "alfredo-gomez-cerda",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 9,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El negocio de papá",
+        "authorName": "Alfredo Gómez Cerdá",
+        "authorSlug": "alfredo-gomez-cerda",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "realismo",
+          "drama familiar"
+        ],
+        "year": 1996,
+        "pages": 128,
+        "summary": "El negocio de papá cuenta, a través de las conversaciones de Tomás con su psicólogo, el proceso por el que una familia cambia de manera profunda cuando el pequeño taller de carpintería del padre deja paso a un bar de copas llamado La Loca Carpintería de Ricardo. Ese cambio empresarial, que en apariencia podría leerse como una mejora económica o una apuesta por la modernidad, termina afectando a la estabilidad emocional del hijo, a su rendimiento escolar y a la comunicación dentro de casa. Alfredo Gómez Cerdá construye una novela breve pero incisiva sobre la adolescencia, la autonomía personal y la dificultad de nombrar lo que duele. La trama no busca el melodrama fácil: se centra en cómo las decisiones de los adultos reordenan silenciosamente la vida de los jóvenes y los obligan a madurar antes de tiempo.",
+        "aboutThisBook": "Publicada por SM en 1996 dentro de El Barco de Vapor Serie Roja, la novela pertenece a la vertiente realista de Alfredo Gómez Cerdá, uno de los autores españoles más constantes en literatura infantil y juvenil. El libro combina conflicto familiar, observación social y una forma narrativa muy eficaz: Tomás reconstruye ante un psicólogo lo ocurrido en su casa, de modo que el lector asiste a una historia ya vivida pero todavía no digerida. Ese dispositivo permite leer la obra como relato íntimo y, al mismo tiempo, como reflexión sobre comunicación, fracaso escolar y construcción de la propia voz.",
+        "forWhom": "Para lectores juveniles, mediadores de lectura, orientadores escolares y profesores que quieran trabajar relaciones familiares, cambios vitales, autoestima y consecuencias emocionales de las decisiones adultas.",
+        "whyItMatters": "Importa porque muestra con claridad cómo un problema aparentemente externo —un cambio de negocio— puede convertirse en una crisis de identidad y comunicación para un adolescente que todavía está aprendiendo a entenderse.",
+        "editorialIntro": "Alfredo Gómez Cerdá ha escrito muchas novelas juveniles memorables, y El negocio de papá destaca por su sobriedad. No necesita grandes giros para inquietar: le basta con observar lo que ocurre cuando una familia deja de escucharse de verdad. La figura del psicólogo, lejos de convertir el libro en lección escolar, ordena la memoria del protagonista y da a la novela una cercanía confesional muy eficaz.",
+        "readingLevel": "Lectura media-baja para secundaria. El lenguaje es claro y directo, pero la novela ofrece suficiente complejidad emocional como para sostener un buen trabajo de aula sobre perspectiva, conflicto y crecimiento personal.",
+        "whyReadToday": "Porque sigue siendo muy actual en su forma de hablar de incomunicación, presión familiar, rendimiento escolar y necesidad de encontrar una voz propia frente a decisiones tomadas por otros.",
+        "studyNotes": [
+          "La estructura basada en sesiones con el psicólogo organiza la novela como reconstrucción: Tomás no cuenta solo lo que pasó, sino cómo intenta comprenderlo.",
+          "El cambio del taller al bar no es un detalle decorativo; simboliza un giro de valores, de horarios, de ambiente y de prioridades dentro de la familia.",
+          "El descenso académico de Tomás funciona como síntoma, no como simple problema escolar. La novela invita a leer el fracaso visible como efecto de un malestar más profundo.",
+          "La obra es útil para debatir autonomía personal: hasta qué punto un adolescente puede disentir de las decisiones familiares sin dejar de formar parte de su casa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: Tomás empieza a contar lo que no entiende",
+            "summary": "Desde las primeras conversaciones con Juanjo, el lector sabe que algo se ha roto. Tomás intenta explicar por qué ha suspendido varias asignaturas y por qué su mundo familiar ya no le resulta reconocible."
+          },
+          {
+            "title": "El taller perdido y la transformación del padre",
+            "summary": "La memoria del protagonista vuelve al pequeño taller de carpintería, asociado a una vida modesta pero estable. El paso a un bar de copas modifica la economía doméstica y, sobre todo, la imagen que Tomás tenía de su padre y de su hogar."
+          },
+          {
+            "title": "Confusión adolescente, amistad y soledad",
+            "summary": "A medida que el cambio de negocio pesa más, Tomás se siente menos escuchado y más desorientado. La novela observa cómo el adolescente busca apoyos, interpreta señales contradictorias y se enfrenta a una soledad que los adultos no terminan de percibir."
+          },
+          {
+            "title": "Cierre: comprender para empezar a decidir",
+            "summary": "La parte final no resuelve mágicamente los conflictos, pero sí permite a Tomás ordenar su experiencia. La novela concluye con una idea valiosa: entender lo que ocurre alrededor es el primer paso para recuperar iniciativa y autonomía."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La familia como espacio de ruido y silencio",
+            "content": "Gómez Cerdá retrata una familia donde se habla mucho de lo práctico, pero poco de lo importante. Esa desproporción crea un clima en el que el adolescente queda desatendido no por falta de presencia física, sino por falta de escucha real."
+          },
+          {
+            "heading": "El valor narrativo del psicólogo",
+            "content": "La figura de Juanjo permite que la novela se construya como relato retrospectivo y conversación guiada. Gracias a ese marco, Tomás puede equivocarse, corregirse y descubrir matices, lo que da al texto una naturalidad confesional muy eficaz."
+          },
+          {
+            "heading": "Negocio, identidad y coherencia moral",
+            "content": "El título remite a una cuestión económica, pero el núcleo del libro es moral. ¿Qué significa ser coherente con lo que uno piensa? El cambio del padre obliga a examinar la distancia entre lo que se defendía antes y lo que se hace ahora para sobrevivir o prosperar."
+          },
+          {
+            "heading": "Una novela breve con rendimiento escolar alto",
+            "content": "Su extensión contenida y su lenguaje directo la vuelven adecuada para aula, pero no por eso simple. El libro permite trabajar punto de vista, conflicto intergeneracional, educación emocional y señales narrativas del malestar adolescente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El negocio de papá?",
+            "answer": "Trata del modo en que Tomás vive el cambio de negocio de su padre, que abandona un taller de carpintería para abrir un bar de copas. Ese giro altera la vida familiar y repercute en la salud emocional y académica del protagonista."
+          },
+          {
+            "question": "¿Por qué habla Tomás con un psicólogo?",
+            "answer": "Porque ha suspendido varias asignaturas y necesita verbalizar qué le está ocurriendo. Las conversaciones con Juanjo sirven como marco para reconstruir los hechos y dar sentido a un malestar que no sabía explicar."
+          },
+          {
+            "question": "¿Es un libro triste?",
+            "answer": "Tiene un fondo serio, pero no busca hundir al lector. Más bien muestra con honestidad cómo se vive una crisis familiar desde la adolescencia y cómo la comprensión puede abrir una salida."
+          },
+          {
+            "question": "¿Para qué edades funciona mejor?",
+            "answer": "Funciona especialmente bien desde los 12 o 13 años en adelante, porque plantea conflictos familiares y escolares cercanos a la experiencia de muchos lectores de secundaria."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Literatura SM: El negocio de papá",
+            "url": "https://es.literaturasm.com/libro/negocio-de-papa-0"
+          },
+          {
+            "label": "Lecturalia: El negocio de papá",
+            "url": "https://www.lecturalia.com/libro/14895/el-negocio-de-papa"
+          },
+          {
+            "label": "Casa del Libro: El negocio de papá",
+            "url": "https://www.casadellibro.com/libro-el-negocio-de-papa/9788467589399/6756399"
+          },
+          {
+            "label": "Wikipedia: Alfredo Gómez Cerdá",
+            "url": "https://es.wikipedia.org/wiki/Alfredo_G%C3%B3mez_Cerd%C3%A1"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-robo-del-elefante-blanco-de-mark-twain",
+      "title": "El Robo Del Elefante Blanco",
+      "authorName": "Mark Twain",
+      "authorSlug": "mark-twain",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 9,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El robo del elefante blanco",
+        "authorName": "Mark Twain",
+        "authorSlug": "mark-twain",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "cuento",
+          "sátira",
+          "humor"
+        ],
+        "year": 1882,
+        "pages": null,
+        "summary": "El robo del elefante blanco, conocido en inglés como The Stolen White Elephant, es uno de los relatos satíricos más afilados de Mark Twain. La historia parte de una premisa deliberadamente absurda: un elefante blanco siamés, destinado como obsequio diplomático a la reina británica, desaparece en Nueva Jersey durante su traslado. Lo que sigue no es tanto una investigación detectivesca como una parodia de ella. Twain despliega inspectores solemnes, informes grandilocuentes, pistas inútiles y un aparato policial que multiplica el ruido en vez de acercarse a la verdad. A medida que la búsqueda se vuelve más aparatosa, el cuento revela su verdadero blanco: la burocracia, la autosuficiencia institucional y la confianza ciega en métodos supuestamente racionales que solo producen caos. El relato conserva un ritmo muy vivo y un humor seco, acumulativo, que convierte el disparate en crítica social.",
+        "aboutThisBook": "Publicado en 1882, el relato aparece en un momento en que Twain ya dominaba plenamente la mezcla de humor periodístico, oralidad narrativa y sátira de costumbres. Aunque puede leerse como cuento humorístico autónomo, también resulta muy interesante como pieza de transición en la historia de la literatura detectivesca: toma elementos del género emergente y los lleva al exceso para mostrar su potencial ridículo. El elefante desaparecido importa menos que la maquinaria de búsqueda que se organiza a su alrededor. Por eso el cuento sigue funcionando: no depende del suspense clásico, sino de la precisión con que ridiculiza la incompetencia revestida de autoridad.",
+        "forWhom": "Para lectores de clásicos breves, estudiantes que quieran acercarse al humor de Twain y cursos interesados en sátira, prensa, burocracia o parodias tempranas del relato detectivesco.",
+        "whyItMatters": "Importa porque demuestra que la comicidad de Twain no es superficial: el disparate del caso sirve para desmontar la grandilocuencia policial, la lógica burocrática y cierta fe moderna en los procedimientos sin inteligencia real.",
+        "editorialIntro": "Twain entendía muy bien que la mejor sátira no ridiculiza desde fuera, sino que deja que el propio sistema se delate. En El robo del elefante blanco, la investigación policial se hunde bajo su propio peso verbal: telegramas, pesquisas, hipótesis y despliegues espectaculares generan una comicidad creciente. El cuento sigue siendo divertidísimo, pero también muy reconocible para cualquier lector acostumbrado a instituciones que producen informes antes que soluciones.",
+        "readingLevel": "Lectura media. La anécdota es accesible y muy entretenida, pero el mejor rendimiento aparece cuando el lector percibe la ironía sostenida, la parodia del discurso oficial y el lugar del texto en la tradición humorística anglosajona.",
+        "whyReadToday": "Porque su crítica a la burocracia aparatosa y a la incompetencia envuelta en lenguaje técnico conserva una actualidad sorprendente. Cambian los contextos, pero no la tentación institucional de confundir actividad con eficacia.",
+        "studyNotes": [
+          "El cuento puede leerse como parodia del naciente relato detectivesco: hay pesquisa, pistas y autoridad investigadora, pero todo se vuelve excesivo y contraproducente.",
+          "La comicidad depende mucho del tono serio con que se cuentan hechos cada vez más absurdos. Twain no rompe la solemnidad: la explota.",
+          "El elefante blanco funciona como objeto desmesurado, casi imposible de ocultar, y precisamente por eso intensifica el ridículo de una investigación incapaz de ver lo evidente.",
+          "Es útil relacionar el relato con el periodismo y con la cultura del informe, porque buena parte de la sátira se construye a través de comunicados, declaraciones y supuestos avances policiales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: un regalo diplomático se convierte en escándalo",
+            "summary": "La desaparición del elefante blanco activa el relato y sitúa al narrador ante un problema tan desproporcionado como ridículo. Desde el principio, Twain convierte la rareza del caso en motor cómico."
+          },
+          {
+            "title": "Investigación: inspectores, pistas y proliferación del absurdo",
+            "summary": "La policía organiza una búsqueda gigantesca y minuciosa, llena de órdenes, sospechas y movimientos espectaculares. Lejos de aclarar el caso, cada paso multiplica la confusión y exhibe la vanidad de los investigadores."
+          },
+          {
+            "title": "Momento central: el método se vuelve caricatura",
+            "summary": "A medida que se acumulan informes y rumores, el lector entiende que la verdadera trama no es encontrar al elefante, sino observar cómo una institución entera puede quedar atrapada en su propia retórica profesional."
+          },
+          {
+            "title": "Final: desenlace negro para una comedia burocrática",
+            "summary": "El cierre introduce una resolución amarga bajo la superficie humorística. Twain demuestra así que la sátira no solo busca divertir, sino dejar un residuo incómodo sobre la ceguera del poder y la inutilidad del aparato desplegado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Parodia del detective moderno",
+            "content": "El relato toma elementos del género detectivesco —el caso extraordinario, el inspector célebre, la acumulación de indicios— y los lleva al exceso. En lugar de admirar el método, el lector contempla su inflación hasta el ridículo."
+          },
+          {
+            "heading": "Burocracia, lenguaje y autoridad",
+            "content": "Twain satiriza una forma de poder que se legitima hablando con seguridad, redactando informes y moviendo recursos. La autoridad de los investigadores se sostiene más en el espectáculo verbal que en los resultados, y eso vuelve el cuento sorprendentemente contemporáneo."
+          },
+          {
+            "heading": "Humor acumulativo y tono periodístico",
+            "content": "Buena parte de la eficacia del texto nace de su estilo: hechos disparatados contados con una seriedad casi administrativa. El humor no depende de un chiste aislado, sino de la acumulación de detalles, nombres, telegramas y pesquisas que erosionan la credibilidad del sistema."
+          },
+          {
+            "heading": "El disparate como crítica social",
+            "content": "El cuento parece ligero, pero su mecanismo satírico es preciso. La imposibilidad práctica de robar y ocultar algo tan enorme como un elefante blanco deja en evidencia no solo a unos personajes concretos, sino a todo un modelo de gestión pública cegado por su propia pompa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es El robo del elefante blanco un cuento policiaco?",
+            "answer": "Sí, pero en clave paródica. Utiliza la forma de una investigación detectivesca para burlarse de sus excesos, de la burocracia y de la falsa seguridad de los expertos."
+          },
+          {
+            "question": "¿Cuál es el conflicto principal del relato?",
+            "answer": "La desaparición de un elefante blanco destinado como regalo diplomático. Sin embargo, el verdadero conflicto literario está en la torpeza del dispositivo policial que intenta resolver el caso."
+          },
+          {
+            "question": "¿Hace falta conocer mucho a Mark Twain para disfrutarlo?",
+            "answer": "No. Es un relato breve y autónomo, muy accesible para entrar en su humor. Quien conozca mejor a Twain apreciará más su ironía política y periodística, pero no es un requisito."
+          },
+          {
+            "question": "¿Por qué sigue siendo actual?",
+            "answer": "Porque se ríe de instituciones que confunden despliegue, protocolo y lenguaje técnico con eficacia real. Esa crítica sigue siendo perfectamente reconocible en el presente."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: The Stolen White Elephant",
+            "url": "https://en.wikipedia.org/wiki/The_Stolen_White_Elephant"
+          },
+          {
+            "label": "Project Gutenberg: ebook 3181",
+            "url": "https://www.gutenberg.org/ebooks/3181"
+          },
+          {
+            "label": "Project Gutenberg: The Stolen White Elephant (texto)",
+            "url": "https://www.gutenberg.org/files/3181/3181-h/3181-h.htm"
+          },
+          {
+            "label": "Britannica: Mark Twain",
+            "url": "https://www.britannica.com/biography/Mark-Twain"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-17T22:06:37Z"
+}

@@ -1,0 +1,505 @@
+{
+  "rejectedAt": "2026-04-16T23:00:14Z",
+  "errors": {
+    "mitos-griegos-de-maria-angelidou": [
+      "analysisSections incompleto"
+    ],
+    "falco-de-arturo-perez-reverte": [
+      "analysisSections incompleto"
+    ],
+    "viajes-extraordinarios-de-julio-verne": [
+      "analysisSections incompleto"
+    ],
+    "a-dos-metros-de-ti-de-rachael-lippincott": [
+      "analysisSections incompleto"
+    ]
+  },
+  "batch": {
+    "batchName": "wave-20260416T224855Z-01",
+    "createdAt": "2026-04-16T22:49:10Z",
+    "source": "clicked-current-books",
+    "instructions": {
+      "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+      "rules": [
+        "No tocar slug, autor ni métricas.",
+        "Escribir en español natural, sin tono robótico.",
+        "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+        "No inventar datos bibliográficos dudosos.",
+        "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+      ],
+      "minimums": {
+        "summary_words": 90,
+        "about_words": 60,
+        "chapter_items": 3,
+        "analysis_items": 3,
+        "study_notes": 3,
+        "faqs": 3,
+        "sources": 3
+      }
+    },
+    "items": [
+      {
+        "slug": "mitos-griegos-de-maria-angelidou",
+        "title": "Mitos Griegos",
+        "authorName": "Maria Angelidou",
+        "authorSlug": "maria-angelidou",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "narrativa"
+        ],
+        "year": null,
+        "pages": null,
+        "clicks": 15,
+        "impressions": 97,
+        "priority": 1,
+        "current": {
+          "summary": "Pendiente de desarrollo editorial.",
+          "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+          "centralConflict": "",
+          "themes": [],
+          "keyIdeas": [],
+          "forWhom": "Pendiente de revisión editorial.",
+          "whyItMatters": "Pendiente de revisión editorial.",
+          "tone": "",
+          "escpilar": false
+        },
+        "rewritten": {
+          "summary": "Mitos Griegos es una antología narrativa que reúne catorce relatos fundamentales de la tradición helénica en una versión clara, ágil y pensada para introducir al lector en el imaginario clásico sin perder su fuerza dramática. El volumen recorre episodios como Prometeo y el robo del fuego, la caja de Pandora, Deucalión y Pirra, Apolo y Dafne, Hércules y la hidra de Lerna, Teseo y el Minotauro, el vuelo de Ícaro, Edipo, Aracne, Midas, Perseo, Orfeo y el episodio del caballo de Troya. No se trata de un tratado erudito, sino de una recreación literaria accesible que conserva los grandes temas de la mitología griega: la hybris, el castigo, el deseo, la astucia, el destino y la fragilidad humana frente a dioses y fuerzas superiores.",
+          "aboutThisBook": "Este libro de Maria Angelidou funciona como una introducción sólida y muy legible al universo de la mitología griega. La edición difundida por Vicens Vives presenta una selección de mitos célebres en formato de relatos breves, con orientación claramente formativa y apta para lectores jóvenes, mediadores y docentes. Su valor está en combinar amenidad, claridad narrativa y fidelidad a episodios esenciales de la tradición clásica, de modo que el lector comprende por qué estos relatos siguen siendo referencia en la literatura, el arte y la cultura occidental.",
+          "forWhom": "Para lectores jóvenes, familias, docentes, mediadores de lectura y adultos que busquen una primera entrada clara a la mitología griega sin necesidad de aparato académico especializado.",
+          "whyItMatters": "Importa porque ofrece una puerta de acceso fiable a historias que siguen estructurando gran parte del imaginario occidental. Leer estos mitos ayuda a reconocer símbolos, personajes y conflictos que reaparecen continuamente en novelas, cine, arte, filosofía y lenguaje cotidiano.",
+          "editorialIntro": "Hay libros de iniciación que simplifican tanto su materia que la vuelven inerte. Mitos Griegos evita ese problema: acerca al lector a relatos antiquísimos sin desactivar su extrañeza, su violencia ni su poder moral. En sus páginas, los dioses castigan, los héroes se equivocan, los deseos se desbordan y la inteligencia humana intenta abrirse paso entre fuerzas mayores. Esa tensión explica por qué la mitología griega sigue viva. Este volumen resulta especialmente valioso porque organiza ese legado en relatos breves, memorables y fáciles de estudiar.",
+          "readingLevel": "Accesible para lectores desde primaria avanzada y secundaria; también útil para adultos que quieran una introducción clara y ordenada a los mitos clásicos.",
+          "whyReadToday": "Porque los mitos griegos siguen explicando obsesiones contemporáneas: el poder, el límite, la ambición, el castigo, la identidad, la fama y la relación entre libertad y destino. Este libro permite volver a esas preguntas desde una forma narrativa directa.",
+          "studyNotes": [
+            "La antología puede leerse como introducción general a la mitología griega, no como edición filológica de fuentes clásicas.",
+            "Conviene observar cómo casi todos los relatos giran en torno al exceso, la desobediencia o la astucia, y a sus consecuencias.",
+            "Es útil relacionar cada mito con símbolos culturales actuales: el laberinto, la caja de Pandora, el talón de la hybris o el vuelo de Ícaro.",
+            "El libro funciona bien para comparar héroes, dioses y mortales según el tipo de conflicto que protagonizan."
+          ],
+          "chapterSummaries": [
+            {
+              "title": "Bloque 1: Orígenes, castigos y comienzos del mundo humano",
+              "summary": "Los primeros relatos presentan un universo en el que dioses y hombres aún están definiendo su relación. Prometeo, Pandora y Deucalión muestran que el fuego, la curiosidad, el sufrimiento y la reconstrucción del mundo forman parte del origen mismo de la experiencia humana."
+            },
+            {
+              "title": "Bloque 2: Deseo, metamorfosis y prueba heroica",
+              "summary": "En la zona media del libro aparecen mitos donde el deseo divino, la belleza y la violencia transforman cuerpos y destinos. Apolo y Dafne, Europa, Hércules, Teseo e Ícaro muestran distintas formas de enfrentar el peligro, la tentación y el límite."
+            },
+            {
+              "title": "Bloque 3: Inteligencia, error y castigo",
+              "summary": "Historias como Edipo, Aracne, Midas y Perseo desarrollan una lección central del pensamiento mítico: ni la habilidad ni el privilegio libran al ser humano del error. La soberbia, la ceguera o la ambición alteran el orden y exigen un precio."
+            },
+            {
+              "title": "Bloque 4: Amor, pérdida y memoria heroica",
+              "summary": "El tramo final intensifica la dimensión trágica de la antología. Orfeo desciende al infierno impulsado por el amor, y el episodio de Ulises y el caballo de Troya recuerda que la guerra y la astucia también fundan memoria, gloria y destrucción."
+            }
+          ],
+          "analysisSections": [
+            {
+              "title": "Una introducción narrativa a la tradición clásica",
+              "content": "El principal mérito del libro es convertir materiales míticos muy conocidos en una secuencia legible para lectores no especializados. La selección privilegia relatos emblemáticos y permite reconocer rápidamente los grandes núcleos de la mitología griega: creación, castigo, heroísmo, metamorfosis, astucia y destino."
+            },
+            {
+              "title": "El valor moral de los mitos",
+              "content": "Aunque estos relatos no deben reducirse a moralejas simples, casi todos dramatizan consecuencias. El exceso, la desobediencia, la vanidad o la codicia desencadenan pérdidas; la valentía y la inteligencia pueden salvar, pero nunca garantizan impunidad. Esa estructura hace del libro una herramienta especialmente fértil para lectura formativa."
+            },
+            {
+              "title": "Pervivencia cultural de sus símbolos",
+              "content": "La antología demuestra por qué la mitología griega sigue siendo una reserva de imágenes universales. Pandora, Ícaro, Medusa, el laberinto o el caballo de Troya continúan funcionando como metáforas contemporáneas. Leer el libro hoy no solo informa sobre el pasado: ayuda a entender referencias culturales todavía activas."
+            },
+            {
+              "title": "Equilibrio entre sencillez y densidad temática",
+              "content": "La prosa de introducción juvenil no elimina la complejidad de fondo. Bajo la claridad del relato aparecen cuestiones persistentes: qué significa desafiar a los dioses, cómo se administra el poder, por qué el conocimiento puede ser peligroso y de qué modo los héroes quedan atrapados por sus propias decisiones."
+            }
+          ],
+          "faqs": [
+            {
+              "question": "¿Es un libro de estudio o de lectura narrativa?",
+              "answer": "Es ambas cosas. Está construido como una colección de relatos amenos, pero su selección de episodios y su claridad lo vuelven muy útil para introducirse en la mitología griega de forma ordenada."
+            },
+            {
+              "question": "¿Incluye los mitos griegos más famosos?",
+              "answer": "Sí. La antología recoge catorce relatos muy conocidos, entre ellos Pandora, Ícaro, Teseo, Midas, Perseo, Orfeo y el episodio del caballo de Troya."
+            },
+            {
+              "question": "¿Sirve para lectores jóvenes?",
+              "answer": "Sí. La edición de Vicens Vives está orientada a la lectura formativa y resulta especialmente adecuada para lectores escolares acompañados por docentes o familias."
+            },
+            {
+              "question": "¿Puede sustituir a las fuentes clásicas originales?",
+              "answer": "No. Funciona como introducción y recreación accesible. Para un estudio filológico o histórico más profundo conviene acudir después a autores clásicos y ediciones críticas."
+            }
+          ],
+          "reviewedAt": "2026-04-16",
+          "sources": [
+            {
+              "label": "Vicens Vives: Mitos griegos, edición 2023",
+              "url": "https://www.vicensvives.com/shop/product/9788468299051/cambiar-idioma"
+            },
+            {
+              "label": "Internet Archive: Mitos Griegos. Maria Angelidou",
+              "url": "https://archive.org/details/mitos-griegos.-maria-angelidou"
+            },
+            {
+              "label": "Open Library: Mitos Griegos",
+              "url": "https://openlibrary.org/works/OL16811826W/Mitos_Griegos"
+            },
+            {
+              "label": "Blog Vicens Vives: 7 ideas para trabajar los mitos griegos en el aula",
+              "url": "https://blog.vicensvives.com/7-ideas-para-trabajar-los-mitos-griegos-en-el-aula/"
+            }
+          ]
+        }
+      },
+      {
+        "slug": "falco-de-arturo-perez-reverte",
+        "title": "Falco",
+        "authorName": "Arturo Perez Reverte",
+        "authorSlug": "arturo-perez-reverte",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "narrativa"
+        ],
+        "year": null,
+        "pages": null,
+        "clicks": 15,
+        "impressions": 7,
+        "priority": 2,
+        "current": {
+          "summary": "Pendiente de desarrollo editorial.",
+          "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+          "centralConflict": "",
+          "themes": [],
+          "keyIdeas": [],
+          "forWhom": "Pendiente de revisión editorial.",
+          "whyItMatters": "Pendiente de revisión editorial.",
+          "tone": "",
+          "escpilar": false
+        },
+        "rewritten": {
+          "summary": "Falcó es una novela de espionaje ambientada en los primeros compases de la Guerra Civil española. Su protagonista, Lorenzo Falcó, es un antiguo traficante reconvertido en agente de inteligencia, un hombre elegante, oportunista y moralmente flexible al que se encarga una misión de alto riesgo: infiltrarse en zona republicana para participar en una operación destinada a liberar de la cárcel de Alicante a José Antonio Primo de Rivera. Arturo Pérez-Reverte construye así un thriller histórico de ritmo rápido, atmósfera turbia y lealtades inestables. La novela no propone héroes edificantes, sino personajes que se mueven entre cálculo, deseo, violencia y supervivencia. El interés principal reside tanto en la tensión de la trama como en la figura de Falcó, un patriota de sí mismo que encarna el cinismo, el profesionalismo y la ambigüedad moral de una Europa en crisis.",
+          "aboutThisBook": "Publicada en 2016, Falcó abre la serie protagonizada por Lorenzo Falcó y marca una de las incursiones más nítidas de Pérez-Reverte en la ficción de espionaje con marco histórico español. Aunque utiliza un episodio reconocible de la Guerra Civil, la novela no está escrita como reconstrucción documental exhaustiva, sino como relato de operaciones encubiertas, dobles juegos y personajes endurecidos por el conflicto. Su tono combina novela negra, aventura, intriga política y mirada desencantada sobre la historia. El resultado es una obra breve, concentrada y muy eficaz en la construcción de tensión narrativa.",
+          "forWhom": "Para lectores de novela histórica, espionaje, thriller político y narrativa de personajes ambiguos; especialmente recomendable para quienes disfrutan de tramas de infiltración y ambientes moralmente grises.",
+          "whyItMatters": "Importa porque enlaza la tradición de la novela de espías con un episodio decisivo de la historia española y lo hace desde una perspectiva poco sentimental. Además, introduce a uno de los protagonistas más duros y memorables de la narrativa reciente de Pérez-Reverte.",
+          "editorialIntro": "Falcó entra en escena sin pedir simpatía. Ese es uno de los grandes aciertos de la novela. Pérez-Reverte no ofrece un espía virtuoso ni un mártir ideológico, sino un profesional del riesgo que atraviesa una guerra guiado por el instinto, la eficacia y el interés propio. En torno a él, la Guerra Civil deja de ser decorado estático y se vuelve un territorio de operaciones, traiciones, identidades falsas y decisiones sin pureza. El libro gana precisamente por esa combinación de ritmo clásico, tensión histórica y frialdad moral.",
+          "readingLevel": "Adecuado para lectores adultos o jóvenes avanzados, con gusto por la novela histórica de intriga, el subtexto político y los personajes cínicos.",
+          "whyReadToday": "Porque sigue siendo una novela útil para pensar cómo operan el poder clandestino, la propaganda, la violencia política y la ambigüedad moral en tiempos de polarización. También porque demuestra la vitalidad de la ficción de espionaje en contexto hispánico.",
+          "studyNotes": [
+            "Conviene leer a Falcó no como héroe moral, sino como instrumento narrativo para explorar un mundo sin inocencia.",
+            "La novela mezcla hechos históricos reconocibles con una trama de espionaje; es útil distinguir el marco histórico del desarrollo ficcional.",
+            "El interés del libro está tanto en la misión como en las relaciones de poder, deseo y traición entre los personajes.",
+            "Puede compararse con la tradición clásica de la novela de espías, pero situada en una coyuntura española muy concreta."
+          ],
+          "chapterSummaries": [
+            {
+              "title": "Parte 1: El encargo y el personaje",
+              "summary": "La novela presenta a Lorenzo Falcó como un agente acostumbrado a operar en los márgenes de la legalidad y la moral. Desde el inicio queda claro que la misión no es una empresa heroica, sino una operación sucia en la que importan la sangre fría, la astucia y la capacidad de moverse entre bandos enfrentados."
+            },
+            {
+              "title": "Parte 2: Infiltración en territorio enemigo",
+              "summary": "Una vez activada la operación, Falcó se adentra en un espacio donde cualquier gesto puede delatarlo. El espionaje, las identidades cruzadas y la tensión política convierten la misión de rescate en un tablero inestable donde cada alianza es provisional."
+            },
+            {
+              "title": "Parte 3: Lealtades quebradas y presión creciente",
+              "summary": "A medida que la trama avanza, la operación se complica por intereses contrapuestos, rivalidades internas y la dificultad de mantener el control en una guerra. El libro intensifica así su tono de thriller y obliga al protagonista a negociar entre eficacia, deseo, supervivencia y traición."
+            },
+            {
+              "title": "Parte 4: Desenlace y apertura de la serie",
+              "summary": "El tramo final confirma que el universo de Falcó no concede limpiezas morales. Más que cerrar con una simple victoria o derrota, la novela consolida una lógica de ambigüedad y deja asentado el perfil del protagonista para sus continuaciones."
+            }
+          ],
+          "analysisSections": [
+            {
+              "title": "Lorenzo Falcó como antihéroe",
+              "content": "Falcó está construido contra la tentación de la ejemplaridad. Es inteligente, seductor, eficaz y resistente, pero también cínico y básicamente fiel a sí mismo. Esa configuración lo acerca a la tradición del espía profesional más que al héroe patriótico. La novela gana espesor porque su protagonista no juzga el mundo desde la pureza, sino desde la supervivencia."
+            },
+            {
+              "title": "La Guerra Civil como escenario de opacidad",
+              "content": "Pérez-Reverte utiliza la Guerra Civil no solo como telón histórico, sino como espacio donde las fronteras morales y operativas se vuelven borrosas. El conflicto aparece atravesado por conspiraciones, mandos ambiguos, aparatos clandestinos y decisiones tomadas en la sombra. Esa elección desplaza la lectura desde la épica hacia la intriga."
+            },
+            {
+              "title": "Ritmo narrativo y tradición del espionaje",
+              "content": "La novela está construida con economía, tensión y escenas de fuerte eficacia visual. Su parentesco con la novela de espías clásica se percibe en el gusto por la misión precisa, los contactos dudosos, la amenaza constante y el personaje experto en leer debilidades ajenas. Todo ello se adapta a una prosa seca y controlada."
+            },
+            {
+              "title": "Historia, deseo y violencia",
+              "content": "Uno de los rasgos más interesantes del libro es que el espionaje nunca aparece aislado del cuerpo, del deseo o de la violencia. Las relaciones personales están contaminadas por cálculo y riesgo, y la historia no es una abstracción ideológica, sino una presión concreta sobre decisiones íntimas y brutales."
+            }
+          ],
+          "faqs": [
+            {
+              "question": "¿Falcó es una novela histórica o de espionaje?",
+              "answer": "Es ambas cosas, aunque predomina claramente la lógica del espionaje. El marco histórico de la Guerra Civil española es decisivo, pero la narración se organiza como una misión clandestina llena de dobles juegos."
+            },
+            {
+              "question": "¿Hace falta leer otras novelas de Pérez-Reverte antes?",
+              "answer": "No. Falcó funciona bien como puerta de entrada porque presenta desde cero al protagonista y su universo. Después puede continuarse con Eva y Sabotaje."
+            },
+            {
+              "question": "¿El protagonista está idealizado?",
+              "answer": "No exactamente. Tiene carisma y competencia, pero el libro subraya su cinismo, su oportunismo y su falta de escrúpulos. Su atractivo literario nace precisamente de esa ambigüedad."
+            },
+            {
+              "question": "¿La novela toma partido político de forma simple?",
+              "answer": "No. Aunque se sitúa en un momento histórico muy marcado, la novela prefiere explorar zonas grises, aparatos de poder y conductas individuales antes que ofrecer una lectura moral simplificada del conflicto."
+            }
+          ],
+          "reviewedAt": "2026-04-16",
+          "sources": [
+            {
+              "label": "Wikipedia: Falcó (novela)",
+              "url": "https://es.wikipedia.org/wiki/Falc%C3%B3_(novela)"
+            },
+            {
+              "label": "Open Library: Falcó",
+              "url": "https://openlibrary.org/works/OL17588309W/Falc%C3%B3"
+            },
+            {
+              "label": "Google Books: Falcó",
+              "url": "https://books.google.com/books/about/Falc%C3%B3.html?id=fUp8tAEACAAJ"
+            },
+            {
+              "label": "Web oficial de Arturo Pérez-Reverte: Serie Falcó",
+              "url": "https://www.perezreverte.com/falco/"
+            }
+          ]
+        }
+      },
+      {
+        "slug": "viajes-extraordinarios-de-julio-verne",
+        "title": "Viajes Extraordinarios",
+        "authorName": "Julio Verne",
+        "authorSlug": "julio-verne",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "narrativa"
+        ],
+        "year": null,
+        "pages": null,
+        "clicks": 14,
+        "impressions": 299,
+        "priority": 3,
+        "current": {
+          "summary": "Pendiente de desarrollo editorial.",
+          "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+          "centralConflict": "",
+          "themes": [],
+          "keyIdeas": [],
+          "forWhom": "Pendiente de revisión editorial.",
+          "whyItMatters": "Pendiente de revisión editorial.",
+          "tone": "",
+          "escpilar": false
+        },
+        "rewritten": {
+          "summary": "Más que una novela aislada, \"Viajes extraordinarios\" es el gran proyecto narrativo con el que Julio Verne convirtió la ciencia, la geografía y la exploración en literatura de aventuras. El conjunto reúne historias de expediciones terrestres y marítimas, viajes imaginados al espacio, travesías por regiones extremas y relatos de supervivencia guiados por ingenieros, sabios, marinos o exploradores. Su hilo conductor no es un solo protagonista, sino una idea: narrar el mundo moderno como un territorio todavía abierto al asombro. Verne combina datos científicos de su tiempo con ritmo novelesco, invención técnica y escenarios exóticos, pero también deja ver tensiones sobre el progreso, la ambición humana y los límites del dominio racional sobre la naturaleza.",
+          "aboutThisBook": "\"Viajes extraordinarios\" designa la colección o secuencia editorial creada en torno a la obra narrativa de Julio Verne junto a su editor Pierre-Jules Hetzel. Su propósito fue reunir novelas y relatos que divulgaran conocimientos modernos de forma amena, ilustrada y accesible. Por eso el valor del libro no reside solo en argumentos memorables como los de los grandes títulos de Verne, sino en el diseño de un proyecto cultural que mezcló entretenimiento, educación científica y una poderosa imaginación tecnológica.",
+          "forWhom": "Para lectores de clásicos de aventuras, estudiantes de literatura comparada, interesados en los orígenes de la ciencia ficción y personas que quieran entender cómo el siglo XIX imaginó el futuro a través del viaje, la técnica y el conocimiento.",
+          "whyItMatters": "Importa porque ayudó a fijar una forma de narrar en la que el descubrimiento científico se vuelve aventura popular. El ciclo de Verne influyó en la literatura juvenil, la ciencia ficción, la novela de exploración y la cultura visual de la modernidad. También sigue siendo relevante porque permite leer críticamente el entusiasmo por el progreso junto con sus sombras: imperialismo, afán de conquista, fe excesiva en la técnica y tensiones entre saber y poder.",
+          "editorialIntro": "Leer \"Viajes extraordinarios\" exige entender que se trata de una constelación narrativa, no de un solo argumento cerrado. En ella, Verne convierte mapas, máquinas, mares, desiertos, polos y cielos en escenarios de aprendizaje y aventura. Su apuesta consiste en enseñar sin dejar de contar, y en imaginar el porvenir con herramientas intelectuales propias del siglo XIX.",
+          "readingLevel": "Nivel medio a avanzado. La prosa es accesible para lectores constantes, pero el trasfondo científico, histórico y editorial se aprecia mejor con algo de contexto sobre el siglo XIX.",
+          "whyReadToday": "Se lee hoy porque permite volver al momento en que la literatura soñó el planeta como una frontera cognoscible y, al mismo tiempo, misteriosa. También ayuda a revisar críticamente nuestras propias ideas sobre innovación, exploración, globalización y confianza en la tecnología.",
+          "studyNotes": [
+            "No lo estudies como una novela única, sino como un ciclo editorial con unidad temática.",
+            "La figura de Pierre-Jules Hetzel es clave para entender el proyecto y su orientación educativa.",
+            "La ciencia en Verne cumple una doble función: explica el mundo y sostiene la aventura.",
+            "Conviene distinguir entre fascinación por el progreso y crítica implícita a sus excesos.",
+            "Las ediciones ilustradas forman parte del sentido cultural de la obra, no son un detalle secundario."
+          ],
+          "chapterSummaries": [
+            {
+              "title": "Proyecto fundacional",
+              "summary": "El ciclo nace como una empresa literaria y editorial destinada a presentar conocimientos modernos en forma novelesca. Desde el inicio, la aventura aparece unida a la pedagogía, y el viaje funciona como instrumento para ordenar el saber geográfico, físico e histórico."
+            },
+            {
+              "title": "Exploraciones de la Tierra y los mares",
+              "summary": "Una parte central de la serie se concentra en territorios remotos, océanos, regiones polares, islas y profundidades naturales. Los protagonistas avanzan mediante observación, cálculo, resistencia física y curiosidad científica, convirtiendo el desplazamiento en aprendizaje."
+            },
+            {
+              "title": "Máquinas, invención y modernidad",
+              "summary": "Otra línea decisiva del conjunto muestra artefactos, ingenieros y proyectos técnicos que expanden los límites de lo posible. El viaje deja de depender solo del coraje y pasa a organizarse alrededor de dispositivos que condensan el optimismo científico de la época."
+            },
+            {
+              "title": "Límites del progreso",
+              "summary": "Aunque la serie celebra el conocimiento, también expone sus riesgos. Las expediciones fracasan, la naturaleza resiste y algunos personajes encarnan una ambición desmedida. Así, el ciclo no solo exalta el progreso: también pregunta qué precio tiene."
+            }
+          ],
+          "analysisSections": [
+            {
+              "title": "La novela como enciclopedia narrativa",
+              "content": "Uno de los rasgos distintivos de \"Viajes extraordinarios\" es su voluntad de reunir saber y entretenimiento. Verne no introduce datos científicos como adorno, sino como parte de la estructura misma del relato. La aventura se legitima porque enseña, y el conocimiento se vuelve memorable porque se dramatiza."
+            },
+            {
+              "title": "Imaginación científica y verosimilitud",
+              "content": "Verne se apoya en conocimientos contemporáneos para construir mundos plausibles, incluso cuando anticipa desarrollos que su época todavía no había realizado plenamente. Esa mezcla de exactitud, extrapolación e imaginación explica por qué su obra se sitúa entre la aventura clásica y la proto-ciencia ficción."
+            },
+            {
+              "title": "El viaje como forma de conocimiento",
+              "content": "En este ciclo, viajar no significa solo desplazarse. Implica medir, describir, clasificar, comparar y someter la experiencia al lenguaje. Los héroes vernianos observan el mundo como exploradores modernos, y por eso la geografía se convierte en una forma de narrar."
+            },
+            {
+              "title": "Ambivalencia ideológica",
+              "content": "La serie expresa entusiasmo por la ciencia y por la expansión del horizonte humano, pero también puede leerse a la luz de las mentalidades imperiales del siglo XIX. Su interés actual aumenta cuando se reconoce esa doble dimensión: maravilla cognitiva y marco histórico problemático."
+            }
+          ],
+          "faqs": [
+            {
+              "question": "¿\"Viajes extraordinarios\" es una sola novela?",
+              "answer": "No. Es el nombre de la gran colección o secuencia de novelas y relatos de Julio Verne organizada editorialmente en torno a un proyecto común."
+            },
+            {
+              "question": "¿Cuál es la idea central del ciclo?",
+              "answer": "Presentar el conocimiento moderno del mundo en forma de aventuras atractivas, combinando exploración, ciencia, invención técnica y ritmo narrativo."
+            },
+            {
+              "question": "¿Se puede leer sin seguir un orden estricto?",
+              "answer": "Sí. Muchos títulos funcionan de manera independiente, aunque leerlos como parte de un proyecto común enriquece la comprensión de sus temas y su alcance cultural."
+            },
+            {
+              "question": "¿Por qué Pierre-Jules Hetzel es tan importante?",
+              "answer": "Porque no fue solo el editor de Verne: ayudó a definir el marco educativo y serial del proyecto, así como su presentación material e ilustrada."
+            }
+          ],
+          "reviewedAt": "2026-04-16",
+          "sources": [
+            {
+              "label": "Encyclopaedia Britannica: Jules Verne",
+              "url": "https://www.britannica.com/biography/Jules-Verne"
+            },
+            {
+              "label": "Wikipedia (EN): Voyages extraordinaires",
+              "url": "https://en.wikipedia.org/wiki/Voyages_extraordinaires"
+            },
+            {
+              "label": "Wikipédia (FR): Voyages extraordinaires",
+              "url": "https://fr.wikipedia.org/wiki/Voyages_extraordinaires"
+            },
+            {
+              "label": "Jules Verne Official Homepage: Pierre Jules Hetzel",
+              "url": "https://www.jules-verne.org/Life_Of_JV_History/Pierre_Jules_Hetzel.html"
+            }
+          ]
+        }
+      },
+      {
+        "slug": "a-dos-metros-de-ti-de-rachael-lippincott",
+        "title": "A Dos Metros De Ti",
+        "authorName": "Rachael Lippincott",
+        "authorSlug": "rachael-lippincott",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "narrativa"
+        ],
+        "year": null,
+        "pages": null,
+        "clicks": 14,
+        "impressions": 292,
+        "priority": 4,
+        "current": {
+          "summary": "Pendiente de desarrollo editorial.",
+          "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+          "centralConflict": "",
+          "themes": [],
+          "keyIdeas": [],
+          "forWhom": "Pendiente de revisión editorial.",
+          "whyItMatters": "Pendiente de revisión editorial.",
+          "tone": "",
+          "escpilar": false
+        },
+        "rewritten": {
+          "summary": "\"A dos metros de ti\" presenta la relación entre Stella Grant y Will Newman, dos adolescentes con fibrosis quística que se conocen en un entorno hospitalario donde cada gesto está regulado por protocolos de distancia e infección. A partir de esa premisa, la novela construye un romance atravesado por la enfermedad crónica, la disciplina médica, el deseo de autonomía y el miedo a perder el futuro. Stella vive aferrada al control porque su supervivencia depende de la constancia; Will, en cambio, expresa cansancio, rebeldía y desconfianza hacia las rutinas clínicas. La tensión entre ambos no nace solo de la atracción, sino de una regla concreta: acercarse demasiado puede ser letal. La historia convierte esa distancia física en el centro emocional de una reflexión sobre amor, fragilidad, cuerpo y adolescencia.",
+          "aboutThisBook": "Es una novela juvenil contemporánea publicada en 2018 y asociada al universo narrativo de \"Five Feet Apart\". Rachael Lippincott organiza la historia desde una sensibilidad emocional accesible, con capítulos breves, conflicto claro y fuerte orientación al vínculo entre personajes. Su rasgo distintivo es que toma una situación médica real —el riesgo de infección cruzada entre pacientes con fibrosis quística— y la transforma en un problema narrativo de intimidad, deseo y límites. Por eso funciona a la vez como romance y como relato sobre vivir bajo vigilancia clínica.",
+          "forWhom": "Para lectores juveniles y adultos que buscan una novela romántica con trasfondo médico, clubes de lectura interesados en enfermedad y representación, y estudiantes que quieran analizar cómo la ficción contemporánea transforma restricciones corporales en conflicto emocional.",
+          "whyItMatters": "Importa porque vuelve visible la experiencia de jóvenes que viven con una enfermedad grave sin reducirlos por completo a su diagnóstico. La novela examina la tensión entre cuidado y libertad, entre protocolo y deseo, y muestra cómo una regla sanitaria puede organizar toda una vida afectiva. También ofrece un buen caso para discutir representación de la enfermedad en la ficción popular.",
+          "editorialIntro": "\"A dos metros de ti\" parte de una premisa de alto impacto emocional: dos personas que se enamoran cuando tocarse puede ponerlas en peligro. Su eficacia no depende solo del romance, sino de cómo hace sentir el peso cotidiano de la vigilancia médica, la espera y la incertidumbre.",
+          "readingLevel": "Nivel medio. La lectura es ágil y directa, pensada para público juvenil y adulto general, aunque los temas de enfermedad, duelo e intimidad añaden densidad emocional.",
+          "whyReadToday": "Sigue siendo actual porque plantea preguntas muy contemporáneas sobre vulnerabilidad, aislamiento, contacto físico, autocuidado y salud. Además, permite pensar cómo los límites corporales redefinen la idea romántica de cercanía en una cultura acostumbrada a dar por sentado el contacto.",
+          "studyNotes": [
+            "La distancia física no es solo un dato médico: es el símbolo central de toda la novela.",
+            "Stella y Will representan respuestas opuestas ante la enfermedad: control frente a rechazo del control.",
+            "El hospital funciona como espacio narrativo cerrado donde cada decisión tiene consecuencias afectivas y médicas.",
+            "La novela combina códigos del romance juvenil con una reflexión sobre autonomía y supervivencia.",
+            "Conviene leerla atendiendo a la diferencia entre deseo emocional y riesgo biológico."
+          ],
+          "chapterSummaries": [
+            {
+              "title": "Rutina hospitalaria y regla de distancia",
+              "summary": "La historia se abre en un entorno hospitalario donde Stella ha convertido la disciplina en una forma de resistencia. La norma de mantener separación entre pacientes con fibrosis quística define desde el principio el marco del conflicto."
+            },
+            {
+              "title": "Atracción, resistencia y choque de temperamentos",
+              "summary": "La llegada de Will intensifica el contraste entre dos modos de enfrentar la enfermedad. Stella intenta preservar el orden y la posibilidad de un trasplante; Will muestra cansancio, ironía y una voluntad de escapar del encierro médico."
+            },
+            {
+              "title": "Intimidad bajo amenaza",
+              "summary": "A medida que crece el vínculo, la distancia obligatoria deja de ser una simple regla clínica y se convierte en una forma de sufrimiento emocional. El relato explora cómo el afecto avanza incluso cuando el cuerpo no puede acercarse con libertad."
+            },
+            {
+              "title": "Pérdida, decisión y madurez emocional",
+              "summary": "La novela conduce a los personajes hacia decisiones dolorosas sobre amor, riesgo y futuro. En ese tramo final, el romance deja de ser idealización y se vuelve aprendizaje sobre límites, cuidado y responsabilidad."
+            }
+          ],
+          "analysisSections": [
+            {
+              "title": "El cuerpo como frontera narrativa",
+              "content": "La novela no usa la enfermedad solo como contexto sentimental. El cuerpo enfermo impone reglas, horarios, riesgos y renuncias, de modo que la trama amorosa surge precisamente de esa limitación. La intimidad se redefine porque la cercanía física ya no puede darse por supuesta."
+            },
+            {
+              "title": "Control frente a libertad",
+              "content": "Stella encarna la lógica del autocontrol: seguir tratamientos, organizar la vida y obedecer protocolos para sostener una posibilidad de futuro. Will representa una reacción opuesta, más escéptica y desafiante. El conflicto entre ambos dramatiza dos respuestas legítimas, pero incompatibles, ante la vulnerabilidad crónica."
+            },
+            {
+              "title": "Romance juvenil y ética del cuidado",
+              "content": "El libro utiliza recursos del romance adolescente —atracción inmediata, oposición de caracteres, intensidad emocional—, pero los cruza con una ética del cuidado. Amar no significa aquí vencer cualquier obstáculo, sino reconocer que el deseo puede entrar en conflicto con la supervivencia."
+            },
+            {
+              "title": "Representación de la enfermedad en la ficción popular",
+              "content": "\"A dos metros de ti\" puede leerse como un ejemplo de cómo la narrativa comercial vuelve visible una experiencia médica compleja a través de personajes accesibles. Su valor crítico está en observar qué logra: humanizar, emocionar y divulgar; y también qué simplifica al convertir una condición clínica en estructura romántica."
+            }
+          ],
+          "faqs": [
+            {
+              "question": "¿Qué significa el título \"A dos metros de ti\"?",
+              "answer": "Remite a la distancia de seguridad que los personajes deben mantener por el riesgo de infección cruzada asociado a la fibrosis quística. El título convierte una medida física en un símbolo afectivo."
+            },
+            {
+              "question": "¿La novela es solo una historia de amor?",
+              "answer": "No. Aunque el romance es central, también trata sobre enfermedad crónica, disciplina médica, autonomía personal, miedo, esperanza y los límites del cuidado."
+            },
+            {
+              "question": "¿Por qué Stella y Will no pueden acercarse libremente?",
+              "answer": "Porque la cercanía física entre pacientes con fibrosis quística puede implicar riesgos graves de infección, lo que vuelve peligrosa una relación convencional."
+            },
+            {
+              "question": "¿Es adecuada para lectores jóvenes?",
+              "answer": "Sí, especialmente para jóvenes lectores habituados a la novela emocional contemporánea, aunque conviene tener presente que aborda temas de sufrimiento, pérdida y decisiones difíciles."
+            }
+          ],
+          "reviewedAt": "2026-04-16",
+          "sources": [
+            {
+              "label": "Google Books: Five Feet Apart",
+              "url": "https://books.google.com/books/about/Five_Feet_Apart.html?id=epd5DwAAQBAJ"
+            },
+            {
+              "label": "Publishers Weekly: Five Feet Apart by Rachael Lippincott",
+              "url": "https://www.publishersweekly.com/9781534437333"
+            },
+            {
+              "label": "Kirkus Reviews: Five Feet Apart",
+              "url": "https://www.kirkusreviews.com/book-reviews/rachael-lippincott/five-feet-apart/"
+            },
+            {
+              "label": "Open Library: Five Feet Apart",
+              "url": "https://openlibrary.org/works/OL18199566W/Five_Feet_Apart"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

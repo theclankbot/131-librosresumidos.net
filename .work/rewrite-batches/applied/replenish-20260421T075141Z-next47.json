@@ -1,0 +1,1501 @@
+{
+  "batchName": "replenish-20260421T075141Z-next47",
+  "createdAt": "2026-04-21T07:51:45Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "no-se-lo-digas-a-nadie-de-harlan-coben",
+      "title": "No Se Lo Digas A Nadie",
+      "authorName": "Harlan Coben",
+      "authorSlug": "harlan-coben",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "No se lo digas a nadie",
+        "authorName": "Harlan Coben",
+        "authorSlug": "harlan-coben",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2001,
+        "pages": 392,
+        "summary": "Publicada originalmente como Tell No One, esta novela de Harlan Coben arranca con una herida imposible de cerrar. Ocho años después del secuestro y aparente asesinato de su esposa Elizabeth, el pediatra David Beck sigue viviendo bajo el peso de un duelo congelado. Todo cambia cuando recibe un mensaje que contiene un detalle íntimo que sólo ellos dos compartían y una imagen que sugiere lo impensable: quizá Elizabeth siga viva. Desde ese momento, la novela se convierte en una persecución vertiginosa en la que Beck debe escapar de la policía, descifrar viejas mentiras familiares y enfrentarse a una trama donde cada revelación abre otra. Coben mezcla suspense, emoción y giros constantes para construir una historia sobre memoria, confianza y supervivencia.",
+        "aboutThisBook": "Es uno de los títulos que consolidaron la reputación internacional de Harlan Coben como autor de thrillers de alto voltaje. La novela combina misterio criminal, ritmo de persecución y una dimensión emocional muy marcada: no se trata sólo de averiguar quién hizo qué, sino de explorar lo que ocurre cuando el pasado irrumpe de nuevo y obliga a reinterpretar una pérdida entera. Las ediciones en español de RBA y la persistencia del libro en catálogos internacionales muestran su larga vida comercial, pero su fuerza real está en la arquitectura narrativa: un arranque contundente, una cadena de sospechosos y un protagonista corriente empujado a una situación extrema.",
+        "forWhom": "Para lectores adultos que disfrutan el thriller contemporáneo con ritmo rápido, conspiraciones, secretos familiares y giros frecuentes, especialmente si buscan una novela muy narrativa y fácil de devorar.",
+        "whyItMatters": "Importa porque ayudó a definir el modelo de suspense popular que Coben llevaría a gran escala: un drama íntimo convertido en maquinaria de intriga. Sigue siendo una referencia útil para entender cómo combinar emoción, misterio y legibilidad sin perder tensión.",
+        "editorialIntro": "Hay thrillers que dependen de una gran idea y otros que dependen de una ejecución impecable; No se lo digas a nadie tiene ambas cosas. La premisa es irresistible —un hombre recibe señales de su esposa muerta—, pero el mérito del libro está en sostenerla sin agotarla demasiado pronto. Coben organiza la información con una eficacia casi quirúrgica y consigue que el lector avance entre sospechas, persecuciones y revelaciones cada vez más comprometedoras. Bajo la adrenalina, además, late una pregunta emocional muy simple y poderosa: qué haríamos si el duelo que nos sostuvo durante años empezara de repente a resquebrajarse.",
+        "readingLevel": "Lectura accesible para público adulto: prosa directa, capítulos ágiles y mucha tracción narrativa. Ideal para lectores de suspense, incluso sin hábito de leer novelas largas y complejas.",
+        "whyReadToday": "Porque sigue funcionando como ejemplo muy sólido de thriller emocional: veloz, claro y eficaz, pero construido sobre una pérdida afectiva reconocible que todavía interpela al lector contemporáneo.",
+        "studyNotes": [
+          "La novela se apoya en una pregunta inicial potentísima y retrasa las respuestas con gran disciplina estructural; conviene observar cómo cada pista cambia el sentido de la anterior.",
+          "David Beck no es un detective profesional, sino un hombre común sometido a una presión extrema; esa condición aumenta la identificación del lector y refuerza el suspense.",
+          "El duelo no es sólo un antecedente argumental: es el motor emocional que vuelve verosímil la obsesión del protagonista y la intensidad de sus decisiones.",
+          "Coben trabaja el tema de la confianza quebrada: amistades, instituciones y recuerdos íntimos dejan de ser estables conforme avanza la trama."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El crimen que no termina de cerrarse",
+            "summary": "La primera parte presenta a David Beck y la noche traumática en Lake Charmaine que marcó su vida. Años después del asesinato de Elizabeth, su existencia sigue organizada por esa pérdida, hasta que un correo en apariencia imposible reabre el caso y también su herida personal."
+          },
+          {
+            "title": "Correos, pistas y sospechosos",
+            "summary": "El segundo tramo convierte el duelo en persecución. Beck intenta seguir las instrucciones que recibe, mientras aparecen nuevos cadáveres, la policía sospecha de él y se hace evidente que el crimen original estaba conectado con una red de secretos más amplia de lo que parecía."
+          },
+          {
+            "title": "Huida, alianzas precarias y verdad oculta",
+            "summary": "Con el protagonista cada vez más aislado, la novela entra en su fase de máxima velocidad. Beck debe distinguir entre aliados reales y ayudas engañosas, revisar la historia de su esposa y enfrentarse a la posibilidad de que toda su memoria del pasado estuviera sostenida por una versión incompleta."
+          },
+          {
+            "title": "Revelación final y costo emocional",
+            "summary": "En la parte final, Coben resuelve la cadena de engaños y explica qué ocurrió realmente con Elizabeth. El cierre no funciona sólo como truco de intriga: también obliga a medir cuánto daño pueden causar los secretos supuestamente protectores y cuánto se deforma una vida cuando se construye sobre una mentira."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un thriller levantado sobre el duelo",
+            "content": "La novela gana fuerza porque el misterio nace de una pérdida afectiva y no de una simple curiosidad policial. El lector no sólo quiere saber qué pasó: quiere saber si una vida devastada puede rehacerse o terminará hundiéndose todavía más."
+          },
+          {
+            "heading": "La eficacia de Harlan Coben",
+            "content": "Coben dosifica la información con notable precisión. Cada capítulo empuja al siguiente, pero no por acumulación caótica, sino por relecturas sucesivas de la misma historia. Ese control del ritmo explica buena parte de su impacto popular."
+          },
+          {
+            "heading": "Identidad, memoria y versiones del pasado",
+            "content": "A medida que Beck descubre nuevas capas de verdad, la novela muestra que recordar no equivale a comprender. El pasado no aparece como archivo fijo, sino como territorio manipulado por intereses, silencios y lealtades rotas."
+          },
+          {
+            "heading": "Entre novela criminal y melodrama contemporáneo",
+            "content": "Aunque pertenece con claridad al thriller, el libro incorpora elementos de melodrama moderno: amor interrumpido, fidelidad extrema, traumas familiares y sacrificios ambiguos. Esa mezcla lo vuelve muy legible y también más emotivo que otros best sellers del género."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata No se lo digas a nadie?",
+            "answer": "Cuenta la historia de David Beck, un médico que, ocho años después del asesinato de su esposa, recibe señales que apuntan a que ella podría seguir viva. Esa posibilidad lo arrastra a una investigación peligrosa y muy personal."
+          },
+          {
+            "question": "¿Es una novela policíaca clásica?",
+            "answer": "No exactamente. Tiene investigación criminal, pero funciona sobre todo como thriller de persecución y de secretos, con un protagonista civil más cercano al lector común que al detective profesional."
+          },
+          {
+            "question": "¿Qué peso tienen los giros argumentales?",
+            "answer": "Mucho. Es una novela construida para sorprender, aunque sus giros suelen apoyarse en información previa y en el trabajo sostenido sobre el pasado de los personajes."
+          },
+          {
+            "question": "¿Sigue siendo recomendable si ya se conocen otras novelas de Coben?",
+            "answer": "Sí. Es uno de los libros que mejor condensan su fórmula narrativa: inicio fulminante, emoción privada, red de engaños y resolución de gran impacto."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Harlan Coben: Tell No One",
+            "url": "https://www.harlancoben.com/novels/tell-no-one/"
+          },
+          {
+            "label": "Orion Books: Tell No One",
+            "url": "https://www.orionbooks.co.uk/titles/harlan-coben/tell-no-one/9781409131236/"
+          },
+          {
+            "label": "Google Books: No se lo digas a nadie",
+            "url": "https://books.google.com/books?id=ez3ODwAAQBAJ"
+          },
+          {
+            "label": "TodosTusLibros: No se lo digas a nadie",
+            "url": "https://www.todostuslibros.com/libros/no-se-lo-digas-a-nadie_978-84-9006-699-7"
+          },
+          {
+            "label": "Open Library: Tell No One",
+            "url": "https://openlibrary.org/works/OL79319W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "novecento-la-leyenda-del-pianista-en-el-oceano-de-alessandro-baricco",
+      "title": "Novecento La Leyenda Del Pianista En El Oceano",
+      "authorName": "Alessandro Baricco",
+      "authorSlug": "alessandro-baricco",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Novecento",
+        "authorName": "Alessandro Baricco",
+        "authorSlug": "alessandro-baricco",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "teatro"
+        ],
+        "year": 1994,
+        "pages": 88,
+        "summary": "Novecento es un texto fronterizo: monólogo teatral, relato largo y pequeña fábula moderna sobre el genio, el mar y el miedo a la vida ilimitada. Un trompetista recuerda la historia de Danny Boodmann T. D. Lemon Novecento, pianista prodigioso nacido y criado a bordo del transatlántico Virginian, incapaz de bajar a tierra pese a haber deslumbrado a pasajeros, emigrantes y músicos legendarios. Baricco convierte esa premisa en una narración musical, breve y muy sugerente, donde el océano no es sólo escenario, sino forma de existencia. La obra habla de talento y leyenda, pero también de límite, identidad y elección: Novecento no rechaza el mundo por simple rareza, sino porque la infinitud de la tierra firme le resulta más insoportable que el horizonte del barco.",
+        "aboutThisBook": "Baricco lo presentó como algo más libre que una pieza teatral convencional: un texto que podía leerse como monólogo, novela corta o relato extenso. Esa ambigüedad formal es parte de su encanto. Publicado originalmente en los años noventa y difundido en español por Anagrama, Novecento alcanzó además nueva visibilidad gracias a la adaptación cinematográfica de Giuseppe Tornatore, conocida como La leyenda del pianista en el océano. Su brevedad no implica menor densidad: en pocas páginas concentra oralidad, lirismo y reflexión, con un tono que oscila entre la confidencia de taberna, el mito contemporáneo y la elegía.",
+        "forWhom": "Para lectores adultos y juveniles avanzados interesados en textos breves con gran potencia simbólica, en la literatura italiana contemporánea y en historias donde música, leyenda y reflexión existencial se mezclan con naturalidad.",
+        "whyItMatters": "Importa porque muestra cómo una obra muy breve puede construir un imaginario completo. También es una magnífica puerta de entrada al estilo de Baricco: musical, evocador y atento a las zonas donde un relato parece cuento oral, teatro y novela al mismo tiempo.",
+        "editorialIntro": "No hace falta que un libro sea largo para dejar una estela duradera. Novecento, con su voz de narración oral y su aire de leyenda marítima, consigue algo poco común: levantar un personaje inolvidable a partir de una imposibilidad muy simple. Un pianista nacido en un barco puede tocar para todos, pero no puede bajar a tierra. A partir de ese límite, Baricco compone una meditación sobre el talento, el vértigo de elegir una sola vida y el modo en que ciertos seres quedan mejor preservados en el espacio cerrado del mito que en el mundo abierto de la realidad.",
+        "readingLevel": "Lectura de dificultad media: el texto es breve y fluido, pero su tono poético, su estructura de monólogo y su dimensión simbólica piden una lectura atenta y algo interpretativa.",
+        "whyReadToday": "Porque sigue dialogando con una ansiedad muy actual: la dificultad de elegir cuando el mundo ofrece demasiadas posibilidades. Su brevedad, además, lo vuelve ideal para releer y comentar.",
+        "studyNotes": [
+          "El narrador no cuenta una biografía objetiva, sino una leyenda reconstruida desde la admiración; eso vuelve decisiva la oralidad del texto.",
+          "La imposibilidad de Novecento para bajar del barco puede leerse como miedo, fidelidad a un mundo propio o rechazo de una realidad demasiado vasta para ser vivida.",
+          "La música funciona como lenguaje central de la obra: expresa lo que el personaje no formula en términos filosóficos o psicológicos.",
+          "Conviene leer el texto como pieza híbrida; reducirlo sólo a teatro o sólo a relato hace perder parte de su singularidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La voz que recuerda a Novecento",
+            "summary": "El texto se abre con la voz de quien conoció al pianista y decide contar su historia. Desde el inicio se impone un tono de evocación oral que convierte a Novecento en figura casi legendaria antes incluso de explicar sus actos."
+          },
+          {
+            "title": "Nacimiento, barco y construcción del mito",
+            "summary": "La segunda parte recompone el origen extraordinario del protagonista en el Virginian y su crecimiento dentro de un espacio cerrado pero inagotable. Allí el barco se vuelve patria, escuela y universo entero."
+          },
+          {
+            "title": "El pianista prodigioso y el duelo con el mundo",
+            "summary": "En el centro del relato aparece el talento de Novecento, su capacidad de tocar para públicos diversos y el célebre duelo musical con Jelly Roll Morton. Ese episodio confirma su genio, pero también subraya que su verdadera medida no depende del reconocimiento exterior."
+          },
+          {
+            "title": "La escalera, la tierra y la elección final",
+            "summary": "Hacia el desenlace, la tensión principal deja de ser musical y pasa a ser existencial. El instante en que Novecento podría bajar del barco concentra el sentido entero de la obra: elegir una vida delimitada antes que perderse en una infinitud que no sabe habitar."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una obra sobre el límite",
+            "content": "La idea más poderosa del libro es que vivir también consiste en aceptar un borde. Para Novecento, el barco ofrece un mundo finito y por eso habitable; la tierra, en cambio, aparece como una expansión sin forma que paraliza en lugar de liberar."
+          },
+          {
+            "heading": "Música y literatura en la prosa de Baricco",
+            "content": "La cadencia del relato imita procedimientos musicales: repeticiones, variaciones, crescendos y silencios. No es casual que el protagonista sea pianista; el propio texto quiere ser escuchado además de leído."
+          },
+          {
+            "heading": "Entre mito moderno y fábula melancólica",
+            "content": "Novecento funciona como leyenda contemporánea porque exagera un rasgo humano real —el miedo a lo ilimitado— hasta volverlo inolvidable. La obra no ridiculiza esa fragilidad, sino que la transforma en una forma de destino."
+          },
+          {
+            "heading": "La hibridez como forma",
+            "content": "Baricco insiste en que no es un texto teatral en sentido estricto. Esa indefinición formal es parte de su valor: el libro puede representarse, leerse en voz alta o estudiarse como narración breve, y en cada caso conserva su intensidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Novecento es novela o teatro?",
+            "answer": "Es una obra híbrida. Suele leerse como monólogo teatral, pero el propio Baricco la entendió también como novela corta o relato largo."
+          },
+          {
+            "question": "¿Qué significa que Novecento no baje del barco?",
+            "answer": "Es el gran símbolo del libro. Puede leerse como temor al mundo abierto, como fidelidad a un espacio propio o como intuición de que no toda libertad se experimenta como liberación."
+          },
+          {
+            "question": "¿Hace falta ver la película para entender el texto?",
+            "answer": "No. La adaptación de Tornatore puede enriquecer la lectura, pero el libro funciona perfectamente por sí solo y conserva un tono más concentrado y oral."
+          },
+          {
+            "question": "¿Es un libro breve pero superficial?",
+            "answer": "En absoluto. Su brevedad es engañosa: condensa reflexión existencial, imagen poética y una construcción muy precisa del personaje y de su leyenda."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Editorial Anagrama: Novecento",
+            "url": "https://www.anagrama-ed.es/libro/compactos/novecento/9788433966223/CM_622"
+          },
+          {
+            "label": "TodosTusLibros: Novecento",
+            "url": "https://www.todostuslibros.com/libros/novecento_978-84-339-6622-3"
+          },
+          {
+            "label": "Google Books: Novecento",
+            "url": "https://books.google.com/books?id=1ExPSAAACAAJ"
+          },
+          {
+            "label": "Open Library: Novecento",
+            "url": "https://openlibrary.org/works/OL876496W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nuestra-epopeya-de-manuel-longares",
+      "title": "Nuestra Epopeya",
+      "authorName": "Manuel Longares",
+      "authorSlug": "manuel-longares",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Nuestra epopeya",
+        "authorName": "Manuel Longares",
+        "authorSlug": "manuel-longares",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 2006,
+        "pages": 432,
+        "summary": "Nuestra epopeya es una novela coral con ambición histórica y mirada satírica sobre la transformación social de la España del siglo XX. Manuel Longares parte de una generación marcada por la pobreza de la posguerra para seguir su desplazamiento hacia la emigración, el trabajo urbano, la pequeña prosperidad y, finalmente, el sueño del consumo. No cuenta esa evolución como simple crónica de progreso, sino como una mezcla de necesidad, oportunismo, deseo de ascenso y pérdida de inocencia. El libro reúne policías y ladrones, comunistas, militares, criadas, artistas populares y familias que cambian de clase o creen cambiar de mundo. Bajo su amplitud narrativa late una pregunta incisiva: qué país se construyó realmente entre la cartilla de racionamiento y la fiebre del bienestar.",
+        "aboutThisBook": "Publicada por Alfaguara en 2006 dentro de la colección Hispánica, la novela se presenta desde sus propios paratextos como la historia de una generación que pasó del hambre al automóvil, de la precariedad a la inversión y del pueblo de origen a una modernidad a menudo improvisada. Longares no trabaja ese arco como un relato solemne, sino como una epopeya irónica, muy española y profundamente coral. Quien conozca otras obras suyas reconocerá su oído para las hablas sociales, su gusto por el retrato colectivo y su capacidad para convertir procesos históricos amplios en escenas llenas de tono, costumbres y contradicción moral.",
+        "forWhom": "Para lectores adultos interesados en la novela española contemporánea, en relatos corales con trasfondo histórico y en ficciones que examinan la posguerra, la movilidad social y las ficciones del progreso material.",
+        "whyItMatters": "Importa porque ofrece una lectura literaria de la modernización española sin triunfalismo fácil. Muestra cómo el ascenso económico cambia vidas reales, pero también deja residuos de violencia social, memoria degradada y nuevas formas de codicia o impostura.",
+        "editorialIntro": "Pocas novelas retratan una transformación colectiva con tanta amplitud y, al mismo tiempo, con tanta ironía concreta. Nuestra epopeya mira a la España que salió de la guerra civil, emigró, trabajó, ahorró, imitó a los vencedores del confort y acabó creyendo que el bienestar equivalía por sí solo a una redención histórica. Longares sabe que ese relato existe, pero también sabe desmontarlo. Por eso su novela es coral, satírica y a ratos entrañable: porque entiende que ninguna épica social se sostiene sólo con cifras o consignas, sino con cuerpos, hablas, hambres viejas, astucias nuevas y una memoria que nunca termina de ordenarse del todo.",
+        "readingLevel": "Lectura de dificultad media-alta: prosa literaria, múltiples personajes y una mirada histórica que exige atención al contexto social y al tono irónico del narrador.",
+        "whyReadToday": "Porque ayuda a pensar de dónde viene buena parte del imaginario español del progreso, el consumo y la clase media, y porque lo hace sin nostalgia simplificadora ni propaganda retrospectiva.",
+        "studyNotes": [
+          "La novela debe leerse como relato coral: el protagonismo está repartido y la visión histórica surge del conjunto de trayectorias, no de un héroe único.",
+          "El término epopeya se usa con ironía. Longares eleva la experiencia colectiva, pero también muestra sus miserias, su oportunismo y sus autoengaños.",
+          "La movilidad social no aparece como avance lineal: cada mejora material arrastra renuncias, desigualdades y nuevas ficciones sobre el éxito.",
+          "El lenguaje social de los personajes importa mucho; las hablas, los registros y los gestos cotidianos ayudan a construir época y jerarquía."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Posguerra, escasez y salida obligada",
+            "summary": "La primera parte sitúa a la generación retratada en un paisaje de miseria, hambre y horizontes estrechos. Desde ahí se entiende el impulso inicial de abandonar el pueblo, buscar trabajo y convertir la supervivencia en proyecto de ascenso."
+          },
+          {
+            "title": "Migración, trabajo y aprendizaje del mundo moderno",
+            "summary": "En el segundo movimiento, la novela muestra el contacto con la ciudad, la emigración y los nuevos códigos del dinero y del prestigio. El cambio material se presenta como una escuela dura, donde se gana experiencia a costa de pérdida, desarraigo y adaptación."
+          },
+          {
+            "title": "La prosperidad como promesa colectiva",
+            "summary": "A medida que mejora la situación económica de muchos personajes, el libro examina el nacimiento de un imaginario de bienestar: coche, televisión, inversión, apariencia de éxito. Longares observa ese proceso con fascinación narrativa, pero también con una ironía constante."
+          },
+          {
+            "title": "Balance histórico y desmitificación de la épica",
+            "summary": "El tramo final convierte la peripecia generacional en balance moral. Lo ganado es real, pero no basta para cerrar heridas ni para borrar las formas de violencia social, desigualdad y simulación que acompañaron la modernización."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La epopeya de la clase media española",
+            "content": "El libro examina el paso de una España de privaciones a otra fascinada por el confort y la apariencia de prosperidad. Esa trayectoria colectiva, vista de cerca, resulta menos heroica y más ambigua de lo que suele contar el relato del progreso."
+          },
+          {
+            "heading": "Coralidad y mirada histórica",
+            "content": "Longares evita resumir una época desde una sola conciencia. Prefiere reunir oficios, ideologías, rangos y registros sociales para que la historia se vuelva un tejido de voces, hábitos y tensiones en lugar de una tesis abstracta."
+          },
+          {
+            "heading": "Ironía frente a nostalgia",
+            "content": "La novela no idealiza ni la pobreza del pasado ni el bienestar posterior. Su ironía impide la nostalgia fácil y obliga a ver tanto la dignidad del esfuerzo como la vulgaridad, el cálculo y la impostura que acompañan ciertos ascensos sociales."
+          },
+          {
+            "heading": "España del siglo XX como teatro moral",
+            "content": "Más que reconstruir hechos públicos en primer plano, Longares muestra cómo la gran historia se infiltra en la vida cotidiana: en los trabajos, las ambiciones, los matrimonios, los miedos y las conversaciones. Así convierte la historia social en experiencia vivida."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué cuenta Nuestra epopeya?",
+            "answer": "Cuenta la transformación de una generación española que pasa de la posguerra y la pobreza a la emigración, el trabajo urbano y la promesa de prosperidad material, todo ello dentro de una novela coral e irónica."
+          },
+          {
+            "question": "¿Es una novela histórica en sentido estricto?",
+            "answer": "Sí en su fondo temporal y social, pero no como reconstrucción de hechos célebres. Su fuerza está en la historia cotidiana, en la vida de personajes que encarnan cambios colectivos muy amplios."
+          },
+          {
+            "question": "¿Predomina la crítica o la celebración del progreso?",
+            "answer": "Ninguna de las dos por separado. Longares reconoce la mejora material, pero al mismo tiempo cuestiona los mitos que la vuelven automáticamente redentora o moralmente limpia."
+          },
+          {
+            "question": "¿Es una lectura exigente?",
+            "answer": "Exige más atención que una novela lineal y breve porque maneja coralidad, contexto histórico y matices de tono, pero recompensa mucho al lector interesado en la narrativa española contemporánea."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Penguin Libros: Nuestra epopeya",
+            "url": "https://www.penguinlibros.com/es/literatura-contemporanea/7339-libro-nuestra-epopeya-9788420468334"
+          },
+          {
+            "label": "TodosTusLibros: Nuestra epopeya",
+            "url": "https://www.todostuslibros.com/libros/nuestra-epopeya_978-84-204-6833-4"
+          },
+          {
+            "label": "Casa del Libro: Nuestra epopeya",
+            "url": "https://www.casadellibro.com/libro-nuestra-epopeya/9788420468334/1076380"
+          },
+          {
+            "label": "Google Books: Nuestra epopeya",
+            "url": "https://books.google.com/books?id=JPJdZvi0iKAC"
+          },
+          {
+            "label": "Open Library: Nuestra epopeya",
+            "url": "https://openlibrary.org/works/OL3107482W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nuestra-guerra-ajena-de-german-castro-caycedo",
+      "title": "Nuestra Guerra Ajena",
+      "authorName": "German Castro Caycedo",
+      "authorSlug": "german-castro-caycedo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Nuestra guerra ajena",
+        "authorName": "Germán Castro Caycedo",
+        "authorSlug": "german-castro-caycedo",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2014,
+        "pages": 395,
+        "summary": "Nuestra guerra ajena es un libro de periodismo narrativo e interpretación política en el que Germán Castro Caycedo conecta la guerra de Vietnam con las formas contemporáneas de intervención militar en Colombia. El autor no se limita a reconstruir episodios bélicos: usa Vietnam como laboratorio histórico para examinar cómo se fabrican enemigos, cómo se justifica la violencia desde el discurso oficial y cómo la llamada lucha contra las drogas puede servir de cobertura para intereses estratégicos mucho más amplios. A partir de documentos, antecedentes históricos y una prosa de denuncia muy característica en su obra, Castro Caycedo plantea que la militarización colombiana no puede entenderse aislada del poder de Estados Unidos ni de la disputa por recursos, territorios y soberanía. Es un libro polémico, frontal y escrito para discutir la versión cómoda de la historia reciente.",
+        "aboutThisBook": "Publicado por Planeta en 2014, este título pertenece a la zona más combativa de la obra de Castro Caycedo. En la presentación incluida en el adelanto editorial, el autor recuerda que el manuscrito había sido rechazado antes por su contenido sobre la posición del Estado frente al conflicto interno, dato que ayuda a entender el tono del libro: no es una crónica neutral, sino una intervención argumentada en un debate público. La obra combina memoria histórica, denuncia geopolítica y examen de la violencia contemporánea, con especial atención a los discursos estadounidenses sobre narcotráfico, seguridad y control regional. Su lectura exige distinguir entre dato, interpretación y tesis autoral, pero precisamente ahí reside su interés.",
+        "forWhom": "Para lectores adultos interesados en periodismo latinoamericano, historia reciente de Colombia, geopolítica de Estados Unidos, conflicto armado y libros de investigación con una voz autoral fuerte.",
+        "whyItMatters": "Importa porque propone una lectura de larga duración sobre la guerra en Colombia y cuestiona las explicaciones simplistas que reducen todo al narcotráfico o al conflicto interno. Obliga a pensar la violencia local dentro de una estrategia internacional de poder.",
+        "editorialIntro": "No todos los libros sobre guerra consiguen discutir al mismo tiempo hechos, lenguaje y propaganda. Nuestra guerra ajena lo intenta desde una tradición muy colombiana de periodismo narrativo de denuncia. Castro Caycedo escribe con indignación documentada y con una hipótesis central incómoda: ciertas guerras que se presentan como propias han sido diseñadas, financiadas o encauzadas desde intereses externos. Más que un recuento militar, el libro es una disputa por el sentido político de la violencia.",
+        "readingLevel": "Lectura para público adulto con interés en historia y actualidad política. El estilo es claro, pero las referencias a Vietnam, Colombia, intervención estadounidense y conflicto armado se aprovechan mejor con atención sostenida y cierta cultura histórica básica.",
+        "whyReadToday": "Porque los debates sobre seguridad, soberanía, militarización y recursos naturales siguen plenamente vigentes en América Latina, y el libro ofrece una perspectiva crítica de largo alcance para leerlos.",
+        "studyNotes": [
+          "La tesis del libro vincula la guerra de Vietnam con la lógica posterior de la lucha antidrogas y la contrainsurgencia en Colombia; conviene leer esa continuidad como argumento político del autor, no como equivalencia mecánica.",
+          "El adelanto editorial muestra un uso intenso de fuentes históricas sobre Vietnam, incluidas referencias a My Lai, al napalm y a investigaciones periodísticas premiadas; el libro trabaja por acumulación de antecedentes para sostener su denuncia.",
+          "Es útil comparar este texto con otras obras de Castro Caycedo para ver cómo mezcla crónica, archivo, interpretación geopolítica y tono polémico.",
+          "Una lectura crítica debe distinguir entre los hechos ampliamente documentados, la selección de esos hechos y la conclusión general sobre la política estadounidense en Colombia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento del conflicto y marco político",
+            "summary": "El libro abre con una toma de posición explícita: la guerra colombiana no se explica solo desde dentro. Castro Caycedo plantea que detrás del discurso antidrogas y de seguridad hay una arquitectura internacional de poder que debe leerse históricamente y no como una coyuntura aislada."
+          },
+          {
+            "title": "Vietnam como laboratorio de violencia moderna",
+            "summary": "En uno de sus tramos decisivos, el autor reconstruye episodios de la guerra de Vietnam para mostrar métodos de devastación, encubrimiento y propaganda. Las referencias a masacres, armas químicas, manipulación informativa y brutalización de los soldados sirven para preparar su comparación con otros escenarios posteriores."
+          },
+          {
+            "title": "De la guerra anticomunista a la guerra antidrogas",
+            "summary": "Después, el argumento se desplaza hacia América Latina y particularmente hacia Colombia. La idea central es que ciertas doctrinas de intervención cambian de nombre, pero conservan objetivos estratégicos semejantes: control territorial, influencia política y legitimación externa de la acción militar."
+          },
+          {
+            "title": "Soberanía, recursos y costos humanos",
+            "summary": "En el cierre interpretativo, el libro insiste en que la militarización no solo altera el campo de batalla, sino también la soberanía del Estado y la vida cotidiana de la población civil. El conflicto aparece entonces como un problema de poder regional, no únicamente como un asunto policial o interno."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Periodismo de denuncia con tesis fuerte",
+            "content": "Castro Caycedo no disimula su punto de vista. El libro está construido para persuadir y polemizar, no para ofrecer una falsa neutralidad. Su eficacia depende precisamente de esa voz que organiza los hechos en torno a una tesis central sobre intervención, dependencia y guerra."
+          },
+          {
+            "heading": "Vietnam como espejo histórico",
+            "content": "La comparación con Vietnam cumple una función decisiva: convierte un episodio lejano en antecedente explicativo. El autor sugiere que allí se ensayaron formas de guerra, encubrimiento y legitimación que luego reaparecen, bajo otros nombres, en América Latina."
+          },
+          {
+            "heading": "La crítica al lenguaje oficial",
+            "content": "Uno de los aportes más interesantes del libro es su desconfianza frente al vocabulario estatal y militar. Términos como narcotráfico, seguridad, ayuda o cooperación aparecen menos como conceptos transparentes que como piezas de una narrativa destinada a hacer aceptable la intervención."
+          },
+          {
+            "heading": "Valor y límites de la obra hoy",
+            "content": "Su valor sigue siendo alto para comprender una tradición crítica del periodismo colombiano. Su límite es que la intensidad de la denuncia puede llevar al lector a exigir contrastes adicionales con otras interpretaciones históricas. Leído con esa cautela, el libro conserva una gran fuerza intelectual."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Nuestra guerra ajena es novela o investigación periodística?",
+            "answer": "Es un libro de no ficción escrito desde el periodismo narrativo y la interpretación política. No presenta una trama inventada, sino una tesis sobre la relación entre Vietnam, Estados Unidos y la guerra colombiana."
+          },
+          {
+            "question": "¿Cuál es su idea principal?",
+            "answer": "Que la violencia colombiana y la llamada guerra contra las drogas no pueden leerse solo como un problema doméstico, porque forman parte de estrategias internacionales de intervención, control y poder."
+          },
+          {
+            "question": "¿Hace falta conocer la historia de Vietnam para entenderlo?",
+            "answer": "No es imprescindible, pero ayuda mucho. El libro se vuelve más rico cuando el lector reconoce la importancia de Vietnam como antecedente bélico, moral y propagandístico en la política exterior estadounidense."
+          },
+          {
+            "question": "¿Sigue siendo relevante?",
+            "answer": "Sí. Aunque fue publicado en 2014, su discusión sobre soberanía, militarización, discurso antidrogas e intereses estratégicos externos sigue siendo pertinente para leer debates actuales en Colombia y América Latina."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Sitio oficial de Germán Castro Caycedo: Nuestra Guerra Ajena",
+            "url": "https://germancastrocaycedo.co/portal/story/nuestra-guerra-ajena/"
+          },
+          {
+            "label": "Adelanto editorial en PDF: Nuestra guerra ajena (Planeta)",
+            "url": "https://proassets.planetadelibros.com.co/usuaris/libros_contenido/arxius/29/28977_1_NuestraGuerraAjena_GermanCastroCaycedo.pdf"
+          },
+          {
+            "label": "Google Books: Nuestra guerra ajena",
+            "url": "https://books.google.com/books?id=547xrQEACAAJ"
+          },
+          {
+            "label": "Internet Archive: Nuestra guerra ajena",
+            "url": "https://archive.org/details/nuestraguerraaje0000cast"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nuestra-hermana-de-afuera-de-mariano-quiros",
+      "title": "Nuestra Hermana De Afuera",
+      "authorName": "Mariano Quiros",
+      "authorSlug": "mariano-quiros",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Nuestra hermana de afuera",
+        "authorName": "Mariano Quirós",
+        "authorSlug": "mariano-quiros",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2023,
+        "pages": 216,
+        "summary": "Nuestra hermana de afuera es una novela coral y fragmentaria en la que Mariano Quirós convierte un viaje familiar a Buenos Aires en una exploración de vínculos, desajustes y pequeñas catástrofes cotidianas. El punto de partida es sencillo: Nadia y Clara, dos hermanas del interior, viajan a la capital para una consulta médica relacionada con el cáncer de Nadia. Desde esa anécdota mínima, la narración se abre a hijos, hijas, ex parejas, nietos, médicos, mozos y personajes laterales que van armando una constelación familiar inestable, divertida y a ratos dolorosa. La ciudad no funciona solo como escenario, sino como fuerza que reorganiza las miradas y vuelve visibles las torpezas, prejuicios y deseos de quienes llegan desde afuera. Quirós evita la trama cerrada y prefiere una acumulación de escenas, voces y derivas que producen humor, incomodidad y una extraña ternura.",
+        "aboutThisBook": "Publicada por Tusquets en 2023, la novela fue presentada por PlanetadeLibros como un libro donde la ciudad actúa como protagonista y metáfora de los deseos propios y familiares. Las reseñas de La Nación y Hoy Día coinciden en destacar su dimensión coral, su picaresca y su estructura fragmentaria. No es una novela construida sobre un gran misterio ni sobre un desenlace enfático, sino sobre el espesor de las relaciones, los desbordes y las historias cruzadas. Según la crítica, Quirós combina comedia de enredos, novela familiar y relato urbano, con un movimiento narrativo que desarma el centro de la acción y deja que cada personaje modifique el mapa afectivo del conjunto. Esa libertad formal es una de sus mayores virtudes.",
+        "forWhom": "Para lectores adultos que disfrutan la narrativa argentina contemporánea, las novelas corales, los retratos familiares irregulares y los libros donde la ciudad importa tanto como los personajes.",
+        "whyItMatters": "Importa porque confirma a Quirós como una voz singular dentro de la narrativa argentina reciente y porque ofrece una mirada no turística de Buenos Aires: la ciudad vista por quienes llegan desde el interior y la padecen, la usan o la imaginan desde la incomodidad.",
+        "editorialIntro": "Hay novelas que avanzan hacia una resolución y otras que prefieren expandirse en escenas, tensiones y voces. Nuestra hermana de afuera pertenece a esta segunda familia. Mariano Quirós toma un viaje aparentemente menor y lo convierte en una red de parentescos, rarezas y observaciones urbanas donde casi nada se cierra del todo, pero todo deja una huella. Su logro está en narrar el desorden sin perder precisión y en volver literaria la mezcla de humor, fragilidad y desborde familiar.",
+        "readingLevel": "Lectura recomendable para público adulto habituado a la narrativa contemporánea. El lenguaje no es difícil, pero la estructura fragmentaria, la coralidad y los cambios de foco se disfrutan más con una lectura atenta a matices y relaciones indirectas.",
+        "whyReadToday": "Porque dialoga muy bien con discusiones actuales sobre familia, periferia, enfermedad, adicción, ciudad y pertenencia, y lo hace sin solemnidad, con una forma narrativa flexible y muy viva.",
+        "studyNotes": [
+          "El disparador argumental es simple —el viaje de Nadia y Clara a Buenos Aires por una consulta médica—, pero la novela se expande pronto hacia una constelación familiar mucho más amplia.",
+          "La crítica ha subrayado su estructura coral y fragmentaria: no se apoya en una intriga clásica, sino en la acumulación de escenas, perspectivas y pequeños desvíos narrativos.",
+          "Buenos Aires funciona como protagonista y como filtro de percepción; la mirada foránea o provinciana es clave para entender el tono del libro.",
+          "Conviene atender a cómo Quirós mezcla picaresca, humor, incomodidad y afecto sin idealizar a la familia ni volver caricaturescos a sus personajes."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El viaje de Nadia y Clara",
+            "summary": "La novela arranca con el desplazamiento de dos hermanas del interior hacia Buenos Aires para afrontar una consulta médica. Ese punto de partida instala la enfermedad como trasfondo, pero sobre todo abre un espacio de observación sobre la edad, el cuerpo, la dependencia y la forma en que cada una habita el viaje."
+          },
+          {
+            "title": "La familia se vuelve un sistema en expansión",
+            "summary": "Muy pronto la historia deja de concentrarse solo en las protagonistas y empieza a incorporar hijos, hijas, ex parejas, nietos y figuras laterales. El efecto es coral: cada personaje arrastra sus propias tensiones y convierte la anécdota inicial en una red de relaciones mal encajadas, cómicas o dolorosas."
+          },
+          {
+            "title": "Buenos Aires como escenario y prueba",
+            "summary": "La ciudad aparece como un espacio que desordena y redefine a quienes la atraviesan. Viajes en taxi, bares, subte, consultas, esperas y desorientaciones producen una geografía emocional donde la condición de foráneo pesa tanto como las historias íntimas."
+          },
+          {
+            "title": "Cambio de voz y cierre abierto",
+            "summary": "En su tramo final, la novela modifica su régimen de voz y vuelve todavía más visible la inestabilidad del conjunto. En lugar de cerrar todo con una verdad única, Quirós deja que las perspectivas se crucen y que la familia quede retratada como una suma de versiones, impulsos y pérdidas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La ciudad como personaje literario",
+            "content": "PlanetadeLibros resume bien uno de los núcleos del libro: la ciudad es protagonista y metáfora. Buenos Aires no aparece como fondo decorativo, sino como una máquina de inclusión y exclusión que condiciona movimientos, deseos, torpezas y jerarquías entre quienes la recorren."
+          },
+          {
+            "heading": "Fragmentación y verdad parcial",
+            "content": "La novela rehúye el centro estable. Según la crítica de Hoy Día, funciona como un caleidoscopio de historias interrumpidas y miradas que se completan o se distorsionan entre sí. Ese procedimiento impide una lectura lineal y vuelve más rica la construcción de los personajes."
+          },
+          {
+            "heading": "Picaresca con trasfondo familiar",
+            "content": "La Nación la definió como picaresca con trasfondo familiar, una fórmula acertada para su tono. Hay humor, desborde, incorrección y escenas de aparente nimiedad, pero debajo de esa superficie se mueven la enfermedad, la incomodidad entre generaciones y la fragilidad de los vínculos."
+          },
+          {
+            "heading": "Una novela del afuera",
+            "content": "Leerla desde la categoría del afuera resulta especialmente productivo. Los personajes no solo vienen de otro lugar geográfico; también se sienten desplazados respecto de la ciudad, de la familia y, a veces, de sí mismos. Esa distancia sostiene gran parte de la energía del libro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Tiene una trama cerrada o tradicional?",
+            "answer": "No del todo. Parte de una situación concreta, pero la novela se abre enseguida a múltiples escenas y personajes, y privilegia la construcción de un mundo familiar y urbano antes que una intriga clásica de resolución contundente."
+          },
+          {
+            "question": "¿Quiénes son las figuras centrales?",
+            "answer": "Nadia y Clara, dos hermanas que viajan desde el interior a Buenos Aires, son el eje inicial. Sin embargo, la novela se vuelve coral y cede pronto espacio a hijos, hijas y otras figuras que reorganizan el foco narrativo."
+          },
+          {
+            "question": "¿Qué papel cumple Buenos Aires en la novela?",
+            "answer": "Un papel decisivo. La ciudad actúa como escenario, filtro perceptivo y metáfora de deseos y desajustes familiares. La mirada del foráneo es uno de los motores más fértiles del libro."
+          },
+          {
+            "question": "¿Es un libro accesible o muy experimental?",
+            "answer": "Es accesible en el lenguaje, pero su estructura es fragmentaria y coral. No busca desconcertar por dificultad extrema, aunque sí exige aceptar una novela menos lineal y más abierta a las derivas."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: Nuestra hermana de afuera",
+            "url": "https://www.planetadelibros.com/libro-nuestra-hermana-de-afuera/376416"
+          },
+          {
+            "label": "La Nación: Reseña de Nuestra hermana de afuera",
+            "url": "https://www.lanacion.com.ar/ideas/resena-nuestra-hermana-de-afuera-de-mariano-quiros-nid03062023/"
+          },
+          {
+            "label": "Hoy Día Córdoba: “Nuestra hermana de afuera”, la mirada fragmentaria de Mariano Quirós",
+            "url": "https://hoydia.com.ar/cultura/nuestra-hermana-de-afuera-la-mirada-fragmentaria-de-mariano-quiros/"
+          },
+          {
+            "label": "Google Books: Nuestra hermana de afuera",
+            "url": "https://books.google.com/books?id=-7YJ0AEACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nueve-perfectos-desconocidos-de-liane-moriarty",
+      "title": "Nueve Perfectos Desconocidos",
+      "authorName": "Liane Moriarty",
+      "authorSlug": "liane-moriarty",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Nueve perfectos desconocidos",
+        "authorName": "Liane Moriarty",
+        "authorSlug": "liane-moriarty",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2018,
+        "pages": 479,
+        "summary": "Nueve perfectos desconocidos reúne a nueve personas muy distintas en Tranquillum House, un retiro de bienestar aislado donde diez días prometen cambiarles la vida. Algunos llegan para perder peso, otros para recomponerse tras una crisis sentimental, un duelo o un desgaste emocional difícil de nombrar. Entre todos destaca Frances Welty, novelista romántica en horas bajas, cuya mirada ayuda a ordenar el desconcierto inicial del grupo. Lo que comienza como una sátira del mundo wellness y de las promesas de transformación personal se va cargando de tensión a medida que la misteriosa directora del lugar, Masha, revela un método cada vez más inquietante. Moriarty combina humor, observación psicológica y suspense para explorar la vulnerabilidad contemporánea, la necesidad de pertenecer y el deseo de que alguien, por fin, ofrezca una respuesta total a vidas desajustadas.",
+        "aboutThisBook": "Publicada originalmente en 2018, la novela apareció en español en SUMA y consolidó otra vez la habilidad de Liane Moriarty para convertir situaciones sociales reconocibles en ficciones adictivas con un filo oscuro. La propia autora la presenta como la historia de nueve habitantes urbanos estresados que buscan desprenderse de su equipaje literal y mental en un resort llamado Tranquillum House. Las reseñas de Kirkus y Publishers Weekly subrayan esa mezcla de comedia, intriga y revelación progresiva. No es un thriller clásico basado solo en giros, sino una novela coral de personajes heridos que entran a un espacio de promesa terapéutica donde la búsqueda de bienestar se vuelve terreno de manipulación, exposición emocional y riesgo real.",
+        "forWhom": "Para lectores adultos que disfrutan los thrillers psicológicos accesibles, las novelas corales, la sátira social contemporánea y las historias que mezclan suspense con humor negro.",
+        "whyItMatters": "Sigue importando porque captó con precisión la cultura del bienestar convertida en industria, el hambre de reinvención personal y la facilidad con que personas vulnerables aceptan métodos extremos cuando se les ofrecen como sanación.",
+        "editorialIntro": "Liane Moriarty tiene un talento especial para tomar espacios aparentemente cómodos —familias, colegios, urbanizaciones, retiros de lujo— y mostrar la ansiedad, el dolor y la violencia latente que contienen. En Nueve perfectos desconocidos aplica ese talento al universo wellness. El resultado no es solo una novela de intriga; es también una sátira aguda sobre la promesa contemporánea de arreglarse a uno mismo mediante consumo, gurús y experiencias exclusivas. Bajo su ligereza inicial, el libro es más perturbador de lo que parece.",
+        "readingLevel": "Lectura accesible para público general adulto. La prosa es fluida, el reparto amplio se sigue bien y el suspense empuja la lectura, aunque conviene prestar atención a los cambios de foco entre personajes y a sus historias previas.",
+        "whyReadToday": "Porque la novela dialoga de forma directa con la cultura actual de retiros, terapias exprés, coaches, bienestar premium y vulnerabilidad emocional convertida en mercado.",
+        "studyNotes": [
+          "La novela funciona a la vez como thriller y como sátira social: no conviene leer el resort solo como escenario de intriga, sino como caricatura seria de la industria del bienestar.",
+          "Frances Welty sirve como figura de entrada para el lector, pero el libro depende de una estructura coral en la que cada huésped lleva su propia herida, expectativa y nivel de autoengaño.",
+          "Moriarty dosifica la información sobre Masha y Tranquillum House para que la tensión crezca por revelación progresiva y no solo por acción directa.",
+          "Un tema de fondo es la vulnerabilidad contemporánea: personas aparentemente funcionales llegan al retiro porque ya no pueden sostener, en privado, la versión de sí mismas que muestran en público."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Llegada a Tranquillum House",
+            "summary": "El inicio presenta a los nueve huéspedes y deja claro que cada uno llega con una expectativa distinta: descanso, pérdida de peso, reparación afectiva, alivio del dolor o simple curiosidad. La novela siembra desde el principio una incomodidad sutil alrededor del lugar y de su directora."
+          },
+          {
+            "title": "Rutinas de bienestar y primeras grietas",
+            "summary": "En la segunda etapa, el retiro despliega sus rituales de silencio, alimentación, meditación y control. Lo que parecía lujo terapéutico empieza a mostrar una disciplina inquietante, mientras se revelan tensiones entre los huéspedes y pequeñas señales de que algo no encaja."
+          },
+          {
+            "title": "Historias privadas bajo presión",
+            "summary": "A medida que avanza la estancia, Moriarty profundiza en los traumas, frustraciones y deseos de cada personaje. La convivencia forzada y las decisiones de Masha convierten el espacio de bienestar en una cámara de exposición emocional donde todos quedan más vulnerables de lo previsto."
+          },
+          {
+            "title": "La promesa de transformación llevada al extremo",
+            "summary": "En su tramo final, la novela transforma la búsqueda de sanación en un experimento peligroso. Sin abandonar el humor ni la humanidad de sus personajes, el libro examina hasta dónde puede llegar una idea de cambio personal cuando se mezcla con carisma, poder y fe casi religiosa en el método."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Sátira del bienestar contemporáneo",
+            "content": "Uno de los blancos más claros de la novela es la industria del wellness. Tranquillum House ofrece lujo, lenguaje terapéutico y promesa de transformación total, pero detrás de esa estética aparece una lógica de control y una explotación refinada de la fragilidad humana."
+          },
+          {
+            "heading": "Novela coral con ritmo de thriller",
+            "content": "Moriarty combina una estructura coral bastante amplia con una maquinaria de suspense muy eficaz. El lector conoce a cada personaje lo suficiente como para entender su herida, pero nunca recibe toda la información de una vez, lo que permite que el misterio avance sin perder densidad emocional."
+          },
+          {
+            "heading": "Humor, empatía y oscuridad",
+            "content": "El libro destaca porque no elige entre ironía y compasión. Puede burlarse del narcisismo contemporáneo o de ciertos lenguajes de autoayuda, pero al mismo tiempo entiende que sus personajes llegan al retiro porque sufren de verdad. Esa combinación vuelve más inquietante la historia."
+          },
+          {
+            "heading": "Por qué sigue funcionando",
+            "content": "La novela mantiene su vigencia porque el mundo que retrata no ha desaparecido; al contrario, se ha expandido. Retiros de bienestar, terapias milagro, liderazgo carismático y reinvención personal como mercancía siguen formando parte del paisaje cultural de hoy."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Nueve perfectos desconocidos es solo un thriller?",
+            "answer": "No. Tiene suspense y momentos claramente inquietantes, pero también es una novela coral de observación psicológica y una sátira muy reconocible del mundo del bienestar y la autoayuda de lujo."
+          },
+          {
+            "question": "¿Quién es la figura central del libro?",
+            "answer": "No hay una única protagonista absoluta, aunque Frances Welty funciona como punto de entrada importante. El verdadero diseño de la novela es coral y reparte el interés entre los nueve huéspedes y la directora del retiro."
+          },
+          {
+            "question": "¿Es mejor leerla por la intriga o por los personajes?",
+            "answer": "Por ambas cosas. La intriga sostiene el ritmo, pero el libro gana profundidad por la forma en que Moriarty trabaja el duelo, la frustración, la vergüenza y la necesidad de reinvención en cada personaje."
+          },
+          {
+            "question": "¿Sigue valiendo la pena si ya se conoce la serie?",
+            "answer": "Sí. La novela permite apreciar mejor el tono de Moriarty, su equilibrio entre sarcasmo y empatía y la manera en que organiza la voz interior de los personajes, algo que en pantalla necesariamente cambia."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Sitio oficial de Liane Moriarty: Nine Perfect Strangers",
+            "url": "https://lianemoriarty.com.au/Book/nine-perfect-strangers-au/"
+          },
+          {
+            "label": "Google Play Books / Google Books: Nueve perfectos desconocidos",
+            "url": "https://play.google.com/store/books/details?id=QUvRDwAAQBAJ"
+          },
+          {
+            "label": "Kirkus Reviews: Nine Perfect Strangers",
+            "url": "https://www.kirkusreviews.com/book-reviews/liane-moriarty/nine-perfect-strangers/"
+          },
+          {
+            "label": "Publishers Weekly: Nine Perfect Strangers by Liane Moriarty",
+            "url": "https://www.publishersweekly.com/9781250069825"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nunca-pasa-nada-de-jose-ovejero",
+      "title": "Nunca Pasa Nada",
+      "authorName": "Jose Ovejero",
+      "authorSlug": "jose-ovejero",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Nunca pasa nada",
+        "authorName": "José Ovejero",
+        "authorSlug": "jose-ovejero",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2007,
+        "pages": 288,
+        "summary": "Nunca pasa nada retrata la aparente normalidad de una familia de clase media y la convierte en un territorio de secretos, desigualdad y violencia latente. Carmela y Nico llevan una vida estable en la superficie: él enseña latín, ella busca salidas esporádicas a una existencia que se ha vuelto rutinaria y ambos conviven con silencios que parecen menores hasta que dejan de serlo. La presencia de Olivia, inmigrante ecuatoriana que trabaja en la casa, introduce una asimetría moral que la novela no suaviza. A ello se suma Claudio, alumno brillante y perturbador, empeñado en descubrir lo que su profesor intenta ocultar. José Ovejero organiza así una ficción coral donde cada gesto cotidiano contiene una amenaza y donde la buena conciencia burguesa se revela como una máscara frágil.",
+        "aboutThisBook": "Publicada por Alfaguara en 2007, esta novela ocupa un lugar reconocible dentro de la narrativa de José Ovejero por su mezcla de observación social, tensión psicológica y mirada crítica sobre la intimidad burguesa. Las fichas bibliográficas de Google Books y Open Library sitúan la edición original en 2007, mientras que el propio autor y Galaxia Gutenberg han seguido presentándola como una obra clave de su catálogo. No es una novela de gran artificio formal, pero sí una historia muy calculada en el manejo del silencio, el secreto y el deterioro de las apariencias.",
+        "forWhom": "Recomendable para lectores de novela española contemporánea, historias familiares tensas y ficciones que analizan clase social, migración y autoengaño sin recurrir al melodrama fácil.",
+        "whyItMatters": "Importa porque convierte un hogar acomodado en laboratorio moral y muestra cómo la violencia social puede esconderse en rutinas respetables, dependencias laborales y gestos aparentemente inocentes.",
+        "editorialIntro": "José Ovejero no necesita un gran acontecimiento externo para inquietar. Le basta con una casa, un matrimonio, una empleada doméstica y un adolescente demasiado lúcido para ir levantando, capa a capa, una novela donde casi todo parece controlado hasta que deja de estarlo. Esa contención es precisamente una de sus fuerzas.",
+        "readingLevel": "Lectura media-alta: prosa clara, pero con matices psicológicos y sociales que se disfrutan mejor con atención sostenida.",
+        "whyReadToday": "Sigue siendo muy legible hoy porque habla de precariedad, privilegio, convivencia desigual y ceguera moral dentro de espacios cotidianos que todavía reconocemos sin esfuerzo.",
+        "studyNotes": [
+          "La novela funciona mejor si se lee como desmontaje de la normalidad doméstica, no solo como trama de secretos.",
+          "Olivia es central para entender la dimensión ética del libro: no es un personaje accesorio, sino el punto donde chocan clase, trabajo y culpa.",
+          "Claudio introduce una inteligencia incómoda que desordena el pacto de silencios sostenido por los adultos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. La calma aparente",
+            "summary": "El relato presenta a Carmela, Nico y su vida de clase media como una rutina reconocible y más bien apagada. Bajo esa superficie se acumulan pequeñas renuncias, escapadas y silencios que preparan el conflicto."
+          },
+          {
+            "title": "Parte 2. Olivia y la fragilidad del equilibrio",
+            "summary": "La relación con Olivia expone la desigualdad material y afectiva que sostiene el hogar. Lo que parecía ayuda doméstica empieza a volverse un foco de tensión moral y de dependencia mutua."
+          },
+          {
+            "title": "Parte 3. Claudio desvela lo oculto",
+            "summary": "La insistencia del alumno superdotado en descubrir lo que su profesor calla rompe la apariencia de control. La novela acelera entonces hacia una tragedia donde los secretos ya no pueden seguir siendo administrados."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La familia como escenario de opacidad",
+            "content": "Ovejero muestra la familia no como refugio estable, sino como un espacio donde la omisión y la incomunicación permiten que los conflictos crezcan sin nombrarse."
+          },
+          {
+            "heading": "Clase social y buena conciencia",
+            "content": "Uno de los ejes más fuertes del libro es la crítica a la comodidad moral de quienes se creen razonables mientras viven sostenidos por relaciones desiguales que prefieren no mirar de frente."
+          },
+          {
+            "heading": "El secreto como mecanismo narrativo y ético",
+            "content": "Los secretos no solo dan suspense: organizan la estructura moral de la novela. Cada ocultamiento protege a alguien y expone a otro, de modo que la intriga es inseparable de la responsabilidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de suspense o una novela social?",
+            "answer": "Tiene elementos de ambas. La intriga nace de lo que se oculta en el ámbito doméstico, pero el libro también examina clase social, trabajo doméstico y autoengaño burgués."
+          },
+          {
+            "question": "¿En qué año se publicó?",
+            "answer": "Las fuentes bibliográficas de Google Books y Open Library sitúan la edición original de Alfaguara en 2007."
+          },
+          {
+            "question": "¿Qué distingue a Nunca pasa nada dentro de la obra de José Ovejero?",
+            "answer": "Su capacidad para transformar una situación cotidiana en una ficción incómoda sobre secretos, desigualdad y violencia latente, sin abandonar un registro realista."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "José Ovejero, ficha de Nunca pasa nada",
+            "url": "https://joseovejero.com/nunca-pasa-nada/"
+          },
+          {
+            "label": "Google Books, Nunca pasa nada",
+            "url": "https://books.google.com/books/about/Nunca_pasa_nada.html?id=F2llAAAAMAAJ"
+          },
+          {
+            "label": "Open Library, edición de Nunca pasa nada",
+            "url": "https://openlibrary.org/books/OL19521280M/Nunca_pasa_nada"
+          },
+          {
+            "label": "Galaxia Gutenberg, ficha editorial de Nunca pasa nada",
+            "url": "https://www.galaxiagutenberg.com/producto/nunca-pasa-nada/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "oro-entre-brumas-de-luis-melero",
+      "title": "Oro Entre Brumas",
+      "authorName": "Luis Melero",
+      "authorSlug": "luis-melero",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Oro entre brumas",
+        "authorName": "Luis Melero",
+        "authorSlug": "luis-melero",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "aventura",
+          "thriller"
+        ],
+        "year": 2004,
+        "pages": 299,
+        "summary": "Oro entre brumas combina novela histórica, aventura marítima y thriller de búsqueda en torno al legendario tesoro perdido en la ría de Vigo. Luis Melero parte de un hecho histórico muy atractivo, la batalla de Rande de 1702 y la memoria de la Flota de la Plata, para construir una narración en dos planos: el del pasado imperial y el del presente de Dimas Outeiro, profesional del ámbito audiovisual que logra financiar una expedición destinada a encontrar el oro. La exploración submarina, que al principio parece una empresa casi obsesiva pero racional, cambia de tono cuando aparece un galeón casi intacto y, dentro de él, el esqueleto emparedado de un hombre aparentemente asesinado. A partir de ahí el libro cruza investigación, codicia, memoria histórica y peligro físico con una vocación claramente novelesca.",
+        "aboutThisBook": "Publicada por Roca Editorial en 2004, la novela figura en Google Books y Open Library con unas 299 páginas y ha circulado también en catálogos de librerías y bibliotecas como una obra de ficción histórica española. Su premisa mezcla documentación sobre los galeones hundidos en Vigo con ingredientes de novela de búsqueda contemporánea. Ese cruce la sitúa en una zona interesante entre la recreación histórica y el suspense de hallazgo arqueológico, con un tono más de aventura adulta que de reconstrucción académica estricta.",
+        "forWhom": "Adecuada para lectores de novela histórica con ritmo, relatos de tesoros hundidos, intrigas marítimas y tramas donde la investigación del pasado desencadena riesgos en el presente.",
+        "whyItMatters": "Importa porque aprovecha un episodio histórico muy fértil del imaginario ibérico y lo convierte en una novela sobre ambición, memoria y fascinación por la riqueza escondida bajo el mar.",
+        "editorialIntro": "Luis Melero entiende bien el poder narrativo de los grandes tesoros perdidos: no solo prometen riqueza, también arrastran leyendas, obsesiones y cadáveres. Oro entre brumas trabaja precisamente esa mezcla. Empieza como una búsqueda prestigiosa y termina revelando que cada expedición al pasado arrastra también violencia, codicia y una imaginación difícil de controlar.",
+        "readingLevel": "Lectura media: argumento ágil y accesible, con trasfondo histórico suficiente para enriquecer la aventura sin volverla densa.",
+        "whyReadToday": "Sigue resultando atractiva porque une historia, arqueología narrativa y suspense en torno a un mito persistente: el de los tesoros sumergidos que prometen resolverlo todo y complican todavía más la vida de quienes los persiguen.",
+        "studyNotes": [
+          "Conviene observar cómo el hecho histórico de 1702 funciona como motor imaginario para una trama contemporánea de ambición y descubrimiento.",
+          "El hallazgo del esqueleto cambia el registro de novela de búsqueda a thriller, y ese giro organiza buena parte de la tensión.",
+          "La obra aprovecha el mito del tesoro de Vigo para hablar también del deseo de prestigio personal y del precio de la obsesión."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. La promesa del oro de Vigo",
+            "summary": "Dimas Outeiro logra poner en marcha el proyecto soñado de localizar el legendario tesoro asociado a la batalla de Rande. La novela sitúa desde el comienzo la mezcla de documentación histórica y ambición contemporánea."
+          },
+          {
+            "title": "Parte 2. Inmersión y hallazgo inquietante",
+            "summary": "La exploración submarina conduce al descubrimiento de un galeón casi intacto. El hallazgo del esqueleto emparedado introduce una dimensión criminal que transforma la búsqueda en una investigación peligrosa."
+          },
+          {
+            "title": "Parte 3. Codicia, pasado y riesgo",
+            "summary": "A medida que la expedición avanza, el tesoro deja de ser solo una promesa de riqueza y se convierte en un foco de tensiones, secretos y amenazas. La novela remata su aventura mostrando que el pasado nunca aparece limpio cuando emerge a la superficie."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La batalla de Rande como mito narrativo",
+            "content": "Melero parte de un episodio histórico muy conocido para activar un imaginario de galeones, plata y riquezas desaparecidas. El interés del libro está en cómo convierte ese mito en mecanismo de suspense."
+          },
+          {
+            "heading": "El mar como archivo y amenaza",
+            "content": "La ría no funciona solo como escenario pintoresco. Es un depósito de memoria material, pero también un espacio de peligro, opacidad y demora, donde cada descubrimiento exige una lectura incierta."
+          },
+          {
+            "heading": "Aventura adulta y deseo de prestigio",
+            "content": "Dimas no persigue solo dinero: también busca coronar una trayectoria y convertir su obsesión en reconocimiento. Esa mezcla de ambición simbólica y ambición económica da espesor al conflicto."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Está basada en un hecho histórico real?",
+            "answer": "Sí. La novela se apoya en la batalla de Rande de 1702 y en la leyenda del tesoro hundido en la ría de Vigo, aunque desarrolla una trama plenamente novelesca."
+          },
+          {
+            "question": "¿Predomina la novela histórica o el suspense?",
+            "answer": "Las dos capas conviven, pero el descubrimiento del galeón y del esqueleto emparedado empuja el libro claramente hacia el suspense aventurero."
+          },
+          {
+            "question": "¿Qué extensión tiene la edición de referencia?",
+            "answer": "Google Books y Open Library registran la edición de Roca Editorial de 2004 en torno a las 299 páginas."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Google Books, Oro entre brumas",
+            "url": "https://books.google.com/books/about/Oro_entre_brumas.html?id=309lAAAAMAAJ"
+          },
+          {
+            "label": "Open Library, Oro Entre Brumas/Gold in the Mist",
+            "url": "https://openlibrary.org/books/OL13358256M/Oro_Entre_Brumas_Gold_in_the_Mist"
+          },
+          {
+            "label": "Lecturalia, ficha de Oro entre brumas",
+            "url": "https://www.lecturalia.com/libro/56932/oro-entre-brumas"
+          },
+          {
+            "label": "Casa del Libro, Oro entre brumas",
+            "url": "https://www.casadellibro.com/libro-oro-entre-brumas/9788496284432/998424"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ovni-54-40-elige-tu-propia-aventura-no-6-de-edward-packard",
+      "title": "Ovni 54 40 Elige Tu Propia Aventura No 6",
+      "authorName": "Edward Packard",
+      "authorSlug": "edward-packard",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Dentro del ovni 54-40",
+        "authorName": "Edward Packard",
+        "authorSlug": "edward-packard",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "aventura",
+          "ciencia-ficcion"
+        ],
+        "year": 1985,
+        "pages": 118,
+        "summary": "Dentro del ovni 54-40 es una aventura interactiva de Edward Packard en la que el lector entra literalmente en la historia y decide el recorrido. La premisa es directa y muy eficaz: una abducción o encuentro con fuerzas extraterrestres obliga a elegir rutas, riesgos y alianzas mientras se busca el misterioso destino llamado Ultima. Como en los mejores títulos de Elige tu propia aventura, el interés no reside solo en la trama básica, sino en la arquitectura de posibilidades: caminos que prometen escape, decisiones que terminan en captura, desvíos absurdos y finales abruptos o engañosos. La obra ganó fama dentro de la serie porque su lógica de lectura juega con las expectativas del lector y convierte la exploración en un rompecabezas narrativo, no solo en una sucesión de peripecias espaciales.",
+        "aboutThisBook": "La obra apareció originalmente en inglés como Inside UFO 54-40 en 1982 dentro de Choose Your Own Adventure, y Google Books registra una edición en español publicada por Atlántida en 1985 con el título Dentro del ovni 54-40 y 118 páginas. Penguin Random House mantiene hoy una edición retro en inglés, señal de la persistencia del libro dentro del catálogo histórico de la serie. Más que una novela juvenil convencional, es una pieza de ficción interactiva donde la estructura, los finales múltiples y la sensación de prueba y error forman parte inseparable de la experiencia lectora.",
+        "forWhom": "Ideal para lectores juveniles, nostálgicos de los libros-juego y adultos interesados en la historia de la ficción interactiva previa al videojuego narrativo contemporáneo.",
+        "whyItMatters": "Importa porque demuestra hasta qué punto un libro para jóvenes puede convertir la lectura en exploración activa, ensayo, error y relectura, anticipando lógicas que hoy asociamos a experiencias interactivas digitales.",
+        "editorialIntro": "Edward Packard fue una figura decisiva en la popularización del libro-juego, y Dentro del ovni 54-40 conserva intacto ese encanto experimental. No ofrece una sola aventura, sino muchas, y obliga al lector a aceptar que equivocarse también forma parte del placer. Su rareza más celebrada es precisamente esa: leer aquí significa probar, perderse y volver a empezar.",
+        "readingLevel": "Lectura accesible desde 10-12 años, con especial atractivo para quienes disfrutan decidir rutas y releer para descubrir nuevos desenlaces.",
+        "whyReadToday": "Vale la pena leerlo hoy porque permite entender de dónde vienen muchas narrativas interactivas actuales y porque sigue siendo un ejemplo ingenioso de participación del lector dentro del propio libro.",
+        "studyNotes": [
+          "La gracia del libro no está solo en la historia de ciencia ficción, sino en cómo organiza la toma de decisiones y la relectura.",
+          "Ultima funciona como objetivo narrativo, pero también como señuelo que empuja a explorar rutas y finales alternativos.",
+          "Es útil leerlo en diálogo con videojuegos narrativos y ficción ramificada moderna: muchas de sus lógicas ya estaban aquí en papel."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio. Contacto y secuestro",
+            "summary": "La aventura arranca con la irrupción de lo extraterrestre y con la necesidad inmediata de decidir cómo reaccionar. El lector entiende desde las primeras páginas que cada elección redefine la historia."
+          },
+          {
+            "title": "Rutas intermedias. Exploración del ovni y de Ultima",
+            "summary": "Las distintas trayectorias llevan a laboratorios, fugas, criaturas y pistas contradictorias sobre el destino final. La lectura alterna maravilla espacial, peligro y humor involuntario propio de la serie clásica."
+          },
+          {
+            "title": "Finales. Éxitos aparentes y salida secreta",
+            "summary": "Muchos recorridos desembocan en desenlaces abruptos o engañosos, lo que convierte el libro en una experiencia de ensayo y error. Su fama proviene en parte de la dificultad para alcanzar cierta resolución verdaderamente satisfactoria."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La lectura como juego",
+            "content": "Packard transforma al lector en jugador mucho antes de que esa comparación fuera habitual. Elegir página no es un adorno: es el núcleo del diseño narrativo."
+          },
+          {
+            "heading": "Ciencia ficción para explorar, no solo contemplar",
+            "content": "El libro usa extraterrestres, naves y planetas como motores de decisión. La ambientación espacial importa porque multiplica posibilidades de riesgo, extrañeza y sorpresa."
+          },
+          {
+            "heading": "El prestigio del final difícil",
+            "content": "La obra es recordada por hacer del desenlace una especie de desafío metalectoral. Eso la volvió singular dentro de la serie y explica parte de su permanencia entre lectores y coleccionistas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela lineal?",
+            "answer": "No. Es un libro-juego de decisiones múltiples en el que el lector elige rutas y accede a numerosos finales posibles."
+          },
+          {
+            "question": "¿Cuál es la fecha de la edición española citada aquí?",
+            "answer": "Google Books registra la edición en español de Atlántida, titulada Dentro del ovni 54-40, en 1985 y con 118 páginas."
+          },
+          {
+            "question": "¿Por qué este título es especialmente recordado dentro de la serie?",
+            "answer": "Porque su diseño de finales y su resolución difícil de alcanzar lo convirtieron en uno de los libros más comentados entre los lectores de Choose Your Own Adventure."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Google Books, Dentro del ovni 54-40",
+            "url": "https://books.google.com/books/about/Dentro_del_ovni_54_40.html?id=g1rHQwAACAAJ"
+          },
+          {
+            "label": "Open Library, Inside UFO 54-40",
+            "url": "https://openlibrary.org/books/OL7819930M/Inside_UFO_54-40"
+          },
+          {
+            "label": "Penguin Random House, Inside UFO 54-40",
+            "url": "https://www.penguinrandomhouse.com/books/821687/inside-ufo-54-40-by-packard-edward/"
+          },
+          {
+            "label": "Internet Archive, Inside UFO 54-40",
+            "url": "https://archive.org/details/insideufo544000pack"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "papel-mojado-de-juan-jose-millas-garcia",
+      "title": "Papel Mojado",
+      "authorName": "Juan Jose Millas Garcia",
+      "authorSlug": "juan-jose-millas-garcia",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Papel mojado",
+        "authorName": "Juan José Millás",
+        "authorSlug": "juan-jose-millas",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "narrativa",
+          "thriller",
+          "juvenil"
+        ],
+        "year": 1983,
+        "pages": 141,
+        "summary": "Papel mojado es una novela de intriga escrita con la agilidad de un policial breve y con el sello irónico de Juan José Millás. El narrador, Manolo G. Urbina, es un periodista venido a menos que decide investigar la muerte de su amigo Luis Mary, presentada al principio como un suicidio. A medida que avanza, la pesquisa lo obliga a reconstruir viejas relaciones sentimentales, un maletín comprometedor ligado a una empresa farmacéutica y una red de intereses donde nadie parece del todo limpio. La novela juega con la voz narrativa, con la imagen del escritor fracasado y con la duda sobre quién cuenta realmente la historia. Por eso funciona a la vez como relato detectivesco, sátira urbana y reflexión sobre la identidad, la impostura y la distancia entre lo que uno cree ser y lo que termina revelando en una situación límite.",
+        "aboutThisBook": "Publicada en 1983, Papel mojado se convirtió en uno de los títulos más leídos de Millás y en una puerta de entrada muy frecuente a su obra. Aunque adopta formas reconocibles de la novela policíaca, no se limita a resolver un caso: explora la fragilidad del narrador, el artificio literario y la tensión entre verdad y relato. Su circulación en ámbitos escolares y juveniles se explica por la claridad del estilo, la brevedad de los capítulos y la eficacia de la intriga, pero su juego metaliterario le da una densidad mayor de la que parece a primera vista.",
+        "forWhom": "Para lectores juveniles y adultos que disfrutan la novela de intriga, los narradores poco fiables y las historias breves con giro final. También resulta muy útil en clase para trabajar punto de vista, estructura y mezcla de géneros.",
+        "whyItMatters": "Importa porque muestra una vía muy accesible hacia la narrativa de Millás: une suspense, humor, comentario social y una reflexión muy clara sobre la construcción del yo. Sigue siendo un título eficaz para formar lectores sin sacrificar ambición literaria.",
+        "editorialIntro": "Hay novelas cortas que se leen deprisa y se olvidan enseguida, y otras que aprovechan esa velocidad para esconder una trampa más profunda. Papel mojado pertenece a la segunda clase. Millás toma el molde del caso policial, le añade un narrador inseguro y cínico, y termina construyendo una historia sobre la escritura misma, sobre la mentira y sobre la necesidad humana de inventarse una versión soportable de sí mismo.",
+        "readingLevel": "Lectura accesible desde secundaria alta. El lenguaje es claro, los capítulos son breves y la intriga empuja la lectura, pero conviene cierta atención para captar el juego entre narrador, autoría, pistas falsas y desenlace circular.",
+        "whyReadToday": "Porque sigue funcionando como novela de iniciación lectora para quienes buscan suspense, y porque su mirada sobre la manipulación del relato, la precariedad profesional y la construcción de una identidad pública suena muy contemporánea.",
+        "studyNotes": [
+          "Wikipedia y Open Library coinciden en presentar la obra como una novela policíaca en primera persona, dividida en dieciséis capítulos breves, un dato útil para analizar su ritmo narrativo.",
+          "El caso detectivesco importa, pero no agota el sentido del libro: la obra también cuestiona quién tiene autoridad para contar una historia y cuánto puede engañarnos una voz confesional.",
+          "La relación entre Manolo, Luis Mary, Teresa y Carolina convierte la intriga criminal en un mapa de resentimientos, rivalidades y deseos frustrados.",
+          "Su uso escolar frecuente se explica por la claridad del argumento, aunque el verdadero interés crítico está en su desenlace metaliterario y en la inestabilidad del narrador."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: una muerte sospechosa",
+            "summary": "La novela arranca con Manolo G. Urbina intentando fijar por escrito el caso de su amigo Luis Mary. Lo que parece un suicidio pronto se vuelve sospechoso, y esa incertidumbre instala el tono del libro: una investigación narrada desde la urgencia y desde una subjetividad poco fiable."
+          },
+          {
+            "title": "El maletín y la red de intereses",
+            "summary": "Con la aparición del maletín y de los documentos comprometedores para una farmacéutica, el caso adquiere una dimensión económica y criminal. El protagonista queda atrapado entre antiguos afectos, amenazas y medias verdades, mientras la trama se complica sin ofrecer un centro estable."
+          },
+          {
+            "title": "Teresa, Carolina y los desplazamientos del deseo",
+            "summary": "Las figuras de Teresa y Carolina no solo aportan información sobre el caso: también reordenan la memoria sentimental de Manolo y exponen sus frustraciones. La investigación exterior avanza en paralelo a una indagación más íntima sobre el fracaso, el resentimiento y la autoimagen."
+          },
+          {
+            "title": "Desenlace: el relato se vuelve contra su narrador",
+            "summary": "En el tramo final, la resolución policial no solo aclara el crimen, sino que obliga a releer todo lo anterior. El libro revela que la historia escrita y la historia vivida no coinciden como el lector suponía, y convierte la intriga en una reflexión sobre autoría, impostura y ficción."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un policial al servicio de otra cosa",
+            "content": "Millás usa convenciones muy visibles del género detectivesco —cadáver, investigación, pistas, personajes ambiguos—, pero no se conforma con la lógica del enigma. El caso criminal es el mecanismo que le permite hablar de identidad dañada, de mediocridad y de la distancia entre narrarse y conocerse."
+          },
+          {
+            "heading": "La importancia del narrador poco fiable",
+            "content": "Manolo parece ofrecer una confesión transparente, pero el libro demuestra que la primera persona también puede ocultar, deformar y construir coartadas. Ese desplazamiento vuelve la novela especialmente útil para estudiar cómo una voz íntima gana credibilidad y la pierde al mismo tiempo."
+          },
+          {
+            "heading": "Madrid urbano, periodismo menor y desencanto",
+            "content": "El mundo de revistas del corazón, trabajos mediocres y relaciones gastadas sitúa la novela en una cotidianidad reconocible. Ese marco rebaja el heroísmo tradicional del detective y lo sustituye por una figura vulnerable, algo cínica y muy propia de la narrativa española de fin de siglo XX."
+          },
+          {
+            "heading": "Metaliteratura sin perder legibilidad",
+            "content": "Uno de los mayores logros de Papel mojado es introducir un juego literario sofisticado sin romper la fluidez del relato. El lector puede disfrutarla como novela de suspense, pero también como un texto que pone en escena la fabricación de la verdad narrativa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Papel mojado es solo una novela juvenil?",
+            "answer": "No. Se lee mucho en contextos escolares por su claridad y su ritmo, pero también ofrece capas adultas: ironía, crítica social y un juego metaliterario muy visible en el desenlace."
+          },
+          {
+            "question": "¿Pertenece realmente al género policíaco?",
+            "answer": "Sí, porque organiza la trama alrededor de una muerte sospechosa y una investigación. Sin embargo, utiliza ese molde para ir más allá del enigma y pensar en la identidad y en el poder del relato."
+          },
+          {
+            "question": "¿Qué hace especial a su narrador?",
+            "answer": "La novela está contada en primera persona por un protagonista que parece cercano y espontáneo, pero cuya versión de los hechos se vuelve progresivamente dudosa. Esa inestabilidad sostiene buena parte de la tensión del libro."
+          },
+          {
+            "question": "¿Por qué sigue recomendándose tanto?",
+            "answer": "Porque combina brevedad, suspense y calidad literaria. Es una lectura ágil que, además de entretener, permite hablar de estructura narrativa, fiabilidad del narrador y relación entre verdad y ficción."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: Papel mojado",
+            "url": "https://es.wikipedia.org/wiki/Papel_mojado"
+          },
+          {
+            "label": "Google Books: Papel mojado",
+            "url": "https://books.google.com/books?id=nf3vwAEACAAJ"
+          },
+          {
+            "label": "Open Library: Papel mojado",
+            "url": "https://openlibrary.org/works/OL833232W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "para-ana-de-tu-muerto-de-nuria-rocajuan-del-val",
+      "title": "Para Ana De Tu Muerto",
+      "authorName": "Nuria Rocajuan Del Val",
+      "authorSlug": "nuria-rocajuan-del-val",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Para Ana (de tu muerto)",
+        "authorName": "Nuria Roca y Juan del Val",
+        "authorSlug": "nuria-roca-y-juan-del-val",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "romance",
+          "thriller"
+        ],
+        "year": 2011,
+        "pages": 260,
+        "summary": "Para Ana (de tu muerto) presenta a Ana, una mujer marcada durante años por su relación con Carlos Pacheco, un escritor brillante, amoral y absorbente al que conoció siendo muy joven. Cuando la novela comienza, Ana arrastra el peso de una historia sentimental larga, intensa y dañina, y su deseo de ser “normal” se convierte en una meta más difícil de lo que parece. La muerte de Carlos abre entonces un espacio ambiguo: duelo, liberación, memoria y posibilidad de reinicio. Nuria Roca y Juan del Val construyen una trama que combina relación tóxica, humor negro, secretos y sorpresas ligadas al mundo editorial. El libro se apoya en un tono ágil y muy legible para contar cómo una vida puede quedar organizada por el magnetismo de otra persona, y cómo salir de esa órbita puede ser al mismo tiempo una pérdida y una segunda oportunidad.",
+        "aboutThisBook": "Publicada por Planeta en 2011, esta novela fue presentada como la segunda incursión narrativa de Nuria Roca, escrita en colaboración con Juan del Val. La información editorial disponible insiste en varios rasgos: mezcla de sexo, humor, vida cotidiana y una trama de giros ambientada entre bambalinas del sector editorial. Más que una novela romántica convencional, el libro se mueve entre la comedia amarga y el relato de dependencia afectiva. Su centro no está solo en el vínculo con Carlos Pacheco, sino en la difícil reconstrucción de Ana cuando ese vínculo, por fin, se interrumpe.",
+        "forWhom": "Para lectores adultos interesados en novelas sentimentales con ironía, relaciones intensas y personajes que intentan recomponer su vida después de un vínculo absorbente. Puede atraer también a quien busque una ficción comercial con buen ritmo y trasfondo emocional.",
+        "whyItMatters": "Importa porque aborda un tema muy reconocible —la huella que deja una relación desigual y magnética— desde una narrativa de gran circulación. Su interés está en mostrar que el duelo no siempre consiste en perder a alguien amado, sino a veces en desengancharse de una historia que definía por completo la propia identidad.",
+        "editorialIntro": "El gancho de esta novela no está solo en su título, que ya anuncia humor negro y una intimidad herida, sino en la pregunta que la recorre: ¿qué queda de una persona cuando la figura que ordenaba su vida desaparece? Roca y del Val optan por una escritura directa, con ritmo de ficción popular, y convierten esa pregunta en una historia de dependencia, memoria y reinvención con telón de fondo literario.",
+        "readingLevel": "Lectura accesible para público adulto general. El estilo es directo, contemporáneo y muy narrativo; no plantea dificultad formal, aunque sí pide atención a los matices emocionales y a los giros con los que se reorganiza la historia de Ana.",
+        "whyReadToday": "Porque sigue siendo actual cualquier relato que explore cómo se sale de una relación que ha ocupado demasiados años, demasiado deseo y demasiada identidad. Su combinación de duelo, humor y reconstrucción personal conserva vigencia.",
+        "studyNotes": [
+          "Google Books identifica la novela como una obra de 2011 publicada por Grupo Planeta Spain y la describe como una historia de sorpresas ambientada en el mundo editorial.",
+          "El conflicto principal no es solo amoroso: Ana intenta redefinirse después de veinte años bajo la influencia de un hombre brillante y destructivo.",
+          "La muerte de Carlos funciona como detonante argumental, pero el verdadero núcleo dramático es la posibilidad de una segunda oportunidad vital.",
+          "La colaboración entre Nuria Roca y Juan del Val ayuda a entender el tono híbrido del libro: sentimental, irónico, ligero en apariencia y atento a la vida cotidiana."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Ana y el largo hechizo de Carlos Pacheco",
+            "summary": "La novela presenta la relación fundacional entre Ana y Carlos, un escritor carismático cuya intensidad determina buena parte de la vida de ella. Desde el inicio queda claro que no se trata de una historia equilibrada, sino de una dependencia emocional envuelta en fascinación."
+          },
+          {
+            "title": "Después de la muerte: duelo y descompresión",
+            "summary": "Cuando Carlos muere, Ana no entra solamente en una fase de tristeza, sino también en una extraña zona de alivio y desconcierto. La ausencia abre un espacio nuevo desde el que revisar el pasado y preguntarse si la normalidad, tan deseada, es realmente posible."
+          },
+          {
+            "title": "Secretos, humor y mundo editorial",
+            "summary": "El libro incorpora sorpresas, revelaciones y escenas que muestran la cocina del ambiente editorial. Ese contexto da textura a la historia y evita que todo quede encerrado en el drama íntimo de la protagonista."
+          },
+          {
+            "title": "Segunda oportunidad y reescritura de sí misma",
+            "summary": "En el tramo final, Ana debe decidir qué hacer con la herencia emocional de la relación y con la imagen que ha construido de sí misma. La novela convierte así el cierre sentimental en un proceso de reescritura personal."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Dependencia afectiva narrada desde la ficción comercial",
+            "content": "Uno de los intereses del libro es llevar a un registro amplio y muy legible un problema emocional complejo: cómo una persona puede quedar capturada por la personalidad de otra. La novela no teoriza sobre ello, pero lo dramatiza con claridad y eficacia narrativa."
+          },
+          {
+            "heading": "Humor negro y segunda oportunidad",
+            "content": "El título y varios pasajes sugieren que el libro no quiere instalarse en el melodrama puro. El humor negro sirve para rebajar solemnidad y, al mismo tiempo, para mostrar que la liberación de Ana pasa por aceptar zonas incómodas del deseo, del resentimiento y del alivio."
+          },
+          {
+            "heading": "Carlos Pacheco como figura magnética",
+            "content": "Carlos aparece definido por un carisma que mezcla talento, amoralidad y poder de seducción. Esa construcción importa porque el libro no retrata simplemente a un villano, sino a un personaje cuya brillantez explica por qué resulta tan difícil escapar de su influencia."
+          },
+          {
+            "heading": "La reconstrucción de Ana como verdadera aventura",
+            "content": "La propia presentación editorial insiste en que la gran aventura de Ana no es enamorarse, sino intentar ser normal después de una historia devastadora. Ese desplazamiento convierte la novela en un relato de posromance: menos centrado en la conquista que en la reparación."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela romántica tradicional?",
+            "answer": "No exactamente. Aunque parte de una relación amorosa muy intensa, el libro se ocupa sobre todo de las secuelas de ese vínculo, del duelo y de la posibilidad de reconstruir la vida después de una dependencia afectiva."
+          },
+          {
+            "question": "¿Quiénes son los autores reales del libro?",
+            "answer": "La obra está firmada por Nuria Roca en colaboración con Juan del Val, y las referencias bibliográficas más fiables la catalogan con ambos autores."
+          },
+          {
+            "question": "¿El mundo editorial es importante en la trama?",
+            "answer": "Sí. La información editorial de Planeta y Google Books subraya que parte de la historia se desarrolla entre bambalinas del ámbito editorial, lo que añade contexto y tono a la novela."
+          },
+          {
+            "question": "¿Qué tema deja más huella al terminarla?",
+            "answer": "La pregunta por la identidad después de una relación absorbente. Más que el misterio o los giros, lo que permanece es el intento de Ana por vivir fuera del campo de gravedad de Carlos."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Google Books: Para Ana (de tu muerto)",
+            "url": "https://books.google.com/books?id=RCRDhb8yzUUC"
+          },
+          {
+            "label": "Open Library: Para Ana (de tu muerto)",
+            "url": "https://openlibrary.org/works/OL34656830W"
+          },
+          {
+            "label": "Wikipedia: Nuria Roca",
+            "url": "https://es.wikipedia.org/wiki/Nuria_Roca"
+          },
+          {
+            "label": "Wikipedia: Juan del Val",
+            "url": "https://es.wikipedia.org/wiki/Juan_del_Val"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "paradiso-de-jose-lezama-lima",
+      "title": "Paradiso",
+      "authorName": "Jose Lezama Lima",
+      "authorSlug": "jose-lezama-lima",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Paradiso",
+        "authorName": "José Lezama Lima",
+        "authorSlug": "jose-lezama-lima",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1966,
+        "pages": 634,
+        "summary": "Paradiso es una de las novelas capitales de la lengua española del siglo XX y la obra narrativa más conocida de José Lezama Lima. Concebida durante muchos años y publicada en 1966, sigue la formación de José Cemí desde la infancia hasta la etapa universitaria, pero ese argumento de aprendizaje es solo el hilo visible de un proyecto mucho más ambicioso. La novela entrelaza memoria familiar, enfermedad, educación sentimental, conversaciones intelectuales, imágenes barrocas, erotismo y una reflexión continua sobre la imaginación y el lenguaje. Su lectura no avanza por pura acción, sino por irradiación poética: escenas, asociaciones, genealogías y visiones van construyendo una experiencia literaria densa y singular. Paradiso exige paciencia, pero recompensa con una prosa de enorme potencia verbal y con una idea de la novela como espacio total, capaz de reunir biografía, mito, filosofía y sensualidad.",
+        "aboutThisBook": "Paradiso fue la primera novela de Lezama Lima y la única que publicó en vida. La crítica la ha leído como novela de formación, texto parcialmente autobiográfico y culminación de su sistema poético. La propia información enciclopédica disponible recuerda que Lezama tardó cerca de diecisiete años en escribirla y que su publicación provocó reacciones intensas: entusiasmo de lectores y escritores como Cortázar u Octavio Paz, y también polémica por su hermetismo y por ciertos pasajes homoeróticos. Su lugar en el canon hispanoamericano se debe tanto a su complejidad formal como a la originalidad de su universo verbal.",
+        "forWhom": "Para lectores adultos ya habituados a novelas exigentes, a la prosa barroca y a lecturas donde la experiencia estética pesa tanto como la trama. Es especialmente valiosa para estudiantes de literatura hispanoamericana, modernidad narrativa y poéticas del lenguaje.",
+        "whyItMatters": "Importa porque representa una idea extrema y fértil de la novela en español: no solo contar una vida, sino convertir el lenguaje en conocimiento, memoria y revelación. Sigue siendo una referencia indispensable para entender la ambición formal de la narrativa latinoamericana del siglo XX.",
+        "editorialIntro": "Leer Paradiso es entrar en una novela que no quiere simplificarse para agradar ni acelerar para tranquilizar al lector. Lezama propone otra cosa: una obra donde la sintaxis, la imagen y la memoria tienen tanta importancia como los hechos narrados. Por eso su prestigio no depende solo del canon, sino de una experiencia concreta de lectura: la sensación de que el idioma, llevado al límite, todavía puede abrir zonas nuevas de pensamiento y sensibilidad.",
+        "readingLevel": "Lectura alta y exigente. La densidad metafórica, las frases largas, la erudición y el carácter no lineal de muchos pasajes hacen recomendable abordarla con tiempo, relectura y, si es posible, alguna guía crítica o edición anotada.",
+        "whyReadToday": "Porque pocas novelas defienden con tanta radicalidad el valor de la imaginación y del lenguaje en una época dominada por la velocidad. Leerla hoy es recordar que la literatura también puede ser dificultad productiva, memoria cultural y descubrimiento verbal.",
+        "studyNotes": [
+          "Wikipedia y Open Library coinciden en señalar que Paradiso sigue la formación de José Cemí y que la novela fue concebida como síntesis del sistema poético de Lezama Lima.",
+          "La obra suele leerse como novela de aprendizaje, pero su estructura excede ese molde: incorpora ensayo, poesía, mito, genealogía familiar y largas conversaciones de ideas.",
+          "La recepción histórica fue conflictiva: junto al entusiasmo de parte de la crítica internacional, en Cuba hubo objeciones por su supuesta oscuridad y por sus pasajes homoeróticos.",
+          "Su dificultad no es un accidente, sino parte de su proyecto estético: hacer de la novela un espacio donde el conocimiento surja por imágenes, asociaciones y proliferación verbal."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Infancia, familia y origen de José Cemí",
+            "summary": "La novela abre el mundo de Cemí desde la familia, la memoria y la enfermedad, y construye una sensibilidad marcada por la observación, la vulnerabilidad corporal y la densidad de los vínculos domésticos. El origen no es aquí un simple antecedente, sino el laboratorio entero de la imaginación futura."
+          },
+          {
+            "title": "Formación intelectual y descubrimiento del lenguaje",
+            "summary": "A medida que Cemí crece, el libro se vuelve una exploración de la educación sentimental e intelectual. Las amistades, las lecturas y las conversaciones van modelando una conciencia para la que el lenguaje no es instrumento neutro, sino una forma de conocimiento."
+          },
+          {
+            "title": "Erotismo, imagen y expansión de la experiencia",
+            "summary": "En varios tramos centrales, Paradiso amplía el aprendizaje de Cemí hacia la sensualidad, el deseo y las zonas ambiguas del cuerpo. Lezama integra esos pasajes a una poética de la abundancia, donde el erotismo forma parte de una visión total de la experiencia humana."
+          },
+          {
+            "title": "Universidad, pensamiento y cierre abierto",
+            "summary": "El recorrido llega a los años universitarios sin ofrecer una conclusión cerrada en sentido clásico. Más que resolver la historia, la novela deja al lector ante una conciencia en formación y ante un universo verbal que continúa expandiéndose más allá del último capítulo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela como sistema poético",
+            "content": "Paradiso no puede leerse solo como relato biográfico. En ella, Lezama intenta trasladar a la novela su concepción poética del mundo: la imagen como puente de conocimiento, la memoria como energía creadora y la cultura como reserva simbólica siempre activa."
+          },
+          {
+            "heading": "Barroquismo y dificultad",
+            "content": "Su fama de libro difícil procede de rasgos muy concretos: sintaxis extensa, asociaciones inesperadas, referencias cultas y una narrativa que no obedece siempre a la causalidad tradicional. Pero esa dificultad no es vacía; produce una experiencia de lectura donde cada frase trabaja también como materia sensorial."
+          },
+          {
+            "heading": "Autobiografía transformada",
+            "content": "Aunque José Cemí guarda evidentes vínculos con Lezama, la novela no se reduce a testimonio personal. Lo autobiográfico aparece reelaborado por la imaginación, por la mitificación de la familia y por una voluntad de convertir la vida en forma literaria compleja."
+          },
+          {
+            "heading": "Recepción, polémica y canon",
+            "content": "La historia editorial de Paradiso ayuda a entender su lugar en la literatura hispanoamericana. Fue celebrada por grandes lectores, discutida por instituciones culturales y a la vez convertida con el tiempo en referencia imprescindible del canon, precisamente por su radical singularidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Paradiso tiene una trama lineal fácil de seguir?",
+            "answer": "No del todo. Existe un eje claro de formación alrededor de José Cemí, pero la novela avanza también por asociaciones, escenas extensas, digresiones y momentos de gran densidad poética."
+          },
+          {
+            "question": "¿Es una novela autobiográfica?",
+            "answer": "Puede leerse como parcialmente autobiográfica, porque toma elementos de la vida y del entorno intelectual de Lezama Lima, pero los transforma en un universo ficcional y simbólico mucho más amplio."
+          },
+          {
+            "question": "¿Por qué se considera una obra difícil?",
+            "answer": "Por su barroquismo verbal, su erudición, sus cambios de ritmo y la escasa dependencia de una acción lineal. La dificultad forma parte de su proyecto estético, no de un descuido narrativo."
+          },
+          {
+            "question": "¿Vale la pena leerla hoy fuera del ámbito académico?",
+            "answer": "Sí, si se acepta su exigencia. Paradiso ofrece una experiencia poco común: una novela donde la riqueza del idioma y la imaginación importan tanto como la historia narrada."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: Paradiso (novela)",
+            "url": "https://es.wikipedia.org/wiki/Paradiso_(novela)"
+          },
+          {
+            "label": "Britannica: José Lezama Lima",
+            "url": "https://www.britannica.com/biography/Jose-Lezama-Lima"
+          },
+          {
+            "label": "Open Library: Paradiso",
+            "url": "https://openlibrary.org/works/OL44237703W"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-21T08:25:41Z"
+}

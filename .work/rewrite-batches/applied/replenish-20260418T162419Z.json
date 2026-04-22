@@ -1,0 +1,1507 @@
+{
+  "batchName": "replenish-20260418T162419Z",
+  "createdAt": "2026-04-18T16:24:20Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "corona-de-amor-y-muerte-de-alejandro-casona",
+      "title": "Corona De Amor Y Muerte",
+      "authorName": "Alejandro Casona",
+      "authorSlug": "alejandro-casona",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 13,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Corona de amor y muerte",
+        "authorName": "Alejandro Casona",
+        "authorSlug": "alejandro-casona",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "teatro",
+          "drama histórico",
+          "clásico español"
+        ],
+        "year": 1955,
+        "pages": null,
+        "summary": "Drama en tres actos inspirado en la historia de Inés de Castro y Pedro de Portugal. Alejandro Casona convierte una intriga cortesana en una tragedia amorosa: Pedro, heredero de la corona, debe sostener un matrimonio político mientras su vínculo verdadero con Inés amenaza el orden del reino. Entre la razón de Estado, la vigilancia de la corte y la presión del linaje, la obra avanza hacia un desenlace donde amor y muerte quedan inseparables. Casona no se limita a ilustrar una leyenda histórica: ordena la escena para que cada decisión política pese también como una herida íntima, y así la tragedia gana espesor emocional y resonancia teatral.",
+        "aboutThisBook": "Es una pieza teatral de madurez de Alejandro Casona, estrenada en 1955, que relee una leyenda ibérica muy conocida para explorar cómo el poder administra los afectos. La obra destaca por su tono poético, por la densidad simbólica de los diálogos y por la manera en que sitúa a Inés no solo como víctima, sino como figura moral que da sentido trágico a toda la acción.",
+        "forWhom": "Para lectores de teatro clásico del siglo XX, estudiantes de literatura hispánica, clubes de lectura interesados en reescrituras históricas y quienes buscan una tragedia amorosa intensa, breve y de gran carga verbal.",
+        "whyItMatters": "Porque muestra una de las facetas más sobrias y trágicas de Casona. Más allá del argumento histórico, la obra plantea un conflicto persistente: qué ocurre cuando el amor entra en colisión con las instituciones, la legitimidad política y la violencia del Estado.",
+        "editorialIntro": "No es solo una historia de amantes desdichados. En manos de Casona, la leyenda de Inés de Castro se vuelve una meditación sobre la fragilidad humana ante las maquinarias del poder. Su brevedad dramática concentra tensión, belleza verbal y una sensación de fatalidad que no pierde fuerza con el tiempo.",
+        "readingLevel": "Exige una lectura atenta por su lenguaje teatral y por las referencias históricas, pero sigue siendo accesible si se aborda como una tragedia de pasiones y decisiones políticas. Funciona muy bien en bachillerato avanzado, universidad o lectura general con interés literario.",
+        "whyReadToday": "Porque ayuda a pensar cómo el poder público invade la vida íntima y cómo los relatos amorosos pueden revelar estructuras de obediencia, prestigio y violencia. También ofrece una entrada clara a la dramaturgia de Casona más allá de sus títulos escolares más conocidos.",
+        "studyNotes": [
+          "La obra está construida como tragedia histórica, pero su centro emocional es íntimo, no épico.",
+          "El conflicto principal enfrenta amor auténtico y razón de Estado.",
+          "Inés de Castro funciona como figura de inocencia, dignidad y sacrificio.",
+          "Pedro aparece dividido entre deseo, deber dinástico y culpa.",
+          "La corte no es solo escenario: es un dispositivo de vigilancia y control.",
+          "Conviene leer el título como síntesis simbólica: el amor solo alcanza plenitud cuando ya está atravesado por la muerte."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Acto I: El amor frente a la corte",
+            "summary": "Se presenta el triángulo político y afectivo: Pedro está comprometido por conveniencia, pero su vínculo real es con Inés. Desde el comienzo queda claro que la felicidad privada resulta incompatible con las exigencias del reino."
+          },
+          {
+            "title": "Acto II: Presión, sospecha y amenaza",
+            "summary": "La tensión crece cuando la relación entre Pedro e Inés deja de ser un asunto íntimo y se convierte en problema de Estado. La corte, el linaje y la autoridad monárquica cierran el cerco sobre los amantes."
+          },
+          {
+            "title": "Acto III: Consumación trágica",
+            "summary": "La lógica del poder se impone con violencia y conduce al sacrificio. El desenlace convierte el amor en memoria dolorosa y deja una imagen final donde la grandeza sentimental nace de una pérdida irreparable."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Amor y legitimidad",
+            "content": "Casona no presenta el amor como refugio sentimental, sino como fuerza que cuestiona el orden político. Lo que la corte juzga inadmisible no es solo una pasión privada, sino la posibilidad de que el deseo altere la cadena de legitimidades sobre la que se sostiene la corona."
+          },
+          {
+            "heading": "Inés de Castro como figura trágica",
+            "content": "Inés concentra la nobleza moral de la obra. Su valor no radica en la intriga, sino en la intensidad con que encarna una verdad afectiva imposible de institucionalizar. Por eso su destino desborda lo biográfico y adquiere dimensión simbólica."
+          },
+          {
+            "heading": "El tono poético de la tragedia",
+            "content": "Aunque el argumento es histórico, la pieza se apoya en una dicción poética que evita el realismo seco. Esa elección estilística eleva la historia hacia una atmósfera ritual, donde las palabras anuncian la fatalidad antes de que los hechos la consumen."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o una obra de teatro?",
+            "answer": "Es una obra de teatro en tres actos. Su forma dramática es esencial para la intensidad del conflicto y para el peso de los diálogos."
+          },
+          {
+            "question": "¿Hace falta conocer la historia de Inés de Castro antes de leerla?",
+            "answer": "No. Ayuda tener una referencia histórica mínima, pero la obra se entiende por sí sola porque Casona organiza con claridad el conflicto entre amor, dinastía y poder."
+          },
+          {
+            "question": "¿Qué lugar ocupa dentro de la obra de Casona?",
+            "answer": "Es una pieza importante de su etapa de madurez y muestra su capacidad para llevar una leyenda histórica a un registro trágico y poético, menos fabuloso y más severo que en otros títulos suyos."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Corona de amor y muerte",
+            "url": "https://es.wikipedia.org/wiki/Corona_de_amor_y_muerte"
+          },
+          {
+            "label": "Wikipedia: Alejandro Casona",
+            "url": "https://es.wikipedia.org/wiki/Alejandro_Casona"
+          },
+          {
+            "label": "Open Library: Corona de amor y muerte (work)",
+            "url": "https://openlibrary.org/works/OL944084W/Corona_de_amor_y_muerte"
+          },
+          {
+            "label": "Open Library: edición de 1986 de Corona de amor y muerte",
+            "url": "https://openlibrary.org/books/OL19128642M/Corona_de_amor_y_muerte"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-crisis-ninja-y-otros-misterios-de-la-economia-actual-de-leopoldo-abadia",
+      "title": "La Crisis Ninja Y Otros Misterios De La Economia Actual",
+      "authorName": "Leopoldo Abadia",
+      "authorSlug": "leopoldo-abadia",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 13,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La crisis ninja y otros misterios de la economía actual",
+        "authorName": "Leopoldo Abadía",
+        "authorSlug": "leopoldo-abadia",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "economía",
+          "divulgación",
+          "actualidad"
+        ],
+        "year": 2008,
+        "pages": 205,
+        "summary": "La crisis ninja y otros misterios de la economía actual es un libro de divulgación económica que se volvió muy popular al traducir la crisis financiera de 2008 a un lenguaje cotidiano. Leopoldo Abadía explica cómo las hipotecas subprime, la ingeniería financiera y la pérdida de confianza en los mercados terminaron afectando la vida diaria de personas que, en apariencia, estaban muy lejos de Wall Street. Su tono evita la jerga técnica y prefiere ejemplos domésticos, comparaciones sencillas y una voz conversacional que busca orientar más que impresionar. El resultado es una introducción clara a un momento histórico complejo, pensada para lectores que quieren entender qué pasó y por qué importó tanto.",
+        "aboutThisBook": "El libro nació del enorme impacto que tuvo un texto de Abadía sobre la llamada “crisis ninja”, difundido primero en internet y luego convertido en volumen por Espasa. Más que un tratado académico, funciona como un ensayo de divulgación periodística y pedagógica: toma conceptos financieros difíciles y los reorganiza para el lector general. Su éxito se explica por la oportunidad con que apareció y por su capacidad para convertir un fenómeno global en un problema inteligible a escala familiar. Incluso hoy conserva interés como documento de época y como ejemplo de divulgación económica eficaz.",
+        "forWhom": "Para lectores adultos que quieren entender la crisis de 2008 sin formación previa en economía, así como para estudiantes, periodistas o profesores que busquen una primera explicación clara del colapso financiero y sus efectos sociales.",
+        "whyItMatters": "Importa porque demostró que la divulgación económica podía llegar al gran público sin perder del todo el hilo causal de los hechos. En el ámbito hispano fue uno de los libros que ayudó a fijar un vocabulario común para hablar de hipotecas subprime, burbuja, crédito y contagio financiero.",
+        "editorialIntro": "A veces un libro llega en el momento exacto en que una sociedad necesita entender algo urgente. Eso ocurrió con La crisis ninja. Mientras la información económica se llenaba de tecnicismos y alarma, Leopoldo Abadía encontró una voz accesible para contar cómo una crisis nacida en el sistema hipotecario estadounidense terminaba golpeando bolsillos, empresas y gobiernos. Su valor no está en la sofisticación teórica, sino en la claridad con que ordena un caos que entonces parecía incomprensible.",
+        "readingLevel": "Lectura accesible para público general adulto. El libro usa ejemplos coloquiales, humor ligero y una progresión explicativa sencilla; no exige conocimientos previos, aunque conviene complementarlo con lecturas más técnicas si se busca mayor profundidad económica.",
+        "whyReadToday": "Porque la fragilidad del crédito, la opacidad financiera y el efecto dominó de los mercados siguen siendo temas actuales. Leerlo hoy permite revisar cómo se explicó socialmente la Gran Recesión y entender por qué ciertas crisis aparentemente lejanas acaban entrando en la economía doméstica.",
+        "studyNotes": [
+          "El término “crisis ninja” populariza una fórmula divulgativa para hablar de préstamos de alto riesgo concedidos a personas sin capacidad real de pago.",
+          "Conviene distinguir entre la virtud pedagógica del libro y sus límites: explica bien el mecanismo general, pero no sustituye un análisis económico especializado.",
+          "Su interés histórico es doble: sirve para entender la crisis de 2008 y también para estudiar cómo circuló públicamente el discurso económico en España.",
+          "Puede leerse junto a materiales sobre Gran Recesión, hipotecas subprime y regulación financiera para completar su visión panorámica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El problema parece lejano, pero no lo es",
+            "summary": "El libro arranca situando al lector ante una pregunta básica: cómo una crisis nacida en Estados Unidos puede afectar economías domésticas de otros países. Abadía plantea desde el inicio que la interdependencia financiera convierte lo remoto en inmediato."
+          },
+          {
+            "title": "Hipotecas de riesgo y cadena de errores",
+            "summary": "En la parte central explica el funcionamiento de los créditos subprime, la lógica de conceder préstamos a quien difícilmente podrá pagarlos y la manera en que esos activos se empaquetaron y circularon por el sistema financiero. La explicación busca mostrar que el problema no fue un accidente aislado, sino una cadena de incentivos mal construidos."
+          },
+          {
+            "title": "Cuando se rompe la confianza",
+            "summary": "Después del estallido, el libro describe cómo el miedo y la desconfianza paralizan bancos, crédito e inversión. Abadía insiste en que las crisis financieras no solo son números: terminan alterando empleo, consumo, ahorro y expectativas de millones de personas."
+          },
+          {
+            "title": "Aprender a mirar la economía cotidiana",
+            "summary": "Hacia el cierre, el autor vuelve sobre la relación entre macroeconomía y vida diaria. Su mensaje es que entender las reglas básicas del dinero, la deuda y la prudencia financiera ayuda a leer mejor el presente y a evitar cierta ingenuidad ante futuros ciclos de euforia y caída."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Divulgación económica en clave coloquial",
+            "content": "La principal fortaleza del libro está en su capacidad para volver comprensible un vocabulario que durante la crisis sonaba inaccesible para el lector medio. Abadía simplifica, pero lo hace con intención pedagógica: busca que el lector entienda relaciones causales básicas antes que perderse en detalles técnicos."
+          },
+          {
+            "heading": "Un libro hijo de la Gran Recesión",
+            "content": "Su éxito no puede separarse del contexto en que apareció. En plena incertidumbre financiera, ofreció una narración ordenadora cuando abundaban la alarma, el desconcierto y la sobrecarga informativa. Por eso también funciona como documento de una coyuntura histórica específica."
+          },
+          {
+            "heading": "Entre la claridad y la simplificación",
+            "content": "Como toda divulgación rápida sobre un proceso complejo, el libro gana lectores gracias a la simplificación y al tono directo. Esa misma virtud marca su límite: ilumina bien el mecanismo general de la crisis, pero deja fuera matices sobre regulación, instrumentos financieros y desigualdad estructural."
+          },
+          {
+            "heading": "Ética, prudencia y responsabilidad",
+            "content": "Más allá de la explicación técnica, el libro deja entrever una crítica moral a la irresponsabilidad, al cortoplacismo y a la falta de decencia en ciertas prácticas financieras. Esa dimensión ética ayudó a conectar la economía con la experiencia común de los lectores."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué significa “crisis ninja” en este libro?",
+            "answer": "Es la etiqueta divulgativa que popularizó Leopoldo Abadía para explicar los préstamos concedidos a personas con escasa o nula capacidad de pago y el problema financiero asociado a ese tipo de crédito de alto riesgo."
+          },
+          {
+            "question": "¿Hace falta saber economía para leerlo?",
+            "answer": "No. Está escrito precisamente para lectores sin formación técnica. Su prosa es coloquial y se apoya en ejemplos sencillos para explicar conceptos financieros complejos."
+          },
+          {
+            "question": "¿Es un libro académico sobre la crisis de 2008?",
+            "answer": "No en sentido estricto. Es un libro de divulgación, muy útil como puerta de entrada, pero no sustituye estudios económicos más especializados sobre la Gran Recesión."
+          },
+          {
+            "question": "¿Sigue teniendo interés después de tantos años?",
+            "answer": "Sí, porque ayuda a entender cómo se popularizó el relato de la crisis financiera y porque muchas de sus preguntas sobre deuda, riesgo y contagio global siguen plenamente vigentes."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Open Library: La crisis ninja y otros misterios de la economía actual",
+            "url": "https://openlibrary.org/books/OL26201697M/La_crisis_ninja_y_otros_misterios_de_la_econom%C3%ADa_actual"
+          },
+          {
+            "label": "Google Books: La crisis ninja y otros misterios de la economía actual",
+            "url": "https://books.google.com/books?vid=ISBN9788467030150"
+          },
+          {
+            "label": "Todos Tus Libros: La crisis ninja y otros misterios de la economía actual",
+            "url": "https://www.todostuslibros.com/libros/la-crisis-ninja-y-otros-misterios-de-la-economia-actual_978-84-670-3274-1"
+          },
+          {
+            "label": "Wikipedia: Leopoldo Abadía",
+            "url": "https://es.wikipedia.org/wiki/Leopoldo_Abad%C3%ADa"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-historia-de-x-de-a-j-molloy",
+      "title": "La Historia De X",
+      "authorName": "A J Molloy",
+      "authorSlug": "a-j-molloy",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 13,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "The Story of X",
+        "authorName": "A. J. Molloy",
+        "authorSlug": "a-j-molloy",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller erótico",
+          "romance",
+          "suspense"
+        ],
+        "year": 2012,
+        "pages": 329,
+        "summary": "The Story of X es una novela de suspense erótico protagonizada por Alexandra, una joven estudiante a la que sus amigos llaman X. Durante una estancia en Nápoles conoce a Lord Marcus Roscarrick, un hombre poderoso y enigmático que la introduce en un mundo de lujo, atracción y peligro. Lo que comienza como una aventura apasionada deriva pronto hacia una trama marcada por sociedades secretas, rituales privados y relaciones de poder que ponen a prueba los límites de la protagonista. La novela combina la intensidad del romance oscuro con mecanismos propios del thriller: identidades ambiguas, deseo como forma de control y una progresiva sensación de amenaza.",
+        "aboutThisBook": "Publicada originalmente en 2012 y luego reeditada en bolsillo por Penguin, esta novela de A. J. Molloy se presentó en el mercado anglosajón como un cruce entre el erotismo contemporáneo y el thriller de secretos iniciáticos. Las fichas de HarperCollins y Penguin destacan precisamente ese tono de seducción sombría, las sociedades secretas y el componente de experimentación sexual. No es una novela romántica convencional, sino una narración orientada a lectores adultos que se apoya tanto en la tensión emocional como en la intriga.",
+        "forWhom": "Para lectores adultos interesados en romance oscuro, thriller erótico y ficciones donde el deseo se mezcla con manipulación, riesgo y ambientes exclusivos de apariencia sofisticada.",
+        "whyItMatters": "Importa porque pertenece al momento editorial en que el erotismo comercial se mezcló con fórmulas de suspense y conspiración. Su interés no está solo en la provocación, sino en cómo convierte el deseo en un mecanismo narrativo de peligro, fascinación y pérdida de control.",
+        "editorialIntro": "Hubo un tiempo en que muchas novelas quisieron repetir el fenómeno del erotismo contemporáneo, pero pocas apostaron por envolverlo en una atmósfera de amenaza sostenida. The Story of X destaca precisamente por eso: no se conforma con narrar una atracción intensa, sino que la empuja hacia un territorio de secretos, rituales y jerarquías opacas. Leída hoy, funciona como ejemplo de una corriente editorial muy reconocible y como una ficción que intenta llevar el romance oscuro hacia el terreno del thriller.",
+        "readingLevel": "Lectura fluida para público adulto. La prosa es accesible y comercial, pero los temas, la carga sexual y la dinámica psicológica entre los personajes exigen una lectura madura y crítica.",
+        "whyReadToday": "Porque permite revisar una fase muy visible de la ficción comercial reciente: la fusión entre erotismo, poder, fantasía de lujo y suspense psicológico. Sigue siendo útil para entender cómo ese modelo narrativo construyó deseo y peligro al mismo tiempo.",
+        "studyNotes": [
+          "La protagonista entra en un espacio de fascinación y riesgo donde el deseo funciona también como instrumento de control.",
+          "La novela puede leerse como un cruce entre romance oscuro, thriller conspirativo y erotismo comercial.",
+          "Conviene analizar cómo el libro contrapone curiosidad, consentimiento, vulnerabilidad y seducción bajo relaciones desiguales de poder.",
+          "El ambiente de sociedades secretas y rituales privados no es decorativo: organiza la intriga y da forma a la sensación de amenaza creciente."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: Alexandra llega a Nápoles",
+            "summary": "La novela presenta a Alexandra, o X, en un momento de búsqueda y apertura a lo desconocido. Su llegada a Nápoles la saca de una vida protegida y crea el escenario para un encuentro que mezcla aventura, deseo y vulnerabilidad."
+          },
+          {
+            "title": "Encuentro con Marcus Roscarrick",
+            "summary": "La aparición de Marcus concentra la energía de la trama. Su carisma, riqueza y misterio convierten la atracción inicial en una relación asimétrica en la que X empieza a sentirse deslumbrada y al mismo tiempo inquieta."
+          },
+          {
+            "title": "El acceso a un mundo secreto",
+            "summary": "A medida que la protagonista se adentra en el entorno de Marcus, descubre que la pasión está ligada a rituales, códigos privados y una red de secretos. La novela desplaza entonces su centro desde el romance hacia la intriga y el peligro."
+          },
+          {
+            "title": "Decidir hasta dónde llegar",
+            "summary": "En el tramo final, X debe evaluar qué significa entregarse a una experiencia extrema y qué precio tiene cruzar ciertos límites. El conflicto central ya no es solo sentimental, sino también moral y psicológico."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Erotismo y thriller en una misma maquinaria",
+            "content": "La novela no usa el erotismo como simple adorno, sino como motor del suspense. Cada escena de atracción tiene una consecuencia narrativa: acerca a la protagonista a una estructura de poder más compleja y más peligrosa."
+          },
+          {
+            "heading": "Deseo, jerarquía y vulnerabilidad",
+            "content": "Uno de los ejes de lectura más claros está en la desigualdad entre X y Marcus. Él domina los códigos sociales y secretos del mundo al que ella entra; ella aporta curiosidad, deseo e inexperiencia. Esa diferencia sostiene la tensión del libro."
+          },
+          {
+            "heading": "La ciudad y el lujo como escenario de seducción",
+            "content": "Nápoles y el universo de refinamiento que rodea a Marcus cumplen una función decisiva: hacen creíble el hechizo inicial. El libro utiliza el exotismo, la riqueza y la promesa de una vida extraordinaria para intensificar la entrega de la protagonista."
+          },
+          {
+            "heading": "Un producto de su momento editorial",
+            "content": "The Story of X puede situarse dentro de la ola de novelas adultas que buscaron combinar provocación sexual con intriga sofisticada. Su relevancia actual está en mostrar cómo esa tendencia modeló expectativas de lectura y fórmulas de mercado."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata The Story of X?",
+            "answer": "Trata sobre Alexandra, una joven llamada X, que conoce en Nápoles a un hombre rico y enigmático y acaba entrando en una relación marcada por el deseo, los secretos y la amenaza de un mundo oculto."
+          },
+          {
+            "question": "¿Es una novela romántica o un thriller?",
+            "answer": "Es ambas cosas, con mayor peso del suspense erótico. Parte de una atracción intensa, pero la trama incorpora sociedades secretas, rituales y una tensión psicológica constante."
+          },
+          {
+            "question": "¿Está pensada para lectores juveniles?",
+            "answer": "No. Es una obra para adultos por su contenido sexual explícito, sus dinámicas de poder y su enfoque de romance oscuro."
+          },
+          {
+            "question": "¿Por qué se compara con Story of O o Eyes Wide Shut?",
+            "answer": "Porque sus fuentes editoriales la presentaron como una ficción de seducción oscura, rituales secretos y exploración de deseos extremos, en una línea de erotismo sofisticado y amenazante."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "HarperCollins: The Story of X",
+            "url": "https://www.harpercollins.com/products/the-story-of-x-aj-molloy"
+          },
+          {
+            "label": "Penguin Books: The Story of X",
+            "url": "https://www.penguin.co.uk/books/417919/the-story-of-x-by-aj-molloy/9780552174619"
+          },
+          {
+            "label": "Open Library: The Story of X",
+            "url": "https://openlibrary.org/works/OL22642502W/The_Story_of_X"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-perros-hambrientos-de-ciro-alegria",
+      "title": "Los Perros Hambrientos",
+      "authorName": "Ciro Alegria",
+      "authorSlug": "ciro-alegria",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 13,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los perros hambrientos",
+        "authorName": "Ciro Alegría",
+        "authorSlug": "ciro-alegria",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela",
+          "indigenismo",
+          "literatura latinoamericana"
+        ],
+        "year": 1938,
+        "pages": 278,
+        "summary": "Los perros hambrientos retrata la vida de una comunidad campesina de la sierra norte del Perú y de los perros que custodian sus rebaños. Ciro Alegría convierte la sequía y el hambre en fuerzas narrativas que golpean a la familia Robles, alteran el equilibrio de la vida pastoril y dejan al descubierto la fragilidad material de los indígenas andinos frente a la naturaleza y frente al poder de los hacendados. La novela avanza desde escenas de trabajo, afecto y costumbre hacia una lucha cada vez más dura por la subsistencia, donde humanos y animales comparten un mismo destino de escasez, violencia y resistencia.",
+        "aboutThisBook": "Es una de las novelas fundamentales del indigenismo peruano y latinoamericano. Publicada originalmente a fines de los años treinta, consolidó a Ciro Alegría como una de las voces narrativas más importantes de la llamada novela de la tierra. Su singularidad está en que no observa el mundo rural desde lejos: organiza el relato desde la experiencia material de la puna, la vida comunal, el pastoreo, la injusticia social y la relación íntima entre campesinos, animales y paisaje.",
+        "forWhom": "Para lectores de literatura latinoamericana, estudiantes de bachillerato o universidad, clubes de lectura interesados en novela social y quienes busquen una obra breve pero intensa sobre mundo andino, desigualdad y supervivencia.",
+        "whyItMatters": "Importa porque muestra cómo la novela social latinoamericana puede unir denuncia, lirismo y observación del mundo rural sin perder fuerza narrativa. También sigue siendo una puerta de entrada muy clara para comprender el indigenismo, la representación literaria de los Andes y la crítica de las jerarquías agrarias en el Perú del siglo XX.",
+        "editorialIntro": "Hay novelas que cuentan una historia y novelas que, además, dejan oír una forma de vida entera. Los perros hambrientos pertenece a esa segunda clase. Ciro Alegría no solo narra una sequía: hace visible cómo el hambre reordena los vínculos humanos, la relación con los animales y el sentido mismo de la comunidad.",
+        "readingLevel": "La prosa es accesible y muy plástica, pero conviene leerla con atención a su contexto histórico y a su dimensión social. Funciona muy bien en lectura general adulta y también en secundaria avanzada o primeros cursos universitarios, especialmente si se acompaña con notas sobre indigenismo y mundo andino.",
+        "whyReadToday": "Porque sigue hablando con fuerza de crisis climáticas, desigualdad estructural y comunidades obligadas a resistir con pocos recursos. Además, permite leer una tradición latinoamericana central desde un libro breve, emotivo y todavía muy legible.",
+        "studyNotes": [
+          "La novela enlaza la vida de los campesinos con la de sus perros pastores: no son planos separados, sino un mismo mundo compartido.",
+          "La sequía no es solo escenario; es la fuerza que desencadena el conflicto moral, económico y afectivo de la historia.",
+          "El libro pertenece al indigenismo, pero destaca por su tono lírico y por la dignidad con que presenta a la comunidad campesina.",
+          "La familia Robles sirve como eje humano del relato, mientras los perros encarnan lealtad, instinto y vulnerabilidad.",
+          "Conviene atender a la relación entre naturaleza adversa e injusticia social: el hambre empeora por las condiciones del poder agrario.",
+          "Es útil leerla junto con otras novelas de Ciro Alegría para ver cómo construye su visión del mundo rural peruano."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: Vida pastoril en la puna",
+            "summary": "La novela presenta a la familia Robles, su rebaño y los perros que lo protegen. El mundo andino aparece primero como un espacio duro pero todavía regido por rutinas, afectos y saberes comunitarios."
+          },
+          {
+            "title": "Nudo: Sequía, hambre y desorden",
+            "summary": "La llegada de la sequía rompe el equilibrio de la comunidad. La escasez obliga a campesinos y animales a entrar en una lucha por la subsistencia cada vez más amarga, mientras afloran abusos, miedos y formas extremas de necesidad."
+          },
+          {
+            "title": "Tramo final: Resistencia y pérdida",
+            "summary": "Cuando el hambre alcanza su punto más cruel, la novela intensifica su dimensión trágica. El desenlace muestra que la supervivencia nunca es limpia ni heroica: deja heridas, ausencias y una comprensión más dura del mundo social que rodea a los personajes."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Naturaleza y sociedad en un mismo conflicto",
+            "content": "Alegría no presenta la sequía como un accidente aislado ni como un mero decorado naturalista. La adversidad climática se entrelaza con el abuso de los terratenientes y con la precariedad estructural de la vida indígena. Así, el desastre natural revela un desastre social previo."
+          },
+          {
+            "heading": "Los perros como espejo del mundo humano",
+            "content": "Uno de los grandes aciertos de la novela es incorporar a los perros no solo como compañía o color local, sino como parte del tejido moral del relato. Su hambre, su fidelidad y su desorientación intensifican el drama de la comunidad y convierten la historia en una experiencia compartida entre especies."
+          },
+          {
+            "heading": "Lirismo e indigenismo",
+            "content": "Aunque la novela denuncia injusticias concretas, su fuerza no se reduce al mensaje social. La prosa de Alegría trabaja con imágenes, ritmos y descripciones de gran espesor sensorial. Ese lirismo evita que la obra sea solo tesis y la convierte en una narración con verdadera respiración literaria."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Los perros hambrientos?",
+            "answer": "Trata sobre una comunidad campesina de la sierra peruana, sus rebaños y sus perros, enfrentados a una sequía devastadora, al hambre y a las injusticias del orden rural."
+          },
+          {
+            "question": "¿Por qué se considera una novela indigenista?",
+            "answer": "Porque sitúa en el centro la vida de los indígenas andinos, sus condiciones materiales, su relación con la tierra y la violencia estructural que sufren dentro del sistema agrario."
+          },
+          {
+            "question": "¿Es un libro adecuado para estudiar en clase?",
+            "answer": "Sí. Por extensión, claridad narrativa y riqueza temática funciona muy bien en contextos educativos para trabajar indigenismo, novela social, paisaje andino y representación de la desigualdad."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Los perros hambrientos",
+            "url": "https://es.wikipedia.org/wiki/Los_perros_hambrientos"
+          },
+          {
+            "label": "Britannica: Ciro Alegria",
+            "url": "https://www.britannica.com/biography/Ciro-Alegria"
+          },
+          {
+            "label": "Open Library: Los perros hambrientos (work)",
+            "url": "https://openlibrary.org/works/OL655964W/Los_perros_hambrientos"
+          },
+          {
+            "label": "Open Library: edición de Cátedra de Los perros hambrientos",
+            "url": "https://openlibrary.org/books/OL758355M/Los_perros_hambrientos"
+          },
+          {
+            "label": "Google Libros: Los perros hambrientos",
+            "url": "https://books.google.com/books?vid=ISBN8437614929"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mugre-rosa-de-fernanda-trias",
+      "title": "Mugre Rosa",
+      "authorName": "Fernanda Trias",
+      "authorSlug": "fernanda-trias",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 13,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Mugre rosa",
+        "authorName": "Fernanda Trías",
+        "authorSlug": "fernanda-trias",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela",
+          "distopía",
+          "literatura latinoamericana contemporánea"
+        ],
+        "year": 2020,
+        "pages": 276,
+        "summary": "En una ciudad costera asfixiada por una plaga extraña, el aire, el agua y la vida cotidiana parecen haberse vuelto hostiles. La narradora sobrevive entre apagones, escasez y encierro mientras cuida a Mauro, un niño siempre hambriento, y sostiene una relación agotada con su madre y con un exmarido enfermo. Fernanda Trías convierte ese paisaje de epidemia y deterioro en una novela íntima sobre los cuidados, el cuerpo y la descomposición de todo aquello que parecía estable. La prosa seca y sensorial refuerza la sensación de encierro, y el relato sugiere que la verdadera amenaza no es solo exterior, sino también la erosión moral y afectiva que deja una crisis prolongada.",
+        "aboutThisBook": "Publicada en 2020, es una de las novelas latinoamericanas más comentadas de los últimos años. Su imaginario distópico dialoga con la crisis ecológica y sanitaria, pero el libro evita el efectismo: le interesa menos explicar la catástrofe que mostrar cómo altera la percepción del tiempo, del deseo, de la maternidad y de los vínculos de dependencia. Esa combinación de intimidad, alegoría y observación física explica por qué la novela circuló con fuerza en debates sobre literatura pospandémica y ficción del colapso.",
+        "forWhom": "Para lectores de ficción contemporánea exigente, distopías de tono literario, narrativa latinoamericana reciente y novelas que exploran el cuidado, la enfermedad, el cuerpo y el colapso social desde una voz íntima.",
+        "whyItMatters": "Porque logró llevar la distopía a un territorio profundamente corporal y doméstico. Mugre rosa no se limita a imaginar un mundo en crisis: examina cómo esa crisis invade la intimidad, reorganiza los afectos y vuelve visible el trabajo silencioso de cuidar.",
+        "editorialIntro": "Pocas novelas recientes captaron con tanta precisión la mezcla de encierro, desgaste y amenaza difusa que define una época. Mugre rosa usa la materia de la distopía para hablar, en realidad, de hambre, dependencia, agotamiento y maternidades posibles en medio del derrumbe.",
+        "readingLevel": "Es una novela accesible en lo argumental, pero densa en atmósfera y subtexto. La prosa exige atención al tono, a las imágenes y a las zonas de ambigüedad. Muy recomendable para lectores adultos o universitarios que disfrutan textos breves, intensos y simbólicamente cargados.",
+        "whyReadToday": "Porque su reflexión sobre epidemias, fragilidad ambiental y trabajos de cuidado sigue siendo urgente. Además, ofrece una mirada distinta a la distopía tradicional: menos centrada en la explicación del desastre y más en la erosión emocional y material de la vida diaria.",
+        "studyNotes": [
+          "La catástrofe funciona como marco, pero el centro de la novela está en los vínculos y en el cuerpo.",
+          "El hambre de Mauro tiene una dimensión literal y también simbólica.",
+          "La novela explora maternidades biológicas, sustitutas y elegidas.",
+          "El tiempo del encierro aparece como una experiencia suspendida y repetitiva.",
+          "La degradación ambiental se traduce en deterioro material, emocional y lingüístico.",
+          "Conviene atender a cómo la voz narradora mezcla cansancio, lucidez y culpa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: La ciudad enrarecida",
+            "summary": "La narradora describe una ciudad alterada por una plaga que vuelve precaria la respiración, la comida y la circulación. El desastre no se presenta como espectáculo, sino como ambiente opresivo que condiciona cada gesto cotidiano."
+          },
+          {
+            "title": "Segunda parte: Cuidar en medio del derrumbe",
+            "summary": "El vínculo con Mauro, con la madre y con el exmarido enfermo concentra la tensión de la novela. Cuidar deja de ser un acto sentimental y se vuelve una tarea extenuante, ambigua y muchas veces desigual."
+          },
+          {
+            "title": "Tramo final: Hambre, desgaste y revelación",
+            "summary": "A medida que empeora el contexto, la narradora enfrenta con más crudeza sus límites físicos y emocionales. El final no ofrece alivio pleno, pero sí una comprensión más nítida de lo que el colapso ha dejado al descubierto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una distopía de lo íntimo",
+            "content": "A diferencia de muchas ficciones apocalípticas, Mugre rosa no se construye alrededor de la explicación del sistema o de la aventura de supervivencia. Su apuesta consiste en mostrar cómo la catástrofe se filtra en la cocina, en la enfermedad, en el hambre y en el trabajo afectivo que sostiene a otros."
+          },
+          {
+            "heading": "El cuidado como conflicto",
+            "content": "La novela se pregunta quién cuida, a costa de qué y con qué reconocimiento. Trías evita idealizar el cuidado: lo muestra como mezcla de deber, agotamiento, culpa, ternura y resistencia. Esa complejidad le da a la novela una potencia ética poco común."
+          },
+          {
+            "heading": "Cuerpo, ambiente y lenguaje",
+            "content": "La descomposición del entorno no es solo externa. El cuerpo enfermo, el hambre persistente y la sensación de contaminación generalizada convierten el lenguaje de la novela en una materia espesa. El mundo se pudre, pero también se vuelve difícil de nombrar con claridad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de ciencia ficción clásica?",
+            "answer": "No exactamente. Tiene un marco distópico y especulativo, pero su fuerza está en el tono literario, en la experiencia del encierro y en la exploración de los vínculos más que en la explicación técnica del desastre."
+          },
+          {
+            "question": "¿Qué temas destacan más en la lectura?",
+            "answer": "Sobresalen el cuidado, la maternidad en plural, la enfermedad, el hambre, la crisis ambiental y la fragilidad de la vida cotidiana cuando el entorno social colapsa."
+          },
+          {
+            "question": "¿Por qué tuvo tanta resonancia crítica?",
+            "answer": "Porque unió una escritura muy precisa con una sensibilidad contemporánea marcada por epidemias, precariedad y crisis ecológica. Además, su tratamiento del cuidado y del cuerpo le dio una profundidad que excede la etiqueta de distopía."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Open Library: Mugre Rosa (work)",
+            "url": "https://openlibrary.org/works/OL25484067W/Mugre_Rosa"
+          },
+          {
+            "label": "Open Library: edición 2020 de Mugre rosa",
+            "url": "https://openlibrary.org/books/OL43889383M/Mugre_rosa"
+          },
+          {
+            "label": "Wikipedia: Fernanda Trías",
+            "url": "https://es.wikipedia.org/wiki/Fernanda_Tr%C3%ADas"
+          },
+          {
+            "label": "Gaceta UNAM: Fernanda Trías, Premio Sor Juana Inés de la Cruz",
+            "url": "https://www.gaceta.unam.mx/fernanda-trias-premio-sor-juana-ines-de-la-cruz/"
+          },
+          {
+            "label": "Kirkus Reviews: Pink Slime",
+            "url": "https://www.kirkusreviews.com/book-reviews/fernanda-trias/pink-slime/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "no-me-esperen-en-abril-de-alfredo-bryce-echenique",
+      "title": "No Me Esperen En Abril",
+      "authorName": "Alfredo Bryce Echenique",
+      "authorSlug": "alfredo-bryce-echenique",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 13,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "No me esperen en abril",
+        "authorName": "Alfredo Bryce Echenique",
+        "authorSlug": "alfredo-bryce-echenique",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela",
+          "bildungsroman",
+          "literatura latinoamericana"
+        ],
+        "year": 1995,
+        "pages": 611,
+        "summary": "No me esperen en abril es una extensa novela de formación en la que Alfredo Bryce Echenique sigue la vida de Manongo Sterne desde la adolescencia limeña de los años cincuenta hasta la madurez. A partir de un episodio humillante en el colegio, el protagonista entra en un proceso de aprendizaje sentimental y social marcado por la amistad, el primer amor y la conciencia dolorosa del paso del tiempo. La novela retrata el mundo de la clase alta peruana, pero lo hace desde una mirada a la vez íntima, irónica y melancólica, atenta a sus privilegios, sus fragilidades y su decadencia. Más que una simple historia amorosa, es una exploración de la memoria, la identidad y el fin de una época.",
+        "aboutThisBook": "Publicada en 1995, esta novela suele leerse como una de las obras mayores de Bryce Echenique y, en cierto modo, como una prolongación o culminación del universo social de Un mundo para Julius. Su protagonista, Manongo Sterne, encarna el tránsito entre la adolescencia protegida y una vida adulta atravesada por pérdidas, desencantos y persistencias afectivas. El libro combina humor, ternura, digresión, autobiografía transformada y observación histórica del Perú contemporáneo. Su amplitud narrativa le permite ser al mismo tiempo una novela sentimental, un retrato generacional y una mirada al declive de la oligarquía limeña.",
+        "forWhom": "Para lectores adultos interesados en la novela latinoamericana del siglo XX, en los relatos de formación y en obras donde la memoria personal se cruza con la historia social y política de un país.",
+        "whyItMatters": "Importa porque ofrece una de las miradas más complejas y emotivas de Bryce Echenique sobre la educación sentimental, la amistad y la decadencia de una clase social. También destaca por su capacidad para convertir una experiencia íntima en una radiografía cultural del Perú de varias décadas.",
+        "editorialIntro": "Alfredo Bryce Echenique escribió pocas veces con tanta amplitud, ternura y respiración narrativa como en No me esperen en abril. La novela parece recordar una edad perdida, pero en realidad examina algo más profundo: cómo se forman los afectos, cómo se arruinan las ilusiones y cómo una clase social entera descubre que su mundo ya no ocupa el centro del país. Su aparente nostalgia está atravesada por humor, dolor y lucidez histórica.",
+        "readingLevel": "Lectura media-alta para público adulto. La prosa de Bryce es fluida y envolvente, pero la extensión del libro, sus cambios temporales y su entramado de relaciones piden una lectura atenta y sostenida.",
+        "whyReadToday": "Porque sigue siendo una gran novela sobre el paso de la adolescencia a la intemperie adulta y porque ayuda a pensar la relación entre memoria privada, privilegio social y transformación histórica en América Latina.",
+        "studyNotes": [
+          "La novela puede leerse como bildungsroman, pero también como crónica afectiva de la decadencia de la oligarquía limeña.",
+          "Muchos rasgos del protagonista y de ciertos episodios dialogan con materiales autobiográficos de Bryce Echenique, aunque la obra no se reduce a confesión personal.",
+          "El contraste entre humor y melancolía es una clave formal decisiva: Bryce aligera el dolor sin negarlo.",
+          "La amplitud temporal, desde los años cincuenta hasta los noventa, permite leer el libro como una memoria individual atravesada por cambios sociales profundos en el Perú."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Adolescencia herida y cambio de mundo",
+            "summary": "La novela abre con la experiencia escolar que hiere el orgullo de Manongo Sterne y lo obliga a mirar de otro modo su entorno. Ese golpe inicial pone en marcha su educación sentimental y su salida de una infancia protegida."
+          },
+          {
+            "title": "Amistad, barrio y pertenencia",
+            "summary": "En la etapa siguiente, el protagonista encuentra nuevos amigos y descubre una forma distinta de estar en el mundo. La novela convierte ese aprendizaje social en una exploración de clase, masculinidad, lealtad y deseo de pertenecer."
+          },
+          {
+            "title": "Teresa Mancini y la memoria del primer amor",
+            "summary": "El vínculo con Teresa organiza el núcleo afectivo del libro. Bryce presenta ese amor como experiencia fundadora y también como herida persistente, atravesada por la distancia, la idealización y el paso de los años."
+          },
+          {
+            "title": "Madurez, desencanto y balance de una época",
+            "summary": "En la segunda mitad, el relato se expande hacia décadas posteriores para mostrar qué fue de los personajes y de su mundo social. La historia individual de Manongo se vuelve entonces una meditación sobre pérdida, memoria y fin de un orden histórico."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela de aprendizaje con respiración histórica",
+            "content": "Aunque sigue el crecimiento emocional de Manongo Sterne, la novela no se limita al itinerario íntimo del protagonista. Bryce inserta ese aprendizaje en un contexto social amplio, donde la decadencia de la élite limeña modifica amistades, expectativas y formas de vida."
+          },
+          {
+            "heading": "Humor, ternura y desgarro",
+            "content": "Uno de los sellos de Bryce Echenique es su mezcla de ironía, compasión y desamparo. En No me esperen en abril esa combinación alcanza una madurez notable: el humor no cancela la herida, sino que la vuelve más humana y más legible."
+          },
+          {
+            "heading": "La memoria como forma narrativa",
+            "content": "La novela está construida sobre la persistencia de ciertos recuerdos que no se dejan cerrar. El pasado escolar, los veranos, la amistad y el amor juvenil no aparecen como simple anécdota, sino como materiales que siguen organizando la identidad adulta."
+          },
+          {
+            "heading": "Entre autobiografía y ficción",
+            "content": "La obra dialoga con experiencias biográficas del autor, pero su fuerza literaria reside en la transformación de ese material en una novela coral y generacional. Leerla en esa frontera permite apreciar mejor cómo Bryce convierte vivencias reconocibles en forma narrativa compleja."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿No me esperen en abril es una novela autobiográfica?",
+            "answer": "Tiene elementos cercanos a la experiencia vital de Bryce Echenique, pero no debe leerse como autobiografía literal. Es una novela que transforma materiales personales en una construcción literaria mucho más amplia."
+          },
+          {
+            "question": "¿Quién es el protagonista de la novela?",
+            "answer": "El protagonista es Manongo Sterne, un adolescente de la clase alta limeña cuya educación sentimental y social articula toda la historia."
+          },
+          {
+            "question": "¿Qué lugar ocupa Teresa Mancini en el libro?",
+            "answer": "Teresa es el gran amor de juventud de Manongo y una figura decisiva en la memoria afectiva de la novela. Su presencia organiza buena parte del tono melancólico del relato."
+          },
+          {
+            "question": "¿Por qué se considera una obra importante de Bryce Echenique?",
+            "answer": "Porque reúne varios de sus temas mayores —memoria, humor, clase social, fragilidad afectiva, decadencia histórica— en una novela ambiciosa, extensa y de gran densidad emocional."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Open Library: No me esperen en abril",
+            "url": "https://openlibrary.org/books/OL888587M/No_me_esperen_en_abril"
+          },
+          {
+            "label": "Todos Tus Libros: No me esperen en abril",
+            "url": "https://www.todostuslibros.com/libros/no-me-esperen-en-abril_978-84-339-0988-6"
+          },
+          {
+            "label": "Wikipedia: No me esperen en abril",
+            "url": "https://es.wikipedia.org/wiki/No_me_esperen_en_abril"
+          },
+          {
+            "label": "Britannica: Alfredo Bryce Echenique",
+            "url": "https://www.britannica.com/biography/Alfredo-Bryce-Echenique"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "querida-susi-querido-paul-de-christine-nostlinger",
+      "title": "Querida Susi Querido Paul",
+      "authorName": "Christine Nostlinger",
+      "authorSlug": "christine-nostlinger",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 13,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Querida Susi, querido Paul",
+        "authorName": "Christine Nöstlinger",
+        "authorSlug": "christine-nostlinger",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "novela epistolar",
+          "literatura infantil y juvenil",
+          "realismo"
+        ],
+        "year": 1984,
+        "pages": 92,
+        "summary": "Querida Susi, querido Paul narra, a través de cartas, la relación entre dos niños que deben separarse cuando Paul se marcha de su ciudad. Esa distancia obliga a ambos a contarse su nueva vida, sus miedos, sus enfados y los cambios que van experimentando. El libro convierte la correspondencia en un espacio de intimidad y aprendizaje: cada carta permite ver cómo la amistad se transforma cuando aparecen la nostalgia, la adaptación a un entorno distinto y el descubrimiento de que crecer también significa perder ciertas seguridades. Con un tono cercano y delicado, Christine Nöstlinger ofrece una historia breve sobre la separación, la lealtad y la capacidad de sostener un vínculo pese a la distancia.",
+        "aboutThisBook": "Publicado originalmente en alemán como Liebe Susi, lieber Paul en 1984, este libro es una de las obras más conocidas de Christine Nöstlinger para lectores jóvenes. Las ediciones de SM lo integran en El Barco de Vapor y destacan su carácter intimista, así como su interés por los problemas de adaptación y la amistad. Su forma epistolar le da un atractivo especial: en vez de una narración lineal tradicional, el lector reconstruye la historia desde las voces de los propios niños, con sus malentendidos, afectos y descubrimientos.",
+        "forWhom": "Para lectores desde los últimos cursos de primaria, familias, docentes y mediadores que quieran una historia breve y sensible sobre amistad, cambio de ciudad, adaptación y expresión escrita.",
+        "whyItMatters": "Sigue siendo un libro valioso porque muestra con sencillez cómo viven los niños una separación importante. Además, la estructura de cartas lo vuelve especialmente útil para trabajar emociones, punto de vista y escritura personal en el aula.",
+        "editorialIntro": "Hay libros infantiles que hablan de la amistad desde grandes gestos y otros que la muestran en su forma más verdadera: hecha de cartas, esperas, pequeños celos, miedo a cambiar y necesidad de seguir siendo importante para alguien. Querida Susi, querido Paul pertenece a ese segundo grupo. Nöstlinger no fuerza el sentimentalismo; observa cómo dos niños sostienen el vínculo mientras el mundo les cambia alrededor. De ahí su permanencia: es una historia pequeña en extensión, pero muy precisa en emoción.",
+        "readingLevel": "Lectura accesible para lectores infantiles y prejuveniles. El lenguaje es claro, la extensión breve y la forma epistolar ayuda a avanzar con facilidad, aunque también invita a interpretar matices afectivos y cambios en la voz de cada personaje.",
+        "whyReadToday": "Porque sigue siendo una excelente puerta de entrada para hablar con niños y adolescentes sobre separación, adaptación, amistad a distancia y el valor de la escritura como forma de acompañar emociones.",
+        "studyNotes": [
+          "La novela adopta forma epistolar: la historia se construye a partir de cartas, no de un narrador externo que lo explique todo.",
+          "El conflicto no depende de grandes aventuras, sino de experiencias cotidianas muy reconocibles: mudanza, distancia, miedo a perder un vínculo y necesidad de adaptarse.",
+          "Es útil para trabajar en clase la diferencia entre contar hechos y expresar emociones desde una voz personal.",
+          "La amistad aparece como una relación viva que cambia con la distancia, pero no desaparece por ello."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: la separación de Paul",
+            "summary": "El punto de partida es la marcha de Paul a otra ciudad, hecho que rompe la rutina compartida con Susi. La separación introduce tristeza e incertidumbre, y da sentido a la necesidad de escribirse."
+          },
+          {
+            "title": "Primeras cartas y desconcierto",
+            "summary": "Las primeras cartas muestran el esfuerzo de ambos por entender su nueva situación. En ellas aparecen la nostalgia, el deseo de seguir cerca y la dificultad de aceptar que la amistad debe adaptarse."
+          },
+          {
+            "title": "Cambios, celos y adaptación",
+            "summary": "A medida que avanza el intercambio, cada niño va contando su nueva vida. Los cambios cotidianos, los malentendidos y la sensación de distancia ponen a prueba el vínculo, pero también lo hacen más consciente y más maduro."
+          },
+          {
+            "title": "La amistad puesta a prueba",
+            "summary": "En el cierre, el libro confirma que la correspondencia no solo mantiene la relación, sino que la transforma. La amistad entre Susi y Paul se vuelve menos espontánea, pero más reflexiva y resistente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La carta como forma de intimidad",
+            "content": "El formato epistolar permite que el lector acceda directamente a la voz de los personajes. No hay una autoridad externa que traduzca lo que sienten: son los propios niños quienes intentan explicarse, a veces con claridad y a veces con torpeza, y ahí reside buena parte de la autenticidad del libro."
+          },
+          {
+            "heading": "Una historia sobre adaptación infantil",
+            "content": "SM subraya que el libro trata los problemas de adaptación, y eso se percibe en cómo la mudanza de Paul desordena la vida afectiva de ambos. La novela observa con precisión el coste emocional de cambiar de entorno cuando todavía se depende tanto de los vínculos cercanos."
+          },
+          {
+            "heading": "La amistad más allá de la presencia física",
+            "content": "La obra desmonta la idea de que la amistad infantil solo existe en la cercanía cotidiana. Aquí el afecto debe sostenerse con palabras, memoria y paciencia, lo que vuelve la relación menos inmediata pero más consciente."
+          },
+          {
+            "heading": "Valor escolar y literario del libro",
+            "content": "Por su brevedad y claridad, funciona muy bien en mediación lectora. Pero su interés no es solo pedagógico: también es una muestra eficaz de cómo la literatura infantil puede tratar emociones complejas con naturalidad, sin didactismos excesivos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Querida Susi, querido Paul?",
+            "answer": "Trata sobre dos niños amigos que deben separarse cuando Paul se muda de ciudad y que intentan sostener su relación por medio de cartas."
+          },
+          {
+            "question": "¿Qué tipo de libro es?",
+            "answer": "Es una novela epistolar breve de literatura infantil y juvenil, centrada en la amistad, la separación y la adaptación a los cambios."
+          },
+          {
+            "question": "¿Para qué edades suele recomendarse?",
+            "answer": "Funciona especialmente bien para lectores de primaria alta y primeros cursos prejuveniles, además de ser muy útil en lectura compartida con docentes o familias."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose en el ámbito escolar?",
+            "answer": "Porque combina una historia emocionalmente clara con una forma literaria muy aprovechable en clase: permite trabajar cartas, punto de vista, expresión de sentimientos y comprensión de cambios vitales."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Literatura SM España: Querida Susi, querido Paul",
+            "url": "https://es.literaturasm.com/libro/querida-susi-querido-paul"
+          },
+          {
+            "label": "SM Argentina: Querida Susi, querido Paul",
+            "url": "https://www.smliteratura.com.ar/querida-susi-querido-paul/"
+          },
+          {
+            "label": "Open Library: Liebe Susi, lieber Paul",
+            "url": "https://openlibrary.org/works/OL638175W/Liebe_Susi_lieber_Paul"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "yo-robot-de-isaac-asimov",
+      "title": "Yo Robot",
+      "authorName": "Isaac Asimov",
+      "authorSlug": "isaac-asimov",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 13,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Yo, robot",
+        "authorName": "Isaac Asimov",
+        "authorSlug": "isaac-asimov",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ciencia ficción",
+          "relatos enlazados",
+          "ficción especulativa"
+        ],
+        "year": 1950,
+        "pages": 252,
+        "summary": "Yo, robot reúne nueve relatos enlazados por una entrevista a la robopsicóloga Susan Calvin, figura clave en la historia ficticia de U.S. Robots. A través de incidentes técnicos, dilemas lógicos y conflictos entre humanos y máquinas, Isaac Asimov imagina el desarrollo de los robots positrónicos y explora las consecuencias éticas de las célebres Tres Leyes de la Robótica. Lejos del robot monstruoso típico de parte de la ciencia ficción temprana, el libro propone una visión más compleja: las máquinas obedecen reglas racionales, pero esas mismas reglas generan paradojas, errores de interpretación y preguntas profundas sobre responsabilidad, conciencia y poder.",
+        "aboutThisBook": "Publicado en 1950, es uno de los libros decisivos de la ciencia ficción del siglo XX. Aunque está compuesto por relatos previamente aparecidos en revistas, Asimov los organiza mediante un marco narrativo que les da unidad histórica e intelectual. El resultado es un libro accesible y muy influyente, donde la especulación científica sirve para pensar la moral, la confianza en la tecnología y las formas en que los seres humanos proyectan sus miedos sobre sus propias creaciones.",
+        "forWhom": "Para lectores de ciencia ficción clásica, estudiantes interesados en inteligencia artificial y ética tecnológica, clubes de lectura que quieran un libro muy discutible y cualquier lector adulto o juvenil avanzado que busque historias breves con ideas potentes.",
+        "whyItMatters": "Porque reformuló la imagen moderna del robot. En vez de insistir en la amenaza automática de la máquina, Asimov hizo de la robótica un campo narrativo de problemas lógicos, jurídicos y filosóficos. Esa decisión marcó décadas de ficción posterior y sigue siendo central en cualquier conversación cultural sobre inteligencia artificial.",
+        "editorialIntro": "Mucho antes de que la inteligencia artificial ocupara titulares diarios, Yo, robot ya se preguntaba qué pasa cuando delegamos decisiones en entidades programadas para obedecer principios morales. Su vigencia no depende solo de la anticipación tecnológica, sino de la claridad con que muestra que toda herramienta compleja revela también las contradicciones humanas de quienes la diseñan.",
+        "readingLevel": "La estructura por relatos facilita mucho la lectura y el estilo de Asimov es directo, pero el libro gana profundidad cuando se atiende a sus dilemas lógicos y éticos. Es una lectura muy accesible para público general, bachillerato o universidad inicial, especialmente en cursos sobre ciencia ficción, filosofía de la técnica o cultura digital.",
+        "whyReadToday": "Porque sus preguntas sobre automatización, sesgos de diseño, confianza en sistemas inteligentes y relación entre normas y consecuencias son hoy más actuales que nunca. Leerlo permite volver a una fuente clásica de la imaginación tecnológica contemporánea sin perder placer narrativo.",
+        "studyNotes": [
+          "El libro no es una novela lineal tradicional, sino una colección de relatos unidos por un marco narrativo con Susan Calvin.",
+          "Las Tres Leyes de la Robótica son el eje conceptual que ordena casi todos los conflictos.",
+          "Asimov reemplaza el robot monstruoso por el robot problemático desde el punto de vista lógico y ético.",
+          "Cada relato plantea una variación distinta sobre obediencia, interpretación y límites de la programación.",
+          "El libro puede leerse como historia interna de la robótica ficticia y también como reflexión sobre la responsabilidad humana.",
+          "Conviene observar que muchas fallas no nacen del robot en sí, sino de expectativas humanas mal formuladas o contradictorias."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Introducción y Robbie",
+            "summary": "El marco narrativo presenta a Susan Calvin y abre la historia temprana de la robótica. En “Robbie”, Asimov explora la relación afectiva entre una niña y un robot niñera, enfrentando ternura, prejuicio y miedo social a las máquinas."
+          },
+          {
+            "title": "Runaround, Reason y Catch That Rabbit",
+            "summary": "Estos relatos se concentran en problemas de obediencia, jerarquía de órdenes y comportamientos inesperados derivados de las Tres Leyes. La robótica aparece ya como un campo donde la lógica puede producir consecuencias paradójicas."
+          },
+          {
+            "title": "Liar!, Little Lost Robot y Escape!",
+            "summary": "La parte media del libro intensifica los dilemas psicológicos y morales. Los robots ya no solo fallan en tareas mecánicas: interpretan, ocultan, confunden o reaccionan de maneras que desestabilizan la confianza humana."
+          },
+          {
+            "title": "Evidence y The Evitable Conflict",
+            "summary": "En los relatos finales, la pregunta por la robótica se desplaza hacia la política y la organización social. Asimov sugiere que el verdadero problema no es si los robots existen, sino qué tipo de mundo humano administran o ayudan a administrar."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Las Tres Leyes como motor narrativo",
+            "content": "La gran innovación del libro está en convertir un sistema ético programado en fuente de conflicto literario. Las Tres Leyes no eliminan el drama; lo refinan. Cada relato muestra que una norma aparentemente clara puede producir tensiones inesperadas cuando entra en contacto con contextos ambiguos."
+          },
+          {
+            "heading": "Susan Calvin y la autoridad de la interpretación",
+            "content": "La figura de Susan Calvin es clave porque introduce una mediación experta entre humanos y robots. No es solo una científica brillante: representa la necesidad de interpretar sistemas complejos que ya no se comprenden intuitivamente. En ese sentido, anticipa debates contemporáneos sobre especialistas, algoritmos y opacidad tecnológica."
+          },
+          {
+            "heading": "De la máquina monstruosa a la máquina ética",
+            "content": "Asimov ayudó a desplazar la imagen del robot como amenaza salvaje hacia la del artefacto regulado por principios. Sin embargo, el libro no cae en ingenuidad tecnófila: muestra que incluso una máquina diseñada para no dañar puede producir problemas enormes si los objetivos humanos son contradictorios o mal definidos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Yo, robot es una novela o un libro de relatos?",
+            "answer": "Es un libro de relatos enlazados por una historia marco protagonizada por Susan Calvin. Por eso puede leerse tanto como colección como conjunto unitario."
+          },
+          {
+            "question": "¿Aquí aparecen por primera vez las Tres Leyes de la Robótica?",
+            "answer": "El libro es el gran vehículo de difusión de las Tres Leyes y el lugar donde quedan asociadas de forma decisiva a la obra de Asimov y a la cultura popular de la robótica."
+          },
+          {
+            "question": "¿Sigue siendo actual pese a haber sido publicado en 1950?",
+            "answer": "Sí. Aunque algunas referencias técnicas son de época, las preguntas sobre automatización, responsabilidad y confianza en sistemas inteligentes resultan hoy extraordinariamente actuales."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Britannica: I, Robot",
+            "url": "https://www.britannica.com/topic/I-Robot"
+          },
+          {
+            "label": "Wikipedia: I, Robot",
+            "url": "https://en.wikipedia.org/wiki/I,_Robot"
+          },
+          {
+            "label": "Britannica: Isaac Asimov",
+            "url": "https://www.britannica.com/biography/Isaac-Asimov"
+          },
+          {
+            "label": "Open Library: I, Robot / Les Robots (work)",
+            "url": "https://openlibrary.org/works/OL46241W"
+          },
+          {
+            "label": "Google Libros: Yo, robot (edición 60 aniversario)",
+            "url": "https://books.google.com/books?id=LM6PPgAACAAJ&hl=es"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "caidos-del-mapa-de-maria-ines-falconi",
+      "title": "Caidos Del Mapa",
+      "authorName": "Maria Ines Falconi",
+      "authorSlug": "maria-ines-falconi",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 12,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Caídos del mapa",
+        "authorName": "María Inés Falconi",
+        "authorSlug": "maria-ines-falconi",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "aventuras escolares",
+          "comedia"
+        ],
+        "year": 1995,
+        "pages": null,
+        "summary": "Primer título de la popular saga juvenil de María Inés Falconi. La historia sigue a Federico, Fabián, Paula y Graciela, un grupo de amigos que intenta escaparse de la hora de Geografía para esconderse en el sótano del colegio. El plan, que parece una travesura escolar más, se complica cuando deben incluir a Miriam, una compañera molesta que amenaza con delatarlos. A partir de ese punto, la novela convierte la vida escolar en territorio de aventura, humor y lealtades puestas a prueba. Lo que empieza como picardía acaba revelando miedos, rivalidades y pactos de amistad muy reconocibles para lectores de esa edad, sin perder nunca el tono lúdico.",
+        "aboutThisBook": "Publicado por primera vez en 1995, el libro se volvió un clásico juvenil argentino por su mezcla de comedia, identificación escolar y ritmo narrativo ágil. Falconi retrata el final de la primaria desde el punto de vista de chicos que sienten que cada pequeño desafío tiene proporciones enormes: maestros temibles, amistades inestables, primeras complicidades y deseo de independencia. Esa cercanía con la experiencia escolar cotidiana explica que haya seguido leyéndose en aulas y clubes de lectura durante años.",
+        "forWhom": "Para lectores de 10 a 14 años, mediadores escolares, familias que buscan narrativa juvenil cercana a la experiencia de la escuela y adultos que quieran revisitar un título muy influyente de la literatura juvenil argentina.",
+        "whyItMatters": "Porque captó con gran eficacia el universo emocional de la preadolescencia. La novela convirtió una anécdota escolar en una puerta de entrada a temas como la amistad, la presión del grupo, la rebeldía cotidiana y el paso de la infancia a una autonomía todavía insegura.",
+        "editorialIntro": "Caídos del mapa entiende algo esencial sobre la lectura juvenil: las aventuras más memorables no siempre ocurren en mundos fantásticos; a veces nacen en un aula, un pasillo o un sótano del colegio. Ese reconocimiento vuelve cercana la novela y explica su permanencia generacional.",
+        "readingLevel": "Tiene una prosa muy accesible, diálogo ágil y situaciones fáciles de seguir. Es ideal para lectores de primaria superior o primeros años de secundaria, aunque también admite lectura escolar guiada para trabajar personajes, conflicto y humor.",
+        "whyReadToday": "Porque sigue ofreciendo una representación viva de la amistad y de la escuela como escenario de iniciación. En un momento de lecturas juveniles muy marcadas por la fantasía o el thriller, este libro recuerda la potencia narrativa de lo cotidiano cuando está contado con ritmo y autenticidad.",
+        "studyNotes": [
+          "El conflicto nace de una travesura aparentemente menor que se vuelve aventura.",
+          "La escuela aparece como espacio de control, pero también de imaginación y complicidad.",
+          "Miriam cumple el papel de antagonista dentro de un registro cómico.",
+          "La novela trabaja el paso de la infancia a la preadolescencia sin solemnidad.",
+          "La amistad del grupo se fortalece cuando deben improvisar juntos.",
+          "Es útil para analizar cómo la literatura juvenil vuelve épicos los problemas cotidianos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera mitad: El plan del sótano",
+            "summary": "Los cuatro amigos organizan una fuga de la clase de Geografía y convierten el colegio en un espacio de exploración. La travesura revela tanto su deseo de libertad como el tono humorístico de la novela."
+          },
+          {
+            "title": "Nudo central: La irrupción de Miriam",
+            "summary": "La aparición de Miriam altera el equilibrio del grupo. Su amenaza de delatar el plan obliga a los protagonistas a negociar, improvisar y soportar tensiones que ya no son solo escolares, sino también afectivas."
+          },
+          {
+            "title": "Desenlace: Consecuencias y aprendizaje",
+            "summary": "El episodio deja consecuencias, malentendidos y nuevas alianzas. Más que una moraleja cerrada, el final subraya que crecer implica afrontar errores, sostener amistades y aprender a convivir con otros que no elegimos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La escuela como territorio de aventura",
+            "content": "Falconi transforma un escenario ordinario en un mapa de riesgos, escondites y jerarquías. Esa operación narrativa explica buena parte del encanto del libro: el lector joven reconoce el entorno, pero lo experimenta como si fuese un espacio de expedición."
+          },
+          {
+            "heading": "Humor y conflicto grupal",
+            "content": "La novela evita dramatizar en exceso y apuesta por un humor basado en el carácter de los personajes, en los choques entre amigos y en la exageración de los códigos escolares. Ese tono le permite tratar la pertenencia al grupo sin perder ligereza."
+          },
+          {
+            "heading": "Preadolescencia y deseo de autonomía",
+            "content": "Detrás de la aventura está el impulso de separarse, aunque sea por un rato, de la autoridad adulta. Escaparse de clase y bajar al sótano no es solo una travesura: es una forma de ensayar independencia y de medir hasta dónde llegan el coraje y la lealtad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro autoconclusivo o parte de una serie?",
+            "answer": "Funciona como historia cerrada, pero también es el primer título de una saga muy extensa y popular protagonizada por el mismo grupo de amigos."
+          },
+          {
+            "question": "¿Para qué edad suele recomendarse?",
+            "answer": "Suele funcionar muy bien entre los 10 y los 14 años, especialmente en lectores que disfrutan historias escolares, humor y aventuras cotidianas."
+          },
+          {
+            "question": "¿Por qué fue tan leído en escuelas argentinas?",
+            "answer": "Porque combina identificación inmediata, ritmo, humor y personajes fáciles de seguir. Además, convierte experiencias escolares comunes en una aventura cercana y divertida."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Caídos del mapa",
+            "url": "https://es.wikipedia.org/wiki/Ca%C3%ADdos_del_mapa"
+          },
+          {
+            "label": "Wikipedia: María Inés Falconi",
+            "url": "https://es.wikipedia.org/wiki/Mar%C3%ADa_In%C3%A9s_Falconi"
+          },
+          {
+            "label": "Open Library: Caidos del Mapa (work)",
+            "url": "https://openlibrary.org/works/OL9511123W/Caidos_del_Mapa"
+          },
+          {
+            "label": "Open Library: edición de Caidos del Mapa",
+            "url": "https://openlibrary.org/books/OL13001974M/Caidos_del_Mapa"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-criticon-de-baltasar-gracian",
+      "title": "El Criticon",
+      "authorName": "Baltasar Gracian",
+      "authorSlug": "baltasar-gracian",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 12,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El Criticón",
+        "authorName": "Baltasar Gracián",
+        "authorSlug": "baltasar-gracian",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela alegórica",
+          "clásico",
+          "filosofía moral"
+        ],
+        "year": 1651,
+        "pages": 812,
+        "summary": "El Criticón es una gran novela alegórica y filosófica en la que Baltasar Gracián convierte la vida humana en un viaje de conocimiento, engaño y desengaño. Sus protagonistas, Critilo y Andrenio, representan dos maneras de estar en el mundo: la experiencia prudente y el impulso natural. A través de una peregrinación por cortes, países y paisajes simbólicos, ambos atraviesan episodios que condensan una visión severa de la sociedad, la ambición, la vanidad y la fragilidad de las apariencias. La obra combina narración, sátira, moralismo y conceptismo barroco hasta construir una de las cumbres más exigentes y ambiciosas de la prosa española.",
+        "aboutThisBook": "Publicada en tres partes entre 1651 y 1657, El Criticón suele considerarse la obra maestra de Gracián y una síntesis final de su pensamiento moral y estilístico. La novela recoge el gusto barroco por la alegoría, el emblema, la antítesis y la densidad conceptual, pero lo hace en una forma narrativa de largo aliento. Su viaje no es solo geográfico: recorre las edades de la vida y examina el paso de la inocencia al desengaño. Por eso puede leerse como novela de aventuras intelectuales, sátira de costumbres, tratado moral encubierto y summa del conceptismo español.",
+        "forWhom": "Para lectores adultos interesados en los clásicos del Siglo de Oro, la prosa barroca, la alegoría filosófica y las obras que exigen una lectura lenta, anotada y reflexiva.",
+        "whyItMatters": "Importa porque es una pieza decisiva de la tradición literaria española y una de las formulaciones más poderosas del desengaño barroco. Además, su crítica de la vanidad, la impostura y la mediocridad social conserva una sorprendente vigencia intelectual.",
+        "editorialIntro": "Pocas obras del Siglo de Oro son tan desafiantes y tan recompensantes como El Criticón. Baltasar Gracián no escribe aquí una novela para el entretenimiento rápido, sino una máquina verbal de pensamiento y observación moral. Cada episodio pone a prueba a sus personajes y, con ellos, al lector. Lo que emerge es una visión amarga del mundo, sí, pero también una defensa de la lucidez, la prudencia y la inteligencia como formas de resistencia ante el engaño general.",
+        "readingLevel": "Lectura alta para público adulto. El estilo conceptista, la abundancia de alegorías y la densidad sintáctica vuelven recomendable una edición anotada y una lectura pausada, idealmente con algún apoyo crítico o docente.",
+        "whyReadToday": "Porque sigue siendo una obra poderosa para pensar la apariencia, la manipulación social, la fama, el autoengaño y la dificultad de vivir con juicio en un mundo saturado de ruido y simulación.",
+        "studyNotes": [
+          "La oposición entre Critilo y Andrenio estructura toda la obra: experiencia frente a impulso, juicio frente a naturaleza, desengaño frente a inocencia.",
+          "El libro se publicó en tres partes y su recorrido alegórico se asocia a las edades de la vida y a las estaciones del año.",
+          "La prosa de Gracián exige atender al conceptismo: condensación, agudeza, antítesis, dobles sentidos y máxima moral.",
+          "Puede leerse como novela, sátira social y tratado filosófico a la vez; esa mezcla de géneros es una de sus mayores riquezas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: juventud y descubrimiento del mundo",
+            "summary": "En la primera parte, subtitulada con referencia a la primavera de la niñez y el estío de la juventud, Critilo y Andrenio se encuentran y emprenden el viaje que organiza toda la novela. El descubrimiento mutuo sirve para presentar sus temperamentos opuestos y abrir la exploración alegórica del mundo humano."
+          },
+          {
+            "title": "Segunda parte: madurez y filosofía cortesana",
+            "summary": "La segunda parte desplaza a los protagonistas por nuevos territorios y acentúa la lectura moral de las aventuras. El viaje se vuelve una observación crítica de la vida social, la corte, la ambición y los engaños que acompañan la edad adulta."
+          },
+          {
+            "title": "Tercera parte: vejez, Roma e inmortalidad",
+            "summary": "En la última parte, la travesía entra en el invierno de la vida y se orienta hacia Roma y la idea de la inmortalidad. El relato intensifica su tono de balance final, de examen de la fama y de confrontación con la muerte."
+          },
+          {
+            "title": "Las crisis como estaciones del desengaño",
+            "summary": "A lo largo de las distintas “crisis” o capítulos, Gracián encadena escenas que pueden leerse de forma episódica y también como una sola meditación progresiva sobre el error, la apariencia y la difícil conquista del juicio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Alegoría total de la vida humana",
+            "content": "El Criticón convierte el viaje narrativo en una estructura capaz de representar el ciclo completo de la existencia. La novela no reproduce simplemente aventuras: cada episodio tiene valor simbólico y moral, de modo que el itinerario exterior refleja un proceso interior de conocimiento y desengaño."
+          },
+          {
+            "heading": "Critilo y Andrenio como figuras complementarias",
+            "content": "La pareja protagonista resume una tensión central del pensamiento de Gracián. Critilo representa la experiencia crítica; Andrenio, la espontaneidad natural. La novela avanza haciendo dialogar y chocar esos dos modos de mirar el mundo, y de ese contraste nace gran parte de su energía intelectual."
+          },
+          {
+            "heading": "La cumbre narrativa del conceptismo",
+            "content": "Gracián lleva aquí el conceptismo a una forma narrativa de gran extensión. La condensación semántica, los juegos de oposición, la densidad simbólica y la proliferación de máximas convierten la lectura en una experiencia exigente, pero también extraordinariamente rica."
+          },
+          {
+            "heading": "Desengaño barroco y actualidad crítica",
+            "content": "Aunque profundamente anclada en el Barroco, la novela sigue interpelando al lector moderno por su diagnóstico de la vanidad, la impostura y la mediocridad pública. Su pesimismo no es mero abatimiento: aspira a formar una lucidez capaz de sobrevivir entre apariencias."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El Criticón es una novela o un tratado filosófico?",
+            "answer": "Es ambas cosas a la vez. Formalmente es una novela alegórica, pero su impulso constante es moral y filosófico, hasta el punto de que muchos la leen como la síntesis narrativa del pensamiento de Gracián."
+          },
+          {
+            "question": "¿Quiénes son Critilo y Andrenio?",
+            "answer": "Son los dos protagonistas de la obra y encarnan posiciones complementarias: Critilo representa la experiencia y el juicio; Andrenio, la naturaleza, la impulsividad y la inocencia inicial."
+          },
+          {
+            "question": "¿Por qué se considera una obra difícil?",
+            "answer": "Porque está escrita en un estilo conceptista muy denso, lleno de alegorías, antítesis, referencias cultas y frases cargadas de sentido moral. Una edición anotada ayuda mucho a disfrutarla."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose hoy?",
+            "answer": "Porque su reflexión sobre el engaño, la apariencia social, la fama y la necesidad de juicio conserva una vigencia notable. Sigue siendo un clásico vivo para pensar la condición humana."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Portal Baltasar Gracián",
+            "url": "https://www.cervantesvirtual.com/portales/baltasar_gracian/"
+          },
+          {
+            "label": "Open Library: El criticón",
+            "url": "https://openlibrary.org/books/OL3801286M/El_critic%C3%B3n"
+          },
+          {
+            "label": "Wikipedia: El Criticón",
+            "url": "https://es.wikipedia.org/wiki/El_Critic%C3%B3n"
+          },
+          {
+            "label": "Britannica: Baltasar Gracián",
+            "url": "https://www.britannica.com/biography/Baltasar-Gracian"
+          },
+          {
+            "label": "Todos Tus Libros: El Criticón",
+            "url": "https://www.todostuslibros.com/libros/el-criticon_978-84-376-0257-8"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-rojo-en-el-azul-de-jeronimo-tristante",
+      "title": "El Rojo En El Azul",
+      "authorName": "Jeronimo Tristante",
+      "authorSlug": "jeronimo-tristante",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 12,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El rojo en el azul",
+        "authorName": "Jerónimo Tristante",
+        "authorSlug": "jeronimo-tristante",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela histórica",
+          "aventuras",
+          "intriga"
+        ],
+        "year": 2005,
+        "pages": 365,
+        "summary": "El rojo en el azul es una novela histórica de Jerónimo Tristante que enlaza la Guerra Civil española con el destino de los españoles enviados a combatir en Rusia junto a la División Azul. Su punto de partida, según la sinopsis de referencia, combina dos figuras en tensión: un joven comunista desencantado herido durante la batalla del Ebro y un capitán falangista que recupera la memoria tras años de vacío. Desde ahí, la novela arma una trama de identidad, supervivencia y desplazamiento ideológico en la que la guerra no solo divide, sino que también obliga a convivir con el enemigo, a revisar convicciones y a medir el peso real de la camaradería. El libro mezcla aventura, espionaje e intriga con una mirada crítica sobre la guerra y los totalitarismos.",
+        "aboutThisBook": "Publicado en 2005 por Inédita Editores y reeditado después en formato de bolsillo, este título pertenece a la vertiente histórica de Jerónimo Tristante, novelista español conocido también por sus ficciones de misterio. Las referencias bibliográficas disponibles lo sitúan como una novela de ficción histórica ambientada en el cruce entre la posguerra española y el frente ruso. La reseña de Lecturalia insiste en dos claves: el vínculo entre hombres enfrentados por la ideología y la historia de un personaje que busca su libertad en medio de uniformes, lealtades forzadas y violencia política.",
+        "forWhom": "Para lectores adultos interesados en novela histórica española, relatos bélicos con intriga y ficciones que exploran identidad, memoria, ideología y supervivencia en contextos extremos.",
+        "whyItMatters": "Importa porque aborda un episodio menos transitado que otros de la narrativa española sobre guerra: el paso de combatientes españoles por el frente ruso y la compleja relación entre convicción política, disciplina militar y humanidad compartida.",
+        "editorialIntro": "La mejor novela histórica no se limita a reconstruir uniformes y fechas: obliga a pensar qué ocurre con las personas cuando una ideología pretende ocuparlo todo. El rojo en el azul parte de esa pregunta y la lleva al terreno de la aventura, la memoria herida y la guerra exteriorizada en Rusia. Tristante no escribe solo sobre bandos; escribe sobre hombres atrapados dentro de ellos, sobre identidades que se mezclan y sobre la libertad como problema moral en tiempos de obediencia obligatoria.",
+        "readingLevel": "Lectura de complejidad media para público adulto. La prosa es narrativa y accesible, pero el trasfondo histórico y las tensiones ideológicas enriquecen la lectura y la vuelven especialmente atractiva para quienes disfrutan de la novela histórica con componente de acción.",
+        "whyReadToday": "Porque ayuda a volver sobre la memoria española del siglo XX desde un ángulo menos habitual y recuerda que los relatos bélicos más interesantes son los que muestran cómo las personas desbordan los discursos cerrados de los bandos.",
+        "studyNotes": [
+          "La novela cruza guerra, memoria e identidad personal: no se centra solo en las operaciones militares, sino en cómo la historia altera la conciencia de los personajes.",
+          "La referencia a la División Azul sitúa la acción en un episodio clave para pensar las continuidades entre Guerra Civil, franquismo y frente europeo de la Segunda Guerra Mundial.",
+          "Es útil observar cómo la camaradería aparece por encima de las etiquetas ideológicas sin anular por ello el conflicto político.",
+          "Puede leerse como novela de aventuras, pero también como reflexión sobre libertad individual en contextos totalitarios."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: heridas de la Guerra Civil",
+            "summary": "La apertura sitúa el conflicto en el desgaste de la guerra española. La figura de un joven comunista herido y la de un capitán falangista marcado por la pérdida de memoria introducen un juego de identidades y trayectorias contrapuestas."
+          },
+          {
+            "title": "Memoria, uniforme y ambigüedad",
+            "summary": "La novela desarrolla la tensión entre lo que un personaje fue, lo que aparenta ser y lo que necesita hacer para sobrevivir. El uniforme deja de ser una simple marca ideológica y se convierte en un elemento de intriga y desplazamiento moral."
+          },
+          {
+            "title": "El salto al frente ruso",
+            "summary": "Con el avance de la trama, la acción se abre hacia la experiencia de los españoles en Rusia. Allí la narración combina aventura, dureza bélica y observación de la camaradería nacida en condiciones extremas."
+          },
+          {
+            "title": "La búsqueda de libertad",
+            "summary": "En el desenlace, el libro concentra su sentido en la necesidad de elegir más allá de las consignas impuestas. Lo histórico y lo íntimo convergen en una pregunta por la libertad posible dentro de una época dominada por la violencia política."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "De la Guerra Civil al frente ruso",
+            "content": "Uno de los rasgos más atractivos del libro es que prolonga la experiencia española de la guerra hacia la División Azul. Esa continuidad evita leer la Guerra Civil como episodio cerrado y la inserta en una cadena mayor de conflictos ideológicos europeos."
+          },
+          {
+            "heading": "Identidad y memoria como motores de intriga",
+            "content": "La amnesia, el uniforme y la circulación entre bandos convierten la novela en algo más que un relato bélico. Tristante usa esos elementos para construir suspense y para mostrar hasta qué punto la identidad puede volverse inestable en una época extrema."
+          },
+          {
+            "heading": "La camaradería por encima del dogma",
+            "content": "La reseña de Lecturalia destaca que la unión entre combatientes supera las ideologías. Ese punto no elimina el conflicto político, pero sí introduce una dimensión humana que complejiza cualquier lectura puramente maniquea."
+          },
+          {
+            "heading": "Crítica de la guerra y los totalitarismos",
+            "content": "Más allá de la aventura, el libro parece orientarse hacia una crítica de la guerra y de los sistemas totalitarios. Su interés reside en mostrar cómo la obediencia absoluta, las lealtades impuestas y la violencia organizada terminan deformando la experiencia moral de los individuos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El rojo en el azul?",
+            "answer": "Es una novela histórica que enlaza la Guerra Civil española con la experiencia de la División Azul en Rusia, a través de una trama de memoria, identidad, intriga y búsqueda de libertad."
+          },
+          {
+            "question": "¿Es una novela puramente bélica?",
+            "answer": "No. Aunque la guerra es central, el libro también trabaja la intriga, el espionaje, la ambigüedad ideológica y la relación entre camaradería y supervivencia."
+          },
+          {
+            "question": "¿Qué periodo histórico aborda?",
+            "answer": "Parte del contexto de la Guerra Civil española y se proyecta hacia el frente ruso donde combatieron españoles encuadrados en la División Azul."
+          },
+          {
+            "question": "¿Por qué puede interesar hoy?",
+            "answer": "Porque recupera un episodio histórico menos habitual en la ficción popular y lo usa para pensar memoria, fanatismo, obediencia y libertad individual."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Open Library: El rojo en el azul",
+            "url": "https://openlibrary.org/works/OL15595227W/El_rojo_en_el_azul"
+          },
+          {
+            "label": "Lecturalia: El rojo en el azul",
+            "url": "https://www.lecturalia.com/libro/66916/el-rojo-en-el-azul"
+          },
+          {
+            "label": "Todos Tus Libros: El rojo en el azul",
+            "url": "https://www.todostuslibros.com/libros/el-rojo-en-el-azul_978-84-96829-61-9"
+          },
+          {
+            "label": "Wikipedia: Jerónimo Tristante",
+            "url": "https://es.wikipedia.org/wiki/Jer%C3%B3nimo_Tristante"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pequeno-teatro-de-ana-maria-matute",
+      "title": "Pequeno Teatro",
+      "authorName": "Ana Maria Matute",
+      "authorSlug": "ana-maria-matute",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 12,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Pequeño teatro",
+        "authorName": "Ana María Matute",
+        "authorSlug": "ana-maria-matute",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela",
+          "drama psicológico",
+          "literatura española"
+        ],
+        "year": 1954,
+        "pages": 288,
+        "summary": "Pequeño teatro es una novela temprana de Ana María Matute en la que una comunidad entera parece moverse como si fuera un retablo de pasiones, máscaras y frustraciones. En torno a un adolescente desamparado y a una serie de figuras dominadas por la ambición, la hipocresía, los sueños engañosos y la crueldad, la autora construye un mundo cerrado donde cada personaje actúa como si representara un papel y, al mismo tiempo, dejara ver su verdad más miserable. La novela combina tensión emocional, observación moral y un aliento poético muy visible para mostrar cómo una sociedad aparentemente pequeña puede contener conflictos intensos de deseo, poder y exclusión.",
+        "aboutThisBook": "Fue escrita por Matute en la adolescencia, aunque no se publicó hasta 1954, año en que obtuvo el Premio Planeta. Esa distancia entre escritura juvenil y publicación madura ayuda a entender su singularidad: es una obra de arranque, pero ya revela varios rasgos centrales de la autora, como la compasión por los seres vulnerables, la mirada crítica sobre la mezquindad adulta y la capacidad para volver simbólico un universo narrativo muy concreto.",
+        "forWhom": "Para lectores de narrativa española de posguerra, estudiantes que quieran acercarse a la primera Matute, clubes de lectura interesados en novelas de atmósfera y personajes intensos, y quienes disfrutan historias donde lo psicológico pesa tanto como la trama.",
+        "whyItMatters": "Porque permite ver el nacimiento de una voz literaria mayor. Aunque no sea la obra más famosa de Matute, sí muestra tempranamente su talento para convertir la infancia, la adolescencia, el desamparo y la violencia moral del entorno en materia narrativa de alta densidad simbólica.",
+        "editorialIntro": "Pequeño teatro no se limita a narrar un conflicto: monta una escena moral donde cada personaje parece un muñeco y, al mismo tiempo, una criatura herida. Esa mezcla de artificio y humanidad explica buena parte de su poder. Leída hoy, la novela deja ver a una Ana María Matute ya reconocible en su sensibilidad, en su dureza compasiva y en su lirismo oscuro.",
+        "readingLevel": "La prosa es clara, pero el libro pide atención a los matices de carácter, al simbolismo y a la atmósfera. Resulta apropiado para público adulto, bachillerato avanzado o universidad, especialmente si interesa la narrativa española de posguerra y el estudio de personajes complejos.",
+        "whyReadToday": "Porque sigue siendo una gran puerta de entrada a la obra de Matute y porque habla con fuerza de exclusión, máscaras sociales y vulnerabilidad juvenil. También permite leer cómo una autora muy joven fue capaz de construir un mundo cerrado, casi teatral, donde lo íntimo y lo social se contaminan sin descanso.",
+        "studyNotes": [
+          "La imagen del teatro sirve como metáfora central: los personajes actúan, ocultan y exhiben sus miserias al mismo tiempo.",
+          "La novela ya anticipa la atención de Matute por niños, adolescentes y seres desamparados frente al mundo adulto.",
+          "Su tono mezcla lirismo con una mirada muy dura sobre la hipocresía, la crueldad y la frustración social.",
+          "Aunque sea una obra temprana, conviene leerla como pieza importante dentro de la primera narrativa de posguerra de Matute.",
+          "El libro funciona bien para analizar símbolos, atmósfera y construcción coral de personajes.",
+          "La tensión entre humanidad y fantochada recorre toda la novela y da sentido al título."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera mitad: Un escenario cerrado",
+            "summary": "La novela presenta un entorno dominado por figuras intensas, deseos reprimidos y jerarquías emocionales. Desde el comienzo, el lector percibe que los personajes viven dentro de una especie de representación donde cada gesto tiene algo de máscara."
+          },
+          {
+            "title": "Nudo: Pasiones, ruindad y desamparo",
+            "summary": "A medida que avanza la trama, el foco se concentra en el adolescente desprotegido que queda en medio de intereses ajenos, resentimientos y ambiciones. El pequeño mundo narrativo se vuelve más opresivo y más cruel."
+          },
+          {
+            "title": "Desenlace: Revelación moral",
+            "summary": "El tramo final intensifica la dimensión simbólica del libro. Lo que parecía solo un conflicto entre personajes termina funcionando como exposición de una comunidad degradada, incapaz de sostener la inocencia o la esperanza sin deformarlas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El teatro como forma de mirar a la sociedad",
+            "content": "El título no es un adorno. Matute organiza la novela como si el mundo social fuese un pequeño escenario en el que cada personaje desempeña un papel aprendido. Esa teatralidad subraya la hipocresía, la impostura y la distancia entre lo que se muestra y lo que realmente se desea o se teme."
+          },
+          {
+            "heading": "Desamparo juvenil frente al mundo adulto",
+            "content": "Uno de los núcleos más matuteanos del libro es la exposición de un personaje joven, vulnerable y observador en medio de una sociedad regida por pasiones opacas. La novela no idealiza la juventud, pero sí la presenta como el lugar donde más claramente se sienten la injusticia, la exclusión y la traición."
+          },
+          {
+            "heading": "Una obra temprana con voz propia",
+            "content": "Pequeño teatro interesa también por su lugar en la trayectoria de la autora. Aun siendo una novela escrita muy pronto, ya se reconoce en ella la potencia simbólica, la sensibilidad lírica y la dureza moral que harán de Matute una de las grandes narradoras españolas del siglo XX."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Pequeño teatro fue una novela temprana de Ana María Matute?",
+            "answer": "Sí. Matute la escribió siendo muy joven y se publicó en 1954, año en que obtuvo el Premio Planeta, por lo que suele leerse como una obra clave de sus comienzos."
+          },
+          {
+            "question": "¿Qué temas dominan la novela?",
+            "answer": "Destacan la máscara social, la crueldad cotidiana, el desamparo juvenil, la ambición, la hipocresía y la tensión entre apariencia y verdad en una comunidad cerrada."
+          },
+          {
+            "question": "¿Es un buen libro para empezar con Matute?",
+            "answer": "Sí, sobre todo si interesa conocer su etapa inicial. No sustituye a sus títulos más célebres, pero permite ver de forma muy clara varios rasgos esenciales de su universo narrativo."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Britannica: Ana María Matute",
+            "url": "https://www.britannica.com/biography/Ana-Maria-Matute"
+          },
+          {
+            "label": "Wikipedia: Ana María Matute",
+            "url": "https://es.wikipedia.org/wiki/Ana_Mar%C3%ADa_Matute"
+          },
+          {
+            "label": "Open Library: Pequeño teatro (work)",
+            "url": "https://openlibrary.org/works/OL979971W/Pequen%CC%83o_teatro"
+          },
+          {
+            "label": "Open Library: edición de Austral de Pequeño teatro",
+            "url": "https://openlibrary.org/books/OL47385100M/Peque%C3%B1o_teatro"
+          },
+          {
+            "label": "Google Libros: Pequeño teatro",
+            "url": "https://books.google.com/books?vid=ISBN8408100513"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-18T16:56:00Z"
+}

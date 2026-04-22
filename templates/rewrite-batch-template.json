@@ -1,0 +1,41 @@
+{
+  "batchName": "sample-batch",
+  "createdAt": "2026-04-16T18:14:19Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Reescribir cada ficha como un resumen serio, útil para estudio, con profundidad real.",
+    "rules": [
+      "Usa español natural y claro.",
+      "Puedes usar capítulos o partes equivalentes.",
+      "No inventes datos dudosos."
+    ]
+  },
+  "items": [
+    {
+      "slug": "ejemplo-libro",
+      "title": "Libro de ejemplo",
+      "authorName": "Autora Ejemplo",
+      "clicks": 100,
+      "impressions": 2000,
+      "current": {
+        "summary": "Resumen actual corto",
+        "aboutThisBook": "Contexto breve"
+      },
+      "rewritten": {
+        "summary": "",
+        "aboutThisBook": "",
+        "forWhom": "",
+        "whyItMatters": "",
+        "editorialIntro": "",
+        "readingLevel": "",
+        "whyReadToday": "",
+        "studyNotes": [],
+        "chapterSummaries": [],
+        "analysisSections": [],
+        "faqs": [],
+        "reviewedAt": "2026-04-16",
+        "sources": []
+      }
+    }
+  ]
+}

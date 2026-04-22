@@ -1,0 +1,1481 @@
+{
+  "batchName": "replenish-20260419T024904Z",
+  "createdAt": "2026-04-19T02:49:05Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-valle-del-miedo-de-sir-arthur-conan-doyle",
+      "title": "El Valle Del Miedo",
+      "authorName": "Sir Arthur Conan Doyle",
+      "authorSlug": "sir-arthur-conan-doyle",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El valle del miedo",
+        "authorName": "Sir Arthur Conan Doyle",
+        "authorSlug": "sir-arthur-conan-doyle",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa",
+          "thriller"
+        ],
+        "year": 1915,
+        "pages": null,
+        "summary": "El valle del miedo es la última novela larga de Sherlock Holmes y una de las más ambiciosas de Arthur Conan Doyle por su estructura en dos tiempos. La investigación comienza con un mensaje cifrado que advierte de un peligro inminente y conduce a Holmes y Watson hasta la mansión de Birlstone, donde aparece un hombre aparentemente asesinado en circunstancias extrañas. Lo que al principio parece un caso clásico de cuarto cerrado se convierte en una historia de identidades falsas, persecuciones antiguas y violencia importada desde Estados Unidos. La segunda mitad retrocede al pasado para narrar el origen del conflicto en un valle dominado por una sociedad secreta criminal. Ese cambio de escenario amplía el alcance moral del libro: ya no se trata solo de resolver un crimen, sino de entender cómo el miedo, la infiltración y la venganza persisten mucho después de los hechos iniciales.",
+        "aboutThisBook": "Publicada en 1915 tras su serialización en 1914-1915, esta novela cierra el ciclo de las cuatro novelas de Holmes. Conan Doyle la construyó en dos partes muy marcadas: primero, el misterio inglés de Birlstone; después, el relato retrospectivo ambientado en el valle americano que da título a la obra. La novela se inspira de forma libre en el caso histórico de los Molly Maguires y en la figura del detective infiltrado James McParland, lo que le da un trasfondo social y político poco habitual en la serie. También es una pieza importante dentro del universo holmesiano porque intensifica la sombra de Moriarty y conecta el crimen concreto con una red criminal de mayor escala.",
+        "forWhom": "Para lectores que disfrutan la novela detectivesca clásica, los enigmas con giro retrospectivo y las historias en las que el caso policial se mezcla con sociedades secretas, infiltración y violencia organizada.",
+        "whyItMatters": "Importa porque demuestra que Conan Doyle podía ir más allá del simple rompecabezas deductivo. El libro enlaza el misterio doméstico con una historia de terror político y social, y por eso ocupa un lugar singular dentro del canon de Sherlock Holmes.",
+        "editorialIntro": "Entre las aventuras largas de Holmes, esta es probablemente la más áspera y la más política. Conan Doyle parte de una escena típicamente detectivesca —una muerte desconcertante en una casa aislada— para abrir luego una narración de conspiraciones, juramentos y ajustes de cuentas que desborda el salón inglés. El resultado conserva el placer del enigma, pero añade una sensación de fatalidad que vuelve la novela especialmente intensa.",
+        "readingLevel": "Lectura accesible para quien ya esté cómodo con la narrativa clásica. La intriga se sigue bien, aunque el cambio de escenario y la estructura en dos bloques piden atención para relacionar pasado y presente.",
+        "whyReadToday": "Porque sigue siendo una gran lección de cómo unir novela detectivesca, thriller conspirativo y comentario sobre la violencia organizada sin perder claridad narrativa ni tensión.",
+        "studyNotes": [
+          "La novela está organizada en dos partes y una breve coda: el enigma de Birlstone solo se comprende plenamente cuando el relato retrocede al pasado americano del protagonista.",
+          "El libro conecta la investigación de Holmes con el tema de la identidad encubierta: nombres falsos, dobles vidas y mensajes cifrados sostienen la tensión narrativa.",
+          "Su trasfondo recuerda el caso de los Molly Maguires, de modo que la obra puede leerse también como una reflexión sobre violencia clandestina y justicia extralegal.",
+          "La presencia indirecta de Moriarty amplía el caso particular y lo sitúa dentro de una red criminal más vasta, algo decisivo para el cierre del ciclo novelístico de Holmes."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La advertencia y el crimen de Birlstone",
+            "summary": "Un mensaje cifrado llegado a Baker Street anuncia un peligro para un tal Douglas. Poco después, Holmes, Watson e Inspector MacDonald descubren en Birlstone un asesinato rodeado de indicios desconcertantes: un puente levadizo, un foso, un arma poco común y testigos que parecen ocultar parte de la verdad."
+          },
+          {
+            "title": "La investigación desmonta la versión aparente",
+            "summary": "A medida que Holmes examina la escena y pone a prueba los relatos de los presentes, el caso deja de parecer un crimen simple cometido por un intruso. La pesquisa revela maniobras deliberadas para confundir a la policía y obliga a revisar quién es realmente la víctima y de dónde viene el peligro que la acecha."
+          },
+          {
+            "title": "El pasado en el valle del miedo",
+            "summary": "La novela se desplaza entonces a Estados Unidos y cuenta la infiltración de un detective en una sociedad secreta violenta que domina una región minera. Allí se explica el origen del odio que persigue al protagonista y se entiende por qué el pasado irrumpe con tanta fuerza en el presente inglés."
+          },
+          {
+            "title": "La solución del caso y la amenaza que permanece",
+            "summary": "Cuando se aclara la identidad del hombre de Birlstone y el engaño preparado para ganar tiempo, Holmes comprende que el crimen visible era solo un episodio dentro de una persecución más larga. El cierre deja una sensación inquietante: aunque el misterio inmediato se resuelve, la red que lo hizo posible sigue activa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un Holmes entre el enigma clásico y la novela de conspiración",
+            "content": "La primera parte responde al placer tradicional del detective que deduce a partir de huellas, tiempos y contradicciones. Pero la segunda desplaza el centro hacia una historia de infiltración, venganza y organización criminal. Esa mezcla da a la novela un alcance mayor que el de un simple caso de deducción."
+          },
+          {
+            "heading": "La estructura en dos tiempos como clave del suspense",
+            "content": "Conan Doyle no resuelve el misterio únicamente acumulando pistas en el presente, sino suspendiendo la explicación para llevar al lector a un pasado decisivo. Ese quiebre de estructura puede sorprender, pero es precisamente lo que convierte a la novela en una obra más amplia y más oscura dentro de la serie."
+          },
+          {
+            "heading": "Violencia colectiva, ley y miedo",
+            "content": "El valle americano del título no es solo un escenario, sino una forma de mostrar cómo el terror organizado domina una comunidad entera. La novela sugiere que la violencia clandestina produce obediencia, silencio y complicidad, y que escapar físicamente de ese mundo no basta para quedar a salvo de él."
+          },
+          {
+            "heading": "Moriarty como sombra del sistema criminal",
+            "content": "Aunque Moriarty no ocupa la novela entera, su intervención basta para transformar el caso en un episodio de una guerra más grande. Conan Doyle refuerza así la idea de que Holmes no combate solo delitos aislados, sino inteligencias que articulan el crimen como sistema."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela independiente o conviene conocer antes a Sherlock Holmes?",
+            "answer": "Puede leerse por separado, porque el caso se entiende sin necesidad de haber leído otras aventuras. Aun así, gana fuerza si el lector ya conoce la rivalidad entre Holmes y Moriarty."
+          },
+          {
+            "question": "¿Por qué la novela cambia tanto de escenario y de tono?",
+            "answer": "Porque Conan Doyle construye el misterio en dos planos: primero presenta el crimen en Inglaterra y luego retrocede a Estados Unidos para revelar la historia que lo explica. Ese cambio convierte la deducción en una narración sobre persecución y memoria."
+          },
+          {
+            "question": "¿Qué relación tiene con hechos reales?",
+            "answer": "La novela se inspira de forma libre en la historia de los Molly Maguires y en el trabajo del detective Pinkerton James McParland, aunque no pretende ser una reconstrucción documental."
+          },
+          {
+            "question": "¿Es una de las obras más oscuras de Conan Doyle?",
+            "answer": "Sí. Frente a otros casos más lúdicos o puramente deductivos, aquí predominan la amenaza persistente, la violencia organizada y la idea de que el pasado puede volver con consecuencias trágicas."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "The Arthur Conan Doyle Encyclopedia: The Valley of Fear",
+            "url": "https://www.arthur-conan-doyle.com/wiki/The_Valley_of_Fear"
+          },
+          {
+            "label": "Wikipedia: The Valley of Fear",
+            "url": "https://en.wikipedia.org/wiki/The_Valley_of_Fear"
+          },
+          {
+            "label": "Project Gutenberg: The Valley of Fear",
+            "url": "https://www.gutenberg.org/ebooks/3289"
+          },
+          {
+            "label": "Standard Ebooks: The Valley of Fear",
+            "url": "https://standardebooks.org/ebooks/arthur-conan-doyle/the-valley-of-fear"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "elogio-de-la-estupidez-de-erasmo-de-rotterdam",
+      "title": "Elogio De La Estupidez De Erasmo",
+      "authorName": "Rotterdam",
+      "authorSlug": "rotterdam",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Elogio de la locura",
+        "authorName": "Erasmo de Rotterdam",
+        "authorSlug": "erasmo-de-rotterdam",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 1511,
+        "pages": null,
+        "summary": "Elogio de la locura es uno de los textos más famosos del humanismo renacentista y también uno de los más engañosos: parece una broma brillante, pero bajo su ligereza verbal desarrolla una crítica severa de la vanidad humana, la falsa erudición, la superstición y los abusos religiosos. Erasmo hace hablar a la propia Locura, que se alaba a sí misma y demuestra, con ironía creciente, hasta qué punto todas las esferas de la vida dependen de alguna forma de autoengaño. Su discurso alcanza a teólogos, juristas, príncipes, cortesanos, monjes y hombres de letras, pero el libro no se reduce a una sátira anticlerical. En su tramo final, la obra gira hacia una idea más seria: frente a la soberbia de la sabiduría mundana, existe una “locura” cristiana asociada a la humildad, la caridad y la imitación de Cristo. Esa mezcla de ingenio, invectiva moral y reflexión espiritual explica su permanencia.",
+        "aboutThisBook": "Erasmo escribió el texto en latín en 1509, durante una estancia vinculada a Tomás Moro, y se imprimió por primera vez en 1511 con el título Moriae Encomium. El juego del título alude tanto a la locura como a Moro, y ya desde ahí muestra el tono erudito y lúdico del libro. La obra pertenece de lleno al clima intelectual del Renacimiento: recupera modelos clásicos, exhibe destreza retórica y usa la sátira como instrumento de reforma moral. Sin embargo, su influencia fue mucho más allá del ejercicio humanista. Se convirtió en un libro clave para pensar la crítica a las instituciones, la ambigüedad entre fe y superstición y el papel de la ironía en la escritura filosófica y religiosa.",
+        "forWhom": "Para lectores interesados en humanismo renacentista, historia de las ideas, sátira moral y crítica de las instituciones, así como para quienes quieran acercarse a un clásico breve pero intelectualmente muy fértil.",
+        "whyItMatters": "Importa porque sigue siendo una de las formas más agudas de denunciar la vanidad humana sin adoptar un tono doctrinario. Su ironía permite ver que la estupidez no es un accidente marginal, sino una fuerza presente en la vida social, política, intelectual y religiosa.",
+        "editorialIntro": "Pocas obras clásicas conservan tan bien su filo como esta. Erasmo no sermonea desde arriba: pone a hablar a la Locura y deja que esa voz, divertida y peligrosa, revele cuántas ficciones sostienen el prestigio, la autoridad y hasta la vida cotidiana. El libro se lee rápido, pero no se agota en la ocurrencia. Tras la sátira hay una meditación muy seria sobre los límites de la razón orgullosa y sobre la necesidad de una reforma interior.",
+        "readingLevel": "Lectura media-alta. El texto es breve y vivaz, pero está lleno de ironías, referencias clásicas y cambios de registro que se aprovechan mejor con una lectura atenta o con alguna contextualización histórica.",
+        "whyReadToday": "Porque su crítica a la pedantería, la vanidad pública, el autoengaño y el uso interesado del saber sigue resultando incómodamente actual en cualquier época saturada de opiniones y prestigios huecos.",
+        "studyNotes": [
+          "La voz principal no es la del autor de forma directa, sino la de la Locura personificada; ese recurso permite a Erasmo satirizar sin hablar siempre en tono frontal.",
+          "El libro no debe reducirse a una simple burla de la Iglesia: también critica juristas, académicos, poderosos y, en general, la soberbia intelectual y moral del ser humano.",
+          "Su tramo final introduce la idea de una locura cristiana, asociada a la humildad y al desprendimiento, que matiza la lectura puramente satírica del texto.",
+          "Es una obra central del humanismo porque combina herencia clásica, juego verbal, ambición moral y deseo de reforma espiritual sin romper del todo con la ortodoxia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La Locura se presenta y reivindica su poder",
+            "summary": "El texto comienza como un discurso de alabanza pronunciado por la propia Locura. Con tono festivo, ella sostiene que ninguna vida humana sería soportable sin ilusión, amor propio, olvido y pequeñas cegueras, y convierte esa afirmación en la base de todo su razonamiento posterior."
+          },
+          {
+            "title": "Satira de oficios, saberes y prestigios",
+            "summary": "En la parte central, la Locura examina a estudiosos, juristas, cortesanos, filósofos y gobernantes para mostrar que muchos de sus títulos descansan en apariencias y ficciones. La ironía golpea con especial fuerza a la falsa erudición y al deseo de autoridad intelectual."
+          },
+          {
+            "title": "Crítica de supersticiones y abusos religiosos",
+            "summary": "El discurso se vuelve más incisivo cuando aborda prácticas devotas vacías, ritualismos y comportamientos clericales alejados del espíritu evangélico. Erasmo no ataca la fe en sí, sino las deformaciones interesadas y rutinarias de la religión."
+          },
+          {
+            "title": "De la sátira a la locura cristiana",
+            "summary": "Hacia el final, el libro gira y propone una paradoja más profunda: la sabiduría mundana puede ser insensata ante Dios, mientras que cierta “locura” espiritual expresa humildad, amor y desapego. Ese cierre eleva el texto por encima de la mera burla social."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La ironía como método de pensamiento",
+            "content": "Erasmo no expone una tesis seca, sino que construye una máscara retórica. Al dejar que la Locura se alabe a sí misma, consigue que el lector se ría y se incomode a la vez. La ironía no es un adorno: es el mecanismo mediante el cual la obra obliga a pensar en aquello que la seriedad convencional suele encubrir."
+          },
+          {
+            "heading": "Humanismo, filología y reforma moral",
+            "content": "El libro nace del ambiente humanista que valoraba la vuelta a los clásicos, la claridad del estilo y la crítica de los abusos intelectuales. Pero Erasmo no se queda en una disputa de eruditos: usa esos recursos para intervenir en problemas éticos y religiosos de su tiempo."
+          },
+          {
+            "heading": "Una crítica más amplia que la anticlerical",
+            "content": "Aunque sus páginas sobre teólogos, monjes y supersticiones son las más citadas, el blanco de la obra es mucho más amplio. La Locura revela que el deseo de prestigio, la autocomplacencia y el autoengaño atraviesan toda la sociedad, desde los sabios hasta los poderosos."
+          },
+          {
+            "heading": "El giro final y su complejidad",
+            "content": "El paso desde la sátira social a la “locura” cristiana ha desconcertado a muchos lectores, pero es precisamente lo que impide leer el libro como un panfleto sencillo. Erasmo distingue entre la necedad orgullosa que corrompe la vida pública y una paradoja espiritual que cuestiona la soberbia de la razón autosuficiente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Elogio de la locura es un ensayo o una obra literaria satírica?",
+            "answer": "Es ambas cosas a la vez. Formalmente adopta la forma de una declamación satírica en la que la Locura habla en primera persona, pero su intención es claramente ensayística y moral."
+          },
+          {
+            "question": "¿El libro ataca solo a la Iglesia?",
+            "answer": "No. Aunque critica supersticiones y abusos religiosos, también satiriza a juristas, académicos, príncipes, cortesanos y, en general, a cualquiera que confunda prestigio con verdad."
+          },
+          {
+            "question": "¿Por qué a veces se traduce como Elogio de la locura y otras como Elogio de la estupidez?",
+            "answer": "Porque el término latino admite matices y las traducciones españolas han optado por equivalentes distintos. “Locura” es la forma más extendida en la tradición editorial, aunque “estupidez” o “necedad” subrayan otros aspectos del mismo concepto."
+          },
+          {
+            "question": "¿Sigue siendo actual leerlo?",
+            "answer": "Sí. Su crítica a la pedantería, la vanidad, la falsa autoridad y los discursos vacíos conserva una vigencia notable, incluso fuera del contexto religioso del Renacimiento."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: In Praise of Folly",
+            "url": "https://en.wikipedia.org/wiki/In_Praise_of_Folly"
+          },
+          {
+            "label": "Project Gutenberg: The Praise of Folly",
+            "url": "https://www.gutenberg.org/ebooks/9371"
+          },
+          {
+            "label": "Open Library: Moriæ Encomium",
+            "url": "https://openlibrary.org/works/OL679942W/Mori%C3%A6_Encomium"
+          },
+          {
+            "label": "Internet Encyclopedia of Philosophy: Erasmus",
+            "url": "https://iep.utm.edu/erasmus/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "en-el-cafe-de-la-juventud-perdida-de-patrick-modiano",
+      "title": "En El Cafe De La Juventud Perdida",
+      "authorName": "Patrick Modiano",
+      "authorSlug": "patrick-modiano",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "En el café de la juventud perdida",
+        "authorName": "Patrick Modiano",
+        "authorSlug": "patrick-modiano",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2007,
+        "pages": 148,
+        "summary": "En el café de la juventud perdida es una novela breve y envolvente en la que Patrick Modiano reconstruye, desde varias voces, la figura esquiva de Louki, una mujer joven que frecuenta el café Le Condé en el París de finales de los años cincuenta y comienzos de los sesenta. Un estudiante observador, un detective privado, la propia Louki y Roland, su amante, ofrecen versiones parciales de una misma presencia, de modo que la novela avanza menos por revelaciones contundentes que por capas de memoria, atmósfera y ausencia. El café funciona como refugio para desorientados, bohemios y fugitivos de sí mismos, pero también como escenario de una melancolía profunda: nadie posee del todo a nadie, y toda identidad parece hecha de nombres prestados, calles recorridas y recuerdos incompletos. Modiano convierte esa incertidumbre en el verdadero centro emocional del libro.",
+        "aboutThisBook": "Publicado por Gallimard en 2007, este roman condensa varias obsesiones centrales de Modiano: la memoria vacilante, el trazado de París como mapa afectivo, las identidades frágiles y la fascinación por quienes desaparecen sin dejar una explicación plena. La novela está compuesta por cuatro narradores que van cercando la vida de Louki sin agotarla nunca. En lugar de una intriga lineal, ofrece una investigación sentimental y urbana donde cada voz aporta una perspectiva y, al mismo tiempo, una nueva zona de sombra. Tras el Nobel concedido a Modiano en 2014, el libro se leyó todavía más como una pieza ejemplar de ese “arte de la memoria” que distingue su obra.",
+        "forWhom": "Para lectores de narrativa literaria contemporánea, novelas de atmósfera y obras centradas en la memoria, la identidad y la ciudad como espacio emocional, más que en la acción exterior.",
+        "whyItMatters": "Importa porque muestra en miniatura casi todo lo que vuelve singular a Modiano: una prosa sobria, una tristeza difusa, personajes que se escapan de cualquier definición cerrada y una ciudad convertida en archivo de vidas borrosas.",
+        "editorialIntro": "Hay novelas que cuentan hechos y otras que persiguen una presencia. Esta pertenece claramente al segundo grupo. Modiano no intenta fijar a Louki con una psicología exhaustiva; la rodea, la recuerda, la deja pasar por distintas voces y por distintas calles de París hasta volverla inolvidable justamente por su condición fugitiva. Esa economía narrativa, tan contenida como hipnótica, es una de las grandes fuerzas del libro.",
+        "readingLevel": "Lectura media para adultos. El estilo es claro y breve, pero su intensidad depende de aceptar silencios, repeticiones, vacíos deliberados y una trama más atmosférica que argumental.",
+        "whyReadToday": "Porque ofrece una forma muy precisa de pensar la fragilidad de la identidad y la nostalgia urbana en tiempos marcados también por la desaparición, la auto-invención y la memoria fragmentaria.",
+        "studyNotes": [
+          "La novela está narrada por cuatro voces distintas; ninguna posee la verdad completa sobre Louki, y esa limitación es parte esencial de su sentido.",
+          "El café Le Condé no es solo un escenario: funciona como punto de encuentro, observatorio social y emblema de una juventud a la deriva.",
+          "París aparece como mapa emocional y psicogeográfico; las calles, barrios y desplazamientos ayudan a construir la identidad fugitiva de los personajes.",
+          "Modiano trabaja con huecos, ecos y repeticiones: más que resolver del todo el enigma de Louki, la novela muestra por qué ciertas vidas solo pueden conocerse de manera incompleta."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Le Condé y la mirada del estudiante",
+            "summary": "La novela se abre en el café Le Condé, foco de una sociabilidad bohemia, errante y melancólica. Un estudiante observa a los habituales del lugar y, entre ellos, a Louki, cuya presencia destaca precisamente por su mezcla de cercanía y opacidad."
+          },
+          {
+            "title": "La búsqueda del detective privado",
+            "summary": "La segunda perspectiva sigue a Pierre Caisley, detective encargado de localizar a Louki tras su salida del hogar conyugal. Su investigación convierte la ciudad en una red de rastros parciales y confirma que la protagonista siempre deja detrás una estela más fácil de seguir que de comprender."
+          },
+          {
+            "title": "Louki recuerda su propia fuga",
+            "summary": "Cuando la voz pasa a Louki, la novela muestra su infancia, sus huidas y su necesidad de escapar de una vida demasiado definida por otros. Ese tramo no disipa el misterio, pero sí revela la tristeza y el deseo de borrarse que sostienen su deriva."
+          },
+          {
+            "title": "Roland, el amor y la sombra del desenlace",
+            "summary": "La voz final, la de Roland, intensifica la dimensión afectiva y fatal del relato. Su relación con Louki abre una posibilidad de intimidad, pero también deja ver que la atracción entre ambos está atravesada por la imposibilidad de fijar un porvenir estable."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La identidad como suma de huellas incompletas",
+            "content": "Louki nunca queda encerrada en una definición definitiva porque cada narrador la ve desde un ángulo distinto y limitado. Modiano convierte esa fragmentación en una poética: conocer a alguien no significa poseer su verdad, sino apenas reunir rastros, versiones y silencios."
+          },
+          {
+            "heading": "París como memoria y deriva",
+            "content": "En la novela, las calles, los barrios y los cafés no son decorado, sino una forma de conocimiento. La ciudad registra pasos, desapariciones y encuentros, y al mismo tiempo hace visible esa mezcla de azar y melancolía que organiza la vida de los personajes."
+          },
+          {
+            "heading": "La juventud perdida como estado del alma",
+            "content": "El título no alude solo a una generación o a una época, sino a una sensación persistente: la de haber pasado por lugares y vínculos que solo pueden recuperarse como niebla, música lejana o recuerdo imperfecto. La novela captura esa pérdida sin sentimentalismo fácil."
+          },
+          {
+            "heading": "La economía narrativa de Modiano",
+            "content": "Modiano escribe con una sobriedad extrema y confía en lo que no explica del todo. Esa contención hace que cada dato —un nombre, una dirección, una estación del año— cargue una resonancia emocional mayor y vuelva la novela especialmente sugerente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La novela tiene una trama detectivesca tradicional?",
+            "answer": "Solo en parte. Hay un detective que busca a Louki, pero el libro no funciona como un policial clásico; la investigación sirve sobre todo para profundizar el misterio de una identidad elusiva."
+          },
+          {
+            "question": "¿Quién es Louki dentro de la novela?",
+            "answer": "Louki, también llamada Jacqueline Delanque, es el centro ausente del relato. Más que un personaje explicado por completo, es una figura perseguida por recuerdos, miradas ajenas y su propio deseo de escapar."
+          },
+          {
+            "question": "¿Por qué se considera una obra representativa de Modiano?",
+            "answer": "Porque reúne muchos de sus rasgos esenciales: memoria incierta, París como archivo íntimo, identidades cambiantes, narración fragmentaria y una melancolía sostenida por la desaparición."
+          },
+          {
+            "question": "¿Es una novela difícil de leer?",
+            "answer": "No por su prosa, que es limpia y breve, sino por su forma de sugerir más de lo que explica. Se disfruta más si el lector acepta la ambigüedad y la atmósfera como parte central de la experiencia."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia (fr): Dans le café de la jeunesse perdue",
+            "url": "https://fr.wikipedia.org/wiki/Dans_le_caf%C3%A9_de_la_jeunesse_perdue"
+          },
+          {
+            "label": "Open Library edition: Dans le café de la jeunesse perdue",
+            "url": "https://openlibrary.org/books/OL16640130M/Dans_le_cafe%CC%81_de_la_jeunesse_perdue"
+          },
+          {
+            "label": "New York Review Books: In the Café of Lost Youth",
+            "url": "https://www.nyrb.com/products/in-the-cafe-of-lost-youth"
+          },
+          {
+            "label": "Nobel Prize: Patrick Modiano – Facts",
+            "url": "https://www.nobelprize.org/prizes/literature/2014/modiano/facts/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fanny-hill-memorias-de-una-cortesana-de-john-cleland",
+      "title": "Fanny Hill Memorias De Una Cortesana",
+      "authorName": "John Cleland",
+      "authorSlug": "john-cleland",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Fanny Hill: Memorias de una mujer de placer",
+        "authorName": "John Cleland",
+        "authorSlug": "john-cleland",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa",
+          "romance"
+        ],
+        "year": 1748,
+        "pages": null,
+        "summary": "Publicada originalmente en dos partes entre 1748 y 1749, Fanny Hill adopta la forma de una larga confesión en la que su protagonista recuerda cómo, siendo muy joven y pobre, llega a Londres y termina entrando en el mundo de la prostitución. Cleland narra ese itinerario como aprendizaje sentimental, social y verbal: la novela no solo cuenta experiencias, sino que muestra cómo Fanny construye un relato de sí misma con mezcla de candor, cálculo y distancia retrospectiva. Bajo su superficie escandalosa para la época, el libro observa la relación entre deseo, dinero, vulnerabilidad femenina y ascenso social. También es una obra clave para entender la historia de la censura en lengua inglesa, porque convirtió el erotismo en materia novelesca sostenida y fue perseguida durante siglos. Leída hoy, interesa tanto por su audacia formal como por la ambigüedad moral con que convierte una vida expuesta al mercado del cuerpo en literatura.",
+        "aboutThisBook": "Conocida también por su título completo Memoirs of a Woman of Pleasure, esta novela de John Cleland es uno de los textos más célebres y polémicos del siglo XVIII inglés. Fue escrita mientras el autor atravesaba graves dificultades económicas y muy pronto se convirtió en un caso emblemático de persecución judicial y censura. Su importancia no radica solo en el contenido erótico, sino en haber dado al tema una forma novelesca continua, con voz autobiográfica, tono confesional y clara conciencia de estilo. Fanny Hill pertenece a la tradición de la novela picaresca, sentimental y libertina, y al mismo tiempo la desborda con una prosa calculadamente exuberante.",
+        "forWhom": "Para lectores adultos interesados en clásicos polémicos, historia de la censura, literatura del siglo XVIII y novelas que cruzan erotismo, crítica social y construcción de una voz narrativa compleja.",
+        "whyItMatters": "Importa porque sigue siendo un punto de referencia cuando se habla de libertad de expresión, representación del deseo y nacimiento de la novela erótica moderna en inglés. También permite leer de otra manera el vínculo entre sexualidad, economía y poder en la literatura europea.",
+        "editorialIntro": "Más que un libro célebre por el escándalo, Fanny Hill es una novela decisiva para entender cómo la literatura moderna empezó a convertir en argumento aquello que la moral pública intentaba expulsar. John Cleland no ofrece una simple provocación: compone una voz memoriosa, persuasiva y ambigua que transforma la experiencia de su protagonista en relato de supervivencia, aprendizaje y autojustificación. Su permanencia se explica por esa doble condición de obra histórica y artefacto literario incómodo.",
+        "readingLevel": "Lectura de dificultad media-alta para público adulto. La trama es clara, pero el contexto histórico, el tono dieciochesco y su importancia cultural se disfrutan más con cierta atención al estilo y a la ironía narrativa.",
+        "whyReadToday": "Porque sigue planteando preguntas muy actuales sobre quién controla el relato del cuerpo, cómo se cruza el deseo con la desigualdad y por qué ciertos libros se convierten en campo de batalla moral y jurídico.",
+        "studyNotes": [
+          "La novela está construida como memoria retrospectiva: importa tanto lo que Fanny cuenta como la manera en que decide contarlo y justificarse.",
+          "Conviene leerla en relación con la censura: su historia editorial es casi tan reveladora como su argumento.",
+          "El dinero organiza buena parte del mundo narrado: deseo, protección, vulnerabilidad y movilidad social aparecen atravesados por el intercambio económico.",
+          "Aunque hoy se recuerda sobre todo por su erotismo, también funciona como documento literario sobre Londres, la moral pública y la situación precaria de muchas mujeres jóvenes.",
+          "Es útil comparar su tono con el de la novela picaresca y con la tradición confesional para ver cómo mezcla aprendizaje, exhibición y autodefensa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Llegada a Londres y caída en la vulnerabilidad",
+            "summary": "Fanny llega sola y sin recursos a la ciudad, donde la promesa de trabajo pronto se convierte en explotación. El inicio fija el contraste entre inocencia, necesidad económica y un entorno urbano dispuesto a mercantilizarla."
+          },
+          {
+            "title": "Aprendizaje dentro del burdel",
+            "summary": "En la casa a la que es conducida, la protagonista descubre las reglas materiales y afectivas del oficio. La novela presenta este tramo como una educación forzada en la que deseo, poder y supervivencia empiezan a confundirse."
+          },
+          {
+            "title": "Amantes, desplazamientos y formación de una voz propia",
+            "summary": "A medida que cambia de protectores, situaciones y expectativas, Fanny gana experiencia y aprende a narrarse con más control. El libro convierte esa sucesión de episodios en un proceso de observación sobre clase social, interés y autoconservación."
+          },
+          {
+            "title": "Reencuentro amoroso y cierre conciliador",
+            "summary": "Hacia el final, la historia abandona parcialmente el registro de deriva para orientarse hacia una salida sentimental y socialmente estabilizada. Ese cierre no borra la ambigüedad del recorrido, pero sí reordena el relato como si la memoria buscara una forma de redención."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una voz confesional cuidadosamente construida",
+            "content": "El gran hallazgo de Cleland no es solo el tema, sino la voz. Fanny habla como quien revela una intimidad, pero también como quien administra su imagen y convierte la experiencia en discurso persuasivo. Esa tensión entre espontaneidad y artificio sostiene buena parte del interés literario del libro."
+          },
+          {
+            "heading": "Sexo, dinero y desigualdad",
+            "content": "La novela muestra que el deseo nunca aparece aislado de las condiciones materiales. La precariedad de Fanny, la lógica del intercambio y la dependencia respecto de hombres con recursos forman un mapa social que vuelve más compleja cualquier lectura puramente libertina o celebratoria."
+          },
+          {
+            "heading": "Escándalo, censura y canon",
+            "content": "Fanny Hill ocupa un lugar singular porque fue perseguida como obra obscena y, al mismo tiempo, terminó incorporada a la conversación literaria e histórica sobre la novela inglesa. Su trayectoria permite pensar cómo cambian los criterios de legitimidad cultural y qué textos sobreviven precisamente por haber sido combatidos."
+          },
+          {
+            "heading": "La ambigüedad moral del desenlace",
+            "content": "El cierre parece ordenar retrospectivamente una vida errática y ofrecer una salida armoniosa, pero esa resolución no elimina las zonas incómodas del libro. Más bien revela el deseo de la narradora de convertir una historia de exposición y mercado en un relato aceptable de aprendizaje y recompensa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Fanny Hill es solo una novela erótica?",
+            "answer": "No. Su fama viene del erotismo y del escándalo judicial, pero también es una obra importante por su forma autobiográfica, su retrato social y su papel en la historia de la censura literaria."
+          },
+          {
+            "question": "¿Por qué fue un libro tan perseguido?",
+            "answer": "Porque convirtió la sexualidad en materia novelesca explícita dentro de una narración extensa y comercialmente visible. Durante mucho tiempo fue considerada una amenaza moral y fue objeto de prohibiciones y procesos."
+          },
+          {
+            "question": "¿La protagonista está idealizada?",
+            "answer": "La novela le da a Fanny una voz atractiva y persuasiva, pero no la vuelve simple. Su relato mezcla inocencia, cálculo, deseo de justificarse y adaptación a un mundo profundamente desigual."
+          },
+          {
+            "question": "¿Se puede leer hoy como documento histórico?",
+            "answer": "Sí, aunque no en sentido literal o sociológico puro. Aporta una mirada literaria muy reveladora sobre moral, prostitución, economía y sensibilidad del siglo XVIII."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Fanny Hill",
+            "url": "https://en.wikipedia.org/wiki/Fanny_Hill"
+          },
+          {
+            "label": "Britannica: John Cleland",
+            "url": "https://www.britannica.com/biography/John-Cleland"
+          },
+          {
+            "label": "Open Library: Memoirs of Fanny Hill",
+            "url": "https://openlibrary.org/works/OL848436W/Memoirs_of_Fanny_Hill"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fiesta-al-noroeste-de-ana-maria-matute",
+      "title": "Fiesta Al Noroeste",
+      "authorName": "Ana Maria Matute",
+      "authorSlug": "ana-maria-matute",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Fiesta al noroeste",
+        "authorName": "Ana María Matute",
+        "authorSlug": "ana-maria-matute",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1953,
+        "pages": 128,
+        "summary": "Fiesta al noroeste es una de las primeras novelas decisivas de Ana María Matute y ya contiene rasgos que marcarían toda su obra: dureza moral, compasión por los desamparados, atmósfera rural opresiva y una atención muy fina a la violencia afectiva. La acción se sitúa en la imaginaria Artámila, donde Dingo, un titiritero ambulante, regresa en una noche de carnaval al lugar del que huyó años atrás. Ese regreso activa una historia retrospectiva centrada en Juan Medinao, cacique local, y en el pasado de rivalidad, rencor y culpa que lo une a su medio hermano Pablo Zácaro. La novela avanza menos por peripecias externas que por la densidad moral del recuerdo: Matute descompone un mundo de pobreza, jerarquías brutales, religiosidad áspera y afectos deformados por el resentimiento. El resultado es una narración breve pero intensa, donde la fiesta del título no es celebración luminosa, sino el marco irónico de una comunidad endurecida por la miseria y la humillación.",
+        "aboutThisBook": "Premiada con el Café Gijón y muy pronto reconocida como una obra reveladora dentro de la narrativa de posguerra, Fiesta al noroeste consolidó a Ana María Matute como una voz singular en la literatura española. La novela pertenece a su primera etapa y se inscribe en ese universo rural y moralmente devastado donde el linaje, la exclusión y la infancia herida pesan más que cualquier promesa de armonía social. En su edición de Austral se recuerda como uno de los libros que la dieron a conocer de forma decisiva. Su brevedad no reduce su fuerza: es una obra concentrada, de gran tensión simbólica, que convierte un conflicto familiar y local en retrato de una sociedad entera.",
+        "forWhom": "Para lectores de narrativa española del siglo XX, estudiosos de la posguerra, clubes de lectura y quienes busquen una novela breve, densa y muy útil para analizar poder, resentimiento, culpa y violencia social.",
+        "whyItMatters": "Importa porque anticipa con claridad la potencia de Ana María Matute y ofrece una de las visiones más sombrías y compactas del mundo rural de posguerra. También permite entender cómo la autora convirtió la marginación y la herida afectiva en materia literaria mayor.",
+        "editorialIntro": "En muy pocas páginas, Ana María Matute logra levantar en Fiesta al noroeste un mundo entero de dureza, memoria y ruina moral. La novela no busca el gran fresco histórico, sino una concentración casi feroz: unos pocos personajes, un territorio hostil y un pasado que no deja de actuar sobre el presente. Ahí reside su fuerza editorial. Es una obra temprana, sí, pero ya completamente reconocible en su intensidad y en su manera de mirar a los humillados sin sentimentalismo fácil.",
+        "readingLevel": "Lectura de dificultad media para adultos y bachillerato avanzado. El texto es breve, pero su densidad simbólica, su estructura retrospectiva y su clima moral exigen atención pausada.",
+        "whyReadToday": "Porque sigue siendo una novela muy lúcida sobre el daño que producen la desigualdad, el linaje y el resentimiento cuando se vuelven la ley secreta de una comunidad.",
+        "studyNotes": [
+          "La novela está construida sobre una fuerte tensión entre presente y pasado: el regreso de Dingo abre la memoria de un conflicto familiar y social más antiguo.",
+          "Juan Medinao encarna un poder local endurecido por el desprecio, la culpa y la necesidad de afirmarse frente a su medio hermano Pablo Zácaro.",
+          "La fiesta del título funciona de modo irónico: lejos de ser celebración liberadora, enmarca un mundo de miseria, violencia y fatalidad.",
+          "Es una obra clave para estudiar la primera narrativa de Matute y su interés por la exclusión, la infancia dañada, la humillación y los vínculos rotos.",
+          "La brevedad del libro favorece un análisis detallado del espacio rural como dispositivo moral, no solo como escenario costumbrista."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El regreso de Dingo a Artámila",
+            "summary": "La novela se abre con la vuelta del titiritero al valle del que había huido. Ese retorno en noche de carnaval introduce de inmediato una atmósfera de fatalidad y hace visible que el pasado del pueblo sigue sin resolverse."
+          },
+          {
+            "title": "Juan Medinao y el peso del dominio",
+            "summary": "Pronto el foco se desplaza hacia el cacique local, cuya autoridad está hecha tanto de riqueza y miedo como de carencia afectiva. Matute lo presenta como una figura dura y herida, incapaz de separar poder, resentimiento y memoria."
+          },
+          {
+            "title": "La rivalidad con Pablo Zácaro",
+            "summary": "La historia retrospectiva expone la relación envenenada entre Juan y su medio hermano bastardo. En ese vínculo se concentran los grandes núcleos del libro: linaje, humillación, envidia, deseo de reconocimiento y violencia soterrada."
+          },
+          {
+            "title": "Funeral, remordimiento y cierre sombrío",
+            "summary": "El tramo final devuelve la narración al presente y deja a los personajes frente a las consecuencias de una vida deformada por el rencor. La novela concluye sin consuelo pleno, subrayando que ciertas comunidades conservan intactas sus heridas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un mundo rural sin idealización",
+            "content": "Matute se aparta por completo de cualquier visión pintoresca del campo. Artámila aparece como espacio de pobreza, jerarquía y violencia emocional, donde la comunidad no protege sino que fija humillaciones y reproduce diferencias de sangre, propiedad y prestigio."
+          },
+          {
+            "heading": "Poder y desamparo en Juan Medinao",
+            "content": "Juan Medinao no es un villano unidimensional. Su dureza nace también de una biografía marcada por el desprecio, la culpa y la deformación del afecto. Esa complejidad hace que la novela examine el poder no solo como dominio externo, sino como resultado de una herida íntima mal resuelta."
+          },
+          {
+            "heading": "La memoria como forma de narrar el conflicto",
+            "content": "El libro no desarrolla una acción lineal de gran amplitud, sino que organiza el sentido a través del recuerdo, los rencores acumulados y la repetición de escenas cargadas de pasado. Esa estrategia vuelve la novela especialmente intensa, porque cada gesto presente arrastra una historia anterior que lo envenena."
+          },
+          {
+            "heading": "Una temprana muestra de la poética de Matute",
+            "content": "Aquí ya están la compasión por los marginados, la atención al daño moral y la convicción de que infancia, familia y jerarquía social dejan marcas duraderas. Leer Fiesta al noroeste es ver en miniatura muchos de los motivos que más tarde crecerán en la obra mayor de la autora."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela larga o de lectura breve?",
+            "answer": "Es una novela breve. Precisamente una de sus virtudes está en la condensación: en pocas páginas construye una atmósfera muy densa y un conflicto moral de gran intensidad."
+          },
+          {
+            "question": "¿Qué lugar ocupa en la obra de Ana María Matute?",
+            "answer": "Ocupa un lugar muy importante dentro de su primera etapa. Fue uno de los libros que la dio a conocer con fuerza y ya contiene temas y tonos centrales de su narrativa posterior."
+          },
+          {
+            "question": "¿La fiesta del título tiene un sentido positivo?",
+            "answer": "Más bien funciona de forma irónica. La celebración popular contrasta con un universo de violencia, pobreza y resentimiento, de modo que el título intensifica la sombra del libro en lugar de aliviarla."
+          },
+          {
+            "question": "¿Qué temas conviene estudiar al leerla?",
+            "answer": "Poder local, linaje, bastardía, culpa, religiosidad áspera, memoria, violencia rural y la forma en que la posguerra impregna la vida cotidiana sin necesidad de aparecer siempre en primer plano."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: Fiesta al Noroeste",
+            "url": "https://www.planetadelibros.com/libro-fiesta-al-noroeste/191275"
+          },
+          {
+            "label": "Open Library: Fiesta al noroeste",
+            "url": "https://openlibrary.org/works/OL979973W/Fiesta_al_noroeste"
+          },
+          {
+            "label": "Britannica: Ana María Matute",
+            "url": "https://www.britannica.com/biography/Ana-Maria-Matute"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "flores-para-algernon-de-daniel-keyes",
+      "title": "Flores Para Algernon",
+      "authorName": "Daniel Keyes",
+      "authorSlug": "daniel-keyes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Flores para Algernon",
+        "authorName": "Daniel Keyes",
+        "authorSlug": "daniel-keyes",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "ciencia-ficcion",
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1966,
+        "pages": null,
+        "summary": "Flores para Algernon cuenta la transformación de Charlie Gordon, un hombre con discapacidad intelectual que acepta someterse a un procedimiento experimental destinado a aumentar su inteligencia. La novela se presenta a través de sus informes de progreso, y esa elección formal convierte el cambio del personaje en algo visible no solo en lo que vive, sino en cómo escribe, entiende y recuerda. Al principio Charlie observa el mundo con una mezcla de candor, deseo de aprender y profunda necesidad de ser aceptado; después, su ascenso intelectual lo lleva a percibir con lucidez dolorosa la crueldad de quienes antes parecían amigos, la complejidad de sus relaciones afectivas y la fragilidad ética del experimento que lo convirtió en prodigio. Cuando comprende que Algernon, el ratón sometido a la misma intervención, empieza a deteriorarse, la novela se vuelve una meditación devastadora sobre el conocimiento, la dignidad y la pérdida. Keyes unió ciencia ficción y novela psicológica en una obra que sigue conmoviendo por su humanidad y por la pregunta central que la atraviesa: qué significa realmente volverse inteligente si el precio es descubrir nuevas formas de soledad.",
+        "aboutThisBook": "Antes de ser novela, Flowers for Algernon fue un relato publicado en 1959 y premiado con el Hugo; Daniel Keyes lo amplió en 1966 y esa versión obtuvo el Nebula. Su historia se convirtió muy pronto en un clásico de la ciencia ficción humanista porque desplaza el centro del género desde la invención técnica hacia el drama moral de una conciencia que se expande y se desmorona. El libro aborda inteligencia, discapacidad, memoria, deseo, vergüenza, investigación científica y trato social hacia la diferencia, pero lo hace sin perder cercanía emocional. La estructura en informes personales es decisiva: Charlie no es observado desde fuera como caso clínico, sino que el lector habita con él cada fase del cambio.",
+        "forWhom": "Para lectores jóvenes y adultos interesados en ciencia ficción con carga emocional, novelas psicológicas, debates éticos sobre la ciencia y libros que funcionan muy bien tanto en lectura personal como en discusión académica.",
+        "whyItMatters": "Importa porque convirtió una hipótesis científica en una exploración hondísima de la dignidad humana. Sigue siendo una obra central para pensar empatía, discriminación, límites de la experimentación y valor moral de la inteligencia.",
+        "editorialIntro": "Pocas novelas consiguen ser a la vez experimento formal, clásico popular y herida emocional duradera. Flores para Algernon lo logra porque Daniel Keyes no usa la ciencia para deslumbrar, sino para exponer una verdad difícil: la inteligencia no salva por sí sola del dolor, y comprender mejor el mundo también puede volverlo más cruel. La novela permanece en la memoria por la ternura de Charlie y por la precisión con que su voz escrita cambia ante nuestros ojos.",
+        "readingLevel": "Lectura accesible desde secundaria alta, aunque su alcance emocional y ético se aprecia plenamente en lectores juveniles avanzados y adultos. El formato de informes favorece la entrada, pero el libro exige atención a sus cambios de tono y perspectiva.",
+        "whyReadToday": "Porque en una época fascinada por mejorar cognitivamente al ser humano, la novela sigue recordando que toda promesa de optimización tiene consecuencias éticas, afectivas y sociales que no pueden ignorarse.",
+        "studyNotes": [
+          "La forma epistolar de los informes de progreso permite seguir la evolución intelectual de Charlie directamente en el lenguaje, la ortografía y la complejidad de sus reflexiones.",
+          "Algernon no es solo un antecedente experimental: funciona como espejo del destino de Charlie y como señal de alarma científica y moral.",
+          "La novela cuestiona la idea de que la inteligencia garantice integración social o felicidad; de hecho, a menudo profundiza el aislamiento del protagonista.",
+          "Conviene analizar cómo cambian las relaciones de Charlie con la panadería, con Alice Kinnian y con los científicos cuando modifica su posición intelectual.",
+          "Es una obra clave para discutir ética de la experimentación, trato social de la discapacidad y diferencia entre conocimiento, sabiduría y compasión."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Los primeros informes y el deseo de aprender",
+            "summary": "Charlie escribe sus primeras notas con lenguaje simple y una voluntad conmovedora de mejorar. Desde el comienzo se percibe que no busca prestigio, sino pertenecer a un mundo que siempre le ha quedado parcialmente vedado."
+          },
+          {
+            "title": "La operación y el ascenso intelectual",
+            "summary": "Tras el procedimiento experimental, Charlie empieza a adquirir habilidades cognitivas de manera vertiginosa. La novela convierte esa expansión mental en una experiencia ambivalente: liberadora en apariencia, pero cada vez más dolorosa en el plano emocional."
+          },
+          {
+            "title": "Descubrimiento del pasado y soledad del genio",
+            "summary": "Con mayor lucidez, el protagonista relee sus recuerdos, comprende mejor las burlas que sufrió y advierte la distancia que lo separa ahora de casi todos. Su inteligencia creciente no disuelve el deseo de afecto, sino que vuelve más complejas sus heridas."
+          },
+          {
+            "title": "El deterioro de Algernon y la caída final",
+            "summary": "Cuando Charlie identifica el proceso de regresión en el ratón, entiende que su propio cambio podría ser temporal. El desenlace convierte el libro en una reflexión profundamente trágica sobre la conciencia de la pérdida y la preservación de la dignidad frente al declive."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La inteligencia narrada desde dentro",
+            "content": "Uno de los grandes logros de Keyes es hacer que el aumento de inteligencia no sea solo un dato argumental, sino una experiencia formal. El lector asiste a la transformación de Charlie en la textura misma de la escritura, lo que vuelve inseparables fondo y forma."
+          },
+          {
+            "heading": "Empatía, crueldad y jerarquías sociales",
+            "content": "La novela muestra con dureza cómo la sociedad trata de manera distinta a quien considera inferior, útil o excepcional. Charlie descubre que muchas supuestas bromas eran humillaciones, y que el reconocimiento intelectual tampoco garantiza relaciones verdaderamente humanas."
+          },
+          {
+            "heading": "Ética de la experimentación científica",
+            "content": "El experimento sobre Charlie plantea preguntas que van más allá de la eficacia técnica: consentimiento, instrumentalización, responsabilidad de los investigadores y consecuencias emocionales de intervenir sobre una persona vulnerable. Por eso el libro sigue siendo actual en debates bioéticos."
+          },
+          {
+            "heading": "Memoria y tragedia",
+            "content": "La novela no solo trata de ganar inteligencia, sino de saber que puede perderse. La conciencia del deterioro convierte cada descubrimiento en algo más frágil y vuelve el final especialmente conmovedor: Charlie entiende lo que se desvanece mientras aún conserva la capacidad de nombrarlo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Flores para Algernon es ciencia ficción o drama psicológico?",
+            "answer": "Es ambas cosas. Parte de una premisa científica especulativa, pero su fuerza principal está en la exploración emocional, ética y psicológica de Charlie Gordon."
+          },
+          {
+            "question": "¿Por qué Algernon es tan importante en la novela?",
+            "answer": "Porque actúa como precedente experimental y como espejo del destino de Charlie. Su evolución permite anticipar el costo real del experimento y da a la historia un eje simbólico muy poderoso."
+          },
+          {
+            "question": "¿La novela es adecuada para lectores jóvenes?",
+            "answer": "Sí, especialmente para lectores juveniles avanzados y adultos. Su lenguaje inicial facilita el acceso, aunque las preguntas éticas y emocionales que abre invitan a una lectura guiada o comentada."
+          },
+          {
+            "question": "¿Qué hace especial a su forma narrativa?",
+            "answer": "Que todo está contado mediante informes escritos por Charlie. Gracias a eso, el lector ve cambiar su mente en la propia página: ortografía, sintaxis, memoria y autoconciencia evolucionan junto con la trama."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Flowers for Algernon",
+            "url": "https://en.wikipedia.org/wiki/Flowers_for_Algernon"
+          },
+          {
+            "label": "Britannica: Daniel Keyes",
+            "url": "https://www.britannica.com/biography/Daniel-Keyes"
+          },
+          {
+            "label": "Open Library: Flowers for Algernon",
+            "url": "https://openlibrary.org/works/OL515754W/Flowers_for_Algernon"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "grushenka-de-vv-aa",
+      "title": "Grushenka",
+      "authorName": "Vv Aa",
+      "authorSlug": "vv-aa",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Grushenka",
+        "authorName": "Anónimo",
+        "authorSlug": "anonimo",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa",
+          "romance"
+        ],
+        "year": 2002,
+        "pages": 232,
+        "summary": "Grushenka es una novela erótica presentada como la biografía de una sierva rusa del siglo XVIII cuya vida queda marcada por el deseo, la explotación y la astucia necesaria para sobrevivir. El libro sigue el aprendizaje de su protagonista desde el momento en que un aristócrata la compra para servir a su esposa hasta su paso por distintos espacios donde el cuerpo femenino funciona como mercancía, espectáculo y herramienta de ascenso. Lo que podría leerse solo como sucesión de aventuras sensuales acaba mostrando otra trayectoria: la de una mujer que, en un régimen de servidumbre y dependencia masculina, busca transformar la humillación en margen de maniobra. Bajo su superficie libertina, la novela combina erotismo, retrato social y una dura educación sentimental sobre poder, sumisión y autonomía.",
+        "aboutThisBook": "La edición de Tusquets publicada en 2002 dentro de La Sonrisa Vertical presenta Grushenka como un clásico misterioso de la literatura erótica y la vincula con la tradición de Fanny Hill. La propia sinopsis editorial subraya el enigma de su origen y la atribución a un supuesto autor ruso anónimo del siglo XVIII. Más que una novela de argumento lineal y cerrado, funciona como memoria de formación en clave libertina: cada episodio introduce nuevas relaciones de dominio y nuevas formas de aprendizaje sexual y social. Su interés reside tanto en el tono provocador como en la manera en que convierte el itinerario de una sierva en relato de supervivencia dentro de una sociedad jerárquica y profundamente desigual.",
+        "forWhom": "Para lectores adultos interesados en clásicos de la literatura erótica, ficciones libertinas, historias de ascenso ambiguo y novelas donde el deseo aparece unido a estructuras de poder y dependencia social.",
+        "whyItMatters": "Importa porque muestra que la literatura erótica clásica no trata solo del placer, sino también de jerarquía, vulnerabilidad y negociación del poder. Leída hoy, permite pensar cómo el cuerpo se convierte en territorio de sometimiento, aprendizaje y cálculo social.",
+        "editorialIntro": "Grushenka pertenece a esa clase de libros cuya fama se alimenta tanto de su argumento como de su aura de rareza. Presentada como una especie de Fanny Hill rusa, la novela no se limita a encadenar episodios sensuales: construye el itinerario de una mujer obligada a aprender muy pronto que deseo, dinero y obediencia rara vez aparecen separados. Su interés actual está en esa doble condición de pieza libertina y relato sobre la supervivencia femenina dentro de una sociedad servil.",
+        "readingLevel": "Lectura media para adultos. El estilo es directo en su materia erótica, pero conviene atender al contexto histórico, al marco de servidumbre y al carácter ambiguo de la emancipación de la protagonista.",
+        "whyReadToday": "Porque permite releer un clásico marginal desde preguntas muy actuales sobre agencia femenina, explotación sexual, movilidad social y la relación entre intimidad y poder.",
+        "studyNotes": [
+          "La novela puede leerse como relato de iniciación, pero también como historia de aprendizaje forzado dentro de una estructura de servidumbre.",
+          "El erotismo no aparece aislado del contexto social: cada episodio revela quién posee poder, quién depende y qué margen de acción queda para la protagonista.",
+          "La comparación con Fanny Hill ayuda a situar el libro en la tradición libertina europea, aunque aquí el marco ruso y la condición de sierva cambian el tono moral del ascenso.",
+          "Conviene observar que la aparente emancipación final no borra la violencia ni las transacciones que han hecho posible ese recorrido."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La compra y el inicio de la servidumbre erótica",
+            "summary": "La historia arranca cuando Grushenka es adquirida por un aristócrata para el servicio doméstico de su esposa. Muy pronto ese espacio doméstico revela su verdadero funcionamiento: la joven queda absorbida por una red de deseo, abuso y sustitución que define su entrada en el mundo adulto."
+          },
+          {
+            "title": "Aprender a sobrevivir entre amos, negocios y disfraces",
+            "summary": "Tras ser repudiada, la protagonista atraviesa distintos escenarios donde el erotismo está ligado al dinero y a la obediencia: tiendas que esconden otros negocios, baños de vapor y encuentros con clientes de ambos sexos. Cada etapa amplía su conocimiento de las rarezas del deseo y de la psicología de quienes la dominan."
+          },
+          {
+            "title": "De víctima a administradora de su propio espacio",
+            "summary": "La experiencia acumulada acaba dando a Grushenka una forma de astucia práctica. El tramo final la muestra intentando convertir el conocimiento adquirido en autonomía material hasta llegar a dirigir uno de los prostíbulos más célebres de Moscú, aunque esa conquista conserva una ambigüedad moral evidente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Erotismo y estructura social",
+            "content": "Uno de los rasgos más interesantes del libro es que el deseo nunca aparece desprendido de la jerarquía. La condición servil de Grushenka determina qué encuentros son posibles, quién decide y qué precio tiene cada gesto de resistencia o complacencia."
+          },
+          {
+            "heading": "La formación de una astucia femenina",
+            "content": "La protagonista no se emancipa por idealismo ni por simple rebeldía, sino por aprendizaje. Cada episodio le enseña algo sobre el poder masculino, la economía del cuerpo y las oportunidades limitadas que una mujer puede convertir en estrategia de supervivencia."
+          },
+          {
+            "heading": "Un clásico libertino con fondo sombrío",
+            "content": "Aunque la novela circula como clásico erótico, su lectura actual deja ver un fondo áspero. Bajo la curiosidad sexual y la imaginación libertina late una historia de explotación, cosificación y movilidad social conseguida a costa de adaptarse a un mundo profundamente desigual."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Grushenka es una novela erótica o una novela histórica?",
+            "answer": "Es ante todo una novela erótica de ambientación histórica. Su marco ruso del siglo XVIII no es decorativo: condiciona la servidumbre de la protagonista y la lógica social del relato."
+          },
+          {
+            "question": "¿Se sabe con certeza quién la escribió?",
+            "answer": "No con seguridad. La edición de Tusquets insiste en el carácter enigmático de su origen y la presenta como obra de un supuesto autor ruso anónimo."
+          },
+          {
+            "question": "¿Por qué se compara con Fanny Hill?",
+            "answer": "Porque comparte con esa tradición libertina el uso de una voz femenina que convierte sus experiencias sexuales en itinerario vital. Sin embargo, Grushenka acentúa más la servidumbre y la lucha por salir de la dependencia."
+          },
+          {
+            "question": "¿Es recomendable para cualquier lector?",
+            "answer": "No. Por su contenido sexual explícito y por la manera en que representa abuso, prostitución y dominación, está claramente orientada a público adulto."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: Grushenka",
+            "url": "https://www.planetadelibros.com/libro-grushenka/89646"
+          },
+          {
+            "label": "Open Library: Grushenka (ISBN 9788472233058)",
+            "url": "https://openlibrary.org/isbn/9788472233058"
+          },
+          {
+            "label": "Open Library: Grushenka (obra)",
+            "url": "https://openlibrary.org/works/OL7985044W/Grushenka"
+          },
+          {
+            "label": "Wikipedia: La sonrisa vertical",
+            "url": "https://es.wikipedia.org/wiki/La_sonrisa_vertical"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "historia-de-la-filosofia-sin-temor-ni-temblor-de-fernando-savater",
+      "title": "Historia De La Filosofia Sin Temor Ni Temblor",
+      "authorName": "Fernando Savater",
+      "authorSlug": "fernando-savater",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Historia de la filosofía sin temor ni temblor",
+        "authorName": "Fernando Savater",
+        "authorSlug": "fernando-savater",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2009,
+        "pages": 268,
+        "summary": "En Historia de la filosofía sin temor ni temblor, Fernando Savater propone una entrada clara, viva y desmitificadora al pensamiento filosófico occidental. El libro parte de una convicción sencilla: la filosofía no pertenece a especialistas encerrados en tecnicismos, sino a cualquiera que se haya preguntado por la verdad, la muerte, la justicia, la naturaleza o el tiempo. A partir de ahí, Savater recorre a los grandes filósofos como protagonistas de una aventura intelectual hecha de disputas, persecuciones, intuiciones brillantes y cambios de perspectiva. Su objetivo no es ofrecer un manual exhaustivo ni una cronología académica cerrada, sino contar cómo ciertas preguntas han acompañado a la humanidad y cómo diferentes pensadores intentaron responderlas. El resultado es un libro de divulgación exigente pero hospitalario, pensado para despertar curiosidad y seguir pensando por cuenta propia.",
+        "aboutThisBook": "Publicado por Espasa en 2009, el libro condensa una de las virtudes más reconocibles de Savater: su capacidad para convertir asuntos filosóficos complejos en conversación inteligible sin vaciarlos de densidad. La presentación editorial insiste en que todos nos hacemos preguntas filosóficas alguna vez, y que la historia de la filosofía puede leerse como relato de aventuras racionales antes que como repertorio de doctrinas muertas. Esa orientación marca el tono de la obra. En lugar de intimidar con aparato técnico, Savater organiza el recorrido de forma accesible y narrativa, acercando autores, conflictos y conceptos a lectores jóvenes y adultos que buscan una primera visión de conjunto o una relectura panorámica de la tradición.",
+        "forWhom": "Para estudiantes, lectores curiosos, docentes y adultos que quieran iniciarse en la filosofía o recuperar una visión global de sus autores principales sin pasar por un manual excesivamente técnico.",
+        "whyItMatters": "Importa porque recuerda que la filosofía sigue siendo una práctica viva de interrogación y no un museo de nombres ilustres. El libro ayuda a perderle el miedo a la disciplina sin trivializarla.",
+        "editorialIntro": "Savater escribe aquí contra un prejuicio muy extendido: que la filosofía es árida, lejana o solo apta para especialistas. Su respuesta no consiste en rebajar las preguntas, sino en devolverles su energía original. Los filósofos aparecen como personas inquietas que discutieron sobre la verdad, el bien, el tiempo o la muerte porque esas cuestiones afectan a cualquier vida humana. Esa mezcla de claridad, ironía y pasión pedagógica hace del libro una magnífica puerta de entrada.",
+        "readingLevel": "Lectura media. El estilo es claro y conversacional, pero exige atención a nombres, corrientes y problemas filosóficos que se encadenan históricamente.",
+        "whyReadToday": "Porque en una época saturada de opiniones rápidas, Savater recuerda el valor de pensar despacio, preguntar mejor y entender de dónde vienen muchas de nuestras ideas sobre libertad, verdad y justicia.",
+        "studyNotes": [
+          "El libro no pretende sustituir a una historia académica completa, sino ofrecer una orientación inicial sólida y estimulante.",
+          "Savater presenta a los filósofos como interlocutores en torno a problemas permanentes, no como estatuas intelectuales aisladas en su siglo.",
+          "Conviene fijarse en cómo enlaza contexto histórico y pregunta filosófica: las ideas aparecen siempre en diálogo con conflictos humanos y políticos concretos.",
+          "Puede leerse como introducción general o como mapa previo antes de estudiar con más detalle autores y escuelas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Por qué la filosofía no debería dar miedo",
+            "summary": "El arranque del libro desmonta la idea de que filosofar sea un lujo extraño o reservado a expertos. Savater vincula la disciplina con preguntas básicas que todos nos hacemos y fija el tono divulgativo de toda la obra."
+          },
+          {
+            "title": "Los grandes pensadores como aventura histórica",
+            "summary": "En la parte central, el autor va recorriendo figuras y momentos decisivos de la tradición filosófica occidental. Más que acumular doctrinas, muestra cómo cada pensador responde a inquietudes heredadas y abre problemas nuevos."
+          },
+          {
+            "title": "Pensar por cuenta propia después del recorrido",
+            "summary": "El tramo final deja claro que conocer la historia de la filosofía no significa memorizar respuestas, sino aprender a formular mejor las preguntas. La síntesis histórica se convierte así en invitación a la reflexión personal."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Divulgación sin condescendencia",
+            "content": "Uno de los logros del libro es su equilibrio entre claridad y ambición. Savater simplifica lo necesario para orientar al lector, pero evita reducir la filosofía a frases hechas o curiosidades biográficas."
+          },
+          {
+            "heading": "La historia de las ideas como relato humano",
+            "content": "El autor insiste en que los filósofos no son cerebros abstractos desconectados de la vida. Sus conceptos nacen de conflictos morales, políticos y existenciales, y por eso la historia filosófica puede leerse como drama intelectual de la experiencia humana."
+          },
+          {
+            "heading": "Pensar la tradición para pensar el presente",
+            "content": "Aunque el libro recorre autores del pasado, su finalidad es contemporánea. Entender cómo otros pensaron la verdad, la justicia o la libertad ayuda a leer con más rigor debates actuales que a menudo se presentan como si acabaran de inventarse."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un manual académico de historia de la filosofía?",
+            "answer": "No exactamente. Es una obra de divulgación rigurosa que ofrece un recorrido panorámico y accesible, más orientado a despertar comprensión y curiosidad que a agotar cada escuela o autor."
+          },
+          {
+            "question": "¿Sirve para empezar desde cero?",
+            "answer": "Sí. Está pensado precisamente para lectores sin formación especializada que quieren perder el miedo a la filosofía y obtener un mapa inicial de sus grandes figuras y problemas."
+          },
+          {
+            "question": "¿Qué distingue a Savater como divulgador en este libro?",
+            "answer": "Su capacidad para unir claridad, sentido narrativo e invitación crítica. No se limita a resumir doctrinas: presenta la filosofía como experiencia intelectual viva."
+          },
+          {
+            "question": "¿Puede ser útil para estudiantes?",
+            "answer": "Mucho. Funciona bien como lectura de apoyo en bachillerato o primeros cursos universitarios porque contextualiza autores y anima a seguir profundizando."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Open Library: Historia de la filosofía sin temor ni temblor (obra)",
+            "url": "https://openlibrary.org/works/OL15116710W/Historia_de_la_filosof%C3%ADa_sin_temor_ni_temblor"
+          },
+          {
+            "label": "Open Library: edición Espasa 2009",
+            "url": "https://openlibrary.org/books/OL23998875M/Historia_de_la_Filosof%C3%ADa_sin_temor_ni_temblor"
+          },
+          {
+            "label": "Goodreads: Historia de la filosofía, sin temor ni temblor",
+            "url": "https://www.goodreads.com/book/show/7945708-historia-de-la-filosof-a-sin-temor-ni-temblor"
+          },
+          {
+            "label": "Wikipedia: Fernando Savater",
+            "url": "https://en.wikipedia.org/wiki/Fernando_Savater"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "huye-rapido-vete-lejos-de-fred-vargas",
+      "title": "Huye Rapido Vete Lejos",
+      "authorName": "Fred Vargas",
+      "authorSlug": "fred-vargas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Huye rápido, vete lejos",
+        "authorName": "Fred Vargas",
+        "authorSlug": "fred-vargas",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2001,
+        "pages": 416,
+        "summary": "Huye rápido, vete lejos es una novela policial de Fred Vargas protagonizada por el comisario Adamsberg, uno de esos investigadores que parecen avanzar más por intuición que por método, aunque rara vez se equivocan en lo esencial. La trama comienza con dos enigmas inquietantes en un París contemporáneo de resonancias medievales: unas puertas marcadas con un cuatro negro invertido y unas misteriosas siglas, y los mensajes alarmantes que recibe Joss, antiguo marinero convertido en pregonero callejero. A partir de esos indicios dispersos, Vargas construye una intriga donde el miedo colectivo, la superstición y la memoria de la peste se mezclan con asesinatos bien reales. La novela destaca menos por la velocidad pura del suspense que por su atmósfera singular: un policial culto, excéntrico y sombrío que convierte la ciudad en espacio de rumor, contagio imaginario y amenaza concreta.",
+        "aboutThisBook": "Publicada originalmente en francés en 2001 como Pars vite et reviens tard y conocida en inglés como Have Mercy on Us All, la novela pertenece al ciclo del comisario Adamsberg. La edición española en Siruela apareció en 2003 y las posteriores reediciones consolidaron uno de los títulos más celebrados de Fred Vargas. La descripción editorial y los resúmenes de referencia coinciden en el núcleo del libro: unas pintadas en puertas parisinas, mensajes crípticos y una investigación que reactiva el imaginario de la peste. Esa mezcla de procedimiento policial, erudición histórica y rareza psicológica explica su atractivo. Vargas no escribe un thriller convencional: privilegia la atmósfera, los personajes excéntricos y la lógica oblicua de la sospecha.",
+        "forWhom": "Para lectores adultos de novela negra, amantes de los misterios con atmósfera literaria y quienes disfrutan investigaciones policiales menos mecánicas y más intuitivas, inquietantes y culturales.",
+        "whyItMatters": "Importa porque demuestra que la novela policial puede ser al mismo tiempo adictiva, extraña y literariamente ambiciosa. Su lectura del miedo social y del contagio simbólico resulta además muy vigente.",
+        "editorialIntro": "Fred Vargas domina un tipo de intriga que no depende solo del enigma, sino del clima mental que lo rodea. En esta novela, una simple señal pintada en una puerta basta para activar supersticiones antiguas y temores muy contemporáneos. Adamsberg investiga, sí, pero la pesquisa avanza entre pregones callejeros, rumores y evocaciones de la peste, como si París escondiera bajo su superficie racional una memoria oscura siempre disponible. Ese tono singular convierte el libro en algo más que un policial eficaz.",
+        "readingLevel": "Lectura media a media-alta. La prosa es accesible, pero la novela gana cuando se sigue con atención su red de indicios, su elenco excéntrico y las referencias históricas y simbólicas que atraviesan el caso.",
+        "whyReadToday": "Porque su reflexión sobre el miedo colectivo, los signos que desatan pánico y la facilidad con que una ciudad puede contagiarse de rumores sigue siendo plenamente contemporánea.",
+        "studyNotes": [
+          "La novela combina investigación criminal y atmósfera casi legendaria: la peste funciona como amenaza histórica y como dispositivo psicológico.",
+          "Adamsberg no encarna al detective hiperanalítico clásico; su método intuitivo y paciente define buena parte del encanto de la serie.",
+          "Joss, el pregonero, introduce una dimensión oral y urbana muy particular: la información circula como rumor, anuncio y contagio simbólico.",
+          "Conviene observar cómo Vargas retrasa la explicación racional sin perder nunca el control del suspense."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Las señales en las puertas y el primer desasosiego",
+            "summary": "La novela se pone en marcha con la aparición de un cuatro negro invertido y unas siglas en distintas puertas de París. Adamsberg percibe que el gesto no es una simple gamberrada y empieza a seguir una amenaza todavía imposible de nombrar."
+          },
+          {
+            "title": "Joss, los mensajes nocturnos y el rumor de la peste",
+            "summary": "En paralelo, Joss recibe notas crípticas para ser pregonadas en la calle. La investigación descubre que las pintadas y los mensajes participan de una misma lógica de alarma pública donde el miedo a la peste empieza a invadir la ciudad."
+          },
+          {
+            "title": "La pesquisa de Adamsberg entre historia y crimen",
+            "summary": "A medida que aparecen muertes y se aclaran los vínculos entre víctimas, símbolos y pasado, Adamsberg recompone el sentido del caso. El desenlace revela una operación criminal precisa que había sabido esconderse detrás del contagio del pánico."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El miedo colectivo como motor narrativo",
+            "content": "Vargas entiende que una ciudad puede ser investigada también a través de sus temores. Las pintadas y los pregones importan no solo por lo que significan objetivamente, sino por la reacción que desencadenan en una comunidad predispuesta a creer en el retorno de la peste."
+          },
+          {
+            "heading": "Adamsberg y la lógica de la intuición",
+            "content": "El comisario no resuelve el caso a base de brillantez exhibicionista. Su fuerza está en la paciencia, en la atención a lo marginal y en una forma de pensamiento asociativo que parece dispersa, pero que termina captando lo decisivo antes que los demás."
+          },
+          {
+            "heading": "Policial literario con ecos medievales",
+            "content": "La novela mezcla procedimientos del thriller contemporáneo con imágenes y saberes ligados a la Europa de las epidemias. Esa superposición le da una textura poco común: el crimen actual se lee a la luz de supersticiones antiguas y memorias culturales persistentes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer otras novelas de Adamsberg antes?",
+            "answer": "No. Puede leerse de forma independiente, aunque quienes ya conozcan al comisario reconocerán mejor su método intuitivo y algunos rasgos de su entorno."
+          },
+          {
+            "question": "¿Es una novela de epidemias o una novela policial?",
+            "answer": "Es una novela policial en la que el imaginario de la peste funciona como detonante del miedo y de la intriga. El centro sigue siendo una investigación criminal."
+          },
+          {
+            "question": "¿Qué tiene de particular Fred Vargas dentro del género negro?",
+            "answer": "Su capacidad para combinar enigma, rareza psicológica, humor seco, cultura histórica y una atmósfera muy personal sin sacrificar la tensión narrativa."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutarla más?",
+            "answer": "Quien busque un thriller menos formulaico, con personajes excéntricos, ritmo paciente y una intriga que importa tanto por su resolución como por el clima que crea."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Open Library: Huye rápido, vete lejos (obra)",
+            "url": "https://openlibrary.org/works/OL24653143W/Huye_r%C3%A1pido_vete_lejos"
+          },
+          {
+            "label": "Open Library: edición Punto de Lectura 2008",
+            "url": "https://openlibrary.org/books/OL32716948M/Huye_r%C3%A1pido_vete_lejos"
+          },
+          {
+            "label": "Wikipedia: Have Mercy on Us All",
+            "url": "https://en.wikipedia.org/wiki/Have_Mercy_on_Us_All"
+          },
+          {
+            "label": "Wikipedia: Fred Vargas",
+            "url": "https://en.wikipedia.org/wiki/Fred_Vargas"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ingo-y-drago-de-mira-lobe",
+      "title": "Ingo Y Drago",
+      "authorName": "Mira Lobe",
+      "authorSlug": "mira-lobe",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Ingo y Drago",
+        "authorName": "Mira Lobe",
+        "authorSlug": "mira-lobe",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "infantil",
+          "fantasia"
+        ],
+        "year": 1978,
+        "pages": 120,
+        "summary": "Ingo y Drago cuenta la historia de un niño que encuentra un huevo extraño en el parque y ve nacer de él a un pequeño dragón. Al principio, la criatura parece un secreto maravilloso y hasta una promesa de amistad absoluta: Drago es distinto, tierno y fascinante. Pero el asombro pronto se mezcla con problemas muy concretos. El dragón crece, come demasiado, rompe cosas y vuelve imposible sostenerlo dentro de la vida familiar corriente. La novela acompaña entonces el paso desde el entusiasmo infantil por lo extraordinario hacia una prueba más difícil: cuidar de otro ser, asumir consecuencias y aceptar que querer mucho a alguien no siempre basta para conservarlo cerca. Mira Lobe convierte esa premisa fantástica en un relato cálido sobre responsabilidad, apego y crecimiento.",
+        "aboutThisBook": "Publicada originalmente en alemán y difundida también en edición española, esta novela infantil de Mira Lobe combina humor doméstico, fantasía y sensibilidad emocional. El dragón no funciona sólo como criatura maravillosa: es también una forma de hablar del deseo de tener algo propio, de la dificultad de educar y de la tensión entre imaginación y normas familiares. Su brevedad, su tono ágil y sus ilustraciones en varias ediciones la han vuelto una lectura muy apropiada para primeros lectores autónomos.",
+        "forWhom": "Para niñas y niños que disfrutan historias de animales o seres fantásticos, y para adultos que buscan un libro breve, imaginativo y afectuoso para leer acompañado o recomendar en primeros cursos de primaria.",
+        "whyItMatters": "Importa porque transforma una fantasía clásica —tener un dragón como amigo— en una historia sobre cuidado real, límites y afecto. Sin volverse aleccionadora, la novela muestra que la imaginación infantil convive con decisiones difíciles y que crecer también significa aprender a responsabilizarse de aquello que uno ama.",
+        "editorialIntro": "Mira Lobe entendía muy bien cómo escribir para la infancia sin subestimar a sus lectores. En Ingo y Drago parte de una situación irresistible —un niño encuentra un huevo y nace un dragón— para llevarla hacia una experiencia emocional reconocible: la alegría del hallazgo, el caos de convivir con lo extraordinario y la pena de aceptar que no todo deseo puede quedarse en casa. El resultado es un libro fantástico, sí, pero también muy humano.",
+        "readingLevel": "Lectura accesible para lectores infantiles desde los 7 años, con vocabulario claro, trama lineal y buen apoyo para lectura acompañada.",
+        "whyReadToday": "Porque sigue ofreciendo una combinación muy eficaz de aventura fantástica y educación emocional. En tiempos de relatos veloces y estridentes, este libro recuerda que la maravilla también puede servir para hablar de convivencia, empatía y responsabilidad.",
+        "studyNotes": [
+          "El dragón funciona como fantasía de amistad perfecta, pero también como prueba concreta de responsabilidad infantil.",
+          "La novela avanza desde el asombro hacia el conflicto doméstico; conviene observar cómo cambia el tono sin perder humor.",
+          "Es útil comentar con lectores jóvenes la diferencia entre querer conservar algo y saber cuidarlo bien."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: El hallazgo del huevo",
+            "summary": "Ingo encuentra en el parque un huevo fuera de lugar y de ese descubrimiento nace la posibilidad de una aventura secreta. La aparición del pequeño dragón introduce el asombro y sella una amistad inmediata entre el niño y la criatura."
+          },
+          {
+            "title": "Nudo: Vivir con un dragón en casa",
+            "summary": "Lo que parecía un milagro divertido se vuelve cada vez más difícil de manejar. Drago crece, causa destrozos, exige cuidados constantes y obliga a la familia a enfrentarse con una situación que ya no puede ocultarse ni resolverse con entusiasmo solamente."
+          },
+          {
+            "title": "Desenlace: Afecto, pérdida y aprendizaje",
+            "summary": "Ingo debe comprender que cuidar a Drago implica tomar decisiones dolorosas. El cierre del libro convierte la aventura fantástica en una experiencia de maduración: amar también es aceptar límites y pensar en lo mejor para el otro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La fantasía como extensión de la vida cotidiana",
+            "content": "El libro no separa dos mundos, uno real y otro maravilloso, sino que inserta lo fantástico dentro del espacio doméstico. Esa elección vuelve más cercana la historia y permite que el dragón afecte problemas reconocibles: espacio, comida, obediencia, convivencia y responsabilidad."
+          },
+          {
+            "heading": "Infancia y ética del cuidado",
+            "content": "Mira Lobe no presenta a Ingo como héroe impecable, sino como un niño que desea, se entusiasma y luego debe responder por lo que ama. La novela enseña sin moralizar que la relación con otro ser vivo exige algo más que cariño espontáneo."
+          },
+          {
+            "heading": "Humor, ternura y pérdida controlada",
+            "content": "Buena parte del encanto del libro está en su equilibrio tonal. Los problemas que ocasiona Drago generan comicidad, pero el relato no se queda en el chiste; conduce hacia una despedida o separación asumida con sensibilidad, de modo que el lector infantil puede elaborar emociones complejas en un marco seguro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Ingo y Drago es una novela infantil o un cuento largo?",
+            "answer": "Se lee como una novela infantil breve: tiene una trama continua, pocos personajes centrales y una progresión clara desde el hallazgo del dragón hasta el aprendizaje final."
+          },
+          {
+            "question": "¿Da miedo el dragón?",
+            "answer": "No en sentido terrorífico. Drago provoca caos y complicaciones, pero el libro lo presenta sobre todo como una criatura entrañable, torpe y fascinante."
+          },
+          {
+            "question": "¿Qué temas trabaja mejor el libro?",
+            "answer": "La amistad, la responsabilidad, el cuidado de otro ser, la convivencia familiar y el paso de la fantasía al aprendizaje emocional."
+          },
+          {
+            "question": "¿Es adecuado para lectura escolar?",
+            "answer": "Sí. Funciona muy bien en primaria por su extensión, claridad narrativa y posibilidades de conversación sobre imaginación, normas y empatía."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Verlag Jungbrunnen: ficha de Ingo und Drago",
+            "url": "https://www.jungbrunnen.co.at/buch/ingo-und-drago/"
+          },
+          {
+            "label": "Open Library: obra Ingo und Drago",
+            "url": "https://openlibrary.org/works/OL24291545W"
+          },
+          {
+            "label": "Open Library: edición Ingo y Drago (OL32157688M)",
+            "url": "https://openlibrary.org/books/OL32157688M"
+          },
+          {
+            "label": "Open Library: autora Mira Lobe",
+            "url": "https://openlibrary.org/authors/OL49048A/Mira_Lobe"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "inquisiciones-de-jorge-luis-borges",
+      "title": "Inquisiciones",
+      "authorName": "Jorge Luis Borges",
+      "authorSlug": "jorge-luis-borges",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Inquisiciones",
+        "authorName": "Jorge Luis Borges",
+        "authorSlug": "jorge-luis-borges",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 1925,
+        "pages": 160,
+        "summary": "Inquisiciones es el primer libro en prosa de Jorge Luis Borges y una pieza decisiva para comprender su formación intelectual. Reúne ensayos breves donde el autor todavía joven prueba una voz ya reconocible: erudita sin solemnidad, polémica, digresiva y apasionada por el lenguaje, la tradición literaria, la metáfora y la identidad argentina. Más que ofrecer un sistema cerrado, el libro ensaya aproximaciones a escritores, ideas estéticas y problemas culturales de su tiempo. En sus páginas aparecen ya varias obsesiones borgianas —la lectura como destino, la relación entre periferia y canon, el valor de las genealogías literarias, la tensión entre criollismo y universalismo— aunque todavía en una versión más combativa y menos depurada que la de su madurez. Leerlo hoy permite ver a Borges en laboratorio: inventándose mientras discute con sus precursores y con su propio presente.",
+        "aboutThisBook": "Publicado por Proa en Buenos Aires en una tirada limitada en 1925, Inquisiciones ocupó durante décadas un lugar singular dentro de la obra de Borges, ya que el propio autor evitó su reedición y sólo volvió a circular muchos años después. Esa historia editorial ha reforzado su interés crítico. No es el Borges de los cuentos perfectos, sino el del ensayo joven, más enfático y experimental. Precisamente por eso resulta tan valioso: deja ver el momento en que se están configurando sus temas, su tono intelectual y su relación con la tradición.",
+        "forWhom": "Para lectores de Borges, estudiantes de literatura hispanoamericana, interesados en el ensayo del siglo XX y quienes quieran entender cómo se forma una voz literaria antes de alcanzar su estilo clásico.",
+        "whyItMatters": "Importa porque permite leer el origen de muchas intuiciones centrales de Borges. En este libro aparecen ya su concepción de la lectura, su interés por las tradiciones cruzadas y su voluntad de pensar la literatura argentina desde una perspectiva no provinciana. Es una obra clave para estudiar no sólo al autor, sino también las discusiones estéticas de la vanguardia rioplatense.",
+        "editorialIntro": "Antes de ser el autor canónico de Ficciones o El Aleph, Borges fue un ensayista joven que polemizaba, afirmaba, descartaba y probaba ideas con un fervor casi programático. Inquisiciones conserva esa energía. Es menos perfecto que sus libros posteriores, pero también más visible en sus mecanismos: aquí se ve cómo una inteligencia literaria arma su caja de herramientas, elige sus afinidades y empieza a convertir la lectura en una forma de destino personal.",
+        "readingLevel": "Lectura media-alta: exige familiaridad con referencias literarias, gusto por la digresión ensayística y atención a un estilo denso pero muy vivo.",
+        "whyReadToday": "Porque ayuda a leer a Borges desde su proceso, no sólo desde su consagración. También sigue siendo actual por su manera de discutir tradición, lengua, canon y lugar periférico sin aceptar oposiciones simplistas.",
+        "studyNotes": [
+          "Conviene leer el libro como un conjunto de ensayos de formación, no como una exposición doctrinal cerrada.",
+          "Es útil comparar el tono de estas páginas con el Borges posterior para ver qué rasgos se afinan y cuáles se atenúan.",
+          "La relación entre literatura argentina y tradición universal es uno de los hilos de lectura más productivos del volumen."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Apertura: Un Borges en formación",
+            "summary": "Los primeros ensayos presentan a un autor que discute estética, estilo y genealogías literarias con ímpetu vanguardista. Ya aparece la voluntad de pensar la literatura como tradición activa y no como simple herencia pasiva."
+          },
+          {
+            "title": "Centro del libro: Lengua, metáfora y tradición",
+            "summary": "Borges examina autores, imágenes y formas de escribir para medir qué puede hacer una literatura en español desde el Río de la Plata. La reflexión sobre la metáfora, la lectura y la identidad cultural articula el núcleo intelectual del volumen."
+          },
+          {
+            "title": "Cierre: Ensayo como búsqueda de voz propia",
+            "summary": "Más que resolver sus preguntas, el libro las intensifica. El lector sale con la impresión de haber asistido a una etapa de invención: Borges convierte la crítica, la erudición y la polémica en instrumentos para construirse como escritor."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El laboratorio del primer Borges",
+            "content": "Inquisiciones interesa tanto por lo que dice como por el momento en que lo dice. Aquí Borges todavía no es el miniaturista perfecto de sus cuentos maduros, pero ya explora procedimientos decisivos: condensación conceptual, citas estratégicas, asociaciones inesperadas y una idea de la literatura como red infinita de lecturas."
+          },
+          {
+            "heading": "Vanguardia y tradición sin antagonismo fácil",
+            "content": "Uno de los aportes del libro es mostrar que la modernidad literaria no exige romper del todo con el pasado. Borges discute con tradiciones europeas y locales al mismo tiempo, y desde ahí comienza a formular una posición propia sobre lo argentino, lo criollo y lo universal."
+          },
+          {
+            "heading": "Ensayo breve como forma de intervención",
+            "content": "Los textos del volumen no son tratados sistemáticos, sino piezas de intervención intelectual. Su fuerza radica en el movimiento: proponen, corrigen, exageran y tantean. Esa inestabilidad vuelve el libro especialmente fértil para el estudio, porque permite ver la crítica literaria como acto creativo y no sólo como comentario."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Inquisiciones es un libro de cuentos?",
+            "answer": "No. Es un libro de ensayos breves y textos críticos en prosa, centrados en literatura, estética y cultura."
+          },
+          {
+            "question": "¿Por qué es importante dentro de la obra de Borges?",
+            "answer": "Porque es su primer libro en prosa y deja ver el nacimiento de muchas de sus obsesiones intelectuales antes de la etapa más famosa de sus ficciones."
+          },
+          {
+            "question": "¿Es recomendable para empezar a leer a Borges?",
+            "answer": "Puede resultar más provechoso para lectores ya algo familiarizados con Borges o con el ensayo literario. No es la puerta más sencilla, pero sí una de las más reveladoras para entender su formación."
+          },
+          {
+            "question": "¿Qué temas predominan en el libro?",
+            "answer": "La tradición literaria, el lenguaje, la metáfora, la lectura, la cultura argentina y la construcción de una voz ensayística propia."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Inquisiciones",
+            "url": "https://es.wikipedia.org/wiki/Inquisiciones"
+          },
+          {
+            "label": "Open Library: obra Inquisiciones",
+            "url": "https://openlibrary.org/works/OL110940W"
+          },
+          {
+            "label": "Open Library: edición de 1925 (OL43579392M)",
+            "url": "https://openlibrary.org/books/OL43579392M"
+          },
+          {
+            "label": "Internet Archive: metadata de Inquisiciones",
+            "url": "https://archive.org/metadata/inquisiciones00borg"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "investigacion-sobre-el-entendimiento-humano-de-david-hume",
+      "title": "Investigacion Sobre El Entendimiento Humano",
+      "authorName": "David Hume",
+      "authorSlug": "david-hume",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Investigación sobre el entendimiento humano",
+        "authorName": "David Hume",
+        "authorSlug": "david-hume",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 1748,
+        "pages": null,
+        "summary": "Investigación sobre el entendimiento humano es una de las obras filosóficas más influyentes del empirismo moderno. En ella, David Hume reformula de manera más breve y eficaz varias tesis que ya había desarrollado en el Tratado sobre la naturaleza humana. El libro examina de dónde provienen nuestras ideas, cuáles son los límites del conocimiento y por qué muchas de nuestras creencias más firmes —especialmente las referidas a causalidad, mundo exterior y regularidad natural— no descansan en una demostración racional estricta, sino en la costumbre. Hume no destruye el conocimiento cotidiano, pero sí rebaja sus pretensiones metafísicas: muestra que la mente humana opera asociando impresiones, formando hábitos y esperando que el futuro se parezca al pasado. Esa crítica alcanza también a los milagros y a ciertas nociones de libertad y necesidad, con un estilo más claro y polémico que el de sus libros previos.",
+        "aboutThisBook": "Publicado en 1748, el texto apareció primero en inglés con el título Philosophical Essays Concerning Human Understanding y luego se consolidó como An Enquiry Concerning Human Understanding. Se trata de una obra central para la filosofía moderna porque formula con gran nitidez el problema de la inducción, la crítica empirista a la causalidad entendida como conexión necesaria y una concepción escéptica moderada del conocimiento. Su influencia se extiende desde Kant hasta la epistemología contemporánea, pasando por debates sobre ciencia, religión y libertad.",
+        "forWhom": "Para estudiantes de filosofía, lectores interesados en epistemología, historia de las ideas y debates sobre ciencia, creencia, causalidad y escepticismo moderno.",
+        "whyItMatters": "Importa porque redefine qué puede pretender conocer la razón humana. Hume obliga a distinguir entre certeza lógica, experiencia probable y hábito mental, y con ello cambia la conversación filosófica moderna. Su análisis sigue siendo fundamental para pensar cómo justificamos creencias científicas, inferencias cotidianas y afirmaciones extraordinarias.",
+        "editorialIntro": "Pocos libros filosóficos han sido tan devastadores y tan sobrios a la vez. Hume no necesita construir un sistema monumental: le basta analizar con paciencia cómo pensamos para mostrar que muchas seguridades descansan menos en la razón que en la costumbre. La Investigación sobre el entendimiento humano conserva ese poder de inquietar al lector contemporáneo porque examina preguntas que siguen intactas: qué sabemos, por qué creemos lo que creemos y hasta dónde llega realmente la evidencia.",
+        "readingLevel": "Lectura media-alta: el estilo es más claro que en otros clásicos filosóficos, pero exige atención conceptual y cierta familiaridad con problemas de epistemología.",
+        "whyReadToday": "Porque sigue siendo esencial para entender los límites de la evidencia, el alcance de la ciencia y la fragilidad racional de muchas creencias cotidianas. En una época saturada de afirmaciones rotundas, Hume enseña a medir qué está realmente justificado.",
+        "studyNotes": [
+          "La distinción entre impresiones e ideas ayuda a entender toda la arquitectura del argumento, aunque aquí aparezca de forma más sintética que en el Tratado.",
+          "El punto decisivo sobre la causalidad no es negar que la usemos, sino mostrar que no la justificamos por demostración racional sino por hábito.",
+          "La sección sobre milagros es especialmente útil para analizar el estándar humeano de evidencia frente a testimonios extraordinarios."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: Origen y alcance del conocimiento",
+            "summary": "Hume examina cómo se forman nuestras ideas a partir de la experiencia y establece un marco empirista para pensar los contenidos de la mente. Desde el inicio limita las pretensiones de la metafísica al exigir que todo concepto remita a alguna impresión originaria."
+          },
+          {
+            "title": "Segunda parte: Causalidad, costumbre e inducción",
+            "summary": "El núcleo del libro muestra que la conexión causal no se percibe directamente en las cosas. Lo que llamamos necesidad surge del hábito de ver ciertos hechos unidos repetidamente, de modo que nuestra expectativa sobre el futuro depende de la costumbre y no de una prueba lógica concluyente."
+          },
+          {
+            "title": "Tercera parte: Milagros, libertad y escepticismo moderado",
+            "summary": "En los tramos finales Hume aplica su método a cuestiones religiosas y morales. Analiza por qué los testimonios de milagros exigen una cautela extrema, reconsidera la relación entre libertad y necesidad y propone un escepticismo compatible con la vida común y la investigación empírica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El problema de la inducción",
+            "content": "La obra se volvió clásica porque formula con enorme precisión una dificultad que sigue abierta: no hay demostración estrictamente racional de que el futuro se comportará como el pasado. Sin embargo, toda ciencia empírica y toda vida cotidiana dependen de esa expectativa. Hume convierte esa tensión en un problema filosófico permanente."
+          },
+          {
+            "heading": "Causalidad sin necesidad metafísica visible",
+            "content": "Hume no niega que pensemos causalmente; niega que observemos una conexión necesaria como rasgo empírico de los objetos. Lo que encontramos son sucesiones constantes y una mente habituada a esperar ciertas consecuencias. Esta tesis desmonta muchas ambiciones metafísicas y redefine el sentido del conocimiento empírico."
+          },
+          {
+            "heading": "Escepticismo práctico y claridad filosófica",
+            "content": "Aunque suele leerse como un pensador demoledor, Hume no concluye en la parálisis. Su escepticismo es moderado: reconoce límites racionales, pero acepta que la naturaleza humana seguirá creyendo, actuando e investigando. Por eso el libro es a la vez crítico y sorprendentemente realista sobre cómo viven y piensan los seres humanos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es el mismo libro que el Tratado sobre la naturaleza humana?",
+            "answer": "No exactamente. La Investigación reelabora y simplifica varias tesis del Tratado, con una exposición más breve, clara y orientada a un público más amplio."
+          },
+          {
+            "question": "¿Cuál es la idea más famosa del libro?",
+            "answer": "La crítica de la causalidad y de la inducción: creemos que ciertos hechos producen otros, pero esa creencia se apoya en la costumbre, no en una demostración racional estricta."
+          },
+          {
+            "question": "¿Ataca la ciencia?",
+            "answer": "No. Más bien examina cuál es su fundamento real. Hume muestra que la ciencia trabaja con inferencias probables y hábitos confirmados por la experiencia, no con certezas absolutas comparables a las matemáticas."
+          },
+          {
+            "question": "¿Sigue siendo un libro actual?",
+            "answer": "Sí. Sigue siendo central en epistemología, filosofía de la ciencia y debates sobre evidencia, creencia, religión y justificación racional."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Investigación sobre el entendimiento humano",
+            "url": "https://es.wikipedia.org/wiki/Investigaci%C3%B3n_sobre_el_entendimiento_humano"
+          },
+          {
+            "label": "Stanford Encyclopedia of Philosophy: David Hume",
+            "url": "https://plato.stanford.edu/entries/hume/"
+          },
+          {
+            "label": "Open Library: An enquiry concerning human understanding",
+            "url": "https://openlibrary.org/works/OL20549266W"
+          },
+          {
+            "label": "Project Gutenberg: An Enquiry Concerning Human Understanding",
+            "url": "https://www.gutenberg.org/ebooks/9662"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T03:14:56Z"
+}

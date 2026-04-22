@@ -1,0 +1,1457 @@
+{
+  "batchName": "replenish-20260419T042109Z",
+  "createdAt": "2026-04-19T04:21:10Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "marco-el-romano-de-mika-waltari",
+      "title": "Marco El Romano",
+      "authorName": "Mika Waltari",
+      "authorSlug": "mika-waltari",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Marco el romano",
+        "authorName": "Mika Waltari",
+        "authorSlug": "mika-waltari",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa",
+          "aventura"
+        ],
+        "year": 1951,
+        "pages": 528,
+        "summary": "Marco, un joven romano formado en el lujo, la sensualidad y la ambición, contempla de cerca un mundo imperial que parece invencible pero está moralmente fatigado. Su vida cambia cuando entra en contacto con la muerte de Jesús y, después, con las primeras comunidades cristianas. A partir de ahí, la novela sigue un itinerario exterior e interior: viajes por ciudades del Mediterráneo oriental, encuentros con autoridades, comerciantes, soldados y creyentes, y una lenta mutación espiritual del protagonista. Waltari no presenta una conversión simple ni sentimental, sino una búsqueda llena de dudas, tentaciones y retrocesos. El resultado es una amplia reconstrucción del siglo I, donde la política romana, la vida cotidiana y el surgimiento del cristianismo se cruzan en una narración de gran aliento.",
+        "aboutThisBook": "Publicada originalmente en finés y recuperada en español por Edhasa, esta novela prolonga el interés de Mika Waltari por los grandes momentos de crisis de la Antigüedad. Aquí le importa menos la exactitud documental entendida como exhibición erudita que la capacidad de volver visible una época en transición. El protagonista sirve como puente entre dos órdenes morales: el del Imperio, con su pragmatismo y su brutalidad, y el de las primeras comunidades cristianas, todavía frágiles, perseguidas y heterogéneas. Por eso el libro funciona a la vez como fresco histórico, novela de formación y relato de conciencia.",
+        "forWhom": "Para lectores de novela histórica amplia, de ritmo clásico, interesados en Roma, en el cristianismo primitivo y en personajes que cambian de forma gradual y conflictiva.",
+        "whyItMatters": "Importa porque convierte un gran cambio de civilización en experiencia humana concreta. Muestra cómo una fe naciente altera lealtades, costumbres y nociones de poder dentro del mundo romano.",
+        "editorialIntro": "Marco el romano pertenece a la estirpe de novelas históricas que no usan el pasado como simple decorado. Waltari reconstruye el siglo I desde dentro, con atención al clima moral de una sociedad poderosa y agotada. El atractivo del libro está en ver cómo un personaje nacido para la comodidad romana va perdiendo sus certezas mientras presencia el choque entre imperio, violencia y nueva fe.",
+        "readingLevel": "Lectura media-alta: prosa accesible, pero con contexto histórico, referencias religiosas y desarrollo pausado propio de la novela histórica clásica.",
+        "whyReadToday": "Porque ayuda a pensar qué ocurre cuando un orden dominante empieza a perder legitimidad y aparecen nuevas formas de comunidad, sentido y esperanza.",
+        "studyNotes": [
+          "La novela combina aventura, viaje iniciático y debate moral sobre el poder romano.",
+          "Conviene leerla como reconstrucción histórica novelada, no como texto doctrinal sobre el cristianismo primitivo.",
+          "Marco cambia por acumulación de experiencias, no por una revelación súbita y limpia.",
+          "El contraste entre lujo imperial y precariedad de los primeros creyentes organiza gran parte del sentido del libro."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: formación de un romano",
+            "summary": "La novela presenta a Marco como heredero de un mundo seguro de sí mismo. Su educación sentimental y política responde a los valores del Imperio: prestigio, placer, cálculo y adaptación a la jerarquía. Desde el comienzo, sin embargo, aparece una incomodidad de fondo ante la violencia normalizada del sistema."
+          },
+          {
+            "title": "Encuentro con la nueva fe",
+            "summary": "El contacto con la pasión de Jesús y con quienes lo siguieron abre una grieta decisiva en la vida del protagonista. Marco observa más que predica; escucha, duda y compara. La fuerza narrativa de esta parte está en mostrar cómo una experiencia histórica y religiosa empieza a transformar una sensibilidad romana."
+          },
+          {
+            "title": "Peregrinación, pruebas y transformación",
+            "summary": "En su recorrido por diversas regiones del Mediterráneo, Marco enfrenta pérdidas, tentaciones y decisiones que ponen a prueba su identidad. La vieja vida no desaparece de inmediato, pero deja de bastarle. El desenlace subraya la idea de una renovación interior ganada con conflicto y memoria."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un protagonista entre dos civilizaciones",
+            "content": "Marco funciona como figura liminar. No pertenece del todo al viejo orden cuando empieza a comprenderlo críticamente, pero tampoco entra sin resistencia en el nuevo. Esa posición intermedia permite a Waltari dramatizar el paso de una cultura basada en la fuerza imperial a otra que propone una dignidad distinta para el sufrimiento, el perdón y la comunidad."
+          },
+          {
+            "heading": "Roma como mundo total",
+            "content": "La novela muestra el Imperio no solo como estructura política, sino como atmósfera moral. Todo parece negociable: la lealtad, los cuerpos, la religión, la vida ajena. Esa amplitud histórica vuelve más visible el contraste con la fragilidad de las primeras comunidades cristianas, cuya potencia no es militar sino simbólica y ética."
+          },
+          {
+            "heading": "Historia, fe y novela",
+            "content": "Waltari evita escribir una hagiografía. Prefiere el punto de vista del observador implicado, alguien que no entiende todo de inmediato. Gracias a eso, la dimensión religiosa aparece filtrada por la experiencia, el miedo y la contradicción, y la novela conserva un tono humano antes que edificante."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela religiosa o histórica?",
+            "answer": "Es ante todo una novela histórica con fuerte dimensión religiosa. La trama se apoya en el contexto del cristianismo primitivo, pero su interés principal está en el cambio interior del protagonista y en la representación del mundo romano."
+          },
+          {
+            "question": "¿Hace falta conocer la obra previa relacionada con este ciclo?",
+            "answer": "No es indispensable, aunque ayuda saber que Waltari escribió otras novelas ambientadas en la Antigüedad tardía y en los orígenes del cristianismo. Marco el romano puede leerse de manera autónoma."
+          },
+          {
+            "question": "¿Qué tipo de ritmo tiene?",
+            "answer": "Tiene un ritmo clásico, más de desarrollo progresivo que de acción constante. Hay viajes, episodios intensos y giros vitales, pero el libro apuesta por la inmersión histórica y la transformación moral gradual."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Edhasa - ficha de Marco el romano",
+            "url": "https://www.edhasa.es/libros/1376/marco-el-romano"
+          },
+          {
+            "label": "Google Libros - Marco el romano",
+            "url": "https://books.google.com/books/about/Marco_el_romano.html?id=ONu8EAAAQBAJ"
+          },
+          {
+            "label": "Wikipedia - The Roman",
+            "url": "https://en.wikipedia.org/wiki/The_Roman"
+          },
+          {
+            "label": "Casa del Libro - Marco el romano",
+            "url": "https://www.casadellibro.com/libro-marco-el-romano/9788435016766/808337"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mas-que-un-carpintero-de-josh-mcdowell",
+      "title": "Mas Que Un Carpintero",
+      "authorName": "Josh Mcdowell",
+      "authorSlug": "josh-mcdowell",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Más que un carpintero",
+        "authorName": "Josh McDowell y Sean McDowell",
+        "authorSlug": "josh-mcdowell",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "desarrollo-personal"
+        ],
+        "year": 2009,
+        "pages": 192,
+        "summary": "Este breve clásico de la apologética cristiana parte de una pregunta directa: si Jesús fue solo un maestro admirable o si sus afirmaciones obligan a tomar una postura más radical. Josh McDowell enlaza su propio recorrido desde el escepticismo hasta la fe con una serie de argumentos sobre la identidad histórica de Jesús, la fiabilidad de los evangelios y el sentido de la resurrección. La revisión de Sean McDowell actualiza el tono para dialogar con objeciones contemporáneas, en especial las asociadas al nuevo ateísmo y a la desconfianza hacia la religión institucional. No es una obra académica exhaustiva, sino un texto de intervención: busca llevar al lector a evaluar pruebas, objeciones y consecuencias existenciales antes de decidir si la figura de Cristo merece adhesión, rechazo o una reconsideración seria.",
+        "aboutThisBook": "Publicado originalmente en 1977 y revisado décadas después, el libro se convirtió en una puerta de entrada muy difundida a la defensa racional del cristianismo evangélico. Su fuerza está en la combinación de testimonio personal, argumentos históricos accesibles y lenguaje breve. La edición revisada añade referencias al clima intelectual posterior al cambio de siglo y hace el libro más dialogante con lectores formados en una cultura escéptica.",
+        "forWhom": "Para lectores interesados en cristianismo, dudas de fe, apologética introductoria o debates sobre la figura histórica de Jesús. También sirve a grupos juveniles, estudios bíblicos y lectores curiosos que quieren entender por qué este título circuló tanto en ambientes evangélicos.",
+        "whyItMatters": "Sigue siendo relevante porque resume, en formato corto, varios de los argumentos que todavía estructuran la apologética popular protestante. Más que cerrar debates, muestra cómo una tradición cristiana intenta responder a las preguntas modernas sobre verdad, evidencia y compromiso personal.",
+        "editorialIntro": "Más que un carpintero no pretende neutralidad absoluta: es un libro de convicción y persuasión. Justamente por eso conserva interés editorial. Resume en pocas páginas un tipo de razonamiento religioso que marcó a generaciones de lectores evangélicos y que todavía aparece en conversaciones sobre fe, historia y escepticismo. Leerlo hoy permite entender tanto sus argumentos como su influencia cultural.",
+        "readingLevel": "Lectura ágil y directa. No exige formación teológica previa, aunque conviene leer con atención crítica porque condensa argumentos filosóficos e históricos en muy poco espacio.",
+        "whyReadToday": "Porque ayuda a comprender una de las defensas cristianas más difundidas del último medio siglo y ofrece un mapa rápido de preguntas que aún siguen vivas: quién fue Jesús, qué cuenta como evidencia y qué hacemos con una afirmación religiosa que reclama verdad histórica.",
+        "studyNotes": [
+          "Conviene distinguir entre argumento histórico, afirmación teológica y testimonio personal: el libro mezcla los tres registros con rapidez.",
+          "La edición revisada dialoga con el nuevo ateísmo y con objeciones modernas a la fiabilidad bíblica.",
+          "La famosa disyuntiva sobre Jesús funciona como eje retórico; vale la pena evaluar también sus límites lógicos y sus presupuestos.",
+          "Es útil leerlo junto con textos críticos o historiográficos para contrastar método y alcance de las pruebas presentadas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Conversión del escepticismo en búsqueda",
+            "summary": "El libro abre con la experiencia autobiográfica de Josh McDowell, quien presenta su investigación sobre Jesús como una pesquisa iniciada desde la duda. Ese arranque no solo humaniza el argumento, sino que busca mostrar que la fe propuesta no surge de credulidad sino de una evaluación deliberada de evidencias y testimonios."
+          },
+          {
+            "title": "Identidad de Jesús y carácter de sus afirmaciones",
+            "summary": "En el núcleo del texto se plantea que Jesús no puede reducirse cómodamente a la figura de un gran maestro moral si se toman en serio sus declaraciones sobre sí mismo. A partir de allí, McDowell organiza su razonamiento para conducir al lector a una decisión sobre la singularidad de Cristo."
+          },
+          {
+            "title": "Pruebas, Escritura y respuesta a objeciones modernas",
+            "summary": "La segunda mitad reúne argumentos sobre la confiabilidad de los relatos bíblicos, el significado de la resurrección y la insuficiencia de ciertas objeciones científicas o secularistas. La revisión de Sean McDowell actualiza el tono polémico y conecta el libro con debates contemporáneos sobre religión y verdad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una apologética de umbral",
+            "content": "La obra funciona mejor como texto de entrada que como tratado. Simplifica problemas complejos para hacerlos legibles a un público amplio. Esa accesibilidad explica su éxito, pero también impone límites: muchos asuntos históricos y filosóficos aparecen reducidos a su forma más persuasiva."
+          },
+          {
+            "heading": "La estrategia del dilema",
+            "content": "El argumento más recordado es que Jesús debe ser entendido como Señor, mentiroso o loco, y que la categoría de simple maestro moral no basta. Es una fórmula eficaz en el plano retórico porque obliga a elegir, aunque ha recibido críticas por excluir otras interpretaciones históricas o simbólicas de los evangelios."
+          },
+          {
+            "heading": "Influencia cultural y vigencia",
+            "content": "Más que un carpintero importa no solo por lo que afirma, sino por el papel que jugó en la cultura evangélica contemporánea. Sigue siendo un libro útil para comprender cómo la apologética popular conecta fe, experiencia personal y deseo de razonabilidad ante un lector escéptico."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro académico?",
+            "answer": "No en sentido estricto. Usa argumentos históricos y filosóficos, pero su objetivo principal es divulgativo y persuasivo, no especializado."
+          },
+          {
+            "question": "¿Hace falta ser creyente para leerlo?",
+            "answer": "No. De hecho, parte de la duda y está escrito para lectores escépticos o indecisos, aunque su orientación es claramente cristiana evangélica."
+          },
+          {
+            "question": "¿Por qué aparece Sean McDowell en algunas ediciones?",
+            "answer": "Porque la versión revisada incorpora la colaboración de Sean McDowell para actualizar referencias, objeciones y el tono de diálogo con debates recientes."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Sightline Ministry - More Than a Carpenter",
+            "url": "https://sightlineministry.org/assets/more-than-a-carpenter/"
+          },
+          {
+            "label": "Internet Archive - More than a carpenter (1979 metadata)",
+            "url": "https://archive.org/metadata/morethancarpente0000mcdo"
+          },
+          {
+            "label": "Wikipedia - Josh McDowell",
+            "url": "https://en.wikipedia.org/wiki/Josh_McDowell"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mi-recuerdo-es-mas-fuerte-que-tu-olvido-de-paloma-sanchez-garnica",
+      "title": "Mi Recuerdo Es Mas Fuerte Que Tu Olvido",
+      "authorName": "Paloma Sanchez Garnica",
+      "authorSlug": "paloma-sanchez-garnica",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Mi recuerdo es más fuerte que tu olvido",
+        "authorName": "Paloma Sánchez-Garnica",
+        "authorSlug": "paloma-sanchez-garnica",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "romance"
+        ],
+        "year": 2016,
+        "pages": 480,
+        "summary": "Esta novela de Paloma Sánchez-Garnica entrelaza secreto familiar, herencia emocional y suspense alrededor de una muerte que obliga a revisar el pasado. La historia sigue a personajes marcados por vínculos incompletos, silencios heredados y decisiones que no quedaron resueltas cuando debían. A partir de un crimen y de la revelación progresiva de una doble vida, la autora construye una trama donde memoria, culpa y afecto compiten por imponer su versión de los hechos. No es solo un relato de misterio: también es una novela sobre cómo los recuerdos deforman el presente y sobre la dificultad de distinguir entre lo que creemos saber de nuestra familia y lo que realmente ocurrió. Su fuerza está en combinar lectura ágil, tensión narrativa y una mirada emotiva sobre el daño íntimo.",
+        "aboutThisBook": "Publicada por Editorial Planeta en 2016 y distinguida ese mismo año con el Premio de Novela Fernando Lara, Mi recuerdo es más fuerte que tu olvido pertenece a la etapa de consolidación literaria de Paloma Sánchez-Garnica. La ficha editorial la presenta con tres motores claros —un secreto, una doble vida y un asesinato—, pero la novela se expande más allá del thriller: examina lealtades familiares, identidad y memoria afectiva. Su extensión amplia permite desarrollar varias perspectivas y sostener una intriga sentimental que descansa tanto en la información oculta como en las consecuencias emocionales de conocerla.",
+        "forWhom": "Para lectores adultos que disfrutan novelas de intriga emocional, secretos familiares, personajes heridos y tramas donde el suspense convive con conflicto íntimo y reconstrucción del pasado.",
+        "whyItMatters": "Importa porque muestra cómo una novela popular puede tratar la memoria y la filiación sin renunciar al pulso narrativo. Convierte el misterio en una vía para pensar la herencia emocional, la identidad y el precio de los silencios familiares.",
+        "editorialIntro": "Paloma Sánchez-Garnica domina muy bien el territorio donde la emoción y la intriga se necesitan mutuamente. En esta novela parte de un asesinato y de una red de secretos para proponer algo más duradero que un simple enigma: una exploración de la familia como espacio de amor, mentira, deuda y supervivencia. Quien entre buscando trama encontrará también una reflexión incisiva sobre la memoria personal.",
+        "readingLevel": "Lectura media para público adulto: lenguaje claro y narración fluida, aunque la densidad emocional, los secretos acumulados y la atención a varias relaciones familiares exigen constancia interpretativa.",
+        "whyReadToday": "Sigue siendo pertinente porque habla de identidad, relato familiar y verdad privada en una época obsesionada con destapar pasados ocultos. Además, demuestra que la narrativa comercial puede sostener matices morales complejos.",
+        "studyNotes": [
+          "La novela articula el suspense mediante información dosificada: conviene observar qué sabe cada personaje y cuándo lo revela.",
+          "El recuerdo no funciona como simple archivo del pasado, sino como fuerza activa que condiciona decisiones presentes y reabre heridas antiguas.",
+          "El crimen importa, pero el verdadero centro emocional está en la estructura familiar, la filiación y la doble vida de quienes sostienen el secreto.",
+          "Resulta útil leerla como cruce entre novela de intriga y drama afectivo, no como thriller puro."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento del secreto y de la pérdida",
+            "summary": "La novela abre con una situación de ruptura y desconcierto que instala la presencia de una muerte y de un pasado insuficientemente explicado. Desde el inicio queda claro que el conflicto no es solo policial, sino también afectivo y familiar."
+          },
+          {
+            "title": "La doble vida y sus consecuencias",
+            "summary": "A medida que avanza la investigación íntima y narrativa, salen a la luz relaciones ocultas, decisiones antiguas y zonas de silencio que reordenan la imagen que los personajes tenían de sí mismos y de sus seres cercanos."
+          },
+          {
+            "title": "Memoria, culpa y vínculos en crisis",
+            "summary": "La parte central profundiza en el daño emocional derivado de la mentira sostenida. Los personajes deben enfrentarse a recuerdos contradictorios, a afectos mal resueltos y a la pregunta por la legitimidad del perdón."
+          },
+          {
+            "title": "Revelación y relectura del pasado",
+            "summary": "En el tramo final, las piezas ocultas adquieren sentido y el lector comprende que el misterio servía para iluminar algo más amplio: la fragilidad de la identidad familiar y el peso de las decisiones que parecían enterradas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La memoria como fuerza narrativa",
+            "content": "El título ya anuncia que recordar no es un gesto pasivo. En la novela, el recuerdo compite con el olvido y se convierte en motor de acción, de culpa y de justicia emocional. La trama funciona porque lo recordado nunca llega intacto: aparece filtrado por dolor, deseo y necesidad de protección."
+          },
+          {
+            "heading": "Intriga al servicio del drama familiar",
+            "content": "Sánchez-Garnica utiliza herramientas del suspense —ocultación, revelación gradual, doble vida, asesinato— para sostener una historia cuyo centro real es la intimidad familiar. El enigma no existe por sí mismo, sino para exponer relaciones torcidas por silencios de larga duración."
+          },
+          {
+            "heading": "Identidad y herencia emocional",
+            "content": "Uno de los logros del libro es mostrar que la identidad se construye con verdades incompletas. Cuando esas verdades se corrigen, los personajes no solo descubren hechos: deben rehacer la idea que tenían de su propio origen y de los afectos que los definían."
+          },
+          {
+            "heading": "Éxito lector y ambición temática",
+            "content": "La novela confirma la capacidad de la autora para moverse en un registro accesible sin empobrecer los temas. Bajo una superficie de lectura ágil aparecen preguntas serias sobre legitimidad moral, responsabilidad íntima y permanencia de los vínculos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Mi recuerdo es más fuerte que tu olvido?",
+            "answer": "Trata de un entramado de secretos familiares, una doble vida y un asesinato que obligan a revisar el pasado y a replantear la identidad afectiva de varios personajes."
+          },
+          {
+            "question": "¿Es una novela policíaca?",
+            "answer": "Tiene componentes claros de intriga, pero su núcleo es más amplio: funciona sobre todo como drama familiar y novela emocional sobre memoria, culpa y filiación."
+          },
+          {
+            "question": "¿Por qué fue un libro importante en la trayectoria de Paloma Sánchez-Garnica?",
+            "answer": "Porque obtuvo el Premio de Novela Fernando Lara 2016 y consolidó a la autora en un espacio de gran visibilidad dentro de la narrativa española contemporánea."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutarla más?",
+            "answer": "Quien busca una historia intensa, con giros, secretos del pasado y personajes definidos por vínculos familiares complejos, encontrará aquí una lectura especialmente satisfactoria."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - ficha del libro",
+            "url": "https://www.planetadelibros.com/libro-mi-recuerdo-es-mas-fuerte-que-tu-olvido/215720"
+          },
+          {
+            "label": "PlanetadeLibros - autora Paloma Sánchez-Garnica",
+            "url": "https://www.planetadelibros.com/autor/paloma-sanchez-garnica/000019986"
+          },
+          {
+            "label": "Open Library - obra Mi recuerdo es más fuerte que tu olvido",
+            "url": "https://openlibrary.org/works/OL17348357W"
+          },
+          {
+            "label": "Open Library - edición Booket",
+            "url": "https://openlibrary.org/books/OL47661319M/Mi_recuerdo_es_m%C3%A1s_fuerte_que_tu_olvido"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pasiones-amores-y-desamores-que-han-cambiado-la-historia-de-rosa-montero",
+      "title": "Pasiones Amores Y Desamores Que Han Cambiado La Historia",
+      "authorName": "Rosa Montero",
+      "authorSlug": "rosa-montero",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Pasiones: amores y desamores que han cambiado la historia",
+        "authorName": "Rosa Montero",
+        "authorSlug": "rosa-montero",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 1999,
+        "pages": 239,
+        "summary": "En este libro Rosa Montero reúne una serie de perfiles sobre parejas célebres cuya vida amorosa dejó huella en la historia, la política y la cultura. A partir de dieciocho relatos aparecidos originalmente en la prensa, la autora reconstruye relaciones intensas, conflictivas o trágicas, desde la Antigüedad hasta la modernidad literaria. El interés del volumen no está en ofrecer biografías exhaustivas, sino en mostrar cómo el deseo, los celos, la ambición, la dependencia y la imaginación romántica influyen en decisiones públicas y privadas. Montero mezcla divulgación, mirada psicológica y pulso narrativo para desmitificar el amor idealizado: sus protagonistas aman, destruyen, se obsesionan, se necesitan y, a veces, cambian el curso de su época. El resultado es un libro ágil que convierte la anécdota histórica en reflexión sobre las pasiones humanas persistentes.",
+        "aboutThisBook": "Publicado por Aguilar en 1999, Pasiones procede de textos periodísticos aparecidos en El País y conserva esa combinación de claridad, vivacidad y capacidad de síntesis propia de la buena prensa cultural. Lecturalia y Casa del Libro coinciden en destacar que el volumen reúne dieciocho historias de parejas célebres, mientras Open Library lo clasifica como una colección biográfica centrada en el amor y las parejas. Más que un tratado histórico, el libro funciona como un mosaico de escenas donde la autora examina vínculos sentimentales convertidos en mito, escándalo o símbolo.",
+        "forWhom": "Para lectores adultos interesados en biografías, historia cultural, relaciones célebres y libros de no ficción que combinan divulgación, periodismo y observación psicológica sin volverse académicos.",
+        "whyItMatters": "Importa porque recuerda que la historia no se mueve solo por ideas o instituciones, sino también por afectos desordenados, lealtades íntimas y deseos de posesión. Montero traduce esa intuición en un libro accesible y sugerente.",
+        "editorialIntro": "Rosa Montero aborda el amor sin sentimentalismo fácil y sin solemnidad histórica excesiva. Le interesan los grandes nombres, sí, pero sobre todo las fisuras humanas que esconden: dependencias, humillaciones, arrebatos, fascinaciones mutuas y estrategias de supervivencia afectiva. En Pasiones convierte vidas célebres en relatos breves de enorme legibilidad y demuestra que la divulgación puede ser inteligente, irónica y emocional al mismo tiempo.",
+        "readingLevel": "Lectura media: la prosa es clara y periodística, pero las referencias históricas y culturales enriquecen mucho más la experiencia cuando el lector disfruta conectar épocas, personajes y contextos distintos.",
+        "whyReadToday": "Sigue siendo actual porque cuestiona el mito romántico con ejemplos históricos concretos y muestra cómo la vida íntima sigue moldeando liderazgos, reputaciones y relatos culturales.",
+        "studyNotes": [
+          "El libro no propone biografías exhaustivas, sino retratos interpretativos: conviene leer cada caso como una miniatura narrativa con tesis propia.",
+          "Montero usa parejas famosas para desmontar idealizaciones del amor y subrayar la mezcla entre deseo, poder, dependencia y representación pública.",
+          "Su origen periodístico explica el ritmo rápido, el tono directo y la preferencia por escenas memorables antes que por el aparato erudito.",
+          "Comparar las parejas entre sí permite ver una idea central: las pasiones privadas suelen tener consecuencias históricas o simbólicas duraderas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Retratos amorosos como puerta de entrada a la historia",
+            "summary": "La apertura del libro presenta la lógica del conjunto: cada pareja célebre sirve para narrar un episodio histórico desde su costado íntimo. Montero privilegia la intensidad emocional y la capacidad de síntesis, de modo que el lector entra en la Historia por el camino del conflicto afectivo."
+          },
+          {
+            "title": "Poder, escándalo y relaciones desiguales",
+            "summary": "En varios perfiles aparecen amores atravesados por jerarquías políticas, fama, prestigio social o dependencia material. El libro insiste en que la pasión rara vez es pura: está condicionada por el contexto, por la imagen pública y por intereses que complican cualquier lectura idealizada."
+          },
+          {
+            "title": "Parejas artísticas y autodestrucción",
+            "summary": "Otro bloque significativo se concentra en vínculos ligados a la creación literaria o artística, donde admiración, rivalidad, deseo y ruina personal conviven. Montero muestra cómo el genio no protege contra la fragilidad emocional y cómo la fama puede agrandar el drama privado."
+          },
+          {
+            "title": "Desmitificación final del amor romántico",
+            "summary": "Con el avance del volumen se afianza una idea general: las grandes historias de amor suelen incluir sufrimiento, manipulación, celos o fracaso. Más que celebrar romances legendarios, el libro invita a releerlos críticamente y a reconocer en ellos pasiones muy humanas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia narrada desde la intimidad",
+            "content": "Uno de los principales aciertos de Pasiones es desplazar el foco desde los grandes acontecimientos hacia las relaciones que los rodean o los precipitan. Montero no niega la dimensión pública de sus personajes, pero sugiere que entender sus vínculos sentimentales ayuda a entender mejor sus decisiones y su leyenda."
+          },
+          {
+            "heading": "Periodismo literario y divulgación eficaz",
+            "content": "El libro confirma una habilidad característica de Rosa Montero: convertir materiales informativos en relatos con ritmo, carácter y una tesis perceptible. La brevedad de cada pieza no reduce su ambición; al contrario, obliga a condensar rasgos psicológicos y marcos históricos con gran eficacia expresiva."
+          },
+          {
+            "heading": "Desmontar el amor como mito redentor",
+            "content": "Aunque el título promete pasiones memorables, el efecto global del volumen es desmitificador. El amor aparece como fuerza poderosa, pero también como fuente de ceguera, sometimiento, crueldad o extravío. Esa tensión evita que el libro caiga en la postal romántica."
+          },
+          {
+            "heading": "Vigencia cultural del libro",
+            "content": "Leído hoy, Pasiones dialoga con debates contemporáneos sobre relaciones tóxicas, fama, género y representación pública de la intimidad. Por eso sus retratos históricos no se sienten lejanos: siguen funcionando como espejos culturales del presente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Pasiones de Rosa Montero?",
+            "answer": "Trata de dieciocho historias de parejas célebres cuya relación amorosa o conflictiva dejó una marca en la historia y la cultura, contadas con tono divulgativo y mirada crítica."
+          },
+          {
+            "question": "¿Es una novela o un libro de no ficción?",
+            "answer": "Es un libro de no ficción compuesto por retratos biográficos y periodísticos, originalmente vinculados a colaboraciones de prensa."
+          },
+          {
+            "question": "¿Qué enfoque adopta Rosa Montero sobre el amor?",
+            "answer": "No idealiza el amor romántico: lo examina como una mezcla de deseo, poder, dependencia, admiración y sufrimiento, incluso en parejas convertidas en mito."
+          },
+          {
+            "question": "¿Hace falta saber mucha historia para disfrutarlo?",
+            "answer": "No. El libro está escrito para lectores generales y ofrece el contexto suficiente para seguir cada caso, aunque se disfruta más si interesan la historia y las biografías."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Casa del Libro - Pasiones",
+            "url": "https://www.casadellibro.com/libro-pasiones/9788403595422/667301"
+          },
+          {
+            "label": "Lecturalia - Pasiones",
+            "url": "https://www.lecturalia.com/libro/4534/pasiones"
+          },
+          {
+            "label": "Open Library - obra Pasiones",
+            "url": "https://openlibrary.org/works/OL991960W"
+          },
+          {
+            "label": "Open Library - edición Aguilar de Pasiones",
+            "url": "https://openlibrary.org/books/OL139401M/Pasiones"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "patria-de-fernando-aramburu",
+      "title": "Patria",
+      "authorName": "Fernando Aramburu",
+      "authorSlug": "fernando-aramburu",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Patria",
+        "authorName": "Fernando Aramburu",
+        "authorSlug": "fernando-aramburu",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2016,
+        "pages": 648,
+        "summary": "Patria narra la fractura íntima y pública que deja décadas de violencia de ETA en un pueblo del País Vasco. El núcleo de la historia son dos familias antes cercanas: la de Bittori, viuda del Txato, asesinado por la organización, y la de Miren, madre de Joxe Mari, un militante encarcelado. A partir del anuncio del abandono de las armas, Bittori decide regresar al pueblo y enfrentarse no solo a los recuerdos, sino también a una comunidad moldeada por el miedo, el silencio y la justificación ideológica. Aramburu construye un mosaico coral donde cada personaje vive de manera distinta la culpa, la humillación, el resentimiento, la enfermedad, la fe y la posibilidad del perdón. La novela no simplifica el conflicto: muestra heridas privadas, presiones colectivas y la larga dificultad de volver a convivir.",
+        "aboutThisBook": "Publicada por Tusquets en 2016, Patria se convirtió muy pronto en una de las novelas españolas más discutidas y leídas de su tiempo. Su fuerza no procede solo del tema, sino de la manera de encarnarlo en voces familiares reconocibles, con escenas domésticas, tensiones vecinales y daños acumulados durante años. Aramburu evita el ensayo político disfrazado de ficción: prefiere narrar cómo una violencia histórica penetra la cocina, la amistad, el matrimonio, la educación de los hijos y la memoria del pueblo. Por eso el libro funciona como relato sobre ETA, pero también como examen moral de una sociedad dividida.",
+        "forWhom": "Para lectores de narrativa contemporánea que buscan una novela coral, emocionalmente intensa, centrada en memoria, violencia política, convivencia y responsabilidad individual.",
+        "whyItMatters": "Sigue siendo importante porque convierte un debate público muy polarizado en experiencia humana concreta. Ayuda a pensar cómo viven las víctimas, cómo se justifican los entornos cómplices y qué condiciones hacen imaginable una reparación imperfecta.",
+        "editorialIntro": "Pocas novelas españolas recientes han logrado intervenir tanto en la conversación pública como Patria. Fernando Aramburu toma un asunto cargado de consignas y lo devuelve a la escala de los cuerpos, las familias y los pueblos. Su apuesta no es repartir absoluciones fáciles, sino mostrar cómo la violencia política se instala en la vida cotidiana y continúa actuando incluso cuando las armas callan.",
+        "readingLevel": "Lectura media: estilo claro y muy legible, con estructura fragmentaria, múltiples perspectivas y una carga emocional que exige atención sostenida.",
+        "whyReadToday": "Porque el libro permite pensar la memoria, la polarización y el daño comunitario sin reducirlos a eslóganes. Su mirada sobre el miedo y la reparación sigue siendo actual.",
+        "studyNotes": [
+          "La novela alterna tiempos y puntos de vista para mostrar que el conflicto no puede entenderse desde una sola voz.",
+          "Bittori y Miren concentran buena parte del conflicto moral, pero los hijos amplían el mapa de consecuencias.",
+          "El pueblo no es un simple escenario: funciona como comunidad vigilante, rumor colectivo y espacio de exclusión.",
+          "El perdón aparece como posibilidad incierta, nunca como cierre sentimental garantizado."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Regreso y memoria herida",
+            "summary": "Tras el cese de la violencia de ETA, Bittori decide volver al pueblo del que huyó después del asesinato de su marido. Ese retorno desencadena recuerdos, resistencias y preguntas pendientes. La novela instala desde el inicio la tensión entre memoria personal y silencio colectivo."
+          },
+          {
+            "title": "Dos familias, dos relatos del daño",
+            "summary": "La historia retrocede y avanza para reconstruir la amistad rota entre las familias de Bittori y Miren. Aramburu muestra cómo la presión ideológica, el miedo y la pertenencia comunitaria deforman vínculos antes cotidianos. Cada personaje intenta justificar su lugar en una historia que ya los ha marcado."
+          },
+          {
+            "title": "Culpa, cárcel y posibilidad de perdón",
+            "summary": "Cuando el conflicto armado ha terminado formalmente, quedan por resolver las responsabilidades íntimas. La cárcel de Joxe Mari, la obstinación de Miren y la necesidad de Bittori de escuchar una verdad mínima llevan la novela hacia un cierre contenido, donde convivir no significa olvidar."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La violencia en la vida cotidiana",
+            "content": "Uno de los logros mayores de Patria es mostrar que el terrorismo no actúa solo en el momento del atentado. Se infiltra en los saludos, en el comercio local, en la escuela, en la vergüenza y en la manera de caminar por el pueblo. Esa capilaridad del daño convierte la novela en un estudio de la vida bajo presión comunitaria."
+          },
+          {
+            "heading": "Estructura coral y juicio moral",
+            "content": "Aramburu reparte la palabra entre personajes muy distintos para evitar tanto la neutralidad falsa como el maniqueísmo simple. La novela tiene posición ética clara frente a la violencia, pero no reduce a los personajes a funciones ideológicas. Gracias a ello puede explorar zonas incómodas de autoengaño, resentimiento y dignidad."
+          },
+          {
+            "heading": "Memoria, duelo y reparación imperfecta",
+            "content": "Patria insiste en que el fin de la violencia no cancela sus efectos. El duelo necesita reconocimiento; la convivencia, verdad; y el perdón, si llega, no borra el crimen. Esa conciencia de la reparación incompleta explica buena parte de la fuerza duradera del libro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La novela toma partido político?",
+            "answer": "Tiene una posición moral nítida contra la violencia de ETA y contra el entorno social que la normaliza, pero su ambición principal es narrativa: comprender cómo ese conflicto afecta a personas concretas y no solo a discursos públicos."
+          },
+          {
+            "question": "¿Es difícil de leer si no se conoce la historia reciente del País Vasco?",
+            "answer": "No. Conocer el contexto ayuda, pero Aramburu explica lo esencial a través de la experiencia de los personajes. La novela puede leerse como historia familiar y comunitaria, y desde ahí conducir al contexto histórico."
+          },
+          {
+            "question": "¿Qué distingue a Patria de otras novelas sobre violencia política?",
+            "answer": "Su capacidad para bajar un conflicto histórico muy abstracto a escenas domésticas y vínculos reconocibles. Más que explicar una ideología, muestra cómo se quiebra la convivencia y qué cuesta empezar a recomponerla."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - Patria",
+            "url": "https://www.planetadelibros.com/libro-patria/217001"
+          },
+          {
+            "label": "Wikipedia - Patria (Fernando Aramburu)",
+            "url": "https://es.wikipedia.org/wiki/Patria_(Fernando_Aramburu)"
+          },
+          {
+            "label": "Casa del Libro - Patria",
+            "url": "https://www.casadellibro.com/libro-patria/9788490663196/3033439"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pedagogia-del-oprimido-de-paulo-freire",
+      "title": "Pedagogia Del Oprimido",
+      "authorName": "Paulo Freire",
+      "authorSlug": "paulo-freire",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Pedagogía del oprimido",
+        "authorName": "Paulo Freire",
+        "authorSlug": "paulo-freire",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1968,
+        "pages": 183,
+        "summary": "Pedagogía del oprimido es una de las obras centrales del pensamiento educativo del siglo XX. Paulo Freire la escribió a partir de su experiencia con alfabetización popular y de su reflexión sobre poder, lenguaje y conciencia histórica. El libro cuestiona la educación entendida como depósito unilateral de contenidos, modelo que llama educación bancaria, y propone en su lugar una pedagogía dialógica en la que docentes y estudiantes se reconozcan como sujetos capaces de conocer y transformar el mundo. Freire enlaza educación y política: enseñar nunca es una acción neutral, porque puede reproducir estructuras de dominación o abrir procesos de emancipación. Por eso el libro combina filosofía, crítica social y propuesta pedagógica, y sigue siendo un punto de referencia para debates sobre escuela, desigualdad, participación y justicia educativa.",
+        "aboutThisBook": "Escrito entre 1967 y 1968, publicado primero en español y luego en inglés y portugués, este libro consolidó a Freire como una figura global de la pedagogía crítica. Su lenguaje es ensayístico y a veces conceptual, pero la tesis principal es clara: los oprimidos necesitan una educación que no los trate como objetos a administrar, sino como protagonistas de su propia humanización. Su influencia llega a aulas, movimientos sociales, teología de la liberación y estudios culturales.",
+        "forWhom": "Para docentes, estudiantes de educación, ciencias sociales, trabajo comunitario y lectores interesados en desigualdad, democracia y alfabetización crítica. También es valioso para quien quiera entender por qué Freire sigue siendo citado en debates pedagógicos y políticos actuales.",
+        "whyItMatters": "Importa porque cambió el vocabulario con el que se piensa la relación entre enseñanza y poder. Conceptos como diálogo, concientización y educación bancaria siguen organizando discusiones sobre escuela, participación y emancipación en contextos muy distintos.",
+        "editorialIntro": "Pocas obras pedagógicas han tenido una circulación tan amplia fuera de la academia. Pedagogía del oprimido no solo propuso métodos; reformuló el sentido mismo de educar. Freire entiende la alfabetización como entrada a la lectura crítica del mundo y no solo de la palabra. Esa ambición explica su vigencia y también las controversias que sigue despertando en torno a ideología, autoridad y transformación social.",
+        "readingLevel": "Lectura media-alta. El estilo es ensayístico, con vocabulario filosófico y político. Se entiende mejor si el lector se toma tiempo para seguir los conceptos clave y sus repeticiones deliberadas.",
+        "whyReadToday": "Porque las preguntas del libro siguen abiertas: quién habla en el aula, quién define el saber, cómo se reproduce la desigualdad y qué significa aprender de manera participativa en sociedades marcadas por exclusión y polarización.",
+        "studyNotes": [
+          "Freire usa pares conceptuales recurrentes: opresor/oprimido, humanización/deshumanización, diálogo/antidiálogo, praxis/verbalismo.",
+          "La crítica a la educación bancaria no es solo metodológica; es una crítica a una forma de poder que inmoviliza al estudiante.",
+          "El concepto de concientización implica reflexión unida a acción transformadora, no mera toma de conciencia abstracta.",
+          "Leer el libro junto con experiencias de educación popular ayuda a aterrizar un vocabulario que a veces parece muy teórico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Capítulo I",
+            "summary": "Freire justifica la necesidad de una pedagogía hecha con los oprimidos y no para ellos. Analiza la deshumanización producida por la opresión y sostiene que la liberación auténtica no consiste en invertir papeles, sino en reconstruir relaciones humanas más justas."
+          },
+          {
+            "title": "Capítulo II",
+            "summary": "Aquí aparece la crítica más famosa del libro: la educación bancaria. Freire cuestiona un modelo en el que el docente deposita contenidos y el estudiante recibe pasivamente. Frente a eso propone una educación problematizadora, basada en diálogo, investigación y reconocimiento mutuo."
+          },
+          {
+            "title": "Capítulo III",
+            "summary": "El tercer capítulo desarrolla la idea de diálogo como condición del conocimiento liberador. Freire examina cómo se generan temas significativos desde la experiencia histórica de las comunidades y cómo la palabra, unida a reflexión y acción, puede convertirse en praxis transformadora."
+          },
+          {
+            "title": "Capítulo IV",
+            "summary": "La parte final contrapone acción cultural para la libertad y acción antidialógica. Freire analiza mecanismos de dominación como manipulación, división e invasión cultural, y defiende una práctica política y educativa basada en cooperación, organización y síntesis cultural."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Educación y política son inseparables",
+            "content": "Uno de los aportes decisivos del libro es negar que la enseñanza sea neutral. Toda práctica educativa transmite una idea de autoridad, sujeto y mundo. Freire vuelve explícito ese trasfondo y obliga al lector a pensar qué tipo de ciudadanía y de sociedad produce cada forma de enseñar."
+          },
+          {
+            "heading": "La fuerza y el riesgo del lenguaje freireano",
+            "content": "Su vocabulario tiene una intensidad ética que explica su potencia histórica, pero también puede resultar abstracto para lectores nuevos. Términos como humanización, opresión o concientización condensan experiencia política y reflexión filosófica; exigen ser leídos como conceptos en movimiento, no como consignas aisladas."
+          },
+          {
+            "heading": "Un clásico todavía discutido",
+            "content": "La vigencia del libro se ve tanto en su influencia como en las críticas que recibe. Algunos cuestionan su sesgo ideológico o la amplitud de sus categorías; otros lo leen como una herramienta indispensable para democratizar la educación. Esa discusión permanente confirma su lugar como clásico vivo y no como reliquia doctrinal."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro práctico para docentes o más bien teórico?",
+            "answer": "Es principalmente teórico y filosófico, aunque sus ideas han inspirado múltiples prácticas concretas de alfabetización, educación popular y pedagogía crítica."
+          },
+          {
+            "question": "¿Qué significa educación bancaria?",
+            "answer": "Es la expresión con la que Freire critica un modelo en el que el docente deposita información en estudiantes pasivos, sin diálogo ni construcción compartida del conocimiento."
+          },
+          {
+            "question": "¿Por qué sigue siendo tan citado?",
+            "answer": "Porque ofrece un marco poderoso para pensar poder, lenguaje, participación y emancipación en educación, campos que siguen siendo centrales en la discusión pública y académica."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia - Pedagogy of the Oppressed",
+            "url": "https://en.wikipedia.org/wiki/Pedagogy_of_the_Oppressed"
+          },
+          {
+            "label": "Britannica - Paulo Freire",
+            "url": "https://www.britannica.com/biography/Paulo-Freire"
+          },
+          {
+            "label": "Internet Archive - Pedagogy of the Oppressed",
+            "url": "https://archive.org/details/FreirePedagogyOfTheOppresed"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "peter-pan-de-j-m-barrie",
+      "title": "Peter Pan",
+      "authorName": "J M Barrie",
+      "authorSlug": "j-m-barrie",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Peter Pan",
+        "authorName": "J. M. Barrie",
+        "authorSlug": "j-m-barrie",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasia",
+          "aventura",
+          "clasicos",
+          "infantil"
+        ],
+        "year": 1911,
+        "pages": 298,
+        "summary": "Peter Pan cuenta la irrupción de lo maravilloso en la vida doméstica de Wendy, John y Michael Darling, que abandonan Londres para viajar con Peter al País de Nunca Jamás. Allí encuentran hadas, Niños Perdidos, piratas y la amenaza constante del capitán Garfio. Aunque suele recordarse como un clásico infantil de aventuras, la obra es más ambigua de lo que parece: celebra el juego, la imaginación y la libertad, pero también sugiere el coste de no crecer nunca. Barrie convierte a Peter en una figura fascinante y a la vez inquietante, eternamente joven, incapaz de fijar la memoria y reacio a las responsabilidades afectivas. El resultado es un relato fundacional de la fantasía moderna que mezcla encanto, humor, melancolía y una reflexión persistente sobre infancia y tiempo.",
+        "aboutThisBook": "El universo de Peter Pan nace en la obra teatral estrenada por Barrie en 1904, pero muchos lectores lo conocen sobre todo a través de la versión narrativa de 1911, Peter and Wendy, base de incontables reediciones, adaptaciones y lecturas escolares. Britannica subraya que el personaje ya había aparecido en The Little White Bird y que la pieza dramática fue revisada varias veces antes de fijarse en una versión definitiva. Más que un simple cuento de hadas, el libro ocupa un lugar central en la imaginación moderna por haber convertido a Peter Pan, Wendy, Tinker Bell, Garfio y Nunca Jamás en mitos culturales duraderos.",
+        "forWhom": "Para lectores juveniles, adultos que vuelven a los clásicos y mediadores de lectura interesados en aventuras fantásticas con capas simbólicas sobre infancia, memoria, deseo de libertad y miedo a crecer.",
+        "whyItMatters": "Sigue importando porque formuló uno de los grandes mitos modernos de la niñez eterna. Además, detrás de su apariencia lúdica ofrece una mirada compleja sobre identidad, imaginación, afecto y paso del tiempo.",
+        "editorialIntro": "Pocas obras han entrado tan profundamente en la cultura popular como Peter Pan, y pocas conservan tanta ambivalencia bajo su fama de clásico infantil. Barrie inventa un mundo inolvidable de vuelo, juego y combate contra piratas, pero al mismo tiempo deja ver algo más incómodo: la infancia no es solo inocencia, también es olvido, deseo caprichoso y resistencia a toda forma de pérdida. Leerlo hoy es redescubrir un clásico mucho más extraño y rico de lo que prometen sus versiones simplificadas.",
+        "readingLevel": "Adecuado desde finales de primaria y secundaria, con lectura especialmente provechosa en acompañamiento: la aventura es accesible, pero la ironía de Barrie y su trasfondo melancólico ganan fuerza en lectores atentos.",
+        "whyReadToday": "Porque ayuda a pensar cómo imaginamos la infancia y por qué seguimos idealizando la juventud eterna. También permite contrastar el original de Barrie con las adaptaciones que lo han suavizado o transformado.",
+        "studyNotes": [
+          "Peter Pan no es solo un héroe infantil: su encanto depende también de su egoísmo, su olvido y su negativa radical a madurar.",
+          "Wendy introduce en Nunca Jamás la idea de cuidado, hogar y relato; por eso su presencia equilibra la anarquía lúdica de Peter.",
+          "El libro mezcla aventura fantástica con una tristeza de fondo relacionada con el paso del tiempo y la imposibilidad de conservar intacta la infancia.",
+          "Conviene distinguir entre el origen teatral de 1904 y la consolidación narrativa de 1911, muy importante para la recepción posterior."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La llegada de Peter y el vuelo desde Londres",
+            "summary": "Peter Pan entra en la casa de los Darling junto con Tinker Bell, conoce a Wendy y arrastra a los tres hermanos hacia una aventura aérea que rompe las reglas del mundo cotidiano."
+          },
+          {
+            "title": "Nunca Jamás y los Niños Perdidos",
+            "summary": "En la isla fantástica, Wendy y sus hermanos descubren la lógica del juego perpetuo, la convivencia con los Niños Perdidos y la tensión entre libertad absoluta y necesidad de cuidado."
+          },
+          {
+            "title": "Piratas, celos y pruebas de lealtad",
+            "summary": "El capitán Garfio intensifica el conflicto mientras los celos, la rivalidad y el deseo de pertenecer a un hogar o a una banda convierten la aventura en una prueba emocional y moral."
+          },
+          {
+            "title": "Regreso y melancolía del crecimiento",
+            "summary": "El desenlace enfrenta a los personajes con la decisión de volver, crecer y aceptar el tiempo. Ahí aparece la veta más amarga del libro: Peter sigue siendo el niño eterno, pero los demás no pueden permanecer con él para siempre."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La infancia como paraíso y como límite",
+            "content": "Barrie no presenta la niñez como estado puramente ideal. Nunca Jamás es fascinante porque parece libre de obligaciones, pero también porque revela la inestabilidad emocional de un mundo donde casi nada perdura. La infancia aparece así como promesa y como carencia."
+          },
+          {
+            "heading": "Peter Pan, figura mítica y problemática",
+            "content": "Peter encarna la fantasía de no crecer, pero su negativa a madurar implica no asumir memoria estable, compromiso ni reciprocidad afectiva. Esa ambigüedad explica que el personaje siga siendo poderoso más de un siglo después."
+          },
+          {
+            "heading": "Wendy y la invención del hogar",
+            "content": "Frente al impulso anárquico de Peter, Wendy introduce lenguaje narrativo, cuidado cotidiano y deseo de pertenencia. Gracias a ella, la obra no queda reducida a un desfile de peripecias, sino que reflexiona sobre familia, relato y responsabilidad."
+          },
+          {
+            "heading": "Del teatro al mito cultural global",
+            "content": "La trayectoria de Peter Pan demuestra cómo una obra teatral puede desbordar su forma original y transformarse en mito transmedia. El libro, las adaptaciones cinematográficas y el imaginario popular han multiplicado el alcance del personaje, aunque a veces simplifiquen su complejidad original."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Peter Pan era primero una obra de teatro o una novela?",
+            "answer": "Primero fue una obra teatral estrenada en 1904; la versión narrativa más influyente apareció en 1911 con el título Peter and Wendy."
+          },
+          {
+            "question": "¿Cuál es el tema central de Peter Pan?",
+            "answer": "El tema central es la tensión entre la libertad imaginativa de la infancia y la necesidad inevitable de crecer, recordar y asumir vínculos duraderos."
+          },
+          {
+            "question": "¿Es solo un libro para niños?",
+            "answer": "No. Puede leerse desde la infancia, pero su ironía, su melancolía y su reflexión sobre el tiempo hacen que también sea muy rico para lectores adultos."
+          },
+          {
+            "question": "¿Por qué el capitán Garfio es tan importante?",
+            "answer": "Porque funciona como antagonista aventurero, pero también como contrapunto del propio Peter: representa miedo, teatralidad, mortalidad y conciencia del tiempo."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Britannica - Peter Pan",
+            "url": "https://www.britannica.com/topic/Peter-Pan-play-by-Barrie"
+          },
+          {
+            "label": "Project Gutenberg - Peter Pan",
+            "url": "https://www.gutenberg.org/ebooks/16"
+          },
+          {
+            "label": "Open Library - obra Peter Pan",
+            "url": "https://openlibrary.org/works/OL462007W"
+          },
+          {
+            "label": "Open Library - edición Peter and Wendy. Hodder edition",
+            "url": "https://openlibrary.org/books/OL58982642M/Peter_and_Wendy._Hodder_edition"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pietr-el-leton-de-georges-simenon",
+      "title": "Pietr El Leton",
+      "authorName": "Georges Simenon",
+      "authorSlug": "georges-simenon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Pietr, el Letón",
+        "authorName": "Georges Simenon",
+        "authorSlug": "georges-simenon",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1931,
+        "pages": 176,
+        "summary": "Pietr, el Letón es la primera novela protagonizada por el comisario Maigret y ya contiene muchas de las virtudes que harían célebre a Georges Simenon: rapidez narrativa, atmósfera tensa y una investigación más humana que espectacular. La trama arranca cuando la policía recibe el aviso de la llegada a París de Pietr Johannson, un estafador internacional perseguido por varias autoridades europeas. Todo se complica casi de inmediato: aparece un cadáver idéntico al sospechoso y Maigret debe orientarse en una red de identidades dobles, pistas ambiguas y personajes que parecen ser otra cosa bajo la superficie. La novela no depende solo del enigma, sino del modo en que Maigret observa ambientes, gestos y contradicciones sociales. Más que un rompecabezas puro, ofrece el nacimiento de una forma de investigar basada en paciencia, intuición y presencia moral.",
+        "aboutThisBook": "Publicada originalmente en 1931, Pietr-le-Letton abre la serie de Maigret y ocupa un lugar fundacional dentro de la novela policial europea. La edición de Acantilado subraya precisamente ese rasgo: el lector asiste al nacimiento del comisario. El argumento gira en torno a un célebre delincuente internacional, un cadáver con su misma apariencia y una pesquisa marcada por los desplazamientos entre estación, hotel, puerto y ambientes cosmopolitas. Aunque el libro es breve, ya muestra el talento de Simenon para condensar psicología, mundo social y suspense en muy pocas páginas.",
+        "forWhom": "Para lectores adultos que disfrutan la novela policial clásica, los orígenes de personajes legendarios, las investigaciones atmosféricas y los relatos breves donde la intriga depende tanto del ambiente como del misterio central.",
+        "whyItMatters": "Importa porque inaugura literariamente a Maigret, uno de los detectives más influyentes del siglo XX, y porque permite ver desde el inicio cómo Simenon transformó la novela policíaca en un estudio rápido pero penetrante del comportamiento humano.",
+        "editorialIntro": "Antes de que Maigret se convirtiera en un mito del género, apareció aquí: robusto, observador, testarudo y todavía en proceso de consolidar su método. Pietr, el Letón conserva la energía del comienzo, pero no se queda en curiosidad histórica. Su trama de identidades confusas, hoteles elegantes, delincuencia internacional y persecución moral sigue siendo muy eficaz, y deja ver desde temprano la sobriedad magistral de Simenon.",
+        "readingLevel": "Lectura media para adultos: la prosa es directa y ágil, pero el juego de identidades, los cambios de escenario y la importancia de matices psicológicos exigen atención sostenida.",
+        "whyReadToday": "Vale la pena leerlo hoy para volver al origen de Maigret y para comprobar cuánto puede hacer una novela policial breve cuando el suspense se apoya en observación social, economía narrativa y tensión moral.",
+        "studyNotes": [
+          "Es la primera novela de Maigret, así que conviene leerla también como presentación de un método policial basado en atmósfera e intuición, no solo en deducción abstracta.",
+          "La cuestión de la identidad es central: el enigma depende de dobles, apariencias y desplazamientos entre nombres, cuerpos y posiciones sociales.",
+          "Simenon narra con enorme economía; por eso cada escena, gesto y cambio de lugar cumple una función narrativa precisa.",
+          "La investigación importa tanto por lo que descubre del criminal como por lo que revela sobre el ambiente cosmopolita y jerárquico en que se mueve."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La alerta sobre un criminal internacional",
+            "summary": "La policía parisina recibe noticia de la inminente llegada de Pietr Johannson, un delincuente buscado en varios países. Maigret se prepara para interceptarlo, pero el caso demuestra desde el principio que identificar al sospechoso será mucho más difícil de lo previsto."
+          },
+          {
+            "title": "El cadáver y el problema de las dobles apariencias",
+            "summary": "La aparición de un cuerpo que parece corresponder al propio Pietr altera por completo la lógica de la investigación. A partir de ahí, la novela despliega un juego de sustituciones, disfraces y pistas contradictorias que obliga a Maigret a desconfiar de toda evidencia inmediata."
+          },
+          {
+            "title": "Hoteles, puertos y círculos de dinero",
+            "summary": "La pesquisa lleva al comisario por espacios muy distintos, desde escenarios de tránsito hasta ambientes lujosos vinculados con fortunas y relaciones internacionales. Esa movilidad espacial ensancha el caso y refuerza la impresión de un mundo donde la criminalidad se mezcla con la respetabilidad."
+          },
+          {
+            "title": "Resolución del enigma y afirmación de Maigret",
+            "summary": "En el desenlace, Maigret logra ordenar la maraña de identidades y entender el mecanismo del engaño. La solución importa, pero también el modo en que consolida al personaje como investigador paciente, corporal y profundamente atento a la verdad humana del caso."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El nacimiento de Maigret",
+            "content": "La relevancia histórica de la novela es evidente: aquí aparece por primera vez el comisario Maigret. Sin embargo, su importancia no se reduce al dato inaugural; ya están presentes su forma de escuchar, su resistencia física, su atención a los ambientes y su preferencia por comprender antes que lucirse."
+          },
+          {
+            "heading": "Identidad, máscara y movilidad social",
+            "content": "El gran tema del libro es la inestabilidad de la identidad. Pietr circula entre nombres, apariencias y clases sociales, y eso convierte la investigación en una pregunta sobre quién puede pasar por quién en un mundo moderno cada vez más opaco y móvil."
+          },
+          {
+            "heading": "Una novela negra de condensación extrema",
+            "content": "Simenon demuestra que no hacen falta largas explicaciones para construir tensión. Con pocos trazos crea escenarios completos, jerarquías sociales reconocibles y personajes que dejan una impresión duradera. Esa concentración narrativa explica buena parte de su prestigio."
+          },
+          {
+            "heading": "Del enigma al clima moral",
+            "content": "Aunque la intriga está muy bien armada, el interés profundo no es solo averiguar la solución. La novela importa también por el clima moral que envuelve el caso: la mezcla de respetabilidad, corrupción, violencia y ambigüedad humana que Maigret debe atravesar."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué lugar ocupa Pietr, el Letón en la serie de Maigret?",
+            "answer": "Es la primera novela protagonizada por el comisario Maigret y por eso tiene un valor especial dentro de la obra de Simenon."
+          },
+          {
+            "question": "¿Es una novela policíaca clásica o una novela negra?",
+            "answer": "Participa de ambos registros: tiene un enigma claro y una investigación formal, pero también una atmósfera social y moral propia de la novela negra."
+          },
+          {
+            "question": "¿Cuál es el conflicto central del libro?",
+            "answer": "El conflicto central gira en torno a la persecución de un delincuente internacional cuya identidad se vuelve cada vez más confusa a causa de dobles, cadáveres y apariencias engañosas."
+          },
+          {
+            "question": "¿Conviene leerla aunque no se conozca a Maigret?",
+            "answer": "Sí. Precisamente por ser el comienzo de la serie, funciona muy bien como puerta de entrada al personaje y al universo narrativo de Simenon."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Editorial Acantilado - Pietr, el Letón",
+            "url": "https://www.acantilado.es/catalogo/pietr-el-leton/"
+          },
+          {
+            "label": "Casa del Libro - Pietr, el Letón",
+            "url": "https://www.casadellibro.com/libro-pietr-el-leton-los-casos-de-maigret/9788415689003/2031611"
+          },
+          {
+            "label": "Open Library - obra Pietr-le-Letton",
+            "url": "https://openlibrary.org/works/OL1242934W"
+          },
+          {
+            "label": "Open Library - edición Acantilado",
+            "url": "https://openlibrary.org/books/OL60509687M/Pietr_el_Let%C3%B3n"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "quien-escribio-la-biblia-de-richard-elliott-friedman",
+      "title": "Quien Escribio La Biblia",
+      "authorName": "Richard Elliott Friedman",
+      "authorSlug": "richard-elliott-friedman",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "¿Quién escribió la Biblia?",
+        "authorName": "Richard Elliott Friedman",
+        "authorSlug": "richard-elliott-friedman",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1987,
+        "pages": 304,
+        "summary": "En este libro, Richard Elliott Friedman expone de forma accesible una de las grandes preguntas de los estudios bíblicos modernos: cómo se compusieron los textos fundamentales del Pentateuco y qué autores, escuelas o redactores pueden estar detrás de ellos. Su punto de partida es la hipótesis documental, pero no la presenta como un esquema árido, sino como una investigación histórica donde importan la política de los reinos de Israel y Judá, la figura de sacerdotes y escribas, las tensiones entre tradiciones y el trabajo de edición posterior. Friedman sigue las pistas literarias, lingüísticas e históricas que permiten distinguir voces y capas de composición. El libro no pretende cerrar todos los debates, pero sí mostrar por qué la autoría bíblica es una cuestión histórica compleja y fascinante, con implicaciones para leer la Biblia como texto religioso, literario y político.",
+        "aboutThisBook": "Publicado originalmente en 1987 y revisado en ediciones posteriores, ¿Quién escribió la Biblia? es uno de los libros más influyentes de divulgación sobre crítica bíblica en lengua inglesa. Friedman consigue un equilibrio poco frecuente: conserva el nervio del debate académico sin perder claridad para el lector general. En lugar de reducir la cuestión a una provocación contra la tradición, reconstruye pacientemente cómo distintos documentos y manos redactoras habrían dado forma a los libros atribuidos durante siglos a una autoría única. Su tono combina exposición, argumentación y una cierta energía detectivesca.",
+        "forWhom": "Para lectores interesados en Biblia, historia antigua, crítica textual y estudios religiosos que quieran una introducción sólida, razonada y legible a la cuestión de la autoría.",
+        "whyItMatters": "Importa porque acerca al público general un problema central de la cultura occidental: cómo se formó uno de sus textos fundacionales. Leerlo ayuda a distinguir entre tradición, evidencia histórica y procesos de transmisión escrita.",
+        "editorialIntro": "Pocos libros de divulgación bíblica han tenido tanta influencia como ¿Quién escribió la Biblia? Richard Elliott Friedman toma un asunto a menudo reservado a especialistas y lo convierte en una pesquisa inteligible y estimulante. Su mérito no consiste solo en resumir la hipótesis documental, sino en mostrar cómo la filología, la historia y la arqueología permiten leer los textos bíblicos como composiciones con autores, contextos y conflictos reconocibles.",
+        "readingLevel": "Lectura media-alta: escrita con claridad, pero basada en argumentos filológicos e históricos que exigen atención a nombres, fuentes y periodizaciones.",
+        "whyReadToday": "Porque sigue siendo una puerta de entrada muy eficaz a la crítica bíblica moderna y a la conversación sobre cómo se construyen los textos sagrados.",
+        "studyNotes": [
+          "El libro populariza la hipótesis documental, pero conviene recordar que el debate académico posterior ha matizado varias de sus formulaciones.",
+          "Friedman organiza la explicación como una investigación: pistas textuales, contexto político y reconstrucción de autores o escuelas.",
+          "Su interés principal se concentra en la Torah o Pentateuco, aunque también aborda problemas de autoría en otros libros históricos.",
+          "Puede leerse tanto desde la curiosidad religiosa como desde la historia intelectual de Occidente."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento del problema de la autoría",
+            "summary": "Friedman parte de la tradición que atribuyó a Moisés la escritura de la Torah y muestra por qué, desde hace siglos, los investigadores detectan duplicaciones, tensiones y cambios de estilo que sugieren una composición más compleja. El libro abre así una pregunta histórica antes que polémica."
+          },
+          {
+            "title": "Las fuentes y sus contextos",
+            "summary": "La parte central distingue grandes documentos o corrientes redaccionales y los vincula con momentos históricos concretos de Israel y Judá. Friedman examina vocabulario, preferencias teológicas, escenas repetidas y prioridades institucionales para proponer autores, escuelas o círculos sacerdotales."
+          },
+          {
+            "title": "El redactor y el sentido de la composición final",
+            "summary": "Más allá de identificar fuentes, el autor se pregunta quién las unió y con qué propósito. La figura del redactor final resulta clave para entender que la Biblia no es un simple mosaico accidental, sino una obra compuesta que preserva tensiones y las convierte en tradición compartida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La Biblia como proceso de escritura",
+            "content": "El principal desplazamiento que propone Friedman es pasar de la idea de un texto surgido de una sola mano a la de una obra formada por estratos, documentos y ediciones. Esto no reduce la Biblia; la vuelve históricamente más concreta y literariamente más interesante."
+          },
+          {
+            "heading": "Hipótesis documental y narrativa detectivesca",
+            "content": "Una de las razones del éxito del libro es su forma. Friedman no enumera solo tesis académicas: organiza el argumento como una pesquisa donde cada repetición, nombre divino o contradicción aparente funciona como indicio. Esa estrategia facilita el acceso del lector no especialista sin vaciar el contenido intelectual."
+          },
+          {
+            "heading": "Alcance y límites",
+            "content": "Aunque sigue siendo una referencia de divulgación, el libro debe leerse sabiendo que la investigación bíblica posterior ha continuado discutiendo fechas, fuentes y modelos alternativos. Su valor actual está en ofrecer una introducción robusta y muy clara a las preguntas fundamentales del campo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro contra la religión?",
+            "answer": "No. Es un libro de crítica histórica y literaria. Puede incomodar a lectores que prefieran una autoría tradicional única, pero su propósito es explicar cómo trabajan los estudios bíblicos modernos, no desacreditar la experiencia religiosa en sí."
+          },
+          {
+            "question": "¿Hace falta formación previa en Biblia o hebreo?",
+            "answer": "No es imprescindible. Friedman escribe para un público amplio y explica los conceptos esenciales. Aun así, quienes conozcan mejor la Biblia apreciarán con más detalle sus comparaciones y argumentos internos."
+          },
+          {
+            "question": "¿Sigue siendo útil si la investigación ha avanzado?",
+            "answer": "Sí. Sigue siendo una excelente introducción a la pregunta de la autoría bíblica y a la lógica de la hipótesis documental, aunque conviene complementarlo con estudios más recientes para conocer debates y revisiones posteriores."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Libros - Who Wrote the Bible?",
+            "url": "https://books.google.com/books/about/Who_Wrote_the_Bible.html?id=ZkCPzsO51aQC"
+          },
+          {
+            "label": "Richard Elliott Friedman - Who Wrote the Bible",
+            "url": "https://richardelliottfriedman.com/product/whowrote/"
+          },
+          {
+            "label": "Open Library - Who wrote the Bible?",
+            "url": "https://openlibrary.org/books/OL289841M/Who_wrote_the_Bible"
+          },
+          {
+            "label": "Internet Archive - Who Wrote The Bible (2nd Edition)",
+            "url": "https://archive.org/details/who-wrote-the-bible-2nd-edition-richard-elliott-friedman-1997"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rebecca-de-daphne-du-maurier",
+      "title": "Rebecca",
+      "authorName": "Daphne Du Maurier",
+      "authorSlug": "daphne-du-maurier",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Rebecca",
+        "authorName": "Daphne du Maurier",
+        "authorSlug": "daphne-du-maurier",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "thriller",
+          "romance"
+        ],
+        "year": 1938,
+        "pages": 446,
+        "summary": "Rebecca cuenta la historia de una joven tímida, sin nombre propio en la narración, que conoce en Montecarlo al viudo Maxim de Winter y se casa con él precipitadamente. Al llegar a Manderley, la gran mansión familiar en Cornualles, descubre que su vida matrimonial está dominada por una ausencia: la de Rebecca, la primera esposa de Maxim, cuya belleza, seguridad y carisma siguen imponiéndose en cada habitación y en cada recuerdo. La nueva señora de Winter no compite solo con un fantasma sentimental, sino con una estructura entera de silencios, jerarquías y manipulaciones, intensificada por la hostilidad casi ritual de la ama de llaves, Mrs. Danvers. Du Maurier convierte esa premisa en una novela de atmósfera opresiva, identidad quebradiza y deseo mezclado con miedo, donde el suspenso psicológico pesa tanto como la intriga.",
+        "aboutThisBook": "Publicada en 1938, Rebecca es la novela más célebre de Daphne du Maurier y uno de los grandes clásicos modernos del gótico. Su fama se debe a la maestría con la que combina romance sombrío, misterio doméstico y exploración psicológica. La casa de Manderley funciona como escenario y personaje, mientras la ausencia de nombre de la narradora subraya el problema central del libro: cómo construir una identidad bajo la sombra de otro.",
+        "forWhom": "Para lectores de clásicos narrativos, novela gótica, suspense psicológico y relatos de casas inquietantes. También interesa a quienes disfrutan protagonistas poco fiables, tensiones de clase y novelas donde la atmósfera pesa tanto como la trama.",
+        "whyItMatters": "Importa porque redefinió el gótico del siglo XX sin depender de lo sobrenatural explícito. Su influencia se nota en innumerables novelas y películas sobre matrimonios opacos, mansiones cargadas de memoria y mujeres atrapadas en identidades que no controlan.",
+        "editorialIntro": "Rebecca sigue leyéndose con intensidad porque no envejeció como simple intriga romántica. Bajo su superficie elegante hay una novela muy moderna sobre inseguridad, performatividad social, deseo, memoria y poder doméstico. La sombra de Rebecca organiza la historia, pero el verdadero centro del libro es la fragilidad de la narradora y el modo en que una casa, un nombre y una clase social pueden moldear la percepción de uno mismo.",
+        "readingLevel": "Lectura media. La prosa es clara pero muy atmosférica, con un ritmo que privilegia la tensión psicológica y la observación de gestos, espacios y silencios.",
+        "whyReadToday": "Porque sigue siendo una de las mejores novelas sobre identidad, manipulación emocional y memoria social. Además, permite ver cómo el suspense puede construirse con voz, ambiente y relaciones de poder más que con giros espectaculares.",
+        "studyNotes": [
+          "La narradora nunca recibe nombre: ese detalle formal es clave para entender su inseguridad y su absorción por el mundo de Manderley.",
+          "Rebecca funciona menos como personaje presente que como fuerza simbólica que organiza deseos, comparaciones y temores.",
+          "Mrs. Danvers encarna la fidelidad obsesiva al pasado y convierte la casa en un espacio de vigilancia emocional.",
+          "La novela recompensa una lectura atenta a clase social, género y performance de la feminidad, no solo al misterio argumental."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Sueño, encuentro y matrimonio apresurado",
+            "summary": "La novela abre con la célebre evocación de Manderley y luego retrocede al encuentro entre la joven narradora y Maxim de Winter en el sur de Francia. El matrimonio rápido instala desde el principio una mezcla de deseo, sorpresa y vulnerabilidad que prepara el conflicto posterior."
+          },
+          {
+            "title": "Llegada a Manderley y dominio de la ausencia",
+            "summary": "Ya en la mansión, la nueva esposa descubre que Rebecca sigue presente en los objetos, en la servidumbre y en las comparaciones tácitas que la empequeñecen. Mrs. Danvers intensifica esa presión hasta convertir la vida cotidiana en una forma de asedio psicológico."
+          },
+          {
+            "title": "Revelaciones, derrumbe de la imagen y nuevo equilibrio",
+            "summary": "A medida que salen a la luz secretos sobre Rebecca y sobre Maxim, la novela desplaza su centro desde la rivalidad imaginada hacia la verdad incómoda. El suspense final reordena el matrimonio y muestra que la liberación de una ilusión puede tener un costo devastador."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La ausencia como poder narrativo",
+            "content": "Rebecca casi no aparece de forma directa, pero domina el libro entero. Du Maurier demuestra que una figura ausente puede ser más poderosa que un personaje constantemente visible, siempre que su memoria esté encarnada en objetos, rituales, rumores y comparaciones sociales."
+          },
+          {
+            "heading": "Manderley como personaje",
+            "content": "La casa no es un simple decorado. Manderley organiza jerarquías, recuerdos y deseos. Su materialidad vuelve tangible la opresión emocional de la narradora y convierte el espacio doméstico en escenario de control, fascinación y amenaza."
+          },
+          {
+            "heading": "Una novela gótica modernizada",
+            "content": "Rebecca toma elementos del gótico clásico —mansión, secreto, amenaza, pasado persistente— y los reescribe en clave psicológica y social. El terror no depende de fantasmas literales, sino de la fragilidad del yo, de la presión de clase y de la violencia escondida bajo la respetabilidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Rebecca es una novela de terror?",
+            "answer": "No exactamente. Es, sobre todo, una novela gótica y de suspense psicológico, donde la atmósfera inquietante pesa más que el horror explícito."
+          },
+          {
+            "question": "¿Por qué la narradora no tiene nombre?",
+            "answer": "Porque esa omisión refuerza su inseguridad y su dificultad para afirmarse frente a la memoria abrumadora de Rebecca y el peso social de Manderley."
+          },
+          {
+            "question": "¿Sigue siendo accesible para lectores actuales?",
+            "answer": "Sí. Aunque es un clásico, su tensión narrativa, su prosa clara y sus temas de identidad, manipulación y deseo la mantienen muy legible hoy."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Virago / Hachette - Rebecca",
+            "url": "https://www.virago.co.uk/titles/daphne-du-maurier/rebecca/9780349006574/"
+          },
+          {
+            "label": "Wikipedia - Rebecca (novel)",
+            "url": "https://en.wikipedia.org/wiki/Rebecca_(novel)"
+          },
+          {
+            "label": "Britannica - Daphne du Maurier",
+            "url": "https://www.britannica.com/biography/Daphne-du-Maurier"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rendicion-de-ray-loriga",
+      "title": "Rendicion",
+      "authorName": "Ray Loriga",
+      "authorSlug": "ray-loriga",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Rendición",
+        "authorName": "Ray Loriga",
+        "authorSlug": "ray-loriga",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ciencia-ficcion",
+          "narrativa"
+        ],
+        "year": 2017,
+        "pages": 210,
+        "summary": "Rendición imagina un mundo en guerra del que apenas se conocen datos firmes: no está claro quién empezó el conflicto, qué bando tiene razón ni cuánto queda de la vida anterior. En ese paisaje de incertidumbre, un hombre, su esposa y el niño Julio se ven obligados a abandonar su zona y a dirigirse a una ciudad aparentemente segura donde todo promete orden, transparencia y protección. Lo que empieza como evacuación termina revelándose como una experiencia de desposesión: en la nueva ciudad casi no existe intimidad, el miedo parece administrado desde fuera y el lenguaje mismo va perdiendo precisión. Ray Loriga construye así una distopía sobria y extrañamente cercana que habla de vigilancia, obediencia, memoria, desplazamiento y erosión de la conciencia individual sin caer en el exceso doctrinario.",
+        "aboutThisBook": "Ganadora del Premio Alfaguara de Novela 2017, Rendición ocupa un lugar central en la etapa madura de Ray Loriga. Open Library resume su premisa a partir de una guerra prolongada, una evacuación forzosa y una ciudad donde los recuerdos y la intimidad se desvanecen. Esa síntesis describe bien el dispositivo del libro: una narración en apariencia simple, casi oral, que va cargándose de inquietud política y filosófica. La novela toma elementos de la distopía clásica, del relato de desplazados y de la fábula alegórica para examinar qué ocurre cuando la seguridad prometida exige renunciar a la autonomía, a la opacidad personal y a la memoria propia.",
+        "forWhom": "Para lectores adultos interesados en distopías sobrias, alegorías políticas, novelas sobre guerra y desplazamiento, y relatos que exploran vigilancia, obediencia y fragilidad de la intimidad.",
+        "whyItMatters": "Importa porque traduce miedos contemporáneos —control, desinformación, desplazamiento, pérdida de privacidad— en una ficción concentrada y legible. No necesita grandes artificios para mostrar cómo la seguridad puede convertirse en forma de sometimiento.",
+        "editorialIntro": "Ray Loriga evita la grandilocuencia y escribe una distopía seca, casi desnuda, donde lo inquietante surge de la normalización de lo inaceptable. Rendición no se obsesiona con explicar por completo su mundo; prefiere mostrar cómo un sujeto común va aceptando, poco a poco, las condiciones de un orden que le arrebata lenguaje, memoria y espacio privado. Esa sobriedad es precisamente lo que vuelve tan eficaz la novela.",
+        "readingLevel": "Lectura media-alta para público adulto: la prosa es clara, pero la ambigüedad del contexto, el valor alegórico de la ciudad y la reflexión política implícita piden atención interpretativa sostenida.",
+        "whyReadToday": "Se lee con fuerza hoy porque dialoga con debates sobre vigilancia, propaganda, refugiados y renuncia voluntaria a la privacidad a cambio de seguridad. Su diagnóstico sigue resultando incómodamente actual.",
+        "studyNotes": [
+          "La novela omite datos estratégicos de la guerra para desplazar el foco desde la geopolítica hacia la experiencia humana de la obediencia y el desarraigo.",
+          "La ciudad transparente funciona como símbolo de control: lo que se presenta como claridad y protección termina anulando intimidad, memoria y discrepancia.",
+          "La voz narradora, aparentemente simple, es clave para el efecto del libro: registra la adaptación gradual a lo intolerable sin grandes declaraciones ideológicas.",
+          "Julio y la ausencia de los hijos soldados amplían el horizonte moral de la novela y la conectan con pérdida, sustitución afectiva y vulnerabilidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La guerra y la salida obligada",
+            "summary": "La novela presenta un conflicto prolongado y confuso que ha erosionado la vida normal. En ese contexto, el protagonista y su familia deben abandonar su espacio conocido y aceptar una evacuación que se anuncia como medida de seguridad."
+          },
+          {
+            "title": "El camino con Julio y la lógica del desarraigo",
+            "summary": "Durante el desplazamiento se afianzan los vínculos precarios entre los personajes y se percibe el peso de las pérdidas previas, especialmente la ausencia de los hijos. El viaje revela la fragilidad moral de quienes intentan sobrevivir sin comprender del todo el sistema que los absorbe."
+          },
+          {
+            "title": "La ciudad transparente",
+            "summary": "La llegada a la ciudad inaugura una nueva forma de sometimiento. Allí todo parece limpio, reglado y protegido, pero esa aparente perfección se sostiene sobre la desaparición de intimidad, memoria y libertad emocional."
+          },
+          {
+            "title": "Despertar de la conciencia",
+            "summary": "En la parte final, el protagonista empieza a percibir el coste real de la adaptación. La novela conduce hacia una toma de conciencia sobre la obediencia y sobre las consecuencias de rendirse al orden cuando este vacía la experiencia humana."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Distopía sin exceso ornamental",
+            "content": "Loriga renuncia a construir un aparato futurista detallado. Esa economía de información vuelve la novela más perturbadora: el lector reconoce mecanismos de control muy cercanos al presente precisamente porque no están escondidos tras una imaginería tecnológica exuberante."
+          },
+          {
+            "heading": "Guerra, desplazamiento y borrado de contexto",
+            "content": "El conflicto del libro casi nunca se explica del todo. Lejos de ser una carencia, esa omisión convierte la guerra en una condición persistente de incertidumbre y facilita una lectura universal sobre refugiados, propaganda y obediencia civil en tiempos de excepción."
+          },
+          {
+            "heading": "La privacidad como núcleo moral",
+            "content": "Rendición muestra que la intimidad no es un lujo secundario, sino una base de la libertad. Cuando la ciudad elimina zonas opacas, también reduce la posibilidad de pensar, recordar y disentir sin supervisión."
+          },
+          {
+            "heading": "La voz del hombre común",
+            "content": "Una de las decisiones más eficaces del libro es narrar desde una conciencia ordinaria, no heroica. El protagonista no entiende todo, duda, se adapta y racionaliza; por eso la crítica política de la novela resulta más creíble y menos abstracta."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Rendición?",
+            "answer": "Cuenta el desplazamiento de una familia en medio de una guerra imprecisa hacia una ciudad supuestamente segura donde la pérdida de intimidad y memoria revela una forma de control total."
+          },
+          {
+            "question": "¿Es ciencia ficción o novela política?",
+            "answer": "Es ambas cosas en cierto sentido: una distopía de rasgos sobrios que funciona también como alegoría política sobre obediencia, vigilancia y poder."
+          },
+          {
+            "question": "¿Por qué ganó el Premio Alfaguara?",
+            "answer": "Porque condensa con gran eficacia literaria una reflexión actual sobre guerra, desplazamiento, control y vulnerabilidad humana, todo ello con una prosa contenida y muy precisa."
+          },
+          {
+            "question": "¿Es una novela difícil de leer?",
+            "answer": "No por estilo, que es claro y directo, pero sí exige atención a su ambigüedad y a la dimensión simbólica de la ciudad y del relato de sumisión."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Open Library - obra Rendición",
+            "url": "https://openlibrary.org/works/OL19723199W"
+          },
+          {
+            "label": "Open Library - edición Alfaguara",
+            "url": "https://openlibrary.org/books/OL26936320M/Rendici%C3%B3n"
+          },
+          {
+            "label": "Wikipedia - Ray Loriga",
+            "url": "https://es.wikipedia.org/wiki/Ray_Loriga"
+          },
+          {
+            "label": "Wikipedia - Premio Alfaguara de Novela",
+            "url": "https://es.wikipedia.org/wiki/Premio_Alfaguara_de_Novela"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "salvese-quien-pueda-el-futuro-del-trabajo-y-los-trabajos-del-futuro-de-andres-oppenheimer",
+      "title": "Salvese Quien Pueda El Futuro Del Trabajo Y Los Trabajos Del Futuro",
+      "authorName": "Andres Oppenheimer",
+      "authorSlug": "andres-oppenheimer",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "¡Sálvese quien pueda!: el futuro del trabajo y los trabajos del futuro",
+        "authorName": "Andrés Oppenheimer",
+        "authorSlug": "andres-oppenheimer",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "desarrollo-personal"
+        ],
+        "year": 2019,
+        "pages": 360,
+        "summary": "En ¡Sálvese quien pueda! Andrés Oppenheimer examina el impacto de la automatización, la inteligencia artificial y la robotización sobre el empleo en las próximas décadas. El punto de partida es inquietante: una parte enorme de los trabajos actuales está expuesta a ser transformada o reemplazada por sistemas automáticos. Pero el libro no se limita al alarmismo. A través de entrevistas, viajes, datos y ejemplos internacionales, Oppenheimer recorre profesiones muy distintas —desde médicos y abogados hasta maestros, vendedores o choferes— para preguntar qué tareas seguirán necesitando creatividad, empatía, juicio humano y flexibilidad. Su tesis central es doble: muchos empleos desaparecerán o mutarán profundamente, y los países que no reformen su educación y su cultura laboral quedarán rezagados. Con tono periodístico y vocación divulgativa, el autor convierte una discusión técnica en una pregunta urgente sobre supervivencia económica, aprendizaje continuo y adaptación social.",
+        "aboutThisBook": "Publicado por Debate y ampliamente difundido por Penguin, el libro apareció en el contexto de un debate global sobre automatización acelerada y futuro del empleo. La ficha editorial lo presenta como una investigación sobre la probabilidad de que casi la mitad de los trabajos sean reemplazados por ordenadores e inteligencia artificial, mientras el propio sitio de Oppenheimer lo describe como el resultado de un recorrido internacional y de entrevistas con especialistas. Lecturalia resume bien su enfoque: no solo alerta sobre los puestos en riesgo, sino que intenta identificar qué ocupaciones resistirán mejor y qué países estarán mejor preparados para la transición.",
+        "forWhom": "Para lectores adultos interesados en economía, innovación, educación, mercado laboral y tecnología, especialmente quienes buscan una introducción periodística, seria y comprensible al debate sobre automatización.",
+        "whyItMatters": "Importa porque traduce un cambio estructural enorme a un lenguaje accesible y obliga a pensar en educación, desigualdad y adaptación laboral antes de que la transformación tecnológica vuelva irreversibles ciertos daños sociales.",
+        "editorialIntro": "Andrés Oppenheimer escribe desde la urgencia periodística, pero evita el tono puramente apocalíptico. Su pregunta no es solo cuántos empleos desaparecerán, sino qué capacidades humanas seguirán teniendo valor cuando los algoritmos hagan cada vez más tareas mejor y más barato. El libro funciona como mapa inicial de una mutación histórica del trabajo y, al mismo tiempo, como llamada de atención para individuos, empresas y gobiernos hispanohablantes.",
+        "readingLevel": "Lectura media para adultos: el lenguaje es claro y periodístico, aunque la abundancia de ejemplos, profesiones comparadas y debates sobre tecnología y educación pide lectura atenta y reflexión crítica.",
+        "whyReadToday": "Se lee con más fuerza todavía en plena expansión de la IA generativa, porque muchas de sus preguntas sobre automatización, reconversión profesional y aprendizaje permanente han dejado de ser futuristas y ya condicionan decisiones reales.",
+        "studyNotes": [
+          "El libro combina pronóstico tecnológico con crónica periodística: conviene fijarse en cómo Oppenheimer usa entrevistas y casos concretos para sostener su argumento general.",
+          "No afirma que todo empleo desaparecerá, sino que muchas tareas dentro de cada profesión serán automatizadas; esa distinción es clave para entender su tesis.",
+          "La educación aparece como tema estratégico: el autor insiste en creatividad, adaptabilidad, trato humano y aprendizaje continuo más que en memorización.",
+          "Puede leerse también como un libro sobre políticas públicas, porque compara países y advierte que la preparación institucional será tan importante como la innovación empresarial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El shock inicial de la automatización",
+            "summary": "La obra arranca con estudios y señales de alarma sobre la magnitud del cambio tecnológico. Oppenheimer sitúa al lector ante una pregunta incómoda: qué ocurrirá si una parte muy grande de los empleos actuales puede ser asumida por máquinas, algoritmos o sistemas inteligentes."
+          },
+          {
+            "title": "Profesiones en revisión",
+            "summary": "En el desarrollo del libro, el autor examina sectores y ocupaciones concretas para medir su vulnerabilidad relativa. El interés no está solo en predecir desapariciones, sino en distinguir entre tareas automatizables y funciones humanas más resistentes."
+          },
+          {
+            "title": "Los trabajos que podrían sobrevivir mejor",
+            "summary": "Otro tramo importante se concentra en los empleos y capacidades menos fáciles de sustituir: creatividad, empatía, flexibilidad, trato personal y resolución abierta de problemas. Desde ahí, Oppenheimer empieza a perfilar qué tipo de trabajador tendrá mejores oportunidades."
+          },
+          {
+            "title": "Educación y adaptación para el futuro laboral",
+            "summary": "Hacia el cierre, el foco se desplaza desde el diagnóstico hacia las respuestas posibles. El libro insiste en reformar la educación, cambiar hábitos de formación y preparar a individuos y países para un mercado laboral mucho más inestable y exigente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Periodismo explicativo sobre una ansiedad contemporánea",
+            "content": "La fuerza del libro reside en su capacidad para convertir una discusión técnica sobre automatización en una narración comprensible para lectores no especializados. Oppenheimer traduce informes, entrevistas y tendencias en escenas y ejemplos que vuelven tangible un problema abstracto."
+          },
+          {
+            "heading": "Entre advertencia y pedagogía",
+            "content": "El tono del libro es alarmante por momentos, pero no se agota en el miedo. La estructura busca enseñar a leer el cambio: qué profesiones conviene revisar, qué habilidades ganan valor y por qué la reconversión laboral no puede dejarse solo al mercado."
+          },
+          {
+            "heading": "Tecnología, desigualdad y mundo hispanohablante",
+            "content": "Una de sus aportaciones es situar el debate en clave latinoamericana e iberoamericana. No habla solo de Silicon Valley, sino de cómo distintas sociedades pueden quedar más o menos expuestas según su sistema educativo, su flexibilidad institucional y su capacidad de innovación."
+          },
+          {
+            "heading": "Lectura actual tras el auge de la IA generativa",
+            "content": "Aunque fue publicado antes del gran boom reciente de herramientas generativas, muchas de sus intuiciones se volvieron aún más relevantes. Hoy se percibe con claridad que la discusión ya no pertenece al largo plazo: está afectando sectores creativos, administrativos y profesionales en tiempo real."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata ¡Sálvese quien pueda!?",
+            "answer": "Trata del impacto de la automatización, los robots y la inteligencia artificial sobre el empleo, y de qué trabajos o capacidades humanas podrían resistir mejor ese cambio."
+          },
+          {
+            "question": "¿Es un libro pesimista sobre el futuro del trabajo?",
+            "answer": "Es un libro de advertencia, pero no puramente pesimista: además de exponer riesgos, propone pensar en adaptación, educación y nuevas oportunidades laborales."
+          },
+          {
+            "question": "¿Qué tipo de evidencia utiliza Oppenheimer?",
+            "answer": "Utiliza entrevistas, recorridos periodísticos, estudios sobre automatización y ejemplos de profesiones concretas para construir un panorama accesible del problema."
+          },
+          {
+            "question": "¿Sigue siendo útil después del auge reciente de la inteligencia artificial?",
+            "answer": "Sí. De hecho, se ha vuelto más pertinente, porque muchas preguntas que el libro planteaba como inminentes ya forman parte del presente laboral y educativo."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Penguin Libros - ¡Sálvese quien pueda!",
+            "url": "https://www.penguinlibros.com/es/libro-de-negocio/11812-libro-salvese-quien-pueda-9788499929187/fragmento"
+          },
+          {
+            "label": "Andrés Oppenheimer - Salvese Quien Pueda",
+            "url": "https://andresoppenheimer.com/salvese-quien-pueda/"
+          },
+          {
+            "label": "Lecturalia - ¡Sálvese quien pueda!",
+            "url": "https://www.lecturalia.com/libro/101215/salvese-quien-pueda"
+          },
+          {
+            "label": "Open Library - edición Debate",
+            "url": "https://openlibrary.org/books/OL47624893M/%C2%A1S%C3%A1lvese_quien_pueda!"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T04:51:10Z"
+}

@@ -1,0 +1,464 @@
+{
+  "batchName": "wave-20260416a-03",
+  "createdAt": "2026-04-16T18:14:51Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-varon-domado-de-esther-villar",
+      "title": "El varón domado",
+      "authorName": "Esther Vilar",
+      "authorSlug": "esther-villar",
+      "type": "no-ficcion",
+      "audience": "adulto",
+      "genres": [
+        "ensayo"
+      ],
+      "year": 1971,
+      "pages": 176,
+      "clicks": 24,
+      "impressions": 49,
+      "priority": 1,
+      "current": {
+        "summary": "Un ensayo provocador que invierte la narrativa tradicional sobre la opresión de género: Vilar argumenta que son los hombres quienes están condicionados para servir a las mujeres, trabajar para ellas y buscar su aprobación, mientras que las mujeres disfrutan de privilegios que la sociedad no reconoce.",
+        "aboutThisBook": "Libro enormemente polémico cuando se publicó. Generó un debate público feroz, incluyendo un debate televisado entre Vilar y Simone de Beauvoir. Se lea como se lea, obliga a cuestionar suposiciones.",
+        "centralConflict": "",
+        "themes": [
+          "Género",
+          "Roles sociales",
+          "Provocación intelectual",
+          "Relaciones de poder"
+        ],
+        "keyIdeas": [
+          "Los hombres están condicionados desde niños para trabajar y proveer",
+          "La sociedad premia a las mujeres por su apariencia más que por su productividad",
+          "El sistema de roles beneficia a ambos sexos de formas no evidentes",
+          "Cuestionar el relato dominante no significa negar la desigualdad, sino complicarlo"
+        ],
+        "forWhom": "Lectores interesados en debates sobre género, sociología y provocación intelectual.",
+        "whyItMatters": "Un texto que sigue generando debate 50 años después. Importante para quien quiera entender la historia del pensamiento sobre género.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "Publicado originalmente en 1971, este ensayo de Esther Vilar propone una inversión radical de la narrativa dominante sobre las relaciones entre hombres y mujeres. Su tesis sostiene que, en las sociedades industrializadas, los hombres no ocupan simplemente una posición de poder, sino que han sido educados para trabajar, competir, exponerse al riesgo y buscar aprobación femenina dentro de un sistema de recompensas afectivas, sexuales y simbólicas. El libro examina matrimonio, trabajo, romance, crianza y prestigio social desde esa hipótesis provocadora. Más que ofrecer una demostración neutral, Vilar compone una intervención polémica, satírica y frontal, pensada para incomodar al lector y obligarlo a reconsiderar supuestos culturales muy arraigados.",
+        "aboutThisBook": "El varón domado es un ensayo breve, combativo y deliberadamente polémico. Esther Vilar, médica y ensayista germanoargentina, escribió una obra que discute de forma frontal ciertos presupuestos del feminismo de su tiempo y de la moral sentimental moderna. Su importancia histórica no reside solo en la tesis que defiende, sino también en el debate público que desató en Europa y el mundo hispano. No es un libro de sociología académica en sentido estricto, sino una pieza argumentativa de alto voltaje retórico, construida para provocar discusión sobre poder, dependencia, sexualidad, trabajo y expectativas de género.",
+        "forWhom": "Para lectores adultos interesados en historia de las ideas, estudios de género, polémicas intelectuales del siglo XX y ensayos que desafían consensos culturales con una voz incisiva.",
+        "whyItMatters": "Importa porque permite estudiar cómo se construyen las controversias culturales sobre género y poder. Incluso cuando se discrepa de sus conclusiones, el libro ilumina estrategias argumentativas, tensiones ideológicas y puntos ciegos de los debates públicos.",
+        "editorialIntro": "Pocos ensayos del siglo XX hispanoeuropeo conservan una capacidad de irritar y activar discusión como El varón domado. Leerlo hoy exige distancia crítica: no para aceptarlo como diagnóstico definitivo, sino para comprender el tipo de provocación intelectual que encarna. Vilar escribe contra lugares comunes, exagera para tensar el argumento y obliga a examinar de qué modo trabajo, deseo, reconocimiento social y dependencia material se entrelazan en la vida moderna.",
+        "readingLevel": "Adecuado para lectores adultos con soltura en ensayo polémico, ironía argumentativa y debate cultural contemporáneo.",
+        "whyReadToday": "Porque sigue siendo una referencia incómoda en discusiones sobre roles de género, trabajo emocional, prestigio social y dependencia afectiva, especialmente en una época de debates polarizados.",
+        "studyNotes": [
+          "Conviene leerlo como ensayo polémico y no como tratado empírico exhaustivo.",
+          "La fuerza del libro está tanto en su tesis como en su estrategia de inversión retórica.",
+          "Es útil contrastarlo con debates feministas y antifeministas de su momento histórico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La inversión de la tesis habitual",
+            "summary": "El libro abre planteando que la relación entre los sexos debe leerse al revés de la versión más difundida: Vilar argumenta que el hombre ha sido condicionado para producir, proteger y rendir, mientras la mujer administra recompensas afectivas y simbólicas dentro de ese sistema."
+          },
+          {
+            "title": "Parte 2: Trabajo, matrimonio y reconocimiento",
+            "summary": "La autora traslada su hipótesis al mundo del trabajo, la vida conyugal y la respetabilidad social. Sostiene que muchas obligaciones masculinas se presentan como deber natural, cuando en realidad responden a expectativas culturales que benefician a las mujeres dentro del orden doméstico y sentimental."
+          },
+          {
+            "title": "Parte 3: Sexo, emoción y crítica cultural",
+            "summary": "En la parte final, Vilar insiste en que el deseo de aprobación, el chantaje emocional y la idealización del amor funcionan como mecanismos de control. El cierre no ofrece conciliación, sino una llamada a desenmascarar convenciones que, según ella, perpetúan la subordinación masculina."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Tesis central y alcance",
+            "content": "La tesis central no consiste simplemente en afirmar que las mujeres tengan poder, sino en sostener que los hombres son socializados para servir a expectativas femeninas bajo la apariencia de libertad, romance y deber. El alcance del libro es amplio, pero su método es más ensayístico que científico, por lo que conviene distinguir entre intuición cultural, generalización polémica y evidencia empírica."
+          },
+          {
+            "heading": "Estilo, ironía y provocación",
+            "content": "Vilar utiliza una prosa aforística, provocadora y a menudo satírica. Esa elección formal explica tanto el impacto del libro como sus límites: la autora busca desmontar certezas mediante inversión, exageración y contraste. El texto funciona como artefacto polémico porque obliga a reaccionar, aunque a veces sacrifica matiz para ganar contundencia."
+          },
+          {
+            "heading": "Recepción y lectura crítica contemporánea",
+            "content": "Su recepción fue explosiva y sigue siéndolo porque toca una zona especialmente sensible: la legitimidad de los relatos sobre opresión y privilegio. Hoy puede leerse como documento de controversia cultural, como ejemplo de contracanon antifeminista y como recordatorio de que los debates sobre género no solo dependen de datos, sino también de marcos narrativos, emociones públicas y luchas por la autoridad moral."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro feminista?",
+            "answer": "No en el sentido habitual. La obra se hizo conocida precisamente por cuestionar de forma frontal las tesis feministas dominantes de su época y por invertir la idea de quién ejerce realmente el control social."
+          },
+          {
+            "question": "¿Debe leerse como sociología académica?",
+            "answer": "Conviene leerlo con cautela. Tiene interés intelectual e histórico, pero su forma principal es la del ensayo polémico, no la de una investigación académica sistemática basada en métodos empíricos exhaustivos."
+          },
+          {
+            "question": "¿Por qué sigue siendo relevante?",
+            "answer": "Porque continúa apareciendo en discusiones sobre género, trabajo emocional, matrimonio, dependencia económica y estrategias de persuasión cultural. Su vigencia reside menos en ofrecer una verdad final que en obligar a revisar supuestos."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Wikipedia: El varón domado",
+            "url": "https://es.wikipedia.org/wiki/El_var%C3%B3n_domado"
+          },
+          {
+            "label": "Wikipedia: Esther Vilar",
+            "url": "https://es.wikipedia.org/wiki/Esther_Vilar"
+          },
+          {
+            "label": "Open Library: El varón domado",
+            "url": "https://openlibrary.org/works/OL11374129W/El_varon_domado"
+          },
+          {
+            "label": "The Tamed Man (sitio oficial)",
+            "url": "https://thetamedman.com/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "papelucho-de-marcela-paz",
+      "title": "Papelucho",
+      "authorName": "Marcela Paz",
+      "authorSlug": "marcela-paz",
+      "type": "ficcion",
+      "audience": "juvenil",
+      "genres": [
+        "infantil",
+        "juvenil"
+      ],
+      "year": 1947,
+      "pages": 120,
+      "clicks": 23,
+      "impressions": 564,
+      "priority": 2,
+      "current": {
+        "summary": "El diario de un niño chileno imaginativo, ingenioso y desastroso que narra sus aventuras cotidianas con una lógica propia e irresistible. Papelucho se mete en líos, reflexiona sobre el mundo adulto y lo cuestiona todo con una mezcla de inocencia y astucia.",
+        "aboutThisBook": "Clásico absoluto de la literatura infantil chilena. Se ha reeditado ininterrumpidamente desde 1947 y forma parte del canon escolar de Chile.",
+        "centralConflict": "La distancia entre cómo un niño entiende el mundo y cómo funciona realmente.",
+        "themes": [
+          "Infancia",
+          "Imaginación",
+          "Familia",
+          "Humor",
+          "Mirada infantil del mundo adulto"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Lectores de 7 a 12 años. Imprescindible para cualquier niño hispanohablante.",
+        "whyItMatters": "Es el equivalente chileno de El pequeño Nicolás. Un clásico vivo que sigue funcionando con nuevas generaciones de lectores.",
+        "tone": "Espontáneo, divertido, tierno",
+        "escpilar": true
+      },
+      "rewritten": {
+        "summary": "Papelucho, publicado en 1947, adopta la forma de un diario íntimo escrito por un niño chileno de ocho años que observa el mundo adulto con curiosidad, lógica propia y un humor involuntario inolvidable. La novela parte de una inquietud doméstica muy concreta: Papelucho cree haber envenenado accidentalmente a Domitila, la empleada de su casa, y desde allí comienza a registrar sus pensamientos, culpas, ocurrencias y malentendidos. Lo decisivo no es solo lo que sucede, sino la voz con que se cuenta: espontánea, imaginativa, contradictoria y profundamente viva. Marcela Paz construye así un clásico de la literatura infantil hispanoamericana que convierte la vida cotidiana en aventura moral, lingüística y afectiva.",
+        "aboutThisBook": "Este libro inaugura la serie más célebre de Marcela Paz y ocupa un lugar central en la tradición infantil chilena. Su originalidad radica en haber creado una voz infantil verosímil, desobediente y reflexiva, alejada del tono aleccionador que dominaba buena parte de la literatura para niños de mediados del siglo XX. Papelucho no habla como un modelo de conducta, sino como un niño real que mezcla miedo, fantasía, ternura, egoísmo, intuición moral y una gran necesidad de comprensión. Esa combinación explica su permanencia escolar, editorial y afectiva a lo largo de generaciones de lectores.",
+        "forWhom": "Para lectores juveniles, mediadores de lectura, docentes y adultos que busquen una novela formativa breve, ingeniosa y muy útil para analizar voz narrativa, infancia y humor.",
+        "whyItMatters": "Importa porque renovó la literatura infantil en lengua española al dar prioridad a la experiencia interior del niño. Además, sigue siendo una obra excelente para estudiar cómo el humor y la oralidad pueden expresar soledad, imaginación y crítica social.",
+        "editorialIntro": "Hay clásicos infantiles que sobreviven por costumbre escolar, y otros porque conservan una energía verbal irrepetible. Papelucho pertenece claramente al segundo grupo. Marcela Paz no se limita a narrar travesuras: escucha la conciencia movediza de un niño y la transforma en literatura. El resultado es un diario que hace reír, pero también muestra desconcierto, culpa, afecto y necesidad de ser tomado en serio por el mundo adulto.",
+        "readingLevel": "Apropiado para lectores jóvenes y adultos; lenguaje accesible con riqueza expresiva, humor y observación psicológica.",
+        "whyReadToday": "Porque sigue ofreciendo una mirada fresca sobre la infancia, la vida familiar y la imaginación, y porque su voz narrativa continúa siendo una puerta privilegiada al placer de leer.",
+        "studyNotes": [
+          "La novela debe leerse atendiendo a la voz de Papelucho, no solo a los hechos narrados.",
+          "El humor surge de la distancia entre la lógica infantil y las normas adultas.",
+          "Es útil observar cómo el diario convierte la experiencia cotidiana en exploración moral y emocional."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: El inicio del diario",
+            "summary": "Papelucho comienza a escribir movido por una preocupación intensa relacionada con Domitila. Ese impulso inicial instala el tono confesional del libro y abre un espacio donde el niño intenta entender lo que ha hecho, lo que teme y lo que imagina."
+          },
+          {
+            "title": "Segunda parte: La vida cotidiana vista por un niño",
+            "summary": "A medida que avanza el diario, aparecen la familia, el colegio, los castigos, las amistades y las ocurrencias del protagonista. Lo cotidiano se vuelve extraordinario porque todo pasa por una conciencia que interpreta el mundo adulto con mezcla de ingenuidad, agudeza y desorden."
+          },
+          {
+            "title": "Tercera parte: Culpa, afecto y aprendizaje",
+            "summary": "Hacia el final, el diario revela que el verdadero centro del libro no es una aventura externa espectacular, sino la formación interior de Papelucho. Entre errores, miedos y observaciones cómicas, el niño aprende algo sobre responsabilidad, cariño y la dificultad de comprender a los demás."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La voz narrativa como hallazgo literario",
+            "content": "La gran innovación de Papelucho es su voz. Marcela Paz consigue que el diario suene a infancia sin reducirla a simple inocencia. El narrador mezcla asociaciones inesperadas, errores expresivos, observaciones penetrantes y una moral cambiante. Gracias a esa voz, el libro evita el didactismo y se vuelve creíble, entrañable y literariamente singular."
+          },
+          {
+            "heading": "Infancia, soledad y mundo adulto",
+            "content": "Aunque el libro es muy divertido, también deja ver una cierta soledad infantil. Papelucho observa a los adultos desde fuera, intenta descifrarlos y muchas veces no obtiene respuestas suficientes. Esa distancia explica su tendencia a imaginar, exagerar o sacar conclusiones extrañas. La novela retrata así la infancia como una etapa de intensidad afectiva y comprensión incompleta."
+          },
+          {
+            "heading": "Humor y crítica de las convenciones",
+            "content": "El humor no sirve solo para entretener: también permite cuestionar la rigidez adulta, las moralejas prefabricadas y las jerarquías domésticas. Papelucho desordena la normalidad con su manera de pensar, y en ese desorden el lector percibe una crítica sutil a la autoridad, a la corrección social y a cierta pedagogía basada más en la obediencia que en la escucha."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Papelucho es solo un libro de humor?",
+            "answer": "No. Aunque es muy gracioso, también aborda culpa, afecto, incomprensión, imaginación y la necesidad infantil de encontrar sentido en el mundo adulto."
+          },
+          {
+            "question": "¿Por qué se considera un clásico escolar en Chile?",
+            "answer": "Porque unió calidad literaria, cercanía con la experiencia infantil y una voz narrativa memorable. Su permanencia se explica por lectura real, no solo por prestigio institucional."
+          },
+          {
+            "question": "¿Se puede leer sin conocer el resto de la serie?",
+            "answer": "Sí. Este primer libro funciona por sí mismo y presenta de manera suficiente al personaje, su universo familiar y el tono diarístico que haría famosa a toda la serie."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Memoria Chilena: Papelucho",
+            "url": "https://www.memoriachilena.gob.cl/602/w3-article-95888.html"
+          },
+          {
+            "label": "Sitio oficial Papelucho",
+            "url": "https://www.papelucho.cl/"
+          },
+          {
+            "label": "Wikipedia: Papelucho",
+            "url": "https://es.wikipedia.org/wiki/Papelucho"
+          },
+          {
+            "label": "Open Library: Papelucho",
+            "url": "https://openlibrary.org/works/OL3791252W/Papelucho"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pantalones-cortos-de-lara-rios",
+      "title": "Pantalones cortos",
+      "authorName": "Lara Ríos",
+      "authorSlug": "lara-rios",
+      "type": "ficcion",
+      "audience": "juvenil",
+      "genres": [
+        "juvenil"
+      ],
+      "year": 1981,
+      "pages": 100,
+      "clicks": 23,
+      "impressions": 218,
+      "priority": 3,
+      "current": {
+        "summary": "Un niño costarricense vive una infancia marcada por las aventuras cotidianas, los descubrimientos y los pequeños dramas que forjan la personalidad. Una novela de crecimiento contada desde la mirada de un chico que empieza a entender que el mundo es más complejo de lo que parece.",
+        "aboutThisBook": "Clásico de la literatura infantil y juvenil costarricense. Lectura obligatoria en muchos centros de Costa Rica y Centroamérica.",
+        "centralConflict": "Crecer y dejar atrás la inocencia mientras se descubren las contradicciones del mundo adulto.",
+        "themes": [
+          "Infancia",
+          "Crecimiento",
+          "Identidad",
+          "Familia",
+          "Sociedad"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Estudiantes de primaria y secundaria en Centroamérica. Lectores interesados en literatura latinoamericana.",
+        "whyItMatters": "Texto escolar fundamental en Costa Rica, con relevancia en todo Centroamérica.",
+        "tone": "Cálido, nostálgico, cercano",
+        "escpilar": true
+      },
+      "rewritten": {
+        "summary": "Pantalones cortos es una novela juvenil breve construida desde la mirada de un niño que registra su mundo con mezcla de humor, curiosidad y desconcierto. La obra, descrita en Open Library como el diario de un niño, se apoya en escenas cotidianas de familia, escuela y descubrimiento personal para mostrar cómo la infancia empieza a perder su aparente simplicidad. Sin recurrir a grandes aventuras, Lara Ríos convierte los pequeños conflictos, los cambios de sensibilidad y la observación del entorno en materia narrativa. El resultado es un relato de crecimiento donde la voz infantil permite captar, con candor y realismo, el paso desde la ingenuidad hacia una comprensión más compleja de los afectos, la autoridad y la identidad.",
+        "aboutThisBook": "Publicada en los años iniciales de la trayectoria narrativa de Lara Ríos, seudónimo de Marilyn Echeverría de Sauter, esta obra ocupa un lugar importante dentro de la literatura infantil y juvenil costarricense. Las fuentes bibliográficas consultadas coinciden en destacar su forma diarística y su tono realista, cercano a la experiencia común de muchos lectores jóvenes. Además de su valor literario, el libro suele considerarse representativo de una línea narrativa centroamericana que dignifica la vida diaria de la niñez y convierte lo aparentemente menor en experiencia formativa. Su permanencia en circuitos escolares y de lectura guiada se explica por esa combinación de accesibilidad, sensibilidad y observación social.",
+        "forWhom": "Para estudiantes de últimos cursos de primaria y primeros de secundaria, mediadores de lectura, docentes y lectores interesados en clásicos juveniles centroamericanos sobre infancia, escuela y formación personal.",
+        "whyItMatters": "Importa porque ofrece una representación verosímil de la niñez sin idealizarla por completo. Muestra que crecer implica aprender a leer las contradicciones del mundo adulto, y lo hace desde una voz narrativa cercana que favorece la identificación y la discusión en el aula.",
+        "editorialIntro": "Leída hoy, Pantalones cortos conserva el atractivo de las novelas que parecen sencillas y en realidad están muy bien observadas. Lara Ríos no necesita una trama espectacular: le basta la perspectiva de un niño para revelar el valor emocional de la familia, la escuela, la vergüenza, el deseo de pertenecer y las primeras señales de cambio interior. Su fuerza está en esa naturalidad.",
+        "readingLevel": "Accesible para lectores juveniles, pero con suficientes matices emocionales y culturales para trabajo escolar guiado.",
+        "whyReadToday": "Porque sigue siendo una puerta de entrada eficaz a la literatura juvenil centroamericana y a la reflexión sobre cómo la infancia interpreta el mundo antes de la adolescencia plena.",
+        "studyNotes": [
+          "Conviene atender a la forma de diario o relato cercano a la confidencia, porque organiza la intimidad del protagonista.",
+          "La novela gana profundidad si se observa cómo los episodios cotidianos producen aprendizaje moral y emocional.",
+          "Es útil comparar la mirada infantil con las conductas adultas que el narrador percibe sin comprender del todo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La voz del niño y su mundo inmediato",
+            "summary": "El libro presenta una perspectiva infantil que observa con espontaneidad la casa, la escuela y las rutinas diarias. Desde ese comienzo se establece una narración íntima, marcada por la curiosidad y por la necesidad de entender lo que ocurre alrededor."
+          },
+          {
+            "title": "Parte 2: Vida cotidiana, conflictos y descubrimientos",
+            "summary": "Las experiencias ordinarias adquieren importancia formativa. Las relaciones familiares, los pequeños roces, las expectativas escolares y las emociones cambiantes van mostrando que la infancia no es un territorio completamente inocente ni estable."
+          },
+          {
+            "title": "Parte 3: Crecer y mirar distinto",
+            "summary": "Hacia la parte final pesa menos la anécdota aislada y más la transformación interior del protagonista. El niño empieza a reconocer tensiones, límites y contradicciones, señal de que está dejando atrás una visión simple del mundo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La infancia como experiencia compleja",
+            "content": "Uno de los aciertos de la novela es presentar la infancia sin sentimentalismo excesivo. El protagonista no vive hazañas extraordinarias, pero sí un proceso intenso de percepción y aprendizaje. Eso permite que el lector identifique el crecimiento en detalles mínimos: una decepción, una duda, una conversación o una incomodidad nueva."
+          },
+          {
+            "heading": "El valor de la mirada cotidiana",
+            "content": "La obra convierte lo cotidiano en materia literaria. Familia, escuela y entorno social no aparecen como simples decorados, sino como espacios donde se forman la identidad y la sensibilidad. Esa elección estética explica su vigencia escolar: el libro enseña que la literatura también puede surgir de la experiencia común."
+          },
+          {
+            "heading": "Diario, memoria y formación",
+            "content": "La estructura asociada al diario refuerza la impresión de cercanía y sinceridad. Más que una crónica objetiva, el texto propone una memoria emocional de la niñez. Por eso interesa no solo lo que ocurre, sino cómo el niño lo interpreta y cómo esa interpretación va cambiando."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Pantalones cortos?",
+            "answer": "Trata del crecimiento de un niño que observa su entorno familiar y escolar mientras empieza a comprender que la vida es más ambigua y compleja de lo que parecía en la primera infancia."
+          },
+          {
+            "question": "¿Por qué se considera un libro importante en Costa Rica?",
+            "answer": "Porque forma parte del canon juvenil costarricense y se asocia a una literatura cercana a la experiencia infantil local, escrita con claridad, realismo y sensibilidad formativa."
+          },
+          {
+            "question": "¿Es una novela de acción o de introspección?",
+            "answer": "Predomina la introspección. Aunque hay episodios y vivencias concretas, el núcleo del libro está en cómo el protagonista registra y asimila esos hechos cotidianos."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Open Library — edición de Pantalones cortos",
+            "url": "https://openlibrary.org/books/OL13067926M/Pantalones_cortos"
+          },
+          {
+            "label": "Editorial Costa Rica (archivo) — ficha de autora Lara Ríos",
+            "url": "https://web.archive.org/web/20160805004121/http://editorialcostarica.com/escritores.cfm?detalle=1169"
+          },
+          {
+            "label": "Academia Costarricense de la Lengua (archivo) — Marilyn Echeverría de Sauter, Silla A",
+            "url": "https://web.archive.org/web/20160331182618/http://www.acl.ac.cr/n_a.php?mes"
+          },
+          {
+            "label": "Wikipedia — Lara Ríos",
+            "url": "https://es.wikipedia.org/wiki/Lara_R%C3%ADos"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ninfa-rota-de-alfredo-gomez-cerda",
+      "title": "Ninfa rota",
+      "authorName": "Alfredo Gómez Cerdá",
+      "authorSlug": "alfredo-gomez-cerda",
+      "type": "ficcion",
+      "audience": "juvenil",
+      "genres": [
+        "juvenil"
+      ],
+      "year": 2019,
+      "pages": 176,
+      "clicks": 23,
+      "impressions": 111,
+      "priority": 4,
+      "current": {
+        "summary": "La historia de una adolescente que vive una relación de pareja que poco a poco se vuelve tóxica. Lo que parecía amor se transforma en control, manipulación y violencia. Una novela necesaria sobre la violencia de género en la adolescencia.",
+        "aboutThisBook": "Gómez Cerdá aborda un tema urgente con sensibilidad y sin sensacionalismo. El libro se ha convertido en herramienta educativa en muchos centros.",
+        "centralConflict": "",
+        "themes": [
+          "Violencia de género",
+          "Relaciones tóxicas",
+          "Adolescencia",
+          "Autoestima",
+          "Liberación"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Adolescentes y educadores. Lectura recomendada para prevención de violencia de género.",
+        "whyItMatters": "Aborda la violencia de género adolescente de forma accesible. Muy usado como recurso educativo.",
+        "tone": "Directo, emotivo, necesario",
+        "escpilar": true
+      },
+      "rewritten": {
+        "summary": "Ninfa rota narra, en primera persona, la experiencia de Marina, una adolescente atrapada en una relación marcada por control, manipulación y violencia psicológica. Alfredo Gómez Cerdá construye el relato como una escritura de reconstrucción: la protagonista intenta contar lo ocurrido por recomendación terapéutica, mientras pesadillas con ninfas y faunos traducen simbólicamente su miedo y su dependencia emocional. La novela sigue el progresivo aislamiento de Marina, la invasión de su intimidad digital, la presión sobre sus amistades y la dificultad de reconocer el maltrato cuando se confunde con amor. Sin caer en el sensacionalismo, el libro muestra cómo opera la violencia en edades tempranas y por qué salir de ella exige apoyo, lenguaje y conciencia crítica.",
+        "aboutThisBook": "Publicada por Anaya Infantil y Juvenil y distinguida con el XVI Premio Anaya de Literatura Infantil y Juvenil, la novela fue además reconocida por la Fundación Cuatrogatos y seleccionada en White Ravens 2020. Su relevancia no procede solo del tema, sino de la forma elegida para contarlo: Gómez Cerdá mezcla narración, diálogo casi teatral y simbolismo mitológico para representar la lógica del abuso y la fractura interior de la víctima. La guía de lectura editorial subraya que el fondo del libro es la incapacidad para apartarse de aquello que hace daño. Por eso funciona a la vez como obra literaria y como texto útil para mediación escolar, educación afectiva y prevención de la violencia de género.",
+        "forWhom": "Para lectores adolescentes desde secundaria, profesorado, orientadores, familias y clubes de lectura que quieran abordar relaciones tóxicas, control digital, dependencia afectiva y educación emocional con apoyo literario riguroso.",
+        "whyItMatters": "Importa porque nombra mecanismos de maltrato que a menudo se normalizan entre adolescentes: vigilancia, chantaje, aislamiento, humillación y confusión entre posesión y amor. Su enfoque permite debatir prevención, consentimiento, autoestima y redes de apoyo sin trivializar el sufrimiento.",
+        "editorialIntro": "Ninfa rota destaca entre las novelas juveniles recientes por su capacidad de convertir un asunto urgente en experiencia literaria intensa. Alfredo Gómez Cerdá no sermonea: deja que la voz quebrada de Marina muestre desde dentro cómo se instala el dominio, cómo la víctima justifica lo injustificable y cómo el lenguaje simbólico de las pesadillas revela lo que todavía no puede decir con claridad.",
+        "readingLevel": "Adecuado para adolescentes desde 14 años, con lectura guiada especialmente provechosa por su densidad emocional.",
+        "whyReadToday": "Porque sigue siendo una herramienta poderosa para identificar señales tempranas de abuso en relaciones juveniles y para discutir cómo la cultura romántica puede encubrir conductas de control.",
+        "studyNotes": [
+          "Conviene seguir la relación entre las pesadillas mitológicas y la experiencia real de Marina, porque allí se representa simbólicamente el miedo.",
+          "La novela permite analizar cómo el control se ejerce también mediante redes sociales, contraseñas, mensajes y vigilancia constante.",
+          "Es importante observar que la dificultad de romper la relación no se explica por debilidad simple, sino por dependencia afectiva, manipulación y culpa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Pesadillas, memoria y escritura",
+            "summary": "Marina comienza a escribir lo que ha vivido mientras sus sueños de ninfas y faunos revelan angustia, encierro y desorientación. Desde el inicio queda claro que la narración será un intento de entender una experiencia traumática."
+          },
+          {
+            "title": "Parte 2: Control, aislamiento y dependencia",
+            "summary": "La relación con Eugenio se define por la invasión de la intimidad, la exigencia de pruebas de obediencia y la separación progresiva respecto de amistades y espacios propios. Marina justifica lo que ocurre incluso cuando ya siente miedo y humillación."
+          },
+          {
+            "title": "Parte 3: Ruptura, apoyo y comprensión del daño",
+            "summary": "La protagonista empieza a reencontrarse con su entorno, aunque de manera inestable y dolorosa. El proceso de reconocer la violencia no es lineal, pero la novela abre un camino hacia la conciencia crítica y la posibilidad de salir del círculo del maltrato."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Violencia psicológica en clave juvenil",
+            "content": "La novela es valiosa porque muestra que la violencia no empieza necesariamente con el golpe, sino con formas de control que pueden parecer pruebas de amor. Revisión del móvil, celos, chantaje emocional y aislamiento aparecen como parte de una escalada perfectamente reconocible."
+          },
+          {
+            "heading": "Símbolo y realismo",
+            "content": "El motivo de la ninfa y el fauno no es un adorno. Sirve para dramatizar la relación desigual entre fascinación, miedo y dominación. Esa capa simbólica convive con un realismo muy concreto sobre instituto, amistades, mensajería y vida familiar, lo que vuelve la lectura especialmente eficaz."
+          },
+          {
+            "heading": "La dificultad de salir del daño",
+            "content": "Uno de los puntos más sólidos del libro es que evita simplificar la pregunta de por qué la víctima no se va antes. Marina no ignora del todo lo que ocurre, pero está atrapada por la culpa, la esperanza de cambio y la dependencia emocional. El texto ayuda a comprender ese proceso sin culpabilizarla."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Quién protagoniza Ninfa rota?",
+            "answer": "La protagonista es Marina, una adolescente que reconstruye por escrito su relación con Eugenio y el daño emocional que esa relación le ha producido."
+          },
+          {
+            "question": "¿Qué tipo de violencia aborda la novela?",
+            "answer": "Principalmente violencia psicológica y de control en una relación adolescente, aunque también muestra amenazas, humillación, presión sexual, vigilancia y agresión física en la escalada del maltrato."
+          },
+          {
+            "question": "¿Es adecuada para trabajarla en clase?",
+            "answer": "Sí. De hecho, por su claridad narrativa y la existencia de materiales didácticos editoriales, resulta especialmente útil para secundaria y bachillerato en contextos de tutoría, literatura o educación en igualdad."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Anaya Infantil y Juvenil — ficha del libro Ninfa rota",
+            "url": "https://www.anayainfantilyjuvenil.com/libro/premio-anaya-juvenil/ninfa-rota/"
+          },
+          {
+            "label": "Grupo Anaya — proyecto de lectura de Ninfa rota (PDF)",
+            "url": "https://recursos.grupoanaya.es/catalogos/proyectos_lectura/IJ00663501_9999966239.pdf"
+          },
+          {
+            "label": "Open Library — edición de Ninfa rota",
+            "url": "https://openlibrary.org/books/OL30104961M/Ninfa_rota"
+          },
+          {
+            "label": "Wikipedia — Alfredo Gómez Cerdá",
+            "url": "https://es.wikipedia.org/wiki/Alfredo_G%C3%B3mez_Cerd%C3%A1"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-16T19:21:54Z"
+}

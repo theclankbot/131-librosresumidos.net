@@ -1,0 +1,1500 @@
+{
+  "batchName": "replenish-20260419T070016Z",
+  "createdAt": "2026-04-19T07:00:17Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-secreto-de-sus-ojos-de-eduardo-sacheri",
+      "title": "El Secreto De Sus Ojos",
+      "authorName": "Eduardo Sacheri",
+      "authorSlug": "eduardo-sacheri",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La pregunta de sus ojos",
+        "authorName": "Eduardo Sacheri",
+        "authorSlug": "eduardo-sacheri",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2005,
+        "pages": 320,
+        "summary": "La pregunta de sus ojos es una novela policial y emocional construida desde la memoria, la obsesión y la imposibilidad de cerrar ciertas heridas. Benjamín Chaparro, empleado judicial ya jubilado, decide escribir sobre un viejo caso de violación y asesinato que lo marcó durante décadas. Al volver sobre el expediente, revive no solo la investigación y la figura del asesino, sino también el clima político y moral de una Argentina atravesada por violencia, burocracia e impunidad. La búsqueda de justicia se mezcla con otra pesquisa más íntima: la de sus propios afectos, especialmente su vínculo contenido con Irene. Sacheri combina intriga criminal, reflexión sobre el paso del tiempo y una pregunta insistente por aquello que los ojos revelan cuando las palabras callan. El resultado no es solo un thriller, sino una novela sobre deseo, duelo, castigo y memoria.",
+        "aboutThisBook": "Publicada por Alfaguara y luego reeditada con enorme visibilidad tras el éxito de la adaptación cinematográfica El secreto de sus ojos, esta fue la primera novela de Eduardo Sacheri y una de las obras que consolidaron su reconocimiento fuera del cuento. Su interés radica en la manera en que funde procedimientos del policial con una sensibilidad melancólica muy argentina: archivos judiciales, lealtades truncas, violencia política de fondo y una historia de amor suspendida durante años. Aunque el film popularizó el universo narrativo, la novela conserva un ritmo y una interioridad propios, más atentos al trabajo de la memoria y a la textura moral del relato.",
+        "forWhom": "Para lectores adultos interesados en novela policial con espesor emocional, memoria histórica, dilemas de justicia y relaciones afectivas atravesadas por el tiempo.",
+        "whyItMatters": "Importa porque muestra que el policial puede ser, al mismo tiempo, una indagación sobre el crimen y una exploración del deseo, la culpa y la impunidad. Además, ocupa un lugar central en la narrativa argentina reciente por el diálogo fértil que estableció entre literatura y cine.",
+        "editorialIntro": "Muchos lectores llegan a este libro por la fama de la película, pero la novela merece leerse por cuenta propia. Sacheri no se limita a narrar un caso: examina cómo un crimen se incrusta en la conciencia de quienes lo investigan y cómo el paso de los años no resuelve aquello que queda moralmente abierto. Su mayor fuerza está en esa mezcla de pesquisa, melancolía y observación del detalle humano.",
+        "readingLevel": "Lectura media para adultos. El lenguaje es claro, pero la novela exige atención a los saltos temporales, a la voz retrospectiva del narrador y a la tensión entre trama policial, contexto histórico y dimensión sentimental.",
+        "whyReadToday": "Porque sigue dialogando con debates muy actuales sobre justicia tardía, violencia contra las mujeres, memoria institucional e impunidad, sin renunciar a la potencia narrativa del suspenso.",
+        "studyNotes": [
+          "Conviene leer la novela distinguiendo dos investigaciones paralelas: la del crimen y la de la propia vida emocional de Chaparro.",
+          "El texto trabaja la memoria como reconstrucción incompleta: recordar no equivale a recuperar intacto el pasado, sino a reinterpretarlo.",
+          "La relación entre expediente judicial y narración literaria es clave: Sacheri transforma papeles, testimonios y silencios en materia novelesca.",
+          "La comparación con la película resulta útil para ver qué cambia cuando la historia se vuelve más introspectiva y menos dependiente del golpe visual."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Tramo inicial: el caso vuelve a abrirse en la memoria",
+            "summary": "Benjamín Chaparro, ya retirado, se propone escribir sobre un crimen ocurrido años atrás. Ese gesto de escritura reabre la investigación y activa un viaje hacia los recuerdos, donde aparecen el expediente, la víctima, el entorno judicial y la huella emocional que el caso dejó en él."
+          },
+          {
+            "title": "Parte media: pesquisa, obsesión e impunidad",
+            "summary": "A medida que el relato avanza, la investigación del asesino revela tanto errores burocráticos como formas más profundas de desprotección e injusticia. La novela intensifica la tensión policial mientras muestra cómo la obsesión por esclarecer el caso afecta a quienes lo persiguen."
+          },
+          {
+            "title": "Momentos clave: Irene, el tiempo y lo no dicho",
+            "summary": "En paralelo al caso judicial, se vuelve cada vez más visible la historia afectiva entre Chaparro e Irene. Sus encuentros, silencios y vacilaciones convierten la novela en una meditación sobre el amor aplazado y sobre las decisiones que el tiempo endurece."
+          },
+          {
+            "title": "Cierre: justicia, castigo y zona moral incierta",
+            "summary": "El desenlace no ofrece un alivio simple, sino una reflexión incómoda sobre lo que significa hacer justicia cuando el sistema fracasa. La resolución del caso obliga a pensar en los límites entre ley, venganza, reparación y condena íntima."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Policial, melodrama y novela de memoria",
+            "content": "La singularidad del libro está en su mezcla de registros. Hay una investigación criminal reconocible, pero también una historia amorosa contenida y una reconstrucción retrospectiva del pasado. Esa combinación ensancha el género policial y lo vuelve un instrumento para pensar el tiempo y la pérdida."
+          },
+          {
+            "heading": "La justicia como problema narrativo y moral",
+            "content": "Sacheri no presenta la justicia como una maquinaria confiable, sino como un campo de fisuras donde intervienen burocracia, oportunismo político y dolor privado. La novela obliga a distinguir entre verdad judicial, castigo efectivo y reparación moral, que no siempre coinciden."
+          },
+          {
+            "heading": "El peso de lo no dicho",
+            "content": "Tanto en la pesquisa como en la vida amorosa de Chaparro, lo decisivo suele aparecer en silencios, miradas, rodeos o demoras. De ahí el valor del título: los ojos funcionan como archivo afectivo y como indicio de verdades que la palabra no termina de formular."
+          },
+          {
+            "heading": "Argentina reciente como telón de fondo",
+            "content": "Sin convertirse en novela histórica en sentido estricto, el libro se apoya en una atmósfera de violencia e inestabilidad institucional que da espesor al relato. El crimen individual se lee así dentro de un país donde las estructuras de protección y justicia aparecen dañadas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El libro se llama La pregunta de sus ojos o El secreto de sus ojos?",
+            "answer": "El título original de la novela es La pregunta de sus ojos. Tras el éxito de la película basada en ella, circularon reediciones asociadas al título El secreto de sus ojos, pero la obra literaria nació con el primer nombre."
+          },
+          {
+            "question": "¿Es solo una novela policial?",
+            "answer": "No. Aunque parte de una investigación criminal, también es una novela sobre memoria, amor aplazado, burocracia judicial e impunidad. Su interés está precisamente en cómo desborda el policial clásico."
+          },
+          {
+            "question": "¿Hace falta ver la película para entenderla?",
+            "answer": "No hace falta. La novela funciona de manera autónoma y ofrece una experiencia más introspectiva, con mayor desarrollo de la voz narrativa y del trabajo de la memoria."
+          },
+          {
+            "question": "¿Por qué sigue siendo una obra relevante?",
+            "answer": "Porque articula con gran eficacia suspenso, reflexión moral y contexto social, y porque plantea preguntas duraderas sobre justicia, violencia y aquello que el tiempo no logra clausurar."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: La pregunta de sus ojos",
+            "url": "https://es.wikipedia.org/wiki/La_pregunta_de_sus_ojos"
+          },
+          {
+            "label": "Penguin Libros México: La pregunta de sus ojos",
+            "url": "https://www.penguinlibros.com/mx/novela-negra-misterio-y-thriller/371716-libro-la-pregunta-de-sus-ojos-9786073856058"
+          },
+          {
+            "label": "Archive.org: La pregunta de sus ojos",
+            "url": "https://archive.org/details/lapreguntadesuso0000sach"
+          },
+          {
+            "label": "Google Books: La pregunta de sus ojos",
+            "url": "https://books.google.es/books/about/La_pregunta_de_sus_ojos.html?id=GehpYYzQU8UC&redir_esc=y"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-spleen-de-paris-de-charles-baudelaire",
+      "title": "El Spleen De Paris",
+      "authorName": "Charles Baudelaire",
+      "authorSlug": "charles-baudelaire",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El spleen de París",
+        "authorName": "Charles Baudelaire",
+        "authorSlug": "charles-baudelaire",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "poesia"
+        ],
+        "year": 1869,
+        "pages": null,
+        "summary": "El spleen de París, también conocido como Pequeños poemas en prosa, es un libro decisivo para entender la modernidad literaria. En lugar de contar una sola historia lineal, reúne cincuenta piezas breves donde Baudelaire observa la ciudad, la multitud, la pobreza, el deseo, el hastío, la violencia cotidiana y los cambios de sensibilidad de la vida urbana. Cada poema funciona como un destello: a veces relato mínimo, a veces escena alegórica, a veces meditación moral o visión satírica. Lo que los une es una mirada que convierte París en laboratorio espiritual de lo moderno. Frente a la armonía clásica o al lirismo elevado, Baudelaire busca una forma más flexible, capaz de captar lo fragmentario, lo fugaz y lo contradictorio. El libro no elimina la poesía: la desplaza hacia la prosa para mostrar que la belleza y la inquietud también habitan la calle, el barro y la multitud.",
+        "aboutThisBook": "Publicado póstumamente en 1869 y asociado al título francés Le Spleen de Paris, este volumen prolonga y transforma preocupaciones ya presentes en Las flores del mal. Si allí Baudelaire había llevado la lírica a una intensidad extrema, aquí ensaya una escritura más móvil, híbrida y urbana. El propio subtítulo, Petits poèmes en prose, anuncia una apuesta formal clave: demostrar que la prosa puede asumir funciones poéticas sin dejar de mirar de frente la vida moderna. El libro es central no solo por sus temas, sino por su influencia posterior en la poesía en prosa, el simbolismo y muchas formas de escritura fragmentaria que marcaron la literatura del siglo XX.",
+        "forWhom": "Para lectores adultos de poesía, estudiantes de literatura moderna y quienes quieran entender cómo la experiencia urbana transformó las formas clásicas del lirismo.",
+        "whyItMatters": "Importa porque ayudó a legitimar el poema en prosa como forma mayor y porque convirtió la ciudad moderna en materia poética de primer orden. Su influencia se extiende a simbolistas, vanguardias y a buena parte de la sensibilidad literaria contemporánea.",
+        "editorialIntro": "Leer El spleen de París es entrar en una modernidad todavía incómoda. Baudelaire observa la ciudad sin idealizarla y encuentra poesía allí donde antes parecía haber solo ruido, suciedad, velocidad o anonimato. Esa operación estética cambió la literatura: desde este libro, la prosa breve pudo ser también intensidad lírica, pensamiento crítico y radiografía moral de la vida urbana.",
+        "readingLevel": "Lectura media-alta. Los textos son breves, pero concentran ironía, alusiones, cambios de tono y una sensibilidad simbólica que exige releer y atender tanto a la imagen como a la idea.",
+        "whyReadToday": "Porque muchas de sus intuiciones sobre alienación, espectáculo urbano, desigualdad y vida fragmentada siguen describiendo con lucidez la experiencia contemporánea de la ciudad.",
+        "studyNotes": [
+          "El libro no debe leerse como una narración continua, sino como una constelación de escenas y meditaciones enlazadas por una sensibilidad común.",
+          "La noción de spleen no remite solo a tristeza: implica hastío, malestar, cansancio moral y percepción aguda de la fractura moderna.",
+          "Baudelaire toma la prosa para intensificar la movilidad de la mirada urbana; esa elección formal es tan importante como los temas del libro.",
+          "Compararlo con Las flores del mal ayuda a ver qué se mantiene y qué cambia cuando el lirismo abandona el verso y entra en la calle."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Tramo inicial: la ciudad como escenario moral",
+            "summary": "Los primeros poemas en prosa fijan una mirada urbana donde el paseo, la observación y el encuentro fortuito revelan desigualdad, violencia y extrañeza. París aparece como espacio vivo y cambiante, nunca como simple decorado."
+          },
+          {
+            "title": "Parte media: figuras del deseo, del hastío y de la multitud",
+            "summary": "En el centro del libro se intensifica la exploración de personajes marginales, impulsos contradictorios y escenas de fascinación o repulsión. El yo poético se mueve entre compasión, sarcasmo, cansancio y deseo de absoluto."
+          },
+          {
+            "title": "Momentos clave: parábola, sátira y visión",
+            "summary": "Varios textos combinan miniatura narrativa y reflexión filosófica. Baudelaire transforma episodios mínimos en alegorías sobre el dinero, el arte, el mal, la belleza y la degradación de la experiencia moderna."
+          },
+          {
+            "title": "Cierre abierto: fragmentos de una modernidad sin reposo",
+            "summary": "El libro no culmina en una síntesis tranquilizadora. Más bien deja al lector en un estado de percepción dispersa, como si la ciudad continuara fuera de la página y la poesía apenas pudiera recoger sus relámpagos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El poema en prosa como invención moderna",
+            "content": "Baudelaire no usa la prosa por comodidad, sino para captar movimientos de conciencia y escenas urbanas que el verso tradicional podía volver demasiado solemnes o rígidas. Esa libertad formal abrió un camino decisivo para la literatura moderna."
+          },
+          {
+            "heading": "París y la experiencia de la multitud",
+            "content": "La ciudad es mucho más que un fondo geográfico: es una máquina de percepción. En ella el sujeto moderno se dispersa, se excita, se fatiga y se enfrenta al anonimato. El libro vuelve poética esa experiencia ambigua de inmersión y pérdida."
+          },
+          {
+            "heading": "Belleza, miseria y choque moral",
+            "content": "Uno de los rasgos más fuertes del volumen es su negativa a separar lo bello de lo bajo. Baudelaire trabaja con mendigos, escaparates, animales, transeúntes, humillaciones y visiones repentinas para mostrar que la modernidad mezcla fascinación estética y degradación social."
+          },
+          {
+            "heading": "De la lírica clásica a la sensibilidad simbolista",
+            "content": "El spleen de París anticipa procedimientos que luego desarrollarán simbolistas y vanguardias: fragmentación, sugerencia, intensidad de la imagen y desplazamiento del poema hacia formas híbridas. Su legado se percibe tanto en la poesía como en la prosa breve del siglo XX."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El spleen de París es un poemario o un libro de relatos?",
+            "answer": "Es un libro de poemas en prosa. Algunas piezas tienen apariencia de relato breve o parábola, pero su organización y su intensidad responden a una lógica poética antes que narrativa convencional."
+          },
+          {
+            "question": "¿Qué significa “spleen” en este contexto?",
+            "answer": "Designa un estado de hastío, malestar y fatiga espiritual muy característico de Baudelaire. No es simple tristeza: incluye desajuste con el mundo moderno, lucidez amarga y sensación de vacío."
+          },
+          {
+            "question": "¿Hace falta leer Las flores del mal antes?",
+            "answer": "No es imprescindible, aunque ayuda. El spleen de París puede leerse por sí solo, pero compararlo con Las flores del mal permite apreciar mejor la continuidad de temas y la innovación formal del poema en prosa."
+          },
+          {
+            "question": "¿Por qué se considera un libro tan influyente?",
+            "answer": "Porque convirtió la prosa breve en un vehículo legítimo de poesía moderna y porque formuló una manera nueva de mirar la ciudad, la multitud y la vida cotidiana como materiales poéticos centrales."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Le Spleen de Paris",
+            "url": "https://en.wikipedia.org/wiki/Le_Spleen_de_Paris"
+          },
+          {
+            "label": "Gallica (Bibliothèque nationale de France): Le spleen de Paris ou Les cinquante petits poèmes en prose",
+            "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6472260p"
+          },
+          {
+            "label": "Poetry in Translation: Baudelaire, Le Spleen de Paris",
+            "url": "https://www.poetryintranslation.com/PITBR/French/BaudelaireSpleen.php"
+          },
+          {
+            "label": "Project MUSE: Paris Spleen",
+            "url": "https://muse.jhu.edu/book/425/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-tiempo-de-las-moscas-de-claudia-pineiro",
+      "title": "El Tiempo De Las Moscas",
+      "authorName": "Claudia Pineiro",
+      "authorSlug": "claudia-pineiro",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El tiempo de las moscas",
+        "authorName": "Claudia Piñeiro",
+        "authorSlug": "claudia-pineiro",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2022,
+        "pages": 408,
+        "summary": "El tiempo de las moscas retoma a Inés, la protagonista de Tuya, muchos años después de la historia que la llevó a prisión. Ya en libertad, intenta rehacer su vida y montar un pequeño emprendimiento doméstico, pero el pasado no desaparece y el presente la devuelve a una zona de amenazas, engaños y violencias que conoce demasiado bien. Claudia Piñeiro convierte ese punto de partida en una novela negra de respiración contemporánea, donde la intriga se enlaza con cuestiones de género, dinero, maternidad, amistad y supervivencia. La narración avanza con suspenso, ironía y una notable atención a los mecanismos sociales que empujan a ciertas mujeres a moverse en los márgenes de la ley. Más que contar solo un nuevo delito, la novela examina qué significa intentar vivir después del castigo y cómo persisten las marcas del abuso, la humillación y la desigualdad.",
+        "aboutThisBook": "Presentada por Penguin Random House como el regreso de Inés, la recordada protagonista de Tuya, esta novela confirma una de las líneas más fértiles de Piñeiro: usar el crimen para leer el funcionamiento moral de la vida cotidiana. El libro dialoga con la tradición del policial, pero la desplaza hacia un territorio donde importan tanto la tensión narrativa como la crítica de las relaciones de poder, el lugar social de las mujeres y las economías precarias del presente. Su recepción destacó precisamente esa combinación de ritmo, humor ácido y mirada social. En continuidad con otras obras de la autora, el suspenso nunca es puro mecanismo: está al servicio de una radiografía incómoda de la sociedad argentina contemporánea.",
+        "forWhom": "Para lectores adultos de novela negra contemporánea, especialmente quienes buscan tramas tensas con perspectiva de género, crítica social y personajes moralmente complejos.",
+        "whyItMatters": "Importa porque muestra cómo el policial actual puede narrar delitos y, a la vez, iluminar estructuras de abuso, desigualdad y vulnerabilidad. Además, reafirma la capacidad de Piñeiro para cruzar entretenimiento narrativo con observación social incisiva.",
+        "editorialIntro": "Claudia Piñeiro lleva años demostrando que la novela negra puede ser una herramienta de lectura social sin perder eficacia narrativa. En El tiempo de las moscas vuelve sobre un personaje previo para preguntarse qué ocurre después de la condena, de la vergüenza pública y de la violencia íntima. Esa decisión le permite escribir un thriller tenso, sí, pero también una novela sobre segundas oportunidades muy frágiles y sobre los sistemas que vuelven a empujar a ciertas vidas hacia el borde.",
+        "readingLevel": "Lectura media para adultos. La prosa es ágil y accesible, pero la novela gana profundidad cuando se atiende a sus capas de ironía, a los vínculos entre pasado y presente y a su lectura social del crimen.",
+        "whyReadToday": "Porque aborda con gran claridad problemas muy vigentes: violencia de género, precariedad, estafas emocionales, castigo social y la dificultad real de recomponer una vida después del encierro.",
+        "studyNotes": [
+          "La novela dialoga de forma explícita con Tuya; leer ambas permite ver la evolución de Inés y el modo en que Piñeiro reabre un personaje desde otro momento vital.",
+          "El policial funciona aquí como estructura de tensión, pero el centro temático está en las redes de dependencia, abuso y supervivencia que condicionan a las protagonistas.",
+          "La amistad femenina y las alianzas prácticas cumplen un papel decisivo frente a instituciones insuficientes o directamente hostiles.",
+          "El humor y la ironía no alivian el conflicto: lo vuelven más incisivo al mostrar la normalización cotidiana de la violencia y del engaño."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Tramo inicial: salir de la cárcel no equivale a empezar de cero",
+            "summary": "La novela presenta a Inés en libertad, empeñada en reconstruir una rutina y encontrar una forma de sustento. Sin embargo, muy pronto se advierte que el pasado sigue activo y que las condiciones materiales y afectivas de su presente vuelven precario cualquier intento de normalidad."
+          },
+          {
+            "title": "Parte media: nuevas alianzas, nuevas amenazas",
+            "summary": "A medida que la trama avanza, Inés entra en contacto con otras mujeres y con situaciones donde la confianza, la necesidad y el riesgo se mezclan. El relato despliega su maquinaria de thriller mientras muestra cómo los vínculos pueden ser refugio o trampa."
+          },
+          {
+            "title": "Momentos clave: dinero, abuso y cálculo moral",
+            "summary": "El centro de la novela examina maniobras, engaños y presiones que obligan a las protagonistas a tomar decisiones en zonas grises. Piñeiro evita la moral simplista y se concentra en los condicionamientos sociales y emocionales que rodean cada elección."
+          },
+          {
+            "title": "Cierre: sobrevivir también es una forma de juicio",
+            "summary": "Hacia el final, la novela intensifica el suspenso y reordena el sentido de varios hechos previos. Más que una resolución cerrada, deja una reflexión amarga sobre quién paga realmente los costos de la violencia y quién logra narrar su propia versión de los hechos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El regreso de Inés como operación literaria",
+            "content": "Retomar a la protagonista de Tuya no es un gesto nostálgico, sino una manera de explorar qué queda de una mujer después del crimen, del juicio y de la cárcel. La novela se instala en ese después, poco frecuentado por el policial clásico, para examinar identidad, estigma y reinvención."
+          },
+          {
+            "heading": "Novela negra con perspectiva de género",
+            "content": "Piñeiro usa recursos del thriller, pero desplaza el foco hacia experiencias femeninas marcadas por manipulación, desprotección y violencia cotidiana. El delito no aparece como excepción espectacular, sino como prolongación de relaciones sociales ya dañadas."
+          },
+          {
+            "heading": "Economía doméstica, precariedad y delito",
+            "content": "Una de las fuerzas del libro está en mostrar cómo el dinero, la dependencia económica y la fragilidad laboral moldean las decisiones. La intriga criminal gana espesor porque nace de necesidades concretas, no de una abstracción moral."
+          },
+          {
+            "heading": "Humor ácido y crítica social",
+            "content": "La autora combina tensión con ironía, una marca muy reconocible de su obra. Ese humor no banaliza la violencia; al contrario, permite señalar con más nitidez las hipocresías sociales, los dobles discursos y las formas ordinarias del abuso."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta leer Tuya antes de El tiempo de las moscas?",
+            "answer": "No es imprescindible, pero sí recomendable. La novela puede leerse sola, aunque conocer Tuya permite apreciar mejor la trayectoria de Inés y el peso de su pasado en esta nueva etapa."
+          },
+          {
+            "question": "¿Es un policial clásico?",
+            "answer": "No del todo. Tiene tensión, crimen e intriga, pero su interés principal está en la crítica social, la perspectiva de género y la construcción moral de sus personajes, más que en el enigma puro."
+          },
+          {
+            "question": "¿Qué temas centrales trabaja la novela?",
+            "answer": "Trabaja la reinserción después de la cárcel, la violencia de género, la precariedad económica, las lealtades entre mujeres y los costos íntimos del abuso y de la manipulación."
+          },
+          {
+            "question": "¿Por qué se considera una novela relevante dentro de la obra de Piñeiro?",
+            "answer": "Porque recupera un personaje previo para llevarlo a una etapa distinta y, al hacerlo, muestra la madurez de una autora capaz de unir thriller, observación social y perspectiva crítica sobre el presente argentino."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Penguin Libros Argentina: El tiempo de las moscas",
+            "url": "https://www.penguinlibros.com/ar/literatura-contemporanea/312285-libro-el-tiempo-de-las-moscas-9789877389753"
+          },
+          {
+            "label": "Casa del Libro: El tiempo de las moscas",
+            "url": "https://www.casadellibro.com/libro-el-tiempo-de-las-moscas/9788420473666/13296629"
+          },
+          {
+            "label": "Wikipedia: Claudia Piñeiro",
+            "url": "https://es.wikipedia.org/wiki/Claudia_Pi%C3%B1eiro"
+          },
+          {
+            "label": "Lecturalia: El tiempo de las moscas",
+            "url": "https://www.lecturalia.com/libro/109269/el-tiempo-de-las-moscas"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-viaje-del-profesor-caritat-o-las-desventuras-de-la-razon-de-steven-lukes",
+      "title": "El Viaje Del Profesor Caritat O Las Desventuras De La Razon",
+      "authorName": "Steven Lukes",
+      "authorSlug": "steven-lukes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El viaje del profesor Caritat o las desventuras de la razón",
+        "authorName": "Steven Lukes",
+        "authorSlug": "steven-lukes",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 1995,
+        "pages": 288,
+        "summary": "Esta novela de Steven Lukes convierte la historia de las ideas políticas modernas en una aventura satírica. El profesor Nicholas Caritat, especialista en la Ilustración, vive en Militaria, un régimen autoritario que lo obliga a huir y a emprender una búsqueda insólita: encontrar el mejor de los mundos posibles. A partir de esa premisa, el libro recorre sociedades imaginarias organizadas según doctrinas llevadas al extremo, como el utilitarismo, el comunitarismo o el libertarismo. Lukes no escribe un tratado disfrazado de ficción, sino una fábula intelectual con humor, ironía y voluntad polémica. Cada etapa del viaje confronta principios nobles con sus consecuencias inesperadas, y muestra cómo los ideales racionales pueden deformarse cuando se vuelven absolutos. El resultado es una novela ágil, conceptualmente ambiciosa y muy útil para pensar el destino moderno de la razón política.",
+        "aboutThisBook": "Publicada originalmente en inglés como The Curious Enlightenment of Professor Caritat: A Comedy of Ideas, la obra apareció en Verso en 1995 y fue leída de inmediato como una combinación poco común de novela de tesis, sátira filosófica y homenaje paródico a Candide. La edición en español difundió el libro como una fábula moral e intelectual. Lukes, sociólogo y teórico político, aprovecha su conocimiento de la tradición ilustrada para dramatizar debates sobre libertad, utilidad, comunidad, igualdad y poder. No se limita a resumir doctrinas: muestra cómo las ideas cambian cuando se convierten en forma de vida, ley o sistema de gobierno.",
+        "forWhom": "Para lectores adultos, estudiantes de filosofía política, sociología y humanidades, y para quienes disfrutan novelas satíricas que discuten ideas sin perder ritmo narrativo.",
+        "whyItMatters": "Importa porque logra algo raro: volver narrables y memorables debates abstractos sobre la modernidad política. La novela recuerda que las ideas no solo convencen; también organizan instituciones, producen exclusiones y generan efectos no previstos.",
+        "editorialIntro": "Steven Lukes escribió una novela que puede leerse como aventura, como sátira y como examen de conciencia de la tradición ilustrada. El viaje del profesor Caritat toma doctrinas célebres de la filosofía política moderna y las convierte en países imaginarios, situaciones absurdas y pruebas morales. Esa estrategia vuelve visible algo decisivo: incluso los ideales más razonables pueden endurecerse, burocratizarse o volverse inhumanos cuando se aplican sin matices.",
+        "readingLevel": "Lectura media-alta. La prosa narrativa es fluida, pero se disfruta mucho más si el lector reconoce debates sobre Ilustración, utilitarismo, libertad, igualdad y comunidad.",
+        "whyReadToday": "Porque sigue siendo una forma brillante de revisar, con humor y distancia crítica, los lenguajes políticos que todavía ordenan nuestras discusiones públicas.",
+        "studyNotes": [
+          "La novela dialoga abiertamente con Candide: el viaje filosófico sirve para poner a prueba doctrinas optimistas y sistemas que prometen racionalidad universal.",
+          "Cada país visitado funciona como experimento mental narrativo; conviene leerlos como caricaturas analíticas y no como descripciones realistas de corrientes complejas.",
+          "El libro es útil en cursos de teoría política porque dramatiza tensiones entre libertad individual, bienestar agregado, identidad comunitaria e igualdad.",
+          "El humor no rebaja la seriedad del argumento: al contrario, permite mostrar cómo un ideal puede degradarse cuando se vuelve dogma institucional."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Militaria y el comienzo de la misión",
+            "summary": "La historia arranca en un régimen autoritario donde el profesor Caritat descubre que la neutralidad académica no lo protege del poder. Su fuga y el encargo de buscar el mejor mundo posible convierten la especulación filosófica en una misión concreta y peligrosa."
+          },
+          {
+            "title": "Las utopías políticas puestas a prueba",
+            "summary": "En el tramo central, Caritat atraviesa sociedades modeladas por doctrinas modernas llevadas al extremo. Lo que parecía razonable en el plano teórico empieza a mostrar costos humanos, paradojas prácticas y formas nuevas de opresión."
+          },
+          {
+            "title": "La crisis del optimismo ilustrado",
+            "summary": "A medida que avanza el viaje, el protagonista comprende que no existe una fórmula simple para producir la mejor sociedad posible. La razón sigue siendo necesaria, pero ya no puede presentarse como garantía automática de justicia o felicidad."
+          },
+          {
+            "title": "Sátira, desencanto y aprendizaje final",
+            "summary": "El cierre no ofrece una utopía triunfante, sino una maduración intelectual. Caritat aprende a desconfiar tanto del cinismo como de los sistemas perfectos, y el lector queda invitado a pensar políticamente sin rendirse al dogmatismo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela de ideas en clave satírica",
+            "content": "Lukes no expone argumentos en forma académica, sino que encarna doctrinas en paisajes, leyes, costumbres y conflictos. Esa decisión permite que el lector perciba la distancia entre una teoría elegante y su aplicación social, lo que vuelve la sátira especialmente eficaz."
+          },
+          {
+            "heading": "La herencia de la Ilustración bajo examen",
+            "content": "El libro no rechaza la razón ilustrada, pero tampoco la idealiza. Más bien pregunta qué ocurre cuando la aspiración a ordenar el mundo racionalmente ignora contingencias, afectos, desigualdades reales o límites históricos de cualquier diseño político."
+          },
+          {
+            "heading": "Caritat como antiheroína del pensamiento abstracto",
+            "content": "El protagonista es un intelectual honesto, algo ingenuo, que debe abandonar la comodidad de la teoría pura. Su recorrido dramatiza el paso desde la abstracción hacia la experiencia, y convierte el aprendizaje político en aprendizaje moral."
+          },
+          {
+            "heading": "Vigencia del libro en el presente",
+            "content": "La novela sigue viva porque hoy también convivimos con lenguajes políticos absolutos, promesas totalizantes y modelos presentados como solución final. Lukes recuerda que el pensamiento democrático necesita crítica, autolimitación y sentido de lo humano."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un ensayo de filosofía política?",
+            "answer": "Es una novela satírica, pero construida sobre debates reales de filosofía política. Puede leerse como ficción autónoma y también como introducción crítica a varias doctrinas modernas."
+          },
+          {
+            "question": "¿Por qué suele compararse con Candide?",
+            "answer": "Porque comparte con Voltaire la estructura del viaje, el protagonista ingenuo y la puesta a prueba de sistemas optimistas. Lukes actualiza ese modelo para discutir ideologías contemporáneas."
+          },
+          {
+            "question": "¿Hace falta formación previa para entenderla?",
+            "answer": "No estrictamente. La trama funciona por sí sola, aunque conocer algo de Ilustración, utilitarismo o liberalismo aumenta mucho el interés de sus guiños y contrastes."
+          },
+          {
+            "question": "¿El libro defiende alguna doctrina política concreta?",
+            "answer": "Más que defender una receta cerrada, cuestiona los absolutismos doctrinarios. Su apuesta de fondo parece ser una racionalidad crítica, plural y consciente de sus propios límites."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Verso Books: The Curious Enlightenment of Professor Caritat",
+            "url": "https://www.versobooks.com/products/1518-the-curious-enlightenment-of-professor-caritat"
+          },
+          {
+            "label": "Planeta de Libros / Tusquets: El viaje del profesor Caritat",
+            "url": "https://www.planetadelibros.com/libro-el-viaje-del-profesor-caritat/88374"
+          },
+          {
+            "label": "Google Books: The Curious Enlightenment of Professor Caritat",
+            "url": "https://books.google.com/books/about/The_Curious_Enlightenment_of_Professor_C.html?id=WEmY3rKuqNsC"
+          },
+          {
+            "label": "Publishers Weekly: The Curious Enlightenment of Professor Caritat",
+            "url": "https://www.publishersweekly.com/9781859849484"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-zoo-humano-de-desmond-morris",
+      "title": "El Zoo Humano",
+      "authorName": "Desmond Morris",
+      "authorSlug": "desmond-morris",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El zoo humano",
+        "authorName": "Desmond Morris",
+        "authorSlug": "desmond-morris",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1969,
+        "pages": 272,
+        "summary": "En este libro Desmond Morris examina la vida urbana contemporánea a partir de una analogía provocadora: los seres humanos de las grandes ciudades se parecen, en muchos comportamientos, a animales mantenidos en cautiverio. Su tesis no dice que la civilización nos vuelva literalmente bestias, sino que ciertas condiciones de hacinamiento, anonimato, estrés y sobreestimulación producen respuestas desviadas respecto de nuestro equipamiento biológico. Morris analiza agresión, jerarquía, territorialidad, sexualidad, crianza, rituales y conductas compensatorias para mostrar cómo la “supertribu” urbana altera equilibrios que en comunidades pequeñas eran más manejables. El libro combina etología, observación cultural y especulación sociológica con un tono claro y polémico. Algunas hipótesis hoy exigen lectura crítica, pero la obra sigue siendo influyente por su capacidad de relacionar cuerpo, entorno, presión social y vida moderna en una misma imagen interpretativa.",
+        "aboutThisBook": "Publicado originalmente en 1969, The Human Zoo prolonga la línea de divulgación que hizo célebre a Morris tras El mono desnudo. Varias ediciones posteriores, como las de Penguin y Kodansha, lo presentan como un estudio clásico del “animal urbano”. El autor traslada al espacio humano herramientas de la observación zoológica y se pregunta qué pasa cuando una especie adaptada a grupos relativamente pequeños vive en megalópolis impersonales, burocráticas y densamente regladas. El libro fue leído tanto como ensayo de conducta humana como intervención cultural sobre violencia, ansiedad, anonimato y vida metropolitana.",
+        "forWhom": "Para lectores adultos interesados en comportamiento humano, sociología de la vida urbana, divulgación científica y libros que conectan biología, cultura y organización social.",
+        "whyItMatters": "Sigue importando porque instaló una metáfora poderosa para pensar la ciudad moderna: la del hábitat artificial que multiplica estrés, exhibición y conductas compensatorias. Incluso cuando se discuten sus simplificaciones, su marco comparativo continúa siendo fértil.",
+        "editorialIntro": "Desmond Morris fue uno de los divulgadores que mejor supo transformar observaciones biológicas en preguntas incómodas sobre la cultura. En El zoo humano mira la ciudad no como culminación serena del progreso, sino como un entorno de tensión permanente donde el animal humano improvisa adaptaciones, rituales y desahogos. El libro conserva interés porque obliga a pensar la modernidad desde el cuerpo, desde el espacio y desde los límites de nuestra sociabilidad heredada.",
+        "readingLevel": "Lectura media. El estilo es directo y ensayístico, accesible para público general, aunque conviene leerlo críticamente por sus generalizaciones biológicas y por el contexto intelectual en que fue escrito.",
+        "whyReadToday": "Porque en tiempos de hiperurbanización, ansiedad social y debate sobre salud mental urbana, su pregunta central sigue siendo muy reconocible: qué nos hace la ciudad cuando deja de ser escala humana.",
+        "studyNotes": [
+          "La idea de “zoo humano” es una metáfora analítica: Morris compara el entorno urbano con condiciones de cautiverio para explicar estrés, agresión y conductas desviadas.",
+          "Conviene distinguir entre observaciones sugestivas y afirmaciones más discutibles; el libro gana cuando se lee junto con sociología urbana y estudios contemporáneos de comportamiento.",
+          "El concepto de “supertribu” ayuda a pensar la distancia entre la escala biológica de los grupos humanos primarios y la complejidad anónima de la gran ciudad.",
+          "No es solo un libro sobre violencia: también trata sexualidad, crianza, estatus, territorialidad, rituales y formas de compensación simbólica en la vida moderna."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La ciudad como hábitat artificial",
+            "summary": "El libro parte de la hipótesis de que la gran urbe modifica profundamente la conducta humana. Morris describe la vida metropolitana como un entorno de densidad y presión que exige adaptaciones continuas."
+          },
+          {
+            "title": "La supertribu y el estrés social",
+            "summary": "En la sección central se desarrolla la idea de que los seres humanos pasan de grupos manejables a conglomerados masivos y anónimos. Ese salto altera vínculos, jerarquías, respuestas agresivas y mecanismos de reconocimiento."
+          },
+          {
+            "title": "Conductas compensatorias en la vida urbana",
+            "summary": "Morris analiza cómo aparecen rituales, escapes simbólicos, exhibiciones de estatus y formas de descarga frente a la presión del entorno. La ciudad no solo reprime: también produce comportamientos sustitutivos y espectaculares."
+          },
+          {
+            "title": "Biología, cultura y límites de la adaptación",
+            "summary": "El cierre insiste en que la civilización no ha cancelado nuestra herencia animal. Más bien ha creado escenarios donde esa herencia se reorganiza con dificultad, generando tensiones entre diseño urbano, instituciones y necesidades básicas de sociabilidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La fuerza de la metáfora zoológica",
+            "content": "La comparación entre ciudadanos y animales cautivos es deliberadamente incómoda. Su potencia reside en obligar al lector a mirar fenómenos urbanos corrientes —agresión, ansiedad, hacinamiento, ritualización— como respuestas adaptativas a un medio que no siempre favorece el equilibrio humano."
+          },
+          {
+            "heading": "Biología y cultura en tensión",
+            "content": "Morris interpreta la ciudad como un escenario donde impulsos antiguos y estructuras modernas chocan constantemente. Esa tensión explica buena parte del atractivo del libro, aunque también marca su principal zona de debate: hasta qué punto la conducta humana puede explicarse mediante analogías etológicas."
+          },
+          {
+            "heading": "Una crítica temprana de la vida metropolitana",
+            "content": "Antes de muchos debates actuales sobre estrés urbano, salud mental y diseño de ciudades, Morris ya proponía que el ambiente construido tiene efectos profundos sobre conducta y bienestar. El libro puede releerse como una advertencia temprana sobre la desproporción entre la escala de nuestras ciudades y la escala de nuestras necesidades relacionales."
+          },
+          {
+            "heading": "Qué sigue siendo útil y qué conviene revisar",
+            "content": "Hoy resultan especialmente útiles sus intuiciones sobre densidad, anonimato y rituales de compensación. En cambio, varias generalizaciones sobre sexo, agresión o naturaleza humana piden una lectura históricamente situada y contrastada con investigación posterior."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El libro sostiene que los humanos son solo animales enjaulados?",
+            "answer": "No en sentido literal. Morris usa esa analogía para explicar cómo ciertos entornos artificiales generan estrés, agresión y conductas extrañas, igual que ocurre con animales bajo presión en cautiverio."
+          },
+          {
+            "question": "¿Es un libro de biología o de sociología?",
+            "answer": "Es un ensayo híbrido de divulgación que mezcla etología, observación cultural y reflexión social. Justamente su interés y su controversia nacen de ese cruce disciplinario."
+          },
+          {
+            "question": "¿Qué significa la idea de “supertribu”?",
+            "answer": "Se refiere a las enormes agrupaciones humanas de la vida urbana moderna, muy distintas de los grupos pequeños en los que se formó buena parte de nuestra sociabilidad básica."
+          },
+          {
+            "question": "¿Sigue siendo útil leerlo hoy?",
+            "answer": "Sí, sobre todo como texto provocador para pensar ciudad, cuerpo y comportamiento. Conviene, eso sí, leerlo críticamente y complementarlo con estudios más recientes."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Penguin Books UK: The Human Zoo",
+            "url": "https://www.penguin.co.uk/books/358758/the-human-zoo-by-morrisdesmond/9780099482116"
+          },
+          {
+            "label": "Penguin Random House: The Human Zoo",
+            "url": "https://www.penguinrandomhouse.com/books/643344/the-human-zoo-by-desmond-morris/"
+          },
+          {
+            "label": "Google Books: The Human Zoo",
+            "url": "https://books.google.com/books/about/The_human_zoo.html?id=0DhIAAAAMAAJ"
+          },
+          {
+            "label": "Google Books: The Human Zoo, A Zoologist's Classic Study of the Urban Animal",
+            "url": "https://books.google.com/books/about/The_Human_Zoo.html?id=lai4XCPhMcYC"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fabula-de-polifemo-y-galatea-de-luis-de-gongora",
+      "title": "Fabula De Polifemo Y Galatea De Luis",
+      "authorName": "Gongora",
+      "authorSlug": "gongora",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Fábula de Polifemo y Galatea",
+        "authorName": "Luis de Góngora",
+        "authorSlug": "luis-de-gongora",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "poesia",
+          "clasicos"
+        ],
+        "year": 1612,
+        "pages": null,
+        "summary": "La Fábula de Polifemo y Galatea es uno de los poemas mayores del Barroco español y una pieza central de la poesía gongorina. En 63 octavas reales, Góngora reelabora el mito clásico del cíclope Polifemo, enamorado de la ninfa Galatea, que a su vez ama al joven Acis. El poema narra ese triángulo amoroso y su desenlace trágico, pero su grandeza no reside solo en la anécdota. Góngora transforma el relato en una exhibición de música verbal, densidad sensorial, metáforas audaces y dominio extremo del color, la luz, el paisaje y la sintaxis. La Sicilia mítica aparece como escenario de deseo, abundancia y violencia, y el monstruo mismo queda dotado de una intensidad lírica inesperada. Más que contar simplemente una historia, el poema convierte la materia mitológica en un laboratorio del lenguaje poético y en una cima del culteranismo.",
+        "aboutThisBook": "Compuesta hacia 1612, la obra suele considerarse una de las creaciones capitales de Góngora y, para muchos críticos, el poema mitológico más perfecto de la lírica barroca en español. La Biblioteca Nacional de España la presenta como una de sus piezas centrales y destaca sus 63 octavas reales; la edición de Cátedra, preparada por Jesús Ponce Cárdenas, la define además como un ejemplo sobresaliente del epyllion, es decir, del poema épico breve de asunto mitológico. La tradición moderna la lee tanto por su perfección formal como por su papel decisivo en la renovación de la poesía del Siglo de Oro.",
+        "forWhom": "Para lectores universitarios, estudiantes de literatura española, amantes de la poesía clásica y quienes quieran enfrentarse a un texto barroco de enorme riqueza verbal y simbólica.",
+        "whyItMatters": "Importa porque marca un punto de inflexión en la poesía en español: lleva la elaboración metafórica, la musicalidad y la ambición formal a un nivel extraordinario. Además, convirtió el mito clásico en campo de experimentación estética de primer orden.",
+        "editorialIntro": "Leer el Polifemo de Góngora es entrar en una de las grandes máquinas verbales de la literatura española. El poema no pide solo seguir una trama mítica, sino atender a cómo el lenguaje produce brillo, espesor, extrañeza y sensualidad. Su fama no depende únicamente de la dificultad, sino de la intensidad con que reorganiza una historia conocida para volverla nueva, deslumbrante y a veces inquietante.",
+        "readingLevel": "Lectura alta. El poema exige paciencia con la sintaxis barroca, el léxico culto, la mitología clásica y la condensación metafórica, aunque una buena edición anotada facilita muchísimo la experiencia.",
+        "whyReadToday": "Porque sigue siendo una prueba decisiva de hasta dónde puede llegar la poesía cuando convierte el lenguaje en experiencia sensorial, intelectual y crítica al mismo tiempo.",
+        "studyNotes": [
+          "La obra está escrita en 63 octavas reales; esa regularidad métrica convive con una gran complejidad sintáctica y con imágenes de notable densidad.",
+          "Conviene leer el poema junto al mito clásico de Acis, Galatea y Polifemo para medir cuánto transforma Góngora la materia heredada mediante su estilo.",
+          "El texto puede estudiarse como culminación del culteranismo, pero también como exploración del deseo, de la belleza y de la monstruosidad en clave barroca.",
+          "Las ediciones comentadas son casi indispensables: muchas de sus dificultades proceden no de oscuridad gratuita, sino de una extrema concentración expresiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Invocación y paisaje siciliano",
+            "summary": "El poema abre con una dedicación cortesana y con la construcción del espacio mítico donde transcurrirá la acción. Sicilia aparece como escenario de esplendor natural, sensualidad y abundancia verbal."
+          },
+          {
+            "title": "Galatea y la figura del deseo idealizado",
+            "summary": "En el desarrollo inicial, Góngora presenta la belleza de Galatea y el mundo pastoril que la rodea. La ninfa no es solo personaje narrativo, sino centro radiante de comparaciones, colores y armonías."
+          },
+          {
+            "title": "El canto de Polifemo y el conflicto amoroso",
+            "summary": "Uno de los núcleos del poema es la aparición del cíclope amante, cuya voz mezcla rusticidad, desmesura y verdadera intensidad lírica. Allí se establece con claridad la tensión entre el deseo de Polifemo y el amor correspondido entre Acis y Galatea."
+          },
+          {
+            "title": "Celos, violencia y desenlace trágico",
+            "summary": "La parte final acelera la acción: el monstruo descubre a los amantes y descarga su furia sobre Acis. La tragedia clausura el relato, pero deja abierta la perduración poética del mito."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El culteranismo en su máxima intensidad",
+            "content": "El Polifemo suele leerse como uno de los ejemplos más acabados del estilo gongorino: hipérbaton extremo, metáforas complejas, léxico selecto y una búsqueda constante de brillo sensorial. Esa densidad no es mero adorno; forma parte de la experiencia estética central del poema."
+          },
+          {
+            "heading": "Mito clásico y renovación barroca",
+            "content": "Góngora parte de una historia antigua conocida, pero la transforma radicalmente mediante su tratamiento verbal. El mito deja de ser simple argumento heredado y se vuelve un espacio para experimentar con formas, ritmos, perspectivas y contrastes entre belleza y monstruosidad."
+          },
+          {
+            "heading": "La musicalidad de las octavas reales",
+            "content": "La regularidad métrica de la octava real organiza el poema con una firmeza casi arquitectónica. Sobre ese marco, Góngora despliega una música verbal que explica por qué incluso los lectores que tropiezan con la sintaxis siguen percibiendo su enorme fuerza sonora."
+          },
+          {
+            "heading": "Deseo, naturaleza y violencia",
+            "content": "Bajo el virtuosismo formal, el poema presenta una historia intensa sobre deseo no correspondido, armonía pastoril y violencia súbita. Esa mezcla entre belleza extrema y destrucción repentina es una de las claves de su energía barroca."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata la Fábula de Polifemo y Galatea?",
+            "answer": "Relata el amor del cíclope Polifemo por la ninfa Galatea, enamorada a su vez de Acis, y el desenlace trágico que provoca la furia celosa del monstruo."
+          },
+          {
+            "question": "¿Por qué se considera un poema tan importante?",
+            "answer": "Porque es una de las cimas de la poesía barroca en español y una demostración extraordinaria de la capacidad de Góngora para renovar el mito clásico mediante lenguaje, música e imagen."
+          },
+          {
+            "question": "¿Es imprescindible leerlo con notas?",
+            "answer": "En la mayoría de los casos, sí. Las referencias mitológicas, la sintaxis compleja y el vocabulario culto hacen muy recomendable una edición anotada."
+          },
+          {
+            "question": "¿Es solo un poema difícil o también emocionante?",
+            "answer": "Es ambas cosas. Su dificultad formal es real, pero también lo es su intensidad sensual, su potencia musical y la fuerza trágica del conflicto entre amor, belleza y violencia."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Fábula de Polifemo y Galatea",
+            "url": "https://www.cervantesvirtual.com/obra-visor/fabula-de-polifemo-y-galatea--0/html/fedcc184-82b1-11df-acc7-002185ce6064_2.html"
+          },
+          {
+            "label": "Biblioteca Nacional de España: exposición sobre el Polifemo",
+            "url": "https://www.bne.es/es/Micrositios/Exposiciones/Gongora/Exposicion/Seccion3/sub2/"
+          },
+          {
+            "label": "Ediciones Cátedra: Fábula de Polifemo y Galatea",
+            "url": "https://catedra.com/libro/letras-hispanicas/fabula-de-polifemo-y-galatea-luis-de-gongora-9788437626680/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fabulas-de-robots-de-stanislaw-lem",
+      "title": "Fabulas De Robots",
+      "authorName": "Stanislaw Lem",
+      "authorSlug": "stanislaw-lem",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Fábulas de robots",
+        "authorName": "Stanisław Lem",
+        "authorSlug": "stanislaw-lem",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ciencia-ficcion",
+          "clasicos",
+          "fantasia"
+        ],
+        "year": 1964,
+        "pages": 200,
+        "summary": "Fábulas de robots es un libro de relatos en el que Stanisław Lem traslada la lógica del cuento maravilloso a un universo enteramente mecánico. En lugar de príncipes, dragones y hechiceros, aparecen constructores, reyes cibernéticos, princesas autómatas, ladrones eléctricos y criaturas de silicio; pero la materia de fondo sigue siendo profundamente humana. Cada historia funciona como fábula, sátira y experimento intelectual a la vez. Lem imagina reinos gobernados por la técnica para burlarse del poder, la vanidad, la guerra, la codicia y la fe ciega en la inteligencia calculadora. El resultado no es una simple colección humorística: es una pieza central de la ciencia ficción filosófica europea, capaz de ser lúdica y corrosiva al mismo tiempo.",
+        "aboutThisBook": "Publicado originalmente en polaco en 1964 con el título Bajki robotów, este volumen ocupa un lugar importante dentro de la obra de Lem porque muestra su faceta más juguetona sin abandonar la especulación filosófica. Muchos de sus cuentos dialogan con la tradición de la fábula, el cuento de hadas y la sátira ilustrada, pero sustituyen la materia orgánica por circuitos, engranajes y matemática. En español ha circulado en distintas ediciones, y la recuperación reciente de Impedimenta ha vuelto a ponerlo en primer plano como una puerta de entrada muy accesible a uno de los autores fundamentales de la ciencia ficción del siglo XX.",
+        "forWhom": "Para lectores de ciencia ficción clásica, humor intelectual y literatura fantástica satírica; también para quien quiera entrar en Lem por una vía más breve y menos abstracta que Solaris.",
+        "whyItMatters": "Sigue importando porque demuestra que la ciencia ficción puede pensar con humor. Lem usa mundos de robots para discutir asuntos muy viejos —el abuso del poder, los límites de la razón, la estupidez bélica, la ambición— y lo hace con una imaginación verbal que todavía se siente fresca.",
+        "editorialIntro": "No conviene dejarse engañar por el título ni por el aire de cuento mecánico. Fábulas de robots es un libro festivo, sí, pero también una formidable máquina de ironía. Lem convierte el repertorio de la fantasía tradicional en una comedia cibernética donde todo parece brillante, exagerado y absurdo para examinar mejor aquello que en la historia humana nunca deja de repetirse: soberbia, violencia, credulidad y deseo de dominio.",
+        "readingLevel": "Lectura media. Los cuentos se leen con fluidez, pero su humor verbal, sus juegos conceptuales y su trasfondo satírico se disfrutan más cuando el lector acepta dobles sentidos y capas filosóficas.",
+        "whyReadToday": "Porque anticipa debates actuales sobre tecnología, automatización y confianza excesiva en sistemas inteligentes, pero los aborda con imaginación literaria y no como simple advertencia futurista.",
+        "studyNotes": [
+          "El libro mezcla estructuras del cuento maravilloso con imaginarios de ciencia ficción: esa combinación es clave para entender su singularidad.",
+          "Los robots de Lem no eliminan los defectos humanos; al contrario, los exageran y los vuelven más visibles en clave satírica.",
+          "Conviene leer cada relato como una variación moral e intelectual, no solo como una anécdota ingeniosa o un divertimento fantástico.",
+          "La comicidad verbal y la invención léxica forman parte del sentido: Lem piensa a través del lenguaje, no solo a través de la trama."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Apertura: reinos mecánicos y lógica de fábula",
+            "summary": "Los primeros relatos fijan el tono del libro: princesas autómatas, monarcas cibernéticos y criaturas artificiales ocupan el lugar de los personajes tradicionales del cuento. Desde ese desplazamiento, Lem instala una sátira sobre jerarquías, supersticiones y aparatos de poder."
+          },
+          {
+            "title": "Núcleo satírico: inventores, desafíos y desmesura",
+            "summary": "En la zona central aparecen historias donde la inteligencia técnica se vuelve instrumento de competición, vanidad o desastre. Los constructores y sabios de este universo diseñan soluciones prodigiosas que a menudo revelan que el problema real no es la máquina, sino la ambición de quien la usa."
+          },
+          {
+            "title": "Cierre: ironía moral y alcance filosófico",
+            "summary": "Hacia el final, el libro confirma que sus relatos no pretenden solo divertir. Cada fábula deja una pregunta sobre conocimiento, violencia, autoridad o deseo, y muestra que el brillo de la ingeniería no corrige por sí mismo la ceguera moral."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Cuento de hadas convertido en ciencia ficción",
+            "content": "La operación más brillante del libro consiste en trasladar la sintaxis del cuento tradicional a un cosmos de autómatas. Lem no reemplaza simplemente castillos por laboratorios: usa esa mezcla para mostrar que la fantasía tecnológica puede reproducir las mismas pasiones, miedos y abusos que las monarquías fabulosas de siempre."
+          },
+          {
+            "heading": "Sátira del poder y de la razón arrogante",
+            "content": "Bajo la comicidad, Fábulas de robots es una crítica persistente a las élites convencidas de que dominar la técnica equivale a dominar la realidad. Reyes, inventores y sabios aparecen como figuras de una inteligencia sin prudencia, fascinada por el cálculo pero incapaz de corregir su propia desmesura."
+          },
+          {
+            "heading": "El lugar del libro dentro de Lem",
+            "content": "Quien conozca al autor por novelas más graves descubrirá aquí una veta menos solemne pero igual de exigente. Este libro resume muchas de sus obsesiones —los límites del conocimiento, la comicidad de la civilización, la fragilidad de la razón— en un formato breve, brillante y muy accesible."
+          },
+          {
+            "heading": "Vigencia contemporánea",
+            "content": "Hoy el libro gana una lectura nueva porque sus robots ya no pertenecen solo a la fantasía. En plena conversación sobre algoritmos, automatización e inteligencia artificial, Lem recuerda que ningún avance técnico elimina por arte de magia la codicia, la necedad ni la irresponsabilidad humana."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Fábulas de robots es una novela o un libro de cuentos?",
+            "answer": "Es un volumen de relatos conectados por un mismo universo imaginario. Se lee como colección de fábulas satíricas y filosóficas, no como una novela lineal."
+          },
+          {
+            "question": "¿Hace falta ser lector habitual de ciencia ficción para disfrutarlo?",
+            "answer": "No necesariamente. Ayuda conocer el género, pero el libro funciona muy bien para lectores de humor literario, fantasía y sátira, porque sus cuentos son breves, inventivos y conceptualmente claros."
+          },
+          {
+            "question": "¿Es un libro infantil por llamarse “fábulas”?",
+            "answer": "No en sentido estricto. Tiene encanto lúdico y puede leerlo un lector joven avanzado, pero su ironía, su experimentación verbal y su fondo filosófico lo acercan más a un público adulto o juvenil muy lector."
+          },
+          {
+            "question": "¿Qué lo diferencia de otros libros de Lem?",
+            "answer": "Su tono más juguetón. Aquí Lem trabaja con miniaturas satíricas y estructuras de cuento, en lugar de desarrollar una sola gran especulación novelística como en Solaris o El congreso de futurología."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Fábulas de robots",
+            "url": "https://es.wikipedia.org/wiki/F%C3%A1bulas_de_robots"
+          },
+          {
+            "label": "Página oficial de Stanisław Lem: Fábulas de robots",
+            "url": "https://spanish.lem.pl/obras/narrativa/fabulas-de-robots"
+          },
+          {
+            "label": "Casa del Libro: Fábulas de robots (Impedimenta)",
+            "url": "https://www.casadellibro.com/libro-fabulas-de-robots/9788418668685/13210125"
+          },
+          {
+            "label": "Isliada: Fábulas de robots",
+            "url": "https://www.isliada.org/libros/fabulas-de-robots/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fragmentos-de-interior-de-carmen-martin-gaite",
+      "title": "Fragmentos De Interior",
+      "authorName": "Carmen Martin Gaite",
+      "authorSlug": "carmen-martin-gaite",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Fragmentos de interior",
+        "authorName": "Carmen Martín Gaite",
+        "authorSlug": "carmen-martin-gaite",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1976,
+        "pages": 208,
+        "summary": "Fragmentos de interior es una novela coral en la que Carmen Martín Gaite disecciona la intimidad de una familia madrileña de clase media durante los años setenta. Más que una trama cerrada y única, el libro propone un mosaico de vidas, conversaciones, cartas, frustraciones y deseos que apenas encuentran cauce. En ese tejido de voces aparecen padres cansados, hijos contestatarios, relaciones sentimentales desgastadas y figuras periféricas que entran en la casa para revelar mejor lo que en ella ya estaba roto. La llegada de Luisa, joven procedente de fuera que entra a servir en el hogar, funciona como una vía de acceso privilegiada a ese interior material y emocional. Martín Gaite no dramatiza con estridencia: observa cómo la incomunicación, el desengaño y la necesidad de orientación modelan la vida cotidiana hasta volverla decisiva.",
+        "aboutThisBook": "Publicada en 1976, en un momento de transición social y cultural en España, la novela ocupa un lugar muy significativo dentro de la trayectoria de Martín Gaite. Frente a relatos más concentrados o abiertamente fantásticos de otras etapas, aquí la autora trabaja una estructura coral y una atención minuciosa a las tensiones de la vida doméstica, sentimental y generacional. El libro retrata la clase media madrileña sin complacencia sociológica: lo que le interesa es la distancia entre lo que los personajes dicen, lo que callan y lo que sueñan. La edición de Siruela ha contribuido a mantenerla viva como una de las novelas menos citadas y, al mismo tiempo, más reveladoras de su obra madura.",
+        "forWhom": "Para lectores de narrativa española contemporánea, estudiosos de la transición cultural, clubes de lectura y quienes disfruten novelas corales centradas en intimidad, relaciones familiares y observación social.",
+        "whyItMatters": "Importa porque captura una mutación histórica sin convertirla en tesis. Martín Gaite muestra cómo los cambios de época atraviesan habitaciones, conversaciones y vínculos concretos. Además, es una gran novela sobre la dificultad de comunicarse y sobre la vida interior como territorio fragmentado.",
+        "editorialIntro": "Hay novelas que cuentan grandes acontecimientos y otras que escuchan con precisión aquello que se resquebraja dentro de una casa. Fragmentos de interior pertenece a esta segunda estirpe. Carmen Martín Gaite observa la clase media madrileña de los setenta desde sus gestos menores, sus cartas, sus silencios y sus malentendidos. De ese material aparentemente doméstico nace una novela muy fina sobre desorientación afectiva, cambio social e imposibilidad de encontrarse del todo con los demás.",
+        "readingLevel": "Lectura media-alta. La prosa es clara, pero la riqueza del libro depende de atender a su estructura coral, a los cambios de perspectiva y a los matices emocionales de personajes que rara vez se explican por completo.",
+        "whyReadToday": "Porque sigue siendo una gran radiografía de la intimidad en crisis: familia, trabajo, deseo, incomunicación y búsqueda de sentido son asuntos que el libro trata con una lucidez todavía muy reconocible.",
+        "studyNotes": [
+          "La novela no se organiza alrededor de un héroe único, sino de una red de personajes cuyo interior aparece de forma fragmentaria y complementaria.",
+          "La casa funciona como escenario físico y simbólico: en ella se cruzan generaciones, clases sociales y formas distintas de frustración.",
+          "Las cartas, conversaciones y confidencias son esenciales para entender cómo Martín Gaite convierte la comunicación fallida en motor narrativo.",
+          "Conviene leer el libro también como retrato de un momento histórico español, aunque su fuerza principal está en la observación moral y afectiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Comienzo: llegada de Luisa y entrada en la casa",
+            "summary": "La novela abre una vía de acceso al mundo familiar a través de Luisa, joven que llega a Madrid y entra en un hogar donde pronto se perciben tensiones larvadas. Su mirada permite ver desde dentro las jerarquías, las expectativas y las grietas del ambiente doméstico."
+          },
+          {
+            "title": "Despliegue coral: padres, hijos y vidas paralelas",
+            "summary": "En la parte central, Martín Gaite distribuye la atención entre varios personajes y compone un retrato de clase media atravesado por hastío, rebeldía, frustración sentimental y necesidad de escucha. Lo importante no es un acontecimiento aislado, sino la suma de desajustes cotidianos."
+          },
+          {
+            "title": "Cartas, secretos y conversaciones incompletas",
+            "summary": "El libro profundiza en la distancia entre lo que los personajes desean y lo que logran decir. Los intercambios epistolares, las confidencias y los silencios muestran que la intimidad de la novela está hecha tanto de palabras como de fallos de comunicación."
+          },
+          {
+            "title": "Cierre: orientación incierta en un mundo cambiante",
+            "summary": "Hacia el final no se produce una resolución tajante, sino una comprensión más nítida de la fragilidad de esos vínculos. La novela deja al lector ante una sociedad en transición y ante personajes que buscan amistad, sentido y lugar propio sin llegar a fijarlos por completo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela coral como forma de conocimiento",
+            "content": "Fragmentos de interior no busca la totalidad desde una sola conciencia. Su apuesta consiste en reunir piezas de varias vidas para que el lector perciba cómo una familia y su entorno se explican a través de voces parciales, versiones incompletas y sensibilidades en fricción."
+          },
+          {
+            "heading": "Interior doméstico e interior emocional",
+            "content": "El título remite a algo más que a habitaciones o escenas caseras. Martín Gaite explora interiores psíquicos, afectivos y sociales: espacios donde la intimidad no garantiza claridad, sino que multiplica el desconcierto, el autoengaño y la necesidad de compañía."
+          },
+          {
+            "heading": "Clase media madrileña en los años setenta",
+            "content": "La novela registra un momento histórico preciso, pero evita la caricatura. Lo social aparece encarnado en conflictos concretos: hijos que discuten la autoridad heredada, adultos desencantados, trabajos que no colman, matrimonios gastados y deseos que no encuentran forma estable."
+          },
+          {
+            "heading": "Un libro clave para leer a Martín Gaite",
+            "content": "Aquí reaparecen asuntos centrales de la autora: la amistad, la escucha, la dificultad de conversar de verdad, el valor de las cartas y la tensión entre vida interior y convención social. Por eso el libro merece más atención de la que suele recibir frente a títulos más famosos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Fragmentos de interior?",
+            "answer": "Trata sobre una familia madrileña de clase media y el conjunto de tensiones sentimentales, generacionales y comunicativas que atraviesan su vida cotidiana en los años setenta, con la figura de Luisa como punto de entrada importante al relato."
+          },
+          {
+            "question": "¿Es una novela lineal o coral?",
+            "answer": "Es una novela claramente coral. Aunque algunos personajes destacan más que otros, el libro se construye como mosaico de voces, relaciones y escenas, no como la peripecia aislada de un solo protagonista."
+          },
+          {
+            "question": "¿Qué temas principales trabaja Carmen Martín Gaite aquí?",
+            "answer": "Sobre todo la incomunicación, la necesidad de amistad y orientación, el desgaste afectivo, la relación entre generaciones y la vida interior de una clase media en transformación."
+          },
+          {
+            "question": "¿Por qué puede interesar hoy?",
+            "answer": "Porque retrata con mucha precisión algo que sigue vigente: personas rodeadas de conversación y, sin embargo, incapaces de decir lo esencial o de encontrar un lugar estable dentro de su propia intimidad."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Ediciones Siruela: Fragmentos de interior",
+            "url": "https://www.siruela.com/catalogo.php?id_libro=1428"
+          },
+          {
+            "label": "Google Libros: Fragmentos de interior",
+            "url": "https://books.google.com/books/about/Fragmentos_de_interior.html?hl=es&id=I1etBAAAQBAJ"
+          },
+          {
+            "label": "Goodreads: Fragmentos de interior",
+            "url": "https://www.goodreads.com/book/show/2876391-fragmentos-de-interior"
+          },
+          {
+            "label": "Lecturalia: Fragmentos de interior",
+            "url": "https://www.lecturalia.com/libro/8716/fragmentos-de-interior"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "gladiador-de-gordon-russell",
+      "title": "Gladiador",
+      "authorName": "Gordon Russell",
+      "authorSlug": "gordon-russell",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Gladiador",
+        "authorName": "Gordon Russell",
+        "authorSlug": "gordon-russell",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "aventura",
+          "narrativa"
+        ],
+        "year": 2004,
+        "pages": 496,
+        "summary": "Gladiador es una novela histórica ambientada en el año 68 d. C., cuando la muerte de Nerón precipita una lucha feroz por el control del Imperio. En ese escenario convulso, Gordon Russell combina intriga política, violencia de arena y relato de formación guerrera. La historia arranca con una profecía que señala a Orfeo como instrumento de una muerte futura; a partir de ahí, un joven médico llamado Valerio queda atrapado por un crimen que no cometió, es vendido como esclavo y termina convertido en combatiente. La novela explora su transformación física y moral dentro del mundo de los gladiadores, pero no se limita al espectáculo del circo: también sigue las maniobras del poder romano, la venganza, el miedo y la pregunta por cuánto puede resistir una conciencia antes de deformarse para sobrevivir.",
+        "aboutThisBook": "Publicada originalmente en 2004 y difundida en español por Debolsillo, la novela se inscribe en la tradición de la ficción histórica de gran aliento que busca combinar documentación, ritmo narrativo y personajes sometidos a una época extrema. Su principal gancho es evidente: el universo gladiatorio de Roma, con su mezcla de disciplina, espectáculo y muerte. Pero el libro no se queda en el decorado. Sitúa ese mundo en el contexto de la guerra civil que siguió al final de Nerón, lo que le añade ambición política y un horizonte de inestabilidad más amplio que el mero combate individual. Por extensión, funciona tanto como aventura histórica como relato sobre identidad, destino y venganza.",
+        "forWhom": "Para lectores de novela histórica extensa, tramas romanas con acción y conspiración, y para quienes disfrutan historias de ascenso forzado, supervivencia y choque entre individuo y poder imperial.",
+        "whyItMatters": "Importa porque aprovecha un imaginario muy popular —el gladiador— sin aislarlo del verdadero fondo histórico: la crisis imperial, las luchas sucesorias y la maquinaria política que convierte la violencia en espectáculo y en instrumento de gobierno.",
+        "editorialIntro": "Las novelas de gladiadores suelen prometer sangre, arena y heroísmo. Gladiador ofrece todo eso, pero gana interés cuando recuerda que el anfiteatro no era un mundo aparte, sino una extensión del poder romano. Gordon Russell articula la peripecia del combatiente con una crisis política mayor y convierte la transformación del protagonista en una pregunta sobre destino, supervivencia y precio moral de la violencia.",
+        "readingLevel": "Lectura media. La novela es larga y detallada, pero su prosa narrativa y su orientación aventurera la hacen accesible para lectores habituados a la ficción histórica comercial.",
+        "whyReadToday": "Porque sigue siendo eficaz para pensar cómo los sistemas de poder convierten el cuerpo, el miedo y el espectáculo en herramientas de control, una intuición histórica que todavía resulta inquietantemente actual.",
+        "studyNotes": [
+          "El libro cruza dos planos narrativos: la formación del gladiador y la lucha política tras la muerte de Nerón; leer ambos juntos mejora su sentido.",
+          "La figura de Valerio-Orfeo permite observar cómo una identidad civil es desmantelada y reconstruida por la esclavitud, la disciplina y la sed de venganza.",
+          "La novela usa el anfiteatro como espacio dramático, pero también como imagen del Imperio: jerarquía, espectáculo público y violencia reglada.",
+          "Conviene distinguir entre reconstrucción histórica general y dramatización novelesca: el interés del libro está en su eficacia narrativa, no en una exactitud documental absoluta escena por escena."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Arranque: profecía, crimen y caída",
+            "summary": "La historia se pone en marcha con una predicción que atemoriza a un hombre poderoso y desencadena una cadena de violencia. El protagonista queda ligado a un asesinato que no cometió y es expulsado de su antigua vida para entrar en el circuito brutal de la esclavitud."
+          },
+          {
+            "title": "Formación: del mercado de esclavos a la arena",
+            "summary": "En la parte central, la novela sigue el aprendizaje del protagonista bajo la disciplina gladiatoria. El cuerpo se vuelve herramienta de supervivencia, y la arena aparece como escuela de resistencia, humillación, cálculo y deseo de revancha."
+          },
+          {
+            "title": "Roma en crisis: guerra civil y ambición imperial",
+            "summary": "Mientras el héroe se transforma, el Imperio vive la disputa por la sucesión tras Nerón. El libro amplía así el foco y enlaza el destino individual con una red de intereses políticos, temores y maniobras de poder."
+          },
+          {
+            "title": "Desenlace: venganza, identidad y costo de la supervivencia",
+            "summary": "Hacia el cierre, la novela confronta al personaje con aquello en lo que se ha convertido. El combate final importa menos como hazaña que como balance moral de una vida forzada a definirse dentro de la violencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El gladiador como figura narrativa total",
+            "content": "El protagonista funciona a la vez como víctima del poder, espectáculo para las masas y agente de una posible revancha. Esa triple condición vuelve al gladiador una figura muy fértil: concentra esclavitud, heroísmo, humillación y ascenso dentro de un mismo cuerpo."
+          },
+          {
+            "heading": "La arena y la política",
+            "content": "Uno de los aciertos del libro es no separar el anfiteatro de la lucha imperial. La violencia del circo no aparece como entretenimiento aislado, sino como parte de una cultura política que exhibe cuerpos, administra miedo y legitima jerarquías ante la multitud."
+          },
+          {
+            "heading": "Novela histórica de ritmo comercial",
+            "content": "Gladiador privilegia la intensidad narrativa, el detalle visual y la peripecia sostenida. No busca la contención literaria de una novela histórica intimista, sino el empuje de una gran aventura ambientada en una época convulsa. Esa elección explica su eficacia y también sus excesos."
+          },
+          {
+            "heading": "Destino y transformación personal",
+            "content": "La profecía inicial da a la novela una estructura de fatalidad, pero el interés real está en la metamorfosis del protagonista. Russell sugiere que el destino no opera solo como designio externo: también se construye a través de heridas, obediencias y decisiones tomadas bajo presión extrema."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Gladiador de Gordon Russell?",
+            "answer": "Trata sobre un joven arrastrado injustamente al mundo de la esclavitud y de los combates romanos en medio de la crisis imperial que sigue a la muerte de Nerón. Su transformación en gladiador se mezcla con intrigas políticas y deseo de venganza."
+          },
+          {
+            "question": "¿Es una novela de acción o una novela histórica?",
+            "answer": "Es ambas cosas. Tiene estructura de aventura y escenas de combate, pero está enmarcada en un momento histórico preciso de la Roma imperial y utiliza ese contexto para ampliar el conflicto personal."
+          },
+          {
+            "question": "¿El libro se centra solo en la arena?",
+            "answer": "No. Aunque el mundo gladiatorio es central, la novela también dedica mucho espacio a la lucha por el poder tras la caída de Nerón, lo que le da un alcance político más amplio."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutarlo más?",
+            "answer": "Sobre todo quien busca novela histórica extensa, ritmo ágil, ambientación romana y una historia de caída, entrenamiento, supervivencia y revancha."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Libros: Gladiador",
+            "url": "https://books.google.com/books/about/Gladiador.html?hl=es&id=8EkAEGqllD0C"
+          },
+          {
+            "label": "Casa del Libro: Gladiador",
+            "url": "https://www.casadellibro.com/libro-gladiador/9788483467145/1196934"
+          },
+          {
+            "label": "Lecturalia: Gladiador",
+            "url": "https://www.lecturalia.com/libro/8622/gladiador"
+          },
+          {
+            "label": "Goodreads: Gladiador",
+            "url": "https://www.goodreads.com/es/book/show/7407160-gladiador"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "gloria-de-eduardo-mendoza",
+      "title": "Gloria",
+      "authorName": "Eduardo Mendoza",
+      "authorSlug": "eduardo-mendoza",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Gloria",
+        "authorName": "Eduardo Mendoza",
+        "authorSlug": "eduardo-mendoza",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "teatro",
+          "narrativa"
+        ],
+        "year": 2000,
+        "pages": 126,
+        "summary": "Gloria es una pieza teatral breve en la que Eduardo Mendoza trabaja con pocos personajes, un espacio casi cerrado y una noche cargada de equívocos. Dos matrimonios vinculados al mundo editorial, Gloria y Ricky por un lado, Silvia y Coponius por otro, ven alterado su frágil equilibrio cuando una ruptura obliga a replantear alianzas personales y económicas. A partir de ahí entran en juego un camarero de doble vida, un posible socio adinerado y una cadena de malentendidos que desplaza la obra entre la comedia de situación y un ligero tono policíaco. El texto no busca tanto la intriga pura como mostrar cómo el deseo, la mentira, la nostalgia y las apariencias condicionan las decisiones. Bajo la risa, Mendoza deja una reflexión amarga sobre el paso del tiempo, la inseguridad afectiva y la teatralidad de la vida social.",
+        "aboutThisBook": "La obra apareció inicialmente en 2000 y después quedó reunida en la edición Teatro reunido de Seix Barral. Las fichas editoriales y de lectura la presentan como una comedia en un acto, pero su interés va más allá del juego escénico: Mendoza quiso escribir una comedia tradicional de situaciones para hablar de las ilusiones, los recuerdos y las mentiras que los personajes reciben y se cuentan a sí mismos. Esa mezcla de ligereza verbal, observación social e ironía la conecta con otros registros del autor.",
+        "forWhom": "Para lectores de teatro contemporáneo, estudiantes y admiradores de Mendoza que quieran ver su humor fuera de la novela.",
+        "whyItMatters": "Importa porque muestra otra faceta de Eduardo Mendoza: la del dramaturgo capaz de condensar su ironía social en una pieza muy breve, ligera en apariencia pero atenta a la frustración, al autoengaño y a las máscaras de la vida urbana.",
+        "editorialIntro": "Gloria permite entrar en un Mendoza menos transitado, pero plenamente reconocible. La obra funciona como comedia de enredos, con conversaciones ágiles, personajes que se observan y se ocultan cosas, y una progresiva sensación de que nadie controla del todo la situación. Sin embargo, lo más interesante no es únicamente el mecanismo del equívoco, sino la forma en que el autor convierte esa maquinaria teatral en una pequeña indagación sobre la mentira sentimental, el desgaste de las relaciones y la necesidad de representar un papel incluso ante los más cercanos.",
+        "readingLevel": "Lectura media. El texto es breve y dialogado, pero conviene atender a los matices de ironía, a los dobles sentidos y al modo en que la comedia esconde una observación social más seria.",
+        "whyReadToday": "Porque sigue resultando actual en su retrato de vínculos inestables, intereses mezclados con afectos y personas que improvisan versiones de sí mismas para sostener una vida en crisis.",
+        "studyNotes": [
+          "Aunque sea una comedia en un acto, conviene leerla como una pieza sobre la inestabilidad de las identidades y no solo como un juego de enredos.",
+          "El mundo editorial no es un decorado neutro: introduce competencia, dependencia económica y preocupación por la imagen pública.",
+          "La obra mezcla humor de situación con un aire de intriga menor; esa tensión sostiene el ritmo escénico.",
+          "La cita atribuida a Mendoza sobre el paso del tiempo, las ilusiones y las mentiras ayuda a orientar la lectura crítica del texto."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1. Ruptura y desequilibrio inicial",
+            "summary": "La obra arranca con dos parejas amigas ligadas a una editorial y con una crisis sentimental que altera también el reparto de poder. Desde el principio queda claro que la separación no tendrá solo consecuencias íntimas, sino también prácticas y económicas."
+          },
+          {
+            "title": "Momento 2. Apariciones, equívocos y dobles vidas",
+            "summary": "La entrada de personajes secundarios, entre ellos un camarero con una vida duplicada y un hombre rico sin escrúpulos, dispara la confusión. Las conversaciones revelan intereses cruzados, sospechas y pequeñas maniobras de supervivencia emocional."
+          },
+          {
+            "title": "Momento 3. Aclaraciones parciales",
+            "summary": "Hacia el final algunas piezas encajan y ciertos malentendidos se corrigen, pero no todo queda resuelto de manera limpia. La obra conserva una ambigüedad final coherente con su visión irónica de las relaciones y de la verdad social."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Comedia de situación con fondo melancólico",
+            "content": "La obra busca la risa, pero no desde la ligereza vacía. Los enredos sirven para mostrar desgaste afectivo, miedo al ridículo y una conciencia incómoda del tiempo pasado. Esa mezcla de humor y melancolía la vuelve más rica de lo que su brevedad sugiere."
+          },
+          {
+            "heading": "El teatro como laboratorio de máscaras",
+            "content": "Cada personaje representa un papel ante los demás y ante sí mismo. Mendoza explota la escena cerrada para enseñar cómo las personas negocian su versión de los hechos, ocultan motivaciones y adaptan su discurso según la conveniencia del momento."
+          },
+          {
+            "heading": "Mendoza fuera de la novela",
+            "content": "Leer Gloria ayuda a comprobar que la ironía del autor no depende del formato novelesco. En pocas páginas mantiene su capacidad para mezclar sátira social, observación psicológica y un gusto muy preciso por el diálogo como instrumento de revelación y engaño."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Gloria es una novela o una obra de teatro?",
+            "answer": "Es una obra de teatro breve, normalmente descrita como comedia en un acto, aunque comparta con la narrativa de Mendoza su ironía y su observación social."
+          },
+          {
+            "question": "¿Tiene un tono puramente humorístico?",
+            "answer": "No del todo. La comedia domina, pero debajo aparecen frustración, autoengaño y una reflexión sobre el paso del tiempo y las mentiras cotidianas."
+          },
+          {
+            "question": "¿Hace falta conocer otras obras de Mendoza para leerla?",
+            "answer": "No. Puede leerse de forma independiente, aunque quienes conozcan su narrativa reconocerán enseguida su gusto por el equívoco, la sátira y las situaciones absurdas."
+          },
+          {
+            "question": "¿Por qué se habla de un aire policíaco?",
+            "answer": "Porque la pieza introduce secretos, confusiones y revelaciones parciales que dan a la acción un ligero tono de intriga, aunque el centro siga siendo la comedia de personajes."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Agencia Literaria Carmen Balcells: Glòria / Gloria",
+            "url": "https://www.agenciabalcells.com/autores/obra/eduardo-mendoza/gloria/"
+          },
+          {
+            "label": "Lecturalia: Gloria: Comedia en un acto",
+            "url": "https://www.lecturalia.com/libro/96603/gloria-comedia-en-un-acto"
+          },
+          {
+            "label": "PlanetadeLibros: Teatro reunido",
+            "url": "https://www.planetadelibros.com/libro-teatro-reunido/249549"
+          },
+          {
+            "label": "Goodreads: Gloria",
+            "url": "https://www.goodreads.com/book/show/17664721-gloria"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "golpes-de-luz-de-ledicia-costas",
+      "title": "Golpes De Luz",
+      "authorName": "Ledicia Costas",
+      "authorSlug": "ledicia-costas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Golpes de luz",
+        "authorName": "Ledicia Costas",
+        "authorSlug": "ledicia-costas",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2021,
+        "pages": 288,
+        "summary": "Golpes de luz cuenta el regreso de Julia a Galicia después de un divorcio que la deja exhausta y necesitada de recomponer su vida. Vuelve con su hijo Sebas al pueblo para cuidar a su madre Luz, una mujer excéntrica, vulnerable y magnética a la vez, a la que el niño imagina como una especie de Thor doméstica por su inseparable martillo. Desde esa convivencia de tres generaciones, Ledicia Costas construye una novela de voces alternas donde el humor, la ternura y la herida social conviven sin estorbarse. El libro no se limita al retrato íntimo de una familia: también deja entrar la memoria del narcotráfico y de la destrucción que marcó a muchas comunidades gallegas en los años ochenta. Así, la novela articula cuidados, infancia, duelo, precariedad y secretos familiares en un tono cálido, pero nunca ingenuo.",
+        "aboutThisBook": "Publicada por Destino en 2021, Golpes de luz supuso la consolidación de Ledicia Costas en la narrativa para adultos tras Infamia. Las sinopsis editoriales destacan su mezcla de humor y emoción en torno a tres generaciones de una misma familia, mientras varias entrevistas con la autora subrayan dos claves de fondo: la experiencia gallega de los años del narcotráfico y la realidad de los cuidados en la vejez, que sigue recayendo sobre las mujeres. Esa combinación explica el singular equilibrio del libro entre refugio afectivo y conciencia del daño.",
+        "forWhom": "Para lectores adultos de narrativa contemporánea que busquen una novela emotiva, familiar y social, con Galicia como espacio moral de fondo.",
+        "whyItMatters": "Importa porque aborda asuntos muy presentes en la vida real —cuidar a los mayores, recomponer una familia tras la ruptura, convivir con heridas colectivas— sin caer ni en el melodrama fácil ni en la simple nostalgia. La novela muestra cómo la ternura puede convivir con la crítica social.",
+        "editorialIntro": "Golpes de luz destaca por algo difícil de lograr: ser una novela amable sin volverse complaciente. Ledicia Costas organiza la historia alrededor de una madre, una hija y un niño, y desde ahí abre un mapa de fatiga, memoria y afecto donde caben tanto el humor doméstico como la huella devastadora de una época. La autora conoce muy bien el poder de la voz infantil, pero aquí la combina con una mirada adulta sobre los cuidados, la precariedad y las grietas heredadas. El resultado es una ficción cálida, llena de humanidad, que no niega la oscuridad del mundo que retrata.",
+        "readingLevel": "Lectura media. El estilo es accesible y muy fluido, pero la alternancia de voces y la convivencia entre humor, memoria social y conflicto familiar agradecen una lectura atenta.",
+        "whyReadToday": "Porque dialoga con debates muy actuales sobre conciliación, dependencia, carga de cuidados y memoria comunitaria, y lo hace desde una historia cercana, legible y emocionalmente inteligente.",
+        "studyNotes": [
+          "La estructura a tres voces permite comparar cómo cambian la percepción del pasado y del presente según la edad y la posición familiar.",
+          "Sebas no es solo un alivio cómico: su mirada transforma la gravedad del entorno y revela zonas que el adulto normaliza.",
+          "El narcotráfico aparece como trasfondo histórico y moral, no como motor único de la trama; la novela insiste más en sus consecuencias que en su folclore.",
+          "Julia encarna con claridad la sobrecarga contemporánea de los cuidados: trabajo, maternidad, precariedad afectiva y responsabilidad filial se superponen en ella."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1. Regreso a Galicia",
+            "summary": "Tras su separación, Julia deja Madrid y vuelve al pueblo con Sebas para cuidar a su madre Luz. El cambio de escenario define de inmediato el tono del libro: una mezcla de cansancio, expectativa de reparación y fricción entre pasado y presente."
+          },
+          {
+            "title": "Momento 2. Tres generaciones bajo el mismo techo",
+            "summary": "La convivencia entre Luz, Julia y Sebas convierte la casa familiar en el centro emocional de la novela. A través de sus voces se revelan rutinas, humor, afectos y también tensiones relacionadas con la dependencia, la memoria y el peso de lo no dicho."
+          },
+          {
+            "title": "Momento 3. Secretos familiares y memoria social",
+            "summary": "A medida que avanzan los recuerdos y las conversaciones, afloran heridas vinculadas al pasado del pueblo y a la época del narcotráfico. La novela desplaza entonces su fuerza hacia la comprensión de cómo una historia colectiva deja marcas íntimas y duraderas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela de los cuidados",
+            "content": "Uno de los ejes más sólidos del libro es la representación del cuidado cotidiano. Costas no idealiza esa tarea: muestra agotamiento, amor, dependencia y desigualdad, especialmente en la figura de Julia, que soporta varias responsabilidades a la vez."
+          },
+          {
+            "heading": "Humor y ternura contra el derrumbe",
+            "content": "Golpes de luz no niega el dolor, pero se resiste a narrarlo desde el puro abatimiento. La autora usa humor, rareza entrañable y una voz infantil muy viva para abrir espacios de respiración dentro de una realidad dura."
+          },
+          {
+            "heading": "Galicia como memoria herida",
+            "content": "El paisaje gallego no se reduce a color local. El pueblo arrastra una historia ligada a la droga y a la destrucción de muchas familias, y esa memoria afecta la intimidad de los personajes aunque la trama no sea una novela sobre narcotráfico en sentido estricto."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Golpes de luz es un thriller como Infamia?",
+            "answer": "No. Aquí Ledicia Costas se mueve hacia una novela más familiar y emocional, aunque mantenga zonas oscuras y un fuerte trasfondo social."
+          },
+          {
+            "question": "¿Quiénes narran la historia?",
+            "answer": "La novela alterna tres voces principales: la de la abuela Luz, la de su hija Julia y la del niño Sebas, lo que permite mirar la misma realidad desde edades y sensibilidades muy distintas."
+          },
+          {
+            "question": "¿El narcotráfico es el tema central?",
+            "answer": "No exactamente. Funciona más como una memoria histórica y moral que condiciona el pueblo y a varias familias, mientras el centro narrativo está en los vínculos, los cuidados y los secretos heredados."
+          },
+          {
+            "question": "¿Es una novela triste?",
+            "answer": "Tiene dolor y fatiga, pero no se instala en la tristeza pura. Combina ternura, humor y crítica social de una manera que la vuelve más luminosa de lo que su trasfondo podría hacer pensar."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Lecturalia: Golpes de luz",
+            "url": "https://www.lecturalia.com/libro/106198/golpes-de-luz"
+          },
+          {
+            "label": "Relatos en construcción: entrevista a Ledicia Costas sobre Golpes de luz",
+            "url": "https://relatosenconstruccion.com/entrevistas/golpes-de-luz/"
+          },
+          {
+            "label": "Goodreads: Golpes de luz",
+            "url": "https://www.goodreads.com/book/show/59357714-golpes-de-luz"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hacia-el-infinito-mi-vida-con-stephen-hawking-de-jane-hawking",
+      "title": "Hacia El Infinito Mi Vida Con Stephen Hawking",
+      "authorName": "Jane Hawking",
+      "authorSlug": "jane-hawking",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Hacia el infinito. Mi vida con Stephen Hawking",
+        "authorName": "Jane Hawking",
+        "authorSlug": "jane-hawking",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2015,
+        "pages": 560,
+        "summary": "Hacia el infinito. Mi vida con Stephen Hawking es el testimonio de Jane Hawking sobre los años en que compartió vida con el célebre físico, desde el enamoramiento en el Cambridge de los años sesenta hasta la enorme complejidad familiar, médica y emocional que acompañó el avance de la enfermedad y la fama de Stephen. El libro no se limita a narrar la biografía de un genio científico desde la intimidad: cuenta también el trabajo invisible que sostuvo ese mundo, la crianza de los hijos, la presión económica, la fragilidad del matrimonio y la distancia entre la imagen pública de una pareja extraordinaria y la experiencia cotidiana. Jane escribe con afecto, pero también con franqueza, y por eso la memoria adquiere una doble dimensión: historia de amor y, al mismo tiempo, relato del coste humano de la brillantez, la dependencia y la celebridad.",
+        "aboutThisBook": "La edición española apareció en Lumen en 2015 y quedó muy asociada a La teoría del todo, película basada en estas memorias. Sin embargo, el valor del libro no reside solo en su relación con la adaptación cinematográfica, sino en la voz propia de Jane Hawking. La autora ya había publicado una versión previa de sus recuerdos y aquí ofrece una formulación más amplia y madura de aquella experiencia. Las presentaciones editoriales insisten en que se trata de la historia privada detrás del mito científico, pero el libro funciona además como documento sobre cuidado, matrimonio, fe, ambición intelectual y desgaste doméstico.",
+        "forWhom": "Para lectores de memorias, biografías y libros sobre ciencia vivida desde la intimidad, no solo desde los logros públicos.",
+        "whyItMatters": "Importa porque corrige la tentación de convertir la vida de Stephen Hawking en una leyenda unilateral. Jane devuelve espesor humano a esa historia y muestra cuánto trabajo afectivo, físico y moral queda fuera de los relatos heroicos sobre el genio y la superación.",
+        "editorialIntro": "Pocas memorias dialogan de forma tan intensa con una imagen pública ya convertida en símbolo. Hacia el infinito. Mi vida con Stephen Hawking invita a mirar detrás del relato inspirador que suele acompañar al gran físico y a reconocer la complejidad real de una familia sometida a enfermedad, dependencia, ambición intelectual y exposición constante. Jane Hawking no escribe desde el ajuste de cuentas, sino desde una mezcla muy difícil de conseguir: ternura, honestidad y deseo de dejar constancia de una experiencia que no cabe en el mito. Esa posición vuelve el libro valioso tanto como relato personal como documento cultural.",
+        "readingLevel": "Lectura media. El libro es narrativamente claro, pero su extensión, la densidad autobiográfica y la combinación de vida privada, contexto académico y enfermedad hacen que funcione mejor con lectura sostenida y atenta.",
+        "whyReadToday": "Porque sigue siendo una referencia para pensar la trastienda del prestigio, la carga desigual de los cuidados y la distancia entre la admiración pública y la realidad cotidiana de una familia.",
+        "studyNotes": [
+          "No conviene leer el libro solo como complemento de la película; su interés principal está en la voz de Jane y en la complejidad moral que introduce.",
+          "La enfermedad de Stephen es central, pero la obra también trata de trabajo doméstico, maternidad, fe, identidad propia y soledad dentro del matrimonio.",
+          "La memoria funciona aquí como corrección del mito: Jane intenta conservar afecto y a la vez reclamar una verdad más incómoda y completa.",
+          "El entorno universitario de Cambridge y el ascenso de la fama científica son importantes porque amplifican la presión sobre la vida privada."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1. Cambridge, enamoramiento y diagnóstico",
+            "summary": "Jane conoce a Stephen Hawking en el ambiente universitario de los años sesenta, cuando su inteligencia ya deslumbra y el diagnóstico de la enfermedad introduce una sombra radical sobre el futuro. El libro presenta desde ahí una decisión amorosa atravesada por incertidumbre y coraje."
+          },
+          {
+            "title": "Momento 2. Vida familiar, cuidado y ascenso público",
+            "summary": "Con el paso de los años, el matrimonio se organiza alrededor del trabajo científico de Stephen, la crianza de los hijos y una creciente red de necesidades prácticas. La fama del físico aumenta al mismo tiempo que Jane asume una carga cotidiana cada vez más compleja."
+          },
+          {
+            "title": "Momento 3. Crisis, distancia y memoria retrospectiva",
+            "summary": "La última parte del relato muestra el deterioro de la convivencia y la imposibilidad de sostener indefinidamente el equilibrio entre admiración, amor, sacrificio y autonomía personal. Jane revisa ese periodo con dolor, lucidez y un esfuerzo explícito por no borrar los matices."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El coste privado del genio público",
+            "content": "La obra cuestiona el relato heroico simplificado. Stephen Hawking aparece como una figura extraordinaria, pero Jane recuerda que todo reconocimiento público descansa sobre una infraestructura emocional, doméstica y corporal que rara vez se ve."
+          },
+          {
+            "heading": "Cuidados, género y desigualdad silenciosa",
+            "content": "Una de las aportaciones más duraderas del libro está en su descripción del cuidado como trabajo absorbente. Jane muestra cómo esa tarea se entrelaza con roles de género, expectativas morales y pérdida progresiva de espacio propio."
+          },
+          {
+            "heading": "Memoria contra mito",
+            "content": "La autora escribe para impedir que otros simplifiquen su historia. Por eso el libro no destruye la admiración hacia Stephen, pero sí la complica: convierte una leyenda contemporánea en una experiencia humana llena de contradicciones, esfuerzos y zonas dolorosas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una biografía de Stephen Hawking?",
+            "answer": "Solo en parte. Es, sobre todo, la memoria de Jane Hawking sobre su vida en común, de modo que el foco está en la experiencia compartida y en el punto de vista de ella."
+          },
+          {
+            "question": "¿El libro inspiró la película La teoría del todo?",
+            "answer": "Sí. La edición española incluso se vinculó editorialmente con esa adaptación, aunque el libro ofrece mucha más amplitud y matiz que una película necesariamente condensada."
+          },
+          {
+            "question": "¿Tiene tono de ajuste de cuentas?",
+            "answer": "No de manera simple. Jane escribe con franqueza sobre el sufrimiento, la desigualdad y la ruptura, pero mantiene afecto y evita reducir su historia a un reproche unívoco."
+          },
+          {
+            "question": "¿Hace falta interés previo por la física para leerlo?",
+            "answer": "No. La ciencia está presente como contexto de la trayectoria de Stephen, pero el libro se sostiene sobre todo como memoria de amor, cuidado, familia y desgaste."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Penguin Libros / Lumen: Hacia el infinito. Mi vida con Stephen Hawking",
+            "url": "https://www.penguinlibros.com/es/libro-de-biografias/21937-ebook-hacia-el-infinito-mi-vida-con-stephen-hawking-9788426422934"
+          },
+          {
+            "label": "Lecturalia: Hacia el infinito",
+            "url": "https://www.lecturalia.com/libro/92016/hacia-el-infinito"
+          },
+          {
+            "label": "Goodreads: Hacia el infinito",
+            "url": "https://www.goodreads.com/book/show/25086752-hacia-el-infinito"
+          },
+          {
+            "label": "Alma Books: Travelling to Infinity",
+            "url": "https://almabooks.com/product/travelling-to-infinity-2/"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T07:29:13Z"
+}

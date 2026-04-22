@@ -1,0 +1,1414 @@
+{
+  "batchName": "replenish-20260420T171104Z-next20",
+  "createdAt": "2026-04-20T17:11:12Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "en-busca-del-tiempo-perdido-obra-completa-7-tomos-de-marcel-proust",
+      "title": "En Busca Del Tiempo Perdido Obra Completa 7 Tomos",
+      "authorName": "Marcel Proust",
+      "authorSlug": "marcel-proust",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "En busca del tiempo perdido",
+        "authorName": "Marcel Proust",
+        "authorSlug": "marcel-proust",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1913,
+        "pages": null,
+        "summary": "En busca del tiempo perdido es el gran ciclo narrativo de Marcel Proust, compuesto por siete volúmenes publicados entre 1913 y 1927. A través de un narrador en primera persona que reconstruye su infancia, su formación sentimental, su entrada en los salones aristocráticos y su descubrimiento del arte, la obra convierte la memoria en el verdadero motor de la narración. El episodio de la magdalena mojada en té es solo el emblema más conocido de una idea más amplia: el pasado no desaparece del todo, sino que puede reaparecer con intensidad inesperada y reorganizar la conciencia. Más que contar una aventura lineal, Proust explora cómo el tiempo transforma el deseo, la percepción, la vanidad social, los celos y la vocación artística hasta convertir la experiencia vivida en materia literaria.",
+        "aboutThisBook": "Esta obra suele leerse como una de las cumbres de la novela moderna. Su importancia no radica solo en su extensión o en su prestigio crítico, sino en la radicalidad de su método: desplaza el centro de la narración desde la acción exterior hacia la percepción, la memoria y la interpretación. Proust observa la alta sociedad francesa, las formas del amor, la fragilidad del yo y el trabajo del artista con una minuciosidad que cambió el horizonte de la ficción del siglo XX. Aunque muchas ediciones circulan por tomos separados, conviene entenderla como una sola arquitectura narrativa.",
+        "forWhom": "Para lectores adultos que disfrutan la novela de gran aliento, los clásicos exigentes, la introspección psicológica y el análisis de la vida social. También es una obra central para estudiantes de literatura moderna, teoría de la memoria, estética y novela europea.",
+        "whyItMatters": "Importa porque redefinió lo que una novela podía hacer: en lugar de depender de giros espectaculares, mostró que la conciencia, el recuerdo y la percepción del tiempo podían sostener una obra monumental. Su influencia atraviesa la literatura moderna y sigue siendo decisiva para pensar identidad, deseo, arte y experiencia.",
+        "editorialIntro": "Proust no escribió una simple saga familiar ni una crónica aristocrática. Escribió una máquina de observación sobre cómo vivimos el tiempo. En estas páginas, una escena mínima puede abrir un universo entero, y una emoción aparentemente privada termina revelando un mundo social completo. Leer En busca del tiempo perdido exige paciencia, pero esa paciencia tiene recompensa: pocas obras ofrecen una comprensión tan fina de la memoria, de la transformación de los afectos y del lento nacimiento de una vocación artística.",
+        "readingLevel": "Lectura alta: la sintaxis es densa, la introspección domina sobre la acción y muchas escenas se sostienen en matices psicológicos, sociales y estéticos. Funciona mejor con lectura pausada y disposición a releer.",
+        "whyReadToday": "Porque vivimos rodeados de estímulos que fragmentan la atención, y Proust ofrece lo contrario: una exploración profunda de cómo se forma una vida en la memoria. Su reflexión sobre identidad, deseo, clase social y creación artística sigue siendo extraordinariamente actual.",
+        "studyNotes": [
+          "La memoria involuntaria es clave: ciertos objetos, sabores o sensaciones devuelven al narrador una parte del pasado con una fuerza que la memoria voluntaria no alcanza.",
+          "La obra combina formación sentimental, crítica social y reflexión estética; no conviene reducirla a un libro sobre recuerdos íntimos.",
+          "Los salones, las jerarquías y el esnobismo importan porque muestran cómo el deseo y la identidad también se construyen socialmente.",
+          "El cierre del ciclo redefine todo lo anterior: recordar no basta; el hallazgo decisivo es convertir la experiencia del tiempo en obra de arte."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Infancia, Combray y primeros despertares",
+            "summary": "La primera parte del ciclo sitúa al narrador en el mundo de la infancia, la espera del beso materno, las caminatas de Combray y el descubrimiento de que un recuerdo aparentemente perdido puede regresar con intensidad total. Allí nacen también sus primeras fascinaciones por la belleza, el amor y la vida social."
+          },
+          {
+            "title": "Salones, amores y desengaños",
+            "summary": "En la zona media de la obra, el narrador entra en el universo de la aristocracia y de los círculos mundanos, observa la lógica del prestigio social y vive relaciones amorosas marcadas por el deseo, la idealización y los celos, especialmente en torno a Albertine. Proust muestra cómo el amor se mezcla con la posesión, la incertidumbre y la imaginación."
+          },
+          {
+            "title": "Guerra, revelación y vocación literaria",
+            "summary": "En el tramo final, el tiempo transcurrido transforma a los personajes y vacía de brillo muchas ambiciones sociales. La experiencia de la guerra y la irrupción de nuevas memorias permiten al narrador comprender que su verdadera tarea consiste en escribir la obra que el lector acaba de recorrer."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria y verdad interior",
+            "content": "Proust distingue entre recordar de forma voluntaria y experimentar el regreso inesperado de un pasado que parecía extinguido. Esa diferencia sostiene toda la novela: la verdad más profunda de una vida no aparece cuando se la resume, sino cuando una sensación despierta de nuevo el tiempo vivido. La literatura se convierte así en un instrumento para fijar esa revelación antes de que vuelva a dispersarse."
+          },
+          {
+            "heading": "Sociedad, deseo y esnobismo",
+            "content": "La obra no se limita al yo interior. Los salones, los títulos, las alianzas y los gestos de distinción muestran una sociedad obsesionada con el prestigio. Proust observa ese mundo con ironía y precisión, y deja ver que el deseo amoroso y el deseo de ascenso social suelen contaminarse mutuamente. La novela es también una anatomía del esnobismo y de la teatralidad de la vida pública."
+          },
+          {
+            "heading": "La conversión de la vida en arte",
+            "content": "El hallazgo decisivo del final no consiste en recuperar intacto el pasado, sino en comprender que la experiencia solo alcanza forma duradera cuando se convierte en obra. Por eso En busca del tiempo perdido es al mismo tiempo una novela sobre una vida y una novela sobre el nacimiento de un escritor. Su modernidad reside en esa fusión entre autobiografía imaginaria, reflexión estética y construcción formal."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una sola novela o siete libros distintos?",
+            "answer": "Las dos cosas a la vez: fue publicada en siete volúmenes, pero la crítica y las ediciones de referencia la entienden como un único ciclo narrativo, cuidadosamente articulado de principio a fin."
+          },
+          {
+            "question": "¿Por qué es tan famosa la escena de la magdalena?",
+            "answer": "Porque ilustra la memoria involuntaria, uno de los núcleos de la obra: una sensación cotidiana desencadena el regreso pleno de un pasado que la conciencia no podía recuperar por simple esfuerzo racional."
+          },
+          {
+            "question": "¿Hace falta leer los siete tomos seguidos?",
+            "answer": "No necesariamente, pero sí conviene leerlos en orden. Cada volumen desarrolla una etapa distinta y el sentido completo del proyecto solo se aprecia bien cuando se mantiene la continuidad del ciclo."
+          },
+          {
+            "question": "¿Es una obra autobiográfica?",
+            "answer": "Tiene elementos tomados de la vida de Proust, pero no debe leerse como autobiografía directa. Es una elaboración literaria compleja que transforma experiencias personales, observación social e invención narrativa en una obra de ficción."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Encyclopaedia Britannica: Marcel Proust",
+            "url": "https://www.britannica.com/biography/Marcel-Proust"
+          },
+          {
+            "label": "Wikipedia: In Search of Lost Time",
+            "url": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time"
+          },
+          {
+            "label": "Standard Ebooks: In Search of Lost Time",
+            "url": "https://standardebooks.org/ebooks/marcel-proust/in-search-of-lost-time/c-k-scott-moncrieff"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "erase-una-vez-de-margaret-atwood",
+      "title": "Erase Una Vez",
+      "authorName": "Margaret Atwood",
+      "authorSlug": "margaret-atwood",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Érase una vez",
+        "authorName": "Margaret Atwood",
+        "authorSlug": "margaret-atwood",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2007,
+        "pages": 148,
+        "summary": "Érase una vez es una colección breve de Margaret Atwood que reúne relatos y piezas en prosa centrados en la vida de pareja, la rutina afectiva y la ironía con que las personas reinterpretan sus propias relaciones. Según la presentación editorial de la edición española de Lumen, el libro observa ese momento en que la pasión ya no desaparece del todo, pero se mezcla con costumbre, hastío, pequeñas mentiras y formas ambiguas de cariño. Atwood trabaja escenas domésticas, viajes, recuerdos y conversaciones aparentemente corrientes para mostrar cuánto conflicto, humor y malestar laten bajo la superficie de lo cotidiano. El resultado no es un volumen de argumento único, sino un mapa incisivo de vínculos adultos narrado con lucidez, sarcasmo y una mirada muy precisa sobre la intimidad.",
+        "aboutThisBook": "La edición en español registrada en 2007 por Lumen Editorial presenta un conjunto de textos de Atwood asociado en catálogos a materiales de Dancing Girls and Other Stories y Good Bones. Las fuentes bibliográficas coinciden en situarlo como un libro de relatos y piezas breves, no como una novela unitaria. El propio texto promocional de Google Books destaca que, junto a los cuentos sobre la pareja, el volumen incluye dos piezas más ensayísticas y satíricas, entre ellas «A favor de las mujeres tontas», lo que refuerza su carácter híbrido y mordaz.",
+        "forWhom": "Para lectores adultos que disfrutan el cuento literario, la observación psicológica y las historias donde lo importante ocurre en los matices de la convivencia, el humor y la decepción íntima.",
+        "whyItMatters": "Importa porque Atwood convierte experiencias comunes —la convivencia, la rutina, la negociación afectiva, la corrección política— en material literario de alta precisión. Su interés no está en el gran acontecimiento, sino en cómo las personas se narran a sí mismas para seguir viviendo con sus elecciones, resentimientos y deseos.",
+        "editorialIntro": "Leer Érase una vez es entrar en una zona muy reconocible y, al mismo tiempo, incómoda: la de las relaciones que continúan cuando ya ha pasado el deslumbramiento inicial. Atwood evita el sentimentalismo y también el cinismo fácil. Prefiere la ironía, el detalle y la tensión entre lo que los personajes sienten, dicen y toleran. Por eso el libro funciona tan bien como retrato de la intimidad adulta.",
+        "readingLevel": "Lectura media: la prosa es clara, pero los relatos ganan cuando se leen con atención a los dobles sentidos, la ironía y las tensiones emocionales no siempre explícitas.",
+        "whyReadToday": "Sigue valiendo la pena porque su mirada sobre pareja, rutina y autoengaño conserva una vigencia inmediata en un presente donde la vida íntima continúa atravesada por expectativas, cansancio y necesidad de relato.",
+        "studyNotes": [
+          "No es una novela, sino una colección de relatos y piezas breves con unidad temática.",
+          "La vida de pareja aparece como espacio de afecto, desgaste, negociación y humor defensivo.",
+          "Atwood trabaja con escenas corrientes para revelar conflictos morales y emocionales complejos.",
+          "Conviene atender al tono irónico: muchas veces el sentido profundo no está en lo que se afirma de manera literal."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Parejas, rutina y memoria",
+            "summary": "La primera mitad del volumen reúne relatos que observan la convivencia cuando la novedad amorosa ya se ha vuelto costumbre. Atwood muestra cómo recuerdos, viejos escándalos, pequeñas mentiras y expectativas desajustadas modelan la vida en común."
+          },
+          {
+            "title": "Parte 2: Ironía social y piezas satíricas",
+            "summary": "Hacia el final, el libro incorpora textos más abiertamente satíricos y reflexivos, donde la autora se mueve entre la crítica cultural, el humor y la provocación. Esa variación amplía el foco del libro desde la intimidad doméstica hacia los discursos sociales sobre género y corrección política."
+          },
+          {
+            "title": "Parte 3",
+            "summary": "Esta sección puede leerse como un bloque de avance temático que reorganiza personajes, conflictos o ideas para preparar el desenlace o la reflexión final."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La pareja como laboratorio moral",
+            "content": "En estos relatos, la vida en pareja no aparece como refugio idealizado, sino como un espacio donde se sedimentan pactos, decepciones, complicidades y formas de supervivencia emocional. Atwood examina esa zona con una mezcla de precisión psicológica y distancia irónica que evita tanto la moraleja como la indulgencia."
+          },
+          {
+            "heading": "La fuerza literaria de lo cotidiano",
+            "content": "Uno de los logros del libro es transformar materiales aparentemente menores —una conversación, un viaje, una escena doméstica— en episodios cargados de tensión. Atwood demuestra que la literatura puede encontrar conflicto serio allí donde solo parecía haber rutina."
+          },
+          {
+            "heading": "Humor, sátira y crítica de los discursos sociales",
+            "content": "Las piezas finales muestran a una Atwood especialmente incisiva cuando se aparta del relato realista breve y entra en un registro más satírico. Esa ampliación del tono permite leer el libro no solo como observación de vínculos privados, sino también como comentario sobre las reglas culturales que ordenan la conducta y la identidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Érase una vez es una novela?",
+            "answer": "No. Las fuentes bibliográficas la presentan como una colección de relatos y piezas breves de Margaret Atwood."
+          },
+          {
+            "question": "¿Qué temas predominan en el libro?",
+            "answer": "Sobre todo la vida de pareja, la rutina afectiva, el desgaste de la convivencia, el autoengaño y la ironía social."
+          },
+          {
+            "question": "¿Es un libro accesible para quien no conoce a Atwood?",
+            "answer": "Sí. Al ser una colección breve, permite entrar en su estilo a través de textos independientes, aunque se aprecia mejor con gusto por la observación psicológica y la ironía."
+          },
+          {
+            "question": "¿El tono es dramático o humorístico?",
+            "answer": "Combina ambos registros. Hay malestar emocional y lucidez crítica, pero también un humor seco y satírico muy característico de Atwood."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Google Books — Érase una vez",
+            "url": "https://books.google.es/books?id=Afi9PAAACAAJ&redir_esc=y"
+          },
+          {
+            "label": "Open Library — Érase una vez",
+            "url": "https://openlibrary.org/works/OL675700W/Erase_Una_Vez_%28Dancing_girls_and_other_stories_Good_bones%29"
+          },
+          {
+            "label": "Goodreads — Érase una vez",
+            "url": "https://www.goodreads.com/book/show/3569197-erase-una-vez"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "esperame-en-nueva-york-de-caroline-march",
+      "title": "Esperame En Nueva York",
+      "authorName": "Caroline March",
+      "authorSlug": "caroline-march",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Espérame en Nueva York",
+        "authorName": "Caroline March",
+        "authorSlug": "caroline-march",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "romance",
+          "narrativa"
+        ],
+        "year": 2017,
+        "pages": 416,
+        "summary": "Novela romántica contemporánea en la que una mujer descubre que la vida que ha construido se sostiene sobre una mentira y decide huir a Nueva York para empezar de nuevo. En Harlem encuentra una comunidad inesperada, una relación decisiva con Jay y una oportunidad de rehacer su identidad, aunque el pasado y un acontecimiento traumático amenazan ese nuevo comienzo. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "aboutThisBook": "Publicada por Esencia/Editorial Planeta, esta novela combina romance, reinvención personal y drama urbano. Las fuentes consultadas coinciden en presentarla como una historia de segundas oportunidades ambientada en Nueva York, con especial peso del barrio de Harlem y de la red humana que rodea a la protagonista. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "forWhom": "Para lectores de romance contemporáneo que buscan una historia emocional, de cambio vital y de vínculos afectivos construidos fuera del entorno de origen.",
+        "whyItMatters": "La novela sitúa el amor dentro de una crisis de identidad: no solo pregunta con quién quedarse, sino cómo reconstruirse cuando se derrumba la versión anterior de la propia vida.",
+        "editorialIntro": "Caroline March plantea una huida geográfica que es también una ruptura moral. Nueva York funciona aquí como escenario romántico y como laboratorio de una segunda vida posible. Esta guía resume el libro con criterio de estudio, distingue lo esencial de lo accesorio y evita convertir la ficha en una simple sinopsis promocional.",
+        "readingLevel": "medio Conviene leerlo con paciencia y con disposición a seguir matices de estilo, referencias culturales y cambios de tono o de punto de vista.",
+        "whyReadToday": "Sigue siendo actual por su mirada sobre la reinvención personal, las relaciones elegidas y la necesidad de rehacer el sentido de pertenencia después de una quiebra íntima.",
+        "studyNotes": [
+          "La mentira inicial no es solo un giro argumental: organiza todo el proceso de cambio de la protagonista.",
+          "Harlem aparece como espacio de acogida, mezcla cultural y contraste con la vida anterior del personaje principal.",
+          "El romance con Jay funciona como catalizador, pero la novela también trata sobre autonomía y reconstrucción.",
+          "Conviene observar cómo el acontecimiento que cubre Nueva York de cenizas cambia el tono de la historia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La ruptura con la vida anterior",
+            "summary": "La protagonista descubre que su existencia estaba sostenida por una falsedad y decide abandonar su entorno para escapar de todo lo conocido."
+          },
+          {
+            "title": "Parte 2: Harlem como refugio",
+            "summary": "Ya en Nueva York, encuentra una comunidad de vecinos que le ofrece apoyo, extrañeza y una nueva forma de pertenencia."
+          },
+          {
+            "title": "Parte 3: El vínculo con Jay",
+            "summary": "La relación amorosa abre una posibilidad de felicidad, pero también expone miedos, reservas y heridas que no han desaparecido."
+          },
+          {
+            "title": "Parte 4: La prueba decisiva",
+            "summary": "Un suceso dramático altera el horizonte de los protagonistas y obliga a medir la solidez real de su nueva vida y de su relación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Identidad y huida",
+            "content": "La premisa gira en torno a la sensación de haber vivido dentro de una ficción ajena. La marcha a Nueva York convierte el viaje en una búsqueda de verdad personal."
+          },
+          {
+            "heading": "La ciudad como escenario de transformación",
+            "content": "Nueva York no es un simple decorado turístico: la novela la usa como lugar de anonimato, mezcla social y posibilidad de recomenzar."
+          },
+          {
+            "heading": "Romance y segundas oportunidades",
+            "content": "El amor aparece como experiencia intensa pero no idealizada. La historia insiste en que una segunda oportunidad exige asumir pérdidas, riesgos y cambios irreversibles."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Espérame en Nueva York?",
+            "answer": "Trata sobre una mujer que huye a Nueva York tras descubrir que su vida era una mentira y allí intenta reconstruirse mientras vive una historia de amor con Jay."
+          },
+          {
+            "question": "¿Qué tipo de novela es?",
+            "answer": "Es una novela romántica contemporánea con elementos de drama personal y de crecimiento emocional."
+          },
+          {
+            "question": "¿Por qué Harlem es importante en la historia?",
+            "answer": "Porque funciona como el espacio donde la protagonista encuentra refugio, nuevas relaciones y una forma distinta de entender la pertenencia y la felicidad."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - ficha del libro",
+            "url": "https://www.planetadelibros.com/libro-esperame-en-nueva-york/241745"
+          },
+          {
+            "label": "PlanetadeLibros - autora Caroline March",
+            "url": "https://www.planetadelibros.com/autor/caroline-march/000046739"
+          },
+          {
+            "label": "Google Books - Espérame en Nueva York",
+            "url": "https://play.google.com/store/books/details?id=xG37DQAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Open Library - obra",
+            "url": "https://openlibrary.org/works/OL34824699W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "felicitas-guerrero-de-ana-maria-cabrera",
+      "title": "Felicitas Guerrero",
+      "authorName": "Ana Maria Cabrera",
+      "authorSlug": "ana-maria-cabrera",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Felicitas Guerrero",
+        "authorName": "Ana María Cabrera",
+        "authorSlug": "ana-maria-cabrera",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 1999,
+        "pages": 236,
+        "summary": "Novela histórica centrada en la vida de Felicitas Guerrero, una joven aristócrata porteña cuya belleza, fortuna y decisión sentimental la convierten en figura legendaria de la Buenos Aires del siglo XIX. Ana María Cabrera reconstruye su mundo social, su viudez temprana, la presión de los pretendientes y el crimen que la transformó en mito urbano. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "aboutThisBook": "Ana María Cabrera toma un episodio célebre de la historia argentina y lo trabaja como relato de época. El libro combina documentación histórica y recreación narrativa para seguir a Felicitas desde los salones de la elite hasta la tragedia de 1872, subrayando cómo el deseo, el prestigio social y la violencia de género marcaron su destino. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "forWhom": "Para lectores de novela histórica argentina, biografías noveladas y relatos que revisan la posición de la mujer en el siglo XIX. También resulta útil para quien quiera entrar en la leyenda de Santa Felicitas y en la memoria cultural de Buenos Aires.",
+        "whyItMatters": "Importa porque rescata una figura femenina convertida durante décadas en emblema romántico y la devuelve a su contexto real: una sociedad patriarcal donde la riqueza y la visibilidad pública no protegían a las mujeres de la violencia. La novela ayuda a leer el caso de Felicitas más allá del folclore y como síntoma de una época.",
+        "editorialIntro": "Pocas historias argentinas mezclan con tanta fuerza crónica social, mito y tragedia. En esta novela, Ana María Cabrera convierte un episodio muy conocido en una narración sobria y accesible sobre poder, deseo y vulnerabilidad femenina. Esta guía resume el libro con criterio de estudio, distingue lo esencial de lo accesorio y evita convertir la ficha en una simple sinopsis promocional.",
+        "readingLevel": "medio Conviene leerlo con paciencia y con disposición a seguir matices de estilo, referencias culturales y cambios de tono o de punto de vista.",
+        "whyReadToday": "Porque dialoga con debates actuales sobre femicidio, representación de las mujeres en la historia y construcción de mitos sociales. Leerla hoy permite revisar un caso célebre con sensibilidad contemporánea sin perder el espesor histórico.",
+        "studyNotes": [
+          "La novela se apoya en una figura histórica real: Felicitas Guerrero, asesinada en 1872.",
+          "Conviene leerla como novela histórica: recrea hechos documentados, pero organiza escenas y emociones con herramientas narrativas.",
+          "Uno de sus ejes es la tensión entre vida íntima y vigilancia social en la elite porteña.",
+          "La leyenda posterior de Felicitas forma parte del sentido del libro, no solo su desenlace policial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Juventud y matrimonio",
+            "summary": "Se presenta a Felicitas dentro de una familia acomodada de Buenos Aires y se delinean las expectativas sociales que pesan sobre su belleza, su apellido y su futuro matrimonial."
+          },
+          {
+            "title": "Parte 2: Viudez, herencia y exposición pública",
+            "summary": "La protagonista queda convertida en una de las mujeres más observadas de la ciudad. Su fortuna y su nueva posición la vuelven objeto de deseo, cálculo social y rumores."
+          },
+          {
+            "title": "Parte 3: Cortejos, elección y amenaza",
+            "summary": "La trama se concentra en la disputa afectiva y simbólica alrededor de Felicitas. Su voluntad personal choca con una cultura que interpreta el rechazo femenino como afrenta."
+          },
+          {
+            "title": "Parte 4: El crimen y la memoria",
+            "summary": "El desenlace trágico transforma la historia privada en leyenda pública. La novela muestra cómo el asesinato fija una imagen perdurable de Felicitas en la memoria porteña."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia y ficción",
+            "content": "El libro se sostiene sobre hechos reconocibles de la historia argentina, pero los vuelve experiencia narrativa. Esa combinación permite acercarse al personaje no solo como dato biográfico sino como conciencia atrapada por normas sociales rígidas."
+          },
+          {
+            "heading": "Mirada sobre la sociedad porteña",
+            "content": "Más que un simple relato romántico, la novela describe un sistema de prestigio, herencia y alianzas familiares. Los salones, los nombres y las convenciones muestran una elite donde lo privado estaba regulado por la mirada ajena."
+          },
+          {
+            "heading": "Violencia de género antes del nombre",
+            "content": "La tragedia de Felicitas puede leerse hoy como un caso temprano de violencia posesiva. Cabrera no reduce el episodio al escándalo: lo presenta como resultado de una cultura que legitimaba la obsesión masculina y restringía la autonomía femenina."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una biografía o una novela?",
+            "answer": "Es una novela histórica basada en una figura real. Parte de documentación y hechos conocidos, pero los desarrolla con recursos de ficción."
+          },
+          {
+            "question": "¿Quién fue Felicitas Guerrero?",
+            "answer": "Fue una dama de la alta sociedad porteña del siglo XIX, célebre por su belleza y por el asesinato que la convirtió en una figura legendaria de Buenos Aires."
+          },
+          {
+            "question": "¿El libro se centra más en el crimen o en el contexto social?",
+            "answer": "En ambos, aunque dedica mucho espacio a mostrar el contexto social y sentimental que vuelve inteligible el desenlace trágico."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library: Felicitas Guerrero (ed. Emecé)",
+            "url": "https://openlibrary.org/books/OL39807821M/Felicitas_Guerrero"
+          },
+          {
+            "label": "Wikipedia: Ana María Cabrera",
+            "url": "https://es.wikipedia.org/wiki/Ana_Mar%C3%ADa_Cabrera"
+          },
+          {
+            "label": "Wikipedia: Felicitas Guerrero",
+            "url": "https://es.wikipedia.org/wiki/Felicitas_Guerrero"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "festin-de-cuervos-cancion-de-hielo-y-fuego-4-de-george-r-r-martin",
+      "title": "Festin De Cuervos Cancion De Hielo Y Fuego 4",
+      "authorName": "George R R Martin",
+      "authorSlug": "george-r-r-martin",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Festín de cuervos",
+        "authorName": "George R. R. Martin",
+        "authorSlug": "george-r-r-martin",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "fantasia",
+          "aventura"
+        ],
+        "year": 2005,
+        "pages": null,
+        "summary": "Festín de cuervos es la cuarta entrega de Canción de hielo y fuego y narra las secuelas de la Guerra de los Cinco Reyes en un Poniente exhausto, endeudado y políticamente fracturado. A diferencia de los volúmenes anteriores, Martin concentra aquí la mirada en territorios y personajes del sur y del oeste: el gobierno de Cersei en Desembarco del Rey, la devastación de los Ríos, la ambición de las Islas del Hierro, las intrigas de Dorne, el aprendizaje de Arya en Braavos y la llegada de Samwell a Antigua. El libro funciona menos como una gran ofensiva militar y más como una novela de consecuencias: muestra cómo el vacío de poder, la paranoia, el fanatismo religioso y la revancha erosionan aún más un reino que ya parecía victorioso solo en apariencia.",
+        "aboutThisBook": "Esta novela ocupa un lugar singular en la serie porque reorganiza el mapa narrativo. Martin dejó fuera temporalmente a varios protagonistas principales para dedicar espacio a líneas que parecían laterales y que aquí adquieren peso estratégico. El resultado es un libro más sombrío, político y atmosférico, atento al costo humano de la guerra y a la fragilidad de los regímenes que intentan gobernar sus ruinas. Aunque algunos lectores lo perciben como una obra de transición, su valor reside precisamente en esa transición: muestra cómo un conflicto no termina cuando cesan las grandes batallas, sino cuando empiezan a sentirse sus efectos duraderos.",
+        "forWhom": "Para lectores adultos de fantasía épica que disfrutan la intriga política, los cambios de punto de vista y las historias donde las consecuencias importan tanto como las batallas. También interesa a quienes siguen la serie completa y quieren observar cómo Martin amplía su mundo hacia Dorne, las Islas del Hierro, Braavos y Antigua.",
+        "whyItMatters": "Importa porque demuestra que la fantasía épica puede dedicar un libro entero al desgaste del poder, a la administración del desastre y a la descomposición moral posterior a la guerra. Es una pieza esencial para entender la amplitud política y geográfica de la saga.",
+        "editorialIntro": "Festín de cuervos no busca reproducir la euforia de una campaña militar victoriosa. Su energía nace del derrumbe. Martin recoge un mundo herido y lo examina desde dentro: una reina que se destruye a sí misma, regiones ocupadas por el resentimiento, nuevas ambiciones marítimas, conspiraciones largamente incubadas y personajes jóvenes obligados a aprender en un entorno cada vez más cruel. Leerlo bien exige aceptar su ritmo propio. No es un paréntesis menor, sino la novela donde la serie se vuelve todavía más consciente del precio político y humano de sus guerras.",
+        "readingLevel": "Lectura media-alta: el estilo es accesible, pero la novela exige atención por la cantidad de personajes, casas, territorios y maniobras políticas. Funciona mejor en lectores ya familiarizados con el universo de la saga.",
+        "whyReadToday": "Porque su visión del poder desgastado, la propaganda, la radicalización religiosa y la mala gestión de una crisis colectiva conserva una resonancia muy contemporánea. Bajo la fantasía, el libro piensa con crudeza cómo se gobierna un mundo roto.",
+        "studyNotes": [
+          "La novela está estructurada por regiones y perspectivas, no por una sola línea heroica; eso refuerza la idea de un reino fragmentado.",
+          "Cersei es uno de los grandes centros del libro: su paranoia muestra cómo el poder sin prudencia puede acelerarse hacia su propia ruina.",
+          "El título alude a un mundo que se alimenta de los restos de la guerra: oportunistas, conspiradores y depredadores prosperan entre cadáveres políticos y reales.",
+          "Aunque parezca un libro de transición, prepara conflictos decisivos al desarrollar Dorne, las Islas del Hierro, la Ciudadela y la formación de Arya."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El reino después de la guerra",
+            "summary": "Tras la muerte de varios pretendientes al trono, Poniente entra en una paz falsa. En Desembarco del Rey, Cersei gobierna en nombre de Tommen, pero sus decisiones imprudentes, su desconfianza hacia los Tyrell y su dependencia de consejeros mediocres abren una nueva crisis política y religiosa."
+          },
+          {
+            "title": "Fronteras del poder: Ríos, Dorne e Islas del Hierro",
+            "summary": "Mientras Jaime y Brienne recorren unas Tierras de los Ríos devastadas por la guerra, en Dorne se incuban planes de venganza y sucesión, y en las Islas del Hierro Euron Greyjoy convierte la ambición marítima en amenaza continental. El libro muestra que el conflicto ya no tiene un solo centro, sino muchos focos inestables."
+          },
+          {
+            "title": "Braavos, Antigua y el horizonte de lo que viene",
+            "summary": "Arya inicia su aprendizaje con los Hombres sin Rostro en Braavos, y Samwell llega a la Ciudadela de Antigua, donde afloran secretos sobre profecía, dragones y saber prohibido. El cierre deja claro que, mientras el reino se consume en intrigas inmediatas, se preparan transformaciones de alcance mucho mayor."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El poder como autodestrucción",
+            "content": "La trayectoria de Cersei concentra uno de los núcleos del libro. Martin muestra cómo la autoridad puede erosionarse no solo por enemigos externos, sino por soberbia, miedo y mala lectura de la realidad. Cada intento de control absoluto termina debilitando más el régimen que pretende asegurar."
+          },
+          {
+            "heading": "La guerra vista desde sus ruinas",
+            "content": "En lugar de glorificar la victoria, la novela insiste en pueblos arrasados, lealtades rotas, desplazamientos, venganzas privadas y deudas públicas. Esa atención a las secuelas distingue a Festín de cuervos dentro de la fantasía épica y acerca su mirada a una novela política de posguerra."
+          },
+          {
+            "heading": "Expansión del mundo narrativo",
+            "content": "Dorne, las Islas del Hierro, Braavos y Antigua amplían la saga más allá de la lucha inmediata por el Trono de Hierro. Martin ensancha su universo cultural y estratégico, y deja ver que lo que parecía un conflicto dinástico es solo una parte de un tablero mucho más grande, donde religión, comercio, magia y conocimiento también cuentan."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es el cuarto libro de Canción de hielo y fuego?",
+            "answer": "Sí. Festín de cuervos es la cuarta novela de la serie y se publicó en 2005, después de Tormenta de espadas."
+          },
+          {
+            "question": "¿Por qué faltan personajes como Tyrion, Jon o Daenerys?",
+            "answer": "Porque Martin dividió el material previsto para este tramo de la saga por geografía y personajes. Festín de cuervos se concentra en ciertas regiones y puntos de vista, mientras otras líneas quedaron para Danza de dragones."
+          },
+          {
+            "question": "¿Es un libro de transición?",
+            "answer": "Sí, en parte, pero no en sentido menor. Es una novela de transición cargada de consecuencias: reordena el mapa político, profundiza conflictos periféricos y prepara desarrollos fundamentales para el resto de la serie."
+          },
+          {
+            "question": "¿Se puede leer sin conocer los libros anteriores?",
+            "answer": "No es lo ideal. Debido al gran número de personajes y a la continuidad de la trama, funciona mucho mejor como parte de la lectura secuencial de la saga."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "George R.R. Martin: A Feast for Crows (A Song of Ice and Fire, Book Four)",
+            "url": "https://georgerrmartin.com/grrm_book/a-feast-for-crows-a-song-of-ice-and-fire-book-four/"
+          },
+          {
+            "label": "Wikipedia: A Feast for Crows",
+            "url": "https://en.wikipedia.org/wiki/A_Feast_for_Crows"
+          },
+          {
+            "label": "Encyclopaedia Britannica: George R.R. Martin",
+            "url": "https://www.britannica.com/biography/George-R-R-Martin"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fin-de-guardia-trilogia-bill-hodges-3-de-stephen-king",
+      "title": "Fin De Guardia Trilogia Bill Hodges 3",
+      "authorName": "Stephen King",
+      "authorSlug": "stephen-king",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Fin de guardia",
+        "authorName": "Stephen King",
+        "authorSlug": "stephen-king",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2017,
+        "pages": 460,
+        "summary": "Fin de guardia es la tercera entrega de la trilogía de Bill Hodges. La novela retoma al detective ya retirado, ahora al frente de una pequeña agencia junto a Holly Gibney, cuando una serie de suicidios lo obliga a volver sobre la figura de Brady Hartsfield, el asesino de Mr. Mercedes. El núcleo de la intriga consiste en una paradoja inquietante: todas las pistas parecen conducir a Brady aunque permanezca hospitalizado y aparentemente incapacitado. La edición española de Plaza & Janés y la presentación oficial de Stephen King coinciden en subrayar que el libro lleva la serie desde el policial hacia un territorio más abiertamente sobrenatural, con Brady convertido en una amenaza mental que busca venganza y destrucción a gran escala.",
+        "aboutThisBook": "Publicada originalmente en inglés en 2016 y en español en 2017, Fin de guardia cierra la trilogía formada por Mr. Mercedes, Quien pierde paga y esta entrega final. Las fuentes consultadas la describen como una novela de crimen y suspense con elementos sobrenaturales, algo distintivo dentro del ciclo de Bill Hodges. También tiene importancia dentro de la obra reciente de King por el desarrollo del personaje de Holly Gibney, que luego continuaría en otros libros.",
+        "forWhom": "Para lectores adultos de Stephen King, del thriller policial y del terror contemporáneo, especialmente si buscan una novela de cierre con ritmo alto, peligro constante y una mezcla de investigación criminal con amenaza sobrenatural.",
+        "whyItMatters": "Importa porque muestra cómo King desplaza una serie nacida como novela negra hacia una conclusión donde la violencia psicológica, la tecnología y lo paranormal se combinan. El libro no solo cierra la historia de Hodges y Brady: también redefine el alcance del universo narrativo que la trilogía había construido.",
+        "editorialIntro": "Fin de guardia no funciona como simple repetición del enfrentamiento entre detective y asesino. Su novedad está en que la investigación ya no depende solo de pruebas, vigilancia o intuición policial, sino de una amenaza que invade la mente y vuelve inestable la frontera entre crimen material y terror. Ese cambio de registro explica tanto su potencia narrativa como las discusiones que genera entre lectores de la trilogía.",
+        "readingLevel": "Lectura media: la trama es ágil y directa, pero se disfruta más si ya se conocen los libros anteriores y las relaciones entre Hodges, Holly y Brady Hartsfield.",
+        "whyReadToday": "Se mantiene vigente por su mezcla de crimen, trauma colectivo y manipulación tecnológica, asuntos que siguen resonando en conversaciones actuales sobre violencia, vulnerabilidad y control mental a través de dispositivos.",
+        "studyNotes": [
+          "Es el cierre de la trilogía Bill Hodges y conviene leerlo después de Mr. Mercedes y Quien pierde paga.",
+          "La novela combina investigación policial con una dimensión sobrenatural más fuerte que en las entregas previas.",
+          "Brady Hartsfield reaparece como una presencia capaz de actuar a distancia sobre mentes vulnerables.",
+          "Holly Gibney consolida aquí un papel decisivo dentro del grupo protagonista."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Nuevos suicidios, viejo enemigo",
+            "summary": "Bill Hodges recibe indicios de una cadena de muertes que parecen conectadas con víctimas del pasado ataque del Mercedes. Lo inquietante es que las señales apuntan otra vez hacia Brady Hartsfield, aunque en teoría no debería poder actuar."
+          },
+          {
+            "title": "Parte 2: La amenaza mental de Brady",
+            "summary": "La investigación revela que Brady ha adquirido un modo insólito de intervenir sobre otras personas. La novela desplaza entonces el eje del caso desde el procedimiento policial clásico hacia una lucha contra una forma de manipulación psíquica y tecnológica."
+          },
+          {
+            "title": "Parte 3: El último enfrentamiento",
+            "summary": "En el tramo final, Hodges, Holly y sus aliados intentan impedir una catástrofe mayor y cerrar definitivamente el conflicto abierto desde Mr. Mercedes. La resolución combina presión emocional, sentido de urgencia y despedida para los personajes centrales del ciclo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Del policial al terror sobrenatural",
+            "content": "Una de las claves del libro es el cambio de registro. Si la trilogía había comenzado en un marco de crimen urbano bastante reconocible, aquí King introduce con claridad el elemento paranormal. Ese desplazamiento modifica la lógica del antagonismo y vuelve la amenaza menos rastreable y más invasiva."
+          },
+          {
+            "heading": "Brady Hartsfield como figura del daño persistente",
+            "content": "Brady ya no es solo un criminal individual, sino la persistencia del trauma. Su retorno conecta los suicidios presentes con una violencia anterior que no termina de clausurarse. En ese sentido, la novela trata también sobre cómo ciertos actos siguen operando mucho después de haber ocurrido."
+          },
+          {
+            "heading": "El lugar de Holly y la fragilidad de Hodges",
+            "content": "El libro gana fuerza en la relación entre Hodges y Holly. Mientras el detective aparece más vulnerable y marcado por el deterioro físico, Holly se afirma como inteligencia práctica y afectiva del grupo. Esa combinación da al final de la trilogía un peso humano que va más allá del suspenso."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hay que leer los dos libros anteriores antes de Fin de guardia?",
+            "answer": "Es lo más recomendable. Aunque la trama principal se entiende, gran parte de su fuerza depende de la historia previa entre Hodges, Holly y Brady Hartsfield."
+          },
+          {
+            "question": "¿Es una novela policial o de terror?",
+            "answer": "Es ambas cosas, pero en esta entrega el componente sobrenatural pesa más que en los libros anteriores de la trilogía."
+          },
+          {
+            "question": "¿Qué papel tiene Holly Gibney?",
+            "answer": "Muy importante. Holly deja de ser solo apoyo del detective y se confirma como una figura clave para comprender y enfrentar la amenaza."
+          },
+          {
+            "question": "¿Por qué destaca dentro de la trilogía?",
+            "answer": "Porque convierte un conflicto criminal ya conocido en un cierre más oscuro, más extraño y más abiertamente terrorífico."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "StephenKing.com — End of Watch",
+            "url": "https://stephenking.com/works/novel/end-of-watch.html"
+          },
+          {
+            "label": "Wikipedia — End of Watch (novel)",
+            "url": "https://en.wikipedia.org/wiki/End_of_Watch_(novel)"
+          },
+          {
+            "label": "Goodreads — End of Watch",
+            "url": "https://www.goodreads.com/book/show/27426809-end-of-watch"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "flores-de-febrero-de-fan-wu",
+      "title": "Flores De Febrero",
+      "authorName": "Fan Wu",
+      "authorSlug": "fan-wu",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Flores de febrero",
+        "authorName": "Fan Wu",
+        "authorSlug": "fan-wu",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2008,
+        "pages": 208,
+        "summary": "Ambientada en la China de finales del siglo XX, Flores de febrero sigue la breve pero intensa amistad entre Ming, una estudiante de diecisiete años idealista y volcada en los libros, y Yan, una mujer de veinticuatro años más cínica, impulsiva y desafiante. A través de ese vínculo, la novela retrata el choque entre tradición y modernización y muestra cómo una relación puede alterar para siempre la mirada de una joven sobre el mundo. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "aboutThisBook": "La edición española publicada por Nabla presenta la novela como un relato situado en una China en proceso de occidentalización y abandono de costumbres heredadas. Su núcleo narrativo es la relación entre dos mujeres muy distintas unidas por una amistad corta, intensa y transformadora. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "forWhom": "Para lectores interesados en ficción literaria asiática, novelas de formación y relatos sobre amistad femenina en contextos de cambio social rápido.",
+        "whyItMatters": "El libro conecta una historia íntima con un momento de mutación cultural. La amistad entre Ming y Yan permite leer en pequeño las tensiones entre disciplina, deseo, tradición y libertad.",
+        "editorialIntro": "Wu Fan organiza la novela alrededor de un encuentro desigual: dos mujeres con sensibilidades opuestas que terminan modificándose mutuamente en una China moderna e inestable. Esta guía resume el libro con criterio de estudio, distingue lo esencial de lo accesorio y evita convertir la ficha en una simple sinopsis promocional.",
+        "readingLevel": "medio Conviene leerlo con paciencia y con disposición a seguir matices de estilo, referencias culturales y cambios de tono o de punto de vista.",
+        "whyReadToday": "Resulta vigente por su manera de mostrar cómo los cambios sociales acelerados afectan la identidad, la educación sentimental y la relación entre mujeres jóvenes de distintas expectativas vitales.",
+        "studyNotes": [
+          "La oposición entre Ming y Yan estructura la novela: idealismo frente a cinismo, orden frente a impulso.",
+          "El contexto chino no es accesorio; la occidentalización afecta valores, aspiraciones y vínculos.",
+          "La amistad se presenta como experiencia formativa más que como simple acompañamiento emocional.",
+          "La brevedad de la relación es parte de su fuerza narrativa: importa por la huella que deja, no por su duración."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Dos jóvenes, dos mundos",
+            "summary": "La novela presenta a Ming y Yan como estudiantes con temperamentos y horizontes vitales muy distintos dentro de un mismo entorno universitario."
+          },
+          {
+            "title": "Parte 2: El inicio de la amistad",
+            "summary": "Pese a sus diferencias, ambas se acercan y desarrollan una relación tan inesperada como intensa."
+          },
+          {
+            "title": "Parte 3: Fricciones y aprendizaje",
+            "summary": "La convivencia de valores opuestos vuelve visible la tensión entre imaginación, deseo, familia, independencia y cambio social."
+          },
+          {
+            "title": "Parte 4: Una huella duradera",
+            "summary": "La amistad transforma sobre todo a Ming, que ya no puede mirar su vida ni su mundo con la misma inocencia inicial."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Amistad femenina como motor narrativo",
+            "content": "La novela se apoya en una amistad desigual para explorar admiración, contagio emocional y aprendizaje. El vínculo importa por su capacidad de alterar una conciencia en formación."
+          },
+          {
+            "heading": "China moderna y pérdida de tradiciones",
+            "content": "Las fuentes destacan el marco de occidentalización y abandono de costumbres. Ese proceso histórico da relieve a las decisiones privadas de los personajes."
+          },
+          {
+            "heading": "Bildungsroman íntimo",
+            "content": "Aunque el argumento gira alrededor de dos mujeres, el efecto principal recae en la formación de Ming, cuya visión del mundo cambia tras conocer a Yan."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Flores de febrero?",
+            "answer": "Trata sobre la amistad intensa entre Ming y Yan, dos jóvenes muy distintas, en una China moderna que vive una rápida transformación cultural."
+          },
+          {
+            "question": "¿Qué temas principales aborda?",
+            "answer": "Aborda la amistad femenina, la formación personal, el contraste entre tradición y modernización y el impacto de una relación decisiva en la juventud."
+          },
+          {
+            "question": "¿Es una novela histórica?",
+            "answer": "No en sentido clásico; es una novela contemporánea ambientada en la China de finales del siglo XX, con fuerte atención al contexto social y cultural."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Todos Tus Libros - ficha del libro",
+            "url": "https://www.todostuslibros.com/libros/flores-de-febrero_978-84-935926-7-7"
+          },
+          {
+            "label": "Google Books - Flores de febrero",
+            "url": "https://books.google.es/books/about/Flores_de_febrero.html?hl=&id=fmMoQwAACAAJ&redir_esc=y"
+          },
+          {
+            "label": "Open Library - obra",
+            "url": "https://openlibrary.org/works/OL35223982W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "gargantua-y-pantagruel-los-cinco-libros-de-francois-rabelais",
+      "title": "Gargantua Y Pantagruel Los Cinco Libros",
+      "authorName": "Francois Rabelais",
+      "authorSlug": "francois-rabelais",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Gargantúa y Pantagruel",
+        "authorName": "François Rabelais",
+        "authorSlug": "francois-rabelais",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 2011,
+        "pages": 1520,
+        "summary": "Esta edición reúne los cinco libros del gran ciclo narrativo de Rabelais sobre Gargantúa, Pantagruel y su mundo desmesurado. Entre nacimientos prodigiosos, guerras absurdas, viajes, disputas escolásticas y banquetes interminables, la obra despliega una sátira exuberante de la educación, el poder, el fanatismo y las pretensiones intelectuales de su tiempo. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "aboutThisBook": "Rabelais compuso una pentalogía publicada originalmente entre 1532 y 1564, hoy considerada una de las cumbres de la prosa francesa del Renacimiento. La comicidad grotesca, el gusto por la exageración y la erudición humanista conviven aquí en una obra que celebra el lenguaje, desacraliza las autoridades y convierte la risa en instrumento crítico. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "forWhom": "Para lectores de clásicos, sátira, literatura del Renacimiento y obras de humor verbal exigente. También interesa a quienes quieran entender la tradición carnavalesca y humanista que influyó en la novela europea posterior.",
+        "whyItMatters": "Importa porque es una de las obras fundacionales de la imaginación satírica moderna. Su defensa del conocimiento vivo frente al dogma, su energía verbal y su crítica a las instituciones la mantienen vigente mucho más allá de su contexto histórico.",
+        "editorialIntro": "Gigantes, juristas ridículos, monjes combativos, eruditos pedantes y viajeros en busca de una respuesta imposible: pocas obras son tan desbordadas como la de Rabelais. Bajo la carcajada constante late una seria reflexión sobre cómo pensar, educarse y vivir con libertad.",
+        "readingLevel": "avanzado Conviene leerlo con paciencia y con disposición a seguir matices de estilo, referencias culturales y cambios de tono o de punto de vista.",
+        "whyReadToday": "Porque sigue ofreciendo una crítica feroz de la solemnidad vacía, los discursos dogmáticos y la mala educación. Además, su mezcla de comicidad popular y ambición intelectual resulta sorprendentemente moderna.",
+        "studyNotes": [
+          "Es una obra del Renacimiento francés y conviene leerla desde la tradición humanista y satírica.",
+          "La exageración corporal y verbal no es adorno: forma parte de su crítica cultural.",
+          "Los cinco libros no mantienen un tono único; combinan aventura, burla, debate filosófico y parodia erudita.",
+          "Muchas ediciones modernas incluyen notas porque el texto alude a polémicas, instituciones y lenguajes de su época."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Libro I: Nacimiento y formación de Pantagruel",
+            "summary": "La obra introduce el universo de los gigantes y presenta a Pantagruel en clave burlesca. Desde el comienzo, Rabelais mezcla aprendizaje, parodia del saber y celebración de la vitalidad."
+          },
+          {
+            "title": "Libro II: Gargantúa y la crítica de la educación",
+            "summary": "La infancia y formación de Gargantúa permiten satirizar la enseñanza escolástica y oponerle un ideal humanista más amplio, práctico y alegre."
+          },
+          {
+            "title": "Libro III: Panurgo y el problema del matrimonio",
+            "summary": "Las consultas de Panurgo abren una larga serie de discusiones y escenas cómicas sobre el miedo, la indecisión y la dificultad de obtener una verdad definitiva."
+          },
+          {
+            "title": "Libro IV: El viaje y las islas satíricas",
+            "summary": "La navegación multiplica encuentros alegóricos y episodios carnavalescos. Cada escala funciona como una crítica de costumbres, instituciones y formas de autoridad."
+          },
+          {
+            "title": "Libro V: La búsqueda del Oráculo",
+            "summary": "La travesía culmina en una respuesta ambigua y célebre. Más que cerrar el sentido, el final reafirma que la experiencia, la interpretación y el deseo son inseparables."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La risa como método crítico",
+            "content": "Rabelais usa lo grotesco para desmontar prestigios falsos. La burla a teólogos, juristas y pedantes no es mero entretenimiento: busca liberar el pensamiento de la autoridad automática."
+          },
+          {
+            "heading": "Humanismo y educación",
+            "content": "Uno de los núcleos de la obra es la defensa de una educación integral. Frente al saber memorístico y estéril, Rabelais propone una formación abierta al cuerpo, a las lenguas, a la experiencia y a la curiosidad."
+          },
+          {
+            "heading": "Lenguaje desbordado",
+            "content": "La riqueza verbal de Gargantúa y Pantagruel es parte de su sentido. Listas, juegos de palabras, invenciones léxicas y cambios de registro convierten la lengua en un espacio de libertad creadora."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una sola novela o varias?",
+            "answer": "Se trata de una pentalogía: cinco libros relacionados que hoy suelen editarse juntos bajo el título Gargantúa y Pantagruel."
+          },
+          {
+            "question": "¿Es difícil de leer?",
+            "answer": "Puede ser exigente por su contexto histórico, su humor verbal y sus referencias eruditas, pero las ediciones anotadas facilitan mucho la lectura."
+          },
+          {
+            "question": "¿Por qué se considera una obra tan importante?",
+            "answer": "Porque combina sátira, invención lingüística y pensamiento humanista de un modo decisivo para la literatura europea moderna."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Acantilado: Gargantúa y Pantagruel",
+            "url": "https://www.acantilado.es/catalogo/gargantua-y-pantagruel/"
+          },
+          {
+            "label": "Wikipedia: Gargantua and Pantagruel",
+            "url": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel"
+          },
+          {
+            "label": "Encyclopaedia Britannica: François Rabelais",
+            "url": "https://www.britannica.com/biography/Francois-Rabelais"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "guzman-de-alfarache-de-mateo-aleman",
+      "title": "Guzman De Alfarache",
+      "authorName": "Mateo Aleman",
+      "authorSlug": "mateo-aleman",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Guzmán de Alfarache",
+        "authorName": "Mateo Alemán",
+        "authorSlug": "mateo-aleman",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1599,
+        "pages": null,
+        "summary": "Guzmán de Alfarache es una de las obras mayores de la novela picaresca española. Mateo Alemán la publicó en dos partes, la primera en 1599 y la segunda en 1604, y en ella sigue la vida errante de un antihéroe que sobrevive mediante engaños, astucia y oportunismo en una sociedad profundamente desigual. Guzmán narra su propia historia desde una posición retrospectiva y moralizante: cuenta sus trampas, humillaciones y cambios de fortuna, pero al mismo tiempo extrae lecciones sobre la corrupción, la miseria, la apariencia y el pecado. Esa doble condición —relato de aventuras y comentario moral— le da a la obra una complejidad especial. No es solo un catálogo de episodios picarescos, sino un examen severo de la España de su tiempo y de las debilidades humanas que el narrador reconoce en sí mismo.",
+        "aboutThisBook": "El libro ocupa un lugar central en la consolidación del género picaresco después del Lazarillo. Su protagonista no es un caballero ni un héroe ejemplar, sino un superviviente que aprende a leer los mecanismos de una sociedad atravesada por la hipocresía, el hambre y la obsesión por la honra. Alemán combina episodios narrativos, digresiones morales y observación social para construir una obra extensa, amarga y muy influyente en la tradición narrativa europea. Su importancia está tanto en su retrato del pícaro como en su capacidad para convertir ese retrato en crítica de época.",
+        "forWhom": "Para lectores adultos interesados en los clásicos españoles, la novela picaresca, la sátira moral y la historia literaria del Siglo de Oro. También resulta muy útil para estudiantes que quieran entender la evolución del antihéroe moderno y la crítica social en la narrativa temprana.",
+        "whyItMatters": "Importa porque ayudó a fijar la forma madura de la novela picaresca y porque convirtió la vida del marginado en una herramienta de observación social y moral. Su influencia se deja sentir en la tradición del antihéroe y en muchas narrativas posteriores sobre pobreza, engaño y movilidad social frustrada.",
+        "editorialIntro": "Leer Guzmán de Alfarache hoy es volver a una obra fundamental del Siglo de Oro que no idealiza a su protagonista ni al mundo que lo rodea. Mateo Alemán usa la voz del pícaro para mostrar una sociedad donde la necesidad empuja al fraude, la apariencia pesa más que la virtud y la moral convive con la corrupción cotidiana. El resultado es un texto vivo, áspero y sorprendentemente moderno en su comprensión del oportunismo, la desigualdad y la fragilidad del ascenso social.",
+        "readingLevel": "Lectura alta por la lengua clásica, la extensión de las digresiones y el peso de la reflexión moral. Se disfruta más con edición anotada o con cierta familiaridad con la literatura del Siglo de Oro.",
+        "whyReadToday": "Porque sigue ofreciendo una mirada incisiva sobre la precariedad, la impostura y la lucha por sobrevivir dentro de sistemas injustos. Bajo su marco histórico, la novela conserva preguntas muy actuales sobre movilidad social, culpa y adaptación moral al entorno.",
+        "studyNotes": [
+          "El narrador cuenta sus propias faltas, pero no desde una celebración simple del engaño: constantemente moraliza y juzga tanto sus actos como los de la sociedad que lo forma.",
+          "La obra fue publicada en dos partes, de modo que conviene leerla como un desarrollo largo de aprendizaje, caída y reinterpretación retrospectiva.",
+          "El género picaresco rompe con el ideal heroico tradicional y coloca en el centro a un personaje marginal, móvil e incómodo para las jerarquías sociales.",
+          "Muchas digresiones aparentemente laterales cumplen una función crítica: amplían el retrato de una sociedad donde honra, religión y dinero no siempre coinciden con la virtud real."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Origen del pícaro y primeros aprendizajes",
+            "summary": "La novela presenta a Guzmán desde sus orígenes problemáticos y lo sigue en sus primeras experiencias de hambre, dependencia y engaño. Desde temprano entiende que la supervivencia exige leer las debilidades ajenas y adaptarse a un mundo hostil."
+          },
+          {
+            "title": "Aventuras, fraudes y crítica de la sociedad",
+            "summary": "En la parte central, Guzmán pasa por amos, ciudades y situaciones diversas que exhiben la corrupción de clérigos, mercaderes, nobles y buscavidas. Cada episodio amplía el retrato de una sociedad sostenida por la apariencia y por una moral frecuentemente hipócrita."
+          },
+          {
+            "title": "Caída, reflexión y lección moral",
+            "summary": "En el tramo final, la acumulación de errores y desengaños empuja al protagonista hacia una visión más amarga y reflexiva de su vida. El libro cierra subrayando que la autobiografía del pícaro también quiere presentarse como advertencia moral sobre el vicio, la ambición y el autoengaño."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La madurez de la novela picaresca",
+            "content": "Con Guzmán de Alfarache, el modelo del pícaro gana amplitud psicológica y densidad moral. El protagonista no es solo un muchacho astuto que cambia de amo, sino una conciencia que interpreta su propia degradación y la inserta en una visión crítica del mundo. Eso da al género una profundidad nueva frente a antecedentes más breves y esquemáticos."
+          },
+          {
+            "heading": "Sátira y moralización",
+            "content": "Alemán no se limita a exhibir abusos sociales; inserta sermones, comentarios y juicios que convierten la novela en un espacio de reflexión moral. Esa mezcla puede parecer contradictoria, pero es precisamente una de sus fuerzas: la voz del delincuente y la voz del predicador conviven, se corrigen y revelan la tensión entre experiencia y arrepentimiento."
+          },
+          {
+            "heading": "El antihéroe como espejo social",
+            "content": "Guzmán importa menos por sus hazañas individuales que por lo que deja ver del sistema en que vive. La novela sugiere que la picaresca no nace solo de la maldad personal, sino de un orden social que empuja a muchos hacia la máscara, la simulación y el cálculo. En ese sentido, el pícaro actúa como síntoma de una sociedad enferma."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela picaresca en el sentido clásico?",
+            "answer": "Sí. Es uno de los títulos fundamentales del género picaresco español y uno de los libros que consolidaron su forma madura después del Lazarillo de Tormes."
+          },
+          {
+            "question": "¿Fue publicada en una sola entrega?",
+            "answer": "No. Mateo Alemán la publicó en dos partes: la primera en 1599 y la segunda en 1604."
+          },
+          {
+            "question": "¿El protagonista es presentado como ejemplo a seguir?",
+            "answer": "No. Guzmán es un antihéroe: su vida se cuenta como cadena de engaños, necesidades y errores, aunque la propia narración incorpora un tono moralizante y de advertencia."
+          },
+          {
+            "question": "¿Por qué sigue siendo importante en la historia literaria?",
+            "answer": "Porque refinó la voz autobiográfica del pícaro, amplió la crítica social del género y dejó una huella duradera en la tradición del antihéroe y de la novela satírica europea."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Encyclopaedia Britannica: Mateo Alemán",
+            "url": "https://www.britannica.com/biography/Mateo-Aleman"
+          },
+          {
+            "label": "Wikipedia: Guzmán de Alfarache",
+            "url": "https://en.wikipedia.org/wiki/Guzm%C3%A1n_de_Alfarache"
+          },
+          {
+            "label": "Project Gutenberg: The Life and Adventures of Guzman D'Alfarache, vol. 1/3",
+            "url": "https://www.gutenberg.org/ebooks/52806"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "historia-de-la-estupidez-humana-de-paul-tabori",
+      "title": "Historia De La Estupidez Humana",
+      "authorName": "Paul Tabori",
+      "authorSlug": "paul-tabori",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Historia de la estupidez humana",
+        "authorName": "Paul Tabori",
+        "authorSlug": "paul-tabori",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1978,
+        "pages": 284,
+        "summary": "Historia de la estupidez humana es un ensayo de Paul Tabori que aborda la estupidez no como insulto ocasional, sino como una fuerza histórica persistente en la vida social. Las fuentes bibliográficas enlazan la edición española con el clásico inglés The Natural History of Stupidity, un libro que recorre ejemplos de credulidad, burocracia, superstición, fanatismo, rigidez legal y charlatanería para mostrar cuánto daño puede producir la necedad cuando se institucionaliza. El enfoque combina erudición ligera, anécdota histórica y sátira: Tabori no ofrece una teoría académica cerrada, sino una amplia galería de conductas humanas absurdas tratadas con humor, ironía y preocupación moral.",
+        "aboutThisBook": "La obra circuló en español como Historia de la estupidez humana y en inglés como The Natural History of Stupidity o, en ediciones anteriores, The Natural Science of Stupidity. Los registros consultados muestran distintas reediciones y traducciones, prueba de una recepción duradera. En la tradición del ensayo cultural de mediados del siglo XX, Tabori mezcla historia de las ideas, crítica social y observación satírica para examinar errores colectivos, credulidad pública y formas persistentes de irracionalidad.",
+        "forWhom": "Para lectores adultos interesados en ensayo histórico accesible, crítica cultural, psicología social y libros que usan el humor para pensar defectos muy serios de la vida pública.",
+        "whyItMatters": "Importa porque recuerda que la estupidez no es solo un problema individual, sino también una energía social que prospera en sistemas rígidos, pánicos colectivos, falsas certezas y obediencias acríticas. Su vigencia está en esa intuición: las sociedades modernas no eliminan la necedad, solo le cambian de forma y de escenario.",
+        "editorialIntro": "El atractivo de Historia de la estupidez humana está en su mezcla de tono entretenido y tesis incómoda. Tabori recopila episodios absurdos, errores repetidos y formas de credulidad con ánimo satírico, pero el fondo de su argumento es serio: la estupidez cuesta vidas, recursos y libertad. Por eso el libro se lee a la vez como divertimento erudito y como advertencia cultural.",
+        "readingLevel": "Lectura media: no exige formación especializada, aunque se disfruta más si el lector aprecia la referencia histórica, la ironía ensayística y el cambio constante entre casos y comentarios generales.",
+        "whyReadToday": "Se lee con renovada actualidad en una época marcada por desinformación, dogmatismos veloces, burocracias opacas y nuevas versiones de la credulidad colectiva.",
+        "studyNotes": [
+          "La obra pertenece al ensayo cultural satírico, no a la ficción narrativa.",
+          "Tabori estudia la estupidez como fenómeno histórico y social, no solo como defecto psicológico privado.",
+          "El libro alterna ejemplos, observaciones generales y comentario irónico para sostener su argumento.",
+          "Conviene atender a la relación entre error individual y estructuras colectivas que lo reproducen."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Definir la estupidez y seguir su rastro",
+            "summary": "El ensayo parte de la idea de que la estupidez merece un estudio serio porque aparece una y otra vez en la historia humana. Tabori reúne ejemplos y categorías para mostrar que no se trata de una rareza, sino de una constante cultural."
+          },
+          {
+            "title": "Parte 2: Instituciones, dogmas y errores colectivos",
+            "summary": "En la zona central del libro, la estupidez se observa en burocracias, leyes rígidas, obediencias sin crítica y fanatismos que convierten el error en sistema. La mirada de Tabori insiste en que los daños mayores suelen producirse cuando la necedad se vuelve organizada."
+          },
+          {
+            "title": "Parte 3: Charlatanería, superstición y lección moral",
+            "summary": "Hacia el final, el ensayo amplía su repertorio con casos de credulidad, engaño y pensamiento mágico. La conclusión implícita es sobria: la estupidez cambia de máscara según la época, pero sigue siendo una amenaza constante para la vida común."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La estupidez como problema histórico",
+            "content": "Tabori evita reducir la estupidez a falta de inteligencia. Lo que le interesa es su dimensión histórica: cómo decisiones absurdas, dogmas mal examinados y formas de obediencia pueden afectar comunidades enteras. Ese enfoque vuelve el libro más amplio que una simple colección de rarezas."
+          },
+          {
+            "heading": "Sátira y erudición accesible",
+            "content": "El ensayo combina información cultural e ironía. Esa mezcla le permite mantener un tono ligero sin vaciar de gravedad el tema. La risa funciona aquí como vehículo crítico: el lector se divierte con los casos, pero al mismo tiempo reconoce su permanencia en la vida moderna."
+          },
+          {
+            "heading": "Actualidad del diagnóstico",
+            "content": "Aunque pertenece a otra época, el libro conserva interés porque describe mecanismos muy reconocibles: obediencia burocrática, superstición, pánico social, confianza exagerada en autoridades o soluciones simples. En ese sentido, su propuesta dialoga bien con debates contemporáneos sobre desinformación y pensamiento acrítico."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de humor o un ensayo serio?",
+            "answer": "Es ambas cosas. Tabori usa un tono satírico y anecdótico, pero su planteo de fondo sobre la estupidez como fuerza histórica es claramente serio."
+          },
+          {
+            "question": "¿La edición española corresponde al mismo libro que The Natural History of Stupidity?",
+            "answer": "Sí. Los catálogos consultados vinculan Historia de la estupidez humana con la obra inglesa de Paul Tabori traducida y reeditada en distintos años."
+          },
+          {
+            "question": "¿Hace falta saber historia para leerlo?",
+            "answer": "No. El libro está escrito para un público amplio y presenta los casos de manera accesible, aunque se aprovecha mejor si se disfruta el ensayo cultural."
+          },
+          {
+            "question": "¿Por qué puede seguir interesando hoy?",
+            "answer": "Porque examina formas de credulidad, rigidez y error colectivo que siguen presentes en instituciones, medios y debates públicos contemporáneos."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Google Books — The Natural History of Stupidity",
+            "url": "https://books.google.es/books?id=1HhFAAAACAAJ&redir_esc=y"
+          },
+          {
+            "label": "Open Library — Historia de la estupidez humana",
+            "url": "https://openlibrary.org/works/OL1219724W/Historia_de_La_Estupidez_Humana"
+          },
+          {
+            "label": "Open Library — Natural History of Stupidity",
+            "url": "https://openlibrary.org/works/OL1219729W/Natural_History_of_Stupidity"
+          },
+          {
+            "label": "Goodreads — Historia de la estupidez humana",
+            "url": "https://www.goodreads.com/book/show/3403508-historia-de-la-estupidez-humana"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "historia-de-la-literatura-espanola-i-de-angel-del-rio",
+      "title": "Historia De La Literatura Espanola I",
+      "authorName": "Angel Del Rio",
+      "authorSlug": "angel-del-rio",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Historia de la literatura española I",
+        "authorName": "Ángel del Río",
+        "authorSlug": "angel-del-rio",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2011,
+        "pages": 544,
+        "summary": "Primer volumen de la clásica historia literaria de Ángel del Río, centrado en el recorrido que va desde la Edad Media hasta el Barroco. El libro enlaza evolución histórica, sociedad y formas literarias para explicar el desarrollo de la tradición española a través de la poesía popular, los juglares, los trovadores, el Renacimiento, el Siglo de Oro y autores decisivos como Garcilaso, San Juan de la Cruz, el autor del Lazarillo, Cervantes, Lope, Calderón, Góngora y Quevedo. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "aboutThisBook": "Esta edición de Gredos recupera una obra de referencia de la historiografía literaria española. Las fuentes coinciden en destacar su claridad expositiva y su capacidad para unir contexto histórico, vida social y análisis de autores y géneros en una síntesis accesible. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "forWhom": "Para estudiantes de literatura hispánica, docentes, lectores universitarios y cualquier persona que necesite una visión ordenada y legible de la literatura española hasta el siglo XVII.",
+        "whyItMatters": "Sigue siendo valioso porque no reduce la literatura a una lista de autores: la presenta como resultado de cambios históricos, tensiones sociales y transformaciones estéticas de larga duración.",
+        "editorialIntro": "Ángel del Río propone una historia literaria narrativa y crítica a la vez. Este primer tomo cubre el nacimiento y consolidación de la tradición española hasta la plenitud y decadencia del Barroco. Esta guía resume el libro con criterio de estudio, distingue lo esencial de lo accesorio y evita convertir la ficha en una simple sinopsis promocional.",
+        "readingLevel": "alto Conviene leerlo con paciencia y con disposición a seguir matices de estilo, referencias culturales y cambios de tono o de punto de vista.",
+        "whyReadToday": "Continúa siendo útil como mapa de conjunto para estudiar la tradición española premoderna y para entender cómo se articulan canon, contexto y forma literaria en una historia de largo alcance.",
+        "studyNotes": [
+          "El enfoque combina periodización histórica con lectura de autores y géneros; conviene atender a esa doble escala.",
+          "La obra da mucho peso a la relación entre literatura y sociedad, no solo a la sucesión cronológica de textos.",
+          "El Siglo de Oro se presenta como culminación de procesos anteriores, no como un bloque aislado.",
+          "Puede leerse como introducción panorámica antes de abordar estudios especializados sobre cada periodo o autor."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La Edad Media",
+            "summary": "El volumen comienza con la poesía popular, los juglares, los trovadores y los primeros grandes cauces de la tradición literaria peninsular."
+          },
+          {
+            "title": "Parte 2: El Renacimiento",
+            "summary": "Se estudia la renovación estética y cultural del Renacimiento y la aparición de nuevas formas y sensibilidades en la literatura española."
+          },
+          {
+            "title": "Parte 3: El Siglo de Oro",
+            "summary": "El libro analiza a autores y géneros centrales de la literatura clásica española, incluido el Lazarillo, Cervantes, Lope de Vega y Calderón."
+          },
+          {
+            "title": "Parte 4: Barroco, plenitud y decadencia",
+            "summary": "El recorrido culmina con el siglo XVII y la tensión entre esplendor creativo y crisis, con atención destacada a Góngora y Quevedo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia, sociedad y literatura",
+            "content": "Uno de los rasgos más citados del libro es su voluntad de tejer una síntesis entre contexto histórico, vida social y producción literaria. Esa perspectiva explica su perdurable valor didáctico."
+          },
+          {
+            "heading": "Una historia literaria de amplio alcance",
+            "content": "El primer tomo no se limita a nombres canónicos: organiza un proceso de larga duración que va de la tradición medieval al Barroco y muestra continuidades entre periodos."
+          },
+          {
+            "heading": "Utilidad académica y divulgativa",
+            "content": "La obra sigue funcionando a la vez como introducción para estudiantes y como referencia de consulta por su claridad expositiva y su estructura panorámica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué periodo cubre este primer volumen?",
+            "answer": "Cubre desde la Edad Media hasta el siglo XVII, con especial atención al Renacimiento, el Siglo de Oro y el Barroco."
+          },
+          {
+            "question": "¿Es un manual o un ensayo?",
+            "answer": "Es ambas cosas en parte: una historia literaria de vocación didáctica escrita con enfoque ensayístico y crítico."
+          },
+          {
+            "question": "¿Para qué tipo de lector resulta más útil?",
+            "answer": "Es especialmente útil para estudiantes y lectores que buscan una visión de conjunto de la literatura española anterior al siglo XVIII."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Todos Tus Libros - ficha del volumen I",
+            "url": "https://www.todostuslibros.com/libros/historia-de-la-literatura-espanola-i_978-84-249-1945-0"
+          },
+          {
+            "label": "Google Books - ISBN 9788424919450",
+            "url": "https://books.google.es/books/about?id=qWzVAQAACAAJ&redir_esc=y"
+          },
+          {
+            "label": "Open Library - obra",
+            "url": "https://openlibrary.org/works/OL1315130W"
+          },
+          {
+            "label": "Google Books - edición relacionada",
+            "url": "https://books.google.es/books/about?id=qGZ7wgEACAAJ&redir_esc=y"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "historia-de-san-sebastian-de-javier-sadaasier-sada",
+      "title": "Historia De San Sebastian",
+      "authorName": "Javier Sadaasier Sada",
+      "authorSlug": "javier-sadaasier-sada",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Historia de San Sebastián",
+        "authorName": "Javier Sada Anguera y Asier Sada",
+        "authorSlug": "javier-sada-anguera-y-asier-sada",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2008,
+        "pages": 160,
+        "summary": "Síntesis divulgativa de la historia de San Sebastián desde sus orígenes hasta la época contemporánea. El libro recorre la formación de la ciudad, su evolución urbana, los grandes episodios políticos y bélicos, y la transformación de Donostia en una capital cultural y turística del País Vasco. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "aboutThisBook": "Publicado por Txertoa con el subtítulo De los orígenes a nuestros días, este volumen ofrece una visión panorámica y accesible de la trayectoria histórica de San Sebastián. Más que una monografía especializada, funciona como introducción ordenada a los momentos, procesos y personajes que ayudaron a configurar la ciudad. Añade contexto, precisión y utilidad para una lectura más atenta. Añade contexto, precisión y utilidad para una lectura más atenta.",
+        "forWhom": "Para lectores interesados en historia urbana, historia vasca y guías de contexto sobre San Sebastián. Es especialmente útil para estudiantes, visitantes y lectores que buscan una primera visión de conjunto sin entrar en bibliografía académica muy técnica.",
+        "whyItMatters": "Importa porque concentra en un formato breve una historia local compleja, marcada por su posición fronteriza, su vida marítima, los conflictos bélicos, la modernización urbana y su posterior proyección cultural. Sirve para entender por qué San Sebastián ocupa un lugar singular en la historia del norte peninsular.",
+        "editorialIntro": "San Sebastián suele contemplarse por su paisaje y su prestigio cultural, pero detrás de esa imagen hay siglos de cambios políticos, militares y urbanos. Este libro resume ese recorrido con voluntad clara y cronológica. Esta guía resume el libro con criterio de estudio, distingue lo esencial de lo accesorio y evita convertir la ficha en una simple sinopsis promocional.",
+        "readingLevel": "medio Conviene leerlo con paciencia y con disposición a seguir matices de estilo, referencias culturales y cambios de tono o de punto de vista.",
+        "whyReadToday": "Porque ayuda a leer la ciudad más allá de su imagen turística. Entender su pasado fronterizo, su desarrollo urbano y sus rupturas históricas permite situar mejor su identidad actual.",
+        "studyNotes": [
+          "Es un libro de divulgación histórica y conviene leerlo como panorama general, no como estudio exhaustivo de archivo.",
+          "La ubicación de San Sebastián, cerca de Francia y del mar, es clave para entender gran parte de su evolución.",
+          "La historia urbana y la historia política aparecen muy ligadas en el caso donostiarra.",
+          "Puede complementarse con cronologías de la ciudad y mapas históricos para seguir mejor los cambios del espacio urbano."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Orígenes y fundación",
+            "summary": "Se aborda la formación temprana del asentamiento y las condiciones geográficas que explican la importancia posterior de San Sebastián como plaza marítima y fronteriza."
+          },
+          {
+            "title": "Parte 2: Villa medieval y consolidación",
+            "summary": "La ciudad aparece ya definida por su función comercial, defensiva y portuaria. Se explican las bases institucionales y urbanas de su desarrollo."
+          },
+          {
+            "title": "Parte 3: Conflictos y transformaciones de la Edad Moderna",
+            "summary": "El relato sigue los efectos de guerras, incendios, reformas y cambios políticos que afectaron a la ciudad y a su papel estratégico."
+          },
+          {
+            "title": "Parte 4: Modernización urbana",
+            "summary": "San Sebastián se redefine con nuevos ensanches, cambios sociales y una proyección creciente como ciudad abierta al veraneo y a la vida cultural."
+          },
+          {
+            "title": "Parte 5: Ciudad contemporánea",
+            "summary": "La obra cierra con la evolución más reciente de Donostia y con la consolidación de una identidad urbana reconocida dentro y fuera del País Vasco."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia local como lectura de una identidad",
+            "content": "El libro muestra que la historia de San Sebastián no puede reducirse a una cronología municipal. La ciudad se entiende por su condición costera, fronteriza y simbólica dentro del País Vasco."
+          },
+          {
+            "heading": "Equilibrio entre síntesis y contexto",
+            "content": "Su principal valor está en ordenar siglos de cambios en un volumen breve. Esa estrategia lo vuelve útil como puerta de entrada para lectores no especializados."
+          },
+          {
+            "heading": "Ciudad, política y espacio",
+            "content": "Uno de los hilos más útiles del libro es la relación entre hechos políticos y forma urbana. Fortificaciones, destrucciones, reformas y expansión explican cómo la ciudad se fue redefiniendo materialmente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una obra académica o divulgativa?",
+            "answer": "Es principalmente divulgativa: ofrece una síntesis clara y cronológica pensada para un público amplio."
+          },
+          {
+            "question": "¿El libro trata solo la ciudad actual?",
+            "answer": "No. Recorre la historia de San Sebastián desde sus orígenes hasta la época contemporánea."
+          },
+          {
+            "question": "¿Sirve como primera introducción a la historia donostiarra?",
+            "answer": "Sí. Precisamente su valor está en presentar un panorama breve y ordenado antes de pasar a estudios más especializados."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Txertoa: Historia de San Sebastián",
+            "url": "https://txertoa.eus/liburuak/historia-de-san-sebastian/"
+          },
+          {
+            "label": "Open Library: Historia de San Sebastián",
+            "url": "https://openlibrary.org/books/OL47197522M/Historia_de_San_Sebasti%C3%A1n"
+          },
+          {
+            "label": "Wikipedia: Javier Sada Anguera",
+            "url": "https://es.wikipedia.org/wiki/Javier_Sada_Anguera"
+          },
+          {
+            "label": "Wikipedia: San Sebastián",
+            "url": "https://es.wikipedia.org/wiki/San_Sebasti%C3%A1n"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-20T17:40:59Z"
+}

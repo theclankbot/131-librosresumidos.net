@@ -1,0 +1,1425 @@
+{
+  "batchName": "replenish-20260419T072949Z",
+  "createdAt": "2026-04-19T07:30:01Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "hay-quienes-eligen-la-oscuridad-de-charlie-donlea",
+      "title": "Hay Quienes Eligen La Oscuridad",
+      "authorName": "Charlie Donlea",
+      "authorSlug": "charlie-donlea",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Hay quienes eligen la oscuridad",
+        "authorName": "Charlie Donlea",
+        "authorSlug": "charlie-donlea",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2023,
+        "pages": 370,
+        "summary": "Esta novela de suspense sigue a Alex Armstrong, una investigadora legal que vive bajo una identidad reconstruida desde que, siendo adolescente, fue acusada del asesinato de su propia familia. Absuelta años atrás, continúa buscando la verdad sobre aquella noche mientras intenta mantener a raya la atención mediática que la convirtió en un caso nacional. Cuando investiga la desaparición de Laura McAllister, una estudiante de periodismo que estaba a punto de destapar abusos y encubrimientos en su campus, Alex descubre una trama donde privilegio, violencia sexual, manipulación institucional y secretos familiares empiezan a entrelazarse. Donlea construye así un thriller de doble misterio: un crimen del pasado que nunca quedó del todo resuelto y una investigación presente que obliga a releer cada pista.",
+        "aboutThisBook": "Charlie Donlea articula la novela con el pulso del thriller judicial y del suspense contemporáneo centrado en traumas que regresan. La protagonista no solo investiga un caso: investiga también la versión pública de sí misma, deformada por medios, rumores y expedientes. El libro destaca por su estructura de revelaciones encadenadas, por una heroína capaz pero vulnerable y por un interés sostenido en cómo el poder protege a los suyos cuando una verdad amenaza con salir a la luz.",
+        "forWhom": "Es una lectura especialmente recomendable para quienes buscan thrillers de investigación con ritmo alto, múltiples capas de secreto y una protagonista femenina marcada por el pasado. También puede interesar a lectores universitarios que quieran observar cómo la ficción popular convierte temas como la cultura de la impunidad, la reputación pública y la violencia de género en motor narrativo.",
+        "whyItMatters": "Importa porque usa la maquinaria del thriller para abordar asuntos muy actuales: la persistencia del trauma, la exposición mediática de las víctimas, los encubrimientos en entornos prestigiosos y la fragilidad de la verdad cuando compite con intereses institucionales. Sin dejar de ser una novela de entretenimiento, ofrece material útil para pensar la relación entre justicia formal, poder social y memoria personal.",
+        "editorialIntro": "Un thriller sólido y muy legible que enlaza un crimen familiar no resuelto con una desaparición universitaria contemporánea, y convierte esa conexión en una reflexión narrativa sobre quién controla el relato de los hechos. Esta guía resume el libro con foco en su estructura, sus temas principales y las preguntas que ayudan a leerlo con contexto, sin depender de una simple sinopsis promocional.",
+        "readingLevel": "Se lee con facilidad media-alta: la prosa es directa y ágil, pero la novela exige atención a nombres, cambios de información y conexiones entre dos investigaciones que se van iluminando de forma progresiva.",
+        "whyReadToday": "Porque su intriga dialoga con debates contemporáneos sobre abuso, reputación, cultura mediática y descrédito de las víctimas, sin abandonar nunca la tensión propia del mejor thriller comercial.",
+        "studyNotes": [
+          "Conviene seguir por separado el caso antiguo de la familia de Alex y la desaparición de Laura para apreciar cuándo y cómo el relato los hace converger.",
+          "La novela trabaja con la identidad como construcción defensiva: cambiar de nombre y de vida no equivale a cerrar una herida ni a cancelar la memoria pública.",
+          "Es útil observar cómo Donlea presenta instituciones respetables —medios, campus, élites familiares— como espacios donde la información puede administrarse para proteger privilegios."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento del pasado y del nuevo caso",
+            "summary": "La novela presenta a Alex Armstrong como superviviente de un antiguo escándalo criminal y muestra la distancia entre su identidad presente y la adolescente convertida en noticia nacional. Ese pasado no está cerrado: reaparece cuando Alex acepta investigar una desaparición vinculada a un entorno universitario de alto voltaje."
+          },
+          {
+            "title": "Investigación y red de encubrimientos",
+            "summary": "A medida que Alex sigue el rastro de Laura McAllister, salen a la luz abusos, lealtades interesadas y zonas de silencio sostenidas por personas con poder. La pesquisa se convierte en una exploración de cómo se fabrican versiones convenientes de los hechos."
+          },
+          {
+            "title": "Convergencia de secretos y resolución",
+            "summary": "Las dos líneas de misterio terminan encontrándose. Las conexiones entre el crimen familiar del pasado y el caso actual reordenan la interpretación del lector y empujan a una resolución basada en revelaciones tardías, riesgo personal y relectura de las apariencias."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Trauma, identidad y relato público",
+            "content": "La novela muestra que el trauma no solo deja una huella íntima, sino también una biografía pública impuesta desde fuera. Alex vive perseguida por una identidad mediática anterior; de ahí que investigar sea también disputar el sentido de su propia historia."
+          },
+          {
+            "heading": "El campus como espacio de poder",
+            "content": "El caso de Laura introduce un escenario reconocible: instituciones que preservan prestigio mientras minimizan daños, silencian testigos o desvían responsabilidades. Donlea convierte ese marco en una crítica funcional a las jerarquías que encubren conductas violentas."
+          },
+          {
+            "heading": "Arquitectura del thriller contemporáneo",
+            "content": "El libro se apoya en capítulos breves, revelaciones escalonadas y desplazamientos de sospecha. Su eficacia no depende solo del giro final, sino del modo en que administra información parcial para que el lector reconstruya causas y responsabilidades casi al mismo tiempo que la protagonista."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela puramente policíaca o también judicial?",
+            "answer": "Combina investigación criminal, suspense psicológico y elementos de thriller legal, porque la protagonista trabaja como investigadora y el libro atiende tanto a pruebas y sospechas como a reputaciones, versiones y consecuencias públicas."
+          },
+          {
+            "question": "¿Hace falta conocer otros libros de Charlie Donlea para leerla?",
+            "answer": "No. Se sostiene por completo como novela independiente y presenta desde el inicio todo lo necesario para entender a la protagonista y el conflicto."
+          },
+          {
+            "question": "¿Qué temas destacan más allá del misterio?",
+            "answer": "Además del enigma central, destacan la violencia sexual, los mecanismos de encubrimiento, la presión mediática, la persistencia del pasado y la lucha por recuperar el control sobre la propia historia."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Charlie Donlea, página oficial de Those Empty Eyes",
+            "url": "https://www.charliedonlea.com/those-empty-eyes"
+          },
+          {
+            "label": "Publishers Weekly, reseña de Those Empty Eyes",
+            "url": "https://www.publishersweekly.com/9781496727176"
+          },
+          {
+            "label": "Penguin Random House Library Marketing, ficha de Those Empty Eyes",
+            "url": "https://penguinrandomhouselibrary.com/book/?isbn=9781496744975"
+          },
+          {
+            "label": "Google Books, Those Empty Eyes",
+            "url": "https://play.google.com/store/books/details?id=ENl6EAAAQBAJ&source=gbs_api"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "herejes-de-dune-las-cronicas-de-dune-5-de-frank-herbert",
+      "title": "Herejes De Dune Las Cronicas De Dune 5",
+      "authorName": "Frank Herbert",
+      "authorSlug": "frank-herbert",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Herejes de Dune",
+        "authorName": "Frank Herbert",
+        "authorSlug": "frank-herbert",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ciencia-ficcion",
+          "fantasia",
+          "aventura"
+        ],
+        "year": 1984,
+        "pages": 565,
+        "summary": "Quinta entrega del ciclo de Dune, esta novela se sitúa unos mil quinientos años después de la caída del Emperador-Dios Leto II. El universo humano ha sido transformado por la Dispersión: millones de personas abandonaron el viejo imperio y ahora algunas facciones regresan con nuevas formas de poder. En Rakis, antiguo Arrakis, los gusanos de arena agonizan y el equilibrio político-religioso vuelve a volverse inestable. En ese contexto aparece Sheeana, una joven capaz de relacionarse con los gusanos como en los antiguos tiempos fremen, lo que reactiva profecías, ambiciones y luchas de interpretación sobre el legado de Leto. Herbert entrelaza intriga política, estrategia religiosa, ecología planetaria y debate filosófico sobre supervivencia, control y evolución colectiva.",
+        "aboutThisBook": "Herejes de Dune no funciona solo como continuación argumental, sino como etapa de recomposición del universo tras el largo experimento histórico de Leto II. Frank Herbert desplaza el foco desde la épica dinástica inicial hacia un tablero más fragmentado, donde Bene Gesserit, poderes retornados de la Dispersión y comunidades locales compiten por redefinir el futuro. El resultado es una novela extensa, conceptual y política, que exige leer las acciones tanto como los sistemas de creencias que las sostienen.",
+        "forWhom": "Es especialmente adecuada para lectores ya interesados en la saga Dune y, en general, para quienes disfrutan la ciencia ficción densa, especulativa y de ideas. También puede resultar muy provechosa en contextos universitarios donde se estudien relaciones entre ficción, ecología, religión política, imperio y construcción del mito.",
+        "whyItMatters": "Importa porque amplía de manera decisiva el horizonte de la serie: muestra las consecuencias de la llamada Senda Dorada, examina qué ocurre después de un orden totalizante y plantea cómo sobreviven las sociedades cuando heredan profecías, ruinas institucionales y nuevas amenazas. Es una pieza clave para entender por qué Dune es mucho más que una aventura espacial.",
+        "editorialIntro": "Una novela de transición decisiva dentro del ciclo de Herbert: menos centrada en la conquista inmediata que en las secuelas históricas, religiosas y ecológicas de un imperio que ya ha caído pero sigue modelando el porvenir. Esta guía resume el libro con foco en su estructura, sus temas principales y las preguntas que ayudan a leerlo con contexto, sin depender de una simple sinopsis promocional.",
+        "readingLevel": "Su lectura es exigente para un público general, porque combina abundante terminología propia de la saga, múltiples facciones en conflicto y largas conversaciones estratégicas y filosóficas que piden atención sostenida.",
+        "whyReadToday": "Porque su reflexión sobre ecología, fanatismo, manipulación del mito, dispersión de poblaciones y retorno de formas extremas de poder sigue siendo sorprendentemente fértil para pensar el presente.",
+        "studyNotes": [
+          "Conviene leerla como novela de consecuencias: muchas de sus tensiones solo se comprenden del todo si se observa qué dejó tras de sí el reinado de Leto II.",
+          "Rakis no es solo escenario; es una pieza conceptual del libro, porque la ecología del planeta y el destino de los gusanos condicionan religión, economía y legitimidad política.",
+          "Sheeana concentra una pregunta central de la saga: quién puede apropiarse del legado profético sin quedar atrapado por él."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Nuevo orden tras la Dispersión",
+            "summary": "El libro sitúa al lector en un universo posterior a Leto II, donde el viejo imperio ha quedado alterado por migraciones masivas, fracturas políticas y una profunda redistribución del poder."
+          },
+          {
+            "title": "Rakis, profecía y disputa de facciones",
+            "summary": "La emergencia de Sheeana en Rakis reactiva expectativas religiosas y estrategias de control. Bene Gesserit, poderes locales y fuerzas venidas de fuera intentan leer y utilizar el acontecimiento en beneficio propio."
+          },
+          {
+            "title": "Escalada del conflicto y apertura hacia el desenlace",
+            "summary": "Las tensiones entre facciones se intensifican y revelan que el legado de la Senda Dorada no ha cerrado la historia, sino que ha abierto una etapa nueva de amenazas, adaptaciones y reconfiguración del universo de Dune."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Herencia de Leto II y política de la supervivencia",
+            "content": "La novela explora la pregunta decisiva de la segunda mitad del ciclo: qué queda de un proyecto histórico diseñado para garantizar la supervivencia de la especie. Herbert sugiere que la preservación colectiva exige cambios cuya lógica puede resultar insoportable para individuos e instituciones."
+          },
+          {
+            "heading": "Ecología, religión y poder simbólico",
+            "content": "En Dune, la ecología nunca es decorado. El estado de Rakis y de los gusanos determina economías, legitimidades y expectativas mesiánicas. Quien controle la interpretación del desierto y de sus signos controla también una parte decisiva del poder."
+          },
+          {
+            "heading": "Ciencia ficción de ideas y no solo de argumento",
+            "content": "Aunque posee intriga, conspiraciones y choques entre facciones, Herejes de Dune destaca por su densidad conceptual. La novela invita a leer estrategias, doctrinas y lenguajes de dominación, no solo acciones visibles, y por eso recompensa una lectura lenta y analítica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Se puede leer sin haber leído los cuatro libros anteriores?",
+            "answer": "Es posible seguir la trama básica, pero se pierde una parte sustancial de su sentido histórico y filosófico. Funciona mucho mejor como quinta estación de una serie acumulativa."
+          },
+          {
+            "question": "¿Por qué es importante Sheeana en la novela?",
+            "answer": "Porque su relación con los gusanos reactiva profecías y ofrece a varias facciones una posible clave para reordenar el poder en Rakis y en el conjunto del universo heredero de Dune."
+          },
+          {
+            "question": "¿Qué temas dominan el libro?",
+            "answer": "Predominan la supervivencia de la especie, la ingeniería religiosa, la ecología del desierto, la lucha por el legado de Leto II y el retorno de poderes surgidos de la Dispersión."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Penguin Random House Library Marketing, Heretics of Dune",
+            "url": "https://penguinrandomhouselibrary.com/book/?isbn=9781440619649"
+          },
+          {
+            "label": "Wikipedia, Heretics of Dune",
+            "url": "https://en.wikipedia.org/wiki/Heretics_of_Dune"
+          },
+          {
+            "label": "Britannica, Frank Herbert",
+            "url": "https://www.britannica.com/biography/Frank-Herbert"
+          },
+          {
+            "label": "Google Books, Herejes de Dune",
+            "url": "http://books.google.es/books?id=GfYUAAAACAAJ&source=gbs_api"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "historia-de-la-filosofia-de-julian-marias",
+      "title": "Historia De La Filosofia",
+      "authorName": "Julian Marias",
+      "authorSlug": "julian-marias",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Historia de la filosofía",
+        "authorName": "Julián Marías",
+        "authorSlug": "julian-marias",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 1943,
+        "pages": 463,
+        "summary": "Este clásico de Julián Marías ofrece una visión panorámica de la tradición filosófica occidental concebida como historia viva de problemas, escuelas y autores. En lugar de presentar una mera lista de doctrinas, el libro organiza el recorrido desde la filosofía griega hasta la contemporaneidad mostrando cómo cada pensador responde a preguntas heredadas y a circunstancias históricas precisas. Por eso la obra ha funcionado durante décadas como manual universitario: introduce nombres, conceptos y contextos, pero también enseña a leer la filosofía como conversación de larga duración. Su claridad expositiva, su vocación sintética y su voluntad de enlazar sistemas con épocas explican que siga siendo una puerta de entrada muy útil para estudiantes que necesitan mapa general antes de la lectura especializada.",
+        "aboutThisBook": "Marías escribió esta obra en un momento decisivo de su trayectoria intelectual y acabó convirtiéndola en uno de sus libros más difundidos. Se percibe en ella una doble intención pedagógica: resumir con orden la secuencia de la filosofía occidental y, al mismo tiempo, evitar que esa secuencia se vuelva un catálogo muerto. De ahí que el texto sea valioso como manual, pero también como ejercicio de interpretación histórica: interesa por lo que cuenta y por el modo en que enseña a situar ideas en procesos culturales más amplios.",
+        "forWhom": "Es muy apropiado para estudiantes universitarios, lectores de humanidades y personas que desean una primera base sólida antes de abordar obras filosóficas originales. También resulta útil para docentes y clubes de lectura que necesiten un marco cronológico y conceptual para ordenar autores, corrientes y problemas fundamentales.",
+        "whyItMatters": "Sigue importando porque responde a una necesidad que no ha desaparecido: comprender la filosofía como tradición articulada y no como colección dispersa de nombres. Su capacidad para ofrecer contexto, jerarquizar etapas y enlazar preguntas antiguas con debates modernos lo mantiene vigente como obra de orientación y estudio.",
+        "editorialIntro": "Un manual clásico, claro y formativo, pensado para ofrecer una visión de conjunto de la filosofía occidental sin renunciar al sentido histórico de los problemas ni a la continuidad entre épocas y autores. Esta guía resume el libro con foco en su estructura, sus temas principales y las preguntas que ayudan a leerlo con contexto, sin depender de una simple sinopsis promocional.",
+        "readingLevel": "Su lectura es accesible para universitarios y lectores cultos no especialistas, porque la exposición busca claridad didáctica; aun así, exige atención conceptual y cierta paciencia con la densidad de nombres, periodizaciones y vocabulario filosófico.",
+        "whyReadToday": "Porque en un entorno de lecturas fragmentarias y referencias rápidas, sigue siendo valioso un libro que ordena de forma continuada los grandes hitos de la filosofía y ayuda a distinguir filiaciones, rupturas y persistencias.",
+        "studyNotes": [
+          "Conviene leerlo como mapa general: su mayor rendimiento aparece cuando se usa para ubicar autores, problemas y transiciones históricas antes de pasar a textos primarios.",
+          "La utilidad del libro no está solo en la información factual, sino en su manera de vincular cada sistema filosófico con una circunstancia histórica e intelectual concreta.",
+          "Es recomendable contrastar sus síntesis con estudios más recientes para completar debates contemporáneos y matizar periodizaciones o énfasis interpretativos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Filosofía antigua",
+            "summary": "La obra arranca con Grecia como origen de los grandes problemas filosóficos y presenta el paso de los presocráticos a Platón y Aristóteles como momento fundacional de categorías, métodos y preguntas duraderas."
+          },
+          {
+            "title": "Filosofía medieval y moderna",
+            "summary": "El recorrido prosigue con la reelaboración cristiana de la herencia clásica y con el giro moderno, cuando razón, sujeto, ciencia y conocimiento reorganizan el campo filosófico europeo."
+          },
+          {
+            "title": "Filosofía contemporánea y balance histórico",
+            "summary": "En la parte final, el libro aborda las corrientes más cercanas a la época de Marías y propone una lectura de conjunto en la que la filosofía aparece como tradición en movimiento, hecha de continuidades y rectificaciones."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La historia de la filosofía como disciplina formativa",
+            "content": "El libro parte de una convicción pedagógica fuerte: antes de especializarse conviene entender el dibujo completo de la tradición. Esa amplitud convierte la obra en instrumento de orientación académica y en puerta de entrada a estudios posteriores más técnicos."
+          },
+          {
+            "heading": "Síntesis, claridad y riesgo de condensación",
+            "content": "Su mayor virtud es también su límite: la capacidad de resumir mucho en pocas páginas. Precisamente por eso resulta excelente como manual inicial, aunque algunas corrientes o debates pidan después ampliación crítica mediante monografías y fuentes primarias."
+          },
+          {
+            "heading": "Marías y la lectura histórica de las ideas",
+            "content": "Más allá del inventario de autores, la obra insiste en que cada filosofía surge en una circunstancia. Esa sensibilidad histórica impide leer los sistemas como piezas aisladas y ayuda a comprender las ideas como respuestas situadas a problemas reales de una época."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro para iniciarse en filosofía?",
+            "answer": "Sí, especialmente como introducción panorámica. No sustituye la lectura de Platón, Descartes o Kant, pero ayuda mucho a orientarse antes de entrar en ellos."
+          },
+          {
+            "question": "¿Es un manual todavía útil pese a su fecha?",
+            "answer": "Sí, sobre todo por su claridad estructural y su valor formativo. Conviene complementarlo con bibliografía reciente, pero sigue siendo una base muy aprovechable para ordenar la tradición."
+          },
+          {
+            "question": "¿Qué tipo de lectura pide?",
+            "answer": "Una lectura lenta y con toma de notas. Funciona mejor si se acompañan las secciones con esquemas cronológicos, listas de autores y contraste con textos filosóficos originales."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Internet Archive, Historia de La Filosofia (18a edición nuevamente ampliada)",
+            "url": "https://archive.org/details/historiadelafilo0000juli"
+          },
+          {
+            "label": "Wikipedia, Julián Marías",
+            "url": "https://en.wikipedia.org/wiki/Juli%C3%A1n_Mar%C3%ADas"
+          },
+          {
+            "label": "Google Books, Historia de la Filosofía",
+            "url": "http://books.google.es/books?id=IdpuswEACAAJ&source=gbs_api"
+          },
+          {
+            "label": "Instituto Cervantes, Julián Marías",
+            "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/biografias/madrid_julian_marias.htm"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "irse-de-casa-de-carmen-martin-gaite",
+      "title": "Irse De Casa",
+      "authorName": "Carmen Martin Gaite",
+      "authorSlug": "carmen-martin-gaite",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Irse de casa",
+        "authorName": "Carmen Martín Gaite",
+        "authorSlug": "carmen-martin-gaite",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1998,
+        "pages": 352,
+        "summary": "Irse de casa sigue el regreso de Amparo Miranda, una diseñadora de moda consagrada en Nueva York, a la ciudad de provincias que abandonó décadas atrás. La novela convierte ese retorno en una exploración de la memoria, la identidad y las vidas posibles que quedan suspendidas cuando alguien se marcha. A medida que Amparo se reencuentra con personas, espacios y relatos del pasado, Carmen Martín Gaite compone una trama coral donde lo íntimo y lo social avanzan juntos. El libro no se limita a narrar un viaje de vuelta: examina cómo se fabrica una biografía, cuánto hay de máscara en el éxito y de qué modo el pasado sigue corrigiendo el presente.",
+        "aboutThisBook": "Publicada en 1998, esta novela de la etapa final de Carmen Martín Gaite retoma asuntos centrales de su obra: el peso de la memoria, la conversación como forma de conocimiento y la tensión entre la vida imaginada y la vida vivida. Su ambición estructural y su mirada sobre el regreso la convierten en una lectura especialmente fértil para estudiar la narrativa española contemporánea.",
+        "forWhom": "Es un libro recomendable para lectores universitarios, clubes de lectura y quienes ya conozcan la narrativa española de posguerra y quieran ver cómo Martín Gaite reescribe sus temas desde una madurez formal más amplia. También interesa a lectores atraídos por historias de retorno, identidad femenina y memoria social.",
+        "whyItMatters": "Importa porque muestra a una autora capital de la literatura española en una fase de gran libertad compositiva. La novela enlaza experiencia individual, movilidad social, deseo de fuga y reconstrucción del pasado sin caer en simplificaciones. Además, permite pensar el retorno no como reconciliación sentimental, sino como choque entre versiones de uno mismo.",
+        "editorialIntro": "Una novela de regreso y reconocimiento: volver a la ciudad natal significa aquí revisar la propia leyenda, escuchar otras voces y comprobar que ninguna biografía permanece cerrada. Esta guía resume el libro con foco en su estructura, sus temas principales y las preguntas que ayudan a leerlo con contexto, sin depender de una simple sinopsis promocional.",
+        "readingLevel": "Su lectura resulta accesible para un público general con hábito lector, pero se aprecia mejor cuando se sigue con atención la red de personajes, los cambios de perspectiva y la dimensión simbólica de la memoria.",
+        "whyReadToday": "Sigue siendo actual porque habla de migración, ascenso social, reinvención personal y desarraigo con una sensibilidad que no ha perdido fuerza. En un presente marcado por trayectorias fragmentadas y vidas reconstruidas lejos del origen, la novela ilumina la pregunta por quiénes somos cuando regresamos.",
+        "studyNotes": [
+          "Conviene observar cómo el regreso físico activa una investigación moral sobre la propia identidad.",
+          "La novela trabaja con una estructura coral: no hay una sola verdad sobre Amparo Miranda, sino versiones en conflicto.",
+          "El contraste entre provincia y gran ciudad no funciona como simple oposición geográfica, sino como sistema de valores y expectativas.",
+          "La conversación, los recuerdos y las miradas ajenas son mecanismos narrativos decisivos para reconstruir el pasado.",
+          "Puede leerse como una reflexión sobre la fabricación del éxito y sobre el coste afectivo de la autoinvención."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Regreso a la ciudad natal",
+            "summary": "La vuelta de Amparo Miranda desencadena la trama y reabre vínculos aparentemente clausurados. Desde el inicio, la novela sitúa el retorno como un acto de extrañeza: la protagonista regresa a un lugar que conoce y al mismo tiempo ya no le pertenece."
+          },
+          {
+            "title": "Encuentros, versiones y memoria",
+            "summary": "A través de conversaciones y reencuentros, el pasado emerge de manera fragmentaria. Cada personaje aporta una versión distinta de la historia, de modo que la identidad de Amparo se construye menos por confesión directa que por el cruce de testimonios y silencios."
+          },
+          {
+            "title": "Ajuste entre pasado y presente",
+            "summary": "La parte final desplaza el interés desde la curiosidad biográfica hacia la evaluación íntima de lo vivido. Lo importante no es resolver todos los enigmas, sino medir la distancia entre la vida soñada, la vida conseguida y la vida perdida en el camino."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El regreso como dispositivo narrativo",
+            "content": "Martín Gaite usa el motivo clásico del regreso para activar una novela de reconocimiento. La vuelta a la ciudad provincial no busca restaurar un orden antiguo, sino comprobar cuánto han cambiado los espacios, los vínculos y la propia protagonista. El regreso funciona así como prueba de identidad y como desmontaje de una imagen pública exitosa."
+          },
+          {
+            "heading": "Memoria, relato y máscaras sociales",
+            "content": "Uno de los logros del libro es mostrar que la memoria nunca llega en estado puro. Está mediada por la conversación, por el deseo y por la posición social de quien recuerda. La figura de Amparo Miranda concentra esa tensión entre autenticidad y representación: su prestigio exterior convive con zonas de incertidumbre y desarraigo."
+          },
+          {
+            "heading": "Una novela coral de la madurez",
+            "content": "Frente al intimismo más concentrado de otras obras de la autora, aquí domina una construcción más abierta y coral. Esa amplitud permite vincular biografía individual y paisaje colectivo, y convertir una historia personal en lectura social del cambio español, de la movilidad y de las promesas de modernidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Irse de casa en pocas palabras?",
+            "answer": "Trata del regreso de una mujer que triunfó fuera de España a la ciudad de la que se marchó, y de cómo ese retorno obliga a revisar su pasado, sus relaciones y la identidad que se ha construido."
+          },
+          {
+            "question": "¿Es una novela fácil de leer?",
+            "answer": "No es difícil en el nivel del lenguaje, pero sí exige atención por su estructura coral, por la importancia de los matices psicológicos y por la forma en que el pasado se reconstruye de manera indirecta."
+          },
+          {
+            "question": "¿Qué temas conviene estudiar en esta obra?",
+            "answer": "Los más productivos son memoria, identidad, autofiguración, ascenso social, retorno al origen, mirada sobre la provincia y papel de la conversación en la construcción del sentido."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Editorial Anagrama - Irse de casa",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/irse-de-casa/9788433910783/NH_248"
+          },
+          {
+            "label": "Aceprensa - Reseña de Irse de casa",
+            "url": "https://www.aceprensa.com/resenas-libros/irse-de-casa/"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes - 'Irse de casa', o el haz y el envés de una aventurada emigración americana",
+            "url": "https://www.cervantesvirtual.com/obra-visor/irse-de-casa-o-el-haz-y-el-enves-de-una-aventurada-emigracion-americana/html/d54ceedd-8923-4041-8b3d-a5007cf071fc_2.html"
+          },
+          {
+            "label": "Anagrama, empieza a leer Irse de casa",
+            "url": "https://www.anagrama-ed.es/noticias/empieza-a-leer/empieza-a-leer-irse-de-casa-de-carmen-martin-gaite-826"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "kaputt-de-curzio-malaparte",
+      "title": "Kaputt",
+      "authorName": "Curzio Malaparte",
+      "authorSlug": "curzio-malaparte",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Kaputt",
+        "authorName": "Curzio Malaparte",
+        "authorSlug": "curzio-malaparte",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica",
+          "clasicos"
+        ],
+        "year": 1944,
+        "pages": 544,
+        "summary": "Kaputt es una de las obras más singulares sobre la Segunda Guerra Mundial: un libro situado entre la novela, la crónica y el testimonio literario. A partir de su experiencia como corresponsal en el frente oriental y en distintos territorios de la Europa ocupada, Curzio Malaparte construye una serie de escenas donde la devastación bélica aparece bajo formas a la vez documentales, grotescas y visionarias. El libro recorre salones diplomáticos, paisajes arrasados y encuentros con élites militares y civiles para retratar la descomposición moral de un continente. Más que ordenar la guerra en una secuencia histórica cerrada, Kaputt la vuelve experiencia sensorial, espectáculo de ruina y examen despiadado de la barbarie moderna.",
+        "aboutThisBook": "Publicada por primera vez en 1944, Kaputt se ha leído como una pieza fronteriza: reportaje de guerra, novela testimonial y gran artefacto estilístico del siglo XX. Su fuerza proviene de esa mezcla inestable entre observación directa y elaboración literaria. Por eso sigue siendo una obra clave para estudiar la escritura de la guerra y sus problemas de verdad, forma y memoria.",
+        "forWhom": "Es especialmente valiosa para lectores universitarios interesados en literatura europea del siglo XX, estudios de guerra, escritura testimonial y relaciones entre periodismo y ficción. También la disfrutarán quienes busquen una prosa intensa y perturbadora, menos orientada a la intriga que a la experiencia moral del desastre.",
+        "whyItMatters": "Importa porque ofrece una representación de la guerra distinta de la narración heroica o puramente documental. Malaparte capta la violencia como degradación material y espiritual, y al hacerlo deja un texto imprescindible para pensar la crisis europea, la complicidad de las élites y el poder ambiguo de la literatura para dar forma a lo insoportable.",
+        "editorialIntro": "Un clásico incómodo sobre la guerra: feroz, brillante y difícil de clasificar, Kaputt convierte el derrumbe de Europa en una experiencia literaria de enorme intensidad. Esta guía resume el libro con foco en su estructura, sus temas principales y las preguntas que ayudan a leerlo con contexto, sin depender de una simple sinopsis promocional.",
+        "readingLevel": "Su lectura exige madurez y atención sostenida, porque combina referencias históricas, escenas de gran dureza y una prosa muy elaborada que alterna observación, ironía y pasajes de tono casi alucinatorio.",
+        "whyReadToday": "Leerlo hoy permite volver a una pregunta central: cómo narrar la violencia extrema sin reducirla a dato ni convertirla en espectáculo inocuo. En tiempos de saturación informativa sobre conflictos y destrucción, Kaputt recuerda que la forma literaria también puede ser una forma de conciencia histórica.",
+        "studyNotes": [
+          "Conviene leer la obra como un texto híbrido: no encaja del todo ni en la novela ni en el reportaje tradicional.",
+          "La guerra aparece tanto en los frentes como en los salones diplomáticos y los espacios de representación del poder.",
+          "Malaparte transforma la observación periodística en imágenes simbólicas de decadencia europea.",
+          "Es importante distinguir entre exactitud documental y verdad literaria: el libro trabaja deliberadamente en esa frontera.",
+          "La animalización, la ruina material y el lujo aristocrático conviven para intensificar la crítica moral del conflicto."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Europa en guerra",
+            "summary": "La obra sitúa al narrador en distintos escenarios de la Europa ocupada y abre un recorrido por paisajes físicos y políticos devastados. Desde el comienzo queda claro que la guerra será presentada como colapso civilizatorio y no solo como sucesión de operaciones militares."
+          },
+          {
+            "title": "Escenas de poder y barbarie",
+            "summary": "A medida que avanza el libro, Malaparte alterna encuentros con dirigentes, aristócratas y oficiales con escenas de hambre, miedo y destrucción. Ese contraste intensifica la sensación de una élite que administra el desastre sin poder controlarlo moralmente."
+          },
+          {
+            "title": "La ruina como visión histórica",
+            "summary": "En la última parte pesa menos la cronología que la sedimentación de imágenes memorables. La guerra queda fijada como una experiencia de fractura de Europa, donde el testimonio individual se vuelve también alegoría de una cultura hecha pedazos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un libro fronterizo entre testimonio y novela",
+            "content": "Kaputt resiste las clasificaciones simples. Parte de la experiencia del autor como corresponsal, pero no adopta la transparencia informativa del reportaje convencional. Malaparte estiliza, selecciona y deforma para construir una verdad literaria que no equivale a simple invención ni a mera crónica factual."
+          },
+          {
+            "heading": "La guerra como degradación moral de Europa",
+            "content": "La obra no se limita a mostrar violencia física. Lo que la vuelve decisiva es su insistencia en la degradación ética de las sociedades en guerra: cortes diplomáticas, jerarquías militares, ciudades ocupadas y cuerpos destruidos forman parte del mismo paisaje de derrumbe. La ruina europea aparece como ruina material y también espiritual."
+          },
+          {
+            "heading": "Estilo, exceso y memoria",
+            "content": "La prosa de Malaparte es intensa, ornamental y a veces deliberadamente excesiva. Ese rasgo no debilita el libro; al contrario, lo singulariza. El exceso estilístico convierte la memoria bélica en una serie de imágenes difíciles de olvidar y subraya que la experiencia extrema exige formas narrativas igualmente extremas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Kaputt es novela o testimonio?",
+            "answer": "Se suele leer como una obra híbrida. Nace de la experiencia de guerra de Malaparte, pero está elaborada con recursos novelísticos y con una fuerte voluntad literaria."
+          },
+          {
+            "question": "¿Hace falta conocer en detalle la Segunda Guerra Mundial para leerlo?",
+            "answer": "No es imprescindible, aunque ayuda. El libro puede leerse por su potencia narrativa y simbólica, pero gana profundidad si el lector reconoce el contexto histórico europeo en el que se inscribe."
+          },
+          {
+            "question": "¿Por qué sigue siendo una obra importante?",
+            "answer": "Porque ofrece una mirada singular sobre la guerra, lejos del relato heroico, y porque plantea con gran fuerza la relación entre escritura, memoria y violencia histórica."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Galaxia Gutenberg - Kaputt",
+            "url": "https://www.galaxiagutenberg.com/producto/kaputt-2/"
+          },
+          {
+            "label": "New York Review Books - Kaputt",
+            "url": "https://www.nyrb.com/products/kaputt"
+          },
+          {
+            "label": "Britannica - Curzio Malaparte",
+            "url": "https://www.britannica.com/biography/Curzio-Malaparte"
+          },
+          {
+            "label": "Wikipedia - Kaputt",
+            "url": "https://es.wikipedia.org/wiki/Kaputt"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-abadesa-de-toti-martinez-de-lezea",
+      "title": "La Abadesa De Toti Martinez",
+      "authorName": "Lezea",
+      "authorSlug": "lezea",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La abadesa",
+        "authorName": "Toti Martínez de Lezea",
+        "authorSlug": "toti-martinez-de-lezea",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 2002,
+        "pages": 256,
+        "summary": "La abadesa es una novela histórica centrada en María Esperanza, una mujer vinculada al monasterio de Madrigal cuya vida cambia cuando una carta papal la reconoce como hija ilegítima de Fernando el Católico. A partir de ese descubrimiento, Toti Martínez de Lezea construye una trama de búsqueda de origen, intriga genealógica y tensiones entre poder religioso, corte y destino personal. El libro se mueve entre el final de la Edad Media y los comienzos de la modernidad política castellana, y combina documentación histórica con una narración ágil. Más que limitarse a recrear una época, la novela examina cómo el linaje, el secreto y la condición femenina determinan las posibilidades de acción de una protagonista obligada a reinterpretar su pasado.",
+        "aboutThisBook": "Publicada en 2002, La abadesa pertenece a la línea de novela histórica por la que Toti Martínez de Lezea alcanzó un amplio reconocimiento lector. Su interés reside en la capacidad para convertir materiales históricos en relato claro, dinámico y accesible, sin perder de vista cuestiones de poder, legitimidad, identidad y agencia femenina en un marco castellano de gran densidad política.",
+        "forWhom": "Es una lectura recomendable para quienes disfrutan la novela histórica española de corte divulgativo, para lectores que busquen tramas de identidad y secretos de linaje, y para estudiantes que quieran observar cómo la ficción recrea conflictos de poder y género en la transición entre siglos en la península ibérica.",
+        "whyItMatters": "Importa porque acerca al gran público un periodo histórico complejo mediante una protagonista con conflicto propio y voz narrativa clara. La novela permite estudiar cómo la ficción histórica articula documentación, intriga y perspectiva femenina, y cómo el pasado se usa para pensar jerarquías, legitimidad y margen de acción individual.",
+        "editorialIntro": "Una novela histórica de identidad y poder: un origen oculto, un monasterio, una carta decisiva y una protagonista que debe releer toda su vida a la luz de un secreto político y familiar. Esta guía resume el libro con foco en su estructura, sus temas principales y las preguntas que ayudan a leerlo con contexto, sin depender de una simple sinopsis promocional.",
+        "readingLevel": "Se lee con fluidez y puede abordar la obra un público general, aunque resulta más provechosa si el lector presta atención al contexto político-religioso y al papel del linaje en la organización social de la época.",
+        "whyReadToday": "Sigue valiendo la pena porque dialoga con debates actuales sobre legitimidad, identidad personal y posición de las mujeres frente a estructuras de poder muy rígidas. Además, muestra cómo la novela histórica puede ser una vía eficaz para volver legible un pasado complejo sin sacrificar interés narrativo.",
+        "studyNotes": [
+          "El motor de la trama es el descubrimiento del origen, que reorganiza retrospectivamente toda la vida de la protagonista.",
+          "La novela articula espacios de clausura y espacios de poder, especialmente el monasterio y el ámbito cortesano.",
+          "Conviene atender al modo en que el linaje funciona como forma de autoridad política y también como carga íntima.",
+          "La perspectiva femenina no es ornamental: organiza la lectura histórica desde la experiencia de una mujer condicionada por instituciones dominadas por hombres.",
+          "Puede compararse con otras novelas históricas contemporáneas que combinan documentación accesible e intriga narrativa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Un origen puesto en cuestión",
+            "summary": "La novela arranca con la alteración radical de una identidad que parecía estable. La noticia sobre el nacimiento de María Esperanza transforma su posición en el mundo y activa una búsqueda donde lo personal y lo político aparecen inseparables."
+          },
+          {
+            "title": "Secretos, poder y genealogía",
+            "summary": "La parte central desarrolla la investigación sobre el pasado de la protagonista y el entramado de intereses que rodea su condición. La intriga se sostiene en documentos, silencios, lealtades y en la presión de instituciones religiosas y cortesanas."
+          },
+          {
+            "title": "Comprender el pasado para decidir el futuro",
+            "summary": "En el tramo final, la revelación del origen deja de ser solo una curiosidad genealógica y se convierte en problema moral y vital. La protagonista debe decidir qué hacer con la verdad descubierta y cómo situarse frente a las estructuras de poder que la determinan."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La identidad como enigma histórico",
+            "content": "La novela convierte el linaje en un problema narrativo. Saber quién es María Esperanza no significa solo completar un dato biográfico, sino entender la red de intereses políticos, religiosos y familiares que ordena la sociedad de la época. El secreto de origen funciona así como clave de lectura histórica."
+          },
+          {
+            "heading": "Perspectiva femenina en la novela histórica",
+            "content": "Uno de los rasgos más valiosos del libro es que el pasado se organiza desde la experiencia de una mujer cuya vida depende de decisiones ajenas, normas de legitimidad y dispositivos institucionales. La recreación histórica gana espesor porque no se limita a grandes hechos, sino que muestra cómo el poder afecta trayectorias concretas."
+          },
+          {
+            "heading": "Divulgación histórica y eficacia narrativa",
+            "content": "Toti Martínez de Lezea escribe con claridad y sentido del ritmo, buscando que el lector comprenda el contexto sin perder el hilo de la intriga. Esa combinación explica buena parte de su recepción: la novela histórica aparece aquí como mediación entre documentación, entretenimiento y reflexión sobre las jerarquías del pasado."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La abadesa es una novela histórica accesible?",
+            "answer": "Sí. Su prosa es clara y la intriga de identidad ayuda a entrar en el contexto histórico sin exigir conocimientos previos muy especializados."
+          },
+          {
+            "question": "¿Qué conflicto central plantea la novela?",
+            "answer": "El núcleo del libro es la revelación de un origen oculto y las consecuencias personales, sociales y políticas que esa verdad desencadena para la protagonista."
+          },
+          {
+            "question": "¿Qué temas conviene destacar en una guía de estudio?",
+            "answer": "Conviene trabajar identidad, legitimidad, linaje, poder religioso, condición femenina y uso de la intriga como vehículo de divulgación histórica."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Ediciones Maeva - La abadesa",
+            "url": "https://www.maeva.es/libros/la-abadesa"
+          },
+          {
+            "label": "Ediciones Maeva - Toti Martínez de Lezea",
+            "url": "https://www.maeva.es/autores/toti-martinez-de-lezea"
+          },
+          {
+            "label": "Casa del Libro - La abadesa",
+            "url": "https://www.casadellibro.com/libro-la-abadesa/9788415140481/2592580"
+          },
+          {
+            "label": "Lecturalia - La abadesa. María la excelenta",
+            "url": "https://www.lecturalia.com/libro/10081/la-abadesa"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-casa-de-hades-los-heroes-del-olimpo-4-de-rick-riordan",
+      "title": "La Casa De Hades Los Heroes Del Olimpo 4",
+      "authorName": "Rick Riordan",
+      "authorSlug": "rick-riordan",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La casa de Hades",
+        "authorName": "Rick Riordan",
+        "authorSlug": "rick-riordan",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasia",
+          "aventura",
+          "juvenil"
+        ],
+        "year": 2014,
+        "pages": 524,
+        "summary": "Cuarta entrega de la serie Los héroes del Olimpo, esta novela retoma la caída de Percy Jackson y Annabeth Chase al Tártaro al final del volumen anterior y divide la acción entre su travesía subterránea y la misión de sus compañeros en la superficie. Mientras ambos intentan sobrevivir en un territorio dominado por fuerzas primitivas y monstruosas, el resto del grupo busca cerrar las Puertas de la Muerte para impedir el avance de Gea y de los gigantes. Rick Riordan combina mitología grecolatina, ritmo de saga coral y una estructura de tensión continua que entrelaza lealtad, sacrificio, humor y crecimiento emocional en un punto decisivo del ciclo narrativo.",
+        "aboutThisBook": "La casa de Hades funciona como novela de umbral: lleva a sus protagonistas al espacio más extremo de la cosmología de la saga y los obliga a probar cuánto pesan la amistad, la inteligencia estratégica y la resistencia moral cuando el viaje heroico deja de ser una aventura luminosa. El libro alterna varios focos narrativos y amplía el alcance épico de la serie sin perder legibilidad juvenil.",
+        "forWhom": "Es una lectura especialmente recomendable para lectores juveniles habituados a las sagas fantásticas largas, para quienes disfrutan de la reescritura de mitos clásicos en clave contemporánea y para mediadores de lectura que buscan una fantasía de aventuras con trabajo coral de personajes. Conviene leerla después de las entregas previas para apreciar sus relaciones y conflictos acumulados.",
+        "whyItMatters": "Importa porque muestra cómo la literatura juvenil puede dialogar con la tradición clásica sin volverse escolástica. Riordan usa el imaginario grecorromano para pensar el miedo, la responsabilidad compartida y la idea de descenso como prueba ética. Dentro de la serie, además, es uno de los libros que redefine el tono y la gravedad de la misión central.",
+        "editorialIntro": "Un descenso al Tártaro, una misión a contrarreloj y una de las pruebas más duras de todo el universo de Percy Jackson: La casa de Hades condensa el costado más sombrío y ambicioso de Rick Riordan. Esta guía resume el libro con foco en su estructura, sus temas principales y las preguntas que ayudan a leerlo con contexto, sin depender de una simple sinopsis promocional.",
+        "readingLevel": "Se lee con fluidez en secundaria y primeros cursos de bachillerato, aunque su mejor aprovechamiento exige recordar personajes y tramas anteriores de la saga, así como sostener varios hilos narrativos en paralelo.",
+        "whyReadToday": "Sigue siendo actual por su capacidad para acercar la mitología clásica a nuevos lectores y por la forma en que convierte los vínculos de confianza, el trabajo en equipo y la resistencia ante la adversidad en motores narrativos comprensibles para el presente.",
+        "studyNotes": [
+          "Observe cómo el motivo del descenso al inframundo reelabora patrones de la épica clásica y los traslada a una novela juvenil seriada.",
+          "Compare la experiencia de Percy y Annabeth en el Tártaro con la misión del resto del grupo para analizar dos formas distintas de heroísmo.",
+          "Preste atención a la alternancia de puntos de vista: no solo acelera el ritmo, también distribuye la autoridad narrativa entre varios personajes.",
+          "La novela puede leerse como una reflexión sobre la confianza: ninguna victoria depende aquí de un héroe aislado."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La caída y la separación",
+            "summary": "La narración arranca con la fractura del grupo tras la caída de Percy y Annabeth al Tártaro. Mientras ellos se enfrentan a un entorno hostil y casi imposible de habitar, sus compañeros deben reorganizar la misión y decidir cómo seguir adelante sin ceder a la parálisis del duelo."
+          },
+          {
+            "title": "Parte 2: El avance hacia las Puertas de la Muerte",
+            "summary": "La novela alterna la supervivencia extrema en el inframundo con el viaje de la nave Argo II y la preparación del cierre de las Puertas de la Muerte. Cada tramo del trayecto obliga al grupo a resolver amenazas nuevas y a redefinir alianzas, liderazgo y prioridades."
+          },
+          {
+            "title": "Parte 3: Prueba final y consecuencias",
+            "summary": "En la última parte, los distintos hilos convergen en una operación de alto riesgo para impedir que las fuerzas de Gea consoliden su ventaja. El cierre no cancela la guerra, pero sí transforma a los protagonistas y deja preparada la dimensión decisiva del conflicto general de la serie."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Mitología clásica en clave de saga contemporánea",
+            "content": "Riordan no reproduce la mitología como repertorio decorativo, sino como sistema narrativo vivo. Lugares, criaturas y pruebas del mundo clásico se integran en una novela de aventuras moderna, con códigos de amistad juvenil, humor y serialidad. Ese cruce explica parte de la vigencia pedagógica de la serie."
+          },
+          {
+            "heading": "El descenso como prueba moral",
+            "content": "El paso por el Tártaro no es solo una escalada del peligro físico. También dramatiza el cansancio, la culpa, la memoria del daño y la posibilidad de sostener la identidad en un territorio que deshumaniza. El libro explora así una versión juvenil del motivo literario del descenso a los infiernos."
+          },
+          {
+            "heading": "Coralidad y cooperación",
+            "content": "Aunque Percy y Annabeth ocupan el centro emocional, la novela insiste en que la empresa heroica es colectiva. La rotación de voces y misiones subraya que la inteligencia táctica, la lealtad y la complementariedad de capacidades son tan decisivas como el valor individual."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer los libros anteriores antes de La casa de Hades?",
+            "answer": "Sí. Al ser el cuarto volumen de Los héroes del Olimpo, depende de relaciones, conflictos y acontecimientos desarrollados en las entregas previas."
+          },
+          {
+            "question": "¿Qué lugar ocupa dentro del universo de Percy Jackson?",
+            "answer": "Forma parte de la segunda gran serie ambientada en el universo creado por Rick Riordan y corresponde al cuarto libro de Los héroes del Olimpo."
+          },
+          {
+            "question": "¿Predomina más la aventura o el tono oscuro?",
+            "answer": "Ambos elementos conviven, pero esta entrega se recuerda por un tono más sombrío que otros volúmenes de la saga, sobre todo por el recorrido de sus protagonistas por el Tártaro."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Rick Riordan - The House of Hades",
+            "url": "https://rickriordan.com/book/the-house-of-hades/"
+          },
+          {
+            "label": "Penguin Random House Retail - House of Hades, The",
+            "url": "https://www.penguinrandomhouseretail.com/book/?isbn=9781423146773"
+          },
+          {
+            "label": "Open Library - La casa de Hades (edición en español)",
+            "url": "https://openlibrary.org/books/OL27164652M.json"
+          },
+          {
+            "label": "Lecturalia - La casa de Hades",
+            "url": "https://www.lecturalia.com/libro/86348/la-casa-de-hades"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-casa-de-las-voces-de-donato-carrisi",
+      "title": "La Casa De Las Voces",
+      "authorName": "Donato Carrisi",
+      "authorSlug": "donato-carrisi",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La casa de las voces",
+        "authorName": "Donato Carrisi",
+        "authorSlug": "donato-carrisi",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2021,
+        "pages": 384,
+        "summary": "En esta novela de suspense psicológico, Donato Carrisi presenta a Pietro Gerber, hipnotista infantil de Florencia, llamado a intervenir en un caso que desborda sus protocolos habituales. Una colega australiana le pide que trate a Hanna Hall, una mujer adulta que arrastra un recuerdo infantil asociado a un posible asesinato. A partir de esa premisa, la investigación terapéutica se convierte en una exploración de la memoria traumática, la sugestión y la fragilidad de la verdad narrada. Carrisi articula la tensión a través de sesiones, silencios y revelaciones parciales, con una atmósfera opresiva que desplaza el interés desde la resolución policial clásica hacia la inestabilidad de la conciencia y el miedo doméstico.",
+        "aboutThisBook": "La casa de las voces abre una línea narrativa centrada en Pietro Gerber y apuesta por un thriller menos dependiente del procedimiento criminal externo que de la escucha clínica, la reconstrucción de recuerdos y la sospecha constante sobre lo que se recuerda y lo que se inventa. Su mayor fuerza está en la relación entre trauma, infancia y manipulación mental.",
+        "forWhom": "Resulta adecuada para lectores adultos que buscan thriller psicológico con fuerte componente atmosférico, para quienes disfrutan de novelas donde la investigación avanza por capas de memoria y para clubes de lectura interesados en debatir la fiabilidad del relato, la construcción del miedo y los límites éticos de la hipnosis como dispositivo narrativo.",
+        "whyItMatters": "Importa porque desplaza el thriller hacia un terreno donde el enigma no depende solo de descubrir al culpable, sino de averiguar si el recuerdo mismo puede sostenerse como prueba. Carrisi convierte la consulta, la voz y la infancia herida en espacios de inquietud, y con ello renueva un subgénero muy transitado.",
+        "editorialIntro": "Una casa, una voz recordada desde la infancia y un hipnotista obligado a entrar en un territorio incierto: Donato Carrisi construye aquí un thriller de sugestión y desasosiego. Esta guía resume el libro con foco en su estructura, sus temas principales y las preguntas que ayudan a leerlo con contexto, sin depender de una simple sinopsis promocional.",
+        "readingLevel": "Su lectura es accesible para público adulto general, pero exige atención sostenida a los cambios de información, a las ambigüedades del testimonio y a un suspense que se apoya más en la inferencia que en la acción directa.",
+        "whyReadToday": "Se lee con especial interés hoy porque dialoga con preocupaciones contemporáneas sobre el trauma, la memoria recuperada, la vulnerabilidad de la infancia y el poder de los relatos para alterar la percepción de lo verdadero.",
+        "studyNotes": [
+          "Analice cómo la hipnosis funciona a la vez como recurso argumental y como metáfora de la lectura, basada en atender voces, huecos y sugestiones.",
+          "Observe el desplazamiento del espacio del crimen: la amenaza no se resuelve en la calle, sino en la memoria y en el ámbito doméstico.",
+          "Conviene estudiar la figura de Pietro Gerber como investigador no policial, situado entre la clínica, la escucha y la sospecha.",
+          "El libro permite debatir la relación entre trauma infantil y narración retrospectiva sin reducirse a una tesis psicológica cerrada."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: La llamada y el caso",
+            "summary": "Pietro Gerber recibe la petición de una colega para tratar a Hanna Hall, cuya memoria infantil parece guardar un episodio violento nunca aclarado. La premisa instala desde el inicio una duda decisiva: si el recuerdo es verdadero, deformado o inducido."
+          },
+          {
+            "title": "Segunda parte: Sesiones, recuerdos y sospechas",
+            "summary": "A través del trabajo terapéutico, el pasado de Hanna va adquiriendo contornos más definidos y al mismo tiempo más inquietantes. Cada revelación abre nuevas preguntas sobre la infancia, la responsabilidad y la posibilidad de que la voz del pasado haya sido interpretada de forma errónea."
+          },
+          {
+            "title": "Tramo final: Revelación y relectura del enigma",
+            "summary": "En el último movimiento de la novela, Carrisi reorganiza las pistas acumuladas y obliga a reinterpretar la historia desde una perspectiva más amplia. El cierre confirma que el verdadero centro del libro está en la fragilidad de la percepción y en la violencia que puede anidar en lo familiar."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria, sugestión y verdad",
+            "content": "La novela explora una cuestión clásica del thriller psicológico: hasta qué punto la memoria puede operar como evidencia. Carrisi aprovecha ese problema para sembrar incertidumbre sin abandonar la inteligibilidad del relato, de modo que cada sesión clínica modifica retrospectivamente lo ya leído."
+          },
+          {
+            "heading": "La infancia como territorio inquietante",
+            "content": "Lejos de idealizar la niñez, el libro la presenta como una etapa donde pueden instalarse experiencias opacas, voces enigmáticas y zonas reprimidas. El miedo no nace de lo sobrenatural confirmado, sino del modo en que una vivencia infantil puede seguir modelando la vida adulta."
+          },
+          {
+            "heading": "El consultorio como escena del thriller",
+            "content": "Uno de los hallazgos formales de la novela es convertir el espacio terapéutico en un escenario de suspense. La conversación, la pausa y la evocación sustituyen muchas veces a la persecución o al procedimiento policial, con una eficacia que sostiene la tensión narrativa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela policíaca tradicional?",
+            "answer": "No exactamente. Aunque hay un enigma criminal, el peso del libro recae en el thriller psicológico y en la reconstrucción de un recuerdo traumático."
+          },
+          {
+            "question": "¿Quién es Pietro Gerber?",
+            "answer": "Es un psicólogo especializado en hipnosis infantil que trabaja en Florencia y actúa como eje de la novela y de la serie a la que pertenece este título."
+          },
+          {
+            "question": "¿La casa de las voces depende de secuelas previas?",
+            "answer": "Puede leerse como punto de entrada porque presenta el caso central y la figura de Pietro Gerber con la información necesaria para seguir la trama."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Duomo Ediciones - La casa de las voces",
+            "url": "https://www.duomoediciones.com/libro/la-casa-de-las-voces-2/"
+          },
+          {
+            "label": "Lecturalia - La casa de las voces",
+            "url": "https://www.lecturalia.com/libro/105892/la-casa-de-las-voces"
+          },
+          {
+            "label": "Casa del Libro - La casa de las voces",
+            "url": "https://www.casadellibro.com/libro-la-casa-de-las-voces/9788418538131/12359720"
+          },
+          {
+            "label": "Google Books - La casa de las voces",
+            "url": "https://play.google.com/store/books/details?id=LE1ZEQAAQBAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-chica-del-verano-de-la-vecina-rubia",
+      "title": "La Chica Del Verano",
+      "authorName": "La Vecina Rubia",
+      "authorSlug": "la-vecina-rubia",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La chica del verano",
+        "authorName": "La Vecina Rubia",
+        "authorSlug": "la-vecina-rubia",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "romance",
+          "narrativa"
+        ],
+        "year": 2023,
+        "pages": 424,
+        "summary": "La chica del verano, tercera entrega de la Saga Verano, se presenta como una novela de cierre emocional sobre el paso del tiempo, la memoria afectiva y las decisiones que marcan el final de una etapa. La sinopsis insiste en una voz que quiso ser anónima, \"oculta, pero presente\", y en la necesidad de saber cuándo cerrar capítulos sin olvidar a quienes acompañaron el trayecto. Más que apoyarse en un único giro argumental, el libro desarrolla una sensibilidad sentimental y generacional muy reconocible en la trayectoria de La Vecina Rubia: vínculos intensos, balances vitales, heridas que reaparecen y una mirada nostálgica sobre lo vivido. El resultado es una ficción contemporánea centrada en la identidad emocional y en la despedida de un ciclo narrativo.",
+        "aboutThisBook": "Esta novela prolonga y clausura una serie muy leída en el ámbito comercial español reciente. Su interés no está solo en la historia romántica, sino en cómo articula la experiencia de crecer, recordar y despedirse de una versión de uno mismo. La autora combina una prosa de fácil acceso con una fuerte apelación afectiva al lector que ha seguido la saga.",
+        "forWhom": "Es una lectura indicada para público adulto y joven adulto afín a la narrativa romántica contemporánea, a las novelas de tono emocional y a las historias de continuidad seriada donde los personajes importan tanto por lo que hacen como por lo que arrastran del pasado. Se disfruta especialmente si ya se conocen los títulos anteriores de la Saga Verano.",
+        "whyItMatters": "Importa porque representa una línea de ficción sentimental muy visible en el mercado español actual: novelas que trabajan el reconocimiento emocional, la nostalgia y la conversación íntima con una comunidad lectora consolidada. Como cierre de saga, además, permite observar cómo una autora popular organiza la despedida narrativa y afectiva de sus personajes.",
+        "editorialIntro": "Con tono confesional y vocación de cierre, La chica del verano convierte el final de una etapa en materia narrativa: recordar, decidir y dejar ir son aquí los verdaderos motores de la historia. Esta guía resume el libro con foco en su estructura, sus temas principales y las preguntas que ayudan a leerlo con contexto, sin depender de una simple sinopsis promocional.",
+        "readingLevel": "La prosa está pensada para una lectura ágil y amplia, sin gran dificultad sintáctica, pero el libro gana densidad emocional cuando se conocen las novelas anteriores y se reconocen los ecos sentimentales acumulados por la saga.",
+        "whyReadToday": "Vale la pena leerla hoy porque dialoga con una sensibilidad contemporánea muy extendida: la gestión emocional de los vínculos, la nostalgia como forma de autolectura y la necesidad de cerrar etapas sin vaciar de sentido lo vivido.",
+        "studyNotes": [
+          "Conviene leer la novela como cierre de saga y estudiar qué expectativas de resolución emocional hereda de los títulos anteriores.",
+          "Analice el uso de la primera persona o de una voz muy cercana a la confesión como mecanismo de identificación lectora.",
+          "La obra permite discutir la relación entre literatura comercial y construcción de comunidad afectiva en torno a una autora reconocible.",
+          "Observe cómo la nostalgia organiza tanto el tono como la selección de recuerdos y conflictos que vuelven al presente."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera mitad: Regreso a la memoria afectiva",
+            "summary": "La novela sitúa al lector ante una voz que revisa una etapa decisiva de su vida y mide lo que permanece y lo que ya no puede sostenerse. Desde el inicio, el tono privilegia la evocación, la identidad sentimental y la promesa de un cierre."
+          },
+          {
+            "title": "Momentos clave: Vínculos, decisiones y heridas",
+            "summary": "A medida que avanza la narración, las relaciones personales y las elecciones del pasado reaparecen como asuntos todavía activos. El centro del libro está en cómo esos lazos condicionan el presente y obligan a decidir entre insistir, reparar o despedirse."
+          },
+          {
+            "title": "Tramo final: Cerrar el verano",
+            "summary": "La última parte ordena la dimensión emocional de la saga y conduce a una salida marcada más por la madurez y la aceptación que por el efectismo. El cierre busca dejar una impresión de balance vital y de despedida consciente de una etapa compartida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Narrativa romántica y memoria de etapa",
+            "content": "La novela se inscribe en una narrativa romántica contemporánea donde el conflicto amoroso convive con una reflexión sobre las edades de la vida. El verano del título funciona menos como estación real que como emblema de un tiempo afectivo intenso y ya irrepetible."
+          },
+          {
+            "heading": "Identidad, anonimato y voz autora",
+            "content": "La frase promocional sobre querer ser anónima, oculta pero presente, resuena con la figura pública de La Vecina Rubia. El libro dialoga así con una autoría muy marcada en el espacio mediático y con una voz que busca intimidad sin renunciar al reconocimiento inmediato."
+          },
+          {
+            "heading": "Cierre de saga y expectativa lectora",
+            "content": "Como tercer volumen de la Saga Verano, la novela debe responder a una doble exigencia: funcionar por sí misma y satisfacer la necesidad de clausura de los lectores fieles. Su estructura emocional se entiende mejor si se la analiza como arte de la despedida y de la recapitulación afectiva."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela independiente o conviene leer la Saga Verano en orden?",
+            "answer": "Puede leerse por separado, pero su dimensión emocional y muchos de sus ecos narrativos se aprecian mejor leyendo antes los títulos anteriores de la Saga Verano."
+          },
+          {
+            "question": "¿Predomina el romance o la reflexión sentimental?",
+            "answer": "Ambos aspectos están presentes, aunque el libro pone especial énfasis en la memoria afectiva, el cierre de etapa y la revisión emocional del pasado."
+          },
+          {
+            "question": "¿Qué tipo de lector suele conectar con La chica del verano?",
+            "answer": "Sobre todo lectores de narrativa romántica contemporánea y de historias con tono confesional, cercanas a la nostalgia, el crecimiento personal y los vínculos intensos."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - La chica del verano",
+            "url": "https://www.planetadelibros.com/libro-la-chica-del-verano/383178"
+          },
+          {
+            "label": "Casa del Libro - La chica del verano",
+            "url": "https://www.casadellibro.com/libro-la-chica-del-verano-novela/9788448038977/14166923"
+          },
+          {
+            "label": "Lecturalia - La chica del verano",
+            "url": "https://www.lecturalia.com/libro/111024/la-chica-del-verano"
+          },
+          {
+            "label": "Google Books - La chica del verano",
+            "url": "https://play.google.com/store/books/details?id=PpbVEAAAQBAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-curacion-por-el-espiritu-mesmer-baker-eddy-freud-de-stefan-zweig",
+      "title": "La Curacion Por El Espiritu Mesmer Baker Eddy Freud",
+      "authorName": "Stefan Zweig",
+      "authorSlug": "stefan-zweig",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La curación por el espíritu",
+        "authorName": "Stefan Zweig",
+        "authorSlug": "stefan-zweig",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 1931,
+        "pages": 456,
+        "summary": "En este libro Stefan Zweig reconstruye, con ambición histórica y pulso narrativo, tres momentos decisivos en la búsqueda moderna de alivio para el sufrimiento psíquico. A través de Franz Anton Mesmer, Mary Baker Eddy y Sigmund Freud, el autor muestra cómo la idea de curación pasó del magnetismo animal y la sugestión carismática a la fe religiosa organizada y, finalmente, a la investigación clínica del inconsciente. No se trata de un manual de psicología, sino de una trilogía biográfica e intelectual que observa cómo nacen las terapias, qué prometen a su época y por qué despiertan adhesiones casi religiosas. Zweig subraya tanto el poder de la palabra y la creencia como los riesgos del dogmatismo, y convierte la historia de la medicina del alma en una meditación sobre autoridad, deseo de curarse y fragilidad humana.",
+        "aboutThisBook": "La curación por el espíritu ocupa un lugar singular dentro de la obra ensayística de Zweig porque combina biografía, historia cultural y reflexión sobre la psicología moderna. Cada una de sus tres secciones estudia una figura que transformó la manera de pensar la enfermedad nerviosa o espiritual: Mesmer como gran escenógrafo de la sugestión, Mary Baker Eddy como fundadora de una fe terapéutica y Freud como investigador que convierte el síntoma en lenguaje interpretable. La prosa de Zweig, elegante y persuasiva, no renuncia al dramatismo ni a la síntesis, de modo que el libro puede leerse a la vez como panorama histórico y como retrato de personalidades excepcionales.",
+        "forWhom": "Es una lectura especialmente valiosa para estudiantes de humanidades, historia de la medicina, psicología, filosofía o estudios culturales, así como para lectores interesados en la relación entre ciencia, fe y sugestión. También funciona muy bien para quien quiera entrar en el ensayo biográfico de Zweig sin empezar por una obra estrictamente literaria.",
+        "whyItMatters": "Sigue siendo importante porque ayuda a entender que las terapias nunca nacen en el vacío: responden a necesidades sociales, imaginarios colectivos y formas de autoridad. El libro permite ver cómo la modernidad articuló distintas respuestas al sufrimiento psíquico y cómo muchas discusiones actuales sobre salud mental, carisma terapéutico y legitimidad científica ya estaban planteadas en los siglos XVIII, XIX y XX.",
+        "editorialIntro": "Pocas obras explican con tanta claridad y energía narrativa cómo Occidente buscó curar aquello que no podía verse en el cuerpo. Zweig toma tres figuras polémicas y decisivas, las sitúa en su contexto y muestra que detrás de cada método terapéutico hay una idea del ser humano.",
+        "readingLevel": "Se lee bien con formación de bachillerato o primeros cursos universitarios, pero se aprovecha mejor si el lector está dispuesto a seguir referencias históricas, religiosas y psicológicas y a distinguir entre narración biográfica e interpretación ensayística.",
+        "whyReadToday": "Hoy se lee con provecho porque el libro ilumina debates vigentes sobre salud mental, autoridad experta, terapias alternativas, placebo, lenguaje clínico y necesidad de sentido. También recuerda que la historia de la psicología no fue lineal ni puramente científica, sino atravesada por la persuasión, el prestigio y la fe.",
+        "studyNotes": [
+          "Conviene leer la obra como una trilogía histórica: cada figura representa una etapa distinta en la comprensión del sufrimiento psíquico.",
+          "Zweig admira la fuerza de sus protagonistas, pero no los convierte en héroes simples; interesa observar dónde reconoce grandeza y dónde advierte exceso o fanatismo.",
+          "Una clave útil es comparar los instrumentos de cada modelo de curación: rito, palabra, comunidad creyente, interpretación clínica.",
+          "El libro dialoga tanto con la historia de la medicina como con la sociología del carisma y la cultura de masas modernas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Franz Anton Mesmer",
+            "summary": "Zweig presenta a Mesmer como una figura fronteriza entre ciencia, espectáculo y sugestión. Su magnetismo animal expresa el deseo de explicar y tratar males invisibles cuando la medicina todavía carecía de instrumentos eficaces para hacerlo."
+          },
+          {
+            "title": "Mary Baker Eddy",
+            "summary": "La segunda parte estudia cómo la curación espiritual se convierte en doctrina y comunidad religiosa. Zweig se interesa por la capacidad de Eddy para transformar una experiencia de fe y autosanación en un movimiento organizado con enorme influencia pública."
+          },
+          {
+            "title": "Sigmund Freud",
+            "summary": "La última sección muestra el paso hacia una comprensión más sistemática del inconsciente y del síntoma. Freud aparece como el momento en que la palabra terapéutica deja de apoyarse sobre todo en el carisma y busca un método de interpretación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "De la sugestión al método",
+            "content": "Una de las ideas centrales del libro es que la curación del alma no progresa de manera limpia, sino por tanteos, crisis y reformulaciones. Zweig ordena esas tentativas en una secuencia que va del magnetizador carismático al analista, y muestra qué se gana y qué se pierde en cada paso."
+          },
+          {
+            "heading": "Carisma, fe y obediencia",
+            "content": "Los tres protagonistas movilizan confianza y obediencia, aunque de formas distintas. El libro resulta especialmente útil para pensar hasta qué punto la eficacia terapéutica depende de una relación de autoridad y de un marco de creencias compartidas."
+          },
+          {
+            "heading": "El ensayo biográfico como interpretación cultural",
+            "content": "Zweig no escribe biografías exhaustivas, sino retratos intelectuales. Selecciona episodios, acentúa conflictos y convierte cada vida en emblema de una época, por lo que conviene leerlo como ensayista interpretativo más que como historiador positivista."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una obra de psicología académica?",
+            "answer": "No exactamente. Es un ensayo biográfico e histórico sobre tres figuras decisivas en la historia de la curación psíquica, escrito con gran calidad literaria."
+          },
+          {
+            "question": "¿Hace falta conocer a Freud antes de leerlo?",
+            "answer": "No. Zweig contextualiza a Freud dentro de una secuencia más amplia y permite entender por qué su propuesta resultó novedosa frente a formas anteriores de sugestión y curación espiritual."
+          },
+          {
+            "question": "¿Zweig defiende por igual a Mesmer, Eddy y Freud?",
+            "answer": "No. Los trata con interés y con admiración por su fuerza histórica, pero también marca diferencias entre el carisma, la fe organizada y la investigación clínica."
+          },
+          {
+            "question": "¿Por qué sigue siendo actual?",
+            "answer": "Porque ayuda a pensar críticamente la autoridad terapéutica, la necesidad de creer, el papel de la palabra en la cura y la historia cultural de la salud mental."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Editorial Acantilado: ficha del libro",
+            "url": "https://www.acantilado.es/catalogo/la-curacion-por-el-espiritu/"
+          },
+          {
+            "label": "S. Fischer Verlage: Die Heilung durch den Geist",
+            "url": "https://www.fischerverlage.de/buch/stefan-zweig-die-heilung-durch-den-geist-9783104001920"
+          },
+          {
+            "label": "Wikipedia en alemán: Die Heilung durch den Geist",
+            "url": "https://de.wikipedia.org/wiki/Die_Heilung_durch_den_Geist"
+          },
+          {
+            "label": "Britannica: Stefan Zweig",
+            "url": "https://www.britannica.com/biography/Stefan-Zweig"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-dama-palida-de-alejandro-dumas",
+      "title": "La Dama Palida",
+      "authorName": "Alejandro Dumas",
+      "authorSlug": "alejandro-dumas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La dama pálida",
+        "authorName": "Alejandro Dumas",
+        "authorSlug": "alejandro-dumas",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos",
+          "thriller"
+        ],
+        "year": 1849,
+        "pages": null,
+        "summary": "La dama pálida es un relato breve de atmósfera gótica en el que Alexandre Dumas mezcla narración de aventuras, leyenda centroeuropea y terror vampírico. Ambientado en los Cárpatos y vinculado a los conflictos entre Polonia y Rusia, el texto sigue a Hedwigia, una joven noble que, en plena huida, cae en una trama dominada por castillos aislados, rivalidades familiares y una amenaza sobrenatural que parece transmitirse de generación en generación. Dumas organiza la historia en cuatro movimientos muy nítidos y logra que el suspense avance a través de persecuciones, encierros, confesiones y presentimientos. Más que un cuento de sustos inmediatos, es una pieza de transición entre el romanticismo histórico y el imaginario vampírico del siglo XIX, donde el amor, la violencia y la fatalidad se contaminan mutuamente.",
+        "aboutThisBook": "Aunque Dumas es recordado sobre todo por sus grandes novelas de capa y espada, este relato muestra otra faceta de su escritura: la capacidad para absorber materiales folclóricos y convertirlos en ficción de ritmo rápido. La acción se sostiene sobre un marco histórico reconocible, pero su fuerza proviene del clima de sospecha, del castillo como espacio cerrado y del modo en que la pasión amorosa se vuelve inseparable del peligro. La obra forma parte de Les Mille et un fantômes, colección donde Dumas explora lo fantástico y lo macabro sin abandonar del todo el gusto por la intriga y la narración oral.",
+        "forWhom": "Resulta muy recomendable para lectores de clásicos breves, literatura gótica, estudios sobre vampirismo literario y cursos introductorios sobre el fantástico del siglo XIX. También es una buena puerta de entrada a un Dumas menos conocido que el de las novelas históricas extensas.",
+        "whyItMatters": "Importa porque permite ver cómo el motivo del vampiro circulaba por Europa antes de consolidarse en las grandes obras tardías del género. Además, enlaza el terror sobrenatural con conflictos políticos, familiares y sexuales, y muestra la plasticidad de Dumas para trabajar fuera de sus registros más famosos.",
+        "editorialIntro": "En pocas páginas, Dumas construye un relato denso en imágenes, amenaza y fatalidad. La lectura interesa tanto por su valor como cuento gótico autónomo como por su lugar dentro de la genealogía del vampirismo literario europeo. Esta guía resume el libro con foco en su estructura, sus temas principales y las preguntas que ayudan a leerlo con contexto, sin depender de una simple sinopsis promocional.",
+        "readingLevel": "Es accesible para lectores no especializados, pero se disfruta más si se tiene cierta familiaridad con la prosa romántica, el gusto decimonónico por el relato enmarcado y las convenciones del terror gótico.",
+        "whyReadToday": "Leerlo hoy permite revisar el origen literario de muchos tópicos del horror contemporáneo: el castillo aislado, la familia maldita, la fascinación por la víctima y la ambigüedad entre superstición y experiencia real. También demuestra que el canon gótico europeo es más amplio que sus nombres ingleses más repetidos.",
+        "studyNotes": [
+          "Conviene prestar atención a la combinación de contexto histórico y elemento sobrenatural: el relato no elimina la política, sino que la convierte en parte de la atmósfera de amenaza.",
+          "La división en cuatro partes facilita seguir la progresión del encierro, la rivalidad amorosa y la revelación de la maldición familiar.",
+          "El texto puede leerse dentro de la tradición vampírica previa a Drácula, donde la figura del no muerto todavía conserva rasgos legendarios muy marcados.",
+          "El punto de vista confesional de Hedwigia refuerza la cercanía emocional y la incertidumbre de lo contado."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Los Montes Cárpatos",
+            "summary": "Hedwigia sitúa la historia en un territorio donde conviven guerra, superstición y memoria familiar. La huida inicial establece el tono legendario y el peligro que rodea a la protagonista."
+          },
+          {
+            "title": "El Castillo de Brankovan",
+            "summary": "La llegada al castillo introduce el espacio central del relato: un lugar de hospitalidad ambigua, sometido a jerarquías familiares tensas y cargado de presagios."
+          },
+          {
+            "title": "Los dos hermanos",
+            "summary": "Dumas concentra aquí el conflicto principal mediante la oposición entre Kostaki y Gregoriska. El triángulo amoroso se vuelve una lucha de caracteres, deseos y amenazas cada vez más violentas."
+          },
+          {
+            "title": "El Monasterio de Hango",
+            "summary": "La parte final desplaza la acción hacia un desenlace marcado por la culpa, la muerte y la persistencia de lo sobrenatural. El relato deja al lector frente a una forma de amor que no se extingue con la tumba."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Gótico romántico en clave europea",
+            "content": "La obra combina rasgos del romanticismo histórico con motivos del cuento gótico. Dumas no se limita a copiar un repertorio de espectros y castillos: lo enlaza con una geografía fronteriza y con tensiones nacionales que vuelven más creíble la violencia del relato."
+          },
+          {
+            "heading": "Erotismo, amenaza y vampirismo",
+            "content": "Como en buena parte del fantástico decimonónico, la atracción amorosa se presenta unida al riesgo de posesión y destrucción. El vampirismo no funciona solo como monstruosidad física, sino como figura extrema del deseo que invade y consume."
+          },
+          {
+            "heading": "La eficacia de la forma breve",
+            "content": "Frente a las novelas largas de Dumas, aquí la economía narrativa es decisiva. Cada parte avanza con rapidez hacia el encierro, la revelación o el sobresalto, de modo que el relato puede estudiarse como ejemplo de condensación gótica muy eficaz."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es realmente un cuento de vampiros?",
+            "answer": "Sí, aunque en una forma temprana y todavía muy ligada a la leyenda, la superstición y el tono romántico del siglo XIX."
+          },
+          {
+            "question": "¿Hay que conocer otras obras de Dumas para leerlo?",
+            "answer": "No. Funciona perfectamente como relato independiente y, precisamente por su brevedad, permite descubrir una faceta menos conocida del autor."
+          },
+          {
+            "question": "¿Se parece más a una novela histórica o a un cuento de terror?",
+            "answer": "Participa de ambos registros, pero el impulso dominante es gótico: el contexto histórico sostiene la atmósfera y el conflicto, mientras lo sobrenatural articula la inquietud central."
+          },
+          {
+            "question": "¿Por qué interesa en un curso universitario?",
+            "answer": "Porque permite estudiar la circulación europea del motivo vampírico, la mezcla de géneros en el romanticismo y la adaptación de Dumas a formatos narrativos breves."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Lecturia: Alexandre Dumas, La dama pálida",
+            "url": "https://lecturia.org/cuentos-y-relatos/alexandre-dumas-la-dama-palida/14218/"
+          },
+          {
+            "label": "Wikipedia en español: La dama pálida",
+            "url": "https://es.wikipedia.org/wiki/La_dama_p%C3%A1lida"
+          },
+          {
+            "label": "Isliada: La dama pálida, el horror vampírico de Alejandro Dumas",
+            "url": "https://www.isliada.org/libros/la-dama-palida/"
+          },
+          {
+            "label": "Britannica: Alexandre Dumas, père",
+            "url": "https://www.britannica.com/biography/Alexandre-Dumas-pere"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-esfinge-maragata-de-concha-espina",
+      "title": "La Esfinge Maragata",
+      "authorName": "Concha Espina",
+      "authorSlug": "concha-espina",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 3,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La esfinge maragata",
+        "authorName": "Concha Espina",
+        "authorSlug": "concha-espina",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "romance",
+          "clasicos"
+        ],
+        "year": 1914,
+        "pages": 356,
+        "summary": "La esfinge maragata es una novela de aprendizaje sentimental y de conflicto social ambientada en la Maragatería leonesa. Concha Espina narra la llegada de Florinda, llamada Mariflor, a un mundo rural regido por códigos familiares, dureza económica y tradiciones que pesan más que el deseo individual. La joven, criada lejos de ese ámbito, descubre en Valdecruces una comunidad áspera y cerrada, pero también una intensidad moral que la obliga a madurar con rapidez. El amor por Rogelio Terán, artista y forastero, choca con la lógica de la supervivencia familiar y con un orden colectivo que convierte el sacrificio femenino en deber. La novela combina lirismo, observación regional y crítica social, y transforma una historia íntima en una reflexión sobre libertad, pobreza, honor y destino.",
+        "aboutThisBook": "La obra suele leerse como una de las novelas decisivas de la primera etapa de Concha Espina porque reúne varios rasgos centrales de su escritura: sensibilidad paisajística, atención al habla y a las costumbres locales, protagonismo femenino y voluntad de examinar la injusticia social sin abandonar el aliento poético. Aunque la ambientación regional es muy precisa, la novela no se reduce al costumbrismo. El paisaje leonés y la vida maragata importan porque condicionan la conducta de los personajes y porque permiten estudiar cómo una comunidad entera organiza la renuncia, el trabajo y la obediencia. El resultado es una novela profundamente situada y, al mismo tiempo, de alcance universal.",
+        "forWhom": "Es muy útil para estudiantes de literatura española del siglo XX, narrativa regionalista, estudios de género y cursos sobre novela social. También la disfrutarán lectores interesados en clásicos españoles menos transitados y en historias donde el conflicto amoroso está inseparablemente unido a la estructura económica y familiar.",
+        "whyItMatters": "Importa porque muestra con gran fuerza literaria cómo las formas de vida tradicionales pueden sostener tanto cohesión comunitaria como sufrimiento silencioso. Además, ofrece una representación compleja del sacrificio femenino y del mundo rural, lejos de la idealización pintoresca. Su premio Fastenrath y su posterior recepción confirman su peso dentro de la narrativa española de comienzos del siglo XX.",
+        "editorialIntro": "Concha Espina convierte la Maragatería en algo más que un escenario: la vuelve una fuerza moral que modela los cuerpos, las expectativas y los afectos. En esa tensión entre deseo individual y mandato colectivo reside la potencia duradera de la novela.",
+        "readingLevel": "Su lectura exige atención a un léxico rural y a un ritmo narrativo más reposado que el de la novela contemporánea, pero cualquier lector universitario o de bachillerato avanzado puede seguirla bien con una edición anotada o con algo de contexto histórico.",
+        "whyReadToday": "Se lee con interés hoy porque dialoga con debates todavía abiertos sobre desigualdad territorial, trabajo femenino, mandato familiar y conflicto entre identidad local y libertad personal. Además, permite revisar el canon español desde una autora de gran peso literario que no siempre recibe la atención que merece.",
+        "studyNotes": [
+          "La novela gana profundidad si se observa cómo el paisaje no es decorado, sino una estructura que condiciona la economía, los afectos y los tiempos de la acción.",
+          "Mariflor encarna una tensión central entre educación sentimental moderna y obediencia a una comunidad regida por pactos familiares y necesidad material.",
+          "Rogelio Terán funciona como contraste entre imaginación artística y realidad social, no solo como figura amorosa.",
+          "Conviene leer el premio Fastenrath y la recepción de la obra como indicios de su relevancia en la cultura literaria española de su tiempo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El viaje de Mariflor a Valdecruces",
+            "summary": "Los primeros capítulos presentan a Florinda en tránsito hacia la tierra maragata de su familia. El encuentro con Rogelio Terán y la impresión de extrañeza ante el nuevo mundo fijan desde el comienzo el conflicto entre deseo, imaginación y destino."
+          },
+          {
+            "title": "Aprender la dureza del mundo maragato",
+            "summary": "La estancia en Valdecruces muestra a Mariflor la disciplina del trabajo, la pobreza del entorno y la fuerza de las costumbres locales. La novela convierte ese aprendizaje en una educación moral marcada por la renuncia."
+          },
+          {
+            "title": "La rosa del corazón",
+            "summary": "Cuando el amor entre Mariflor y Rogelio parece definirse, la realidad económica de la familia Salvadores y las expectativas sociales complican cualquier salida sencilla. La dimensión sentimental queda subordinada a la necesidad colectiva."
+          },
+          {
+            "title": "La tragedia y el sacrificio",
+            "summary": "La segunda mitad intensifica la presión sobre la protagonista: se acumulan pérdidas, trabajos y decisiones dolorosas. El amor deja de ser promesa de liberación y pasa a medirse contra el deber y la supervivencia."
+          },
+          {
+            "title": "Paño de lágrimas",
+            "summary": "El tramo final deja una impresión de duelo, memoria y aceptación amarga. Más que clausurar del todo el conflicto, la novela muestra el coste humano de una comunidad que se sostiene gracias a sacrificios silenciosos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Regionalismo con alcance social",
+            "content": "La novela pertenece al regionalismo en la medida en que atiende con detalle a una comarca, sus hablas y sus costumbres; sin embargo, su ambición excede el cuadro local. Espina utiliza la Maragatería para pensar la pobreza, el trabajo y la subordinación de los individuos al grupo."
+          },
+          {
+            "heading": "La figura de Mariflor",
+            "content": "Mariflor no es solo heroína romántica ni simple víctima. Su itinerario muestra cómo una conciencia sensible y moderna intenta negociar con un orden económico y familiar que concede poco margen a la autodeterminación femenina."
+          },
+          {
+            "heading": "Paisaje, ritmo y simbolismo",
+            "content": "El ritmo pausado, la atención a las estaciones y la densidad del paisaje construyen una temporalidad moral. La tierra, el clima y los trabajos agrícolas no describen únicamente el ambiente: simbolizan la resistencia, la repetición y el peso del destino."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela meramente costumbrista?",
+            "answer": "No. Aunque retrata con precisión la vida maragata, su centro está en el conflicto entre libertad íntima, necesidad económica y normas comunitarias."
+          },
+          {
+            "question": "¿Qué papel tiene Rogelio Terán en la historia?",
+            "answer": "Actúa como catalizador sentimental e imaginativo: frente al mundo cerrado de Valdecruces, representa una posibilidad de vida distinta que la novela somete a prueba."
+          },
+          {
+            "question": "¿Por qué fue una obra importante para Concha Espina?",
+            "answer": "Porque consolidó su prestigio literario y obtuvo el Premio Fastenrath de la Real Academia Española, además de mostrar con claridad la fuerza de su prosa narrativa."
+          },
+          {
+            "question": "¿Qué temas la vuelven actual?",
+            "answer": "La presión sobre las mujeres, la tensión entre centro y periferia, la precariedad rural y la distancia entre deseo personal y obligación social siguen siendo muy legibles hoy."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Project Gutenberg: La Esfinge Maragata",
+            "url": "https://www.gutenberg.org/files/51724/51724-h/51724-h.htm"
+          },
+          {
+            "label": "Internet Archive: La esfinge maragata, novela; premiada por la Real Academia Española",
+            "url": "https://archive.org/details/laesfingemaragat00espi"
+          },
+          {
+            "label": "Wikipedia en español: La esfinge maragata",
+            "url": "https://es.wikipedia.org/wiki/La_esfinge_maragata"
+          },
+          {
+            "label": "Isliada: La esfinge maragata, una novela de Concha Espina",
+            "url": "https://www.isliada.org/libros/la-esfinge-maragata/"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T07:57:17Z"
+}

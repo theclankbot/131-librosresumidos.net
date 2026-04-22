@@ -1,0 +1,1 @@
+Write group results here as strict JSON objects keyed by slug. Each value must be either the rewritten object directly or {"rewritten": {...}}. No prose outside JSON.

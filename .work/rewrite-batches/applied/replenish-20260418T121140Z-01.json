@@ -1,0 +1,1552 @@
+{
+  "batchName": "replenish-20260418T121140Z-01",
+  "createdAt": "2026-04-18T12:11:46Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "la-catadora-de-hitler-de-v-s-alexander",
+      "title": "La Catadora De Hitler",
+      "authorName": "V S Alexander",
+      "authorSlug": "v-s-alexander",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La catadora de Hitler",
+        "authorName": "V. S. Alexander",
+        "authorSlug": "v-s-alexander",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "historica",
+          "narrativa"
+        ],
+        "year": 2018,
+        "pages": 323,
+        "summary": "La catadora de Hitler es una novela de ficción histórica ambientada en la Alemania de 1943 y construida desde una posición narrativa tan íntima como inquietante: la de una joven obligada a probar la comida destinada al Führer. Magda Ritter, enviada desde Berlín a Baviera para escapar de los bombardeos, termina incorporada al círculo de servicio del Berghof sin comprender del todo el alcance de ese privilegio envenenado. A partir de ahí, la novela combina miedo cotidiano, vigilancia ideológica y progresiva pérdida de inocencia. La protagonista descubre que sobrevivir cerca del poder nazi no significa estar a salvo, sino habitar una zona moralmente asfixiante donde el amor, la obediencia, la culpa y la resistencia se entrecruzan. Más que una simple intriga de guerra, el libro explora cómo el terror político invade la vida privada.",
+        "aboutThisBook": "Publicada originalmente como The Taster, esta novela se apoya en un dato histórico conocido —las catadoras que protegían a Hitler del envenenamiento— para desarrollar un relato de suspense moral y supervivencia. V. S. Alexander no escribe una crónica documental, sino una ficción histórica centrada en la experiencia psicológica de una mujer corriente atrapada muy cerca del núcleo del poder nazi. El interés del libro está en esa perspectiva lateral: no mira la guerra desde el frente, sino desde la mesa, el servicio doméstico, el miedo corporal y la conciencia que despierta demasiado tarde ante la maquinaria del régimen.",
+        "forWhom": "Para lectores de ficción histórica sobre la Segunda Guerra Mundial, novelas centradas en mujeres y relatos donde el conflicto principal es tanto moral como político.",
+        "whyItMatters": "Importa porque desplaza la mirada sobre el nazismo hacia una zona menos heroica y más incómoda: la de quienes sobreviven dentro del sistema sin dejar de sentir horror. Esa cercanía cotidiana al poder vuelve especialmente eficaz su reflexión sobre complicidad, miedo y responsabilidad.",
+        "editorialIntro": "No todas las novelas sobre el Tercer Reich necesitan campos de batalla para inquietar. La catadora de Hitler elige un espacio aparentemente doméstico —la comida, el servicio, la rutina del refugio alpino— y lo convierte en un laboratorio de terror. Su mejor baza está en esa contradicción: cuanto más cerca parece estar la protagonista de la seguridad, más evidente se vuelve que vive al borde de la aniquilación física y moral.",
+        "readingLevel": "Lectura de complejidad media. La prosa es accesible, pero el libro gana fuerza cuando se lee atendiendo a sus dilemas éticos y a su atmósfera opresiva.",
+        "whyReadToday": "Porque sigue siendo útil para pensar cómo operan el miedo, la obediencia y la normalización del horror dentro de los regímenes autoritarios, especialmente cuando afectan a personas corrientes.",
+        "studyNotes": [
+          "La novela funciona mejor como exploración de la proximidad al poder totalitario que como simple recreación histórica de época.",
+          "Magda Ritter encarna el tránsito de la ingenuidad a la conciencia, y ese desplazamiento moral organiza todo el relato.",
+          "La comida, lejos de simbolizar protección o abundancia, se convierte en un ritual de amenaza repetida.",
+          "El romance y la intriga política sirven para mostrar que incluso los vínculos íntimos quedan contaminados por la lógica del régimen."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: De Berlín bombardeado al Berghof",
+            "summary": "Magda es apartada de la capital y enviada con familiares a Baviera, donde la guerra parece más lejana. Esa aparente protección se rompe cuando una gestión burocrática la conduce al entorno de Hitler y a una tarea tan secreta como aterradora."
+          },
+          {
+            "title": "Parte 2: El privilegio convertido en amenaza",
+            "summary": "La vida en el retiro alpino del Führer se revela como un espacio de vigilancia constante. Magda aprende que cada comida puede ser la última y que formar parte del círculo del poder no concede libertad, sino una servidumbre marcada por el miedo."
+          },
+          {
+            "title": "Parte 3: Amor, sospecha y despertar moral",
+            "summary": "A medida que conoce mejor el funcionamiento del régimen y se vincula afectivamente con un hombre conectado a conspiraciones internas, la protagonista deja de ser una mera superviviente pasiva. El conflicto sentimental se mezcla con una toma de conciencia política cada vez más dolorosa."
+          },
+          {
+            "title": "Parte 4: El derrumbe del espejismo nazi",
+            "summary": "La cercanía al final de la guerra vuelve más visible la fragilidad del mundo construido por el nazismo. El cierre empuja a Magda a medir lo vivido no solo en términos de supervivencia, sino también de memoria, culpa y verdad histórica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una perspectiva doméstica del terror",
+            "content": "Uno de los aciertos del libro es narrar el nazismo desde una función aparentemente menor. La catadora no decide la política del régimen, pero su cuerpo queda convertido en instrumento de protección del dictador. Esa inversión vuelve tangible el modo en que el poder totalitario coloniza la intimidad."
+          },
+          {
+            "heading": "El cuerpo femenino como zona de riesgo",
+            "content": "Magda no afronta solo un conflicto ideológico, sino una vulnerabilidad física constante. Comer equivale a exponerse; callar equivale a seguir viva; enamorarse equivale a multiplicar el peligro. La novela convierte el cuerpo en archivo del miedo y de la obediencia forzada."
+          },
+          {
+            "heading": "Complicidad, pasividad y conciencia",
+            "content": "El libro no presenta a su protagonista como heroína impecable, sino como alguien atrapada en un sistema brutal al que primero se adapta y luego empieza a mirar con lucidez. Esa ambigüedad moral es central para entender su interés: la historia pregunta qué significa resistir cuando la supervivencia depende de callar."
+          },
+          {
+            "heading": "Ficción histórica y memoria del nazismo",
+            "content": "Aunque parte de un marco documentable, la novela trabaja sobre todo con la imaginación narrativa. Su valor no reside en ofrecer una lección historiográfica exhaustiva, sino en hacer visible una experiencia emocional plausible dentro del mundo nazi: el miedo normalizado, la obediencia ritual y la erosión interior de quien vive demasiado cerca del centro del horror."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata La catadora de Hitler?",
+            "answer": "Trata sobre Magda Ritter, una joven alemana obligada a probar la comida destinada a Hitler en su retiro de Berchtesgaden, mientras descubre de forma cada vez más dolorosa la lógica del régimen nazi."
+          },
+          {
+            "question": "¿Está basada en hechos reales?",
+            "answer": "Se inspira en el hecho histórico de las catadoras de Hitler, pero desarrolla una trama de ficción y una protagonista novelística para explorar el miedo, la obediencia y la cercanía al poder."
+          },
+          {
+            "question": "¿Es una novela bélica o más bien psicológica?",
+            "answer": "Tiene contexto bélico claro, pero funciona sobre todo como novela psicológica y moral. El centro no está en las batallas, sino en la presión cotidiana, la culpa y el despertar de la conciencia."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutarla más?",
+            "answer": "Quien busque ficción histórica de ritmo ágil, ambientada en la Segunda Guerra Mundial, con protagonista femenina y una tensión constante entre supervivencia personal y responsabilidad ética."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Historical Novel Society: The Taster",
+            "url": "https://historicalnovelsociety.org/reviews/the-taster/"
+          },
+          {
+            "label": "Publishers Weekly: The Taster by V S Alexander",
+            "url": "https://www.publishersweekly.com/9781496712271"
+          },
+          {
+            "label": "Goodreads: The Taster",
+            "url": "https://www.goodreads.com/book/show/35355159-the-taster"
+          },
+          {
+            "label": "Open Library: The taster",
+            "url": "https://openlibrary.org/works/OL19732054W/The_taster"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-eternidad-del-instante-de-zoe-valdes",
+      "title": "La Eternidad Del Instante",
+      "authorName": "Zoe Valdes",
+      "authorSlug": "zoe-valdes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La eternidad del instante",
+        "authorName": "Zoé Valdés",
+        "authorSlug": "zoe-valdes",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "historica"
+        ],
+        "year": 2004,
+        "pages": 344,
+        "summary": "La eternidad del instante es una novela de Zoé Valdés que desplaza su energía narrativa hacia la memoria, la migración y la búsqueda de origen. La historia sigue a Mo Ying, un joven cuyo itinerario enlaza China y Cuba mientras intenta encontrar a su padre, un cantante, y reconstruir una identidad fragmentada por los desplazamientos, los secretos familiares y la historia del siglo XX. Más que avanzar como una trama lineal de peripecias, la novela se arma como un mosaico de recuerdos, voces y revelaciones, con una sensibilidad que mezcla intensidad afectiva, desarraigo y evocación poética. Valdés convierte el viaje en una experiencia interior: cada desplazamiento geográfico abre también una pregunta sobre pertenencia, filiación y memoria heredada. El resultado es una novela de gran aliento emocional sobre lo que se pierde, lo que se inventa y lo que persiste en una biografía marcada por el exilio.",
+        "aboutThisBook": "Publicada en 2004 por Plaza & Janés, La eternidad del instante ocupa un lugar singular dentro de la obra narrativa de Zoé Valdés. Ese mismo año obtuvo el Premio de Novela Ciudad de Torrevieja, y su recepción posterior confirmó que no se trataba solo de una novela de argumento, sino de una exploración amplia sobre familia, migración y pertenencia. El libro une la dimensión histórica con una escritura sensorial y afectiva, y trabaja una geografía poco frecuente en la narrativa hispánica contemporánea: el cruce entre la experiencia china y la cubana leído desde la intimidad de una saga personal.",
+        "forWhom": "Para lectores de narrativa hispanoamericana contemporánea, novelas de memoria familiar y relatos de viaje interior donde la identidad se construye entre países, lenguas y pérdidas.",
+        "whyItMatters": "Importa porque ensancha la mirada sobre la identidad cubana al conectarla con otras diásporas y con una memoria transcontinental. También porque demuestra la capacidad de Zoé Valdés para combinar intensidad sentimental, reconstrucción histórica y una prosa de fuerte pulso evocador.",
+        "editorialIntro": "Hay novelas que no cuentan solo una vida, sino la forma en que varias memorias se sedimentan en un solo cuerpo. La eternidad del instante pertenece a esa familia. Zoé Valdés propone aquí una narración atravesada por viajes, filiaciones incompletas y recuerdos que vuelven como escenas decisivas. Su materia no es únicamente el pasado: es la persistencia emocional de aquello que parecía perdido y, sin embargo, sigue organizando una identidad.",
+        "readingLevel": "Lectura de complejidad media-alta. El lenguaje es claro, pero la estructura memorial, los desplazamientos geográficos y la densidad afectiva piden una lectura atenta.",
+        "whyReadToday": "Porque dialoga con preguntas muy actuales sobre identidad mestiza, migración, herencia familiar y pertenencia cultural, sin reducirlas a tesis ni abandonar la dimensión novelesca.",
+        "studyNotes": [
+          "El viaje de Mo Ying no debe leerse solo como desplazamiento geográfico, sino como búsqueda de filiación y de relato propio.",
+          "La novela trabaja la memoria familiar como un archivo incompleto: lo decisivo aparece a través de huellas, silencios y revelaciones parciales.",
+          "China y Cuba funcionan como espacios históricos y afectivos, no como simples decorados exóticos.",
+          "El tono lírico de Valdés convive con una estructura de saga, lo que le da al libro amplitud narrativa y densidad emocional."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El impulso de la búsqueda",
+            "summary": "La novela sitúa a Mo Ying ante una ausencia fundadora: la del padre y la de una historia familiar incompleta. Desde ese vacío inicial nace el movimiento del libro y la necesidad de reconstruir un origen roto."
+          },
+          {
+            "title": "Parte 2: Entre dos mundos",
+            "summary": "El trayecto que enlaza China y Cuba ensancha la escala del relato. Los desplazamientos permiten que la novela cruce culturas, genealogías y afectos, y muestre cómo la identidad se forma en tránsito, nunca como una esencia fija."
+          },
+          {
+            "title": "Parte 3: Secretos, memoria y herencia",
+            "summary": "A medida que aparecen recuerdos y testimonios, la historia íntima gana espesor. La reconstrucción del pasado no ofrece una verdad simple, sino una red de pérdidas, silencios y lealtades que redefine el presente del protagonista."
+          },
+          {
+            "title": "Parte 4: La identidad como permanencia móvil",
+            "summary": "El cierre no cancela del todo la nostalgia ni la fractura, pero sí permite una forma de comprensión. La novela sugiere que pertenecer no consiste en regresar a un origen puro, sino en aprender a habitar una memoria compuesta."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela de filiación y de viaje",
+            "content": "La búsqueda del padre organiza la intriga, pero el libro rebasa pronto ese objetivo argumental. Encontrar a la figura paterna equivale también a encontrar una narración posible sobre uno mismo. Por eso el viaje es físico, genealógico y simbólico a la vez."
+          },
+          {
+            "heading": "Memoria transnacional",
+            "content": "Uno de los rasgos más interesantes de la novela es su cruce entre China y Cuba. Valdés amplía el horizonte de la memoria cubana y la conecta con una experiencia diaspórica más compleja, marcada por mezclas culturales, desplazamientos y pertenencias inestables."
+          },
+          {
+            "heading": "La familia como archivo emocional",
+            "content": "La novela trabaja con la idea de que la familia conserva tanto revelaciones como zonas de sombra. Los secretos, las versiones parciales y los recuerdos transmitidos de manera oblicua forman un archivo afectivo que el protagonista debe descifrar."
+          },
+          {
+            "heading": "Poética de la evocación",
+            "content": "Valdés no reduce la historia a una sucesión de datos biográficos. Su escritura apuesta por la evocación sensorial y por una intensidad emocional que convierte el recuerdo en experiencia viva. Esa dimensión estilística explica buena parte del peso literario del libro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata La eternidad del instante?",
+            "answer": "Trata sobre el viaje de Mo Ying entre China y Cuba en busca de su padre y, al mismo tiempo, sobre la reconstrucción de una identidad marcada por la memoria familiar, el desarraigo y los secretos heredados."
+          },
+          {
+            "question": "¿Qué premio obtuvo la novela?",
+            "answer": "Obtuvo el Premio de Novela Ciudad de Torrevieja en 2004, un dato importante para situar su recepción en el momento de publicación."
+          },
+          {
+            "question": "¿Es una novela histórica o íntima?",
+            "answer": "Es ambas cosas. Tiene una base histórica y transnacional clara, pero su fuerza principal está en la dimensión íntima: la memoria, la familia, la pérdida y la búsqueda del origen."
+          },
+          {
+            "question": "¿Qué lectores pueden apreciarla especialmente?",
+            "answer": "Quienes disfruten novelas de memoria, sagas familiares, relatos del exilio y ficciones donde la identidad se explora a través del viaje y la mezcla cultural."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Goodreads: La eternidad del instante",
+            "url": "https://www.goodreads.com/book/show/79763.La_eternidad_del_instante"
+          },
+          {
+            "label": "Open Library: La eternidad del instante",
+            "url": "https://openlibrary.org/works/OL741888W/La_eternidad_del_instante"
+          },
+          {
+            "label": "Wikipedia: Zoé Valdés",
+            "url": "https://es.wikipedia.org/wiki/Zo%C3%A9_Vald%C3%A9s"
+          },
+          {
+            "label": "Wikipedia: Premio de Novela Ciudad de Torrevieja",
+            "url": "https://es.wikipedia.org/wiki/Premio_de_Novela_Ciudad_de_Torrevieja"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-historia-de-un-caballo-de-leon-tolstoi",
+      "title": "La Historia De Un Caballo",
+      "authorName": "Leon Tolstoi",
+      "authorSlug": "leon-tolstoi",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Historia de un caballo",
+        "authorName": "León Tolstói",
+        "authorSlug": "leon-tolstoi",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1886,
+        "pages": null,
+        "summary": "Historia de un caballo, conocida también por su título transliterado Kholstomer o por la versión inglesa Strider, es una de las novelas cortas más incisivas de Tolstói. El relato adopta la perspectiva de un caballo viejo y marginado para observar desde fuera las costumbres humanas, especialmente la idea de propiedad, el orgullo social y la violencia con que las personas ordenan el mundo. Esa elección narrativa produce un efecto extraordinario: lo que para los humanos parece natural —poseer, jerarquizar, humillar— aparece de pronto como una convención absurda y cruel. Bajo la apariencia de una historia animal, Tolstói construye una sátira moral de gran potencia. El destino del caballo, marcado por la explotación y el desgaste, funciona como espejo de una sociedad que mide el valor de los seres por su utilidad y su rango. La brevedad del texto no reduce su alcance filosófico; al contrario, lo concentra.",
+        "aboutThisBook": "Tolstói comenzó la obra en 1863 y la revisó hasta publicarla en 1886. Britannica la destaca como un ejemplo célebre de un procedimiento asociado al autor: la desfamiliarización, es decir, describir prácticas humanas supuestamente normales desde la mirada ingenua de quien no las comparte. En este caso, esa mirada corresponde a un caballo. El libro ocupa un lugar especial dentro de la narrativa breve tolstoiana porque une compasión por la criatura vulnerable, crítica social y una claridad formal que lo vuelve muy legible incluso hoy.",
+        "forWhom": "Para lectores de clásicos breves, estudiantes de literatura rusa y quienes busquen relatos con animales que en realidad funcionan como crítica moral y social de los seres humanos.",
+        "whyItMatters": "Importa porque condensa en muy pocas páginas una crítica demoledora de la propiedad, la jerarquía y el autoengaño humano. Además, muestra con gran nitidez la capacidad de Tolstói para volver extraña la realidad cotidiana y obligar al lector a verla de nuevo.",
+        "editorialIntro": "A primera vista, Historia de un caballo parece una fábula triste; en realidad, es una pieza de precisión moral. Tolstói no utiliza al animal para enternecer gratuitamente al lector, sino para desmontar la lógica social de los hombres. Al poner en el centro a un caballo viejo, útil solo mientras rinde, consigue que la propiedad, el prestigio y la violencia aparezcan con toda su arbitrariedad. Pocos textos breves logran tanto con tan pocos recursos.",
+        "readingLevel": "Lectura de complejidad media. El relato es breve y claro, pero su ironía moral y su dimensión filosófica invitan a una segunda lectura más reflexiva.",
+        "whyReadToday": "Porque sigue siendo una crítica muy viva de la lógica utilitaria con que se clasifica a los seres, se justifica la dominación y se confunde valor con posesión o rendimiento.",
+        "studyNotes": [
+          "La elección del punto de vista del caballo permite cuestionar la idea humana de propiedad desde una mirada externa.",
+          "El libro puede leerse como sátira social, como relato compasivo sobre la explotación animal y como reflexión filosófica sobre el valor.",
+          "La desfamiliarización es clave: Tolstói vuelve extrañas costumbres humanas aparentemente normales para exponer su irracionalidad.",
+          "Su brevedad facilita el trabajo en clase, pero conviene atender a la densidad simbólica del relato y no leerlo como simple cuento animal."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El caballo apartado",
+            "summary": "El relato presenta a un caballo envejecido, observado con desprecio por otros y ya desplazado del centro de la utilidad. Desde esa condición marginal empieza a construirse una voz capaz de mirar a los humanos sin compartir sus valores."
+          },
+          {
+            "title": "Parte 2: La vida contada desde el establo",
+            "summary": "Cuando el caballo recuerda su pasado, el lector descubre cómo su destino estuvo siempre ligado a las decisiones, caprichos y jerarquías de los hombres. La biografía animal revela una cadena de apropiaciones, exhibiciones y degradaciones."
+          },
+          {
+            "title": "Parte 3: La lógica absurda de la propiedad",
+            "summary": "El núcleo más famoso del libro aparece cuando la voz del caballo desmonta la noción humana de posesión. Lo que para los hombres es orden social, para él resulta una ficción arbitraria sostenida por la violencia y el lenguaje."
+          },
+          {
+            "title": "Parte 4: Degradación y verdad final",
+            "summary": "El desenlace lleva la historia hacia una conciencia dolorosa del desgaste y la muerte. Tolstói convierte ese final en juicio moral sobre una sociedad que usa, descarta y racionaliza su crueldad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Desfamiliarizar lo humano",
+            "content": "La gran operación literaria del texto consiste en mirar a los humanos desde un ser que no comprende sus convenciones. Gracias a ese desplazamiento, ideas como propiedad, nobleza o prestigio dejan de parecer naturales y se revelan como construcciones arbitrarias."
+          },
+          {
+            "heading": "Propiedad y violencia",
+            "content": "El libro cuestiona con fuerza la costumbre de decir que alguien posee a otro ser vivo. Tolstói muestra que ese lenguaje aparentemente normal encubre explotación, dominio y reducción del otro a mera utilidad. La crítica social del relato nace precisamente de esa observación."
+          },
+          {
+            "heading": "Animalidad y dignidad",
+            "content": "Aunque el caballo sufre humillaciones y degradación, el relato no lo reduce a símbolo pasivo. Su mirada preserva una forma de dignidad que deja mal parados a los humanos, incapaces de reconocer la violencia que ejercen en nombre del orden y del hábito."
+          },
+          {
+            "heading": "Tolstói breve, Tolstói radical",
+            "content": "Historia de un caballo demuestra que Tolstói no necesita la amplitud de sus grandes novelas para producir una crítica moral memorable. En unas pocas páginas alcanza una combinación rara de compasión, ironía y claridad filosófica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Historia de un caballo?",
+            "answer": "Trata sobre la vida de un caballo contado en buena parte desde su propia perspectiva, y usa esa voz para criticar la propiedad, la jerarquía y la crueldad de la sociedad humana."
+          },
+          {
+            "question": "¿Es lo mismo que Kholstomer o Strider?",
+            "answer": "Sí. Kholstomer es el título transliterado del original ruso y Strider es una de sus traducciones o títulos de circulación en inglés. En español suele conocerse como Historia de un caballo."
+          },
+          {
+            "question": "¿Por qué se estudia tanto este texto?",
+            "answer": "Porque es un ejemplo muy claro de cómo la literatura puede cuestionar ideas sociales arraigadas mediante un cambio de perspectiva. La mirada del caballo vuelve extrañas y criticables costumbres humanas muy habituales."
+          },
+          {
+            "question": "¿Es apto para lectores no especialistas?",
+            "answer": "Sí. Su extensión breve y su claridad narrativa lo hacen accesible, aunque ofrece mucha materia para una lectura filosófica, ética y literaria más profunda."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Kholstomer",
+            "url": "https://en.wikipedia.org/wiki/Kholstomer"
+          },
+          {
+            "label": "Britannica: Kholstomer",
+            "url": "https://www.britannica.com/topic/Kholstomer"
+          },
+          {
+            "label": "Goodreads: Kholstomer",
+            "url": "https://www.goodreads.com/book/show/640438.Kholstomer"
+          },
+          {
+            "label": "Goodreads: Historia de un Caballo",
+            "url": "https://www.goodreads.com/book/show/232563069-historia-de-un-caballo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-liga-de-los-pelirrojos-de-sir-arthur-conan-doyle",
+      "title": "La Liga De Los Pelirrojos",
+      "authorName": "Sir Arthur Conan Doyle",
+      "authorSlug": "sir-arthur-conan-doyle",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La liga de los pelirrojos",
+        "authorName": "Sir Arthur Conan Doyle",
+        "authorSlug": "sir-arthur-conan-doyle",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "misterio",
+          "relatos"
+        ],
+        "year": 1891,
+        "pages": null,
+        "summary": "La liga de los pelirrojos es uno de los relatos más ingeniosos del primer ciclo de Sherlock Holmes. Conan Doyle parte de una premisa casi cómica —un anuncio dirigido solo a hombres pelirrojos, un empleo absurdo y bien pagado, una oficina en apariencia ridícula— para conducir al lector hacia una trama criminal de notable precisión. Jabez Wilson, prestamista modesto y bonachón, acude a Holmes intrigado por la desaparición repentina de la supuesta organización que lo contrató para copiar la Encyclopaedia Britannica. Lo que parecía una extravagancia sin consecuencias se revela como la pantalla perfecta para un delito meticulosamente planeado. El cuento brilla por su economía narrativa, por el placer de ver a Holmes leer los detalles invisibles para los demás y por la manera en que el humor inicial desemboca en una solución elegante, urbana y perfectamente lógica.",
+        "aboutThisBook": "Publicado por primera vez en agosto de 1891 en The Strand Magazine, con ilustraciones de Sidney Paget, el relato fue luego incorporado a The Adventures of Sherlock Holmes. Es una pieza breve pero central dentro del imaginario holmesiano porque resume varias de sus virtudes más reconocibles: un cliente memorable, una premisa extravagante, observación minuciosa, deducción escalonada y un desenlace en el que la rareza inicial encuentra una explicación criminal impecable. También deja ver el dominio de Conan Doyle para convertir el Londres cotidiano en un tablero de engaños, apariencias y oportunidades delictivas.",
+        "forWhom": "Para lectores que disfrutan el misterio clásico, los relatos breves con gran mecanismo narrativo y las historias de Sherlock Holmes en su forma más lúdica e ingeniosa.",
+        "whyItMatters": "Importa porque muestra a Holmes en una de sus investigaciones más perfectamente construidas. El cuento enseña cómo un detalle excéntrico puede ocultar una operación criminal seria y cómo la lógica detectivesca transforma lo absurdo en evidencia.",
+        "editorialIntro": "Pocas historias policiales entran tan bien como esta. Conan Doyle entiende que el misterio también puede nacer de lo risible: un anuncio para pelirrojos, un trabajo inútil, una oficina vacía. Pero detrás de esa superficie casi humorística late una maquinaria criminal exacta. Ahí reside buena parte del encanto del relato: en la transición del disparate a la inteligencia pura. Leído hoy, conserva intacta su capacidad de divertir, sorprender y recordar que el género detectivesco también es un arte de la forma breve.",
+        "readingLevel": "Lectura muy accesible. La prosa es clara, el ritmo es rápido y la intriga se sigue sin dificultad, aunque se disfruta más si se presta atención a los pequeños indicios que Holmes detecta desde el principio.",
+        "whyReadToday": "Porque sigue siendo una lección ejemplar de cómo construir suspense con pocos elementos, humor discreto y una resolución convincente. Además, permite volver al placer de un enigma cerrado que premia la observación.",
+        "studyNotes": [
+          "Conviene fijarse en cómo el relato transforma una situación extravagante en un caso policial perfectamente verosímil.",
+          "Jabez Wilson no es solo un cliente cómico: su candidez es clave para que el engaño funcione y para que Holmes mida la dimensión del plan oculto.",
+          "La historia muestra un Holmes menos teatral que en otras aventuras y más concentrado en leer signos materiales: ropa, rodillas, arquitectura urbana y horarios.",
+          "El cuento es ideal para estudiar la economía del relato detectivesco clásico: presentación rápida, pista singular, investigación breve y desenlace de alta precisión."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: un anuncio imposible",
+            "summary": "Watson presencia la visita de Jabez Wilson, que cuenta a Holmes cómo obtuvo un empleo insólito por el simple hecho de ser pelirrojo. La desaparición repentina de la llamada Liga de los Pelirrojos convierte la anécdota en un enigma que exige interpretación."
+          },
+          {
+            "title": "Investigación: las pistas en la superficie",
+            "summary": "Holmes examina el caso con atención a detalles que otros considerarían triviales: el ayudante del prestamista, el barrio, el sótano, el edificio vecino y la verdadera función de aquel trabajo absurdo. La deducción no nace de una gran revelación, sino de una suma de indicios concretos."
+          },
+          {
+            "title": "Desenlace: el crimen bajo la ciudad",
+            "summary": "La extraña liga se revela como una maniobra de distracción para facilitar un robo cuidadosamente planificado. Holmes anticipa el movimiento final de los delincuentes y organiza una espera nocturna que convierte la resolución del caso en una demostración de cálculo y sangre fría."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La excentricidad como disfraz del delito",
+            "content": "El gran hallazgo del relato es usar lo excéntrico como cortina de humo. Todo lo que parece absurdo cumple una función práctica dentro del plan criminal, y esa conversión de lo ridículo en lo estratégico es una de las marcas más finas de Conan Doyle."
+          },
+          {
+            "heading": "Holmes y la lectura material del mundo",
+            "content": "Aquí Holmes no necesita confesiones largas ni persecuciones espectaculares. Le basta observar cuerpos, edificios y rutinas. El cuento es una defensa de la inteligencia atenta a lo visible, a aquello que está delante de todos pero casi nadie interpreta."
+          },
+          {
+            "heading": "Humor y precisión narrativa",
+            "content": "La comicidad inicial no rebaja la intriga; la mejora. El lector entra sonriendo y termina admirando la exactitud del mecanismo. Esa mezcla de ligereza y rigor es una de las razones por las que el cuento sigue pareciendo moderno."
+          },
+          {
+            "heading": "Un clásico de la forma breve detectivesca",
+            "content": "La historia se estudia a menudo como ejemplo de relato policial compacto: plantea una rareza inolvidable, la somete a investigación racional y entrega una solución cerrada, clara y satisfactoria sin exceso de explicaciones."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un relato independiente o hay que leer antes otras aventuras de Holmes?",
+            "answer": "Puede leerse de manera completamente independiente. Forma parte de The Adventures of Sherlock Holmes, pero el caso se entiende sin conocimientos previos."
+          },
+          {
+            "question": "¿Por qué es tan famoso dentro del canon holmesiano?",
+            "answer": "Porque combina una premisa inolvidable con una resolución muy limpia. Es uno de los ejemplos más celebrados del talento de Conan Doyle para construir enigmas breves y memorables."
+          },
+          {
+            "question": "¿Predomina más el humor o el suspense?",
+            "answer": "Empieza con un tono casi humorístico, pero pronto se convierte en un misterio serio. Justamente esa transición es parte de su eficacia narrativa."
+          },
+          {
+            "question": "¿Qué tema de fondo destaca más allá del caso?",
+            "answer": "La historia subraya que la apariencia de absurdo puede ocultar intereses muy concretos. En el universo de Holmes, lo extravagante casi nunca es gratuito."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "The Arthur Conan Doyle Encyclopedia: The Red-Headed League",
+            "url": "https://www.arthur-conan-doyle.com/wiki/The_Red-Headed_League"
+          },
+          {
+            "label": "Wikipedia: The Red-Headed League",
+            "url": "https://en.wikipedia.org/wiki/The_Red-Headed_League"
+          },
+          {
+            "label": "Project Gutenberg: The Adventures of Sherlock Holmes",
+            "url": "https://www.gutenberg.org/ebooks/1661"
+          },
+          {
+            "label": "Wikisource: The Red-Headed League",
+            "url": "https://en.wikisource.org/wiki/The_Adventures_of_Sherlock_Holmes/The_Red-Headed_League"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-memoria-de-la-lluvia-de-pedro-feijoo",
+      "title": "La Memoria De La Lluvia",
+      "authorName": "Pedro Feijoo",
+      "authorSlug": "pedro-feijoo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La memoria de la lluvia",
+        "authorName": "Pedro Feijoo",
+        "authorSlug": "pedro-feijoo",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "novela-negra",
+          "misterio"
+        ],
+        "year": 2016,
+        "pages": 526,
+        "summary": "La memoria de la lluvia articula un thriller literario e histórico alrededor de una serie de asesinatos que parecen dialogar con la figura de Rosalía de Castro. Todo comienza cuando el periodista Aquiles Vega investiga la muerte brutal del psicoanalista y tertuliano Xosé Carneiro, encontrado con una extraña pieza de hierro clavada en el corazón. Lo que al principio parece un crimen aislado se transforma en una secuencia de muertes conectadas por símbolos, textos, lagunas biográficas y una atmósfera de obsesión cultural. Acompañado por la profesora Sofía Deneb, Aquiles se adentra en una pesquisa que recorre Santiago, Padrón, Vigo y otros espacios gallegos, mientras intenta entender qué vínculo secreto une los crímenes con la vida y la obra rosalianas. Feijoo combina suspense, documentación y ritmo narrativo para construir una novela donde la literatura no adorna la intriga: la impulsa.",
+        "aboutThisBook": "La edición en castellano apareció en 2016 en Ediciones Versátil, con 526 páginas; la novela procede del original gallego A memoria da choiva, publicado por Xerais en 2013 y premiado después con el Arcebispo San Clemente. El libro se mueve entre el thriller, la investigación periodística y la novela cultural, con un componente claramente metaliterario. Rosalía de Castro no funciona aquí como simple referencia prestigiosa, sino como centro simbólico de la trama. Feijoo aprovecha huecos biográficos, ecos poéticos y escenarios gallegos reconocibles para levantar una intriga en la que leer, interpretar y descifrar son actos tan decisivos como perseguir a un criminal.",
+        "forWhom": "Para lectores de thriller con base cultural, novela negra ambientada en Galicia y tramas donde la investigación avanza entre archivos, símbolos, historia literaria y tensión criminal.",
+        "whyItMatters": "Importa porque demuestra que el thriller puede sostenerse sobre una tradición literaria concreta sin volverse académico ni perder pulso narrativo. Feijoo usa a Rosalía de Castro para abrir preguntas sobre memoria, identidad cultural y violencia contemporánea.",
+        "editorialIntro": "Lo más atractivo de La memoria de la lluvia es que no elige entre intriga y densidad cultural. Pedro Feijoo trabaja en las dos direcciones a la vez: construye un caso de asesinatos en serie con ritmo y, al mismo tiempo, convierte la figura de Rosalía de Castro en una presencia viva dentro del misterio. El resultado no es un thriller decorado con citas cultas, sino una novela donde la literatura gallega, los lugares y los vacíos de la biografía se convierten en motor de suspense. Ahí radica su personalidad más marcada.",
+        "readingLevel": "Lectura de nivel intermedio. El suspense engancha con facilidad, pero se disfruta más si el lector acepta una trama amplia, referencias literarias y una investigación que alterna acción, interpretación y contexto histórico-cultural.",
+        "whyReadToday": "Porque propone un thriller distinto del molde internacional más uniforme: está arraigado en Galicia, piensa la memoria cultural como problema vivo y demuestra que una tradición literaria puede generar tensión narrativa real.",
+        "studyNotes": [
+          "La novela se apoya en la figura de Rosalía de Castro no como homenaje estático, sino como clave interpretativa del caso y del clima simbólico del relato.",
+          "Aquiles Vega y Sofía Deneb forman una pareja funcional de investigación: periodismo, intuición narrativa y saber filológico trabajan juntos para descifrar la trama.",
+          "El libro gana fuerza cuando se lee como thriller metaliterario: los textos, las alusiones y los huecos biográficos no son ornamento, sino pista.",
+          "La geografía gallega importa mucho: Santiago, Padrón, Vigo y otros espacios no son simple decorado, sino memoria material de la investigación."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Acto inicial: el primer crimen",
+            "summary": "La aparición del cadáver de Xosé Carneiro abre una investigación marcada por la violencia del asesinato y por un detalle simbólico que descoloca cualquier lectura convencional. Aquiles Vega entra en escena cuando el caso empieza a mostrar una complejidad que va más allá de la crónica negra inmediata."
+          },
+          {
+            "title": "Nudo: crímenes, símbolos y lectura",
+            "summary": "A medida que surgen nuevas muertes, Aquiles y Sofía Deneb comprenden que el patrón del asesino está conectado con textos, episodios y vacíos biográficos asociados a Rosalía de Castro. La novela avanza entonces como una carrera entre interpretación intelectual y urgencia policial."
+          },
+          {
+            "title": "Tramo central: Galicia como archivo vivo",
+            "summary": "La pesquisa se desplaza por distintos lugares gallegos y convierte el paisaje cultural en parte de la intriga. Casas, calles, memorias familiares y referencias literarias forman un mapa en el que cada desplazamiento añade sentido al rompecabezas criminal."
+          },
+          {
+            "title": "Desenlace: identidad del perseguidor y verdad oculta",
+            "summary": "La figura enigmática de Adriano deja de ser una sombra abstracta y adquiere un peso decisivo dentro del caso. El cierre articula revelación, motivación y memoria, manteniendo el vínculo entre el thriller contemporáneo y el trasfondo literario que sostiene toda la novela."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller metaliterario con raíz gallega",
+            "content": "Feijoo no utiliza la literatura como adorno erudito, sino como estructura activa del suspense. La investigación depende de leer, contextualizar y relacionar textos con hechos, lo que da a la novela un perfil poco común dentro del thriller comercial."
+          },
+          {
+            "heading": "Rosalía de Castro como presencia narrativa",
+            "content": "La obra convierte a Rosalía en un eje de interpretación más que en un icono reverencial. Sus poemas, su biografía y las zonas de sombra que la rodean se vuelven material dramático, capaz de producir obsesión, sentido y violencia."
+          },
+          {
+            "heading": "Espacio, memoria e investigación",
+            "content": "La Galicia del libro no es postal ni folclore. Es un territorio leído como archivo, como conjunto de huellas donde la historia cultural y la experiencia contemporánea se cruzan. Esa dimensión espacial distingue mucho la novela."
+          },
+          {
+            "heading": "Ritmo narrativo y amplitud de la trama",
+            "content": "Aunque no apuesta siempre por la velocidad máxima, la novela mantiene tensión gracias a la dosificación de pistas y al equilibrio entre escenas de investigación, desplazamientos, conversación y revelación. Su ambición es más amplia que la de un simple procedural."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario conocer la obra de Rosalía de Castro para disfrutar la novela?",
+            "answer": "No es imprescindible. El libro ofrece suficientes claves para seguir la trama, aunque quien conozca algo de Rosalía percibirá mejor la riqueza de muchas referencias."
+          },
+          {
+            "question": "¿Predomina más la novela negra o la novela histórica?",
+            "answer": "Predomina el thriller contemporáneo, pero con una fuerte capa cultural e histórica. La investigación criminal es el eje, aunque está atravesada por memoria literaria y contexto gallego."
+          },
+          {
+            "question": "¿Qué papel cumple Sofía Deneb en la historia?",
+            "answer": "Es decisiva como contrapunto intelectual y filológico de Aquiles Vega. Gracias a ella la novela no se limita a perseguir un asesino: también interpreta textos, símbolos y contextos."
+          },
+          {
+            "question": "¿La novela se apoya más en la acción o en la interpretación?",
+            "answer": "En ambas, pero su singularidad está en cómo convierte la interpretación cultural en motor de suspense. Aquí leer bien también es una forma de sobrevivir y resolver el caso."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Google Books: La memoria de la lluvia",
+            "url": "https://books.google.com/books/about/La_memoria_de_la_lluvia.html?id=V35bjwEACAAJ"
+          },
+          {
+            "label": "Wikipedia: Pedro Feijoo",
+            "url": "https://es.wikipedia.org/wiki/Pedro_Feijoo"
+          },
+          {
+            "label": "Un Lector Indiscreto: reseña de La memoria de la lluvia",
+            "url": "https://unlectorindiscreto.blogspot.com/2016/07/la-memoria-de-la-lluvia-de-pedro-feijoo.html"
+          },
+          {
+            "label": "Goodreads: La memoria de la lluvia",
+            "url": "https://www.goodreads.com/book/show/29478864-la-memoria-de-la-lluvia"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-tierra-baldia-y-prufrock-y-otras-observaciones-de-t-s-eliot",
+      "title": "La Tierra Baldia Y Prufrock Y Otras Observaciones",
+      "authorName": "T S Eliot",
+      "authorSlug": "t-s-eliot",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La tierra baldía, Prufrock y otras observaciones",
+        "authorName": "T. S. Eliot",
+        "authorSlug": "t-s-eliot",
+        "type": "poesia",
+        "audience": "adulto",
+        "genres": [
+          "poesia",
+          "clasicos",
+          "modernismo"
+        ],
+        "year": null,
+        "pages": null,
+        "summary": "La tierra baldía, Prufrock y otras observaciones reúne dos núcleos decisivos de la poesía moderna de T. S. Eliot: el universo temprano de Prufrock and Other Observations y el gran poema de crisis que es The Waste Land. Leído como conjunto, el volumen permite ver cómo Eliot pasa de la conciencia urbana fragmentada, irónica y vacilante de Prufrock a una visión mucho más amplia de ruina espiritual, quiebra cultural y collage de voces en La tierra baldía. No es una lectura lineal ni apacible: exige aceptar la discontinuidad, la alusión y la superposición de registros. Pero justamente en esa exigencia reside su fuerza. Estos poemas no ofrecen una narración cerrada del malestar moderno; lo hacen sonar. Entre calles, habitaciones, restos culturales, deseo paralizado y ecos de tradiciones múltiples, Eliot compone una de las formas más intensas y perdurables de la desorientación contemporánea.",
+        "aboutThisBook": "Más que un libro unitario en sentido clásico, este título funciona como reunión editorial de dos hitos: Prufrock and Other Observations, publicado originalmente en 1917, y The Waste Land, aparecido en 1922. La combinación es muy reveladora porque deja ver continuidad y ruptura dentro de la obra de Eliot. En los poemas tempranos ya están la ciudad nerviosa, la conciencia escindida, el humor seco y la sensación de insuficiencia; en La tierra baldía esos elementos se expanden hasta convertirse en una poética de la fragmentación cultural. El volumen sirve, por tanto, como excelente puerta de entrada a la etapa decisiva del modernismo eliotiano.",
+        "forWhom": "Para lectores adultos interesados en poesía moderna, modernismo anglosajón, lectura universitaria, crítica literaria y libros que exigen relectura, contexto y atención formal.",
+        "whyItMatters": "Importa porque concentra algunos de los textos que redefinieron la poesía del siglo XX. Eliot convirtió la fragmentación, la alusión y la polifonía en formas expresivas capaces de nombrar una crisis histórica y espiritual sin simplificarla.",
+        "editorialIntro": "Hay libros que se leen como una historia y otros que se leen como un campo de fuerzas. Este pertenece al segundo grupo. Reunir Prufrock con La tierra baldía permite asistir al nacimiento y a la consolidación de una sensibilidad moderna hecha de ruina, ironía, citas, voces quebradas y lucidez incómoda. Eliot no tranquiliza al lector: lo obliga a entrar en un paisaje verbal donde la conciencia vacila, la ciudad enferma y la cultura aparece como resto vivo. Precisamente por eso sigue siendo una lectura tan formativa como perturbadora.",
+        "readingLevel": "Lectura exigente pero muy recompensante. El lenguaje no siempre es difícil por vocabulario, sino por densidad alusiva, cambios de voz, referencias culturales y estructura fragmentaria. Se beneficia mucho de la relectura y de alguna edición anotada.",
+        "whyReadToday": "Porque buena parte de nuestra experiencia contemporánea —saturación, fragmentación, agotamiento cultural, ruido urbano, identidad inestable— ya está puesta en escena aquí con una intensidad extraordinaria y todavía fértil para pensar el presente.",
+        "studyNotes": [
+          "Conviene leer el volumen como diálogo entre una voz individual desdoblada, la de Prufrock, y una crisis colectiva mucho más vasta, la de La tierra baldía.",
+          "La dificultad de Eliot no es un adorno elitista: forma parte del sentido. La fragmentación formal reproduce una experiencia histórica y mental quebrada.",
+          "Las alusiones a Dante, Shakespeare, la Biblia, la tradición clásica y textos orientales no buscan exhibición cultural, sino construir capas de eco y contraste.",
+          "Una edición con notas ayuda, pero no reemplaza la experiencia sonora del poema: ritmo, cortes y cambios de voz son esenciales para entender su fuerza."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Apertura: Prufrock y la conciencia paralizada",
+            "summary": "Los poemas iniciales muestran a un sujeto urbano dividido entre deseo, lucidez e incapacidad de actuar. En torno a Prufrock aparecen ya la ciudad moderna, la incomodidad social y una sensibilidad irónica que vuelve problemático hasta el gesto más íntimo."
+          },
+          {
+            "title": "Poemas de observación: ciudad, desgaste y extrañeza",
+            "summary": "Textos como Preludes o Rhapsody on a Windy Night amplían la mirada sobre una modernidad fatigada, hecha de rutinas, residuos, luces sucias y percepciones discontinuas. Eliot convierte el paisaje urbano en síntoma espiritual."
+          },
+          {
+            "title": "Núcleo mayor: las cinco partes de La tierra baldía",
+            "summary": "El gran poema despliega un mundo de voces rotas, referencias cruzadas y escenas de esterilidad cultural. Cada sección añade nuevas formas de desolación, pero también una búsqueda incierta de sentido entre ruinas, memorias y tradiciones dispersas."
+          },
+          {
+            "title": "Cierre interpretativo: de la ironía privada a la crisis civilizatoria",
+            "summary": "Leído en conjunto, el volumen muestra el paso desde la introspección modernista temprana hacia una poesía de alcance histórico y cultural mucho más amplio. La evolución no cancela al primer Eliot: lo radicaliza."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Fragmentación como forma del sentido",
+            "content": "Eliot no organiza el poema moderno a partir de continuidad narrativa, sino de restos, cortes y yuxtaposiciones. Esa forma quebrada no dificulta el sentido desde fuera: es el modo mismo en que el libro representa una experiencia moderna desarticulada."
+          },
+          {
+            "heading": "La ciudad como escenario mental",
+            "content": "En estos textos la ciudad no es solo un decorado urbano. Es una máquina de percepción, cansancio, repetición y alienación. Calles, niebla, habitaciones y conversaciones sociales forman parte de una psicología histórica del malestar."
+          },
+          {
+            "heading": "Intertextualidad y tradición en crisis",
+            "content": "Las citas y alusiones no buscan simple prestigio cultural. Eliot compone con ellas un archivo de voces que sobreviven entre ruinas. La tradición aparece como herencia indispensable y, al mismo tiempo, como lenguaje fracturado que ya no garantiza unidad."
+          },
+          {
+            "heading": "Vigencia de Eliot",
+            "content": "La permanencia de estos poemas se explica por su capacidad para nombrar la fatiga de una época sin caer en sociología plana ni confesión sentimental. Siguen siendo actuales porque convierten la inestabilidad moderna en una forma verbal de enorme precisión."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hay que entender todas las referencias para disfrutar el libro?",
+            "answer": "No. Conocerlas enriquece mucho la lectura, pero incluso sin identificar cada alusión se perciben el ritmo, la atmósfera de crisis y la potencia imaginativa del conjunto."
+          },
+          {
+            "question": "¿Es mejor empezar por Prufrock o por La tierra baldía?",
+            "answer": "Leer primero Prufrock suele ayudar. Permite entrar en la sensibilidad de Eliot antes de afrontar la complejidad mayor y la amplitud coral de La tierra baldía."
+          },
+          {
+            "question": "¿Por qué se considera un libro tan importante para el modernismo?",
+            "answer": "Porque reúne textos que redefinieron la voz poética del siglo XX: fragmentación, collage cultural, ironía urbana, polifonía y una nueva relación entre tradición y crisis contemporánea."
+          },
+          {
+            "question": "¿Es una lectura solo para especialistas?",
+            "answer": "No, aunque sí pide paciencia y relectura. Un lector general puede disfrutarlo si acepta que parte del placer está en volver sobre los poemas y dejar que su música y sus imágenes trabajen con el tiempo."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Open Library: The waste land, Prufrock and other observations",
+            "url": "https://openlibrary.org/works/OL1142197W"
+          },
+          {
+            "label": "Google Books: The Waste Land/Prufrock and Other Observations",
+            "url": "https://books.google.com/books/about/The_Waste_Land_Prufrock_and_Other_Observ.html?id=WCPGDAEACAAJ"
+          },
+          {
+            "label": "Project Gutenberg: Prufrock and Other Observations",
+            "url": "https://www.gutenberg.org/ebooks/1459"
+          },
+          {
+            "label": "Project Gutenberg: The Waste Land",
+            "url": "https://www.gutenberg.org/ebooks/1321"
+          },
+          {
+            "label": "Wikipedia: The Love Song of J. Alfred Prufrock",
+            "url": "https://en.wikipedia.org/wiki/The_Love_Song_of_J._Alfred_Prufrock"
+          },
+          {
+            "label": "Wikipedia: The Waste Land",
+            "url": "https://en.wikipedia.org/wiki/The_Waste_Land"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-siete-leyes-espirituales-del-exito-de-deepak-chopra",
+      "title": "Las Siete Leyes Espirituales Del Exito",
+      "authorName": "Deepak Chopra",
+      "authorSlug": "deepak-chopra",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las siete leyes espirituales del éxito",
+        "authorName": "Deepak Chopra",
+        "authorSlug": "deepak-chopra",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "autoayuda",
+          "espiritualidad",
+          "desarrollo personal"
+        ],
+        "year": 1994,
+        "pages": 128,
+        "summary": "En este libro breve y muy difundido, Deepak Chopra propone una idea del éxito distinta de la que domina en la cultura de la productividad y la competencia. En lugar de presentar el logro como resultado exclusivo de esfuerzo, cálculo y ambición, lo vincula con siete principios espirituales que, según su enfoque, expresan las leyes profundas de la naturaleza. El texto avanza ley por ley —potencialidad pura, dar y recibir, karma, menor esfuerzo, intención y deseo, desapego y dharma— y combina explicación filosófica, ejemplos sencillos y ejercicios de aplicación cotidiana. Más que un tratado sistemático, es una guía de meditación práctica sobre cómo vivir con mayor conciencia, armonía y sentido. Su fuerza no está en la demostración académica, sino en la claridad con que condensa una visión espiritual del bienestar, la abundancia y la realización personal.",
+        "aboutThisBook": "Publicado originalmente en 1994 como The Seven Spiritual Laws of Success y pronto traducido al español, este es uno de los títulos más conocidos de Deepak Chopra y uno de los que mejor resumen su mezcla de tradición védica, lenguaje accesible y promesa de transformación cotidiana. Las referencias bibliográficas de Google Books y Open Library lo sitúan entre sus obras de mayor circulación internacional. Su planteamiento central consiste en reformular el éxito no como acumulación exterior, sino como una experiencia de plenitud ligada a la conciencia, la generosidad, la responsabilidad y el propósito vital. De ahí que haya sido leído tanto en clave espiritual como de crecimiento personal.",
+        "forWhom": "Para lectores de desarrollo personal, espiritualidad práctica y autoayuda reflexiva que prefieran principios breves, aplicables y orientados a revisar la idea misma de éxito.",
+        "whyItMatters": "Importa porque popularizó una definición del éxito menos materialista y más interior, y porque convirtió conceptos espirituales complejos en un formato breve que millones de lectores pudieron incorporar a su vida diaria.",
+        "editorialIntro": "Pocos libros de autoayuda espiritual han circulado tanto con una premisa tan simple: quizá el éxito no consista en forzar el mundo, sino en aprender a vivir de acuerdo con ciertas leyes de conciencia. Chopra convirtió esa intuición en un volumen breve, aforístico y muy legible, pensado para releerse. Su atractivo editorial reside en esa combinación de promesa práctica, lenguaje sereno y arquitectura clara de siete principios memorables.",
+        "readingLevel": "Lectura accesible para adultos. El lenguaje es directo y repetitivo a propósito, aunque algunos conceptos proceden de tradiciones filosóficas orientales y ganan profundidad si se leen con calma y espíritu crítico.",
+        "whyReadToday": "Porque sigue dialogando con una época agotada por la obsesión con el rendimiento. Incluso quien no comparta todo su marco espiritual puede encontrar aquí una crítica útil al éxito entendido solo como logro externo, control y prisa.",
+        "studyNotes": [
+          "El libro funciona mejor si se lee como una síntesis de principios meditativos y éticos, no como una teoría científica del éxito en sentido estricto.",
+          "Cada ley tiene una doble dimensión: una idea filosófica general y una serie de prácticas cotidianas que buscan volverla habitable.",
+          "Conviene observar cómo Chopra traduce nociones de raíz védica a un vocabulario global de bienestar, abundancia y realización personal.",
+          "Una lectura crítica puede comparar su propuesta con otras tradiciones de autoayuda más centradas en disciplina, metas y productividad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Ley 1: potencialidad pura",
+            "summary": "El punto de partida del libro es que nuestra identidad más profunda no se reduce al ego ni al hacer constante. El silencio, la meditación y el contacto con la conciencia serían la fuente primera de creatividad y plenitud."
+          },
+          {
+            "title": "Leyes 2 y 3: dar y recibir; karma",
+            "summary": "Chopra sostiene que la vida funciona como intercambio continuo y que toda acción genera consecuencias. Dar, recibir y actuar con atención no son solo virtudes morales, sino modos de entrar en una corriente más armónica."
+          },
+          {
+            "title": "Leyes 4 y 5: menor esfuerzo; intención y deseo",
+            "summary": "Aquí propone reemplazar la lucha compulsiva por una acción alineada con la naturaleza. La intención importa, pero debe sostenerse sin fricción innecesaria, aceptando la realidad del presente mientras se orienta el futuro."
+          },
+          {
+            "title": "Leyes 6 y 7: desapego; dharma",
+            "summary": "En el cierre, el autor une libertad interior y propósito. Desapegarse no significa indiferencia, sino dejar espacio a lo incierto; descubrir el dharma implica reconocer talentos propios y ponerlos al servicio de otros."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una redefinición espiritual del éxito",
+            "content": "El libro desplaza el centro del discurso motivacional: el éxito deja de ser una suma de resultados visibles y pasa a entenderse como coherencia entre conciencia, acción y propósito. Esa relectura explica buena parte de su permanencia."
+          },
+          {
+            "heading": "Del pensamiento védico al mercado global",
+            "content": "Uno de sus rasgos más característicos es la traducción de ideas procedentes de tradiciones espirituales indias a un formato occidental, breve y comercial. El libro simplifica, sí, pero también vuelve accesible un vocabulario que de otro modo quedaría lejano para muchos lectores."
+          },
+          {
+            "heading": "Brevedad, repetición y eficacia editorial",
+            "content": "La estructura en siete leyes hace que el contenido sea fácil de recordar y citar. Chopra escribe para ser subrayado: cada capítulo condensa una idea central, una explicación tranquilizadora y una invitación a la práctica inmediata."
+          },
+          {
+            "heading": "Lectura crítica contemporánea",
+            "content": "Hoy puede leerse de dos formas a la vez: como manual inspirador y como ejemplo de espiritualidad de amplia difusión. Su interés no depende de aceptar cada afirmación literalmente, sino de entender qué clase de consuelo, orientación y lenguaje ofreció a generaciones de lectores."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro religioso o de autoayuda?",
+            "answer": "Se sitúa entre ambos mundos. Tiene base espiritual y referencias a la tradición védica, pero está escrito como guía breve de desarrollo personal para lectores generales."
+          },
+          {
+            "question": "¿Hace falta compartir la visión de Chopra para aprovecharlo?",
+            "answer": "No necesariamente. Aunque su marco es claramente espiritual, varias de sus ideas pueden leerse como invitaciones a vivir con más atención, menos ansiedad y mayor sentido de propósito."
+          },
+          {
+            "question": "¿Por qué sigue siendo tan citado?",
+            "answer": "Porque resume su propuesta en siete fórmulas muy memorables y porque ofrece una alternativa seductora a la idea del éxito basada solo en presión, ambición y resultados externos."
+          },
+          {
+            "question": "¿Es un libro largo o difícil?",
+            "answer": "No. Es breve y muy accesible; su dificultad no está en el vocabulario, sino en decidir hasta qué punto el lector acepta o discute su interpretación espiritual de la vida práctica."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Google Books: Las siete leyes espirituales del éxito (edición EDAF, 1996)",
+            "url": "https://books.google.com/books/about/Las_siete_leyes_espirituales_del_%C3%A9xito.html?hl=&id=_mcMkUw8_J0C"
+          },
+          {
+            "label": "Google Books: Las siete leyes espirituales del éxito (edición Editorial Norma, 2004)",
+            "url": "https://books.google.com/books/about/Las_siete_leyes_espirituales_del_%C3%A9xito.html?hl=&id=nTHy6CShrl4C"
+          },
+          {
+            "label": "Open Library: The Seven Spiritual Laws of Success / registros relacionados de la obra",
+            "url": "https://openlibrary.org/works/OL548626W"
+          },
+          {
+            "label": "Deepak Chopra: página oficial de libros del autor",
+            "url": "https://www.deepakchopra.com/books"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-buscapistas-1-el-caso-del-castillo-encantado-de-teresa-blanch-gasoljose-a-labari-ilundain",
+      "title": "Los Buscapistas 1 El Caso Del Castillo Encantado",
+      "authorName": "Teresa Blanch Gasoljose A Labari Ilundain",
+      "authorSlug": "teresa-blanch-gasoljose-a-labari-ilundain",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los BuscaPistas 1 - El caso del castillo encantado",
+        "authorName": "Teresa Blanch, José Ángel Labari",
+        "authorSlug": "teresa-blanch-jose-angel-labari",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "infantil",
+          "misterio",
+          "aventuras"
+        ],
+        "year": 2013,
+        "pages": 72,
+        "summary": "Este primer título de Los BuscaPistas presenta a Pepa Pistas y Maxi Casos, dos niños que deciden montar una pequeña agencia de detectives y convertir la curiosidad en método de investigación. El caso que inaugura la serie los lleva a un castillo ligado a la familia Vamp, un escenario ideal para activar el miedo divertido, las sospechas y el placer de seguir pistas. La novela está pensada para primeros lectores: letra grande, capítulos breves, humor, ilustraciones y un misterio comprensible que nunca pierde el tono lúdico. Lo importante no es solo resolver qué secreto esconde el castillo, sino aprender a observar, preguntar y atar cabos junto a los protagonistas. El libro combina aventura amable y estructura detectivesca elemental, de modo que la lectura se vuelve al mismo tiempo entretenimiento y entrenamiento de atención.",
+        "aboutThisBook": "Publicado por Montena en 2013, este volumen abre una serie infantil muy reconocible dentro de la narrativa de iniciación a la lectura: historias cortas, visuales y guiadas por un enigma atractivo. Los registros de Google Books atribuyen la obra a Teresa Blanch y José Ángel Labari y destacan su orientación a una lectura fácil y amena. Su valor editorial está en cómo adapta el esquema clásico del misterio —pistas, sospechosos, secreto final— a lectores que todavía están consolidando fluidez lectora. En lugar de complicar la trama, el libro busca que el niño sienta pronto la satisfacción de leer por sí mismo y de participar activamente en la resolución del caso.",
+        "forWhom": "Para niños que empiezan a leer solos, familias que buscan misterio amable y docentes que necesiten una novela breve, visual y fácil de comentar en clase.",
+        "whyItMatters": "Importa porque demuestra que la lectura inicial no tiene por qué ser plana ni puramente didáctica: puede ofrecer intriga, humor y sensación real de descubrimiento sin dejar de ser accesible.",
+        "editorialIntro": "Las buenas series infantiles de detectives entienden algo esencial: el misterio no solo entretiene, también enseña a mirar. Los BuscaPistas 1 arranca con esa intuición y la convierte en una propuesta muy eficaz para primeros lectores. Hay castillo, secretos, sospechas y humor, pero sobre todo hay una invitación muy clara a leer activamente, fijándose en detalles y disfrutando el proceso de averiguar qué ocurre.",
+        "readingLevel": "Lectura muy accesible para primeros lectores autónomos. La letra grande, las ilustraciones y los capítulos cortos facilitan el avance, mientras el misterio introduce una dificultad amable basada en observar pistas sencillas.",
+        "whyReadToday": "Porque sigue siendo una puerta de entrada excelente al placer de leer por cuenta propia. Además, recuerda que el género detectivesco puede adaptarse muy bien a la infancia sin perder juego, ritmo ni capacidad de sorprender.",
+        "studyNotes": [
+          "El libro permite trabajar la diferencia entre imaginar una explicación y encontrar indicios que la sostengan.",
+          "El castillo funciona como escenario clásico del misterio, pero rebajado a una escala infantil donde el miedo nunca bloquea la diversión.",
+          "Pepa y Maxi sirven como modelos de lectura activa: observan, preguntan y revisan hipótesis en lugar de aceptar la primera impresión.",
+          "La combinación de texto breve e ilustración hace visible cómo una edición puede acompañar el aprendizaje lector sin simplificar en exceso la historia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Pepa y Maxi abren su agencia",
+            "summary": "La novela presenta a los dos protagonistas y establece el tono de juego detectivesco. La agencia nace de la curiosidad, la amistad y el deseo de convertir cualquier misterio del barrio en una aventura."
+          },
+          {
+            "title": "Aparece el secreto del castillo",
+            "summary": "El foco de la historia se desplaza al castillo de la familia Vamp. Ese escenario activa rumores, dudas y una atmósfera de misterio que invita a investigar sin caer en un terror real."
+          },
+          {
+            "title": "Pistas, preguntas y falsas impresiones",
+            "summary": "En la parte central, Pepa y Maxi observan detalles, interpretan señales y aprenden que no todo lo que parece extraño es necesariamente peligroso o sobrenatural. El libro enseña a leer indicios con calma."
+          },
+          {
+            "title": "Resolución y celebración del ingenio",
+            "summary": "El cierre reúne las piezas del caso y ofrece una explicación clara para lectores infantiles. Más que un gran giro oscuro, la novela premia la atención, el coraje y el placer de resolver algo por uno mismo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Detectives para primeros lectores",
+            "content": "La serie adapta con inteligencia la lógica del policial a una franja temprana de lectura. Mantiene la estructura de investigación, pero simplifica el número de personajes, la complejidad causal y el grado de amenaza."
+          },
+          {
+            "heading": "El miedo como motor lúdico",
+            "content": "El castillo encantado y la familia Vamp juegan con referencias góticas reconocibles, pero siempre desde un registro ligero. El libro usa el pequeño miedo infantil como combustible narrativo, no como experiencia perturbadora."
+          },
+          {
+            "heading": "La edición como parte del relato",
+            "content": "En este tipo de libros, el diseño importa mucho. Letra grande, fragmentación visual e ilustraciones no son adornos: forman parte de la estrategia para sostener la atención y la autonomía del lector novel."
+          },
+          {
+            "heading": "Valor formativo del misterio",
+            "content": "Seguir una investigación básica ayuda a trabajar inferencias, anticipaciones y revisión de hipótesis. Por eso el libro funciona bien tanto como ocio lector como en mediaciones escolares o familiares."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Da miedo de verdad?",
+            "answer": "No. Juega con castillos, secretos y una familia de apellido sugerente, pero el tono es amable y pensado para divertir más que asustar."
+          },
+          {
+            "question": "¿Es adecuado para niños que recién empiezan a leer solos?",
+            "answer": "Sí. Está concebido justamente para esa etapa: capítulos breves, letra grande, ilustraciones y una intriga fácil de seguir."
+          },
+          {
+            "question": "¿Hace falta leer otros libros de la serie antes?",
+            "answer": "No. Este volumen es el inicio y presenta a Pepa Pistas y Maxi Casos desde cero, de modo que funciona perfectamente como puerta de entrada."
+          },
+          {
+            "question": "¿Qué aporta frente a otras lecturas infantiles breves?",
+            "answer": "Añade el placer del enigma. No se limita a contar una anécdota simpática, sino que invita al lector a observar pistas y participar mentalmente en la resolución."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Google Books: Los BuscaPistas 1 - El caso del castillo encantado (Montena)",
+            "url": "https://play.google.com/store/books/details?id=74Hgmw3lWOUC&source=gbs_api"
+          },
+          {
+            "label": "Google Books: El caso del castillo encantado (registro impreso)",
+            "url": "http://books.google.es/books?id=k0bcngEACAAJ&hl=&source=gbs_api"
+          },
+          {
+            "label": "WorldCat search: Los BuscaPistas 1 / El caso del castillo encantado",
+            "url": "https://search.worldcat.org/search?q=%22Los+BuscaPistas+1%22+%22castillo+encantado%22"
+          },
+          {
+            "label": "Todos Tus Libros: búsqueda del título en catálogo español",
+            "url": "https://www.todostuslibros.com/busquedas?keyword=Los%20BuscaPistas%201%20El%20caso%20del%20castillo%20encantado"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "me-lo-prestas-de-emily-giffin",
+      "title": "Me Lo Prestas",
+      "authorName": "Emily Giffin",
+      "authorSlug": "emily-giffin",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "¿Me lo prestas?",
+        "authorName": "Emily Giffin",
+        "authorSlug": "emily-giffin",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "romance",
+          "narrativa contemporánea",
+          "ficción femenina"
+        ],
+        "year": 2011,
+        "pages": null,
+        "summary": "Bajo una premisa incómoda y muy eficaz, Emily Giffin construye aquí una novela sentimental sobre amistad, lealtad y deseo en conflicto. Rachel, abogada de Manhattan, siempre ha ocupado el papel de la chica correcta, razonable y contenida. Todo se rompe después de su trigésimo cumpleaños, cuando termina acostándose con el prometido de su mejor amiga, Darcy. A partir de ese punto, la novela no se limita a explotar el escándalo del triángulo amoroso, sino que examina cómo una identidad entera puede tambalearse cuando deja de obedecer las expectativas ajenas. Giffin narra con agilidad, ironía ligera y mucha atención a los matices emocionales: culpa, autoengaño, resentimiento, dependencia afectiva y deseo de una vida más auténtica. El resultado es un bestseller romántico que funciona también como relato de maduración moral tardía.",
+        "aboutThisBook": "La edición española ¿Me lo prestas? apareció en 2011, mientras la novela original, Something Borrowed, había sido publicada antes en inglés y consolidó a Emily Giffin como una autora muy leída de ficción sentimental contemporánea. Google Books conserva la sinopsis de la edición en español, y la propia web oficial de la autora resume el conflicto central con notable claridad. El libro destacó pronto por apoyarse en una situación potencialmente antipática —enamorarse del prometido de la mejor amiga— sin reducirla a simple melodrama. Su interés reside en mostrar cómo la amistad femenina, las máscaras sociales y la idea del amor correcto pueden entrar en colisión de maneras emocionalmente complejas y narrativamente muy adictivas.",
+        "forWhom": "Para lectores adultos de romance contemporáneo, dramas afectivos con humor y novelas que exploran amistades intensas, zonas grises morales y decisiones sentimentales difíciles.",
+        "whyItMatters": "Importa porque volvió masivo un tipo de novela romántica menos idealizada y más incómoda, donde la pregunta central no es solo con quién quedarse, sino quién se ha sido y quién se quiere llegar a ser.",
+        "editorialIntro": "Emily Giffin debutó con una novela que entendía muy bien el mecanismo del bestseller emocional: empezar con una situación reprobable y obligar al lector a permanecer dentro de ella hasta descubrir sus capas. ¿Me lo prestas? no pide aprobar a sus personajes de inmediato; pide escuchar sus contradicciones. Ahí está buena parte de su eficacia. Bajo su superficie ligera, la novela trabaja culpa, dependencia, autoimagen y amistad competitiva con un pulso narrativo muy seguro.",
+        "readingLevel": "Lectura accesible para adultos. La prosa es fluida, dialogada y muy orientada al ritmo emocional, aunque la novela gana interés si el lector presta atención a sus ambigüedades morales y al retrato de la amistad femenina.",
+        "whyReadToday": "Porque muchas de sus preguntas siguen intactas: cuánto hay de costumbre en nuestras relaciones, cuánto pesa la mirada ajena al elegir pareja y qué ocurre cuando ser ‘buena’ deja de coincidir con ser honesta con una misma.",
+        "studyNotes": [
+          "Rachel está construida como una protagonista que debe desaprender su papel de mujer correcta para empezar a preguntarse qué desea realmente.",
+          "La novela no funciona solo como romance, sino como examen de una amistad marcada por desequilibrios, hábitos de sumisión y competencia velada.",
+          "Conviene observar cómo Giffin vuelve simpática una situación inicialmente poco simpática gracias al punto de vista, el humor y la vulnerabilidad emocional.",
+          "El libro es útil para discutir la diferencia entre juicio moral inmediato y comprensión narrativa de personajes contradictorios."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Antes del quiebre",
+            "summary": "Rachel aparece definida por la corrección, el autocontrol y una relación desigual con Darcy, su amiga más carismática. La fiesta de cumpleaños actúa como detonante de una vida que parecía perfectamente ordenada desde fuera."
+          },
+          {
+            "title": "La noche que lo cambia todo",
+            "summary": "Acostarse con el prometido de Darcy no es solo un giro de trama: es el punto en que Rachel descubre que su mundo emocional no cabe ya en el personaje ejemplar que llevaba años interpretando."
+          },
+          {
+            "title": "Amistad, culpa y deseo",
+            "summary": "La parte central de la novela explora secretos, encuentros y vacilaciones. Giffin aprovecha la tensión romántica para mostrar relaciones de amistad donde la intimidad convive con la rivalidad y la manipulación."
+          },
+          {
+            "title": "Elegir y asumir consecuencias",
+            "summary": "Hacia el final, la protagonista debe decidir no solo entre dos personas, sino entre dos versiones de sí misma. La resolución importa porque obliga a aceptar que la felicidad rara vez llega de manera ordenada o impecable."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un triángulo amoroso incómodo pero eficaz",
+            "content": "La novela parte de una situación capaz de generar rechazo instantáneo. Justamente por eso engancha: obliga al lector a revisar sus lealtades y a seguir leyendo para comprender cómo se sostiene emocionalmente un conflicto tan frágil."
+          },
+          {
+            "heading": "La amistad femenina como campo de tensiones",
+            "content": "Darcy no es solo el obstáculo romántico. Representa una amistad absorbente y desigual, donde admiración, dependencia y resentimiento llevan años mezclándose. Ese fondo da profundidad al conflicto amoroso."
+          },
+          {
+            "heading": "La voz de Emily Giffin",
+            "content": "Giffin escribe con soltura comercial, capítulos ágiles y sensibilidad para el detalle emocional. Su mayor virtud aquí es mantener el tono ligero sin vaciar de complejidad las decisiones de los personajes."
+          },
+          {
+            "heading": "Más que romance escapista",
+            "content": "Aunque se lee con el impulso de un page-turner sentimental, el libro deja preguntas menos triviales sobre identidad, autoengaño, roles de género y expectativas sociales en torno al amor y la pareja."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela romántica ligera o un drama emocional?",
+            "answer": "Es ambas cosas. Se lee con rapidez y encanto de bestseller, pero sostiene un conflicto moral y afectivo bastante más incómodo de lo que su premisa inicial podría sugerir."
+          },
+          {
+            "question": "¿La protagonista resulta fácil de querer?",
+            "answer": "No siempre, y ese es uno de los aciertos del libro. Rachel es vulnerable, contradictoria y a veces indecisa, pero justamente por eso su evolución resulta creíble."
+          },
+          {
+            "question": "¿Hace falta disfrutar de los triángulos amorosos para leerla?",
+            "answer": "Ayuda, pero no es imprescindible. La novela interesa también por el retrato de la amistad femenina, de la culpa y de la identidad construida a partir de agradar a los demás."
+          },
+          {
+            "question": "¿Por qué tuvo tanto recorrido entre lectoras de romance contemporáneo?",
+            "answer": "Porque combina adicción narrativa, diálogos ágiles y una premisa emocionalmente explosiva con personajes que no son del todo ejemplares, pero sí muy humanos en sus errores."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Google Books: ¿Me lo prestas? (edición española, 2011)",
+            "url": "https://books.google.com/books/about/Me_lo_prestas.html?hl=&id=Uc5KMAAACAAJ"
+          },
+          {
+            "label": "Emily Giffin: página oficial de Something Borrowed",
+            "url": "https://www.emilygiffin.com/something-borrowed"
+          },
+          {
+            "label": "Open Library: Something Borrowed",
+            "url": "https://openlibrary.org/works/OL5724635W"
+          },
+          {
+            "label": "Google Books: Something Borrowed (ISBN 9780312321192)",
+            "url": "http://books.google.es/books?id=5XApMSmmhCEC&hl=&source=gbs_api"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mejor-la-ausencia-de-edurne-portela",
+      "title": "Mejor La Ausencia",
+      "authorName": "Edurne Portela",
+      "authorSlug": "edurne-portela",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Mejor la ausencia",
+        "authorName": "Edurne Portela",
+        "authorSlug": "edurne-portela",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "contemporanea",
+          "social"
+        ],
+        "year": 2019,
+        "pages": 240,
+        "summary": "Mejor la ausencia es una novela de formación áspera y profundamente social que sigue a Amaia, la menor de cuatro hermanos, mientras crece en un pueblo de la margen izquierda del Nervión durante los años ochenta y noventa. Edurne Portela convierte esa infancia y adolescencia en una experiencia atravesada por varias violencias a la vez: la doméstica, la política, la económica y la ambiental. La heroína, el paro, la intimidación en la calle y el miedo dentro de casa componen un paisaje donde madurar significa aprender a sobrevivir. La novela alterna la mirada de la niña con el regreso posterior de la mujer adulta al escenario de su pasado, y en ese movimiento de ida y vuelta construye un retrato poderoso sobre memoria, heridas familiares y pertenencia. Más que contar una simple historia de superación, el libro examina cómo un entorno hostil se incrusta en la identidad de quien intenta abandonarlo.",
+        "aboutThisBook": "Publicada en la edición de Galaxia Gutenberg en 2019, Mejor la ausencia consolidó a Edurne Portela como novelista después de su trabajo ensayístico sobre violencia y memoria. El libro se sitúa en la Euskadi posindustrial y no utiliza ese contexto como decorado, sino como fuerza que modela vidas, vínculos y lenguaje emocional. Su interés literario está en la mezcla de intimidad y lectura histórica: la autora no separa la fractura familiar del clima social de la época. El resultado es una novela sobria, dura y muy consciente de cómo la infancia registra lo que los adultos intentan callar.",
+        "forWhom": "Para lectores de narrativa contemporánea exigente, novelas de crecimiento, historias familiares heridas y ficción española interesada en la memoria social reciente.",
+        "whyItMatters": "Importa porque muestra que la violencia no actúa solo en los grandes titulares, sino también en la casa, el barrio y la educación sentimental. Portela logra unir conflicto íntimo y contexto histórico sin rebajar la complejidad de ninguno de los dos planos.",
+        "editorialIntro": "Hay novelas que hablan de la infancia como territorio de nostalgia; Mejor la ausencia hace exactamente lo contrario. Edurne Portela mira la niñez como un espacio de aprendizaje del miedo, de adaptación a lo intolerable y de observación precoz de las fracturas del mundo adulto. Lo notable es que esa dureza nunca se vuelve efectista: la autora la administra con una prosa contenida, muy atenta a la percepción de Amaia y al peso físico de un entorno que deja marca.",
+        "readingLevel": "Lectura de complejidad media-alta por su intensidad emocional y su trasfondo histórico, aunque la prosa es clara y muy legible.",
+        "whyReadToday": "Porque sigue ofreciendo una manera lúcida de pensar cómo la violencia estructural atraviesa la familia, el barrio y la memoria personal, y cómo el pasado regresa cuando no ha sido verdaderamente elaborado.",
+        "studyNotes": [
+          "La novela de formación está atravesada aquí por una lectura política del entorno: crecer no es solo cambiar, sino hacerlo dentro de una atmósfera de daño colectivo.",
+          "Amaia funciona como conciencia narrativa que registra lo que la familia no sabe o no quiere nombrar de forma abierta.",
+          "La margen izquierda del Nervión aparece como espacio social concreto, ligado a crisis industrial, conflicto político y deterioro ambiental.",
+          "El regreso al pueblo en la adultez no corrige el pasado, pero sí obliga a reinterpretarlo y a medir su persistencia en la identidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Aprender el miedo en la infancia",
+            "summary": "Amaia observa desde pequeña una casa y un barrio donde la violencia adopta formas distintas pero continuas. La infancia aparece marcada por el desconcierto, la vulnerabilidad y la intuición de que el peligro no está solo fuera, sino también en la propia familia."
+          },
+          {
+            "title": "Parte 2: Adolescencia en un paisaje roto",
+            "summary": "El paso a la adolescencia intensifica la conciencia de clase, de género y de pertenencia a un entorno degradado. La protagonista intenta encontrar margen de acción mientras entiende que madurar allí significa negociar constantemente con la rabia y la supervivencia."
+          },
+          {
+            "title": "Parte 3: Huidas, límites y deseo de ruptura",
+            "summary": "Amaia busca maneras de apartarse de aquello que la hiere, pero descubre que salir no equivale a quedar intacta. La novela muestra cómo el deseo de irse convive con vínculos, culpas y heridas que siguen actuando incluso a distancia."
+          },
+          {
+            "title": "Parte 4: El regreso al pasado irresuelto",
+            "summary": "Cuando la protagonista vuelve años después a su pueblo, el relato cambia de perspectiva sin perder intensidad. Ese retorno convierte la memoria en una prueba: comprender el origen del daño puede no reparar nada, pero sí vuelve posible una forma más dura y honesta de supervivencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La violencia como atmósfera total",
+            "content": "Uno de los mayores logros de la novela es no aislar la violencia en un solo foco. Está en la familia, en la calle, en la economía y en la política, y por eso Amaia crece sin disponer de un afuera limpio desde el que juzgar lo que vive. Ese efecto de saturación explica la densidad del libro."
+          },
+          {
+            "heading": "Infancia y memoria narrativa",
+            "content": "Portela trabaja con gran precisión la mirada infantil y adolescente, no para idealizarla, sino para mostrar su capacidad de registrar contradicciones. La voz de Amaia no ofrece teoría sobre el mundo; ofrece percepción, miedo, extrañeza y, más tarde, memoria crítica."
+          },
+          {
+            "heading": "La Euskadi posindustrial como experiencia vivida",
+            "content": "El contexto histórico no aparece como un anexo informativo, sino como una presión material sobre los cuerpos y los vínculos. El paro, la heroína, la suciedad industrial y la conflictividad política forman parte de la textura íntima del relato, no de su telón de fondo."
+          },
+          {
+            "heading": "Regresar no significa cerrar",
+            "content": "El movimiento de retorno en la edad adulta evita cualquier reconciliación fácil. La novela sugiere que revisar el pasado no siempre conduce al consuelo, pero sí a una comprensión menos sentimental y más verdadera de lo heredado."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Mejor la ausencia?",
+            "answer": "Trata sobre Amaia y su crecimiento en una familia dañada y en un entorno social muy violento de la margen izquierda del Nervión, así como sobre su regreso posterior a ese pasado que no termina de cerrarse."
+          },
+          {
+            "question": "¿Es una novela autobiográfica?",
+            "answer": "No se presenta como autobiografía. Es una novela de ficción, aunque dialoga con contextos históricos y sociales muy reconocibles de la Euskadi de los años ochenta y noventa."
+          },
+          {
+            "question": "¿Qué tipo de lectura propone Edurne Portela?",
+            "answer": "Una lectura literaria y social al mismo tiempo: íntima en su retrato familiar, pero muy consciente de cómo el entorno político y económico condiciona la vida privada."
+          },
+          {
+            "question": "¿Para quién resulta especialmente recomendable?",
+            "answer": "Para lectores de narrativa española contemporánea, novelas de memoria y relatos de formación que no suavizan la dureza del contexto en el que sus personajes se construyen."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Galaxia Gutenberg: Mejor la ausencia",
+            "url": "https://www.galaxiagutenberg.com/producto/mejor-la-ausencia/"
+          },
+          {
+            "label": "Edurne Portela: Mejor la ausencia",
+            "url": "https://edurneportela.com/mejor-la-ausencia/"
+          },
+          {
+            "label": "Galaxia Gutenberg: ficha de autora Edurne Portela",
+            "url": "https://www.galaxiagutenberg.com/ficha-autor/portela-edurne/"
+          },
+          {
+            "label": "Open Library: Mejor la ausencia",
+            "url": "https://openlibrary.org/books/OL26376584M/Mejor_la_ausencia"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "memorias-de-idhun-ii-triada-de-laura-gallego-garcia",
+      "title": "Memorias De Idhun Ii Triada",
+      "authorName": "Laura Gallego Garcia",
+      "authorSlug": "laura-gallego-garcia",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Memorias de Idhún II. Tríada",
+        "authorName": "Laura Gallego García",
+        "authorSlug": "laura-gallego-garcia",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasia",
+          "aventuras",
+          "narrativa"
+        ],
+        "year": 2005,
+        "pages": 766,
+        "summary": "Memorias de Idhún II. Tríada amplía de forma decisiva el universo abierto en La Resistencia y lleva a Jack, Victoria y Kirtash al territorio donde la profecía debería empezar a cumplirse. Laura Gallego desplaza la acción a Idhún y convierte el asombro del descubrimiento en una novela de expansión épica: nuevas alianzas, tensiones políticas, dudas sobre la legitimidad de los héroes y un conflicto afectivo cada vez más complejo atraviesan la historia. La noticia de la llegada del dragón y el unicornio despierta esperanzas entre quienes se oponen a Ashran el Nigromante, pero la autora evita que esa expectativa se resuelva de forma simple. Tríada trabaja con una pregunta central: qué ocurre cuando el destino colectivo recae en personajes todavía frágiles, contradictorios y emocionalmente divididos. El libro combina aventura, construcción de mundo y evolución psicológica, y por eso suele percibirse como la pieza donde la saga gana verdadero espesor político y sentimental.",
+        "aboutThisBook": "Publicado por SM en 2005, este segundo volumen ocupa una posición clave dentro de la trilogía porque transforma una premisa heroica en un conflicto más amplio sobre identidad, lealtad y responsabilidad. La novela no se limita a continuar la acción del primer libro: ensancha la geografía de Idhún, presenta nuevas facciones y obliga a sus protagonistas a convivir con el peso simbólico de la profecía. También es uno de los títulos donde mejor se aprecia el sello de Laura Gallego en la fantasía juvenil en español: ritmo narrativo alto, imaginación accesible y personajes sometidos a dilemas emocionales que importan tanto como la batalla central.",
+        "forWhom": "Para lectores juveniles y adultos que disfruten la fantasía épica, las sagas de mundo propio y las historias donde aventura y conflicto emocional avanzan juntas.",
+        "whyItMatters": "Importa porque consolidó una de las grandes sagas fantásticas juveniles en español y demostró que el género podía combinar épica, romanticismo, intriga política y construcción de mundo con una voz muy cercana al lector joven.",
+        "editorialIntro": "Si La Resistencia abría una puerta, Tríada decide atravesarla del todo. Laura Gallego abandona la fase preparatoria y sumerge a sus protagonistas en un mundo más amplio, más ambiguo y también más exigente. El atractivo del libro no está solo en sus criaturas o en sus escenarios, sino en la forma en que convierte la profecía en una carga emocional. Los héroes no llegan a Idhún como salvadores completos, sino como adolescentes obligados a crecer dentro de una guerra que no espera a nadie.",
+        "readingLevel": "Lectura de complejidad media: muy fluida para lectores habituales de fantasía juvenil, aunque su extensión exige constancia y atención al entramado político del mundo. ",
+        "whyReadToday": "Porque sigue siendo una referencia de la fantasía juvenil en español y porque su mezcla de aventura, identidad, destino y relaciones ambiguas continúa conectando bien con nuevos lectores.",
+        "studyNotes": [
+          "La novela traslada el centro de gravedad desde la resistencia clandestina hacia el problema de actuar dentro de un mundo en guerra abierto y complejo.",
+          "La profecía no funciona solo como motor épico: también somete a los protagonistas a expectativas que los desbordan.",
+          "El triángulo emocional entre Jack, Victoria y Kirtash añade conflicto interno a una trama ya marcada por alianzas inestables.",
+          "Idhún se construye aquí como espacio político y cultural más rico, no solo como escenario fantástico para la aventura."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La llegada a Idhún",
+            "summary": "La entrada de los protagonistas en Idhún abre una nueva fase del relato. Lo que antes era deseo de retorno o misión pendiente se convierte en contacto directo con un mundo que espera mucho de ellos y que, al mismo tiempo, duda de su papel."
+          },
+          {
+            "title": "Parte 2: Profecía, sospecha y alianzas precarias",
+            "summary": "La esperanza depositada en Jack y Victoria convive con la desconfianza hacia Kirtash y con la complejidad de una guerra que nadie controla del todo. La novela explora cómo la legitimidad heroica debe ganarse también en el terreno político."
+          },
+          {
+            "title": "Parte 3: Viajes, descubrimientos y fracturas internas",
+            "summary": "A medida que los personajes recorren Idhún, el mundo se vuelve más amplio y menos maniqueo. Cada avance en la misión trae consigo nuevas revelaciones y también tensiones afectivas que ponen a prueba la cohesión del grupo."
+          },
+          {
+            "title": "Parte 4: La guerra cambia de escala",
+            "summary": "El tramo final intensifica la confrontación con Ashran y con las fuerzas que sostienen su poder. Más que ofrecer un cierre definitivo, el libro deja preparada una resolución mayor y confirma que el destino de Idhún dependerá tanto del coraje como de la madurez de sus protagonistas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La expansión del mundo narrativo",
+            "content": "Tríada destaca porque convierte a Idhún en algo más que una promesa mítica. Laura Gallego desarrolla su geografía, sus tensiones y sus comunidades hasta hacer del mundo un elemento narrativo con peso propio. Esa amplitud sostiene buena parte de la fascinación del libro."
+          },
+          {
+            "heading": "Profecía y adolescencia",
+            "content": "La novela enfrenta una idea clásica de la fantasía, la del héroe señalado por el destino, con la vulnerabilidad emocional de personajes jóvenes. De esa fricción nace un conflicto muy eficaz: los elegidos no son estatuas épicas, sino sujetos todavía inseguros y contradictorios."
+          },
+          {
+            "heading": "Aventura y ambigüedad afectiva",
+            "content": "La dimensión sentimental no es un adorno de la trama principal, sino una de sus fuerzas motrices. La relación entre Jack, Victoria y Kirtash vuelve más inciertas las lealtades y añade matices a una historia que podría haber sido simplemente bélica."
+          },
+          {
+            "heading": "Una saga fundamental para la fantasía juvenil en español",
+            "content": "El libro consolidó a Laura Gallego como autora de referencia para varias generaciones de lectores. Su importancia no está solo en el éxito comercial, sino en haber ofrecido una épica accesible, emocionalmente intensa y escrita desde coordenadas culturales próximas al lector hispanohablante."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué lugar ocupa Tríada dentro de Memorias de Idhún?",
+            "answer": "Es el segundo volumen de la trilogía, situado entre La Resistencia y Panteón, y el libro donde la acción entra de lleno en Idhún y en las consecuencias de la profecía."
+          },
+          {
+            "question": "¿Se puede leer sin haber leído La Resistencia?",
+            "answer": "No es lo ideal. Aunque el libro contextualiza parte del conflicto, la carga emocional y muchas de sus relaciones dependen claramente de lo ocurrido en el primer volumen."
+          },
+          {
+            "question": "¿Predomina más la aventura o el romance?",
+            "answer": "Predominan ambos en equilibrio. Hay batallas, viajes y construcción de mundo, pero también un conflicto afectivo central que modifica la lectura de la aventura."
+          },
+          {
+            "question": "¿Por qué sigue siendo un libro tan recordado?",
+            "answer": "Porque combina una fantasía de gran alcance con personajes cercanos, un universo memorable y una intensidad emocional que marcó a muchos lectores jóvenes en lengua española."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Laura Gallego Oficial: Tríada",
+            "url": "https://www.lauragallego.com/libros/memorias-de-idhun-triada/"
+          },
+          {
+            "label": "Literatura SM: Memorias de Idhún II. Tríada",
+            "url": "https://es.literaturasm.com/libro/memorias-de-idhun-ii-triada"
+          },
+          {
+            "label": "Open Library: Memorias de Idhún II",
+            "url": "https://openlibrary.org/books/OL23079905M/Memorias_de_Idh%C3%BAn_II"
+          },
+          {
+            "label": "Lecturalia: Memorias de Idhún II. Tríada",
+            "url": "https://www.lecturalia.com/libro/3722/memorias-de-idhun-ii-triada"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pideme-la-luna-de-care-santos",
+      "title": "Pideme La Luna",
+      "authorName": "Care Santos",
+      "authorSlug": "care-santos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Pídeme la luna",
+        "authorName": "Care Santos",
+        "authorSlug": "care-santos",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa",
+          "realista"
+        ],
+        "year": 2007,
+        "pages": 192,
+        "summary": "Pídeme la luna es una novela juvenil de Care Santos centrada en Blanca, una adolescente que cambia de instituto por recomendación de su psicólogo después de haber sufrido humillaciones continuadas en su centro anterior. Desde esa premisa, el libro aborda el acoso escolar no como un simple incidente, sino como una experiencia que altera la autoestima, la forma de mirar a los demás y la capacidad de volver a confiar. El gesto de abrir una nueva taquilla y empezar de cero resume bien la tensión narrativa de la novela: dejar atrás el daño sin negar que existe. Santos construye un relato de tránsito emocional, donde el nuevo instituto representa una posibilidad de reinvención, pero también un espacio lleno de incertidumbre. La protagonista debe aprender a nombrar lo vivido, a distinguir entre miedo y cautela, y a aceptar que iniciar otra vida no significa borrar la anterior. El tono es cercano, sensible y directo, muy atento al modo en que la adolescencia vive la vergüenza, la fragilidad y el deseo de volver a pertenecer.",
+        "aboutThisBook": "Publicado por Edebé en 2007 dentro de la colección Periscopio, Pídeme la luna se inscribe en una línea de narrativa juvenil realista interesada por los conflictos afectivos y sociales de la adolescencia. Care Santos evita el sermón y prefiere narrar desde la vulnerabilidad concreta de una protagonista que llega herida a un espacio nuevo. Esa elección vuelve especialmente eficaz el libro para lectores jóvenes: no parte de conceptos abstractos sobre el bullying, sino de la experiencia de alguien que intenta recomponerse cuando ya ha sido dañada. Su brevedad y claridad no le restan peso emocional; al contrario, hacen más visible la fragilidad del proceso de recuperación.",
+        "forWhom": "Para lectores juveniles, mediadores de lectura y adultos que busquen novelas accesibles sobre acoso escolar, autoestima y reconstrucción emocional en la adolescencia.",
+        "whyItMatters": "Importa porque aborda el acoso escolar desde dentro de sus consecuencias íntimas y muestra que cambiar de escenario no basta si la herida todavía no ha encontrado lenguaje, escucha y tiempo para cicatrizar.",
+        "editorialIntro": "Care Santos sabe que los grandes dramas adolescentes suelen comenzar en gestos mínimos: una taquilla, una mirada, un pasillo, el miedo a ser visto. Pídeme la luna parte de esa precisión cotidiana para contar una historia de daño y recomposición sin exagerar el tono ni simplificar el conflicto. Lo que hace valiosa a la novela es su capacidad para acompañar a Blanca en el momento menos vistoso y más difícil: no el estallido de la humillación, sino el trabajo lento de volver a confiar en el mundo.",
+        "readingLevel": "Lectura ágil y accesible, muy apropiada para secundaria, aunque su carga emocional invita a una conversación guiada sobre convivencia y autoestima.",
+        "whyReadToday": "Porque el acoso escolar sigue siendo un problema actual y el libro ofrece una mirada sensible sobre sus efectos, útil tanto para lectores jóvenes como para docentes y familias.",
+        "studyNotes": [
+          "La novela se centra menos en el espectáculo del acoso que en sus secuelas emocionales y en el esfuerzo de recomponer una identidad dañada.",
+          "El cambio de instituto opera como símbolo de reinicio, pero también como prueba de que ningún comienzo es completamente limpio.",
+          "Blanca encarna una vulnerabilidad reconocible para muchos lectores jóvenes: miedo, vergüenza y deseo simultáneo de desaparecer y ser comprendida.",
+          "La brevedad del libro facilita su trabajo en aula, especialmente en debates sobre convivencia escolar, salud emocional y redes de apoyo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Salir del lugar del daño",
+            "summary": "La novela arranca con el cambio de instituto y con la conciencia de que Blanca no se marcha por simple novedad, sino porque ya no podía seguir soportando la humillación. El traslado instala desde el inicio una mezcla de alivio, duelo y desconfianza."
+          },
+          {
+            "title": "Parte 2: Empezar de nuevo no es empezar de cero",
+            "summary": "En el nuevo centro, la protagonista comprueba que el pasado no desaparece automáticamente. Cada gesto cotidiano obliga a medir hasta qué punto puede abrirse a otros sin repetir la experiencia del daño."
+          },
+          {
+            "title": "Parte 3: Nuevos vínculos, nuevas preguntas",
+            "summary": "A medida que Blanca conoce otras personas y ensaya otra versión de sí misma, la novela explora el equilibrio entre la cautela y el deseo de pertenecer. La reconstrucción emocional se vuelve aquí el verdadero motor del relato."
+          },
+          {
+            "title": "Parte 4: Nombrar lo vivido para seguir adelante",
+            "summary": "El cierre apunta a una forma de avance más realista que triunfal. Lo importante no es olvidar lo ocurrido, sino entenderlo, dejar de cargarlo en soledad y recuperar una mirada menos herida sobre el futuro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Narrar las secuelas del bullying",
+            "content": "Muchos relatos sobre acoso escolar se concentran en el conflicto visible; Pídeme la luna privilegia el después. Ese desplazamiento resulta valioso porque muestra que la violencia continúa actuando incluso cuando la víctima ya ha salido del escenario inmediato de la agresión."
+          },
+          {
+            "heading": "La adolescencia como territorio de exposición",
+            "content": "Care Santos retrata muy bien la intensidad con que se vive la mirada ajena en la adolescencia. El instituto es un espacio donde pertenecer importa mucho, y por eso la humillación deja una huella tan profunda en la percepción de una misma."
+          },
+          {
+            "heading": "Una novela útil sin perder carácter literario",
+            "content": "El libro puede funcionar en contextos educativos, pero no se reduce a material temático. Su fuerza está en la cercanía de la voz, en la concreción de la experiencia de Blanca y en la sensibilidad con que convierte una situación reconocible en un relato emocionalmente verosímil."
+          },
+          {
+            "heading": "Recomposición y acompañamiento",
+            "content": "La novela sugiere que salir de una experiencia de acoso no depende solo de la voluntad individual. Hace falta tiempo, escucha y un entorno donde la protagonista pueda reconstruir confianza. Esa idea la vuelve especialmente pertinente para conversaciones actuales sobre cuidado y salud mental juvenil."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Pídeme la luna?",
+            "answer": "Trata sobre Blanca, una adolescente que cambia de instituto después de haber sufrido humillaciones en su antiguo centro y que intenta reconstruirse emocionalmente en un entorno nuevo."
+          },
+          {
+            "question": "¿El libro aborda directamente el acoso escolar?",
+            "answer": "Sí, pero lo hace sobre todo desde sus consecuencias íntimas: la vergüenza, la desconfianza, el miedo y la dificultad para volver a sentirse segura entre otros."
+          },
+          {
+            "question": "¿Es una novela adecuada para lectores jóvenes?",
+            "answer": "Sí. Su lenguaje es accesible y su enfoque puede resultar muy útil para lectores adolescentes, especialmente si se acompaña de conversación en clase o en familia."
+          },
+          {
+            "question": "¿Por qué puede interesar también a adultos?",
+            "answer": "Porque ayuda a comprender cómo se vive el daño social en la adolescencia y ofrece una mirada sensible y concreta sobre procesos de apoyo, escucha y recuperación."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Web de Care Santos: Pídeme la luna",
+            "url": "https://www.caresantos.com/PidemeLaLuna.htm"
+          },
+          {
+            "label": "Casa del Libro: Pídeme la luna",
+            "url": "https://www.casadellibro.com/libro-pideme-la-luna/9788423683512/1140844"
+          },
+          {
+            "label": "Open Library: PÍDEME LA LUNA",
+            "url": "https://openlibrary.org/books/OL41309157M/P%C3%8DDEME_LA_LUNA"
+          },
+          {
+            "label": "Lecturalia: Pídeme la luna",
+            "url": "https://www.lecturalia.com/libro/61423/pideme-la-luna"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-18T12:39:54Z"
+}

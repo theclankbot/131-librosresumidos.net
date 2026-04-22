@@ -1,0 +1,514 @@
+{
+  "batchName": "wave-20260416a-02",
+  "createdAt": "2026-04-16T18:14:51Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-secreto-del-orfebre-de-elia-barcelo",
+      "title": "El secreto del orfebre",
+      "authorName": "Elia Barceló",
+      "authorSlug": "elia-barcelo",
+      "type": "ficcion",
+      "audience": "juvenil",
+      "genres": [
+        "juvenil",
+        "fantasia"
+      ],
+      "year": 2003,
+      "pages": 128,
+      "clicks": 35,
+      "impressions": 287,
+      "priority": 1,
+      "current": {
+        "summary": "En una ciudad donde el tiempo se ha detenido, un joven orfebre guarda un secreto que podría cambiarlo todo. La historia mezcla fantasía, misterio y reflexión sobre el paso del tiempo, el arte y el precio de la inmortalidad.",
+        "aboutThisBook": "Novela juvenil que combina elementos fantásticos con una prosa cuidada. Elia Barceló construye un mundo cerrado y fascinante donde cada detalle tiene significado.",
+        "centralConflict": "El dilema entre preservar un orden artificial o permitir que el tiempo siga su curso natural.",
+        "themes": [
+          "Tiempo",
+          "Arte y creación",
+          "Inmortalidad",
+          "Secretos",
+          "Transformación"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Lectores juveniles que disfrutan de la fantasía con profundidad. También para adultos que buscan narrativa breve de calidad.",
+        "whyItMatters": "Un ejemplo de literatura juvenil española con ambición literaria real. Se lee mucho en institutos por su equilibrio entre accesibilidad y calidad.",
+        "tone": "Misterioso, poético, reflexivo",
+        "escpilar": true
+      },
+      "rewritten": {
+        "summary": "El secreto del orfebre es una novela corta de Elia Barceló centrada en el regreso de Juan Pablo, un orfebre de prestigio, al pueblo donde vivió una experiencia amorosa decisiva en su juventud. A partir de ese retorno, la narración enlaza memoria, deseo y una percepción inestable del tiempo para reconstruir su relación con Celia, una mujer mayor que él cuya presencia dejó una marca indeleble. Más que apoyarse en el suspense tradicional, el libro avanza por atmósferas, repeticiones y revelaciones graduales. El resultado es una historia de amor imposible atravesada por la nostalgia, el cuerpo, la culpa, el paso de los años y la sospecha de que la realidad puede abrir pliegues inesperados.",
+        "aboutThisBook": "Publicada originalmente en 2003, esta obra breve ocupa un lugar singular dentro de la narrativa de Elia Barceló porque combina realismo íntimo, sensualidad contenida y un discreto componente fantástico. No propone un mundo separado del nuestro, sino una experiencia emocional en la que los recuerdos, los tiempos vividos y las oportunidades perdidas parecen dialogar entre sí. Su extensión reducida no la vuelve ligera: al contrario, concentra temas complejos como la identidad, la persistencia del deseo, la diferencia de edad, el arrepentimiento y la forma en que el amor altera la lectura del pasado.",
+        "forWhom": "Para lectores juveniles maduros y adultos que disfrutan novelas breves, sentimentales y ambiguas, con realismo mágico, carga psicológica y discusión sobre tiempo, memoria y decisiones irreversibles.",
+        "whyItMatters": "Importa porque muestra una veta poco convencional de la narrativa española contemporánea: una historia amorosa breve que no se conforma con el romance, sino que interroga la memoria, la edad, la identidad y la percepción del tiempo sin perder claridad narrativa.",
+        "editorialIntro": "Pocas novelas breves consiguen ser a la vez tan accesibles y tan inquietantes. Elia Barceló toma una historia de amor, un regreso al pueblo natal y una herida sentimental nunca cerrada para construir un relato donde lo cotidiano se vuelve extraño. Es una lectura idónea para comentar en clase o releer con atención, porque bajo su aparente sencillez guarda preguntas persistentes.",
+        "readingLevel": "Lectura media: prosa clara y corta, pero con saltos temporales, ambigüedad interpretativa y temas afectivos que exigen atención sostenida.",
+        "whyReadToday": "Sigue siendo actual por su mirada sobre el deseo, las asimetrías afectivas, la memoria y la imposibilidad de rehacer del todo una vida cuando el pasado sigue actuando sobre el presente.",
+        "studyNotes": [
+          "Conviene atender a cómo el libro usa el regreso al pueblo como detonante de memoria: el espacio no es solo escenario, sino mecanismo narrativo que reactiva tiempos superpuestos.",
+          "La novela puede leerse como historia amorosa y como relato de extrañamiento temporal. Esa doble lectura explica su tono entre melancólico, sensual e inquietante.",
+          "El contraste entre juventud y madurez no funciona solo como diferencia biográfica; también plantea preguntas sobre deseo, poder, idealización y culpa.",
+          "La brevedad del texto intensifica el efecto de relectura: muchos detalles adquieren otro sentido cuando el lector entiende mejor la lógica temporal y emocional del relato."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: El regreso de Juan Pablo",
+            "summary": "La historia se abre con la vuelta del protagonista a su lugar de origen antes de un viaje importante. Ese retorno activa una cadena de recuerdos y convierte el pueblo en un espacio donde pasado y presente empiezan a confundirse."
+          },
+          {
+            "title": "Momento clave 2: El vínculo con Celia",
+            "summary": "La narración reconstruye la relación entre Juan Pablo y Celia, marcada por la intensidad, la diferencia de edad y una huella emocional que ninguno consigue borrar. El libro evita el melodrama fácil y se centra en la persistencia del deseo y la pérdida."
+          },
+          {
+            "title": "Momento clave 3: Las grietas del tiempo",
+            "summary": "A medida que avanza el relato, la percepción temporal se vuelve menos estable y lo vivido parece regresar de maneras insólitas. La novela sugiere que el amor, la memoria y la imaginación alteran la experiencia de la realidad."
+          },
+          {
+            "title": "Momento clave 4: Revelación y lectura final",
+            "summary": "En su tramo final, la obra reorganiza el sentido de lo anterior sin depender de un giro efectista. Lo importante no es solo saber qué ocurrió, sino comprender cómo cada personaje ha habitado esa experiencia a lo largo del tiempo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El tiempo como fuerza narrativa",
+            "content": "La novela no trata el tiempo únicamente como marco cronológico. Lo convierte en materia emocional: lo que pasó sigue ocurriendo dentro de los personajes, y esa persistencia altera la percepción de presente, deseo y destino."
+          },
+          {
+            "heading": "Amor, cuerpo y memoria",
+            "content": "Barceló presenta el amor como una experiencia corporal y recordada a la vez. El deseo no aparece idealizado, sino ligado al envejecimiento, a la nostalgia y a la conciencia de que toda belleza tiene una duración problemática."
+          },
+          {
+            "heading": "Lo fantástico en clave íntima",
+            "content": "El componente fantástico es sutil y nunca anula la dimensión humana del relato. Más que ofrecer explicaciones cerradas, abre una zona de incertidumbre que refuerza la pregunta central: cómo se recuerda una vida que pudo haber sido otra."
+          },
+          {
+            "heading": "Brevedad y densidad",
+            "content": "En pocas páginas, la autora condensa conflicto sentimental, atmósfera, reflexión y extrañeza. Esa economía expresiva hace que cada escena tenga peso simbólico y que el libro funcione especialmente bien para análisis de estructura y voz narrativa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela juvenil o adulta?",
+            "answer": "Suele circular entre lectores jóvenes y adultos, pero su tratamiento del deseo, la nostalgia y la ambigüedad la acerca más a una lectura juvenil madura o claramente adulta que a una novela juvenil convencional."
+          },
+          {
+            "question": "¿Predomina el romance o lo fantástico?",
+            "answer": "Predomina la historia emocional, aunque el libro incorpora un componente fantástico relacionado con la percepción del tiempo. Ese elemento no desplaza el centro afectivo del relato, sino que lo intensifica."
+          },
+          {
+            "question": "¿Tiene una estructura de capítulos muy marcada?",
+            "answer": "No es un libro recordado por una división temática rígida, por eso resulta más honesto resumirlo por momentos clave: regreso, relación, extrañamiento temporal y reinterpretación final."
+          },
+          {
+            "question": "¿Es recomendable para lectura académica?",
+            "answer": "Sí. Su brevedad, su lenguaje accesible y la riqueza de sus temas permiten trabajar memoria, punto de vista, temporalidad, simbolismo y representación del deseo sin exigir una extensión grande."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Lecturalia: ficha y sinopsis de El secreto del orfebre",
+            "url": "https://www.lecturalia.com/libro/25755/el-secreto-del-orfebre"
+          },
+          {
+            "label": "Wikipedia en español: Elia Barceló",
+            "url": "https://es.wikipedia.org/wiki/Elia_Barcel%C3%B3"
+          },
+          {
+            "label": "Open Library: resultados para El secreto del orfebre",
+            "url": "https://openlibrary.org/search?q=El+secreto+del+orfebre+Elia+Barcel%C3%B3"
+          },
+          {
+            "label": "Aceprensa: sinopsis de la adaptación cinematográfica basada en la novela",
+            "url": "https://www.aceprensa.com/resenas-cine-series/el-secreto-del-orfebre/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "piloto-de-guerra-de-antoine-de-saint-exupery",
+      "title": "Piloto de guerra",
+      "authorName": "Antoine de Saint-Exupéry",
+      "authorSlug": "antoine-de-saint-exupery",
+      "type": "ficcion",
+      "audience": "adulto",
+      "genres": [
+        "clasicos",
+        "narrativa"
+      ],
+      "year": 1942,
+      "pages": 224,
+      "clicks": 30,
+      "impressions": 96,
+      "priority": 2,
+      "current": {
+        "summary": "Saint-Exupéry narra una misión de reconocimiento aéreo durante la caída de Francia en 1940. Mientras sobrevuela un país en derrumbe, reflexiona sobre la guerra, la civilización, el sacrificio y el sentido de la acción humana cuando todo parece perdido.",
+        "aboutThisBook": "Escrito desde la experiencia directa del autor como piloto militar. No es una novela bélica al uso, sino una meditación filosófica envuelta en acción real.",
+        "centralConflict": "",
+        "themes": [
+          "Guerra",
+          "Sacrificio",
+          "Civilización",
+          "Humanismo",
+          "Deber"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Lectores de Saint-Exupéry que quieren ir más allá de El Principito. Cualquiera interesado en narrativa bélica con profundidad.",
+        "whyItMatters": "Un clásico del siglo XX que muestra la cara reflexiva de la guerra. Complementa perfectamente la lectura de El Principito.",
+        "tone": "Filosófico, lírico, contenido",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "Piloto de guerra, publicado en 1942, es el testimonio literario con el que Antoine de Saint-Exupéry transforma una misión de reconocimiento aéreo sobre la Francia de 1940 en una meditación sobre la derrota, el deber y la dignidad humana. Aunque el libro se concentra en un vuelo concreto, su alcance es mucho mayor: describe el derrumbe militar francés, la desproporción entre la fragilidad de una tripulación y la maquinaria bélica moderna, y la necesidad de actuar incluso cuando la acción parece inútil. No es una novela bélica de aventuras ni un simple parte de guerra; es una memoria reflexiva, lírica y moral sobre el sacrificio, la comunidad y el sentido de la civilización bajo amenaza.",
+        "aboutThisBook": "Saint-Exupéry escribió esta obra en el exilio neoyorquino, a partir de su experiencia como piloto del grupo de reconocimiento II/33 durante la Batalla de Francia. El texto apareció en francés y en inglés como Flight to Arras y buscó, entre otras cosas, mostrar a los lectores anglosajones que la derrota francesa no había sido simple cobardía, sino una catástrofe vivida por hombres enviados a misiones casi suicidas. Por eso el libro combina memoria personal, análisis histórico inmediato y una ética humanista muy reconocible en el autor de Tierra de hombres y, poco después, de El principito.",
+        "forWhom": "Para lectores de clásicos del siglo XX, historia cultural de la Segunda Guerra Mundial y ensayos narrativos donde la experiencia bélica se convierte en reflexión ética y filosófica.",
+        "whyItMatters": "Importa porque ofrece una de las miradas más singulares sobre 1940: no glorifica la guerra, pero tampoco se entrega al nihilismo. Examina cómo se sostiene la responsabilidad personal cuando las instituciones se desmoronan y el desastre parece irreversible.",
+        "editorialIntro": "Leer Piloto de guerra es entrar en la obra menos citada y más reveladora de Saint-Exupéry. Aquí no está el tono fabulesco de El principito, sino una voz herida, precisa y meditativa que intenta pensar la derrota sin renunciar a la dignidad. El libro interesa tanto por su valor histórico como por la fuerza literaria con la que convierte una misión aérea en examen moral de toda una civilización.",
+        "readingLevel": "Lectura media-alta: frases claras pero densas en reflexión, referencias históricas y cambios entre acción inmediata, memoria y meditación filosófica.",
+        "whyReadToday": "Se lee hoy por su capacidad para pensar la guerra sin propaganda y para defender un humanismo exigente en tiempos de polarización, violencia tecnológica y crisis de sentido colectivo.",
+        "studyNotes": [
+          "Es útil leer el libro como memoria condensada: la misión narrada resume varias experiencias reales del autor durante mayo y junio de 1940.",
+          "La tensión principal no es solo militar. El texto pregunta qué significa obedecer, arriesgarse y seguir siendo humano en medio de una derrota aparentemente absurda.",
+          "Conviene relacionarlo con Tierra de hombres y El principito: en las tres obras reaparece la idea de responsabilidad, vínculo y servicio a algo que supera al individuo.",
+          "Su valor histórico aumenta al recordar que el libro también intervino en el debate político sobre Francia, la derrota de 1940 y la imagen internacional de los franceses."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La misión imposible",
+            "summary": "El relato sitúa al piloto y a su tripulación ante una salida de reconocimiento en condiciones extremas. Desde el inicio se subraya la desproporción entre la tarea encomendada y las probabilidades reales de supervivencia."
+          },
+          {
+            "title": "Parte 2: El vuelo sobre una Francia derrotada",
+            "summary": "Durante el trayecto aéreo, la observación del territorio se mezcla con la conciencia del colapso militar y civil. El paisaje deja de ser fondo y se convierte en evidencia material de una civilización amenazada."
+          },
+          {
+            "title": "Parte 3: Acción, miedo y lucidez",
+            "summary": "La experiencia del vuelo combina peligro físico, disciplina técnica y un intenso trabajo interior. Saint-Exupéry registra tanto la mecánica de la misión como las ideas que surgen cuando la muerte parece próxima."
+          },
+          {
+            "title": "Parte 4: Del episodio bélico a la reflexión moral",
+            "summary": "El cierre amplía el sentido del relato y lo transforma en una meditación sobre sacrificio, pertenencia y responsabilidad. La guerra no queda explicada, pero sí interrogada desde una ética de la dignidad y el servicio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria de guerra y construcción literaria",
+            "content": "Aunque nace de hechos vividos, el libro no se limita a registrar datos. Condensa varias misiones en una sola experiencia narrativa para alcanzar una verdad moral e histórica más amplia que la simple crónica."
+          },
+          {
+            "heading": "Humanismo en medio del desastre",
+            "content": "Saint-Exupéry rechaza la visión puramente técnica o nacionalista del conflicto. Le interesa la persona insertada en una comunidad de sentido, y por eso la guerra aparece como prueba extrema de lo que una civilización vale realmente."
+          },
+          {
+            "heading": "La derrota como problema filosófico",
+            "content": "El libro no pregunta solo por qué se pierde una batalla, sino qué ocurre con la conciencia individual cuando se derrumban las jerarquías, los discursos patrióticos y las seguridades morales. Esa dimensión explica su vigencia."
+          },
+          {
+            "heading": "Estilo: sobriedad, imagen y pensamiento",
+            "content": "La prosa combina observación técnica del vuelo, imágenes líricas y aforismos morales. Ese equilibrio evita tanto la frialdad documental como el sentimentalismo y sitúa la obra entre el testimonio y el ensayo literario."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es novela, memoria o ensayo?",
+            "answer": "Se suele leer como memoria o relato testimonial con elaboración literaria. Parte de la experiencia real de Saint-Exupéry y la organiza con recursos propios de la narrativa reflexiva."
+          },
+          {
+            "question": "¿Qué relación tiene con Flight to Arras?",
+            "answer": "Flight to Arras es el título inglés con el que apareció la obra en 1942. Ambos textos remiten al mismo libro, centrado en una misión de reconocimiento durante la Batalla de Francia."
+          },
+          {
+            "question": "¿Se parece a El principito?",
+            "answer": "Comparte el trasfondo humanista del autor, pero el tono es muy distinto. Piloto de guerra es más sobrio, histórico y argumentativo; interesa como complemento adulto para entender su pensamiento."
+          },
+          {
+            "question": "¿Por qué fue una obra polémica?",
+            "answer": "Porque intervenía en la interpretación de la derrota francesa y circuló en un contexto político muy tenso. Según fuentes francesas, fue limitada o prohibida por distintos poderes durante la guerra."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Wikipedia en inglés: Flight to Arras",
+            "url": "https://en.wikipedia.org/wiki/Flight_to_Arras"
+          },
+          {
+            "label": "Wikipedia en francés: Pilote de guerre",
+            "url": "https://fr.wikipedia.org/wiki/Pilote_de_guerre"
+          },
+          {
+            "label": "Britannica: Antoine de Saint-Exupéry",
+            "url": "https://www.britannica.com/biography/Antoine-de-Saint-Exupery"
+          },
+          {
+            "label": "Britannica: referencia a Flight to Arras",
+            "url": "https://www.britannica.com/topic/Flight-to-Arras"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-asistenta-de-freida-mcfadden",
+      "title": "La asistenta",
+      "authorName": "Freida McFadden",
+      "authorSlug": "freida-mcfadden",
+      "type": "ficcion",
+      "audience": "adulto",
+      "genres": [
+        "thriller"
+      ],
+      "year": 2022,
+      "pages": 304,
+      "clicks": 29,
+      "impressions": 449,
+      "priority": 3,
+      "current": {
+        "summary": "Millie, una mujer con un pasado complicado, consigue trabajo como asistenta interna en la mansión de los Winchester. Lo que parece una oportunidad perfecta se convierte en una pesadilla: la señora de la casa es controladora, el marido es encantador pero inquietante, y Millie descubre que no es la primera empleada que desaparece.",
+        "aboutThisBook": "Un thriller doméstico con giros bien ejecutados que se convirtió en fenómeno viral en redes sociales. La estructura de la revelación final cambia por completo la lectura del libro.",
+        "centralConflict": "Millie queda atrapada entre una empleadora abusiva y un entorno donde nadie es de fiar.",
+        "themes": [
+          "Manipulación",
+          "Supervivencia",
+          "Apariencias",
+          "Poder doméstico",
+          "Giro final"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Lectores de thriller que disfrutan de finales que lo cambian todo. Fans de libros tipo 'La chica del tren' o 'Perdida'.",
+        "whyItMatters": "Uno de los thrillers más virales de los últimos años. Su popularidad en español lo ha convertido en una búsqueda constante de resúmenes.",
+        "tone": "Tenso, adictivo, con humor negro puntual",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "La asistenta es un thriller psicológico centrado en Millie, una mujer con pocas opciones laborales que acepta trabajar como empleada doméstica interna en la lujosa casa de los Winchester. La promesa de estabilidad pronto se vuelve inquietante: la rutina diaria está marcada por humillaciones, cambios de humor, secretos familiares y una vigilancia constante que convierte la mansión en un espacio opresivo. Freida McFadden construye la novela sobre la tensión entre lo visible y lo oculto, de modo que cada gesto doméstico parece esconder una amenaza. El libro avanza con ritmo rápido, capítulos breves y giros calculados que obligan a reconsiderar la posición de víctima, testigo y manipulador dentro de una misma casa.",
+        "aboutThisBook": "Publicada originalmente en inglés como The Housemaid, esta novela consolidó a Freida McFadden como una autora de amplio alcance en el thriller comercial contemporáneo. Es el primer volumen de la serie Housemaid y combina suspense doméstico, narración en primera persona y una arquitectura de revelaciones pensada para mantener la incertidumbre. Su fuerza no depende de una prosa ornamental, sino de la administración de la sospecha, de la ambigüedad moral de los personajes y de la explotación literaria de un escenario cotidiano convertido en trampa.",
+        "forWhom": "Para lectores adultos que disfrutan del thriller doméstico, de las novelas de lectura muy ágil y de las historias donde las apariencias sociales esconden relaciones de poder, abuso y manipulación.",
+        "whyItMatters": "Importa porque muestra hasta qué punto el thriller contemporáneo puede convertir el espacio doméstico en un territorio de combate moral. También es una obra muy útil para observar cómo se construye un best seller mediante ritmo, perspectiva sesgada y giros de información.",
+        "editorialIntro": "No conviene acercarse a La asistenta esperando una simple novela de intriga sobre una empleada en una casa rica. Su eficacia nace de algo más preciso: la forma en que transforma tareas corrientes, jerarquías invisibles y dependencias económicas en una maquinaria de suspense cada vez más cerrada.",
+        "readingLevel": "Lectura accesible para público adulto y juvenil maduro, con lenguaje directo, capítulos breves y comprensión sencilla, aunque pide atención a las pistas falsas y a los cambios de perspectiva moral.",
+        "whyReadToday": "Sigue siendo pertinente porque dialoga con debates actuales sobre desigualdad, vulnerabilidad laboral, violencia psicológica y culto a la imagen privada de las familias aparentemente perfectas.",
+        "studyNotes": [
+          "Observar cómo la novela usa la primera persona para restringir la información y dirigir la simpatía inicial del lector.",
+          "Analizar la casa como símbolo: no es solo escenario, sino dispositivo de control, encierro y representación social.",
+          "Comparar las figuras de empleada y empleadores para estudiar las relaciones entre clase, dependencia económica y poder íntimo.",
+          "Fijarse en el ritmo de los capítulos breves: cada cierre funciona como anzuelo narrativo propio del thriller contemporáneo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Llegada a la casa de los Winchester",
+            "summary": "Millie acepta un trabajo que parece resolver su precariedad inmediata. Desde el comienzo, la casa impone una jerarquía rígida y una sensación de incomodidad que contradice la promesa de refugio."
+          },
+          {
+            "title": "Rutina doméstica y señales de inestabilidad",
+            "summary": "Las tareas cotidianas revelan tensiones crecientes: órdenes contradictorias, humillaciones y comportamientos erráticos convierten el servicio doméstico en una experiencia psicológicamente desgastante."
+          },
+          {
+            "title": "Sospechas, alianzas ambiguas y encierro",
+            "summary": "Mientras Millie intenta comprender qué ocurre realmente en la familia, la novela intensifica la duda sobre quién dice la verdad. El espacio de trabajo se vuelve también un espacio de vigilancia y amenaza."
+          },
+          {
+            "title": "Relectura de los hechos",
+            "summary": "En el tramo decisivo, la historia reorganiza la información previa y obliga a reinterpretar motivos, máscaras y relaciones de poder sin depender de un misterio sobrenatural, sino de la manipulación humana."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El hogar como escenario de terror social",
+            "content": "La novela explota una intuición muy reconocible: la casa burguesa, lejos de ser un lugar seguro, puede funcionar como teatro de sometimiento. Habitaciones, puertas y rutinas delimitan posiciones de dominio y subordinación."
+          },
+          {
+            "heading": "Narradora, sesgo y sorpresa",
+            "content": "McFadden trabaja con una voz narrativa que acerca emocionalmente al lector a Millie, pero al mismo tiempo administra silencios decisivos. El suspense nace menos de descubrir “qué pasó” que de advertir cuánto ignorábamos mientras creíamos entender la situación."
+          },
+          {
+            "heading": "Clase, género y dependencia",
+            "content": "Aunque prima el entretenimiento, el libro toca cuestiones materiales concretas: quién necesita el empleo, quién dispone del dinero, quién controla el relato respetable de la familia y quién puede ser descartado sin ser escuchado."
+          },
+          {
+            "heading": "Un thriller de eficacia comercial",
+            "content": "Su estructura responde con claridad al thriller de gran circulación: capítulos cortos, escenas de fricción constante y revelaciones colocadas para producir lectura compulsiva. Es un buen ejemplo de narrativa pensada para sostener tensión continua."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La asistenta es autoconclusiva?",
+            "answer": "Sí, la novela ofrece un arco narrativo propio, aunque pertenece a una serie ambientada en el mismo universo y con continuidad parcial de personajes."
+          },
+          {
+            "question": "¿Es una novela de misterio clásico o de thriller psicológico?",
+            "answer": "Se acerca mucho más al thriller psicológico y doméstico que al enigma detectivesco clásico. La tensión proviene de la convivencia, de la desconfianza y de la manipulación."
+          },
+          {
+            "question": "¿Tiene un estilo difícil?",
+            "answer": "No. Su estilo es directo, muy fluido y orientado a la intriga, por lo que suele leerse con rapidez."
+          },
+          {
+            "question": "¿Conviene leer reseñas con spoilers antes de empezar?",
+            "answer": "No es lo ideal. La novela depende en gran medida de la dosificación de la información y pierde parte de su efecto si se conocen de antemano los giros principales."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Freida McFadden, ficha oficial de The Housemaid",
+            "url": "https://www.freidamcfadden.com/books/the-housemaid/"
+          },
+          {
+            "label": "Goodreads, página de The Housemaid",
+            "url": "https://www.goodreads.com/book/show/60556912-the-housemaid"
+          },
+          {
+            "label": "Casa del Libro, edición en español de La asistenta",
+            "url": "https://www.casadellibro.com/libro-la-asistenta/9788491294283/13931484"
+          },
+          {
+            "label": "Txalaparta, ficha comercial de La asistenta",
+            "url": "https://www.txalaparta.eus/es/libros/la-asistenta"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "erik-vogler-y-los-crimenes-del-rey-blanco-de-beatriz-oses",
+      "title": "Erik Vogler y los crímenes del Rey Blanco",
+      "authorName": "Beatriz Osés",
+      "authorSlug": "beatriz-oses",
+      "type": "ficcion",
+      "audience": "juvenil",
+      "genres": [
+        "juvenil",
+        "aventura"
+      ],
+      "year": 2014,
+      "pages": 192,
+      "clicks": 27,
+      "impressions": 426,
+      "priority": 4,
+      "current": {
+        "summary": "Erik Vogler, un adolescente hipocondríaco y maniático, se ve envuelto en una serie de crímenes misteriosos relacionados con una leyenda medieval. Junto a su amigo Albert, deberá superar sus miedos (reales e inventados) para resolver el caso.",
+        "aboutThisBook": "Primera entrega de una saga juvenil española con un protagonista peculiar: un detective a su pesar, más preocupado por las bacterias que por los criminales.",
+        "centralConflict": "Resolver unos crímenes que nadie más investiga mientras Erik lucha contra sus propios miedos absurdos.",
+        "themes": [
+          "Misterio",
+          "Amistad",
+          "Miedos",
+          "Humor",
+          "Valentía"
+        ],
+        "keyIdeas": [],
+        "forWhom": "Lectores juveniles de 10 a 14 años. Fans de misterio con humor.",
+        "whyItMatters": "Serie juvenil española muy recomendada en colegios. Combina misterio y humor de forma efectiva.",
+        "tone": "Humorístico, misterioso, ágil",
+        "escpilar": true
+      },
+      "rewritten": {
+        "summary": "Erik Vogler y los crímenes del Rey Blanco es la primera entrega de la serie creada por Beatriz Osés y presenta a un protagonista juvenil muy poco heroico en apariencia: obsesivo, maniático del orden, extremadamente pulcro y desconcertado ante cualquier alteración de su rutina. Cuando sus planes de viajar a Nueva York se frustran, Erik debe pasar la Semana Santa con su abuela Berta en un entorno que le resulta incómodo y hasta amenazador. Allí aparecen una visión inquietante, una cadena de crímenes y una investigación que lo obliga a actuar. La novela mezcla humor, misterio y aventura con un ritmo ágil, y convierte las rarezas del protagonista en parte esencial del atractivo narrativo.",
+        "aboutThisBook": "Publicada por Edebé en 2014, la novela abre una saga juvenil muy difundida en el ámbito escolar español. Su propuesta combina códigos de novela negra accesible, elementos de atmósfera casi gótica y una comicidad basada en el contraste entre el peligro exterior y las fobias cotidianas de Erik. La obra está narrada en tercera persona y destaca por capítulos breves, finales de escena que invitan a seguir leyendo y un equilibrio eficaz entre suspense, caricatura y crecimiento del personaje principal.",
+        "forWhom": "Para lectores de 10 a 14 años, para aulas de primeros cursos de ESO y para quienes buscan una novela de misterio juvenil con humor, ritmo vivo y un protagonista muy singular.",
+        "whyItMatters": "Importa porque demuestra que la literatura juvenil puede introducir el gusto por la intriga sin renunciar al humor ni a la construcción de un personaje memorable. Además, ha tenido una presencia continuada en recomendaciones escolares y de bibliotecas educativas.",
+        "editorialIntro": "Beatriz Osés construye en esta novela de apertura una combinación muy eficaz: un misterio con aire de leyenda, un protagonista lleno de manías y una investigación que obliga a salir de la zona de confort. El resultado es una lectura breve, dinámica y muy útil para iniciar a lectores jóvenes en la narrativa de suspense.",
+        "readingLevel": "Nivel de lectura medio para público juvenil: vocabulario generalmente accesible, capítulos cortos y trama clara, aunque con suficientes pistas, referencias y cambios de tono para favorecer la lectura atenta.",
+        "whyReadToday": "Sigue mereciendo lectura porque ofrece una puerta de entrada solvente al misterio juvenil y porque trabaja temas permanentes como el miedo, la amistad, la valentía práctica y la necesidad de adaptarse a lo imprevisto.",
+        "studyNotes": [
+          "Analizar cómo las manías de Erik funcionan a la vez como rasgo cómico y como obstáculo real dentro de la investigación.",
+          "Observar la mezcla de registros: novela negra juvenil, atmósfera inquietante y humor de contraste.",
+          "Estudiar el papel de Albert Zimmer como contrapeso del protagonista y motor de apertura hacia el mundo exterior.",
+          "Comentar el uso de finales de capítulo con sorpresa, recurso que mantiene la tensión y favorece la lectura continuada en público juvenil."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planes rotos y viaje indeseado",
+            "summary": "Erik ve frustradas sus vacaciones soñadas en Nueva York y debe instalarse con su abuela Berta. El cambio de escenario activa desde el inicio el choque entre su necesidad de control y un mundo que le resulta incómodo."
+          },
+          {
+            "title": "La casa, el pueblo y la primera inquietud",
+            "summary": "La estancia con la abuela introduce una atmósfera extraña: la casa antigua, las incomodidades domésticas y una visión perturbadora hacen crecer la sensación de que algo oscuro está ocurriendo cerca."
+          },
+          {
+            "title": "Crímenes e investigación improvisada",
+            "summary": "Los rumores y hechos violentos empujan a Erik a relacionar lo que ha visto con una serie de crímenes. La búsqueda de respuestas avanza entre miedo, pistas culturales y la ayuda decisiva de Albert Zimmer."
+          },
+          {
+            "title": "Valentía, deducción y cierre del enigma",
+            "summary": "En la parte final, el protagonista debe actuar más allá de sus obsesiones personales. La resolución reafirma el valor de la observación, la amistad y el coraje aprendido en plena incomodidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un protagonista construido desde la rareza",
+            "content": "Erik Vogler no responde al modelo juvenil del héroe espontáneo. Su rigidez, sus miedos y su obsesión por la pulcritud lo vuelven reconocible y cómico, pero también permiten narrar el aprendizaje desde la fragilidad, no desde la superioridad."
+          },
+          {
+            "heading": "Misterio accesible para nuevos lectores",
+            "content": "La novela adapta claves del suspense a un público joven: crímenes, pistas, ambiente inquietante y revelación progresiva. Sin embargo, lo hace con claridad estructural y sin sobrecargar la complejidad, lo que facilita su uso en lectura guiada."
+          },
+          {
+            "heading": "Humor y miedo como combinación pedagógica",
+            "content": "Beatriz Osés reduce la distancia entre lector y género negro al introducir humor en las situaciones de tensión. Esa mezcla hace que el miedo sea abordable y convierte la lectura en una experiencia intensa sin resultar inaccesible."
+          },
+          {
+            "heading": "Objetos culturales como parte del enigma",
+            "content": "El libro, la música y el ajedrez no aparecen como adornos, sino como elementos que densifican el caso y enriquecen la experiencia lectora. Gracias a ellos, la novela gana capas simbólicas dentro de una trama breve."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer otros libros de la saga antes?",
+            "answer": "No. Este título es el inicio de la serie y funciona perfectamente como puerta de entrada al universo de Erik Vogler."
+          },
+          {
+            "question": "¿Qué edad encaja mejor con la novela?",
+            "answer": "Las recomendaciones educativas la sitúan especialmente entre los 10 y los 14 años, aunque también puede gustar a lectores algo mayores que quieran un misterio juvenil rápido."
+          },
+          {
+            "question": "¿Predomina más el humor o el suspense?",
+            "answer": "Los dos elementos están muy equilibrados. El suspense impulsa la trama, mientras el humor nace sobre todo del carácter obsesivo de Erik y de su choque con el entorno."
+          },
+          {
+            "question": "¿Sirve para trabajo escolar?",
+            "answer": "Sí. Por su extensión, estructura clara y variedad de temas, es una novela especialmente útil para lectura en aula, comentario de personajes y análisis de recursos del género."
+          }
+        ],
+        "reviewedAt": "2026-04-16",
+        "sources": [
+          {
+            "label": "Grupo Edebé, ficha de 1. Los crímenes del Rey Blanco",
+            "url": "https://edebe.com/libro/1-los-crimenes-del-rey-blanco/"
+          },
+          {
+            "label": "Junta de Andalucía, recomendación de lectura sobre Erik Vogler y los crímenes del rey blanco",
+            "url": "https://www.juntadeandalucia.es/educacion/portals/web/libro-abierto/literatura-infantil-y-juvenil/-/libre/detalle/AwA4SBEgc21W/erik-vogler-y-los-crimenes-del-rey-blanco-z7wdunjrlpjg"
+          },
+          {
+            "label": "Casa del Libro, ficha de Erik Vogler 1: Los crímenes del Rey Blanco",
+            "url": "https://www.casadellibro.com/libro-erik-vogler-1-los-crimenes-del-rey-blanco/9788468312842/2383671"
+          },
+          {
+            "label": "Blog de Beatriz Osés, página de libros de la saga Erik Vogler",
+            "url": "https://beatrizosesgarcia.blogspot.com/p/libros.html"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-16T18:56:53Z"
+}

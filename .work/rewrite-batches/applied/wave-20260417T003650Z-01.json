@@ -1,0 +1,469 @@
+{
+  "batchName": "wave-20260417T003650Z-01",
+  "createdAt": "2026-04-17T00:37:03Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "la-leyenda-del-cid-de-agustin-sanchez-aguilar",
+      "title": "La Leyenda Del Cid",
+      "authorName": "Agustin Sanchez Aguilar",
+      "authorSlug": "agustin-sanchez-aguilar",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 13,
+      "impressions": 50,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "Esta versión de La leyenda del Cid, escrita por Agustín Sánchez Aguilar, reconstruye para lectores actuales la trayectoria legendaria de Rodrigo Díaz de Vivar desde su juventud hasta su muerte y la persistencia de su fama. No se limita al Cantar de mio Cid, sino que integra materiales procedentes de crónicas, romances y otras tradiciones literarias medievales y posteriores, tal como explica el propio autor en la presentación. El libro combina aventuras, conflictos políticos, duelos, destierro, campañas militares y agravios familiares con un tono épico accesible. El resultado no es una biografía histórica estricta, sino una síntesis narrativa de la imagen heroica que la literatura hispánica fue construyendo del Cid: un guerrero admirable, un vasallo complejo y un personaje situado entre historia, mito y memoria cultural.",
+        "aboutThisBook": "Se trata de una recreación narrativa de la materia cidiana pensada para público escolar y general. La edición de Vicens Vives organiza la vida legendaria del héroe en capítulos breves y progresivos, desde el honor familiar y la relación con Jimena hasta el destierro, la conquista de Valencia, la afrenta de Corpes y la victoria póstuma asociada a la tradición. El propio Sánchez Aguilar subraya que ha novelado el material con descripciones y diálogos contemporáneos, pero apoyándose en fuentes clásicas de los siglos XII al XVII. Por eso conviene leerla como una puerta de entrada a la tradición literaria del Cid, no como una monografía histórica.",
+        "forWhom": "Adecuado para estudiantes de secundaria y bachillerato, lectorado juvenil general y cursos introductorios sobre épica medieval española y tradición heroica.",
+        "whyItMatters": "Importa porque convierte una tradición literaria dispersa y a veces ardua en un relato continuo y legible, útil para comprender cómo se forma un héroe cultural en la literatura española.",
+        "editorialIntro": "Pocas figuras medievales han tenido una vida literaria tan larga como el Cid. Esta adaptación destaca porque no reduce el mito a unos cuantos episodios célebres, sino que ofrece un recorrido amplio por la leyenda completa y la presenta con claridad narrativa. Sirve muy bien para estudiar la relación entre historia, épica, crónica y construcción del prestigio heroico.",
+        "readingLevel": "Lectura media: accesible para bachillerato y últimos cursos de secundaria, con provecho especial si se acompaña de contexto histórico y literario.",
+        "whyReadToday": "Sigue siendo pertinente porque ayuda a leer críticamente cómo una sociedad transforma a un personaje histórico en emblema moral, político y narrativo.",
+        "studyNotes": [
+          "Conviene distinguir siempre entre el Rodrigo Díaz histórico y el Cid literario construido por juglares, cronistas y dramaturgos.",
+          "La obra amplía el marco del Cantar de mio Cid e incorpora episodios tradicionales que el poema no desarrolla.",
+          "El honor funciona como eje estructural: ordena los conflictos amorosos, políticos, familiares y judiciales.",
+          "El tono épico no elimina la dimensión humana; al contrario, la intensifica mediante pruebas, agravios y reparaciones.",
+          "Puede leerse como introducción a la épica castellana y como ejemplo de reescritura moderna de materiales medievales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Juventud, honra y aprendizaje",
+            "summary": "Los primeros capítulos presentan al joven Rodrigo en un mundo regido por la fidelidad, la fama y la obligación de defender el honor. La relación con Jimena y los episodios iniciales perfilan al héroe antes de su consagración militar."
+          },
+          {
+            "title": "Destierro y ascenso del Campeador",
+            "summary": "La narración entra en su tramo central cuando el protagonista pierde el favor real y debe afirmarse lejos de la corte. El destierro transforma la adversidad en prueba de excelencia y consolida su reputación como caudillo y estratega."
+          },
+          {
+            "title": "Valencia, afrenta y reparación",
+            "summary": "Tras las victorias y la conquista de una posición estable, la historia muestra la fragilidad del prestigio social mediante el episodio de los infantes y la afrenta de Corpes. La respuesta jurídica y caballeresca restituye el honor del linaje."
+          },
+          {
+            "title": "Tramo final y permanencia legendaria",
+            "summary": "El cierre subraya que la muerte del héroe no cancela su autoridad simbólica. La tradición prolonga su poder más allá de la vida y convierte su figura en una victoria de la memoria narrativa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Entre historia y leyenda",
+            "content": "Uno de los mayores aciertos del libro es mostrar que el Cid no pertenece sólo al archivo histórico, sino también a la imaginación literaria. La obra no oculta esa condición híbrida: presenta una vida legendaria armada con materiales de distintas épocas y permite observar cómo el prestigio heroico se sedimenta a través de la repetición narrativa."
+          },
+          {
+            "heading": "El honor como principio organizador",
+            "content": "Desde los conflictos amorosos iniciales hasta la afrenta de Corpes, el honor ordena la acción y explica la gravedad de cada ofensa. No es un adorno ideológico, sino la lógica moral que articula decisiones, alianzas, castigos y reparaciones."
+          },
+          {
+            "heading": "Reescritura moderna de una tradición medieval",
+            "content": "Sánchez Aguilar conserva la solemnidad épica, pero la adapta a una prosa fluida y pedagógica. Esa modernización permite que lectores no especialistas accedan a un universo de crónicas, romances y cantares sin perder de vista la densidad cultural de la materia cidiana."
+          },
+          {
+            "heading": "Función didáctica de la edición",
+            "content": "La organización capitular, el apéndice cartográfico y el origen escolar de la edición la convierten en una herramienta útil para aula. Puede leerse por placer, pero también como puente hacia textos medievales más complejos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica estricta?",
+            "answer": "No exactamente. Es una recreación narrativa de la leyenda del Cid basada en tradiciones literarias, no una reconstrucción puramente historiográfica."
+          },
+          {
+            "question": "¿Se basa sólo en el Cantar de mio Cid?",
+            "answer": "No. El autor declara que incorpora también episodios procedentes de otras fuentes medievales y posteriores, de modo que ofrece una visión más amplia de la leyenda."
+          },
+          {
+            "question": "¿Para qué sirve en contexto académico?",
+            "answer": "Sirve como introducción clara a la épica castellana, al concepto de héroe medieval y a la diferencia entre documento histórico y elaboración literaria."
+          },
+          {
+            "question": "¿Tiene capítulos identificables para estudiar?",
+            "answer": "Sí. La edición incluye un índice claro con episodios como el destierro, Alcocer, Valencia o la afrenta de Corpes, lo que facilita el trabajo por secciones."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Vicens Vives - PDF de muestra / índice y presentación de La leyenda del Cid",
+            "url": "https://vicensvives.resourcespace.com/pages/download.php?direct=1&noattach=true&ref=23676&ext=pdf&k=00fb26f617"
+          },
+          {
+            "label": "Open Library - edición de La leyenda del Cid",
+            "url": "https://openlibrary.org/works/OL24327663W/La_leyenda_del_Cid"
+          },
+          {
+            "label": "Wikipedia - Cantar de mio Cid",
+            "url": "https://es.wikipedia.org/wiki/Cantar_de_mio_Cid"
+          },
+          {
+            "label": "Wikipedia - Rodrigo Díaz de Vivar",
+            "url": "https://es.wikipedia.org/wiki/Rodrigo_D%C3%ADaz_de_Vivar"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-biblioteca-de-los-libros-vacios-de-jordi-sierra-i-fabra",
+      "title": "La Biblioteca De Los Libros Vacios",
+      "authorName": "Jordi Sierra I Fabra",
+      "authorSlug": "jordi-sierra-i-fabra",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 13,
+      "impressions": 38,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "La biblioteca de los libros vacíos es una novela de Jordi Sierra i Fabra construida como defensa de la lectura, de la imaginación y del vínculo afectivo entre los libros y sus lectores. La información editorial recuperable coincide en presentarla como un alegato a favor de los libros: cuando dejan de ser leídos, parecen vaciarse, secarse y perder su vida. La novela transforma esa intuición en una fábula narrativa donde una comunidad infantil se enfrenta al riesgo de una biblioteca sin lectores y devuelve esperanza a ese espacio. Más que centrarse en la peripecia aventurera tradicional, el libro parece proponer una reflexión simbólica sobre el abandono cultural, la responsabilidad compartida y la capacidad de la lectura para sostener memoria, fantasía, conocimiento y convivencia.",
+        "aboutThisBook": "Es una obra breve y de fuerte dimensión metafórica dentro de la amplia producción juvenil de Jordi Sierra i Fabra. Las fuentes consultadas la sitúan en el ámbito de la narrativa infantil y juvenil publicada en distintas ediciones y lenguas, con una trayectoria editorial prolongada. El núcleo temático es claro: los libros no son objetos neutros, sino depósitos de experiencia, imaginación y vida cultural que dependen de la relación con sus lectores. Por eso la biblioteca funciona al mismo tiempo como escenario y como símbolo. Aunque no se ha recuperado un desglose fiable de capítulos, sí puede afirmarse con seguridad que el libro usa una premisa fantástica para reivindicar el acto de leer y la defensa de los espacios públicos de lectura.",
+        "forWhom": "Muy recomendable para lectores jóvenes, mediadores de lectura, bibliotecas escolares y docentes que trabajen educación literaria, imaginación y hábitos lectores.",
+        "whyItMatters": "Importa porque convierte la defensa de la lectura en una historia memorable y comprensible, capaz de asociar el cuidado de los libros con el cuidado de la vida cultural de una comunidad.",
+        "editorialIntro": "Jordi Sierra i Fabra ha escrito numerosas obras para jóvenes, pero esta destaca por la claridad con la que convierte una idea abstracta en imagen narrativa: un libro que no se lee se vacía. Esa metáfora le permite hablar de lectura, abandono, imaginación y responsabilidad colectiva sin solemnidad excesiva. Es una novela especialmente útil para formar lectores y pensar qué significa realmente una biblioteca viva.",
+        "readingLevel": "Lectura accesible para secundaria inicial y mediación lectora, con capas simbólicas aprovechables también en cursos superiores.",
+        "whyReadToday": "Hoy resulta especialmente actual porque defiende la biblioteca como espacio de comunidad frente al desuso, la dispersión y el empobrecimiento de la atención.",
+        "studyNotes": [
+          "La imagen del libro vacío debe leerse como metáfora del abandono lector, no como simple recurso fantástico aislado.",
+          "La biblioteca aparece como institución cultural: no sólo guarda libros, también sostiene memoria compartida y acceso al conocimiento.",
+          "La novela es útil para trabajar animación lectora, educación literaria y valor social de las bibliotecas.",
+          "El protagonismo de niños y niñas refuerza la idea de que la continuidad de la cultura escrita depende de nuevos lectores.",
+          "Su tono alegórico permite debatir qué significa que un libro 'esté vivo' en la experiencia de lectura."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La amenaza del vacío",
+            "summary": "La novela presenta una biblioteca en riesgo simbólico: los libros dejan de tener presencia viva cuando faltan lectores. Desde ese punto de partida, el relato convierte un problema cultural en conflicto narrativo."
+          },
+          {
+            "title": "Momentos clave: Descubrimiento y respuesta",
+            "summary": "Los personajes infantiles comprenden que la lectura no es un gesto pasivo, sino una forma de devolver sentido, voz y permanencia a los libros. La acción se organiza alrededor de esa toma de conciencia."
+          },
+          {
+            "title": "Parte 3: Recuperar la vida de los libros",
+            "summary": "El tramo final insiste en la dimensión esperanzadora del libro: la biblioteca puede salvarse si vuelve a haber vínculo entre comunidad y lectura. La solución tiene un valor ético y educativo más que simplemente argumental."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La biblioteca como símbolo cívico",
+            "content": "El espacio bibliotecario representa mucho más que un depósito de volúmenes. En la novela actúa como medida de la salud cultural de una comunidad: cuando se abandona, no sólo se pierden libros, también se debilitan la imaginación, la memoria y el acceso compartido al saber."
+          },
+          {
+            "heading": "La metáfora del libro vivo",
+            "content": "La formulación más recordada de la obra sostiene que los libros tienen alma, corazón y vida en tanto son leídos. Esta personificación no busca ingenuidad sentimental, sino recalcar que la lectura activa el sentido y rescata a los textos de la inercia material."
+          },
+          {
+            "heading": "Educación lectora y responsabilidad infantil",
+            "content": "El protagonismo juvenil no es decorativo. Sierra i Fabra vincula el futuro de la biblioteca con la implicación de niños y niñas, lo que convierte el libro en una herramienta eficaz para mediación lectora, campañas escolares y conversación sobre hábitos culturales."
+          },
+          {
+            "heading": "Una fábula contemporánea sobre el desuso",
+            "content": "La novela puede leerse como respuesta literaria a un problema contemporáneo: la pérdida de atención hacia la lectura sostenida. Su fuerza reside en no discutirlo de forma abstracta, sino encarnarlo en una imagen poderosa y fácil de compartir."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de aventuras o una fábula sobre la lectura?",
+            "answer": "Predomina su dimensión alegórica. Hay relato y conflicto, pero el centro del libro es la defensa de la lectura y de la biblioteca como espacio vivo."
+          },
+          {
+            "question": "¿Qué significa que los libros queden vacíos?",
+            "answer": "Es una metáfora del abandono lector: sin lectores, los libros pierden circulación, presencia cultural y capacidad de transformar a una comunidad."
+          },
+          {
+            "question": "¿Se puede trabajar en clase?",
+            "answer": "Sí. Es especialmente útil para proyectos de animación lectora, debates sobre bibliotecas escolares y actividades de interpretación simbólica."
+          },
+          {
+            "question": "¿Es adecuada sólo para niños?",
+            "answer": "No. Aunque su acceso es claro para lectores jóvenes, su reflexión sobre lectura, memoria y comunidad también interesa a docentes y mediadores."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Goodreads - descripción de La biblioteca de los libros vacíos",
+            "url": "https://www.goodreads.com/book/show/17234594-la-biblioteca-de-los-libros-vac-os"
+          },
+          {
+            "label": "Web oficial de Jordi Sierra i Fabra - Obras publicadas",
+            "url": "https://sierraifabra.com/?page_id=3714&lang=es"
+          },
+          {
+            "label": "Web oficial de Jordi Sierra i Fabra - Top Best Sellers",
+            "url": "https://sierraifabra.com/?page_id=898&lang=es"
+          },
+          {
+            "label": "Open Library - edición de La biblioteca de los libros vacíos",
+            "url": "https://openlibrary.org/works/OL16820587W/La_biblioteca_de_los_libros_vac%C3%ADos"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mi-planta-de-naranja-lima-de-jose-mauro-de-vasconcelos",
+      "title": "Mi Planta De Naranja Lima De Jose Mauro",
+      "authorName": "Vasconcelos",
+      "authorSlug": "vasconcelos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 12,
+      "impressions": 203,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "Mi planta de naranja lima es una novela de formación narrada desde la sensibilidad de Zezé, un niño brasileño pobre, imaginativo y precoz que intenta comprender un mundo duro sin dejar de ser niño. En su casa conviven las carencias materiales, el desempleo del padre, los castigos y una sensación constante de desamparo. Frente a eso, Zezé inventa refugios afectivos: conversa con Minguinho, su pequeño naranjo lima, y encuentra consuelo en la amistad con Manuel Valadares, el “Portugués”, un adulto que lo trata con ternura y respeto. La novela avanza entre travesuras, descubrimientos y pérdidas, hasta convertir la infancia en una experiencia marcada por el dolor, la imaginación y el aprendizaje emocional. Su fuerza está en mostrar cómo un niño puede ser a la vez travieso, lúcido, herido y profundamente amoroso.",
+        "aboutThisBook": "Publicada originalmente en 1968 como O Meu Pé de Laranja Lima, esta obra es una de las novelas más leídas de José Mauro de Vasconcelos y suele considerarse un clásico de la literatura juvenil latinoamericana. Tiene un marcado tono autobiográfico y está escrita en primera persona, lo que acerca al lector a la interioridad de Zezé sin filtros adultos. Aunque el lenguaje es accesible, el libro trabaja asuntos exigentes: pobreza, violencia doméstica, deseo de afecto, humillación social, imaginación infantil y duelo. No es solo una historia triste sobre un niño pobre, sino una exploración muy fina de la infancia como espacio de vulnerabilidad y resistencia. Por eso funciona bien tanto como lectura escolar como en una lectura adulta más atenta a su dimensión simbólica y social.",
+        "forWhom": "Recomendable para estudiantes de secundaria, docentes, mediadores de lectura y lectores adultos interesados en novelas de iniciación, literatura brasileña y relatos sobre infancia, afecto y desigualdad.",
+        "whyItMatters": "Importa porque convierte una experiencia infantil concreta en una reflexión duradera sobre la dignidad, el cuidado y la pérdida. Además, muestra que la imaginación no es evasión ingenua, sino una forma de resistencia cuando la vida cotidiana resulta demasiado áspera.",
+        "editorialIntro": "Conviene leer esta novela sin reducirla a un libro “para niños”. Su aparente sencillez oculta una construcción emocional muy precisa: Zezé mira el mundo con humor, fantasía y ternura, pero también con una lucidez dolorosa. Vasconcelos consigue que el lector entre en una conciencia infantil sin sentimentalismo fácil y entienda cómo el afecto puede cambiar por completo el significado de una vida pequeña y castigada.",
+        "readingLevel": "Lectura juvenil-media: prosa clara y muy fluida, pero con una carga emocional alta y con temas familiares y sociales que merecen lectura comentada.",
+        "whyReadToday": "Sigue siendo actual porque permite hablar de infancia vulnerable, violencia cotidiana, duelo y necesidad de cuidado desde una historia memorable. También recuerda que la literatura puede nombrar el dolor sin perder humanidad ni belleza.",
+        "studyNotes": [
+          "La relación entre Zezé y Minguinho muestra cómo la imaginación funciona como refugio, diálogo interior y forma de supervivencia afectiva.",
+          "La novela contrapone dos mundos adultos: el que castiga y humilla, y el que escucha, acompaña y reconoce al niño como persona.",
+          "Manuel Valadares no solo es un amigo de Zezé: representa una experiencia concreta de ternura que modifica la percepción del protagonista sobre sí mismo.",
+          "El libro puede leerse como novela de iniciación, pero también como crítica de la pobreza y de la violencia normalizada dentro del ámbito familiar."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La infancia en una casa marcada por la carencia",
+            "summary": "Zezé aparece como un niño inquieto, inteligente y muy sensible que vive en una familia pobre sometida a tensiones económicas. Sus travesuras y su imaginación contrastan con un entorno donde abundan los castigos, la incomprensión y la vergüenza social."
+          },
+          {
+            "title": "Parte 2: Minguinho y el descubrimiento del afecto",
+            "summary": "Al mudarse, Zezé convierte su pequeña planta de naranja lima en interlocutora y confidente. Poco después conoce a Manuel Valadares, cuya presencia introduce en su vida una forma de cariño adulto distinta del temor y la dureza que predominaban hasta entonces."
+          },
+          {
+            "title": "Tramo final: pérdida, duelo y crecimiento doloroso",
+            "summary": "La novela conduce a Zezé hacia una experiencia de pérdida que quiebra su mundo imaginario y afectivo. El dolor lo obliga a comprender que crecer también significa enfrentarse a la muerte, la ausencia y el fin de ciertas protecciones de la infancia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La voz infantil como centro moral del relato",
+            "content": "Vasconcelos narra desde la perspectiva de Zezé y confía en esa voz para organizar la experiencia moral de la novela. El niño no entiende todo, pero siente con intensidad y observa con precisión. Gracias a esa mirada, el lector percibe la injusticia sin necesidad de largas explicaciones ideológicas."
+          },
+          {
+            "heading": "Imaginación y ternura frente a la violencia",
+            "content": "Minguinho y el universo imaginario de Zezé no son adornos poéticos: son recursos de defensa emocional. La novela sugiere que, en contextos de pobreza y maltrato, la fantasía y el vínculo afectivo pueden sostener la subjetividad del niño y evitar que el dolor destruya por completo su capacidad de amar."
+          },
+          {
+            "heading": "Una novela de iniciación atravesada por la pérdida",
+            "content": "El aprendizaje de Zezé no pasa por un progreso escolar o social, sino por una educación sentimental muy dura. La amistad con el Portugués, seguida por la tragedia, convierte la historia en un relato sobre el crecimiento forzado: el niño descubre demasiado pronto que el mundo también arrebata aquello que más consuela."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata esencialmente Mi planta de naranja lima?",
+            "answer": "Trata de la infancia de Zezé, un niño pobre y muy imaginativo que busca afecto y comprensión en medio de la dureza familiar y social, y que encuentra refugio en su planta Minguinho y en la amistad con el Portugués."
+          },
+          {
+            "question": "¿Es una novela autobiográfica?",
+            "answer": "Se la suele leer como una obra de fuerte carácter autobiográfico. Las fuentes de referencia sobre el libro destacan esa dimensión, aunque la novela funciona literariamente más allá de la identificación exacta entre autor y protagonista."
+          },
+          {
+            "question": "¿Por qué suele leerse en contextos escolares?",
+            "answer": "Porque combina una prosa accesible con temas importantes para el análisis: pobreza, violencia, afecto, infancia, imaginación, duelo y formación del carácter."
+          },
+          {
+            "question": "¿La planta de naranja lima es solo un símbolo?",
+            "answer": "Cumple una función simbólica, pero en la experiencia de Zezé también es una presencia íntima y concreta. Es el lugar donde el niño organiza su mundo emocional y expresa aquello que no puede decir a los adultos."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: Mi planta de naranja lima",
+            "url": "https://es.wikipedia.org/wiki/Mi_planta_de_naranja_lima"
+          },
+          {
+            "label": "Editorial El Ateneo: adelanto y datos de edición",
+            "url": "https://editorialelateneo.com.ar/descargas/MI%20PLANTA%20DE%20NARANJA%20LIMA%20(1er%20Cap%20-%20ed%20especial).pdf"
+          },
+          {
+            "label": "Open Library: O Meu Pé de Laranja Lima",
+            "url": "https://openlibrary.org/works/OL4250550W/O_Meu_P%C3%A9_de_Laranja_Lima"
+          },
+          {
+            "label": "Wikipedia: José Mauro de Vasconcelos",
+            "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Mauro_de_Vasconcelos"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rafaela-de-mariana-furiasse",
+      "title": "Rafaela",
+      "authorName": "Mariana Furiasse",
+      "authorSlug": "mariana-furiasse",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 12,
+      "impressions": 111,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "Rafaela es una novela juvenil escrita como diario íntimo y complementada por correos electrónicos, forma que permite seguir con mucha cercanía la vida interior de una adolescente de dieciséis años que se siente fuera de lugar en su propio cuerpo. Rafaela se sabe tímida, callada, lectora, sensible y distinta del ideal femenino que ve en su madre, en su hermana y en su entorno escolar. El conflicto central no es solo amoroso, sino identitario: cómo vivir en una sociedad que vuelve visible el cuerpo gordo y vuelve invisible a quien lo habita. La caída por una escalera y el encuentro con Simón alteran su rutina, abren una posibilidad afectiva y activan una transformación íntima. Sin embargo, la novela evita la solución fácil: el deseo, la vergüenza, la inseguridad y la necesidad de ser aceptada conviven hasta el final con gran honestidad emocional.",
+        "aboutThisBook": "Ganadora del Premio El Barco de Vapor Argentina en 2002, Rafaela es una de las novelas más reconocidas de Mariana Furiasse dentro de la literatura juvenil argentina. Está construida desde una primera persona confesional que acerca al lector a la intimidad de una adolescente que piensa su cuerpo, su familia, su escuela y sus vínculos desde la incomodidad y la lucidez. La guía editorial de SM la presenta como una novela en la que el tema central es el cuerpo en una edad donde la imagen se vuelve decisiva y restrictiva. Su valor no reside únicamente en narrar un romance adolescente, sino en mostrar cómo la autoestima, la mirada ajena, la amistad y el deseo quedan atravesados por mandatos de belleza y por la fragilidad de la adolescencia. Es una obra breve, legible y muy útil para discusión escolar seria.",
+        "forWhom": "Especialmente valiosa para lectores adolescentes, docentes de secundaria, clubes de lectura y mediadores interesados en identidad corporal, autoestima, vínculos juveniles y escritura íntima.",
+        "whyItMatters": "Importa porque trata el cuerpo adolescente sin trivializarlo y muestra cómo la vergüenza, el deseo y la necesidad de reconocimiento afectan la vida cotidiana. También ofrece una voz femenina juvenil creíble, compleja y literariamente cuidada.",
+        "editorialIntro": "Rafaela merece leerse como algo más que una historia romántica juvenil. Su centro verdadero está en la conciencia de una protagonista que se observa con dureza porque ha aprendido a mirarse desde los ojos ajenos. Furiasse convierte esa experiencia en literatura mediante un diario íntimo lleno de matices: hay humor, incomodidad, inteligencia, tristeza y una búsqueda de afecto que nunca cancela el conflicto de fondo.",
+        "readingLevel": "Lectura juvenil accesible: lenguaje directo y formato cercano, pero con temas afectivos y sociales que se enriquecen mucho en conversación guiada.",
+        "whyReadToday": "Sigue siendo relevante porque el problema de la imagen corporal y de la validación externa continúa marcando la adolescencia. La novela ayuda a discutir belleza, autoestima, amistad y deseo sin moralismo ni simplificaciones.",
+        "studyNotes": [
+          "La forma de diario íntimo permite que el lector conozca la distancia entre cómo Rafaela se ve a sí misma y cómo otros personajes la perciben.",
+          "El cuerpo no aparece como tema secundario: organiza la relación de la protagonista con la escuela, la familia, el amor y la propia autoestima.",
+          "Simón funciona como detonante de cambio, pero la novela no resuelve mágicamente la inseguridad de Rafaela; más bien la vuelve visible y discutible.",
+          "El violín y la referencia al padre ausente ayudan a entender que la vulnerabilidad de Rafaela no se reduce al aspecto físico, sino que también tiene raíces afectivas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primer tramo: una voz adolescente en conflicto con su imagen",
+            "summary": "Rafaela se presenta a sí misma desde la incomodidad corporal, la timidez y la sensación de no encajar ni en su familia ni en la escuela. El diario permite ver cómo su mundo cotidiano está atravesado por comparaciones, silencios y una autoestima frágil."
+          },
+          {
+            "title": "Momentos clave: la caída, Simón y la apertura del vínculo",
+            "summary": "Después de un episodio humillante en la escuela, la aparición de Simón introduce una fisura en la rutina de la protagonista. Entre encuentros, mensajes y conversaciones, Rafaela empieza a experimentar una posibilidad afectiva que desordena sus certezas más dolorosas."
+          },
+          {
+            "title": "Tramo final: deseo, confusión y herida abierta",
+            "summary": "Cuando el vínculo amoroso parece afirmarse, también aparecen la duda, los celos y la inseguridad. El cierre no clausura el problema identitario de Rafaela, sino que lo deja expuesto con honestidad: ser querida no elimina de inmediato la violencia de la mirada social ni la dificultad de aceptarse."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El cuerpo como problema narrativo y social",
+            "content": "La novela muestra que el cuerpo adolescente no es solo una realidad biológica, sino un espacio donde actúan normas, comparaciones y humillaciones. Rafaela no sufre únicamente por cómo se ve, sino por cómo el entorno define qué cuerpos merecen deseo, atención y legitimidad."
+          },
+          {
+            "heading": "Diario íntimo y correo electrónico: cercanía y exposición",
+            "content": "La combinación entre diario y e-mails produce un doble efecto. Por un lado, intensifica la intimidad de la protagonista; por otro, muestra que la palabra escrita se vuelve el lugar donde los personajes se animan a decir lo que no pueden sostener cara a cara."
+          },
+          {
+            "heading": "Adolescencia sin idealización",
+            "content": "Furiasse evita una representación edulcorada de la juventud. En Rafaela hay crueldad escolar, torpeza emocional, deseo, miedo y necesidad de pertenecer. Esa complejidad le da espesor literario a una novela breve y la vuelve especialmente apta para discutir experiencias reales de la adolescencia."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Rafaela?",
+            "answer": "Trata de una adolescente de dieciséis años que escribe un diario mientras enfrenta inseguridad corporal, vínculos familiares tensos, vida escolar difícil y el surgimiento de una relación afectiva que la obliga a repensarse."
+          },
+          {
+            "question": "¿Cuál es el principal tema de la novela?",
+            "answer": "El tema central es el cuerpo en la adolescencia, entendido no solo como apariencia, sino como experiencia social, emocional y afectiva. A partir de allí se desarrollan la autoestima, el deseo, la amistad y la necesidad de ser vista de otra manera."
+          },
+          {
+            "question": "¿Por qué es útil para trabajar en clase?",
+            "answer": "Porque propone una voz juvenil fuerte y permite abordar imagen corporal, bullying, intimidad, escritura autobiográfica, relaciones familiares y expectativas sociales sobre la feminidad."
+          },
+          {
+            "question": "¿La novela termina resolviendo por completo el conflicto de Rafaela?",
+            "answer": "No de forma simple. El cierre mantiene abierta la herida emocional y muestra que el reconocimiento amoroso no basta por sí solo para desactivar inseguridades construidas durante mucho tiempo."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: Rafaela (novela)",
+            "url": "https://es.wikipedia.org/wiki/Rafaela_(novela)"
+          },
+          {
+            "label": "SM Literatura Argentina: guía para docentes de Rafaela",
+            "url": "https://www.smliteratura.com.ar/wp-content/uploads/2014/11/Rafaela-GUIA.pdf"
+          },
+          {
+            "label": "Open Library: edición de Rafaela",
+            "url": "https://openlibrary.org/books/OL13276597M/Rafaela"
+          },
+          {
+            "label": "Wikipedia: Mariana Furiasse",
+            "url": "https://es.wikipedia.org/wiki/Mariana_Furiasse"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-17T00:50:51Z"
+}

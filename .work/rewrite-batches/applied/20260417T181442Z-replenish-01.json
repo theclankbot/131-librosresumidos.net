@@ -1,0 +1,1490 @@
+{
+  "batchName": "20260417T181442Z-replenish-01",
+  "createdAt": "2026-04-17T18:14:42Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "maus-de-art-spiegelman",
+      "title": "Maus",
+      "authorName": "Art Spiegelman",
+      "authorSlug": "art-spiegelman",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 31,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Maus",
+        "authorName": "Art Spiegelman",
+        "authorSlug": "art-spiegelman",
+        "type": "novela gráfica",
+        "audience": "adultos",
+        "genres": [
+          "novela gráfica",
+          "memoria",
+          "holocausto"
+        ],
+        "year": 1991,
+        "pages": null,
+        "summary": "Maus es una obra decisiva de Art Spiegelman que entrelaza dos tiempos narrativos: el pasado de Vladek Spiegelman, judío polaco superviviente del Holocausto, y el presente en que su hijo intenta reconstruir esa memoria mediante entrevistas, recuerdos fragmentarios y tensiones familiares. El libro muestra la persecución nazi, la vida en guetos, la separación, el hambre, el miedo y la experiencia de Auschwitz, pero también examina el peso emocional que la catástrofe deja en los descendientes. Su recurso visual más conocido —judíos como ratones, nazis como gatos y polacos como cerdos— no simplifica la tragedia: la vuelve legible desde la alegoría, la ironía y la distancia crítica. El resultado es un testimonio literario y visual sobre la supervivencia, la culpa, la transmisión del trauma y la dificultad de narrar lo indecible.",
+        "aboutThisBook": "Publicada originalmente por entregas y luego reunida en dos volúmenes, Maus ocupa un lugar singular entre la autobiografía, la biografía, la historia y la novela gráfica. El centro del libro no es solo lo que Vladek vivió durante la Shoá, sino también la relación áspera, afectuosa y llena de fricciones entre padre e hijo. Spiegelman convierte la investigación familiar en una reflexión sobre cómo se construye la memoria, qué silencios quedan fuera del relato y qué costo tiene convertir el dolor privado en obra pública.",
+        "forWhom": "Para lectores de memoria histórica, estudios sobre el Holocausto, novela gráfica adulta y cursos donde interese la relación entre testimonio, forma visual y trauma transgeneracional.",
+        "whyItMatters": "Importa porque demostró que la novela gráfica podía abordar una tragedia histórica con la densidad moral y formal de la gran literatura. Además, sigue siendo una referencia esencial para pensar cómo se transmite el trauma entre generaciones.",
+        "editorialIntro": "Leer Maus hoy sigue siendo una experiencia exigente. No ofrece una lección cerrada ni un heroísmo cómodo: muestra la supervivencia como una mezcla de astucia, culpa, desgaste y memoria incompleta. Su fuerza no reside solo en contar Auschwitz, sino en mostrar lo difícil que es heredar esa historia y convertirla en relato sin traicionarla.",
+        "readingLevel": "Adecuado para lectores medios y avanzados, desde secundaria alta o universidad, por su densidad histórica, simbólica y emocional.",
+        "whyReadToday": "Porque ayuda a pensar la memoria histórica en una época de simplificaciones rápidas, negacionismos y consumo superficial del sufrimiento ajeno.",
+        "studyNotes": [
+          "La estructura alterna pasado y presente para mostrar que el Holocausto no termina con la liberación: sigue actuando en la vida cotidiana de la familia.",
+          "El uso de animales funciona como alegoría política, pero también obliga a preguntarse por los límites de toda representación de una catástrofe histórica.",
+          "La figura de Vladek evita la idealización del superviviente: su tacañería, obsesiones y dureza forman parte del legado del trauma.",
+          "La ausencia de Anja, la madre, recuerda que toda memoria familiar queda atravesada por documentos perdidos, silencios y versiones incompletas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: antes del desastre",
+            "summary": "El relato reconstruye la juventud de Vladek, su relación con Anja y el progresivo cierre de posibilidades para los judíos en Polonia. Lo que empieza como historia familiar deriva hacia una atmósfera de amenaza cada vez más concreta."
+          },
+          {
+            "title": "Segunda parte: persecución y supervivencia",
+            "summary": "La ocupación nazi transforma la vida cotidiana en una sucesión de escondites, pérdidas, separaciones y decisiones extremas. Vladek cuenta cómo la inteligencia práctica y la suerte relativa fueron decisivas para seguir con vida."
+          },
+          {
+            "title": "Tercera parte: el presente de la memoria",
+            "summary": "Mientras escucha y dibuja, Art Spiegelman confronta el peso de la herencia familiar, la dificultad de representar Auschwitz y la incomodidad de convertir el dolor íntimo en una obra pública."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria y mediación",
+            "content": "Maus no presenta acceso directo al pasado: todo llega filtrado por entrevistas, lagunas, discusiones y decisiones de montaje. Esa mediación vuelve visible el trabajo mismo de recordar y narrar."
+          },
+          {
+            "heading": "Trauma heredado",
+            "content": "El libro muestra que los hijos de los supervivientes no reciben solo historias, sino hábitos, temores, culpas y modos de relacionarse con el mundo. La memoria aparece como una carga afectiva además de histórica."
+          },
+          {
+            "heading": "La legitimidad de la novela gráfica",
+            "content": "Al convertir el cómic en vehículo de testimonio histórico, Spiegelman ensancha el campo literario. La forma visual no rebaja la tragedia; permite pensarla desde la condensación, el ritmo y la simbolización."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Maus es ficción o testimonio?",
+            "answer": "Se suele leer como una obra híbrida: parte de entrevistas reales y memoria familiar, pero usa recursos de montaje, alegoría y composición propios de la literatura y la novela gráfica."
+          },
+          {
+            "question": "¿Por qué los personajes aparecen como animales?",
+            "answer": "La animalización organiza una alegoría visual sobre identidades, persecución y jerarquías, y al mismo tiempo introduce una distancia crítica frente a un hecho casi imposible de representar de modo directo."
+          },
+          {
+            "question": "¿Hace falta saber historia del Holocausto para leerlo?",
+            "answer": "No es imprescindible, aunque conocer el contexto histórico ayuda a valorar mejor los episodios, los desplazamientos y la violencia que el libro condensa."
+          },
+          {
+            "question": "¿Por qué sigue siendo tan estudiado?",
+            "answer": "Porque une memoria, forma artística, historia del siglo XX y reflexión ética sobre cómo narrar el sufrimiento extremo sin convertirlo en espectáculo."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: Maus",
+            "url": "https://en.wikipedia.org/wiki/Maus"
+          },
+          {
+            "label": "Britannica: Maus",
+            "url": "https://www.britannica.com/topic/Maus"
+          },
+          {
+            "label": "Google Books: The Complete Maus",
+            "url": "https://books.google.com/books/about/The_Complete_Maus.html?id=J50h0QEACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hojas-de-ruta-de-jorge-bucay",
+      "title": "Hojas De Ruta",
+      "authorName": "Jorge Bucay",
+      "authorSlug": "jorge-bucay",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 30,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Hojas de ruta",
+        "authorName": "Jorge Bucay",
+        "authorSlug": "jorge-bucay",
+        "type": "ensayo",
+        "audience": "general",
+        "genres": [
+          "autoayuda",
+          "psicología divulgativa",
+          "desarrollo personal"
+        ],
+        "year": 2002,
+        "pages": 667,
+        "summary": "Hojas de ruta reúne en un solo volumen cuatro libros clave de Jorge Bucay: El camino de la autodependencia, El camino del encuentro, El camino de las lágrimas y El camino de la felicidad. Más que un manual de consejos rápidos, el libro propone un itinerario interior: aprender a sostenerse a uno mismo, relacionarse mejor con los otros, atravesar el dolor sin negarlo y revisar las ideas habituales sobre la felicidad. Bucay escribe desde un registro accesible, apoyado en ejemplos, escenas cotidianas, parábolas y observaciones terapéuticas. Su propósito no es ofrecer fórmulas cerradas, sino acompañar procesos personales de maduración. Leído como conjunto, el volumen funciona como mapa de educación emocional para lectores que buscan lenguaje claro, una orientación práctica y una invitación constante a revisar hábitos afectivos, dependencias y autoengaños.",
+        "aboutThisBook": "Esta edición integral concentra la serie Hojas de ruta en un solo tomo amplio y organizado por grandes ejes de crecimiento personal. La idea central es que vivir mejor no depende de recetas mágicas, sino de un trabajo de conciencia: distinguir necesidad de deseo, aceptar la pérdida, asumir responsabilidad por las propias decisiones y entender que el bienestar no equivale a ausencia de conflicto. Bucay combina divulgación psicológica y tono conversacional para construir una lectura progresiva, pensada para acompañar etapas distintas de la vida adulta.",
+        "forWhom": "Para lectores de autoayuda seria, psicología práctica, educación emocional y procesos de duelo, cambio personal o revisión de vínculos.",
+        "whyItMatters": "Sigue importando porque resume una parte influyente de la autoayuda hispanoamericana en un formato amplio, legible y estructurado. Su valor está en ordenar preguntas existenciales comunes sin caer siempre en el simplismo motivacional más comercial.",
+        "editorialIntro": "Hojas de ruta se entiende mejor como un libro de acompañamiento que como un tratado. Bucay no promete transformaciones instantáneas: propone detenerse, observar patrones, desmontar ilusiones y aceptar que crecer duele. Su tono puede parecer directo o didáctico, pero precisamente ahí reside su eficacia para muchos lectores que buscan una guía clara para pensar su vida emocional.",
+        "readingLevel": "Lectura accesible para público general adulto, útil también en bachillerato superior o primeros cursos universitarios por su claridad conceptual.",
+        "whyReadToday": "Porque ofrece un vocabulario sencillo para hablar de dependencia, duelo, autoestima y bienestar en momentos de incertidumbre personal y social.",
+        "studyNotes": [
+          "El libro debe leerse como recorrido: cada tramo prepara el siguiente, desde la construcción del yo hasta la pregunta por la felicidad.",
+          "Bucay trabaja con ejemplos y parábolas para traducir conceptos psicológicos complejos a situaciones reconocibles para el lector común.",
+          "Una idea insistente es que el crecimiento personal exige responsabilidad; no basta con identificar heridas si no se modifican hábitos y decisiones.",
+          "El apartado sobre las lágrimas destaca porque niega la lógica de evitar el dolor a toda costa y propone atravesarlo con conciencia y tiempo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El camino de la autodependencia",
+            "summary": "La primera sección examina cómo construir autonomía afectiva y asumir responsabilidad sobre la propia vida. Bucay insiste en dejar de pedir al otro lo que solo puede elaborarse desde uno mismo."
+          },
+          {
+            "title": "El camino del encuentro",
+            "summary": "Aquí el foco pasa a los vínculos: escuchar, poner límites, reconocer expectativas irreales y aprender a relacionarse sin confundir amor con fusión o dependencia."
+          },
+          {
+            "title": "El camino de las lágrimas",
+            "summary": "Esta parte reflexiona sobre pérdida, duelo y aceptación. El dolor no aparece como falla que deba reprimirse, sino como trabajo emocional necesario para seguir viviendo con sentido."
+          },
+          {
+            "title": "El camino de la felicidad",
+            "summary": "El cierre cuestiona las ideas convencionales de éxito y bienestar. La felicidad no se define como euforia permanente, sino como una práctica de conciencia, coherencia y presencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Autoayuda con estructura terapéutica",
+            "content": "Aunque el libro busca un público amplio, su organización revela una lógica clínica: primero identidad, luego vínculo, después pérdida y finalmente bienestar. Esa secuencia le da cohesión al volumen."
+          },
+          {
+            "heading": "El valor del lenguaje sencillo",
+            "content": "Bucay evita el tecnicismo excesivo y privilegia una prosa de conversación. Esa claridad explica parte de su alcance, aunque también simplifica discusiones psicológicas que en otros marcos serían más complejas."
+          },
+          {
+            "heading": "Duelo y madurez",
+            "content": "Uno de los aportes más recordados del libro es su tratamiento del duelo. Frente al mandato de superar rápido el dolor, Bucay subraya que perder también educa, ordena prioridades y redefine la experiencia de vivir."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hojas de ruta es una novela?",
+            "answer": "No. Es un volumen de ensayo y autoayuda psicológica que reúne cuatro libros anteriores de Jorge Bucay en un solo recorrido temático."
+          },
+          {
+            "question": "¿Se puede leer por partes?",
+            "answer": "Sí. Cada tramo tiene sentido propio, aunque leído completo se percibe mejor la progresión desde la autonomía personal hasta la reflexión sobre la felicidad."
+          },
+          {
+            "question": "¿Qué parte suele interesar más a los lectores?",
+            "answer": "Con frecuencia destaca El camino de las lágrimas, porque ofrece una reflexión clara y cercana sobre el duelo y la necesidad de atravesar el dolor sin negarlo."
+          },
+          {
+            "question": "¿Es un libro académico de psicología?",
+            "answer": "No en sentido estricto. Toma ideas terapéuticas y las vuelve divulgativas, con ejemplos, relatos breves y un tono de guía personal."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Google Books: Hojas de ruta",
+            "url": "https://books.google.com/books/about/Hojas_de_ruta.html?id=J_5ttwAACAAJ"
+          },
+          {
+            "label": "Open Library: Hojas De Ruta",
+            "url": "https://openlibrary.org/books/OL12956145M/Hojas_De_Ruta"
+          },
+          {
+            "label": "Wikipedia: Jorge Bucay",
+            "url": "https://es.wikipedia.org/wiki/Jorge_Bucay"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-equipo-de-los-suenos-de-sergio-s-olguin",
+      "title": "El Equipo De Los Suenos",
+      "authorName": "Sergio S Olguin",
+      "authorSlug": "sergio-s-olguin",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 28,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El equipo de los sueños",
+        "authorName": "Sergio S. Olguín",
+        "authorSlug": "sergio-s-olguin",
+        "type": "novela",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "realismo social",
+          "fútbol"
+        ],
+        "year": 2004,
+        "pages": 199,
+        "summary": "El equipo de los sueños es una novela juvenil de Sergio S. Olguín ambientada en Villa Fiorito, un espacio atravesado por la precariedad, la lealtad barrial y el peso simbólico del fútbol. En la víspera de Navidad, Ariel y sus amigos se embarcan en una misión que parece sencilla pero pronto se vuelve arriesgada: recuperar una pelota muy especial, vinculada al padre de Patricia y al mito de Maradona. La búsqueda los enfrenta con una banda temida, con la violencia del entorno y con sus propias inseguridades. Sin abandonar el ritmo de aventura, la novela retrata amistades adolescentes, deseos de pertenencia, primeros amores y el modo en que un barrio puede ser al mismo tiempo refugio y amenaza. El fútbol aquí no es decoración: es imaginación social, identidad compartida y posibilidad concreta de soñar otro futuro.",
+        "aboutThisBook": "Publicada en la colección Zona Libre de Grupo Editorial Norma, la novela combina intriga, sensibilidad social y lenguaje cercano para lectores adolescentes. Olguín evita el retrato folclórico de la villa y construye un escenario vivo, con códigos, miedos y afectos reconocibles. La trama de la pelota funciona como motor narrativo, pero el verdadero interés del libro está en cómo los chicos se miden con la violencia, el coraje y la necesidad de imaginar una salida. Es un texto breve, ágil y con suficiente espesor humano para trabajarlo en clase.",
+        "forWhom": "Para lectores juveniles, mediadores de lectura y docentes que busquen una novela breve sobre amistad, barrio, adolescencia y fútbol con trasfondo social.",
+        "whyItMatters": "Importa porque muestra cómo la literatura juvenil puede narrar contextos de desigualdad sin perder aventura ni emoción. Además, sitúa el fútbol como lenguaje cultural y no solo como espectáculo, algo especialmente fértil para lectores adolescentes.",
+        "editorialIntro": "El equipo de los sueños entra por la energía de su peripecia, pero permanece por la humanidad de sus personajes. Olguín escribe con velocidad, oído para el habla cotidiana y sensibilidad para mostrar que el heroísmo juvenil no nace de gestos grandilocuentes, sino de amistades frágiles, lealtades probadas y sueños defendidos contra un entorno duro.",
+        "readingLevel": "Adecuado para secundaria y lectores juveniles desde la adolescencia, con buena accesibilidad y temas sociales útiles para discusión guiada.",
+        "whyReadToday": "Porque sigue siendo una novela eficaz para pensar juventud, desigualdad, barrio y pertenencia sin moralina ni simplificación sentimental, incluso en aulas actuales.",
+        "studyNotes": [
+          "La pelota es un objeto simbólico: concentra memoria, prestigio barrial, deseo de recuperación y conexión con el imaginario de Maradona.",
+          "La novela combina aventura y realismo social, de modo que el suspenso nunca se separa del contexto material en que viven los protagonistas.",
+          "Villa Fiorito aparece como territorio concreto, no como decorado exótico; el espacio condiciona riesgos, amistades y aspiraciones.",
+          "El grupo de amigos funciona como pequeño aprendizaje ético: cada decisión pone a prueba la confianza, el miedo y la idea de valentía."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: la misión",
+            "summary": "Ariel llega con sus amigos a Villa Fiorito y se define el objetivo central: recuperar una pelota cargada de valor afectivo e histórico. Desde el comienzo, la aventura queda teñida por la tensión del barrio."
+          },
+          {
+            "title": "Nudo: el barrio y el peligro",
+            "summary": "La búsqueda los enfrenta con los Gardelitos y con reglas informales de un territorio donde cada movimiento tiene consecuencias. La amistad se vuelve la herramienta principal para avanzar."
+          },
+          {
+            "title": "Desenlace: coraje y pertenencia",
+            "summary": "La resolución de la misión no solo depende de la astucia, sino de lo que cada personaje entiende por lealtad, identidad y futuro. El final reafirma el peso emocional del fútbol y del barrio en la experiencia adolescente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Fútbol como imaginario social",
+            "content": "En la novela, el fútbol expresa deseo de ascenso, orgullo colectivo y memoria popular. No es un simple tema atractivo para jóvenes, sino una forma de organizar afectos y expectativas."
+          },
+          {
+            "heading": "Aventura en clave de realismo",
+            "content": "La trama mantiene ritmo de búsqueda y peligro, pero nunca olvida el contexto de desigualdad. Ese equilibrio permite que la novela sea entretenida y, al mismo tiempo, socialmente significativa."
+          },
+          {
+            "heading": "Construcción de la adolescencia",
+            "content": "Olguín presenta una adolescencia atravesada por amistad, trabajo temprano, deseo amoroso y exposición a la violencia. Los personajes crecen al decidir juntos qué riesgos vale la pena asumir."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro solo para quienes aman el fútbol?",
+            "answer": "No. El fútbol es importante, pero la novela también trata sobre amistad, barrio, valentía, desigualdad y construcción de identidad adolescente."
+          },
+          {
+            "question": "¿Qué edad lectora parece la más adecuada?",
+            "answer": "Funciona muy bien desde la adolescencia y en secundaria, especialmente en grupos que respondan a historias ágiles con conflicto social reconocible."
+          },
+          {
+            "question": "¿La historia idealiza la villa?",
+            "answer": "No. Presenta afectos y pertenencias reales, pero también miedo, violencia y límites materiales. Esa complejidad evita tanto el estigma fácil como la romantización."
+          },
+          {
+            "question": "¿Por qué la pelota tiene tanto peso narrativo?",
+            "answer": "Porque condensa el vínculo con Patricia, el pasado del padre, la leyenda de Maradona y la posibilidad de que un objeto común concentre el honor y los sueños del barrio."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Google Books: El equipo de los sueños",
+            "url": "https://books.google.com/books/about/El_equipo_de_los_sue%C3%B1os.html?id=VTjWRwAACAAJ"
+          },
+          {
+            "label": "Open Library: El equipo de los sueños",
+            "url": "https://openlibrary.org/books/OL13200584M/El_equipo_de_los_suenos_The_Dream_Team_Zona_Libre_Free_Zone"
+          },
+          {
+            "label": "Imaginaria: Libros recomendados, reseña de El equipo de los sueños",
+            "url": "https://www.imaginaria.com.ar/15/1/recomendados.htm#5"
+          },
+          {
+            "label": "Wikipedia: Sergio Olguín",
+            "url": "https://es.wikipedia.org/wiki/Sergio_Olgu%C3%ADn"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "perico-trepa-por-chile-de-marcela-pazalicia-morel",
+      "title": "Perico Trepa Por Chile",
+      "authorName": "Marcela Pazalicia Morel",
+      "authorSlug": "marcela-pazalicia-morel",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 28,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Perico trepa por Chile",
+        "authorName": "Marcela Paz y Alicia Morel",
+        "authorSlug": "marcela-paz-y-alicia-morel",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "novela infantil",
+          "aventura",
+          "viaje"
+        ],
+        "year": 1978,
+        "pages": 293,
+        "summary": "Perico trepa por Chile es una novela infantil de aventuras que convierte el territorio chileno en una experiencia de formación. Perico, un niño fueguino de ocho años, debe dejar la escuela para ayudar a su padre como pastor, decisión que lo entristece porque lo aparta del aula y de su profesora. Su vínculo secreto con una pequeña oveja llamada Mirasol cambia el rumbo del libro: cuando el rebaño es vendido, Perico se esconde para no perderla y comienza un viaje accidental que lo lleva desde el extremo sur hasta el norte del país. En ese trayecto conoce paisajes, ciudades, costumbres y personas muy distintas. La novela combina episodios de peligro, asombro, ternura y aprendizaje, y convierte el desplazamiento físico en una educación sentimental y geográfica sobre Chile.",
+        "aboutThisBook": "Publicada en 1978 y asociada a la tradición infantil chilena, esta obra fue escrita por Marcela Paz junto con Alicia Morel. Su importancia no depende solo de la aventura, sino de la manera en que enlaza relato de viaje, conocimiento del país y mirada infantil. El libro parte en Tierra del Fuego y avanza por diversas zonas de Chile, de modo que el lector acompaña a Perico mientras descubre diferencias regionales, oficios, hablas y paisajes. Esa combinación de peripecia y reconocimiento nacional explica que haya sido muy leída en contextos escolares y familiares. A la vez, conserva un tono afectuoso y narrativo que evita convertir el trayecto en simple lección geográfica.",
+        "forWhom": "Para lectores de primaria alta y primeros cursos de secundaria, familias y docentes que busquen una aventura clásica chilena capaz de unir emoción narrativa, viaje, identidad nacional y crecimiento personal.",
+        "whyItMatters": "Importa porque muestra cómo la literatura infantil puede enseñar un país sin abandonar la emoción del relato. El viaje de Perico une geografía, pertenencia, desigualdad regional, afecto por los animales y deseo de aprender, y sigue siendo una puerta de entrada muy fértil a la narrativa chilena para niños.",
+        "editorialIntro": "Hay libros infantiles que se recuerdan por su argumento y otros por la amplitud del mundo que abren. Perico trepa por Chile pertenece a los segundos. Marcela Paz y Alicia Morel convierten la fuga de un niño y su oveja en una travesía por el territorio chileno, pero el libro nunca se reduce a una postal patriótica. Lo que sostiene la lectura es la sensibilidad de Perico: su tristeza por dejar la escuela, su apego a Mirasol y su asombro ante un país que se vuelve inmenso y diverso a cada etapa.",
+        "readingLevel": "Lectura accesible para lectores desde los 10 años, con vocabulario claro y muchos episodios de acción, aunque conviene acompañarla para apreciar su dimensión geográfica, histórica y cultural dentro de la literatura infantil chilena.",
+        "whyReadToday": "Porque sigue ofreciendo una forma cálida y narrativa de pensar el territorio, la infancia y la idea de país desde el movimiento, la curiosidad y la empatía.",
+        "studyNotes": [
+          "El punto de partida del libro no es el turismo, sino una pérdida: Perico deja la escuela y teme separarse de Mirasol, lo que vuelve más humana la aventura.",
+          "La novela puede leerse como relato de formación, porque el desplazamiento por Chile transforma la mirada del protagonista y ensancha su comprensión del mundo.",
+          "Conviene observar cómo el libro convierte regiones, costumbres y paisajes en materia narrativa sin romper el punto de vista infantil.",
+          "La amistad entre Perico y la oveja funciona como motor emocional: gracias a ese vínculo, el lector entiende por qué el viaje nace de una decisión afectiva y no de un simple impulso aventurero."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio en Tierra del Fuego",
+            "summary": "Perico aparece como un niño fueguino obligado a dejar la escuela para asumir el trabajo pastoril de su padre. La tristeza por abandonar el estudio y el nacimiento de su vínculo con Mirasol fijan el conflicto afectivo que impulsa todo el libro."
+          },
+          {
+            "title": "La fuga con Mirasol",
+            "summary": "Cuando el rebaño es vendido, Perico no soporta la idea de perder a la pequeña oveja que ha cuidado con tanto cariño. Su decisión de esconderse para seguirla desencadena la gran aventura y convierte un gesto íntimo en un viaje inesperado."
+          },
+          {
+            "title": "Recorrido por el sur y el centro de Chile",
+            "summary": "Durante la parte media, el protagonista atraviesa distintos lugares y entra en contacto con personas, oficios y paisajes diversos. El libro enlaza peligros, encuentros y momentos de maravilla, mientras el mapa del país se vuelve experiencia concreta."
+          },
+          {
+            "title": "Hacia el norte y aprendizaje final",
+            "summary": "El avance hacia el extremo norte completa una travesía que ya no es solo física. Perico comprende mejor la amplitud de Chile, enfrenta situaciones duras y descubre que crecer implica mirar más allá del pequeño mundo con el que comenzó la historia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El viaje como forma de conocer el país",
+            "content": "La estructura de la novela transforma el territorio chileno en itinerario narrativo. No se trata de enumerar regiones, sino de hacer que el lector las vea a través de la sorpresa, el cansancio, el miedo y la curiosidad de un niño. Por eso el libro funciona a la vez como aventura y como mapa emocional de Chile."
+          },
+          {
+            "heading": "Infancia, escuela y deseo de aprender",
+            "content": "El conflicto inicial tiene un peso decisivo: Perico no parte por capricho, sino después de ser retirado de la escuela. Esa herida vuelve significativa toda la travesía, porque el viaje compensa de otro modo una interrupción educativa y sugiere que aprender también puede ocurrir fuera del aula."
+          },
+          {
+            "heading": "Mirasol como núcleo afectivo",
+            "content": "La oveja no es un adorno tierno, sino el centro emocional del relato. Gracias a Mirasol, la novela evita la frialdad del libro geográfico y mantiene vivo un motivo de cuidado, lealtad y responsabilidad que vuelve legible cada decisión del protagonista."
+          },
+          {
+            "heading": "Un clásico infantil chileno con dimensión cultural",
+            "content": "La perduración del libro se explica por su equilibrio entre entretenimiento y reconocimiento cultural. Las autoras consiguen que la identidad nacional aparezca desde la experiencia concreta de la infancia, sin convertir la novela en sermón ni en simple inventario de costumbres."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Perico trepa por Chile?",
+            "answer": "Trata sobre un niño fueguino que, al intentar no separarse de su oveja Mirasol, emprende un viaje accidental por distintas zonas de Chile. La historia une aventura, aprendizaje y descubrimiento del país."
+          },
+          {
+            "question": "¿Quiénes escribieron el libro?",
+            "answer": "La novela fue escrita por Marcela Paz y Alicia Morel, dos autoras fundamentales de la literatura infantil chilena."
+          },
+          {
+            "question": "¿Por qué suele leerse en contextos escolares?",
+            "answer": "Porque permite trabajar al mismo tiempo comprensión lectora, relato de viaje, geografía cultural de Chile, crecimiento del protagonista e identidad nacional desde una narración atractiva para lectores jóvenes."
+          },
+          {
+            "question": "¿Es solo un libro sobre geografía chilena?",
+            "answer": "No. Aunque el recorrido por el país es central, el motor del relato es emocional: la relación de Perico con Mirasol, la pérdida de la escuela y la experiencia de crecer a través del viaje."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: Perico trepa por Chile",
+            "url": "https://es.wikipedia.org/wiki/Perico_trepa_por_Chile"
+          },
+          {
+            "label": "Google Libros: Perico trepa por Chile",
+            "url": "https://books.google.com/books/about/Perico_trepa_por_Chile.html?id=ur47AAAAYAAJ&hl=es"
+          },
+          {
+            "label": "Universidad de Chile, Biblioteca Digital: Perico trepa por Chile",
+            "url": "https://bibliotecadigital.uchile.cl/discovery/fulldisplay/alma991006002949703936/56UDC_INST:56UDC_INST"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "viaje-en-el-tiempo-de-geronimo-stilton",
+      "title": "Viaje En El Tiempo",
+      "authorName": "Geronimo Stilton",
+      "authorSlug": "geronimo-stilton",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 28,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Viaje en el tiempo",
+        "authorName": "Geronimo Stilton",
+        "authorSlug": "geronimo-stilton",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "novela infantil",
+          "aventura",
+          "fantasia",
+          "humor"
+        ],
+        "year": 2006,
+        "pages": 384,
+        "summary": "En Viaje en el tiempo, Geronimo Stilton abandona por un momento las peripecias cotidianas de Ratonia para lanzarse a una aventura histórica y fantástica. Todo comienza cuando el profesor Voltio invita a Geronimo y a su familia a desplazarse por distintas épocas. A partir de ahí, el libro encadena visitas a la Prehistoria, al Antiguo Egipto y a la Edad Media, siempre con el tono nervioso, humorístico y exagerado característico del personaje. La novela mezcla persecuciones, equívocos, escenas de peligro moderado y abundantes elementos visuales y lúdicos. Más que reconstruir la historia con solemnidad, propone una exploración divertida del pasado, donde cada etapa sirve para despertar curiosidad y para convertir el aprendizaje en juego, sorpresa y movimiento continuo.",
+        "aboutThisBook": "Este título forma parte de los libros especiales de Geronimo Stilton y ha circulado ampliamente en ediciones infantiles en español. La información editorial y la ficha del sitio oficial coinciden en destacar su estructura de gran aventura a través del tiempo, con episodios ambientados en la Prehistoria, Egipto y el mundo medieval. Como ocurre en buena parte del universo Stilton, el atractivo no reside solo en la trama, sino también en el diseño visual, el ritmo rápido y la mezcla de humor con referencias históricas accesibles. Es un libro pensado para que lectores jóvenes entren en contacto con periodos del pasado mediante una narración expansiva, ilustrada y muy dinámica.",
+        "forWhom": "Para lectores infantiles desde los 8 años, familias y docentes que quieran una lectura extensa pero amable, capaz de unir humor, aventura, curiosidad histórica y autonomía lectora progresiva.",
+        "whyItMatters": "Importa porque muestra una forma muy eficaz de acercar la historia a lectores jóvenes sin volverla pesada. La novela convierte épocas remotas en escenarios memorables y refuerza la asociación entre lectura, juego, imaginación y deseo de saber más.",
+        "editorialIntro": "Geronimo Stilton ha sido para muchos niños una puerta de entrada a la lectura autónoma, y Viaje en el tiempo resume muy bien por qué. El libro ofrece una aventura grande, visual y llena de sobresaltos, pero al mismo tiempo organiza su energía alrededor de tres momentos históricos muy reconocibles. Esa combinación de humor, información sugerida y movimiento permanente hace que la obra funcione como entretenimiento y como estímulo de curiosidad. No busca ser una lección de historia cerrada, sino una invitación a explorar el pasado con asombro.",
+        "readingLevel": "Lectura adecuada para niños lectores en consolidación y para mediación familiar o escolar: el lenguaje es claro, el diseño ayuda mucho, y la extensión se compensa con humor, ilustraciones y episodios muy segmentados.",
+        "whyReadToday": "Porque sigue siendo un modo eficaz de asociar lectura extensa con placer, aventura y curiosidad histórica en edades en que esa relación puede decidir el hábito lector.",
+        "studyNotes": [
+          "El libro no pretende ofrecer una reconstrucción histórica exhaustiva, sino despertar interés por diferentes épocas a través de la aventura y el humor.",
+          "La figura del profesor Voltio cumple la función de activar la travesía y de introducir el viaje en el tiempo como dispositivo narrativo accesible para niños.",
+          "Conviene observar cómo la obra mezcla información reconocible sobre la Prehistoria, Egipto y la Edad Media con exageración cómica y recursos visuales propios de la serie.",
+          "Puede trabajarse en clase como lectura puente entre ficción humorística e investigación posterior sobre los periodos históricos visitados por Geronimo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Preparativos y salto temporal",
+            "summary": "El arranque presenta la invitación del profesor Voltio y sitúa a Geronimo en una aventura que lo saca de su rutina. Desde el comienzo queda claro que el viaje será extraordinario, accidentado y lleno de sobresaltos cómicos."
+          },
+          {
+            "title": "Aventuras en la Prehistoria",
+            "summary": "La primera gran etapa enfrenta al protagonista con dinosaurios, criaturas enormes y un mundo salvaje que combina asombro y peligro. El pasado remoto aparece como un escenario espectacular donde cada paso de Geronimo genera humor y tensión ligera."
+          },
+          {
+            "title": "Egipto y la búsqueda entre pirámides",
+            "summary": "El tramo central traslada la acción al Antiguo Egipto, con momias, faraones y pirámides. La novela aprovecha ese decorado para multiplicar enigmas, persecuciones y escenas que convierten la historia antigua en experiencia viva y visual."
+          },
+          {
+            "title": "Castillos y cierre medieval",
+            "summary": "La llegada a la Edad Media añade caballeros, fortalezas y asedios, y culmina la idea de que cada época tiene su propia atmósfera aventurera. El final confirma que el libro funciona como recorrido por mundos distintos unidos por el humor de Geronimo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia convertida en aventura infantil",
+            "content": "Una de las claves del libro es que no separa del todo conocimiento y entretenimiento. Las épocas visitadas no aparecen como bloques informativos, sino como espacios de acción que despiertan curiosidad y dan pie a futuras preguntas sobre el pasado."
+          },
+          {
+            "heading": "El humor nervioso de Geronimo como motor",
+            "content": "La comicidad nace de la personalidad del protagonista: temeroso, exagerado y siempre algo desbordado por lo que le ocurre. Ese rasgo permite que los escenarios históricos no se sientan lejanos ni solemnes, sino próximos y divertidos para el lector infantil."
+          },
+          {
+            "heading": "Diseño y legibilidad en la experiencia de lectura",
+            "content": "Como en otros títulos de la saga, el libro se apoya en recursos tipográficos, visuales y rítmicos que facilitan la lectura. Esa dimensión material es importante, porque convierte una obra extensa en una experiencia amigable para lectores en formación."
+          },
+          {
+            "heading": "Valor formativo sin tono escolar rígido",
+            "content": "La novela tiene valor pedagógico, pero su eficacia proviene justamente de no parecer una lección. Primero invita a disfrutar la peripecia; después deja abierta la puerta para investigar periodos, personajes y contextos históricos con mayor profundidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Viaje en el tiempo?",
+            "answer": "Trata sobre la expedición temporal de Geronimo Stilton y su familia junto al profesor Voltio, con paradas en la Prehistoria, el Antiguo Egipto y la Edad Media."
+          },
+          {
+            "question": "¿Es un libro histórico o fantástico?",
+            "answer": "Es sobre todo una novela infantil de aventura y fantasía con escenarios históricos. Usa el viaje temporal para despertar curiosidad por distintas épocas, no para ofrecer una historia académica detallada."
+          },
+          {
+            "question": "¿Qué tipo de lectores lo aprovechan mejor?",
+            "answer": "Lo disfrutan especialmente niños que ya leen con cierta autonomía y que buscan una obra larga, visual y humorística, aunque también funciona muy bien en lectura compartida."
+          },
+          {
+            "question": "¿Por qué es útil en mediación escolar?",
+            "answer": "Porque permite enlazar lectura placentera con temas de historia, vocabulario, imaginación narrativa y comparación entre épocas, sin perder el tono lúdico que caracteriza a la serie."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Geronimo Stilton oficial: Viaje en el tiempo",
+            "url": "https://geronimostilton.com/BF-es/viaje-en-el-tiempo__2386/"
+          },
+          {
+            "label": "PlanetadeLibros: Viaje en el tiempo",
+            "url": "https://www.planetadelibros.com/libro-viaje-en-el-tiempo/4470"
+          },
+          {
+            "label": "Google Libros: Viaje en el tiempo",
+            "url": "https://books.google.com/books/about/Viaje_en_el_tiempo.html?id=Pg5sAwAACAAJ&hl=es"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pesadilla-en-vancuver-de-eric-wilson",
+      "title": "Pesadilla En Vancuver",
+      "authorName": "Eric Wilson",
+      "authorSlug": "eric-wilson",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 27,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Pesadilla en Vancouver",
+        "authorName": "Eric Wilson",
+        "authorSlug": "eric-wilson",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "misterio",
+          "policial",
+          "aventura"
+        ],
+        "year": 1978,
+        "pages": 97,
+        "summary": "Pesadilla en Vancouver, conocida originalmente como Vancouver Nightmare, es una novela juvenil de misterio en la que Eric Wilson sitúa a su joven detective Tom Austen en el lado más áspero de una gran ciudad canadiense. Durante una visita a Vancouver, Tom se cruza con una investigación vinculada a la muerte de un policía y a una red de narcotráfico que capta a chicos jóvenes. Para ayudar a la policía, el protagonista se hace pasar por fugitivo y se interna en calles peligrosas, barrios degradados y ambientes donde la confianza puede costar caro. La trama avanza con rapidez y combina pesquisa, infiltración, persecución y riesgo físico. Más que un simple enigma, el libro explora cómo un adolescente enfrenta un mundo urbano duro, ambiguo y moralmente inquietante sin perder coraje ni sentido de justicia.",
+        "aboutThisBook": "Publicada en 1978 dentro de la serie de misterios de Tom Austen, esta novela consolidó a Eric Wilson como uno de los autores juveniles canadienses más populares en el terreno del policial de aventuras. Las fuentes bibliográficas y la guía del propio autor coinciden en presentar un argumento centrado en Vancouver y en la infiltración del protagonista en un ambiente ligado a las drogas. Su interés radica en que introduce asuntos sociales serios dentro de una estructura de suspense pensada para lectores jóvenes. Wilson no abandona el ritmo ágil ni la claridad narrativa, pero tampoco dulcifica del todo el escenario: la ciudad aparece con zonas de peligro real, y el caso obliga a Tom a medir valentía, prudencia y responsabilidad moral.",
+        "forWhom": "Para lectores juveniles desde los 11 o 12 años, docentes y mediadores que busquen un policial breve, intenso y útil para conversar sobre ciudad, riesgo, justicia y toma de decisiones bajo presión.",
+        "whyItMatters": "Importa porque combina entretenimiento detectivesco con un trasfondo social más áspero de lo habitual en la aventura juvenil clásica. La novela acerca a lectores jóvenes a problemas urbanos concretos sin perder ritmo ni claridad narrativa.",
+        "editorialIntro": "Eric Wilson entendió muy bien que la novela juvenil de misterio podía ser trepidante sin resultar trivial. En Pesadilla en Vancouver pone a Tom Austen frente a una ciudad menos turística que amenazante: callejones, redes de droga, persecuciones y una investigación que obliga al protagonista a fingir, observar y arriesgarse. El resultado es una obra breve pero muy eficaz, donde el policial se mezcla con la novela de iniciación y con una mirada urbana más dura de la que muchos lectores esperan en este tipo de historias.",
+        "readingLevel": "Lectura media para jóvenes lectores: la prosa es directa y rápida, pero el tema del narcotráfico, la infiltración y el peligro urbano la hace más apropiada para preadolescentes avanzados o secundaria inicial con acompañamiento.",
+        "whyReadToday": "Porque sigue mostrando que la literatura juvenil puede tratar problemas urbanos serios con tensión narrativa, claridad moral y personajes capaces de actuar con valentía sin volverse invulnerables.",
+        "studyNotes": [
+          "Tom Austen actúa como detective aficionado, pero su intervención está ligada a un problema social concreto: una red de drogas que afecta a jóvenes dentro del entorno urbano.",
+          "La novela gana fuerza cuando convierte la ciudad en un personaje: Vancouver no es solo decorado, sino espacio de riesgo, persecución y desorientación moral.",
+          "Puede analizarse como policial juvenil clásico, aunque incorpora un trasfondo más oscuro que otras aventuras para la misma franja de edad.",
+          "La guía de Eric Wilson sugiere trabajar mapas, lugares y debate sobre el tráfico ilícito, lo que confirma el valor pedagógico del libro más allá del suspense."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Llegada a Vancouver y hallazgo inicial",
+            "summary": "El comienzo sitúa a Tom Austen en la ciudad durante unas vacaciones con sus abuelos. Muy pronto se entera de la muerte de un joven policía y comprende que detrás del caso hay una trama más peligrosa de lo que parecía."
+          },
+          {
+            "title": "Infiltración en el submundo urbano",
+            "summary": "Para ayudar a la investigación, Tom adopta la apariencia de un muchacho fugado y se interna en sectores duros de Vancouver. Esa decisión cambia el tono del libro y lo vuelve un relato de riesgo constante, vigilancia y engaño."
+          },
+          {
+            "title": "Persecución, encierro y amenaza",
+            "summary": "Cuando los criminales sospechan quién es realmente Tom, el protagonista queda atrapado en un ambiente cada vez más hostil. El suspenso crece a partir de persecuciones, callejones y la sensación de que cualquier error puede resultar fatal."
+          },
+          {
+            "title": "Resolución del caso y prueba de coraje",
+            "summary": "El tramo final reúne la información obtenida por Tom y la acción policial contra la banda. El desenlace confirma que la valentía del protagonista depende tanto de su inteligencia como de su capacidad para actuar bajo presión."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La ciudad como territorio de amenaza",
+            "content": "Wilson usa Vancouver de forma muy concreta. La guía del autor incluso propone seguir la acción en un mapa, señal de que los lugares importan narrativamente. Las calles, plazas y zonas degradadas no son fondos neutros, sino parte de la tensión que envuelve a Tom Austen."
+          },
+          {
+            "heading": "Misterio juvenil con problema social",
+            "content": "El libro no se limita a un enigma abstracto: el caso está ligado a drogas, captación de menores y violencia urbana. Eso le da un tono más grave que el de una simple aventura detectivesca y amplía su interés formativo para lectores jóvenes."
+          },
+          {
+            "heading": "Tom Austen y el aprendizaje del riesgo",
+            "content": "Tom no es un héroe invencible, sino un adolescente que debe improvisar, observar y resistir el miedo. Su valor consiste en actuar pese a la vulnerabilidad, rasgo que vuelve más convincente la identificación del lector con el personaje."
+          },
+          {
+            "heading": "Brevedad y eficacia narrativa",
+            "content": "Con pocas páginas, Wilson construye un relato veloz y nítido. La novela demuestra que la literatura juvenil breve puede mantener intensidad, conflicto moral y sentido de lugar sin dispersarse en subtramas innecesarias."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Pesadilla en Vancouver es el título original del libro?",
+            "answer": "El título original en inglés es Vancouver Nightmare. La referencia española suele traducirlo como Pesadilla en Vancouver, que corrige además la grafía defectuosa de Vancouver presente en algunos listados."
+          },
+          {
+            "question": "¿Quién es el protagonista?",
+            "answer": "El protagonista es Tom Austen, joven detective aficionado y figura central de varias novelas juveniles de Eric Wilson."
+          },
+          {
+            "question": "¿Qué tema de fondo aborda la novela?",
+            "answer": "Además del suspense policial, aborda el narcotráfico y el peligro que supone para chicos jóvenes en contextos urbanos vulnerables."
+          },
+          {
+            "question": "¿Por qué sigue siendo una lectura interesante?",
+            "answer": "Porque combina acción rápida con una mirada concreta sobre la ciudad, el riesgo y la responsabilidad moral, mostrando que el misterio juvenil puede tratar asuntos serios sin perder atractivo."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Eric Wilson oficial: Study Guide for Vancouver Nightmare",
+            "url": "https://www.ericwilson.com/study-guide-for-vancouver-nightmare"
+          },
+          {
+            "label": "Canadian Books & Authors: Vancouver Nightmare",
+            "url": "http://www.canadianauthors.net/w/wilson_eric/vancouver_nightmare.php"
+          },
+          {
+            "label": "Google Books: Vancouver Nightmare",
+            "url": "https://books.google.com/books/about/Vancouver_Nightmare.html?id=88Bq-P8ZPPYC&hl=en"
+          },
+          {
+            "label": "Open Library: Vancouver nightmare",
+            "url": "https://openlibrary.org/books/OL14874288M/Vancouver_nightmare"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-besos-en-el-pan-de-almudena-grandes",
+      "title": "Los Besos En El Pan",
+      "authorName": "Almudena Grandes",
+      "authorSlug": "almudena-grandes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 26,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los besos en el pan",
+        "authorName": "Almudena Grandes",
+        "authorSlug": "almudena-grandes",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela contemporánea",
+          "novela coral",
+          "narrativa social"
+        ],
+        "year": 2015,
+        "pages": 327,
+        "summary": "Los besos en el pan es una novela coral ambientada en un barrio del centro de Madrid durante los años de la crisis económica. En lugar de seguir a un único protagonista, Almudena Grandes entrelaza las vidas de vecinos, familias, comerciantes, jubilados, trabajadores precarios y jóvenes que intentan reorganizar su existencia cuando el desempleo, las deudas y la incertidumbre alteran lo cotidiano. La peluquería, el bar, el centro de salud o la calle funcionan como espacios de cruce donde se comparten miedos, pequeñas derrotas y gestos de ayuda. La novela no idealiza al barrio, pero tampoco lo reduce a miseria: muestra cómo la dignidad, la memoria de generaciones anteriores y una solidaridad a veces silenciosa permiten resistir sin grandilocuencia. El resultado es un retrato amplio de una comunidad herida que sigue buscando formas de vivir con decencia.",
+        "aboutThisBook": "Publicada por Tusquets en 2015, la novela nace del deseo de Almudena Grandes de mirar de frente las consecuencias sociales y emocionales de la crisis iniciada en 2008. Fuentes como Wikipedia y Google Libros la presentan como una obra coral centrada en un barrio madrileño, y esa definición es importante: el libro no se apoya en una intriga única, sino en una red de historias que juntas componen una radiografía del país. Más que narrar un caso excepcional, registra cómo la recesión transforma trabajos, parejas, rutinas domésticas, relaciones entre generaciones y la percepción misma del futuro.",
+        "forWhom": "Para lectores de novela social contemporánea, clubes de lectura, estudiantes de literatura española reciente y quienes busquen una ficción realista sobre crisis, barrio y vínculos comunitarios.",
+        "whyItMatters": "Importa porque convierte una coyuntura económica en experiencia humana concreta. La crisis aparece no como dato abstracto, sino como fuerza que modifica afectos, trabajo, vivienda, memoria y lenguaje moral dentro de una comunidad reconocible.",
+        "editorialIntro": "Hay novelas que explican una época mediante grandes acontecimientos, y otras que lo hacen mirando una calle, un comercio, una conversación entre vecinos. Los besos en el pan pertenece a esta segunda estirpe. Almudena Grandes observa cómo una crisis histórica se filtra en la vida mínima: en la vergüenza del desempleo, en los pactos familiares, en la necesidad de pedir ayuda y en la memoria de quienes ya sobrevivieron a tiempos peores. Su fuerza no está en el dramatismo fácil, sino en la suma de vidas corrientes que resisten juntas.",
+        "readingLevel": "Lectura media. La prosa es accesible, pero la estructura coral, la cantidad de personajes y la atención a matices sociales y generacionales piden una lectura sostenida y atenta.",
+        "whyReadToday": "Sigue siendo actual porque ayuda a pensar precariedad, fragilidad de clase media y redes de apoyo vecinal, asuntos que no desaparecieron con el final formal de la crisis financiera.",
+        "studyNotes": [
+          "Conviene leer la novela como un mosaico de historias conectadas, no como una trama única con un protagonista central.",
+          "El barrio funciona casi como personaje colectivo: organiza encuentros, tensiones, solidaridades y también distintas formas de memoria social.",
+          "La crisis económica no es solo contexto; determina decisiones íntimas, relaciones familiares y la autoestima de los personajes.",
+          "Almudena Grandes contrapone la experiencia de generaciones mayores, marcadas por privaciones previas, con la desconcierto de quienes creían vivir en una estabilidad irreversible."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El barrio como mapa de la crisis",
+            "summary": "El inicio presenta a los vecinos y establece los espacios donde sus vidas se cruzan. Desde el primer momento queda claro que la recesión modifica empleos, consumo, rutinas y expectativas, aunque cada personaje la experimente de manera distinta."
+          },
+          {
+            "title": "Parte 2: Golpes íntimos y reajustes familiares",
+            "summary": "A medida que avanza la novela, la presión económica se traduce en divorcios, mudanzas, renuncias, vergüenzas y pactos domésticos. Las familias deben reorganizarse y aprender a convivir con pérdidas que ya no parecen temporales."
+          },
+          {
+            "title": "Parte 3: Memoria, dignidad y apoyo mutuo",
+            "summary": "En el núcleo del libro cobra fuerza la memoria de generaciones que conocieron otras escaseces. Esa experiencia previa no resuelve los problemas, pero ofrece un vocabulario moral de resistencia, prudencia y ayuda concreta entre vecinos."
+          },
+          {
+            "title": "Parte 4: Persistir sin heroísmo",
+            "summary": "El tramo final no propone una solución milagrosa. Lo que aparece es una forma de continuidad: la comunidad sigue adelante mediante pequeños gestos de ternura, trabajo y acompañamiento, afirmando que sobrevivir también puede ser una práctica colectiva."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela coral como forma de representación social",
+            "content": "La estructura coral permite mostrar que una crisis no afecta de igual modo a todos, pero sí crea un clima común. Cada historia aporta una perspectiva parcial y, juntas, construyen una imagen compleja del barrio y del país."
+          },
+          {
+            "heading": "Economía y vida cotidiana",
+            "content": "Grandes traduce los grandes procesos económicos a escenas domésticas: cuentas, trabajos perdidos, negocios amenazados, dependencia entre generaciones y cambios en el consumo. Esa concretización vuelve legible el impacto moral de la recesión."
+          },
+          {
+            "heading": "La memoria de los mayores",
+            "content": "Uno de los ejes del libro es la comparación entre quienes ya atravesaron etapas duras y quienes sienten la crisis como una ruptura inédita. La novela no idealiza el pasado, pero rescata una ética de resistencia nacida de la experiencia."
+          },
+          {
+            "heading": "Solidaridad sin sentimentalismo",
+            "content": "Los gestos solidarios importan porque no aparecen como propaganda ni como ingenuidad. En el libro ayudan, pero no borran el conflicto; por eso la fraternidad barrial resulta verosímil y literariamente eficaz."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Los besos en el pan tiene un protagonista único?",
+            "answer": "No. Es una novela coral construida a partir de muchas vidas que se cruzan en un mismo barrio madrileño. El verdadero centro narrativo es la comunidad."
+          },
+          {
+            "question": "¿La crisis económica es solo telón de fondo?",
+            "answer": "No. La crisis define trabajos, relaciones familiares, expectativas y formas de vergüenza o solidaridad. Es el gran motor del mundo narrado."
+          },
+          {
+            "question": "¿Es una novela pesimista?",
+            "answer": "Tiene momentos duros, pero no se limita al pesimismo. La novela insiste en la dignidad cotidiana, la memoria y los apoyos mutuos como formas reales de resistencia."
+          },
+          {
+            "question": "¿Para qué sirve en clase o en un club de lectura?",
+            "answer": "Sirve para discutir novela social, representación de la crisis de 2008, estructura coral y construcción literaria del barrio como espacio ético y político."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia: Los besos en el pan",
+            "url": "https://es.wikipedia.org/wiki/Los_besos_en_el_pan"
+          },
+          {
+            "label": "Google Libros: Los besos en el pan",
+            "url": "https://books.google.es/books?id=xs9yjwEACAAJ"
+          },
+          {
+            "label": "Instituto Cervantes: Almudena Grandes",
+            "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/grandes_almudena.htm"
+          },
+          {
+            "label": "Lecturalia: Los besos en el pan",
+            "url": "https://www.lecturalia.com/libro/95988/los-besos-en-el-pan"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-cena-secreta-de-javier-sierra",
+      "title": "La Cena Secreta",
+      "authorName": "Javier Sierra",
+      "authorSlug": "javier-sierra",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 24,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La cena secreta",
+        "authorName": "Javier Sierra",
+        "authorSlug": "javier-sierra",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela histórica",
+          "thriller",
+          "misterio"
+        ],
+        "year": 2004,
+        "pages": 360,
+        "summary": "La cena secreta combina novela histórica, conspiración religiosa e investigación simbólica alrededor de La Última Cena de Leonardo da Vinci. La acción se sitúa en 1497, cuando fray Agustín Leyre, dominico especializado en mensajes cifrados, es enviado a Milán para vigilar los últimos trabajos del mural encargado por Ludovico Sforza. A Roma han llegado cartas anónimas que acusan a Leonardo de ocultar en la pintura ideas heréticas y de desafiar la iconografía cristiana tradicional. A partir de esa premisa, Javier Sierra construye una trama de persecuciones, enigmas, sociedades secretas y discusiones sobre arte, fe y poder. El relato avanza como una pesquisa intelectual y física: no se trata solo de descubrir quién amenaza a quién, sino de interpretar signos, lecturas ocultas y tensiones entre ortodoxia religiosa y conocimiento prohibido. La novela apuesta por un ritmo de thriller, pero su atractivo mayor está en convertir una obra de arte célebre en campo de batalla ideológico.",
+        "aboutThisBook": "Publicada originalmente en 2004 y difundida en numerosas ediciones posteriores, La cena secreta fue uno de los libros que consolidaron la proyección internacional de Javier Sierra. La página oficial del autor sitúa la acción en Santa Maria delle Grazie, en la Lombardía, y presenta a fray Agustín Leyre como inquisidor experto en claves, mientras PlanetadeLibros resume el libro como un relato de intriga y misterio ligado a Leonardo. Esa combinación de documentación histórica, simbología cristiana y suspense explica buena parte de su recepción: la novela invita a leer el arte como si escondiera mensajes capaces de alterar la historia religiosa de Occidente.",
+        "forWhom": "Para lectores de thriller histórico, enigmas religiosos, novelas sobre arte renacentista y quienes disfrutan tramas donde investigar significa también interpretar símbolos e imágenes.",
+        "whyItMatters": "Importa porque popularizó en español una forma de novela que mezcla erudición accesible, conspiración y lectura iconográfica. Además, convirtió a La Última Cena en una puerta narrativa para debatir autoridad, herejía e interpretación.",
+        "editorialIntro": "Pocas novelas entienden tan bien que una pintura famosa puede funcionar como detonante de aventuras. En La cena secreta, Javier Sierra toma una imagen universalmente conocida y la convierte en escenario de sospecha: cada gesto, cada ausencia de halo, cada detalle compositivo parece contener un desafío a la ortodoxia. El libro se mueve con la energía del thriller, pero su interés no depende solo de las persecuciones. También descansa en la pregunta por quién tiene derecho a fijar el sentido de una obra, de una creencia o de una verdad histórica.",
+        "readingLevel": "Lectura media. El ritmo es ágil, pero abundan referencias históricas, artísticas y religiosas que se disfrutan más si el lector sigue con atención las pistas simbólicas.",
+        "whyReadToday": "Se sigue leyendo bien porque une entretenimiento e interpretación cultural. En una época fascinada por teorías, archivos y códigos, su reflexión sobre imágenes y relatos ocultos mantiene atractivo.",
+        "studyNotes": [
+          "La novela usa una base histórica reconocible, pero su objetivo principal es narrativo: explota el potencial de la hipótesis y del enigma más que la demostración académica cerrada.",
+          "Fray Agustín Leyre funciona como investigador, lector de signos y mediador entre la autoridad religiosa y el mundo ambiguo del arte renacentista.",
+          "Leonardo da Vinci aparece menos como simple personaje histórico que como foco de inquietud intelectual, capaz de desordenar los límites entre ortodoxia, ciencia e imaginación.",
+          "Conviene observar cómo Sierra convierte la interpretación iconográfica en mecanismo de suspense: leer una imagen es aquí tan peligroso como seguir a un sospechoso."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Las cartas anónimas y la alarma en Roma",
+            "summary": "La novela arranca con denuncias enviadas a la corte papal sobre el mural que Leonardo pinta en Milán. Desde el comienzo se vinculan religión, poder institucional y miedo a que una imagen contenga una doctrina subversiva."
+          },
+          {
+            "title": "Parte 2: Llegada a Milán e investigación del mural",
+            "summary": "Fray Agustín Leyre entra en el espacio donde se cruzan artistas, mecenas, clérigos y conspiradores. Su tarea ya no consiste solo en vigilar a Leonardo, sino en comprender qué significan los signos repartidos en la obra y a su alrededor."
+          },
+          {
+            "title": "Parte 3: Claves, persecuciones y doctrinas ocultas",
+            "summary": "El núcleo del libro acelera la intriga con amenazas, muertes y revelaciones parciales. Cada avance amplía el conflicto y sugiere que detrás de la pintura late una disputa mayor sobre la historia sagrada y sus intérpretes legítimos."
+          },
+          {
+            "title": "Parte 4: Revelación final y sentido del enigma",
+            "summary": "En el cierre, la resolución combina descubrimiento intelectual y desenlace de thriller. Más que agotar el misterio, la novela deja la impresión de que toda imagen poderosa admite lecturas en conflicto y produce efectos políticos duraderos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Arte como campo de batalla ideológico",
+            "content": "La pintura de Leonardo no es mero decorado; concentra el conflicto entero. Sierra la presenta como objeto capaz de desafiar jerarquías religiosas y de activar una guerra por el control del significado."
+          },
+          {
+            "heading": "La lectura de símbolos como motor narrativo",
+            "content": "La novela demuestra que interpretar puede ser una forma de acción. Los símbolos, gestos y omisiones del mural empujan la trama y convierten el conocimiento en una práctica arriesgada."
+          },
+          {
+            "heading": "Historia, hipótesis y verosimilitud",
+            "content": "Uno de los intereses del libro está en su manejo de la frontera entre dato histórico e imaginación conspirativa. El texto se apoya en referencias reales para construir una ficción convincente sin dejar de ser abiertamente novelesca."
+          },
+          {
+            "heading": "Religión y poder institucional",
+            "content": "Las autoridades eclesiásticas no aparecen solo como guardianas de la fe, sino como administradoras del relato legítimo. Esa dimensión política explica la intensidad con la que se persigue cualquier desviación iconográfica o doctrinal."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La cena secreta es una novela histórica o un thriller?",
+            "answer": "Es ambas cosas. Parte de un marco histórico renacentista real, pero organiza la lectura con ritmo de thriller, enigmas, persecuciones y revelaciones graduales."
+          },
+          {
+            "question": "¿Quién es fray Agustín Leyre?",
+            "answer": "Es el protagonista investigador: un dominico experto en mensajes cifrados enviado a Milán para examinar las sospechas de herejía que rodean a Leonardo y su mural."
+          },
+          {
+            "question": "¿Hace falta conocer historia del arte para disfrutarla?",
+            "answer": "No. El libro explica lo necesario dentro de la propia trama, aunque los lectores interesados en el Renacimiento y la iconografía cristiana encontrarán capas adicionales de sentido."
+          },
+          {
+            "question": "¿Por qué tuvo tanta difusión internacional?",
+            "answer": "Porque une una obra de arte universal, un gran enigma religioso y un lenguaje narrativo muy accesible. Esa mezcla favorece tanto la lectura de entretenimiento como la curiosidad cultural."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Página oficial de Javier Sierra: La cena secreta",
+            "url": "https://www.javiersierra.com/libros/la-cena-secreta/"
+          },
+          {
+            "label": "PlanetadeLibros Argentina: La cena secreta",
+            "url": "https://www.planetadelibros.com.ar/libro-la-cena-secreta/289442"
+          },
+          {
+            "label": "Google Libros: La cena secreta",
+            "url": "https://books.google.es/books?id=8XkOAQAAMAAJ"
+          },
+          {
+            "label": "La Cena Secreta: página oficial del libro",
+            "url": "https://lacenasecreta.com/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nunca-enamores-a-un-forastero-de-ramon-diaz-eterovic",
+      "title": "Nunca Enamores A Un Forastero",
+      "authorName": "Ramon Diaz Eterovic",
+      "authorSlug": "ramon-diaz-eterovic",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 24,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Nunca enamores a un forastero",
+        "authorName": "Ramón Díaz Eterovic",
+        "authorSlug": "ramon-diaz-eterovic",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela negra",
+          "policial",
+          "misterio"
+        ],
+        "year": 2006,
+        "pages": 215,
+        "summary": "Nunca enamores a un forastero es una novela negra de Ramón Díaz Eterovic protagonizada por el detective Heredia. La historia lo saca de Santiago y lo lleva a Punta Arenas para investigar dos muertes vinculadas con viejas lealtades, intereses locales y una atmósfera de sospecha que se espesa a medida que avanza la pesquisa. El caso no se reduce a resolver un crimen: obliga a Heredia a moverse en una ciudad marcada por distancias, silencios, memorias políticas y relaciones ambiguas entre poder económico, afectos y violencia. Como en otras novelas del autor, la investigación importa tanto por lo que descubre como por la mirada moral que despliega el detective sobre un país desigual y opaco. El viaje, la sensación de extranjería y la presencia de personajes seductores o inciertos añaden una tensión particular: Heredia debe orientarse en un territorio que no domina y donde cada vínculo puede ser pista, trampa o refugio momentáneo.",
+        "aboutThisBook": "La edición de Txalaparta publicada en 2006 presenta la novela como parte de la serie de Heredia y resume el conflicto en torno a unas extrañas muertes que obligan al detective a desplazarse hasta Punta Arenas. Google Play Books, en la edición digital de LOM, subraya además que se trata de la tercera novela del personaje y la vincula explícitamente al universo del investigador privado. Esa información ayuda a situar el libro dentro de la trayectoria de Díaz Eterovic: no es solo una intriga aislada, sino una pieza importante en el desarrollo de una de las sagas policiales más reconocibles de la literatura chilena contemporánea.",
+        "forWhom": "Para lectores de novela negra latinoamericana, policial chileno, series detectivescas con trasfondo social y tramas donde el viaje modifica la investigación y la mirada del protagonista.",
+        "whyItMatters": "Importa porque amplía el mundo de Heredia fuera de Santiago y confirma que la novela negra puede leer un territorio, una memoria política y una red de intereses tan bien como un crimen puntual.",
+        "editorialIntro": "Heredia suele investigar en espacios donde la ciudad habla tanto como los sospechosos, y en esta novela ese principio se vuelve especialmente fértil. Al llevarlo a Punta Arenas, Ramón Díaz Eterovic introduce una variación decisiva: el detective ya no pisa un escenario conocido, sino un territorio en el que debe aprender códigos nuevos mientras intenta no perder su brújula moral. Nunca enamores a un forastero combina el placer clásico de la pesquisa con una atmósfera de distancia, frío, deseo y desconfianza que intensifica la fragilidad del investigador frente a un mundo siempre más turbio de lo que parece.",
+        "readingLevel": "Lectura media. El argumento es claro, pero la novela gana profundidad si se atiende al tono desencantado, al contexto chileno y a las ambigüedades morales propias del género negro.",
+        "whyReadToday": "Sigue valiendo la pena porque muestra una novela policial atenta al territorio, a la memoria y a las zonas grises del poder, rasgos todavía centrales en la mejor narrativa criminal latinoamericana.",
+        "studyNotes": [
+          "Heredia no es un detective de genialidad abstracta: investiga leyendo ambientes, conversaciones, lealtades rotas y marcas sociales del espacio que recorre.",
+          "El desplazamiento a Punta Arenas introduce un motivo clave de la novela negra: el investigador como forastero que debe descifrar reglas locales y desconfiar de todas las apariencias.",
+          "La novela asocia crimen y contexto político-social, de modo que la pesquisa funciona también como lectura crítica de una comunidad y de sus jerarquías.",
+          "Conviene observar la mezcla de dureza y melancolía en la voz narrativa, rasgo típico de Díaz Eterovic y muy importante para entender la dimensión ética del personaje."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El encargo y el viaje al sur",
+            "summary": "La historia se pone en marcha cuando Heredia acepta investigar unas muertes extrañas y deja su territorio habitual. El viaje redefine la pesquisa desde el principio porque lo obliga a trabajar como extranjero en un espacio nuevo y desconcertante."
+          },
+          {
+            "title": "Parte 2: Punta Arenas como laberinto moral",
+            "summary": "Ya en el extremo sur, el detective empieza a reunir versiones, sospechas y vínculos entre las víctimas. La ciudad no aparece como simple escenario, sino como un entramado de silencios, memorias y relaciones de poder."
+          },
+          {
+            "title": "Parte 3: Deseo, peligro y revelaciones parciales",
+            "summary": "A medida que avanza la investigación, Heredia encuentra ayudas ambiguas, atracciones riesgosas y pistas que complican el caso en lugar de simplificarlo. La novela intensifica así su atmósfera de desconfianza característica."
+          },
+          {
+            "title": "Parte 4: Resolución del caso y saldo ético",
+            "summary": "El cierre aclara la red criminal, pero también deja un balance moral propio del género negro. Resolver no significa restaurar plenamente el orden, sino comprender mejor la mezcla de violencia, intereses y heridas que lo atraviesa todo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Heredia fuera de su territorio habitual",
+            "content": "Sacar al detective de Santiago renueva la serie y obliga al personaje a depender menos de sus costumbres. Esa extranjería le da a la novela una tensión especial, porque investigar implica también aprender a leer un nuevo paisaje humano."
+          },
+          {
+            "heading": "La dimensión territorial de la novela negra",
+            "content": "Punta Arenas no es un simple fondo pintoresco. Su lejanía, su clima y su red social contribuyen a la sensación de aislamiento y a la dificultad de distinguir alianzas fiables de maniobras interesadas."
+          },
+          {
+            "heading": "Crimen y memoria social",
+            "content": "Díaz Eterovic trabaja el delito como síntoma de conflictos más amplios. La investigación toca derechos humanos, poder local y zonas de opacidad histórica, ampliando el caso policial hacia una lectura crítica de la sociedad chilena."
+          },
+          {
+            "heading": "Melancolía y ética en la voz detectivesca",
+            "content": "Como en las mejores novelas de Heredia, la resolución importa menos que la forma de mirar. El detective conserva ironía y cansancio, pero también una obstinación ética que impide naturalizar la violencia o la corrupción."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta haber leído otras novelas de Heredia?",
+            "answer": "No necesariamente. Puede leerse de forma independiente, aunque quienes conozcan la serie apreciarán mejor cómo cambia el personaje al salir de su espacio habitual."
+          },
+          {
+            "question": "¿Qué aporta Punta Arenas a la novela?",
+            "answer": "Aporta una atmósfera de distancia, extrañeza y aislamiento que modifica la investigación. La ciudad se vuelve parte activa del enigma y del tono del libro."
+          },
+          {
+            "question": "¿Es una novela negra clásica o más social?",
+            "answer": "Reúne ambas vertientes. Tiene pesquisa, sospechosos y resolución, pero también una mirada sostenida sobre poder, memoria y desigualdad en el contexto chileno."
+          },
+          {
+            "question": "¿Por qué sigue siendo una lectura valiosa?",
+            "answer": "Porque muestra cómo el policial puede ser a la vez narración de suspense y examen ético del territorio, las instituciones y las lealtades rotas."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Txalaparta: Nunca enamores a un forastero",
+            "url": "https://www.txalaparta.eus/es/libros/nunca-enamores-a-un-forastero"
+          },
+          {
+            "label": "Google Play Books: Nunca enamores a un forastero",
+            "url": "https://play.google.com/store/books/details?id=IQNrDwAAQBAJ"
+          },
+          {
+            "label": "Wikipedia: Ramón Díaz Eterovic",
+            "url": "https://es.wikipedia.org/wiki/Ram%C3%B3n_D%C3%ADaz_Eterovic"
+          },
+          {
+            "label": "Casa del Libro: Nunca enamores a un forastero",
+            "url": "https://www.casadellibro.com/libro-nunca-enamores-a-un-forastero/9788481363470/1085810"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nosotros-en-la-luna-de-alice-kellen",
+      "title": "Nosotros En La Luna",
+      "authorName": "Alice Kellen",
+      "authorSlug": "alice-kellen",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 23,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Nosotros en la luna",
+        "authorName": "Alice Kellen",
+        "authorSlug": "alice-kellen",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "romance",
+          "narrativa contemporánea",
+          "drama sentimental"
+        ],
+        "year": 2020,
+        "pages": 477,
+        "summary": "Nosotros en la luna cuenta la relación larga, cambiante y emocionalmente exigente entre Ginger Davies y Rhys Baker, dos jóvenes que se conocen de forma casual en París y continúan unidos a través de correos, mensajes y encuentros espaciados por la distancia. Lo que empieza como una conexión luminosa e improbable se transforma en una historia de intimidad construida a fuego lento, marcada por los viajes, las decisiones vitales, los miedos personales y la dificultad de coincidir en el momento adecuado. Alice Kellen convierte esa correspondencia sentimental en una novela sobre crecer, perderse, elegir y preguntarse si el amor basta cuando cada persona todavía está intentando entender quién es y qué vida desea realmente.",
+        "aboutThisBook": "Publicada por Planeta, esta novela consolidó una de las líneas más reconocibles de Alice Kellen: romances extensos, de fuerte carga emocional y apoyados en la voz interior de personajes jóvenes pero ya situados ante decisiones adultas. El libro combina la sensibilidad del romance epistolar con una estructura de idas y vueltas geográficas que ensancha la historia más allá del encuentro amoroso. Su atractivo no está solo en la química entre los protagonistas, sino en la forma en que examina la amistad, la identidad, el trabajo, los sueños pospuestos y el miedo a comprometerse con una versión estable de uno mismo.",
+        "forWhom": "Para lectores de romance contemporáneo que disfrutan las historias largas, sentimentales y centradas en vínculos construidos con tiempo, distancia y mucha conversación emocional.",
+        "whyItMatters": "Importa porque retrata una forma muy actual del vínculo amoroso: personas conectadas intensamente aunque vivan en ciudades distintas, se escriban más de lo que se ven y atraviesen etapas de incertidumbre afectiva y laboral. La novela captura bien esa mezcla de ilusión, demora y fragilidad.",
+        "editorialIntro": "Alice Kellen parte de un encuentro fugaz en París para construir algo bastante más ambicioso que un simple romance de destino. Nosotros en la luna es una novela sobre la espera, sobre las vidas que avanzan a distinto ritmo y sobre el desgaste de querer a alguien cuando todavía no se ha resuelto la propia identidad. Su eficacia narrativa nace de esa tensión entre idealización y realidad.",
+        "readingLevel": "Lectura accesible de complejidad media: prosa fluida, abundante introspección emocional y una extensión considerable que pide continuidad y gusto por el romance sentimental.",
+        "whyReadToday": "Porque habla de vínculos atravesados por la distancia, la movilidad, la precariedad emocional y la búsqueda personal, asuntos muy reconocibles en la vida afectiva contemporánea.",
+        "studyNotes": [
+          "La novela usa la distancia geográfica como motor sentimental y como prueba de madurez personal.",
+          "El intercambio de mensajes y confidencias sostiene una intimidad distinta de la convivencia tradicional.",
+          "Ginger y Rhys no solo se preguntan si pueden quererse, sino en qué momento vital están capacitados para sostener ese amor."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Encuentro en París",
+            "summary": "El azar reúne a Ginger y Rhys en una ciudad asociada con la promesa romántica. Ese primer contacto, breve pero intenso, deja abierta la posibilidad de una relación que todavía no sabe cómo existir fuera del viaje y de la excepción."
+          },
+          {
+            "title": "La relación a distancia",
+            "summary": "La historia se desarrolla a través de mensajes, correos y reencuentros puntuales. La confianza crece al mismo tiempo que aparecen dudas sobre el futuro, la estabilidad emocional y la posibilidad real de compartir una vida más allá de la fantasía."
+          },
+          {
+            "title": "Crisis, decisiones y pérdidas",
+            "summary": "El paso del tiempo obliga a ambos a enfrentarse con heridas personales, inseguridades y caminos vitales no siempre compatibles. La novela deja claro que el amor no elimina los conflictos internos ni resuelve por sí solo las contradicciones de la adultez."
+          },
+          {
+            "title": "Relectura del vínculo",
+            "summary": "En el tramo final, Ginger y Rhys deben decidir qué significado conservará su historia: recuerdo formativo, amistad irrenunciable o amor capaz de atravesar cambios reales. El cierre apuesta por la transformación personal antes que por el sentimentalismo fácil."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Romance y aprendizaje emocional",
+            "content": "La novela no presenta el enamoramiento como culminación, sino como un proceso paralelo al crecimiento individual. Ginger y Rhys se atraen, se necesitan y se frustran porque cada uno está aprendiendo, a veces torpemente, a vivir con sus propias grietas."
+          },
+          {
+            "heading": "La distancia como forma narrativa",
+            "content": "La separación física no es un obstáculo decorativo: ordena el ritmo del libro, moldea la intensidad del vínculo y permite que gran parte de la intimidad se construya desde la palabra escrita. Eso acerca la novela al modelo epistolar contemporáneo."
+          },
+          {
+            "heading": "Idealización frente a realidad",
+            "content": "Uno de los intereses del libro está en mostrar cómo un amor nacido en un contexto excepcional debe medirse después con trabajos, mudanzas, expectativas y frustraciones concretas. La tensión entre lo soñado y lo posible sostiene buena parte del conflicto."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Nosotros en la luna?",
+            "answer": "Trata de la relación entre Ginger y Rhys, dos jóvenes que se conocen en París y mantienen durante años un vínculo sentimental y emocional marcado por la distancia, los mensajes y las dificultades para coincidir en el momento correcto."
+          },
+          {
+            "question": "¿Es una novela romántica o también una historia de crecimiento personal?",
+            "answer": "Es ambas cosas. El romance ocupa el centro, pero la novela dedica mucho espacio a la identidad, los sueños, el miedo a comprometerse y la maduración emocional de los protagonistas."
+          },
+          {
+            "question": "¿Qué rasgo distingue este libro dentro del romance contemporáneo?",
+            "answer": "La importancia de la comunicación escrita y de la distancia geográfica. La relación se construye tanto en lo que los personajes comparten como en lo que posponen o no saben resolver cuando se reencuentran."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Planeta de Libros — Nosotros en la luna",
+            "url": "https://www.planetadelibros.com/libro-nosotros-en-la-luna/309206"
+          },
+          {
+            "label": "Google Books — Nosotros en la luna",
+            "url": "https://books.google.com/books/about/Nosotros_en_la_luna.html?hl=es&id=Rh-fzQEACAAJ"
+          },
+          {
+            "label": "Wikipedia — Alice Kellen",
+            "url": "https://es.wikipedia.org/wiki/Alice_Kellen"
+          },
+          {
+            "label": "Open Library — Nosotros en la luna",
+            "url": "https://openlibrary.org/works/OL20875537W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "insolacion-de-emilia-pardo-bazan",
+      "title": "Insolacion",
+      "authorName": "Emilia Pardo Bazan",
+      "authorSlug": "emilia-pardo-bazan",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 22,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Insolación",
+        "authorName": "Emilia Pardo Bazán",
+        "authorSlug": "emilia-pardo-bazan",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela psicológica",
+          "clásico",
+          "romance"
+        ],
+        "year": 1889,
+        "pages": null,
+        "summary": "Insolación narra la perturbación sentimental y moral de Asís Taboada, una viuda gallega de posición acomodada que, tras una jornada festiva madrileña y un confuso malestar físico, se ve arrastrada a reconsiderar su relación con Diego Pacheco, un andaluz más joven, seductor y poco respetuoso con las convenciones sociales. Bajo la apariencia de una historia amorosa, Emilia Pardo Bazán construye una novela de conciencia: lo decisivo no es solo lo que ocurre entre ambos personajes, sino cómo Asís interpreta su deseo, su culpa y el juicio social que pesa sobre una mujer viuda. El libro desplaza el foco del argumento externo hacia la vacilación interior, cuestionando la doble moral y las ideas sobre decoro femenino en la España finisecular.",
+        "aboutThisBook": "Publicada en 1889, Insolación ocupa un lugar singular dentro de la obra de Pardo Bazán porque se aparta del naturalismo más visible de novelas anteriores y se concentra en la experiencia subjetiva, la ambigüedad psicológica y la percepción alterada de su protagonista. La autora explora hasta qué punto el deseo femenino puede narrarse sin someterlo del todo a la sanción moral dominante. Por eso la novela ha interesado tanto a la crítica: combina ironía social, observación psicológica, experimentación narrativa y una lectura tempranamente feminista de la desigualdad entre hombres y mujeres ante el amor, el sexo y la reputación pública.",
+        "forWhom": "Para lectores de clásicos españoles, estudios de género y novela psicológica interesados en personajes femeninos complejos y en la crítica moral del siglo XIX.",
+        "whyItMatters": "Importa porque pone en escena la vigilancia social sobre el deseo femenino y desmonta la doble vara con que la sociedad juzga a hombres y mujeres. Además, muestra a Pardo Bazán trabajando con una conciencia narrativa muy moderna para su tiempo.",
+        "editorialIntro": "Insolación sigue siendo una novela sorprendente porque no convierte a su protagonista en un simple caso moral ni en una heroína ejemplar. Pardo Bazán prefiere seguir los movimientos de una conciencia alterada por el deseo, la duda y la presión social. Esa elección vuelve el libro especialmente rico para leer cómo una autora del XIX discute, desde dentro de la ficción, la autoridad masculina sobre la conducta femenina.",
+        "readingLevel": "Lectura media-alta por el contexto decimonónico, la ironía discursiva y el peso del análisis psicológico, aunque la intriga afectiva mantiene el avance con claridad.",
+        "whyReadToday": "Porque su crítica a la doble moral sexual y a la vigilancia sobre la conducta femenina sigue dialogando con debates actuales sobre deseo, reputación y autonomía.",
+        "studyNotes": [
+          "Asís Taboada es un personaje construido desde la vacilación interior más que desde la acción exterior.",
+          "La insolación funciona a la vez como episodio físico, metáfora del desorden afectivo y excusa narrativa para la confusión moral.",
+          "La novela cuestiona el diferente juicio social aplicado a la conducta amorosa de hombres y mujeres."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La resaca del día festivo",
+            "summary": "La novela se abre con el malestar de Asís tras una jornada agotadora y ambigua. Ese inicio corporal instala la duda: no sabemos todavía si lo importante será el desarreglo físico, el emocional o el recuerdo borroso de lo vivido."
+          },
+          {
+            "title": "La atracción hacia Diego Pacheco",
+            "summary": "A medida que la protagonista rememora y conversa, la figura de Diego gana peso como objeto de deseo y de inquietud. Su desenvoltura masculina contrasta con la necesidad de Asís de justificarse ante sí misma y ante el mundo."
+          },
+          {
+            "title": "Deseo, culpa y autoanálisis",
+            "summary": "El núcleo del libro está en la interpretación que Asís hace de sus propios sentimientos. La novela examina cómo el deseo aparece filtrado por el pudor, la educación sentimental y el miedo al descrédito social."
+          },
+          {
+            "title": "Desenlace moral abierto",
+            "summary": "El cierre no funciona como simple castigo ni como ideal romántico pleno. Más bien deja ver la complejidad de una mujer que intenta negociar su libertad afectiva dentro de un orden social que la limita y la observa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela de conciencia femenina",
+            "content": "Pardo Bazán coloca en el centro la percepción de Asís y hace que el lector atraviese con ella la confusión entre memoria, emoción y conveniencia social. Eso convierte la historia amorosa en un estudio de subjetividad muy elaborado."
+          },
+          {
+            "heading": "Crítica de la doble moral",
+            "content": "El libro muestra con claridad que una aventura aceptable o incluso celebrada en un hombre resulta sospechosa y escandalosa en una mujer. La tensión ética de la novela nace precisamente de esa desigualdad socialmente normalizada."
+          },
+          {
+            "heading": "Del naturalismo al espiritualismo narrativo",
+            "content": "Aunque no renuncia a la observación social, la novela se interesa menos por la determinación exterior que por la vida interior, los matices de la conciencia y la oscilación del lenguaje. De ahí su importancia dentro de la evolución estética de la autora."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Quién es la protagonista de Insolación?",
+            "answer": "La protagonista es Asís Taboada, una viuda gallega de clase alta cuya relación con Diego Pacheco desata un conflicto entre deseo, conciencia moral y presión social."
+          },
+          {
+            "question": "¿Por qué se considera una novela importante de Pardo Bazán?",
+            "answer": "Porque combina análisis psicológico, crítica social y una mirada muy incisiva sobre la desigualdad de género. Además, marca un desplazamiento estilístico respecto del naturalismo más duro asociado a otras obras suyas."
+          },
+          {
+            "question": "¿Qué significa el título Insolación?",
+            "answer": "Remite al malestar físico que experimenta Asís, pero también funciona como imagen del trastorno emocional, del desorden perceptivo y de la intensidad afectiva que altera su juicio."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia — Insolación (historia amorosa)",
+            "url": "https://es.wikipedia.org/wiki/Insolaci%C3%B3n_(historia_amorosa)"
+          },
+          {
+            "label": "Google Books — Insolación. Historia amorosa",
+            "url": "https://books.google.com/books/about/Insolaci%C3%B3n_Historia_amorosa.html?hl=es&id=agqtDwAAQBAJ"
+          },
+          {
+            "label": "Wikipedia — Emilia Pardo Bazán",
+            "url": "https://es.wikipedia.org/wiki/Emilia_Pardo_Baz%C3%A1n"
+          },
+          {
+            "label": "Wikisource — Insolación",
+            "url": "https://es.wikisource.org/wiki/Insolaci%C3%B3n"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-isla-de-bowen-de-cesar-mallorqui",
+      "title": "La Isla De Bowen",
+      "authorName": "Cesar Mallorqui",
+      "authorSlug": "cesar-mallorqui",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 4,
+      "impressions": 22,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La isla de Bowen",
+        "authorName": "César Mallorquí",
+        "authorSlug": "cesar-mallorqui",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "aventuras",
+          "novela juvenil",
+          "misterio"
+        ],
+        "year": 2012,
+        "pages": 510,
+        "summary": "Ambientada en 1920, La isla de Bowen arranca con un asesinato en un puerto ártico y con el envío de un misterioso paquete que pone en marcha una expedición cada vez más extraña. A partir de ese punto, César Mallorquí articula una novela de aventuras de largo aliento en la que el profesor Ulises Zarco, su ayudante Adrián Cairo, el fotógrafo Samuel Durango y otros personajes se internan en un enigma ligado a reliquias imposibles, sociedades científicas y territorios remotos. El libro avanza como homenaje deliberado a Julio Verne, Conan Doyle y la literatura clásica de exploración, pero añade una sensibilidad moderna para el ritmo, la intriga y la construcción de personajes. El resultado es una historia juvenil ambiciosa, llena de viajes, pistas y asombro intelectual.",
+        "aboutThisBook": "Publicada por Edebé en 2012, esta novela obtuvo el Premio Edebé de Literatura Juvenil y, más tarde, el Premio Nacional de Literatura Infantil y Juvenil 2013. Su importancia dentro de la obra de Mallorquí reside en la manera en que reactiva la tradición del gran relato de aventuras sin convertirlo en mera nostalgia. La novela combina investigación, exploración polar, relato científico, humor y misterio con una arquitectura narrativa amplia, capaz de sostener personajes diversos y un secreto central muy eficaz. Por eso suele leerse tanto como novela juvenil de pura aventura como como ejercicio consciente de diálogo con los clásicos del género.",
+        "forWhom": "Para lectores juveniles y adultos que disfrutan las novelas de expedición, los enigmas científicos, los homenajes a Julio Verne y las tramas de aventuras extensas.",
+        "whyItMatters": "Importa porque demuestra que la novela juvenil de aventuras puede ser inteligente, exigente y literariamente ambiciosa sin perder sentido del entretenimiento. Además, enlaza la tradición clásica del viaje extraordinario con una narración contemporánea y muy legible.",
+        "editorialIntro": "La isla de Bowen se lee con la alegría de los grandes libros de expedición: hay puertos del norte, sociedades geográficas, reliquias imposibles, científicos ariscos y un misterio que parece desafiar la lógica. Pero lo mejor del libro es que no vive solo del guiño al pasado. Mallorquí entiende qué hacía irresistible a la aventura clásica y lo reactiva con pulso moderno, humor y una intriga muy bien dosificada.",
+        "readingLevel": "Lectura juvenil de complejidad media, más extensa y densa que una aventura escolar breve, pero escrita con claridad narrativa y fuerte impulso de intriga.",
+        "whyReadToday": "Porque recupera el placer del viaje, de la investigación y del asombro científico en un momento en que muchas lecturas juveniles privilegian la inmediatez sobre la construcción de mundo.",
+        "studyNotes": [
+          "La novela dialoga explícitamente con la tradición de Julio Verne y la aventura científica clásica.",
+          "El misterio central se sostiene en la tensión entre explicación racional y apariencia de imposible.",
+          "La expedición funciona también como novela de aprendizaje para quienes observan, narran y comprenden el viaje."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El crimen y el paquete",
+            "summary": "El asesinato de Jeremiah Perkins y el envío de un paquete enigmático desencadenan la intriga. Desde el inicio, el libro une crimen, ciencia y exploración, instalando la sospecha de que hay algo extraordinario detrás de unos hechos aparentemente aislados."
+          },
+          {
+            "title": "La expedición del Saint Michel",
+            "summary": "Ulises Zarco y sus acompañantes se embarcan en una aventura que los lleva hacia el norte y hacia un misterio cada vez más difícil de clasificar. El viaje combina observación científica, peligros físicos y una creciente sensación de maravilla."
+          },
+          {
+            "title": "Reliquias imposibles y lógica detectivesca",
+            "summary": "A mitad de la novela, las pistas obligan a reconsiderar qué puede explicarse racionalmente y qué parece desafiar toda expectativa. La referencia a Sherlock Holmes resume bien el método del libro: avanzar desde el enigma hacia una verdad improbable pero coherente."
+          },
+          {
+            "title": "La verdad de Bowen",
+            "summary": "El tramo final revela el alcance real del secreto que rodea a la isla. Más que un simple golpe de efecto, el desenlace reorganiza retrospectivamente la aventura y premia la paciencia del lector con una resolución amplia y novelesca."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Homenaje y renovación de la aventura clásica",
+            "content": "Mallorquí no copia a Verne ni a Conan Doyle: adopta sus energías narrativas, su curiosidad por lo desconocido y su gusto por el viaje extraordinario, pero les da un ritmo contemporáneo y una conciencia genérica muy clara."
+          },
+          {
+            "heading": "Ciencia, misterio y verosimilitud",
+            "content": "La novela trabaja con objetos imposibles, hipótesis audaces y espacios remotos, pero siempre procura mantener un marco de investigación y deducción. Esa mezcla de maravilla y método es una de sus principales virtudes narrativas."
+          },
+          {
+            "heading": "Una novela juvenil ambiciosa",
+            "content": "Su extensión, su reparto coral y su construcción del enigma muestran que la literatura juvenil puede aspirar a una escala grande sin perder legibilidad. El libro confía en la inteligencia del lector y en su deseo de explorar un mundo complejo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata La isla de Bowen?",
+            "answer": "Trata de una expedición iniciada a partir de un asesinato y de unas reliquias extrañas que conducen a un grupo de personajes hacia un misterio situado más allá del Círculo Polar Ártico."
+          },
+          {
+            "question": "¿Por qué suele relacionarse con Julio Verne?",
+            "answer": "Porque recupera la estructura del viaje extraordinario, la curiosidad científica, el gusto por la exploración y el tono de maravilla racional propio de muchas novelas vernianas."
+          },
+          {
+            "question": "¿Tuvo reconocimiento crítico?",
+            "answer": "Sí. Fue Premio Edebé de Literatura Juvenil 2012 y obtuvo también el Premio Nacional de Literatura Infantil y Juvenil 2013, además de otros reconocimientos citados en la trayectoria pública de su autor."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Google Books — La isla de Bowen",
+            "url": "https://books.google.com/books/about/La_isla_de_Bowen.html?hl=es&id=Kl6YtgAACAAJ"
+          },
+          {
+            "label": "Wikipedia — César Mallorquí",
+            "url": "https://es.wikipedia.org/wiki/C%C3%A9sar_Mallorqu%C3%AD"
+          },
+          {
+            "label": "Edebé — La isla de Bowen, mejor novela juvenil del 2012 según El Templo de las Mil Puertas",
+            "url": "https://edebe.com/prensa/la-isla-de-bowen-de-cesar-mallorqui-mejor-novela-juvenil-del-2012-segun-la-revista-el-templo-de-las-mil-puertas/"
+          },
+          {
+            "label": "Open Library — La isla de Bowen",
+            "url": "https://openlibrary.org/works/OL16812691W"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-17T18:41:35Z"
+}

@@ -1,0 +1,1467 @@
+{
+  "batchName": "replenish-20260420T202152Z-next26",
+  "createdAt": "2026-04-20T20:21:59Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "mentirosa-de-justine-larbalestier",
+      "title": "Mentirosa",
+      "authorName": "Justine Larbalestier",
+      "authorSlug": "justine-larbalestier",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Mentirosa",
+        "authorName": "Justine Larbalestier",
+        "authorSlug": "justine-larbalestier",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "thriller",
+          "fantasia"
+        ],
+        "year": 2009,
+        "pages": 344,
+        "summary": "Mentirosa sigue a Micah Wilkins, una adolescente brillante, contradictoria y profundamente poco fiable que abre la novela con una confesión desconcertante: promete decir la verdad justo cuando todo en su voz sugiere que esa verdad siempre llega deformada. La muerte de Zach, su novio, activa la intriga, pero el verdadero motor del libro no es solo averiguar qué ocurrió, sino decidir cuánto puede creer el lector a una narradora que se corrige, se contradice y manipula el relato. Justine Larbalestier construye así un thriller psicológico juvenil con elementos de fantasía oscura, identidad corporal y miedo social. La novela convierte la mentira en estructura, en tema y en experiencia de lectura: cada giro obliga a revisar prejuicios sobre la adolescencia, la belleza, la raza, la enfermedad y el deseo de encajar.",
+        "aboutThisBook": "Publicada en 2009, Mentirosa es una de las novelas juveniles más discutidas de Justine Larbalestier porque combina suspense, narradora no fiable y comentario crítico sobre representación racial y expectativas del mercado editorial. El libro se apoya en convenciones del thriller y de la ficción fantástica, pero su apuesta más fuerte es formal: obliga a leer en estado de sospecha permanente. Más que resolver un enigma de manera lineal, propone una reflexión sobre cómo se fabrica una identidad cuando el mundo exige versiones coherentes de uno mismo.",
+        "forWhom": "Para lectores juveniles y adultos que disfrutan novelas con narradores ambiguos, suspense psicológico y debates sobre identidad, percepción y verdad narrativa.",
+        "whyItMatters": "Importa porque lleva la literatura juvenil a una zona de mayor complejidad moral y formal. No ofrece una protagonista fácil de admirar ni una verdad estable, y justamente por eso permite discutir cómo leemos, a quién creemos y qué sesgos activamos ante ciertos cuerpos y voces.",
+        "editorialIntro": "Hay novelas que cuentan una historia y otras que ponen en crisis la manera misma de contarla. Mentirosa pertenece a esa segunda clase. Justine Larbalestier parte de un crimen adolescente, pero enseguida desplaza el centro hacia la confianza rota entre narradora y lector. El resultado es un libro incómodo, absorbente y muy útil para pensar la ficción como campo de manipulación y autodefensa.",
+        "readingLevel": "Media-alta: la prosa es accesible, pero la estructura exige atención constante a contradicciones, silencios y pistas falsas.",
+        "whyReadToday": "Porque sigue siendo una novela muy vigente sobre identidad performativa, autoimagen y desinformación íntima: temas que hoy dialogan con redes sociales, reputación y construcción pública del yo.",
+        "studyNotes": [
+          "La clave no está solo en descubrir si Micah miente, sino en analizar por qué necesita controlar la versión de sí misma que entrega a los demás.",
+          "La novela funciona como ejercicio de lectura crítica: cada dato debe ser evaluado en relación con el tono, la omisión y la contradicción.",
+          "Conviene observar cómo el libro mezcla códigos del thriller, de la fantasía y del drama adolescente sin descansar del todo en ninguno de ellos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: la confesión imposible",
+            "summary": "Micah se presenta con una promesa de sinceridad que, paradójicamente, enciende la desconfianza. La noticia de la muerte de Zach instala el misterio y define el tono inestable del relato."
+          },
+          {
+            "title": "Nudo: versiones, secretos y sospechas",
+            "summary": "A medida que Micah recuerda su relación con Zach, su familia y sus propios hábitos de mentira, la novela multiplica las hipótesis. El lector recibe datos parciales y aprende a leer contra la superficie de la narración."
+          },
+          {
+            "title": "Desenlace: verdad parcial y persistencia de la duda",
+            "summary": "El cierre ofrece revelaciones, pero no elimina del todo la ambigüedad. Larbalestier prefiere dejar claro que la verdad narrada nunca es totalmente inocente ni transparente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La narradora no fiable como centro del libro",
+            "content": "Micah no es un simple truco de suspense. Su voz organiza la novela y convierte la lectura en una negociación constante entre empatía y sospecha. Esa estrategia obliga a revisar qué entendemos por sinceridad y testimonio."
+          },
+          {
+            "heading": "Identidad, cuerpo y mirada social",
+            "content": "La novela sugiere que mentir también puede ser una respuesta a la presión social. Micah vive bajo miradas ajenas que clasifican, desean o patologizan, y el relato expone esa violencia cotidiana de manera sutil pero persistente."
+          },
+          {
+            "heading": "Thriller juvenil con ambición formal",
+            "content": "Aunque parte de un asesinato y de una voz adolescente, Mentirosa se distingue por su riesgo estructural. No busca solo entretener: busca que el lector experimente la fragilidad de toda versión cerrada de los hechos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Mentirosa es solo una novela de misterio juvenil?",
+            "answer": "No. Tiene un núcleo de intriga muy fuerte, pero también funciona como novela sobre identidad, autoinvención y lectura desconfiada."
+          },
+          {
+            "question": "¿Hace falta aceptar literalmente todos los elementos fantásticos para disfrutarla?",
+            "answer": "No. Parte de la fuerza del libro está en mantener al lector en una zona de incertidumbre donde lo psicológico y lo fantástico se contaminan mutuamente."
+          },
+          {
+            "question": "¿Por qué se estudia tanto su narradora?",
+            "answer": "Porque Micah muestra cómo una voz puede sostener el interés, manipular la información y convertir la mentira en un dispositivo literario de primer orden."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia — Liar (novel)",
+            "url": "https://en.wikipedia.org/wiki/Liar_(novel)"
+          },
+          {
+            "label": "Open Library — Liar (work)",
+            "url": "https://openlibrary.org/works/OL5715696W/Liar"
+          },
+          {
+            "label": "Open Library — ediciones de Liar",
+            "url": "https://openlibrary.org/works/OL5715696W/editions"
+          },
+          {
+            "label": "Justine Larbalestier — Liar",
+            "url": "https://justinelarbalestier.com/books/liar/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mexico-barbaro-de-john-kenneth-turner",
+      "title": "Mexico Barbaro",
+      "authorName": "John Kenneth Turner",
+      "authorSlug": "john-kenneth-turner",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "México bárbaro",
+        "authorName": "John Kenneth Turner",
+        "authorSlug": "john-kenneth-turner",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 1910,
+        "pages": null,
+        "summary": "México bárbaro es una investigación periodística de denuncia en la que John Kenneth Turner documenta, con tono urgente y combativo, las formas de explotación, servidumbre y violencia que observó bajo el Porfiriato. A partir de reportajes publicados primero en 1909 y luego reunidos en libro, Turner describe las condiciones de los peones en Yucatán, Valle Nacional y otros espacios donde el progreso oficial convivía con trabajo forzado, represión política y complicidad empresarial. El texto no es una crónica distante: interpela al lector, acumula testimonios, cifras, escenas y acusaciones, y sitúa la estabilidad porfiriana bajo una luz brutalmente distinta. Su fuerza histórica proviene de esa mezcla de periodismo de investigación, alegato político y narrativa testimonial, que ayudó a erosionar la imagen internacional del régimen de Porfirio Díaz.",
+        "aboutThisBook": "Más que un libro de historia escrito a posteriori, México bárbaro es un documento de intervención pública. Turner escribe como periodista militante, convencido de que revelar el funcionamiento material del régimen es una tarea moral y política. Por eso el libro conserva una energía polémica singular: no organiza los hechos desde la neutralidad académica, sino desde la urgencia de denunciar esclavitud por deudas, persecución de opositores y la alianza entre poder político y negocio privado. Leerlo hoy exige distinguir entre documento, retórica y evidencia, pero precisamente ahí reside gran parte de su valor.",
+        "forWhom": "Para lectores adultos interesados en historia de México, periodismo de investigación, estudios del Porfiriato y textos de denuncia social con fuerte dimensión política.",
+        "whyItMatters": "Importa porque es una fuente decisiva para entender cómo se construyó una crítica internacional al Porfiriato y cómo el periodismo puede intervenir en procesos históricos concretos. También recuerda que los relatos de modernización suelen ocultar jerarquías violentas y trabajo coercitivo.",
+        "editorialIntro": "Pocas obras periodísticas latinoamericanas conservaron tanta capacidad de incomodar como México bárbaro. El libro de John Kenneth Turner no se limita a describir abusos: desmonta la retórica del orden y del progreso mostrando quién pagaba realmente ese supuesto éxito. Su lectura sigue siendo intensa porque combina información, indignación y una voluntad muy clara de transformar la percepción pública del poder.",
+        "readingLevel": "Media-alta: el estilo es directo, pero conviene leer con contexto histórico para valorar mejor sus referencias políticas y su dimensión documental.",
+        "whyReadToday": "Porque ayuda a discutir trabajo forzado, propaganda estatal, desigualdad y responsabilidad del testigo, cuestiones que siguen vigentes en el debate sobre derechos humanos y memoria histórica.",
+        "studyNotes": [
+          "Conviene distinguir entre el valor documental del libro y su retórica de denuncia: ambas cosas operan juntas y forman parte de su impacto.",
+          "El texto puede leerse como fuente primaria sobre la imagen internacional del Porfiriato, no solo como reportaje sobre hechos concretos.",
+          "Observa cómo Turner organiza testimonios y escenas para convertir la información periodística en acusación política sostenida."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: el país detrás del progreso oficial",
+            "summary": "Turner introduce el contraste entre la imagen moderna del régimen de Díaz y las condiciones reales que encuentra en regiones sometidas a explotación extrema. Desde el inicio, el libro plantea que la prosperidad exhibida tiene un costo humano oculto."
+          },
+          {
+            "title": "Núcleo del libro: esclavitud, peonaje y represión",
+            "summary": "La investigación se concentra en casos y territorios donde el trabajo forzado aparece ligado a redes de poder económico y estatal. Turner acumula pruebas, testimonios y descripciones de castigo para sostener su denuncia."
+          },
+          {
+            "title": "Cierre: denuncia política y alcance internacional",
+            "summary": "Más allá del inventario de abusos, el libro concluye como una acusación contra el sistema porfiriano y contra quienes, dentro y fuera de México, se beneficiaban de él o preferían ignorarlo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Periodismo de investigación como intervención histórica",
+            "content": "México bárbaro no espera a que la historia juzgue al régimen: intenta influir en el presente de su publicación. Esa voluntad de incidencia explica su tono, su selección de escenas y su fuerza pública."
+          },
+          {
+            "heading": "El Porfiriato visto desde sus víctimas",
+            "content": "Frente al relato de estabilidad y modernización, Turner desplaza el foco hacia trabajadores endeudados, presos políticos y comunidades sometidas. El libro reorganiza así la perspectiva histórica desde abajo."
+          },
+          {
+            "heading": "Entre documento, alegato y narrativa",
+            "content": "Su eficacia no proviene solo de los datos, sino del modo en que están contados. Turner alterna exposición factual, indignación moral y escenas vívidas para producir convicción y urgencia en el lector."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿México bárbaro es historia o periodismo?",
+            "answer": "Es, ante todo, periodismo de investigación y denuncia; con el tiempo se volvió además una fuente histórica fundamental para estudiar el final del Porfiriato."
+          },
+          {
+            "question": "¿Fue escrito durante la Revolución mexicana?",
+            "answer": "Sus reportajes aparecieron en 1909 y la primera edición en libro se publicó en 1910, en el umbral del proceso revolucionario."
+          },
+          {
+            "question": "¿Sigue siendo útil si hoy existen estudios más recientes?",
+            "answer": "Sí. No sustituye a la historiografía posterior, pero sigue siendo valioso como testimonio de época y como ejemplo de periodismo capaz de alterar la conversación pública."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia — México bárbaro",
+            "url": "https://es.wikipedia.org/wiki/M%C3%A9xico_b%C3%A1rbaro"
+          },
+          {
+            "label": "Open Library — Barbarous Mexico (work)",
+            "url": "https://openlibrary.org/works/OL6920690W/Barbarous_Mexico"
+          },
+          {
+            "label": "Open Library — ediciones de Barbarous Mexico / México bárbaro",
+            "url": "https://openlibrary.org/works/OL6920690W/editions"
+          },
+          {
+            "label": "Internet Archive — México bárbaro",
+            "url": "https://archive.org/details/mxicobrbaro0000turn"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mi-credo-de-hermann-hesse",
+      "title": "Mi Credo",
+      "authorName": "Hermann Hesse",
+      "authorSlug": "hermann-hesse",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Mi credo",
+        "authorName": "Hermann Hesse",
+        "authorSlug": "hermann-hesse",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "desarrollo-personal"
+        ],
+        "year": 1971,
+        "pages": 152,
+        "summary": "Mi credo, identificado en la tradición editorial de Hesse con el volumen alemán Mein Glaube y emparentado con la selección inglesa My Belief, reúne textos ensayísticos y reflexivos en los que el autor expone su visión de la vida interior, la religión, el arte, la cultura y la formación espiritual del individuo. No es una narración unitaria ni un tratado sistemático, sino una constelación de ideas que vuelven una y otra vez sobre la autenticidad, la conciencia, la experiencia religiosa no dogmática y la defensa de la singularidad frente a las presiones de la masa. En estas páginas aparece un Hesse menos novelesco y más meditativo: crítico con los conformismos, atento a la vida del espíritu y convencido de que el arte y la introspección pueden abrir caminos de orientación ética sin convertirse en doctrina cerrada.",
+        "aboutThisBook": "Este libro interesa porque deja ver a Hermann Hesse en un registro ensayístico muy reconocible: breve, concentrado y deliberadamente antidogmático. En lugar de ofrecer un credo confesional, propone una búsqueda personal que combina sensibilidad artística, inquietud religiosa y exigencia de autonomía interior. Por eso puede leerse como complemento de sus novelas más conocidas: aquí reaparecen, en forma conceptual o aforística, preocupaciones que también atraviesan Demian, Siddhartha o El lobo estepario. Es un volumen útil para estudiar la dimensión intelectual y espiritual de su obra, especialmente en su faceta de pensador literario más que de narrador.",
+        "forWhom": "Para lectores adultos interesados en ensayos breves sobre espiritualidad, ética individual, arte y pensamiento humanista, así como para quienes ya leen a Hesse y quieren ampliar su mapa intelectual.",
+        "whyItMatters": "Importa porque concentra, sin el rodeo de la ficción, algunos de los núcleos de la obra de Hesse: la formación del yo, la crítica del conformismo, la tensión entre cultura y vida interior y la búsqueda de una fe no sometida al dogma.",
+        "editorialIntro": "A veces la mejor puerta de entrada a un gran novelista no es otra novela, sino un libro en el que piensa en voz alta. Mi credo permite escuchar a Hesse sin personajes de por medio: más aforístico, más meditativo, más explícito en su defensa de la interioridad y de una espiritualidad libre. Es una lectura breve en apariencia, pero muy densa en implicaciones filosóficas y morales.",
+        "readingLevel": "Media-alta: el lenguaje no suele ser oscuro, pero la lectura pide pausa, subrayado y disposición para seguir ideas más que una trama.",
+        "whyReadToday": "Porque ofrece una reflexión serena sobre autonomía, sentido y vida interior en una época marcada por ruido, aceleración y discursos identitarios rígidos.",
+        "studyNotes": [
+          "No conviene leer el libro buscando un sistema filosófico cerrado; funciona mejor como conjunto de intuiciones, ensayos breves y posiciones espirituales en diálogo entre sí.",
+          "Muchas ideas del volumen se entienden mejor si se comparan con las novelas de Hesse, donde los mismos conflictos aparecen dramatizados en personajes y trayectorias vitales.",
+          "La palabra 'credo' debe leerse con matiz: Hesse no propone obediencia doctrinal, sino una ética de búsqueda personal y vigilancia interior."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera zona: fe personal y rechazo del dogma",
+            "summary": "Los textos iniciales sitúan la preocupación central del volumen: cómo sostener una vida espiritual auténtica sin someterla a fórmulas rígidas. Hesse distingue experiencia interior de mera adhesión institucional."
+          },
+          {
+            "title": "Zona media: arte, cultura y formación del individuo",
+            "summary": "El libro relaciona sensibilidad artística y crecimiento interior. La cultura aparece no como adorno social, sino como práctica de atención, depuración y resistencia frente a la banalidad colectiva."
+          },
+          {
+            "title": "Tramo final: responsabilidad íntima y madurez",
+            "summary": "En sus pasajes más reflexivos, el volumen insiste en que la verdad personal exige disciplina, soledad y autoconocimiento. El cierre deja la impresión de una ética de la interioridad antes que de una doctrina cerrada."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Hesse ensayista: la ficción convertida en idea",
+            "content": "Mi credo permite ver cómo temas centrales de Hesse se formulan sin mediación narrativa. La búsqueda del yo, la crítica de la uniformidad y la tensión entre espíritu y sociedad aparecen aquí de manera más explícita y argumentativa."
+          },
+          {
+            "heading": "Espiritualidad sin catecismo",
+            "content": "El libro resulta valioso porque separa vida espiritual y obediencia doctrinal. Hesse busca una relación con lo sagrado que no renuncie a la duda, a la libertad interior ni a la responsabilidad personal."
+          },
+          {
+            "heading": "Vigencia contemporánea del volumen",
+            "content": "Leído hoy, el libro dialoga con inquietudes muy actuales: saturación informativa, pérdida de atención, necesidad de sentido y deseo de una vida menos determinada por la aprobación externa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Mi credo es una novela de Hermann Hesse?",
+            "answer": "No. Se trata de un volumen ensayístico y reflexivo, asociado editorialmente a Mein Glaube y a la recopilación inglesa My Belief."
+          },
+          {
+            "question": "¿Es un libro religioso en sentido confesional?",
+            "answer": "No exactamente. Habla de fe, espíritu y vida interior, pero desde una perspectiva personal, literaria y claramente antidogmática."
+          },
+          {
+            "question": "¿Sirve para empezar a leer a Hesse?",
+            "answer": "Puede servir si buscas sus ideas de forma directa; aun así, muchos lectores prefieren entrar por Siddhartha o Demian y volver luego a este libro para reconocer sus fundamentos ensayísticos."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library — Mein Glaube",
+            "url": "https://openlibrary.org/works/OL873063W/Mein_Glaube"
+          },
+          {
+            "label": "Open Library — My Belief",
+            "url": "https://openlibrary.org/works/OL873072W/My_belief"
+          },
+          {
+            "label": "Internet Archive — My Belief: essays on life and art",
+            "url": "https://archive.org/details/mybeliefessayson0000hess"
+          },
+          {
+            "label": "The Nobel Prize — Hermann Hesse facts",
+            "url": "https://www.nobelprize.org/prizes/literature/1946/hesse/facts/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mis-documentos-de-alejandro-zambra",
+      "title": "Mis Documentos",
+      "authorName": "Alejandro Zambra",
+      "authorSlug": "alejandro-zambra",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Mis documentos",
+        "authorName": "Alejandro Zambra",
+        "authorSlug": "alejandro-zambra",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2013,
+        "pages": 205,
+        "summary": "Mis documentos es un volumen de cuentos en el que Alejandro Zambra convierte materiales aparentemente menores —archivos viejos, recuerdos domésticos, relaciones sentimentales gastadas, escenas de infancia y vida adulta— en una exploración incisiva de la intimidad contemporánea. Los relatos avanzan entre humor seco, melancolía y observación minuciosa para retratar hombres desorientados, vínculos familiares incompletos y generaciones marcadas por la herencia emocional de la transición chilena. Más que ofrecer grandes giros argumentales, el libro trabaja con pequeñas fracturas: la distancia entre padres e hijos, la fragilidad del amor, la nostalgia tecnológica y la forma en que los documentos personales guardan rastros de lo que quisimos ser. El resultado es una narrativa breve pero densa, donde lo cotidiano se vuelve una vía de acceso a preguntas sobre memoria, identidad y masculinidad.",
+        "aboutThisBook": "Publicado en 2013, este libro consolida a Zambra como uno de los narradores latinoamericanos más atentos a las zonas grises de la experiencia privada. No es una novela unitaria sino una colección de cuentos que dialogan entre sí por tono, obsesiones y mirada generacional. El título funciona como poética: cada texto parece un archivo íntimo recuperado, incompleto o mal guardado, y desde ahí examina afectos, derrotas menores y el desgaste de ciertas promesas personales y colectivas.",
+        "forWhom": "Para lectores de narrativa contemporánea, estudiantes de literatura hispanoamericana y quienes disfrutan relatos breves con carga emocional, ironía y reflexión sobre memoria privada y vida familiar.",
+        "whyItMatters": "Importa porque muestra cómo la gran historia entra en la vida diaria a través de gestos mínimos, y porque renueva el cuento latinoamericano desde una voz sobria, irónica y generacionalmente muy reconocible.",
+        "editorialIntro": "En Mis documentos, Alejandro Zambra trabaja contra la idea de que solo los acontecimientos extraordinarios merecen ser narrados. Sus cuentos se concentran en restos: papeles, recuerdos, conversaciones fallidas, vínculos que persisten de forma ambigua. Desde esa materia discreta construye un libro de enorme precisión afectiva, muy útil para leer cómo la literatura contemporánea transforma la intimidad en forma crítica.",
+        "readingLevel": "Nivel medio-alto: la prosa es clara y contenida, pero el libro exige atención a la ironía, a los silencios y a las resonancias entre relatos, ideal para bachillerato avanzado o primeros cursos universitarios.",
+        "whyReadToday": "Sigue siendo muy actual porque habla de archivos personales, memoria digital, paternidades inseguras y precariedad afectiva, asuntos que hoy atraviesan la conversación cultural con incluso más fuerza que en su publicación.",
+        "studyNotes": [
+          "Conviene leer el título como una clave interpretativa: los cuentos funcionan como expedientes íntimos, fragmentos de vida ordenados de manera siempre precaria.",
+          "La voz de Zambra evita el dramatismo enfático; buena parte de su efecto depende de la ironía, la elipsis y el detalle aparentemente trivial.",
+          "La figura del padre y la pregunta por la masculinidad reaparecen en varios relatos como un problema afectivo antes que como tesis explícita.",
+          "El libro dialoga con la memoria de la transición chilena, pero lo hace desde espacios domésticos y biográficos más que desde el discurso histórico directo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primeros relatos: archivos íntimos y memoria",
+            "summary": "La apertura del libro instala el tono general: narradores que revisan materiales personales y descubren que recordar también implica deformar, omitir y reorganizar el pasado. La intimidad aparece como un archivo inestable."
+          },
+          {
+            "title": "Zona media: familia, pareja y desencanto generacional",
+            "summary": "En la parte central, varios cuentos exploran relaciones amorosas erosionadas, paternidades inciertas y amistades marcadas por la distancia. Zambra observa cómo la madurez no resuelve las inseguridades de la juventud, sino que las vuelve más complejas."
+          },
+          {
+            "title": "Relatos finales: humor, pérdida y relectura del yo",
+            "summary": "Hacia el cierre, el libro intensifica la mezcla de humor melancólico y examen retrospectivo. Los personajes comprenden que sus documentos personales no garantizan una identidad estable, sino apenas huellas parciales de lo vivido."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La poética del archivo personal",
+            "content": "El título no alude solo a papeles concretos. También sugiere que la identidad contemporánea se compone de restos, versiones y archivos incompletos. Cada cuento examina esa tensión entre guardar y perder."
+          },
+          {
+            "heading": "Masculinidad y vulnerabilidad",
+            "content": "Muchos personajes masculinos aparecen descentrados, torpes o afectivamente inmaduros. El libro desmonta modelos heredados de autoridad y muestra sujetos que no saben del todo cómo amar, cuidar o narrarse."
+          },
+          {
+            "heading": "Historia mínima y transición chilena",
+            "content": "Aunque evita el tono programático, la colección deja ver el trasfondo de una generación formada tras la dictadura. La política aparece filtrada por la vida doméstica, el recuerdo escolar y la educación sentimental."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Mis documentos es novela o libro de cuentos?",
+            "answer": "Es un libro de cuentos. Los textos son independientes, aunque comparten tono, preocupaciones y una sensibilidad generacional que les da unidad de conjunto."
+          },
+          {
+            "question": "¿Hace falta conocer la historia reciente de Chile para leerlo?",
+            "answer": "No es imprescindible, pero conocer el contexto de la transición chilena ayuda a percibir mejor algunas capas de memoria, desencanto y formación afectiva presentes en el libro."
+          },
+          {
+            "question": "¿Qué distingue la escritura de Zambra en este libro?",
+            "answer": "Su combinación de brevedad, ironía, intimidad y precisión. Zambra trabaja con escenas pequeñas y consigue que tengan una resonancia emocional e histórica mucho mayor de lo que parece al comienzo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library — Mis documentos (obra)",
+            "url": "https://openlibrary.org/works/OL17374771W/Mis_documentos"
+          },
+          {
+            "label": "Editorial Anagrama — Mis documentos",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/mis-documentos/9788433997715/NH_524"
+          },
+          {
+            "label": "Editorial Anagrama — autor Alejandro Zambra",
+            "url": "https://www.anagrama-ed.es/autor/zambra-alejandro-455"
+          },
+          {
+            "label": "Fitzcarraldo Editions — My Documents",
+            "url": "https://fitzcarraldoeditions.com/books/my-documents/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mitosis-de-brandon-sanderson",
+      "title": "Mitosis",
+      "authorName": "Brandon Sanderson",
+      "authorSlug": "brandon-sanderson",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Mitosis",
+        "authorName": "Brandon Sanderson",
+        "authorSlug": "brandon-sanderson",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "ciencia-ficcion",
+          "fantasia",
+          "juvenil"
+        ],
+        "year": 2013,
+        "pages": null,
+        "summary": "Mitosis es una narración breve situada entre Steelheart y Firefight dentro de la serie The Reckoners. El texto devuelve al lector al mundo devastado por los Épicos, seres con poderes extraordinarios que han convertido el orden político en un régimen de miedo. Aquí David Charleston y los Reckoners deben enfrentarse a una nueva amenaza en Newcago: un enemigo capaz de multiplicarse y alterar por completo la escala del combate. Como relato intermedio, la obra no busca reemplazar a las novelas principales, sino ampliar el universo y mostrar cómo sigue funcionando el grupo después del primer gran triunfo. Sanderson combina ritmo rápido, humor juvenil, tácticas de combate y una reflexión sencilla pero eficaz sobre liderazgo, trauma y adaptación. El atractivo del libro está en ver a los personajes responder a un peligro nuevo cuando todavía no han terminado de entender las consecuencias del anterior.",
+        "aboutThisBook": "Se trata de una noveleta o relato largo de ciencia ficción juvenil publicado originalmente en formato digital y luego difundido también en audio. Su función principal es enlazar dos novelas mayores de la saga, pero tiene interés propio porque ensaya una amenaza distinta y comprime en pocas páginas el estilo de Sanderson fuera del Cosmere: acción muy legible, reglas claras del conflicto y un protagonista que mezcla obsesión, ingenio y aprendizaje moral. Es una pieza complementaria, no un volumen aislado ideal para empezar desde cero.",
+        "forWhom": "Para lectores juveniles y adultos que ya disfrutaron Steelheart, para seguidores de Sanderson interesados en textos puente de saga y para quien busque una aventura breve de superpoderes con lógica táctica clara.",
+        "whyItMatters": "Importa dentro de la serie porque muestra la transición entre dos novelas clave y refuerza la dinámica del equipo, además de ofrecer una miniatura muy representativa del modo en que Sanderson organiza tensión, reglas y resolución.",
+        "editorialIntro": "Mitosis funciona como una pieza de enlace, pero no como mero relleno. Su brevedad obliga a Sanderson a concentrar el conflicto y a exponer con rapidez qué hace atractiva la serie The Reckoners: un mundo posapocalíptico de superpoderes corruptos, un grupo humano que responde con estrategia y un protagonista que aprende mientras combate.",
+        "readingLevel": "Nivel medio: lenguaje directo, acción constante y universo accesible si ya se conoce Steelheart; para lectores nuevos puede requerir una breve familiarización con el sistema de Épicos y la situación de Newcago.",
+        "whyReadToday": "Se lee bien hoy porque participa del auge de las historias de superhéroes desde un ángulo menos triunfalista: poderes extraordinarios, sí, pero asociados al abuso, al miedo y a la necesidad de resistencia organizada.",
+        "studyNotes": [
+          "La obra está pensada como texto intermedio de saga; conviene situarla entre Steelheart y Firefight para apreciar su función narrativa completa.",
+          "Sanderson vuelve a oponer poder desmedido y vulnerabilidad humana, pero lo hace mediante estrategia colectiva más que por simple fuerza individual.",
+          "El título alude a la multiplicación como amenaza material y simbólica: el enemigo desborda la capacidad de control y obliga a replantear tácticas.",
+          "Puede leerse como ejemplo de narrativa expandida: un texto breve que no es marginal, porque afina relaciones, tono y continuidad del universo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: la nueva amenaza en Newcago",
+            "summary": "El relato reintroduce el mundo posterior a Steelheart y presenta una crisis inédita para los Reckoners. El grupo debe medir rápidamente la naturaleza del nuevo Epic y adaptar su repertorio de respuestas."
+          },
+          {
+            "title": "Desarrollo: táctica, presión y trabajo en equipo",
+            "summary": "La parte media concentra persecuciones, observación de patrones y decisiones de riesgo. David narra desde su mezcla habitual de entusiasmo, miedo y pensamiento estratégico, mientras el equipo prueba hipótesis bajo presión."
+          },
+          {
+            "title": "Desenlace: comprender el peligro y contenerlo",
+            "summary": "El cierre transforma el enfrentamiento físico en una resolución táctica. Más que una simple victoria, el relato deja claro que cada amenaza obliga a redefinir qué significa resistir en un mundo dominado por Épicos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Entre novela principal y texto puente",
+            "content": "Mitosis sirve para conectar etapas narrativas de la saga, pero también para mantener activo el crecimiento de David y la cohesión de los Reckoners. Su valor está en esa doble condición: complemento y episodio significativo."
+          },
+          {
+            "heading": "Superpoder y corrupción",
+            "content": "Como en el resto de The Reckoners, los poderes no se presentan como promesa heroica, sino como distorsión ética y política. El libro insiste en que el problema no es solo quién manda, sino cómo el poder transforma a quien lo posee."
+          },
+          {
+            "heading": "La claridad táctica de Sanderson",
+            "content": "Incluso en formato breve, Sanderson organiza el conflicto con reglas comprensibles, observación de debilidades y resolución estratégica. Esa claridad vuelve la lectura especialmente útil para jóvenes lectores de ciencia ficción y fantasía."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Se puede leer Mitosis sin haber leído Steelheart?",
+            "answer": "Se puede, pero no es lo ideal. El relato presupone conocimiento del mundo, del protagonista y de eventos relevantes de la primera novela."
+          },
+          {
+            "question": "¿Mitosis es novela completa o relato breve?",
+            "answer": "Es una narración breve, a medio camino entre cuento largo y noveleta, concebida como historia intermedia dentro de The Reckoners."
+          },
+          {
+            "question": "¿Aporta algo importante a la saga o solo expande el universo?",
+            "answer": "Aporta ambas cosas: expande el universo y también refuerza la dinámica del equipo, el tono de la serie y la transición emocional y narrativa entre dos novelas principales."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Brandon Sanderson: página de la serie The Reckoners",
+            "url": "https://www.brandonsanderson.com/pages/the-reckoners-series"
+          },
+          {
+            "label": "Brandon Sanderson: Mitosis audiobook free on Audible",
+            "url": "https://www.brandonsanderson.com/blogs/blog/mitosis-audiobook-free-on-audible"
+          },
+          {
+            "label": "Brandon Sanderson: Mitosis released in the UK/Australia/New Zealand/Ireland",
+            "url": "https://www.brandonsanderson.com/blogs/blog/mitosis-released-in-the-uk-australia-new-zealand-ireland"
+          },
+          {
+            "label": "Open Library: Mitosis",
+            "url": "https://openlibrary.org/works/OL19913036W/Mitosis"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mr-witt-en-el-canton-de-ramon-j-sender",
+      "title": "Mr Witt En El Canton",
+      "authorName": "Ramon J Sender",
+      "authorSlug": "ramon-j-sender",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Mr. Witt en el cantón",
+        "authorName": "Ramón J. Sender",
+        "authorSlug": "ramon-j-sender",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 1935,
+        "pages": 274,
+        "summary": "Mr. Witt en el cantón sitúa su acción en la Cartagena de la rebelión cantonal de 1873 y entrelaza el conflicto político con una intensa crisis íntima. Jorge Witt, ingeniero inglés de temperamento racional y conservador, ve resquebrajarse su vida doméstica mientras su esposa, Milagritos Rueda, se deja arrastrar por una energía emocional y erótica que desborda los límites de su matrimonio. Ramón J. Sender construye así una novela histórica que no separa nunca lo privado de lo colectivo: los celos, la pasión, la disciplina y el deseo reverberan en una ciudad en insurrección. El libro combina reconstrucción de época, reflexión política y estudio de caracteres para mostrar un mundo donde el orden liberal, la agitación revolucionaria y las tensiones sexuales se contagian mutuamente. La novela ganó el Premio Nacional de Narrativa y sigue siendo una de las obras decisivas de la narrativa española anterior a la guerra civil.",
+        "aboutThisBook": "Publicada en 1935, la novela pertenece al mejor momento de la primera etapa de Sender y destaca por su ambición formal e histórica. El episodio del Cantón de Cartagena no aparece como simple decorado, sino como laboratorio en el que se cruzan ideologías, impulsos colectivos y psicologías individuales. Su valor reside precisamente en esa doble escala: permite leer una crisis política del siglo XIX y, al mismo tiempo, un matrimonio desgarrado por celos, fascinación y diferencias de temperamento. Es un clásico útil para estudiar novela histórica, modernidad política y construcción simbólica de personajes.",
+        "forWhom": "Para lectores de clásicos españoles, estudiantes de literatura e historia, y quienes buscan una novela histórica con espesor político y análisis fino de la relación entre deseo, orden social e insurrección.",
+        "whyItMatters": "Sigue importando porque muestra de manera compleja cómo la esfera privada puede convertirse en espejo de una crisis colectiva y porque representa uno de los grandes logros narrativos de Sender antes del exilio.",
+        "editorialIntro": "Leer hoy Mr. Witt en el cantón es entrar en una novela que se niega a elegir entre historia pública y drama íntimo. Sender organiza ambas dimensiones como si fueran inseparables: la rebelión altera la casa y la vida conyugal ilumina la fragilidad del orden político. Esa estructura hace del libro mucho más que una reconstrucción de época.",
+        "readingLevel": "Nivel medio-alto: requiere atención al contexto histórico de la Primera República, al lenguaje narrativo de un clásico del siglo XX y a la dimensión simbólica con que los personajes encarnan distintas fuerzas sociales y afectivas.",
+        "whyReadToday": "Vale la pena leerlo hoy porque ayuda a pensar la relación entre polarización política, deseo de orden, irrupción popular y fragilidad de las identidades privadas, temas que siguen teniendo resonancia contemporánea.",
+        "studyNotes": [
+          "El conflicto político no es un fondo neutro: la insurrección cantonal funciona como espejo y amplificación del desequilibrio matrimonial entre Witt y Milagritos.",
+          "Witt y Milagritos pueden leerse también como figuras simbólicas: racionalidad disciplinada frente a energía pasional y desbordamiento.",
+          "La novela histórica de Sender no busca mera ambientación; usa el episodio de 1873 para pensar orden, revolución, deseo y modernidad española.",
+          "Conviene atender a cómo el narrador alterna observación de costumbres, tensión psicológica y lectura política del espacio urbano cartagenero."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Libro primero: del orden doméstico a la inquietud",
+            "summary": "La novela presenta a Jorge Witt, su posición en Cartagena y la inestabilidad creciente de su relación con Milagritos. Lo privado comienza a tensarse al mismo tiempo que la ciudad entra en agitación política."
+          },
+          {
+            "title": "Libro segundo: pasión, celos e insurrección",
+            "summary": "En la parte central se intensifican tanto la rebelión cantonal como el conflicto íntimo. La atracción de Milagritos, los celos de Witt y la atmósfera revolucionaria convierten la novela en un cruce constante de emociones y política."
+          },
+          {
+            "title": "Libro tercero: crisis final y sentido histórico",
+            "summary": "El cierre condensa el deterioro del orden personal y colectivo. La novela muestra que no hay solución limpia: ni la vida conyugal ni la situación política pueden volver a una estabilidad intacta después de la sacudida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia pública y drama conyugal",
+            "content": "Uno de los mayores logros del libro es la simetría entre la crisis del matrimonio y la crisis del cantón. Sender hace que cada plano explique al otro, evitando tanto el mero psicologismo como la novela histórica puramente panorámica."
+          },
+          {
+            "heading": "Witt y Milagritos como figuras simbólicas",
+            "content": "El contraste entre el ingeniero inglés y su esposa no es solo de temperamento. También representa dos formas de entender el cuerpo, la autoridad, el deseo y el orden, lo que vuelve especialmente rica la lectura alegórica del texto."
+          },
+          {
+            "heading": "La modernidad política en clave novelesca",
+            "content": "La rebelión cantonal aparece como un episodio histórico concreto, pero también como síntoma de una modernidad española conflictiva. La novela pregunta qué ocurre cuando los proyectos de orden y emancipación chocan con intereses, pasiones y miedos contradictorios."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Mr. Witt en el cantón es una novela histórica en sentido estricto?",
+            "answer": "Sí, porque se apoya en un episodio histórico real, la rebelión cantonal de Cartagena de 1873, aunque lo desarrolla mediante personajes y conflictos novelescos de gran densidad psicológica."
+          },
+          {
+            "question": "¿Por qué es una obra importante de Ramón J. Sender?",
+            "answer": "Porque ganó el Premio Nacional de Narrativa en 1935 y porque reúne varias de las virtudes mayores de Sender: ambición histórica, tensión política y una construcción muy eficaz del conflicto íntimo."
+          },
+          {
+            "question": "¿Es una lectura accesible para estudiantes?",
+            "answer": "Sí, especialmente con acompañamiento contextual sobre la Primera República. Su dificultad no está en la trama, sino en la riqueza histórica y simbólica que el texto activa."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia — Míster Witt en el cantón",
+            "url": "https://es.wikipedia.org/wiki/M%C3%ADster_Witt_en_el_cant%C3%B3n"
+          },
+          {
+            "label": "Open Library — Míster Witt en el Cantón",
+            "url": "https://openlibrary.org/works/OL913729W/Mi%CC%81ster_Witt_en_el_Canto%CC%81n"
+          },
+          {
+            "label": "Castalia — Míster Witt en el cantón",
+            "url": "https://www.castalia.es/libros/334/mister-witt-en-el-canton"
+          },
+          {
+            "label": "Casa del Libro — Míster Witt en el cantón",
+            "url": "https://www.casadellibro.com/libro-mister-witt-en-el-canton-premio-nacional-narrativa-1935/9788470394928/131977"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "naomi-de-junichiro-tanizaki",
+      "title": "Naomi",
+      "authorName": "Junichiro Tanizaki",
+      "authorSlug": "junichiro-tanizaki",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Naomi",
+        "authorName": "Junichiro Tanizaki",
+        "authorSlug": "junichiro-tanizaki",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa",
+          "romance"
+        ],
+        "year": 1925,
+        "pages": 264,
+        "summary": "Naomi, conocida en japonés como Chijin no Ai, es una de las novelas más comentadas de Junichiro Tanizaki porque convierte una historia de deseo en un retrato incisivo de la modernidad urbana. Jōji, un hombre de oficina fascinado por la apariencia occidental y juvenil de Naomi, decide educarla, vestirla y modelar su gusto, convencido de que puede convertirla en una compañera ideal. Sin embargo, la relación pronto se invierte: lo que empieza como proyecto de dominio masculino termina revelando dependencia, humillación y obsesión. La novela explora erotismo, clase social, teatralidad y cambios culturales en el Japón de entreguerras, mientras muestra cómo la fantasía de poseer al otro desemboca en servidumbre emocional.",
+        "aboutThisBook": "Publicada en 1925 tras su aparición seriada en revistas, Naomi ocupa un lugar central en la narrativa moderna japonesa. Tanizaki la escribió en un momento de fuerte occidentalización cultural, y la figura de la llamada moga o “modern girl” atraviesa todo el libro. Más que una simple novela sentimental, es un estudio de deseo, autoengaño y lucha por el control dentro de la pareja. Su persistencia crítica se debe a que combina ironía, sensualidad y observación social con una estructura en primera persona que obliga al lector a desconfiar del narrador.",
+        "forWhom": "Para lectores adultos interesados en clásicos modernos, literatura japonesa, relaciones de poder en la pareja y novelas psicológicas donde la voz narradora resulta tan reveladora como engañosa.",
+        "whyItMatters": "Importa porque anticipa debates muy actuales sobre mirada masculina, construcción del deseo, manipulación afectiva e imitación cultural. Además, sigue siendo una puerta de entrada excelente a Tanizaki por su mezcla de elegancia formal e incomodidad moral.",
+        "editorialIntro": "Hay novelas que envejecen como documentos de época y otras que siguen perturbando por la claridad con que ven los mecanismos del deseo. Naomi pertenece a las segundas. Tanizaki convierte una relación aparentemente privada en un laboratorio de fantasías sociales: occidentalización, consumo, juventud, género y poder. El resultado es una novela breve, sofisticada y profundamente ambigua, ideal para leer no como escándalo antiguo sino como un texto moderno sobre obsesión y sometimiento recíproco.",
+        "readingLevel": "Lectura de nivel medio-alto para público adulto. La prosa es accesible, pero sus matices psicológicos, su ironía y el carácter poco fiable del narrador piden una lectura atenta y analítica.",
+        "whyReadToday": "Porque ayuda a pensar cómo el deseo se mezcla con la fantasía de moldear al otro, y cómo el consumo de imágenes culturales puede invadir la intimidad hasta deformar identidad, amor y dependencia.",
+        "studyNotes": [
+          "El narrador cuenta la historia como confesión, pero su versión está cargada de racionalizaciones; conviene leer cada episodio preguntando qué intenta justificar.",
+          "Naomi funciona también como símbolo de la modernidad urbana y del atractivo de lo occidental en el Japón de los años veinte, no solo como personaje individual.",
+          "La novela invierte pronto la relación entre educador y educanda: quien parecía tener control termina atrapado por su propia fantasía.",
+          "Es útil compararla con otras obras de Tanizaki donde deseo, fetichismo y autoengaño revelan tensiones entre tradición japonesa y modernidad cosmopolita."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Comienzo de la fascinación",
+            "summary": "En el tramo inicial, Jōji conoce a Naomi y proyecta sobre ella una mezcla de deseo, paternalismo y ambición social. La joven aparece menos como persona plenamente comprendida que como superficie sobre la que el narrador quiere inscribir su ideal moderno."
+          },
+          {
+            "title": "Educación sentimental y fabricación de una imagen",
+            "summary": "A medida que avanza la relación, Jōji intenta educar gustos, modales y apariencia de Naomi. Ese proceso revela que su amor está unido a la voluntad de construir una figura a medida, atravesada por el glamour, el consumo y la occidentalización."
+          },
+          {
+            "title": "La inversión del poder",
+            "summary": "En la parte media, Naomi empieza a escapar del papel diseñado para ella y la relación se vuelve más inestable. El narrador descubre que la dependencia ya no es de Naomi hacia él, sino suya hacia la presencia caprichosa y esquiva de ella."
+          },
+          {
+            "title": "Obsesión, humillación y aceptación final",
+            "summary": "Hacia el cierre, la novela deja atrás cualquier ilusión romántica convencional y expone una forma de servidumbre emocional casi voluntaria. Jōji acepta una relación degradante porque no logra separar deseo, sumisión y necesidad afectiva."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La figura de la “modern girl”",
+            "content": "Naomi encarna una sensibilidad urbana y moderna asociada al consumo, la moda y la fascinación por Occidente. Tanizaki no la reduce a estereotipo decorativo: la convierte en un punto de choque entre aspiraciones masculinas, cambio cultural y autonomía femenina difícil de controlar."
+          },
+          {
+            "heading": "El narrador como personaje poco fiable",
+            "content": "Buena parte de la riqueza de la novela nace de su primera persona. Jōji parece explicar con franqueza su historia, pero cada justificación expone sus cegueras. El texto pide distinguir entre lo que el narrador cree contar y lo que realmente deja ver sobre sí mismo."
+          },
+          {
+            "heading": "Deseo y dominación",
+            "content": "La novela muestra que dominar no siempre significa conservar poder. Jōji intenta crear a Naomi según su fantasía, pero ese gesto lo esclaviza porque queda sometido a la imagen que él mismo ha fabricado. Tanizaki convierte así el erotismo en un mecanismo de inversión y derrota."
+          },
+          {
+            "heading": "Modernidad, clase y performance social",
+            "content": "Vestidos, modales, salidas, amistades y espacios urbanos no son mero decorado: forman parte del drama social del libro. Naomi interroga qué significa ascender, parecer cosmopolita o representar una identidad moderna en un Japón que cambia aceleradamente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Naomi es una novela romántica?",
+            "answer": "Solo en un sentido muy incómodo. Aunque gira en torno a una relación amorosa, el libro se lee mejor como novela psicológica sobre obsesión, poder y dependencia que como romance sentimental convencional."
+          },
+          {
+            "question": "¿Por qué es una obra importante de Tanizaki?",
+            "answer": "Porque concentra varios de sus temas decisivos: erotismo, fetichismo, autoengaño, fascinación por la modernidad y conflicto entre deseo privado y cambio cultural. Además, es una de sus novelas más leídas internacionalmente."
+          },
+          {
+            "question": "¿Naomi está narrada desde el punto de vista de ella?",
+            "answer": "No. La historia se presenta desde la voz de Jōji, y precisamente esa limitación es clave: el lector conoce a Naomi a través de un narrador que intenta explicarla, controlarla y excusarse."
+          },
+          {
+            "question": "¿Resulta vigente hoy?",
+            "answer": "Sí. Su examen de la fantasía masculina, la imagen femenina, la dependencia afectiva y la teatralidad del deseo dialoga muy bien con discusiones contemporáneas sobre género e intimidad."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: Naomi (novel)",
+            "url": "https://en.wikipedia.org/wiki/Naomi_(novel)"
+          },
+          {
+            "label": "Open Library Work: 痴人の愛 (Chijin no ai)",
+            "url": "https://openlibrary.org/works/OL668681W"
+          },
+          {
+            "label": "Open Library Edition: Naomi (Debolsillo, 2012)",
+            "url": "https://openlibrary.org/books/OL47151665M/Naomi"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Tanizaki Junichiro",
+            "url": "https://www.britannica.com/biography/Tanizaki-Junichiro"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "no-abras-los-ojos-de-john-verdon",
+      "title": "No Abras Los Ojos",
+      "authorName": "John Verdon",
+      "authorSlug": "john-verdon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "No abras los ojos",
+        "authorName": "John Verdon",
+        "authorSlug": "john-verdon",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2011,
+        "pages": 552,
+        "summary": "No abras los ojos es la segunda entrega de la serie de Dave Gurney y coloca al detective retirado ante un caso donde la violencia extrema convive con la manipulación mental y el desconcierto afectivo. Todo arranca cuando una mujer recién casada aparece asesinada de forma brutal, un crimen que parece girar alrededor de un psiquiatra prestigioso, de una red de vínculos sentimentales opacos y de una amenaza que se mueve entre la seducción y el control. John Verdon construye la intriga como una pesquisa obsesiva: Gurney avanza entre pistas engañosas, identidades ambiguas y una tensión creciente entre la inteligencia analítica y el peligro físico.",
+        "aboutThisBook": "Publicada en español por Roca Editorial en 2011, esta novela confirma la fórmula con la que Verdon se hizo un nombre dentro del thriller contemporáneo: un detective cerebral, un crimen de alto impacto y una investigación que obliga a revisar cada hipótesis. Dentro de la saga, No abras los ojos profundiza más que la entrega inicial en la vida doméstica y en las fragilidades de Dave Gurney. El libro combina ritmo comercial con un interés real por la psicología de la persuasión, el autoengaño y la forma en que el miedo altera la lectura de los hechos.",
+        "forWhom": "Para lectores adultos de novela negra y thriller psicológico que disfrutan las investigaciones metódicas, los giros lógicos y las tramas donde la amenaza no depende solo de la acción, sino también del cálculo mental y la manipulación emocional.",
+        "whyItMatters": "Importa porque consolida a Dave Gurney como uno de los detectives analíticos más reconocibles del thriller reciente y porque demuestra que una novela de gran suspense puede apoyarse en deducción, psicología y estructura policial sin renunciar al ritmo narrativo.",
+        "editorialIntro": "No abras los ojos funciona muy bien para quien busca un thriller menos basado en la persecución constante que en la presión intelectual. Verdon parte de un crimen impactante, pero no se queda en su efecto espectacular: le interesa cómo una investigación se enreda cuando los personajes viven atrapados entre deseo, culpa, narcisismo y miedo. Esa mezcla de procedimiento, perfil psicológico y amenaza íntima le da a la novela una energía sostenida y un tono más perturbador que simplemente violento.",
+        "readingLevel": "Lectura accesible para público adulto habituado al suspense. La prosa es fluida, pero la trama exige atención para seguir relaciones cruzadas, falsas pistas y cambios de hipótesis dentro de la investigación.",
+        "whyReadToday": "Sigue siendo una lectura vigente porque explora formas de manipulación muy reconocibles hoy: la construcción de relatos seductores, la confianza depositada en figuras carismáticas y la facilidad con que una percepción emocional puede enturbiar la verdad.",
+        "studyNotes": [
+          "Conviene seguir cómo Gurney diferencia entre hechos comprobables, intuiciones y relatos interesados: ahí se organiza el verdadero suspense intelectual del libro.",
+          "La novela permite estudiar la relación entre violencia criminal y manipulación psicológica, especialmente cuando el prestigio social de ciertos personajes complica el juicio inicial.",
+          "Es útil observar el contraste entre la lucidez detectivesca de Gurney y el desgaste que la investigación produce en su vida privada, porque esa fricción humaniza el género.",
+          "El caso funciona también como ejemplo de thriller de hipótesis: cada giro obliga a releer la información anterior y a desconfiar de las explicaciones demasiado rápidas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Un crimen que rompe la calma",
+            "summary": "La novela arranca con la irrupción de un asesinato especialmente perturbador que devuelve a Dave Gurney al centro de una investigación que parecía ajena a su retiro. Desde el comienzo, Verdon presenta un caso donde la brutalidad del hecho no aclara nada, sino que multiplica las preguntas."
+          },
+          {
+            "title": "Relaciones opacas y primeras hipótesis",
+            "summary": "En la primera mitad, Gurney examina vínculos sentimentales, antecedentes personales y posibles móviles mientras descubre que cada explicación inicial deja elementos sin encajar. La intriga crece porque los personajes parecen decir algo verosímil, pero nunca del todo suficiente."
+          },
+          {
+            "title": "Manipulación, deseo y violencia",
+            "summary": "La parte central explora el componente psicológico del caso: la seducción, el control y la fragilidad de quienes rodean a la víctima. El detective debe leer no solo indicios materiales, sino también patrones de comportamiento y zonas de autoengaño."
+          },
+          {
+            "title": "Relectura final del caso",
+            "summary": "Hacia el desenlace, varias pistas cobran un significado distinto y la resolución muestra que la clave no estaba en un único dato espectacular, sino en la forma de conectar testimonios, silencios y motivaciones. La novela cierra subrayando el costo emocional de comprender demasiado tarde."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Dave Gurney como detective de la interpretación",
+            "content": "Gurney no resuelve por intuición milagrosa, sino por lectura crítica de discursos y contradicciones. Eso devuelve al thriller comercial una dimensión deductiva cercana a la novela policial clásica, aunque envuelta en un ritmo contemporáneo."
+          },
+          {
+            "heading": "La psicología como campo de riesgo",
+            "content": "Uno de los ejes de la novela es la ambigüedad del saber psicológico: puede servir para comprender conductas, pero también para manipular, seducir o encubrir. Verdon aprovecha esa tensión para hacer más inestable la frontera entre verdad y relato convincente."
+          },
+          {
+            "heading": "Violencia íntima y prestigio social",
+            "content": "El libro sugiere que la amenaza no siempre procede de figuras marginales; también puede alojarse en entornos respetables y educados. Esa idea intensifica el miedo, porque vuelve dudosos los códigos con los que los personajes interpretan el peligro."
+          },
+          {
+            "heading": "Suspense basado en hipótesis cambiantes",
+            "content": "La novela funciona por acumulación de interpretaciones parciales. Cada nuevo dato no solo añade información, sino que obliga a deshacer una lectura previa, de modo que el suspense nace del trabajo mental de corregir el mapa del caso."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿No abras los ojos pertenece a una serie?",
+            "answer": "Sí. Es la segunda novela protagonizada por Dave Gurney, aunque puede leerse de forma independiente porque el caso central queda planteado y resuelto dentro del propio libro."
+          },
+          {
+            "question": "¿Predomina más la investigación o la acción?",
+            "answer": "Predomina la investigación. Hay escenas tensas y episodios violentos, pero el atractivo principal está en seguir cómo Gurney interpreta indicios, desmonta coartadas y corrige hipótesis."
+          },
+          {
+            "question": "¿Es un thriller muy psicológico?",
+            "answer": "Sí. Además del crimen, la novela trabaja con manipulación emocional, relaciones de poder y conductas ambiguas, por lo que el componente psicológico pesa tanto como el policial."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutarlo más?",
+            "answer": "Suele gustar a lectores de novela negra contemporánea que buscan un detective inteligente, una trama compleja y un suspense sostenido por la deducción más que por el simple efectismo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Casa del Libro — No abras los ojos",
+            "url": "https://www.casadellibro.com/libro-no-abras-los-ojos-serie-dave-gurney-2/9788499182872/1864759"
+          },
+          {
+            "label": "Lecturalia — No abras los ojos",
+            "url": "https://www.lecturalia.com/libro/62598/no-abras-los-ojos"
+          },
+          {
+            "label": "Penguin Random House — Shut Your Eyes Tight",
+            "url": "https://www.penguinrandomhouse.com/books/202415/shut-your-eyes-tight-dave-gurney-no-2-by-john-verdon/"
+          },
+          {
+            "label": "Google Books — Shut Your Eyes Tight",
+            "url": "https://books.google.com/books/about/Shut_Your_Eyes_Tight_Dave_Gurney_No_2.html?id=R_iOEAAAQBAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nuevo-viaje-a-la-alcarria-de-camilo-jose-cela",
+      "title": "Nuevo Viaje A La Alcarria",
+      "authorName": "Camilo Jose Cela",
+      "authorSlug": "camilo-jose-cela",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Nuevo viaje a la Alcarria",
+        "authorName": "Camilo José Cela",
+        "authorSlug": "camilo-jose-cela",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 1986,
+        "pages": 251,
+        "summary": "En Nuevo viaje a la Alcarria, Camilo José Cela regresa décadas después al territorio que había recorrido en su célebre libro de posguerra para comprobar qué ha cambiado en el paisaje, en los pueblos y en la propia mirada del viajero. No se trata de una novela, sino de una obra de viaje y observación en la que el desplazamiento físico sirve para medir el paso del tiempo. Cela combina apuntes descriptivos, humor, memoria, comentarios sobre la vida cotidiana y una atención muy precisa al habla y a las costumbres locales. El libro vale tanto por lo que muestra de la Alcarria de los años ochenta como por el diálogo implícito que establece con el Viaje a la Alcarria original y con la tradición del viaje literario en español.",
+        "aboutThisBook": "Publicado en 1986, Nuevo viaje a la Alcarria prolonga y revisa una de las obras más conocidas de Cela. Su interés principal no reside en la aventura externa, sino en la comparación entre dos momentos históricos y dos posiciones del narrador: el viajero joven de la primera obra y el escritor consagrado que vuelve a un espacio ya convertido en memoria literaria. El texto pertenece a la no ficción literaria, pero conserva un fuerte pulso narrativo gracias a la capacidad de Cela para retratar escenas mínimas, personajes fugaces y ambientes concretos. Es un libro especialmente útil para estudiar cómo la literatura de viajes puede convertirse en documento cultural y en autorrevisión estética.",
+        "forWhom": "Para lectores adultos, estudiantes de literatura española y personas interesadas en crónica de viaje, memoria del paisaje y relaciones entre observación social, estilo y autobiografía literaria.",
+        "whyItMatters": "Importa porque muestra cómo un mismo territorio cambia según la época y según la conciencia de quien lo recorre. También permite leer a Cela más allá de la novela, en un registro donde paisaje, lengua y memoria histórica se articulan con gran naturalidad.",
+        "editorialIntro": "Volver no es repetir, y eso es justamente lo que demuestra este libro. Cuando Cela regresa a la Alcarria, no busca copiar el itinerario anterior como si nada hubiera ocurrido, sino medir la distancia entre un país, un paisaje y una voz narrativa separados por décadas. Nuevo viaje a la Alcarria interesa por su valor documental, por su elegancia de observación y por la forma en que convierte el viaje en examen del tiempo, del recuerdo y de la propia escritura.",
+        "readingLevel": "Lectura de nivel medio para adultos y universitarios. El estilo es claro, pero gana profundidad cuando se conoce el libro anterior y cuando se atiende a la dimensión histórica, geográfica y autorreflexiva del recorrido.",
+        "whyReadToday": "Porque ayuda a pensar cómo cambian los territorios bajo la modernización y cómo la memoria literaria influye en nuestra forma de ver un lugar. También recuerda el valor del viaje lento y atento frente a la mirada turística superficial.",
+        "studyNotes": [
+          "Conviene leerlo en relación con Viaje a la Alcarria: el sentido del libro nace en buena medida del contraste entre ambos recorridos y entre dos momentos de España.",
+          "Aunque es no ficción, Cela organiza la materia con recursos narrativos: selección de escenas, retratos breves, ritmo de desplazamiento y construcción de una voz observadora muy marcada.",
+          "El paisaje no aparece como fondo neutro; funciona como archivo de cambios sociales, económicos y culturales perceptibles en caminos, pueblos y conversaciones.",
+          "Resulta útil para estudiar la tradición del libro de viajes en español y la mezcla entre documento, memoria personal y estilización literaria."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Regreso a un territorio ya escrito",
+            "summary": "El comienzo plantea el sentido del viaje de retorno: Cela vuelve a una comarca asociada a una obra previa y convierte esa repetición aparente en un examen de diferencias. Desde el inicio se percibe que la nueva mirada estará mediada por memoria, fama literaria y conciencia del tiempo transcurrido."
+          },
+          {
+            "title": "Pueblos, caminos y variaciones del paisaje",
+            "summary": "En el desarrollo del recorrido, el libro registra transformaciones materiales y humanas en la Alcarria. La observación de carreteras, pueblos, ritmos de vida y encuentros ocasionales construye una cartografía donde la geografía es inseparable de la historia reciente."
+          },
+          {
+            "title": "La conversación entre pasado y presente",
+            "summary": "La parte media del libro adquiere especial densidad cuando cada nueva escena parece dialogar con el viaje antiguo. Cela no solo describe lo que ve, sino que compara, recuerda y deja que la comarca actual discuta con la imagen literaria ya consagrada."
+          },
+          {
+            "title": "El viaje como balance de una mirada",
+            "summary": "Hacia el cierre, la obra se entiende menos como itinerario turístico que como balance de experiencia. Lo decisivo no es completar un trayecto, sino comprobar cuánto revelan el tiempo, la escritura y el regreso sobre el país y sobre el propio autor."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "No ficción literaria y pulso narrativo",
+            "content": "El libro pertenece al ámbito de la crónica o literatura de viajes, pero Cela lo escribe con una energía narrativa que evita la mera acumulación de datos. Cada parada, retrato o comentario parece escogido para sostener un movimiento verbal y reflexivo reconocible."
+          },
+          {
+            "heading": "El retorno como forma de conocimiento",
+            "content": "Volver a un lugar ya recorrido produce un saber distinto del viaje inaugural. Aquí el regreso permite medir transformaciones externas y también la metamorfosis del propio observador. Esa doble dimensión convierte el libro en una reflexión sobre tiempo y memoria."
+          },
+          {
+            "heading": "Paisaje, habla y cultura material",
+            "content": "Cela presta atención a detalles que suelen parecer menores: modos de hablar, pequeños oficios, gestos, nombres de lugares, caminos y comidas. Gracias a esos elementos, la Alcarria deja de ser postal pintoresca y se vuelve espacio humano concreto."
+          },
+          {
+            "heading": "Diálogo con Viaje a la Alcarria",
+            "content": "La obra gana espesor cuando se lee como reescritura y contraste. El libro anterior aportaba una mirada de posguerra; este, en cambio, observa una España distinta y un narrador distinto. La comparación ilumina tanto la evolución del país como la del proyecto literario de Cela."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Nuevo viaje a la Alcarria es novela?",
+            "answer": "No. Es una obra de no ficción literaria, cercana a la crónica y al libro de viajes, aunque esté escrita con recursos narrativos y con una voz autoral muy marcada."
+          },
+          {
+            "question": "¿Hace falta leer antes Viaje a la Alcarria?",
+            "answer": "No es indispensable para entenderlo, pero sí muy recomendable. La comparación entre ambos libros enriquece muchísimo la lectura porque muestra qué ha cambiado en el territorio y en el narrador."
+          },
+          {
+            "question": "¿Qué aporta este segundo viaje?",
+            "answer": "Aporta la perspectiva del regreso. Más que repetir un itinerario, Cela examina los cambios de la comarca, del país y de su propia mirada, convirtiendo el libro en un diálogo entre memoria y presente."
+          },
+          {
+            "question": "¿Por qué puede interesar en un curso universitario?",
+            "answer": "Porque permite trabajar literatura de viajes, memoria cultural, descripción del paisaje, construcción de la voz narrativa y relación entre texto literario e historia social reciente de España."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library Work: Nuevo viaje a la Alcarria",
+            "url": "https://openlibrary.org/works/OL944332W"
+          },
+          {
+            "label": "Open Library Edition: Nuevo viaje a la Alcarria (Plaza & Janés, 1986)",
+            "url": "https://openlibrary.org/books/OL2235776M/Nuevo_viaje_a_la_Alcarria"
+          },
+          {
+            "label": "Wikipedia: Camilo José Cela",
+            "url": "https://es.wikipedia.org/wiki/Camilo_Jos%C3%A9_Cela"
+          },
+          {
+            "label": "Nobel Prize: Camilo José Cela, biographical",
+            "url": "https://www.nobelprize.org/prizes/literature/1989/cela/biographical/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "palmeras-en-la-nieve-de-luz-gabas",
+      "title": "Palmeras En La Nieve",
+      "authorName": "Luz Gabas",
+      "authorSlug": "luz-gabas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Palmeras en la nieve",
+        "authorName": "Luz Gabás",
+        "authorSlug": "luz-gabas",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica",
+          "romance"
+        ],
+        "year": 2012,
+        "pages": 732,
+        "summary": "Palmeras en la nieve entrelaza una saga familiar con una novela histórica ambientada entre la España peninsular y la Guinea Ecuatorial colonial. En los años cincuenta, Kilian abandona el valle pirenaico de su infancia para reunirse con su familia en Fernando Poo, donde la finca Sampaka vive del cacao y de un orden social profundamente desigual. Allí descubre un mundo de privilegio colonial, tensiones raciales y pasiones prohibidas que transforman para siempre a los hermanos y dejan un secreto enterrado durante décadas. En 2003, Clarence reconstruye ese pasado al revisar cartas, silencios y versiones familiares. La novela combina amor, memoria, herencia y culpa para mostrar cómo la intimidad y la historia colonial quedan unidas por una misma cadena de consecuencias.",
+        "aboutThisBook": "Esta novela consagró a Luz Gabás como una narradora muy leída dentro de la ficción histórica española reciente. Su atractivo no depende solo de la intriga sentimental, sino del cruce entre melodrama familiar, reconstrucción de época y revisión del pasado colonial español en África. El libro alterna dos tiempos narrativos y usa la investigación familiar de Clarence para abrir una historia donde deseo, poder y pertenencia cultural nunca aparecen separados. También destaca por su ambientación: el contraste entre la nieve del Pirineo y la exuberancia africana funciona como símbolo de mundos sociales y emocionales incompatibles, pero íntimamente conectados.",
+        "forWhom": "Para lectores adultos que disfrutan sagas familiares, novelas históricas extensas, romances atravesados por conflictos sociales y relatos donde el pasado vuelve para explicar identidades presentes.",
+        "whyItMatters": "Importa porque acerca a un público amplio una zona poco leída de la historia española: la experiencia colonial en Guinea Ecuatorial. Además, muestra cómo los secretos familiares no son solo asuntos privados, sino efectos duraderos de jerarquías políticas, raciales y afectivas.",
+        "editorialIntro": "Luz Gabás construye aquí una novela de gran aliento popular con base histórica reconocible. Su ambición no es únicamente contar un amor imposible, sino recuperar un pasado silenciado y preguntarse qué huellas deja en las generaciones posteriores. La alternancia temporal le da ritmo de misterio familiar, mientras la ambientación colonial introduce preguntas incómodas sobre clase, raza, deseo y memoria. Por eso el libro funciona a la vez como lectura envolvente y como puerta de entrada a un episodio histórico poco conversado.",
+        "readingLevel": "Lectura de nivel medio para adultos y bachillerato avanzado: la prosa es fluida, pero la extensión, el doble plano temporal y el trasfondo histórico piden atención sostenida a relaciones familiares, contexto colonial y cambios de perspectiva.",
+        "whyReadToday": "Porque ayuda a revisar el pasado colonial español desde una novela accesible y emocionalmente potente, y porque conecta memoria familiar, racismo estructural y herencias afectivas con debates muy vivos en el presente.",
+        "studyNotes": [
+          "La novela puede estudiarse como saga familiar, pero también como relato sobre la transmisión del secreto y la memoria intergeneracional.",
+          "El contraste entre el Pirineo y Fernando Poo no es solo paisajístico: organiza dos imaginarios morales, sociales y políticos enfrentados.",
+          "Conviene observar cómo la historia amorosa queda condicionada por la estructura colonial, no solo por decisiones individuales.",
+          "Clarence actúa como lectora del pasado: su pesquisa ordena cartas, testimonios y silencios, y convierte la novela en una investigación de la identidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: llegada a la colonia",
+            "summary": "El inicio presenta a Kilian y Jacobo en su desplazamiento desde la montaña oscense hacia Fernando Poo. El nuevo espacio aparece como promesa de aventura, prosperidad y libertad, pero también deja ver desde temprano la desigualdad colonial que sostiene la vida en la finca."
+          },
+          {
+            "title": "Momentos clave en Sampaka",
+            "summary": "En la parte central, la convivencia entre colonos y población local se vuelve más compleja. El trabajo, la amistad, el deseo y las fronteras raciales configuran un clima donde una relación amorosa prohibida desencadena consecuencias duraderas para toda la familia."
+          },
+          {
+            "title": "Regreso al presente y búsqueda de Clarence",
+            "summary": "Décadas después, Clarence intenta comprender los silencios de su familia. Su investigación reinterpreta el pasado y hace visible que la herencia familiar está hecha tanto de afectos como de omisiones deliberadas."
+          },
+          {
+            "title": "Desenlace: verdad, duelo y pertenencia",
+            "summary": "La resolución no solo aclara un secreto sentimental. También obliga a reconsiderar el vínculo entre identidad personal, violencia histórica y responsabilidad frente a un pasado que parecía definitivamente enterrado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela histórica y melodrama familiar",
+            "content": "Una de las claves del libro es su mezcla de registro popular y trasfondo histórico. Gabás usa recursos del melodrama —amores imposibles, secretos, cartas, revelaciones— para llevar al lector hacia preguntas más amplias sobre colonialismo, pertenencia y culpa heredada."
+          },
+          {
+            "heading": "La colonia como estructura de poder",
+            "content": "Fernando Poo no aparece solo como escenario exótico. La novela subraya que los vínculos afectivos, laborales y sexuales están atravesados por una jerarquía colonial que distribuye privilegios y castigos de forma desigual. Leer el romance sin esa dimensión sería empobrecer el sentido del libro."
+          },
+          {
+            "heading": "Memoria, archivo y reconstrucción del pasado",
+            "content": "La investigación de Clarence convierte la narración en una búsqueda de archivo familiar. El pasado no se ofrece de manera transparente: se recompone a partir de restos, versiones parciales y silencios, lo que refuerza el tema de la memoria como trabajo interpretativo."
+          },
+          {
+            "heading": "Naturaleza y simbolismo",
+            "content": "La nieve y las palmeras no son simples decorados. Funcionan como imágenes de origen, extrañamiento y deseo, y resumen el choque entre dos mundos que la novela intenta mantener en tensión constante."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Palmeras en la nieve es solo una novela romántica?",
+            "answer": "No. El romance es decisivo, pero el libro también es una novela histórica y familiar centrada en la Guinea colonial, los secretos heredados y las consecuencias de una estructura de poder desigual."
+          },
+          {
+            "question": "¿La trama contemporánea tiene tanto peso como la histórica?",
+            "answer": "Su función principal es investigar y reinterpretar el pasado. Clarence no sustituye la historia central de los años cincuenta, pero la vuelve legible para el lector contemporáneo y le da forma de pesquisa familiar."
+          },
+          {
+            "question": "¿Por qué suele considerarse una novela histórica accesible?",
+            "answer": "Porque combina documentación de época con una narración muy fluida, personajes reconocibles y una intriga sentimental que mantiene el interés incluso en un libro largo."
+          },
+          {
+            "question": "¿Qué tema de fondo conviene destacar en una lectura académica?",
+            "answer": "La relación entre intimidad y colonialismo. Las decisiones amorosas y familiares están modeladas por una organización social basada en privilegios raciales y económicos."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library Work: Palmeras en la nieve",
+            "url": "https://openlibrary.org/works/OL16620283W"
+          },
+          {
+            "label": "Open Library Edition: Palmeras en la nieve (Ediciones Temas de Hoy, 2012)",
+            "url": "https://openlibrary.org/books/OL27150953M/Palmeras_en_la_nieve"
+          },
+          {
+            "label": "TodosTusLibros: Palmeras en la nieve",
+            "url": "https://www.todostuslibros.com/libros/palmeras-en-la-nieve_978-84-9998-595-4"
+          },
+          {
+            "label": "Wikipedia: Luz Gabás",
+            "url": "https://es.wikipedia.org/wiki/Luz_Gab%C3%A1s"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "para-una-tumba-sin-nombre-de-juan-carlos-onetti",
+      "title": "Para Una Tumba Sin Nombre",
+      "authorName": "Juan Carlos Onetti",
+      "authorSlug": "juan-carlos-onetti",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Para una tumba sin nombre",
+        "authorName": "Juan Carlos Onetti",
+        "authorSlug": "juan-carlos-onetti",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1967,
+        "pages": 86,
+        "summary": "Para una tumba sin nombre es una novela breve y elusiva en la que Juan Carlos Onetti convierte un entierro y una historia marginal en un laboratorio de versiones contradictorias. En torno a la figura de una mujer pobre, conocida como Rita en muchas lecturas del libro, y a la extraña presencia de una cabra asociada a su destino, varios personajes reconstruyen hechos que nunca llegan a fijarse del todo. Más que ofrecer una intriga lineal, la narración avanza por testimonios, rumores y reinterpretaciones que hacen tambalear cualquier verdad estable. En el universo de Santa María, Onetti explora humillación social, compasión, deseo, invención y fracaso, mientras demuestra que narrar también significa deformar, apropiarse y disputar el sentido de una vida ajena.",
+        "aboutThisBook": "Esta obra breve pertenece al ciclo de Santa María y es una pieza clave para estudiar la poética narrativa de Onetti. Su importancia no reside en el argumento externo, relativamente mínimo, sino en el modo en que organiza la incertidumbre. El relato desconfía de la transparencia realista: cada voz agrega detalles, corrige lo anterior o inventa motivaciones posibles, de manera que el lector nunca accede a un núcleo definitivo de verdad. Por eso suele leerse como una novela sobre la narración misma, sobre la fragilidad de la identidad y sobre la forma en que las vidas precarias quedan sometidas a la mirada, el juicio y la fantasía de otros.",
+        "forWhom": "Para lectores adultos de narrativa hispanoamericana, cursos universitarios sobre novela breve y quienes disfrutan textos exigentes donde importa tanto lo que se cuenta como la manera inestable en que se cuenta.",
+        "whyItMatters": "Importa porque condensa varias marcas mayores de Onetti: la ciudad imaginaria de Santa María, el tono existencial, la compasión por los derrotados y la desconfianza ante toda verdad narrativa cerrada. Es una obra breve, pero críticamente muy fértil.",
+        "editorialIntro": "Pocas novelas breves latinoamericanas consiguen tanta densidad con tan pocos elementos visibles. Onetti toma un caso casi mínimo —una muerte, un entierro, una mujer mirada desde los márgenes— y lo transforma en una reflexión sombría sobre el relato, la miseria y la imposibilidad de saber del todo quién fue alguien. La lectura exige paciencia, porque la ambigüedad no es un adorno, sino el verdadero tema del libro. Precisamente por eso resulta tan útil para el estudio literario: enseña a leer vacíos, versiones y silencios.",
+        "readingLevel": "Lectura de nivel alto para adultos y universidad. La extensión es breve, pero la prosa de Onetti, la estructura de testimonios indirectos y la ambigüedad permanente exigen relectura, atención al tono y capacidad de interpretar narradores poco fiables.",
+        "whyReadToday": "Porque sigue siendo una gran lección sobre la fabricación social de la verdad, sobre cómo una vida marginal puede quedar reducida a rumor y relato ajeno, y sobre la potencia literaria de la duda.",
+        "studyNotes": [
+          "Conviene leer la novela preguntando quién habla, desde dónde habla y qué gana al contar esa versión de los hechos.",
+          "La ambigüedad no debe resolverse demasiado rápido: en Onetti, la falta de certeza es parte del significado, no una carencia de información.",
+          "La figura femenina central queda mediada por voces masculinas y por eso el libro también puede leerse como una crítica a la apropiación narrativa de una vida vulnerable.",
+          "Santa María funciona como espacio moral degradado: más que un simple escenario, concentra hastío, fracaso y ficciones de supervivencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Apertura: muerte y relato de un caso",
+            "summary": "El libro arranca alrededor de una muerte y de la necesidad de contar quién era realmente la mujer enterrada. Desde el inicio, la historia no aparece como hecho transparente, sino como relato mediado por voces que ya la están interpretando."
+          },
+          {
+            "title": "Primera mitad: versiones, rumores y desplazamientos",
+            "summary": "A medida que avanzan las declaraciones y recuerdos, la identidad de la muerta y el sentido de sus vínculos se vuelven más inciertos. Cada nueva versión parece iluminar algo, pero al mismo tiempo introduce una zona adicional de sospecha."
+          },
+          {
+            "title": "Momentos clave en Santa María",
+            "summary": "La novela profundiza en la mezcla de compasión, crueldad y fantasía con la que los personajes miran a los más débiles. La cabra, el duelo y la reconstrucción del pasado adquieren un valor casi simbólico dentro de ese clima de degradación."
+          },
+          {
+            "title": "Cierre: la verdad como resto inalcanzable",
+            "summary": "El desenlace no ofrece una solución tajante. Onetti prefiere dejar al lector frente a la experiencia de una verdad fragmentaria, apenas entrevuelta entre testimonios que nunca coinciden por completo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Narradores poco fiables y verdad inestable",
+            "content": "El rasgo central del libro es la imposibilidad de fijar una versión definitiva. Onetti hace que cada relato revele tanto sobre quien habla como sobre el supuesto objeto narrado, de modo que la verdad queda siempre contaminada por deseo, prejuicio y autojustificación."
+          },
+          {
+            "heading": "Marginalidad, compasión y crueldad",
+            "content": "La novela observa a personajes pobres o socialmente desamparados sin convertirlos en emblemas puros. Hay compasión, pero también explotación imaginaria de su miseria. Esa ambivalencia es decisiva para entender la dureza ética del universo onettiano."
+          },
+          {
+            "heading": "Santa María como espacio existencial",
+            "content": "La ciudad ficticia de Onetti condensa desgaste, encierro y fracaso. En este libro, Santa María no es solo un lugar reconocible dentro de su obra: es la atmósfera moral que vuelve plausible la confusión entre vida vivida y vida contada por otros."
+          },
+          {
+            "heading": "La novela breve como forma de concentración",
+            "content": "La brevedad intensifica el efecto del libro. Onetti elimina lo accesorio y trabaja con escenas, voces y símbolos concentrados, logrando que la incertidumbre narrativa y la carga existencial aparezcan sin dispersión argumental."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela difícil de leer?",
+            "answer": "No por vocabulario, sino por estructura y ambigüedad. Exige aceptar que el relato no entrega certezas plenas y que buena parte de su sentido está en esa inestabilidad."
+          },
+          {
+            "question": "¿Hace falta conocer otras obras de Santa María?",
+            "answer": "No es imprescindible, pero ayuda. Aun así, puede leerse de forma autónoma como ejemplo muy concentrado del mundo narrativo de Onetti y de su tratamiento del fracaso y la incertidumbre."
+          },
+          {
+            "question": "¿Qué papel cumple la cabra en la novela?",
+            "answer": "Además de ser un detalle argumental memorable, funciona como signo de extrañeza y de marginalidad. Su presencia vuelve más perturbadora la historia y acentúa la mezcla de miseria, ternura y absurdo."
+          },
+          {
+            "question": "¿Por qué se estudia tanto en contextos universitarios?",
+            "answer": "Porque permite trabajar narrador, punto de vista, fiabilidad, simbolismo y poética de la ambigüedad en un texto breve pero muy denso, ideal para análisis cercano."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library Work: Para una tumba sin nombre",
+            "url": "https://openlibrary.org/works/OL1305760W"
+          },
+          {
+            "label": "Open Library Edition: Para una tumba sin nombre (Arca, 1967)",
+            "url": "https://openlibrary.org/books/OL22193133M/Para_una_tumba_sin_nombre"
+          },
+          {
+            "label": "TodosTusLibros: Para una tumba sin nombre",
+            "url": "https://www.todostuslibros.com/libros/para-una-tumba-sin-nombre-fg_978-84-663-2077-1"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Juan Carlos Onetti",
+            "url": "https://www.britannica.com/biography/Juan-Carlos-Onetti"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "parir-el-poder-del-parto-de-ibone-olza",
+      "title": "Parir El Poder Del Parto",
+      "authorName": "Ibone Olza",
+      "authorSlug": "ibone-olza",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Parir: el poder del parto",
+        "authorName": "Ibone Olza",
+        "authorSlug": "ibone-olza",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2017,
+        "pages": 208,
+        "summary": "Parir: el poder del parto es un ensayo de divulgación y reflexión crítica en el que Ibone Olza aborda el nacimiento no como un simple procedimiento clínico, sino como una experiencia psíquica, corporal, social y política de enorme intensidad. A partir de conocimientos de psicología perinatal, neurociencia, historia cultural del parto y testimonios de mujeres, la autora examina cómo se ha transformado la percepción del alumbramiento en la modernidad médica y qué se pierde cuando se reduce a protocolo o gestión del riesgo. El libro defiende una mirada respetuosa hacia la madre y el bebé, cuestiona inercias institucionales y propone pensar el parto como proceso relacional, hormonal y emocional con consecuencias duraderas en la vida de ambos.",
+        "aboutThisBook": "No es un manual obstétrico ni una guía práctica paso a paso. Su fuerza está en articular divulgación científica, perspectiva feminista y crítica cultural para revisar qué imaginarios dominan hoy la conversación sobre el parto. Olza escribe desde su experiencia como psiquiatra infantil y perinatal, pero busca un público amplio: explica conceptos, contextualiza debates y devuelve centralidad a la vivencia subjetiva de las mujeres. El ensayo ganó visibilidad por intervenir en discusiones contemporáneas sobre violencia obstétrica, medicalización, cesáreas innecesarias y derechos en la primera infancia, y sigue siendo una referencia para pensar el nacimiento más allá del lenguaje técnico hospitalario.",
+        "forWhom": "Para lectoras y lectores adultos interesados en maternidad, salud mental perinatal, feminismo, derechos reproductivos y ensayo divulgativo que conecta ciencia, historia cultural y experiencia vivida.",
+        "whyItMatters": "Importa porque discute un asunto profundamente cotidiano pero a menudo invisibilizado por el lenguaje médico o institucional. El libro devuelve espesor humano al parto y obliga a reconsiderar prácticas sanitarias, imaginarios sociales y formas de acompañamiento.",
+        "editorialIntro": "Ibone Olza propone aquí una intervención intelectual y pública de gran claridad. En lugar de aceptar que el parto pertenece solo al ámbito técnico, muestra que también es una experiencia afectiva, simbólica y política. El ensayo tiene valor divulgativo, pero sobre todo valor interpretativo: ayuda a leer la medicalización contemporánea sin caer en consignas simplistas. Su apuesta central consiste en pensar el nacimiento desde el respeto, la evidencia y la escucha de lo que las mujeres cuentan sobre sus propios cuerpos.",
+        "readingLevel": "Lectura de nivel medio-alto para adultos. El estilo es claro y divulgativo, pero la argumentación combina referencias científicas, historia cultural y debate público, por lo que conviene leerla con atención y disposición crítica.",
+        "whyReadToday": "Porque las discusiones sobre salud reproductiva, cesáreas, consentimiento informado y cuidados perinatales siguen siendo urgentes. El libro ofrece un marco útil para pensar esos debates sin separar ciencia, experiencia y derechos.",
+        "studyNotes": [
+          "Es útil distinguir entre la crítica a la medicalización excesiva y el rechazo indiscriminado de la medicina; Olza no propone abandonar la evidencia, sino reordenar sus prioridades humanas.",
+          "El libro puede trabajarse junto con debates sobre violencia obstétrica, consentimiento y derechos del recién nacido dentro de la atención sanitaria contemporánea.",
+          "La autora combina testimonios y argumentación científica: conviene observar cómo esa mezcla refuerza la legitimidad del ensayo y evita que la experiencia quede relegada a simple anécdota.",
+          "La noción de parto como vivencia relacional entre madre y bebé atraviesa todo el texto y organiza su crítica a los enfoques puramente procedimentales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: repensar qué es parir",
+            "summary": "El libro abre cuestionando la idea del parto como mero evento médico. Olza reubica el nacimiento en una trama donde cuerpo, psiquismo, hormonas, historia y cultura se influyen mutuamente."
+          },
+          {
+            "title": "Zona media: ciencia, experiencia e instituciones",
+            "summary": "En el desarrollo, la autora contrapone evidencia científica, relatos de mujeres y prácticas hospitalarias habituales. Esa comparación permite examinar cómo ciertos protocolos pueden proteger, pero también despersonalizar o vulnerar."
+          },
+          {
+            "title": "Momentos clave sobre cesáreas y medicalización",
+            "summary": "Una parte central del ensayo analiza la expansión de intervenciones no siempre necesarias y sus efectos físicos y emocionales. El argumento no demoniza la intervención médica, sino que reclama criterios más respetuosos y ajustados a cada caso."
+          },
+          {
+            "title": "Cierre: recuperar el sentido del parto",
+            "summary": "Hacia el final, el libro insiste en que comprender el parto exige integrar biología, vínculo y derechos. La reflexión desemboca en una llamada a transformar la cultura del nacimiento y la forma de acompañarlo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El parto como experiencia total",
+            "content": "Uno de los aportes más claros del ensayo es negar la reducción del parto a episodio clínico. Olza insiste en que se trata de una experiencia simultáneamente corporal, emocional, relacional y cultural, y esa complejidad cambia la manera de evaluar prácticas y discursos."
+          },
+          {
+            "heading": "Crítica de la medicalización",
+            "content": "La autora no rechaza la medicina basada en evidencia; cuestiona, más bien, la tendencia a convertir toda gestación y todo alumbramiento en problema que debe ser controlado desde fuera. Esa crítica es especialmente relevante para pensar protocolos, tiempos hospitalarios y jerarquías profesionales."
+          },
+          {
+            "heading": "Feminismo, escucha y autoridad del relato",
+            "content": "El ensayo devuelve autoridad cognitiva a la experiencia narrada por las mujeres. Esa decisión tiene una dimensión feminista clara: discutir el parto implica también discutir quién puede describirlo, interpretarlo y decidir sobre él."
+          },
+          {
+            "heading": "Divulgación con implicaciones públicas",
+            "content": "Aunque el libro es accesible para un público general, sus efectos son políticos. Abre preguntas sobre consentimiento, derechos reproductivos, condiciones hospitalarias y salud mental perinatal, asuntos que exceden el ámbito privado."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Parir es un manual para embarazadas?",
+            "answer": "No exactamente. Puede orientar y dar herramientas conceptuales, pero su propósito principal es ensayístico: interpretar el parto desde la psicología perinatal, la historia cultural y la crítica a ciertas prácticas sanitarias."
+          },
+          {
+            "question": "¿El libro adopta una postura anti médica?",
+            "answer": "No. Cuestiona la medicalización excesiva y ciertas intervenciones rutinarias, pero apela de manera constante a la evidencia científica y al respeto por situaciones clínicas reales que requieren atención especializada."
+          },
+          {
+            "question": "¿Por qué ha tenido tanta resonancia pública?",
+            "answer": "Porque interviene en debates sociales muy sensibles —cesáreas, violencia obstétrica, consentimiento, derechos del bebé y de la madre— con una voz profesional capaz de dialogar con lectoras no especialistas."
+          },
+          {
+            "question": "¿Puede interesar fuera del ámbito de la maternidad?",
+            "answer": "Sí. También interesa a quienes estudian salud pública, género, cuidados, psicología perinatal y modos en que una sociedad organiza sus experiencias corporales más decisivas."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Ibone Olza: Parir - el poder del parto",
+            "url": "https://iboneolza.org/parir-el-poder-del-parto/"
+          },
+          {
+            "label": "Open Library Work: Parir",
+            "url": "https://openlibrary.org/works/OL26382270W"
+          },
+          {
+            "label": "Open Library Edition: Parir (B, 2018)",
+            "url": "https://openlibrary.org/books/OL37571034M/Parir"
+          },
+          {
+            "label": "TodosTusLibros: Parir (edición actualizada)",
+            "url": "https://www.todostuslibros.com/libros/parir-edicion-actualizada_978-84-18045-96-7"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-20T20:52:21Z"
+}

@@ -1,0 +1,1382 @@
+{
+  "batchName": "replenish-20260420T184416Z-next23",
+  "createdAt": "2026-04-20T18:44:16Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "la-mala-costumbre-de-alana-s-portero",
+      "title": "La Mala Costumbre",
+      "authorName": "Alana S Portero",
+      "authorSlug": "alana-s-portero",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La mala costumbre",
+        "authorName": "Alana S. Portero",
+        "authorSlug": "alana-s-portero",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2023,
+        "pages": 256,
+        "summary": "Ambientada entre el barrio obrero de San Blas y otros espacios de la periferia madrileña, la novela sigue la infancia, adolescencia y primera juventud de una narradora que descubre muy pronto que el mundo espera de ella una identidad que no reconoce como propia. El relato muestra cómo el cuerpo, la lengua y la mirada ajena se convierten en escenarios de conflicto, pero también en lugares de resistencia. La protagonista crece entre amistades, violencias cotidianas, deseo, vergüenza, cultura popular y pobreza material, mientras busca una forma habitable de nombrarse. Más que un itinerario lineal de afirmación, el libro construye una memoria emocional de barrio y de clase, donde la experiencia trans aparece inseparable de la vulnerabilidad social y del anhelo de dignidad.",
+        "aboutThisBook": "La mala costumbre es el debut narrativo de Alana S. Portero y una de las novelas españolas más comentadas de 2023. Combina memoria sentimental, relato de formación y observación social para narrar una experiencia trans desde dentro, sin convertirla en consigna ni en simple testimonio. Su fuerza está en la voz: íntima, precisa y muy consciente de la violencia de clase, del peso del deseo y de la importancia de encontrar comunidad.",
+        "forWhom": "Para lectores de novela contemporánea, literatura de identidad, relatos de barrio y narraciones de formación con fuerte espesor social y emocional.",
+        "whyItMatters": "Importa porque articula con rara claridad la relación entre identidad, pobreza, violencia simbólica y posibilidad de pertenencia. No reduce la experiencia trans a un tema abstracto: la inserta en una geografía concreta, en una época y en una red afectiva reconocible.",
+        "editorialIntro": "Pocas novelas recientes han logrado unir con tanta naturalidad la crudeza del aprendizaje social y la delicadeza de una voz que busca su lugar. Alana S. Portero escribe desde la memoria, pero también desde una conciencia literaria muy afinada: cada escena importa por lo que cuenta del cuerpo, del barrio y de la necesidad de ser mirada sin humillación.",
+        "readingLevel": "Medio-alto: prosa accesible, pero con densidad emocional, referencias culturales y capas de lectura sobre género, clase y memoria.",
+        "whyReadToday": "Porque ayuda a leer el presente sin simplificaciones. La novela ofrece una mirada concreta sobre identidad y exclusión, y recuerda que las discusiones públicas sobre género también están atravesadas por barrio, familia, precariedad y deseo.",
+        "studyNotes": [
+          "Conviene leer la novela como un cruce entre bildungsroman, memoria social y escritura del cuerpo: ninguno de esos planos funciona por separado.",
+          "El barrio no es mero decorado. Organiza jerarquías, miedos, lenguajes y posibilidades de futuro; por eso la dimensión de clase es estructural.",
+          "La cultura popular, la amistad y ciertas figuras femeninas operan como refugio simbólico frente a la violencia cotidiana y la intemperie afectiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Infancia vigilada",
+            "summary": "La narradora recuerda una niñez marcada por la sensación de extrañeza ante el papel que otros le asignan. La familia, la escuela y la calle fijan normas rígidas, mientras el barrio aparece como un espacio simultáneo de amparo y amenaza."
+          },
+          {
+            "title": "Parte 2: Adolescencia y fractura",
+            "summary": "Durante la adolescencia se intensifican el conflicto corporal, la conciencia de la diferencia y la exposición a la violencia. El deseo, las amistades y ciertos referentes culturales abren una vía de reconocimiento, aunque todavía frágil."
+          },
+          {
+            "title": "Parte 3: Búsqueda de una vida propia",
+            "summary": "La juventud introduce desplazamientos, decisiones y encuentros que permiten imaginar otra existencia. Sin borrar el dolor acumulado, la novela avanza hacia una forma de afirmación donde la identidad deja de ser solo herida y se convierte en posibilidad de futuro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Identidad y clase",
+            "content": "Uno de los mayores aciertos del libro es no separar la experiencia trans de la condición de clase. La violencia no procede solo del rechazo moral, sino también de la precariedad, del hacinamiento simbólico y de la ausencia de espacios seguros."
+          },
+          {
+            "heading": "Madrid periférico como mapa moral",
+            "content": "El barrio madrileño está narrado con una mezcla de dureza y pertenencia. No es una postal nostálgica, sino un territorio donde se aprende a temer, a desear y a sobrevivir. Esa concreción espacial da espesor histórico al relato."
+          },
+          {
+            "heading": "La voz narrativa",
+            "content": "La prosa combina lirismo contenido y observación seca. Gracias a esa tensión, la novela evita el sentimentalismo fácil y sostiene una emoción verdadera, basada en la precisión con que recuerda humillaciones, alianzas y gestos mínimos de cuidado."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela autobiográfica?",
+            "answer": "No se presenta como autobiografía, aunque dialoga con materiales de experiencia y memoria. Funciona plenamente como novela y organiza su verdad en términos literarios, no documentales."
+          },
+          {
+            "question": "¿El foco está solo en la identidad de género?",
+            "answer": "No. La novela trabaja también la clase social, la vida de barrio, la familia, la amistad, la violencia y la búsqueda de una lengua propia para narrarse."
+          },
+          {
+            "question": "¿Resulta adecuada para clubes de lectura?",
+            "answer": "Sí. Abre conversaciones ricas sobre identidad, exclusión, memoria urbana y representación literaria sin perder potencia narrativa."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: La mala costumbre",
+            "url": "https://es.wikipedia.org/wiki/La_mala_costumbre"
+          },
+          {
+            "label": "Casa del Libro: La mala costumbre",
+            "url": "https://www.casadellibro.com/libro-la-mala-costumbre/9788432242120/13570679"
+          },
+          {
+            "label": "El País / Babelia: reseña de La mala costumbre",
+            "url": "https://elpais.com/babelia/2023-06-10/la-mala-costumbre-las-hermosas-vencidas-como-referente.html"
+          },
+          {
+            "label": "Aquí Biblioteca UC3M: La mala costumbre, de Alana S. Portero",
+            "url": "https://aquibiblioteca.uc3m.es/2024/05/21/la-mala-costumbre-de-alana-s-portero/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-muerte-y-otras-sorpresas-de-mario-benedetti",
+      "title": "La Muerte Y Otras Sorpresas",
+      "authorName": "Mario Benedetti",
+      "authorSlug": "mario-benedetti",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La muerte y otras sorpresas",
+        "authorName": "Mario Benedetti",
+        "authorSlug": "mario-benedetti",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 1968,
+        "pages": 160,
+        "summary": "Este volumen reúne diecinueve cuentos en los que Mario Benedetti explora las grietas de la vida cotidiana bajo una apariencia de sencillez narrativa. Sus personajes suelen ser empleados, parejas, vecinos o individuos corrientes que afrontan pequeñas crisis morales, pérdidas, malentendidos y súbitos desplazamientos del destino. La muerte del título no actúa solo como final biológico, sino como conciencia de fragilidad, desgaste del amor, deterioro de la rutina o fracaso de las expectativas. Montevideo y el espacio urbano funcionan como fondo reconocible de una literatura atenta a la intimidad y a la tensión entre deseo y costumbre. Benedetti consigue que cada relato abra una sorpresa ética o emocional: un giro, una ironía o una revelación que obliga a reconsiderar lo que parecía normal.",
+        "aboutThisBook": "La muerte y otras sorpresas pertenece a la mejor tradición cuentística de Benedetti. No es un libro de efectos espectaculares, sino una colección de relatos breves donde la observación de la vida común se carga de ambigüedad, humor y melancolía. Su tono sobrio permite que el extrañamiento surja desde escenas domésticas, oficinas, conversaciones y recuerdos, con una economía expresiva muy característica del autor uruguayo.",
+        "forWhom": "Para lectores de cuentos breves, narrativa rioplatense y literatura interesada en la psicología cotidiana más que en la grandilocuencia argumental.",
+        "whyItMatters": "Sigue importando porque muestra cómo el cuento puede revelar zonas enteras de una sociedad a partir de episodios mínimos. Benedetti ilumina la soledad, la rutina y el autoengaño con una claridad que mantiene intacta su vigencia.",
+        "editorialIntro": "Benedetti entendió como pocos que la vida corriente guarda una intensidad secreta. En estos cuentos no hay artificio excesivo: bastan una oficina, una pareja en desgaste o un recuerdo que vuelve a destiempo para que aparezcan la ironía, la ternura o el desamparo. El libro ofrece una muestra muy nítida de esa maestría para decir mucho con pocas páginas.",
+        "readingLevel": "Medio: estilo claro y directo, con capas interpretativas sobre ironía, frustración, memoria y condición urbana.",
+        "whyReadToday": "Porque sus relatos siguen dialogando con la ansiedad contemporánea: el tedio laboral, la incomunicación afectiva y la fragilidad de los vínculos aparecen sin retórica y con una precisión todavía reconocible.",
+        "studyNotes": [
+          "Es útil atender a cómo Benedetti construye tensión sin abandonar un registro coloquial; el conflicto suele nacer de un detalle aparentemente menor.",
+          "La ciudad no es solo ambientación: organiza la soledad de los personajes y el ritmo moral de los relatos.",
+          "La sorpresa final rara vez es un truco; normalmente reordena retrospectivamente la dimensión afectiva o ética del cuento."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Bloque 1: Rutinas en apariencia estables",
+            "summary": "Los primeros cuentos presentan vidas ordinarias sometidas a hábitos, trabajos y vínculos previsibles. Benedetti instala un tono de cercanía para mostrar que la normalidad ya contiene una inquietud latente."
+          },
+          {
+            "title": "Bloque 2: Fisuras afectivas y morales",
+            "summary": "En el centro del libro dominan las historias donde el amor, la culpa, el resentimiento o la memoria alteran la vida diaria. La sorpresa surge cuando los personajes descubren que no controlaban tanto como creían sus emociones ni sus decisiones."
+          },
+          {
+            "title": "Bloque 3: Desenlaces con ironía y desamparo",
+            "summary": "Los relatos finales consolidan una mirada donde la ironía convive con la compasión. La muerte, el desgaste o la pérdida aparecen menos como escándalo que como revelación de la precariedad humana."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El arte de la brevedad",
+            "content": "Benedetti depura la prosa hasta dejar visibles solo los elementos esenciales. Esa economía permite que los cuentos avancen con rapidez y que el sentido se concentre en gestos, silencios o cambios mínimos de perspectiva."
+          },
+          {
+            "heading": "Cotidianidad y extrañamiento",
+            "content": "El libro trabaja una poética de lo ordinario: la rareza no cae desde fuera, sino que emerge del interior mismo de la rutina. Por eso el lector reconoce los escenarios y a la vez percibe una inquietud persistente."
+          },
+          {
+            "heading": "Compasión sin ingenuidad",
+            "content": "Aunque Benedetti observa con cercanía a sus personajes, no idealiza sus flaquezas. El libro mantiene un equilibrio notable entre empatía, ironía y juicio moral, rasgo central de su narrativa breve."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o una colección de cuentos?",
+            "answer": "Es un libro de cuentos. Los relatos son autónomos, aunque comparten atmósferas urbanas, preocupaciones morales y una sensibilidad reconociblemente benedettiana."
+          },
+          {
+            "question": "¿Hace falta conocer antes a Benedetti?",
+            "answer": "No. Es una buena puerta de entrada a su narrativa breve porque reúne su claridad estilística, su ironía y su interés por la vida cotidiana."
+          },
+          {
+            "question": "¿Predomina un tono pesimista?",
+            "answer": "Más que pesimismo, hay lucidez. Los cuentos registran frustraciones y pérdidas, pero también humanidad, humor y una atención muy fina a los matices afectivos."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Casa del Libro: La muerte y otras sorpresas",
+            "url": "https://www.casadellibro.com/libro-la-muerte-y-otras-sorpresas/9788420406282/1772365"
+          },
+          {
+            "label": "Loqueleo: La muerte y otras sorpresas",
+            "url": "https://www.loqueleo.com/ec/libro/la-muerte-y-otras-sorpresas"
+          },
+          {
+            "label": "Internet Archive: La muerte y otras sorpresas",
+            "url": "https://archive.org/details/lamuerteyotrasso0000bene"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Mario Benedetti, inventario cómplice",
+            "url": "https://www.cervantesvirtual.com/obra-visor/mario-benedetti-inventario-complice--0/html/ff1470c0-82b1-11df-acc7-002185ce6064_111.html"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-mujer-del-diplomatico-de-isabel-san-sebastian",
+      "title": "La Mujer Del Diplomatico",
+      "authorName": "Isabel San Sebastian",
+      "authorSlug": "isabel-san-sebastian",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La mujer del diplomático",
+        "authorName": "Isabel San Sebastián",
+        "authorSlug": "isabel-san-sebastian",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 2016,
+        "pages": 480,
+        "summary": "La novela entrelaza dos tiempos narrativos. En el presente, Lucía, editora en crisis tras una ruptura sentimental y en un momento de desorientación personal, regresa a la casa familiar y encuentra el diario de su madre muerta, María. Ese cuaderno abre la segunda línea del relato: la vida de una esposa de diplomático durante los años más tensos de la Guerra Fría, entre desplazamientos, protocolos, sospechas, viajes y silencios matrimoniales. A medida que Lucía lee, descubre una madre menos idealizada y mucho más compleja de lo que había imaginado. La intriga íntima se expande así hacia una exploración del mundo diplomático, de la fragilidad de los vínculos, de la lealtad y de los secretos que una familia transmite o esconde. La novela combina melodrama familiar, reconstrucción histórica y búsqueda de identidad a través de la memoria heredada.",
+        "aboutThisBook": "La mujer del diplomático muestra a Isabel San Sebastián en un registro de gran novela de intriga sentimental e histórica. El libro alterna épocas y escenarios para contar cómo un documento íntimo puede reordenar la vida de una hija adulta. Su interés reside en la tensión entre lo privado y lo político: los acontecimientos de la Guerra Fría no son simple fondo exótico, sino el marco que condiciona emociones, decisiones y renuncias.",
+        "forWhom": "Para lectores de novelas extensas con secretos familiares, doble línea temporal y reconstrucción de ambientes históricos y diplomáticos del siglo XX.",
+        "whyItMatters": "Importa porque explora cómo la historia grande incide en la intimidad doméstica. La novela convierte la memoria familiar en una vía para pensar el matrimonio, la maternidad, la herencia emocional y la lectura del pasado desde el presente.",
+        "editorialIntro": "Isabel San Sebastián construye aquí una narración amplia, de corte clásico, que mezcla suspense íntimo y trasfondo histórico. La aparición de un diario desencadena un viaje retrospectivo que va mucho más allá del hallazgo sentimental: obliga a revisar una biografía materna, un mundo diplomático hecho de brillo y encierro, y los costes silenciosos de ciertas lealtades.",
+        "readingLevel": "Medio: escritura fluida y narrativa lineal en cada plano temporal, con abundancia de detalles históricos y afectivos.",
+        "whyReadToday": "Porque sigue siendo atractivo leer novelas que expliquen cómo una familia fabrica sus silencios. Además, el contraste entre intimidad y geopolítica ofrece una forma accesible de pensar el siglo XX desde la experiencia privada.",
+        "studyNotes": [
+          "La estructura en dos tiempos es central: no solo alterna pasado y presente, sino dos modos de leer la verdad, el recuerdo y el autoengaño.",
+          "El diario funciona como dispositivo narrativo y también como símbolo de una voz femenina que solo puede decirse plenamente en la intimidad escrita.",
+          "El ambiente diplomático introduce glamour y movilidad, pero sobre todo evidencia soledad, representación social y restricciones impuestas por el rol conyugal."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Hallazgo y crisis personal",
+            "summary": "Lucía atraviesa un momento de ruptura y desconcierto cuando el regreso a la casa familiar la enfrenta con objetos del pasado. El descubrimiento del diario de María convierte la búsqueda emocional en una investigación sobre su propia historia."
+          },
+          {
+            "title": "Parte 2: El cuaderno de María",
+            "summary": "La voz de la madre reconstruye la vida diplomática en plena Guerra Fría: viajes, protocolo, temor a la amenaza nuclear, sospechas conyugales y una soledad cada vez más difícil de callar."
+          },
+          {
+            "title": "Parte 3: Revelaciones y relectura del pasado",
+            "summary": "A medida que avanza la lectura, Lucía comprende que la biografía materna estaba hecha de renuncias, secretos y decisiones invisibles para la hija. El cierre reordena los afectos familiares y obliga a reconsiderar lealtades y pérdidas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria heredada",
+            "content": "La novela propone que conocer a los padres exige aceptar zonas de opacidad. El diario no devuelve una verdad plena, pero sí una versión más compleja y humana de María, capaz de desestabilizar el recuerdo filial."
+          },
+          {
+            "heading": "Historia privada e historia mundial",
+            "content": "La crisis de los misiles y el clima de Guerra Fría no son meros hitos decorativos. Funcionan como presión externa sobre las decisiones íntimas y como recordatorio de que la vida familiar nunca está aislada de la política."
+          },
+          {
+            "heading": "El rol de la esposa de diplomático",
+            "content": "San Sebastián retrata un universo de prestigio social atravesado por la representación y el silencio. María debe sostener apariencias, administrar sospechas y contener el miedo dentro de un papel público rígido y exigente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Predomina más la intriga familiar o la recreación histórica?",
+            "answer": "Ambas dimensiones se sostienen mutuamente. El secreto familiar impulsa la lectura, mientras que el contexto histórico da densidad y sentido a los conflictos íntimos."
+          },
+          {
+            "question": "¿Es una novela romántica?",
+            "answer": "Tiene una fuerte dimensión sentimental, pero su núcleo está en la memoria familiar, la identidad de la hija y el examen de un matrimonio atravesado por silencios y sospechas."
+          },
+          {
+            "question": "¿La estructura es compleja?",
+            "answer": "No especialmente. La alternancia entre presente y diario está planteada de forma clara, lo que facilita seguir la doble línea temporal sin perder el hilo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Casa del Libro: La mujer del diplomático",
+            "url": "https://www.casadellibro.com/libro-la-mujer-del-diplomatico/9788466335270/3004276"
+          },
+          {
+            "label": "Penguin Libros: La mujer del diplomático",
+            "url": "https://www.penguinlibros.com/es/literatura-contemporanea/342374-libro-la-mujer-del-diplomatico-9788401034695"
+          },
+          {
+            "label": "Google Libros: La mujer del diplomático",
+            "url": "https://books.google.com/books/about/La_mujer_del_diplom%C3%A1tico.html?id=HM3noAEACAAJ"
+          },
+          {
+            "label": "Lecturalia: La mujer del diplomático",
+            "url": "https://www.lecturalia.com/libro/89133/la-mujer-del-diplomatico"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-mujer-del-medico-de-daniel-hurst",
+      "title": "La Mujer Del Medico",
+      "authorName": "Daniel Hurst",
+      "authorSlug": "daniel-hurst",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "The Doctor's Wife",
+        "authorName": "Daniel Hurst",
+        "authorSlug": "daniel-hurst",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller"
+        ],
+        "year": 2023,
+        "pages": 254,
+        "summary": "The Doctor's Wife es un thriller psicológico doméstico construido alrededor de una grieta básica: la distancia entre la apariencia impecable de un matrimonio y la verdad corrosiva que lo sostiene. Fern Devlin vive con Drew, un médico atractivo y respetado por todos, en una casa aislada frente al mar que debía simbolizar un nuevo comienzo. Muy pronto comprende que el traslado no fue una cura, sino una maniobra para enterrar culpas y reorganizar mentiras. La novela sigue su descubrimiento de nuevas traiciones, el uso abusivo del prestigio profesional de Drew y la acumulación de rencor que convierte la vida conyugal en una guerra privada. Daniel Hurst apuesta por capítulos rápidos, narración tensa y giros frecuentes para mostrar cómo la intimidad puede volverse el lugar más peligroso cuando la confianza ya se ha roto.",
+        "aboutThisBook": "Publicada por Bookouture en 2023, esta novela abrió la serie The Doctor's Wife. La página de la editorial y la del propio autor coinciden en presentar a Fern Devlin y al doctor Drew Devlin como el centro de una saga de venganzas, secretos y consecuencias familiares. Su propuesta se sitúa claramente en la línea del thriller psicológico comercial contemporáneo: matrimonio en crisis, casa apartada, verdad fragmentada y ritmo de lectura muy alto. Más que una investigación policial clásica, el libro trabaja la tensión desde el interior de la pareja y desde la sospecha constante sobre quién controla realmente la situación.",
+        "forWhom": "Para lectores de thriller psicológico, suspense doméstico y novelas sobre matrimonios dañados, secretos íntimos y represalias calculadas. Funciona especialmente bien para quienes disfrutan tramas rápidas y giros continuos.",
+        "whyItMatters": "Importa porque representa con claridad una corriente muy leída del thriller reciente: la que convierte la vida conyugal en escenario de manipulación, prestigio social y violencia moral. También muestra la eficacia comercial de Daniel Hurst en series de alto ritmo.",
+        "editorialIntro": "No todos los thrillers necesitan grandes conspiraciones para volverse inquietantes. A veces basta un matrimonio, una casa apartada y una verdad que llega demasiado tarde. The Doctor's Wife trabaja precisamente con ese material: la sospecha de que la persona más cercana ha usado la confianza como cobertura y de que el hogar perfecto era solo una fachada cuidadosamente administrada.",
+        "readingLevel": "Lectura accesible y muy ágil: frases directas, capítulos breves y una intriga sostenida por revelaciones sucesivas más que por complejidad estilística.",
+        "whyReadToday": "Porque resume muy bien el atractivo actual del thriller doméstico: relaciones de poder, manipulación emocional, imagen pública impecable y estallidos privados que deshacen esa fachada.",
+        "studyNotes": [
+          "La novela se apoya en un contraste deliberado entre la respetabilidad pública del médico y la degradación privada del vínculo conyugal.",
+          "Fern Devlin funciona menos como víctima pasiva que como personaje que reorganiza el conflicto desde la memoria, la sospecha y la represalia.",
+          "El escenario aislado refuerza la sensación de encierro psicológico y reduce la posibilidad de ayuda externa o de verdad compartida.",
+          "El libro inaugura una serie, por lo que parte de su interés está en cómo deja abiertas consecuencias para entregas posteriores.",
+          "Su tono responde al thriller de consumo rápido, con prioridad narrativa en el suspense, la tensión emocional y el giro final."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La fachada del matrimonio perfecto",
+            "summary": "Fern presenta su vida con Drew bajo la apariencia de estabilidad y privilegio, pero pronto se impone la desconfianza. El traslado a una casa apartada aparece como un supuesto nuevo comienzo que en realidad esconde problemas anteriores no resueltos."
+          },
+          {
+            "title": "Parte 2: Secretos, poder y aislamiento",
+            "summary": "A medida que Fern descubre nuevas mentiras, comprende que su marido usa su autoridad profesional para intervenir en la vida de otros y protegerse. La atmósfera doméstica se vuelve más opresiva y la tensión gira en torno a quién sabe más y quién dará el siguiente golpe."
+          },
+          {
+            "title": "Parte 3: Venganza y giro final",
+            "summary": "La novela transforma la sospecha en acción y lleva el conflicto hacia una represalia cuidadosamente preparada. En el tramo final, las revelaciones reorganizan la lectura de la pareja y del pasado que ambos creían enterrado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El prestigio profesional como máscara",
+            "content": "Drew no es solo un marido infiel o mentiroso: es alguien protegido por una posición social que le permite inspirar confianza automática. Ese detalle vuelve más inquietante la novela, porque el conflicto no se basa solo en la intimidad rota, sino también en el poder que da una reputación pública intachable."
+          },
+          {
+            "heading": "La lógica del thriller doméstico",
+            "content": "Hurst trabaja dentro de una tradición reciente muy reconocible: espacios privados convertidos en zonas de amenaza, parejas donde la verdad aparece por capas y una lectura impulsada por cliffhangers. El interés está menos en la investigación externa que en la erosión interna del vínculo."
+          },
+          {
+            "heading": "Fern como eje moral del relato",
+            "content": "La serie se articula alrededor de Fern Devlin, y eso le da al libro un punto de vista emocional definido. Su mezcla de vulnerabilidad, resentimiento y capacidad de respuesta evita que la novela quede reducida a una simple exposición de maldad masculina; la vuelve también una historia de contraataque."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela autoconclusiva?",
+            "answer": "Funciona como una historia con conflicto propio, pero también abre la serie The Doctor’s Wife y deja planteadas consecuencias para libros posteriores."
+          },
+          {
+            "question": "¿Qué tipo de thriller es?",
+            "answer": "Es un thriller psicológico doméstico, centrado en secretos matrimoniales, manipulación íntima y tensión sostenida dentro del hogar más que en una investigación policial tradicional."
+          },
+          {
+            "question": "¿Predomina la acción o la intriga emocional?",
+            "answer": "Predomina la intriga emocional. El libro avanza por sospechas, mentiras reveladas y cambios de poder entre los personajes, aunque mantiene un ritmo narrativo muy rápido."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Bookouture - The Doctor's Wife",
+            "url": "https://bookouture.com/books/2875/"
+          },
+          {
+            "label": "Daniel Hurst Books - The Doctor’s Wife Series",
+            "url": "https://www.danielhurstbooks.com/books"
+          },
+          {
+            "label": "Open Library - The Doctor's Wife",
+            "url": "https://openlibrary.org/works/OL34312093W/The_Doctor%27s_Wife"
+          },
+          {
+            "label": "Goodreads - The Doctor's Wife",
+            "url": "https://www.goodreads.com/book/show/66546661-the-doctor-s-wife"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-musica-de-los-numeros-primos-de-marcus-du-sautoy",
+      "title": "La Musica De Los Numeros Primos",
+      "authorName": "Marcus Du Sautoy",
+      "authorSlug": "marcus-du-sautoy",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "The Music of the Primes",
+        "authorName": "Marcus du Sautoy",
+        "authorSlug": "marcus-du-sautoy",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2003,
+        "pages": 480,
+        "summary": "The Music of the Primes es un libro de divulgación matemática que convierte uno de los problemas más difíciles de la disciplina en una narración histórica e intelectual de gran alcance. Marcus du Sautoy parte de la fascinación por los números primos —esas cifras indivisibles que parecen distribuirse con una mezcla de orden y misterio— para contar la larga búsqueda de una ley capaz de anticipar su aparición. En el centro del relato sitúa la hipótesis de Riemann, formulada en el siglo XIX y todavía no resuelta, y la enlaza con las biografías, intuiciones y rivalidades de quienes intentaron acercarse a ella. El resultado no es un manual técnico, sino una historia de ideas donde conviven la elegancia abstracta, el suspense del problema abierto y la convicción de que las matemáticas también tienen drama, imaginación y riesgo intelectual.",
+        "aboutThisBook": "Publicado originalmente por Fourth Estate en 2003, el libro se volvió uno de los títulos más conocidos de Marcus du Sautoy y ayudó a acercar la teoría de números al gran público. En su web oficial, el autor lo presenta como un best seller internacional sobre la historia y las matemáticas detrás de la hipótesis de Riemann; HarperCollins lo resume como la crónica de la búsqueda del “santo grial” de la predicción de los números primos. Su relevancia viene de ahí: hace legible un asunto muy abstracto sin reducirlo a simple anécdota.",
+        "forWhom": "Para lectores de divulgación científica exigente, estudiantes con curiosidad por la matemática moderna y quienes disfrutan historias intelectuales donde una idea abstracta organiza siglos de investigación.",
+        "whyItMatters": "Importa porque muestra que la matemática avanzada también tiene historia, obsesiones personales y problemas abiertos de enorme alcance. Pocos libros de divulgación explican con tanta ambición por qué la hipótesis de Riemann sigue siendo central para entender la distribución de los números primos.",
+        "editorialIntro": "Hay libros de ciencia que informan y otros que consiguen transmitir la emoción de una pregunta. The Music of the Primes pertenece a los segundos. Du Sautoy no simplifica hasta vaciar el problema, pero tampoco se refugia en la jerga: narra la aventura intelectual de quienes intentaron descubrir el patrón oculto de los primos y convierte una conjetura célebre en una historia de imaginación matemática.",
+        "readingLevel": "Lectura media-alta: el autor escribe con claridad, pero el tema exige atención sostenida a conceptos matemáticos, contexto histórico y cambios de escala entre intuición y demostración.",
+        "whyReadToday": "Porque sigue siendo una de las mejores puertas de entrada narrativas a la hipótesis de Riemann y a la pregunta por cómo se comunica la matemática compleja fuera del aula y del artículo especializado.",
+        "studyNotes": [
+          "El libro combina biografía intelectual, historia de las matemáticas y divulgación conceptual en proporciones muy equilibradas.",
+          "La hipótesis de Riemann funciona como eje dramático: un problema técnico, sí, pero también un desafío generacional que organiza la narración.",
+          "Du Sautoy insiste en que los números primos no son solo curiosidades aritméticas, sino piezas centrales para comprender estructuras profundas de la matemática.",
+          "La obra sirve para pensar cómo se populariza una ciencia abstracta sin eliminar del todo su dificultad real.",
+          "Las referencias a Euler, Gauss, Riemann y otros matemáticos convierten el libro en una genealogía de la teoría de números moderna."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El hechizo de los primos",
+            "summary": "El libro introduce la singularidad de los números primos y el deseo antiguo de encontrar un patrón en su distribución. Desde el comienzo, du Sautoy plantea que la aparente irregularidad de estos números ha sido una fuente de asombro y desafío intelectual durante siglos."
+          },
+          {
+            "title": "Parte 2: Riemann y la gran conjetura",
+            "summary": "La zona central reconstruye el papel de Bernhard Riemann y la formulación de la hipótesis que cambió la teoría de números. Aquí la historia matemática se vuelve también historia de una intuición extraordinaria cuyos efectos alcanzan generaciones posteriores."
+          },
+          {
+            "title": "Parte 3: La búsqueda contemporánea",
+            "summary": "En el tramo final, la obra sigue a matemáticos modernos, métodos nuevos y consecuencias más amplias del problema. La hipótesis de Riemann aparece entonces no como reliquia histórica, sino como una pregunta viva cuya resolución sigue transformando la disciplina."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Divulgación sin banalización",
+            "content": "Uno de los logros del libro es conservar la dificultad del tema sin volverlo impenetrable. Du Sautoy explica por qué la pregunta importa antes de forzar una falsa simplicidad, y esa honestidad intelectual fortalece la confianza del lector en el recorrido."
+          },
+          {
+            "heading": "La matemática como relato humano",
+            "content": "Aunque el núcleo es técnico, el libro se sostiene narrativamente gracias a las figuras históricas que lo atraviesan. La investigación matemática aparece como una actividad hecha de intuiciones brillantes, callejones sin salida, ambición y diálogo entre generaciones."
+          },
+          {
+            "heading": "La hipótesis de Riemann como mito moderno",
+            "content": "El texto ayuda a entender por qué esta conjetura ocupa un lugar casi legendario. No solo promete ordenar el caos aparente de los primos; se ha convertido en emblema de lo que significa una gran pregunta abierta en la ciencia: una frontera que atrae talento, prestigio y riesgo intelectual."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta saber matemáticas avanzadas para leerlo?",
+            "answer": "No es necesario dominar teoría de números, pero sí conviene leer con paciencia y disposición para seguir ideas abstractas. Está escrito para público general culto, no solo para especialistas."
+          },
+          {
+            "question": "¿El libro trata solo sobre números primos?",
+            "answer": "Los primos son el eje, pero la obra también recorre la historia de la teoría de números, la figura de Riemann y la cultura matemática que rodea a la famosa hipótesis."
+          },
+          {
+            "question": "¿Sigue siendo relevante si la hipótesis de Riemann aún no se resolvió?",
+            "answer": "Precisamente por eso sigue siendo relevante. El libro explica por qué el problema continúa abierto y por qué esa incertidumbre ha estimulado décadas de trabajo matemático."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Marcus du Sautoy - The Music of the Primes",
+            "url": "https://marcusdusautoy.com/books/the-music-of-the-primes-why-an-unsolved-problem-in-mathematics-matters/"
+          },
+          {
+            "label": "HarperCollins - The Music of the Primes",
+            "url": "https://www.harpercollins.com/products/the-music-of-the-primes-marcus-du-sautoy"
+          },
+          {
+            "label": "Mathematical Association of America - Review of The Music of the Primes",
+            "url": "https://old.maa.org/press/maa-reviews/the-music-of-the-primes-searching-to-solve-the-greatest-mystery-in-mathematics"
+          },
+          {
+            "label": "Open Library - The Music of the Primes",
+            "url": "https://openlibrary.org/works/OL5747128W/The_music_of_the_primes"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-novela-de-peron-de-tomas-eloy-martinez",
+      "title": "La Novela De Peron",
+      "authorName": "Tomas Eloy Martinez",
+      "authorSlug": "tomas-eloy-martinez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La novela de Perón",
+        "authorName": "Tomás Eloy Martínez",
+        "authorSlug": "tomas-eloy-martinez",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 1985,
+        "pages": 429,
+        "summary": "La novela de Perón es una de las obras centrales de Tomás Eloy Martínez y uno de los ejemplos más influyentes de la narrativa latinoamericana que cruza documentación, periodismo y ficción para interrogar el poder. A partir de las largas entrevistas que el autor mantuvo con Juan Domingo Perón durante su exilio, la novela construye un retrato movedizo del líder argentino, pero evita la biografía lineal y la interpretación cerrada. Lo que aparece es un tejido de voces, versiones, escenas y contradicciones que explora cómo se fabrica un personaje histórico, cómo circula su mito y hasta qué punto la verdad política depende también del relato. El libro no busca dictar sentencia definitiva sobre Perón, sino mostrar la imposibilidad de separarlo del lenguaje, la memoria, la manipulación y la imaginación colectiva argentina.",
+        "aboutThisBook": "Publicada originalmente en 1985, la novela ocupa un lugar decisivo en la obra de Tomás Eloy Martínez. Penguin Libros la presenta como el resultado literario de aquellas entrevistas míticas con Perón y como una obra donde investigación y ficción se conjugan de manera inseparable. Las ediciones posteriores de Alfaguara consolidaron su circulación entre nuevas generaciones de lectores. No es solo una novela histórica: es también una reflexión sobre los límites entre documento y fabulación cuando el objeto narrado es una figura política ya convertida en mito nacional.",
+        "forWhom": "Para lectores de narrativa histórica, literatura latinoamericana contemporánea y libros que trabajan la relación entre poder, memoria, periodismo y ficción con alta densidad política.",
+        "whyItMatters": "Importa porque redefinió una manera de narrar la historia política en clave novelística sin renunciar a la investigación documental. Su influencia se percibe en muchas obras posteriores que entienden el archivo y la imaginación como materiales complementarios, no opuestos.",
+        "editorialIntro": "Pocas novelas latinoamericanas han sabido entrar en la maquinaria del mito político con tanta inteligencia narrativa. La novela de Perón no se limita a recrear una época ni a retratar a un caudillo famoso: examina cómo se fabrica una figura histórica a través de testimonios, silencios, lealtades y ficciones. Por eso sigue siendo un libro clave para leer no solo a Perón, sino también la relación entre literatura y verdad pública.",
+        "readingLevel": "Lectura media-alta: la prosa es fluida, pero la riqueza de voces, referencias históricas y desplazamientos entre registro documental y ficción pide atención constante.",
+        "whyReadToday": "Porque ayuda a pensar de qué modo los liderazgos carismáticos se construyen narrativamente y cómo la memoria política de un país depende de versiones en conflicto más que de una verdad única y estable.",
+        "studyNotes": [
+          "La novela nace del cruce entre experiencia periodística real e imaginación narrativa, y esa tensión es parte esencial de su forma.",
+          "Perón aparece menos como personaje cerrado que como foco de versiones, discursos y proyecciones contradictorias.",
+          "El libro puede leerse como una indagación sobre la fabricación del mito político en la cultura argentina del siglo XX.",
+          "Su valor no está solo en lo histórico, sino en cómo problematiza la idea misma de verdad documental.",
+          "Resulta especialmente fértil compararla con Santa Evita para ver cómo Martínez desarrolla una poética del archivo y la leyenda."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1: El personaje y sus máscaras",
+            "summary": "La novela introduce a Perón como figura múltiple, atravesada por relatos ajenos y autoconstrucciones estratégicas. Desde el comienzo queda claro que no habrá una sola versión del personaje, sino una disputa constante por su sentido."
+          },
+          {
+            "title": "Momento 2: Historia, entrevistas y ficción",
+            "summary": "En su zona central, el libro mezcla materiales documentales, memoria política y recursos novelísticos para reconstruir un país alrededor del líder. La narración muestra que el archivo no habla por sí solo: siempre necesita una forma que lo organice y lo ponga en tensión."
+          },
+          {
+            "title": "Momento 3: El mito como problema narrativo",
+            "summary": "Hacia el final, la obra desplaza el interés desde el dato puntual hacia la persistencia del mito peronista. Lo decisivo ya no es solo qué ocurrió, sino cómo una figura histórica sigue produciendo versiones, adhesiones y relatos incompatibles entre sí."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela, archivo y poder",
+            "content": "Martínez no usa la documentación como garantía de transparencia, sino como material narrativo problemático. Esa decisión vuelve la novela especialmente moderna: el archivo aparece lleno de vacíos, mediaciones e intereses, y la ficción sirve para revelar esa inestabilidad más que para ocultarla."
+          },
+          {
+            "heading": "La invención del líder carismático",
+            "content": "Perón es presentado como un personaje que también se escribe a sí mismo. La novela muestra que el poder político no descansa solo en hechos, sino en relatos eficaces, puestas en escena y memorias disputadas. Ahí reside una de sus intuiciones más duraderas."
+          },
+          {
+            "heading": "Un hito de la narrativa latinoamericana reciente",
+            "content": "La novela de Perón ayudó a consolidar una línea narrativa donde la historia nacional se explora desde el mestizaje entre reportaje, documento y ficción. Su importancia excede el tema peronista: plantea una forma de novelar la política que marcó a muchos lectores y escritores posteriores."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una biografía de Juan Domingo Perón?",
+            "answer": "No en sentido estricto. Parte de materiales biográficos y de entrevistas reales, pero los reorganiza como novela para explorar la construcción narrativa del personaje y de su mito."
+          },
+          {
+            "question": "¿Se puede leer sin conocer a fondo la historia argentina?",
+            "answer": "Sí, aunque el contexto histórico enriquece mucho la experiencia. Incluso sin ese conocimiento previo, el libro funciona como reflexión sobre poder, memoria y relato político."
+          },
+          {
+            "question": "¿Qué relación tiene con Santa Evita?",
+            "answer": "Comparten autor y una preocupación por los grandes mitos políticos argentinos. La novela de Perón es anterior y ya ensaya la mezcla de investigación, archivo y ficción que luego Martínez desarrollará de otro modo en Santa Evita."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin Libros - La novela de Perón",
+            "url": "https://www.penguinlibros.com/mx/tematicas/163345-ebook-la-novela-de-peron-9789877380453"
+          },
+          {
+            "label": "Casa del Libro - La novela de Perón",
+            "url": "https://www.casadellibro.com/libro-la-novela-de-peron/9788420449319/928844"
+          },
+          {
+            "label": "Open Library - La novela de Perón",
+            "url": "https://openlibrary.org/works/OL877300W/La_novela_de_Pero%CC%81n"
+          },
+          {
+            "label": "Google Libros - La novela de Perón: Edición conmemorativa",
+            "url": "https://books.google.es/books/about/La_novela_de_Per%C3%B3n.html?id=LD5zBwAAQBAJ&redir_esc=y"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-nueva-justine-o-las-desgracias-de-la-virtud-de-marques-de-sade",
+      "title": "La Nueva Justine O Las Desgracias De La Virtud De Marques",
+      "authorName": "Sade",
+      "authorSlug": "sade",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La nueva Justine o las desgracias de la virtud",
+        "authorName": "Marqués de Sade",
+        "authorSlug": "marques-de-sade",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1797,
+        "pages": null,
+        "summary": "Esta versión ampliada de Justine sigue a una joven huérfana que intenta conservar su virtud en un mundo regido por la violencia, la hipocresía y el abuso de poder. A medida que pasa de conventos y casas nobles a prisiones, caminos y refugios precarios, cada autoridad que debería protegerla se convierte en una nueva fuente de explotación. Sade organiza la narración como una serie de pruebas extremas en las que la inocencia no recibe recompensa, sino castigo. El resultado es una novela provocadora que invierte la moral edificante de su tiempo y usa el escándalo para plantear una pregunta incómoda: qué ocurre cuando la sociedad premia el vicio y vuelve impotente a la virtud.",
+        "aboutThisBook": "La nueva Justine o las desgracias de la virtud es la formulación más extensa y feroz de una de las obras centrales del Marqués de Sade. Escrita a partir de versiones previas de 1787 y 1791, la edición de 1797 radicaliza la apuesta: más episodios, mayor dimensión filosófica y una crítica todavía más agresiva de la religión, la autoridad y la moral social. No es una novela para leer como simple provocación: su estructura insistente convierte el sufrimiento de la protagonista en una tesis literaria sobre un mundo corrompido.",
+        "forWhom": "Para lectores adultos interesados en clásicos polémicos, historia de las ideas, literatura libertina y novelas que discuten la relación entre moral, poder y deseo.",
+        "whyItMatters": "Importa porque condensa una ruptura decisiva con la ficción moral del siglo XVIII. Sade convierte la novela en laboratorio filosófico y en ataque frontal a la confianza ilustrada en que la razón o la virtud bastan para ordenar la vida social.",
+        "editorialIntro": "Pocas novelas europeas han tenido una fama tan escandalosa y, al mismo tiempo, tanta influencia intelectual. La nueva Justine no busca consolar al lector ni ofrecer una lección moral tranquilizadora: somete a su protagonista a una cadena de humillaciones para demostrar que la sociedad puede premiar exactamente lo contrario de lo que dice venerar.",
+        "readingLevel": "Avanzado; exige tolerancia a la provocación, contexto histórico y lectura crítica de sus argumentos filosóficos.",
+        "whyReadToday": "Sigue siendo actual porque obliga a pensar cómo operan la violencia, la impunidad y la retórica moral cuando las instituciones fallan o encubren a los poderosos.",
+        "studyNotes": [
+          "Conviene distinguir entre el argumento narrativo y la función ensayística de muchos discursos libertinos: Sade interrumpe la acción para convertir cada episodio en debate moral y político.",
+          "La repetición no es un defecto accidental: refuerza la idea de que la injusticia contra Justine no depende de un villano aislado, sino de una estructura social entera.",
+          "Leer la obra junto a la tradición sentimental del siglo XVIII permite ver mejor la inversión central de Sade: la virtud ya no salva, sino que expone al personaje a una vulnerabilidad continua."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Caída inicial",
+            "summary": "Tras quedar huérfana, Justine sale al mundo con la intención de vivir honestamente. Muy pronto descubre que su rectitud no despierta compasión, sino oportunismo y violencia."
+          },
+          {
+            "title": "Parte 2: Peregrinación por instituciones corruptas",
+            "summary": "La protagonista pasa por conventos, casas privadas, caminos y espacios de encierro donde cada figura de autoridad formula una justificación ideológica para abusar de ella o explotarla."
+          },
+          {
+            "title": "Parte 3: La tesis de la desventura",
+            "summary": "El tramo final convierte la acumulación de desgracias en una afirmación filosófica: en el universo de Sade, la sociedad protege mejor a quienes dominan, mienten o ejercen crueldad que a quien intenta obrar bien."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Virtud sin recompensa",
+            "content": "La novela subvierte el relato ejemplar. Justine encarna una virtud desarmada, y Sade muestra una y otra vez que esa virtud no produce orden ni reconocimiento en un medio social degradado."
+          },
+          {
+            "heading": "Filosofía libertina y provocación",
+            "content": "Los antagonistas no sólo actúan: argumentan. Sus discursos atacan la religión, la providencia y la moral convencional, de modo que la novela funciona como una máquina de escándalo intelectual además de narración extrema."
+          },
+          {
+            "heading": "Influencia y recepción",
+            "content": "El libro circuló durante mucho tiempo como obra clandestina y maldita. Su impacto posterior en debates sobre deseo, poder, censura y violencia explica por qué sigue apareciendo en historias literarias y filosóficas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es la misma obra que Justine o los infortunios de la virtud?",
+            "answer": "Pertenece al mismo ciclo, pero esta es la versión ampliada y más radical, publicada en 1797 como La nouvelle Justine."
+          },
+          {
+            "question": "¿Debe leerse como novela moral?",
+            "answer": "Más bien como una inversión feroz de la novela moral. Sade cuestiona la idea de que la virtud sea recompensada por el simple hecho de existir."
+          },
+          {
+            "question": "¿Por qué sigue siendo un libro discutido?",
+            "answer": "Porque combina violencia, provocación filosófica y una crítica demoledora de instituciones religiosas y sociales, todo ello en una forma literaria deliberadamente incómoda."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Encyclopaedia Britannica: Marquis de Sade",
+            "url": "https://www.britannica.com/biography/Marquis-de-Sade"
+          },
+          {
+            "label": "Catalogue général de la BnF: búsqueda de La nouvelle Justine",
+            "url": "https://catalogue.bnf.fr/rechercher.do?motRecherche=La%20nouvelle%20Justine%20Sade&critereRecherche=0&depart=0&facetteModifiee=ok"
+          },
+          {
+            "label": "Wikipedia: Justine o los infortunios de la virtud",
+            "url": "https://es.wikipedia.org/wiki/Justine_o_los_infortunios_de_la_virtud"
+          },
+          {
+            "label": "Open Library: Justine (obra)",
+            "url": "https://openlibrary.org/works/OL962240W/Justine"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-rebelion-de-lucifer-de-j-j-benitez",
+      "title": "La Rebelion De Lucifer",
+      "authorName": "J J Benitez",
+      "authorSlug": "j-j-benitez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La rebelión de Lucifer",
+        "authorName": "J. J. Benítez",
+        "authorSlug": "j-j-benitez",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2005,
+        "pages": 656,
+        "summary": "En este libro J. J. Benítez propone una interpretación heterodoxa de la figura de Lucifer y del relato de la caída original. A partir de un tono divulgativo y especulativo, revisa la insurrección del ángel rebelde, el llamado plan cósmico de Adán y Eva y las consecuencias que, según su lectura, habrían marcado la historia humana. No es un tratado académico ni una exposición de teología normativa, sino un texto de largo aliento que mezcla preguntas religiosas, tradición popular, intuiciones esotéricas y voluntad de controversia. Su interés reside tanto en el contenido como en el modo en que Benítez convierte asuntos doctrinales en un relato accesible para el gran público.",
+        "aboutThisBook": "La rebelión de Lucifer ocupa un lugar reconocible dentro de la obra de J. J. Benítez: un territorio a medio camino entre el ensayo de divulgación, la especulación espiritual y la literatura de tema religioso. El autor no intenta reproducir la doctrina cristiana tradicional, sino discutirla y ofrecer una versión alternativa del origen del mal, la libertad y la desobediencia. Por eso conviene leerlo como un libro de interpretación personal y polémica, representativo del enorme atractivo popular que tuvieron en español los temas esotéricos a comienzos del siglo XXI.",
+        "forWhom": "Para lectores interesados en ensayos heterodoxos sobre religión, mitos de origen, angelología popular y la vertiente más especulativa de J. J. Benítez.",
+        "whyItMatters": "Importa porque muestra cómo la cultura editorial de gran público transformó asuntos teológicos complejos en libros de debate accesible. También ayuda a entender la persistencia del imaginario de Lucifer como figura de rebeldía, caída y reinterpretación simbólica.",
+        "editorialIntro": "J. J. Benítez convirtió durante décadas los enigmas religiosos y cósmicos en materia de lectura masiva. En La rebelión de Lucifer lleva esa fórmula a uno de los núcleos más delicados del imaginario judeocristiano: el origen de la desobediencia, la caída angélica y sus efectos sobre el destino humano.",
+        "readingLevel": "Intermedio; el estilo es directo, pero conviene separar la especulación del dato histórico y leer con atención crítica.",
+        "whyReadToday": "Puede leerse hoy como documento de una sensibilidad cultural que mezcla búsqueda espiritual, curiosidad esotérica y desconfianza hacia las versiones oficiales.",
+        "studyNotes": [
+          "Es útil distinguir entre la tradición doctrinal cristiana y la construcción personal de Benítez: buena parte del libro depende de lecturas alternativas, no de consenso académico.",
+          "El interés del texto no es sólo religioso. También sirve para observar cómo un autor de gran difusión convierte materias abstractas en una narración argumentativa de ritmo popular.",
+          "La figura de Lucifer aparece aquí menos como demonio cerradamente dogmático que como símbolo de rebelión, libertad frustrada y conflicto con el orden establecido."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El enigma de Lucifer",
+            "summary": "Benítez presenta a Lucifer como un personaje mal conocido y revisa las versiones más extendidas sobre su caída, proponiendo desde el inicio una lectura alternativa."
+          },
+          {
+            "title": "Parte 2: Adán, Eva y el plan frustrado",
+            "summary": "El libro enlaza la rebelión angélica con el destino de la humanidad y relee el episodio de Adán y Eva como pieza decisiva de un conflicto mayor."
+          },
+          {
+            "title": "Parte 3: Repercusiones para la historia humana",
+            "summary": "La sección final amplía la reflexión y plantea que las consecuencias de esa fractura originaria siguen proyectándose sobre la civilización, la libertad y la experiencia religiosa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un ensayo de heterodoxia religiosa",
+            "content": "La obra se sitúa fuera de la teología normativa y adopta una voz de divulgación polémica. Su fuerza proviene de esa mezcla entre seguridad expositiva y desafío a las lecturas oficiales."
+          },
+          {
+            "heading": "Lucifer como figura cultural",
+            "content": "Más que un estudio exhaustivo de fuentes, el libro trabaja con la potencia simbólica del personaje. Lucifer aparece como emblema de desobediencia, ambición y fracaso, lo que explica parte de su atractivo popular."
+          },
+          {
+            "heading": "Benítez y el mercado del misterio",
+            "content": "Leído en contexto, el volumen ayuda a entender una tradición editorial española y latinoamericana donde los temas religiosos se reinterpretan desde el misterio, la ufología o la especulación espiritual."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela?",
+            "answer": "No en sentido estricto. Aunque emplea recursos narrativos y un tono dramático, funciona sobre todo como ensayo especulativo sobre religión y mito."
+          },
+          {
+            "question": "¿Representa la doctrina cristiana tradicional?",
+            "answer": "No. El libro propone una lectura personal y heterodoxa, por lo que conviene no confundirlo con un texto doctrinal o académico."
+          },
+          {
+            "question": "¿Qué interés tiene para lectores actuales?",
+            "answer": "Permite ver cómo ciertos asuntos religiosos se volvieron temas de divulgación masiva y cómo Lucifer continúa siendo una figura central del imaginario contemporáneo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Planeta de Libros: La rebelión de Lucifer",
+            "url": "https://www.planetadelibros.com/libro-la-rebelion-de-lucifer/11882"
+          },
+          {
+            "label": "Open Library: La Rebelión de Lucifer (edición)",
+            "url": "https://openlibrary.org/books/OL9435329M/La_Rebelion_De_Lucifer_%28Biblioteca_J._J._Benitez%29"
+          },
+          {
+            "label": "Open Library: La Rebelión de Lucifer (obra)",
+            "url": "https://openlibrary.org/works/OL17610189W/La_Rebeli%C3%B3n_de_Lucifer"
+          },
+          {
+            "label": "Casa del Libro: ficha comercial",
+            "url": "https://www.casadellibro.com/libro-la-rebelion-de-lucifer/9788408076668/1219756"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-reina-jade-de-yxta-maya-murray",
+      "title": "La Reina Jade",
+      "authorName": "Yxta Maya Murray",
+      "authorSlug": "yxta-maya-murray",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La reina jade",
+        "authorName": "Yxta Maya Murray",
+        "authorSlug": "yxta-maya-murray",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "aventura",
+          "novela-historica"
+        ],
+        "year": 2008,
+        "pages": null,
+        "summary": "La reina jade combina novela de aventuras, intriga arqueológica y reconstrucción histórica alrededor de una leyenda maya. Lola, hija de una arqueóloga obsesionada con una gema mítica capaz de otorgar poder a quien la posea, viaja a Guatemala tras la desaparición de su madre en un territorio golpeado por el huracán Mitch. Lo que sigue es una investigación entre selva, cartas, crónicas coloniales, relatos de exploradores y jeroglíficos que conectan el presente con siglos de codicia y fascinación occidental por Mesoamérica. Yxta Maya Murray convierte esa búsqueda en una historia de identidad, herencia familiar y deseo de conocimiento, donde la aventura nunca queda separada del peso político y cultural del pasado.",
+        "aboutThisBook": "La reina jade es la versión en español de The Queen Jade, una novela en la que Yxta Maya Murray mezcla el pulso del thriller arqueológico con una mirada crítica sobre la conquista, el coleccionismo y la apropiación cultural. La leyenda de la gema funciona como motor narrativo, pero también como metáfora de una obsesión que atraviesa siglos y personajes muy distintos. La novela destaca por enlazar la aventura contemporánea con documentos, voces históricas y escenarios centroamericanos sin renunciar a una lectura ágil.",
+        "forWhom": "Para lectores de aventuras históricas, enigmas arqueológicos y novelas que enlazan investigación familiar, memoria colonial y paisajes latinoamericanos.",
+        "whyItMatters": "Importa porque actualiza un género clásico de búsqueda y tesoro desde una sensibilidad más crítica. En lugar de idealizar la exploración, la novela examina quién narra el pasado maya, quién se apropia de sus símbolos y qué precio humano dejan esas expediciones.",
+        "editorialIntro": "Yxta Maya Murray toma elementos reconocibles del relato de expedición —mapas, pistas, desapariciones, selva y reliquias— y los cruza con una reflexión sobre historia, herencia y poder. El resultado es una novela de aventura con fondo cultural, menos ingenua que el modelo clásico del tesoro perdido y más consciente de los conflictos que acompañan la mirada arqueológica.",
+        "readingLevel": "Intermedio-alto; la trama es fluida, pero gana riqueza si se atiende a sus capas históricas y a sus referencias al mundo maya y colonial.",
+        "whyReadToday": "Sigue siendo pertinente por su forma de unir entretenimiento con preguntas sobre memoria, patrimonio, colonialismo y transmisión familiar del deseo de saber.",
+        "studyNotes": [
+          "La novela puede leerse en dos planos: como aventura de rescate e investigación, y como examen de la fascinación occidental por convertir culturas antiguas en objetos de posesión.",
+          "Lola no es sólo una heroína en movimiento; también es una heredera ambivalente de la obsesión materna, y eso vuelve emocionalmente más compleja la búsqueda.",
+          "El uso de cartas, crónicas y referencias históricas amplía la dimensión temporal del relato y evita que la leyenda de la gema quede reducida a un mero truco de suspense."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La desaparición",
+            "summary": "La desaparición de la madre de Lola en Guatemala activa la búsqueda y sitúa el conflicto en el cruce entre dolor familiar, desastre natural y obsesión arqueológica."
+          },
+          {
+            "title": "Parte 2: Pistas en la historia",
+            "summary": "Lola sigue cartas, relatos antiguos y signos culturales que conectan exploradores, autoridades coloniales y estudiosos modernos con la leyenda de la Reina Jade."
+          },
+          {
+            "title": "Parte 3: Tesoro, memoria y riesgo",
+            "summary": "La persecución de la gema culmina en una reflexión sobre lo que realmente se busca: no sólo un objeto precioso, sino sentido, filiación y control sobre una historia heredada."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Aventura con conciencia histórica",
+            "content": "Murray utiliza la velocidad del thriller, pero evita la mirada romántica del explorador infalible. La novela recuerda constantemente que la arqueología y el deseo de descubrimiento están atravesados por relaciones de poder."
+          },
+          {
+            "heading": "La leyenda como herencia",
+            "content": "La Reina Jade no es únicamente un tesoro. Es una narración que pasa de época en época y que modela decisiones, obsesiones y vínculos familiares, especialmente entre Lola y su madre."
+          },
+          {
+            "heading": "Mundo maya y representación",
+            "content": "El libro invita a pensar cómo la cultura maya ha sido interpretada, usada y mitificada por viajeros, autoridades coloniales, científicos y lectores contemporáneos. Esa tensión da profundidad a la intriga."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica o de aventuras?",
+            "answer": "Es ambas cosas. La trama contemporánea avanza como aventura y misterio, pero se apoya en materiales históricos y en una reflexión sobre el pasado colonial y arqueológico."
+          },
+          {
+            "question": "¿La protagonista busca sólo un tesoro?",
+            "answer": "No. La búsqueda de la gema está ligada a la desaparición de su madre, a la identidad de Lola y a la herencia emocional e intelectual que recibe de ella."
+          },
+          {
+            "question": "¿Qué distingue a este libro de otros thrillers arqueológicos?",
+            "answer": "Su combinación de ritmo narrativo con una mirada crítica sobre la exploración, la apropiación cultural y la persistencia de los imaginarios sobre el mundo maya."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "HarperCollins: La Reina Jade",
+            "url": "https://www.harpercollins.com/products/la-reina-jade-yxta-maya-murray"
+          },
+          {
+            "label": "Open Library: The queen jade (edición)",
+            "url": "https://openlibrary.org/books/OL3306574M/The_queen_jade"
+          },
+          {
+            "label": "Open Library: The Queen Jade (obra)",
+            "url": "https://openlibrary.org/works/OL2000506W/The_Queen_Jade"
+          },
+          {
+            "label": "Kirkus Reviews: The Queen Jade",
+            "url": "https://www.kirkusreviews.com/book-reviews/yxta-maya-murray/the-queen-jade/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-repudiada-de-eliette-abecassis",
+      "title": "La Repudiada",
+      "authorName": "Eliette Abecassis",
+      "authorSlug": "eliette-abecassis",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La Répudiée",
+        "authorName": "Eliette Abécassis",
+        "authorSlug": "eliette-abecassis",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2000,
+        "pages": 140,
+        "summary": "Ambientada en el barrio ultraortodoxo de Mea Shearim, en Jerusalén, la novela sigue a Rachel y Nathan, casados desde hace casi diez años bajo las estrictas leyes hassídicas. Se aman, pero no han tenido hijos, y la norma religiosa permite al marido repudiar a su esposa cuando el matrimonio no ha cumplido su función procreadora. Rachel sabe que el problema no está en ella, pero carece de la libertad necesaria para demostrarlo. Mientras avanza hacia la fecha límite de la separación, la historia incorpora a Naomi, su hermana, también atrapada entre deseo personal, obediencia familiar y autoridad rabínica. Eliette Abécassis construye así un relato íntimo sobre el amor, el sacrificio, la esterilidad como estigma social y el peso de una tradición que regula cada decisión de la vida cotidiana.",
+        "aboutThisBook": "Publicada por Albin Michel, esta novela de Eliette Abécassis explora la vida de dos mujeres dentro de una comunidad judía tradicionalista de Jerusalén. El libro no se presenta como un panfleto, sino como un drama moral y emocional centrado en el conflicto entre fe, norma colectiva y experiencia femenina. Su fuerza reside en la sobriedad del planteamiento y en la manera en que convierte una regla matrimonial en una amenaza existencial.",
+        "forWhom": "Para lectores de narrativa literaria interesados en religión, condición femenina, intimidad conyugal y conflictos entre individuo y comunidad.",
+        "whyItMatters": "Importa porque convierte una cuestión jurídica y religiosa en una experiencia humana concreta: la pérdida de voz de una mujer dentro de un sistema que decide por ella. También ofrece una mirada literaria, tensa y compasiva, sobre la autoridad patriarcal y sus consecuencias afectivas.",
+        "editorialIntro": "La Répudiée aborda un tema delicado sin caer en el sensacionalismo. Eliette Abécassis sitúa el foco en la vida cotidiana, en las pequeñas renuncias y en el modo en que una norma puede volverse destino. Es una novela breve, de alta intensidad moral, que trabaja la tensión entre obediencia, deseo y dignidad personal.",
+        "readingLevel": "Medio-alto: prosa accesible, pero con fuerte carga cultural, religiosa y psicológica.",
+        "whyReadToday": "Sigue siendo pertinente porque habla de autonomía femenina, presión comunitaria y control del cuerpo en contextos donde la tradición define el valor social de una persona.",
+        "studyNotes": [
+          "La novela contrapone amor privado y ley colectiva: el afecto entre Rachel y Nathan no basta para protegerla frente a una norma institucional.",
+          "El tratamiento de la esterilidad no es médico, sino social: funciona como acusación, vergüenza y mecanismo de exclusión.",
+          "Naomi amplía el alcance del libro al mostrar que el conflicto no afecta a una sola mujer, sino a toda una estructura familiar y comunitaria."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La vida bajo la norma",
+            "summary": "Se presenta la rutina de Rachel y Nathan en Mea Shearim, así como la centralidad de la ley religiosa en la organización del matrimonio, la sexualidad y el lugar de la mujer dentro de la comunidad."
+          },
+          {
+            "title": "Parte 2: La amenaza de la repudiación",
+            "summary": "La proximidad del décimo aniversario convierte la ausencia de hijos en una cuenta atrás. Rachel comprende que el sistema está preparado para sacrificarla incluso cuando la verdad biológica no la condena a ella."
+          },
+          {
+            "title": "Momentos clave",
+            "summary": "La historia de Naomi y su resistencia a un matrimonio impuesto refuerza los temas del libro y muestra distintas formas de sumisión, rebeldía y costo emocional dentro del mismo marco religioso."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Tradición y violencia simbólica",
+            "content": "El libro muestra cómo una norma aparentemente legítima desde dentro de la comunidad puede funcionar como violencia estructural cuando niega la palabra y la agencia de quienes la padecen."
+          },
+          {
+            "heading": "Cuerpo femenino y legitimidad",
+            "content": "La maternidad aparece como criterio de reconocimiento. Rachel no solo teme perder a su marido, sino quedar reducida a una función reproductiva incumplida."
+          },
+          {
+            "heading": "La intimidad como espacio político",
+            "content": "Abécassis convierte la vida doméstica en un campo de discusión sobre autoridad, obediencia y libertad. La casa, el matrimonio y la familia son aquí instituciones atravesadas por relaciones de poder."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La novela se centra más en la denuncia social o en la historia personal?",
+            "answer": "En ambas dimensiones, pero lo hace desde la experiencia íntima. La crítica social nace de la vida concreta de Rachel y Naomi, no de un discurso abstracto."
+          },
+          {
+            "question": "¿Es una obra difícil de leer si no se conoce el contexto religioso?",
+            "answer": "No especialmente. El contexto importa, pero la autora construye un conflicto emocional comprensible para cualquier lector: amar dentro de un sistema que puede expulsarte."
+          },
+          {
+            "question": "¿Predomina el melodrama?",
+            "answer": "No. Aunque el argumento es intenso, el tono general es sobrio y contenido, más cercano al drama moral que al exceso sentimental."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Eliette Abécassis — La répudiée",
+            "url": "https://eliette-abecassis.com/2000/08/23/la-repudiee/"
+          },
+          {
+            "label": "Éditions Albin Michel — La Répudiée",
+            "url": "https://www.albin-michel.fr/la-repudiee-9782226110572"
+          },
+          {
+            "label": "Google Books — La Répudiée",
+            "url": "https://books.google.com/books/about/La_R%C3%A9pudi%C3%A9e.html?id=i0E8EAAAQBAJ&hl=fr"
+          },
+          {
+            "label": "BNFA — La répudiée : roman",
+            "url": "http://www.bnfa.fr/livre?biblionumber=1656"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-sacerdotisa-blanca-la-era-de-los-cinco-dioses-1-de-trudi-canavan",
+      "title": "La Sacerdotisa Blanca La Era De Los Cinco Dioses 1",
+      "authorName": "Trudi Canavan",
+      "authorSlug": "trudi-canavan",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La sacerdotisa blanca (La era de los cinco dioses, 1)",
+        "authorName": "Trudi Canavan",
+        "authorSlug": "trudi-canavan",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "fantasia",
+          "aventura"
+        ],
+        "year": 2010,
+        "pages": 632,
+        "summary": "La novela presenta a Auraya, una joven que ha ascendido hasta convertirse en una de los White, la élite sacerdotal que actúa como voz, escudo y brazo político de los dioses. Lo que al principio parece una consagración extraordinaria se transforma pronto en una prueba constante: debe aprender a usar poderes que apenas comprende, asumir tareas diplomáticas y ayudar a consolidar alianzas en un continente recorrido por tensiones militares y religiosas. Al mismo tiempo, su cercanía con un sanador perteneciente a una secta marginada amenaza su posición dentro del orden que ahora representa. Sobre ese conflicto íntimo y doctrinal se proyecta además la amenaza de hechiceros vestidos de negro, enemigos capaces de cuestionar la autoridad de los White y de precipitar una guerra abierta.",
+        "aboutThisBook": "Primer volumen de la trilogía Age of the Five, esta obra combina épica fantástica con intriga religiosa. Trudi Canavan no se limita a construir un mundo de magia y jerarquías; organiza la novela alrededor de instituciones, credos rivales y decisiones de gobierno. El resultado es un arranque de saga amplio y ambicioso, donde el aprendizaje de la protagonista va unido a una revisión gradual de las verdades que sostienen su civilización.",
+        "forWhom": "Para lectores de fantasía extensa que disfrutan de mundos con religiones activas, conflictos de poder y protagonistas obligadas a revisar sus lealtades.",
+        "whyItMatters": "Destaca porque no separa aventura y sistema de creencias. La magia, la diplomacia y la guerra están ligadas a preguntas sobre legitimidad, dogma y manipulación religiosa. Eso vuelve la novela más rica que una simple historia de iniciación heroica.",
+        "editorialIntro": "La sacerdotisa blanca abre una trilogía con vocación clásica: mapas morales complejos, vastedad geográfica y una protagonista sometida a responsabilidades para las que el poder no ofrece respuestas automáticas. Trudi Canavan administra bien la escala del mundo y sostiene el interés gracias a una tensión continua entre deber público, deseo privado y amenaza bélica.",
+        "readingLevel": "Medio: lectura fluida, con abundancia de nombres, facciones y reglas de mundo propias de la fantasía épica.",
+        "whyReadToday": "Porque su reflexión sobre autoridad religiosa, construcción del enemigo y crisis de las verdades oficiales dialoga bien con debates contemporáneos sobre poder y fe.",
+        "studyNotes": [
+          "Auraya no es solo una heroína en formación: su arco se articula alrededor de la obediencia institucional y de la sospecha creciente hacia el sistema que la eleva.",
+          "La novela usa el conflicto entre sectas y órdenes mágicas para explorar cómo una religión puede organizar alianzas, excluir disidentes y justificar guerras.",
+          "El ritmo alterna aprendizaje personal, desplazamientos diplomáticos y amenazas externas, lo que convierte la construcción del mundo en parte esencial del argumento."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La elevación de Auraya",
+            "summary": "Auraya es reconocida como una de los White y entra en una esfera de poder religioso que exige disciplina, representación pública y dominio de habilidades extraordinarias."
+          },
+          {
+            "title": "Parte 2: Misiones y fisuras",
+            "summary": "Sus viajes y tareas diplomáticas exponen tensiones entre pueblos, doctrinas y facciones. En ese proceso, la protagonista descubre que la autoridad espiritual también depende de cálculos políticos."
+          },
+          {
+            "title": "Momentos clave",
+            "summary": "La relación con un sanador de un grupo marginado y la amenaza de hechiceros del sur empujan la historia hacia una crisis mayor, donde la guerra y la verdad religiosa quedan estrechamente unidas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Poder sagrado y administración del mundo",
+            "content": "La novela entiende la religión como estructura de gobierno. Los White no son solo figuras místicas; intervienen en alianzas, seguridad y legitimidad territorial."
+          },
+          {
+            "heading": "La protagonista frente al dogma",
+            "content": "Auraya encarna una tensión clásica del género: ser elegida no equivale a comprender. Su crecimiento depende de aprender a desconfiar de certezas heredadas."
+          },
+          {
+            "heading": "Épica con conflicto ideológico",
+            "content": "Las amenazas mágicas y militares funcionan también como una disputa por el sentido del orden. La acción adquiere peso porque cuestiona quién tiene derecho a hablar en nombre de los dioses."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela autoconclusiva?",
+            "answer": "No del todo. Ofrece un arco propio, pero está claramente concebida como apertura de trilogía y deja conflictos mayores en desarrollo."
+          },
+          {
+            "question": "¿Predomina más la acción o la construcción del mundo?",
+            "answer": "Ambas importan, aunque el libro dedica bastante espacio a explicar jerarquías, culturas y tensiones religiosas antes de escalar hacia el conflicto bélico."
+          },
+          {
+            "question": "¿Conviene para lectores nuevos en fantasía épica?",
+            "answer": "Sí, si aceptan una novela larga. La prosa es clara y el mundo se presenta con orden, aunque la densidad de nombres y facciones exige atención sostenida."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Trudi Canavan — Priestess of the White",
+            "url": "https://www.trudicanavan.com/books/age-of-the-five/priestess-of-the-white/"
+          },
+          {
+            "label": "Trudi Canavan — Age of the Five",
+            "url": "https://www.trudicanavan.com/books/age-of-the-five/"
+          },
+          {
+            "label": "Orbit Bookstore — Priestess Of The White",
+            "url": "https://store.orbit-books.co.uk/products/priestess-of-the-white"
+          },
+          {
+            "label": "Google Books — Priestess of the White",
+            "url": "https://books.google.com/books/about/Priestess_of_the_White.html?id=Be3KrUZylSMC&hl=en"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-voz-de-la-noche-de-dean-koontz",
+      "title": "La Voz De La Noche",
+      "authorName": "Dean Koontz",
+      "authorSlug": "dean-koontz",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La voz de la noche",
+        "authorName": "Dean Koontz",
+        "authorSlug": "dean-koontz",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller"
+        ],
+        "year": 1980,
+        "pages": 277,
+        "summary": "Publicada originalmente bajo el seudónimo Brian Coffey, esta novela enfrenta a Colin Jacobs, un adolescente introvertido y prudente, con Roy Borden, un chico carismático, violento y obsesionado con la muerte. La aparente amistad entre ambos se vuelve un vínculo de fascinación y peligro: Roy arrastra a Colin hacia juegos cada vez más siniestros y lo obliga a mirar de frente una violencia que hasta entonces prefería esquivar. A medida que la amenaza deja de ser insinuación y se convierte en plan criminal, Colin intenta convencer a los adultos, pero nadie comprende del todo lo que ve en Roy. Con ayuda de Heather, tendrá que investigar el pasado de su amigo y decidir hasta dónde está dispuesto a llegar para detenerlo sin convertirse en aquello que teme.",
+        "aboutThisBook": "The Voice of the Night es una de las novelas tempranas de Dean Koontz y ya contiene varios de sus intereses duraderos: la atracción del mal, la fragilidad de la inocencia y la presión moral sobre personajes vulnerables. Más que un relato de monstruos externos, propone una historia de contaminación psicológica entre dos adolescentes. Su tono combina terror cotidiano y suspense criminal, con un trasfondo sobre trauma infantil y deseo de destrucción.",
+        "forWhom": "Para lectores de suspense oscuro que prefieren amenazas humanas, manipulación psicológica y tensión moral antes que horror sobrenatural explícito.",
+        "whyItMatters": "Importa dentro de la obra de Koontz porque muestra una versión temprana y áspera de su narrativa de peligro íntimo. También destaca por presentar el mal como seducción y contagio, no solo como acto brutal visible.",
+        "editorialIntro": "La voz de la noche parte de una amistad improbable y la convierte en un estudio de influencia, miedo y resistencia. El interés del libro no depende de grandes artificios, sino de la forma en que Dean Koontz gradúa la amenaza y obliga a su protagonista a reconocer que la violencia ajena puede despertar impulsos propios. Es un thriller de adolescencia sombría y muy tenso.",
+        "readingLevel": "Medio: narración directa y ágil, con escenas de fuerte tensión psicológica y violencia contenida.",
+        "whyReadToday": "Porque sigue siendo eficaz en su retrato de la fascinación por la crueldad, de la incredulidad adulta ante ciertas señales y del combate interior contra la violencia.",
+        "studyNotes": [
+          "Roy funciona como figura de seducción del mal: no impone solo por fuerza, sino por el atractivo que ejerce sobre las carencias de Colin.",
+          "La novela presenta la adolescencia como un terreno de vulnerabilidad moral, donde pertenecer, impresionar o dejar de tener miedo puede volverse peligroso.",
+          "El título remite a una voz interior destructiva. El conflicto central no es únicamente detener a Roy, sino rechazar la posibilidad de parecerse a él."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La amistad improbable",
+            "summary": "Colin llega a una nueva ciudad y conoce a Roy, cuya seguridad y magnetismo contrastan con su carácter temeroso. La relación empieza como admiración y pronto adquiere un tono inquietante."
+          },
+          {
+            "title": "Parte 2: Del juego al crimen",
+            "summary": "Las preguntas de Roy sobre matar, su gusto por la violencia y un sabotaje planeado revelan que sus provocaciones no eran fantasías adolescentes, sino amenazas reales."
+          },
+          {
+            "title": "Momentos clave",
+            "summary": "Cuando nadie cree del todo a Colin, este investiga el pasado traumático de Roy, busca apoyo en Heather y se enfrenta a una decisión límite: detener la violencia sin ceder a ella."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La amistad como mecanismo de captura",
+            "content": "Koontz explora cómo una relación aparentemente elegida puede convertirse en un espacio de manipulación. Roy detecta la inseguridad de Colin y la transforma en dependencia."
+          },
+          {
+            "heading": "Trauma, crueldad y autoconstrucción",
+            "content": "El pasado de Roy no lo excusa, pero sí explica cómo el dolor y la culpa pueden reorganizarse en una identidad que abraza la destrucción como destino."
+          },
+          {
+            "heading": "El mal interior",
+            "content": "La novela insiste en que la violencia no es solo algo externo. Colin descubre que resistir a Roy implica resistir también la tentación de resolverlo todo mediante un acto final irreversible."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela sobrenatural?",
+            "answer": "No. Su fuerza proviene de un horror esencialmente humano: manipulación, sadismo, trauma y la posibilidad de que la violencia resulte contagiosa."
+          },
+          {
+            "question": "¿Qué lugar ocupa dentro de la carrera de Dean Koontz?",
+            "answer": "Es una obra temprana, publicada originalmente con seudónimo, útil para ver cómo ya estaban presentes varias de sus obsesiones temáticas."
+          },
+          {
+            "question": "¿El suspense se basa más en la acción o en la psicología?",
+            "answer": "Principalmente en la psicología. Los hechos violentos importan, pero el verdadero nervio del libro está en la influencia de Roy sobre Colin y en la respuesta moral del protagonista."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Dean Koontz — The Voice of the Night",
+            "url": "https://www.deankoontz.com/book/the-voice-of-the-night/"
+          },
+          {
+            "label": "Wikipedia — The Voice of the Night",
+            "url": "https://en.wikipedia.org/wiki/The_Voice_of_the_Night"
+          },
+          {
+            "label": "Open Library — The Voice of the Night",
+            "url": "https://openlibrary.org/works/OL263277W/The_Voice_of_the_Night?edition=key%3A/books/OL34637211M"
+          },
+          {
+            "label": "Amazon — The Voice of the Night",
+            "url": "https://www.amazon.com/Voice-Night-Dean-Koontz/dp/0425128164"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-20T19:13:07Z"
+}

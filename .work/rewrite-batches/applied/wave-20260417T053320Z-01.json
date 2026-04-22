@@ -1,0 +1,487 @@
+{
+  "batchName": "wave-20260417T053320Z-01",
+  "createdAt": "2026-04-17T05:33:48Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-bosque-encantado-de-enid-blyton",
+      "title": "El Bosque Encantado",
+      "authorName": "Enid Blyton",
+      "authorSlug": "enid-blyton",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 10,
+      "impressions": 44,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "El bosque encantado es una novela infantil de fantasía y aventuras en la que tres hermanos, Joe, Beth y Frannie, llegan a vivir cerca de un bosque extraordinario y descubren en él un árbol inmenso cuya copa conecta con países cambiantes y maravillosos. A partir de ese hallazgo, la historia encadena exploraciones, amistades con criaturas del bosque y excursiones a mundos que unas veces son festivos y otras resultan inquietantes o peligrosos. El libro trabaja con una lógica de maravilla constante: cada subida al árbol abre la posibilidad de una experiencia nueva. Enid Blyton combina peligro moderado, humor, curiosidad y un ritmo muy accesible para construir una aventura clásica donde lo cotidiano de la infancia se transforma en puerta a lo fantástico.",
+        "aboutThisBook": "Publicado originalmente en 1939 como The Enchanted Wood, este libro abre la serie del Árbol Lejano, una de las más conocidas de Enid Blyton dentro de la literatura infantil británica. Las ediciones actuales en español suelen presentarlo como un clásico de fantasía para primeros grandes lectores. La base argumental es sencilla y muy eficaz: unos niños descubren un árbol mágico habitado por personajes memorables y coronado por tierras que van rotando. Su importancia editorial está en haber fijado un modelo de aventura fantástica breve, episódica y hospitalaria para lectores jóvenes.",
+        "forWhom": "Para lectores infantiles desde primaria, familias y mediadores que busquen una fantasía clásica con capítulos breves, imaginación abundante, aventuras sucesivas y un tono de descubrimiento continuo.",
+        "whyItMatters": "Importa porque representa una forma temprana y muy influyente de fantasía infantil basada en el asombro, la exploración y la seguridad emocional de la aventura. Sigue funcionando como puerta de entrada al género para lectores pequeños y como ejemplo de cómo una estructura episódica puede sostener la curiosidad capítulo tras capítulo.",
+        "editorialIntro": "Antes de que la fantasía infantil contemporánea se volviera masiva, Enid Blyton ya había perfeccionado una fórmula de enorme eficacia narrativa: niños curiosos, un umbral mágico muy concreto y aventuras que mezclan maravilla, humor y un peligro siempre dosificado. El bosque encantado conserva ese atractivo porque no depende de un gran artificio conceptual, sino de una intuición poderosa: para un lector niño, descubrir un árbol que conduce a otros mundos es una promesa literaria casi perfecta.",
+        "readingLevel": "Lectura accesible para niños desde los primeros cursos de primaria avanzada. El vocabulario y la sintaxis suelen ser claros, la acción avanza deprisa y la estructura episódica ayuda a lectores en consolidación a seguir la historia sin perderse.",
+        "whyReadToday": "Vale la pena leerlo hoy porque ofrece una fantasía amable, ágil y fundacional, útil para formar lectores y para mostrar de dónde vienen muchas aventuras infantiles posteriores centradas en portales, mundos alternos y amistades extraordinarias.",
+        "studyNotes": [
+          "La novela se apoya en una estructura episódica: cada llegada de un nuevo país a la cima del árbol renueva el conflicto y la curiosidad del lector.",
+          "El libro combina seguridad y riesgo. Hay tensión y amenazas, pero están medidas para un público infantil y siempre subordinadas al sentido de aventura.",
+          "Puede leerse como una fantasía de exploración donde el espacio mágico no anula la vida cotidiana, sino que nace muy cerca de ella, a dos pasos de la casa nueva.",
+          "Resulta útil para estudiar la persistencia de ciertos motivos del género infantil: bosque, árbol mágico, mundos cambiantes, criaturas amigas y viajes breves con regreso."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La casa nueva y el descubrimiento del bosque",
+            "summary": "La historia comienza cuando los tres hermanos se instalan cerca de un bosque que pronto deja de ser un simple paisaje. Su curiosidad los lleva a internarse en él, conocer a sus habitantes extraños y descubrir el gran árbol que organiza toda la aventura."
+          },
+          {
+            "title": "Parte 2: El árbol como puerta a otros países",
+            "summary": "Una vez comprendido que en la copa del árbol aparecen tierras distintas, la novela adopta su dinámica principal. Cada ascenso abre una excursión nueva, con escenarios cambiantes que pueden ser festivos, absurdos o amenazantes, y obligan a los niños a observar, decidir y volver a tiempo."
+          },
+          {
+            "title": "Parte 3: Amistades fantásticas y aprendizaje de la aventura",
+            "summary": "En el centro del libro, los niños consolidan su relación con los seres del bosque y aprenden reglas básicas de ese mundo mágico. La aventura ya no consiste solo en mirar maravillas, sino en moverse con prudencia, ayudar a otros y distinguir entre curiosidad inteligente e imprudencia."
+          },
+          {
+            "title": "Parte 4: El encanto de lo cambiante",
+            "summary": "El tramo final confirma que el mayor hallazgo del libro no es una sola peripecia, sino la idea de un mundo siempre renovable. El árbol y los países que llegan a su cima convierten la lectura en una sucesión de sorpresas donde la imaginación importa tanto como la resolución de cada incidente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una fantasía construida desde la repetición con variación",
+            "content": "Blyton organiza la novela alrededor de un mecanismo muy claro: subir al árbol, descubrir qué tierra ha llegado, explorarla y regresar. Esa repetición no empobrece el libro; al contrario, le da una base estable sobre la que cada episodio introduce novedades. Para lectores infantiles, esa combinación de regla fija y sorpresa constante resulta especialmente eficaz."
+          },
+          {
+            "heading": "El espacio mágico como promesa de lectura",
+            "content": "El bosque y el árbol no funcionan solo como escenario, sino como dispositivo narrativo. El lector entiende enseguida que allí siempre puede ocurrir algo nuevo. Esa promesa hace que la novela avance por deseo de descubrimiento más que por un gran conflicto único, rasgo muy propio de cierta fantasía clásica para niños."
+          },
+          {
+            "heading": "Aventura amable, no exenta de tensión",
+            "content": "Aunque el tono general es acogedor, la novela no elimina el peligro. Hay advertencias, tierras menos seguras y momentos de apuro. Sin embargo, Blyton calibra esos riesgos para que sostengan la emoción sin volver opresiva la experiencia. Ese equilibrio explica parte de su larga vigencia como lectura de iniciación."
+          },
+          {
+            "heading": "Lugar histórico dentro de la fantasía infantil",
+            "content": "El libro ocupa un sitio importante en la historia del género porque consolida una forma de aventura fantástica seriada y accesible. Más que una gran épica, ofrece un repertorio de maravillas recurrentes que invitan a seguir leyendo. En ese sentido, su influencia se percibe en muchas obras posteriores que articulan la fantasía infantil alrededor de portales y visitas a mundos sucesivos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El bosque encantado?",
+            "answer": "Trata sobre tres hermanos que descubren un bosque mágico y un árbol gigantesco cuya copa conduce a países cambiantes. A partir de ahí viven aventuras sucesivas junto a criaturas fantásticas y enfrentan riesgos moderados propios de una fantasía infantil clásica."
+          },
+          {
+            "question": "¿Es un libro independiente o parte de una serie?",
+            "answer": "Es el libro inicial de la serie del Árbol Lejano o Faraway Tree. Por eso puede leerse por sí solo, pero también funciona como puerta de entrada a otras aventuras ambientadas en el mismo universo."
+          },
+          {
+            "question": "¿Qué tipo de lector lo disfruta más?",
+            "answer": "Lo disfrutan especialmente niños que ya leen con cierta autonomía y lectores a quienes les gustan los mundos mágicos, las aventuras breves y los capítulos que cierran con sensación de descubrimiento."
+          },
+          {
+            "question": "¿Sigue siendo actual para lectores de hoy?",
+            "answer": "Sí, sobre todo por su capacidad de despertar imaginación y gusto por la aventura. Conviene leerlo también como clásico: algunas sensibilidades pertenecen a otra época, pero su mecanismo narrativo sigue siendo muy eficaz."
+          }
+        ],
+        "sources": [
+          {
+            "label": "Todos Tus Libros: El árbol muy muy lejano 1 - El bosque encantado",
+            "url": "https://www.todostuslibros.com/libros/el-arbol-muy-muy-lejano-1-el-bosque-encantado_978-84-272-5095-6"
+          },
+          {
+            "label": "Hachette Book Group: The Magic Faraway Tree — The Enchanted Wood",
+            "url": "https://www.hachettebookgroup.com/titles/enid-blyton/the-magic-faraway-tree-the-enchanted-wood/9780316614696/?lens=little-brown-books-for-young-readers"
+          },
+          {
+            "label": "Open Library: The Enchanted Wood",
+            "url": "https://openlibrary.org/works/OL1948444W"
+          },
+          {
+            "label": "Britannica: Enid Blyton",
+            "url": "https://www.britannica.com/biography/Enid-Blyton"
+          }
+        ],
+        "reviewedAt": "2026-04-17"
+      }
+    },
+    {
+      "slug": "pepa-la-loba-de-carlos-g-reigosa",
+      "title": "Pepa La Loba",
+      "authorName": "Carlos G Reigosa",
+      "authorSlug": "carlos-g-reigosa",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 10,
+      "impressions": 41,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "Pepa La Loba es una novela histórica de Carlos G. Reigosa que reescribe en clave narrativa la figura legendaria de la bandolera gallega Pepa a Loba. Más que limitarse a repetir el mito popular, el libro intenta devolver espesor humano e histórico a un personaje que en la memoria oral quedó envuelto por la exageración, la violencia y la fascinación colectiva. La novela sitúa a su protagonista en un mundo rural duro, marcado por jerarquías, abusos, supervivencia y conflicto, y enlaza esa dimensión social con una intensa trama afectiva. El resultado no es solo un relato de aventuras o de bandolerismo, sino también una reflexión sobre cómo nace una leyenda, cómo una mujer se abre paso en un entorno hostil y cómo la ficción puede discutir la frontera entre historia y mito.",
+        "aboutThisBook": "La obra apareció primero en gallego como Pepa a Loba y después en castellano como Pepa la loba, ambas vinculadas a ediciones de 2006 y 2007. La información editorial visible la presenta como una novela de raíz histórica centrada en la bandolera gallega más famosa de la tradición popular, y subraya que el relato entreteje una historia de amor sobre un fondo de violencia. Reigosa, escritor y periodista gallego, toma una figura legendaria del siglo XIX y la convierte en protagonista de una narración que busca reconciliar la leyenda con una verdad histórica verosímil, sin perder fuerza novelesca.",
+        "forWhom": "Para lectores adultos o juveniles avanzados interesados en novela histórica, literatura gallega, personajes femeninos de gran fuerza narrativa y relatos que exploran la frontera entre archivo, memoria popular y ficción.",
+        "whyItMatters": "Importa porque rescata una figura femenina muy poderosa del imaginario gallego y la saca del folclore plano para convertirla en personaje complejo. Además, muestra cómo la novela histórica puede dialogar con la tradición oral sin someterse por completo a ella.",
+        "editorialIntro": "Las novelas históricas más memorables no solo reconstruyen una época: también discuten la manera en que esa época ha sido recordada. Pepa La Loba entra justamente en ese territorio. Carlos G. Reigosa parte de una bandolera convertida en leyenda popular y le devuelve cuerpo, conflicto y biografía narrativa. El libro interesa tanto por su atmósfera de violencia rural y aventura como por su intento de pensar qué hay de verdad, de invención y de deseo colectivo en la fama de un personaje legendario.",
+        "readingLevel": "Lectura de nivel medio a alto para público juvenil avanzado y adulto. Aunque la prosa es directa, el trasfondo histórico, la violencia del contexto y el juego entre leyenda, memoria y reconstrucción narrativa piden una lectura atenta.",
+        "whyReadToday": "Conviene leerla hoy porque permite revisar cómo se construyen las leyendas sobre mujeres rebeldes, cómo opera la memoria popular y cómo la ficción histórica puede iluminar zonas poco atendidas de la experiencia rural y marginal.",
+        "studyNotes": [
+          "La novela no debe leerse solo como relato de bandoleros: su interés central está en la construcción literaria de una figura legendaria a partir de un posible sustrato histórico.",
+          "El contraste entre mito y verdad verosímil organiza buena parte del proyecto narrativo de Reigosa.",
+          "La presentación editorial insiste en una intensa historia de amor sobre un fondo de violencia, lo que sugiere que la dimensión afectiva no es secundaria dentro del relato.",
+          "Es una obra útil para estudiar representación de mujeres fuera del molde doméstico en la novela histórica peninsular contemporánea."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Nacimiento de una figura fuera de norma",
+            "summary": "El comienzo sitúa a Pepa en un mundo rural áspero, donde las condiciones sociales y la violencia del entorno ayudan a explicar por qué una mujer puede terminar convertida en figura temida, excepcional y difícil de domesticar por el orden vigente."
+          },
+          {
+            "title": "Parte 2: De la supervivencia a la leyenda",
+            "summary": "En el desarrollo central, la novela muestra cómo las acciones de la protagonista dejan de ser hechos aislados y empiezan a transformarse en relato colectivo. Ahí aparece uno de sus núcleos más interesantes: la distancia entre lo que ocurre, lo que se cuenta y lo que un pueblo necesita imaginar."
+          },
+          {
+            "title": "Parte 3: Amor, violencia y territorio",
+            "summary": "El libro entrelaza la dimensión aventurera con una historia amorosa intensa, siempre atravesada por un paisaje social duro. La relación entre afecto, peligro y violencia impide que Pepa quede reducida a simple símbolo y la devuelve a una experiencia humana contradictoria."
+          },
+          {
+            "title": "Parte 4: Más allá del mito popular",
+            "summary": "Hacia el cierre, la novela se orienta menos a glorificar a la bandolera que a comprenderla. Reigosa parece interesado en desmontar la imagen puramente folclórica de Pepa para ofrecer una figura más compleja, a medio camino entre memoria legendaria y reconstrucción histórica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela histórica como corrección de la leyenda",
+            "content": "Uno de los aspectos más valiosos del libro es su gesto de partida: no aceptar la leyenda como relato suficiente. Reigosa toma una figura muy conocida en Galicia y la somete a una operación literaria de espesamiento. La ficción no desmiente de forma mecánica el mito, pero sí lo reorganiza para hacerlo más humano, más conflictivo y más históricamente creíble."
+          },
+          {
+            "heading": "Una protagonista femenina de gran potencia simbólica",
+            "content": "Pepa destaca porque ocupa un lugar poco habitual dentro de la novela histórica tradicional: no es acompañante ni emblema decorativo, sino centro de acción, conflicto y memoria. Su carácter indómito, tal como lo presentan las fuentes editoriales, permite leer la obra también como examen de la rebeldía femenina en un medio especialmente hostil."
+          },
+          {
+            "heading": "Violencia rural y espesor del territorio",
+            "content": "La descripción editorial relaciona el fondo violento de la novela con un imaginario cercano al de Valle-Inclán. Esa referencia sugiere una Galicia dura, atravesada por poder local, brutalidad y fatalismo. En ese marco, el bandolerismo no aparece como simple aventura romántica, sino como fenómeno ligado a desigualdad, supervivencia y conflicto social."
+          },
+          {
+            "heading": "Entre memoria popular y literatura contemporánea",
+            "content": "El libro interesa también porque muestra cómo un escritor contemporáneo trabaja con materiales de tradición oral y de historia difusa. La pregunta de fondo no es solo quién fue Pepa, sino por qué una comunidad necesitó recordarla como la recordó. En ese cruce entre archivo insuficiente y memoria insistente, la novela encuentra su verdadera energía."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Pepa La Loba cuenta una historia real?",
+            "answer": "Parte de una figura legendaria de Galicia asociada al bandolerismo del siglo XIX, pero la convierte en materia de novela histórica. Por eso combina sustrato histórico, memoria popular y recreación literaria, sin presentarse como biografía documental estricta."
+          },
+          {
+            "question": "¿Qué tipo de novela es?",
+            "answer": "Es una novela histórica con fuerte componente de aventura y de reconstrucción de leyenda. También incorpora una dimensión amorosa importante y un trasfondo social marcado por la violencia rural."
+          },
+          {
+            "question": "¿Por qué destaca dentro de la narrativa sobre Galicia?",
+            "answer": "Porque trabaja una figura mítica muy reconocible del imaginario gallego y la devuelve al terreno de la complejidad humana. Eso le permite dialogar a la vez con la tradición oral, la identidad territorial y la novela histórica contemporánea."
+          },
+          {
+            "question": "¿Es recomendable para lectura escolar?",
+            "answer": "Puede funcionar en bachillerato o en lectura guiada avanzada, sobre todo en cursos interesados en novela histórica, literatura gallega traducida y construcción de personajes femeninos. No es, sin embargo, una lectura infantil por su contexto de violencia y densidad temática."
+          }
+        ],
+        "sources": [
+          {
+            "label": "Edicións Xerais: Pepa a Loba",
+            "url": "https://xerais.gal/libro/narrativa/pepa-a-loba-carlos-g-reigosa-9788497824668/"
+          },
+          {
+            "label": "Todos Tus Libros: Pepa A Loba (edición gallega)",
+            "url": "https://www.todostuslibros.com/libros/pepa-a-loba_978-84-9782-466-8"
+          },
+          {
+            "label": "Todos Tus Libros: Pepa La Loba (edición castellana)",
+            "url": "https://www.todostuslibros.com/libros/pepa-la-loba_978-84-666-3351-2"
+          },
+          {
+            "label": "Open Library: Pepa, la loba",
+            "url": "https://openlibrary.org/works/OL2111291W"
+          }
+        ],
+        "reviewedAt": "2026-04-17"
+      }
+    },
+    {
+      "slug": "el-cartero-de-neruda-ardiente-paciencia-de-antonio-skarmeta",
+      "title": "El Cartero De Neruda Ardiente Paciencia",
+      "authorName": "Antonio Skarmeta",
+      "authorSlug": "antonio-skarmeta",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 10,
+      "impressions": 39,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "Ardiente paciencia, conocida durante años en muchas ediciones como El cartero de Neruda, es una novela breve de Antonio Skármeta que combina iniciación sentimental, aprendizaje poético y tragedia histórica. La historia sigue a Mario Jiménez, un joven pescador de Isla Negra que abandona el oficio de su padre para convertirse en cartero. Su único cliente es Pablo Neruda, y de esa relación cotidiana nace una amistad decisiva: el poeta le enseña a escuchar el mundo, a entender las metáforas y a descubrir que el lenguaje también puede transformar la vida común. Paralelamente, Mario se enamora de Beatriz y busca conquistarla con palabras prestadas y hallazgos propios. Lo que empieza como relato luminoso de formación se va ensombreciendo con el clima político chileno de comienzos de los años setenta. Por eso la novela destaca no solo por su ternura, sino por la manera en que enlaza amor, poesía, amistad y violencia histórica sin perder sobriedad narrativa.",
+        "aboutThisBook": "Publicada en 1985, la obra nació después de un guion y una pieza teatral del propio Skármeta, y con el tiempo alcanzó difusión internacional gracias a sus adaptaciones cinematográficas, especialmente Il Postino. Aunque su extensión es breve, su alcance es amplio: retrata la cercanía entre un hombre común y una figura literaria monumental, y a la vez muestra cómo la experiencia íntima queda atravesada por los cambios políticos de Chile. Es una novela muy leída en cursos de literatura hispanoamericana porque permite estudiar símbolo, tono, diálogo y contexto histórico en un formato accesible.",
+        "forWhom": "Para lectores de narrativa latinoamericana, estudiantes que quieran una novela breve con contexto histórico claro y quienes busquen una puerta de entrada a Pablo Neruda y a Skármeta.",
+        "whyItMatters": "Importa porque logra volver visible la relación entre poesía y vida cotidiana sin idealizarla. También es una de las ficciones más recordadas sobre la figura pública de Neruda y sobre el quiebre político chileno visto desde personajes modestos, no desde grandes discursos.",
+        "editorialIntro": "Pocas novelas breves consiguen ser a la vez entrañables y políticamente inquietantes. Ardiente paciencia lo hace con una prosa contenida y clara: convierte la amistad entre Mario Jiménez y Pablo Neruda en una educación sentimental, verbal y cívica. Su aparente sencillez es precisamente su fuerza, porque debajo del humor y del romance se instala una meditación seria sobre memoria, deseo y fragilidad histórica.",
+        "readingLevel": "Lectura media: el estilo es fluido y el argumento se sigue con facilidad, pero conviene captar las alusiones poéticas, el trasfondo chileno y el cambio de tono entre el comienzo luminoso y el desenlace sombrío.",
+        "whyReadToday": "Porque sigue siendo una novela ejemplar para pensar cómo la cultura toca vidas comunes y cómo los procesos políticos alteran vínculos privados, deseos y proyectos personales.",
+        "studyNotes": [
+          "La novela presenta la poesía no como adorno culto, sino como herramienta para nombrar el deseo, la amistad y la dignidad cotidiana.",
+          "Mario aprende metáforas con Neruda, pero ese aprendizaje no lo convierte en réplica del poeta: su voz surge en contacto con una experiencia propia y popular.",
+          "El cambio de atmósfera es central: la ligereza inicial prepara, por contraste, la irrupción del miedo político y la pérdida.",
+          "Conviene leer la figura de Neruda con doble función: personaje cercano dentro de la trama y símbolo de una cultura pública amenazada por la represión."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: Mario deja la pesca y llega al correo",
+            "summary": "Mario Jiménez rechaza el destino heredado del oficio pesquero y encuentra en el trabajo de cartero una salida inesperada. Su rutina en Isla Negra parece mínima, pero el hecho de tener como único destinatario a Pablo Neruda abre un espacio de aprendizaje que cambiará su manera de mirar el lenguaje y su propia vida."
+          },
+          {
+            "title": "Momento clave 2: amistad con Neruda y conquista de Beatriz",
+            "summary": "La relación entre Mario y el poeta se vuelve más cercana a medida que conversan sobre metáforas, deseo y escritura. Esa educación verbal impulsa a Mario a acercarse a Beatriz, cuya presencia introduce el tono amoroso y corporal del libro. El humor, la timidez y la invención lingüística sostienen esta parte luminosa de la novela."
+          },
+          {
+            "title": "Momento clave 3: familia, distancia y grabación de los sonidos",
+            "summary": "Cuando Neruda parte como embajador, la amistad continúa de otro modo. El encargo de registrar sonidos para el poeta muestra que Mario ha aprendido a escuchar el mundo con otra profundidad. Al mismo tiempo, su vida con Beatriz y el nacimiento del hijo afirman que la poesía ya se ha mezclado con la experiencia doméstica y popular."
+          },
+          {
+            "title": "Momento clave 4: enfermedad, golpe y cierre trágico",
+            "summary": "La enfermedad de Neruda y el golpe de Estado de 1973 alteran por completo el horizonte de la historia. La represión invade el espacio íntimo y la novela abandona su ligereza inicial para mostrar que la palabra, aunque valiosa, no protege por sí sola frente a la violencia política. El desenlace deja una impresión de pérdida y memoria quebrada."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Poesía y vida común",
+            "content": "Uno de los grandes logros del libro es mostrar que la poesía no pertenece solo a círculos literarios. A través de Mario, Skármeta lleva la metáfora al terreno del trabajo, del deseo y de la conversación cotidiana. El aprendizaje verbal no es decorativo: modifica la sensibilidad del protagonista y le permite habitar el mundo con más intensidad."
+          },
+          {
+            "heading": "Neruda como personaje literario",
+            "content": "La novela no presenta a Neruda como estatua solemne, sino como presencia cercana, irónica y pedagógica. Eso permite humanizar una figura monumental sin borrar su importancia pública. El poeta funciona a la vez como amigo, mediador cultural y emblema de una tradición que da sentido al crecimiento de Mario."
+          },
+          {
+            "heading": "Del humor al duelo histórico",
+            "content": "El desplazamiento tonal es decisivo. La primera parte trabaja con gracia, erotismo y descubrimiento; la segunda deja entrar la enfermedad, la censura y el miedo. Esa transición impide leer la novela como simple fábula amable sobre el poder de la poesía. Skármeta insiste en que la historia colectiva puede arrasar incluso los espacios más íntimos."
+          },
+          {
+            "heading": "Memoria política sin grandilocuencia",
+            "content": "En vez de explicar el quiebre chileno mediante largos discursos ideológicos, la novela lo filtra por la experiencia de personajes modestos. Esa elección narrativa vuelve más concreta la violencia del período y muestra cómo los grandes acontecimientos se sienten en el correo, en la casa, en el cuerpo y en la conversación interrumpida."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es el mismo libro que a veces aparece como El cartero de Neruda?",
+            "answer": "Sí. La obra se publicó como Ardiente paciencia y, tras la amplia difusión de la adaptación cinematográfica Il Postino, muchas ediciones circularon con el título comercial El cartero de Neruda."
+          },
+          {
+            "question": "¿Hace falta conocer la vida de Pablo Neruda para leerla?",
+            "answer": "No. Conocer algo del poeta y del contexto chileno enriquece la lectura, pero la novela funciona por sí misma como historia de amistad, educación sentimental y pérdida histórica."
+          },
+          {
+            "question": "¿Es una novela difícil para estudiantes?",
+            "answer": "No especialmente. Su prosa es accesible y la extensión ayuda, aunque vale la pena acompañarla con una breve explicación del Chile de los años setenta para captar mejor su tramo final."
+          },
+          {
+            "question": "¿Por qué sigue siendo una obra tan leída?",
+            "answer": "Porque condensa en pocas páginas una historia afectiva memorable y una reflexión poderosa sobre el valor de la palabra frente al amor, la cultura y la violencia política."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Wikipedia en español: Ardiente paciencia",
+            "url": "https://es.wikipedia.org/wiki/Ardiente_paciencia"
+          },
+          {
+            "label": "Google Books: Ardiente paciencia",
+            "url": "https://books.google.es/books/about/Ardiente_paciencia.html?id=qTiKSgAACAAJ&redir_esc=y"
+          },
+          {
+            "label": "Open Library: Ardiente paciencia",
+            "url": "https://openlibrary.org/works/OL1143466W/Ardiente_paciencia"
+          },
+          {
+            "label": "Britannica: Antonio Skármeta",
+            "url": "https://www.britannica.com/biography/Antonio-Skarmeta"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nadie-me-vera-llorar-de-cristina-rivera-garza-2",
+      "title": "Nadie Me Vera Llorar",
+      "authorName": "Cristina Rivera Garza 2",
+      "authorSlug": "cristina-rivera-garza-2",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 10,
+      "impressions": 37,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "summary": "Nadie me verá llorar es una novela central de Cristina Rivera Garza que entrelaza archivo, imaginación y crítica histórica para narrar el encuentro entre Joaquín Buitrago, fotógrafo de internos, y Matilda Burgos, una mujer recluida en el manicomio de La Castañeda. Cuando Joaquín reconoce en ella a una antigua prostituta del burdel La Modernidad, su curiosidad se convierte en obsesión: quiere reconstruir una vida que el expediente médico no logra contener. A partir de esa búsqueda, la novela se abre como una investigación fragmentaria sobre el Porfiriato, la modernidad mexicana, la medicalización de la diferencia, la sexualidad y la violencia ejercida sobre los cuerpos incómodos. Rivera Garza no cuenta la historia de forma lineal, sino mediante saltos temporales, voces y documentos que obligan al lector a recomponer una identidad siempre incompleta. El resultado es una obra intensa, exigente y muy poderosa sobre locura, memoria, deseo, marginalidad y lenguaje.",
+        "aboutThisBook": "La novela apareció a fines de los años noventa y muy pronto fue reconocida como una de las obras decisivas de la narrativa mexicana contemporánea. Parte de investigaciones de Rivera Garza en archivos del manicomio de La Castañeda y convierte ese material histórico en una ficción de gran densidad formal. Su importancia no reside solo en el tema, sino en la manera de narrarlo: mezcla discurso clínico, memoria, cartas, observación social y fragmentación temporal para cuestionar cualquier versión simple de cordura, progreso o identidad. Es una lectura habitual en estudios sobre novela histórica, género, archivo y modernidad latinoamericana.",
+        "forWhom": "Para lectores de narrativa contemporánea exigente, estudiantes de literatura mexicana y quienes se interesen por novelas que cruzan historia, archivo, género, locura y crítica social.",
+        "whyItMatters": "Importa porque desarma la visión triunfal de la modernidad porfiriana y devuelve voz a sujetos marginados por la psiquiatría, la moral y el orden social. Además, consolidó a Rivera Garza como una autora clave en la literatura en español de las últimas décadas.",
+        "editorialIntro": "Nadie me verá llorar no busca ofrecer una trama cómoda ni una explicación cerrada de sus personajes. Su fuerza está en lo contrario: en mostrar que una vida dañada por el archivo, la pobreza, la medicalización y el deseo nunca puede resumirse del todo. Rivera Garza hace de esa imposibilidad una forma narrativa y construye una novela inquietante, histórica y profundamente contemporánea.",
+        "readingLevel": "Lectura media-alta: el lenguaje no es oscuro, pero la estructura fragmentaria, los saltos temporales y la convivencia de registros históricos, clínicos y poéticos exigen atención sostenida y relectura de algunos pasajes.",
+        "whyReadToday": "Porque sigue siendo una obra fundamental para pensar cómo las instituciones clasifican a las personas, cómo se construye la exclusión y cómo el archivo puede convertirse en campo de disputa literaria y política.",
+        "studyNotes": [
+          "La novela trabaja con materiales de archivo, pero no pretende reproducirlos de forma neutral: los reorganiza para discutir quién tiene derecho a narrar una vida.",
+          "Matilda Burgos no debe leerse solo como víctima; la novela insiste en su furia crítica, su resistencia verbal y su opacidad frente a quienes intentan clasificarla.",
+          "Joaquín Buitrago funciona como investigador imperfecto: su deseo de comprender también está atravesado por fascinación, culpa y límites personales.",
+          "La Castañeda no es un mero escenario; condensa una idea de modernidad que separa, encierra y nombra como patología lo que no encaja en el orden social."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: el reencuentro en La Castañeda",
+            "summary": "Joaquín Buitrago fotografía a una interna del manicomio y cree reconocer en ella a una mujer que conoció años antes en La Modernidad. Ese reconocimiento inicial pone en marcha la novela: la imagen deja de ser simple registro médico y se convierte en pregunta por una biografía borrada o mal contada por las instituciones."
+          },
+          {
+            "title": "Parte 2: reconstrucción fragmentaria de Matilda",
+            "summary": "A medida que Joaquín busca expedientes, recuerdos y rastros, la historia de Matilda Burgos se abre en múltiples capas. Aparecen su origen en Veracruz, sus desplazamientos, su contacto con mundos laborales y sexuales precarios, y la manera en que cada entorno social intenta nombrarla, fijarla o expulsarla."
+          },
+          {
+            "title": "Parte 3: modernidad, adicción y ruptura",
+            "summary": "La novela amplía su foco y muestra también la crisis de Joaquín, sus hábitos destructivos y su dificultad para integrarse a un ideal de progreso ordenado. Así, los dos protagonistas encarnan distintas formas de desajuste frente a la modernidad porfiriana y posrevolucionaria, siempre marcada por exclusiones severas."
+          },
+          {
+            "title": "Parte 4: archivo, locura y voz imposible de cerrar",
+            "summary": "En el tramo final, documentos, cartas y restos de discurso revelan que ninguna versión de Matilda resulta definitiva. La novela culmina subrayando que la locura, la memoria y la identidad no se dejan reducir a una sola narrativa, y que el archivo conserva tanto información como violencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela contra el archivo cerrado",
+            "content": "Rivera Garza parte del expediente psiquiátrico, pero lo subvierte. En lugar de aceptar el archivo como verdad estable, muestra sus vacíos, su violencia clasificatoria y su incapacidad para contener una vida compleja. La ficción aparece entonces no como adorno, sino como modo crítico de leer y desobedecer documentos oficiales."
+          },
+          {
+            "heading": "La Castañeda y la modernidad porfiriana",
+            "content": "El manicomio simboliza una modernidad que se presenta como orden y progreso mientras aparta todo aquello que considera improductivo, inmoral o anómalo. La novela cuestiona ese imaginario al relacionar medicina, urbanismo, prostitución, pobreza y disciplina social dentro de un mismo paisaje histórico."
+          },
+          {
+            "heading": "Matilda Burgos como figura de resistencia",
+            "content": "Aunque otros personajes e instituciones intentan definirla, Matilda nunca queda del todo capturada. Su voz aparece quebrada, indirecta o incompleta, pero precisamente esa resistencia a la clasificación vuelve más poderosa su presencia. La novela rehúsa convertirla en caso clínico transparente o en emblema fácilmente domesticable."
+          },
+          {
+            "heading": "Estructura fragmentaria y lectura activa",
+            "content": "Los saltos temporales, la alternancia de registros y la discontinuidad narrativa obligan al lector a participar en la construcción de sentido. Esa forma no es caprichosa: reproduce la dificultad misma de reconstruir vidas heridas por el olvido, el estigma y la dispersión documental."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La novela está basada en hechos reales?",
+            "answer": "Se apoya en investigaciones de archivo realizadas por Cristina Rivera Garza en torno al manicomio de La Castañeda y a expedientes históricos, pero su resultado es una novela, no una reconstrucción documental estricta."
+          },
+          {
+            "question": "¿Es una obra sobre la locura en sentido clínico?",
+            "answer": "Solo en parte. Más que explicar una patología, el libro examina cómo la psiquiatría, la moral y el orden social producen categorías de exclusión y silencian ciertas vidas."
+          },
+          {
+            "question": "¿Por qué se considera una novela importante en México?",
+            "answer": "Porque renovó la relación entre ficción e historia, trabajó el archivo de manera original y ofreció una crítica muy potente de la modernidad, el género y la institucionalización de la diferencia."
+          },
+          {
+            "question": "¿Es recomendable para un primer acercamiento a Rivera Garza?",
+            "answer": "Sí, si el lector acepta una estructura no lineal. Es una gran puerta de entrada a sus temas centrales: archivo, frontera entre géneros, memoria, cuerpos vulnerados y experimentación narrativa."
+          }
+        ],
+        "reviewedAt": "2026-04-17",
+        "sources": [
+          {
+            "label": "Penguin Libros: Nadie me verá llorar",
+            "url": "https://www.penguinlibros.com/es/literatura-contemporanea/487070-libro-nadie-me-vera-llorar-9788439745525"
+          },
+          {
+            "label": "BBVA Aprendemos Juntos: La historia real detrás de Nadie me verá llorar",
+            "url": "https://aprendemosjuntos.bbva.com/mx/especial/la-historia-real-detras-de-nadie-me-vera-llorar/"
+          },
+          {
+            "label": "Centro Virtual Cervantes: estudio sobre Nadie me verá llorar",
+            "url": "https://cvc.cervantes.es/literatura/aih/pdf/15/aih_15_4_028.pdf"
+          },
+          {
+            "label": "The Modern Novel: No One Will See Me Cry",
+            "url": "https://www.themodernnovel.org/americas/latin-america/mexico/cristina-rivera-garza/no-one-will-see-me-cry/"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-17T05:44:35Z"
+}

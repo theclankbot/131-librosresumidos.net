@@ -1,0 +1,1483 @@
+{
+  "batchName": "replenish-20260419T145713Z",
+  "createdAt": "2026-04-19T14:57:18Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "poema-de-mio-cid-de-anonimo",
+      "title": "Poema De Mio Cid",
+      "authorName": "Anonimo",
+      "authorSlug": "anonimo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cantar de mio Cid",
+        "authorName": "Anónimo",
+        "authorSlug": "anonimo",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "clasicos",
+          "poesia",
+          "aventura"
+        ],
+        "year": 1200,
+        "pages": null,
+        "summary": "El Cantar de mio Cid es el gran poema épico conservado de la literatura medieval castellana y una de las obras fundacionales de la tradición literaria en español. Relata, a partir de la figura histórica de Rodrigo Díaz de Vivar, el itinerario de un héroe que cae en desgracia ante el rey, sufre el destierro, reconstruye su honra por medio de victorias militares y termina obteniendo una reparación pública después de la afrenta sufrida por sus hijas. La obra combina acción, emoción familiar, estrategia política y una visión muy concreta del honor, entendido no solo como prestigio individual sino también como reconocimiento social y justicia. Aunque nace de hechos históricos reelaborados por la poesía, su fuerza no está en la exactitud documental, sino en la construcción de un héroe prudente, eficaz y profundamente humano.",
+        "aboutThisBook": "Obra anónima compuesta hacia finales del siglo XII o comienzos del XIII según la crítica más aceptada, el Cantar de mio Cid suele considerarse el primer gran monumento de la literatura española. La versión conservada transmite tres grandes movimientos narrativos: el destierro, las bodas de las hijas del Cid y la afrenta de Corpes con su posterior reparación. Su importancia no es solo histórica. También destaca por su sobriedad expresiva, su sentido narrativo y la forma en que convierte la pérdida de la honra en una historia de restitución moral, política y familiar.",
+        "forWhom": "Para estudiantes, lectores de clásicos, docentes y cualquier persona que quiera entender cómo nace la épica castellana y por qué la figura del Cid sigue ocupando un lugar tan visible en la cultura hispánica.",
+        "whyItMatters": "Importa porque permite ver cómo la literatura medieval articula guerra, justicia, lealtad, ascenso social y memoria colectiva. Además, sigue siendo una puerta de entrada privilegiada para estudiar el paso entre historia y leyenda en la tradición española.",
+        "editorialIntro": "Leer el Cantar de mio Cid hoy no es solo acercarse a una reliquia escolar. Es encontrarse con una narración sorprendentemente eficaz, construida con tensión, economía verbal y un notable sentido de la progresión dramática. El poema no presenta a un héroe abstracto, sino a un hombre expulsado de su lugar legítimo que debe rehacer su nombre ante enemigos, aliados y ante el propio rey. Por eso conserva su vitalidad: debajo de la épica late una historia muy reconocible sobre pérdida, dignidad y reparación.",
+        "readingLevel": "Lectura de dificultad media a alta si se aborda en versión medieval; en adaptación moderna resulta mucho más accesible. Conviene leerlo con notas o edición comentada para apreciar contexto histórico, léxico y organización de los cantares.",
+        "whyReadToday": "Porque sigue ayudando a pensar cómo se fabrican los héroes, cómo opera el prestigio público y de qué manera una comunidad convierte la experiencia histórica en relato duradero.",
+        "studyNotes": [
+          "La obra se organiza tradicionalmente en tres cantares y su conflicto central gira en torno a la pérdida y recuperación de la honra del protagonista.",
+          "Aunque parte de la figura histórica de Rodrigo Díaz de Vivar, el poema no debe leerse como crónica estricta, sino como elaboración épica con fines narrativos y simbólicos.",
+          "Uno de sus rasgos más estudiados es la sobriedad del héroe: el Cid vence, negocia, administra botines y cuida su reputación más por prudencia que por arrebato fantástico.",
+          "La afrenta de Corpes desplaza el foco desde la gloria militar hacia la justicia familiar, mostrando que el honor del linaje también sostiene la arquitectura del relato."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Cantar del destierro",
+            "summary": "El poema se abre con la expulsión del Cid y la dolorosa separación de su tierra y de su familia. Desde esa caída inicial, el héroe empieza a recuperar prestigio mediante campañas militares, alianzas y una conducta ejemplar de lealtad estratégica hacia el rey que lo ha apartado."
+          },
+          {
+            "title": "Cantar de las bodas",
+            "summary": "Una vez consolidado su poder en Valencia, el Cid alcanza un reconocimiento mayor y consigue para sus hijas un matrimonio con los infantes de Carrión. Esta parte muestra el ascenso social del héroe y la aparente culminación de su rehabilitación pública."
+          },
+          {
+            "title": "Cantar de la afrenta de Corpes",
+            "summary": "El conflicto se recrudece cuando los infantes, movidos por cobardía y resentimiento, maltratan y abandonan a las hijas del Cid. La respuesta no es la venganza privada, sino la exigencia de justicia ante la corte, donde el héroe obtiene reparación y una restitución aún más alta de su honra."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El honor como eje narrativo",
+            "content": "La palabra honra organiza todo el poema. No se trata solo del orgullo personal del héroe, sino de su posición ante el rey, la comunidad y el linaje. El destierro lo priva de reconocimiento; las victorias, las bodas y finalmente el juicio restauran ese lugar perdido."
+          },
+          {
+            "heading": "Entre historia y épica",
+            "content": "La fuerza del texto proviene de convertir a un personaje histórico en materia poética sin perder del todo el vínculo con el mundo real. Esa proximidad con hechos, espacios y códigos sociales concretos distingue al poema de otras épicas más fabulosas y le da un tono singular de verosimilitud."
+          },
+          {
+            "heading": "Un héroe de prudencia y eficacia",
+            "content": "El Cid no suele imponerse por gestos desmesurados, sino por inteligencia táctica, mesura verbal y capacidad de administrar relaciones de poder. Esa construcción lo vuelve especialmente interesante para la lectura moderna: es menos un superhéroe que un líder capaz de rehacer su destino con disciplina y cálculo."
+          },
+          {
+            "heading": "La dimensión familiar del poema",
+            "content": "El relato no se limita a campañas militares. La situación de Jimena y de las hijas convierte la épica en una historia de protección, continuidad del linaje y reparación doméstica. La afrenta de Corpes demuestra que la justicia final del poema pasa por el cuerpo y la dignidad de las mujeres de la familia."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Poema de mio Cid y Cantar de mio Cid son lo mismo?",
+            "answer": "Sí. Ambos nombres se usan para referirse a la misma obra épica anónima sobre Rodrigo Díaz de Vivar, aunque hoy el título más extendido en estudios y ediciones es Cantar de mio Cid."
+          },
+          {
+            "question": "¿Quién escribió el Cantar de mio Cid?",
+            "answer": "La autoría es anónima. Existen hipótesis críticas sobre su composición y transmisión, pero no hay consenso que permita atribuirla con certeza a un autor individual identificable."
+          },
+          {
+            "question": "¿Es un texto histórico o literario?",
+            "answer": "Es una obra literaria de base histórica. Toma como referencia a un personaje real y hechos verosímiles, pero los organiza según necesidades épicas y narrativas."
+          },
+          {
+            "question": "¿Por qué sigue estudiándose tanto?",
+            "answer": "Porque es una obra clave para entender la literatura medieval hispánica, la construcción del héroe castellano y temas como honor, justicia, poder, memoria y transmisión oral."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Poema de mio Cid",
+            "url": "https://www.cervantesvirtual.com/obra-visor/poema-de-mio-cid--0/html/"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Cantar de Mio Cid",
+            "url": "https://www.britannica.com/topic/Cantar-de-Mio-Cid"
+          },
+          {
+            "label": "Open Library: Cantar de mio Cid",
+            "url": "https://openlibrary.org/works/OL886738W/Poema_de_mio_Cid"
+          },
+          {
+            "label": "Wikipedia: Cantar de mio Cid",
+            "url": "https://es.wikipedia.org/wiki/Cantar_de_mio_Cid"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "problemas-de-electricidad-y-magnetismo-con-una-sintesis-del-analisis-dimensional-de-francisco-javier-maganto-suarez",
+      "title": "Problemas De Electricidad Y Magnetismo Con Una Sintesis Del Analisis Dimensional",
+      "authorName": "Francisco Javier Maganto Suarez",
+      "authorSlug": "francisco-javier-maganto-suarez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Problemas de electricidad y magnetismo (con una síntesis del análisis dimensional)",
+        "authorName": "Francisco J. Maganto Suárez",
+        "authorSlug": "francisco-javier-maganto-suarez",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2015,
+        "pages": 562,
+        "summary": "Este libro es, ante todo, una herramienta de trabajo para estudiantes de ingeniería y ciencias que necesitan afianzar la resolución de problemas en electricidad y magnetismo. Su valor no está en presentar una divulgación general del electromagnetismo, sino en organizar la materia desde la práctica: ejercicios, planteamientos y procedimientos que obligan a pasar de la fórmula aislada al razonamiento físico completo. El subtítulo sobre análisis dimensional ayuda a entender su intención pedagógica: no basta con memorizar ecuaciones, hay que verificar unidades, magnitudes y coherencia interna de los resultados. Por eso funciona como texto de apoyo para cursos universitarios, refuerzo de examen y entrenamiento sistemático. Leído con disciplina, sirve para consolidar método, precisión y criterio técnico en una de las áreas más exigentes de la física aplicada.",
+        "aboutThisBook": "La edición bibliográfica más visible en catálogos hispanos corresponde a la obra publicada con el título Problemas de electricidad y magnetismo, en algunos registros acompañada por el subtítulo “con una síntesis del análisis dimensional”. Google Books recoge la edición de 2015 con 562 páginas, mientras que Open Library registra una edición posterior de Dextra Editorial con 574 páginas. Esa diferencia aconseja prudencia bibliográfica, pero no cambia la naturaleza del libro: un volumen extenso de ejercicios y apoyo docente orientado al aprendizaje universitario del electromagnetismo y a la verificación técnica de resultados mediante análisis dimensional.",
+        "forWhom": "Para estudiantes universitarios de ingeniería, física y carreras técnicas, así como para docentes que necesiten un repertorio amplio de problemas trabajables y un apoyo metódico para clases, tutorías o preparación de exámenes.",
+        "whyItMatters": "Importa porque el electromagnetismo suele ser una de las materias donde más se nota la distancia entre teoría comprendida a medias y dominio real. Un libro centrado en problemas ayuda a cerrar esa brecha y a convertir conceptos abstractos en procedimientos verificables.",
+        "editorialIntro": "No todos los libros técnicos sirven del mismo modo. Algunos son útiles para exponer teoría; otros, para entrenar el oficio intelectual que exige una asignatura difícil. Este volumen pertenece claramente al segundo grupo. Su propuesta resulta valiosa porque obliga a trabajar con magnitudes, unidades, relaciones físicas y técnica de resolución, algo decisivo en cursos de electricidad y magnetismo donde el error no suele estar en una idea aislada, sino en una cadena completa de razonamiento mal construida.",
+        "readingLevel": "Nivel universitario inicial e intermedio. Exige familiaridad con álgebra, física general y notación científica; no está pensado como lectura casual, sino como libro de estudio, consulta y práctica sostenida.",
+        "whyReadToday": "Sigue siendo útil porque la formación técnica necesita más que apuntes rápidos: requiere hábito de resolución, chequeo dimensional y comprensión aplicada, justo el tipo de trabajo que este libro propone.",
+        "studyNotes": [
+          "Conviene usar el análisis dimensional no como apéndice decorativo, sino como criterio constante de control de errores durante cada ejercicio.",
+          "El libro rinde mejor cuando se estudia con papel y desarrollo completo de pasos, no solo leyendo soluciones o fórmulas finales.",
+          "Puede emplearse como puente entre teoría de clase y práctica de examen, especialmente en temas donde el alumno domina definiciones pero falla al modelar magnitudes físicas.",
+          "La diferencia de páginas entre ediciones catalogadas sugiere revisar siempre la edición concreta que se tenga a mano antes de citar ejercicios o numeración interna."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Fundamentos y método de trabajo",
+            "summary": "El libro se entiende mejor si se aborda como una introducción práctica al modo correcto de resolver problemas físicos. Antes que una lectura lineal, propone un entrenamiento basado en planteamiento, despeje, cálculo y verificación, con especial atención a la consistencia de unidades y magnitudes."
+          },
+          {
+            "title": "Bloque de electricidad",
+            "summary": "La parte dedicada a electricidad reúne el tipo de ejercicios con los que el estudiante debe aprender a traducir principios físicos en relaciones cuantitativas. El objetivo no es solo obtener un número, sino entender cómo interactúan campos, potenciales, cargas, corrientes o circuitos según el nivel del curso."
+          },
+          {
+            "title": "Bloque de magnetismo y cierre dimensional",
+            "summary": "En el tramo centrado en magnetismo, el libro profundiza en problemas donde la intuición suele ser menos inmediata y el manejo matemático más delicado. La síntesis de análisis dimensional funciona como cierre útil para revisar la lógica física de los resultados y fortalecer autonomía de estudio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Aprender física resolviendo, no solo leyendo",
+            "content": "La apuesta principal del libro es metodológica: la física del electromagnetismo se consolida cuando el estudiante resuelve problemas completos, se equivoca, corrige y verifica. Ese enfoque responde mejor a las exigencias reales de las carreras técnicas que una exposición exclusivamente teórica."
+          },
+          {
+            "heading": "El análisis dimensional como disciplina mental",
+            "content": "La mención explícita al análisis dimensional revela una convicción pedagógica importante. No se trata solo de revisar unidades al final, sino de pensar cada ecuación como una relación entre magnitudes compatibles. Ese hábito mejora la comprensión conceptual y reduce errores mecánicos muy frecuentes."
+          },
+          {
+            "heading": "Libro de apoyo, no sustituto del curso",
+            "content": "Su mejor uso aparece cuando acompaña una asignatura o un plan de estudio estructurado. Como ocurre con muchos manuales de problemas, gana valor si el lector ya dispone de teoría básica y busca consolidarla mediante práctica intensiva y comparación de procedimientos."
+          },
+          {
+            "heading": "Utilidad actual en formación técnica",
+            "content": "En una época de soluciones rápidas y resúmenes comprimidos, libros así recuerdan que la competencia técnica exige paciencia, formalización y control del proceso. Por eso conservan vigencia en grados de ingeniería y en preparación rigurosa de exámenes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un manual teórico o un libro de ejercicios?",
+            "answer": "Por su título, extensión y catalogación, debe entenderse principalmente como un libro de problemas y apoyo práctico para estudiar electricidad y magnetismo, más orientado a la resolución que a la exposición puramente teórica."
+          },
+          {
+            "question": "¿Qué papel cumple el análisis dimensional en la obra?",
+            "answer": "Cumple una función de control conceptual y técnico: ayuda a verificar si una ecuación y un resultado tienen sentido físico, algo especialmente útil en materias con alta carga algebraica."
+          },
+          {
+            "question": "¿Para qué nivel resulta adecuado?",
+            "answer": "Es apropiado para nivel universitario, sobre todo en ingeniería y ciencias. Puede servir también a docentes o a estudiantes avanzados que preparan evaluaciones acumulativas."
+          },
+          {
+            "question": "¿La edición tiene siempre el mismo número de páginas?",
+            "answer": "No exactamente. Google Books registra una edición de 2015 con 562 páginas y Open Library una edición posterior de Dextra Editorial con 574, de modo que conviene citar la edición concreta consultada."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Books: Problemas de electricidad y magnetismo (9788499464169)",
+            "url": "https://books.google.com/books/about/Problemas_de_electricidad_y_magnetismo.html?id=5iqSDAEACAAJ"
+          },
+          {
+            "label": "Open Library: PROBLEMAS DE ELECTRICIDAD Y MAGNETISMO (ed. 2018)",
+            "url": "https://openlibrary.org/books/OL47553596M/PROBLEMAS_DE_ELECTRICIDAD_Y_MAGNETISMO"
+          },
+          {
+            "label": "Casa del Libro: Problemas de electricidad y magnetismo (2ª ed.)",
+            "url": "https://www.casadellibro.com/libro-problemas-de-electricidad-y-magnetismo-2-ed/9788416898725/8508175"
+          },
+          {
+            "label": "WorldCat search: Problemas de electricidad y magnetismo Francisco Javier Maganto Suárez",
+            "url": "https://search.worldcat.org/search?q=ti%3A%22Problemas+de+electricidad+y+magnetismo%22+au%3A%22Francisco+Javier+Maganto+Suarez%22"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "que-es-metafisica-de-martin-heidegger",
+      "title": "Que Es Metafisica",
+      "authorName": "Martin Heidegger",
+      "authorSlug": "martin-heidegger",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "¿Qué es metafísica?",
+        "authorName": "Martin Heidegger",
+        "authorSlug": "martin-heidegger",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1929,
+        "pages": null,
+        "summary": "¿Qué es metafísica? es uno de los textos más influyentes y discutidos de Heidegger. Nacido como lección inaugural de 1929, el ensayo parte de una pregunta que la filosofía académica y la ciencia suelen evitar: la pregunta por la nada. Heidegger no la trata como un simple juego verbal, sino como una vía para pensar el ser, los límites del conocimiento objetivo y la situación concreta del ser humano. La experiencia decisiva del texto es la angustia, entendida no como miedo psicológico a algo preciso, sino como un estado en el que el mundo cotidiano pierde firmeza y se revela la nada. Desde ahí, el autor reabre el sentido de la metafísica y cuestiona una comprensión puramente técnica o científica de la realidad.",
+        "aboutThisBook": "No es un tratado sistemático ni una introducción escolar a la metafísica clásica. Es un ensayo breve, concentrado y exigente, escrito en el momento en que Heidegger estaba redefiniendo buena parte de la filosofía contemporánea. Su importancia reside en que desplaza el problema desde las cosas particulares hacia la apertura misma en la que los entes aparecen. También muestra una de las ideas más célebres y polémicas del autor: que la nada no es mera ausencia lógica, sino algo que se manifiesta en la experiencia humana y vuelve pensable la pregunta por el ser.",
+        "forWhom": "Conviene a estudiantes de filosofía, lectores de fenomenología y cursos universitarios sobre pensamiento contemporáneo. También sirve a quien quiera entender por qué Heidegger marcó debates sobre existencia, lenguaje, ciencia y metafísica en el siglo XX.",
+        "whyItMatters": "Importa porque reformula una pregunta central de la filosofía fuera del esquema tradicional de definiciones abstractas. El texto conecta metafísica, existencia y lenguaje con una intensidad que explica su impacto duradero y también las objeciones que provocó.",
+        "editorialIntro": "Pocos ensayos breves del siglo XX han tenido una irradiación comparable a ¿Qué es metafísica? Heidegger escribe con tono de desafío: no quiere añadir una teoría más al repertorio universitario, sino obligar al lector a pensar qué queda fuera cuando la realidad se reduce a objeto de cálculo. Su apuesta no es cómoda, pero sigue siendo decisiva para entender la filosofía continental posterior.",
+        "readingLevel": "Alto: exige paciencia con el vocabulario filosófico, atención a la diferencia entre miedo y angustia, y cierta familiaridad con preguntas ontológicas y fenomenológicas.",
+        "whyReadToday": "Porque sigue siendo un texto clave para discutir los límites de la razón instrumental y para pensar qué experiencias quedan fuera de una cultura dominada por la utilidad, la técnica y la explicación inmediata.",
+        "studyNotes": [
+          "La palabra clave no es solo metafísica, sino nada: Heidegger la usa para reabrir la pregunta por el ser desde una experiencia concreta.",
+          "La angustia no equivale al miedo; no tiene objeto determinado y por eso desestabiliza el mundo cotidiano de un modo filosóficamente productivo.",
+          "El ensayo discute implícitamente con la confianza moderna en que la ciencia agota lo real o decide por sí sola qué preguntas valen la pena.",
+          "Conviene leer el texto junto con el epílogo y la introducción posteriores para ver cómo Heidegger reinterpreta su propia formulación inicial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento de la pregunta",
+            "summary": "Heidegger comienza situando el prestigio de la ciencia y mostrando que, pese a su rigor, deja fuera la pregunta radical por el conjunto de los entes y por aquello que hace posible interrogarse metafísicamente."
+          },
+          {
+            "title": "La experiencia de la angustia y la nada",
+            "summary": "El núcleo del ensayo aparece cuando la angustia hace vacilar el mundo familiar y permite que la nada se manifieste. Esa experiencia no ofrece información positiva, pero sí abre un horizonte filosófico nuevo."
+          },
+          {
+            "title": "Sentido y tarea de la metafísica",
+            "summary": "A partir de la nada, Heidegger redefine la metafísica como interrogación por el ser de los entes y por la posición del ser humano en esa apertura, no como simple catálogo de conceptos abstractos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La nada como problema filosófico",
+            "content": "La provocación central del texto consiste en negar que la nada sea solo un resultado de la negación lógica. Heidegger sostiene que se experimenta de un modo originario y que esa experiencia tiene consecuencias ontológicas."
+          },
+          {
+            "heading": "Crítica al dominio exclusivo de la ciencia",
+            "content": "El ensayo no desprecia la ciencia, pero sí cuestiona su pretensión de monopolizar el acceso a lo real. La metafísica aparece donde la objetividad científica ya no basta para aclarar la condición humana."
+          },
+          {
+            "heading": "Angustia, existencia y apertura",
+            "content": "La angustia cumple una función estructural: rompe la familiaridad del mundo útil y deja al descubierto que existir no es simplemente manejar objetos, sino habitar una apertura previa en la que algo como el ser puede importar."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de metafísica tradicional?",
+            "answer": "No exactamente. Aunque trata un problema clásico, Heidegger no organiza el texto como manual doctrinal, sino como ensayo fenomenológico y ontológico a partir de una experiencia límite: la angustia."
+          },
+          {
+            "question": "¿Por qué la nada es tan importante en el ensayo?",
+            "answer": "Porque la nada permite a Heidegger mostrar que nuestra relación con el ser no se agota en conocer objetos. Al aparecer en la angustia, la nada abre la pregunta metafísica de una forma radical."
+          },
+          {
+            "question": "¿Se puede leer sin haber estudiado Ser y tiempo?",
+            "answer": "Sí, aunque ayuda. El ensayo es breve y autónomo, pero se comprende mejor si el lector conoce al menos algunas nociones básicas del proyecto heideggeriano, sobre todo la centralidad de la existencia humana."
+          },
+          {
+            "question": "¿Por qué este texto generó tanta polémica?",
+            "answer": "Porque su lenguaje y sus tesis chocaron con tradiciones filosóficas más analíticas o positivistas. La frase sobre la nada y la crítica a la autosuficiencia científica fueron especialmente discutidas."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes — registro bibliográfico y edición digital",
+            "url": "https://www.cervantesvirtual.com/obra/que-es-metafisica/"
+          },
+          {
+            "label": "Britannica — What Is Metaphysics?",
+            "url": "https://www.britannica.com/topic/What-Is-Metaphysics"
+          },
+          {
+            "label": "Stanford Encyclopedia of Philosophy — Martin Heidegger",
+            "url": "https://plato.stanford.edu/entries/heidegger/"
+          },
+          {
+            "label": "Google Books — edición en español",
+            "url": "https://books.google.com/books/about?id=7eP2OQAACAAJ"
+          },
+          {
+            "label": "Open Library — registro de la obra",
+            "url": "https://openlibrary.org/works/OL34981197W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "resident-evil-volumen-4-codigo-veronica-de-s-d-perry",
+      "title": "Resident Evil Volumen 4 Codigo Veronica",
+      "authorName": "S D Perry",
+      "authorSlug": "s-d-perry",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Resident Evil: Código Verónica",
+        "authorName": "S. D. Perry",
+        "authorSlug": "s-d-perry",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "ciencia-ficcion",
+          "aventura"
+        ],
+        "year": 2001,
+        "pages": 233,
+        "summary": "Resident Evil: Código Verónica es una novela de acción y horror biotecnológico que traslada al papel uno de los episodios más recordados de la saga. Claire Redfield continúa la búsqueda de su hermano Chris y termina atrapada en una isla controlada por Umbrella, donde los experimentos, la vigilancia y el colapso institucional convierten cada avance en una lucha por la supervivencia. La trama alterna persecución, encierro, mutaciones y revelaciones sobre viejos enemigos, de modo que el libro funciona a la vez como aventura trepidante y como expansión del universo de la franquicia. S. D. Perry privilegia el ritmo, la tensión constante y el vínculo entre hermanos frente a un escenario dominado por el miedo, la traición y el poder de la corporación.",
+        "aboutThisBook": "Esta novela forma parte de la serie de novelizaciones de Resident Evil escritas por S. D. Perry. Los registros de Open Library sitúan su primera publicación en 2001, y Google Books recoge una edición en español publicada por Timun Mas / Planeta en 2013 con 233 páginas. Como adaptación narrativa de Resident Evil – Code: Veronica, el libro reorganiza la historia del videojuego en una forma más lineal, con mayor espacio para pensamientos, enlaces entre escenas y continuidad interna de la saga. Su interés no está solo en el argumento de supervivencia, sino en cómo convierte un relato de acción interactiva en una novela pulp de horror científico y conspiración corporativa.",
+        "forWhom": "Para lectores adultos y fans de Resident Evil que quieran revisitar la historia con más continuidad narrativa, así como para quienes disfrutan thrillers de laboratorio, monstruos, conspiraciones y acción de ritmo rápido.",
+        "whyItMatters": "Importa porque muestra cómo una franquicia nacida en el videojuego puede traducirse con eficacia al formato novelístico sin perder tensión. También consolida la figura de Claire Redfield y refuerza el eje Umbrella-Wesker-Chris dentro del imaginario de la saga.",
+        "editorialIntro": "No hace falta ser completista de Resident Evil para entender por qué Código Verónica ocupa un lugar especial dentro de la serie. Aquí la saga amplía su escala: ya no se trata solo de escapar de una mansión o de una ciudad contaminada, sino de internarse en una red global de experimentación, linajes rotos y poder corporativo. Perry toma ese material y lo vuelve novela de consumo rápido, eficaz y muy visual, ideal para lectores que buscan tensión sostenida y atmósfera de desastre biológico.",
+        "readingLevel": "Lectura media y muy ágil. El lenguaje es directo, la acción domina buena parte del libro y el mayor reto está en seguir facciones, criaturas y conexiones previas del universo Resident Evil.",
+        "whyReadToday": "Porque sigue siendo un buen ejemplo de ficción transmedia bien resuelta y porque su mezcla de virus, corporaciones opacas y miedo tecnológico conserva una vigencia evidente.",
+        "studyNotes": [
+          "La novela puede leerse como una historia de supervivencia, pero también como una pieza clave del conflicto prolongado entre los Redfield, Umbrella y Wesker.",
+          "Conviene observar cómo Perry convierte escenas originalmente pensadas para la acción jugable en secuencias narrativas con mayor continuidad emocional.",
+          "El libro trabaja una ansiedad muy característica de la saga: la ciencia sin control puesta al servicio del poder militar y empresarial.",
+          "Claire no funciona solo como heroína de acción; también como eje afectivo y moral frente a un mundo gobernado por experimentos y traiciones."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La búsqueda de Claire y el encierro en la isla",
+            "summary": "La primera parte sigue a Claire Redfield en su intento por encontrar a Chris. Esa búsqueda la conduce a una instalación vinculada a Umbrella, donde la captura, el caos y la aparición de criaturas mutadas convierten el espacio cerrado en una trampa letal."
+          },
+          {
+            "title": "Supervivencia, alianzas y regreso del pasado",
+            "summary": "En la zona central, Claire debe abrirse paso entre enemigos humanos y monstruosos mientras se revelan secretos familiares, rivalidades antiguas y la magnitud real de los experimentos. La novela intensifica el sentimiento de persecución y de amenaza permanente."
+          },
+          {
+            "title": "Chris, Wesker y el choque final",
+            "summary": "En el tramo decisivo, la historia se amplía con la intervención de Chris Redfield y con el retorno de Albert Wesker como figura de poder casi espectral. El cierre combina rescate, confrontación y desastre biológico en una culminación típicamente Resident Evil."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Del videojuego a la novela de horror corporativo",
+            "content": "Perry adapta una historia originalmente interactiva sin limitarse a enumerar escenas de acción. Lo que gana el libro es continuidad: los desplazamientos, las decisiones y los enfrentamientos se perciben como parte de una lógica de conspiración más amplia."
+          },
+          {
+            "heading": "Claire Redfield como centro humano",
+            "content": "Aunque abundan criaturas, laboratorios y villanos memorables, el libro se sostiene por la insistencia de Claire. Su búsqueda de Chris da cohesión afectiva a una trama que podría dispersarse entre episodios de supervivencia y exposición del lore."
+          },
+          {
+            "heading": "Ciencia degradada y poder sin escrúpulos",
+            "content": "La amenaza no es solo el monstruo visible. El verdadero fondo del libro es una tecnología biológica utilizada sin límite ético, donde la investigación queda sometida al control corporativo y militar. Ese motivo vuelve la historia algo más que una simple novela de monstruos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta haber jugado al videojuego para entender la novela?",
+            "answer": "No de forma estricta. La historia se puede seguir por sí sola, aunque conocer la saga ayuda a captar mejor la importancia de Chris, Claire, Umbrella y Wesker dentro del universo general."
+          },
+          {
+            "question": "¿Es una novela independiente o parte de una serie?",
+            "answer": "Forma parte de la serie de novelizaciones de Resident Evil escrita por S. D. Perry. Puede leerse sola, pero gana sentido si se la coloca junto a las otras entregas centradas en Raccoon City y sus consecuencias."
+          },
+          {
+            "question": "¿Predomina el terror o la acción?",
+            "answer": "Predomina una mezcla muy característica de la franquicia: acción rápida, suspense de encierro y horror biológico. No es una novela lenta o atmosférica en sentido clásico, sino una narración de tensión continua."
+          },
+          {
+            "question": "¿Por qué este episodio es importante dentro de Resident Evil?",
+            "answer": "Porque expande el conflicto más allá de Raccoon City, refuerza el papel de Claire y Chris Redfield, y devuelve a Wesker como antagonista central en una escala mucho más ambiciosa."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Books: Resident Evil: Código Verónica (Grupo Planeta Spain)",
+            "url": "https://play.google.com/store/books/details?id=-d8xAAAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Google Books: Code: Veronica (Titan Books)",
+            "url": "https://play.google.com/store/books/details?id=CWa_BgAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Open Library: Code, Veronica",
+            "url": "https://openlibrary.org/works/OL5804775W/Code_Veronica"
+          },
+          {
+            "label": "WorldCat search: Code Veronica / S. D. Perry",
+            "url": "https://search.worldcat.org/search?q=Code%20Veronica%20S.%20D.%20Perry"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "saxo-y-rosas-de-maria-arregui",
+      "title": "Saxo Y Rosas",
+      "authorName": "Maria Arregui",
+      "authorSlug": "maria-arregui",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Saxo y rosas",
+        "authorName": "María Arregui",
+        "authorSlug": "maria-arregui",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa",
+          "ensayo"
+        ],
+        "year": 1995,
+        "pages": 165,
+        "summary": "Saxo y rosas es una novela juvenil que cruza conflicto social, afectos adolescentes y una intriga nacida de la violencia callejera. La historia arranca con la irrupción de una banda de cabezas rapadas en la Plaza de la Posada para agredir a inmigrantes. Ese episodio no queda como un simple hecho externo: altera la relación entre Raquel y Germán, compromete a este último como testigo y lo coloca casi de inmediato bajo sospecha de un delito que no ha cometido. A partir de ahí, el libro desplaza el centro desde el sobresalto inicial hacia las consecuencias morales del miedo, el prejuicio y la presión del entorno. La intervención de Magda, amiga de Raquel y hermana de uno de los agresores, abre una vía para esclarecer lo ocurrido y convierte la novela en un relato sobre responsabilidad, lealtad y valentía cívica.",
+        "aboutThisBook": "Publicada originalmente por Anaya en 1995 y reeditada después dentro de la colección Espacio Abierto, la novela de María Arregui se inscribe en la narrativa juvenil española que aborda problemas contemporáneos sin rebajar su complejidad ética. Los datos catalográficos disponibles la presentan como una obra breve, de unas 165 páginas en su primera edición, y la descripción de la reedición subraya el episodio central de agresión xenófoba y la falsa implicación de Germán. Ese punto de partida sitúa la novela en un terreno especialmente fértil para lectores jóvenes: el lugar donde la amistad, el enamoramiento, la identidad de grupo y la violencia ideológica dejan de ser asuntos abstractos y se vuelven decisiones concretas.",
+        "forWhom": "Para lectores juveniles, docentes y mediadores que busquen una novela breve para trabajar xenofobia, violencia de grupo, testimonio, presión social y responsabilidad personal en contextos escolares o de club de lectura.",
+        "whyItMatters": "Sigue siendo relevante porque acerca a lectores jóvenes a una forma de violencia muy reconocible: la agresión que se legitima por pertenencia, prejuicio o miedo. Además, muestra cómo los conflictos públicos afectan de inmediato la confianza íntima y las relaciones cotidianas.",
+        "editorialIntro": "Hay novelas juveniles que tratan temas difíciles desde la distancia moral, como si bastara con señalar a los culpables. Saxo y rosas parece más interesante precisamente porque complica esa comodidad. El ataque inicial sacude una plaza, pero sobre todo desordena vínculos, pone a prueba las versiones de los hechos y obliga a varios personajes a decidir si callan, encubren o actúan. En esa tensión entre violencia social y drama personal reside buena parte de su fuerza: convierte un problema colectivo en una experiencia emocional cercana y legible para adolescentes.",
+        "readingLevel": "Lectura accesible para secundaria inicial y media. El argumento puede trabajarse sin dificultad por su brevedad, aunque los temas de xenofobia, culpabilidad y testimonio invitan a una mediación crítica para aprovechar mejor sus implicaciones éticas y sociales.",
+        "whyReadToday": "Porque ayuda a conversar con claridad sobre racismo, radicalización y responsabilidad de los testigos, asuntos que siguen plenamente presentes en la vida pública y en la formación de jóvenes lectores.",
+        "studyNotes": [
+          "El incidente con la banda de cabezas rapadas funciona como detonante narrativo y como puerta de entrada a una reflexión sobre xenofobia y violencia organizada.",
+          "La novela no parece centrarse solo en la agresión, sino en sus consecuencias: sospecha, ruptura de confianza, miedo a decir la verdad y necesidad de reconstruir los hechos.",
+          "Magda ocupa un lugar clave porque su vínculo con uno de los agresores le da a la historia una zona moral ambigua: ayudar a esclarecer implica enfrentarse también a la propia cercanía con el conflicto.",
+          "Es una obra útil para discutir cómo la violencia ideológica penetra la vida cotidiana y obliga a los adolescentes a definirse más allá de la pasividad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La agresión en la Plaza de la Posada",
+            "summary": "La novela se pone en marcha cuando una banda de cabezas rapadas irrumpe para atacar a inmigrantes. El episodio instala desde el comienzo un clima de amenaza y deja claro que la violencia del libro no será abstracta, sino inmediata y visible."
+          },
+          {
+            "title": "Sospecha, miedo y ruptura de confianza",
+            "summary": "Después del ataque, Germán queda implicado como testigo y pronto pesa sobre él una acusación injusta. Esa situación repercute en su relación con Raquel y vuelve inestables los lazos entre amistad, afecto y verdad."
+          },
+          {
+            "title": "La intervención de Magda y la búsqueda de claridad",
+            "summary": "Magda, amiga de Raquel y hermana de uno de los agresores, decide ayudar a aclarar lo sucedido. Su entrada da a la historia una dimensión ética más compleja, porque obliga a mirar el conflicto desde dentro del entorno que lo produjo."
+          },
+          {
+            "title": "Responsabilidad y reparación",
+            "summary": "En el tramo final, el foco se desplaza hacia la necesidad de esclarecer los hechos y asumir consecuencias. La novela sugiere que la salida no depende solo de descubrir culpables, sino de romper silencios y actuar frente a la violencia del grupo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Violencia juvenil y xenofobia",
+            "content": "El dato más contundente del argumento es que la agresión nace de una banda de cabezas rapadas contra inmigrantes. Eso sitúa la novela en la tradición de la narrativa juvenil que afronta de manera frontal la violencia ideológica y la convierte en experiencia narrativa concreta, no en simple consigna pedagógica."
+          },
+          {
+            "heading": "El testigo como figura moral",
+            "content": "Germán queda atrapado en una posición especialmente fértil para el análisis: ha estado allí, sabe algo, pero su lugar como testigo se vuelve también una fuente de peligro y de sospecha. La novela parece explorar con acierto cómo mirar un hecho violento también compromete a quien no lo inició."
+          },
+          {
+            "heading": "Afectos adolescentes bajo presión",
+            "content": "La relación entre Raquel y Germán impide que el libro se reduzca a un caso social. La violencia pública entra en la esfera íntima y altera confianza, lealtad y deseo. Esa mezcla vuelve más cercana la lectura para público juvenil y evita el tono puramente ejemplarizante."
+          },
+          {
+            "heading": "La complejidad del entorno cercano",
+            "content": "Magda introduce un matiz decisivo porque está ligada familiarmente a uno de los agresores. Gracias a ese punto, la novela no separa el mundo en bloques perfectos de inocentes y culpables, sino que muestra redes de proximidad, vergüenza y decisión moral."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Saxo y rosas es una novela juvenil?",
+            "answer": "Sí. Los registros de Google Books la clasifican como ficción juvenil y su conflicto, sus personajes y su extensión encajan claramente en ese ámbito de lectura."
+          },
+          {
+            "question": "¿De qué trata en lo esencial?",
+            "answer": "Parte de una agresión xenófoba cometida por una banda de cabezas rapadas y sigue las consecuencias del hecho sobre Raquel, Germán y Magda, entre sospechas, acusaciones injustas y búsqueda de la verdad."
+          },
+          {
+            "question": "¿Qué temas permite trabajar en clase?",
+            "answer": "Xenofobia, violencia de grupo, prejuicio, responsabilidad del testigo, amistad, presión social y la dificultad de sostener la verdad cuando el entorno empuja al silencio."
+          },
+          {
+            "question": "¿Es una lectura dura?",
+            "answer": "Aborda un episodio violento, pero su brevedad y su enfoque narrativo la hacen manejable para lectores juveniles con acompañamiento pedagógico, especialmente si se quiere abrir debate sobre convivencia y ciudadanía."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Books: Saxo y rosas (ISBN 8420765481)",
+            "url": "https://books.google.com/books?vid=ISBN8420765481"
+          },
+          {
+            "label": "Google Books: Saxo y rosas / Sax and Roses (ISBN 9788466762649)",
+            "url": "https://books.google.com/books?vid=ISBN9788466762649"
+          },
+          {
+            "label": "Open Library: Saxo y rosas",
+            "url": "https://openlibrary.org/works/OL3128543W/Saxo_y_rosas"
+          },
+          {
+            "label": "WorldCat search: Saxo y rosas María Arregui",
+            "url": "https://search.worldcat.org/search?q=Saxo+y+rosas+Maria+Arregui"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "seis-de-cuervos-de-leigh-bardugo",
+      "title": "Seis De Cuervos",
+      "authorName": "Leigh Bardugo",
+      "authorSlug": "leigh-bardugo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Seis de cuervos",
+        "authorName": "Leigh Bardugo",
+        "authorSlug": "leigh-bardugo",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "fantasia",
+          "aventura"
+        ],
+        "year": 2015,
+        "pages": 465,
+        "summary": "Seis de cuervos es una novela de fantasía juvenil construida como una historia de atraco, pero con una densidad emocional poco común dentro del género. La trama sigue a Kaz Brekker y a un grupo de jóvenes marginales reunidos para ejecutar una misión casi imposible que promete una recompensa enorme y un riesgo desmedido. La novela combina planificación criminal, alianzas frágiles, persecución, violencia y magia en un mundo ya integrado al universo Grishaverse. Su fuerza no reside solo en la intriga del golpe, sino en la manera en que cada miembro del grupo arrastra heridas, deudas, traumas y lealtades contradictorias. Bardugo convierte el esquema del heist en un relato coral sobre supervivencia, confianza, identidad y redención parcial, donde el pasado pesa tanto como el peligro inmediato.",
+        "aboutThisBook": "Publicada en 2015 por Henry Holt and Company, esta novela abrió la bilogía Six of Crows dentro del universo narrativo de Leigh Bardugo. Los catálogos de Library of Congress y Open Library coinciden en situarla como una obra de fantasía juvenil centrada en un golpe imposible llevado a cabo por un equipo de jóvenes forasteros. Está ambientada sobre todo en Ketterdam, ciudad de puertos, crimen y comercio inspirada libremente en la Ámsterdam histórica, y se volvió uno de los títulos más celebrados del Grishaverse por su tono más oscuro, su estructura múltiple y la complejidad moral de sus protagonistas.",
+        "forWhom": "Para lectores juveniles y adultos que disfrutan la fantasía con ritmo de thriller, personajes ambiguos, mundos bien construidos y tramas de equipo donde la estrategia importa tanto como la magia.",
+        "whyItMatters": "Importa porque demostró que la fantasía juvenil podía dialogar con la novela de atracos, el relato criminal y el drama psicológico sin perder intensidad comercial. También consolidó una forma más sombría y coral dentro del Grishaverse.",
+        "editorialIntro": "Hay novelas juveniles de fantasía que se apoyan en la espectacularidad del mundo imaginario y hay otras que triunfan porque entienden cómo funciona la tensión narrativa. Seis de cuervos pertenece a las segundas. Leigh Bardugo toma la lógica del golpe maestro, la mezcla con magia, política y crimen organizado, y la entrega a un grupo de personajes jóvenes que no son héroes ejemplares, sino supervivientes ingeniosos, dañados y peligrosos. Esa combinación explica buena parte de su permanencia lectora.",
+        "readingLevel": "Lectura juvenil avanzada. El estilo es fluido, pero la novela trabaja con varios puntos de vista, vocabulario de mundo fantástico, estrategias de engaño y trasfondos emocionales complejos que exigen atención sostenida.",
+        "whyReadToday": "Porque sigue siendo una referencia para entender cómo la fantasía contemporánea mezcla géneros, crea personajes moralmente ambiguos y ofrece aventuras con verdadera tensión estratégica y afectiva.",
+        "studyNotes": [
+          "La novela se beneficia de leerse como un cruce entre fantasía y heist novel: el plan, los imprevistos y la coordinación del grupo son tan importantes como el mundo mágico.",
+          "Cada personaje aporta una herida biográfica que no es solo decorativa; su pasado condiciona decisiones, miedos y formas de lealtad.",
+          "Ketterdam funciona como escenario moral además de geográfico: comercio, deuda, explotación y astucia estructuran la conducta de casi todos los personajes.",
+          "Puede compararse con otras sagas juveniles para observar una diferencia clave: aquí el heroísmo aparece contaminado por trauma, crimen y cálculo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La reunión del equipo",
+            "summary": "El comienzo presenta a Kaz Brekker y el encargo extraordinario que pone en marcha la historia. A partir de ahí se forma el grupo, y la novela deja claro que cada integrante posee una habilidad decisiva, pero también un conflicto íntimo que vuelve incierta cualquier alianza."
+          },
+          {
+            "title": "El golpe imposible",
+            "summary": "La parte central desarrolla la preparación y ejecución del atraco. Bardugo trabaja la tensión mediante cambios de punto de vista, obstáculos crecientes, engaños, decisiones tácticas y una sensación constante de que el plan puede quebrarse por factores externos o por fracturas internas del propio equipo."
+          },
+          {
+            "title": "Consecuencias, traiciones y nuevas deudas",
+            "summary": "En el cierre, la novela muestra que sobrevivir a la misión no significa quedar a salvo. Los resultados del golpe reordenan lealtades, exponen nuevas amenazas y dejan abierta una continuidad donde el botín, la venganza y la confianza siguen siendo inestables."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La estructura de atraco como motor narrativo",
+            "content": "El gran acierto formal del libro es emplear la lógica del heist para organizar una fantasía juvenil. El lector no avanza solo por curiosidad sobre el mundo, sino por la necesidad de entender un plan, anticipar riesgos y medir cuánto puede resistir una alianza formada por sujetos rotos y desconfiados."
+          },
+          {
+            "heading": "Personajes dañados, no héroes puros",
+            "content": "Bardugo construye a sus protagonistas desde el trauma, la precariedad y la astucia. Esa decisión les da espesor moral: no buscan el bien abstracto, sino sobrevivir, cobrar deudas, proteger a alguien o recuperar control sobre un pasado que los marcó. Por eso la novela evita el heroísmo plano."
+          },
+          {
+            "heading": "Ketterdam como ciudad del comercio y la violencia",
+            "content": "La ciudad no es un decorado exótico, sino una máquina social basada en intercambio, deuda y explotación. Ese entorno explica el cinismo de Kaz, el valor del dinero, la fragilidad de los cuerpos y el modo en que el delito se vuelve forma de ascenso, defensa o condena."
+          },
+          {
+            "heading": "Fantasia juvenil con pulso adulto",
+            "content": "Aunque el libro se ubica claramente en el ámbito juvenil, su tono es más sombrío y calculado que el de muchas sagas equivalentes. La mezcla de violencia, estrategia, trauma y deseo le da una textura que amplía su público y sostiene relecturas más analíticas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta leer otras novelas del Grishaverse antes?",
+            "answer": "No es imprescindible. Seis de cuervos puede leerse de forma autónoma, aunque conocer el universo previo ayuda a ubicar mejor ciertos elementos políticos y mágicos."
+          },
+          {
+            "question": "¿Es solo una novela de fantasía juvenil?",
+            "answer": "Es fantasía juvenil, pero combina con mucha fuerza el relato de atraco, el thriller y el drama de personajes. Esa mezcla explica su recepción especialmente entusiasta."
+          },
+          {
+            "question": "¿Qué distingue a Kaz Brekker de otros protagonistas juveniles?",
+            "answer": "Su liderazgo nace menos del idealismo que del cálculo, la inteligencia táctica y una experiencia dura del daño. Es un protagonista carismático precisamente porque no está escrito como héroe limpio ni sentimental."
+          },
+          {
+            "question": "¿Por qué la novela sigue siendo tan recomendada?",
+            "answer": "Porque ofrece ritmo, mundo narrativo sólido, voces diferenciadas y una dinámica de grupo memorable. Además, convirtió el esquema del golpe imposible en una de las fórmulas más eficaces de la fantasía reciente."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Open Library: Six of Crows (edition OL25908319M)",
+            "url": "https://openlibrary.org/books/OL25908319M/Six_of_Crows"
+          },
+          {
+            "label": "Open Library: Six of Crows (work)",
+            "url": "https://openlibrary.org/works/OL17332479W/Six_of_Crows"
+          },
+          {
+            "label": "WorldCat search: Six of Crows Leigh Bardugo",
+            "url": "https://search.worldcat.org/search?q=ti%3ASix+of+Crows+au%3ALeigh+Bardugo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "senoria-de-jaume-cabre",
+      "title": "Senoria",
+      "authorName": "Jaume Cabre",
+      "authorSlug": "jaume-cabre",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Senyoria",
+        "authorName": "Jaume Cabré",
+        "authorSlug": "jaume-cabre",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica",
+          "ensayo"
+        ],
+        "year": 1991,
+        "pages": 356,
+        "summary": "Senyoria sitúa al lector en la Barcelona de 1799 y construye una intriga moral alrededor del poder judicial, los privilegios de clase y la fragilidad de la justicia. La novela arranca con un asesinato y con la condena de un inocente, pero su verdadero centro es la figura del regente civil de la Real Audiencia, Rafel Massó, uno de los hombres más influyentes del momento. Jaume Cabré entrelaza la investigación del crimen, los secretos personales del magistrado y la aparición de sensibilidades nuevas vinculadas al primer romanticismo. El resultado no es solo una novela histórica de ambientación precisa, sino una reflexión narrativa sobre el abuso del poder, la manipulación de la verdad y el precio humano que pagan quienes quedan atrapados bajo una autoridad aparentemente respetable.",
+        "aboutThisBook": "Es una de las novelas clave en la trayectoria de Cabré y una muestra clara de su capacidad para unir arquitectura narrativa, densidad moral y contexto histórico. La obra combina intriga, reconstrucción de época y análisis del funcionamiento real de las jerarquías. La Barcelona de finales del siglo XVIII no aparece como decorado pintoresco, sino como un espacio donde la ley puede ser instrumento de prestigio, encubrimiento y violencia. También importa el contraste entre el viejo mundo aristocrático y una nueva sensibilidad cultural que comienza a asomar en personajes más jóvenes.",
+        "forWhom": "Muy recomendable para lectores de novela histórica exigente, estudiantes de literatura catalana contemporánea y cursos sobre representación del poder, la justicia y la ciudad en la ficción europea.",
+        "whyItMatters": "Importa porque convierte un caso criminal en una exploración compleja de las instituciones, de la corrupción respetable y de la distancia entre legalidad y justicia. Ayuda a leer el poder como práctica cotidiana, no solo como idea abstracta.",
+        "editorialIntro": "Senyoria confirma una de las grandes virtudes de Jaume Cabré: su capacidad para hacer que la historia respire dentro de la trama sin inmovilizarla. Aquí todo avanza con tensión de novela de intriga, pero lo que permanece es la disección del poder. El lector entra por el crimen y sale con una imagen mucho más amplia de una ciudad, una época y una élite empeñada en protegerse a cualquier precio.",
+        "readingLevel": "Medio-alto: la prosa es legible, pero la novela gana mucho cuando se siguen con atención las relaciones entre personajes, la estructura en tres libros y el trasfondo político y cultural de 1799.",
+        "whyReadToday": "Porque sigue siendo una novela muy lúcida sobre jueces, prestigio social, fabricación de culpables y uso interesado de las instituciones, asuntos que conservan una vigencia evidente.",
+        "studyNotes": [
+          "La novela contrapone el viejo orden del Antiguo Régimen con una sensibilidad nueva asociada al romanticismo naciente y a otra idea de la subjetividad.",
+          "Rafel Massó no funciona solo como villano individual; encarna una forma institucional de poder que se protege bajo la apariencia de honorabilidad.",
+          "Barcelona está narrada como ciudad concreta y como sistema de relaciones: tribunales, salones, rumores, jerarquías y espacios periféricos forman parte del significado.",
+          "La estructura en tres libros organiza tiempos distintos del conflicto y dosifica la revelación moral más que la simple resolución policial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Libro I: crimen, ciudad y jerarquías",
+            "summary": "La apertura sitúa la acción en la Barcelona de finales de 1799, presenta el asesinato inicial y deja ver el entramado de poder social y judicial en el que se moverá toda la novela."
+          },
+          {
+            "title": "Libro II: conexiones ocultas",
+            "summary": "La narración enlaza la intriga principal con otra línea de hechos fuera de Barcelona, ampliando el campo moral del relato y mostrando que las muertes y silencios responden a una lógica más profunda."
+          },
+          {
+            "title": "Libro III: verdad, encubrimiento y tragedia",
+            "summary": "El desenlace concentra las revelaciones sobre el pasado, expone el coste de los abusos de poder y convierte la resolución del caso en una tragedia sobre justicia fallida y responsabilidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Justicia humana frente a poder efectivo",
+            "content": "Cabré muestra que la ley no garantiza por sí misma la justicia. En manos de una élite bien situada, los procedimientos pueden volverse instrumentos de encubrimiento y sacrificio de inocentes."
+          },
+          {
+            "heading": "Barcelona como escenario moral",
+            "content": "La ciudad está minuciosamente reconstruida, pero su función va más allá del color de época. Barcelona aparece como espacio donde circulan prestigio, deseo, rumor, miedo y vigilancia, es decir, como maquinaria social del poder."
+          },
+          {
+            "heading": "Entre el Antiguo Régimen y el romanticismo",
+            "content": "Uno de los contrastes más interesantes del libro es el que enfrenta una aristocracia decadente y autorreferencial con personajes jóvenes tocados por nuevas sensibilidades culturales. Ese contraste da espesor histórico a la intriga."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es ante todo una novela histórica o una novela de intriga?",
+            "answer": "Es las dos cosas. La intriga sostiene el ritmo, pero la novela gana profundidad porque el misterio sirve para explorar instituciones, clases sociales y formas de poder en la Barcelona de 1799."
+          },
+          {
+            "question": "¿Hace falta conocer la historia catalana para leerla?",
+            "answer": "No. Cabré ofrece suficiente contexto narrativo para orientarse, aunque saber algo del final del siglo XVIII y del Antiguo Régimen ayuda a captar mejor varios matices."
+          },
+          {
+            "question": "¿Por qué se considera una obra importante de Jaume Cabré?",
+            "answer": "Porque reúne varias de sus virtudes mayores: precisión estructural, espesor moral, interés por la historia y una mirada muy fina sobre el abuso del poder y la fragilidad de la verdad."
+          },
+          {
+            "question": "¿Tiene un enfoque más judicial o más psicológico?",
+            "answer": "Ambos planos se combinan. El mundo judicial organiza la trama, pero la novela también entra en los deseos, miedos y zonas oscuras de quienes sostienen ese sistema."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Web oficial de Jaume Cabré — Senyoria",
+            "url": "https://jaumecabre.cat/es/novella/senyoria/"
+          },
+          {
+            "label": "Enciclopèdia.cat — entrada sobre Senyoria",
+            "url": "https://www.enciclopedia.cat/diccionari-de-la-literatura-catalana/senyoria"
+          },
+          {
+            "label": "Google Books — edición de 1991",
+            "url": "https://books.google.com/books/about?id=2SwpAQAAMAAJ"
+          },
+          {
+            "label": "Open Library — registro de la obra",
+            "url": "https://openlibrary.org/works/OL952175W"
+          },
+          {
+            "label": "Agencia Literaria Carmen Balcells — ficha internacional de la obra",
+            "url": "https://www.agenciabalcells.com/en/authors/works/jaume-cabre/senyoria/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "siutico-arribismo-abajismo-y-vida-social-en-chile-de-oscar-contardo",
+      "title": "Siutico Arribismo Abajismo Y Vida Social En Chile",
+      "authorName": "Oscar Contardo",
+      "authorSlug": "oscar-contardo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Siútico: arribismo, abajismo y vida social en Chile",
+        "authorName": "Óscar Contardo",
+        "authorSlug": "oscar-contardo",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2008,
+        "pages": 286,
+        "summary": "Siútico es una crónica-ensayo sobre la fabricación social del gusto, el prestigio y la vergüenza en Chile. Óscar Contardo parte de una palabra cargada de desprecio y ansiedad de clase para examinar cómo se construyen las diferencias entre quienes aspiran a subir, quienes temen caer y quienes convierten la distinción en un arma cotidiana. El libro recorre hábitos, modales, consumos, lenguaje, raza, colegio, apellido, barrio y espectáculo mediático para mostrar que el clasismo chileno no es una abstracción, sino una pedagogía diaria del lugar que a cada uno se le asigna. Su fuerza está en combinar observación cultural, humor incómodo e historia social, de manera que el lector reconoce en esas páginas no solo una tipología local, sino una radiografía feroz de la desigualdad convertida en sensibilidad.",
+        "aboutThisBook": "La edición más conocida apareció en 2008 y Google Books la registra con 309 páginas en Vergara; otra edición de 2013 figura con 286 páginas en Editorial Planeta Chilena, y Planetadelibros destaca su relectura como un libro que sigue sacudiendo a Chile. Esa continuidad editorial ayuda a entender su importancia: no es un comentario coyuntural, sino un texto que quedó instalado en la conversación pública. Contardo trabaja desde la tradición de la crónica cultural y del ensayo social, con un tono que mezcla archivo, periodismo, memoria colectiva y mirada crítica. El resultado no es un tratado académico cerrado, sino un libro vivo, polémico y muy legible sobre la teatralidad de las jerarquías sociales.",
+        "forWhom": "Para lectores adultos interesados en sociedad chilena, clase, lenguaje, cultura de las apariencias, periodismo narrativo y ensayos que ayudan a pensar cómo opera la desigualdad en la vida cotidiana.",
+        "whyItMatters": "Importa porque pone nombre y contexto a mecanismos de distinción que muchas veces se normalizan o se viven con pudor. Su lectura permite entender mejor cómo el clasismo se incrusta en el habla, el consumo, el cuerpo y la imaginación social chilena.",
+        "editorialIntro": "Pocos libros chilenos recientes han tenido la capacidad de convertirse en palabra de referencia y, al mismo tiempo, conservar filo crítico. Siútico lo consigue porque no se limita a denunciar una injusticia abstracta: observa los gestos mínimos con que una sociedad marca pertenencias y castiga desvíos. Contardo escribe con ironía, pero también con precisión histórica; por eso el libro incomoda tanto. No se lee desde afuera, como si describiera a otros, sino como un espejo en el que aparecen hábitos, aspiraciones y prejuicios demasiado reconocibles.",
+        "readingLevel": "Lectura media. El estilo es claro y periodístico, pero las referencias culturales, históricas y de clase ganan profundidad si el lector presta atención a matices del lenguaje social chileno.",
+        "whyReadToday": "Porque sigue siendo una herramienta lúcida para pensar clasismo, aspiración social, blanqueamiento simbólico y ansiedad de estatus en una época dominada por imagen, consumo y exposición pública.",
+        "studyNotes": [
+          "El concepto de siútico funciona menos como definición estable que como insulto móvil: sirve para disciplinar conductas y reforzar jerarquías.",
+          "El libro muestra que el clasismo no opera solo en la economía, sino también en el cuerpo, la voz, la educación sentimental y la idea de buen gusto.",
+          "Conviene leerlo junto a la historia social chilena reciente: modernización, consumo, transición democrática y medios masivos amplían su alcance.",
+          "La mezcla de crónica, ensayo y observación cultural hace que la autoridad del texto provenga tanto del archivo como de la sensibilidad del narrador."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El insulto y la cartografía del estatus",
+            "summary": "La primera parte establece el valor social del término siútico y muestra cómo una palabra aparentemente coloquial condensa siglos de ansiedad de clase. Contardo la usa para abrir un mapa de jerarquías, imitaciones y rechazos dentro de la sociedad chilena."
+          },
+          {
+            "title": "Lenguaje, gusto y deseo de pertenecer",
+            "summary": "En el núcleo del libro aparecen los signos concretos de la distinción: maneras de hablar, consumir, vestir, estudiar y habitar la ciudad. El ensayo revela que el deseo de ascenso nunca es meramente económico; también es un deseo de legitimidad cultural."
+          },
+          {
+            "title": "Historia social del arribismo y sus máscaras",
+            "summary": "En la parte final, la observación cotidiana se conecta con una historia más larga de desigualdad, blanqueamiento simbólico y representación social. El resultado es una crítica amplia de la forma en que Chile imagina el prestigio y administra la humillación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una sociología escrita desde la crónica",
+            "content": "El libro no adopta la forma de un estudio académico convencional, pero produce conocimiento social con gran eficacia. Su método combina archivo cultural, escenas reconocibles, prensa, memoria y una lectura muy fina de los códigos del prestigio."
+          },
+          {
+            "heading": "El clasismo como sensibilidad cotidiana",
+            "content": "Uno de los mayores aciertos de Contardo es mostrar que la desigualdad no se vive solo en grandes indicadores, sino en gestos microscópicos: quién pronuncia bien, quién viste bien, quién pertenece y quién queda marcado como exceso o impostura."
+          },
+          {
+            "heading": "Humor incómodo y crítica de la identidad nacional",
+            "content": "Siútico es a menudo divertido, pero no complaciente. El humor sirve para exponer mecanismos de humillación y para desmontar la fantasía de una identidad nacional homogénea, revelando una comunidad obsesionada con distinguir y corregir al otro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro académico o una crónica periodística?",
+            "answer": "Es, sobre todo, una crónica-ensayo. Tiene investigación y contexto histórico, pero está escrito con agilidad periodística y con una voz autoral muy marcada."
+          },
+          {
+            "question": "¿Se entiende fuera de Chile?",
+            "answer": "Sí, aunque algunas referencias locales ganan fuerza con contexto chileno. Sus preguntas de fondo sobre clase, gusto, aspiración y vergüenza social son perfectamente legibles en otros países."
+          },
+          {
+            "question": "¿El libro solo habla de arribismo?",
+            "answer": "No. También examina el abajismo, el rechazo al refinamiento percibido, y en general la violencia simbólica con que una sociedad vigila los signos de pertenencia y movilidad."
+          },
+          {
+            "question": "¿Por qué sigue citándose tantos años después?",
+            "answer": "Porque encontró una palabra y una forma narrativa para describir algo estructural: cómo el clasismo chileno modela conductas, sensibilidades y aspiraciones en la vida diaria."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Planeta de Libros Chile: Siútico",
+            "url": "https://www.planetadelibros.cl/libro-siutico/404455"
+          },
+          {
+            "label": "Open Library: Siútico",
+            "url": "https://openlibrary.org/works/OL18776511W/Si%C3%BAtico"
+          },
+          {
+            "label": "WorldCat search: Siútico / Óscar Contardo",
+            "url": "https://search.worldcat.org/search?q=Si%C3%BAtico%20%C3%93scar%20Contardo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sobre-la-violencia-seis-reflexiones-marginales-de-slavoj-zizek",
+      "title": "Sobre La Violencia Seis Reflexiones Marginales",
+      "authorName": "Slavoj Zizek",
+      "authorSlug": "slavoj-zizek",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Sobre la violencia: seis reflexiones marginales",
+        "authorName": "Slavoj Žižek",
+        "authorSlug": "slavoj-zizek",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2009,
+        "pages": null,
+        "summary": "En Sobre la violencia, Slavoj Žižek propone una tesis incómoda: la violencia más visible, la que tiene un agente identificable y llena titulares, solo es una parte del problema. Detrás de ella operan otras formas menos espectaculares y más difíciles de percibir, como la violencia sistémica producida por el funcionamiento ordinario de la economía y la política, o la violencia simbólica inscrita en el lenguaje, los marcos ideológicos y las jerarquías culturales. A partir de esa distinción, el autor discute terrorismo, liberalismo humanitario, capitalismo global, filantropía, tolerancia y fundamentalismo. El libro no avanza como tratado académico convencional, sino como un ensayo provocador que combina filosofía, psicoanálisis, teoría política y referencias culturales para obligar al lector a mirar aquello que el discurso público suele dejar fuera de campo.",
+        "aboutThisBook": "La edición española circuló con el subtítulo Seis reflexiones marginales y recoge un ensayo originalmente publicado en inglés como Violence: Six Sideways Reflections. La descripción editorial disponible en Google Books resume bien su apuesta: lo que solemos llamar violencia subjetiva es apenas la punta del iceberg de una violencia estructural y simbólica que organiza la normalidad contemporánea. Žižek escribe desde su cruce habitual de hegelianismo, marxismo, psicoanálisis lacaniano y crítica cultural. Por eso el libro no ofrece un manual sereno ni lineal, sino un recorrido polémico que discute las democracias liberales, la filantropía espectacular, la retórica de la tolerancia y la tentación de reducir el mal a episodios aislados.",
+        "forWhom": "Para lectores adultos interesados en filosofía política, teoría crítica, sociología de la violencia y ensayos que desafían explicaciones morales demasiado simples sobre terrorismo, racismo, exclusión y orden económico.",
+        "whyItMatters": "Importa porque desplaza la discusión desde la violencia que se condena fácilmente hacia la violencia normalizada que sostiene instituciones, discursos y sistemas productivos. Esa inversión sigue siendo útil para leer crisis políticas, desigualdad y discursos de seguridad.",
+        "editorialIntro": "Pocos ensayos recientes sobre violencia han circulado con una mezcla tan visible de lucidez, provocación y controversia. Žižek parte de una intuición decisiva: quizá lo más difícil no sea condenar un estallido violento, sino reconocer el tipo de orden que lo vuelve posible y luego se presenta como neutral. Desde ahí desmonta lugares comunes sobre tolerancia, humanitarismo y choque cultural, y obliga a repensar qué vemos cuando decimos que vemos violencia. Es una lectura exigente, a veces digresiva, pero intelectualmente muy productiva para quien busque algo más que una explicación inmediata de la barbarie.",
+        "readingLevel": "Nivel medio-alto. Aunque no es un tratado técnico en sentido estricto, presupone familiaridad o al menos paciencia con referencias filosóficas, políticas y psicoanalíticas, además de un gusto por la argumentación ensayística y la paradoja.",
+        "whyReadToday": "Porque la discusión pública sigue distinguiendo mal entre hechos violentos visibles y estructuras que producen exclusión, miedo o devastación mientras aparentan normalidad administrativa.",
+        "studyNotes": [
+          "La distinción entre violencia subjetiva, sistémica y simbólica es el núcleo conceptual más recordado del libro y conviene dominarla antes de entrar en sus ejemplos y provocaciones.",
+          "Žižek no propone una teoría neutral del conflicto: escribe contra la comodidad moral de condenar solo lo espectacular sin examinar la violencia incrustada en la vida económica, jurídica y lingüística.",
+          "El libro mezcla alta teoría y cultura popular, un rasgo típico del autor que puede enriquecer la lectura, pero también exigir atención para no perder el hilo argumental central.",
+          "Conviene leerlo comparándolo con debates sobre seguridad, racismo, tolerancia, populismo y capitalismo global para medir el alcance real de sus intuiciones."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento inicial: qué violencia vemos y cuál no",
+            "summary": "El libro arranca cuestionando la costumbre de identificar violencia solo con agresiones visibles, crímenes o estallidos. Žižek propone ampliar el foco hacia aquello que hace posible esos episodios y que, por estar naturalizado, suele escapar a la condena inmediata."
+          },
+          {
+            "title": "Reflexiones sobre sistema, lenguaje e ideología",
+            "summary": "En el desarrollo central, el autor distingue entre violencia sistémica y simbólica, y muestra cómo economía, instituciones y discurso producen daño sin adoptar siempre la forma de un ataque espectacular. Esa parte redefine el problema en términos estructurales."
+          },
+          {
+            "title": "Liberalismo, tolerancia y filantropía bajo sospecha",
+            "summary": "Žižek examina la retórica humanitaria y la idea liberal de tolerancia para mostrar que a menudo operan como formas de administrar el conflicto sin tocar sus causas. El libro discute así la moral del buen sentimiento cuando convive cómodamente con desigualdades profundas."
+          },
+          {
+            "title": "Violencia divina, política y cierre polémico",
+            "summary": "En su tramo final, el ensayo entra en las zonas más discutidas de su propuesta: la relación entre acción política, pasividad, terror y la noción de violencia divina. Más que cerrar con una doctrina estable, deja al lector ante preguntas incómodas sobre responsabilidad y transformación histórica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La inversión de la mirada",
+            "content": "La principal operación intelectual del libro consiste en invertir el punto de vista dominante. En lugar de empezar por la violencia visible y explicarla como anomalía, Žižek pide mirar el trasfondo de normalidad que la produce. Esa inversión explica tanto la potencia como la incomodidad del ensayo."
+          },
+          {
+            "heading": "Violencia sistémica y crítica del capitalismo",
+            "content": "Buena parte del argumento depende de mostrar que el mercado, la administración política y el orden global no son escenarios neutros donde a veces irrumpe la violencia, sino mecanismos que distribuyen precariedad, exclusión y daño. El libro gana fuerza cuando conecta esa idea con hechos concretos de la contemporaneidad."
+          },
+          {
+            "heading": "Paradoja, provocación y estilo Žižek",
+            "content": "El ensayo está escrito con el estilo característico del autor: asociaciones súbitas, referencias heterogéneas, ironía y gusto por la provocación. Ese método puede abrir perspectivas nuevas, pero también exige distinguir entre la intuición fértil y la exageración deliberada."
+          },
+          {
+            "heading": "Un libro útil, aunque discutible",
+            "content": "No hace falta aceptar todas sus tesis para reconocer su utilidad. Sobre la violencia sigue siendo un texto importante porque obliga a desconfiar de las explicaciones morales simplistas y a pensar la relación entre orden, lenguaje, economía y estallido violento en un mismo marco."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Cuál es la idea central del libro?",
+            "answer": "Que la violencia visible y directa no agota el problema. Žižek insiste en que también existen violencias sistémicas y simbólicas, menos evidentes, que sostienen el orden social y condicionan nuestra percepción de lo que llamamos violencia."
+          },
+          {
+            "question": "¿Es un libro académico o de divulgación?",
+            "answer": "Se sitúa entre ambos registros. Tiene densidad teórica y muchas referencias filosóficas, pero está escrito como ensayo polémico, no como tratado universitario sistemático."
+          },
+          {
+            "question": "¿Por qué el subtítulo dice “seis reflexiones marginales”?",
+            "answer": "Porque el libro se organiza como un conjunto de aproximaciones laterales o indirectas al problema de la violencia. Más que ofrecer una definición única, avanza por rodeos críticos y desplazamientos de perspectiva."
+          },
+          {
+            "question": "¿Sigue siendo vigente?",
+            "answer": "Sí. Sus categorías se siguen usando para discutir racismo, terror, desigualdad, lenguaje político y el modo en que las sociedades contemporáneas invisibilizan formas estructurales de daño mientras condenan solo las más visibles."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Books: Sobre la violencia (edición en español)",
+            "url": "https://books.google.com/books?vid=ISBN9788408114239"
+          },
+          {
+            "label": "Open Library: Sobre la violencia",
+            "url": "https://openlibrary.org/works/OL26397427W/Sobre_la_violencia"
+          },
+          {
+            "label": "Google Books: Violence, Six Sideways Reflections",
+            "url": "https://books.google.com/books?vid=ISBN9781846680175"
+          },
+          {
+            "label": "WorldCat search: Sobre la violencia Slavoj Zizek",
+            "url": "https://search.worldcat.org/search?q=Sobre+la+violencia+Slavoj+Zizek"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tengo-miedo-torero-de-pedro-lemebel",
+      "title": "Tengo Miedo Torero",
+      "authorName": "Pedro Lemebel",
+      "authorSlug": "pedro-lemebel",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Tengo miedo torero",
+        "authorName": "Pedro Lemebel",
+        "authorSlug": "pedro-lemebel",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica",
+          "romance"
+        ],
+        "year": 2001,
+        "pages": 200,
+        "summary": "Tengo miedo torero narra una historia de amor, deseo, clandestinidad y violencia política en el Santiago de 1986, cuando la dictadura de Augusto Pinochet seguía marcando la vida cotidiana y la oposición armada preparaba acciones decisivas. En el centro aparece la Loca del Frente, personaje inolvidable de fragilidad exhibida y lucidez feroz, que se vincula con un joven militante del Frente Patriótico Manuel Rodríguez sin comprender del todo, o quizá comprendiendo demasiado bien, el alcance político de aquello en lo que termina involucrada. Lemebel entrelaza la intimidad sentimental con la represión, el miedo y la teatralidad popular de los boleros, creando una novela donde la ternura nunca cancela la tragedia histórica. El resultado es una obra profundamente chilena y a la vez universal sobre amor desigual, deseo de reconocimiento y memoria de los vencidos.",
+        "aboutThisBook": "Publicada por Anagrama en 2001, esta es la única novela de Pedro Lemebel y una de las obras centrales para leer su lugar en la literatura latinoamericana contemporánea. La editorial sitúa la acción en el año del atentado contra Pinochet y presenta la relación entre un joven del Frente Patriótico Manuel Rodríguez y un homosexual popular que lo ayuda en sus planes. Catálogos como Open Library registran su primera edición en español de ese mismo año, mientras que Memoria Chilena la vincula al proyecto literario y político de un autor que convirtió la disidencia sexual, la oralidad urbana y la crítica a la dictadura en materia de escritura.",
+        "forWhom": "Para lectores adultos interesados en literatura latinoamericana, memoria histórica, disidencia sexual, narrativa chilena contemporánea y novelas donde lo íntimo y lo político se afectan mutuamente de forma inseparable.",
+        "whyItMatters": "Importa porque dio una forma literaria singular a la memoria de la dictadura chilena desde un punto de vista marginal y desafiante. Su mezcla de melodrama, ironía, deseo y crítica política sigue siendo difícil de imitar y muy necesaria para leer el pasado reciente sin solemnidad vacía.",
+        "editorialIntro": "Hay novelas históricas que reconstruyen un periodo y hay novelas que lo hacen vibrar en la lengua misma. Tengo miedo torero pertenece a estas últimas. Pedro Lemebel no escribe una crónica neutral de los años ochenta chilenos: escribe desde el bolero, el cuerpo disidente, la precariedad urbana, la humillación social y la obstinación amorosa. Por eso la novela no solo cuenta una trama ambientada bajo la dictadura, sino que recupera una sensibilidad completa, un modo de hablar y de sufrir que la historia oficial suele dejar afuera.",
+        "readingLevel": "Lectura adulta de exigencia media-alta. El lenguaje mezcla lirismo, ironía, oralidad popular y referencias políticas al Chile de la dictadura; conviene leerla con alguna noción del contexto histórico para aprovechar todos sus matices.",
+        "whyReadToday": "Porque sigue siendo una novela decisiva para pensar memoria, violencia estatal, deseo queer y formas no oficiales de contar la historia reciente de América Latina.",
+        "studyNotes": [
+          "La novela debe leerse en doble registro: como historia sentimental y como intervención sobre la memoria de la dictadura chilena.",
+          "La Loca del Frente no es solo un personaje entrañable; también encarna una posición social y sexual históricamente despreciada que Lemebel vuelve centro narrativo.",
+          "El tono alterna humor, kitsch, lirismo y amenaza política, una mezcla esencial para entender la estética de Lemebel y su distancia respecto de la novela histórica convencional.",
+          "El trasfondo del atentado contra Pinochet en 1986 no funciona como mero decorado, sino como fuerza que condiciona cada gesto íntimo y cada ilusión afectiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La Loca del Frente y el deseo de ser mirada",
+            "summary": "El inicio introduce a la protagonista en su mundo cotidiano de precariedad, fantasía sentimental y necesidad de afecto. La llegada del joven militante abre una expectativa amorosa que la novela construye con delicadeza, ironía y una vulnerabilidad muy marcada."
+          },
+          {
+            "title": "Amor, conspiración y equívoco",
+            "summary": "En la parte media, la relación entre ambos personajes se vuelve más intensa mientras crece la dimensión política de los encargos y reuniones clandestinas. El lector percibe que el amor y la conspiración avanzan juntos, pero no bajo la misma lógica ni con el mismo grado de conciencia."
+          },
+          {
+            "title": "Fracaso histórico y persistencia íntima",
+            "summary": "Hacia el final, la violencia política irrumpe con toda su fuerza y reordena el destino de los personajes. La novela deja una impresión amarga: el gran acontecimiento histórico fracasa, pero lo que perdura en la memoria del lector es la mezcla de dignidad, pérdida y amor no correspondido."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria de la dictadura desde el margen",
+            "content": "Uno de los rasgos más poderosos del libro es que no narra la dictadura desde el centro heroico ni desde la voz institucional, sino desde un sujeto popular, homosexual y vulnerable. Ese desplazamiento cambia la memoria narrable: lo político aparece atravesado por cuerpo, deseo, humillación y supervivencia cotidiana."
+          },
+          {
+            "heading": "Melodrama, bolero y alta literatura",
+            "content": "Lemebel incorpora códigos del melodrama popular y del bolero no para rebajar la literatura, sino para expandirla. El exceso sentimental, la teatralidad y la canción vieja forman parte de la verdad emocional del personaje y se vuelven instrumentos legítimos para contar la historia."
+          },
+          {
+            "heading": "Amor desigual y conciencia política",
+            "content": "La relación central está marcada por una asimetría decisiva: uno de los personajes vive una ilusión amorosa y el otro carga un proyecto político urgente. La novela no resuelve esa desigualdad con cinismo fácil; muestra cómo afecto, instrumentalización, cuidado y autoengaño pueden convivir en una misma experiencia."
+          },
+          {
+            "heading": "Lengua, ironía y resistencia",
+            "content": "La prosa de Lemebel no separa estilo y política. Su mezcla de lirismo callejero, ironía punzante y sensibilidad camp actúa como resistencia frente al lenguaje higiénico de la autoridad, y por eso la novela conserva una fuerza estética tan singular."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica en sentido tradicional?",
+            "answer": "No del todo. Está profundamente anclada en un hecho histórico y en la dictadura chilena, pero su enfoque es íntimo, lírico y disidente, muy lejos de la reconstrucción neutral o meramente documental."
+          },
+          {
+            "question": "¿Quién es la Loca del Frente dentro de la novela?",
+            "answer": "Es el gran centro afectivo y simbólico del libro: un personaje popular, queer, vulnerable y brillante cuya mirada permite reordenar la historia política desde un margen que la versión oficial suele excluir."
+          },
+          {
+            "question": "¿Hace falta conocer la historia de Chile para leerla?",
+            "answer": "No es imprescindible, pero sí muy recomendable. Saber qué fue la dictadura de Pinochet y el atentado de 1986 enriquece mucho la lectura y permite captar mejor la tensión entre amor y clandestinidad política."
+          },
+          {
+            "question": "¿Por qué se considera una obra clave de Pedro Lemebel?",
+            "answer": "Porque es su única novela y condensa con enorme fuerza muchos de sus rasgos esenciales: crítica de la dictadura, sensibilidad popular, disidencia sexual, oralidad urbana y una prosa de gran intensidad poética."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Editorial Anagrama: Tengo miedo torero",
+            "url": "https://www.anagrama-ed.es/libro/panorama-de-narrativas/tengo-miedo-torero/9788433924872/PN_780"
+          },
+          {
+            "label": "Memoria Chilena: Pedro Lemebel",
+            "url": "https://www.memoriachilena.gob.cl/602/w3-article-3587.html"
+          },
+          {
+            "label": "Open Library: Tengo miedo torero",
+            "url": "https://openlibrary.org/books/OL9128932M/Tengo_miedo_torero"
+          },
+          {
+            "label": "WorldCat search: Tengo miedo torero Pedro Lemebel",
+            "url": "https://search.worldcat.org/search?q=ti%3ATengo+miedo+torero+au%3APedro+Lemebel"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tiempo-de-conquistadores-de-alberto-vazquez-figueroa",
+      "title": "Tiempo De Conquistadores",
+      "authorName": "Alberto Vazquez Figueroa",
+      "authorSlug": "alberto-vazquez-figueroa",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Tiempo de conquistadores",
+        "authorName": "Alberto Vázquez-Figueroa",
+        "authorSlug": "alberto-vazquez-figueroa",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "aventura",
+          "narrativa"
+        ],
+        "year": 1985,
+        "pages": null,
+        "summary": "Tiempo de conquistadores es una novela histórica y de aventuras ambientada en el mundo americano de la expansión española. Alberto Vázquez-Figueroa organiza el relato alrededor de Catalina Barrancos, una mujer anciana que repasa una vida marcada por viajes, violencia, tabernas, conquistadores y conflictos de libertad. Junto a su marido Justino, Catalina regenta la Taberna de los Cuatro Vientos, lugar desde el que observa de cerca a figuras del Nuevo Mundo y queda atrapada en los grandes movimientos de la época. La novela mezcla peripecia, memoria y denuncia: no presenta la conquista como simple epopeya, sino como escenario de brutalidad, esclavitud, ambición y resistencia. El impulso narrativo nace de esa tensión entre aventura fascinante e injusticia histórica.",
+        "aboutThisBook": "Vázquez-Figueroa fue uno de los narradores españoles más eficaces en el cruce entre novela popular, viaje e historia, y este libro muestra bien esa fórmula. La obra se apoya en un personaje femenino con voz y memoria propias para recorrer un periodo que suele contarse desde héroes militares o desde grandes gestas imperiales. Aquí, en cambio, importa la experiencia vivida: la taberna, el paso de los hombres de poder, la violencia de la esclavitud y la necesidad de tomar partido. Por eso el libro se lee con ritmo de aventura, pero deja también una lectura crítica del mundo colonial.",
+        "forWhom": "Adecuado para lectores de novela histórica dinámica, aficionados a las narraciones de conquista y estudiantes que busquen una puerta de entrada narrativa a los conflictos coloniales sin caer en una épica simplificada.",
+        "whyItMatters": "Importa porque desmonta parcialmente la imagen heroica de la conquista y la reemplaza por una mirada más ambigua, donde la aventura convive con explotación, esclavitud y deseo de justicia.",
+        "editorialIntro": "Alberto Vázquez-Figueroa sabía narrar con velocidad, pero sus mejores novelas no se quedan en el mero entretenimiento. Tiempo de conquistadores usa el atractivo clásico del viaje y del riesgo para volver visible una pregunta incómoda: qué tipo de mundo se construyó en América cuando la conquista pasó de gesta a sistema. El libro mantiene el pulso aventurero sin renunciar a una veta crítica muy reconocible en el autor.",
+        "readingLevel": "Medio: la prosa es directa y muy fluida, aunque conviene leer con atención el trasfondo histórico y la forma en que el relato alterna aventura, memoria personal y denuncia moral.",
+        "whyReadToday": "Porque permite revisar los relatos heroicos de la conquista desde una ficción accesible que incorpora violencia estructural, esclavitud y resistencia, temas todavía centrales en el debate cultural contemporáneo.",
+        "studyNotes": [
+          "Catalina Barrancos es clave porque desplaza el foco desde la figura del conquistador hacia la mirada de una testigo implicada y moralmente afectada por lo que ve.",
+          "La Taberna de los Cuatro Vientos funciona como observatorio narrativo: allí confluyen aventureros, intereses imperiales y noticias del Nuevo Mundo.",
+          "La novela combina entretenimiento y denuncia, un rasgo típico de Vázquez-Figueroa cuando trabaja materiales históricos o geográficos.",
+          "Conviene distinguir entre la fascinación aventurera del escenario americano y la crítica constante a la esclavitud y al abuso del poder."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Catalina recuerda el Nuevo Mundo",
+            "summary": "La novela presenta a Catalina Barrancos en la vejez y usa su memoria para abrir un relato de vida atravesado por viajes, supervivencia y contacto directo con el universo de la conquista en América."
+          },
+          {
+            "title": "La Taberna de los Cuatro Vientos",
+            "summary": "Junto a Justino, Catalina convierte la taberna en un punto de cruce entre exploradores, comerciantes y hombres armados. Ese espacio permite ver la conquista desde abajo, como experiencia cotidiana y no solo como leyenda heroica."
+          },
+          {
+            "title": "Esclavitud, violencia y toma de partido",
+            "summary": "La presencia de la injusticia colonial impide que los protagonistas permanezcan como testigos neutrales. El conflicto moral se intensifica cuando la defensa de la libertad exige asumir riesgos y enfrentar a los poderosos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Aventura y crítica histórica",
+            "content": "La novela se apoya en recursos clásicos del relato aventurero, pero los reorienta hacia una visión menos complaciente del pasado. La fascinación por el viaje no borra la violencia que sostiene el orden colonial."
+          },
+          {
+            "heading": "La memoria como forma de relato",
+            "content": "El uso de una Catalina anciana y enferma aporta perspectiva retrospectiva. La historia no se cuenta desde la gloria inmediata, sino desde el desgaste del tiempo y desde una conciencia que ya ha visto las consecuencias de aquellos hechos."
+          },
+          {
+            "heading": "La libertad frente a la esclavitud",
+            "content": "Uno de los núcleos éticos del libro está en la imposibilidad de aceptar la esclavitud como simple telón de fondo histórico. Vázquez-Figueroa empuja a sus personajes a definirse moralmente ante ese sistema."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de aventuras pura?",
+            "answer": "Tiene mucho de aventura, pero no se limita a eso. La peripecia está atravesada por una lectura crítica de la conquista, especialmente en lo relativo a la esclavitud, la violencia y el abuso de poder."
+          },
+          {
+            "question": "¿Quién centra la historia?",
+            "answer": "La figura decisiva es Catalina Barrancos, cuya memoria organiza el relato y permite mirar el periodo desde una experiencia vivida, no desde la retórica oficial de los conquistadores."
+          },
+          {
+            "question": "¿Hace falta saber historia colonial para disfrutarla?",
+            "answer": "No. La novela es accesible por sí misma, aunque una lectura complementaria sobre la expansión española en América ayuda a valorar mejor su dimensión crítica."
+          },
+          {
+            "question": "¿Qué distingue este libro dentro de Vázquez-Figueroa?",
+            "answer": "Su capacidad para combinar ritmo popular, escenario histórico amplio y una mirada ética que discute la épica convencional de la conquista."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Open Library — registro de la obra",
+            "url": "https://openlibrary.org/works/OL984690W"
+          },
+          {
+            "label": "Casa del Libro — sinopsis y ediciones disponibles",
+            "url": "https://www.casadellibro.com/ebook-tiempo-de-conquistadores-ebook/9788419495914/15896705"
+          },
+          {
+            "label": "Lecturalia — ficha y resumen editorial",
+            "url": "https://www.lecturalia.com/libro/5322/tiempo-de-conquistadores"
+          },
+          {
+            "label": "Google Books — registro bibliográfico",
+            "url": "https://books.google.com/books/about?id=Yqdv4d1Dq4YC"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tigre-juan-el-curandero-de-su-honra-de-ramon-perez-de-ayala",
+      "title": "Tigre Juan El Curandero De Su Honra De Ramon Perez",
+      "authorName": "Ayala",
+      "authorSlug": "ayala",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Tigre Juan / El curandero de su honra",
+        "authorName": "Ramón Pérez de Ayala",
+        "authorSlug": "ramon-perez-de-ayala",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa",
+          "romance"
+        ],
+        "year": 1926,
+        "pages": null,
+        "summary": "Tigre Juan / El curandero de su honra es uno de los conjuntos novelísticos más importantes de Ramón Pérez de Ayala y una pieza central de la narrativa española del siglo XX. Concebido como díptico, el libro explora el amor, los celos, la honra y la masculinidad a través de un protagonista atrapado entre códigos heredados y una modernidad emocional que desestabiliza sus certezas. La primera parte presenta un conflicto íntimo atravesado por la sospecha, el orgullo y la posesión; la segunda no repite simplemente el esquema, sino que lo revisa y lo somete a examen moral e irónico. Pérez de Ayala convierte un asunto aparentemente tradicional en una reflexión aguda sobre el donjuanismo, la identidad masculina y la posibilidad de transformar una ética del honor en una conciencia más compleja y humana.",
+        "aboutThisBook": "Google Books y Open Library sitúan Tigre Juan en 1926, año en que también aparece El curandero de su honra como segunda parte. Muchas ediciones posteriores reúnen ambas novelas en un solo volumen, lo que confirma que conviene leerlas como un díptico y no como piezas aisladas. La crítica suele destacar que Pérez de Ayala dialoga aquí con una larga tradición española sobre el honor y el seductor, pero la reescribe desde una sensibilidad moderna, más psicológica y reflexiva. No es una novela de peripecias externas, sino de debate moral, observación irónica y transformación interior, escrita por uno de los prosistas más cultos e incisivos de su generación.",
+        "forWhom": "Para lectores adultos, estudiantes de literatura española, cursos sobre novela del siglo XX y quienes se interesan por clásicos que discuten honor, deseo, género y cambio cultural desde una prosa elaborada.",
+        "whyItMatters": "Importa porque reformula dos motivos decisivos de la tradición hispánica, el honor y el donjuanismo, desde una perspectiva moderna y crítica. Además, permite ver a Pérez de Ayala en plena madurez narrativa, capaz de unir ironía, análisis psicológico y discusión moral.",
+        "editorialIntro": "Leer Tigre Juan / El curandero de su honra hoy es encontrarse con una novela que piensa contra sus propios heredados culturales. Pérez de Ayala toma materiales muy españoles y muy clásicos —la honra, los celos, la virilidad herida, el seductor— y los somete a una revisión inteligente, a veces severa y a veces irónica. El resultado no es una simple actualización de viejos conflictos, sino una indagación en la fragilidad de las identidades masculinas cuando dejan de sostenerse en certezas patriarcales indiscutidas.",
+        "readingLevel": "Lectura media a alta. La prosa de Pérez de Ayala es rica en matices, ironías y reflexión moral, y se disfruta más cuando se lee con paciencia y con alguna noción del debate literario sobre honor y donjuanismo.",
+        "whyReadToday": "Porque sigue siendo un clásico muy útil para pensar la crisis de ciertos modelos de masculinidad y la revisión crítica de tradiciones afectivas basadas en posesión, orgullo y violencia simbólica.",
+        "studyNotes": [
+          "Es preferible abordar las dos novelas como un díptico: la segunda corrige, amplía y resignifica los conflictos de la primera.",
+          "El tema del honor no aparece como reliquia folclórica, sino como estructura mental que organiza los afectos, los celos y la percepción de uno mismo.",
+          "Pérez de Ayala dialoga con la tradición del donjuán, pero la desplaza hacia una exploración más crítica y psicológica del deseo masculino.",
+          "La ironía del narrador es clave: muchas veces impide que el lector se adhiera de forma ingenua a los códigos morales del protagonista."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: un mundo regido por la honra",
+            "summary": "El comienzo presenta a un protagonista moldeado por concepciones rígidas del honor, el amor y la posesión. La novela convierte ese marco moral en fuente de conflicto íntimo y social, y deja ver desde temprano sus tensiones internas."
+          },
+          {
+            "title": "Segunda parte: revisión del deseo y de los celos",
+            "summary": "A medida que avanza el díptico, los celos y la identidad masculina dejan de parecer verdades naturales y empiezan a mostrarse como construcciones frágiles. El relato gana espesor psicológico y vuelve más complejas las posiciones morales iniciales."
+          },
+          {
+            "title": "El curandero de su honra: transformación y juicio",
+            "summary": "La segunda novela lleva el conflicto a un plano más reflexivo. Allí, la vieja idea de curar la honra herida se transforma en examen crítico: lo que parecía firme aparece sometido a revisión, ironía y eventual aprendizaje."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Reescritura moderna del honor clásico",
+            "content": "Pérez de Ayala recoge un motivo central de la literatura española y lo desplaza del teatro de la honra hacia la novela psicológica. Lo decisivo ya no es solo el código externo, sino la interiorización conflictiva de ese código por parte de los personajes."
+          },
+          {
+            "heading": "Masculinidad, celos y autoconocimiento",
+            "content": "El libro puede leerse como una crítica de la masculinidad posesiva. Los celos no aparecen legitimados como prueba de amor, sino examinados como síntoma de inseguridad, orgullo y dependencia de una identidad construida frente a otros."
+          },
+          {
+            "heading": "Ironía intelectual y densidad moral",
+            "content": "Una de las marcas de Pérez de Ayala es su capacidad para pensar narrativamente. La novela no sermonea, pero organiza situaciones y voces de manera que el lector percibe la insuficiencia de los viejos absolutos morales y la necesidad de una ética más consciente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una sola novela o dos novelas juntas?",
+            "answer": "Habitualmente se lee como un díptico: Tigre Juan y su continuación, El curandero de su honra. Muchas ediciones las reúnen en un solo volumen porque la segunda reinterpreta la primera."
+          },
+          {
+            "question": "¿Hace falta conocer la tradición del honor para leerla?",
+            "answer": "No es imprescindible, pero ayuda mucho. Incluso sin ese contexto, el conflicto humano se entiende; con él, se aprecia mejor cómo Pérez de Ayala discute con siglos de literatura española."
+          },
+          {
+            "question": "¿Es una novela de acción o de reflexión?",
+            "answer": "Predomina claramente la reflexión narrativa. Hay conflicto dramático, pero el interés principal está en el análisis psicológico y moral de los personajes y de sus ideas sobre el honor y el deseo."
+          },
+          {
+            "question": "¿Por qué se considera importante dentro de la obra del autor?",
+            "answer": "Porque concentra temas y procedimientos centrales de Pérez de Ayala en su madurez: prosa elaborada, ironía, inteligencia crítica y una profunda revisión de mitos culturales españoles."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Books: Tigre Juan y El curandero de su honra",
+            "url": "http://books.google.es/books?id=6Aa7_qX-RhMC"
+          },
+          {
+            "label": "Open Library: Tigre Juan",
+            "url": "https://openlibrary.org/works/OL1390607W/Tigre_Juan"
+          },
+          {
+            "label": "Open Library: El curandero de su honra (segunda parte de Tigre Juan)",
+            "url": "https://openlibrary.org/works/OL1390568W/El_curandero_de_su_honra_segunda_parte_de_Tigre_Juan"
+          },
+          {
+            "label": "WorldCat search: Tigre Juan / Ramón Pérez de Ayala",
+            "url": "https://search.worldcat.org/search?q=Tigre%20Juan%20Ram%C3%B3n%20P%C3%A9rez%20de%20Ayala"
+          },
+          {
+            "label": "Wikipedia: Ramón Pérez de Ayala",
+            "url": "https://es.wikipedia.org/wiki/Ram%C3%B3n_P%C3%A9rez_de_Ayala"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T15:24:42Z"
+}

@@ -1,0 +1,1553 @@
+{
+  "batchName": "replenish-20260420T1321Z-next15",
+  "createdAt": "2026-04-20T13:42:07Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "amor-contra-roma-de-victor-amela",
+      "title": "Amor Contra Roma",
+      "authorName": "Victor Amela",
+      "authorSlug": "victor-amela",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Amor contra Roma",
+        "authorName": "Víctor Amela",
+        "authorSlug": "victor-amela",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "romance",
+          "narrativa"
+        ],
+        "year": 2014,
+        "pages": 320,
+        "summary": "Amor contra Roma es una novela histórica ambientada en la Roma de Augusto, en el tramo final del siglo I a. C., cuando la política imperial, la moral pública y la vida privada chocan de manera constante. Su protagonista, Urgídar, un joven ibero procedente de Lesera, llega a la capital del mundo para formarse como orador y poeta y termina orbitando alrededor de Ovidio en el momento en que nace el Ars amatoria. Desde ahí, Víctor Amela convierte el aprendizaje sentimental del muchacho en una inmersión en una ciudad hecha de intrigas palaciegas, ambiciones imperiales, venenos, fiestas, leyes morales y experimentos amorosos. La novela contrapone el ideal del orden augusteo con una sociedad atravesada por el deseo, la manipulación y la invención de nuevas formas de entender la pareja. Más que una simple recreación de época, propone un relato de iniciación, eros y poder.",
+        "aboutThisBook": "Publicada en 2014, Amor contra Roma fue la primera gran incursión novelística de Víctor Amela en la ficción histórica de gran aliento. Las referencias bibliográficas de Open Library sitúan la edición en Ediciones B y Goodreads resume su núcleo dramático a partir de Urgídar, Ovidio y el impacto del Ars amatoria en la Roma de Augusto. El libro interesa porque no usa la Antigüedad solo como decorado monumental: la convierte en laboratorio de costumbres, propaganda y deseo. El foco en la moral sexual, las alianzas de palacio y el nacimiento de una sensibilidad amorosa más compleja le da una identidad bastante singular dentro de la novela histórica española reciente.",
+        "forWhom": "Para lectores adultos que disfruten la novela histórica con base cultural sólida, tramas cortesanas, sensualidad, ecos clásicos y una mirada viva sobre Roma.",
+        "whyItMatters": "Importa porque toma una figura muy conocida, Ovidio, y la sitúa dentro de una narración accesible sobre el choque entre control político y libertad íntima. Además, explora cómo el amor de pareja, entendido como vínculo recíproco y no solo como dominio o conveniencia, también tiene una historia cultural.",
+        "editorialIntro": "Hay novelas históricas que se contentan con vestir a sus personajes con túnicas y hacerlos pasear por escenarios célebres. Amor contra Roma aspira a algo más concreto y más provocador: entrar en la Roma de Augusto cuando la legislación moral pretendía disciplinar el deseo, mientras Ovidio convertía el amor en arte, juego y desafío. El resultado es una ficción de aprendizaje, ambición y eros que lee el Imperio desde la intimidad.",
+        "readingLevel": "Lectura media para adultos: la prosa es fluida, pero abundan referencias históricas, nombres romanos y tensiones políticas que se disfrutan mejor con algo de paciencia contextual.",
+        "whyReadToday": "Porque sigue siendo sugerente leer una novela que conecta política, moral sexual y construcción de la pareja, asuntos que todavía atraviesan el debate contemporáneo.",
+        "studyNotes": [
+          "El punto de partida editorial más claro es Urgídar, joven ibero de Lesera, cuya llegada a Roma organiza la mirada del lector sobre el mundo augusteo.",
+          "La presencia de Ovidio y del Ars amatoria no es ornamental: sirve para pensar cómo el deseo puede convertirse en asunto literario, social y político al mismo tiempo.",
+          "La novela enfrenta dos fuerzas: el programa moral de Augusto y la vida real de una élite atravesada por adulterios, ambición y cálculo.",
+          "Conviene leerla también como relato de formación, porque Roma no solo educa a Urgídar en la retórica: lo forma en los riesgos del poder y del amor."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Un ibero llega al centro del mundo",
+            "summary": "Urgídar abandona Lesera y entra en una Roma deslumbrante y feroz. Su deseo de convertirse en orador y poeta abre una mirada de aprendizaje sobre la ciudad, sus jerarquías y su teatralidad pública."
+          },
+          {
+            "title": "Parte 2. Ovidio y la educación del deseo",
+            "summary": "El contacto con Ovidio acerca al protagonista a un nuevo modo de entender el amor, menos sometido a la pura conveniencia familiar y más atento al arte de seducir, hablar y leer los gestos del otro."
+          },
+          {
+            "title": "Parte 3. Palacio, leyes e intrigas",
+            "summary": "La Roma imperial revela su reverso político: Augusto intenta imponer disciplina moral mientras alrededor de la corte se multiplican alianzas, celos, excesos y maniobras de supervivencia."
+          },
+          {
+            "title": "Parte 4. Aprender Roma, perder la inocencia",
+            "summary": "En la recta final, la formación de Urgídar ya no es solo literaria. El protagonista comprende que amor, prestigio y poder rara vez caminan por separado y que toda educación sentimental tiene un costo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Roma como conflicto entre ley y deseo",
+            "content": "Uno de los ejes más fértiles de la novela está en el choque entre la voluntad reguladora de Augusto y la vitalidad contradictoria de la sociedad romana. El amor aparece como experiencia privada, pero enseguida revela su dimensión pública y política."
+          },
+          {
+            "heading": "Ovidio como detonante narrativo",
+            "content": "La figura de Ovidio permite que la novela discuta la seducción no solo como tema erótico, sino como lenguaje, performance y desafío cultural. Su Ars amatoria funciona aquí como texto capaz de incomodar al poder precisamente porque enseña a vivir de otra manera."
+          },
+          {
+            "heading": "El aprendizaje de Urgídar",
+            "content": "Urgídar organiza la experiencia del lector porque llega a Roma desde fuera. Gracias a esa posición, la novela puede combinar exposición histórica con crecimiento personal: cada descubrimiento cultural es también una pérdida de ingenuidad."
+          },
+          {
+            "heading": "Historia cultural del amor",
+            "content": "Más allá de la trama, el libro interesa por su hipótesis de fondo: la pareja occidental no surge como idea eterna, sino dentro de cambios sociales, literarios y morales. Esa intuición hace que la ficción dialogue con preguntas contemporáneas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica o un ensayo novelado?",
+            "answer": "Es una novela histórica. Aunque incorpora abundante trasfondo cultural sobre la Roma de Augusto y Ovidio, su motor principal es narrativo y sigue el aprendizaje de Urgídar dentro de una trama de poder y deseo."
+          },
+          {
+            "question": "¿Qué papel tiene Ovidio en la historia?",
+            "answer": "Tiene un papel central. La novela lo vincula con la creación del Ars amatoria y lo usa como figura clave para explorar cómo literatura, erotismo y política chocan en la Roma imperial."
+          },
+          {
+            "question": "¿Quién es Urgídar?",
+            "answer": "Es el joven ibero de Lesera que llega a Roma para formarse como orador y poeta. Su mirada sirve para recorrer la ciudad, sus élites y sus conflictos morales sin perder el tono de relato de iniciación."
+          },
+          {
+            "question": "¿Predomina más la ambientación o la intriga?",
+            "answer": "Las dos dimensiones están entrelazadas. La ambientación histórica pesa mucho, pero está al servicio de una trama sobre aprendizaje, seducción, ambición y choque entre libertad íntima y orden político."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library: obra Amor contra Roma",
+            "url": "https://openlibrary.org/works/OL24491396W"
+          },
+          {
+            "label": "Open Library: edición OL32449716M",
+            "url": "https://openlibrary.org/books/OL32449716M"
+          },
+          {
+            "label": "Google Books: Amor contra Roma (ISBN 9788466654852)",
+            "url": "https://books.google.com/books?id=U7z6oAEACAAJ"
+          },
+          {
+            "label": "Goodreads: Amor contra Roma",
+            "url": "https://www.goodreads.com/book/show/22016670-amor-contra-roma"
+          },
+          {
+            "label": "Wikipedia: Víctor Amela",
+            "url": "https://es.wikipedia.org/wiki/V%C3%ADctor_Amela"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "amores-perros-de-guillermo-arriaga",
+      "title": "Amores Perros",
+      "authorName": "Guillermo Arriaga",
+      "authorSlug": "guillermo-arriaga",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Amores perros",
+        "authorName": "Guillermo Arriaga",
+        "authorSlug": "guillermo-arriaga",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2001,
+        "pages": 132,
+        "summary": "Amores perros, en su edición como libro-guion, conserva la potencia fragmentaria y brutal de la película escrita por Guillermo Arriaga. La obra articula tres historias que no avanzan en paralelo por simple capricho formal: todas quedan unidas por un accidente automovilístico en Ciudad de México y por una misma visión del deseo como fuerza que desordena vidas enteras. En el primer bloque, Octavio se obsesiona con huir junto a Susana y entra en el circuito de peleas de perros para reunir dinero; en el segundo, la modelo Valeria ve resquebrajarse su vida después del choque; en el tercero, El Chivo encarna una deriva más sombría de violencia, culpa y supervivencia. Arriaga construye un universo de pulsiones extremas, barrios ásperos, vínculos dañados y decisiones impulsivas donde el amor casi nunca redime, pero sí revela quién es cada personaje cuando todo se rompe.",
+        "aboutThisBook": "Aunque muchos lectores llegan a Amores perros desde el cine, la publicación del guion permite apreciar de otro modo la arquitectura narrativa de Arriaga: su oído para el habla urbana, la precisión de las entradas y salidas de escena y la manera en que un accidente organiza una constelación humana entera. Open Library y Google Books registran la obra como libro ligado al film, mientras Goodreads conserva una síntesis del primer hilo narrativo que muestra el peso de Octavio y Cofi. Leerlo como texto permite ver mejor que no se trata solo de historias cruzadas, sino de un diseño dramático en el que violencia, azar y deseo producen ecos morales entre personajes que casi no llegan a conocerse.",
+        "forWhom": "Para lectores adultos interesados en narrativa urbana intensa, estructuras corales, guiones cinematográficos y ficciones donde amor, violencia y destino se cruzan sin sentimentalismo.",
+        "whyItMatters": "Importa porque fue una pieza decisiva en la consolidación internacional del cine mexicano contemporáneo y porque su escritura demostró que un relato coral podía ser feroz, popular y formalmente muy consciente. Como libro, además, deja ver el mecanismo interno de esa potencia narrativa.",
+        "editorialIntro": "Pocas obras recientes han captado tan bien el nervio de la gran ciudad herida como Amores perros. Leída en página, sin el apoyo de la imagen, la escritura de Arriaga sigue conservando velocidad, tensión y una notable intuición para enlazar destinos a través de una sola colisión. El libro interesa precisamente por eso: deja ver cómo la violencia urbana se convierte en estructura narrativa y cómo el amor, lejos de idealizar, descompone.",
+        "readingLevel": "Lectura directa en la superficie, pero emocionalmente dura. Funciona mejor para adultos por su violencia explícita, el mundo de las peleas de perros y la visión amarga de las relaciones afectivas.",
+        "whyReadToday": "Porque sigue siendo una referencia para entender la narrativa coral contemporánea y una representación poderosa de cómo el deseo y la precariedad deforman la vida urbana.",
+        "studyNotes": [
+          "Conviene leer Amores perros como guion publicado: eso cambia la expectativa y permite valorar ritmo, montaje y construcción de escenas más que desarrollo novelesco tradicional.",
+          "El accidente no es solo un truco para unir historias; funciona como centro gravitatorio que redistribuye el sentido de todo lo que ocurre antes y después.",
+          "Los perros no son un adorno simbólico: condensan lealtad, violencia, instinto de supervivencia y degradación social.",
+          "La estructura tripartita obliga a comparar variaciones del amor: posesivo, narcisista, perdido, culposo o casi imposible."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Historia 1. Octavio, Susana y Cofi",
+            "summary": "Octavio cree que el dinero de las peleas de perros le permitirá huir con Susana. Ese deseo, más impulsivo que reflexivo, precipita una espiral de violencia donde el amor se confunde con posesión, urgencia y fuga."
+          },
+          {
+            "title": "Historia 2. Valeria y la caída de una vida perfecta",
+            "summary": "Después del accidente, la existencia glamorosa de Valeria se convierte en encierro, deterioro corporal y tensión afectiva. La historia desplaza la mirada hacia la fragilidad de una identidad sostenida por la imagen."
+          },
+          {
+            "title": "Historia 3. El Chivo y las ruinas morales",
+            "summary": "El último bloque introduce a un personaje marcado por la violencia política y la marginalidad. Su recorrido añade una dimensión de culpa, memoria y posible reparación en un mundo donde casi todo parece llegar tarde."
+          },
+          {
+            "title": "Cierre. La colisión como forma de destino",
+            "summary": "Al completarse las tres líneas, la obra muestra que el accidente no une solo tramas: une distintas versiones del fracaso amoroso y de la supervivencia en una ciudad rota."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La estructura coral como herida urbana",
+            "content": "Arriaga no usa varias historias para exhibir ingenio formal, sino para mostrar una ciudad donde las vidas se rozan violentamente sin llegar a integrarse. La coralidad expresa fragmentación social, azar y simultaneidad del dolor."
+          },
+          {
+            "heading": "Perros, instinto y degradación",
+            "content": "Los perros condensan el tono entero de la obra. Son compañía, mercancía, arma, espejo moral y víctima. A través de ellos, Amores perros vuelve visible una sociedad donde la lealtad y la ferocidad conviven sin descanso."
+          },
+          {
+            "heading": "Amor sin idealización",
+            "content": "El título promete una historia sentimental, pero el libro desmonta esa expectativa. Aquí el amor rara vez salva: obsesiona, hiere, ata o llega cuando ya es demasiado tarde. Esa tensión entre deseo y destrucción es una de sus claves duraderas."
+          },
+          {
+            "heading": "Del cine a la lectura",
+            "content": "La edición del guion permite percibir con nitidez la precisión mecánica de la obra. Los cortes, silencios, entradas de personajes y simetrías entre historias muestran que la intensidad del film nace de una escritura muy calculada."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El libro es una novela o el guion de la película?",
+            "answer": "Se conoce sobre todo como la publicación del guion escrito por Guillermo Arriaga. Eso explica su concentración escénica, su ritmo y su estructura fragmentaria."
+          },
+          {
+            "question": "¿Hace falta haber visto la película para leerlo?",
+            "answer": "No es imprescindible. Haber visto la película enriquece la comparación, pero el texto permite seguir la construcción de las tres historias y valorar por sí mismo su arquitectura dramática."
+          },
+          {
+            "question": "¿Por qué es una obra para adultos?",
+            "answer": "Porque incluye violencia intensa, peleas de perros, lenguaje áspero y una representación muy dura de las relaciones afectivas y de la vida urbana."
+          },
+          {
+            "question": "¿Qué une realmente las tres historias?",
+            "answer": "Las une el accidente automovilístico, pero también una misma lógica emocional: personajes llevados al límite por deseo, miedo, precariedad y necesidad de aferrarse a alguien o a algo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library: obra Amores perros",
+            "url": "https://openlibrary.org/works/OL8387092W"
+          },
+          {
+            "label": "Open Library: edición OL3747058M",
+            "url": "https://openlibrary.org/books/OL3747058M"
+          },
+          {
+            "label": "Google Books: Amores perros",
+            "url": "https://books.google.com/books?id=wWU9NAAACAAJ"
+          },
+          {
+            "label": "Goodreads: Amores perros",
+            "url": "https://www.goodreads.com/book/show/753295.Amores_perros"
+          },
+          {
+            "label": "Wikipedia: Amores perros",
+            "url": "https://es.wikipedia.org/wiki/Amores_perros"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "austerlitz-de-w-g-sebald",
+      "title": "Austerlitz",
+      "authorName": "W G Sebald",
+      "authorSlug": "w-g-sebald",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Austerlitz",
+        "authorName": "W. G. Sebald",
+        "authorSlug": "w-g-sebald",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 2001,
+        "pages": 298,
+        "summary": "Austerlitz es una de las novelas más intensas sobre memoria, identidad y trauma histórico escritas en las últimas décadas. Un narrador sin nombre se cruza, a lo largo de varios años y ciudades europeas, con Jacques Austerlitz, historiador de la arquitectura y hombre atravesado por una extraña sensación de desarraigo. Poco a poco emerge la verdad: siendo niño fue enviado a Inglaterra en un Kindertransport y creció sin acceso real a su origen, a su lengua y a la historia de sus padres. Lo que sigue no es una investigación convencional, sino una lenta reconstrucción de una vida borrada por la violencia del siglo XX. Sebald mezcla conversación, ensayo, fotografía, viaje, meditación sobre edificios y exploración íntima del duelo para mostrar que la memoria no reaparece como una revelación limpia, sino como un trabajo doloroso de aproximación a lo perdido.",
+        "aboutThisBook": "Publicada en 2001, Austerlitz fue la última novela de W. G. Sebald y rápidamente quedó instalada como una obra central de su proyecto literario. Open Library y la edición de Random House registran su primera aparición ese mismo año; Wikipedia recuerda además su reconocimiento crítico. Más allá de los premios, el libro sobresale por el modo en que reúne ficción, archivo, autobiografía desplazada, reflexión histórica e imágenes insertas sin parecer nunca un experimento frío. Sebald convierte estaciones, fortalezas, bibliotecas y fotografías en depósitos de memoria, y hace de la búsqueda de Jacques Austerlitz una experiencia que habla tanto del Holocausto y del exilio como de la dificultad universal para habitar la propia biografía.",
+        "forWhom": "Para lectores adultos que busquen literatura exigente, meditativa y emocionalmente profunda, interesada en la memoria europea, el trauma histórico y las formas híbridas de la narración.",
+        "whyItMatters": "Importa porque logró dar forma literaria a una experiencia especialmente difícil de narrar: la identidad quebrada por el exilio infantil, la represión del trauma y la persistencia de la historia en los espacios materiales. Su influencia sigue siendo visible en mucha narrativa contemporánea sobre archivo y memoria.",
+        "editorialIntro": "Entrar en Austerlitz exige aceptar otro tempo narrativo. Sebald no ofrece capítulos de avance rápido ni revelaciones dramáticas colocadas en serie: construye una voz hipnótica, llena de desvíos, imágenes y retornos, para acercarse a una pregunta devastadora: qué queda de una vida cuando la infancia, el nombre y la familia han sido arrancados por la historia. Esa apuesta formal es precisamente su grandeza.",
+        "readingLevel": "Lectura exigente para adultos: frases largas, pocos descansos visuales, densidad reflexiva y una narración que mezcla memoria, historia, arquitectura y duelo sin seguir convenciones comerciales.",
+        "whyReadToday": "Porque sigue siendo una obra imprescindible para pensar cómo se heredan el trauma, el exilio y la destrucción histórica, y cómo los lugares conservan huellas que la conciencia tarda décadas en leer.",
+        "studyNotes": [
+          "Jacques Austerlitz no busca solo datos sobre su pasado: intenta reconstruir una continuidad interior rota desde la infancia.",
+          "La arquitectura cumple una función simbólica y narrativa central; estaciones, fortalezas y bibliotecas son depósitos materiales de la memoria europea.",
+          "Las fotografías insertas no ilustran de forma inocente: intensifican la ambigüedad entre documento, recuerdo y ficción.",
+          "El libro gana mucho si se lee como cruce de novela, ensayo, testimonio indirecto y meditación sobre el tiempo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte. Encuentros y extrañeza",
+            "summary": "El narrador conoce a Jacques Austerlitz en distintos espacios europeos. Desde el inicio se percibe en él una inteligencia minuciosa y, al mismo tiempo, una desorientación íntima que todavía no encuentra nombre."
+          },
+          {
+            "title": "Segunda parte. El pasado empieza a volver",
+            "summary": "A medida que avanzan las conversaciones, emergen recuerdos parciales de la infancia y la sospecha de una historia anterior borrada. La pesquisa personal se enlaza con archivos, edificios y trayectos ferroviarios."
+          },
+          {
+            "title": "Tercera parte. Praga, nombres y pérdidas",
+            "summary": "La visita a Praga y el contacto con quienes conocieron al niño que fue Austerlitz abren el núcleo emocional de la novela. La identidad deja de ser abstracción y se convierte en duelo concreto por padres, lengua y mundo perdidos."
+          },
+          {
+            "title": "Tramo final. Memoria, archivo y vacío",
+            "summary": "El cierre no resuelve del todo la herida, pero sí muestra la magnitud del trabajo de memoria. Sebald insiste en que conocer el pasado no equivale a repararlo, aunque sí permite habitarlo de otro modo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La memoria como búsqueda indirecta",
+            "content": "Austerlitz evita la lógica de la confesión lineal. El pasado aparece por rodeos, conversaciones aplazadas, documentos incompletos y asociaciones inesperadas. Esa forma expresa mejor que cualquier tesis el funcionamiento real del trauma."
+          },
+          {
+            "heading": "Arquitectura y ruina moral de Europa",
+            "content": "Los edificios en Sebald nunca son simple decorado. Estaciones, bibliotecas, fortalezas y salas de espera encarnan la historia del continente, sus proyectos de orden y sus zonas de ocultamiento. Mirar arquitectura es, aquí, leer capas de violencia y de memoria."
+          },
+          {
+            "heading": "La forma sebaldiana",
+            "content": "Las frases largas, la inserción de fotografías y la disolución de fronteras entre géneros producen un efecto hipnótico muy particular. Esa forma no embellece el dolor: busca una cadencia apta para narrar lo casi irrepresentable."
+          },
+          {
+            "heading": "Identidad, exilio y nombre propio",
+            "content": "La novela muestra que perder la infancia también puede significar perder el acceso natural al propio nombre, a la lengua y a la continuidad biográfica. Por eso la búsqueda de Austerlitz es existencial antes que detectivesca."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Austerlitz cuenta una historia del Holocausto de forma directa?",
+            "answer": "No de manera testimonial directa. La novela aborda sus consecuencias a través de la memoria tardía de un niño evacuado y de los rastros que la catástrofe dejó en su identidad adulta."
+          },
+          {
+            "question": "¿Es una lectura difícil?",
+            "answer": "Sí, en el mejor sentido. No por oscuridad gratuita, sino por su ritmo lento, sus frases extensas y su mezcla de ensayo, narración, imagen y reflexión histórica."
+          },
+          {
+            "question": "¿Por qué aparece tanta arquitectura en la novela?",
+            "answer": "Porque Austerlitz es historiador de la arquitectura y porque Sebald usa los edificios como archivos físicos del tiempo, lugares donde la historia permanece inscrita incluso cuando los sujetos callan o no recuerdan."
+          },
+          {
+            "question": "¿Tiene capítulos tradicionales?",
+            "answer": "No en un sentido convencional. La experiencia de lectura es continua y envolvente, con muy pocos cortes visibles, algo que refuerza la sensación de memoria que avanza por oleadas y asociaciones."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library: obra Austerlitz",
+            "url": "https://openlibrary.org/works/OL46615W"
+          },
+          {
+            "label": "Open Library: edición OL3941769M",
+            "url": "https://openlibrary.org/books/OL3941769M"
+          },
+          {
+            "label": "Google Books: Austerlitz",
+            "url": "https://books.google.com/books?id=jd-z-NIK-PIC"
+          },
+          {
+            "label": "Goodreads: Austerlitz",
+            "url": "https://www.goodreads.com/book/show/88442.Austerlitz"
+          },
+          {
+            "label": "Wikipedia: Austerlitz (novel)",
+            "url": "https://en.wikipedia.org/wiki/Austerlitz_(novel)"
+          },
+          {
+            "label": "Wikipedia: W. G. Sebald",
+            "url": "https://es.wikipedia.org/wiki/W._G._Sebald"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "badash-1-saltan-chispas-de-alina-not",
+      "title": "Badash 1 Saltan Chispas",
+      "authorName": "Alina Not",
+      "authorSlug": "alina-not",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Bad Ash 1. Saltan chispas",
+        "authorName": "Alina Not",
+        "authorSlug": "alina-not",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "romance",
+          "narrativa"
+        ],
+        "year": 2021,
+        "pages": 400,
+        "summary": "Bad Ash 1. Saltan chispas arranca como una historia de instituto atravesada por el deseo, la inseguridad y el juego de las apariencias. Ashley Bennet vive obsesionada con Tyler Sparks, el quarterback que parece concentrar todo lo que ella cree querer. El problema es que esa fantasía la mantiene atada a una versión de sí misma que depende demasiado de ser mirada. Cuando Cameron Parker, amigo de Tyler, le ofrece ayudarla a llamar la atención del chico perfecto, el libro entra en el territorio clásico del romance juvenil: planes sentimentales, malentendidos, tensión creciente y una cercanía inesperada entre quienes no parecían destinados a entenderse. A partir de ahí, la novela explora el magnetismo entre Ashley y Cameron, las máscaras sociales del instituto y el momento en que enamorarse obliga a revisar lo que uno cree desear y lo que realmente necesita.",
+        "aboutThisBook": "Publicado por Crossbooks, Bad Ash 1. Saltan chispas es el inicio de una serie juvenil romántica de Alina Not que circuló con fuerza entre lectoras de romance adolescente en español. La novela combina ambiente escolar, química entre opuestos, humor verbal, atracción contenida y una estructura muy reconocible para quienes disfrutan de las historias de slow burn. Su punto de entrada comercial es claro, pero funciona porque sabe mover con ritmo las emociones del primer amor, la rivalidad afectiva y la inseguridad propia de la adolescencia.",
+        "forWhom": "Para lectores juveniles y jóvenes adultos que disfrutan romances de instituto, tensión entre personajes, amistades que se complican y novelas sentimentales de lectura ágil.",
+        "whyItMatters": "Importa dentro del romance juvenil reciente en español porque demuestra cómo una trama aparentemente ligera puede conectar con preguntas reales sobre autoestima, popularidad, deseo y elección afectiva. También consolidó a Alina Not como una autora leída dentro del circuito juvenil comercial.",
+        "editorialIntro": "Hay novelas juveniles que se leen por la intriga del “con quién se queda” y otras que además captan muy bien el vértigo de sentirse observado, comparado y puesto a prueba a cada instante. Bad Ash 1. Saltan chispas pertenece a ese segundo grupo cuando encuentra su mejor tono: el de una historia sentimental rápida, chispeante y reconocible, donde el instituto es un escenario emocional completo y no solo un decorado para el romance.",
+        "readingLevel": "Lectura accesible desde adolescencia media. El lenguaje es directo, contemporáneo y muy fluido; el principal reto no está en la dificultad verbal, sino en seguir la dinámica emocional y los cambios de lealtad entre personajes.",
+        "whyReadToday": "Sigue siendo una lectura vigente para quienes buscan romance juvenil en español con códigos actuales, personajes emocionalmente impulsivos y una mezcla eficaz de idealización amorosa y aprendizaje afectivo.",
+        "studyNotes": [
+          "La novela trabaja un motivo clásico del romance juvenil: perseguir a una persona idealizada hasta descubrir que el verdadero conflicto está en la propia mirada amorosa.",
+          "Ashley, Tyler y Cameron forman un triángulo afectivo útil para analizar popularidad, deseo proyectado y autenticidad en la adolescencia.",
+          "El entorno del instituto no es solo un fondo: organiza jerarquías, rumores, expectativas y modos de actuar frente al grupo.",
+          "Conviene observar cómo el libro usa el humor y la fricción verbal para construir química romántica sin abandonar la lógica comercial del género."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La obsesión por Tyler",
+            "summary": "En el comienzo, Ashley aparece emocionalmente fijada en Tyler Sparks, figura de prestigio escolar y deseo idealizado. Esa fascinación marca sus decisiones y revela una autoestima todavía muy dependiente de ser elegida por el chico correcto."
+          },
+          {
+            "title": "El trato con Cameron",
+            "summary": "La propuesta de Cameron Parker cambia el rumbo de la historia: ayudar a Ashley a conquistar a Tyler. Lo que parece una estrategia práctica abre una convivencia más intensa entre ambos y desplaza el centro afectivo del relato."
+          },
+          {
+            "title": "Chispas reales y máscaras sociales",
+            "summary": "A medida que Ashley y Cameron se conocen mejor, la novela despliega su tensión principal: la distancia entre lo que se aparenta en el instituto y lo que cada personaje siente de verdad. El romance crece precisamente en esa grieta."
+          },
+          {
+            "title": "Elegir entre fantasía y verdad emocional",
+            "summary": "Hacia la parte final, Ashley debe revisar su ideal romántico y reconocer que desear a alguien no es lo mismo que ser comprendida por él. La historia convierte ese aprendizaje en su verdadero arco sentimental."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Del crush idealizado al vínculo construido",
+            "content": "Uno de los mecanismos más claros del libro consiste en oponer el enamoramiento imaginado con el vínculo que se forma en la experiencia concreta. Tyler representa la fantasía visible; Cameron, la relación que se vuelve compleja al ser vivida. Esa diferencia sostiene la tensión romántica y da forma al crecimiento de Ashley."
+          },
+          {
+            "heading": "Instituto, popularidad y mirada ajena",
+            "content": "La novela entiende bien que en la adolescencia el amor rara vez se vive en privado. El instituto multiplica la presión del grupo, el valor simbólico de ciertos chicos y la necesidad de sostener una imagen. En ese sentido, el conflicto sentimental también es social."
+          },
+          {
+            "heading": "La eficacia del romance juvenil comercial",
+            "content": "Alina Not trabaja con herramientas reconocibles del género —tensión gradual, triángulo afectivo, diálogos con fricción, atracción entre opuestos— y las ordena con ritmo suficiente para mantener el interés. Su fuerza no está en reinventar la fórmula, sino en ejecutarla con soltura."
+          },
+          {
+            "heading": "Autoestima y elección afectiva",
+            "content": "Bajo la superficie romántica, el libro sugiere que elegir bien a quién amar también implica dejar de buscar validación en lugares equivocados. Por eso la historia funciona mejor cuando se lee como aprendizaje emocional y no solo como competencia entre pretendientes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Bad Ash 1. Saltan chispas?",
+            "answer": "Trata sobre Ashley Bennet, una chica enamorada de Tyler Sparks, y sobre el giro que se produce cuando Cameron Parker decide ayudarla. Ese plan sentimental acaba desordenando por completo sus certezas amorosas."
+          },
+          {
+            "question": "¿Es una novela juvenil romántica?",
+            "answer": "Sí. Es un romance juvenil de instituto con triángulo afectivo, tensión entre personajes, amistades complejas y foco en emociones adolescentes."
+          },
+          {
+            "question": "¿Hace falta leer más libros después?",
+            "answer": "Este volumen funciona como inicio de serie. Tiene su propio arco, pero deja sembradas dinámicas y conflictos que continúan en entregas posteriores."
+          },
+          {
+            "question": "¿Qué tipo de lectura propone?",
+            "answer": "Una lectura rápida, emocional y muy apoyada en la química entre personajes, ideal para quien busca entretenimiento romántico con ambiente escolar contemporáneo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: Bad Ash 1. Saltan chispas",
+            "url": "https://www.planetadelibros.com/libro-bad-ash-1-saltan-chispas/331468"
+          },
+          {
+            "label": "Google Books: Bad Ash 1. Saltan chispas",
+            "url": "https://books.google.com/books?q=intitle:Bad+Ash+1.+Saltan+chispas+inauthor:Alina+Not"
+          },
+          {
+            "label": "Goodreads: Saltan chispas",
+            "url": "https://www.goodreads.com/book/show/58414142-saltan-chispas"
+          },
+          {
+            "label": "Open Library search: Alina Not Bad Ash",
+            "url": "https://openlibrary.org/search?q=Alina+Not+Bad+Ash+Saltan+chispas"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bernabe-bernabe-de-tomas-de-mattos",
+      "title": "Bernabe Bernabe De Tomas",
+      "authorName": "Mattos",
+      "authorSlug": "mattos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "¡Bernabé, Bernabé!",
+        "authorName": "Tomás de Mattos",
+        "authorSlug": "tomas-de-mattos",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1988,
+        "pages": 253,
+        "summary": "¡Bernabé, Bernabé! es una novela histórica uruguaya que relee uno de los episodios más violentos y problemáticos del siglo XIX rioplatense: la matanza de Salsipuedes y la persecución de los charrúas bajo el poder de Fructuoso Rivera y su entorno. Tomás de Mattos no se limita a reconstruir hechos; organiza el relato desde una voz narrativa mediada por documentos, cartas y memoria, lo que le permite mostrar cómo la historia oficial selecciona, encubre y justifica. La figura de Bernabé Rivera aparece así menos como héroe lineal que como punto de condensación de una violencia política, racial y estatal. A través de la narradora Josefina Péguy, la novela convierte la investigación del pasado en una indagación ética: quién cuenta, quién calla, qué atrocidades se naturalizan y qué país se funda sobre esas omisiones.",
+        "aboutThisBook": "Publicada por primera vez en 1988 y revisada en una versión definitiva en 2000, esta novela es uno de los títulos fundamentales de Tomás de Mattos y una obra central de la narrativa histórica uruguaya contemporánea. Su prestigio no proviene solo del tema, sino de la forma en que entrelaza archivo, ficción, reflexión moral y crítica de la memoria nacional. El libro sitúa en primer plano la violencia ejercida contra los charrúas y desmonta el tono celebratorio con que ciertos relatos patrióticos habían tratado ese pasado.",
+        "forWhom": "Para lectores adultos interesados en novela histórica latinoamericana, memoria nacional, violencia estatal, revisión crítica del pasado y ficciones que dialogan intensamente con archivos e interpretaciones históricas.",
+        "whyItMatters": "Importa porque puso en discusión pública una zona oscura de la historia uruguaya y mostró que la novela puede intervenir en los debates sobre nación, identidad y responsabilidad moral sin perder densidad literaria.",
+        "editorialIntro": "Hay novelas históricas que solo ambientan una aventura en el pasado y hay otras que vuelven incómoda la relación de un país con su propia memoria. ¡Bernabé, Bernabé! pertenece con claridad a las segundas. Tomás de Mattos no usa la historia como ornamento: la convierte en conflicto moral, en batalla de versiones y en examen de los discursos que legitimaron la violencia. Por eso sigue siendo una obra decisiva cuando se piensa la literatura rioplatense contemporánea.",
+        "readingLevel": "Lectura de complejidad media-alta. Exige atención a la estructura enmarcada, a las referencias históricas y al peso ético del discurso narrativo; resulta más provechosa para lectores con interés en novela histórica y análisis literario.",
+        "whyReadToday": "Porque sigue siendo una referencia imprescindible para pensar genocidio indígena, memoria estatal, racismo estructural y la manera en que la literatura discute las versiones cómodas del pasado nacional.",
+        "studyNotes": [
+          "La novela se apoya en una mediación documental y epistolar que problematiza la idea de verdad histórica única.",
+          "Josefina Péguy no es una simple transmisora de hechos: su voz organiza la lectura moral del pasado y condiciona el tono del relato.",
+          "El libro dialoga con la historia del exterminio charrúa, pero su alcance es más amplio: examina cómo una sociedad racionaliza la violencia contra minorías.",
+          "Conviene distinguir entre reconstrucción histórica y operación narrativa: De Mattos no solo informa, también interpreta y discute el archivo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El hallazgo de la voz narradora",
+            "summary": "La novela abre con el dispositivo de un documento hallado, recurso que instala de inmediato el problema de la mediación. Desde allí, la voz de Josefina Péguy se vuelve central para reconstruir hechos y, al mismo tiempo, para cuestionar cómo esos hechos han sido transmitidos."
+          },
+          {
+            "title": "Salsipuedes y la violencia fundacional",
+            "summary": "En el núcleo del libro aparece la matanza de Salsipuedes, episodio decisivo para comprender la violencia ejercida contra los charrúas. La narración no lo trata como un incidente aislado, sino como síntoma de una lógica estatal y social más amplia."
+          },
+          {
+            "title": "Bernabé Rivera bajo otra luz",
+            "summary": "La figura de Bernabé deja de ser un nombre cerrado por el relato patriótico y se vuelve objeto de revisión. La novela examina su papel en los hechos y la red de poder que permitió justificar acciones atroces en nombre del orden y la civilización."
+          },
+          {
+            "title": "Memoria, culpa y reinterpretación nacional",
+            "summary": "Hacia el final, el libro desplaza el foco desde los hechos históricos hacia la responsabilidad de quienes los recuerdan, los silencian o los acomodan a un relato nacional heroico. Ahí reside buena parte de su fuerza contemporánea."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela histórica como revisión crítica",
+            "content": "De Mattos usa procedimientos de la novela histórica para impugnar, no para confirmar, una memoria nacional consolidada. El pasado aparece como un campo de disputa interpretativa en el que los documentos no clausuran el sentido, sino que lo vuelven más problemático."
+          },
+          {
+            "heading": "Charrúas, nación y violencia legitimada",
+            "content": "El gran gesto político del libro es mostrar que la fundación estatal puede sostenerse sobre mecanismos de exclusión extrema y discursos civilizatorios que convierten el exterminio en necesidad histórica. Esa lectura mantiene intacta su vigencia."
+          },
+          {
+            "heading": "La función de Josefina Péguy",
+            "content": "La narradora aporta una perspectiva singular porque no habla desde la épica militar, sino desde una conciencia que investiga, observa y juzga. Gracias a ella, la novela gana espesor moral y evita la neutralidad aparente de la crónica."
+          },
+          {
+            "heading": "Un clásico incómodo de la literatura uruguaya",
+            "content": "Su condición de obra importante no nace solo del reconocimiento crítico, sino de su capacidad para seguir incomodando lecturas patrióticas simplificadoras. Es una novela que obliga a revisar las bases narrativas del nosotros nacional."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué episodio histórico aborda ¡Bernabé, Bernabé!?",
+            "answer": "Aborda principalmente la matanza de Salsipuedes y la persecución de los charrúas en el Uruguay de 1831-1832, en relación con la figura de Bernabé Rivera y el entorno político de Fructuoso Rivera."
+          },
+          {
+            "question": "¿Es una novela o un libro de historia?",
+            "answer": "Es una novela histórica. Se apoya en hechos documentados y en una fuerte investigación del pasado, pero organiza ese material mediante una construcción literaria y una voz narrativa deliberada."
+          },
+          {
+            "question": "¿Por qué se considera una obra importante?",
+            "answer": "Porque revisó críticamente un momento clave de la historia uruguaya y mostró cómo la ficción puede intervenir en debates sobre memoria, nación, racismo y responsabilidad moral."
+          },
+          {
+            "question": "¿La edición definitiva es posterior a la primera publicación?",
+            "answer": "Sí. La primera edición apareció en 1988 y la versión definitiva, ampliada, se publicó en 2000, dato que suele mencionarse en las referencias bibliográficas del libro."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: ¡Bernabé, Bernabé!",
+            "url": "https://es.wikipedia.org/wiki/%C2%A1Bernab%C3%A9,_Bernab%C3%A9!"
+          },
+          {
+            "label": "Google Books: ¡Bernabé, Bernabé!",
+            "url": "https://books.google.com/books/about/%C2%A1Bernab%C3%A9_Bernab%C3%A9.html?id=WBHdzstorI0C"
+          },
+          {
+            "label": "Casa del Libro: ¡Bernabé, Bernabé! ebook",
+            "url": "https://www.casadellibro.com/ebook-bernabe-bernabe-ebook/9789974955165/1997199"
+          },
+          {
+            "label": "Librería El Extranjero: ¡Bernabé, Bernabé!",
+            "url": "https://libreriaelextranjero.com/bernabe-bernabe-de-tomas-de-mattos/"
+          },
+          {
+            "label": "Open Library search: Tomás de Mattos Bernabé",
+            "url": "https://openlibrary.org/search?q=Tom%C3%A1s+de+Mattos+Bernab%C3%A9+Bernab%C3%A9"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "boulevard-libro-1-la-version-de-flor-de-flor-m-salvador",
+      "title": "Boulevard Libro 1 La Version De Flor",
+      "authorName": "Flor M Salvador",
+      "authorSlug": "flor-m-salvador",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Boulevard. Libro 1: La versión de Flor",
+        "authorName": "Flor M. Salvador",
+        "authorSlug": "flor-m-salvador",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "romance",
+          "narrativa"
+        ],
+        "year": 2022,
+        "pages": 360,
+        "summary": "Boulevard. Libro 1: La versión de Flor cuenta la relación entre Hasley Weigel y Luke Howland, dos adolescentes que encarnan energías opuestas y, justamente por eso, se atraen con intensidad. Hasley es luminosa, impulsiva y optimista; Luke carga con una oscuridad emocional que la novela presenta como herida, defensa y modo de estar en el mundo. La historia se construye sobre esa diferencia: ella intenta abrir una grieta en el aislamiento de él, mientras ambos crean un espacio íntimo que nombran como boulevard, un lugar afectivo propio frente al ruido exterior. El libro combina idealización amorosa, dolor, dependencia, promesa de salvación mutua y una sensibilidad muy cercana a las lecturas juveniles nacidas o amplificadas en comunidades digitales. Su fuerza no reside en el realismo estricto, sino en la intensidad con que dramatiza el primer amor y sus zonas de riesgo.",
+        "aboutThisBook": "Boulevard fue uno de los fenómenos juveniles de mayor circulación entre lectores hispanohablantes surgidos del entorno digital y luego llevados al papel. La edición revisada por la autora, publicada por Montena, consolidó el paso de Flor M. Salvador desde la comunidad lectora en línea al circuito editorial masivo. El libro se mueve dentro del romance dramático juvenil y ganó lectores gracias a una fórmula emocional muy eficaz: personajes intensos, lenguaje accesible, frases memorables y una historia concebida para ser vivida con entrega afectiva total.",
+        "forWhom": "Para lectores juveniles, especialmente desde la adolescencia media, que buscan romances intensos, dramáticos y sentimentales, con fuerte carga emocional y personajes construidos desde el contraste.",
+        "whyItMatters": "Importa porque es una obra emblemática del cruce entre Wattpad y la edición comercial en español. También permite pensar cómo cambiaron los modos de consagración de la literatura juvenil en la era de las comunidades lectoras digitales.",
+        "editorialIntro": "Pocas novelas juveniles recientes en español condensan tan bien la sensibilidad de una generación de lectoras formada entre plataformas digitales, fan communities y edición masiva como Boulevard. Su éxito no se explica solo por la trama amorosa, sino por la forma en que convierte el sufrimiento sentimental en experiencia compartida, estética y emocional. Leída hoy, es tanto una historia de amor dramático como un síntoma muy claro de una época de lectura.",
+        "readingLevel": "Lectura muy accesible para público juvenil. La prosa es directa, emocional y rápida, con fuerte orientación al vínculo entre personajes; más que dificultad verbal, exige tolerancia al melodrama y a una intensidad sentimental sostenida.",
+        "whyReadToday": "Vale la pena leerlo hoy para entender un fenómeno decisivo de la literatura juvenil en español y para discutir críticamente la romantización del dolor, la dependencia afectiva y las promesas de salvación amorosa.",
+        "studyNotes": [
+          "El libro puede leerse como ejemplo claro del paso de una obra nacida en el ecosistema digital a la edición comercial de gran alcance.",
+          "Luke y Hasley están construidos como polos simbólicos: oscuridad y luz, herida y esperanza, encierro y apertura.",
+          "Conviene analizar el boulevard no solo como título, sino como imagen de un espacio emocional compartido que intenta proteger a la pareja del mundo exterior.",
+          "Su recepción juvenil también invita a discutir qué modelos de amor intenso resultan atractivos y cuáles pueden leerse hoy con mayor cautela crítica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El encuentro entre dos opuestos",
+            "summary": "La primera parte presenta a Hasley y Luke como figuras emocionalmente contrastadas. La atracción surge precisamente de esa diferencia y de la promesa implícita de que uno puede cambiar el mundo interior del otro."
+          },
+          {
+            "title": "Construir el boulevard",
+            "summary": "A medida que la relación avanza, ambos nombran un espacio simbólico propio: el boulevard. Ese gesto condensa la idea central del libro, según la cual el amor puede convertirse en refugio, lenguaje y territorio exclusivo."
+          },
+          {
+            "title": "Intimidad, heridas y dependencia",
+            "summary": "La zona media intensifica el drama emocional. Los problemas de Luke y la entrega afectiva de Hasley vuelven la relación cada vez más absorbente, y la novela muestra tanto su belleza idealizada como su fragilidad."
+          },
+          {
+            "title": "El costo del amor absoluto",
+            "summary": "En su tramo final, la historia subraya que amar intensamente no siempre basta para reparar el dolor profundo. El libro deja al lector frente a la mezcla de belleza, pérdida y aprendizaje que define su tono."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Fenómeno digital y validación editorial",
+            "content": "Boulevard es un caso paradigmático de cómo la literatura juvenil contemporánea puede construirse primero en comunidad y luego consolidarse en el mercado editorial. Su éxito muestra que el prestigio de lectura ya no depende únicamente de mediadores tradicionales."
+          },
+          {
+            "heading": "La estética de la intensidad romántica",
+            "content": "La novela apuesta por un amor vivido en términos absolutos: una unión que parece capaz de nombrar el mundo, redimir heridas y fundar un lenguaje propio. Esa estética sentimental explica buena parte de su poder de identificación entre lectores jóvenes."
+          },
+          {
+            "heading": "Luz y oscuridad como diseño de personajes",
+            "content": "Hasley y Luke no están construidos solo psicológicamente, sino también simbólicamente. Ella encarna apertura, impulso vital y claridad; él, daño, repliegue y tormenta. El libro explota esa oposición con eficacia emocional y con riesgos de simplificación."
+          },
+          {
+            "heading": "Lectura crítica del romance doloroso",
+            "content": "Leída hoy, la novela permite conversar sobre la romantización del sufrimiento, la dependencia y la idea de que el amor puede salvar por sí solo a quien está quebrado. Esa discusión no anula su fuerza afectiva, pero sí la contextualiza mejor."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Boulevard. Libro 1: La versión de Flor?",
+            "answer": "Trata sobre la relación entre Hasley Weigel y Luke Howland, dos adolescentes muy distintos que construyen un vínculo amoroso intenso, idealizado y emocionalmente complejo."
+          },
+          {
+            "question": "¿Es una novela juvenil romántica o dramática?",
+            "answer": "Es ambas cosas: un romance juvenil con fuerte componente dramático, muy centrado en la intensidad sentimental, las heridas emocionales y el impacto del primer amor."
+          },
+          {
+            "question": "¿Por qué fue tan leída entre jóvenes?",
+            "answer": "Porque combinó una historia de amor muy intensa con lenguaje accesible, circulación digital previa, fuerte identificación emocional y una comunidad lectora que amplificó su recepción."
+          },
+          {
+            "question": "¿Conviene leerla hoy de forma crítica?",
+            "answer": "Sí. Puede disfrutarse como ficción romántica juvenil, pero también es útil leerla pensando en cómo representa la dependencia afectiva, el dolor y la idea de salvar al otro por amor."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin Libros Argentina: Boulevard (La versión de Flor - Libro 1)",
+            "url": "https://www.penguinlibros.com/ar/novela-romantica-juvenil/290425-libro-boulevard-la-version-de-flor-libro-1-9789874924995"
+          },
+          {
+            "label": "Casa del Libro: Boulevard Libro 1",
+            "url": "https://www.casadellibro.com/libro-boulevard-libro-1/9788419169181/12733223"
+          },
+          {
+            "label": "Panamericana: Boulevard: la versión de Flor (libro 1)",
+            "url": "https://www.panamericana.com.co/boulevard-1-la-version-de-flor-634801/p"
+          },
+          {
+            "label": "Quelibroleo: Boulevard. Libro 1: La versión de Flor",
+            "url": "https://quelibroleo.com/boulevard-libro-1-la-version-de-flor"
+          },
+          {
+            "label": "Google Books search: Boulevard Flor M. Salvador",
+            "url": "https://books.google.com/books?q=Flor+M.+Salvador+Boulevard+Libro+1"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "casada-por-los-pelos-de-jane-costello",
+      "title": "Casada Por Los Pelos",
+      "authorName": "Jane Costello",
+      "authorSlug": "jane-costello",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Casada por los pelos",
+        "authorName": "Jane Costello",
+        "authorSlug": "jane-costello",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "romance",
+          "narrativa"
+        ],
+        "year": 2011,
+        "pages": 392,
+        "summary": "Casada por los pelos arranca con un desastre sentimental tan humillante como cómico: Zoe Moore, una joven inglesa, es plantada en el altar cuando su novio sufre un ataque de pánico y huye en pleno día de la boda. Devastada y cansada de las miradas compasivas de Liverpool, Zoe decide marcharse a Boston para trabajar como niñera y empezar desde cero. Allí entra en la vida de Ryan, un padre viudo, atractivo y bastante difícil, y de sus dos hijos, que convierten su nueva rutina en una cadena de equívocos, torpezas y aprendizajes. La novela mezcla romance contemporáneo, humor británico y una protagonista que intenta recomponerse mientras descubre que escapar de una herida no basta: hay que mirarla de frente para recuperar la propia voz.",
+        "aboutThisBook": "Publicada en español por Ediciones Versátil en 2011, esta novela de Jane Costello se inscribe con claridad en la comedia romántica anglosajona de tono ligero, sentimental y muy apoyada en la ironía de su narradora. El punto de partida —una boda arruinada y una fuga transatlántica— le permite combinar el relato de reconstrucción personal con la tensión amorosa clásica del género. Más que apostar por grandes giros melodramáticos, el libro funciona por ritmo, diálogo, escenas incómodas bien dosificadas y una heroína que se equivoca mucho, pero resulta cercana precisamente por eso.",
+        "forWhom": "Para lectores de comedia romántica, chick lit y novelas de segundas oportunidades con humor, enredos y crecimiento emocional. Encaja especialmente bien en quien busque una lectura ágil, divertida y afectiva.",
+        "whyItMatters": "Importa porque convierte un tópico romántico —la novia abandonada— en una historia de reconstrucción con tono vivaz. No se limita al flechazo: trabaja la vergüenza, la autoestima y la posibilidad de rehacer la vida sin perder el sentido del humor.",
+        "editorialIntro": "Hay novelas románticas que funcionan por idealización y otras que seducen por su capacidad para hacer reír en medio del desastre. Casada por los pelos pertenece a la segunda clase. Jane Costello toma una catástrofe social y sentimental —ser abandonada en el altar— y la convierte en el arranque de una historia fresca, rápida y muy visual sobre empezar de nuevo lejos de casa. El resultado tiene algo de comedia de enredo, algo de romance contemporáneo y bastante observación irónica sobre las fantasías amorosas que se nos caen encima cuando la vida real interviene.",
+        "readingLevel": "Lectura muy accesible. El estilo es directo, el humor sostiene el ritmo y la trama se sigue con facilidad incluso si se busca solo entretenimiento. Ideal para leer por placer, sin exigencia formal alta.",
+        "whyReadToday": "Porque sigue funcionando como novela de evasión inteligente: divertida, emocional y menos ingenua de lo que parece. También dialoga bien con debates actuales sobre independencia afectiva y reinvención personal tras una ruptura.",
+        "studyNotes": [
+          "Zoe Moore es una protagonista de comedia romántica clásica: vulnerable, ingeniosa y propensa al ridículo, pero también capaz de reconstruirse.",
+          "El libro usa el humor como forma de procesar la humillación sentimental inicial, no solo como adorno ligero.",
+          "El traslado de Liverpool a Boston permite convertir la crisis amorosa en una experiencia de desubicación y aprendizaje.",
+          "Ryan encarna el interés romántico conflictivo, pero la novela intenta que la trama principal sea también la recuperación de la autoestima de Zoe.",
+          "La voz narrativa y las escenas embarazosas son esenciales para el tono; la historia depende mucho más del ritmo y la simpatía que del suspense.",
+          "Puede leerse como ejemplo claro de chick lit británica traducida al mercado español de comienzos de la década de 2010."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: La boda desastrosa y la huida",
+            "summary": "La novela presenta a Zoe en el peor momento posible: su prometido la deja plantada en el altar y el golpe emocional se mezcla con el bochorno social. Para escapar de ese escenario, decide irse a Boston y aceptar un trabajo que le permita empezar de nuevo."
+          },
+          {
+            "title": "Parte central: Boston, los niños y el choque con Ryan",
+            "summary": "Ya instalada como niñera, Zoe debe adaptarse a una casa nueva, a dos niños exigentes y a Ryan, un padre atractivo pero difícil de tratar. De esa convivencia nacen situaciones cómicas, malentendidos y una tensión afectiva que complica su intento de pasar página."
+          },
+          {
+            "title": "Segunda mitad: El pasado regresa",
+            "summary": "Cuando Zoe empieza a rehacerse, su antigua vida sentimental vuelve a pesar sobre sus decisiones. La novela explora entonces la diferencia entre refugiarse en la fantasía romántica y elegir con más madurez lo que realmente le conviene."
+          },
+          {
+            "title": "Tramo final: Elegir una vida propia",
+            "summary": "La resolución se orienta menos al gran gesto melodramático que a una toma de conciencia. Zoe entiende que el verdadero cambio no consiste solo en encontrar otro amor, sino en dejar de definirse por el abandono que sufrió."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Comedia romántica con humillación pública como detonante",
+            "content": "El motor narrativo del libro es muy eficaz: una escena de fracaso sentimental extremo que obliga a la protagonista a reorganizar su identidad. A partir de ahí, Costello transforma el bochorno en energía cómica y evita que la historia quede reducida a un simple desamor."
+          },
+          {
+            "heading": "La reinvención sentimental pasa por el desplazamiento",
+            "content": "Boston funciona como espacio narrativo de reinicio. El cambio de país no borra el problema, pero sí permite que Zoe se vea fuera de la mirada social que la fijaba como víctima y empiece a probar otra versión de sí misma."
+          },
+          {
+            "heading": "El romance importa, pero el centro es la autoestima",
+            "content": "Aunque la novela responde a muchas convenciones del género romántico, su interés más estable está en cómo la protagonista recupera criterio propio. El vínculo amoroso solo resulta convincente cuando Zoe deja de actuar desde la pura herida o la necesidad de reparación."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela puramente romántica o más bien de humor?",
+            "answer": "Las dos cosas. Tiene trama amorosa clara, pero gran parte de su encanto está en el tono cómico, los accidentes sociales y la voz irónica de la protagonista."
+          },
+          {
+            "question": "¿La historia se centra solo en el nuevo romance de Zoe?",
+            "answer": "No. El romance es importante, pero la novela también trata la vergüenza del abandono, la necesidad de empezar de nuevo y la recuperación de la autoestima."
+          },
+          {
+            "question": "¿Es recomendable para quien busca una lectura ligera?",
+            "answer": "Sí. Es una novela ágil, muy legible y construida para entretener, aunque incorpora un fondo emocional suficiente para que no todo sea mera frivolidad."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutarla más?",
+            "answer": "Quien disfruta la comedia romántica contemporánea, las protagonistas con voz fuerte y los libros que combinan enredo sentimental con humor cotidiano."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Ediciones Versátil - Casada por los pelos",
+            "url": "https://www.ed-versatil.com/romantica/casada-por-los-pelos"
+          },
+          {
+            "label": "Casa del Libro - Casada por los pelos",
+            "url": "https://www.casadellibro.com/libro-casada-por-los-pelos/9788492929382/1832497"
+          },
+          {
+            "label": "Goodreads - Casada por los pelos",
+            "url": "https://www.goodreads.com/book/show/10753384-casada-por-los-pelos"
+          },
+          {
+            "label": "Rnovelaromantica - Crítica de Casada por los pelos",
+            "url": "https://www.rnovelaromantica.com/criticas/item/jane-costello-casada-por-los-pelos"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cementerio-de-animales-pet-sematary-de-stephen-king",
+      "title": "Cementerio De Animales Pet Sematary",
+      "authorName": "Stephen King",
+      "authorSlug": "stephen-king",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cementerio de animales",
+        "authorName": "Stephen King",
+        "authorSlug": "stephen-king",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 1983,
+        "pages": 488,
+        "summary": "Cementerio de animales cuenta la historia de Louis Creed, un médico que se muda con su familia desde Chicago a Ludlow, Maine, buscando una vida más tranquila. Cerca de su nueva casa hay una carretera peligrosa, un pequeño cementerio de mascotas levantado por niños del lugar y, más allá, un antiguo terreno de enterramiento con un poder oscuro. Cuando la muerte toca primero a la mascota familiar y luego golpea de un modo insoportable a los Creed, Louis cruza un límite del que ya no puede regresar. Stephen King construye así una novela sobre el duelo, la negación y el deseo imposible de corregir la pérdida. Más que asustar con sobresaltos, el libro va estrechando una lógica fatal: cuanto más profundamente ama alguien, más vulnerable se vuelve a la tentación de desafiar la muerte.",
+        "aboutThisBook": "Publicada en 1983, Pet Sematary es una de las novelas más célebres y perturbadoras de Stephen King. El propio autor ha dicho en distintas ocasiones que fue uno de los libros suyos que más le inquietó mientras lo escribía, en parte por su cercanía con experiencias familiares reales y por su relectura sombría del motivo clásico de La pata de mono. Aunque suele colocarse dentro del terror, también funciona como tragedia doméstica y como estudio moral del duelo: la pregunta decisiva no es si los muertos pueden volver, sino qué precio paga quien desea ese regreso.",
+        "forWhom": "Para lectores adultos de Stephen King, de terror psicológico y de novelas oscuras donde el miedo nace del dolor familiar, la culpa y la imposibilidad de aceptar la muerte. También interesa a quien busque una historia intensa más que gore.",
+        "whyItMatters": "Sigue siendo una obra clave porque convierte una premisa sobrenatural en una meditación brutal sobre el duelo y la negación. Su fuerza no depende solo del horror, sino de cómo enlaza amor, pérdida y destrucción moral en una misma cadena.",
+        "editorialIntro": "No todas las novelas de Stephen King son memorables por el monstruo que presentan; algunas lo son por la verdad emocional que se atreven a mirar sin pestañear. Cementerio de animales pertenece a ese grupo. Parte de una situación doméstica casi reconocible —una familia que llega a una casa nueva, una carretera peligrosa, un vecino afable— y la empuja hacia una región donde el amor deja de ser consuelo para convertirse en tentación. El libro es terror, sí, pero sobre todo es una novela del duelo llevada hasta su consecuencia más impía.",
+        "readingLevel": "Lectura media. El estilo es claro y narrativo, pero la intensidad emocional, la violencia de algunas escenas y la carga psicológica del tema lo vuelven más apropiado para lectores adultos o habituados a historias oscuras.",
+        "whyReadToday": "Porque pocas novelas populares han explorado con tanta eficacia la fantasía de revertir la muerte. En una época que sigue evitando hablar del duelo con franqueza, el libro conserva una potencia incómoda y muy actual.",
+        "studyNotes": [
+          "La novela reinterpreta el motivo clásico de desafiar la muerte, cercano a La pata de mono, pero lo sitúa en una familia contemporánea y reconocible.",
+          "El terror nace menos del cementerio en sí que de la negación del duelo y del razonamiento con que Louis justifica cada paso.",
+          "Jud Crandall funciona como figura ambigua: vecino protector, testigo del mal antiguo y mediador involuntario hacia la catástrofe.",
+          "Rachel arrastra un trauma infantil asociado a la muerte, lo que da espesor psicológico al tema central del libro.",
+          "Church, el gato resucitado, introduce una primera advertencia: lo que vuelve no regresa intacto.",
+          "Puede leerse como una tragedia moral donde el protagonista conserva libertad de decisión, pero cada elección estrecha aún más el desenlace."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: Llegada a Ludlow y señales de amenaza",
+            "summary": "Los Creed se instalan en Maine y descubren tanto la aparente tranquilidad del entorno como sus zonas inquietantes: la carretera mortal, el cementerio de animales y la vecindad con Jud Crandall. Desde el principio, la novela asocia hogar y peligro."
+          },
+          {
+            "title": "Parte central: Church vuelve distinto",
+            "summary": "La muerte del gato Church obliga a Louis a conocer el antiguo cementerio oculto más allá del sendero. El regreso del animal demuestra que hay una fuerza real en ese lugar, pero también deja claro que resucitar no significa recuperar lo perdido tal como era."
+          },
+          {
+            "title": "Momento de quiebre: La pérdida irreparable",
+            "summary": "Cuando la tragedia alcanza a Gage, la novela abandona cualquier ilusión de seguridad. El dolor de Louis y la fractura de la familia abren el verdadero núcleo moral del relato: la tentación de usar el cementerio una vez más."
+          },
+          {
+            "title": "Tramo final: La lógica del duelo llevada al horror",
+            "summary": "En la última parte, Louis cruza el límite que antes parecía impensable. La narración se vuelve cada vez más fatalista y muestra que intentar deshacer la muerte solo produce una degradación más honda de la realidad y de los afectos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela de duelo disfrazada de terror sobrenatural",
+            "content": "El gran logro del libro es que la amenaza fantástica nunca se separa del dolor humano. El cementerio funciona como dispositivo de horror, pero lo que impulsa la acción es algo perfectamente reconocible: la imposibilidad de aceptar una pérdida devastadora."
+          },
+          {
+            "heading": "La tentación de corregir lo irreversible",
+            "content": "Louis no actúa solo por amor; actúa también por soberbia, negación y deseo de dominio sobre lo que no debería controlarse. Esa mezcla vuelve la novela especialmente perturbadora, porque el mal no llega desde fuera de forma absoluta: encuentra un acceso en una debilidad comprensible."
+          },
+          {
+            "heading": "La vida familiar como terreno del espanto",
+            "content": "King sitúa el horror en espacios íntimos: una casa, una cocina, una conversación entre vecinos, un padre que no soporta el vacío. Por eso la novela sigue golpeando con fuerza: no habla de un mal abstracto, sino de cómo una familia corriente puede quebrarse desde dentro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una de las novelas más terroríficas de Stephen King?",
+            "answer": "Sí, y no solo por sus elementos sobrenaturales. Muchos lectores la consideran especialmente inquietante por la intensidad con que aborda la muerte y el duelo familiar."
+          },
+          {
+            "question": "¿El libro se parece a las películas?",
+            "answer": "Comparte la premisa básica, pero la novela desarrolla con mucho más detalle la psicología de Louis Creed, el peso del duelo y la progresión moral hacia la catástrofe."
+          },
+          {
+            "question": "¿Es solo una historia de terror o también una tragedia?",
+            "answer": "Es claramente ambas cosas. El componente fantástico es esencial, pero el efecto duradero del libro proviene de su dimensión trágica y emocional."
+          },
+          {
+            "question": "¿Conviene para lectores sensibles al tema de la pérdida infantil?",
+            "answer": "Probablemente no. La novela toca ese tema de manera frontal y muy dura, de modo que puede resultar especialmente difícil para ciertos lectores."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "StephenKing.com - Pet Sematary",
+            "url": "https://stephenking.com/works/novel/pet-sematary.html"
+          },
+          {
+            "label": "Wikipedia - Pet Sematary",
+            "url": "https://en.wikipedia.org/wiki/Pet_Sematary"
+          },
+          {
+            "label": "Casa del Libro - Cementerio de animales",
+            "url": "https://www.casadellibro.com/libro-cementerio-de-animales/9788497930994/940957"
+          },
+          {
+            "label": "Penguin Random House - Cementerio de animales / Pet Sematary",
+            "url": "https://www.penguinrandomhouse.com/books/612197/cementerio-de-animales--pet-sematary-by-stephen-king/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cinco-esquinas-de-mario-vargas-llosa",
+      "title": "Cinco Esquinas",
+      "authorName": "Mario Vargas Llosa",
+      "authorSlug": "mario-vargas-llosa",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cinco esquinas",
+        "authorName": "Mario Vargas Llosa",
+        "authorSlug": "mario-vargas-llosa",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2016,
+        "pages": 320,
+        "summary": "Cinco esquinas sitúa su intriga en el Perú de los últimos años del fujimorismo, cuando el miedo político, la corrupción y la prensa amarilla contaminan la vida pública y privada. La novela comienza con una escena inesperada entre dos mujeres de clase alta, amigas desde hace años, y desde ahí abre una red de relaciones donde aparecen un empresario amenazado por unas fotos comprometedoras, un director de tabloide dispuesto a destruir reputaciones y una ciudad atravesada por el terrorismo, la miseria moral y el chantaje. Vargas Llosa combina el pulso del thriller con un retrato social más amplio: Lima aparece como un espacio donde conviven deseo, miedo, oportunismo y degradación cívica. El resultado no es solo una trama de escándalo, sino una reflexión narrativa sobre cómo la suciedad del poder se filtra en los cuerpos, las familias y el lenguaje público.",
+        "aboutThisBook": "Publicada en 2016 por Alfaguara, Cinco esquinas pertenece a la etapa tardía de Mario Vargas Llosa y vuelve sobre una de sus obsesiones duraderas: la relación entre poder, violencia y degradación de la vida social en el Perú. Aquí esa preocupación adopta una forma más directa y legible, cercana por momentos al policial y al thriller político. El autor ha explicado que la novela fue creciendo desde una imagen íntima inesperada hasta transformarse en un mural sobre el periodismo sensacionalista y su uso como arma durante el régimen de Fujimori y Montesinos. Por eso el libro articula erotismo, chantaje, miedo urbano y crítica política en una misma estructura.",
+        "forWhom": "Para lectores adultos interesados en Vargas Llosa, en novelas políticas latinoamericanas y en ficciones que mezclan escándalo, periodismo, corrupción y retrato social. Funciona bien si se busca una novela breve y tensa, con trasfondo histórico reciente.",
+        "whyItMatters": "Importa porque convierte el sensacionalismo y la corrupción política en materia novelesca sin perder legibilidad. Además, ofrece un retrato incisivo del fujimorismo y de la forma en que el miedo público desordena también la intimidad privada.",
+        "editorialIntro": "En Cinco esquinas, Vargas Llosa regresa a un territorio que conoce bien: el cruce entre deseo, poder y deterioro cívico. Pero esta vez lo hace con una novela más breve, más frontal y más próxima al thriller que a sus grandes arquitecturas de otras décadas. Lo notable no es solo la intriga del chantaje o del escándalo sexual, sino la manera en que el libro muestra una sociedad entera infectada por la prensa basura, la violencia y el cálculo político. Lima deja de ser mero escenario para convertirse en una atmósfera moral.",
+        "readingLevel": "Lectura media. La prosa es clara y el avance narrativo resulta ágil, aunque conviene tener alguna referencia básica del Perú de los años noventa para captar mejor la dimensión política del trasfondo.",
+        "whyReadToday": "Porque la novela sigue dialogando con problemas muy presentes: manipulación mediática, uso político del escándalo, erosión de la vida pública y confusión entre información y chantaje. Su lectura conserva una resonancia contemporánea evidente.",
+        "studyNotes": [
+          "La novela se sitúa en los últimos años del régimen de Fujimori y Montesinos, un contexto decisivo para entender su atmósfera de miedo y corrupción.",
+          "El periodismo amarillo no aparece como simple decorado: es un instrumento de poder capaz de arruinar reputaciones y disciplinar adversarios.",
+          "Vargas Llosa mezcla tramas íntimas y comentario político, de modo que la sexualidad, el chantaje y la violencia se contaminan mutuamente.",
+          "El título remite a un barrio limeño y funciona también como símbolo del cruce entre historias, clases sociales y zonas morales de la ciudad.",
+          "Aunque tiene elementos de thriller, el libro quiere ser además un mural social de una época peruana muy concreta.",
+          "Puede compararse con otras novelas del autor donde el poder se encarna en sistemas de manipulación, miedo y degradación institucional."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: Una noche inesperada y el inicio del desequilibrio",
+            "summary": "La novela se abre con un episodio íntimo entre dos amigas que altera su relación y marca un tono de extrañeza moral. Esa escena inicial introduce la idea de que bajo la superficie burguesa ya existe una fisura."
+          },
+          {
+            "title": "Parte central: Chantaje, prensa basura y redes de poder",
+            "summary": "Un periodista sensacionalista y unas fotografías comprometedoras ponen en marcha la intriga principal. La amenaza privada se convierte rápidamente en asunto político, porque el escándalo mediático forma parte de un sistema más amplio de intimidación y control."
+          },
+          {
+            "title": "Segunda mitad: Lima como tablero de miedo y corrupción",
+            "summary": "A medida que avanzan las distintas historias, la novela ensancha su campo y muestra una ciudad atravesada por terrorismo, oportunismo y decadencia moral. Los personajes descubren que nadie queda del todo al margen del clima corrupto de la época."
+          },
+          {
+            "title": "Tramo final: Ajustes de cuentas y revelación política",
+            "summary": "La resolución une la intriga personal con la lectura histórica de fondo. El cierre no solo busca resolver quién manipula a quién, sino mostrar el costo humano de una sociedad habituada a la extorsión y al envilecimiento público."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller político y novela de costumbres a la vez",
+            "content": "Uno de los rasgos más interesantes del libro es su doble registro. Puede leerse como una historia de chantaje y suspense, pero también como un retrato de hábitos, clases sociales y miedos colectivos en la Lima de los noventa."
+          },
+          {
+            "heading": "El periodismo sensacionalista como arma del poder",
+            "content": "La novela insiste en que la prensa amarilla no solo degrada el debate público, sino que sirve para disciplinar, humillar y destruir. Ese punto conecta la intriga novelesca con una crítica política muy concreta del fujimorismo."
+          },
+          {
+            "heading": "La intimidad contaminada por la atmósfera pública",
+            "content": "Vargas Llosa muestra que la corrupción no se limita a las instituciones. También invade la vida privada, altera amistades, erotiza el riesgo y convierte los secretos íntimos en material de extorsión. Esa contaminación entre esfera pública y privada da unidad al libro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Cinco esquinas es una novela histórica o un thriller contemporáneo?",
+            "answer": "Es ambas cosas en cierta medida. La trama tiene impulso de thriller, pero está anclada en un contexto histórico muy preciso: el Perú de los últimos años del régimen de Fujimori."
+          },
+          {
+            "question": "¿Hace falta conocer la política peruana para entenderla?",
+            "answer": "No de forma imprescindible, porque la intriga se sigue bien por sí sola. Aun así, saber algo sobre Fujimori, Montesinos y la prensa sensacionalista en los noventa enriquece mucho la lectura."
+          },
+          {
+            "question": "¿Es una novela compleja dentro de la obra de Vargas Llosa?",
+            "answer": "No especialmente. Comparada con otras obras del autor, es más breve y directa, con una arquitectura narrativa bastante accesible y un ritmo más próximo al thriller."
+          },
+          {
+            "question": "¿Qué temas destacan además de la corrupción política?",
+            "answer": "La novela trabaja también el deseo, la hipocresía social, la fragilidad de la reputación y la forma en que el miedo colectivo altera la conducta privada."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia - Cinco esquinas (novela)",
+            "url": "https://es.wikipedia.org/wiki/Cinco_esquinas_(novela)"
+          },
+          {
+            "label": "Casa del Libro - Cinco esquinas",
+            "url": "https://www.casadellibro.com/libro-cinco-esquinas/9788420418964/2798218"
+          },
+          {
+            "label": "Google Books - Cinco esquinas",
+            "url": "https://books.google.com/books/about/Cinco_esquinas.html?id=XCfkDAAAQBAJ"
+          },
+          {
+            "label": "Letralia - Cinco Esquinas, novela número dieciocho de Vargas Llosa",
+            "url": "https://letralia.com/lecturas/2016/04/02/cinco-esquinas-novela-numero-dieciocho-de-vargas-llosa/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "claraboya-de-jose-saramago",
+      "title": "Claraboya",
+      "authorName": "Jose Saramago",
+      "authorSlug": "jose-saramago",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Claraboya",
+        "authorName": "José Saramago",
+        "authorSlug": "jose-saramago",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 2012,
+        "pages": 424,
+        "summary": "Claraboya es una novela coral ambientada en un edificio humilde de Lisboa, donde varias familias viven a escasa distancia física pero arrastran deseos, frustraciones y secretos muy distintos. La imagen de la claraboya funciona como una mirada elevada que observa la rutina doméstica y descubre, detrás de lo cotidiano, tensiones de clase, matrimonios desgastados, anhelos amorosos y pequeñas formas de violencia silenciosa. Más que depender de una intriga única, el libro avanza por escenas entrelazadas que van componiendo un retrato moral de la ciudad y de sus habitantes. En este Saramago temprano ya aparecen la compasión por la gente común, la ironía ante las convenciones y el interés por cómo la intimidad revela estructuras sociales enteras. El resultado es una novela de vidas vecinas, contenida en el gesto y muy rica en observación humana.",
+        "aboutThisBook": "Aunque se publicó póstumamente y llegó en español en 2012 dentro de la Biblioteca Saramago de Alfaguara, Claraboya fue terminada por José Saramago en 1953. Su historia editorial es parte de su atractivo: permaneció décadas inédita después de que el manuscrito quedara sin respuesta en una editorial portuguesa. La Fundación José Saramago la presenta como una obra temprana donde ya se reconocen la lucidez, la compasión y la mirada crítica que más tarde definirían al Nobel portugués. También es un libro importante para entender el laboratorio narrativo de su primera etapa.",
+        "forWhom": "Para lectores de narrativa literaria, novelas corales y clásicos modernos interesados en la vida cotidiana como escenario de conflicto moral. También resulta muy recomendable para quien ya conoce al Saramago maduro y quiere ver cómo se forman su mirada social y su sensibilidad narrativa.",
+        "whyItMatters": "Importa porque permite leer el origen de una voz mayor de la literatura ibérica sin reducirla a simple curiosidad de archivo. Además, convierte un edificio corriente en un mapa de desigualdad, deseo y convivencia, mostrando que la gran novela social también puede construirse desde lo aparentemente mínimo.",
+        "editorialIntro": "No todas las obras póstumas merecen la atención que reciben, pero Claraboya sí. Aquí no se encuentra una pieza menor para completistas, sino un Saramago joven que ya sabe mirar un espacio cerrado y hacerlo vibrar con humanidad, ironía y conflicto. El edificio lisboeta que organiza la novela funciona como un pequeño teatro social donde cada ventana deja ver una forma distinta de soledad, de deseo o de resignación.",
+        "readingLevel": "Lectura media-alta. La prosa es clara, pero la novela pide atención a los cambios de foco, a la dimensión coral y a la sutileza con que las escenas cotidianas dejan ver tensiones sociales y afectivas.",
+        "whyReadToday": "Porque sigue siendo una excelente puerta para pensar vivienda, precariedad, intimidad y convivencia urbana sin discursos explícitos. También permite descubrir a Saramago antes del gran reconocimiento internacional y comprobar cuánto de su mundo literario ya estaba allí.",
+        "studyNotes": [
+          "La claraboya funciona como imagen de observación: mirar desde arriba ordena una novela hecha de vidas paralelas y de intimidades expuestas.",
+          "El edificio no es solo escenario, sino una miniatura social donde se cruzan desigualdad, deseo, rutina y vigilancia mutua.",
+          "Conviene leer la obra como novela coral más que como historia de un protagonista central.",
+          "Ya aparecen rasgos reconocibles de Saramago: compasión por personajes comunes, ironía moral y atención a las estructuras que oprimen la vida diaria.",
+          "Su valor no es únicamente histórico; funciona por sí misma como retrato convincente de una comunidad urbana de posguerra."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: El edificio y sus habitantes",
+            "summary": "La novela presenta el inmueble lisboeta y a los inquilinos que lo habitan, dejando claro que la proximidad física no elimina la distancia emocional. Desde el comienzo, cada hogar aparece atravesado por carencias, tensiones y sueños insatisfechos."
+          },
+          {
+            "title": "Parte central: Rutinas, deseos y fricciones",
+            "summary": "A medida que las historias se entrelazan, la vida cotidiana revela conflictos matrimoniales, impulsos amorosos, frustraciones económicas y pequeñas crueldades. El libro gana fuerza precisamente al mostrar cómo lo aparentemente banal encierra dramas morales de gran densidad."
+          },
+          {
+            "title": "Tramo final: La intimidad como espejo social",
+            "summary": "Sin recurrir a un gran golpe melodramático, el cierre intensifica la sensación de que cada apartamento contiene una lucha distinta por sobrevivir, querer y mantener la dignidad. La novela termina dejando un retrato de conjunto más amplio que la suma de sus escenas individuales."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela coral en espacio reducido",
+            "content": "Claraboya demuestra que una novela amplia no necesita desplazarse mucho para ser socialmente significativa. El edificio concentra personajes, conflictos y miradas distintas, y convierte la cercanía vecinal en una forma de laboratorio moral donde lo privado nunca está del todo aislado de lo colectivo."
+          },
+          {
+            "heading": "El Saramago temprano y su mirada social",
+            "content": "Aunque pertenece a una fase muy anterior a sus novelas más conocidas, el libro deja ver rasgos decisivos de su imaginación: interés por los olvidados, ironía sobria, crítica de las jerarquías y una atención constante a cómo la vida material condiciona los afectos. No es un borrador de su obra futura, sino una raíz visible de ella."
+          },
+          {
+            "heading": "La vida cotidiana como materia literaria",
+            "content": "La gran apuesta del libro está en no exagerar el drama. Saramago trabaja con conversaciones, gestos, silencios y pequeñas miserias domésticas para mostrar la textura real de una comunidad. Esa contención vuelve más poderosa la novela, porque deja que el lector descubra por sí mismo la hondura del conflicto."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Claraboya?",
+            "answer": "Trata de las vidas entrelazadas de varios inquilinos en un edificio de Lisboa, observadas con detalle para mostrar frustraciones, deseos, conflictos íntimos y tensiones sociales en la vida cotidiana."
+          },
+          {
+            "question": "¿Es una novela importante dentro de la obra de Saramago o solo una curiosidad?",
+            "answer": "Tiene un interés documental evidente por ser una obra temprana y póstuma, pero también funciona como novela autónoma. Ya contiene una mirada social y una sensibilidad narrativa que ayudan a entender al autor sin reducir el libro a simple rareza editorial."
+          },
+          {
+            "question": "¿Hace falta conocer otras novelas de Saramago para disfrutarla?",
+            "answer": "No. Puede leerse por sí sola como una novela coral muy observadora. Quien conozca al autor reconocerá ecos de su mundo literario, pero no es un requisito previo."
+          },
+          {
+            "question": "¿Tiene una trama lineal o se apoya más en personajes?",
+            "answer": "Se apoya sobre todo en personajes y escenas conectadas. Más que una intriga única, ofrece un tejido de historias domésticas que se potencian entre sí."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Fundación José Saramago - Claraboya",
+            "url": "https://www.josesaramago.org/es/libro-2/claraboya/"
+          },
+          {
+            "label": "Penguin Libros - Claraboya",
+            "url": "https://www.penguinlibros.com/us/tematicas/13916-ebook-claraboya-9788420412382"
+          },
+          {
+            "label": "Casa del Libro - Claraboya",
+            "url": "https://www.casadellibro.com/libro-claraboya/9788420411095/1959145"
+          },
+          {
+            "label": "Google Books - Claraboya",
+            "url": "https://books.google.com/books/about/Claraboya.html?id=YbMlfPcZURQC"
+          },
+          {
+            "label": "WorldCat - búsqueda de Claraboya",
+            "url": "https://search.worldcat.org/es/search?q=ti%3A%22Claraboya%22%20au%3A%22Jos%C3%A9%20Saramago%22"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "como-saliva-en-la-arena-de-klaus-kordon",
+      "title": "Como Saliva En La Arena",
+      "authorName": "Klaus Kordon",
+      "authorSlug": "klaus-kordon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Como saliva en la arena",
+        "authorName": "Klaus Kordon",
+        "authorSlug": "klaus-kordon",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 2017,
+        "pages": 416,
+        "summary": "Como saliva en la arena sigue la historia de Munli, una joven india que descubre que su padre quiere casarla con un hombre mayor y violento. A partir de esa amenaza, la novela se convierte en un relato de huida, aprendizaje y resistencia. Klaus Kordon utiliza la peripecia de la protagonista para recorrer una India marcada por desigualdad, pobreza, rigidez de castas y sometimiento femenino, pero evita que el contexto borre a la persona: Munli no es solo un símbolo social, sino una muchacha que madura a la fuerza mientras intenta conservar libertad, dignidad y futuro. La novela combina aventura, dureza histórica y observación antropológica, de modo que la evolución interior de la protagonista va siempre unida al descubrimiento de un mundo hostil. Es un libro intenso, accesible y crítico, donde crecer significa también aprender a sobrevivir.",
+        "aboutThisBook": "La obra se conoció primero en español en Alfaguara y más tarde tuvo reedición en Loqueleo, sello con el que circula hoy para lectores jóvenes. Las referencias bibliográficas y de mediación lectora la presentan como una novela juvenil de fuerte trasfondo histórico y social, centrada en la situación de amplias capas de la población india y, en particular, en la condición de las mujeres dentro de estructuras familiares muy rígidas. Klaus Kordon, un autor alemán muy atento a la historia y a la experiencia de los jóvenes, cruza aquí narración de formación, crítica social y viaje por un entorno cultural complejo.",
+        "forWhom": "Para lectores juveniles desde secundaria, docentes y clubes de lectura que busquen una novela exigente pero legible sobre desigualdad, libertad, género y maduración. También puede interesar a adultos que valoren la narrativa social con protagonista joven y fuerte dimensión cultural.",
+        "whyItMatters": "Sigue importando porque no trata la opresión como concepto abstracto, sino como una experiencia encarnada en las decisiones, miedos y pérdidas de una adolescente. Además, muestra cómo la literatura juvenil puede abordar violencia estructural, tradición y deseo de autonomía sin simplificar el conflicto.",
+        "editorialIntro": "Hay novelas juveniles que solo acompañan el paso a la madurez y otras que, además, obligan a mirar el mundo. Como saliva en la arena pertenece a las segundas. Klaus Kordon toma el destino de una muchacha amenazada por un matrimonio impuesto y lo convierte en una narración de huida y formación atravesada por pobreza, jerarquías sociales y violencia patriarcal. Su fuerza está en que nunca sacrifica a la persona en nombre del tema.",
+        "readingLevel": "Lectura media para público juvenil. El estilo es narrativo y claro, pero la extensión, la dureza de algunas situaciones y el trasfondo social piden atención sostenida y cierta madurez emocional.",
+        "whyReadToday": "Porque ayuda a pensar, desde una historia concreta, debates todavía urgentes sobre matrimonio forzado, desigualdad, condición femenina y libertad personal. También recuerda que la buena literatura juvenil puede ser a la vez aventura, denuncia y formación moral.",
+        "studyNotes": [
+          "Munli debe leerse como personaje de formación: cada etapa de su huida modifica su idea de sí misma y de lo que significa ser libre.",
+          "La novela articula aventura y crítica social; no conviene separar la peripecia individual del contexto de pobreza, castas y violencia.",
+          "El libro muestra con especial claridad la vulnerabilidad de las mujeres dentro de estructuras familiares y religiosas rígidas.",
+          "Puede trabajarse en clase como ejemplo de narrativa juvenil con fuerte componente histórico y antropológico.",
+          "La tensión entre destino impuesto y voluntad propia sostiene toda la novela."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: La amenaza del matrimonio impuesto",
+            "summary": "La historia arranca cuando Munli comprende que su familia quiere entregarla a un hombre mayor y brutal. Ese descubrimiento convierte el hogar en un espacio de peligro y pone en marcha la necesidad urgente de escapar."
+          },
+          {
+            "title": "Parte central: Huida, aprendizaje y choque con la realidad",
+            "summary": "Durante su recorrido, la protagonista conoce formas diversas de abuso, pobreza y exclusión, pero también aprende a leer mejor el mundo y a defenderse. La novela crece aquí como relato de maduración forzada dentro de una realidad social áspera."
+          },
+          {
+            "title": "Tramo final: Resistir para elegir una vida propia",
+            "summary": "Hacia el cierre, la experiencia acumulada transforma a Munli y vuelve más compleja su idea de libertad. El libro no promete un triunfo ingenuo, pero sí una conquista difícil de dignidad y conciencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela juvenil y denuncia social",
+            "content": "Uno de los mayores aciertos de Kordon es no rebajar la complejidad del contexto para adaptarlo a lectores jóvenes. La novela mantiene ritmo y legibilidad, pero al mismo tiempo expone desigualdad, violencia y sometimiento femenino con una seriedad que amplía el horizonte habitual de la narrativa juvenil."
+          },
+          {
+            "heading": "Munli como protagonista de formación",
+            "content": "La huida no es solo movimiento externo. Cada prueba obliga a Munli a redefinir su relación con el miedo, la obediencia y la posibilidad de elegir. Por eso el libro puede leerse como un bildungsroman duro, donde crecer no significa descubrir el mundo con curiosidad, sino enfrentarlo cuando ya se ha vuelto amenazante."
+          },
+          {
+            "heading": "India como contexto vivido, no decorativo",
+            "content": "La ambientación importa porque estructura la vida de los personajes: castas, pobreza, jerarquías familiares y religiosidad condicionan cada decisión. Kordon evita el exotismo fácil y usa ese marco para mostrar mecanismos concretos de dominación y supervivencia."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Como saliva en la arena?",
+            "answer": "Trata de Munli, una joven india que huye cuando su familia intenta casarla con un hombre violento. A partir de ahí, la novela narra su paso a la madurez en medio de pobreza, peligro y desigualdad social."
+          },
+          {
+            "question": "¿Es una novela juvenil o puede leerla un adulto?",
+            "answer": "Está muy bien situada para lectores juveniles, pero su trasfondo histórico y social la vuelve plenamente interesante para adultos. No es un libro infantil, sino una narración de aprendizaje con dureza real."
+          },
+          {
+            "question": "¿Qué temas principales trabaja?",
+            "answer": "Trabaja libertad personal, matrimonio forzado, condición femenina, pobreza, castas, violencia estructural y maduración. Todo eso aparece unido a una historia concreta de supervivencia."
+          },
+          {
+            "question": "¿La novela idealiza la superación personal?",
+            "answer": "No. Aunque la protagonista demuestra fortaleza, el libro no borra el costo emocional y material de su lucha ni simplifica el entorno que la oprime."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Casa del Libro - edición Loqueleo 2017",
+            "url": "https://www.casadellibro.com/libro-como-saliva-en-la-arena/9788491221890/5802214"
+          },
+          {
+            "label": "Casa del Libro - edición Alfaguara 1996",
+            "url": "https://www.casadellibro.com/libro-como-saliva-en-la-arena/9788420447124/72319"
+          },
+          {
+            "label": "Open Library - Como saliva en la arena",
+            "url": "https://openlibrary.org/books/OL37748000M/Como_saliva_en_la_arena"
+          },
+          {
+            "label": "Alboan Centro de Recursos - Como saliva en la arena",
+            "url": "https://centroderecursos.alboan.org/es/registros/3371-como-saliva-en-la"
+          },
+          {
+            "label": "WorldCat - búsqueda de Como saliva en la arena",
+            "url": "https://search.worldcat.org/es/search?q=ti%3A%22Como%20saliva%20en%20la%20arena%22%20au%3A%22Klaus%20Kordon%22"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "criaturas-de-un-dia-de-irvin-d-yalom",
+      "title": "Criaturas De Un Dia",
+      "authorName": "Irvin D Yalom",
+      "authorSlug": "irvin-d-yalom",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Criaturas de un día",
+        "authorName": "Irvin D. Yalom",
+        "authorSlug": "irvin-d-yalom",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "desarrollo-personal"
+        ],
+        "year": 2018,
+        "pages": 272,
+        "summary": "En Criaturas de un día, Irvin D. Yalom reúne diez relatos de psicoterapia que funcionan al mismo tiempo como casos clínicos, narraciones humanas y reflexiones sobre el oficio terapéutico. El libro muestra pacientes enfrentados a pérdidas, bloqueos, vergüenza, miedo al envejecimiento, conflictos familiares y sentido de la vida, mientras el propio Yalom se deja ver como terapeuta y como persona vulnerable a dudas, límites y desgaste. Su interés no está en ofrecer una teoría abstracta de la mente, sino en mostrar cómo una conversación bien dirigida puede iluminar zonas profundas de sufrimiento. Con empatía, humor y una claridad poco académica, Yalom conecta la práctica psicoterapéutica con sus temas habituales: mortalidad, libertad, aislamiento y búsqueda de significado. Es un libro de no ficción con pulso narrativo, muy útil para lectores curiosos por la psicología y por la complejidad concreta de la experiencia humana.",
+        "aboutThisBook": "Publicado en español por Planeta y reeditado en bolsillo por Booket, el libro pertenece a la vertiente más accesible y narrativa de Yalom, célebre por tender puentes entre psiquiatría, filosofía existencial y relato. La sinopsis editorial insiste en que aquí aparecen diez historias de pacientes y de sus procesos terapéuticos, pero también el propio dilema del terapeuta entre implicación personal y distancia profesional. Eso vuelve el volumen especialmente atractivo: no es un manual técnico, sino una exploración directa de cómo la psicoterapia trabaja con miedo, dolor, esperanza y cambio.",
+        "forWhom": "Para lectores adultos interesados en psicoterapia, salud mental, crecimiento personal y no ficción narrativa. También es recomendable para estudiantes de psicología, terapeutas en formación y lectores habituales de Yalom que busquen un libro menos teórico y más pegado a la consulta real.",
+        "whyItMatters": "Importa porque humaniza la terapia sin trivializarla. Muestra que detrás de cada caso hay un problema existencial concreto y que el terapeuta no opera desde una superioridad fría, sino desde una escucha disciplinada que también lo expone a sus propios límites.",
+        "editorialIntro": "Pocos autores han conseguido escribir sobre psicoterapia con tanta legibilidad como Irvin D. Yalom. En Criaturas de un día, su consulta se convierte en escenario narrativo y filosófico a la vez: cada paciente trae una historia singular, pero también una pregunta universal sobre miedo, pérdida, deseo de sentido y finitud. El libro se lee con la fluidez de un volumen de relatos y deja, además, una visión muy concreta del trabajo terapéutico.",
+        "readingLevel": "Lectura media. No exige formación técnica, porque Yalom escribe con gran claridad, pero sí invita a una lectura atenta por la densidad emocional de los casos y por las ideas existenciales que atraviesan cada historia.",
+        "whyReadToday": "Porque en un momento de gran conversación pública sobre salud mental ofrece algo más valioso que el consejo rápido: una mirada seria, compasiva y matizada sobre cómo sufren las personas y cómo puede ayudarlas una relación terapéutica bien llevada.",
+        "studyNotes": [
+          "El libro debe leerse como no ficción narrativa: combina observación clínica, relato y reflexión existencial.",
+          "Yalom no oculta la figura del terapeuta; su propia subjetividad forma parte del interés del volumen.",
+          "Los casos muestran que síntomas distintos suelen conducir a preguntas compartidas sobre muerte, libertad, culpa, aislamiento y sentido.",
+          "Es útil comparar el libro con manuales de psicología para ver cómo cambia la comprensión cuando la teoría se encarna en historias.",
+          "La claridad estilística de Yalom explica buena parte de su influencia fuera del ámbito académico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: Entrar en la consulta",
+            "summary": "El libro establece desde el comienzo su doble apuesta: contar historias terapéuticas concretas y, a través de ellas, pensar cuestiones existenciales. Yalom sitúa al lector dentro de la consulta y muestra que cada caso desborda cualquier etiqueta diagnóstica simple."
+          },
+          {
+            "title": "Parte central: Diez historias de sufrimiento y búsqueda",
+            "summary": "En el núcleo del volumen aparecen pacientes muy distintos entre sí, unidos por el intento de entender pérdidas, bloqueos, miedos y conflictos de identidad. La terapia se presenta como un trabajo de escucha, confrontación y elaboración más que como una solución automática."
+          },
+          {
+            "title": "Tramo final: El terapeuta también queda implicado",
+            "summary": "Hacia el cierre, el libro hace más visible la posición del propio Yalom y su reflexión sobre envejecimiento, límites profesionales y verdad emocional. Esa exposición del terapeuta vuelve más honesta la propuesta general del libro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Psicoterapia y literatura narrativa",
+            "content": "Una de las claves del libro está en que Yalom sabe contar. Los casos no aparecen como fichas clínicas, sino como historias con tensión, contexto y voz. Esa dimensión narrativa no adorna el contenido, sino que permite comprender mejor cómo se organiza el sufrimiento en una vida concreta."
+          },
+          {
+            "heading": "La huella del existencialismo",
+            "content": "Bajo cada sesión reaparecen los grandes temas que han definido a Yalom: muerte, libertad, aislamiento y sentido. El autor sugiere que muchos malestares contemporáneos no se entienden del todo si se los reduce a síntomas; hay que ver también la pregunta existencial que los sostiene."
+          },
+          {
+            "heading": "El terapeuta como presencia humana",
+            "content": "Yalom evita la máscara del experto infalible. Se muestra cansado, conmovido, dubitativo o tocado por lo que escucha, y eso fortalece el libro porque devuelve a la terapia su dimensión relacional. El conocimiento profesional importa, pero aquí queda claro que también importan honestidad, escucha y coraje interpersonal."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Criaturas de un día es una novela?",
+            "answer": "No. Es un libro de no ficción formado por diez relatos de psicoterapia y por reflexiones del propio Yalom sobre el trabajo clínico y los dilemas humanos que atraviesan esos casos."
+          },
+          {
+            "question": "¿Hace falta saber psicología para leerlo?",
+            "answer": "No hace falta formación previa. Yalom escribe con mucha claridad y orienta al lector general, aunque quienes estudian psicología o terapia encontrarán además un gran valor profesional y ético."
+          },
+          {
+            "question": "¿Qué diferencia este libro de un manual de autoayuda?",
+            "answer": "Que no ofrece recetas rápidas ni fórmulas universales. Trabaja con historias concretas, contradicciones reales y procesos terapéuticos complejos, mostrando que el cambio psicológico suele ser gradual y profundamente humano."
+          },
+          {
+            "question": "¿Aparecen los temas clásicos de Yalom?",
+            "answer": "Sí. El libro vuelve una y otra vez sobre mortalidad, soledad, culpa, libertad y búsqueda de sentido, pero lo hace desde encuentros clínicos concretos y no desde una exposición filosófica abstracta."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - Criaturas de un día",
+            "url": "https://www.planetadelibros.com/libro-criaturas-de-un-dia/193265"
+          },
+          {
+            "label": "Casa del Libro - Criaturas de un día",
+            "url": "https://www.casadellibro.com/libro-criaturas-de-un-dia/9788423353224/6218484"
+          },
+          {
+            "label": "Google Books - Criaturas de un día",
+            "url": "https://books.google.com/books?id=jdAxCAAAQBAJ"
+          },
+          {
+            "label": "Open Library - búsqueda de Criaturas de un día",
+            "url": "https://openlibrary.org/search?q=Criaturas+de+un+d%C3%ADa+Irvin+D.+Yalom"
+          },
+          {
+            "label": "WorldCat - búsqueda de Criaturas de un día",
+            "url": "https://search.worldcat.org/es/search?q=ti%3A%22Criaturas%20de%20un%20d%C3%ADa%22%20au%3A%22Irvin%20D.%20Yalom%22"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-20T14:11:23Z"
+}

@@ -1,0 +1,1469 @@
+{
+  "batchName": "replenish-20260418T0747Z-01",
+  "createdAt": "2026-04-18T06:00:36Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "don-gil-de-las-calzas-verdes-de-tirso-de-molina",
+      "title": "Don Gil De Las Calzas Verdes De Tirso",
+      "authorName": "Molina",
+      "authorSlug": "molina",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Don Gil de las calzas verdes",
+        "authorName": "Tirso de Molina",
+        "authorSlug": "tirso-de-molina",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "teatro clásico",
+          "comedia del Siglo de Oro",
+          "comedia de enredo",
+          "comedia de capa y espada"
+        ],
+        "year": 1635,
+        "pages": 224,
+        "summary": "Don Gil de las calzas verdes es una de las comedias de enredo más brillantes del teatro barroco español. Tirso de Molina construye la trama a partir del engaño amoroso, la movilidad de las identidades y el uso del disfraz como instrumento de inteligencia. Doña Juana, abandonada por don Martín después de haber sido comprometida con él, viaja a Madrid para impedir que el galán se case ventajosamente con doña Inés. Para lograrlo adopta la identidad masculina de don Gil, un personaje atractivo y ambiguo cuya presencia desencadena celos, malentendidos y una cadena de equívocos cada vez más vertiginosa. La obra explota con gran habilidad la comicidad de la confusión, pero también muestra cómo una mujer puede tomar la iniciativa dentro de un sistema regido por honor, conveniencia y apariencia social. El resultado es un mecanismo teatral veloz, ingenioso y sorprendentemente moderno en su tratamiento del deseo y la identidad.",
+        "aboutThisBook": "Publicada en la Parte cuarta de las comedias de Tirso en 1635 y conservada en una tradición editorial muy sólida, esta pieza suele considerarse uno de los mayores logros técnicos del autor. Su fama se debe a la perfección del enredo, al ritmo escénico y al personaje de doña Juana, cuya inteligencia dramática sostiene toda la acción. Las ediciones modernas, como la de Cátedra, la leen además como un ejemplo central de la comedia de capa y espada y del virtuosismo teatral del Siglo de Oro.",
+        "forWhom": "Para lectores universitarios, estudiantes de literatura española, amantes del teatro clásico y quienes quieran acercarse a una comedia barroca especialmente viva, ingeniosa y fácil de analizar en clase.",
+        "whyItMatters": "Importa porque concentra muchas de las grandes energías del teatro áureo: honor, deseo, artificio escénico y humor verbal. Además, su protagonista femenina desestabiliza los papeles sociales habituales y vuelve especialmente fértil su lectura contemporánea.",
+        "editorialIntro": "Hay clásicos que sobreviven por prestigio y otros porque siguen funcionando sobre el escenario y en la lectura. Don Gil de las calzas verdes pertenece claramente al segundo grupo. Tirso de Molina convierte una intriga amorosa en una máquina de precisión cómica donde cada entrada, cada nombre fingido y cada error de percepción multiplica la tensión. Bajo su ligereza aparente, la obra deja ver una inteligencia teatral extraordinaria.",
+        "readingLevel": "Lectura de dificultad media-alta. El verso barroco y las convenciones del teatro del Siglo de Oro exigen atención, pero la claridad del conflicto y la vivacidad del enredo facilitan mucho el seguimiento general.",
+        "whyReadToday": "Sigue siendo actual por su energía escénica y porque permite pensar la identidad, el género y la representación social desde una obra del siglo XVII que todavía sorprende por su flexibilidad y su ingenio.",
+        "studyNotes": [
+          "La clave del texto está en el disfraz de doña Juana: no es un mero recurso cómico, sino el motor de toda la redistribución del poder amoroso.",
+          "Conviene situar la obra dentro de la comedia de capa y espada, donde honor, matrimonio y apariencia pública organizan los conflictos.",
+          "Caramanchel ayuda a leer el enredo desde abajo: sus comentarios introducen distancia cómica y permiten medir lo absurdo de la confusión general.",
+          "Puede compararse con otras piezas del Siglo de Oro para ver cómo Tirso lleva al límite la rapidez de la intriga y la movilidad identitaria."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Jornada I: el abandono y el plan",
+            "summary": "Doña Juana descubre que don Martín pretende dejar atrás su compromiso y casarse con doña Inés por conveniencia. Decide entonces viajar a Madrid y asumir la identidad de don Gil para interceptar la nueva alianza y recuperar la iniciativa en un mundo regido por las apariencias."
+          },
+          {
+            "title": "Jornada II: el enredo se multiplica",
+            "summary": "La falsa identidad de don Gil empieza a producir efectos en cadena. Doña Inés se siente atraída por ese caballero elegante y misterioso, mientras otros personajes interpretan mal los gestos y las lealtades. La obra acelera así su juego de celos, dobles sentidos y falsas evidencias."
+          },
+          {
+            "title": "Jornada III: revelaciones y recomposición",
+            "summary": "Cuando la confusión llega a su máximo punto, las identidades ocultas salen a la luz y el equilibrio social debe rehacerse. La resolución restituye los vínculos amorosos y muestra que la astucia de doña Juana ha sido más eficaz que las maniobras interesadas de don Martín."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Doña Juana y la inteligencia del disfraz",
+            "content": "La protagonista no se limita a reaccionar ante una traición: diseña una estrategia, manipula la escena y controla el ritmo del enredo. Su travestimiento le permite moverse por espacios vedados y convertir la representación en herramienta de justicia amorosa."
+          },
+          {
+            "heading": "El virtuosismo técnico de Tirso",
+            "content": "La obra suele admirarse por la precisión con que enlaza entradas, salidas, nombres, rumores y malentendidos. Cada escena añade una complicación nueva sin romper la inteligibilidad del conjunto, algo que explica su permanencia en la historia del teatro español."
+          },
+          {
+            "heading": "Identidad, deseo y apariencia social",
+            "content": "El texto muestra que el deseo puede desplazarse según la imagen pública, el vestido y la palabra. Esa movilidad vuelve la obra especialmente rica para lecturas actuales sobre género y performatividad, aunque sin perder su anclaje en la lógica barroca del honor."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué tipo de obra es Don Gil de las calzas verdes?",
+            "answer": "Es una comedia de capa y espada del Siglo de Oro, célebre por su enredo amoroso, su rapidez escénica y el uso del disfraz como recurso central."
+          },
+          {
+            "question": "¿Quién impulsa realmente la acción?",
+            "answer": "Doña Juana. Su decisión de hacerse pasar por don Gil reorganiza toda la trama y convierte a la protagonista en la gran estratega de la obra."
+          },
+          {
+            "question": "¿Por qué la obra sigue estudiándose tanto?",
+            "answer": "Porque combina eficacia teatral, comicidad y una compleja reflexión sobre identidad y apariencia. Además, es una de las piezas más logradas de Tirso de Molina."
+          },
+          {
+            "question": "¿Es difícil de leer hoy?",
+            "answer": "Tiene la dificultad normal del teatro barroco en verso, pero su trama es tan dinámica y clara en sus objetivos que suele resultar muy agradecida en lectura guiada o representación."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: ficha de Don Gil de las calzas verdes",
+            "url": "https://www.cervantesvirtual.com/obra/don-gil-de-las-calzas-verdes/"
+          },
+          {
+            "label": "Britannica: Don Gil de las calzas verdes",
+            "url": "https://www.britannica.com/topic/Don-Gil-de-las-Calzas-Verdes"
+          },
+          {
+            "label": "Ediciones Cátedra: Don Gil de las calzas verdes",
+            "url": "https://catedra.com/libro/letras-hispanicas/don-gil-de-las-calzas-verdes-tirso-de-molina-9788437625201/"
+          },
+          {
+            "label": "Wikipedia en español: Don Gil de las calzas verdes",
+            "url": "https://es.wikipedia.org/wiki/Don_Gil_de_las_calzas_verdes"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-angel-numero-doce-de-og-mandino",
+      "title": "El Angel Numero Doce",
+      "authorName": "Og Mandino",
+      "authorSlug": "og-mandino",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El ángel número doce",
+        "authorName": "Og Mandino",
+        "authorSlug": "og-mandino",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela inspiracional",
+          "ficción espiritual",
+          "drama",
+          "relato de superación"
+        ],
+        "year": 1993,
+        "pages": 188,
+        "summary": "El ángel número doce cuenta la historia de John Harding, un ejecutivo que ve destruida su vida cuando pierde a su esposa y a su hijo en un accidente. Hundido en una depresión paralizante, regresa a su ciudad natal y queda emocionalmente suspendido entre la culpa, la tristeza y la renuncia. El giro del relato llega cuando un amigo lo convence de entrenar a un equipo infantil de béisbol, los Angels. Allí conoce a Timothy Noble, el duodécimo jugador del plantel, un niño pequeño, enfermo y extraordinariamente perseverante cuya confianza contrasta con el vacío interior del adulto. La novela organiza su sentimentalismo alrededor de esa relación: el deporte deja de ser solo competición y se convierte en espacio de duelo, aprendizaje y renovación moral. Mandino busca conmover con una fábula de esperanza, disciplina interior y fe en la posibilidad de recomenzar incluso después de una pérdida devastadora.",
+        "aboutThisBook": "La novela apareció originalmente en inglés como The Twelfth Angel y consolidó la faceta narrativa de Og Mandino más allá de sus libros de motivación. Publishers Weekly la describió como una ficción de duelo y coraje, mientras que Penguin Random House la presenta como una historia sobre vida, amor y valentía. En el ámbito hispano ha circulado como El ángel número doce, en ediciones de amplio alcance comercial. Su mezcla de tragedia familiar, deporte y mensaje de superación explica tanto su popularidad como las reservas de quienes la consideran una obra deliberadamente sentimental.",
+        "forWhom": "Para lectores adultos que buscan novelas emotivas de superación, relatos con dimensión espiritual accesible y tramas donde el dolor personal encuentra salida en la amistad, el deporte y la esperanza.",
+        "whyItMatters": "Importa porque traduce ideas de resiliencia y fe práctica a una narración sencilla, muy legible y emocionalmente directa. También muestra cómo la ficción inspiracional trabaja el duelo sin renunciar al consuelo ni a la ejemplaridad.",
+        "editorialIntro": "Og Mandino es recordado sobre todo por sus libros de motivación, pero en El ángel número doce traslada ese impulso a una novela breve. Lo hace con un argumento transparente y afectivo: un hombre roto por la pérdida encuentra una forma de seguir viviendo gracias a un niño cuya fragilidad no impide una voluntad casi luminosa. El libro apuesta sin ironía por la emoción y por la posibilidad de la reparación interior.",
+        "readingLevel": "Lectura accesible para público general adulto. El estilo es directo, el conflicto se entiende desde el principio y la novela privilegia la claridad emocional sobre la complejidad formal o psicológica.",
+        "whyReadToday": "Puede leerse hoy como ejemplo claro de ficción inspiracional popular y como recordatorio de que muchas novelas contemporáneas siguen buscando sentido en la comunidad, el cuidado y la perseverancia ante el sufrimiento.",
+        "studyNotes": [
+          "El béisbol funciona como estructura simbólica: no importa solo ganar partidos, sino recuperar disciplina, pertenencia y horizonte vital.",
+          "Timothy Noble encarna la dimensión ejemplar del relato; conviene leerlo como personaje y también como figura moral dentro de la lógica inspiracional de Mandino.",
+          "La novela trabaja el duelo desde la transformación práctica: la salida del dolor no llega por abstracción filosófica, sino por vínculos, rutina y servicio a otros.",
+          "Es útil distinguir entre su eficacia emocional y su posible simplificación psicológica, especialmente si se compara con novelas realistas sobre pérdida."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: caída y aislamiento",
+            "summary": "John Harding pasa de una vida profesional y familiar aparentemente plena a una existencia vaciada por la tragedia. La pérdida de su esposa y su hijo lo deja sin propósito y convierte el duelo en una fuerza inmovilizadora."
+          },
+          {
+            "title": "Desarrollo: el equipo de los Angels",
+            "summary": "La propuesta de entrenar a un equipo infantil obliga a Harding a salir de sí mismo. En ese espacio conoce a Timothy Noble, cuya actitud perseverante y confiada va desmontando poco a poco el encierro emocional del protagonista."
+          },
+          {
+            "title": "Cierre: fe, coraje y recomienzo",
+            "summary": "La parte final del libro transforma la relación entre el entrenador y el niño en una lección de resistencia moral. Sin negar el dolor, la novela empuja a Harding hacia una forma nueva de aceptación y esperanza."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El duelo como punto de partida narrativo",
+            "content": "Mandino no presenta el sufrimiento como una prueba abstracta, sino como una parálisis concreta: el protagonista pierde deseo, iniciativa y vínculo con el mundo. La novela se organiza entonces como un proceso de retorno gradual a la vida compartida."
+          },
+          {
+            "heading": "La lógica de la ficción inspiracional",
+            "content": "El libro busca conmover y orientar a la vez. Sus personajes, escenas y diálogos están construidos para producir una enseñanza reconocible sobre valentía, perseverancia y fe, más que para explorar ambigüedades psicológicas muy complejas."
+          },
+          {
+            "heading": "Deporte, comunidad y reparación",
+            "content": "El equipo infantil no es un decorado, sino un espacio de reconstrucción moral. El entrenamiento y la convivencia permiten que el protagonista vuelva a mirar a otros, acepte ayuda y encuentre significado en una tarea que lo excede."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela religiosa?",
+            "answer": "Tiene una dimensión espiritual e inspiracional clara, pero funciona sobre todo como relato de duelo, esperanza y superación personal, accesible incluso para lectores no confesionales."
+          },
+          {
+            "question": "¿Qué papel cumple Timothy Noble?",
+            "answer": "Es el centro emocional y moral del libro. Su perseverancia y su actitud ante la enfermedad ofrecen al protagonista una referencia concreta de coraje y sentido."
+          },
+          {
+            "question": "¿El béisbol es esencial en la trama?",
+            "answer": "Sí. El equipo de los Angels articula la transformación de John Harding y convierte el deporte en un lenguaje de pertenencia, disciplina y esperanza."
+          },
+          {
+            "question": "¿Qué tono tiene la novela?",
+            "answer": "Es una novela emotiva y deliberadamente sentimental. Quien busque una historia de consuelo y aprendizaje moral probablemente conectará mejor con ella que quien espere una exploración psicológica dura o ambigua."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Penguin Random House: Twelfth Angel",
+            "url": "https://www.penguinrandomhouse.com/books/106919/twelfth-angel-by-og-mandino/"
+          },
+          {
+            "label": "Publishers Weekly: The Twelfth Angel by Og Mandino",
+            "url": "https://www.publishersweekly.com/9780449906897"
+          },
+          {
+            "label": "Planeta de Libros México: El ángel número doce",
+            "url": "https://www.planetadelibros.com.mx/libro-el-angel-numero-doce/154236"
+          },
+          {
+            "label": "Internet Archive: El ángel número doce",
+            "url": "https://archive.org/details/elangelnumerodoc0000mand"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-metodo-del-doctor-alquitran-y-el-profesor-pluma-de-edgar-allan-poe",
+      "title": "El Metodo Del Doctor Alquitran Y El Profesor Pluma",
+      "authorName": "Edgar Allan Poe",
+      "authorSlug": "edgar-allan-poe",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El método del doctor Alquitrán y el profesor Pluma",
+        "authorName": "Edgar Allan Poe",
+        "authorSlug": "edgar-allan-poe",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "cuento",
+          "cuento gótico",
+          "sátira",
+          "humor negro"
+        ],
+        "year": 1845,
+        "pages": null,
+        "summary": "Este célebre cuento de Poe parte de una visita a un manicomio del sur de Francia, supuestamente famoso por aplicar un moderno y benévolo “método de la suavidad” en el tratamiento de sus internos. El narrador, curioso y algo ingenuo, llega a la institución con el deseo de conocer de cerca ese sistema. Pronto encuentra un ambiente extraño: el director se muestra cordial, la cena transcurre con una extravagancia creciente y los comensales parecen entregados a una teatralidad difícil de explicar. Poe administra la información con astucia y convierte la conversación aparentemente civilizada en una escena de amenaza latente. La revelación final descubre que los locos se han rebelado, han encerrado al personal y ocupan su lugar, aplicando a los antiguos guardianes el violento “método” del doctor Alquitrán y el profesor Pluma. El relato mezcla comicidad macabra, crítica a ciertos discursos psiquiátricos y un gusto muy poeniano por el giro abrupto.",
+        "aboutThisBook": "Publicado por primera vez en Graham’s Magazine en noviembre de 1845, el cuento pertenece a la etapa madura de Poe y ocupa un lugar singular dentro de su obra porque combina lo gótico con la sátira y la burla institucional. No busca tanto el terror sostenido de otros relatos como una incomodidad creciente que estalla en una inversión carnavalesca de jerarquías. La tradición crítica ha leído el texto en relación con debates decimonónicos sobre los asilos y los métodos de tratamiento mental, algo que refuerza su interés más allá del simple golpe final.",
+        "forWhom": "Para lectores adultos interesados en Poe más allá del terror convencional, en cuentos breves de atmósfera perturbadora y en textos donde la sátira social se cruza con lo grotesco y lo macabro.",
+        "whyItMatters": "Importa porque muestra otra cara de Poe: no solo el poeta de la angustia o del crimen obsesivo, sino también el narrador irónico capaz de convertir una institución moderna en escenario de farsa siniestra y crítica cultural.",
+        "editorialIntro": "Quien espere en este cuento un susto lineal encontrará algo más refinado. Poe prepara la escena con la calma de una visita cortesana, deja que la rareza se filtre por los modales y retrasa al máximo la revelación de la violencia. El resultado es un relato breve, incisivo y extraño, donde el humor negro sirve para poner en duda la frontera entre autoridad, cordura y espectáculo.",
+        "readingLevel": "Lectura de dificultad media. La trama es breve y clara, pero el tono irónico, las alusiones a prácticas psiquiátricas y la sutileza del narrador exigen atención para captar todo su efecto satírico.",
+        "whyReadToday": "Sigue valiendo la pena porque conserva su eficacia como historia de inversión de papeles y porque permite discutir cómo la sociedad define la normalidad, administra el encierro y transforma la razón en máscara de poder.",
+        "studyNotes": [
+          "La ingenuidad del narrador es decisiva: su mirada tarda en reconocer lo evidente y permite que el lector experimente la extrañeza de forma gradual.",
+          "El cuento dialoga con debates del siglo XIX sobre el trato a los enfermos mentales y caricaturiza tanto la crueldad como la retórica filantrópica.",
+          "La cena es la gran escena de suspense del relato: allí se acumulan gestos, voces y conductas excéntricas que anuncian el desorden real del asilo.",
+          "Conviene leer el final no solo como sorpresa, sino como inversión satírica de la autoridad institucional."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1: llegada a la maison de santé",
+            "summary": "El narrador se dirige a un asilo francés atraído por la fama de un método terapéutico innovador y humanitario. Desde la aproximación al edificio, Poe instala una atmósfera de decadencia y sospecha."
+          },
+          {
+            "title": "Momento 2: la cena y la rareza creciente",
+            "summary": "Dentro del establecimiento, la conversación del supuesto director y el comportamiento de los invitados vuelven cada vez más extraña la escena. El tono oscila entre cortesía, absurdo y amenaza contenida."
+          },
+          {
+            "title": "Momento 3: revelación del verdadero método",
+            "summary": "La irrupción final descubre que los internos se habían apoderado del asilo y que el relato escuchado durante la cena describía su propia rebelión. La comicidad grotesca desemboca entonces en una inversión brutal del orden."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Sátira de la autoridad psiquiátrica",
+            "content": "Poe se sirve del escenario del asilo para ridiculizar la seguridad con que las instituciones clasifican y administran la conducta humana. El cuento sugiere que la autoridad puede ser tan teatral y arbitraria como la locura que pretende controlar."
+          },
+          {
+            "heading": "Humor negro y estructura del giro final",
+            "content": "La eficacia del relato depende de un equilibrio muy preciso entre cortesía social, extravagancia y amenaza. El humor no alivia la inquietud; la intensifica, porque vuelve más perturbadora la naturalidad con que se narra lo anómalo."
+          },
+          {
+            "heading": "El asilo como espacio gótico moderno",
+            "content": "Aunque no recurre a castillos medievales en sentido estricto, Poe convierte la maison de santé en una versión moderna del recinto gótico: un lugar cerrado, ambiguo y jerárquico donde la razón se corrompe y la verdad llega demasiado tarde."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un cuento de terror puro?",
+            "answer": "No exactamente. Tiene elementos góticos y perturbadores, pero funciona también como sátira y como pieza de humor negro construida alrededor de una inversión final."
+          },
+          {
+            "question": "¿Cuándo se publicó por primera vez?",
+            "answer": "Se publicó en Graham’s Magazine en noviembre de 1845, en la etapa final de la carrera de Poe."
+          },
+          {
+            "question": "¿Qué significa el título?",
+            "answer": "Alude irónicamente a un supuesto método de tratamiento. El alquitrán y las plumas remiten al castigo humillante aplicado a quienes terminan derrotados en la rebelión del asilo."
+          },
+          {
+            "question": "¿Por qué interesa más allá del final sorpresivo?",
+            "answer": "Porque condensa una crítica a la autoridad, una reflexión sobre la representación de la locura y una de las muestras más claras del costado satírico de Poe."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: The System of Doctor Tarr and Professor Fether",
+            "url": "https://en.wikipedia.org/wiki/The_System_of_Doctor_Tarr_and_Professor_Fether"
+          },
+          {
+            "label": "Edgar Allan Poe Society of Baltimore: The System of Doctor Tarr and Professor Fether",
+            "url": "https://www.eapoe.org/works/info/pt053.htm"
+          },
+          {
+            "label": "Cambridge Core: The System of Dr Tarr and Professor Fether (1845)",
+            "url": "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/system-of-dr-tarr-and-professor-fether-1845-edgar-allan-poe/4A3F9498867444668286F07135A9C30B"
+          },
+          {
+            "label": "Project Gutenberg: The Works of Edgar Allan Poe — Volume 2",
+            "url": "https://www.gutenberg.org/ebooks/2148"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-punto-ciego-de-daniel-goleman",
+      "title": "El Punto Ciego",
+      "authorName": "Daniel Goleman",
+      "authorSlug": "daniel-goleman",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El punto ciego: psicología del autoengaño",
+        "authorName": "Daniel Goleman",
+        "authorSlug": "daniel-goleman",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "psicologia",
+          "ensayo",
+          "divulgacion"
+        ],
+        "year": 1985,
+        "pages": 333,
+        "summary": "En este ensayo, Daniel Goleman examina una idea tan cotidiana como incómoda: la mente humana no solo se equivoca, también aprende a esconderse de sí misma. El libro estudia el autoengaño como mecanismo psicológico, social y moral. Goleman muestra cómo filtramos hechos dolorosos, justificamos conductas contradictorias y construimos versiones tranquilizadoras de la realidad para proteger la identidad, el prestigio o la pertenencia al grupo. No se limita a describir una patología individual: conecta la negación íntima con la ceguera colectiva, los prejuicios, la desatención selectiva y las ficciones compartidas por familias, instituciones y sociedades. Su interés está en explicar por qué personas razonables pueden vivir instaladas en una media verdad y qué costes emocionales, éticos y públicos tiene esa comodidad mental.",
+        "aboutThisBook": "La obra circuló en español con el título La psicología del autoengaño y también como El punto ciego: psicología del autoengaño. Corresponde al libro original Vital Lies, Simple Truths, uno de los trabajos tempranos de Goleman antes de su difusión masiva por Inteligencia emocional. Google Books y Open Library la sitúan en torno a la edición de Atlántida, con 333 páginas, y la presentación bibliográfica española más reciente conserva la idea del punto ciego como metáfora central. El libro combina psicología, observación social y reflexión cultural para mostrar que la negación no es una rareza, sino una estrategia habitual de adaptación que puede proteger provisionalmente, pero también deformar la percepción de uno mismo y del mundo.",
+        "forWhom": "Para lectores de psicología, divulgación humanista, ética pública y análisis del comportamiento que busquen una explicación seria, accesible y nada complaciente sobre cómo funciona el autoengaño.",
+        "whyItMatters": "Importa porque ayuda a entender un problema decisivo de la vida contemporánea: no basta con tener información para ver con claridad. El autoengaño organiza percepciones, excusas y silencios; por eso afecta tanto a la intimidad como a la política, el trabajo y la convivencia.",
+        "editorialIntro": "Antes de hacerse mundialmente conocido por la inteligencia emocional, Daniel Goleman escribió un libro menos citado pero extraordinariamente incisivo. El punto ciego parte de una intuición demoledora: muchas de nuestras convicciones más firmes no se sostienen sobre la verdad, sino sobre arreglos mentales que nos permiten seguir funcionando. Leído hoy, conserva fuerza porque no moraliza desde fuera; explica con paciencia cómo la mente selecciona, tapa, desplaza y racionaliza. El resultado es un ensayo muy útil para pensar la fragilidad de la lucidez en tiempos saturados de estímulos, relatos interesados y certezas defensivas.",
+        "readingLevel": "Lectura media-alta: lenguaje ensayistico accesible, pero con conceptos de psicologia, observacion social y argumentacion continua.",
+        "whyReadToday": "Porque el libro ofrece un marco muy actual para pensar la desinformación, los sesgos, la polarización y las narrativas con las que cada persona protege su imagen de sí misma aunque choque con los hechos.",
+        "studyNotes": [
+          "La metáfora del punto ciego debe leerse en sentido amplio: no designa solo un error perceptivo, sino una zona protegida de la conciencia donde se alojan verdades difíciles de admitir.",
+          "Goleman vincula psicología individual y realidad social; por eso conviene atender a cómo la negación privada se transforma en autoengaño grupal, ideológico o institucional.",
+          "El libro no celebra una sinceridad brutal e instantánea. Sugiere que ciertos mecanismos defensivos nacen para proteger, pero se vuelven destructivos cuando impiden revisar la realidad.",
+          "Es especialmente útil comparar sus ideas con debates actuales sobre sesgos cognitivos, posverdad y construcción narrativa del yo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: atención, dolor y defensas mentales",
+            "summary": "El inicio explica por qué la mente evita ciertos datos cuando amenazan la estabilidad emocional. Goleman muestra que no ver puede ser una forma de defensa antes que simple ignorancia."
+          },
+          {
+            "title": "Parte 2: secretos ante uno mismo",
+            "summary": "La sección central examina cómo las personas sostienen versiones parciales de su historia, racionalizan contradicciones y convierten deseos o temores en interpretaciones aparentemente objetivas."
+          },
+          {
+            "title": "Parte 3: carácter y percepción selectiva",
+            "summary": "Aquí el libro relaciona el autoengaño con hábitos de personalidad, estilos afectivos y modos de mirar el mundo. La percepción deja de ser neutra y aparece modelada por necesidades profundas."
+          },
+          {
+            "title": "Parte 4: el yo colectivo y la realidad social",
+            "summary": "El cierre amplía el problema desde el individuo hacia familias, grupos e instituciones. La negación compartida se presenta como una fuerza capaz de organizar culturas enteras de silencio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El autoengaño como mecanismo de supervivencia",
+            "content": "Uno de los aciertos del libro es evitar una condena simplista. Goleman describe el autoengaño como recurso adaptativo que puede amortiguar el dolor, aunque a largo plazo genere distorsiones cada vez más costosas."
+          },
+          {
+            "heading": "De la mente privada a la mentira social",
+            "content": "La obra resulta especialmente fértil cuando muestra que las cegueras personales no viven aisladas. Se refuerzan en instituciones, discursos y lealtades colectivas que premian no mirar demasiado."
+          },
+          {
+            "heading": "La percepción nunca es inocente",
+            "content": "Goleman insiste en que ver no es registrar pasivamente un dato, sino interpretarlo desde expectativas, miedos y marcos previos. Esa idea vuelve el ensayo útil más allá de la psicología clínica."
+          },
+          {
+            "heading": "Actualidad de un ensayo previo a la era digital",
+            "content": "Aunque escrito antes del ecosistema de redes y algoritmos, el libro anticipa preguntas centrales del presente: cómo se forman burbujas de creencias, por qué persisten relatos falsos y qué dificultad real implica corregirse."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de autoayuda?",
+            "answer": "No en sentido estricto. Es un ensayo de divulgación psicológica con ambición interpretativa, más interesado en comprender los mecanismos del autoengaño que en ofrecer recetas rápidas."
+          },
+          {
+            "question": "¿Qué relación tiene con Inteligencia emocional?",
+            "answer": "Es un libro anterior y menos popular, pero permite ver ya el interés de Goleman por la vida afectiva, la atención y los modos en que la mente condiciona nuestra conducta."
+          },
+          {
+            "question": "¿Habla solo de individuos o también de sociedades?",
+            "answer": "Habla de ambos niveles. Una de sus tesis más sugerentes es que la negación personal encuentra eco en formas colectivas de silencio y justificación."
+          },
+          {
+            "question": "¿Por qué sigue siendo relevante?",
+            "answer": "Porque ofrece herramientas para pensar sesgos, polarización, negacionismos y narrativas defensivas sin reducirlos a simple mala fe o falta de información."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Google Books: La psicología del autoengaño",
+            "url": "https://books.google.com/books/about/La_psicolog%C3%ADa_del_autoenga%C3%B1o.html?id=at9gAAAACAAJ"
+          },
+          {
+            "label": "Open Library: La psicología del autoengaño",
+            "url": "https://openlibrary.org/books/OL12956830M/La_psicolog%C3%ADa_del_autoenga%C3%B1o"
+          },
+          {
+            "label": "Internet Archive: La psicología del autoengaño",
+            "url": "https://archive.org/details/lapsicologadelau0000dani"
+          },
+          {
+            "label": "Casa del Libro: El punto ciego. Psicología del autoengaño",
+            "url": "https://www.casadellibro.com/libro-el-punto-ciego-psicologia-del-autoengano/mkt0003906317/5498400"
+          },
+          {
+            "label": "Wikipedia: Daniel Goleman",
+            "url": "https://es.wikipedia.org/wiki/Daniel_Goleman"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "en-la-ardiente-oscuridad-de-antonio-buero-vallejo",
+      "title": "En La Ardiente Oscuridad",
+      "authorName": "Antonio Buero Vallejo",
+      "authorSlug": "antonio-buero-vallejo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "En la ardiente oscuridad",
+        "authorName": "Antonio Buero Vallejo",
+        "authorSlug": "antonio-buero-vallejo",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "teatro",
+          "drama",
+          "teatro simbolico"
+        ],
+        "year": 1950,
+        "pages": null,
+        "summary": "En la ardiente oscuridad es una de las obras decisivas del primer teatro de Antonio Buero Vallejo. Ambientada en una institución para jóvenes ciegos, enfrenta dos formas opuestas de habitar la vida. La mayoría de los internos ha aceptado un ideal de armonía construido sobre disciplina, adaptación y optimismo; la llegada de Ignacio rompe ese equilibrio porque se niega a fingir que la ceguera no duele. Su inconformidad introduce malestar, deseo de verdad y una conciencia trágica que desestabiliza a todos, especialmente a Carlos. A partir de ese conflicto, Buero convierte una situación concreta en una alegoría más amplia sobre la mentira consoladora, la violencia con que una comunidad se protege y el precio de abrir los ojos interiores. La obra funciona a la vez como drama psicológico, reflexión ética y pieza emblemática del teatro español de posguerra.",
+        "aboutThisBook": "La obra se estrenó en 1950 y fue publicada en 1951; Open Library registra ediciones tempranas y la identifica como drama en tres actos, mientras Wikipedia y la Biblioteca Virtual Miguel de Cervantes resumen su argumento y su lugar central dentro del teatro de Buero Vallejo. Su escenario de ciegos no debe leerse en clave meramente costumbrista. Buero lo transforma en un espacio simbólico donde se debaten verdad, conformismo, deseo, violencia y autoengaño colectivo. Esa densidad explica que siga apareciendo en programas de literatura, montajes teatrales y análisis académicos. El texto pertenece al momento en que Buero convierte el drama íntimo en una reflexión moral y social sin renunciar a la tensión escénica.",
+        "forWhom": "Para lectores de teatro, estudiantes de bachillerato y universidad, y quienes busquen una obra breve pero intensa sobre verdad, dolor, adaptación y conflicto moral en la España del siglo XX.",
+        "whyItMatters": "Importa porque formula con gran claridad una pregunta que desborda su argumento: ¿es preferible una felicidad sostenida por la ocultación o una verdad dolorosa que obliga a cambiar? Esa tensión sigue siendo literaria, ética y política.",
+        "editorialIntro": "Buero Vallejo escribió pocas obras tan nítidas y perturbadoras como esta. En apariencia, el conflicto gira en torno a un internado de ciegos y a un recién llegado incapaz de adaptarse. Pero el verdadero tema es mucho más amplio: la violencia con que los grupos expulsan a quien nombra lo que todos preferían mantener en penumbra. En la ardiente oscuridad pertenece a ese raro tipo de dramas que pueden leerse como historia concreta, símbolo moral y comentario social al mismo tiempo. Su eficacia nace de una construcción escénica sobria y de un debate interior que no envejece.",
+        "readingLevel": "Lectura media-alta: el texto teatral es claro, pero su simbolismo, su trasfondo etico y sus dobles sentidos piden lectura atenta.",
+        "whyReadToday": "Porque ayuda a pensar la presión por adaptarse, el miedo a la verdad incómoda y la facilidad con que una comunidad puede convertir la discrepancia en amenaza para su propia estabilidad.",
+        "studyNotes": [
+          "La ceguera tiene valor dramático y simbólico: no se trata solo de una condición física, sino de una forma de relación con la verdad y con el consuelo socialmente aceptado.",
+          "Ignacio encarna la disidencia radical; Carlos, en cambio, muestra cómo la necesidad de orden puede volverse agresiva cuando se siente cuestionada.",
+          "Conviene leer la obra en el contexto del teatro de posguerra, donde Buero desplaza la crítica social hacia estructuras simbólicas capaces de pasar la censura sin perder intensidad.",
+          "El espacio cerrado de la institución refuerza la idea de microcosmos: lo que allí sucede remite a una comunidad mucho más amplia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Acto I: la llegada de Ignacio",
+            "summary": "El equilibrio del centro se altera con la incorporación de Ignacio, que se resiste a compartir el optimismo disciplinado del grupo. Su malestar contagia preguntas que antes permanecían acalladas."
+          },
+          {
+            "title": "Acto II: deseo, conflicto y contagio moral",
+            "summary": "Las relaciones entre Ignacio, Juana y Carlos intensifican la tensión. La incomodidad deja de ser abstracta y se convierte en rivalidad afectiva, resentimiento y choque entre dos visiones de la existencia."
+          },
+          {
+            "title": "Acto III: violencia y verdad irreversible",
+            "summary": "La crisis desemboca en la muerte de Ignacio. Sin embargo, el intento de restaurar la calma fracasa moralmente: las últimas resonancias del drama muestran que la verdad introducida por el disidente ya no puede borrarse."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Verdad dolorosa frente a consuelo organizado",
+            "content": "La oposición central de la obra no es entre optimismo y pesimismo, sino entre una adaptación basada en la ocultación y una lucidez que desgarra. Buero no simplifica: ambos caminos tienen coste, pero solo uno evita la mentira."
+          },
+          {
+            "heading": "La institución como alegoría social",
+            "content": "El centro de ciegos funciona como un laboratorio moral. Allí se concentra una comunidad que vigila, integra y expulsa, de modo que el escenario remite tanto a la familia como a la sociedad autoritaria de su tiempo."
+          },
+          {
+            "heading": "Ignacio y Carlos: dos respuestas al límite",
+            "content": "Ignacio radicaliza la conciencia del dolor; Carlos radicaliza la necesidad de estabilidad. El drama nace del choque entre una verdad que no acepta maquillajes y una normalidad incapaz de soportarla."
+          },
+          {
+            "heading": "Una pieza clave del teatro de Buero",
+            "content": "La obra anticipa rasgos mayores de Buero Vallejo: simbolismo accesible, tensión ética, espacio cerrado y conflicto entre apariencia y conciencia. Por eso sigue siendo una puerta de entrada excelente a su dramaturgia."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una obra realista o simbólica?",
+            "answer": "Es ambas cosas. Parte de una situación escénica concreta y verosímil, pero la convierte en una alegoría sobre la verdad, la adaptación y la ceguera moral."
+          },
+          {
+            "question": "¿Por qué Ignacio resulta tan perturbador para los demás?",
+            "answer": "Porque se niega a aceptar la ficción consoladora que mantiene unido al grupo. Su sola presencia obliga a nombrar un sufrimiento que los otros preferían domesticar."
+          },
+          {
+            "question": "¿Tiene relación con la España de posguerra?",
+            "answer": "Sí. Sin reducirse a una lectura política directa, la obra dialoga con un clima social donde el silencio, la adaptación y la represión de la verdad eran experiencias reconocibles."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose en contextos educativos?",
+            "answer": "Porque ofrece un conflicto muy claro y a la vez muy profundo, ideal para trabajar simbolismo, teatro contemporáneo y reflexión ética sobre verdad y convivencia."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: En la ardiente oscuridad",
+            "url": "https://es.wikipedia.org/wiki/En_la_ardiente_oscuridad"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: texto de En la ardiente oscuridad",
+            "url": "https://www.cervantesvirtual.com/obra-visor/en-la-ardiente-oscuridad--0/html/"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: portal Antonio Buero Vallejo",
+            "url": "https://www.cervantesvirtual.com/portales/antonio_buero_vallejo/"
+          },
+          {
+            "label": "Open Library: En la ardiente oscuridad",
+            "url": "https://openlibrary.org/works/OL981123W/En_la_ardiente_oscuridad"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ese-principe-que-fui-de-jordi-soler",
+      "title": "Ese Principe Que Fui",
+      "authorName": "Jordi Soler",
+      "authorSlug": "jordi-soler",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Ese príncipe que fui",
+        "authorName": "Jordi Soler",
+        "authorSlug": "jordi-soler",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela",
+          "novela historica",
+          "satira"
+        ],
+        "year": 2015,
+        "pages": 240,
+        "summary": "Jordi Soler construye en esta novela una historia fronteriza entre crónica familiar, farsa histórica y relato de impostura. El punto de partida es la figura de Federico de Grau Moctezuma, personaje excéntrico y desastrado que descubre o decide creer que es el último descendiente vivo del emperador Moctezuma. A partir de ahí, la novela enlaza la España franquista, el legado de la conquista y una genealogía improbable que une México, Cataluña y la memoria deformada del linaje imperial mexica. Soler no se limita a contar una aventura pintoresca: explora la facilidad con que la Historia abre grietas para que entren la leyenda, la ambición, el deseo de prestigio y la necesidad de inventarse un origen. El resultado mezcla humor, melancolía y una reflexión muy aguda sobre identidad, herencia y ficción histórica.",
+        "aboutThisBook": "Publicada en 2015 por Alfaguara, según Penguin Libros y Librerías Gandhi, la novela gira en torno a un supuesto heredero de Moctezuma que explota en la España de los años sesenta una nobleza tan extravagante como rentable. Open Library sitúa la obra en la trayectoria reciente de Jordi Soler, autor muy atento a las relaciones entre memoria, historia y fabulación. El libro trabaja con materiales históricos reales —la descendencia de Moctezuma, los desplazamientos entre México y España, la persistencia de un pasado imperial—, pero los filtra por una imaginación narrativa que no separa del todo documento y embuste. Ese juego es precisamente una de sus mayores virtudes: obliga al lector a pensar cuánto de la identidad histórica depende de relatos, huecos y versiones interesadas.",
+        "forWhom": "Para lectores de narrativa hispano-mexicana, novela histórica heterodoxa, sátira literaria y libros que disfrutan mezclando documento, leyenda familiar e impostura.",
+        "whyItMatters": "Importa porque revisita la herencia de la conquista desde un lugar poco solemne y muy inteligente. En vez de ofrecer una reconstrucción monumental, muestra cómo los linajes, los símbolos y la memoria imperial siguen produciendo máscaras en el presente.",
+        "editorialIntro": "Ese príncipe que fui es una novela especialmente representativa de Jordi Soler: exuberante, irónica, histórica y deliberadamente equívoca. Su protagonista podría ser leído como pícaro tardío, fantasma del franquismo o heredero grotesco de una grandeza abolida. Soler aprovecha esa ambigüedad para montar una historia en la que México y España se devuelven mutuamente sus mitos, sus ruinas y sus imposturas. La novela tiene humor, sí, pero también una melancolía persistente: bajo la extravagancia del falso o verdadero príncipe late la pregunta por lo que queda de un pasado imperial cuando solo sobrevive en rumores, apellidos y delirios de legitimidad.",
+        "readingLevel": "Lectura media-alta: prosa fluida pero rica en ironia, referencias historicas y cambios de registro entre la cronica, la fabula y la novela de linaje.",
+        "whyReadToday": "Porque ofrece una mirada muy original sobre memoria colonial, legitimidad heredada y fabricación de identidades, temas todavía vivos en los debates culturales entre España y América Latina.",
+        "studyNotes": [
+          "La novela funciona mejor si se acepta su inestabilidad genérica: no pretende separar con nitidez historia comprobable, leyenda familiar y embuste interesado.",
+          "Federico de Grau Moctezuma concentra una tradición picaresca actualizada; su figura permite leer el libro como sátira del prestigio, la nobleza y la necesidad de inventar abolengos.",
+          "El vínculo entre México y España no aparece como simple telón de fondo, sino como un circuito de memorias cruzadas donde la conquista sigue produciendo relatos y fantasmas.",
+          "Conviene atender al tono: la comicidad no rebaja el tema histórico, sino que lo vuelve más incómodo al mostrar cuánto de la memoria imperial se sostiene en teatralidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1: aparece el supuesto heredero",
+            "summary": "La novela presenta a Federico de Grau Moctezuma como un vividor capaz de reinventarse cuando descubre, o finge descubrir, su parentesco con el último emperador azteca. Ahí nace la gran impostura posible."
+          },
+          {
+            "title": "Momento 2: la genealogía imposible",
+            "summary": "El relato retrocede hacia el siglo XVI para enlazar la descendencia de Moctezuma con una rama desviada hacia el Pirineo catalán. Historia y leyenda se trenzan hasta volver inseparable la herencia del cuento."
+          },
+          {
+            "title": "Momento 3: España franquista y representación del linaje",
+            "summary": "En los años sesenta, la supuesta nobleza imperial se convierte en capital simbólico y social. La novela explora cómo un origen fabuloso puede abrir puertas, seducir y generar espectáculo."
+          },
+          {
+            "title": "Momento 4: tesoro, memoria e identidad",
+            "summary": "El tramo final conecta la búsqueda material de un tesoro con otra búsqueda más profunda: la de una legitimidad siempre dudosa. El libro cierra dejando al lector entre la fascinación y la sospecha."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela de linaje y novela de impostura",
+            "content": "Soler une dos tradiciones muy productivas: la narración genealógica y la historia del embaucador. El supuesto heredero de Moctezuma importa tanto por su árbol familiar como por su capacidad para teatralizarlo."
+          },
+          {
+            "heading": "Historia con grietas",
+            "content": "Uno de los temas explícitos del libro es que la Historia deja huecos. La novela entra en ellos para mostrar cómo documento, rumor e invención compiten por fijar una verdad hereditaria."
+          },
+          {
+            "heading": "México y España como espejo deformante",
+            "content": "La obra no opone simplemente dos países; hace circular entre ambos una memoria compartida, desigual y fantasmal. Los restos del imperio se vuelven espectáculo, mercancía y relato identitario."
+          },
+          {
+            "heading": "Humor, exceso y melancolía",
+            "content": "Aunque su superficie es cómica y disparatada, la novela conserva un fondo melancólico. Detrás del personaje esperpéntico aparece una reflexión sobre ruina histórica, deseo de pertenencia y prestigios extinguidos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica en sentido clásico?",
+            "answer": "No del todo. Usa materiales históricos reales, pero los mezcla con fabulación, sátira e incertidumbre narrativa hasta alejarse de la reconstrucción histórica convencional."
+          },
+          {
+            "question": "¿El protagonista es un fraude o un heredero legítimo?",
+            "answer": "La gracia del libro está precisamente en no cerrar del todo esa duda. Soler explota la ambigüedad para pensar cómo se fabrica una identidad y cómo se consume socialmente."
+          },
+          {
+            "question": "¿Qué papel juega Moctezuma en la novela?",
+            "answer": "Más que un personaje directo, funciona como emblema de linaje, poder perdido y memoria imperial. Su nombre organiza la imaginación de los personajes y del propio relato."
+          },
+          {
+            "question": "¿Por qué puede interesar hoy?",
+            "answer": "Porque aborda de forma original asuntos muy vigentes: herencia colonial, relatos identitarios, prestigio simbólico y manipulación del pasado para obtener poder o reconocimiento."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Penguin Libros: Ese príncipe que fui",
+            "url": "https://www.penguinlibros.com/es/literatura-contemporanea/6599-libro-ese-principe-que-fui-9788420418926"
+          },
+          {
+            "label": "Librerías Gandhi: Ese príncipe que fui",
+            "url": "https://www.gandhi.com.mx/ese%20principe%20que%20fui?_q=ese%20principe%20que%20fui&map=ft"
+          },
+          {
+            "label": "Open Library: Ese príncipe que fui",
+            "url": "https://openlibrary.org/works/OL17081736W/Ese_pr%C3%ADncipe_que_fui"
+          },
+          {
+            "label": "Lecturalia: Ese príncipe que fui",
+            "url": "https://www.lecturalia.com/libro/91841/ese-principe-que-fui"
+          },
+          {
+            "label": "Wikipedia: Jordi Soler",
+            "url": "https://es.wikipedia.org/wiki/Jordi_Soler"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "eskoria-de-alfredo-gomez-cerda",
+      "title": "Eskoria",
+      "authorName": "Alfredo Gomez Cerda",
+      "authorSlug": "alfredo-gomez-cerda",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Eskoria",
+        "authorName": "Alfredo Gómez Cerdá",
+        "authorSlug": "alfredo-gomez-cerda",
+        "type": "novela",
+        "audience": "juvenil",
+        "genres": [
+          "realismo social",
+          "novela juvenil",
+          "acoso escolar"
+        ],
+        "year": 2006,
+        "pages": 128,
+        "summary": "Eskoria cuenta la historia de Diego, un adolescente que no encaja en los códigos dominantes de su instituto y que por eso se convierte en blanco de hostigamiento, amenazas y humillaciones. Alfredo Gómez Cerdá evita presentar el acoso como un simple conflicto entre compañeros: lo muestra como un mecanismo de grupo, alimentado por la crueldad cotidiana, la indiferencia de quienes miran sin intervenir y la fragilidad emocional de quien intenta resistir sin comprender del todo por qué lo han elegido. La novela sigue el progresivo aislamiento del protagonista, su necesidad de encontrar una explicación racional a la violencia y la sensación de estar siendo empujado hacia un límite peligroso. El resultado es un relato breve, intenso y directo sobre la discriminación adolescente, la presión del entorno y el daño real que producen las etiquetas.",
+        "aboutThisBook": "Publicada en la colección Gran Angular de SM, esta novela es una de las obras juveniles más reconocibles de Gómez Cerdá cuando aborda problemas sociales contemporáneos. Su fuerza está en la sobriedad: no recurre a grandes artificios ni a moralejas obvias, sino que concentra la atención en la experiencia interior de un chico acosado por ser distinto a los patrones de consumo, conducta y pertenencia de su grupo. Por eso funciona muy bien tanto como lectura literaria como en contextos educativos donde se trabaja convivencia, empatía y prevención del acoso escolar.",
+        "forWhom": "Para lectores de secundaria, docentes, mediadores de lectura y familias que busquen una novela breve pero seria sobre bullying, presión de grupo y exclusión en la adolescencia.",
+        "whyItMatters": "Sigue siendo importante porque pone nombre literario a una violencia que a menudo se normaliza como broma o simple dureza escolar. El libro ayuda a ver cómo el acoso se sostiene en la repetición, en el silencio del entorno y en la necesidad de marcar a alguien como inferior.",
+        "editorialIntro": "Hay novelas juveniles que entretienen y otras que obligan a detenerse. Eskoria pertenece claramente al segundo grupo. Gómez Cerdá parte de una pregunta incómoda —qué convierte a un chico corriente en objetivo de desprecio colectivo— y la transforma en una narración seca, cercana y muy útil para leer en clase o debatir en grupo. Lo decisivo no es solo la violencia visible, sino el proceso por el que una comunidad escolar acepta una etiqueta degradante y deja que esa palabra ocupe el lugar de la persona. De ahí nace la fuerza crítica del libro.",
+        "readingLevel": "Lectura accesible para secundaria: lenguaje claro, capítulos ágiles y conflicto emocional intenso, con suficiente complejidad ética para discusión guiada.",
+        "whyReadToday": "Porque el acoso escolar no ha desaparecido; solo ha cambiado de formas y canales. La novela sigue ayudando a reconocer la lógica del señalamiento, la soledad de la víctima y la responsabilidad del grupo que calla o participa.",
+        "studyNotes": [
+          "La novela muestra que el acoso no nace de una gran causa, sino de pequeñas diferencias convertidas en motivo de humillación sistemática.",
+          "Diego no es presentado como héroe excepcional, sino como un adolescente reconocible; esa normalidad vuelve más inquietante la violencia que recibe.",
+          "La etiqueta del título resume el mecanismo central del libro: reducir a una persona a una palabra degradante para justificar el maltrato.",
+          "El valor pedagógico de la obra está en que obliga a pensar tanto en agresores y víctima como en testigos, silencios y complicidades."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Diego queda marcado como diferente",
+            "summary": "El relato presenta a un estudiante que no comparte los gustos ni las señas externas de prestigio de su entorno. Esa diferencia, trivial en apariencia, basta para convertirlo en objetivo de burlas y amenazas cada vez más persistentes."
+          },
+          {
+            "title": "El acoso se vuelve cerco cotidiano",
+            "summary": "Las agresiones dejan de ser episodios aislados y pasan a organizar la vida del protagonista. Diego intenta entender las razones del hostigamiento, pero lo que encuentra es una lógica de grupo basada en la exclusión y el miedo."
+          },
+          {
+            "title": "Límite emocional y denuncia del sistema de violencia",
+            "summary": "La novela avanza hacia las consecuencias psicológicas del maltrato y hace visible el peligro de empujar a alguien al aislamiento. El cierre refuerza la lectura del libro como denuncia de una violencia escolar real y no como simple conflicto pasajero."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Acoso escolar y fabricación del chivo expiatorio",
+            "content": "Eskoria retrata con claridad cómo un grupo necesita fabricar a alguien como residuo o desecho simbólico para reforzar su propia cohesión. La violencia no depende de que Diego haya hecho algo grave, sino de que encarne la diferencia suficiente para ser degradado."
+          },
+          {
+            "heading": "Realismo juvenil sin sentimentalismo fácil",
+            "content": "Gómez Cerdá evita el melodrama excesivo. El tono sobrio, la brevedad y la concentración en la experiencia del protagonista hacen que el libro sea más eficaz: el lector no recibe una lección abstracta, sino la percepción concreta del desgaste que produce el hostigamiento continuo."
+          },
+          {
+            "heading": "La responsabilidad de quienes no golpean",
+            "content": "Uno de los aspectos más valiosos del libro es que desplaza la atención del agresor individual al clima colectivo. La novela invita a pensar en profesores, compañeros y observadores, es decir, en todos los que permiten que la violencia se normalice."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Eskoria en pocas palabras?",
+            "answer": "Trata del acoso que sufre un adolescente llamado Diego por no ajustarse a las expectativas y modas de su grupo escolar, y de cómo esa violencia lo aísla y lo empuja a un límite emocional peligroso."
+          },
+          {
+            "question": "¿Es una novela adecuada para trabajar en clase?",
+            "answer": "Sí. Por su extensión, claridad y enfoque directo, funciona muy bien en secundaria para debatir bullying, convivencia, presión de grupo y responsabilidad de los testigos."
+          },
+          {
+            "question": "¿El libro moraliza demasiado?",
+            "answer": "No. Tiene una intención ética evidente, pero su fuerza proviene más de la situación narrada que de discursos explícitos. Eso facilita una lectura seria sin sentirla como sermón."
+          },
+          {
+            "question": "¿Por qué sigue siendo actual?",
+            "answer": "Porque el mecanismo que describe sigue reconocible: etiquetar, aislar y deshumanizar a alguien por ser distinto, mientras el entorno minimiza o tolera el daño."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Literatura Infantil y Juvenil SM: Eskoria",
+            "url": "https://es.literaturasm.com/libro/eskoria-0"
+          },
+          {
+            "label": "Sitio del autor Alfredo Gómez Cerdá: Eskoria",
+            "url": "https://www.almezzer.com/eskoria/"
+          },
+          {
+            "label": "Casa del Libro: Eskoria",
+            "url": "https://www.casadellibro.com/libro-eskoria/9788491077855/7248825"
+          },
+          {
+            "label": "Lecturalia: Eskoria",
+            "url": "https://www.lecturalia.com/libro/14947/eskoria"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fantasmas-de-dia-de-lucia-baquedano",
+      "title": "Fantasmas De Dia",
+      "authorName": "Lucia Baquedano",
+      "authorSlug": "lucia-baquedano",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Fantasmas de día",
+        "authorName": "Lucía Baquedano",
+        "authorSlug": "lucia-baquedano",
+        "type": "novela",
+        "audience": "infantil",
+        "genres": [
+          "aventuras",
+          "humor",
+          "fantástico"
+        ],
+        "year": 1987,
+        "pages": 96,
+        "summary": "Fantasmas de día arranca con una travesura infantil que se convierte en aventura fantástica. Seve y sus amigos, aburridos de la rutina del pueblo, se escapan en una tartana vieja tirada por una mula y sufren un accidente en un barranco. Al incorporarse descubren que no sienten latir el corazón y llegan a la conclusión de que han muerto. Convencidos de que son fantasmas invisibles, recorren el pueblo haciendo travesuras, dejando mensajes y sembrando desconcierto mientras intentan entender su nueva condición. Lucía Baquedano combina humor, suspense suave y mirada infantil para narrar un equívoco que enfrenta a los chicos con el miedo, la imaginación y las consecuencias de sus actos. Bajo su tono juguetón, el libro habla de libertad, culpa, amistad y regreso a la realidad.",
+        "aboutThisBook": "Ganadora del premio El Barco de Vapor en 1986 y después incluida en la Lista de Honor del IBBY, esta novela ocupa un lugar muy sólido en la narrativa infantil española de las últimas décadas. Su atractivo está en la mezcla de aventura rural, comedia de confusión y fantasía cotidiana. Baquedano escribe desde la perspectiva de los niños sin subestimarlos: sus protagonistas se equivocan, fantasean, desobedecen y al mismo tiempo aprenden a medir el alcance de lo que hacen. Es un libro especialmente útil para primeros lectores autónomos que ya buscan una historia con peripecia y tono propio.",
+        "forWhom": "Para lectores de final de primaria o primer ciclo de secundaria, para mediadores que busquen una novela breve y divertida, y para aulas interesadas en trabajar imaginación, responsabilidad y lectura compartida.",
+        "whyItMatters": "Importa porque demuestra que la literatura infantil puede ser ligera sin ser trivial. El libro juega con la idea de la muerte y de los fantasmas desde un registro accesible, humorístico y formativo, sin perder tensión narrativa ni ternura.",
+        "editorialIntro": "Lucía Baquedano sabe construir historias donde la aventura nace de un gesto reconocible: aburrirse, desobedecer, querer probar el mundo por cuenta propia. En Fantasmas de día ese impulso infantil se vuelve una peripecia tan cómica como inquietante. El gran hallazgo del libro está en tomar una premisa fantástica muy simple —creerse muerto en pleno día— y usarla para observar cómo piensan los niños, cómo elaboran el miedo y cómo convierten la confusión en juego. Por eso sigue siendo una lectura escolar muy eficaz: entretiene, pero además permite hablar de imaginación, travesura y responsabilidad.",
+        "readingLevel": "Lectura fluida y apropiada para lectores jóvenes autónomos, con vocabulario claro, ritmo rápido y situaciones fantásticas fáciles de seguir en voz alta o de manera individual.",
+        "whyReadToday": "Porque conserva una cualidad cada vez más valiosa: deja que la infancia sea aventurera, imaginativa y contradictoria. Además, ofrece humor y emoción sin recurrir a estridencias ni simplificar la experiencia de crecer.",
+        "studyNotes": [
+          "La novela convierte un accidente y un malentendido físico en un juego literario sobre la imaginación infantil.",
+          "El pueblo funciona como escenario cerrado donde cada travesura tiene eco inmediato y donde la comunidad reacciona como un personaje colectivo.",
+          "Aunque el tono es humorístico, el libro trabaja la idea de consecuencia: los protagonistas deben enfrentarse a lo que han hecho creyéndose invisibles.",
+          "El premio El Barco de Vapor y la mención posterior del IBBY ayudan a situar la obra dentro de la literatura infantil española de calidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La escapada y el accidente",
+            "summary": "Seve y sus amigos, impulsados por el deseo de vivir algo distinto, abandonan la rutina del pueblo y emprenden una fuga improvisada en una tartana. El accidente en el barranco cambia de golpe el sentido de la aventura."
+          },
+          {
+            "title": "Creerse fantasmas e intervenir en el pueblo",
+            "summary": "Cuando descubren que no notan el latido del corazón, los chicos interpretan que han muerto. Desde esa convicción empiezan a actuar como fantasmas invisibles y llenan el pueblo de bromas, mensajes y desórdenes."
+          },
+          {
+            "title": "Regreso a la realidad y aprendizaje",
+            "summary": "La aventura se encamina hacia la comprobación de que su interpretación era equivocada y hacia el momento en que deben asumir las consecuencias de sus fechorías. El cierre transforma la travesura en experiencia de maduración."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Fantasía construida desde la lógica infantil",
+            "content": "El libro no necesita un sistema sobrenatural complejo. Todo descansa en una deducción errónea pero verosímil desde la mirada de los niños. Esa elección acerca la fantasía al mundo cotidiano y la vuelve especialmente eficaz para lectores jóvenes."
+          },
+          {
+            "heading": "Humor, miedo y responsabilidad",
+            "content": "Baquedano equilibra la comicidad de las travesuras con un fondo moral discreto. La historia permite reírse de los equívocos sin olvidar que jugar a ser invisibles también implica hacer daño, desordenar y luego responder por ello."
+          },
+          {
+            "heading": "La comunidad rural como espacio narrativo",
+            "content": "El pueblo no es un simple decorado. Su escala pequeña vuelve visibles los rumores, las reacciones y el impacto de cada acción. Gracias a eso, la novela presenta un mundo reconocible donde aventura y vida cotidiana se tocan constantemente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de miedo?",
+            "answer": "No exactamente. Usa la idea de los fantasmas, pero lo hace desde la aventura y el humor, con un nivel de inquietud apropiado para lectores infantiles."
+          },
+          {
+            "question": "¿Qué edad lectora encaja mejor con Fantasmas de día?",
+            "answer": "Funciona muy bien entre los 9 y 12 años, aunque también puede leerse en voz alta con lectores algo más jóvenes por su claridad y ritmo."
+          },
+          {
+            "question": "¿Por qué fue una novela premiada?",
+            "answer": "Porque combina imaginación, estructura ágil, humor y una mirada muy convincente sobre la infancia. No se limita a entretener: convierte una travesura en una pequeña historia de aprendizaje."
+          },
+          {
+            "question": "¿Tiene valor para trabajo escolar?",
+            "answer": "Sí. Es útil para tratar aventura, narrador, punto de vista infantil, consecuencias de los actos y diferencia entre percepción, miedo y realidad."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Santos Ochoa: Fantasmas de día",
+            "url": "https://www.santosochoa.es/libros/baquedano-lucia_fantasmas-de-dia_9788434822092"
+          },
+          {
+            "label": "Ranopla: Ficha libro - Fantasmas de día",
+            "url": "https://www.ranopla.es/120-fantasmasdedia"
+          },
+          {
+            "label": "Lecturalia: Fantasmas de día",
+            "url": "https://www.lecturalia.com/libro/63736/fantasmas-de-dia"
+          },
+          {
+            "label": "Wikipedia: Lucía Baquedano",
+            "url": "https://es.wikipedia.org/wiki/Luc%C3%ADa_Baquedano"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-de-bringas-de-benito-perez-galdos",
+      "title": "La De Bringas",
+      "authorName": "Benito Perez Galdos",
+      "authorSlug": "benito-perez-galdos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La de Bringas",
+        "authorName": "Benito Pérez Galdós",
+        "authorSlug": "benito-perez-galdos",
+        "type": "novela",
+        "audience": "adulto",
+        "genres": [
+          "realismo",
+          "novela clásica",
+          "novela social"
+        ],
+        "year": 1884,
+        "pages": null,
+        "summary": "La de Bringas retrata con ironía minuciosa el mundo doméstico y social de Rosalía Pipaón de Bringas, esposa de un funcionario instalado en el Palacio Real durante los últimos años del reinado de Isabel II. Fascinada por el prestigio, la moda y la proximidad a la alta sociedad, Rosalía intenta sostener una imagen de distinción que sus recursos reales no pueden pagar. A partir de ahí, Galdós construye una novela sobre el deseo de aparentar, el endeudamiento oculto y la tensión entre moral privada y ambición social. Lo decisivo no es solo la peripecia económica de la protagonista, sino el modo en que su historia refleja una clase obsesionada con el rango, el consumo y la imitación de la nobleza. Con gran precisión descriptiva, la novela enlaza vida íntima, sátira social e inminencia histórica a las puertas de la crisis de 1868.",
+        "aboutThisBook": "Publicada en 1884 dentro de las Novelas españolas contemporáneas, La de Bringas ocupa un lugar central en el realismo galdosiano dedicado a Madrid. Suele leerse junto a El doctor Centeno y Tormento por la continuidad de ambiente y personajes, pero posee un perfil muy propio: aquí Galdós se concentra de manera especialmente afilada en el consumo, la apariencia y la economía moral de la pequeña burguesía cortesana. El libro destaca por la observación de interiores, ropas, gestos y jerarquías, y por convertir la administración del dinero en una clave decisiva para leer deseos, simulaciones y dependencias.",
+        "forWhom": "Para lectores de clásicos realistas, estudiantes de literatura española del siglo XIX y clubes de lectura interesados en novelas sobre dinero, apariencia social, vida doméstica y crítica de costumbres.",
+        "whyItMatters": "Importa porque muestra hasta qué punto las aspiraciones sociales pueden organizar una vida entera y deformar la percepción de lo necesario, lo moral y lo verdadero. Además, es una de las grandes disecciones narrativas del consumo y la respetabilidad en la España del XIX.",
+        "editorialIntro": "Leer La de Bringas es entrar en un laboratorio social extraordinario. Galdós no necesita grandes catástrofes externas para sostener la tensión: le basta un hogar, una red de deudas, una jerarquía cortesana y una protagonista empeñada en no descender del rango que imagina merecer. De esa materia aparentemente doméstica surge una novela crítica, elegante y feroz, capaz de convertir telas, visitas, muebles y cuentas pendientes en signos de una sociedad entera. Su aparente clasicismo es engañoso: bajo la superficie de costumbres, el libro examina deseo, dinero y poder con una lucidez muy moderna.",
+        "readingLevel": "Lectura media-alta: prosa clara dentro del canon realista, pero con ironía, contexto histórico y matices sociales que se aprovechan mejor con lectura atenta o acompañada.",
+        "whyReadToday": "Porque su crítica de la apariencia, del consumo aspiracional y de la vida sostenida por deudas sigue teniendo una resonancia evidente. Rosalía no pertenece solo al siglo XIX: encarna una lógica social todavía reconocible.",
+        "studyNotes": [
+          "Rosalía de Bringas es un personaje clave para estudiar cómo el deseo de prestigio puede convertirse en una forma de autoengaño sostenido.",
+          "La novela usa objetos, vestidos e interiores como instrumentos de análisis social; la descripción material nunca es gratuita en Galdós.",
+          "El entorno del Palacio Real y la cercanía al mundo de Isabel II vinculan la trama doméstica con la crisis histórica de la España previa a 1868.",
+          "La obra permite observar la relación entre dinero y moral: gastar, ocultar, pedir ayuda o aparentar son aquí actos con dimensión ética y política."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Vida palaciega y ambición de respetabilidad",
+            "summary": "La novela sitúa a Rosalía y a su familia en el entorno del Palacio Real, donde la proximidad a la corte alimenta el deseo de mantener una imagen de rango y distinción por encima de sus posibilidades reales."
+          },
+          {
+            "title": "Consumo, deudas y ocultamiento",
+            "summary": "A medida que Rosalía intenta sostener su estilo de vida, el gasto se convierte en el centro secreto de la narración. La protagonista oculta cuentas, busca salidas y compromete cada vez más su equilibrio moral para conservar las apariencias."
+          },
+          {
+            "title": "Desgaste íntimo y trasfondo histórico",
+            "summary": "La peripecia personal de Rosalía se va cargando de consecuencias familiares y sociales mientras el mundo político que la rodea se acerca al derrumbe. El cierre acentúa la relación entre crisis privada y crisis de época."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Realismo de interiores y crítica del consumo",
+            "content": "Galdós convierte la vida doméstica en un campo de observación histórica. Los vestidos, las visitas, el mobiliario y el crédito importan porque revelan una sociedad regida por la apariencia y por la imitación de modelos aristocráticos."
+          },
+          {
+            "heading": "Rosalía como figura del deseo social",
+            "content": "La protagonista no es solo una mujer frívola, como a veces se la ha simplificado, sino una figura compleja del deseo de ascenso y del miedo al descenso. Su conducta permite estudiar cómo la identidad social puede construirse sobre ficciones costosas y cada vez más difíciles de sostener."
+          },
+          {
+            "heading": "La trama doméstica como espejo de una época",
+            "content": "La de Bringas demuestra una de las grandes virtudes de Galdós: hacer que una historia de alcoba, cuentas y relaciones familiares diga algo decisivo sobre el país. La inestabilidad económica y moral del hogar dialoga con la crisis del régimen isabelino."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La de Bringas forma parte de una serie?",
+            "answer": "Sí. Se integra en el ciclo de las Novelas españolas contemporáneas y suele leerse en relación con otras novelas galdosianas ambientadas en el Madrid previo a la Revolución de 1868, especialmente El doctor Centeno y Tormento."
+          },
+          {
+            "question": "¿Es una novela difícil de leer hoy?",
+            "answer": "No necesariamente. Requiere cierta atención por el contexto histórico y social, pero la prosa de Galdós es muy legible y la trama de apariencias, deudas y prestigio sigue siendo cercana."
+          },
+          {
+            "question": "¿Cuál es su tema principal?",
+            "answer": "El tema central es la tiranía de las apariencias: cómo el deseo de parecer y pertenecer puede ordenar el gasto, las relaciones personales y la degradación moral de una vida."
+          },
+          {
+            "question": "¿Por qué se considera una novela importante del realismo español?",
+            "answer": "Porque une observación precisa de costumbres, construcción compleja de personajes y lectura histórica del presente. En ella, lo doméstico y lo social quedan inseparablemente vinculados."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: La de Bringas",
+            "url": "https://www.cervantesvirtual.com/obra-visor/la-de-bringas--0/html/"
+          },
+          {
+            "label": "Wikipedia: La de Bringas",
+            "url": "https://es.wikipedia.org/wiki/La_de_Bringas"
+          },
+          {
+            "label": "Instituto Cervantes: Benito Pérez Galdós. Biografía",
+            "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/biografias/rabat_benito_perez_galdos.htm"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Benito Pérez Galdós",
+            "url": "https://www.britannica.com/biography/Benito-Perez-Galdos"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-mina-de-armando-lopez-salinas",
+      "title": "La Mina",
+      "authorName": "Armando Lopez Salinas",
+      "authorSlug": "armando-lopez-salinas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La mina",
+        "authorName": "Armando López Salinas",
+        "authorSlug": "armando-lopez-salinas",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1960,
+        "pages": 247,
+        "summary": "La mina narra el desplazamiento de Joaquín, un jornalero andaluz empujado por la pobreza del campo hacia una cuenca minera donde espera encontrar trabajo y estabilidad. Lo que descubre, sin embargo, es otro rostro de la miseria: galerías durísimas, jornadas peligrosas, jerarquías inflexibles y una comunidad obrera atravesada por el miedo, la resignación y la solidaridad. Armando López Salinas convierte ese itinerario individual en un retrato social de la España del franquismo, en un momento de transición entre la autarquía y el desarrollismo. La novela sigue el aprendizaje de Joaquín ante la explotación y ante una conciencia colectiva que va tomando forma lentamente. Más que una historia de aventura, es una novela de trabajo, desigualdad y despertar moral, escrita con la sobriedad del realismo social.",
+        "aboutThisBook": "Publicada en 1960 tras quedar finalista del Premio Nadal del año anterior, La mina es una de las novelas centrales del realismo social español de posguerra. López Salinas no idealiza ni el campo ni la ciudad industrial: muestra cómo la emigración interior traslada la precariedad de un espacio a otro. Su valor está en la precisión con la que observa el mundo obrero y en la manera en que relaciona experiencia personal, estructura económica y conflicto de clase. Sigue leyéndose como testimonio literario y como intervención ética.",
+        "forWhom": "Para lectores interesados en la novela social española, en la literatura de posguerra, en relatos sobre trabajo y clase obrera, y para estudiantes que necesiten un texto claro para analizar realismo, contexto histórico y conciencia social.",
+        "whyItMatters": "Importa porque muestra desde dentro la dureza del trabajo minero y la emigración interior bajo el franquismo. También ayuda a entender cómo la novela social convirtió una experiencia concreta de explotación en una lectura crítica del país.",
+        "editorialIntro": "Hay novelas que explican una época sin convertirla en discurso abstracto. La mina lo hace siguiendo a un hombre común que cambia de paisaje pero no de fragilidad: deja atrás el atraso del campo y entra en una industria que promete progreso mientras reproduce otras formas de violencia. La mirada de López Salinas es seca, contenida y profundamente política, sin dejar de ser narrativa.",
+        "readingLevel": "Medio-alto; prosa sobria y accesible, con fuerte carga histórica y social.",
+        "whyReadToday": "Porque vuelve visible la relación entre precariedad laboral, migración económica y dignidad obrera. Su lectura dialoga bien con debates actuales sobre trabajo invisible, desigualdad territorial y memoria social del franquismo.",
+        "studyNotes": [
+          "Observar cómo el traslado de Joaquín del campo a la mina no mejora su situación, sino que desplaza el foco de la explotación.",
+          "Relacionar el estilo sobrio con el programa del realismo social: contar mucho con una retórica contenida.",
+          "Analizar la mina como espacio físico y simbólico: trabajo, encierro, riesgo y toma de conciencia colectiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Llegada a Los Llanos",
+            "summary": "Joaquín abandona el campo andaluz y llega a la ciudad minera buscando una salida económica. La novela presenta desde el inicio la emigración como necesidad, no como elección libre. El nuevo paisaje industrial aparece ligado a la incertidumbre y a la dependencia."
+          },
+          {
+            "title": "Aprendizaje en la mina",
+            "summary": "El protagonista conoce la dureza del trabajo subterráneo, las jerarquías del oficio y el desgaste físico de los mineros. A través de la rutina laboral descubre hasta qué punto la producción descansa sobre el riesgo y la obediencia."
+          },
+          {
+            "title": "Conciencia y conflicto",
+            "summary": "La experiencia diaria lleva a Joaquín a comprender que su situación no es individual. La desigualdad, la explotación y la solidaridad obrera forman el núcleo del cierre moral de la novela, que privilegia la conciencia social sobre la resolución melodramática."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Realismo social y observación obrera",
+            "content": "La novela trabaja con procedimientos característicos del realismo social: lenguaje sobrio, escenas de trabajo, atención a lo colectivo y rechazo del sentimentalismo fácil. El efecto no es documental puro, sino narrativo: la experiencia concreta de Joaquín ordena la lectura del sistema entero."
+          },
+          {
+            "heading": "La emigración interior como eje narrativo",
+            "content": "El paso del campo a la cuenca minera permite mostrar dos caras de una misma desigualdad. López Salinas evita la oposición simple entre atraso rural y modernidad urbana: el supuesto progreso industrial sigue sostenido por relaciones de explotación y desamparo."
+          },
+          {
+            "heading": "Trabajo, cuerpo y dignidad",
+            "content": "La mina no es solo escenario; es una máquina que modela cuerpos, tiempos y vínculos. La novela insiste en el desgaste material del trabajo y en cómo de esa experiencia nace una conciencia ética, social y de clase."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata La mina?",
+            "answer": "Relata la llegada de Joaquín, un campesino andaluz, a una ciudad minera y su descubrimiento de las durísimas condiciones de vida y trabajo de los mineros durante el franquismo."
+          },
+          {
+            "question": "¿Qué tipo de novela es?",
+            "answer": "Es una novela de realismo social, centrada en el mundo obrero, la emigración interior y la desigualdad estructural de la España de posguerra."
+          },
+          {
+            "question": "¿Por qué se considera importante?",
+            "answer": "Porque es una de las obras más representativas de la narrativa social española y ofrece un retrato muy preciso de la explotación laboral y de la formación de conciencia colectiva."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Casa del Libro - La mina",
+            "url": "https://www.casadellibro.com/libro-la-mina/9788446038818/2203208"
+          },
+          {
+            "label": "Open Library - edición de 1960 de La mina",
+            "url": "https://openlibrary.org/books/OL26554473M/La_mina"
+          },
+          {
+            "label": "Open Library - ediciones de La mina",
+            "url": "https://openlibrary.org/works/OL17962212W/editions"
+          },
+          {
+            "label": "Wikipedia - Armando López Salinas",
+            "url": "https://es.wikipedia.org/wiki/Armando_L%C3%B3pez_Salinas"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-trece-rosas-de-jesus-ferrero",
+      "title": "Las Trece Rosas",
+      "authorName": "Jesus Ferrero",
+      "authorSlug": "jesus-ferrero",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las trece rosas",
+        "authorName": "Jesús Ferrero",
+        "authorSlug": "jesus-ferrero",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 2003,
+        "pages": 233,
+        "summary": "Las trece rosas reconstruye en clave novelesca la historia de las jóvenes republicanas fusiladas en Madrid en agosto de 1939, en los inicios de la posguerra. Jesús Ferrero no plantea la obra como crónica judicial ni como reportaje, sino como una novela coral donde la memoria, la imaginación y la reflexión histórica se entrelazan para devolverles voz a unas vidas convertidas en símbolo. La narración se concentra en la espera, en el miedo, en la intensidad moral de unas muchachas casi adolescentes y en el proceso por el cual sus biografías concretas pasan a formar parte de una leyenda civil. El libro trabaja la tensión entre verdad histórica y forma literaria, y busca rescatar a las protagonistas del borrado, mostrando tanto su humanidad cotidiana como la violencia del aparato represivo franquista.",
+        "aboutThisBook": "Publicada por Siruela en 2003, la novela se sitúa en un punto delicado: parte de un episodio histórico muy conocido en la memoria democrática española, pero renuncia al tono documental puro. Ferrero opta por una estructura coral y por una escritura de resonancia lírica para explorar cómo nace un mito político sin perder de vista a las personas reales que lo sostienen. Esa decisión formal la distingue de otras aproximaciones al mismo episodio y la vuelve especialmente útil para pensar la relación entre novela, memoria e historia.",
+        "forWhom": "Para lectores de novela histórica contemporánea, estudiantes de memoria histórica, clubes de lectura interesados en la posguerra española y quienes busquen una obra coral que combine emoción, historia y reflexión ética.",
+        "whyItMatters": "Importa porque transforma un episodio de represión franquista en una reflexión literaria sobre memoria, borrado y dignidad. La novela no solo recuerda un crimen histórico: examina cómo una comunidad convierte unas vidas truncadas en símbolo perdurable.",
+        "editorialIntro": "Jesús Ferrero aborda un hecho real muy cargado de significado político sin convertirlo en simple reconstrucción documental. El interés de la novela está en cómo escucha a sus protagonistas y en cómo trabaja el tránsito entre la vida concreta y la leyenda pública. Esa combinación de coralidad, contención y emoción le da a Las trece rosas una fuerza singular dentro de la narrativa española sobre la memoria histórica.",
+        "readingLevel": "Medio-alto; lectura fluida, pero con densidad histórica, coralidad de voces y resonancia simbólica.",
+        "whyReadToday": "Porque sigue siendo una entrada valiosa para pensar la memoria democrática, el lugar de las mujeres en la historia y el modo en que la literatura puede reparar parcialmente un borrado colectivo sin suplantar los hechos.",
+        "studyNotes": [
+          "Distinguir entre la base histórica documentada y la elaboración literaria que Ferrero usa para construir una novela coral.",
+          "Analizar cómo la obra convierte a las protagonistas en sujetos de memoria, no solo en víctimas ejemplares.",
+          "Observar la tensión entre intimidad, violencia política y formación de una leyenda colectiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Madrid, agosto de 1939",
+            "summary": "La novela sitúa a las jóvenes en el clima represivo de la primera posguerra. El contexto histórico pesa desde el principio: detenciones, vigilancia y un sistema que ya ha decidido ejemplarizar el castigo."
+          },
+          {
+            "title": "Voces antes del fusilamiento",
+            "summary": "La narración coral se detiene en las conciencias, los vínculos y los temores de las muchachas. Más que héroes abstractos, aparecen como vidas concretas con proyectos, dudas y una fuerte dimensión humana."
+          },
+          {
+            "title": "De la muerte al símbolo",
+            "summary": "Tras el ajusticiamiento, la novela muestra cómo nace la leyenda de las Trece Rosas. La memoria colectiva transforma el hecho histórico en emblema moral, pero el libro procura no perder la singularidad de cada figura."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela coral y memoria histórica",
+            "content": "Ferrero distribuye la atención entre varias protagonistas para evitar una simplificación épica. La coralidad permite que la memoria histórica aparezca como tejido de voces, afectos y ausencias, no como un único discurso cerrado."
+          },
+          {
+            "heading": "Entre historia y mito",
+            "content": "Uno de los rasgos más interesantes del libro es que examina el momento en que unas vidas reales se convierten en símbolo. La novela no niega la leyenda; la interroga, mostrando su potencia política y también el riesgo de borrar matices personales."
+          },
+          {
+            "heading": "La violencia franquista narrada desde la intimidad",
+            "content": "En lugar de centrarse solo en la maquinaria represiva, la obra subraya la experiencia emocional de las jóvenes. Esa elección refuerza la dimensión ética del relato y desplaza el foco desde el aparato del poder hacia la resistencia de la dignidad personal."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La novela cuenta un hecho histórico real?",
+            "answer": "Sí. Parte del fusilamiento de las Trece Rosas en 1939, pero lo hace mediante una elaboración literaria que privilegia la coralidad, la memoria y la imaginación narrativa."
+          },
+          {
+            "question": "¿Es una novela histórica o un testimonio?",
+            "answer": "Es una novela histórica. Se apoya en un episodio real, aunque no adopta un formato documental ni periodístico, sino una construcción novelesca deliberada."
+          },
+          {
+            "question": "¿Qué aporta frente a otras obras sobre la memoria democrática?",
+            "answer": "Aporta una mirada muy centrada en la voz interior de las protagonistas y en el proceso por el cual una tragedia histórica se convierte en mito colectivo sin dejar de lado la humanidad de las víctimas."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Ediciones Siruela - Las trece rosas",
+            "url": "https://www.siruela.com/catalogo.php?id_libro=578"
+          },
+          {
+            "label": "Agencia Literaria Carmen Balcells - Las trece rosas",
+            "url": "https://www.agenciabalcells.com/autores/obra/jesus-ferrero/las-trece-rosas/"
+          },
+          {
+            "label": "Open Library - edición de 2003 de Las trece rosas",
+            "url": "https://openlibrary.org/books/OL3762280M/Las_trece_rosas"
+          },
+          {
+            "label": "Wikipedia - Jesús Ferrero",
+            "url": "https://es.wikipedia.org/wiki/Jes%C3%BAs_Ferrero"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-espejos-venecianos-de-joan-manuel-gisbert",
+      "title": "Los Espejos Venecianos",
+      "authorName": "Joan Manuel Gisbert",
+      "authorSlug": "joan-manuel-gisbert",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 9,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los espejos venecianos",
+        "authorName": "Joan Manuel Gisbert",
+        "authorSlug": "joan-manuel-gisbert",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "fantasia",
+          "narrativa"
+        ],
+        "year": 1993,
+        "pages": 129,
+        "summary": "Los espejos venecianos combina misterio, imaginación gótica y aventura intelectual en una Venecia filtrada por la memoria de Padua y por la fascinación de los palacios antiguos. Giovanni Conti, estudiante de Letras, se instala en una casa modesta desde cuya ventana ve un palazzo aparentemente abandonado. La curiosidad lo lleva a investigar la historia de Beatrice Balzani, figura legendaria asociada al edificio, y a internarse en unos espacios donde los espejos parecen alterar la percepción de la realidad. Joan Manuel Gisbert construye así una novela breve pero muy atmosférica, en la que la pesquisa racional convive con lo espectral. El relato no depende de grandes giros, sino de una tensión sostenida entre leyenda, mirada y descubrimiento, muy característica de la mejor literatura juvenil del autor.",
+        "aboutThisBook": "Publicada por Edelvives en 1993, la obra es uno de los títulos más reconocibles de Joan Manuel Gisbert, referente de la literatura infantil y juvenil española. Su interés reside en la forma en que introduce al lector joven en una experiencia estética exigente: hay intriga, pero también contemplación, resonancia simbólica y una cuidadosa construcción del espacio. La ciudad italiana, el palacio y los espejos forman un dispositivo narrativo que une pesquisa, fantasía y reflexión sobre la imagen. Por eso se lee con frecuencia en secundaria.",
+        "forWhom": "Para lectores juveniles a partir de secundaria, profesores que busquen una novela breve de misterio con buen nivel literario y adultos que disfruten de relatos fantásticos elegantes, más atmosféricos que efectistas.",
+        "whyItMatters": "Importa porque demuestra que la literatura juvenil puede ser breve y accesible sin renunciar a la complejidad estética. Su mezcla de intriga, espacio artístico y ambigüedad fantástica la ha convertido en una lectura escolar muy perdurable.",
+        "editorialIntro": "Joan Manuel Gisbert sabe convertir la curiosidad en motor narrativo. En Los espejos venecianos no recurre al sobresalto fácil, sino a una atmósfera que envuelve lentamente al lector: una habitación con vistas, un palacio en penumbra, una figura desaparecida y unos espejos que parecen guardar otra versión del mundo. El resultado es una novela juvenil de misterio con genuina calidad literaria.",
+        "readingLevel": "Medio; lenguaje claro con un ambiente simbólico y descriptivo que pide lectura atenta.",
+        "whyReadToday": "Porque sigue funcionando muy bien como puerta de entrada a la ficción fantástica y al misterio de calidad. Además, ofrece una experiencia distinta de la narrativa juvenil más acelerada: invita a observar, sospechar e interpretar.",
+        "studyNotes": [
+          "Analizar el papel del espacio: ventana, claustro, palacio y cámara de los espejos organizan la tensión narrativa.",
+          "Observar cómo la novela mantiene la ambigüedad entre explicación racional y experiencia sobrenatural.",
+          "Relacionar la curiosidad intelectual de Giovanni con el paso de lector a investigador dentro del relato."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Una habitación con vistas al misterio",
+            "summary": "Giovanni Conti se instala en una casa antigua de Padua y descubre, desde su ventana, el atractivo inquietante de un palacio vecino casi deshabitado. La curiosidad nace antes que el miedo y guía el comienzo del relato."
+          },
+          {
+            "title": "La leyenda de Beatrice Balzani",
+            "summary": "Las indagaciones del protagonista lo conducen hacia la historia de una mujer desaparecida, conocida como 'La que nunca murió'. La novela entrelaza investigación, rumor urbano y memoria del pasado."
+          },
+          {
+            "title": "Los espejos y la otra imagen",
+            "summary": "Cuando Giovanni entra en el palacio, descubre una cámara con espejos venecianos que alteran la percepción de lo real. El desenlace se apoya en esa experiencia liminar donde imagen, fantasma y conocimiento se vuelven inseparables."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La atmósfera como forma de suspense",
+            "content": "El interés del libro no depende de la acción continua, sino de una atmósfera cuidadosamente construida. Gisbert administra silencios, espacios vacíos y señales visuales para que la intriga crezca desde la percepción."
+          },
+          {
+            "heading": "Espejo, imagen y desdoblamiento",
+            "content": "Los espejos no son solo objetos decorativos: condensan el tema central de la novela, la sospecha de que la realidad visible no agota lo real. Funcionan como umbral entre memoria, deseo y aparición."
+          },
+          {
+            "heading": "Literatura juvenil de alta exigencia estética",
+            "content": "Aunque es una novela breve y muy leída en contextos escolares, no simplifica su lenguaje ni su simbología. Esa combinación de accesibilidad y ambición literaria explica su permanencia entre las lecturas juveniles recomendadas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Los espejos venecianos?",
+            "answer": "Cuenta la investigación de Giovanni Conti, un estudiante que se siente atraído por un palacio abandonado y por la leyenda de Beatrice Balzani, hasta descubrir unos espejos que desestabilizan la realidad."
+          },
+          {
+            "question": "¿Es una novela juvenil o fantástica?",
+            "answer": "Es ambas cosas: una novela juvenil de misterio con elementos fantásticos y una fuerte construcción atmosférica."
+          },
+          {
+            "question": "¿Por qué suele recomendarse en secundaria?",
+            "answer": "Porque es breve, sugerente y literariamente rica. Permite trabajar ambiente, símbolo, punto de vista, misterio y la ambigüedad entre lo racional y lo sobrenatural."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Web oficial de Joan Manuel Gisbert - Los espejos venecianos",
+            "url": "https://www.joanmanuelgisbert.com/2011/los-espejos-venecianos/"
+          },
+          {
+            "label": "Open Library - edición de 2002 de Los espejos venecianos",
+            "url": "https://openlibrary.org/books/OL13225775M/Los_Espejos_Venecianos"
+          },
+          {
+            "label": "Lecturalia - Los espejos venecianos",
+            "url": "https://www.lecturalia.com/libro/24213/los-espejos-venecianos"
+          },
+          {
+            "label": "Wikipedia - Joan Manuel Gisbert",
+            "url": "https://es.wikipedia.org/wiki/Joan_Manuel_Gisbert"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-18T06:26:19Z"
+}

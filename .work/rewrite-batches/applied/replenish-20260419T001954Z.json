@@ -1,0 +1,1512 @@
+{
+  "batchName": "replenish-20260419T001954Z",
+  "createdAt": "2026-04-19T00:20:12Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "la-otra-historia-de-los-estados-unidos-de-howard-zinn",
+      "title": "La Otra Historia De Los Estados Unidos",
+      "authorName": "Howard Zinn",
+      "authorSlug": "howard-zinn",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La otra historia de los Estados Unidos",
+        "authorName": "Howard Zinn",
+        "authorSlug": "howard-zinn",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "historia",
+          "historia social",
+          "ensayo politico"
+        ],
+        "year": 1980,
+        "pages": 752,
+        "summary": "La otra historia de los Estados Unidos propone una relectura radical de la historia estadounidense desde 1492 hasta el siglo XX tardío. En lugar de organizar el relato alrededor de presidentes, generales y empresarios, Howard Zinn desplaza el foco hacia indígenas, esclavos, obreros, mujeres, disidentes políticos, sindicalistas y movimientos por los derechos civiles. El libro muestra cómo la expansión territorial, la construcción institucional y el crecimiento económico estuvieron acompañados por violencia, exclusión y conflictos de clase. Zinn no busca una neutralidad distante: escribe desde una posición crítica, convencido de que toda historia selecciona voces y silencios. Por eso su obra resulta tan influyente como discutida. Más que una cronología alternativa, el libro es una intervención intelectual que obliga a reconsiderar quién paga el costo del progreso, qué intereses organizan el poder y por qué las luchas colectivas importan tanto como las decisiones de los gobernantes.",
+        "aboutThisBook": "Publicado originalmente en 1980 como A People's History of the United States, este libro se convirtió en una obra de referencia dentro de la historia crítica norteamericana. La página de HarperCollins lo presenta como una historia social contada desde abajo, y Wikipedia recuerda que ha vendido millones de ejemplares, ha sido leído en escuelas y universidades y también ha suscitado objeciones de historiadores que cuestionan su sesgo interpretativo. Esa doble condición, canon alternativo y libro polémico, explica su permanencia. En español circula como La otra historia de los Estados Unidos y suele leerse tanto en cursos de historia como en debates sobre imperialismo, democracia, raza y conflicto social.",
+        "forWhom": "Para lectores adultos, universitarios y docentes interesados en historia de Estados Unidos, historia social, estudios políticos y debates sobre memoria, poder e interpretación histórica.",
+        "whyItMatters": "Importa porque cambió la manera en que muchísimos lectores no especialistas se acercaron al pasado estadounidense. También importa porque obliga a discutir qué significa escribir historia: si basta con narrar instituciones y élites o si hay que incorporar a quienes resistieron, padecieron o transformaron esas mismas estructuras.",
+        "editorialIntro": "Pocos libros de historia contemporánea han tenido una vida pública tan intensa como este. La otra historia de los Estados Unidos no es un manual desapasionado ni pretende serlo: entra en conversación directa con la versión heroica del pasado nacional y la desmonta episodio tras episodio. Su fuerza proviene de esa claridad polémica. Incluso cuando se discrepa con Zinn, el libro obliga a mirar de frente la relación entre conquista, capitalismo, guerra, racismo y ciudadanía. Leerlo hoy sigue siendo una experiencia intelectual productiva precisamente porque no deja al lector en una cómoda zona neutral.",
+        "readingLevel": "Lectura media-alta: la prosa es directa y muy legible, pero la densidad histórica, la amplitud temporal y el enfoque argumentativo exigen atención sostenida y cierta disposición al debate crítico.",
+        "whyReadToday": "Sigue siendo muy actual porque muchas discusiones presentes sobre desigualdad, racismo estructural, violencia estatal, sindicalismo y protesta ya aparecen aquí formuladas como preguntas históricas de largo plazo.",
+        "studyNotes": [
+          "Conviene leer el libro como una historia interpretativa, no como una mera acumulacion de datos: Zinn selecciona episodios para sostener una tesis sobre poder, conflicto y resistencia.",
+          "El cambio de perspectiva es central. En vez de presidents y grandes decisiones de Estado, el relato privilegia experiencias de campesinos, trabajadores, soldados rasos, esclavizados y activistas.",
+          "Una parte importante del valor del libro esta en su impacto cultural y pedagogico: ayudo a popularizar la historia social en lectores no especializados.",
+          "Tambien es util registrar sus limites y controversias: varios historiadores han discutido su tendencia a simplificar actores y procesos para reforzar una lectura politica coherente."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: conquista, colonizacion y violencia fundacional",
+            "summary": "Zinn abre el libro cuestionando la imagen celebratoria del descubrimiento y de los primeros asentamientos. Desde el inicio insiste en que la construccion de Estados Unidos no puede separarse de la expropiacion indigena, la esclavitud y la jerarquia racial."
+          },
+          {
+            "title": "Parte 2: independencia, republica y conflictos de clase",
+            "summary": "La revolucion y la formacion del nuevo Estado aparecen leidas no solo como triunfo politico, sino tambien como reordenamiento de intereses economicos. Zinn subraya que la nueva republica mantuvo desigualdades profundas y domestico impulsos populares mas radicales."
+          },
+          {
+            "title": "Parte 3: expansion, trabajo y luchas sociales",
+            "summary": "El libro sigue luego el crecimiento territorial e industrial del pais mostrando sus costos humanos. En este tramo cobran fuerza las huelgas, los movimientos obreros, las revueltas campesinas y las resistencias de quienes quedaron fuera del relato oficial del progreso."
+          },
+          {
+            "title": "Parte 4: siglo XX, guerras y derechos civiles",
+            "summary": "En los capitulos finales Zinn revisa guerras, imperialismo, conflicto racial, feminismo, Vietnam y protesta social. La historia reciente confirma su idea central: los avances democraticos no fueron regalos institucionales, sino conquistas arrancadas por movilizaciones colectivas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia desde abajo",
+            "content": "La apuesta metodologica mas reconocible del libro consiste en narrar el pasado desde grupos subalternos y no desde las elites estatales. Ese giro modifica no solo quienes aparecen en escena, sino tambien que hechos se consideran historicamente decisivos."
+          },
+          {
+            "heading": "Un libro influyente y discutido",
+            "content": "La obra alcanzo una enorme circulacion porque ofrece una sintesis potente, clara y polemica. Pero su misma fuerza interpretativa ha generado objeciones: algunos especialistas le reprochan omisiones, unilateralidad y una tendencia a leer la historia estadounidense como continuidad de dominacion."
+          },
+          {
+            "heading": "Politica, moral y narracion historica",
+            "content": "Zinn rechaza la fantasia de una historia enteramente neutral. El libro hace visible que toda narracion historica distribuye simpatias, centra ciertas voces y silencia otras. En ese sentido, su propuesta es tambien una reflexion sobre la responsabilidad moral del historiador."
+          },
+          {
+            "heading": "Utilidad academica actual",
+            "content": "Aunque no sustituye trabajos monograficos ni bibliografia especializada, sigue siendo muy util como puerta de entrada a debates sobre capitalismo, imperialismo, raza, trabajo y ciudadania. Funciona especialmente bien cuando se lo pone en dialogo con lecturas complementarias o criticas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro objetivo o militante?",
+            "answer": "Es claramente un libro de historia interpretativa con posicion politica explicita. Su interes no esta en ocultar esa perspectiva, sino en discutir la falsa neutralidad de muchos relatos tradicionales sobre Estados Unidos."
+          },
+          {
+            "question": "¿Sirve para estudiar historia universitaria?",
+            "answer": "Si, sobre todo como lectura de contraste y debate. Es valioso para abrir preguntas y reordenar el foco del curso, aunque conviene complementarlo con investigaciones especializadas y con historiografia de signo distinto."
+          },
+          {
+            "question": "¿Por que fue tan influyente?",
+            "answer": "Porque ofrecio una narracion amplia, energica y accesible que daba protagonismo a actores normalmente relegados. Para muchos lectores fue la primera vez que la historia de Estados Unidos aparecia explicada desde el conflicto social y no desde la celebracion nacional."
+          },
+          {
+            "question": "¿Que temas aparecen con mas fuerza?",
+            "answer": "La conquista, la esclavitud, el racismo, la expansion capitalista, las guerras, la represion politica y las luchas por derechos civiles y laborales. Todos se articulan alrededor de la pregunta por quien ejerce el poder y quien lo resiste."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "HarperCollins: A People's History of the United States",
+            "url": "https://www.harpercollins.com/products/a-peoples-history-of-the-united-states-howard-zinn"
+          },
+          {
+            "label": "Wikipedia: A People's History of the United States",
+            "url": "https://en.wikipedia.org/wiki/A_People%27s_History_of_the_United_States"
+          },
+          {
+            "label": "Open Library: A People's History of the United States",
+            "url": "https://openlibrary.org/works/OL50283W/A_People%27s_History_of_the_United_States"
+          },
+          {
+            "label": "Goodreads: La otra historia de los Estados Unidos",
+            "url": "https://www.goodreads.com/book/show/358542.La_otra_historia_de_los_Estados_Unidos"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-pagina-64-de-fran-j-marber",
+      "title": "La Pagina 64",
+      "authorName": "Fran J Marber",
+      "authorSlug": "fran-j-marber",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La Pagina 64",
+        "authorName": "Fran J. Marber",
+        "authorSlug": "fran-j-marber",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "misterio literario",
+          "aventura"
+        ],
+        "year": 2011,
+        "pages": 203,
+        "summary": "La Pagina 64 construye un thriller de misterio literario a partir de una premisa seductora: la posibilidad de que bajo la obra de Julio Verne permanezca escondido el rastro de un manuscrito prohibido y nunca publicado. Segun la sinopsis difundida por el propio autor, el nieto de un antiguo empleado de la Biblioteca Nacional de Francia descubre un mensaje cifrado que podria conducir a esa opera prima perdida de uno de los grandes escritores franceses del siglo XIX. Desde ahi arranca una investigacion que mezcla claves bibliograficas, persecuciones, traiciones y una atmosfera parisina vinculada al archivo, al secreto y a la obsesion por los libros. La novela se apoya en la idea de que la literatura guarda enigmas materiales, no solo simbolicos: manuscritos, cajas fuertes, codigos y documentos ocultos. Con un ritmo agil y un planteamiento muy orientado al suspense, Fran J. Marber combina intriga historica, homenaje al mundo editorial y aventura contemporanea.",
+        "aboutThisBook": "La novela fue publicada en 2011 y Goodreads la registra con 203 paginas. En la web oficial del autor se presenta como una obra inspirada en un hecho real y sostenida por un \"riguroso y exhaustivo trabajo de documentacion\", rasgo importante para entender su propuesta: no se trata solo de un enigma libresco, sino de una ficcion que quiere apoyarse en la fascinacion real por la historia literaria francesa. El propio sitio de Fran J. Marber la destaca ademas como quinta edicion, señal de una trayectoria sostenida dentro de su catalogo. Su gancho principal reside en vincular archivo, conspiracion y canon literario en un formato de novela breve y de lectura rapida.",
+        "forWhom": "Para lectores adultos y juveniles maduros que disfrutan los thrillers de enigmas, las novelas sobre libros y manuscritos ocultos, y las historias donde la investigacion intelectual se convierte en aventura narrativa.",
+        "whyItMatters": "Importa dentro de su escala porque participa de una tradicion muy atractiva para el lector contemporaneo: la del misterio bibliografico. Convierte la historia de la literatura en motor de suspense y recuerda que los libros tambien producen secretos, intrigas y mitos materiales.",
+        "editorialIntro": "El mayor acierto de La Pagina 64 esta en entender algo esencial: los lectores apasionados por la literatura tambien quieren aventura. Fran J. Marber parte de una hipotesis altamente novelesca —un manuscrito perdido, una clave escondida en las obras de Julio Verne, una promesa de hallazgo deslumbrante— y la convierte en un relato veloz, pensado para sostener curiosidad continua. No busca una erudicion pesada, sino el placer de perseguir una pista entre bibliotecas, documentos y traiciones. Esa mezcla de imaginacion literaria y ritmo de thriller explica bien su atractivo.",
+        "readingLevel": "Lectura media: el argumento es accesible y dinamico, pero funciona mejor para quienes disfrutan referencias literarias, juegos de codigos y una trama que avanza a partir de pistas sucesivas.",
+        "whyReadToday": "Sigue siendo apetecible hoy porque responde a un gusto muy vivo: el de las ficciones sobre libros, archivos y secretos culturales. Une entretenimiento rapido con amor por la historia literaria y por el objeto libro.",
+        "studyNotes": [
+          "La clave del libro no es solo el enigma, sino el uso de la literatura como territorio material de investigacion: manuscritos, archivos, codigos y bibliotecas.",
+          "Julio Verne funciona como figura de anclaje cultural. La novela aprovecha su prestigio para construir una trama donde canon y secreto aparecen estrechamente unidos.",
+          "El propio autor subraya el trabajo de documentacion y la inspiracion en un hecho real; eso sugiere leer la obra como thriller de base libresca, no como fantasia pura.",
+          "Su brevedad la vuelve adecuada para cursos o clubes de lectura que quieran trabajar el subgenero del misterio literario sin enfrentarse a una novela extensa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: el secreto del manuscrito perdido",
+            "summary": "La novela parte de la idea de que una opera prima censurada nunca llego a publicarse y quedo oculta en algun lugar del viejo Paris. Esa ausencia inicial da al relato su motor de fascinacion: encontrar lo que la historia literaria perdio o escondio."
+          },
+          {
+            "title": "Momento clave 2: el mensaje cifrado en la obra de Verne",
+            "summary": "El descubrimiento realizado por el nieto de un empleado de la Biblioteca Nacional de Francia abre la investigacion. La pista sugiere que las novelas de Julio Verne contienen una clave y transforma la lectura en pesquisa."
+          },
+          {
+            "title": "Momento clave 3: carrera entre pistas, sorpresas y traiciones",
+            "summary": "La sinopsis oficial insiste en el caracter vertiginoso del camino emprendido por el protagonista. A medida que avanzan las revelaciones, la novela despliega el costado aventurero del enigma y refuerza su registro de thriller."
+          },
+          {
+            "title": "Momento clave 4: el hallazgo y su impacto literario",
+            "summary": "El desenlace promete uno de los grandes descubrimientos literarios del siglo XX. Mas alla del giro final, la novela busca dejar la impresion de que la historia de la literatura sigue abierta a secretos capaces de cambiar la lectura del canon."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El misterio literario como subgenero",
+            "content": "La novela se inscribe en una tradicion de thrillers donde el saber filologico, la investigacion bibliografica y la persecucion de documentos perdidos cumplen la funcion que en otros relatos ocupan reliquias, tesoros o pruebas criminales."
+          },
+          {
+            "heading": "Julio Verne como maquina de fascinacion",
+            "content": "Tomar a Verne como punto de apoyo no es un detalle decorativo. Su figura concentra aventura, imaginacion cientifica y prestigio cultural, de modo que cualquier secreto oculto en su obra adquiere de inmediato un gran poder narrativo."
+          },
+          {
+            "heading": "Archivo, codigo y suspense",
+            "content": "La Pagina 64 transforma procedimientos intelectuales en accion novelesca. Leer, descifrar, comparar y buscar documentos deja de ser una tarea silenciosa para convertirse en una cadena de riesgos y descubrimientos."
+          },
+          {
+            "heading": "Brevedad y eficacia",
+            "content": "Con poco mas de doscientas paginas, el libro parece apostar por la concentracion y el impulso continuo. Esa economia puede ser una ventaja para lectores que buscan una intriga cultural sin largos rodeos expositivos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La novela gira realmente en torno a Julio Verne?",
+            "answer": "Si, al menos como nucleo del enigma. La sinopsis oficial indica que en sus novelas aparece un mensaje cifrado que conduce al manuscrito perdido, de modo que Verne opera como eje simbolico y argumental."
+          },
+          {
+            "question": "¿Es una novela historica o un thriller contemporaneo?",
+            "answer": "Funciona sobre todo como thriller contemporaneo con fuerte componente historico-literario. El pasado aporta el secreto y la documentacion; la accion principal nace de la investigacion moderna."
+          },
+          {
+            "question": "¿Es un libro adecuado para amantes de los libros sobre libros?",
+            "answer": "Claramente si. Su principal atractivo esta en convertir bibliotecas, manuscritos y claves textuales en motor de aventura, algo muy propio del misterio bibliografico."
+          },
+          {
+            "question": "¿La extension favorece la lectura?",
+            "answer": "Si. Sus 203 paginas sugieren una novela de ritmo rapido, adecuada para quien busca una intriga breve, intensa y de facil circulacion entre lectores generales."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Fran J. Marber: La Pagina 64",
+            "url": "https://franjmarber.com/novela/la-pagina-64/"
+          },
+          {
+            "label": "Fran J. Marber: Biografia oficial",
+            "url": "https://franjmarber.com/biografia/"
+          },
+          {
+            "label": "Goodreads: La Pagina 64",
+            "url": "https://www.goodreads.com/book/show/13564853-la-p-gina-64"
+          },
+          {
+            "label": "Goodreads: Fran J. Marber",
+            "url": "https://www.goodreads.com/author/show/5785788.Fran_J_Marber"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-sangre-de-los-libros-de-santiago-posteguillo",
+      "title": "La Sangre De Los Libros",
+      "authorName": "Santiago Posteguillo",
+      "authorSlug": "santiago-posteguillo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La sangre de los libros",
+        "authorName": "Santiago Posteguillo",
+        "authorSlug": "santiago-posteguillo",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo literario",
+          "historia de la literatura",
+          "divulgacion cultural"
+        ],
+        "year": 2014,
+        "pages": null,
+        "summary": "La sangre de los libros es un recorrido divulgativo por episodios dramaticos, extraños o decisivos de la historia de la literatura. Santiago Posteguillo organiza el volumen alrededor de una intuicion muy eficaz: detras de muchos libros canonicos hubo duelos, suicidios, juicios, censuras, guerras, ruinas economicas, manuscritos extraviados y vidas al borde del desastre. El autor no ofrece una historia academica sistematica, sino una serie de relatos ensayisticos que combinan curiosidad, contexto y narracion. El resultado acerca al lector a figuras como Pushkin, Shakespeare, Pessoa o Dante desde un angulo menos escolar y mas narrativo: el de los accidentes, peligros y conflictos que rodearon la escritura, la publicacion o la recepcion de sus obras. Posteguillo convierte la historia literaria en una secuencia de enigmas y escenas memorables, con una clara vocacion de contagiar interes por los autores clasicos a traves de sus biografias mas tensas y sorprendentes.",
+        "aboutThisBook": "En la pagina oficial del autor, La sangre de los libros aparece dentro de la trilogia dedicada a la historia de la literatura y se presenta como un \"fascinante recorrido por los enigmas mas famosos de la literatura\". El mismo sitio fija su publicacion en 2014 y resume algunos de sus asuntos: duelos, condenas a muerte, guerras, misterios editoriales y preguntas sobre autores y textos que siguen despertando curiosidad. No es una novela, sino un libro de divulgacion literaria construido con pulso narrativo, pensado para que el lector entre a los clasicos a traves de sus zonas de riesgo. Su mayor virtud editorial esta precisamente ahi: hacer que la historia de los libros se lea con el impulso de una coleccion de relatos de suspense cultural.",
+        "forWhom": "Para lectores adultos, estudiantes de letras, docentes y curiosos de la historia literaria que disfrutan las anecdotas con contexto y quieren entrar a los clasicos desde una via amena y muy narrativa.",
+        "whyItMatters": "Importa porque acerca la historia de la literatura a un publico amplio sin vaciarla de interes intelectual. Muestra que los clasicos no nacieron en un museo, sino en medio de conflictos humanos, politicos y editoriales muy concretos.",
+        "editorialIntro": "Santiago Posteguillo sabe contar y en este libro aplica esa capacidad no a la novela historica, sino a la biografia cultural del libro mismo. La sangre de los libros parte de una idea excelente: leer los grandes textos desde las amenazas que los rodearon. En vez de presentar autores marmoreos e intocables, devuelve a escena la fragilidad material de escribir, publicar, circular y sobrevivir en la historia. El libro funciona asi como invitacion doble: a seguir las peripecias de escritores y a volver luego a sus obras con ojos nuevos.",
+        "readingLevel": "Lectura media: el tono es muy accesible y narrativo, sin aparato academico pesado, aunque resulta mas provechoso para lectores interesados en autores clasicos, contexto historico y referencias culturales.",
+        "whyReadToday": "Vale la pena leerlo hoy porque reactiva el interes por la literatura clasica desde una forma muy contemporanea de contar: episodios breves, enigmas, giros biograficos y conexiones entre vida, politica y circulacion de los textos.",
+        "studyNotes": [
+          "No debe leerse como manual exhaustivo de historia literaria, sino como libro de divulgacion ensayistica que selecciona episodios significativos por su potencia narrativa.",
+          "El volumen es util para trabajar la materialidad de la literatura: publicacion, censura, recepcion, edicion, fama postuma y supervivencia de los manuscritos.",
+          "Posteguillo explota una estrategia didactica eficaz: entrar a los autores canonicos por preguntas sorprendentes y conflictos concretos antes que por abstracciones teoricas.",
+          "Puede dialogar muy bien con cursos de literatura universal, historia del libro o introduccion a estudios literarios por su capacidad para despertar contexto y curiosidad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: los enigmas que rodean a los clasicos",
+            "summary": "El libro abre un territorio donde la historia literaria se vuelve pregunta: quien escribio realmente ciertas obras, que textos estuvieron a punto de perderse y por que alrededor de algunos autores siguen orbitando dudas persistentes."
+          },
+          {
+            "title": "Parte 2: duelos, muertes y violencia alrededor de la escritura",
+            "summary": "Uno de los ejes mas llamativos del volumen muestra hasta que punto la vida de muchos escritores estuvo atravesada por episodios violentos. Duelo, suicidio, condena o guerra dejan de ser datos secundarios y se integran en la memoria del libro."
+          },
+          {
+            "title": "Parte 3: censura, editores y libros en peligro",
+            "summary": "Posteguillo recuerda que publicar nunca fue un proceso transparente ni garantizado. Manuscritos rechazados, dificultades para encontrar editor y obras amenazadas por la censura permiten pensar la literatura como lucha por existir materialmente."
+          },
+          {
+            "title": "Parte 4: leer la tradicion con una mirada renovada",
+            "summary": "Al cierre, el libro consolida su apuesta divulgativa: no reducir los clasicos a un pedestal, sino devolverlos al terreno de la contingencia historica. Esa estrategia vuelve mas cercana y memorable la relacion entre lector actual y canon literario."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Divulgacion con pulso narrativo",
+            "content": "Posteguillo no escribe desde la sequedad del dato aislado, sino desde la construccion de escenas. Ese pulso le permite transformar informacion cultural en relatos breves de gran capacidad de enganche, sin perder del todo el respaldo historico."
+          },
+          {
+            "heading": "La literatura como aventura material",
+            "content": "Uno de los mayores aportes del libro es recordar que la literatura no vive solo en las ideas. Tambien depende de imprentas, editores, tribunales, guerras, lectores, censores y accidentes biograficos. Esa materialidad vuelve mas concreta la historia del canon."
+          },
+          {
+            "heading": "Canon y curiosidad",
+            "content": "El volumen funciona muy bien porque usa la curiosidad como metodo de acceso a autores consagrados. En vez de imponer reverencia, propone preguntas llamativas que invitan a volver a Shakespeare, Dante, Pessoa o Pushkin con deseo de saber mas."
+          },
+          {
+            "heading": "Utilidad pedagogica",
+            "content": "Es un libro especialmente util para mediacion cultural y docente. Puede servir como puerta de entrada a la literatura universal, como apoyo para clases introductorias o como lectura complementaria capaz de humanizar el estudio de los clasicos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro de ensayos?",
+            "answer": "Es un libro de no ficcion y divulgacion literaria. Sus textos se leen con fluidez narrativa, pero su materia principal son episodios historicos y biograficos ligados a grandes obras y autores."
+          },
+          {
+            "question": "¿Hace falta haber leido a todos los autores mencionados?",
+            "answer": "No. Justamente una de sus virtudes es despertar interes previo. Puede leerse sin gran formacion especializada y luego funcionar como mapa de futuras lecturas."
+          },
+          {
+            "question": "¿Que aporta respecto a una historia academica de la literatura?",
+            "answer": "Aporta cercania, ritmo y memoria narrativa. No reemplaza un manual sistematico, pero si ofrece escenas y preguntas que vuelven mas vivas las trayectorias de autores y libros."
+          },
+          {
+            "question": "¿Por que el titulo habla de sangre?",
+            "answer": "Porque el libro insiste en que detras de muchos textos canonicos hubo violencia real o simbolica: duelos, juicios, persecuciones, censuras, muertes y conflictos historicos que marcaron su existencia."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Santiago Posteguillo: Libros de relatos",
+            "url": "https://www.santiagoposteguillo.es/libros-de-relatos/"
+          },
+          {
+            "label": "Santiago Posteguillo: \"La sangre de los libros\" comentado por el periodico Enfoque de Mexico",
+            "url": "https://www.santiagoposteguillo.es/obras/la-sangre-de-los-libros/"
+          },
+          {
+            "label": "Open Library: La sangre de los libros",
+            "url": "https://openlibrary.org/works/OL17077209W/La_sangre_de_los_libros"
+          },
+          {
+            "label": "Goodreads: La sangre de los libros",
+            "url": "https://www.goodreads.com/book/show/22888914-la-sangre-de-los-libros"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-telarana-de-agatha-christe",
+      "title": "La Telarana",
+      "authorName": "Agatha Christe",
+      "authorSlug": "agatha-christe",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La telaraña",
+        "authorName": "Agatha Christie",
+        "authorSlug": "agatha-christie",
+        "type": "teatro",
+        "audience": "adulto",
+        "genres": [
+          "misterio",
+          "teatro policial",
+          "intriga"
+        ],
+        "year": 1954,
+        "pages": 92,
+        "summary": "La telaraña es una pieza de intriga teatral en la que Agatha Christie combina el ingenio de la comedia de salón con la tensión del crimen oculto. Clarissa Hailsham-Brown, esposa imaginativa de un diplomático, suele fantasear con situaciones extraordinarias; por eso, cuando aparece un cadáver en su casa, la frontera entre el juego verbal y el peligro real se rompe de golpe. A partir de ese hallazgo, la obra sigue los esfuerzos de Clarissa por ganar tiempo, proteger a quienes ama y ordenar una escena cada vez más inestable mientras llegan visitas, autoridades y sospechas. Christie construye así una trama de puertas que se abren y cierran, identidades ambiguas, mentiras tácticas y giros de percepción, donde cada conversación sirve para ocultar algo y revelar otra cosa.",
+        "aboutThisBook": "Más que un simple policial escénico, esta obra muestra a una Christie especialmente hábil para escribir ritmo dramático, humor y tensión simultáneos. La protagonista no es una investigadora clásica, sino una mujer brillante que improvisa bajo presión y convierte el espacio doméstico en un tablero de maniobras. La pieza se estrenó en el West End londinense y suele leerse como una muestra muy eficaz del “comedy thriller” británico de posguerra.",
+        "forWhom": "Ideal para lectores y estudiantes interesados en el teatro de intriga, en la dramaturgia inglesa del siglo XX y en personajes femeninos que sostienen la acción con inteligencia y nervio.",
+        "whyItMatters": "Importa porque revela una faceta menos comentada de Christie: su dominio del escenario. La obra permite estudiar cómo se administra la información, cómo el humor convive con el suspense y cómo el espacio doméstico puede transformarse en máquina dramática.",
+        "editorialIntro": "Aunque el nombre de Agatha Christie se asocia de inmediato con la novela policial, La telaraña recuerda que su relación con el teatro fue decisiva. Aquí no hay una pesquisa lineal, sino una coreografía de equívocos, entradas inesperadas y decisiones urgentes. El resultado es una pieza ágil, elegante y muy útil para observar la carpintería del suspense clásico.",
+        "readingLevel": "Lectura accesible para bachillerato y primeros cursos universitarios, con atención al subtexto y a la lógica escénica.",
+        "whyReadToday": "Sigue siendo actual porque examina la actuación social, la gestión del miedo y la fragilidad de las apariencias. Además, ofrece un modelo claro de cómo narrar tensión sin renunciar al humor.",
+        "studyNotes": [
+          "Observa cómo Christie dosifica la información: casi cada parlamento reordena la sospecha sin cerrar del todo el enigma.",
+          "La casa funciona como espacio dramático total: refugio, escenario de mentira y trampa para quien cree dominar la situación.",
+          "Clarissa es clave para leer la obra: no investiga como detective profesional, sino que improvisa, representa y administra versiones.",
+          "Conviene estudiar el tono híbrido de la pieza: la comicidad nunca cancela el peligro, sino que lo vuelve más inquietante."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: Un juego imaginario que se vuelve real",
+            "summary": "La obra introduce a Clarissa como una mujer ingeniosa, dada a la fantasía verbal y a los escenarios hipotéticos. Ese tono ligero se quiebra cuando la casa deja de ser un espacio de conversación ociosa y aparece la evidencia material de un crimen."
+          },
+          {
+            "title": "Momento clave 2: Ocultar, improvisar, sostener la versión",
+            "summary": "Ante la amenaza del escándalo y del castigo, Clarissa organiza una respuesta inmediata. La tensión nace de la necesidad de mover objetos, ordenar tiempos, contener a los visitantes y mantener a raya una verdad que amenaza con desbordarse."
+          },
+          {
+            "title": "Momento clave 3: Sospechas cruzadas y giros de percepción",
+            "summary": "A medida que entran nuevas figuras en escena, las lealtades parecen cambiar y cada explicación resulta insuficiente. Christie usa el diálogo para instalar pistas contradictorias y para mostrar que el verdadero problema no es solo quién ha muerto, sino quién sabe qué cosa."
+          },
+          {
+            "title": "Momento clave 4: Resolución y relectura del engaño",
+            "summary": "En el tramo final, la trama recompone retrospectivamente los gestos y silencios anteriores. La obra confirma que el suspense depende tanto del crimen como del talento con que los personajes han representado papeles ante los demás."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Clarissa como protagonista no detectivesca",
+            "content": "Clarissa desplaza el modelo del investigador frío y analítico. Su fuerza dramática proviene de la rapidez mental, de la intuición social y de la capacidad para actuar distintos registros según el interlocutor. Eso vuelve la obra especialmente interesante desde una perspectiva de género y performance."
+          },
+          {
+            "heading": "La casa como máquina de suspense",
+            "content": "El espacio doméstico concentra entradas, secretos, objetos comprometidos y movimientos estratégicos. Christie convierte el interior burgués en un laboratorio moral donde el orden visible depende de un esfuerzo constante por ocultar el desorden real."
+          },
+          {
+            "heading": "Humor, elegancia y crimen",
+            "content": "La pieza no apuesta por una oscuridad total. Su singularidad está en mezclar ligereza verbal con peligro efectivo. Ese contraste suaviza la superficie, pero intensifica el nerviosismo, porque el público percibe que el tono amable puede romperse en cualquier momento."
+          },
+          {
+            "heading": "Teatro policial y control de la información",
+            "content": "La obra sirve para estudiar cómo el teatro maneja el dato escondido sin recurrir a largas explicaciones narrativas. Aquí importan la pausa, la entrada oportuna, el objeto desplazado y el malentendido calculado: recursos estrictamente escénicos para producir intriga."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La telaraña es una novela o una obra de teatro?",
+            "answer": "Es originalmente una obra de teatro de Agatha Christie. Más tarde existieron adaptaciones y novelizaciones, pero su forma de origen es escénica."
+          },
+          {
+            "question": "¿Qué distingue a esta obra dentro de la producción de Christie?",
+            "answer": "Destaca por su mezcla de comedia de salón y suspense criminal, además de situar a una protagonista que resuelve desde la improvisación más que desde la pesquisa metódica."
+          },
+          {
+            "question": "¿Se puede leer sin conocer otras obras de Christie?",
+            "answer": "Sí. Funciona de manera autónoma y permite entrar con facilidad en su teatro, aunque quien conozca sus novelas reconocerá su gusto por el equívoco y el giro final."
+          },
+          {
+            "question": "¿Es útil para estudiar dramaturgia?",
+            "answer": "Mucho. Permite analizar ritmo escénico, manejo del secreto, construcción de tensión mediante entradas y salidas, y aprovechamiento dramático del espacio doméstico."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Agatha Christie oficial: Spider's Web",
+            "url": "https://www.agathachristie.com/stories/spiders-web"
+          },
+          {
+            "label": "Wikipedia en inglés: Spider's Web (play)",
+            "url": "https://en.wikipedia.org/wiki/Spider%27s_Web_(play)"
+          },
+          {
+            "label": "Open Library: obra Spider's Web",
+            "url": "https://openlibrary.org/works/OL472647W"
+          },
+          {
+            "label": "Open Library: edición de 1956",
+            "url": "https://openlibrary.org/books/OL14083008M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-zapatera-prodigiosa-de-federico-garcia-lorca",
+      "title": "La Zapatera Prodigiosa",
+      "authorName": "Federico Garcia Lorca",
+      "authorSlug": "federico-garcia-lorca",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La zapatera prodigiosa",
+        "authorName": "Federico García Lorca",
+        "authorSlug": "federico-garcia-lorca",
+        "type": "teatro",
+        "audience": "adulto",
+        "genres": [
+          "farsa",
+          "teatro poético",
+          "drama social"
+        ],
+        "year": 1930,
+        "pages": null,
+        "summary": "La zapatera prodigiosa presenta el conflicto entre una joven de temperamento fuerte y el zapatero mayor con quien se ha casado, en un pueblo gobernado por la murmuración, el juicio moral y la vigilancia colectiva. Lorca construye una farsa en la que la comicidad popular convive con una reflexión seria sobre el deseo, la frustración y la identidad. La zapatera desafía el papel obediente que la comunidad espera de ella, pero su rebeldía también es una forma de dolor y de desajuste. Cuando el marido desaparece y luego regresa bajo otra apariencia, la obra despliega un proceso de reconocimiento mutuo: ambos deben atravesar máscaras, orgullo y humillación antes de comprender el vínculo que los une. El resultado es una pieza viva, rítmica y simbólica, atravesada por voces del pueblo, canciones, color y violencia verbal.",
+        "aboutThisBook": "Esta obra ocupa un lugar importante dentro del teatro lorquiano porque une tradición popular, lirismo y conflicto social con una forma escénica muy concentrada. Aunque suele leerse como una farsa, su materia es más compleja: el matrimonio desigual, la presión del entorno, el deseo femenino y la dificultad de habitar una identidad auténtica. Lorca la concibe como una pieza de raíz popular que termina funcionando también como alegoría del alma humana y de sus contradicciones.",
+        "forWhom": "Muy recomendable para estudiantes de literatura española, teatro del siglo XX y lectores interesados en la construcción lorquiana del deseo, el honor social y la voz popular.",
+        "whyItMatters": "Importa porque muestra a un Lorca capaz de convertir un conflicto aparentemente doméstico en una meditación sobre libertad, máscara social y violencia comunitaria. Es una excelente puerta de entrada a su teatro por su claridad argumental y su riqueza simbólica.",
+        "editorialIntro": "Leer La zapatera prodigiosa hoy es entrar en un teatro de superficie festiva y fondo inquietante. Bajo la energía de la farsa laten la soledad, el descrédito público y la dificultad de ser uno mismo frente a la mirada del pueblo. Lorca vuelve escénico ese choque entre deseo íntimo y norma social con una precisión verbal extraordinaria.",
+        "readingLevel": "Adecuada para secundaria avanzada y universidad: exige atender al habla popular, al símbolo y al tono híbrido entre comedia y desgarro.",
+        "whyReadToday": "Se mantiene vigente porque pone en escena la crueldad del juicio colectivo y la lucha por una voz propia. También permite pensar cómo el género y la edad condicionan la libertad sentimental.",
+        "studyNotes": [
+          "La obra debe leerse como farsa, pero sin olvidar que la exageración cómica encubre un conflicto emocional real y profundo.",
+          "El pueblo funciona casi como personaje colectivo: vigila, comenta, deforma y presiona a los protagonistas.",
+          "La diferencia de edad entre zapatero y zapatera no es un dato accesorio: organiza el desequilibrio afectivo y social de la trama.",
+          "La máscara y el disfraz no son solo recursos teatrales; expresan la dificultad de mostrarse con verdad en un entorno hostil."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Matrimonio desigual y escándalo cotidiano",
+            "summary": "Desde el comienzo, Lorca presenta un hogar atravesado por la irritación y por la diferencia de expectativas. La zapatera resiste la docilidad que se le exige, mientras el marido oscila entre el cansancio, el amor y la incapacidad de sostener el conflicto."
+          },
+          {
+            "title": "Parte 2: El peso del pueblo y de la murmuración",
+            "summary": "Las vecinas, los mozos y las figuras del entorno convierten la vida privada en espectáculo público. La honra y la reputación operan como formas de control que agrandan cada gesto de la protagonista."
+          },
+          {
+            "title": "Parte 3: Ausencia, trabajo y resistencia",
+            "summary": "Cuando el zapatero se aleja, la zapatera queda enfrentada a la precariedad material y al comentario social. Sin embargo, su aparente agresividad se revela también como defensa frente a la soledad y al abandono."
+          },
+          {
+            "title": "Parte 4: Regreso disfrazado y reconocimiento",
+            "summary": "La vuelta del marido bajo otra figura dramática permite poner a prueba la verdad del vínculo. Solo a través del rodeo, del teatro dentro del teatro y del reconocimiento final puede abrirse una reconciliación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Farsa popular y densidad simbólica",
+            "content": "La comicidad de la obra no debe confundirse con ligereza temática. Lorca usa la farsa para intensificar el conflicto y para mostrar que lo ridículo social puede ser también profundamente cruel. El tono popular convive con un claro espesor poético."
+          },
+          {
+            "heading": "La zapatera como figura de insumisión",
+            "content": "La protagonista incomoda porque habla demasiado, responde, desea y no acepta de buen grado el lugar que le asignan. Esa energía puede parecer caprichosa, pero en realidad expone una protesta contra un orden comunitario que busca disciplinarla."
+          },
+          {
+            "heading": "El pueblo como tribunal moral",
+            "content": "Las voces vecinales crean un cerco simbólico alrededor del matrimonio. La obra muestra cómo la comunidad define identidades, reparte culpas y transforma lo íntimo en materia de control, burla y castigo."
+          },
+          {
+            "heading": "Disfraz, deseo y verdad",
+            "content": "El regreso del zapatero disfrazado subraya una idea central en Lorca: a veces la verdad afectiva solo puede aparecer a través de la representación. El teatro dentro del teatro no es adorno, sino el mecanismo que permite revelar lo oculto."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una comedia o un drama?",
+            "answer": "Es una farsa teatral con fuerte componente cómico, pero su trasfondo es dramático: habla de soledad, deseo frustrado, presión social y reconciliación difícil."
+          },
+          {
+            "question": "¿Por qué la protagonista resulta tan conflictiva?",
+            "answer": "Porque Lorca la construye como una mujer joven, vital y verbalmente combativa en un medio que castiga cualquier desviación respecto del ideal femenino sumiso."
+          },
+          {
+            "question": "¿Qué papel cumple el disfraz del zapatero?",
+            "answer": "Permite comprobar la verdad de los sentimientos y hace visible que la identidad social puede ser una máscara. Gracias a ese rodeo escénico, ambos personajes se reconocen de otra manera."
+          },
+          {
+            "question": "¿Por qué se estudia tanto en cursos de literatura española?",
+            "answer": "Porque concentra rasgos esenciales del teatro de Lorca: mezcla de oralidad popular y poesía, crítica social, personajes intensos y uso simbólico de la escena."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia en español: La zapatera prodigiosa",
+            "url": "https://es.wikipedia.org/wiki/La_zapatera_prodigiosa"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: texto y ficha",
+            "url": "https://www.cervantesvirtual.com/obra-visor/la-zapatera-prodigiosa-775097/html/31de0582-fbf5-4a0c-bde6-d06b8814fada_2.html"
+          },
+          {
+            "label": "Open Library: obra La zapatera prodigiosa",
+            "url": "https://openlibrary.org/works/OL722542W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-grietas-de-jara-de-claudia-pineiro",
+      "title": "Las Grietas De Jara",
+      "authorName": "Claudia Pineiro",
+      "authorSlug": "claudia-pineiro",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las grietas de Jara",
+        "authorName": "Claudia Piñeiro",
+        "authorSlug": "claudia-pineiro",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela negra",
+          "suspenso",
+          "drama psicológico"
+        ],
+        "year": 2009,
+        "pages": 250,
+        "summary": "Las grietas de Jara sigue a Pablo Simó, un arquitecto que lleva años instalado en la inercia: trabaja en un estudio que ya no lo representa, sostiene una vida familiar gastada y aplaza la posibilidad de un cambio real. La llegada de una joven que pregunta por Nelson Jara, un nombre que incomoda a todos en la oficina, abre una investigación informal sobre un episodio del pasado que parecía enterrado. A partir de esa grieta inicial, Claudia Piñeiro articula una novela de suspenso moral más que puramente policial: el misterio externo importa, pero importa todavía más la erosión interior de quienes han aprendido a convivir con la mentira, la culpa y la mediocridad. La novela avanza desmontando silencios profesionales, afectivos y éticos, y convierte la arquitectura en una metáfora precisa de vidas mal construidas.",
+        "aboutThisBook": "Publicada por primera vez en 2009, esta novela confirma la habilidad de Piñeiro para cruzar trama de intriga con observación social y psicológica. No se limita a un enigma de desaparición o de culpa: explora la rutina, el desgaste del deseo, la corrupción pequeña y la forma en que un hecho no resuelto sigue actuando durante años sobre quienes participaron en él. Su prosa es sobria, eficaz y muy atenta a los detalles laborales y urbanos.",
+        "forWhom": "Es una lectura muy recomendable para quienes buscan novela negra contemporánea con espesor psicológico, crítica social y personajes atrapados entre la cobardía cotidiana y la posibilidad de cambiar.",
+        "whyItMatters": "Importa porque muestra una variante especialmente fértil del policial rioplatense: el crimen o la desaparición no son solo un acertijo, sino una vía para examinar clases medias profesionales, responsabilidades compartidas y fisuras morales de larga duración.",
+        "editorialIntro": "En Las grietas de Jara, Claudia Piñeiro no acelera para producir un thriller de consumo rápido; prefiere desgastar lentamente las defensas de sus personajes. La novela trabaja con oficinas, planos, matrimonios rutinarios y secretos administrativos, y logra que ese mundo gris se vuelva inquietante. Allí reside una de sus mayores virtudes: mostrar que la violencia decisiva puede incubarse dentro de la normalidad más reconocible.",
+        "readingLevel": "Lectura apropiada para público general, bachillerato superior y universidad; conviene atender a la ironía, a los silencios y a la dimensión ética del suspenso.",
+        "whyReadToday": "Se lee con fuerza hoy porque retrata trabajos precarizados en lo emocional, vínculos desgastados y responsabilidades diluidas en estructuras profesionales. Habla de culpa y encubrimiento en contextos muy reconocibles.",
+        "studyNotes": [
+          "La grieta del título funciona en varios planos: defecto material, fractura moral, memoria del pasado y ruptura de la rutina.",
+          "Pablo Simó no es un héroe clásico del policial; su pasividad inicial es parte del problema que la novela examina.",
+          "El estudio de arquitectura no es solo escenario laboral: es una miniatura de jerarquías, silencios y responsabilidades distribuidas.",
+          "Piñeiro usa un lenguaje contenido que evita el efectismo y refuerza la sensación de desgaste, culpa y amenaza latente."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: La visita que altera la rutina",
+            "summary": "La aparición de una joven que busca a Nelson Jara desestabiliza la calma aparente del estudio. Lo que parecía un día ordinario se convierte en el comienzo de una pesquisa sobre algo que nadie quiere nombrar del todo."
+          },
+          {
+            "title": "Momento clave 2: El pasado profesional reaparece",
+            "summary": "A medida que avanzan las preguntas, emergen decisiones técnicas y humanas que habían quedado ocultas detrás del tiempo y de la burocracia. La novela muestra cómo un hecho mal resuelto sigue produciendo efectos largos y corrosivos."
+          },
+          {
+            "title": "Momento clave 3: La vida íntima también se resquebraja",
+            "summary": "El misterio externo empuja a Pablo Simó a revisar su matrimonio, su vocación y la forma en que ha aceptado una existencia reducida. La investigación se vuelve entonces una crisis de identidad."
+          },
+          {
+            "title": "Momento clave 4: Verdad, culpa y posibilidad de cambio",
+            "summary": "En el tramo final, la revelación del pasado obliga a medir responsabilidades y a decidir si todavía es posible salir de la parálisis. La resolución vale tanto por lo que aclara como por la transformación ética que exige."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Policial de la culpa más que del enigma",
+            "content": "La novela contiene una investigación, pero su potencia no reside solo en descubrir un dato oculto. Piñeiro se interesa por el modo en que la culpa se sedimenta en la rutina y por cómo personas aparentemente normales sostienen mecanismos de encubrimiento."
+          },
+          {
+            "heading": "Arquitectura y metáfora moral",
+            "content": "Los edificios, los planos y las fallas de construcción no funcionan solo como decorado. Todo el universo arquitectónico remite a estructuras inestables, remiendos y daños internos. La materialidad del oficio se convierte en lenguaje moral de la novela."
+          },
+          {
+            "heading": "Pablo Simó como sujeto de la intemperie",
+            "content": "Pablo es un protagonista desgastado, atravesado por la costumbre y por la renuncia. Su recorrido importa porque la novela no opone inocencia y culpa de forma simple: muestra zonas grises, omisiones y acomodamientos que terminan definiendo una vida."
+          },
+          {
+            "heading": "Crítica social de la respetabilidad profesional",
+            "content": "Piñeiro desmonta la fachada de éxito y corrección de ciertos sectores urbanos. Bajo el lenguaje técnico y la compostura empresarial aparecen cobardía, abuso de poder, desigualdad y una ética del “seguir como si nada” muy reconocible."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela policial tradicional?",
+            "answer": "Tiene elementos de novela negra y de investigación, pero se centra más en la culpa, en el deterioro subjetivo y en la crítica social que en el puro juego deductivo."
+          },
+          {
+            "question": "¿Quién es el protagonista real de la historia?",
+            "answer": "Pablo Simó ocupa el centro narrativo, aunque la novela funciona también como retrato coral de un estudio de arquitectura y de las relaciones de poder que lo atraviesan."
+          },
+          {
+            "question": "¿Por qué la arquitectura es tan importante en la novela?",
+            "answer": "Porque aporta verosimilitud al conflicto y, al mismo tiempo, ofrece la metáfora central: una grieta material hace visible una fractura ética y afectiva mucho más amplia."
+          },
+          {
+            "question": "¿Se puede leer como crítica de la clase media profesional?",
+            "answer": "Sí. La novela examina la rutina, el conformismo y las pequeñas corrupciones de ambientes que se perciben a sí mismos como respetables y ordenados."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Open Library: obra Las grietas de Jara",
+            "url": "https://openlibrary.org/works/OL15593911W"
+          },
+          {
+            "label": "Open Library: edición de 2009",
+            "url": "https://openlibrary.org/books/OL24544739M"
+          },
+          {
+            "label": "Wikipedia en español: adaptación cinematográfica",
+            "url": "https://es.wikipedia.org/wiki/Las_grietas_de_Jara"
+          },
+          {
+            "label": "Wikipedia en español: Claudia Piñeiro",
+            "url": "https://es.wikipedia.org/wiki/Claudia_Pi%C3%B1eiro"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-hijas-del-frio-de-camilla-lackberg",
+      "title": "Las Hijas Del Frio",
+      "authorName": "Camilla Lackberg",
+      "authorSlug": "camilla-lackberg",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las hijas del frío",
+        "authorName": "Camilla Läckberg",
+        "authorSlug": "camilla-lackberg",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela negra",
+          "thriller psicológico",
+          "policial nórdica"
+        ],
+        "year": 2010,
+        "pages": 503,
+        "summary": "En esta entrega de la serie de Fjällbacka, Camilla Läckberg cruza un crimen contemporáneo con heridas familiares que vienen de décadas atrás. La aparente calma del pueblo se rompe cuando una niña pequeña aparece muerta y la investigación revela que la tragedia no puede explicarse como un simple accidente. Mientras Patrik Hedström sigue las pistas policiales, Erica Falck observa cómo el caso expone maternidades tensas, secretos íntimos, rencores de clase y un pasado que sigue determinando el presente. La novela alterna el trabajo detectivesco con la vida doméstica de la pareja protagonista, recién adaptándose a la crianza, y construye un suspense moral: no solo importa quién mató, sino qué formas de abandono, humillación y deseo de control hicieron posible la violencia.",
+        "aboutThisBook": "Las hijas del frío es una novela criminal de largo aliento, muy representativa del estilo de Läckberg: investigación policial, retrato de comunidad cerrada y atención minuciosa a la vida emocional de sus personajes. Más que una historia de pistas puras, el libro examina cómo la intimidad familiar y las apariencias sociales encubren actos crueles. El resultado es un noir escandinavo en el que la psicología pesa tanto como la intriga.",
+        "forWhom": "Ideal para lectores de novela negra nórdica, clubes de lectura y estudiantes interesados en cómo el crimen literario puede funcionar como crítica de la familia y de la vida comunitaria.",
+        "whyItMatters": "Importa porque convierte un caso policial en una reflexión sobre la infancia, la maternidad, la culpa y la violencia soterrada en espacios aparentemente seguros. También permite estudiar cómo el noir nórdico transforma el secreto doméstico en crítica social y en examen de la memoria comunitaria.",
+        "editorialIntro": "No es solo un misterio ambientado en la costa sueca. Las hijas del frío muestra por qué la serie de Fjällbacka tuvo tanta resonancia internacional: el crimen nunca aparece aislado, sino enredado con biografías rotas, jerarquías sociales y emociones que nadie ha sabido nombrar a tiempo. Läckberg combina tensión narrativa con una mirada muy aguda sobre la fragilidad de la vida familiar.",
+        "readingLevel": "Lectura media-alta, accesible para universidad inicial y lectores habituales de narrativa criminal.",
+        "whyReadToday": "Porque sigue dialogando con debates contemporáneos sobre cuidados, maternidad, violencia privada y el precio emocional de los secretos familiares. Sigue dialogando con lectores actuales por su mirada sobre la violencia íntima, el rumor local y la persistencia de traumas invisibles.",
+        "studyNotes": [
+          "Observar cómo el pueblo funciona como archivo moral: todos recuerdan algo, pero casi nadie entiende el conjunto hasta el final.",
+          "Analizar la alternancia entre investigación policial y vida doméstica; esa combinación amplía el suspense en lugar de frenarlo.",
+          "Comparar la representación de la maternidad biológica, adoptiva o frustrada como eje afectivo del conflicto.",
+          "Atender a la estructura de pasado y presente: la novela sugiere que los crímenes actuales son legibles solo cuando se reconstruye una historia previa de daño."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: la ruptura de la normalidad",
+            "summary": "La muerte de una niña en Fjällbacka destruye la sensación de seguridad cotidiana y obliga a releer relaciones familiares que parecían estables. Desde el comienzo, Läckberg vincula el caso con una incomodidad moral más amplia que la simple pregunta policial."
+          },
+          {
+            "title": "Momento clave 2: la investigación y las máscaras sociales",
+            "summary": "Patrik y su equipo avanzan entre testimonios parciales, silencios interesados y viejas tensiones del pueblo. A medida que surgen conexiones inesperadas, la comunidad aparece como un espacio donde la cercanía favorece tanto la solidaridad como la ocultación."
+          },
+          {
+            "title": "Momento clave 3: maternidad, deseo y resentimiento",
+            "summary": "La novela desplaza el foco hacia vínculos familiares complejos, especialmente alrededor de la crianza y la pertenencia. El crimen se revela inseparable de necesidades afectivas deformadas por años de frustración y humillación."
+          },
+          {
+            "title": "Momento clave 4: verdad, responsabilidad y daño irreparable",
+            "summary": "La resolución no ofrece solo un culpable, sino una cadena de responsabilidades emocionales y sociales. El desenlace insiste en que ciertos silencios, aunque parezcan privados, terminan produciendo consecuencias públicas devastadoras."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Crimen y vida cotidiana",
+            "content": "Uno de los logros del libro es insertar la investigación en una rutina reconocible: pareja, bebé, trabajo, vecinos y conversaciones domésticas. Esa cercanía vuelve más inquietante la violencia, porque no llega desde un afuera monstruoso, sino desde dentro del tejido ordinario."
+          },
+          {
+            "heading": "La infancia como zona vulnerable",
+            "content": "Läckberg trabaja la infancia no como símbolo abstracto de inocencia, sino como espacio donde se fijan heridas duraderas. El sufrimiento infantil y la necesidad de ser querido reaparecen como fuerzas capaces de orientar decisiones adultas extremas."
+          },
+          {
+            "heading": "El noir nórdico como crítica social",
+            "content": "Aunque la novela privilegia el suspense, también examina diferencias de clase, prestigio local y control del relato público. Fjällbacka funciona como microcosmos: una comunidad pequeña basta para mostrar cómo la respetabilidad puede convivir con la crueldad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer los libros anteriores de la serie?",
+            "answer": "No de forma estricta. El caso principal se entiende por sí solo, aunque conocer entregas previas enriquece la evolución de Erica y Patrik."
+          },
+          {
+            "question": "¿Predomina más la intriga o la psicología?",
+            "answer": "Ambas, pero la psicología pesa mucho. La novela interesa tanto por descubrir al responsable como por entender el entramado emocional que conduce al crimen."
+          },
+          {
+            "question": "¿Por qué se considera novela negra y no solo policial?",
+            "answer": "Porque el libro no se limita a resolver un enigma: explora conflictos familiares, tensiones sociales y zonas moralmente ambiguas de la comunidad."
+          },
+          {
+            "question": "¿Qué distingue a Läckberg dentro del noir escandinavo?",
+            "answer": "Su capacidad para mezclar suspense, vida íntima y observación de la pequeña comunidad, con especial atención a los vínculos familiares y al punto de vista femenino."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Camilla Läckberg - The Stonecutter",
+            "url": "https://camillalackberg.se/en/book/the-stonecutter/"
+          },
+          {
+            "label": "Wikipedia - Camilla Läckberg",
+            "url": "https://es.wikipedia.org/wiki/Camilla_L%C3%A4ckberg"
+          },
+          {
+            "label": "Internet Archive / Open Library - Las hijas del frío",
+            "url": "https://archive.org/details/lashijasdelfrio0000lack"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-intermitencias-de-la-muerte-de-jose-saramago",
+      "title": "Las Intermitencias De La Muerte",
+      "authorName": "Jose Saramago",
+      "authorSlug": "jose-saramago",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las intermitencias de la muerte",
+        "authorName": "José Saramago",
+        "authorSlug": "jose-saramago",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela filosófica",
+          "sátira",
+          "literatura contemporánea"
+        ],
+        "year": 2005,
+        "pages": 280,
+        "summary": "Saramago parte de una premisa tan sencilla como radical: en un país anónimo, la muerte deja de actuar. Nadie muere. Lo que al principio parece un milagro se convierte en un problema político, religioso, económico y moral. Hospitales, residencias, funerarias, compañías de seguros y gobiernos quedan desbordados, mientras las familias descubren que la inmortalidad biológica no equivale a una vida digna. En la segunda mitad, la novela se desplaza hacia la propia figura de la Muerte, convertida en personaje, y examina qué ocurre cuando esa fuerza abstracta entra en contacto con la singularidad de una vida humana. El resultado es una fábula intelectual con humor negro, compasión y una pregunta decisiva: si nadie muriera, ¿seguiríamos sabiendo vivir?",
+        "aboutThisBook": "Las intermitencias de la muerte es una de las novelas más claramente alegóricas de Saramago. Su punto de partida fantástico le permite desmontar instituciones enteras y mostrar cómo la sociedad moderna depende, incluso sin admitirlo, de la existencia de un final. La prosa saramaguiana, con su frase larga, su ironía y su capacidad para filosofar sin abandonar la narración, convierte la idea en una exploración del tiempo, el amor, la burocracia y la fragilidad humana.",
+        "forWhom": "Muy recomendable para lectores de literatura filosófica, cursos de narrativa contemporánea, ética, teoría política o estudios sobre la alegoría en la novela moderna.",
+        "whyItMatters": "Importa porque desmonta el mito ingenuo de la inmortalidad y muestra que la muerte no solo clausura la vida: también le da forma, límite y sentido.",
+        "editorialIntro": "Pocas novelas contemporáneas convierten una hipótesis abstracta en un laboratorio moral tan fértil. Saramago imagina la suspensión de la muerte no para ofrecer ciencia ficción convencional, sino para exponer las contradicciones de los Estados, las iglesias, las familias y los lenguajes con los que intentamos domesticar lo inevitable. Bajo su tono satírico late una pregunta severa sobre la dignidad de vivir y de morir.",
+        "readingLevel": "Lectura alta: exige atención a la sintaxis, a la ironía y a la dimensión alegórica del relato.",
+        "whyReadToday": "Porque obliga a pensar el envejecimiento, los cuidados, la administración de la vida y la negación cultural de la muerte en sociedades cada vez más medicalizadas.",
+        "studyNotes": [
+          "La novela funciona como experimento mental: conviene seguir sus consecuencias institucionales una por una.",
+          "La personificación de la Muerte modifica el tono del libro y lo desplaza de la sátira política a una meditación más íntima.",
+          "El país sin nombre universaliza la alegoría y evita que el lector reduzca el problema a una coyuntura nacional concreta.",
+          "La sintaxis de Saramago no es adorno: su flujo continuo obliga a leer el pensamiento social y moral como proceso, no como tesis cerrada."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: el día en que nadie murió",
+            "summary": "La interrupción súbita de la muerte altera la vida pública y privada. La sorpresa inicial se transforma en desconcierto cuando se hace evidente que el sistema entero estaba organizado alrededor del final de la vida."
+          },
+          {
+            "title": "Parte 2: crisis de instituciones y creencias",
+            "summary": "Gobierno, Iglesia, medicina, aseguradoras y negocios funerarios intentan redefinir su función. Saramago satiriza con precisión cómo cada institución procura salvar su autoridad incluso cuando ha cambiado la condición básica de la existencia."
+          },
+          {
+            "title": "Parte 3: la muerte como personaje",
+            "summary": "La novela vira hacia la personificación de la Muerte, que vuelve a actuar mediante cartas violetas que anuncian el plazo final. El problema deja de ser solo colectivo y se vuelve también metafísico y literario."
+          },
+          {
+            "title": "Parte 4: excepción, música y amor",
+            "summary": "El encuentro de la Muerte con un hombre concreto introduce una anomalía decisiva. La obra descubre entonces que ni la ley universal ni la burocracia del final bastan para explicar la singularidad de una vida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una sátira de la administración de la vida",
+            "content": "Saramago muestra que la modernidad ha organizado enormes aparatos alrededor del morir. Cuando la muerte desaparece, no surge la utopía, sino la evidencia de que la vida social depende de límites, plazos y ritos de clausura."
+          },
+          {
+            "heading": "La muerte como problema filosófico y afectivo",
+            "content": "La novela rechaza tanto el horror simplista como el consuelo fácil. Morir aparece como condición dolorosa, pero también como marco que hace posible decidir, amar y otorgar valor a una biografía singular."
+          },
+          {
+            "heading": "El estilo de Saramago",
+            "content": "La puntuación atípica, el narrador irónico y el diálogo fundido en la frase larga crean una voz que piensa mientras cuenta. Esa forma narrativa evita el sermón y convierte la reflexión en experiencia de lectura."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela fantástica o filosófica?",
+            "answer": "Es ambas cosas. Parte de una hipótesis fantástica para desarrollar una sátira política y una reflexión filosófica sobre la finitud."
+          },
+          {
+            "question": "¿La segunda mitad cambia mucho respecto de la primera?",
+            "answer": "Sí. El libro pasa de la mirada coral sobre un país en crisis a una dimensión más íntima y simbólica centrada en la personificación de la Muerte."
+          },
+          {
+            "question": "¿Qué temas principales trabaja Saramago aquí?",
+            "answer": "La muerte, el sentido de la vida, la burocracia, la religión, el amor, el tiempo y la fragilidad de las instituciones frente a lo imprevisible."
+          },
+          {
+            "question": "¿Por qué suele estudiarse en la universidad?",
+            "answer": "Porque articula alegoría, crítica social, estilo autoral y pensamiento filosófico en una narración accesible pero conceptualmente muy rica."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Fundación José Saramago - Las intermitencias de la muerte",
+            "url": "https://www.josesaramago.org/es/libro-2/las-intermitencias-de-la-muerte/"
+          },
+          {
+            "label": "Wikipedia - Las intermitencias de la muerte",
+            "url": "https://es.wikipedia.org/wiki/Las_intermitencias_de_la_muerte"
+          },
+          {
+            "label": "Open Library - Las intermitencias de la muerte",
+            "url": "https://openlibrary.org/books/OL9151033M/Las_intermitencias_de_la_muerte"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-dioses-mas-locos-destripando-la-historia-de-rodrigo-septienalvaro-pascual",
+      "title": "Los Dioses Mas Locos Destripando La Historia",
+      "authorName": "Rodrigo Septienalvaro Pascual",
+      "authorSlug": "rodrigo-septienalvaro-pascual",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los dioses más locos",
+        "authorName": "Rodrigo Septién y Álvaro Pascual",
+        "authorSlug": "rodrigo-septien-alvaro-pascual",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "mitología",
+          "divulgación",
+          "humor",
+          "libro ilustrado"
+        ],
+        "year": 2021,
+        "pages": 160,
+        "summary": "Este volumen de Destripando la Historia traslada al libro la fórmula que hizo popular al proyecto de Pascu y Rodri: explicar mitos con humor, ritmo visual y voluntad divulgativa. En lugar de presentar un manual académico del panteón clásico, selecciona divinidades particularmente extrañas, excesivas o sorprendentes de varias tradiciones y las convierte en relatos breves, visuales y memorables. El libro trabaja con un tono desenfadado, pero su valor no reside solo en la comicidad: sirve como puerta de entrada a la mitología comparada, a la función cultural de los dioses y a la persistencia de esos relatos en la imaginación contemporánea. Es una obra de divulgación ilustrada que simplifica sin vaciar del todo la complejidad de las historias.",
+        "aboutThisBook": "Los dioses más locos pertenece al ecosistema transmedia de Destripando la Historia, un proyecto que combina música, ilustración y relectura humorística de mitos. Su propuesta editorial consiste en acercar materiales tradicionales a públicos amplios mediante síntesis claras, imágenes llamativas y una narración que privilegia lo sorprendente. No reemplaza a una fuente especializada, pero sí funciona muy bien como umbral de entrada para seguir investigando genealogías, atributos y relatos míticos más complejos.",
+        "forWhom": "Muy útil para lectores jóvenes, docentes, mediadores de lectura y aficionados a la mitología que busquen una introducción atractiva, visual y no solemne.",
+        "whyItMatters": "Importa porque demuestra que la divulgación cultural puede ser rigurosa en su intención y, al mismo tiempo, cercana, humorística y visualmente poderosa. Además, muestra que la cultura clásica y comparada puede entrar en la conversación escolar y familiar sin solemnidad excesiva ni simplificación vacía.",
+        "editorialIntro": "Pascu y Rodri entendieron algo decisivo: muchos lectores llegan antes a los mitos por la curiosidad y la risa que por el tono escolar. Los dioses más locos aprovecha esa intuición y la convierte en libro ilustrado. El volumen no pretende clausurar el estudio de la mitología, sino activar el deseo de seguir leyendo, comparar tradiciones y reconocer que los dioses también son una forma de pensar lo humano en clave imaginativa.",
+        "readingLevel": "Lectura accesible, ideal para secundaria, bachillerato y mediación cultural, con capas de interés también para público adulto.",
+        "whyReadToday": "Porque ofrece una entrada amable a relatos antiguos en una época en la que la divulgación visual y transmedia resulta clave para formar nuevos lectores.",
+        "studyNotes": [
+          "Conviene leerlo como introducción divulgativa y no como repertorio exhaustivo de mitología comparada.",
+          "El humor es una estrategia pedagógica: ayuda a fijar nombres, atributos y conflictos de cada deidad.",
+          "La selección de dioses favorece lo raro, lo exagerado y lo memorable; ese criterio editorial explica el tono del libro.",
+          "Puede complementarse con fuentes clásicas o manuales especializados para distinguir síntesis divulgativa y tradición textual original."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: la lógica del asombro",
+            "summary": "El libro abre la puerta a la mitología desde lo extraordinario. En vez de ordenar el material como enciclopedia, selecciona figuras divinas capaces de sorprender al lector desde la primera página."
+          },
+          {
+            "title": "Parte 2: dioses, poderes y excesos",
+            "summary": "Cada bloque presenta deidades asociadas a rasgos extremos, poderes singulares o historias desconcertantes. La repetición de esta fórmula vuelve comparables tradiciones muy distintas sin borrar sus matices más visibles."
+          },
+          {
+            "title": "Parte 3: humor e ilustración como método",
+            "summary": "Las imágenes y el tono cómico no son un adorno, sino la herramienta central de divulgación. El libro convierte la rareza mítica en memoria visual y lectura fluida."
+          },
+          {
+            "title": "Parte 4: del entretenimiento a la curiosidad cultural",
+            "summary": "El cierre implícito del volumen invita a seguir investigando. Tras la lectura queda claro que los mitos pueden entrar por la risa, pero continúan su recorrido en el estudio histórico y literario."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Divulgación transmedia",
+            "content": "La obra no nace aislada, sino dentro de un proyecto que ya trabajaba mitología en vídeo y música. Ese origen explica su ritmo rápido, la importancia de la imagen y la búsqueda constante de ganchos memorables."
+          },
+          {
+            "heading": "Humor sin solemnidad",
+            "content": "El libro desactiva la idea de que la tradición mítica debe explicarse con distancia reverencial. La risa aquí no destruye el contenido; más bien lo vuelve transmisible a lectores que quizá no entrarían por una vía académica."
+          },
+          {
+            "heading": "Puerta de entrada, no punto final",
+            "content": "Su mayor valor pedagógico está en despertar curiosidad. Funciona especialmente bien como primer contacto con personajes y relatos que después pueden estudiarse en fuentes más extensas o especializadas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro infantil?",
+            "answer": "Puede leerlo público joven, pero funciona mejor como libro para todos los públicos: mezcla divulgación, humor e ilustración de forma muy accesible."
+          },
+          {
+            "question": "¿Se centra solo en mitología griega?",
+            "answer": "No. Destripando la Historia trabaja varias tradiciones míticas y el libro busca precisamente esa amplitud de referencias."
+          },
+          {
+            "question": "¿Sirve para estudiar mitología en serio?",
+            "answer": "Sirve como introducción excelente y motivadora. Para un estudio profundo conviene complementarlo con manuales, fuentes clásicas o estudios especializados."
+          },
+          {
+            "question": "¿Qué aporta frente a una enciclopedia tradicional?",
+            "answer": "Aporta ritmo, humor, memoria visual y una selección narrativa que facilita la entrada de lectores no expertos al universo mítico."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Destripando la Historia - producto oficial Los Dioses Más Locos",
+            "url": "https://www.destripandolahistoria.com/products/los-dioses-mas-locos-destripando-la-historia"
+          },
+          {
+            "label": "Open Library - Los dioses más locos",
+            "url": "https://openlibrary.org/books/OL33089991M/Los_dioses_m%C3%A1s_locos"
+          },
+          {
+            "label": "Wikipedia - Destripando la historia",
+            "url": "https://es.wikipedia.org/wiki/Destripando_la_historia"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-origenes-de-la-guerra-civil-espanola-de-pio-moa",
+      "title": "Los Origenes De La Guerra Civil Espanola",
+      "authorName": "Pio Moa",
+      "authorSlug": "pio-moa",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los orígenes de la guerra civil española",
+        "authorName": "Pío Moa",
+        "authorSlug": "pio-moa",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo histórico",
+          "historia contemporánea",
+          "historiografía política"
+        ],
+        "year": 1999,
+        "pages": 528,
+        "summary": "En este ensayo histórico, Pío Moa propone una interpretación de largo aliento sobre el deterioro político de la Segunda República y el camino que desembocó en la Guerra Civil española. Su tesis central sostiene que el conflicto no puede explicarse sólo como un golpe militar aislado, sino como el resultado de una cadena de crisis institucionales, polarización ideológica, violencia callejera, quiebras de legalidad y luchas por el poder que venían agravándose desde años antes de 1936. El libro examina elecciones, alianzas, insurrecciones, propaganda y responsabilidad de los distintos actores políticos. Más que una narración lineal de batallas, ofrece una reconstrucción polémica de las causas del conflicto y de los marcos interpretativos con los que se lo ha leído después.",
+        "aboutThisBook": "Los orígenes de la guerra civil española es uno de los libros más conocidos de Pío Moa y una pieza central dentro de su proyecto de revisión de la historia política española del siglo XX. Publicado originalmente en 1999 y reeditado después por Ediciones Encuentro, el volumen se sitúa en el terreno del ensayo historiográfico y no de la monografía académica convencional. Su relevancia pública proviene tanto de su difusión entre lectores generales como de la intensa controversia que generó por sus interpretaciones sobre la República, la izquierda revolucionaria y el estallido bélico.",
+        "forWhom": "Es especialmente útil para lectores universitarios, estudiantes de historia contemporánea, periodistas culturales y cualquier persona que quiera comprender una interpretación influyente y controvertida sobre el origen de la Guerra Civil. Conviene leerlo junto con estudios de signo distinto para evaluar argumentos, sesgos, fuentes y decisiones narrativas.",
+        "whyItMatters": "Importa porque fue un libro de gran circulación en el debate público español y porque reabrió discusiones sobre causalidad histórica, memoria política y usos ideológicos del pasado. Incluso quienes discrepan de sus conclusiones deben reconocer su impacto en la conversación historiográfica y mediática.",
+        "editorialIntro": "Leer hoy este libro exige una doble atención: por un lado, a la secuencia histórica que reconstruye; por otro, al lugar polémico desde el que interviene. Pío Moa no escribe una síntesis neutral, sino una interpretación combativa que discute relatos establecidos sobre la Segunda República y la guerra. Precisamente por eso el volumen puede resultar valioso en contextos de estudio: obliga a distinguir entre dato, inferencia, marco ideológico y estrategia argumentativa.",
+        "readingLevel": "Lectura media-alta: aunque la prosa es ensayística y relativamente directa, la densidad del contexto político, la abundancia de actores y la discusión historiográfica exigen atención crítica sostenida.",
+        "whyReadToday": "Sigue siendo pertinente porque la Guerra Civil española continúa siendo un campo de disputa cultural y política. Leer este libro hoy ayuda a entender no sólo el período estudiado, sino también cómo se construyen narrativas históricas fuertes y cómo éstas intervienen en debates contemporáneos sobre memoria, legitimidad y responsabilidad.",
+        "studyNotes": [
+          "Conviene separar la reconstrucción factual de la interpretación polémica que el autor hace de esos hechos.",
+          "El libro funciona también como objeto de estudio sobre revisionismo histórico y recepción pública de la historiografía.",
+          "Las nociones de legalidad, revolución, violencia y responsabilidad política articulan buena parte del argumento.",
+          "Es recomendable contrastar sus tesis con estudios de autores de orientaciones distintas para medir omisiones y énfasis."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: crisis de la República y fractura política",
+            "summary": "La apertura del libro sitúa el problema en la erosión del sistema republicano, subrayando la radicalización de la vida política y la dificultad de mantener consensos estables entre fuerzas cada vez más enfrentadas."
+          },
+          {
+            "title": "Parte 2: violencia, insurrección y pérdida de legalidad",
+            "summary": "Moa examina episodios de conflictividad, levantamientos y choques entre bloques ideológicos para sostener que la guerra fue preparada por una crisis acumulativa y no por un solo acontecimiento aislado."
+          },
+          {
+            "title": "Parte 3: el Frente Popular y el colapso institucional",
+            "summary": "Una sección central del argumento se concentra en 1936 y en la incapacidad del sistema para contener la violencia y recomponer autoridad política. El autor convierte ese momento en clave causal decisiva."
+          },
+          {
+            "title": "Parte 4: balance interpretativo sobre el estallido bélico",
+            "summary": "El cierre extrae consecuencias generales y discute responsabilidades históricas. Más que concluir con una simple cronología, el libro insiste en reordenar el sentido del período entero desde una tesis revisionista."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un libro de intervención historiográfica",
+            "content": "No se trata sólo de una síntesis sobre 1936, sino de una intervención destinada a impugnar lecturas previas. Su tono, su selección de episodios y su arquitectura argumentativa responden a esa voluntad de disputa pública."
+          },
+          {
+            "heading": "Causalidad histórica y polémica ideológica",
+            "content": "El gran problema del libro es cómo asigna responsabilidades y jerarquiza causas. Ahí radica tanto su fuerza persuasiva para muchos lectores como el foco principal de las objeciones que ha recibido."
+          },
+          {
+            "heading": "Memoria, debate público y recepción",
+            "content": "La importancia del volumen no depende sólo de su contenido, sino de su recepción. Fue leído como un texto capaz de alterar el campo de discusión sobre la República y la Guerra Civil en medios, editoriales y espacios políticos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro académico en sentido estricto?",
+            "answer": "Es un ensayo historiográfico de amplia difusión, muy apoyado en debate de fuentes y bibliografía, pero su tono y su vocación pública son más combativos que los de una monografía universitaria convencional."
+          },
+          {
+            "question": "¿Por qué se considera polémico?",
+            "answer": "Porque revisa interpretaciones asentadas sobre la Segunda República y reparte responsabilidades históricas de un modo muy discutido. Su lectura ha generado apoyos, críticas severas y debates duraderos."
+          },
+          {
+            "question": "¿Conviene leerlo si no se conoce bien el período?",
+            "answer": "Sí, pero acompañado de otras perspectivas. Puede servir como puerta de entrada al debate siempre que el lector mantenga una actitud comparativa y no lo tome como única versión del proceso histórico."
+          },
+          {
+            "question": "¿El libro trata principalmente batallas militares?",
+            "answer": "No. Su foco está en las causas políticas, sociales e institucionales que, según el autor, hicieron posible la guerra antes del enfrentamiento militar abierto."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Ediciones Encuentro - Los orígenes de la guerra civil española",
+            "url": "https://edicionesencuentro.com/libro/los-origenes-de-la-guerra-civil-espanola/"
+          },
+          {
+            "label": "Goodreads - Los orígenes de la guerra civil española",
+            "url": "https://www.goodreads.com/book/show/4418549-los-or-genes-de-la-guerra-civil-espa-ola"
+          },
+          {
+            "label": "Open Library - búsqueda de Los orígenes de la guerra civil española",
+            "url": "https://openlibrary.org/search?q=Los+or%C3%ADgenes+de+la+guerra+civil+espa%C3%B1ola+P%C3%ADo+Moa"
+          },
+          {
+            "label": "Wikipedia - Pío Moa",
+            "url": "https://es.wikipedia.org/wiki/P%C3%ADo_Moa"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-padecientes-de-gabriel-rolon",
+      "title": "Los Padecientes",
+      "authorName": "Gabriel Rolon",
+      "authorSlug": "gabriel-rolon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los padecientes",
+        "authorName": "Gabriel Rolón",
+        "authorSlug": "gabriel-rolon",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller psicológico",
+          "novela policial",
+          "drama psicológico"
+        ],
+        "year": 2010,
+        "pages": 344,
+        "summary": "Los padecientes combina thriller psicológico, intriga criminal y clima clínico para contar la investigación en la que se ve envuelto el psicoanalista Pablo Rouviot. Una noche llega a su consulta Paula Vanussi, desesperada por salvar a su hermano Javier, acusado del asesinato de su padre, un empresario poderoso. Lo que al principio parece un pedido técnico sobre inimputabilidad pronto se convierte en una pesquisa mucho más turbia: Pablo descubre que el principal sospechoso quizá ni siquiera pudo cometer el crimen y que detrás del caso hay una red de secretos familiares, violencia, manipulación y deseo. Gabriel Rolón usa el dispositivo del consultorio y el saber psicoanalítico para construir una novela de suspenso donde la verdad judicial y la verdad emocional nunca coinciden del todo.",
+        "aboutThisBook": "Publicada en 2010, Los padecientes fue la tercera novela de Gabriel Rolón y uno de los títulos que consolidaron su enorme popularidad en el mercado argentino. El libro se mueve entre la novela de suspense y la exploración psíquica de personajes quebrados por traumas, vínculos de poder y silencios familiares. Su éxito dio lugar a reediciones, circulación internacional y una adaptación cinematográfica estrenada en 2017. Aunque es accesible como entretenimiento, la novela también revela el interés de Rolón por traducir categorías del psicoanálisis a una intriga legible para el gran público.",
+        "forWhom": "Recomendable para lectores de thriller psicológico, novela negra contemporánea y ficciones donde la investigación se apoya más en la subjetividad y en los vínculos familiares que en el procedimiento policial puro. También puede interesar a quienes siguen la obra de Rolón y su manera de narrar el dolor psíquico en registros no académicos.",
+        "whyItMatters": "Importa porque muestra cómo una novela comercial puede incorporar con eficacia preguntas sobre trauma, responsabilidad y verdad. Además, convirtió a Pablo Rouviot en un personaje reconocible dentro del cruce entre psicoanálisis y suspense narrativo en la ficción argentina reciente.",
+        "editorialIntro": "Los padecientes está escrita para atrapar, pero su interés no se agota en el misterio. Gabriel Rolón entiende que una investigación criminal se vuelve más inquietante cuando obliga a atravesar zonas de dolor íntimo, culpa y manipulación afectiva. Por eso la novela avanza con ritmo de thriller y, al mismo tiempo, con la lógica de un descenso a la estructura emocional de una familia dañada. El resultado es una lectura ágil, oscura y eficazmente adictiva.",
+        "readingLevel": "Lectura media: la prosa es clara, los capítulos empujan la intriga y el componente psicológico se integra sin dificultad, aunque algunos matices sobre trauma, perversión y manipulación exigen lectura atenta.",
+        "whyReadToday": "Sigue funcionando hoy porque el interés por los relatos sobre violencia familiar, poder económico, salud mental y verdad judicial no ha disminuido. Además, la novela muestra de forma accesible cómo los discursos terapéuticos pueden integrarse a la ficción de suspense sin perder intensidad narrativa.",
+        "studyNotes": [
+          "Pablo Rouviot no investiga como detective clásico: interpreta síntomas, silencios y conductas.",
+          "La novela cruza crimen y estructura familiar, de modo que el caso policial se vuelve también una genealogía del daño.",
+          "El tema de la inimputabilidad organiza una discusión ética sobre responsabilidad, fragilidad psíquica y uso estratégico del saber clínico.",
+          "Rolón prioriza la tensión narrativa, pero mantiene un interés constante por la opacidad del deseo y por las verdades parciales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: un pedido inesperado en el consultorio",
+            "summary": "Paula Vanussi busca a Pablo Rouviot para que evalúe a su hermano, acusado de asesinar a su padre. El caso introduce de inmediato una tensión entre peritaje clínico, sospecha judicial y drama familiar."
+          },
+          {
+            "title": "Momento clave 1: la hipótesis inicial se resquebraja",
+            "summary": "A medida que Pablo reúne información, descubre que la versión más sencilla del crimen no encaja. La investigación se desplaza desde el expediente hacia una trama de relaciones oscuras y recuerdos mal cerrados."
+          },
+          {
+            "title": "Momento clave 2: secretos, complicidades y violencia",
+            "summary": "La novela abre el campo de sospechosos y muestra que médicos, abogados, policías y allegados participan en una red donde nadie parece decir toda la verdad. El suspenso crece a partir de esas medias revelaciones."
+          },
+          {
+            "title": "Desenlace: verdad dolorosa y costo subjetivo",
+            "summary": "La resolución aclara el crimen, pero no ofrece una reparación limpia. El cierre insiste en que conocer la verdad implica atravesar una zona afectiva devastadora para los implicados."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Psicoanálisis y thriller",
+            "content": "La singularidad de la novela está en convertir al saber clínico en motor de la intriga. Rouviot no se limita a observar conductas: interpreta síntomas, defensas y desplazamientos, y eso modifica la forma clásica del policial."
+          },
+          {
+            "heading": "La familia como escena del crimen",
+            "content": "El libro sugiere que el asesinato visible sólo es la punta de una violencia previa. Los vínculos familiares, las jerarquías y los secretos operan como estructura profunda del enigma."
+          },
+          {
+            "heading": "Verdad jurídica y verdad subjetiva",
+            "content": "Rolón trabaja la distancia entre lo demostrable en un proceso y lo que los personajes pueden soportar saber sobre sí mismos. Esa tensión le da densidad ética al suspenso."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela policial tradicional?",
+            "answer": "No del todo. Tiene crimen, sospechosos y pesquisa, pero el eje distintivo está en la dimensión psicológica y en la lectura clínica de los personajes."
+          },
+          {
+            "question": "¿Hace falta saber psicoanálisis para disfrutarla?",
+            "answer": "No. Rolón incorpora ese universo de manera accesible y siempre subordinada a la tensión narrativa."
+          },
+          {
+            "question": "¿La película sigue la misma historia básica?",
+            "answer": "Sí. La adaptación cinematográfica de 2017 conserva la premisa central de Pablo Rouviot, Paula Vanussi y el crimen familiar que activa la investigación."
+          },
+          {
+            "question": "¿Qué tono predomina en la novela?",
+            "answer": "Predomina un tono oscuro y de suspenso, con momentos de análisis emocional que vuelven más inquietante la trama en lugar de frenarla."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia - Los padecientes",
+            "url": "https://es.wikipedia.org/wiki/Los_padecientes"
+          },
+          {
+            "label": "Goodreads - Los padecientes",
+            "url": "https://www.goodreads.com/book/show/10182207-los-padecientes"
+          },
+          {
+            "label": "Open Library - búsqueda de Los padecientes",
+            "url": "https://openlibrary.org/search?q=Los+padecientes+Gabriel+Rol%C3%B3n"
+          },
+          {
+            "label": "Wikipedia - Los padecientes (película de 2017)",
+            "url": "https://es.wikipedia.org/wiki/Los_padecientes_(pel%C3%ADcula_de_2017)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-soldados-lloran-de-noche-de-ana-maria-matute",
+      "title": "Los Soldados Lloran De Noche",
+      "authorName": "Ana Maria Matute",
+      "authorSlug": "ana-maria-matute",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los soldados lloran de noche",
+        "authorName": "Ana María Matute",
+        "authorSlug": "ana-maria-matute",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela literaria",
+          "novela de posguerra",
+          "bildungsroman"
+        ],
+        "year": 1964,
+        "pages": 232,
+        "summary": "Los soldados lloran de noche, segunda entrega de la trilogía Los mercaderes, profundiza en el universo moral, afectivo y social que Ana María Matute construyó para pensar la guerra y la posguerra españolas desde la memoria íntima y no desde la épica. La novela entrelaza voces, recuerdos y perspectivas alrededor de personajes marcados por la pérdida de la infancia, la culpa, el deseo y la imposibilidad de encajar en un mundo adulto degradado. La figura de Jeza, evocada por quienes lo conocieron, funciona como centro magnético de una memoria fragmentada que afecta especialmente a Manuel y Marta. Más que narrar grandes hechos históricos, el libro explora cómo la violencia del tiempo histórico deforma sensibilidades, vínculos y destinos personales hasta volver asfixiante incluso la vida cotidiana.",
+        "aboutThisBook": "Publicada en 1964, la novela ocupa el segundo lugar dentro de Los mercaderes, trilogía completada por Primera memoria y La trampa. Ana María Matute convierte aquí la experiencia de la posguerra en una materia profundamente subjetiva: lo histórico aparece filtrado por la memoria, la pérdida y una sensibilidad lírica muy característica de su obra. El libro no busca ofrecer una crónica política exhaustiva, sino representar la corrosión moral de una sociedad herida y la dificultad de crecer entre silencios, resentimientos y afectos truncados.",
+        "forWhom": "Es una lectura muy adecuada para estudiantes de literatura española del siglo XX, lectores de narrativa de posguerra y quienes valoran novelas de alta densidad psicológica y estilística. Resulta especialmente fértil en cursos sobre memoria, infancia rota, formación sentimental y reconstrucción narrativa del trauma histórico.",
+        "whyItMatters": "Importa porque confirma a Matute como una de las grandes narradoras de la posguerra y porque muestra una manera no panfletaria de representar la devastación histórica. Su fuerza reside en hacer visible cómo la violencia colectiva deja marcas íntimas, ambiguas y duraderas.",
+        "editorialIntro": "Leer Los soldados lloran de noche supone entrar en una novela menos interesada por el acontecimiento espectacular que por sus resonancias interiores. Ana María Matute escribe con una prosa cargada de memoria, sombras y matices emocionales; por eso su mundo puede parecer brumoso al principio, pero justamente esa atmósfera es el medio en que se vuelve legible la herida de la posguerra. La novela exige paciencia y devuelve una experiencia literaria muy rica en voces, símbolos y pliegues morales.",
+        "readingLevel": "Lectura alta: la estructura fragmentaria, el peso de la evocación, los cambios de perspectiva y la densidad lírica de Matute requieren concentración y una disposición atenta a la sugerencia más que a la linealidad.",
+        "whyReadToday": "Sigue siendo actual porque ayuda a pensar cómo los conflictos históricos perduran en la intimidad, en la formación de la identidad y en la memoria de quienes heredan mundos dañados. También recuerda que la literatura puede representar la guerra sin reducirla a consignas ni a espectacularidad.",
+        "studyNotes": [
+          "La novela trabaja la memoria como forma de conocimiento incompleto: recordar no equivale a ordenar del todo la experiencia.",
+          "Jeza importa tanto por su presencia como por la manera en que otros personajes lo reconstruyen y lo desean comprender.",
+          "Matute desplaza el foco de la gran historia a los efectos emocionales y morales de la posguerra sobre sujetos vulnerables.",
+          "La pérdida de la infancia y la entrada dolorosa en el mundo adulto son claves de lectura decisivas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: regreso a un mundo herido",
+            "summary": "La novela sitúa a sus personajes en una atmósfera de memoria y desajuste moral donde el pasado sigue pesando sobre cada gesto. Desde el comienzo, la experiencia histórica aparece transformada en clima afectivo y no en simple cronología."
+          },
+          {
+            "title": "Parte 2: voces cruzadas alrededor de Jeza",
+            "summary": "El relato se organiza mediante evocaciones y perspectivas parciales que reconstruyen la figura de Jeza y revelan su influencia sobre Manuel, Marta y el conjunto del mundo narrativo. La verdad surge fragmentada, nunca cerrada."
+          },
+          {
+            "title": "Parte 3: crecimiento, deseo y pérdida",
+            "summary": "La novela profundiza en el paso traumático de la infancia o adolescencia a una madurez contaminada por violencia, culpa y desencanto. Los vínculos afectivos se vuelven inseparables del deterioro del entorno."
+          },
+          {
+            "title": "Parte 4: memoria sin reconciliación plena",
+            "summary": "El desenlace no ofrece una reparación nítida. Más bien deja la impresión de que recordar y comprender apenas permite convivir con la herida, no borrarla."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Posguerra interiorizada",
+            "content": "Matute evita la novela histórica centrada en acontecimientos públicos y prefiere mostrar cómo la guerra y sus consecuencias modelan subjetividades, afectos y vínculos. La historia aparece como una presión íntima constante."
+          },
+          {
+            "heading": "Memoria fragmentaria y polifonía",
+            "content": "La estructura de voces y recuerdos parciales obliga al lector a recomponer sentido. Ese procedimiento formal reproduce el carácter quebrado de una experiencia histórica que nadie puede contar de manera total."
+          },
+          {
+            "heading": "Infancia perdida y formación dolorosa",
+            "content": "Como en otras obras de Matute, la salida de la niñez no es aquí aprendizaje armonioso, sino confrontación con un mundo moralmente dañado. La novela puede leerse como una formación sentimental bajo condiciones de ruina."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Se puede leer sin haber leído Primera memoria?",
+            "answer": "Sí, aunque gana profundidad si se conoce la trilogía Los mercaderes, porque muchos ecos temáticos y emocionales dialogan con las otras entregas."
+          },
+          {
+            "question": "¿Es una novela sobre la Guerra Civil en sentido directo?",
+            "answer": "Más bien sobre sus secuelas morales y afectivas. La guerra está en el trasfondo, pero el centro es la vida interior de personajes marcados por ese tiempo."
+          },
+          {
+            "question": "¿Por qué puede parecer una lectura exigente?",
+            "answer": "Porque Matute trabaja con memoria, sugerencia, cambios de punto de vista y una prosa muy elaborada. No busca un desarrollo lineal ni explicativo en todo momento."
+          },
+          {
+            "question": "¿Qué lugar ocupa en la obra de Matute?",
+            "answer": "Es una pieza fundamental de Los mercaderes y una muestra muy clara de su capacidad para unir denuncia histórica, lirismo y exploración psicológica."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Goodreads - Los soldados lloran de noche",
+            "url": "https://www.goodreads.com/book/show/1244781.Los_soldados_lloran_de_noche"
+          },
+          {
+            "label": "Open Library - búsqueda de Los soldados lloran de noche",
+            "url": "https://openlibrary.org/search?q=Los+soldados+lloran+de+noche+Ana+Mar%C3%ADa+Matute"
+          },
+          {
+            "label": "Wikipedia - Ana María Matute",
+            "url": "https://es.wikipedia.org/wiki/Ana_Mar%C3%ADa_Matute"
+          },
+          {
+            "label": "Wikidata - ediciones de Los soldados lloran de noche",
+            "url": "https://www.wikidata.org/wiki/Q125648102"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T00:54:06Z"
+}

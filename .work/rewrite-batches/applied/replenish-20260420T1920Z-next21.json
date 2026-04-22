@@ -1,0 +1,1482 @@
+{
+  "batchName": "replenish-20260420T1920Z-next21",
+  "createdAt": "2026-04-20T17:41:10Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "historia-de-una-flor-de-claudia-casanova",
+      "title": "Historia De Una Flor",
+      "authorName": "Claudia Casanova",
+      "authorSlug": "claudia-casanova",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Historia de una flor",
+        "authorName": "Claudia Casanova",
+        "authorSlug": "claudia-casanova",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica",
+          "romance"
+        ],
+        "year": 2019,
+        "pages": 240,
+        "summary": "Ambientada en un entorno rural del siglo XIX, Historia de una flor sigue a Alba, una joven de familia acomodada que dedica los veranos a recorrer el valle, clasificar plantas y observar con curiosidad el mundo natural. La llegada del prestigioso botánico centroeuropeo Heinrich Wilkomm convierte esa pasión privada en una experiencia de aprendizaje, descubrimiento y deseo. La novela entrelaza iniciación sentimental, historia de amor prohibido y homenaje a la observación científica, mientras muestra las restricciones que pesan sobre una mujer inteligente en una época poco dispuesta a reconocer su vocación. Casanova construye así un relato delicado sobre conocimiento, memoria y perseverancia interior.",
+        "aboutThisBook": "Claudia Casanova presenta una novela breve de aire histórico en la que la botánica no funciona como simple decorado, sino como lenguaje moral y emocional. A partir de la relación entre Alba y Heinrich Wilkomm, el libro explora cómo la ciencia, la sensibilidad y la educación sentimental se cruzan en una sociedad jerárquica. La prosa busca la contención y el detalle, con una atención constante al paisaje, a las estaciones y a la manera en que una vocación femenina intenta abrirse paso.",
+        "forWhom": "Para lectores adultos que disfrutan la novela histórica intimista, los relatos de aprendizaje, las historias de amor contenidas y los libros donde la naturaleza tiene un papel central en la construcción del sentido.",
+        "whyItMatters": "Importa porque rescata una sensibilidad poco frecuente: la de una ficción histórica que une ciencia, paisaje y emancipación personal sin perder sobriedad. También propone una mirada sobre las barreras que limitaron la formación intelectual de muchas mujeres.",
+        "editorialIntro": "No es una novela de grandes estridencias, sino de observación fina. Historia de una flor invita a leer despacio: cada planta, cada gesto y cada silencio ayudan a contar la historia de una joven que descubre que nombrar el mundo también puede ser una forma de defender su libertad. El resultado es un relato sentimental y a la vez reflexivo, muy atento a la belleza de lo pequeño.",
+        "readingLevel": "Lectura media: el estilo es claro y elegante, pero conviene atender a los matices históricos, al simbolismo de la botánica y a la evolución emocional de los personajes.",
+        "whyReadToday": "Sigue siendo pertinente porque conecta el amor por la naturaleza con preguntas actuales sobre educación, deseo, vocación y reconocimiento de las mujeres en ámbitos del saber tradicionalmente masculinizados.",
+        "studyNotes": [
+          "La botánica cumple una doble función: aporta contexto histórico y actúa como metáfora de crecimiento, clasificación y búsqueda de identidad.",
+          "La relación entre Alba y Wilkomm debe leerse tanto en clave sentimental como en clave intelectual, porque el vínculo nace de una pasión compartida por el conocimiento.",
+          "El tono contenido evita el melodrama y refuerza la idea de que las grandes transformaciones personales pueden ocurrir en espacios aparentemente apacibles.",
+          "El paisaje no es fondo neutro: organiza la percepción del tiempo, la memoria y la sensibilidad de la protagonista."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Alba y el descubrimiento del valle",
+            "summary": "La novela presenta a Alba como una joven observadora que dedica su tiempo a recolectar y catalogar flores. Ese hábito revela desde el inicio una vocación científica y una forma de mirar el mundo basada en la paciencia, la precisión y el asombro."
+          },
+          {
+            "title": "Parte 2: La llegada de Heinrich Wilkomm",
+            "summary": "La aparición del botánico centroeuropeo altera el equilibrio del verano y abre para Alba una posibilidad nueva de interlocución intelectual. Entre ambos surge una complicidad fundada en la curiosidad por la naturaleza, pero pronto también en un sentimiento más arriesgado."
+          },
+          {
+            "title": "Parte 3: Ciencia, deseo y límites sociales",
+            "summary": "A medida que el vínculo se intensifica, la novela subraya las restricciones morales y sociales del entorno. El conocimiento y el afecto avanzan juntos, pero deben hacerlo bajo la sombra de lo prohibido y de las convenciones de época."
+          },
+          {
+            "title": "Parte 4: Memoria de una vocación",
+            "summary": "El cierre deja la impresión de que lo vivido no desaparece, sino que se transforma en una raíz profunda. La flor del título resume esa persistencia: algo frágil en apariencia, pero capaz de durar y dar sentido al pasado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Naturaleza y conocimiento",
+            "content": "La novela convierte la observación botánica en una ética de la atención. Nombrar las plantas, distinguirlas y conservarlas equivale a aprender a mirar con rigor un mundo que a menudo se da por supuesto."
+          },
+          {
+            "heading": "Formación femenina en el siglo XIX",
+            "content": "Uno de los ejes del libro es la dificultad de una mujer joven para ser reconocida como sujeto de conocimiento. Alba no solo siente y ama: estudia, clasifica y piensa, y ahí radica una parte central de su conflicto."
+          },
+          {
+            "heading": "Una historia de amor sin exceso",
+            "content": "Casanova evita la grandilocuencia y apuesta por una emoción contenida. Esa moderación estilística vuelve más verosímil el vínculo entre los protagonistas y sitúa la experiencia amorosa dentro de un proceso más amplio de despertar personal."
+          },
+          {
+            "heading": "La flor como símbolo",
+            "content": "El motivo floral resume belleza, fragilidad y resistencia. La imagen sugiere que aquello que parece menor o efímero puede conservar una potencia duradera cuando queda unido a la memoria y al deseo de conocimiento."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Historia de una flor está basada en un personaje histórico?",
+            "answer": "La presentación editorial la vincula con la historia de una botánica española, pero la novela trabaja esa base desde la ficción literaria y no como biografía estricta."
+          },
+          {
+            "question": "¿Predomina más el romance o la dimensión histórica?",
+            "answer": "Ambas dimensiones están equilibradas, aunque el rasgo distintivo del libro es cómo integra la relación amorosa con el interés por la ciencia y por la formación de la protagonista."
+          },
+          {
+            "question": "¿Es una lectura accesible para quien no sabe de botánica?",
+            "answer": "Sí. La botánica funciona como atmósfera, símbolo y motor narrativo, pero el libro no exige conocimientos previos especializados."
+          },
+          {
+            "question": "¿Qué tipo de novela histórica es?",
+            "answer": "Es una novela histórica intimista, concentrada en sentimientos, paisaje y vida interior, más que en grandes acontecimientos políticos o bélicos."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Claudia Casanova — Historia de una flor",
+            "url": "https://claudiacasanova.net/libros/historia-de-una-flor/"
+          },
+          {
+            "label": "Google Libros — Historia de una flor / Story of a Flower",
+            "url": "https://books.google.com/books/about/Historia_de_una_flor_Story_of_a_Flower.html?id=cnCREAAAQBAJ&redir_esc=y"
+          },
+          {
+            "label": "Casa del Libro — Historia de una flor",
+            "url": "https://www.casadellibro.com/libro-historia-de-una-flor/9788466664646/8705770"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "historias-de-la-alcarama-de-abel-hernandez",
+      "title": "Historias De La Alcarama",
+      "authorName": "Abel Hernandez",
+      "authorSlug": "abel-hernandez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Historias de la Alcarama",
+        "authorName": "Abel Hernández",
+        "authorSlug": "abel-hernandez",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 2022,
+        "pages": 198,
+        "summary": "Historias de la Alcarama reúne una serie de textos concebidos como cartas de Abel Hernández a su hija Sara, a quien quiere transmitir la memoria de Sarnago, el pueblo soriano donde nació, al pie de la sierra de la Alcarama. El libro recompone un mundo rural desaparecido o en vías de desaparición: trabajos, inviernos, matanzas, relatos familiares, episodios de guerra, pequeñas historias de amor y escenas de convivencia que conservan una cultura comunitaria muy concreta. Más que una simple evocación nostálgica, la obra combina memoria personal, crónica cultural y reflexión sobre la despoblación para convertir un lugar pequeño en emblema de una experiencia histórica amplia.",
+        "aboutThisBook": "Aunque puede leerse como libro memorialístico, también tiene rasgos de testimonio etnográfico y de elegía civil. Hernández no idealiza sin matices el pasado, pero sí intenta fijar una forma de vida que se ha ido borrando del mapa físico y simbólico de España. La estructura epistolar aporta cercanía y convierte la transmisión entre generaciones en uno de los temas centrales: recordar aquí significa legar, explicar y evitar que el silencio termine de borrar un territorio humano.",
+        "forWhom": "Para lectores adultos interesados en la memoria rural, la España despoblada, la autobiografía reflexiva y los libros que conservan costumbres, voces y paisajes amenazados por el abandono y el paso del tiempo.",
+        "whyItMatters": "Importa porque transforma la memoria de un pueblo concreto en una reflexión mayor sobre pérdida, herencia cultural y desaparición del mundo campesino. También ayuda a leer la despoblación no solo como dato demográfico, sino como quiebra de una civilización cotidiana.",
+        "editorialIntro": "Este libro parte de un gesto íntimo y acaba abriendo una conversación pública. Abel Hernández escribe a su hija, pero al hacerlo también escribe para cualquiera que quiera comprender qué se pierde cuando un pueblo se vacía. Historias de la Alcarama conserva vocabulario, ritos, labores, recuerdos y vínculos familiares, y los vuelve literatura sin renunciar a su valor documental. Es un texto sobrio, afectivo y muy consciente de la fragilidad de la memoria rural.",
+        "readingLevel": "Lectura media: la prosa es clara, pero el interés del libro depende de seguir su dimensión memorial, cultural e histórica, más acumulativa que argumental.",
+        "whyReadToday": "Conviene leerlo hoy porque dialoga de lleno con el debate sobre la España vaciada y recuerda que detrás de esa expresión hay historias concretas, lenguajes, duelos y formas de vida difíciles de reconstruir una vez desaparecen.",
+        "studyNotes": [
+          "La forma epistolar no es un adorno: convierte el recuerdo en acto de transmisión y hace visible la responsabilidad de contar a la siguiente generación.",
+          "Sarnago funciona como lugar real y como símbolo de muchos pueblos arrasados por el abandono demográfico y económico.",
+          "El libro se mueve entre géneros: memoria, crónica cultural, autobiografía rural y observación casi antropológica.",
+          "La nostalgia del autor está compensada por la atención concreta a oficios, estaciones, rituales y pérdidas familiares."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Cartas para recordar Sarnago",
+            "summary": "Hernández establece desde el comienzo el marco epistolar y explica su deseo de hablar a su hija del pueblo donde nació. El recuerdo no aparece como ejercicio abstracto, sino como necesidad de preservar una raíz biográfica y moral."
+          },
+          {
+            "title": "Parte 2: La vida cotidiana en la sierra",
+            "summary": "El libro enumera labores, estaciones, costumbres y modos de relación propios de la cultura rural de la Alcarama. En esa reconstrucción del detalle reside buena parte de su valor testimonial."
+          },
+          {
+            "title": "Parte 3: Guerra, amores y leyendas familiares",
+            "summary": "La memoria del autor incorpora episodios históricos, relatos de afectos y anécdotas transmitidas por los mayores. Así, la historia colectiva y la intimidad doméstica quedan unidas en una misma textura narrativa."
+          },
+          {
+            "title": "Parte 4: Despoblación y permanencia",
+            "summary": "En el tramo final se impone la conciencia de la desaparición del mundo evocado. Sin embargo, la escritura actúa como resistencia parcial frente al olvido y devuelve dignidad a las vidas que la modernización dejó al margen."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria como herencia",
+            "content": "El impulso del libro no consiste solo en recordar, sino en entregar un legado. El destinatario familiar subraya que la memoria tiene una función ética: salvar del olvido aquello que todavía puede transmitirse."
+          },
+          {
+            "heading": "La España rural como archivo vivo",
+            "content": "Hernández muestra que un pueblo no es únicamente un lugar geográfico. Es también un conjunto de saberes, ritmos del tiempo, vocabulario y relaciones de ayuda mutua que desaparecen cuando la comunidad se rompe."
+          },
+          {
+            "heading": "Entre literatura y documento",
+            "content": "Historias de la Alcarama destaca porque no renuncia a la calidad literaria y, al mismo tiempo, conserva una fuerte dimensión documental. Esa mezcla explica que pueda interesar tanto al lector literario como al lector de historia cultural."
+          },
+          {
+            "heading": "Despoblación y duelo colectivo",
+            "content": "La obra ayuda a pensar la despoblación como una forma de duelo histórico. No solo se pierden habitantes: se disuelven formas de convivencia, relatos familiares y una cierta relación entre trabajo, paisaje y comunidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro de memorias?",
+            "answer": "Se acerca mucho más a la memoria y a la crónica personal que a la novela, aunque su escritura tiene una clara elaboración literaria."
+          },
+          {
+            "question": "¿Qué importancia tiene Sarnago en el libro?",
+            "answer": "Sarnago es el núcleo afectivo y simbólico de la obra: un pueblo concreto de Soria desde el que el autor reflexiona sobre un mundo rural en desaparición."
+          },
+          {
+            "question": "¿Por qué aparece la hija del autor como destinataria?",
+            "answer": "Porque el libro nace del deseo de transmitir una memoria familiar y cultural a la siguiente generación, evitando que el pasado quede sin relato."
+          },
+          {
+            "question": "¿Tiene interés más allá del caso soriano?",
+            "answer": "Sí. Aunque parte de una comarca precisa, ilumina procesos más amplios de despoblación, pérdida de costumbres y transformación del campo español."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Pepitas de calabaza — Historias de la Alcarama",
+            "url": "https://www.pepitas.net/libro/historias-de-la-alcarama"
+          },
+          {
+            "label": "Pepitas de calabaza — Abel Hernández",
+            "url": "https://www.pepitas.net/autor/abel-hernandez"
+          },
+          {
+            "label": "Todos Tus Libros — Historias de la Alcarama",
+            "url": "https://www.todostuslibros.com/libros/historias-de-la-alcarama_978-84-17386-96-2"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hoteles-de-maximiliano-barrientos",
+      "title": "Hoteles",
+      "authorName": "Maximiliano Barrientos",
+      "authorSlug": "maximiliano-barrientos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Hoteles",
+        "authorName": "Maximiliano Barrientos",
+        "authorSlug": "maximiliano-barrientos",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2011,
+        "pages": 128,
+        "summary": "Hoteles es una novela breve y fragmentaria centrada en una huida: un actor y una actriz de cine porno viajan en un Chrysler Imperial negro junto a la hija pequeña de la mujer, atravesando carreteras repetidas, paisajes pobres y espacios impersonales como cafeterías, lavanderías y hoteles. Cada uno aporta su propia voz, y a ese tríptico se suma la de un director de documentales que, ya en el presente, intenta reconstruir la historia y medir cuánto hay de ellos en todos nosotros. Barrientos usa el viaje para pensar el desarraigo, la imposibilidad de escapar del pasado y la precariedad afectiva de personajes que viven como intrusos incluso cuando parecen avanzar.",
+        "aboutThisBook": "La novela trabaja con una economía verbal muy marcada y con un dispositivo coral que evita la explicación total. Más que narrar una persecución externa, se concentra en el movimiento interior de sujetos rotos que buscan una salida y descubren que el pasado sigue adherido a ellos. Los lugares de tránsito del título son importantes porque condensan una existencia provisional: habitaciones ajenas, estaciones intermedias y espacios sin arraigo donde, sin embargo, aún puede aparecer una forma mínima de intimidad o de renacimiento.",
+        "forWhom": "Para lectores adultos de narrativa contemporánea latinoamericana, novelas breves de carretera, historias de personajes desplazados y libros donde la atmósfera, la voz y la elipsis pesan tanto como la acción visible.",
+        "whyItMatters": "Importa porque ofrece una versión intensa y sobria del desarraigo contemporáneo. Con muy pocos elementos, Barrientos logra unir viaje, marginalidad y memoria en una novela que piensa la identidad desde el tránsito y la intemperie.",
+        "editorialIntro": "Hoteles propone una huida hacia ninguna parte y convierte esa fuga en una experiencia moral. El lector avanza entre carreteras abrasadas, habitaciones impersonales y recuerdos que no dejan de regresar. Lo notable no es solo el argumento, sino la precisión con que Maximiliano Barrientos construye una atmósfera de cansancio, deseo y extrañeza. En pocas páginas, la novela compone un mapa de vidas desplazadas que siguen buscando un lugar posible.",
+        "readingLevel": "Lectura media-alta: la prosa es concisa, pero la estructura a varias voces, las elipsis y la densidad atmosférica exigen una lectura atenta e interpretativa.",
+        "whyReadToday": "Se lee con fuerza hoy porque habla de movilidad precaria, identidades inestables y vidas atravesadas por la industria de la imagen, la marginalidad y la imposibilidad de empezar de cero.",
+        "studyNotes": [
+          "El viaje no funciona como aventura liberadora, sino como forma de comprobar que el pasado acompaña a los personajes incluso cuando cambian de paisaje.",
+          "Las varias voces narrativas impiden una verdad única y obligan a reconstruir la historia desde perspectivas incompletas.",
+          "Los espacios anónimos del título simbolizan una existencia provisional, hecha de tránsito, observación y falta de arraigo.",
+          "La brevedad del libro intensifica el efecto de condensación: casi no hay relleno, y cada imagen contribuye al clima de extrañeza."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La fuga en carretera",
+            "summary": "La novela arranca con el desplazamiento de los tres personajes principales por una geografía dura y repetitiva. Desde el inicio queda claro que no viajan hacia una promesa luminosa, sino lejos de vidas anteriores que no consiguen dejar atrás."
+          },
+          {
+            "title": "Parte 2: Voces de un desarraigo compartido",
+            "summary": "Cada narrador aporta una percepción distinta del trayecto y de los vínculos entre los personajes. Esa pluralidad no aclara del todo los hechos, pero sí revela la soledad y la fragilidad que todos comparten."
+          },
+          {
+            "title": "Parte 3: Hoteles, cafeterías y espacios de tránsito",
+            "summary": "Los lugares impersonales del camino adquieren espesor simbólico y emocional. Lo que parecía mero decorado se convierte en una forma de existencia: vivir siempre de paso, sin casa propia y sin relato estable."
+          },
+          {
+            "title": "Parte 4: El regreso del pasado",
+            "summary": "La intervención del documentalista, situada en otro tiempo, recompone la historia y confirma que ninguna huida es completa. El cierre sugiere, no obstante, que en la conciencia del fracaso puede abrirse una posibilidad tenue de recomienzo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El tránsito como identidad",
+            "content": "En Hoteles los personajes no poseen un lugar firme desde el que hablar. Su identidad está hecha de movimiento, oficios precarios, cuerpos expuestos y memorias rotas. Por eso el viaje no los define menos que la herida previa que cargan."
+          },
+          {
+            "heading": "Polifonía y reconstrucción",
+            "content": "La novela reparte la historia entre varias voces para evitar una perspectiva cerrada. El lector debe completar vacíos y entender que toda biografía desplazada se cuenta siempre de manera parcial y fragmentaria."
+          },
+          {
+            "heading": "Espacios impersonales con carga emocional",
+            "content": "Barrientos convierte hoteles, lavanderías y cafeterías en escenarios de alta intensidad simbólica. Son lugares de anonimato, pero también sitios donde se revelan la vulnerabilidad, el cansancio y el deseo de protección."
+          },
+          {
+            "heading": "Brevedad y potencia visual",
+            "content": "La escritura trabaja con imágenes secas y memorables. Esa concentración vuelve la novela muy cinematográfica, aunque sin perder espesor literario: lo visual sirve para fijar una experiencia de soledad y desgaste moral."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hoteles es una road novel?",
+            "answer": "Sí, pero de una forma poco convencional: el desplazamiento importa menos como aventura exterior que como escenario del desarraigo y de la imposibilidad de escapar del pasado."
+          },
+          {
+            "question": "¿Qué papel tiene el documentalista en la novela?",
+            "answer": "Su voz introduce distancia temporal y una mirada reflexiva que recompone la historia de los fugitivos desde el presente, ampliando el alcance del relato."
+          },
+          {
+            "question": "¿La novela se apoya más en la trama o en la atmósfera?",
+            "answer": "La atmósfera pesa mucho. Hay una historia clara de fuga, pero el verdadero impacto proviene del clima de intemperie, cansancio y extrañeza que envuelve a los personajes."
+          },
+          {
+            "question": "¿Es representativa de la obra de Barrientos?",
+            "answer": "Sí, porque concentra rasgos asociados a su narrativa: economía expresiva, atención a la soledad, personajes desplazados y una sensibilidad muy visual."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Editorial Periférica — Hoteles",
+            "url": "https://www.editorialperiferica.com/libros/hoteles/"
+          },
+          {
+            "label": "Editorial Periférica — Maximiliano Barrientos",
+            "url": "https://www.editorialperiferica.com/autor/barrientos-maximiliano/"
+          },
+          {
+            "label": "Editorial Océano — Hoteles",
+            "url": "https://oceano.mx/ficha-libro.aspx?id=20719"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "iacobus-de-matilde-asensi",
+      "title": "Iacobus",
+      "authorName": "Matilde Asensi",
+      "authorSlug": "matilde-asensi",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Iacobus",
+        "authorName": "Matilde Asensi",
+        "authorSlug": "matilde-asensi",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "aventura",
+          "thriller"
+        ],
+        "year": 2000,
+        "pages": 376,
+        "summary": "Iacobus es una novela histórico-aventurera ambientada en la Europa posterior a la caída de la Orden del Temple. Su protagonista, Galcerán de Born, monje hospitalario, médico y hombre de notable capacidad deductiva, regresa a la península ibérica con encargos internos de su orden, pero pronto recibe una misión mucho más delicada: investigar las misteriosas muertes del papa Clemente V y del rey Felipe IV de Francia tras la ejecución del gran maestre templario. Acompañado por el joven novicio García, Galcerán sigue pistas que cruzan la política pontificia, las rivalidades entre órdenes militares y los rumores sobre los secretos templarios. La novela combina pesquisa, viajes, conspiración religiosa y reconstrucción medieval para desarrollar una intriga de ritmo ágil donde el conocimiento histórico funciona como motor del suspense.",
+        "aboutThisBook": "Publicada en 2000, Iacobus consolidó a Matilde Asensi como una de las autoras españolas más leídas de novela histórica de aventuras. La obra apareció primero en Plaza & Janés y fue luego reeditada por Planeta, según la bibliografía de la autora. Su interés central está en mezclar documentación sobre el final de las cruzadas, las órdenes militares y la crisis del Temple con una estructura de investigación casi detectivesca. No es solo una novela medieval decorativa: usa el pasado para construir una trama de secretos, lealtades y poder eclesiástico.",
+        "forWhom": "Para lectores adultos que disfrutan las novelas históricas con enigmas, persecuciones, órdenes religiosas y conspiraciones medievales. También es adecuada para quien busque una lectura ágil, muy narrativa, pero con suficiente trasfondo histórico como para servir de puerta de entrada al mundo templario y hospitalario.",
+        "whyItMatters": "Importa porque fue una de las novelas que popularizaron en español la mezcla de thriller histórico, documentación medieval y aventura de investigación. Además, muestra con claridad el modo de narrar de Asensi: intriga sostenida, escenarios reconocibles y personajes que avanzan descifrando pistas dentro de un gran conflicto religioso y político.",
+        "editorialIntro": "Hay novelas históricas que se apoyan solo en el decorado de época y otras que convierten el pasado en una maquinaria de intriga. Iacobus pertenece al segundo grupo. Matilde Asensi sitúa al lector en el clima enrarecido que siguió a la caída del Temple y hace avanzar la historia mediante pesquisas, viajes, manuscritos, alianzas inciertas y secretos eclesiásticos. El resultado es un libro muy legible, de gran impulso narrativo, que enlaza aventura medieval y suspense detectivesco sin perder claridad.",
+        "readingLevel": "Lectura media para adultos. La prosa es fluida y accesible, pero el libro gana cuando el lector presta atención a referencias históricas, órdenes militares, nombres de poder y detalles del contexto medieval.",
+        "whyReadToday": "Porque sigue siendo un ejemplo eficaz de cómo la novela histórica puede entretener sin renunciar al contexto político y religioso. También anticipa el interés contemporáneo por los thrillers medievales y las tramas sobre poder, fe y documentos secretos.",
+        "studyNotes": [
+          "Galcerán de Born funciona como investigador medieval: su perfil de monje, médico y observador racional organiza la novela como pesquisa histórica.",
+          "El trasfondo templario no es un simple adorno; estructura la tensión entre Iglesia, monarquía francesa y órdenes militares tras un momento de crisis europea.",
+          "Conviene observar cómo Asensi dosifica la información documental para que el contexto no frene la intriga, sino que la alimente.",
+          "La presencia del novicio García introduce un aprendizaje narrativo y permite que muchas explicaciones históricas entren de forma natural en la acción."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: regreso y misión papal",
+            "summary": "Galcerán vuelve a la península con encargos propios de su orden, pero pronto recibe una misión decisiva vinculada a las muertes de Clemente V y Felipe IV. Desde el inicio queda claro que la novela combinará conocimiento erudito y peligro político."
+          },
+          {
+            "title": "Parte 2: viaje, pistas y aliados inciertos",
+            "summary": "Junto al novicio García, el protagonista sigue rastros que lo llevan por distintos escenarios y lo obligan a interpretar documentos, rumores y movimientos de poder. La ayuda de una hechicera judía amplía la trama y añade nuevas capas de ambigüedad."
+          },
+          {
+            "title": "Parte 3: el secreto templario",
+            "summary": "En el tramo final, la investigación deja ver que las muertes ilustres remiten a un conflicto mayor relacionado con la herencia política y simbólica del Temple. La resolución combina revelación, riesgo y afirmación del valor estratégico del conocimiento."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller medieval con base documental",
+            "content": "Uno de los principales logros de Iacobus es convertir materiales históricos complejos en una intriga de lectura rápida. Asensi no renuncia al contexto sobre Hospitalarios, papado o Temple, pero lo integra en una estructura de búsqueda y revelación propia del thriller."
+          },
+          {
+            "heading": "La investigación como forma de aventura",
+            "content": "La novela no depende solo de persecuciones o combates. Su energía narrativa nace de interpretar signos: manuscritos, testimonios, gestos diplomáticos y silencios interesados. Esa lógica de pesquisa da densidad al relato y diferencia al protagonista de un héroe de acción convencional."
+          },
+          {
+            "heading": "Poder religioso y poder político",
+            "content": "El libro insiste en que la caída del Temple no puede entenderse como un episodio aislado. Las decisiones papales, la presión de la monarquía francesa y los intereses de otras órdenes forman un tablero donde la fe y la estrategia están estrechamente unidas."
+          },
+          {
+            "heading": "Una puerta de entrada a la novela histórica popular",
+            "content": "Iacobus ayuda a entender por qué la novela histórica de entretenimiento tuvo tanta fuerza en lengua española a comienzos de siglo. Su equilibrio entre claridad, ritmo y trasfondo erudito la vuelve accesible sin volverla superficial."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Iacobus es una novela histórica o un thriller?",
+            "answer": "Es ambas cosas. Parte de un contexto histórico muy preciso —el final del Temple y las tensiones eclesiásticas del siglo XIV—, pero desarrolla la acción como una investigación llena de pistas, peligros y revelaciones."
+          },
+          {
+            "question": "¿Quién es el protagonista de la historia?",
+            "answer": "Galcerán de Born, un monje hospitalario con formación médica y talento deductivo. Su perfil explica por qué la novela avanza a la vez como aventura y como pesquisa intelectual."
+          },
+          {
+            "question": "¿Hace falta saber historia medieval para leerla?",
+            "answer": "No. La novela está pensada para un lector general y va incorporando la información necesaria sobre templarios, Hospitalarios y papado a medida que progresa la intriga."
+          },
+          {
+            "question": "¿Qué aporta dentro de la obra de Matilde Asensi?",
+            "answer": "Aporta una formulación muy clara de su estilo: ritmo alto, marco histórico reconocible, enigmas bien dosificados y un protagonista que resuelve conflictos interpretando indicios más que recurriendo solo a la fuerza."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: Iacobus",
+            "url": "https://es.wikipedia.org/wiki/Iacobus"
+          },
+          {
+            "label": "Wikipedia: Matilde Asensi",
+            "url": "https://es.wikipedia.org/wiki/Matilde_Asensi"
+          },
+          {
+            "label": "Open Library: Iacobus",
+            "url": "https://openlibrary.org/works/OL5849674W/Iacobus"
+          },
+          {
+            "label": "Google Books: Iacobus",
+            "url": "https://books.google.com/books?id=pZSDPwAACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "indias-blancas-ii-de-florencia-bonelli",
+      "title": "Indias Blancas Ii",
+      "authorName": "Florencia Bonelli",
+      "authorSlug": "florencia-bonelli",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Indias blancas. La vuelta del ranquel",
+        "authorName": "Florencia Bonelli",
+        "authorSlug": "florencia-bonelli",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "romance",
+          "narrativa"
+        ],
+        "year": 2005,
+        "pages": 564,
+        "summary": "Indias blancas. La vuelta del ranquel retoma la historia de Laura Escalante y Nahueltruz Guor en un momento de duelo, separación y fuertes tensiones históricas. Laura, ya viuda, se mueve en una Buenos Aires marcada por ambiciones políticas, presiones sociales y el avance del proyecto estatal sobre los territorios indígenas. Mientras tanto, Nahueltruz regresa con deseo de reparación y venganza después de años de ausencia. La novela desarrolla su reencuentro en medio de conflictos personales y de un trasfondo nacional decisivo: las campañas militares, la violencia sobre los pueblos originarios y la consolidación del poder criollo. Bonelli combina melodrama amoroso, saga familiar y reconstrucción histórica para narrar un amor atravesado por diferencias culturales, heridas pasadas y una Argentina en transformación.",
+        "aboutThisBook": "Publicada originalmente en 2005 y reeditada más tarde por Planeta Argentina, esta segunda parte cierra el gran arco narrativo iniciado en Indias blancas. La novela es representativa del estilo de Florencia Bonelli: historias sentimentales extensas, protagonistas de fuerte intensidad emocional y un uso muy visible del contexto histórico argentino. En este caso, el romance no queda separado de la política: la Campaña del Desierto, la elite porteña, el ascenso de Julio Argentino Roca y la situación de los ranqueles forman parte del conflicto central. Por eso el libro puede leerse a la vez como novela romántica popular y como relato histórico sobre una nación que se construye de forma violenta.",
+        "forWhom": "Para lectores adultos que buscan novelas largas, intensas y emocionales, con fuerte componente romántico e histórico. Resulta especialmente atractiva para quienes disfrutan las sagas sentimentales ambientadas en la Argentina del siglo XIX y para lectores interesados en ficciones que cruzan amor, identidad, prejuicio social y conflicto político.",
+        "whyItMatters": "Importa porque fue una de las obras que consolidó la enorme popularidad de Florencia Bonelli y amplió el alcance de la novela histórico-romántica en el ámbito hispanoamericano. Además, sitúa una historia de amor muy absorbente dentro de debates todavía sensibles sobre nación, violencia estatal y representación de los pueblos originarios.",
+        "editorialIntro": "No se trata solo de una continuación sentimental. Indias blancas. La vuelta del ranquel expande el universo de la primera novela y lo enfrenta a un momento histórico especialmente conflictivo de la Argentina. Florencia Bonelli aprovecha el magnetismo de sus protagonistas para poner en escena tensiones entre ciudad y frontera, elite y mundo indígena, ambición política y deseo privado. Esa combinación explica su éxito: es una novela de pasión, pero también de destino histórico y de identidad desgarrada.",
+        "readingLevel": "Lectura media para adultos. El estilo es directo y muy narrativo, aunque la extensión del libro, la cantidad de personajes y el trasfondo político invitan a leer con atención sostenida y a recordar los hechos de la primera parte.",
+        "whyReadToday": "Porque permite revisar desde la ficción romántica temas que siguen siendo actuales: el peso de los prejuicios sociales, la violencia sobre los pueblos originarios y la relación entre intimidad, memoria y construcción nacional.",
+        "studyNotes": [
+          "La novela funciona mejor si se entiende como segunda parte de una historia amplia; muchas emociones y conflictos vienen cargados desde la primera entrega.",
+          "El contexto de 1879 y la figura de Julio Argentino Roca no son mero fondo: ordenan buena parte de las tensiones entre deseo privado e historia pública.",
+          "Bonelli construye el romance como conflicto cultural y social, no solo afectivo; la oposición entre mundo criollo y mundo ranquel es decisiva.",
+          "Conviene analizar cómo la novela combina recursos del folletín, la saga romántica y la novela histórica para sostener una narración extensa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Laura en duelo y la presión del mundo porteño",
+            "summary": "La novela presenta a Laura convertida en viuda y situada en una sociedad que intenta decidir por ella. Su posición social, su belleza y el clima político de Buenos Aires la colocan en el centro de nuevas presiones afectivas y estratégicas."
+          },
+          {
+            "title": "Parte 2: regreso de Nahueltruz y reencuentro",
+            "summary": "Tras años de ausencia, Nahueltruz vuelve marcado por la pérdida y por la necesidad de reparación. El reencuentro con Laura reactiva el eje romántico, pero también reabre heridas, resentimientos y dilemas de pertenencia."
+          },
+          {
+            "title": "Parte 3: amor, guerra y decisión histórica",
+            "summary": "En el tramo final, la relación entre los protagonistas queda atravesada por la violencia política y militar del periodo. La novela busca una salida emocional para la pareja sin dejar de mostrar el alto costo histórico del mundo en que viven."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Romance e historia nacional",
+            "content": "Bonelli enlaza la peripecia amorosa con un momento decisivo de la historia argentina. El libro no separa la intimidad del proceso político, sino que muestra cómo las grandes decisiones del Estado afectan vidas privadas, cuerpos y vínculos."
+          },
+          {
+            "heading": "La frontera como espacio simbólico",
+            "content": "La frontera no es solo un lugar geográfico. En la novela representa el choque entre códigos culturales, jerarquías raciales, formas de poder y proyectos de civilización. Allí el amor aparece como cruce, amenaza y posibilidad de transformación."
+          },
+          {
+            "heading": "Éxito popular y construcción emocional",
+            "content": "Una de las razones del impacto del libro está en su capacidad para prolongar la tensión sentimental durante cientos de páginas sin perder impulso. Bonelli trabaja con separaciones, reencuentros, obstáculos externos y gran intensidad afectiva, recursos clásicos del folletín modernizados para un público masivo."
+          },
+          {
+            "heading": "Lectura crítica del imaginario histórico",
+            "content": "Leída hoy, la novela invita también a discutir cómo la ficción romántica representa a los pueblos originarios, a la elite criolla y a la violencia estatal. Su interés no está solo en lo que narra, sino en las preguntas que abre sobre memoria y nación."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer la primera parte antes de esta novela?",
+            "answer": "Muy recomendable. Aunque la segunda parte puede seguirse por sí sola en sus líneas básicas, gran parte de la fuerza emocional depende de conocer la historia previa de Laura y Nahueltruz."
+          },
+          {
+            "question": "¿Predomina más el romance o la historia argentina?",
+            "answer": "Predomina el romance, pero la dimensión histórica es decisiva. La novela se apoya en un contexto político muy concreto y lo usa para tensionar constantemente las decisiones de los protagonistas."
+          },
+          {
+            "question": "¿Por qué el libro sigue siendo tan leído?",
+            "answer": "Porque combina intensidad sentimental, personajes carismáticos, conflicto social y un trasfondo histórico reconocible. Esa mezcla le da amplitud emocional y fuerte capacidad de arrastre narrativo."
+          },
+          {
+            "question": "¿Qué lugar ocupa en la obra de Florencia Bonelli?",
+            "answer": "Ocupa un lugar central, ya que forma parte del ciclo que la volvió masivamente popular y fijó su sello de novela histórico-romántica extensa, apasionada y ambientada en grandes escenarios nacionales."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Google Play Libros / Planeta Argentina: Indias Blancas. La vuelta del ranquel",
+            "url": "https://play.google.com/store/books/details?id=IGbBEAAAQBAJ"
+          },
+          {
+            "label": "Open Library: Indias blancas. La vuelta del ranquel",
+            "url": "https://openlibrary.org/works/OL17313061W/Indias_blancas._La_vuelta_del_ranquel"
+          },
+          {
+            "label": "Wikipedia: Florencia Bonelli",
+            "url": "https://es.wikipedia.org/wiki/Florencia_Bonelli"
+          },
+          {
+            "label": "Google Books: edición de 2005 de Indias blancas. La vuelta del ranquel",
+            "url": "https://books.google.com/books?id=VNBIAAAAYAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ivan-el-tonto-de-leon-tolstoi",
+      "title": "Ivan El Tonto",
+      "authorName": "Leon Tolstoi",
+      "authorSlug": "leon-tolstoi",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Iván el tonto",
+        "authorName": "León Tolstói",
+        "authorSlug": "leon-tolstoi",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "clasicos",
+          "fantasia",
+          "infantil"
+        ],
+        "year": 1886,
+        "pages": 31,
+        "summary": "Iván el tonto es un cuento largo o fábula literaria en el que Tolstói transforma un motivo del folclore ruso en una sátira moral y social. La historia presenta a tres hermanos —un soldado ambicioso, un comerciante codicioso y el aparentemente simple Iván— junto a su hermana Marta, mientras el Diablo viejo y varios diablillos intentan sembrar discordia y arruinar a la familia. Sin embargo, la generosidad, la resistencia física y la ingenuidad desarmante de Iván frustran una y otra vez la lógica del poder, el dinero y la violencia. A medida que el relato avanza, Tolstói contrapone dos modelos de mundo: el de la astucia interesada y la dominación, y el de la vida sencilla, el trabajo manual y la hospitalidad. El resultado es un cuento de apariencia ingenua que encierra una crítica profunda del militarismo, la codicia y la falsa inteligencia.",
+        "aboutThisBook": "Publicado en 1886, el relato es conocido en inglés como Ivan the Fool o Ivan the Fool and His Two Brothers y suele definirse como un cuento o fairy tale literario de Tolstói. El autor toma la figura folclórica del héroe ingenuo ruso y la convierte en vehículo de su crítica ética y social de madurez. Aunque la historia puede leerse como fábula para jóvenes, también expresa ideas muy ligadas al pensamiento tardío de Tolstói: desconfianza ante el Estado, rechazo de la violencia organizada, sospecha frente al dinero y defensa de una vida laboriosa y sencilla. Su valor está precisamente en esa doble lectura: cuento claro en la superficie, alegoría moral y política en el fondo.",
+        "forWhom": "Para lectores de clásicos, docentes, estudiantes y familias que buscan un cuento con apariencia simple pero con gran riqueza moral. También interesa a quien quiera acercarse a Tolstói por un texto breve y ver cómo su pensamiento religioso y social puede expresarse en forma de fábula narrativa.",
+        "whyItMatters": "Importa porque condensa en una historia breve varias intuiciones centrales de Tolstói: la superioridad moral de la sencillez, la crítica del dinero y del ejército, y la sospecha de que la llamada inteligencia práctica suele servir a la dominación. Además, reinterpreta un héroe folclórico para discutir problemas políticos muy serios.",
+        "editorialIntro": "Pocas obras muestran tan bien la capacidad de Tolstói para decir cosas enormes con recursos aparentemente humildes. Iván el tonto parece, al comienzo, una fábula campesina con diablos y hermanos rivales. Pero muy pronto se revela como una pieza satírica de gran precisión moral. Bajo su humor y su aire popular, el cuento discute qué significa gobernar, trabajar, obedecer y vivir con dignidad. Por eso puede leerse tanto como literatura popular como en clave filosófica y política.",
+        "readingLevel": "Lectura accesible en la superficie para público amplio, aunque sus segundas capas se aprecian mejor con cierta madurez lectora. Ideal para lectura guiada, comentario escolar o introducción a la dimensión moral de Tolstói.",
+        "whyReadToday": "Porque su crítica del militarismo, de la codicia y del prestigio vacío sigue siendo sorprendentemente vigente. También recuerda que la aparente simpleza puede desenmascarar sistemas enteros de poder mejor que muchos discursos sofisticados.",
+        "studyNotes": [
+          "Iván pertenece a la tradición del héroe ingenuo del folclore ruso, pero Tolstói lo convierte en figura ética y no solo humorística.",
+          "Los hermanos representan formas de poder reconocibles: ejército, comercio y administración interesada del mundo.",
+          "El diablo fracasa porque la lógica de Iván no compite en el mismo terreno del cálculo egoísta; la hospitalidad y el trabajo desarman la tentación.",
+          "El cuento admite una lectura infantil, pero también una lectura política cercana a las convicciones religiosas y sociales del último Tolstói."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: los hermanos y la primera discordia",
+            "summary": "Tolstói presenta a los tres hermanos y a Marta, junto con la intervención del Diablo. Mientras Simón y Tarás siguen el camino del poder y la riqueza, Iván permanece en el trabajo del campo y deja ver una generosidad que desconcierta a todos."
+          },
+          {
+            "title": "Momento clave 2: las pruebas de los diablillos",
+            "summary": "Cada hermano recibe una tentación acorde con su carácter. Los demonios empujan a Simón hacia la guerra y a Tarás hacia la codicia, pero Iván resiste las trampas mediante esfuerzo, sencillez y una inocencia que termina venciendo incluso a los propios diablos."
+          },
+          {
+            "title": "Momento clave 3: el reino de Iván y la derrota del Diablo",
+            "summary": "Cuando Iván llega a gobernar, su reino funciona con una lógica opuesta a la del poder tradicional. El Diablo intenta introducir ejército, dinero y sofisticación interesada, pero fracasa ante una comunidad que privilegia el trabajo y la convivencia antes que la dominación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El héroe ingenuo como sabio moral",
+            "content": "Tolstói invierte el sentido habitual del insulto. Iván parece torpe desde la mirada social dominante, pero precisamente esa falta de astucia utilitaria le permite ver y vivir de otra manera. Su simpleza no es carencia, sino una forma de libertad frente a la codicia y la violencia."
+          },
+          {
+            "heading": "Sátira del dinero y del militarismo",
+            "content": "El cuento ridiculiza la fascinación por el ejército, la riqueza y la autoridad. Simón y Tarás alcanzan posiciones de poder, pero terminan presos de sus propias lógicas. Iván, en cambio, revela el vacío moral de esos sistemas al no desear lo que ellos codician."
+          },
+          {
+            "heading": "Folclore y pensamiento tolstoiano",
+            "content": "Aunque parte de un motivo folklórico muy conocido, el relato está profundamente marcado por el Tolstói tardío. La crítica al Estado, la exaltación del trabajo manual y la prioridad de una ética cristiana de sencillez atraviesan toda la fábula."
+          },
+          {
+            "heading": "Un cuento para varias edades",
+            "content": "La claridad narrativa permite que funcione como relato para lectores jóvenes, pero su arquitectura simbólica sostiene una lectura adulta. Esa doble condición explica su permanencia: es una historia fácil de seguir y difícil de agotar."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un cuento infantil o una sátira para adultos?",
+            "answer": "Es ambas cosas. Puede leerse como fábula accesible para jóvenes, pero también como una crítica moral y política muy seria del poder, el dinero y la violencia."
+          },
+          {
+            "question": "¿Qué representa Iván dentro del cuento?",
+            "answer": "Representa la sabiduría de la sencillez. Aunque los demás lo consideran tonto, su forma de vivir basada en el trabajo, la generosidad y la falta de ambición desactiva las trampas del diablo y del poder."
+          },
+          {
+            "question": "¿Por qué se relaciona con el pensamiento de Tolstói?",
+            "answer": "Porque condensa varias ideas del Tolstói tardío: rechazo del militarismo, crítica del dinero, simpatía por la vida campesina y valoración de una ética cristiana práctica."
+          },
+          {
+            "question": "¿Es una buena entrada a Tolstói?",
+            "answer": "Sí. Al ser breve y muy clara en su argumento, permite conocer su dimensión moral y satírica sin entrar de inmediato en sus grandes novelas."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia: Ivan the Fool (story)",
+            "url": "https://en.wikipedia.org/wiki/Ivan_the_Fool_%28story%29"
+          },
+          {
+            "label": "Wikisource: Ivan the Fool",
+            "url": "https://en.wikisource.org/wiki/Ivan_the_Fool"
+          },
+          {
+            "label": "Wikisource: Twenty-three Tales / The Story of Iván the Fool",
+            "url": "https://en.wikisource.org/wiki/Twenty-three_Tales/The_Story_of_Iv%C3%A1n_the_Fool"
+          },
+          {
+            "label": "Wikipedia: León Tolstói",
+            "url": "https://es.wikipedia.org/wiki/Le%C3%B3n_Tolst%C3%B3i"
+          },
+          {
+            "label": "Google Books: Ivan the Fool",
+            "url": "https://books.google.com/books?id=afaTGwAACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "kika-superbruja-y-sus-bromas-magicas-de-knister",
+      "title": "Kika Superbruja Y Sus Bromas Magicas",
+      "authorName": "Knister",
+      "authorSlug": "knister",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Kika Superbruja y sus bromas mágicas",
+        "authorName": "Knister",
+        "authorSlug": "knister",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "infantil",
+          "fantasia",
+          "aventura"
+        ],
+        "year": 2007,
+        "pages": 105,
+        "summary": "En esta entrega de la serie de Kika Superbruja, la protagonista vuelve a mezclar curiosidad, imaginación y hechizos con resultados imprevisibles. Todo arranca cuando, durante una visita a casa de su abuela, Kika juega con la magia y altera el orden de los cuentos clásicos. A partir de ese gesto aparentemente inocente, distintos personajes y situaciones empiezan a cruzarse de manera absurda y divertida: identidades confundidas, encantamientos mal dirigidos y apariciones inesperadas convierten la aventura en una cadena de equívocos. El libro sigue la lógica del humor fantástico infantil: Kika quiere arreglar lo que ha provocado, pero cada intento complica más la situación. El resultado es una historia ágil, cómica y llena de imaginación sobre la responsabilidad de usar bien el poder y pensar antes de actuar.",
+        "aboutThisBook": "Es una novela breve de fantasía infantil perteneciente al universo de Kika Superbruja, uno de los personajes más conocidos de Knister. El libro combina aventura, humor y referencias a cuentos tradicionales, de modo que el lector reconoce figuras y situaciones mientras observa cómo la magia las desordena. Su estructura sencilla y dinámica favorece una lectura autónoma en edades iniciales y la convierte en una opción muy útil para consolidar hábito lector.",
+        "forWhom": "Muy adecuado para lectores infantiles que ya leen solos y disfrutan de historias divertidas, fantásticas y con ritmo rápido. También funciona bien para mediación familiar o escolar, especialmente si se quieren trabajar cuentos clásicos, imaginación y consecuencias de los actos.",
+        "whyItMatters": "Importa porque muestra, con ligereza y humor, que la fantasía no está reñida con el aprendizaje moral. La magia sirve aquí para hablar de responsabilidad, reparación del error y creatividad narrativa sin perder el tono lúdico que caracteriza a la serie.",
+        "editorialIntro": "Kika Superbruja y sus bromas mágicas ofrece una aventura breve y muy accesible en la que Knister explota uno de los mayores atractivos de la serie: la posibilidad de que la magia irrumpa en la vida cotidiana y desordene todo. El cruce con personajes de cuento añade un juego intertextual sencillo, ideal para lectores que empiezan a reconocer tradiciones narrativas y disfrutan del disparate bien construido.",
+        "readingLevel": "Lectura infantil de dificultad baja-media: frases claras, acción continua, humor visual y referencias comprensibles para primeros lectores autónomos.",
+        "whyReadToday": "Sigue siendo una lectura útil porque propone una fantasía amable, veloz y no cínica. En un contexto de pantallas y estímulos rápidos, mantiene la atención sin renunciar a la imaginación verbal ni al placer del cuento tradicional reinventado.",
+        "studyNotes": [
+          "La obra usa el error mágico como motor narrativo: cada hechizo equivocado genera un nuevo conflicto.",
+          "Puede leerse como una introducción lúdica a la intertextualidad, ya que mezcla personajes procedentes de cuentos conocidos.",
+          "Kika no es una heroína perfecta: aprende corrigiendo sus propios fallos, rasgo importante en literatura infantil.",
+          "El humor suaviza la tensión y convierte el caos en experiencia de aprendizaje más que en castigo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio del enredo",
+            "summary": "Kika utiliza la magia en casa de su abuela y desencadena una alteración del mundo de los cuentos. Lo que parecía un juego doméstico abre la puerta a una serie de confusiones inesperadas."
+          },
+          {
+            "title": "Cruces y confusiones",
+            "summary": "Los personajes clásicos aparecen mezclados o desplazados, y Kika intenta arreglar la situación. Cada corrección produce nuevas bromas mágicas y aumenta el desorden."
+          },
+          {
+            "title": "Reparar lo causado",
+            "summary": "La protagonista comprende que no basta con improvisar: necesita pensar, asumir su responsabilidad y devolver cada cosa a su lugar. El cierre reafirma el valor de actuar con cuidado incluso dentro de la fantasía."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Magia y responsabilidad",
+            "content": "El libro plantea un tema frecuente en la literatura infantil fantástica: tener poder no equivale a saber usarlo. Kika dispone de recursos extraordinarios, pero la historia insiste en que la imaginación debe ir acompañada de juicio y prudencia."
+          },
+          {
+            "heading": "Humor intertextual",
+            "content": "La gracia del relato depende en buena medida del reconocimiento de figuras de cuento. Knister aprovecha ese conocimiento previo para provocar comicidad mediante desplazamientos, malentendidos y mezclas de roles."
+          },
+          {
+            "heading": "Ritmo de lectura",
+            "content": "La novela está construida con escenas breves y una progresión continua de incidentes. Esa estructura favorece a lectores en consolidación, porque cada episodio ofrece recompensa inmediata y mantiene viva la curiosidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta leer otros libros de Kika Superbruja antes?",
+            "answer": "No. Puede leerse de forma independiente, aunque conocer al personaje ayuda a captar mejor su tono habitual."
+          },
+          {
+            "question": "¿Qué aporta frente a otros libros infantiles de magia?",
+            "answer": "Apuesta por una fantasía humorística muy accesible y por el juego con cuentos clásicos, más que por un mundo complejo o épico."
+          },
+          {
+            "question": "¿Es útil en clase?",
+            "answer": "Sí. Permite trabajar imaginación, consecuencias de los actos, referencias intertextuales y reescritura de cuentos tradicionales."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library - ficha de la obra",
+            "url": "https://openlibrary.org/works/OL17600711W"
+          },
+          {
+            "label": "Open Library - autor Knister",
+            "url": "https://openlibrary.org/authors/OL2770864A"
+          },
+          {
+            "label": "Google Books - edición de Editorial Bruño (2007)",
+            "url": "https://books.google.com/books?id=hPG7MAAACAAJ&dq=intitle%3A%22Kika+Superbruja+y+sus+bromas+m%C3%A1gicas%22&hl="
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-almendra-memorias-eroticas-de-una-mujer-arabe-de-nedjma",
+      "title": "La Almendra Memorias Eroticas De Una Mujer Arabe",
+      "authorName": "Nedjma",
+      "authorSlug": "nedjma",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La almendra",
+        "authorName": "Nedjma",
+        "authorSlug": "nedjma",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "romance"
+        ],
+        "year": 2005,
+        "pages": 244,
+        "summary": "La almendra presenta la voz de una mujer criada en un entorno árabe profundamente restrictivo que reconstruye su despertar sentimental, corporal e intelectual frente a un orden patriarcal que busca regular su deseo. La novela adopta la forma de una memoria íntima y confesional en la que la protagonista recuerda una educación marcada por la vigilancia, el miedo y la represión, y contrapone esa experiencia con el descubrimiento de la sensualidad, el amor y la autonomía personal. Más que una simple provocación erótica, el libro utiliza el cuerpo como territorio de conflicto político y cultural: lo privado se vuelve una forma de resistencia. Su fuerza reside en esa mezcla de denuncia, introspección y afirmación del placer como lenguaje de libertad, incluso cuando la liberación acarrea soledad, culpa y riesgo social.",
+        "aboutThisBook": "Es una novela breve de tono confesional publicada bajo seudónimo y conocida por la controversia que generó su retrato franco de la sexualidad femenina en un contexto musulmán conservador. Aunque su dimensión erótica es evidente, su interés literario va más allá: explora la relación entre identidad, memoria, deseo, religión, educación y control social. Se lee como ficción, pero con una clara vocación de testimonio cultural y emocional.",
+        "forWhom": "Recomendada para lectores adultos interesados en narrativa contemporánea sobre género, deseo, censura y conflicto entre individuo y norma social. También puede interesar a quienes busquen novelas breves con voz confesional intensa y con un enfoque crítico sobre la condición femenina en sociedades patriarcales.",
+        "whyItMatters": "Sigue siendo relevante porque discute quién tiene derecho a narrar el cuerpo femenino y bajo qué límites morales o políticos. La novela convierte la intimidad en una intervención pública sobre libertad, tabú y desigualdad, temas que no han perdido urgencia.",
+        "editorialIntro": "La almendra se hizo visible por su carga erótica, pero reducirla a escándalo sería empobrecerla. Nedjma construye una narración de aprendizaje y de rebelión íntima donde el deseo no funciona como ornamento, sino como núcleo de una disputa por la voz propia. La prosa busca cercanía confesional y avanza entre memoria, crítica social y afirmación subjetiva, lo que explica su impacto y también la incomodidad que provocó en determinados contextos culturales.",
+        "readingLevel": "Lectura para adultos de dificultad media: lenguaje claro, temas sensibles y una voz introspectiva que exige atención al contexto cultural y moral del relato.",
+        "whyReadToday": "Leerla hoy permite revisar debates aún abiertos sobre sexualidad femenina, vergüenza, control social y derecho a la autobiografía íntima. Su interés no depende del escándalo inicial, sino de la pregunta por cómo una mujer conquista lenguaje para nombrarse a sí misma.",
+        "studyNotes": [
+          "El erotismo cumple una función crítica: no solo describe placer, también cuestiona sistemas de dominación.",
+          "La primera persona fortalece el efecto de testimonio y acerca al lector a la tensión entre culpa y emancipación.",
+          "La novela contrapone espacio privado y espacio público para mostrar cómo la vigilancia social invade la intimidad.",
+          "Conviene analizar el uso del seudónimo y la recepción polémica como parte del significado cultural del libro."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Infancia y disciplina",
+            "summary": "La narradora evoca una formación marcada por normas severas, silencios y control del cuerpo femenino. Desde el inicio queda planteada la distancia entre deseo íntimo y mandato social."
+          },
+          {
+            "title": "Descubrimiento del deseo",
+            "summary": "El relato avanza hacia el despertar sexual y afectivo de la protagonista. Ese aprendizaje aparece ligado al placer, pero también al miedo, la culpa y la conciencia de transgredir una frontera cultural."
+          },
+          {
+            "title": "Escritura como liberación",
+            "summary": "La memoria personal se convierte en afirmación de autonomía. Contar la propia historia pasa a ser una forma de resistencia frente a la obediencia impuesta y de recuperación de la identidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Deseo y poder",
+            "content": "La novela presenta el deseo femenino como un campo de disputa política. Lo que la sociedad intenta vigilar no es solo el cuerpo, sino la posibilidad de una subjetividad que no se someta a la autoridad masculina."
+          },
+          {
+            "heading": "Memoria confesional",
+            "content": "La estructura retrospectiva organiza la experiencia como reinterpretación del pasado. La narradora no solo recuerda: selecciona, juzga y da sentido a episodios que antes estaban rodeados de silencio o vergüenza."
+          },
+          {
+            "heading": "Recepción y controversia",
+            "content": "Parte del interés de La almendra reside en su circulación pública. El libro fue leído a la vez como novela, provocación y testimonio, lo que muestra hasta qué punto la representación de la sexualidad femenina sigue siendo un asunto culturalmente conflictivo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es solo una novela erótica?",
+            "answer": "No. El erotismo es central, pero está al servicio de una reflexión sobre libertad, control social e identidad femenina."
+          },
+          {
+            "question": "¿Tiene valor para lectura académica o de debate?",
+            "answer": "Sí. Es útil para discutir género, autobiografía, censura, orientalismo y representación del cuerpo en la narrativa contemporánea."
+          },
+          {
+            "question": "¿Resulta una lectura exigente?",
+            "answer": "No por su estilo, que es directo, sino por los temas que aborda y por la necesidad de leerlos dentro de su contexto cultural y político."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library - ficha de la obra",
+            "url": "https://openlibrary.org/works/OL8053161W"
+          },
+          {
+            "label": "Open Library - autora Nedjma",
+            "url": "https://openlibrary.org/authors/OL2678358A"
+          },
+          {
+            "label": "Google Play Books - edición de Maeva",
+            "url": "https://play.google.com/store/books/details?id=G1f9AwAAQBAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-aventura-de-said-de-josep-lorman",
+      "title": "La Aventura De Said",
+      "authorName": "Josep Lorman",
+      "authorSlug": "josep-lorman",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La aventura de Saíd",
+        "authorName": "Josep Lorman",
+        "authorSlug": "josep-lorman",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "narrativa",
+          "aventura"
+        ],
+        "year": 2001,
+        "pages": 112,
+        "summary": "La aventura de Saíd narra la llegada de un joven marroquí a Barcelona con la esperanza de encontrar un futuro mejor. Lo que al principio parece una oportunidad se transforma pronto en una experiencia de desengaño: Saíd descubre que emigrar no significa únicamente cambiar de lugar, sino enfrentarse a la precariedad, la burocracia, la soledad y, sobre todo, al racismo cotidiano. La novela sigue su aprendizaje en una ciudad que a veces promete integración y otras veces lo expulsa simbólica o materialmente. Josep Lorman construye así un relato de iniciación marcado por el choque entre expectativas y realidad. Desde una perspectiva accesible para lectores jóvenes, el libro aborda la inmigración sin idealizarla y muestra cómo la dignidad personal se pone a prueba cuando faltan papeles, trabajo estable y reconocimiento social.",
+        "aboutThisBook": "Es una novela juvenil de fuerte dimensión social, conocida en el ámbito escolar por su capacidad para acercar a adolescentes temas como migración, prejuicio, exclusión y convivencia. Lorman utiliza una trama clara y un protagonista cercano para que la reflexión ética surja desde la experiencia concreta de Saíd. Por eso funciona tanto como lectura narrativa como puerta de entrada a debates cívicos contemporáneos.",
+        "forWhom": "Especialmente indicada para lectores juveniles, clubes de lectura escolares y docentes que quieran trabajar inmigración, xenofobia, empatía y ciudadanía. También puede interesar a lectores adultos que busquen una novela breve, directa y orientada a la reflexión social desde una perspectiva narrativa accesible.",
+        "whyItMatters": "Importa porque acerca a lectores jóvenes una realidad social decisiva en la España contemporánea: la migración y las barreras invisibles que la rodean. La novela humaniza un debate a menudo tratado con estereotipos y obliga a mirar la experiencia del recién llegado desde dentro.",
+        "editorialIntro": "La aventura de Saíd mantiene vigencia por su claridad y por la honestidad con que presenta el viaje migratorio como una mezcla de esperanza y choque con la realidad. Josep Lorman evita el tono doctrinal: deja que el lector comprenda el problema a través de obstáculos concretos, pequeñas humillaciones y decisiones difíciles. Esa combinación de sencillez narrativa y carga ética explica su presencia continuada en contextos educativos.",
+        "readingLevel": "Lectura juvenil de dificultad media-baja: estilo directo, trama lineal y temas sociales que invitan a la discusión en aula o en lectura guiada.",
+        "whyReadToday": "Sigue siendo pertinente porque el debate sobre migración, racismo y pertenencia continúa abierto. El libro ofrece una forma narrativa, humana y cercana de pensar qué significa llegar a una sociedad que proclama apertura pero levanta múltiples barreras.",
+        "studyNotes": [
+          "Saíd encarna un proceso de iniciación en el que madurar significa entender estructuras sociales injustas, no solo crecer individualmente.",
+          "La ciudad funciona casi como un personaje: acoge, promete y excluye al mismo tiempo.",
+          "La novela es útil para analizar cómo la literatura juvenil puede tratar asuntos políticos sin perder claridad narrativa.",
+          "Conviene atender al contraste entre la imagen soñada de Europa y la experiencia concreta del protagonista."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Llegada y expectativas",
+            "summary": "Saíd llega a Barcelona con ilusión y con la idea de que el esfuerzo le permitirá construir una vida mejor. La ciudad aparece primero como espacio de promesa."
+          },
+          {
+            "title": "Choque con la realidad",
+            "summary": "Pronto surgen dificultades materiales y simbólicas: falta de papeles, inseguridad laboral y actitudes racistas. La aventura adopta entonces un tono de aprendizaje doloroso."
+          },
+          {
+            "title": "Resistencia y conciencia",
+            "summary": "El protagonista comprende que sobrevivir no depende solo de la voluntad individual. El cierre subraya la dignidad, la necesidad de apoyo y la importancia de mirar la migración desde una perspectiva humana."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Migración como relato de iniciación",
+            "content": "La novela transforma el viaje migratorio en una experiencia formativa. Saíd no solo cambia de país: cambia su manera de entender el trabajo, la legalidad, la amistad y los límites de la integración."
+          },
+          {
+            "heading": "Racismo cotidiano",
+            "content": "Uno de los aciertos del libro es mostrar que la exclusión no siempre adopta formas espectaculares. Se manifiesta en sospechas, trámites, rechazo social y falta de oportunidades, es decir, en gestos repetidos que erosionan la dignidad."
+          },
+          {
+            "heading": "Valor pedagógico",
+            "content": "Por su brevedad y claridad, la obra permite introducir debates complejos en contextos educativos. No simplifica el problema, pero lo vuelve discutible desde la experiencia concreta de un personaje con el que es fácil empatizar."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela solo para adolescentes?",
+            "answer": "No exclusivamente. Aunque está pensada para público juvenil, sus temas sociales interesan también a lectores adultos y mediadores de lectura."
+          },
+          {
+            "question": "¿La aventura del título es heroica o crítica?",
+            "answer": "Más crítica que épica. El título dialoga con la idea de aventura para mostrar que emigrar implica riesgo, desilusión y resistencia."
+          },
+          {
+            "question": "¿Por qué se recomienda tanto en el aula?",
+            "answer": "Porque combina lectura accesible con temas de ciudadanía, derechos humanos, prejuicio y convivencia, lo que facilita el debate y el trabajo interdisciplinar."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library - ficha de la obra",
+            "url": "https://openlibrary.org/works/OL17917760W"
+          },
+          {
+            "label": "Open Library - autor Josep Lorman",
+            "url": "https://openlibrary.org/authors/OL195151A"
+          },
+          {
+            "label": "Google Play Books - edición de Ediciones SM España",
+            "url": "https://play.google.com/store/books/details?id=7nPHDwAAQBAJ"
+          },
+          {
+            "label": "Open Library - edición de Ediciones SM (112 páginas)",
+            "url": "https://openlibrary.org/books/OL39484384M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-casa-de-neville-de-florencia-bonelli",
+      "title": "La Casa De Neville",
+      "authorName": "Florencia Bonelli",
+      "authorSlug": "florencia-bonelli",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La casa Neville",
+        "authorName": "Florencia Bonelli",
+        "authorSlug": "florencia-bonelli",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica",
+          "romance"
+        ],
+        "year": 2023,
+        "pages": null,
+        "summary": "La casa Neville es una saga de novela histórica y romántica ambientada en la Londres de 1833, cuando la poderosa banca Neville domina una parte decisiva de la vida económica británica y europea. El gran núcleo narrativo gira en torno a Manon Neville, heredera brillante y combativa que debe sostener el prestigio de la casa familiar en medio de conspiraciones, presiones sociales, rivalidades financieras y peligros muy concretos para su vida. Florencia Bonelli combina el pulso del melodrama, la intriga cortesana y el thriller sentimental para seguir la ascensión, caída y resistencia de una protagonista femenina excepcional. A través de alianzas frágiles, enemigos persistentes y una historia de amor sometida a prueba, la saga explora poder, linaje, deseo, lealtad y supervivencia.",
+        "aboutThisBook": "Más que una simple novela de época, La casa Neville funciona como una trilogía centrada en el choque entre poder económico, ambición personal y vida afectiva. Bonelli sitúa a una mujer en un espacio históricamente masculino —la alta finanza y la dirección de una casa bancaria— y desde ahí construye una narración de gran intensidad emocional. El telón de fondo londinense, la red de intrigas familiares y la continuidad entre los tres volúmenes le dan al conjunto una dimensión expansiva de saga.",
+        "forWhom": "Para lectores adultos que disfrutan las sagas históricas extensas, los romances con alto voltaje dramático, las heroínas de carácter y las tramas donde la lucha por el poder familiar se mezcla con secretos, traiciones y riesgos constantes.",
+        "whyItMatters": "Importa porque convierte a una mujer joven en el centro de una gran ficción de poder económico y social, y porque usa la novela histórica para pensar autoridad, prestigio, independencia y vulnerabilidad en un mundo dominado por hombres.",
+        "editorialIntro": "En La casa Neville, Florencia Bonelli desplaza la novela histórica romántica hacia un terreno de mayor densidad conspirativa. La saga presenta bancos, herencias, enemigos íntimos y pasiones atravesadas por el cálculo político. Manon Neville no es solo una heroína sentimental: es también una figura de mando obligada a defender un nombre y una institución. Esa mezcla de emoción, época e intriga explica buena parte del atractivo de la serie.",
+        "readingLevel": "Lectura media: el estilo es fluido y narrativo, pero la extensión de la saga, la cantidad de personajes y la continuidad entre intrigas familiares y financieras exigen atención sostenida.",
+        "whyReadToday": "Sigue siendo atractiva hoy porque ofrece una heroína capaz de disputar poder real en una estructura patriarcal y porque une entretenimiento, ambientación histórica y conflicto afectivo de largo alcance.",
+        "studyNotes": [
+          "La figura de Manon Neville articula la saga: no solo ama y sufre, también administra, decide y representa una forma excepcional de autoridad femenina en el siglo XIX.",
+          "La banca funciona como escenario simbólico del poder: las disputas familiares y sentimentales siempre tienen consecuencias económicas y públicas.",
+          "Bonelli mezcla registros de novela histórica, romance y thriller, de modo que el suspenso no depende solo de la relación amorosa, sino también de conspiraciones y maniobras de enemigos internos.",
+          "El marco londinense refuerza la idea de modernidad, prestigio social y vigilancia constante sobre la conducta de los personajes."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El ascenso de Manon Neville",
+            "summary": "La saga abre con la presentación de la Casa Neville como una institución financiera de enorme poder en la City londinense. En ese contexto emerge Manon, cuya inteligencia y determinación desconciertan a una sociedad poco acostumbrada a que una mujer ocupe una posición semejante."
+          },
+          {
+            "title": "Parte 2: Amor, alianzas y conspiraciones",
+            "summary": "Mientras Manon consolida su autoridad, surgen enemigos dispuestos a destruirla desde dentro y desde fuera. La relación con Alexander Blackraven adquiere entonces un doble valor: vínculo amoroso y apoyo estratégico en una trama marcada por engaños, traiciones y amenazas."
+          },
+          {
+            "title": "Parte 3: La caída en la trampa",
+            "summary": "En el último movimiento de la saga, los adversarios logran arrinconar a Manon mediante una operación cuidadosamente urdida. La protagonista debe resistir una situación extrema que pone en juego su vida, su nombre y la continuidad del legado familiar."
+          },
+          {
+            "title": "Parte 4: Resistencia y desenlace",
+            "summary": "El cierre reúne a aliados, secretos acumulados y cuentas pendientes. Bonelli orienta el desenlace hacia la prueba definitiva del carácter de Manon, mostrando que el verdadero centro de la trilogía no es solo el romance, sino la capacidad de sostener el poder sin renunciar a la propia identidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una heroína en el corazón del poder",
+            "content": "La originalidad de la saga está en situar a una protagonista femenina al frente de una casa bancaria en 1833. Ese dato organiza el conflicto entero: Manon debe demostrar competencia en un ámbito donde su autoridad resulta escandalosa para muchos."
+          },
+          {
+            "heading": "Romance bajo presión histórica",
+            "content": "La relación amorosa no aparece aislada del contexto, sino atravesada por intereses familiares, amenazas políticas y cálculos de supervivencia. Por eso el romance gana densidad y evita quedar reducido a simple ornamento sentimental."
+          },
+          {
+            "heading": "Intriga y linaje",
+            "content": "La casa del título es al mismo tiempo familia, institución y símbolo. Defenderla implica preservar una herencia, pero también enfrentarse a los mecanismos de la ambición, la envidia y la violencia que rodean a toda estructura de poder."
+          },
+          {
+            "heading": "La lógica de la saga",
+            "content": "Los tres volúmenes permiten que el conflicto madure con amplitud. Bonelli aprovecha esa longitud para desarrollar cambios en los vínculos, ampliar el mapa de antagonistas y llevar a la protagonista desde la afirmación inicial hasta la prueba límite."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La casa Neville es una novela independiente o una serie?",
+            "answer": "Se presenta como una saga en tres partes: La formidable señorita Manon, No quieras nada vil y Yo soy el viento. Conviene leerla en orden porque la intriga y la evolución de los personajes son continuas."
+          },
+          {
+            "question": "¿Predomina más el romance o la intriga histórica?",
+            "answer": "Ambos elementos están muy integrados. Hay una historia amorosa central, pero el peso de las conspiraciones familiares, el poder financiero y los enemigos de Manon vuelve la intriga igualmente decisiva."
+          },
+          {
+            "question": "¿Qué distingue a Manon Neville como protagonista?",
+            "answer": "Su singularidad radica en que no ocupa solo el lugar de heroína romántica: es también una dirigente obligada a tomar decisiones en un ámbito económico y social reservado casi por completo a los hombres."
+          },
+          {
+            "question": "¿Puede interesar a quien suele leer sagas históricas extensas?",
+            "answer": "Sí. La amplitud del mundo narrativo, la continuidad dramática entre tomos y la combinación de época, pasión e intriga la acercan claramente al modelo de saga histórica de gran aliento."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "PlanetadeLibros Argentina — La Casa Neville 1. La formidable señorita Manon",
+            "url": "https://www.planetadelibros.com.ar/libro-la-casa-neville-1-la-formidable-senorita-manon/384494"
+          },
+          {
+            "label": "PlanetadeLibros Argentina — La Casa Neville 2. No quieras nada vil",
+            "url": "https://www.planetadelibros.com.ar/libro-la-casa-neville-2-no-quieras-nada-vil/391021"
+          },
+          {
+            "label": "PlanetadeLibros Argentina — La Casa Neville 3. Yo soy el viento",
+            "url": "https://www.planetadelibros.com.ar/libro-la-casa-neville-3-yo-soy-el-viento/402772"
+          },
+          {
+            "label": "PlanetadeLibros Argentina — Florencia Bonelli",
+            "url": "https://www.planetadelibros.com.ar/autor/florencia-bonelli/000036364"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-chica-invisible-de-blue-jeans",
+      "title": "La Chica Invisible",
+      "authorName": "Blue Jeans",
+      "authorSlug": "blue-jeans",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La chica invisible",
+        "authorName": "Blue Jeans",
+        "authorSlug": "blue-jeans",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2018,
+        "pages": 544,
+        "summary": "La chica invisible abre la incursión de Blue Jeans en el thriller juvenil con una historia de crimen ambientada en un instituto donde casi todos esconden algo. Aurora Ríos, una adolescente aislada por los rumores y por un episodio traumático del pasado, aparece asesinada en el vestuario del instituto Rubén Darío. La investigación no se limita a la policía: Julia Plaza, compañera de gran inteligencia y afición deductiva, empieza a reconstruir los hechos junto a Emilio, un joven especialmente atento a lo que ocurre a su alrededor. El resultado es una novela que combina misterio, vida escolar, tensiones familiares, secretos digitales y observación del mundo adolescente, hasta convertir el caso en una exploración de la soledad, la violencia simbólica y la dificultad de ver de verdad a quien el grupo decide volver invisible.",
+        "aboutThisBook": "Con esta novela, Blue Jeans se desplaza desde la ficción sentimental juvenil hacia el suspense criminal sin abandonar su conocimiento de las dinámicas adolescentes. El crimen de Aurora activa una investigación en la que pesan tanto las pistas materiales como las relaciones entre compañeros, los prejuicios del pueblo y la circulación de secretos. El libro funciona a la vez como intriga y como retrato de instituto, y esa doble condición explica su alcance entre lectores jóvenes.",
+        "forWhom": "Para lectores juveniles y adultos que buscan un thriller accesible, ambientado en el ámbito escolar, con ritmo alto, personajes adolescentes reconocibles y una investigación donde los vínculos afectivos son tan importantes como las pruebas del caso.",
+        "whyItMatters": "Importa porque acerca el género criminal al lector joven sin simplificar los conflictos emocionales de la adolescencia. Además, convierte el concepto de invisibilidad social en una clave narrativa y ética de gran fuerza.",
+        "editorialIntro": "La chica invisible parte de un asesinato, pero su verdadera potencia está en todo lo que ese crimen revela sobre una comunidad. Blue Jeans construye un instituto lleno de sospechas, silencios y versiones parciales, y hace que cada conversación o detalle cotidiano pueda contener una pista. La novela mantiene el suspense, pero también pregunta por el precio del aislamiento, el peso del rumor y la facilidad con que un grupo puede expulsar a una persona de la mirada común.",
+        "readingLevel": "Lectura media: la prosa es ágil y muy accesible, aunque el número de sospechosos, los cambios de información y la atención a los indicios piden seguir bien la investigación.",
+        "whyReadToday": "Se lee muy bien hoy porque une cultura juvenil, violencia relacional, reputación digital y deseo de justicia en una trama que muestra cómo el aislamiento social puede tener consecuencias devastadoras.",
+        "studyNotes": [
+          "La invisibilidad de Aurora no es solo un rasgo psicológico: resume un mecanismo colectivo de exclusión, rumor y desatención.",
+          "Julia Plaza cumple una función decisiva como observadora analítica y aproxima la novela al modelo del detective juvenil contemporáneo.",
+          "El instituto no es simple decorado; es un espacio cerrado donde amistades, rivalidades y secretos alteran la percepción de la verdad.",
+          "Blue Jeans mantiene un lenguaje accesible sin renunciar a tratar cuestiones serias como acoso, trauma, control social y estigmatización."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La desaparición de Aurora",
+            "summary": "La novela presenta a Aurora Ríos como una joven aislada por hechos anteriores que han marcado su relación con el pueblo. Cuando su madre descubre que no ha vuelto a casa, el relato entra en una zona de alarma que pronto se convierte en crimen."
+          },
+          {
+            "title": "Parte 2: El instituto como mapa de sospechosos",
+            "summary": "El hallazgo del cuerpo en el vestuario del instituto Rubén Darío transforma a compañeros y profesores en piezas potenciales del caso. Cada vínculo cotidiano adquiere una dimensión nueva, porque casi todos parecen esconder algo o saber más de lo que dicen."
+          },
+          {
+            "title": "Parte 3: Julia Plaza sigue las pistas",
+            "summary": "La investigación avanza gracias a la mirada deductiva de Julia y a la colaboración de Emilio. En ese proceso, la novela va revelando capas de secreto, miedo y simulación que obligan a reinterpretar a varios personajes."
+          },
+          {
+            "title": "Parte 4: Ver a la víctima de verdad",
+            "summary": "En el desenlace, la resolución del caso no solo identifica responsabilidades, sino que devuelve espesor humano a Aurora. El título adquiere entonces todo su sentido: la muchacha invisible deja de ser rumor para convertirse en historia y presencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller juvenil con conciencia social",
+            "content": "La novela adopta la estructura del misterio, pero no se limita a encadenar sospechosos. También examina cómo funciona la exclusión dentro de un grupo adolescente y cómo el rumor puede deformar por completo la identidad de una persona."
+          },
+          {
+            "heading": "El instituto como microcosmos",
+            "content": "El centro escolar concentra jerarquías, amistades, rivalidades y sistemas de vigilancia informal. Esa densidad convierte el instituto en un laboratorio narrativo ideal para un crimen donde casi todos observan, juzgan y callan."
+          },
+          {
+            "heading": "Julia Plaza y la inteligencia narrativa",
+            "content": "Julia destaca porque no actúa como heroína impulsiva, sino como lectora de indicios. Su presencia ordena la pesquisa y ofrece al lector una vía de interpretación basada en atención, lógica y sensibilidad hacia lo que otros pasan por alto."
+          },
+          {
+            "heading": "La invisibilidad como tema moral",
+            "content": "El gran símbolo del libro es la invisibilidad social. Aurora no es invisible porque no exista, sino porque los demás han aprendido a no verla como persona completa. El crimen vuelve literal una violencia previa que ya estaba instalada en el entorno."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La chica invisible es autoconclusiva?",
+            "answer": "Sí puede leerse por sí sola, aunque inicia una trilogía continuada por El puzle de cristal y La promesa de Julia."
+          },
+          {
+            "question": "¿Es un libro juvenil o un thriller policial?",
+            "answer": "Es ambas cosas: un thriller juvenil que usa códigos del policial para contar una historia de instituto, secretos y relaciones adolescentes."
+          },
+          {
+            "question": "¿Hace falta experiencia previa con Blue Jeans?",
+            "answer": "No. De hecho, la novela fue importante porque mostró el paso del autor hacia una línea de suspense distinta de sus series románticas anteriores."
+          },
+          {
+            "question": "¿Qué tema central queda más allá del crimen?",
+            "answer": "La novela insiste en cómo una comunidad fabrica invisibilidad, estigmatiza a una persona y convierte esa exclusión en una forma de violencia cotidiana."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "PlanetadeLibros — La chica invisible",
+            "url": "https://www.planetadelibros.com/libro-la-chica-invisible/266985"
+          },
+          {
+            "label": "PlanetadeLibros — Blue Jeans",
+            "url": "https://www.planetadelibros.com/autor/blue-jeans/000028018"
+          },
+          {
+            "label": "PlanetadeLibros — Serie La chica invisible",
+            "url": "https://www.planetadelibros.com/serie-la-chica-invisible/12641"
+          },
+          {
+            "label": "Google Books — La chica invisible",
+            "url": "https://play.google.com/store/books/details?id=BHRNDwAAQBAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-deshumanizacion-del-arte-ideas-sobre-la-novela-de-jose-ortega-y-gasset",
+      "title": "La Deshumanizacion Del Arte Ideas Sobre La Novela",
+      "authorName": "Jose Ortega Y Gasset",
+      "authorSlug": "jose-ortega-y-gasset",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 3,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La deshumanización del arte e Ideas sobre la novela",
+        "authorName": "José Ortega y Gasset",
+        "authorSlug": "jose-ortega-y-gasset",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 1925,
+        "pages": 232,
+        "summary": "La deshumanización del arte e Ideas sobre la novela es uno de los ensayos decisivos de José Ortega y Gasset para entender la sensibilidad estética de las vanguardias del siglo XX. Ortega parte de una constatación: el arte nuevo rompe con la tradición sentimental, realista y anecdótica, y por eso resulta difícil o incluso irritante para buena parte del público. En lugar de buscar identificación emocional inmediata, ese arte privilegia la forma, el juego intelectual, la ironía y la conciencia de artificio. En paralelo, las páginas dedicadas a la novela reflexionan sobre los límites del género narrativo, su desgaste histórico y la necesidad de renovar sus procedimientos. El libro no ofrece un simple juicio de gusto, sino una teoría de la modernidad artística y de la transformación de la experiencia estética.",
+        "aboutThisBook": "Publicado originalmente en 1925, el libro se sitúa en pleno auge de las vanguardias europeas y dialoga con un momento en el que pintura, música, poesía y narrativa estaban modificando sus reglas. Ortega no describe esas mutaciones como una decadencia pura, sino como un cambio de sensibilidad que exige otro tipo de lector y de espectador. Su interés principal está en comprender qué ocurre cuando el arte deja de imitar la vida de manera directa y se vuelve más consciente de su propio lenguaje.",
+        "forWhom": "Para lectores adultos interesados en teoría estética, historia intelectual del siglo XX, crítica literaria y ensayos breves pero densos que ayudan a leer las vanguardias, la crisis del realismo y la evolución de la novela moderna.",
+        "whyItMatters": "Importa porque formula de manera temprana una interpretación muy influyente del arte moderno y porque explica por qué la distancia entre obra avanzada y público masivo no es un accidente, sino una consecuencia de su propia poética.",
+        "editorialIntro": "Pocos ensayos breves han tenido tanta capacidad para ordenar un debate cultural entero. Ortega y Gasset observa el arte de su tiempo con mezcla de cercanía, rigor y provocación, y propone una idea que sigue siendo incómoda: el arte nuevo no quiere halagar la sensibilidad media, sino separarse de ella. Unido a sus reflexiones sobre la novela, el texto compone una pequeña cartografía de la modernidad estética que todavía sirve para orientarse entre realismo, experimentación y crisis de los géneros.",
+        "readingLevel": "Lectura media-alta: la prosa es elegante y relativamente clara, pero está cargada de conceptos, matices históricos y argumentos que conviene leer despacio para captar su alcance estético.",
+        "whyReadToday": "Vale la pena leerlo hoy porque muchas discusiones actuales sobre arte difícil, elitismo cultural, innovación formal y relación con el público ya están planteadas aquí con notable precisión.",
+        "studyNotes": [
+          "Ortega entiende la deshumanización no como pérdida de valor, sino como alejamiento del pathos sentimental y del arte entendido como espejo directo de la vida.",
+          "El ensayo subraya que el arte nuevo divide al público: no todos reaccionan igual porque exige hábitos de percepción menos inmediatos y más formales.",
+          "Ideas sobre la novela prolonga la reflexión estética hacia el campo narrativo y plantea que el género necesita reinventar sus procedimientos cuando ciertas fórmulas se agotan.",
+          "La obra debe situarse en el contexto de las vanguardias y de la Revista de Occidente, decisivos para comprender su horizonte intelectual."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Qué es el arte nuevo",
+            "summary": "Ortega identifica una transformación del gusto artístico contemporáneo y explica que las obras modernas ya no buscan representar la vida de forma sentimental o inmediata. El centro se desplaza hacia la forma, el artificio y el juego intelectual."
+          },
+          {
+            "title": "Parte 2: Público, minorías y dificultad",
+            "summary": "Uno de los núcleos del ensayo es la fractura entre el arte moderno y el gran público. Ortega interpreta esa distancia como un rasgo constitutivo de la nueva sensibilidad, no como un simple fracaso comunicativo."
+          },
+          {
+            "title": "Parte 3: Ideas sobre la novela",
+            "summary": "Al pasar a la novela, Ortega examina el cansancio de ciertos modelos narrativos y la necesidad de que el género explore otras técnicas. La novela moderna aparece así como problema histórico, no como forma estable e inmutable."
+          },
+          {
+            "title": "Parte 4: Una teoría estética en perspectiva",
+            "summary": "Leído en conjunto, el volumen ofrece una visión coherente de la modernidad artística. Más que dictar una norma cerrada, Ortega intenta proporcionar categorías para comprender el cambio de sensibilidad que define a su época."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Deshumanización no significa empobrecimiento",
+            "content": "El término puede inducir a error si se entiende en sentido moral. Ortega lo usa para nombrar una tendencia estética: la obra se aparta de la emoción inmediata, de la anécdota y de la identificación sentimental para concentrarse en la construcción formal."
+          },
+          {
+            "heading": "La dificultad del arte moderno",
+            "content": "El ensayo explica que la incomodidad del público ante ciertas vanguardias no es accidental. El arte nuevo exige otra disposición perceptiva y premia la distancia, la ironía y el reconocimiento del artificio por encima de la empatía espontánea."
+          },
+          {
+            "heading": "La novela como género en revisión",
+            "content": "En Ideas sobre la novela, Ortega traslada su diagnóstico al campo narrativo. Le interesa pensar qué ocurre cuando la novela ya no puede apoyarse con la misma eficacia en viejos resortes realistas y debe buscar nuevas formas de intensidad."
+          },
+          {
+            "heading": "Influencia y debate",
+            "content": "El libro ha sido influyente porque ofrece una fórmula poderosa para leer la modernidad estética, aunque también ha suscitado objeciones sobre elitismo y sobre su valoración de la separación entre minorías cultivadas y público amplio."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un ensayo sobre pintura o sobre literatura?",
+            "answer": "Es un ensayo de teoría estética más amplio: parte del arte moderno en general y dedica un bloque específico a la novela, por lo que interesa tanto a lectores de arte como de literatura."
+          },
+          {
+            "question": "¿Qué significa exactamente deshumanización en Ortega?",
+            "answer": "No alude a crueldad o pérdida ética, sino al alejamiento del arte respecto de la emoción sentimental, la copia directa de la vida y la anécdota realista."
+          },
+          {
+            "question": "¿Sigue siendo útil para leer las vanguardias?",
+            "answer": "Sí. Aunque algunas tesis puedan discutirse, sigue siendo un texto de referencia para comprender por qué el arte moderno privilegió la forma, la autonomía y la dificultad."
+          },
+          {
+            "question": "¿Es un libro accesible para no especialistas?",
+            "answer": "Sí, con atención. No es largo y la prosa de Ortega es brillante, pero conviene leer despacio y con cierta disposición a seguir argumentos conceptuales."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Alianza Editorial — La deshumanización del arte e Ideas sobre la novela y otros ensayos",
+            "url": "https://www.alianzaeditorial.es/libro/bibliotecas-de-autor/la-deshumanizacion-del-arte-e-ideas-sobre-la-novela-y-otros-ensayos-jose-ortega-y-gasset-9788491813453/"
+          },
+          {
+            "label": "Alianza Editorial — Primer capítulo en PDF",
+            "url": "https://www.alianzaeditorial.es/primer_capitulo/la-deshumanizacion-del-arte-e-ideas-sobre-la-novela-y-otros-ensayos.pdf"
+          },
+          {
+            "label": "Alianza Editorial — José Ortega y Gasset",
+            "url": "https://www.alianzaeditorial.es/autor/jose-ortega-y-gasset/"
+          },
+          {
+            "label": "Google Books — La deshumanización del arte e Ideas sobre la novela y otros ensayos",
+            "url": "https://books.google.com/books?id=KrSGEAAAQBAJ"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-20T18:12:31Z"
+}

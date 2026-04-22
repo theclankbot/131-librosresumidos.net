@@ -1,0 +1,1463 @@
+{
+  "batchName": "replenish-20260421T1032Z-next49",
+  "createdAt": "2026-04-21T08:59:29Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "salvatierra-de-pedro-mairal",
+      "title": "Salvatierra",
+      "authorName": "Pedro Mairal",
+      "authorSlug": "pedro-mairal",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Salvatierra",
+        "authorName": "Pedro Mairal",
+        "authorSlug": "pedro-mairal",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2008,
+        "pages": 176,
+        "summary": "Salvatierra parte de una muerte y de un hallazgo material que funciona como misterio y legado. Cuando Juan Salvatierra muere en un pueblo ribereño de Uruguay, sus hijos descubren que durante décadas pintó en secreto un inmenso mural sobre rollos de tela, una especie de diario visual de varios kilómetros donde quedó registrada la vida del lugar, de la familia y del propio siglo. Miguel, uno de los hijos, intenta reconstruir la obra y entender al padre que quedó mudo de niño tras un accidente. La novela avanza como pesquisa íntima: cada fragmento del mural revela escenas, silencios y omisiones. Mairal convierte esa búsqueda en una reflexión sobre la memoria, la filiación y la imposibilidad de conocer por completo a quienes más cerca tuvimos.",
+        "aboutThisBook": "Publicada originalmente en 2008 por Emecé y reeditada más tarde en España por Libros del Asteroide, Salvatierra es una de las novelas más admiradas de Pedro Mairal. Su premisa combina saga familiar, novela de investigación y meditación sobre el arte. El centro simbólico del libro es esa obra secreta hecha de rollos de tela, a la vez archivo, autobiografía muda y mural de una comunidad. Con una prosa contenida y muy visual, Mairal trabaja la relación entre lo que se recuerda, lo que se hereda y lo que nunca llega a decirse del todo.",
+        "forWhom": "Para lectores de narrativa latinoamericana contemporánea, novelas familiares con misterio, historias sobre padres e hijos y libros donde el arte aparece como forma de memoria y de resistencia al olvido.",
+        "whyItMatters": "Importa porque logra que una trama de descubrimiento familiar sea también una reflexión delicada sobre cómo se construye una vida cuando la palabra falla. El libro sugiere que toda herencia es incompleta y que conocer a un padre exige leer rastros, imágenes y vacíos tanto como hechos verificables.",
+        "editorialIntro": "Hay novelas que crecen por acumulación de peripecias y otras que se expanden a partir de una sola imagen poderosa. En Salvatierra esa imagen es inolvidable: un hombre silencioso que, durante años, pinta en secreto la vida entera de un pueblo sobre rollos de tela interminables. Pedro Mairal no explota la rareza como simple extravagancia; la convierte en una vía de acceso a la intimidad, al duelo y a la pregunta por lo que queda de una existencia cuando la voz se ha perdido. El resultado es breve en extensión, pero amplio en resonancias afectivas.",
+        "readingLevel": "Lectura media. La prosa es clara y envolvente, pero el libro gana mucho cuando se lee con atención a sus silencios, a la estructura de pesquisa y al valor simbólico del mural como archivo de una vida y de una época.",
+        "whyReadToday": "Porque habla de memoria familiar, de archivos frágiles y de la necesidad de reconstruir vidas ajenas a partir de restos dispersos, una experiencia muy contemporánea incluso cuando el mundo narrado parece alejado del nuestro.",
+        "studyNotes": [
+          "El mural funciona como diario, autobiografía y archivo comunitario al mismo tiempo; no registra solo a Salvatierra, sino a todo un mundo ribereño.",
+          "La mudez del protagonista no implica ausencia de expresión, sino desplazamiento hacia una narración visual y material.",
+          "Miguel reconstruye la obra del padre y, en ese proceso, también recompone su propia relación con la familia y con el pasado.",
+          "La novela sugiere que toda memoria heredada está hecha de fragmentos, pérdidas y zonas que nunca llegan a cerrarse del todo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La muerte del padre y el descubrimiento del mural",
+            "summary": "Tras la muerte de Juan Salvatierra, la familia descubre la magnitud de una obra secreta pintada durante décadas. Ese hallazgo transforma el duelo en una investigación sobre la vida íntima del padre."
+          },
+          {
+            "title": "Infancia, accidente y silencio",
+            "summary": "La novela reconstruye la biografía de Salvatierra desde la caída del caballo que le hizo perder el habla. Esa herida temprana explica no todo, pero sí el modo singular en que convierte la pintura en lenguaje personal."
+          },
+          {
+            "title": "Ordenar los rollos, leer una vida",
+            "summary": "Miguel intenta poner en secuencia los fragmentos del gran mural. A medida que observa escenas, personajes y repeticiones, comprende que la obra contiene tanto recuerdos visibles como omisiones decisivas."
+          },
+          {
+            "title": "El tramo faltante y la verdad incompleta",
+            "summary": "La desaparición de una parte del mural introduce una falta material que también es afectiva y narrativa. El cierre confirma que el conocimiento del otro siempre llega mediado por restos, conjeturas y zonas perdidas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Arte y memoria en lugar de confesión",
+            "content": "Salvatierra no cuenta su vida con palabras, pero la despliega en imágenes. Esa sustitución vuelve el mural una forma de escritura alternativa y plantea que la autobiografía puede ser visual, acumulativa y comunitaria, no solo verbal y lineal."
+          },
+          {
+            "heading": "La figura del padre como enigma",
+            "content": "Mairal evita idealizar al padre muerto. Lo presenta como alguien amado y a la vez opaco, de modo que la novela trabaja la experiencia muy reconocible de descubrir que la intimidad de los padres siempre contiene territorios inaccesibles."
+          },
+          {
+            "heading": "La materialidad del archivo",
+            "content": "Los rollos de tela pesan, se desenrollan, se ordenan y pueden perderse. Esa dimensión física de la memoria es central: el pasado no aparece como esencia abstracta, sino como objeto frágil sometido al deterioro, al azar y a la lectura parcial."
+          },
+          {
+            "heading": "Una épica íntima y rural",
+            "content": "Aunque la trama es familiar, el libro adquiere una amplitud casi épica gracias al paisaje ribereño, al paso de las décadas y a la ambición totalizadora del mural. La intimidad se abre así a la historia de una comunidad y de un territorio."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Salvatierra es una novela breve o una saga familiar extensa?",
+            "answer": "Es una novela relativamente breve, pero con densidad de saga familiar. En pocas páginas consigue abarcar décadas, vínculos complejos y una herencia simbólica muy poderosa."
+          },
+          {
+            "question": "¿El mural es solo un recurso narrativo o tiene valor simbólico?",
+            "answer": "Tiene ambas funciones. Ordena la intriga y, al mismo tiempo, simboliza la necesidad de fijar el tiempo vivido cuando la palabra ha dejado de estar disponible."
+          },
+          {
+            "question": "¿Hace falta conocer otras obras de Pedro Mairal para disfrutarla?",
+            "answer": "No. Puede leerse de forma independiente, aunque quienes conozcan La uruguaya o El año del desierto reconocerán la precisión narrativa y la sensibilidad de Mairal para los vínculos ambiguos."
+          },
+          {
+            "question": "¿Predomina el misterio o la emoción familiar?",
+            "answer": "Las dos cosas, pero el misterio está al servicio de la emoción. Lo decisivo no es resolver un enigma policial, sino entender qué revela esa búsqueda sobre la relación entre hijos, padres y memoria."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: Salvatierra (novela)",
+            "url": "https://es.wikipedia.org/wiki/Salvatierra_(novela)"
+          },
+          {
+            "label": "Pedro Mairal: Salvatierra",
+            "url": "http://pedromairal.com/salvatierra/"
+          },
+          {
+            "label": "Casa del Libro: Salvatierra",
+            "url": "https://www.casadellibro.com/libro-salvatierra/9788417977597/12184603"
+          },
+          {
+            "label": "PlanetadeLibros Argentina: Salvatierra",
+            "url": "https://www.planetadelibros.com.ar/libro-salvatierra/322297"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "schopenhauer-nietzsche-freud-de-thomas-mann",
+      "title": "Schopenhauer Nietzsche Freud",
+      "authorName": "Thomas Mann",
+      "authorSlug": "thomas-mann",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Schopenhauer, Nietzsche, Freud",
+        "authorName": "Thomas Mann",
+        "authorSlug": "thomas-mann",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 2014,
+        "pages": 232,
+        "summary": "Schopenhauer, Nietzsche, Freud reúne varios ensayos y conferencias en los que Thomas Mann examina a tres pensadores decisivos para su imaginación intelectual y literaria. No es un manual académico ni una introducción neutra a la filosofía y al psicoanálisis. Mann escribe desde la admiración, la discusión y la cercanía creadora: lee a Schopenhauer como pensador de la voluntad y del pesimismo metafísico, a Nietzsche como figura trágica y explosiva de la modernidad, y a Freud como intérprete radical de las zonas ocultas del sujeto. A la vez, el libro deja ver cómo esas influencias dialogan con la propia obra del novelista. El resultado es un volumen ensayístico donde crítica, retrato intelectual y autobiografía de lector se entrelazan con gran elegancia.",
+        "aboutThisBook": "La edición española de Alianza Editorial presenta en un solo volumen cinco textos de Thomas Mann dedicados a Schopenhauer, Nietzsche y Freud, traducidos y presentados por Andrés Sánchez Pascual. Aunque Mann es recordado sobre todo como novelista, aquí aparece como ensayista de altísima calidad: un lector capaz de pensar la tradición alemana y europea desde dentro, con densidad conceptual y extraordinaria claridad estilística. El libro interesa tanto por lo que dice de esos tres autores como por lo que revela de la formación espiritual de Mann y de las corrientes intelectuales que alimentaron su narrativa.",
+        "forWhom": "Para lectores de ensayo literario, historia de las ideas, filosofía moderna, estudios sobre Thomas Mann y cualquiera que busque una entrada exigente pero legible a tres nombres centrales de la cultura europea.",
+        "whyItMatters": "Importa porque muestra a Thomas Mann en el punto donde la literatura conversa con la filosofía y con el psicoanálisis sin perder densidad ni estilo. Más que resumir doctrinas, el libro ilumina cómo ciertas ideas modelan una sensibilidad artística y una visión de la modernidad.",
+        "editorialIntro": "Este no es un volumen para buscar definiciones rápidas de Schopenhauer, Nietzsche o Freud. Lo valioso aquí es otra cosa: asistir a la lectura que un gran novelista hace de tres pensadores que lo ayudaron a entender el arte, la enfermedad, la cultura y las fuerzas profundas del yo. Mann escribe con autoridad, pero no con frialdad escolar. Su tono mezcla homenaje, interpretación y debate. Por eso el libro interesa doblemente: por los autores que analiza y por la imagen intelectual de Thomas Mann que va quedando entre líneas, la de un escritor que piensa su tiempo a través de sus maestros y antagonistas.",
+        "readingLevel": "Lectura media-alta. El estilo de Mann es más accesible que muchos textos filosóficos originales, pero el libro presupone interés por la historia intelectual europea y gana mucho si el lector tiene nociones previas de Schopenhauer, Nietzsche, Freud y de la propia obra de Mann.",
+        "whyReadToday": "Porque sigue siendo un modelo de ensayo literario capaz de leer ideas complejas sin simplificarlas en exceso. También porque devuelve actualidad a preguntas sobre irracionalidad, deseo, cultura, crisis europea y tensiones entre arte y pensamiento.",
+        "studyNotes": [
+          "El volumen no expone tres sistemas doctrinales de forma escolar; ofrece lecturas personales de Mann sobre autores decisivos para su formación.",
+          "La presencia de cinco textos en torno a tres figuras explica que haya repeticiones fecundas y variaciones de tono entre conferencia, retrato intelectual y ensayo.",
+          "Schopenhauer, Nietzsche y Freud aparecen como hitos de una genealogía moderna del deseo, de la conciencia y de la crisis cultural.",
+          "Leer este libro junto a novelas como La montaña mágica o Doctor Faustus ayuda a reconocer mejor las tensiones intelectuales de la obra de Mann."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Marco de lectura: Thomas Mann ensayista",
+            "summary": "El volumen sitúa a Mann fuera del terreno puramente novelesco y lo presenta como conferenciante y lector de gran ambición intelectual. Desde ese lugar, el autor aborda a tres figuras que marcaron la cultura europea y su propia obra."
+          },
+          {
+            "title": "Schopenhauer y la metafísica de la voluntad",
+            "summary": "En los textos dedicados a Schopenhauer, Mann destaca el peso del pesimismo, de la música y de la voluntad como clave de interpretación del mundo. La lectura no es solo filosófica: busca también las consecuencias estéticas de esa visión."
+          },
+          {
+            "title": "Nietzsche como destino cultural",
+            "summary": "Los ensayos sobre Nietzsche combinan admiración por su genio y atención a su dimensión trágica. Mann lo presenta como un pensador y escritor decisivo para comprender la modernidad, el estilo y los riesgos espirituales de Europa."
+          },
+          {
+            "title": "Freud, el inconsciente y la lectura del sujeto",
+            "summary": "En torno a Freud, Mann examina la profundidad psíquica del individuo moderno y el valor interpretativo del psicoanálisis. El libro muestra cómo esa mirada sobre lo reprimido dialoga con la literatura y con la construcción de personajes."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un ensayo atravesado por la experiencia del escritor",
+            "content": "Mann no habla desde una neutralidad académica, sino desde la experiencia de alguien cuya creación ha sido modelada por esas lecturas. Esa posición vuelve el libro especialmente rico: interpreta ideas, pero también da testimonio de una formación intelectual viva."
+          },
+          {
+            "heading": "Tres nombres para pensar la modernidad",
+            "content": "Schopenhauer, Nietzsche y Freud aparecen aquí menos como compartimentos estancos que como estaciones de una misma crisis moderna. Entre la voluntad, la transvaloración y el inconsciente, el sujeto europeo pierde transparencia y se vuelve más problemático."
+          },
+          {
+            "heading": "La filosofía leída con sensibilidad literaria",
+            "content": "Una de las mayores virtudes del volumen es que Mann percibe el estilo de los pensadores, no solo sus tesis. Entiende que en Nietzsche la forma es inseparable del pensamiento, que en Schopenhauer la prosa tiene cadencia propia y que Freud altera no solo un saber, sino una manera de narrar la interioridad."
+          },
+          {
+            "heading": "Mann como mediador cultural",
+            "content": "El libro muestra a Thomas Mann como una figura mediadora entre alta literatura, tradición filosófica y debate público. Esa mediación explica su valor duradero: hace legibles discusiones complejas sin degradarlas a divulgación superficial."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de filosofía en sentido estricto?",
+            "answer": "No exactamente. Es un volumen de ensayo literario e intelectual sobre tres grandes pensadores, escrito por un novelista con enorme capacidad de interpretación y de síntesis."
+          },
+          {
+            "question": "¿Hace falta haber leído a Schopenhauer, Nietzsche y Freud antes?",
+            "answer": "No es imprescindible, pero ayuda. Mann puede servir como puerta de entrada, siempre que el lector acepte que se trata de una lectura personal y no de un compendio neutral."
+          },
+          {
+            "question": "¿Por qué interesa tanto para entender a Thomas Mann?",
+            "answer": "Porque deja ver las fuentes intelectuales y las tensiones conceptuales que alimentan muchas de sus novelas y ensayos mayores. Leerlo aclara mejor su idea de cultura, enfermedad, arte y crisis europea."
+          },
+          {
+            "question": "¿El libro se centra más en uno de los tres autores?",
+            "answer": "El reparto no es matemáticamente equilibrado, pero los tres funcionan como constelación. Más que compararlos de forma sistemática, Mann los pone en diálogo dentro de su propia tradición de pensamiento y lectura."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Casa del Libro: Schopenhauer, Nietzsche, Freud",
+            "url": "https://www.casadellibro.com/libro-schopenhauer-nietzsche-freud/9788420684406/2266725"
+          },
+          {
+            "label": "Google Libros: Schopenhauer, Nietzsche, Freud",
+            "url": "https://books.google.com/books/about/Schopenhauer_Nietzsche_Freud.html?id=DG56oAEACAAJ"
+          },
+          {
+            "label": "Open Library: Schopenhauer, Nietzsche, Freud",
+            "url": "https://openlibrary.org/books/OL47388044M/Schopenhauer_Nietzsche_Freud"
+          },
+          {
+            "label": "Wikipedia: Thomas Mann",
+            "url": "https://es.wikipedia.org/wiki/Thomas_Mann"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sin-city-edicion-integral-volumen-2-de-frank-miller",
+      "title": "Sin City Edicion Integral Volumen 2",
+      "authorName": "Frank Miller",
+      "authorSlug": "frank-miller",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Sin City. Edición integral. Vol. 2",
+        "authorName": "Frank Miller",
+        "authorSlug": "frank-miller",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2011,
+        "pages": 728,
+        "summary": "Sin City. Edición integral. Vol. 2 reúne la parte final de la gran serie noir de Frank Miller y concentra algunas de sus historias más feroces, estilizadas y desesperadas. Ambientado en Basin City, un espacio corrupto donde la violencia, el deseo y la venganza gobiernan casi todo, este volumen compila Valores familiares, Alcohol, chicas y balas, Ida y vuelta al infierno y El arte de Sin City. Miller lleva al extremo su estética de blancos y negros cortantes, monólogos secos y personajes quebrados que se mueven entre códigos de honor mínimos y brutalidad absoluta. Más que un simple cierre de saga, el libro muestra la amplitud del proyecto: relatos criminales autónomos que, al cruzarse, construyen una mitología urbana coherente, amarga y visualmente inconfundible.",
+        "aboutThisBook": "Publicado por Norma Editorial en 2011 como segunda y última entrega de la edición integral en español, este volumen condensa la fase final de una de las series más influyentes del cómic estadounidense contemporáneo. Sin City había aparecido originalmente en distintas miniseries y novelas gráficas publicadas por Dark Horse en los años noventa. La edición integral permite leerlas en bloque y apreciar mejor la consistencia de su universo noir. En este segundo tomo destacan tanto la violencia hiperestilizada de Miller como su capacidad para mezclar pulp, cine negro, melodrama y experimentación gráfica en una narrativa de enorme impacto visual.",
+        "forWhom": "Para lectores adultos de novela gráfica, cómic negro, estética neo-noir y obras de autor con violencia explícita, así como para quienes quieran recorrer una serie clave en la evolución del cómic mainstream hacia registros más duros y autorales.",
+        "whyItMatters": "Importa porque Sin City redefinió la relación entre cómic comercial, experimentación visual y noir contemporáneo. Este segundo integral permite ver cómo Miller convirtió historias criminales independientes en un universo reconocible, radical en su grafismo y decisivo para generaciones posteriores de dibujantes y guionistas.",
+        "editorialIntro": "Pocas series tienen una identidad visual tan inmediata como Sin City. Basta una página para entrar en ese mundo de lluvia negra, callejones iluminados a cuchillo y voces interiores que suenan como confesiones antes del desastre. Este segundo volumen integral no solo completa una saga célebre: exhibe a Frank Miller en pleno dominio de un lenguaje donde cada sombra pesa tanto como una línea de diálogo. La violencia es extrema, sí, pero nunca casual; forma parte de una poética del exceso moral y visual que convirtió a Basin City en una de las ciudades imaginarias más persistentes del cómic moderno.",
+        "readingLevel": "Lectura media para seguir la acción, aunque con fuerte carga visual y tonal. Funciona muy bien para lectores habituados al cómic adulto; conviene advertir que incluye violencia gráfica, sexualidad sugerida y un nihilismo moral deliberado.",
+        "whyReadToday": "Porque sigue siendo una referencia ineludible para entender el neo-noir en viñetas, la narrativa gráfica de alto contraste y el modo en que un autor puede imponer una voz visual tan fuerte que transforma todo un género.",
+        "studyNotes": [
+          "La edición integral permite apreciar la arquitectura del universo de Basin City más allá de las historias aisladas originalmente publicadas por entregas.",
+          "El blanco y negro extremo no es un simple rasgo estético: organiza la percepción moral del mundo, aunque esa moral sea ambigua y brutal.",
+          "Los personajes de Sin City suelen moverse entre corrupción generalizada y códigos de honor muy personales, nunca completamente limpios.",
+          "Este volumen final combina relatos de acción criminal con una dimensión retrospectiva sobre la propia construcción gráfica de la serie."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Valores familiares",
+            "summary": "Una de las líneas criminales de Basin City se concentra en venganzas y lealtades deformadas por la violencia. Miller insiste en que incluso la familia, supuesta garantía de protección, puede convertirse en maquinaria de poder y destrucción."
+          },
+          {
+            "title": "Alcohol, chicas y balas",
+            "summary": "Esta sección reúne piezas breves que amplían el ecosistema moral de Sin City. Con formato fragmentario y tono seco, muestra cómo la serie trabaja viñetas de mundo, personajes secundarios y variaciones sobre el mismo clima de fatalidad."
+          },
+          {
+            "title": "Ida y vuelta al infierno",
+            "summary": "La historia larga del volumen desarrolla un descenso más delirante y descompuesto por el corazón corrupto de la ciudad. El viaje físico y mental del protagonista intensifica la sensación de pesadilla urbana y de violencia sin redención."
+          },
+          {
+            "title": "El arte de Sin City",
+            "summary": "El cierre ofrece una mirada complementaria sobre la construcción visual de la serie. Sirve para entender mejor la potencia de su diseño gráfico y la importancia de Miller como narrador dibujante, no solo como creador de tramas criminales."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Basin City como mitología noir",
+            "content": "La ciudad no es un fondo, sino el verdadero sistema nervioso de la serie. Sus barrios, burdeles, oficinas corruptas y espacios nocturnos producen una continuidad moral que permite leer historias distintas como partes de una misma pesadilla urbana."
+          },
+          {
+            "heading": "Violencia estilizada y ética del exceso",
+            "content": "Miller convierte la violencia en lenguaje visual. Los cuerpos, las armas y las sombras se presentan con una contundencia casi coreográfica, pero detrás del impacto formal hay una reflexión amarga sobre la imposibilidad de la inocencia en un mundo podrido."
+          },
+          {
+            "heading": "La economía extrema del blanco y negro",
+            "content": "Sin City demostró hasta qué punto el alto contraste podía convertirse en firma narrativa. El blanco y negro no simplifica: intensifica. Vuelve icónicas las figuras, acelera la lectura y dota a la serie de un aire entre expresionista y cinematográfico."
+          },
+          {
+            "heading": "Influencia en el cómic y más allá",
+            "content": "La relevancia de Sin City no se reduce a sus adaptaciones al cine. Su mezcla de pulp, noir, violencia gráfica y control absoluto del estilo influyó en la novela gráfica posterior, en el cómic comercial adulto y en la imaginación visual de múltiples medios."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Se puede leer este volumen sin haber leído el primero?",
+            "answer": "Sí, varias historias funcionan por sí mismas, pero la experiencia mejora si ya se conoce el ecosistema de Basin City y algunos personajes recurrentes del primer integral."
+          },
+          {
+            "question": "¿Es una novela gráfica única o una recopilación?",
+            "answer": "Es una recopilación integral de varias historias y materiales de la serie. Justamente por eso permite apreciar la amplitud del proyecto de Frank Miller y no solo una trama aislada."
+          },
+          {
+            "question": "¿Qué tono tiene la obra?",
+            "answer": "Muy oscuro y adulto. Predominan el noir, la violencia explícita, el cinismo, la venganza y un sentido visual del dramatismo llevado al límite."
+          },
+          {
+            "question": "¿Por qué se considera tan influyente?",
+            "answer": "Porque llevó el cómic criminal a una síntesis muy personal de grafismo extremo, voz autoral y narración seca. Su estética y su atmósfera marcaron a muchos autores posteriores y ayudaron a consolidar un cómic mainstream más arriesgado."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Casa del Libro: Sin City Edición Integral (Vol. 2)",
+            "url": "https://www.casadellibro.com/libro-sin-city-edicion-integral-vol-2/9788467904680/1843823"
+          },
+          {
+            "label": "Mil Comics: Sin City Edición Integral Vol. 2",
+            "url": "https://www.milcomics.com/comic-americano/sin-city-edicion-integral-vol-2-de-2-comic-norma-59000.html"
+          },
+          {
+            "label": "Blackwell's: Sin City integral 2",
+            "url": "https://blackwells.co.uk/bookshop/product/Miller-F-Sin-City-integral-2-by-Miller-Frank-Richardson-Mike-EDT-Schutz-Diana-EDT/9788467904680"
+          },
+          {
+            "label": "Wikipedia: Sin City",
+            "url": "https://en.wikipedia.org/wiki/Sin_City"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sin-conciencia-de-robert-d-hare",
+      "title": "Sin Conciencia",
+      "authorName": "Robert D Hare",
+      "authorSlug": "robert-d-hare",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Sin conciencia",
+        "authorName": "Robert D. Hare",
+        "authorSlug": "robert-d-hare",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1999,
+        "pages": 236,
+        "summary": "Sin conciencia es un ensayo de divulgación psicológica y criminológica en el que Robert D. Hare explica qué es la psicopatía, cómo se manifiesta y por qué resulta tan difícil de detectar en la vida cotidiana. A partir de décadas de investigación clínica y forense, el autor describe a los psicópatas no solo como criminales extremos, sino también como individuos capaces de moverse con encanto, frialdad y cálculo en entornos comunes. El libro combina estudios de caso, observaciones de prisiones, análisis de la personalidad y reflexión social para mostrar un patrón de manipulación, ausencia de remordimiento, egocentrismo y conducta depredadora. Más que un catálogo morboso de crímenes, el volumen busca enseñar a reconocer una estructura de personalidad peligrosa y a comprender sus efectos sobre víctimas, instituciones y comunidades.",
+        "aboutThisBook": "Publicado originalmente como Without Conscience: The Disturbing World of the Psychopaths Among Us, este libro se convirtió en una referencia de divulgación sobre psicopatía porque traslada al lector general debates que hasta entonces circulaban sobre todo en ámbitos clínicos y judiciales. Hare, creador de la Psychopathy Checklist-Revised (PCL-R), escribe desde la experiencia acumulada en evaluación forense y traduce esa investigación en un lenguaje claro, directo y muy inquietante. El resultado es un ensayo accesible, pero sostenido por una base profesional sólida, que explica la psicopatía como trastorno de personalidad y también como problema social con consecuencias concretas en relaciones, empresas, cárceles y sistemas legales.",
+        "forWhom": "Para lectores adultos interesados en psicología, criminología, salud mental, comportamiento antisocial y análisis social de la violencia y la manipulación.",
+        "whyItMatters": "Sigue importando porque ayudó a popularizar una distinción crucial: no toda conducta cruel o delictiva equivale a psicopatía, y no todo psicópata encaja en el estereotipo del asesino serial. El libro amplía la conversación hacia los depredadores de cuello blanco, las relaciones abusivas y la necesidad de herramientas más finas para reconocer el daño interpersonal.",
+        "editorialIntro": "Hay ensayos que informan y otros que cambian la forma en que el lector mira a quienes lo rodean. Sin conciencia pertenece al segundo grupo. Robert D. Hare consigue explicar un fenómeno clínico complejo sin diluir su gravedad y sin caer por completo en el sensacionalismo del true crime. Su mayor fuerza editorial está en volver inteligible una amenaza social que suele ocultarse detrás del carisma, la eficacia aparente o la normalidad externa.",
+        "readingLevel": "Lectura de nivel medio para adultos. El lenguaje es divulgativo y fluido, aunque introduce conceptos de psicología forense y conviene leerlo con atención crítica para distinguir descripción clínica, hipótesis interpretativas y ejemplos extremos.",
+        "whyReadToday": "Porque en una época obsesionada con el carisma, la influencia y la autoexposición, el libro sigue ofreciendo un marco útil para pensar la manipulación, la falta de empatía y el daño producido por personas que parecen perfectamente funcionales.",
+        "studyNotes": [
+          "El aporte central del libro es diferenciar la psicopatía de la simple criminalidad o de la locura; Hare insiste en una estructura de personalidad específica.",
+          "Conviene observar cómo el autor combina casos dramáticos con una tesis más amplia sobre depredación social fuera del ámbito penitenciario.",
+          "La PCL-R aparece en el trasfondo del libro como herramienta clave, aunque el volumen está dirigido a público general y no funciona como manual técnico.",
+          "Es útil leerlo junto a debates actuales sobre salud mental, responsabilidad penal y uso mediático del término psicópata."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Qué entiende Hare por psicopatía",
+            "summary": "En la apertura del libro, Hare define los rasgos centrales de la personalidad psicopática: encanto superficial, mentira habitual, impulsividad, egocentrismo extremo y ausencia de culpa. El objetivo inicial es desmontar ideas vagas y ofrecer al lector un marco reconocible para distinguir la psicopatía de otras formas de trastorno o violencia."
+          },
+          {
+            "title": "Casos, prisiones y depredación interpersonal",
+            "summary": "Una parte sustancial del ensayo se apoya en experiencias clínicas y forenses para mostrar cómo operan los psicópatas con víctimas, terapeutas e instituciones. Aquí el libro subraya la capacidad de manipular, simular normalidad y convertir a otras personas en instrumentos de beneficio propio."
+          },
+          {
+            "title": "La psicopatía fuera del criminal típico",
+            "summary": "Hare amplía el foco más allá del asesino célebre y examina la presencia de rasgos psicopáticos en entornos laborales, familiares y sociales. Esa ampliación es una de las ideas más influyentes del libro, porque desplaza la discusión desde el crimen espectacular hacia el daño cotidiano y menos visible."
+          },
+          {
+            "title": "Prevención, límites y protección social",
+            "summary": "Hacia el cierre, el autor se pregunta qué puede hacerse ante este tipo de personalidad. Más que prometer soluciones simples, insiste en la necesidad de evaluación rigurosa, cautela institucional y educación pública para reducir el margen de acción de individuos altamente manipuladores."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un puente entre ciencia forense y divulgación",
+            "content": "El libro destaca por traducir décadas de investigación especializada a un registro comprensible para lectores no expertos. Esa operación explica su influencia: hace legibles conceptos técnicos sin desprenderse del todo de la autoridad clínica que les da peso."
+          },
+          {
+            "heading": "El riesgo del sensacionalismo",
+            "content": "Buena parte de su potencia narrativa proviene de casos extremos y perfiles inquietantes, algo que vuelve la lectura absorbente. Al mismo tiempo, ese recurso obliga a leer con cautela para no convertir la categoría clínica en una etiqueta difusa aplicada a cualquier conducta egoísta o cruel."
+          },
+          {
+            "heading": "La figura del psicópata integrado",
+            "content": "Uno de los aspectos más fecundos del ensayo es su insistencia en que algunos psicópatas pueden funcionar con éxito aparente en contextos sociales ordinarios. Esa intuición abrió una conversación pública muy influyente sobre manipulación, liderazgo tóxico y violencia no siempre visible."
+          },
+          {
+            "heading": "Vigencia cultural del libro",
+            "content": "Hoy sigue leyéndose porque ofrece un vocabulario para nombrar experiencias de engaño, abuso y explotación interpersonal. Su relevancia actual no reside solo en el ámbito penal, sino en su capacidad para pensar cómo ciertas personalidades dañinas prosperan en sistemas que premian la frialdad y la simulación."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de psicología académica o de divulgación?",
+            "answer": "Es un libro de divulgación apoyado en experiencia académica y forense. Hare escribe para el público general, pero lo hace desde una trayectoria profesional muy reconocida en el estudio de la psicopatía."
+          },
+          {
+            "question": "¿Se centra solo en asesinos seriales?",
+            "answer": "No. Aunque usa casos criminales impactantes, uno de sus argumentos principales es que la psicopatía también puede aparecer en personas socialmente integradas que manipulan, explotan y dañan sin encajar en el estereotipo del homicida célebre."
+          },
+          {
+            "question": "¿El libro sostiene que la psicopatía tiene cura sencilla?",
+            "answer": "No. Más bien transmite cautela respecto de los límites del tratamiento y subraya la dificultad de modificar de manera profunda una estructura de personalidad de este tipo."
+          },
+          {
+            "question": "¿Por qué sigue siendo tan citado?",
+            "answer": "Porque popularizó de forma muy clara una idea inquietante: algunas personas pueden comprender las normas sociales y, aun así, carecer de empatía genuina y usar ese conocimiento para manipular a los demás."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Guilford Press: Without Conscience",
+            "url": "https://www.guilford.com/books/Without-Conscience/Robert-Hare/9781572304512"
+          },
+          {
+            "label": "Open Library: Without Conscience",
+            "url": "https://openlibrary.org/works/OL2003912W"
+          },
+          {
+            "label": "UBC Department of Psychology: Robert Hare",
+            "url": "https://psych.ubc.ca/profile/robert-hare/"
+          },
+          {
+            "label": "Google Books: Without Conscience",
+            "url": "http://books.google.es/books?id=xfIEVtzj52YC"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "solo-cenizas-hallaras-de-pedro-verges",
+      "title": "Solo Cenizas Hallaras",
+      "authorName": "Pedro Verges",
+      "authorSlug": "pedro-verges",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Sólo cenizas hallarás",
+        "authorName": "Pedro Vergés",
+        "authorSlug": "pedro-verges",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1980,
+        "pages": 414,
+        "summary": "Sólo cenizas hallarás es una novela dominicana de gran densidad histórica y emocional que retrata el desconcierto de una sociedad herida tras la caída del trujillismo. Lejos de construir un relato épico de liberación, Pedro Vergés muestra un país atravesado por la descomposición moral, la frustración íntima, la crisis familiar y la sensación de que el porvenir prometido no termina de llegar. La novela se sitúa en el clima convulso de los años posteriores a la dictadura y trabaja con una estructura temporal entrecruzada, donde memoria, anticipación y presente se contaminan mutuamente. El bolero del subtítulo sugiere ya su tono: pasión, desgaste, nostalgia y derrota. A través de personajes atrapados entre deseo, resentimiento, decadencia y vacío político, el libro compone una visión amarga de la vida urbana dominicana y de una modernidad que parece edificarse sobre ruinas afectivas e históricas.",
+        "aboutThisBook": "Publicada por primera vez en 1980 y distinguida en su primera edición con el XV Premio Blasco Ibáñez, esta novela es uno de los títulos más citados de la narrativa dominicana contemporánea. Su importancia no depende solo del contexto histórico que evoca, sino de la manera en que lo transforma en forma literaria: una narración fragmentada, coral por momentos y muy atenta a las resonancias sentimentales de la derrota colectiva. Diversas referencias críticas han señalado que la obra vuelve sobre los acontecimientos de 1962 y sobre el mundo caótico posterior al trujillismo, mientras hace del bolero un refugio imaginario y un código emocional para personajes que ya no creen del todo en el proyecto nacional. Esa mezcla de historia, intimidad y desencanto explica su permanencia.",
+        "forWhom": "Para lectores adultos interesados en la narrativa latinoamericana del Caribe, la memoria política, la novela urbana y los relatos donde la crisis histórica se refleja en vínculos íntimos y familiares.",
+        "whyItMatters": "Importa porque ofrece una mirada nada complaciente sobre el período posterior a la dictadura de Trujillo y convierte la transición histórica en experiencia humana concreta: cuerpos cansados, ilusiones quebradas, familias tensas y una ciudad donde el deseo convive con la ruina. Es una novela clave para entender una sensibilidad dominicana de desencanto.",
+        "editorialIntro": "Algunas novelas narran una caída; otras consiguen convertir esa caída en atmósfera. Sólo cenizas hallarás pertenece a estas últimas. Pedro Vergés no escribe una crónica política disfrazada de ficción, sino una obra en la que la historia nacional se filtra en el habla, en la música sentimental, en la erosión del amor y en la sensación persistente de vivir entre restos. Su lectura exige atención, pero devuelve una experiencia literaria de gran intensidad.",
+        "readingLevel": "Lectura exigente para público adulto. La estructura temporal no es lineal, el tono es denso y la novela gana cuando se lee con atención al contexto dominicano, a la ironía y al peso simbólico del bolero.",
+        "whyReadToday": "Porque sigue siendo una gran novela sobre lo que ocurre después de la caída de un régimen: no solo cambian las instituciones, también quedan heridas íntimas, frustraciones sociales y relatos nacionales incompletos. Esa pregunta sigue siendo muy actual en América Latina y fuera de ella.",
+        "studyNotes": [
+          "El subtítulo bolero orienta la lectura: la novela usa la sensibilidad melodramática y musical como clave de deseo, pérdida y repetición afectiva.",
+          "La crítica bibliográfica disponible la vincula con los acontecimientos de 1962 y con el clima caótico del mundo post-trujillista.",
+          "Conviene atender a la forma temporal entrecruzada, señalada en referencias de Google Books, porque la novela no organiza la experiencia histórica de manera lineal.",
+          "Puede leerse como novela política, pero también como una exploración de la decadencia íntima y del fracaso de ciertas promesas de modernización."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Un país después de la caída",
+            "summary": "El arranque sitúa al lector en una atmósfera de inestabilidad moral y social. Más que celebrar un nuevo comienzo, la novela presenta una sociedad donde el derrumbe del orden anterior deja desconcierto, resentimiento y una sensación de vacío que afecta a todos los vínculos."
+          },
+          {
+            "title": "Amores, familias y desgaste urbano",
+            "summary": "En un segundo movimiento, la historia desplaza la gran crisis política hacia escenas de intimidad deteriorada. Las tensiones familiares, el deseo frustrado y la fatiga emocional revelan que la violencia histórica no desaparece: cambia de escala y se incrusta en la vida cotidiana."
+          },
+          {
+            "title": "El bolero como refugio sentimental",
+            "summary": "La novela utiliza el imaginario del bolero para intensificar su tono de nostalgia, exceso y pérdida. Esa música funciona como refugio, máscara y comentario emocional de unos personajes que buscan sentido en medio del caos postdictatorial."
+          },
+          {
+            "title": "Memoria rota y desencanto colectivo",
+            "summary": "Hacia el cierre, la estructura fragmentada subraya que la historia nacional no puede recomponerse limpiamente. Lo que queda no es una redención sencilla, sino un conjunto de cenizas: restos afectivos, ruinas ideológicas y preguntas abiertas sobre identidad y futuro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela del post-trujillismo sin triunfalismo",
+            "content": "Vergés se aparta del relato heroico de la transición y prefiere registrar el costo humano de la historia. Esa decisión vuelve la novela especialmente valiosa: no presenta el fin de la dictadura como solución automática, sino como inicio de una etapa marcada por la incertidumbre y la descomposición."
+          },
+          {
+            "heading": "El bolero como forma estética",
+            "content": "El subtítulo no es ornamental. El bolero aporta una lógica afectiva de repetición, melancolía y dramatización del deseo que atraviesa la novela entera. Gracias a esa clave, la obra vincula política e intimidad sin separar lo histórico de lo sentimental."
+          },
+          {
+            "heading": "Fragmentación temporal y memoria",
+            "content": "Las referencias críticas disponibles subrayan la superposición de tiempos, retrospectivas y anticipaciones. Esa arquitectura refuerza la idea de una memoria colectiva quebrada, incapaz de ordenar el pasado de manera estable y lineal."
+          },
+          {
+            "heading": "Lugar en la narrativa dominicana",
+            "content": "Sólo cenizas hallarás ocupa un sitio destacado porque condensa historia nacional, experimentación formal y espesor urbano en una misma propuesta. No es solo un documento de época, sino una novela literariamente ambiciosa sobre el fracaso, la erosión y los restos que deja la violencia política."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica en sentido estricto?",
+            "answer": "Tiene una base histórica clara, ligada al clima posterior al trujillismo y a los acontecimientos de 1962, pero su apuesta principal es literaria: mostrar cómo esa historia atraviesa la vida íntima, la ciudad y la memoria."
+          },
+          {
+            "question": "¿Qué significa el subtítulo bolero?",
+            "answer": "Sugiere una clave sentimental y formal. El bolero remite a pasión, nostalgia, dramatización amorosa y repetición del dolor, elementos que ayudan a leer el tono emocional de la novela."
+          },
+          {
+            "question": "¿Es una lectura sencilla?",
+            "answer": "No especialmente. La estructura temporal fragmentada, el peso del contexto dominicano y la densidad del tono hacen que sea una novela más rica cuando se lee despacio y con atención."
+          },
+          {
+            "question": "¿Por qué se considera importante en la literatura dominicana?",
+            "answer": "Porque combina ambición formal con una representación incisiva del desencanto postdictatorial, y porque transformó una coyuntura histórica decisiva en una obra de fuerte resonancia estética y crítica."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PUCMM: Pedro Vergés",
+            "url": "https://www.pucmm.edu.do/biblioteca/dominicanos-destacados/pedro-verges"
+          },
+          {
+            "label": "Listín Diario: Sólo cenizas hallarás, un clásico dominicano",
+            "url": "https://listindiario.com/ventana/2011/09/10/202959/solo-cenizas-hallaras-un-clasico-dominicano.html"
+          },
+          {
+            "label": "Open Library: Sólo cenizas hallarás",
+            "url": "https://openlibrary.org/works/OL5161488W"
+          },
+          {
+            "label": "Google Books: Sólo cenizas hallarás",
+            "url": "http://books.google.es/books?id=aU02AAAAIAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "solo-una-muerte-en-lisboa-de-robert-wilson",
+      "title": "Solo Una Muerte En Lisboa",
+      "authorName": "Robert Wilson",
+      "authorSlug": "robert-wilson",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Sólo una muerte en Lisboa",
+        "authorName": "Robert Wilson",
+        "authorSlug": "robert-wilson",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 1999,
+        "pages": 400,
+        "summary": "Sólo una muerte en Lisboa es un thriller criminal e histórico que entrelaza dos tiempos y dos tramas para mostrar cómo los crímenes del pasado siguen infectando el presente. Por un lado, la novela se remonta a 1941 y acompaña a Klaus Felsen en una Lisboa luminosa y ambigua, atravesada por espionaje, oportunismo, refugiados y negocios vinculados al esfuerzo bélico nazi, especialmente alrededor del wolframio. Por otro, en la Lisboa de finales del siglo XX, el inspector Zé Coelho investiga el asesinato de una muchacha y va descubriendo conexiones con la herencia oscura del salazarismo y con una violencia más antigua y profunda. Robert Wilson combina intriga policial, novela de atmósfera y exploración histórica para construir un relato amplio, tenso y moralmente turbio sobre codicia, memoria, corrupción y culpa.",
+        "aboutThisBook": "Publicada originalmente en 1999 como A Small Death in Lisbon, la novela obtuvo el CWA Gold Dagger y consolidó a Robert Wilson como una de las voces más sólidas del thriller europeo de fin de siglo. Su singularidad está en la ambición con que une la novela negra con una investigación histórica de largo aliento: no hay aquí un simple caso policial, sino una trama donde la Segunda Guerra Mundial, la neutralidad portuguesa, el comercio del wolframio y las sombras del Estado Novo alimentan la pesquisa contemporánea. Wilson trabaja con gran precisión ambiental y logra que Lisboa sea algo más que escenario: una ciudad donde la belleza, la decadencia y el secreto forman parte de la lógica del crimen.",
+        "forWhom": "Para lectores adultos que disfrutan del thriller literario, la novela negra europea y las ficciones donde la investigación policial se entrelaza con memoria histórica y conflictos del siglo XX.",
+        "whyItMatters": "Importa porque demuestra que la novela criminal puede ser al mismo tiempo absorbente y históricamente compleja. Su mayor hallazgo es mostrar que el asesinato contemporáneo no se entiende sin redes de poder, negocios de guerra y silencios políticos acumulados durante décadas.",
+        "editorialIntro": "Hay thrillers que se leen por velocidad y otros que se recuerdan por su densidad moral. Sólo una muerte en Lisboa pertenece a esta segunda clase. Robert Wilson toma un crimen contemporáneo y lo convierte en una exploración de Europa en guerra, del Portugal salazarista y de la persistencia del mal en las instituciones y en las familias. El resultado es una novela oscura, elegante y profundamente atmosférica.",
+        "readingLevel": "Lectura media-alta para adultos. Aunque la intriga engancha desde el inicio, la novela gana cuando se sigue con atención la doble cronología, las conexiones históricas y la complejidad política del trasfondo portugués y europeo.",
+        "whyReadToday": "Porque sigue ofreciendo una de las mejores combinaciones entre novela negra e historia del siglo XX, y porque recuerda que muchos crímenes contemporáneos nacen de complicidades antiguas que las sociedades preferirían no revisar.",
+        "studyNotes": [
+          "La estructura alterna pasado y presente para mostrar que la investigación policial también es una investigación sobre la memoria histórica.",
+          "Lisboa aparece como espacio fronterizo: refugio, mercado, escenario diplomático y ciudad marcada por una belleza que convive con negocios turbios.",
+          "El wolframio y la economía de guerra son claves para entender cómo la novela relaciona codicia privada y violencia geopolítica.",
+          "El inspector Zé Coelho funciona como figura de pesquisa moral además de policial: al avanzar en el caso, desentierra capas reprimidas del pasado portugués."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Lisboa en guerra",
+            "summary": "El primer gran eje sitúa al lector en 1941, cuando Klaus Felsen llega a una Lisboa donde conviven nazis, aliados, empresarios y refugiados. La ciudad aparece como un nudo de intereses cruzados y la novela introduce la red económica y humana que sostendrá su tragedia de largo alcance."
+          },
+          {
+            "title": "El crimen contemporáneo",
+            "summary": "En la línea temporal de finales del siglo XX, el inspector Zé Coelho investiga el asesinato de una joven con un pasado turbio. Lo que parece un caso aislado comienza a abrir conexiones con formas antiguas de corrupción, abuso y violencia enquistadas en la historia portuguesa."
+          },
+          {
+            "title": "Negocios, dictadura y herencia",
+            "summary": "A medida que avanzan ambas tramas, Wilson revela cómo los beneficios de la guerra, las alianzas oportunistas y los silencios del régimen salazarista dejaron una herencia contaminada. La intriga se ensancha y el caso policial se vuelve una exploración del origen del poder y de la impunidad."
+          },
+          {
+            "title": "Verdad, culpa y compensación terrible",
+            "summary": "En el tramo final, pasado y presente convergen para mostrar que la pequeña muerte del título remite a una compensación monstruosa por crímenes mucho más viejos. La resolución importa tanto por el suspense como por la dimensión moral de aquello que la sociedad intentó enterrar."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller e historia en equilibrio",
+            "content": "La novela destaca por no sacrificar la tensión narrativa cuando amplía el foco histórico. Wilson sabe dosificar información sobre guerra, dictadura y economía política sin convertir el libro en una lección expositiva, algo que explica buena parte de su prestigio crítico."
+          },
+          {
+            "heading": "Lisboa como personaje moral",
+            "content": "La ciudad no es un simple decorado exótico. Lisboa concentra neutralidad ambigua, cosmopolitismo, vigilancia, pobreza y oportunidad. Esa mezcla hace creíble que los secretos del pasado permanezcan adheridos a sus calles y a sus instituciones."
+          },
+          {
+            "heading": "La violencia del beneficio",
+            "content": "Uno de los grandes temas del libro es que la guerra no solo produce víctimas directas, sino también fortunas, redes de influencia y memorias falseadas. Wilson conecta el crimen íntimo con la codicia estructural, y ahí radica la profundidad de su propuesta."
+          },
+          {
+            "heading": "Por qué sigue siendo una referencia del género",
+            "content": "Sigue leyéndose como una obra mayor del thriller europeo porque combina atmósfera, precisión histórica, intensidad psicológica y una resolución moralmente perturbadora. No busca solo sorprender, sino obligar al lector a pensar en la persistencia histórica de la impunidad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es solo una novela policiaca?",
+            "answer": "No. Aunque parte de una investigación criminal, también es una novela histórica y política sobre la Segunda Guerra Mundial, el Portugal salazarista y la continuidad del pasado en el presente."
+          },
+          {
+            "question": "¿Qué premio ganó la novela?",
+            "answer": "Ganó el CWA Gold Dagger en 1999, uno de los reconocimientos más importantes de la novela criminal en lengua inglesa."
+          },
+          {
+            "question": "¿La doble cronología dificulta la lectura?",
+            "answer": "Exige atención, pero es una de las grandes virtudes del libro. La alternancia entre 1941 y finales del siglo XX permite que el lector comprenda cómo un crimen presente nace de una cadena histórica más amplia."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutarla más?",
+            "answer": "Quien busque un thriller atmosférico con investigación sólida, contexto histórico bien trabajado y una mirada crítica sobre poder, guerra, dinero y memoria."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: A Small Death in Lisbon",
+            "url": "https://en.wikipedia.org/wiki/A_Small_Death_in_Lisbon"
+          },
+          {
+            "label": "HarperCollins UK: A Small Death in Lisbon",
+            "url": "https://harpercollins.co.uk/products/a-small-death-in-lisbon-robert-wilson"
+          },
+          {
+            "label": "HarperCollins US: A Small Death in Lisbon",
+            "url": "https://www.harpercollins.com/products/a-small-death-in-lisbon-robert-wilson"
+          },
+          {
+            "label": "Open Library: A small death in Lisbon",
+            "url": "https://openlibrary.org/works/OL5133718W"
+          },
+          {
+            "label": "Google Books: A Small Death in Lisbon",
+            "url": "http://books.google.es/books?id=YqOWsDhuM88C"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sonadores-de-gilbert-adair",
+      "title": "Sonadores",
+      "authorName": "Gilbert Adair",
+      "authorSlug": "gilbert-adair",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Soñadores",
+        "authorName": "Gilbert Adair",
+        "authorSlug": "gilbert-adair",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "romance",
+          "clasicos"
+        ],
+        "year": 2004,
+        "pages": 193,
+        "summary": "Ambientada en el París de 1968, Soñadores sigue a Matthew, un estudiante estadounidense fascinado por el cine, que entabla una relación intensa con unos gemelos franceses tan brillantes como inestables. Lo que comienza como una amistad cimentada en la cinefilia y en la devoción por la Cinémathèque se convierte en un encierro emocional y erótico donde las fronteras entre juego, deseo, representación y realidad se vuelven cada vez más borrosas. Mientras en las calles crece la revuelta política, los protagonistas parecen vivir en una burbuja privada hecha de películas, pruebas afectivas y provocación. La novela retrata así el vértigo de la juventud, el narcisismo de cierta sensibilidad intelectual y el choque entre la historia colectiva y las fantasías íntimas.",
+        "aboutThisBook": "Esta novela de Gilbert Adair, conocida en inglés como The Dreamers y vinculada a su obra previa The Holy Innocents, es una pieza breve pero muy cargada de atmósfera. Su fuerza no depende tanto del suspense como de la tensión psicológica entre los tres protagonistas y del modo en que la cultura cinéfila organiza sus gestos, sus conversaciones y hasta sus deseos. Es una ficción literaria de cámara, sensual e incómoda, que dialoga con el imaginario del Mayo francés sin convertirlo en simple decorado.",
+        "forWhom": "Para lectores adultos interesados en novelas psicológicas, historias de iniciación, triángulos afectivos ambiguos y libros donde el cine, la política y la intimidad se entrelazan. También resulta atractiva para quienes quieran leer el texto asociado al universo que popularizó la adaptación cinematográfica de Bertolucci.",
+        "whyItMatters": "Importa porque captura un momento cultural decisivo —el París previo al estallido de 1968— desde una perspectiva íntima y cinéfila, y porque explora con lucidez la mezcla de fascinación y peligro que acompaña a ciertas formas de libertad juvenil. Adair convierte una historia de encierro emocional en una reflexión sobre el deseo, la representación y la educación sentimental.",
+        "editorialIntro": "Soñadores permite entrar en una novela breve y muy consciente de su propia herencia cultural: dialoga con la cinefilia, con el deseo adolescente y con una París mítica sin caer en la simple nostalgia. Como guía de lectura, conviene abordarla como un juego de espejos entre literatura, cine y formación sentimental.",
+        "readingLevel": "La lectura resulta asequible en la superficie, pero funciona mejor para lectores adultos o universitarios que disfruten las alusiones cinéfilas, la ironía y los matices culturales de una novela corta con varias capas de interpretación.",
+        "whyReadToday": "Porque sigue hablando de burbujas generacionales, de identidades construidas a través de la cultura y de la distancia entre la intensidad privada y el conflicto público. Su mirada sobre la fascinación estética, el aislamiento emocional y la confusión entre vivir y representar mantiene una vigencia sorprendente.",
+        "studyNotes": [
+          "Observar cómo el cine funciona no solo como tema, sino como lenguaje emocional de los personajes.",
+          "Relacionar el encierro del trío con el contexto histórico del Mayo del 68, siempre presente en segundo plano.",
+          "Analizar la ambigüedad moral del relato: la novela evita juzgar rápido y obliga a leer tensiones de poder y dependencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Encuentro y afinidades",
+            "summary": "Matthew conoce a los gemelos en el ambiente cinéfilo parisino y descubre una intimidad magnética que lo atrae de inmediato."
+          },
+          {
+            "title": "El encierro compartido",
+            "summary": "La relación se intensifica dentro del apartamento familiar, donde el juego, la provocación y el deseo sustituyen cualquier normalidad exterior."
+          },
+          {
+            "title": "La historia irrumpe",
+            "summary": "El clima político de París termina presionando esa burbuja privada y obliga a confrontar lo que cada personaje elige vivir o eludir."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Cinefilia como refugio",
+            "content": "Los protagonistas se vinculan a través de películas, citas y mitologías compartidas. El cine aparece como una patria simbólica que les permite aplazar la madurez y convertir la vida en una escena permanente."
+          },
+          {
+            "heading": "Deseo, poder y dependencia",
+            "content": "La novela explora una intimidad triangular donde la seducción nunca es inocente. Bajo el tono lúdico emergen asimetrías afectivas, pruebas emocionales y un pulso constante entre fascinación y manipulación."
+          },
+          {
+            "heading": "Lo privado frente a lo histórico",
+            "content": "Mientras París se politiza, los personajes intentan vivir al margen. Ese contraste da al libro una lectura poderosa: incluso la huida estética queda finalmente interpelada por la historia."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Soñadores es la misma obra que The Dreamers?",
+            "answer": "Sí. El libro circula en relación con el título The Dreamers y está vinculado a la novela previa de Adair The Holy Innocents, de la que toma su núcleo narrativo."
+          },
+          {
+            "question": "¿Es una novela histórica?",
+            "answer": "No en sentido estricto. Usa el París de 1968 como contexto decisivo, pero su centro es la relación íntima y psicológica entre los tres protagonistas."
+          },
+          {
+            "question": "¿Hace falta conocer mucho de cine para disfrutarla?",
+            "answer": "No, aunque las referencias cinéfilas enriquecen mucho la lectura. Incluso sin ellas, funciona como una novela de deseo, juventud y encierro emocional."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "New Retro Wave: The Dreamers by Gilbert Adair",
+            "url": "https://newretrowave.com/2022/06/07/the-dreamers-gilbert-adair/"
+          },
+          {
+            "label": "Open Library: The Dreamers",
+            "url": "https://openlibrary.org/books/OL7857951M/The_Dreamers"
+          },
+          {
+            "label": "Google Books: The Dreamers",
+            "url": "https://books.google.com/books/about/The_Dreamers.html?id=UoeYQgAACAAJ"
+          },
+          {
+            "label": "Wikipedia: The Holy Innocents",
+            "url": "https://en.wikipedia.org/wiki/The_Holy_Innocents_(Adair_novel)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "soseki-inmortal-y-tigre-de-fernando-sanchez-drago",
+      "title": "Soseki Inmortal Y Tigre",
+      "authorName": "Fernando Sanchez Drago",
+      "authorSlug": "fernando-sanchez-drago",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Soseki. Inmortal y tigre",
+        "authorName": "Fernando Sánchez Dragó",
+        "authorSlug": "fernando-sanchez-drago",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "aventura"
+        ],
+        "year": 2009,
+        "pages": 250,
+        "summary": "En Soseki. Inmortal y tigre, Fernando Sánchez Dragó convierte la aparición de un gato en el punto de partida de una narración muy personal donde caben la fábula, el viaje, la memoria y la meditación cultural. El animal —misterioso, libre y casi totémico— no es solo una mascota, sino un compañero de ruta que obliga al narrador a mirar de otro modo su propia vida y sus vínculos con Oriente. A través de episodios de convivencia, desplazamientos, evocaciones literarias y reflexiones sobre Japón, la novela construye una figura felina cargada de simbolismo. El resultado es un libro híbrido, entre relato novelesco y confidencia ensayística, que explora identidad, lealtad, nomadismo y espiritualidad con el tono libre y digresivo característico de su autor.",
+        "aboutThisBook": "Publicado por Planeta y reeditado luego en Booket, este libro ocupa un lugar singular dentro de la obra de Sánchez Dragó porque mezcla autobiografía estilizada, imaginación narrativa y fascinación por la cultura japonesa. El título remite de forma explícita a Natsume Sōseki y al universo del gato como conciencia literaria, pero aquí la apuesta es más libre: el animal funciona como personaje, símbolo y detonante de una reflexión sobre la independencia, la compañía y el viaje interior.",
+        "forWhom": "Para lectores adultos que disfrutan de libros fronterizos entre novela, diario, reflexión cultural y relato de viajes; también para quienes sienten interés por Japón, por la simbología del gato en la literatura o por la faceta más narrativa de Sánchez Dragó.",
+        "whyItMatters": "Importa porque muestra una zona menos clasificable de la narrativa española reciente: una escritura que se mueve entre confesión, fábula y ensayo sin pedir permiso a las etiquetas. Además, ofrece una mirada muy personal al vínculo entre vida cotidiana, imaginación y tradición cultural japonesa.",
+        "editorialIntro": "Soseki. Inmortal y tigre mezcla crónica de viaje, homenaje literario y novela de búsqueda en torno a Japón y a la figura del gran escritor Natsume Sōseki. Conviene leerla como una obra híbrida: importa tanto la peripecia exterior como la meditación cultural, libresca y autobiográfica que Dragó construye a su alrededor.",
+        "readingLevel": "Medio; la prosa es fluida, aunque las digresiones culturales y autobiográficas piden lectura atenta.",
+        "whyReadToday": "Porque propone una relación menos utilitaria con los animales, con el viaje y con la cultura: una lectura lenta, curiosa y simbólica. En tiempos de libros muy lineales, su mezcla de relato, memoria y pensamiento sigue teniendo un atractivo raro y estimulante.",
+        "studyNotes": [
+          "Leer a Soseki como personaje y símbolo: gato real, figura literaria y espejo del narrador a la vez.",
+          "Atender al diálogo entre experiencia personal y referencias a Japón, clave para entender el tono del libro.",
+          "No forzar una clasificación única: parte de su interés está en su condición híbrida entre ficción y reflexión."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La aparición de Soseki",
+            "summary": "El hallazgo o llegada del gato inaugura el tono del libro y sitúa al lector ante una presencia animal con resonancias míticas y literarias."
+          },
+          {
+            "title": "Convivencia, viaje y aprendizaje",
+            "summary": "La relación entre narrador y gato se expande hacia escenas de desplazamiento, observación del mundo y reflexión cultural."
+          },
+          {
+            "title": "Símbolo y despedida interior",
+            "summary": "El libro profundiza en lo que Soseki significa para el narrador: compañía, libertad, enigma y detonante de una búsqueda más íntima."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El gato como centro narrativo",
+            "content": "Soseki no actúa solo como personaje adorable o anecdótico. El gato organiza la percepción del mundo y permite pensar la libertad, la elegancia y la distancia desde una perspectiva no humana."
+          },
+          {
+            "heading": "Japón como horizonte espiritual",
+            "content": "La novela enlaza la experiencia concreta del narrador con una imaginación japonesa cultivada durante años por Sánchez Dragó. Ese cruce da profundidad simbólica al relato y evita que el gato sea un mero capricho doméstico."
+          },
+          {
+            "heading": "Un libro deliberadamente híbrido",
+            "content": "Su interés está en la mezcla: memoria, viaje, fábula, confesión y comentario cultural. Esa libertad formal puede desconcertar, pero también es lo que vuelve singular la lectura."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro autobiográfico?",
+            "answer": "Funciona como una obra híbrida. Parte de una voz muy cercana al autor y de materiales autobiográficos, pero los transforma con libertad narrativa y simbólica."
+          },
+          {
+            "question": "¿El título alude a Natsume Sōseki?",
+            "answer": "Sí, el título dialoga con el escritor japonés y con el imaginario literario del gato, aunque el libro desarrolla una propuesta propia."
+          },
+          {
+            "question": "¿Es adecuado para lectores que buscan una trama cerrada?",
+            "answer": "No es su principal virtud. Más que una intriga lineal, ofrece una experiencia de lectura reflexiva, episódica y muy marcada por la voz del autor."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: Soseki. Inmortal y tigre",
+            "url": "https://www.planetadelibros.com/libro-soseki-inmortal-y-tigre/9753"
+          },
+          {
+            "label": "Casa del Libro: Soseki. Inmortal y tigre",
+            "url": "https://www.casadellibro.com/libro-soseki-inmortal-y-tigre/9788408087441/1336501"
+          },
+          {
+            "label": "Sánchez Dragó: Soseki",
+            "url": "http://www.sanchezdrago.com/Web/Obra/soseki.htm"
+          },
+          {
+            "label": "Google Books: Soseki",
+            "url": "http://books.google.es/books?id=fRRApwAACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "stars-wars-los-jedi-contra-los-sith-de-darko-macanramon-f-bachs",
+      "title": "Stars Wars Los Jedi Contra Los Sith",
+      "authorName": "Darko Macanramon F Bachs",
+      "authorSlug": "darko-macanramon-f-bachs",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Star Wars: Los Jedi contra los Sith",
+        "authorName": "Darko Macan; Ramón F. Bachs",
+        "authorSlug": "darko-macanramon-f-bachs",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "ciencia-ficcion",
+          "aventura",
+          "fantasia"
+        ],
+        "year": 2002,
+        "pages": 144,
+        "summary": "Esta novela gráfica situada unos mil años antes de las películas narra la fase final de las Nuevas Guerras Sith y la decisiva batalla de Ruusan. En ese escenario de guerra total, tres jóvenes reclutados casi por accidente quedan expuestos a una lucha entre la Hermandad de la Oscuridad y el Ejército de la Luz de los Jedi. A la vez que siguen el conflicto militar, el relato explica el derrumbe del viejo orden sith y el nacimiento de una nueva lógica de poder asociada a Darth Bane y a la futura Regla de Dos. Darko Macan y Ramón F. Bachs convierten un episodio mitológico del universo Star Wars en una historia dinámica y accesible, donde la aventura bélica se combina con una reflexión clara sobre tentación, disciplina, legado y corrupción del poder.",
+        "aboutThisBook": "Publicada en formato recopilatorio a partir de una miniserie de seis entregas, esta obra pertenece al antiguo universo expandido de Star Wars. Su interés reside en que no cuenta una peripecia lateral cualquiera: dramatiza un momento fundacional del mito sith y enlaza la gran guerra del pasado con ideas que luego resultan esenciales para comprender a Darth Bane y la tradición del maestro y el aprendiz. Visualmente, el dibujo privilegia la épica, el movimiento y la claridad narrativa.",
+        "forWhom": "Para lectores juveniles y adultos aficionados a Star Wars, al cómic de aventura y a los relatos de origen dentro de grandes universos de fantasía y ciencia ficción. También es una buena puerta de entrada para quien quiera explorar la era antigua del canon Legends sin perderse en continuidades demasiado complejas.",
+        "whyItMatters": "Importa porque explica de forma muy legible uno de los episodios clave del trasfondo de Star Wars: la caída de la antigua multitud sith y el surgimiento del modelo que dominará después la saga. Además, demuestra cómo un cómic breve puede condensar mundo, mitología y acción sin perder claridad.",
+        "editorialIntro": "Este cómic de Star Wars funciona como una puerta de entrada muy clara a uno de los grandes conflictos míticos del universo expandido: el choque entre la tradición jedi, la seducción del poder y la fractura interna de la Orden. Leído hoy, sigue siendo útil para entender cómo la saga narra sus ciclos de caída y renacimiento.",
+        "readingLevel": "Medio; accesible para lectores jóvenes habituados al cómic y aún mejor para quien conozca mínimamente el universo Star Wars.",
+        "whyReadToday": "Porque sigue siendo una de las vías más directas para entender el origen ideológico de los Sith en el viejo universo expandido. Su combinación de épica, pedagogía mitológica y ritmo visual la mantiene vigente para nuevos lectores y para fans veteranos.",
+        "studyNotes": [
+          "Ubicar la historia en la cronología: transcurre aproximadamente mil años antes de las precuelas cinematográficas.",
+          "Seguir cómo la guerra colectiva desemboca en una nueva concepción del poder sith centrada en pocos individuos.",
+          "Analizar el punto de vista juvenil: los grandes cambios históricos se vuelven legibles a través de personajes iniciáticos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Reclutamiento y guerra",
+            "summary": "Tres jóvenes son arrastrados hacia el conflicto entre Jedi y Sith y descubren la escala real de una guerra que parecía lejana."
+          },
+          {
+            "title": "Ruusan y la destrucción",
+            "summary": "La batalla decisiva lleva al enfrentamiento extremo entre la Hermandad de la Oscuridad y los Jedi, con consecuencias devastadoras."
+          },
+          {
+            "title": "El legado de Darth Bane",
+            "summary": "Del aparente final de los Sith surge una nueva doctrina que redefinirá su supervivencia y su modo de ejercer el poder."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Mito de origen dentro de Star Wars",
+            "content": "La obra funciona como relato fundacional. No se limita a añadir aventuras: explica por qué el mal sith adopta una forma específica en etapas posteriores de la saga."
+          },
+          {
+            "heading": "Guerra total y formación moral",
+            "content": "El cómic contrapone la épica militar con la educación de personajes jóvenes, mostrando cómo la guerra produce identidades, traumas y decisiones irreversibles."
+          },
+          {
+            "heading": "Claridad visual y ambición narrativa",
+            "content": "Ramón F. Bachs sostiene una lectura muy limpia de combates, escenarios y emociones, lo que permite que un trasfondo complejo se vuelva comprensible incluso para lectores no expertos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta conocer mucho de Star Wars para leerlo?",
+            "answer": "No. Aunque los fans captan más matices, el cómic se entiende bien como historia de guerra, iniciación y origen de un orden oscuro."
+          },
+          {
+            "question": "¿Pertenece al canon actual?",
+            "answer": "Se asocia al antiguo universo expandido, hoy conocido como Legends. Aun así, sigue siendo una referencia importante para entender la mitología sith."
+          },
+          {
+            "question": "¿Qué aporta frente a otras historias de Jedi y Sith?",
+            "answer": "Su principal valor es narrar el paso del viejo orden sith multitudinario al modelo de maestro y aprendiz, una idea central para toda la saga posterior."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Google Books: Star Wars los Jedi contra los Sith",
+            "url": "https://books.google.com/books/about/Star_wars_los_jedi_contra_los_sith.html?id=YsxiAAAACAAJ"
+          },
+          {
+            "label": "Google Books: Jedi Vs. Sith",
+            "url": "https://books.google.com/books/about/Jedi_Vs_Sith.html?id=Kg0QJwAACAAJ"
+          },
+          {
+            "label": "Wikipedia: Jedi vs. Sith",
+            "url": "https://en.wikipedia.org/wiki/Jedi_vs._Sith"
+          },
+          {
+            "label": "Wikipedia: Darko Macan",
+            "url": "https://en.wikipedia.org/wiki/Darko_Macan"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "storytelling-la-maquina-de-fabricar-historias-y-formatear-las-mentes-de-christian-salmon",
+      "title": "Storytelling La Maquina De Fabricar Historias Y Formatear Las Mentes",
+      "authorName": "Christian Salmon",
+      "authorSlug": "christian-salmon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Storytelling: La máquina de fabricar historias y formatear las mentes",
+        "authorName": "Christian Salmon",
+        "authorSlug": "christian-salmon",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2008,
+        "pages": 268,
+        "summary": "En este ensayo incisivo, Christian Salmon analiza cómo el relato dejó de ser solo una forma artística o literaria para convertirse en una herramienta central de la comunicación política, la publicidad, el management y los medios. El autor sostiene que, desde finales del siglo XX, el storytelling pasó a organizar la manera en que se venden productos, se legitiman liderazgos y se modelan percepciones colectivas. A través de ejemplos tomados del marketing, de la política estadounidense y de la cultura corporativa, Salmon muestra cómo las historias simplificadas sustituyen el debate, generan adhesión emocional y vuelven más digeribles mensajes ideológicos complejos. El libro no celebra esa tendencia: la examina como una técnica de persuasión que puede trivializar la realidad y reducir el pensamiento crítico. Su tesis central es que vivimos rodeados de narrativas diseñadas para influir en nuestra conducta.",
+        "aboutThisBook": "Publicado originalmente en francés y difundido ampliamente en el ámbito hispano, este libro se convirtió en una referencia para pensar la relación entre relato y poder. Salmon escribe con tono ensayístico, pero apoyándose en casos concretos y en una mirada muy crítica sobre la industria de la comunicación contemporánea. Más que un manual sobre cómo contar historias, es una desmontaje de los usos estratégicos del relato en la vida pública y empresarial.",
+        "forWhom": "Para lectores interesados en comunicación, política, medios, publicidad, cultura contemporánea y crítica social. Resulta especialmente valioso para periodistas, estudiantes de ciencias sociales, profesionales del marketing que quieran revisar su propio campo y lectores de ensayo que busquen ideas para entender cómo se construyen los discursos públicos.",
+        "whyItMatters": "Importa porque ayuda a detectar cuándo una historia intenta informar y cuándo intenta formatear la percepción. En una época dominada por marcas personales, campañas emocionales y narrativas simplificadas, el libro ofrece un vocabulario crítico para leer mejor la propaganda blanda de nuestro tiempo.",
+        "editorialIntro": "Pocas veces un ensayo sobre comunicación ha envejecido tan bien. Christian Salmon vio con claridad que el relato podía convertirse en una tecnología de poder: seductora, flexible y eficaz para gobernar la atención. Este libro sigue siendo una lectura provocadora para quien quiera mirar detrás de los discursos que organizan la vida pública.",
+        "readingLevel": "Es una lectura especialmente provechosa para adultos, estudiantes universitarios y profesionales de comunicación, política, marketing o cultura que puedan seguir una argumentación ensayística sostenida y discutir ejemplos mediáticos con cierta distancia crítica.",
+        "whyReadToday": "Porque hoy el lenguaje de las marcas, de la política y de las redes sociales depende más que nunca de relatos breves, identidades narradas y emociones dirigidas. Leer a Salmon permite reconocer esas estrategias y discutir sus efectos sobre la verdad, la deliberación pública y la autonomía personal.",
+        "studyNotes": [
+          "Conviene distinguir entre relato como forma cultural legítima y storytelling como técnica de persuasión instrumental.",
+          "El libro se lee mejor si se relaciona con campañas políticas, branding y comunicación corporativa de las últimas décadas.",
+          "Una pregunta útil para el estudio es qué se pierde cuando la narración reemplaza al argumento o a la explicación."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento del problema",
+            "summary": "Salmon presenta la expansión del storytelling como una lógica dominante de la comunicación contemporánea y propone leerla como una técnica de influencia más que como una simple moda expresiva."
+          },
+          {
+            "title": "Relato, marketing y política",
+            "summary": "El ensayo revisa casos provenientes del mundo empresarial y político para mostrar cómo las historias se diseñan para producir identificación, adhesión y obediencia emocional."
+          },
+          {
+            "title": "Crítica de la narrativa como control",
+            "summary": "En su tramo final, el libro subraya los riesgos de una esfera pública colonizada por relatos prefabricados: simplificación, espectacularización y debilitamiento del pensamiento crítico."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La tesis central",
+            "content": "El argumento de Salmon no es que contar historias sea malo en sí mismo, sino que el capitalismo comunicacional convirtió el relato en una herramienta de gobierno de la atención. Esa distinción es decisiva para entender el alcance crítico del libro."
+          },
+          {
+            "heading": "Ensayo de intervención cultural",
+            "content": "Más que un tratado académico cerrado, Storytelling funciona como un ensayo de intervención: polemiza, selecciona ejemplos significativos y busca despertar sospecha frente a discursos demasiado pulidos o emocionalmente eficaces."
+          },
+          {
+            "heading": "Vigencia en la era de las plataformas",
+            "content": "Aunque fue escrito antes del dominio total de TikTok, Instagram o la economía de los creadores, muchas de sus intuiciones se han intensificado. La auto-narración permanente, la política performativa y la economía de la atención hacen que el diagnóstico resulte todavía más pertinente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un manual para aprender storytelling?",
+            "answer": "No. Es, sobre todo, una crítica del uso estratégico del relato en política, marketing, medios y empresa."
+          },
+          {
+            "question": "¿Hace falta formación previa en comunicación para leerlo?",
+            "answer": "No necesariamente. Ayuda tener interés por la política y los medios, pero el libro está escrito de forma accesible para un lector general de ensayo."
+          },
+          {
+            "question": "¿Cuál es su idea más recordada?",
+            "answer": "Que las historias pueden funcionar como una forma de modelar percepciones y conductas, sustituyendo el análisis por la adhesión emocional."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: Storytelling",
+            "url": "https://www.planetadelibros.com/libro-storytelling/382338"
+          },
+          {
+            "label": "Casa del Libro: Storytelling",
+            "url": "https://www.casadellibro.com/libro-storytelling/9788411002042/13940318"
+          },
+          {
+            "label": "Google Books: Storytelling",
+            "url": "https://books.google.com/books?id=HEooKJ22gUkC"
+          },
+          {
+            "label": "Open Library: Storytelling",
+            "url": "https://openlibrary.org/books/OL47130651M/Storytelling"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tan-fuerte-tan-cerca-de-jonathan-safran-foer",
+      "title": "Tan Fuerte Tan Cerca",
+      "authorName": "Jonathan Safran Foer",
+      "authorSlug": "jonathan-safran-foer",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Tan fuerte, tan cerca",
+        "authorName": "Jonathan Safran Foer",
+        "authorSlug": "jonathan-safran-foer",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2005,
+        "pages": 326,
+        "summary": "La novela sigue a Oskar Schell, un niño de nueve años brillante, hipersensible y profundamente herido por la muerte de su padre en los atentados del 11 de septiembre. Cuando encuentra una llave escondida entre las pertenencias paternas, inicia una búsqueda por Nueva York para descubrir qué cerradura abre y, en el fondo, qué vínculo secreto lo une todavía a su padre. A medida que recorre la ciudad y conoce a personas apellidadas Black, el relato se expande hacia otras voces familiares, cartas, silencios y traumas anteriores, especialmente los vinculados a los bombardeos de Dresde. Foer construye así una novela sobre el duelo, la imposibilidad de reparar la pérdida y la necesidad de imaginar formas de seguir viviendo. La historia combina experimentación formal, ternura, humor y dolor en una reflexión sobre la memoria íntima y la catástrofe histórica.",
+        "aboutThisBook": "Publicada pocos años después del 11-S, esta novela consolidó a Jonathan Safran Foer como una de las voces más comentadas de su generación. Su propuesta mezcla recursos visuales, documentos, cartas y una sensibilidad muy marcada por la herida emocional. Aunque parte de un acontecimiento histórico identificable, el libro no es una crónica del atentado, sino una exploración literaria del duelo, la infancia y la transmisión del trauma dentro de una familia.",
+        "forWhom": "Para lectores de narrativa contemporánea que disfrutan las novelas emotivas, formalmente inquietas y centradas en la memoria. También puede interesar a quienes buscan ficciones sobre duelo, trauma histórico, relaciones familiares y la vida urbana como mapa emocional.",
+        "whyItMatters": "Sigue importando porque convierte una tragedia histórica muy reconocible en una experiencia íntima, sin renunciar a la complejidad formal. La novela muestra cómo el dolor privado dialoga con memorias colectivas y cómo la literatura puede representar el trauma sin reducirlo a consigna.",
+        "editorialIntro": "Jonathan Safran Foer escribió una novela de duelo que evita la solemnidad fácil. Con la voz inolvidable de Oskar, Tan fuerte, tan cerca se mueve entre la ternura, la rareza y el desgarro para narrar cómo una pérdida personal abre un archivo de dolores familiares e históricos.",
+        "readingLevel": "Medio-alto; la prosa es accesible, pero la estructura fragmentaria y los juegos formales piden una lectura atenta.",
+        "whyReadToday": "Porque sigue siendo una de las novelas más reconocibles sobre cómo una sociedad procesa una herida colectiva a través de una historia privada. En un presente atravesado por duelos públicos, crisis y memorias rotas, el libro conserva una capacidad poco común para hablar de vulnerabilidad, imaginación y reparación imposible.",
+        "studyNotes": [
+          "Conviene observar cómo la novela alterna la mirada infantil con voces adultas para mostrar distintas capas del trauma.",
+          "Los recursos visuales y tipográficos no son adornos: forman parte de la experiencia emocional del texto.",
+          "Es útil comparar el duelo por el 11-S con las memorias familiares de la Segunda Guerra Mundial que aparecen en paralelo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La llave y la promesa de sentido",
+            "summary": "Oskar encuentra una llave entre los objetos de su padre y convierte ese hallazgo en una misión personal para sostener el vínculo con quien ha perdido."
+          },
+          {
+            "title": "Un mapa de Nueva York y de la pérdida",
+            "summary": "La búsqueda lo lleva por distintos barrios y encuentros humanos, mientras la ciudad se vuelve un espacio de duelo, curiosidad y reconocimiento parcial del otro."
+          },
+          {
+            "title": "Cartas, silencios y herencias del trauma",
+            "summary": "Las voces familiares amplían la novela hacia dolores anteriores y muestran que el sufrimiento de Oskar forma parte de una cadena histórica más extensa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La infancia como lente narrativa",
+            "content": "La elección de Oskar como centro emocional de la novela permite que el dolor aparezca filtrado por la inteligencia, la excentricidad y la fragilidad. Esa perspectiva evita el discurso abstracto y vuelve concreta la devastación."
+          },
+          {
+            "heading": "Forma fragmentaria y experiencia del duelo",
+            "content": "Foer utiliza cartas, fotografías, listas y quiebres tipográficos para representar una conciencia que no logra ordenar del todo la pérdida. La estructura formal acompaña el desajuste afectivo del relato."
+          },
+          {
+            "heading": "Memoria privada e historia colectiva",
+            "content": "La novela enlaza el 11-S con otras catástrofes familiares e históricas, especialmente Dresde. Así sugiere que el trauma nunca es del todo aislado: se hereda, se desplaza y reaparece en distintas generaciones."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La novela trata solo sobre el 11-S?",
+            "answer": "No. El atentado es el detonante principal, pero el libro también explora el duelo familiar, la memoria transgeneracional y otras heridas históricas."
+          },
+          {
+            "question": "¿Es una lectura triste?",
+            "answer": "Sí, aunque no de manera uniforme: combina dolor con humor, ternura, imaginación y una voz infantil muy singular."
+          },
+          {
+            "question": "¿Es recomendable para quien busca narrativa convencional?",
+            "answer": "Solo en parte. La historia es emocionalmente clara, pero la forma es experimental y fragmentaria, así que puede resultar más exigente que una novela lineal."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Casa del Libro: Tan fuerte, tan cerca",
+            "url": "https://www.casadellibro.com/libro-tan-fuerte-tan-cerca/9788432229664/3058141"
+          },
+          {
+            "label": "PlanetadeLibros: Tan fuerte, tan cerca",
+            "url": "https://www.planetadelibros.com/libro-tan-fuerte-tan-cerca/218886"
+          },
+          {
+            "label": "Wikipedia: Tan fuerte, tan cerca",
+            "url": "https://es.wikipedia.org/wiki/Tan_fuerte,_tan_cerca"
+          },
+          {
+            "label": "Open Library: Extremely Loud and Incredibly Close",
+            "url": "https://openlibrary.org/works/OL5738259W/Extremely_Loud_and_Incredibly_Close"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tecnicas-de-masturbacion-entre-batman-y-robin-de-efraim-medina-reyes",
+      "title": "Tecnicas De Masturbacion Entre Batman Y Robin",
+      "authorName": "Efraim Medina Reyes",
+      "authorSlug": "efraim-medina-reyes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Técnicas de masturbación entre Batman y Robin",
+        "authorName": "Efraim Medina Reyes",
+        "authorSlug": "efraim-medina-reyes",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2002,
+        "pages": 290,
+        "summary": "Esta novela de Efraim Medina Reyes despliega una voz joven, desafiante y deliberadamente excesiva para narrar el desconcierto afectivo, sexual y cultural de una sensibilidad urbana latinoamericana. El libro combina humor negro, irreverencia, referencias pop, música, deseo y desencanto para construir un relato de formación torcida, más cercano a la deriva emocional que al aprendizaje clásico. Su protagonista se mueve entre impulsos sexuales, fantasías, provocación verbal y una dificultad persistente para establecer vínculos estables con el mundo que habita. Medina Reyes no busca la pulcritud moral ni la contención: apuesta por un lenguaje eléctrico, deslenguado y a ratos autodestructivo, desde el que la adolescencia tardía y la juventud aparecen como territorios de intensidad, ridículo y herida. El resultado es una novela transgresora, incómoda y muy marcada por la cultura pop, que convirtió a su autor en una referencia polémica de la narrativa colombiana contemporánea.",
+        "aboutThisBook": "Publicada a comienzos de los años dos mil, la novela prolonga el universo provocador por el que Efraim Medina Reyes se hizo conocido. Su escritura mezcla confesión, parodia, erotismo, cultura audiovisual y un pulso generacional que rechaza tanto la solemnidad como la corrección. Más que contar una historia cerrada, el libro construye una experiencia verbal intensa, atravesada por la identidad masculina, el deseo, la incomodidad social y el desgaste emocional.",
+        "forWhom": "Para lectores adultos interesados en narrativas latinoamericanas contemporáneas, novelas de tono provocador, literatura de formación antiheroica y escrituras marcadas por la cultura pop, el sexo y la rabia generacional. No es un libro para quien busque contención clásica o sensibilidad moderada.",
+        "whyItMatters": "Importa porque representa una línea de la narrativa latinoamericana que incorpora sin complejos la cultura pop, el lenguaje coloquial y la sexualidad como materiales literarios. También porque registra una masculinidad herida y exhibicionista que puede leerse críticamente, tanto por su potencia verbal como por sus zonas incómodas.",
+        "editorialIntro": "Efraim Medina Reyes escribe al borde del exceso, y ahí encuentra su fuerza. Técnicas de masturbación entre Batman y Robin es una novela insolente, pop y desquiciada, capaz de mezclar humor, deseo, rabia y vulnerabilidad en una prosa que no busca agradar, sino dejar marca.",
+        "readingLevel": "Medio; la prosa es ágil, pero el tono provocador, las referencias culturales y la intensidad verbal exigen un lector dispuesto al choque.",
+        "whyReadToday": "Porque sigue siendo un texto útil para pensar la relación entre juventud, masculinidad, cultura pop y autodestrucción en América Latina. Leído hoy, permite discutir qué aspectos de su provocación mantienen vitalidad literaria y cuáles conviene revisar con una mirada crítica contemporánea.",
+        "studyNotes": [
+          "Es recomendable atender al tono: la novela produce sentido tanto por lo que cuenta como por la agresividad y el ritmo de su voz narrativa.",
+          "La cultura pop no funciona solo como decoración, sino como lenguaje emocional y generacional del protagonista.",
+          "Una lectura crítica puede explorar cómo la novela representa el deseo, la masculinidad y la vulnerabilidad sin separar su potencia estética de sus incomodidades éticas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Arranque provocador",
+            "summary": "La novela fija desde el inicio una voz irreverente y sexualizada que convierte la provocación en forma de mirar el mundo y de narrarse a sí misma."
+          },
+          {
+            "title": "Deseo, cultura pop y deriva personal",
+            "summary": "El relato combina experiencias afectivas, impulsos eróticos y referencias musicales o audiovisuales para retratar una subjetividad inestable, exhibicionista y herida."
+          },
+          {
+            "title": "Maduración fallida",
+            "summary": "En lugar de un aprendizaje ordenado, el libro conduce hacia una conciencia más amarga del vacío, del desgaste emocional y de la dificultad de encajar en cualquier forma adulta convencional."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una voz generacional y performativa",
+            "content": "La fuerza principal del libro está en su voz: desmedida, sarcástica y autoconsciente. Medina Reyes convierte el yo narrativo en un espectáculo verbal que seduce y fatiga a la vez, y justamente en esa ambivalencia reside parte de su eficacia literaria."
+          },
+          {
+            "heading": "Pop, sexo y malestar",
+            "content": "La novela mezcla erotismo, referencias mediáticas y malestar emocional para retratar una subjetividad formada entre consumos culturales y vacíos afectivos. Su universo no idealiza la rebeldía: la muestra como síntoma y como pose."
+          },
+          {
+            "heading": "Lectura contemporánea",
+            "content": "Hoy el libro puede leerse en doble clave: como una pieza importante de la narrativa latinoamericana más insolente de su tiempo y como un texto que invita a revisar críticamente ciertas representaciones del deseo, del género y de la provocación masculina."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela explícita?",
+            "answer": "Sí. El título ya anticipa un tono provocador, y el libro incorpora sexualidad, lenguaje directo y una sensibilidad deliberadamente transgresora."
+          },
+          {
+            "question": "¿Se parece a una novela de formación tradicional?",
+            "answer": "No exactamente. Toma elementos del crecimiento personal y sentimental, pero los deforma en clave antiheroica, caótica y pop."
+          },
+          {
+            "question": "¿Por qué sigue siendo comentada?",
+            "answer": "Por su voz inconfundible, su mezcla de cultura pop y confesión, y por la discusión que genera en torno a la provocación, la masculinidad y los límites del cinismo literario."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "PlanetadeLibros Colombia: Técnicas de masturbación entre Batman y Robin",
+            "url": "https://www.planetadelibros.com.co/libro-tecnicas-de-masturbacion-entre-batman-y-robin/162141"
+          },
+          {
+            "label": "Google Books: Técnicas de masturbación entre Batman y Robin",
+            "url": "https://books.google.com/books/about/Tecnicas_de_masturbacion_entre_Batman_y.html?id=EbvTAQAAQBAJ"
+          },
+          {
+            "label": "Lecturalia: Técnicas de masturbación entre Batman y Robin",
+            "url": "https://www.lecturalia.com/libro/29117/tecnicas-de-masturbacion-entre-batman-y-robin"
+          },
+          {
+            "label": "Wikipedia: Efraim Medina Reyes",
+            "url": "https://es.wikipedia.org/wiki/Efraim_Medina_Reyes"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-21T09:31:07Z"
+}

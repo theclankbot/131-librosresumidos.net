@@ -1,0 +1,1534 @@
+{
+  "batchName": "replenish-20260421T050603Z-next42",
+  "createdAt": "2026-04-21T05:06:04Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "la-mujer-helada-de-annie-ernaux",
+      "title": "La Mujer Helada",
+      "authorName": "Annie Ernaux",
+      "authorSlug": "annie-ernaux",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La mujer helada",
+        "authorName": "Annie Ernaux",
+        "authorSlug": "annie-ernaux",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1981,
+        "pages": null,
+        "summary": "En La mujer helada, Annie Ernaux reconstruye el itinerario de una joven brillante que crece con la promesa de una vida abierta y autónoma, pero descubre poco a poco hasta qué punto la feminidad sigue organizada por mandatos invisibles. La narradora recuerda su infancia en un hogar donde la madre parecía más activa y resuelta que el padre, sus estudios, el despertar del deseo, el matrimonio y la maternidad. Lo decisivo no es un gran acontecimiento externo, sino la acumulación de pequeños desplazamientos que la van encerrando en una vida doméstica desigual. Ernaux muestra cómo el trabajo intelectual, la sexualidad, la pareja y las tareas del hogar dejan de formar un proyecto común y se convierten en una estructura de renuncia. El libro tiene la nitidez de una confesión y la precisión de un análisis social: describe la fabricación de una mujer que se siente congelada dentro de un papel que no eligió del todo.",
+        "aboutThisBook": "Publicado originalmente en francés como La femme gelée en 1981, este libro pertenece a la zona más claramente autobiográfica de Annie Ernaux y anticipa rasgos centrales de su obra posterior: la observación clínica de la vida cotidiana, la relación entre memoria personal y determinaciones colectivas, y una escritura que evita el adorno sentimental. Aunque suele leerse como novela, también funciona como autoindagación social sobre la educación de género en la Francia de posguerra. Su fuerza no está en la intriga, sino en la manera en que vuelve visible una opresión normalizada.",
+        "forWhom": "Para lectores de Ernaux, estudios de género, autobiografía crítica y novelas breves donde la experiencia íntima sirve para examinar estructuras sociales enteras.",
+        "whyItMatters": "Importa porque convierte la vida doméstica en un campo de observación histórica y política. Ernaux no denuncia solo una relación privada injusta: muestra cómo una cultura entera reparte ambición, tiempo, lenguaje y cansancio entre hombres y mujeres.",
+        "editorialIntro": "Pocas autoras han descrito con tanta limpieza el momento en que una promesa de libertad se transforma en disciplina cotidiana. La mujer helada no necesita grandes escenas melodramáticas para resultar devastadora: le basta con mostrar la rutina, las expectativas del matrimonio y la lenta instalación de una desigualdad que llega a parecer natural. Ernaux escribe desde la memoria, pero con una mirada analítica que convierte la experiencia individual en diagnóstico generacional.",
+        "readingLevel": "Lectura media-alta por su densidad reflexiva más que por dificultad verbal. El estilo es sobrio y accesible, pero gana mucho si se atiende a su dimensión autobiográfica, feminista y sociológica.",
+        "whyReadToday": "Sigue siendo muy actual porque la distribución desigual de la carga doméstica, el desgaste emocional y las expectativas de género continúan marcando la vida contemporánea, incluso en contextos que se creen igualitarios.",
+        "studyNotes": [
+          "La potencia del libro está en la acumulación de escenas ordinarias: estudios, noviazgo, matrimonio, hijos y tareas domésticas aparecen como piezas de una misma pedagogía de género.",
+          "Ernaux parte de la propia experiencia, pero evita el confesionalismo complaciente; la memoria funciona como instrumento de análisis social.",
+          "Conviene observar cómo cambia la relación entre lenguaje y deseo: cuanto más se impone el rol doméstico, más se estrecha el horizonte de la narradora.",
+          "El contraste entre la infancia y la vida matrimonial sirve para desmontar la idea de que la desigualdad aparece solo en contextos abiertamente tradicionales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Infancia y primeras imágenes de lo femenino",
+            "summary": "La narradora evoca un hogar donde la madre parecía encarnar energía, trabajo y autoridad práctica. Ese punto de partida hace más compleja la futura interiorización de modelos femeninos restrictivos."
+          },
+          {
+            "title": "Estudios, deseo y expectativa de libertad",
+            "summary": "La juventud abre la posibilidad de una existencia intelectual y afectiva más amplia. La formación y el amor aparecen al principio como vías de emancipación, no como amenazas."
+          },
+          {
+            "title": "Matrimonio, maternidad y reparto desigual",
+            "summary": "Con la vida en pareja se instala una división del trabajo que no siempre se formula explícitamente, pero organiza el tiempo, el cansancio y la identidad de la protagonista. La promesa de reciprocidad se revela frágil."
+          },
+          {
+            "title": "La congelación de la identidad",
+            "summary": "El tramo final muestra cómo la narradora se reconoce atrapada en un papel que la reduce. La toma de conciencia no borra el daño, pero permite nombrarlo con exactitud."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Autobiografía como examen de clase y género",
+            "content": "Ernaux no presenta su experiencia como un caso excepcional. La vida narrada está atravesada por hábitos de clase, educación sentimental y reparto sexual del trabajo. Esa combinación vuelve el libro más incisivo que una simple memoria íntima."
+          },
+          {
+            "heading": "La domesticidad como forma de alienación",
+            "content": "Uno de los hallazgos del texto es mostrar que la opresión no siempre adopta la forma de la violencia abierta. También puede aparecer como rutina, expectativa afectiva y suma de obligaciones aparentemente normales que erosionan la autonomía."
+          },
+          {
+            "heading": "Escritura fría, efecto devastador",
+            "content": "La prosa de Ernaux es contenida y precisa. Justamente por evitar el exceso emocional, el libro gana fuerza: el lector percibe que la herida no necesita dramatización para ser profunda."
+          },
+          {
+            "heading": "Una obra clave dentro del proyecto de Ernaux",
+            "content": "La mujer helada anticipa la investigación que la autora desarrollará después sobre memoria, cuerpo, vergüenza, deseo y determinaciones colectivas. Leerlo ayuda a entender la coherencia de toda su obra."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un texto autobiográfico?",
+            "answer": "Se suele leer como novela autobiográfica o autoficción temprana. Lo central es que la experiencia personal está tratada como material de análisis social, no solo como recuerdo privado."
+          },
+          {
+            "question": "¿Tiene una trama fuerte en el sentido convencional?",
+            "answer": "No especialmente. Su tensión nace de la toma de conciencia y del modo en que la vida cotidiana va revelando una desigualdad estructural."
+          },
+          {
+            "question": "¿Es un libro importante para entender a Annie Ernaux?",
+            "answer": "Sí. Aunque no sea su título más citado por el gran público, concentra temas decisivos de su proyecto literario: memoria, género, clase, cuerpo y vida ordinaria."
+          },
+          {
+            "question": "¿Por qué sigue interpelando a lectores actuales?",
+            "answer": "Porque muchas de las contradicciones que describe sobre pareja, trabajo, maternidad y desgaste doméstico no han desaparecido. El libro sigue ofreciendo un lenguaje preciso para nombrarlas."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: La femme gelée",
+            "url": "https://openlibrary.org/works/OL102385W/La_femme_gel%C3%A9e"
+          },
+          {
+            "label": "WorldCat: A Frozen Woman de Annie Ernaux",
+            "url": "https://search.worldcat.org/search?q=ti%3A%22A+Frozen+Woman%22+au%3A%22Annie+Ernaux%22"
+          },
+          {
+            "label": "Nobel Prize: Annie Ernaux",
+            "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/facts/"
+          },
+          {
+            "label": "Wikipedia: Annie Ernaux",
+            "url": "https://en.wikipedia.org/wiki/Annie_Ernaux"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-mujer-justa-de-sandor-marai",
+      "title": "La Mujer Justa",
+      "authorName": "Sandor Marai",
+      "authorSlug": "sandor-marai",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La mujer justa",
+        "authorName": "Sándor Márai",
+        "authorSlug": "sandor-marai",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1941,
+        "pages": null,
+        "summary": "La mujer justa es una novela de voces encadenadas que desarma desde dentro la idea romántica del matrimonio. En lugar de contar una historia lineal, Sándor Márai organiza el libro como una serie de confesiones en las que distintos personajes reconstruyen el mismo triángulo afectivo desde posiciones incompatibles. Primero habla la esposa burguesa, herida por una traición que no comprende del todo; luego el marido, que intenta justificar su fracaso emocional y su insatisfacción con el mundo de su propia clase; por último aparece la otra mujer, cuya perspectiva altera la jerarquía moral de todo lo anterior. Cada testimonio parece buscar la verdad definitiva, pero solo consigue revelar nuevas capas de deseo, resentimiento, orgullo y autoengaño. Más que un drama sentimental, la novela es una autopsia del amor, del clasismo y de la imposibilidad de poseer completamente a otra persona.",
+        "aboutThisBook": "Publicada originalmente en húngaro como Az igazi en 1941 y conocida en inglés como Portraits of a Marriage, esta obra pertenece al periodo de madurez de Sándor Márai. Es una de sus novelas más apreciadas por la forma en que combina intensidad psicológica, observación social y estructura polifónica. El título español La mujer justa no agota del todo el sentido del original, pero señala bien uno de los núcleos del libro: la búsqueda obsesiva de la figura \"verdadera\" o \"adecuada\" dentro del amor y del matrimonio. Márai convierte esa búsqueda en un dispositivo para examinar la burguesía centroeuropea en crisis.",
+        "forWhom": "Para lectores de novela psicológica, ficción centroeuropea, monólogos intensos y relatos donde el matrimonio sirve para explorar clase social, deseo y autoengaño.",
+        "whyItMatters": "Importa porque muestra que la verdad afectiva nunca aparece completa en una sola conciencia. La novela enseña a leer el amor como conflicto de relatos, y al mismo tiempo retrata el agotamiento moral de una cultura burguesa que ya no puede sostener sus propias ficciones de orden y decoro.",
+        "editorialIntro": "Márai domina como pocos el arte de la conversación convertida en juicio moral. En La mujer justa, esa capacidad alcanza una forma especialmente depurada: tres voces, tres versiones de una intimidad rota y una pregunta que nunca termina de cerrarse. ¿Qué buscamos realmente cuando pedimos amor, fidelidad o reconocimiento? El autor no responde con psicología fácil, sino con un análisis paciente de la humillación, el orgullo y la distancia entre la vida vivida y la vida narrada después.",
+        "readingLevel": "Lectura media-alta. No es compleja por argumento, pero sí por su densidad introspectiva, sus matices morales y la atención que exige a cambios de punto de vista y subtexto social.",
+        "whyReadToday": "Vale la pena leerla hoy porque desmonta las narrativas sentimentales simplificadas y recuerda que toda relación está atravesada por poder, clase, lenguaje y necesidad de reconocimiento.",
+        "studyNotes": [
+          "La estructura en voces sucesivas es esencial: cada parte corrige, complica o desmiente la anterior, de modo que el lector nunca dispone de una verdad estable.",
+          "El libro no examina solo un triángulo amoroso; también retrata la fragilidad de la burguesía centroeuropea y su moral de apariencias.",
+          "Conviene atender a cómo el deseo se mezcla con la humillación y el orgullo. En Márai, amar casi siempre implica interpretar mal al otro.",
+          "La novela funciona muy bien en discusión comparada con otras ficciones sobre matrimonio, adulterio y confesión, pero su tono es menos melodramático que analítico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La voz de Ilonka",
+            "summary": "La primera gran sección recoge la perspectiva de la esposa, que intenta comprender por qué su matrimonio ha fracasado. Su relato mezcla lucidez herida, orgullo social y una necesidad intensa de encontrar sentido en la traición."
+          },
+          {
+            "title": "La confesión de Péter",
+            "summary": "En la segunda parte, el marido revisa la misma historia desde otro lugar. Lo que parecía simple culpa masculina se vuelve crisis de clase, insatisfacción existencial y deseo de una autenticidad que él mismo no sabe sostener."
+          },
+          {
+            "title": "La versión de Judit",
+            "summary": "La tercera voz altera por completo la lectura anterior. Judit expone la violencia simbólica del mundo burgués y revela cuánto había de ceguera y jerarquía en los relatos previos."
+          },
+          {
+            "title": "La verdad imposible del vínculo",
+            "summary": "Al terminar, el lector no recibe una síntesis definitiva. La novela deja como residuo una verdad fragmentaria: el amor nunca se separa del poder ni del relato que cada uno necesita contarse."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Polifonía y verdad quebrada",
+            "content": "La gran apuesta formal de la novela consiste en mostrar que la verdad sentimental no es única ni estable. Cada voz ilumina una zona y oscurece otra; por eso el libro obliga a leer contra la primera impresión."
+          },
+          {
+            "heading": "Matrimonio y lucha de clases",
+            "content": "En Márai, el matrimonio no es solo una relación privada. Es también un espacio donde se cruzan educación, dinero, modales, resentimiento y deseo de ascenso o de pertenencia. La tensión de clase estructura el conflicto de principio a fin."
+          },
+          {
+            "heading": "La retórica de la confesión",
+            "content": "Los personajes hablan como si quisieran decir toda la verdad, pero sus discursos están llenos de defensa propia, vanidad y necesidad de imponerse moralmente. Esa ambigüedad vuelve la novela especialmente rica."
+          },
+          {
+            "heading": "Un clásico moderno de la desilusión",
+            "content": "La mujer justa sigue viva porque no idealiza ni demoniza de manera simple. Entiende el amor como una forma de conocimiento fallido y de exposición radical ante la mirada del otro."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de adulterio en sentido clásico?",
+            "answer": "Sí, pero sería reducirla demasiado. El adulterio es el punto de partida de una indagación más amplia sobre clase, deseo, resentimiento y versiones incompatibles de la verdad."
+          },
+          {
+            "question": "¿Por qué tiene tanta importancia la forma en monólogos?",
+            "answer": "Porque la novela depende de ese desplazamiento de perspectiva. Cada voz obliga a reinterpretar la anterior y demuestra que ningún personaje controla por completo el sentido de la historia."
+          },
+          {
+            "question": "¿Es un buen libro para empezar con Sándor Márai?",
+            "answer": "Sí, especialmente si interesan las novelas psicológicas y centroeuropeas. Reúne varias de sus virtudes: elegancia, intensidad moral y análisis de un mundo burgués en decadencia."
+          },
+          {
+            "question": "¿El título español coincide con el original húngaro?",
+            "answer": "No exactamente. El original Az igazi admite matices como la idea de la persona verdadera o la adecuada. Esa distancia explica por qué distintas traducciones han optado por títulos diferentes."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: La mujer justa",
+            "url": "https://openlibrary.org/works/OL7986056W/La_mujer_justa"
+          },
+          {
+            "label": "Open Library: Az igazi",
+            "url": "https://openlibrary.org/works/OL1655357W/Az_igazi"
+          },
+          {
+            "label": "WorldCat: La mujer justa de Sándor Márai",
+            "url": "https://search.worldcat.org/search?q=ti%3A%22La+mujer+justa%22+au%3A%22S%C3%A1ndor+M%C3%A1rai%22"
+          },
+          {
+            "label": "Wikipedia: Sándor Márai",
+            "url": "https://en.wikipedia.org/wiki/S%C3%A1ndor_M%C3%A1rai"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-noche-de-la-iguana-y-otros-relatos-de-tennessee-williams",
+      "title": "La Noche De La Iguana Y Otros Relatos",
+      "authorName": "Tennessee Williams",
+      "authorSlug": "tennessee-williams",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La noche de la iguana y otros relatos",
+        "authorName": "Tennessee Williams",
+        "authorSlug": "tennessee-williams",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "teatro",
+          "clasicos"
+        ],
+        "year": null,
+        "pages": null,
+        "summary": "La noche de la iguana y otros relatos reúne textos de Tennessee Williams marcados por una misma atmósfera de deseo herido, culpa, decadencia y necesidad de consuelo. En el centro suele estar La noche de la iguana, pieza nacida de un relato previo y convertida después en una de las obras más conocidas del autor. Allí, un ex reverendo norteamericano, frágil y al borde del colapso, llega a un hotel mexicano acompañado por un grupo de turistas y entra en contacto con figuras igualmente solitarias, tensas y vulnerables. A su alrededor se cruzan impulsos eróticos, frustraciones espirituales, humillación social y momentos inesperados de compasión. Leído como volumen, el conjunto permite reconocer una constante de Williams: personajes agotados, a menudo al margen, que buscan una forma precaria de dignidad en medio del deterioro físico o moral. Más que relatos de argumento cerrado, son escenas de exposición emocional extrema.",
+        "aboutThisBook": "Las ediciones con el título La noche de la iguana y otros relatos suelen agrupar la obra homónima con narraciones breves o textos cercanos al universo de Tennessee Williams, de modo que el contenido exacto puede variar según sello y traducción. Lo seguro es que el volumen gira alrededor de una de sus creaciones más influyentes: The Night of the Iguana, desarrollada a partir de un relato de 1948 y convertida en obra teatral de larga proyección escénica. Ese origen híbrido explica bien el interés del libro: en Williams la frontera entre cuento, escena dramática y retrato psicológico es especialmente porosa.",
+        "forWhom": "Para lectores de teatro moderno, narrativa breve estadounidense y obras intensas donde deseo, fragilidad y compasión conviven sin sentimentalismo fácil.",
+        "whyItMatters": "Importa porque condensa algunos de los grandes temas de Williams: el desgaste interior, la sexualidad como conflicto, la caída social y la búsqueda de una misericordia mínima entre personajes rotos. También muestra cómo un mismo material puede desplazarse del relato al teatro sin perder fuerza.",
+        "editorialIntro": "Entrar en Tennessee Williams suele implicar aceptar una temperatura emocional alta. Sus personajes hablan, desean y se humillan al borde del derrumbe, pero rara vez quedan reducidos a caricaturas patéticas. La noche de la iguana y otros relatos ofrece una buena puerta de entrada a ese mundo porque concentra varias de sus obsesiones: cuerpos vulnerables, espacios cerrados, tensiones religiosas y una compasión incómoda que no cancela la violencia. Incluso cuando el volumen mezcla géneros o procedencias textuales, la voz de Williams resulta inconfundible.",
+        "readingLevel": "Lectura media-alta. El lenguaje suele ser accesible, pero la intensidad simbólica, los dobles sentidos emocionales y la dimensión teatral de muchas escenas piden una lectura atenta al subtexto.",
+        "whyReadToday": "Sigue valiendo la pena porque pocas obras retratan con tanta fuerza la mezcla de deseo, vergüenza, agotamiento y necesidad de cuidado que atraviesa a personas al límite.",
+        "studyNotes": [
+          "La obra homónima tiene un origen doble: primero relato y después pieza teatral. Ese tránsito ayuda a entender la elasticidad formal de Williams.",
+          "Los personajes suelen aparecer al borde del colapso, pero el autor evita juzgarlos desde fuera; prefiere exponer sus contradicciones con dureza y piedad al mismo tiempo.",
+          "Los espacios cerrados o aislados, como hoteles, habitaciones o destinos de paso, funcionan como laboratorios morales donde estallan conflictos latentes.",
+          "Conviene leer el volumen atendiendo más a sus obsesiones recurrentes que a la unidad estricta de una trama única, especialmente cuando la edición reúne textos de procedencia distinta."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Llegada al espacio de encierro",
+            "summary": "La obra central sitúa a personajes frágiles en un entorno aislado y sofocante donde las tensiones morales ya no pueden reprimirse. El viaje exterior se convierte enseguida en exposición interior."
+          },
+          {
+            "title": "Deseo, culpa y confrontación",
+            "summary": "A medida que avanzan las escenas, los vínculos se cargan de erotismo, vergüenza y resentimiento. Williams convierte cada intercambio en una lucha por conservar algo de control y dignidad."
+          },
+          {
+            "title": "La compasión como salida precaria",
+            "summary": "Frente al desgaste físico y espiritual de los personajes, surge una forma imperfecta de cuidado. No hay redención plena, pero sí momentos de comprensión que impiden el hundimiento absoluto."
+          },
+          {
+            "title": "Otros relatos del mismo clima moral",
+            "summary": "El resto del volumen prolonga obsesiones similares: soledad, cuerpos dañados, marginalidad y deseo de amparo. Esa continuidad tonal es más importante que la uniformidad formal del conjunto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Del relato al teatro",
+            "content": "La historia de La noche de la iguana resulta especialmente interesante porque permite ver cómo Williams transforma un núcleo narrativo en una experiencia escénica de gran intensidad. El conflicto no cambia de esencia, pero sí de respiración y exposición pública."
+          },
+          {
+            "heading": "Personajes al borde del derrumbe",
+            "content": "Una marca del autor es su interés por figuras exhaustas, inestables o socialmente heridas. En lugar de tratarlas como simples casos patológicos, las presenta como seres cuya fragilidad revela algo general sobre el deseo y la soledad."
+          },
+          {
+            "heading": "Erotismo, religión y culpa",
+            "content": "En este universo, la sexualidad rara vez aparece separada de la vergüenza, la represión o la necesidad de absolución. Esa mezcla produce la tensión moral tan característica de Williams."
+          },
+          {
+            "heading": "Compasión sin consuelo fácil",
+            "content": "Aunque sus textos están llenos de violencia verbal, frustración y caída, no son cínicos. Williams concede a sus personajes momentos de ternura y reconocimiento que no resuelven el conflicto, pero sí lo humanizan profundamente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de relatos o una obra teatral?",
+            "answer": "Depende de la edición. Bajo este título suelen reunirse la obra o historia de La noche de la iguana con otros textos breves de Williams, por lo que conviene comprobar el índice concreto del volumen consultado."
+          },
+          {
+            "question": "¿La noche de la iguana nació como teatro?",
+            "answer": "No del todo. Williams partió de un relato de 1948 y después desarrolló varias versiones teatrales hasta llegar a la forma escénica más conocida."
+          },
+          {
+            "question": "¿Qué temas dominan el conjunto?",
+            "answer": "Deseo, culpa, decadencia, fragilidad emocional, tensiones religiosas y una compasión siempre precaria. Son temas muy característicos del autor."
+          },
+          {
+            "question": "¿Sirve como puerta de entrada a Tennessee Williams?",
+            "answer": "Sí, sobre todo para lectores que quieran ver reunidos sus climas más reconocibles. Permite apreciar tanto su nervio dramático como su capacidad para el retrato breve e intenso."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: The Night of the Iguana",
+            "url": "https://en.wikipedia.org/wiki/The_Night_of_the_Iguana"
+          },
+          {
+            "label": "Wikipedia: The Night of the Iguana (short story)",
+            "url": "https://en.wikipedia.org/wiki/The_Night_of_the_Iguana_(short_story)"
+          },
+          {
+            "label": "Open Library: The Night of the Iguana and Other Stories",
+            "url": "https://openlibrary.org/works/OL20652060W/The_night_of_the_iguana_and_other_stories"
+          },
+          {
+            "label": "WorldCat: The Night of the Iguana and Other Stories de Tennessee Williams",
+            "url": "https://search.worldcat.org/search?q=ti%3A%22The+night+of+the+iguana+and+other+stories%22+au%3A%22Tennessee+Williams%22"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-oscura-historia-de-la-prima-montse-de-juan-marse",
+      "title": "La Oscura Historia De La Prima Montse",
+      "authorName": "Juan Marse",
+      "authorSlug": "juan-marse",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La oscura historia de la prima Montse",
+        "authorName": "Juan Marsé",
+        "authorSlug": "juan-marse",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 1970,
+        "pages": 348,
+        "summary": "La oscura historia de la prima Montse es una de las novelas clave de Juan Marsé sobre la Barcelona de clases, apariencias y fracturas morales del tardofranquismo. La historia reconstruye, con distancia temporal y tono elegíaco, la caída de Montse Claramunt, joven burguesa, católica y voluntarista, fascinada por la idea de acercarse al mundo popular al que cree poder redimir. Su encuentro con un muchacho de origen humilde, rebelde y ambiguo desencadena una relación atravesada por deseo, paternalismo, hipocresía social y violencia simbólica. Marsé convierte ese itinerario en una crítica feroz de la respetabilidad burguesa, del lenguaje de la caridad y de las fantasías de pureza moral. La novela combina memoria, ironía y tragedia para mostrar cómo el cruce entre clase, religión y deseo puede terminar en devastación íntima.",
+        "aboutThisBook": "Publicada por primera vez en 1970, la novela ocupa un lugar central en la consolidación de la voz narrativa de Marsé. No es solo una historia sentimental o de caída individual: es también un retrato de Barcelona como escenario de desigualdad, fingimiento y violencia social. Su importancia radica en cómo funde crítica de clase, educación católica, deseo y memoria con una prosa sobria, muy visual y cargada de ironía moral.",
+        "forWhom": "Para lectores de narrativa española del siglo XX, estudiantes de literatura hispánica y quienes busquen una novela exigente sobre Barcelona, clase social, religión, deseo y desengaño.",
+        "whyItMatters": "Importa porque muestra con gran precisión una de las tensiones centrales de Marsé: el choque entre las fantasías morales de la burguesía y la realidad áspera de la vida social. Sigue siendo una novela decisiva para leer la ciudad, la clase y la máscara respetable.",
+        "editorialIntro": "Pocas novelas de Juan Marsé retratan con tanta nitidez el encuentro entre idealismo religioso, deseo reprimido y desigualdad de clase. La oscura historia de la prima Montse empieza como evocación de una tragedia privada, pero pronto revela algo más incómodo: la facilidad con que la compasión burguesa puede mezclarse con la fascinación, la superioridad moral y el autoengaño. Su potencia está en esa doble escala, íntima y social.",
+        "readingLevel": "Lectura media-alta: la prosa es accesible, pero el peso simbólico de la memoria, la ironía narrativa y el trasfondo social e histórico enriquecen mucho la interpretación.",
+        "whyReadToday": "Porque sigue siendo una novela muy lúcida sobre clasismo, caridad paternalista y ficciones morales que encubren relaciones de poder y deseo.",
+        "studyNotes": [
+          "Conviene leer a Montse no solo como personaje trágico, sino como síntoma de una educación sentimental moldeada por la moral católica y la posición de clase.",
+          "El contraste entre barrio burgués y mundo popular no es decorativo: organiza la novela como conflicto de lenguajes, códigos y fantasías sociales.",
+          "Marsé evita el sermón ideológico. La crítica aparece encarnada en gestos, espacios, malentendidos y consecuencias afectivas.",
+          "La memoria retrospectiva es decisiva: el relato no cuenta solo unos hechos, sino la persistencia de una herida vista desde el tiempo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Movimiento 1. Regreso al escenario de la tragedia",
+            "summary": "La novela se abre desde la evocación de un pasado ya dañado. Ese retorno al espacio familiar instala desde el principio la idea de ruina moral y de reconstrucción de una historia que ya se sabe perdida."
+          },
+          {
+            "title": "Movimiento 2. Montse y el impulso de redimir",
+            "summary": "Montse aparece como una joven formada por la moral burguesa y la acción caritativa. Su deseo de acercarse al mundo popular nace de una mezcla compleja de fervor, ingenuidad, curiosidad y necesidad afectiva."
+          },
+          {
+            "title": "Movimiento 3. El encuentro que rompe las jerarquías aparentes",
+            "summary": "La relación con el muchacho de extracción humilde desordena las certezas familiares y religiosas. El deseo, la diferencia de clase y la imposibilidad de una relación inocente empujan la historia hacia su zona más oscura."
+          },
+          {
+            "title": "Movimiento 4. Caída, juicio social y memoria",
+            "summary": "El desenlace muestra el coste íntimo y simbólico del conflicto. La tragedia personal revela también la violencia de una comunidad obsesionada con la respetabilidad y con el control de los cuerpos y las conductas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Clase social y fantasía de acercamiento",
+            "content": "Uno de los núcleos de la novela es la imposibilidad de una relación transparente entre mundos separados por la clase. Montse cree acercarse al otro desde la bondad, pero Marsé muestra que esa aproximación está contaminada por jerarquías previas, por imágenes del pobre y por una educación que no sabe salir de sí misma."
+          },
+          {
+            "heading": "Religión, deseo y culpa",
+            "content": "La formación católica del personaje no opera solo como contexto ideológico, sino como estructura emocional. La culpa, la pureza, la entrega y el sacrificio atraviesan la novela y convierten el deseo en una experiencia conflictiva, nunca simple ni liberadora."
+          },
+          {
+            "heading": "Barcelona como mapa moral",
+            "content": "Marsé organiza la ciudad como un territorio de fronteras visibles e invisibles. Los espacios burgueses, los barrios populares y los recorridos entre ambos condensan una crítica social muy precisa sin necesidad de grandes discursos explicativos."
+          },
+          {
+            "heading": "Memoria narrativa y tono elegíaco",
+            "content": "El libro no se limita a contar unos hechos: los mira desde después, desde la ruina de lo ocurrido. Ese marco retrospectivo añade una tristeza seca y una conciencia de pérdida que intensifican la lectura crítica del pasado."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de formación o una novela social?",
+            "answer": "Participa de ambas líneas, pero en clave crítica. Hay aprendizaje y caída de un personaje, aunque el verdadero alcance del libro está en cómo convierte ese trayecto en lectura de clase, ciudad y moral burguesa."
+          },
+          {
+            "question": "¿Qué lugar ocupa en la obra de Juan Marsé?",
+            "answer": "Suele considerarse una de las novelas decisivas de su etapa de madurez inicial. Reúne temas muy propios de Marsé: Barcelona, desigualdad, memoria, deseo y desmontaje de las máscaras respetables."
+          },
+          {
+            "question": "¿Hace falta conocer la historia del franquismo para leerla?",
+            "answer": "No es imprescindible, pero ayuda mucho. El trasfondo del franquismo y del catolicismo social ilumina mejor las tensiones de clase, género y moral que articulan la novela."
+          },
+          {
+            "question": "¿La novela idealiza el mundo popular frente al burgués?",
+            "answer": "No. Marsé evita una oposición simple entre inocencia y corrupción. Su mirada es más compleja: critica la hipocresía burguesa, pero también muestra ambigüedad, oportunismo y dureza en todos los espacios sociales."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: La oscura historia de la prima Montse (obra)",
+            "url": "https://openlibrary.org/works/OL34816778W/La_oscura_historia_de_la_prima_Montse"
+          },
+          {
+            "label": "Open Library: Open Library: La oscura historia de la prima Montse",
+            "url": "https://openlibrary.org/works/OL34816778W"
+          },
+          {
+            "label": "WorldCat: La oscura historia de la prima Montse / Juan Marsé",
+            "url": "https://search.worldcat.org/es/search?q=La+oscura+historia+de+la+prima+Montse+Juan+Mars%C3%A9"
+          },
+          {
+            "label": "Wikipedia: Juan Marsé",
+            "url": "https://es.wikipedia.org/wiki/Juan_Mars%C3%A9"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-paradoja-de-james-c-hunter",
+      "title": "La Paradoja",
+      "authorName": "James C Hunter",
+      "authorSlug": "james-c-hunter",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La paradoja: un relato sobre la verdadera esencia del liderazgo",
+        "authorName": "James C. Hunter",
+        "authorSlug": "james-c-hunter",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "desarrollo-personal"
+        ],
+        "year": 1999,
+        "pages": 176,
+        "summary": "La paradoja es un libro de liderazgo narrado como fábula empresarial. James C. Hunter sigue a John Daily, un directivo que parece exitoso en lo profesional, pero fracasa como jefe, marido, padre y entrenador. Obligado a detenerse, asiste a un retiro en un monasterio benedictino donde un antiguo ejecutivo convertido en monje le plantea la tesis central del libro: liderar no consiste en imponer poder, sino en ganar autoridad mediante servicio, ejemplo, escucha, disciplina y responsabilidad moral. A través de conversaciones sencillas, Hunter contrapone mando y autoridad, hábitos y carisma, control y compromiso. El resultado es un texto accesible que traduce ideas de liderazgo servicial a escenas cotidianas de trabajo, familia y comunidad, con un enfoque práctico orientado a transformar conductas más que a celebrar jerarquías.",
+        "aboutThisBook": "Publicado originalmente como The Servant en 1998 y difundido ampliamente en español como La paradoja, este libro se volvió un clásico de divulgación sobre liderazgo. Su singularidad está en usar una narración muy lineal para introducir conceptos de management, ética relacional y formación del carácter. No desarrolla teoría académica compleja, pero sí ofrece un vocabulario muy influyente sobre autoridad, servicio, hábitos y construcción de confianza.",
+        "forWhom": "Para responsables de equipos, docentes, emprendedores, lectores de empresa y cualquier persona interesada en liderazgo práctico, cultura organizacional y gestión de relaciones humanas.",
+        "whyItMatters": "Sigue importando porque puso en circulación popular una idea de liderazgo menos centrada en la jerarquía y más en la credibilidad cotidiana. Aunque su enfoque sea sencillo, obliga a distinguir entre obediencia impuesta y autoridad ganada.",
+        "editorialIntro": "En el mundo de los libros de empresa abundan los métodos rápidos y las recetas de influencia. La paradoja se hizo visible por ir en la dirección contraria: propone que el liderazgo más sólido nace del servicio, de la coherencia y del trabajo paciente sobre el carácter. Su formato de relato facilita la lectura, pero detrás hay una pregunta exigente: qué tipo de autoridad merece realmente ser seguida.",
+        "readingLevel": "Lectura media: el estilo es directo, conversacional y muy accesible, aunque invita a detenerse para traducir sus principios a situaciones reales de trabajo y convivencia.",
+        "whyReadToday": "Porque en contextos saturados de control, urgencia y desgaste laboral, su distinción entre poder formal y autoridad moral sigue siendo una herramienta útil para revisar cómo se dirigen equipos.",
+        "studyNotes": [
+          "La tesis básica del libro distingue poder, que se concede por cargo, de autoridad, que se gana por conducta y confianza sostenida.",
+          "Conviene leer el monasterio no como adorno espiritual, sino como dispositivo narrativo para desacelerar al protagonista y obligarlo a pensar sus hábitos.",
+          "El libro funciona mejor si se examina con ejemplos concretos de trabajo, familia o docencia; su valor está en la transferencia práctica.",
+          "También es útil discutir sus límites: simplifica conflictos organizativos complejos y prioriza el cambio personal frente a factores estructurales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1. Crisis del directivo",
+            "summary": "John Daily descubre que el éxito externo no compensa el deterioro de sus relaciones. La acumulación de fracasos en distintos roles abre la necesidad de revisar su idea de liderazgo."
+          },
+          {
+            "title": "Momento 2. El retiro y el aprendizaje",
+            "summary": "En el monasterio, el protagonista entra en contacto con una pedagogía del liderazgo basada en preguntas, disciplina y examen del carácter. Allí se formula la oposición central entre poder y autoridad."
+          },
+          {
+            "title": "Momento 3. Servicio, escucha y hábitos",
+            "summary": "Las sesiones del seminario desarrollan la idea de que liderar supone atender necesidades legítimas, practicar la escucha y sostener hábitos coherentes, incluso cuando no producen resultados inmediatos."
+          },
+          {
+            "title": "Momento 4. Aplicación a la vida diaria",
+            "summary": "El libro conduce la reflexión hacia la vida concreta: empresa, familia, deporte y comunidad. La teoría queda subordinada a la pregunta por cómo actuar mejor con las personas a las que se pretende guiar."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Poder frente a autoridad",
+            "content": "La idea más recordada del libro es que el cargo puede forzar obediencia, pero no garantiza seguimiento genuino. Hunter insiste en que la autoridad nace de la credibilidad, la constancia y el trato justo, no del rango por sí solo."
+          },
+          {
+            "heading": "Liderazgo servicial como práctica",
+            "content": "El servicio no aparece como gesto sentimental, sino como trabajo exigente sobre necesidades, límites y responsabilidad. El libro propone que servir a un equipo implica ayudarlo a crecer, ordenar expectativas y sostener estándares."
+          },
+          {
+            "heading": "La forma narrativa como estrategia didáctica",
+            "content": "La elección de una fábula empresarial reduce tecnicismos y amplía el público. Esa sencillez explica parte de su éxito, aunque también vuelve más esquemáticos algunos problemas reales del liderazgo organizacional."
+          },
+          {
+            "heading": "Ética del carácter y cambio de hábitos",
+            "content": "Más que ofrecer tácticas aisladas, Hunter plantea una reforma de hábitos personales. El liderazgo se entiende como disciplina moral repetida en acciones pequeñas: escuchar, cumplir, corregir con respeto y sostener el ejemplo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro de empresa?",
+            "answer": "Es un libro de no ficción presentado como relato o fábula empresarial. Usa personajes y situaciones narrativas para explicar principios de liderazgo aplicables a contextos reales."
+          },
+          {
+            "question": "¿Qué significa la paradoja del título?",
+            "answer": "Que el liderazgo más fuerte no se apoya primero en imponer, sino en servir. El libro llama paradoja a esa inversión de expectativas: la autoridad más sólida nace de la humildad, la escucha y la coherencia."
+          },
+          {
+            "question": "¿Sigue siendo útil aunque sea un libro muy conocido?",
+            "answer": "Sí, sobre todo como introducción clara al liderazgo servicial. Su valor está en la claridad conceptual y en la facilidad con que permite revisar prácticas diarias de dirección."
+          },
+          {
+            "question": "¿Tiene limitaciones?",
+            "answer": "Sí. Su tono ejemplar puede simplificar problemas de poder, cultura organizativa o desigualdad estructural. Conviene leerlo como punto de partida práctico, no como teoría exhaustiva del liderazgo."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: La paradoja (obra en español)",
+            "url": "https://openlibrary.org/works/OL1812465W/La_paradoja"
+          },
+          {
+            "label": "Open Library: The Servant (obra original)",
+            "url": "https://openlibrary.org/works/OL1812466W/The_servant"
+          },
+          {
+            "label": "Open Library: Open Library: La paradoja",
+            "url": "https://openlibrary.org/works/OL1812465W"
+          },
+          {
+            "label": "WorldCat: La paradoja / James C. Hunter",
+            "url": "https://search.worldcat.org/es/search?q=La+paradoja+James+C.+Hunter"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-pasion-del-poder-teoria-y-practica-de-la-dominacion-de-jose-antonio-marina",
+      "title": "La Pasion Del Poder Teoria Y Practica De La Dominacion",
+      "authorName": "Jose Antonio Marina",
+      "authorSlug": "jose-antonio-marina",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La pasión del poder: teoría y práctica de la dominación",
+        "authorName": "José Antonio Marina",
+        "authorSlug": "jose-antonio-marina",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2008,
+        "pages": 229,
+        "summary": "En La pasión del poder, José Antonio Marina examina el poder no como mera estructura jurídica o institucional, sino como una energía humana que mezcla deseo de mando, necesidad de orden, legitimación simbólica y capacidad de dominación. El libro se mueve entre filosofía política, psicología moral e historia de las ideas para preguntar por qué el poder fascina tanto, cómo se justifica y de qué modo se convierte en obediencia aceptada o en sometimiento. Marina no reduce el problema a la política profesional: atiende también a los mecanismos cotidianos de influencia, autoridad, seducción, disciplina y violencia. El ensayo propone así una mirada amplia sobre la dominación, sus disfraces morales y sus apoyos culturales, con el propósito de entender mejor tanto las instituciones como las pasiones que las sostienen.",
+        "aboutThisBook": "Publicado por Anagrama en 2008, el libro pertenece a la línea ensayística en la que Marina combina claridad expositiva y ambición conceptual. No es un tratado técnico de teoría política, sino un ensayo de intervención intelectual que recorre nociones clásicas sobre autoridad, obediencia, legitimidad y fuerza para volverlas legibles a un público amplio. Su interés está en enlazar ideas filosóficas con conductas concretas y con formas históricas de dominación.",
+        "forWhom": "Para lectores de ensayo, filosofía política, ciencias sociales y debate público que quieran una introducción reflexiva al problema del poder y sus mecanismos de legitimación.",
+        "whyItMatters": "Importa porque desplaza la discusión del poder desde los cargos visibles hacia las pasiones, creencias y hábitos que permiten obedecer o dominar. Ayuda a pensar la política sin separar instituciones y psicología social.",
+        "editorialIntro": "Hablar del poder suele conducir a instituciones, partidos y gobiernos, pero Marina abre una pregunta más incómoda: qué deseos, miedos y ficciones hacen posible que unos manden y otros acepten ser mandados. La pasión del poder interesa precisamente por ese desplazamiento. Su punto fuerte no es la jerga académica, sino la capacidad de tender puentes entre filosofía, conducta y vida pública sin perder densidad crítica.",
+        "readingLevel": "Lectura media-alta: el lenguaje es claro, pero las referencias a filosofía política, legitimidad y dominación exigen una lectura atenta y reflexiva.",
+        "whyReadToday": "Porque permite pensar con más profundidad fenómenos actuales de autoridad carismática, manipulación simbólica, obediencia social y concentración de poder más allá de la coyuntura inmediata.",
+        "studyNotes": [
+          "Conviene seguir la distinción entre autoridad legítima y dominación, porque buena parte del ensayo examina cómo esa frontera se vuelve inestable.",
+          "Marina combina análisis conceptual con ejemplos históricos y sociales; leerlo bien implica atender a ambos niveles a la vez.",
+          "El libro resulta especialmente útil si se pone en diálogo con debates sobre populismo, carisma, instituciones y cultura democrática.",
+          "No trata el poder como un asunto exclusivamente estatal: también explora sus versiones cotidianas, simbólicas y psicológicas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Eje 1. El atractivo del mando",
+            "summary": "El ensayo parte de la pregunta por el deseo de poder. Marina examina por qué mandar fascina y cómo esa pasión aparece vinculada al reconocimiento, al control y a la promesa de eficacia."
+          },
+          {
+            "title": "Eje 2. Legitimidad, obediencia y dominio",
+            "summary": "Después amplía el foco hacia los mecanismos que convierten la fuerza o la influencia en autoridad aceptada. La obediencia no se presenta como simple sumisión, sino como construcción política y simbólica."
+          },
+          {
+            "title": "Eje 3. Formas de dominación en la vida social",
+            "summary": "El libro aborda modos distintos de ejercer poder, desde la coacción visible hasta la seducción o la interiorización de normas. Esa amplitud evita reducir el problema a gobiernos o aparatos estatales."
+          },
+          {
+            "title": "Eje 4. Vigilancia crítica y cultura democrática",
+            "summary": "En su tramo final, el ensayo apunta a la necesidad de una ciudadanía capaz de reconocer los disfraces del poder y de defender espacios de libertad, responsabilidad y control institucional."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El poder como pasión humana",
+            "content": "Una de las aportaciones más reconocibles del libro es no tratar el poder solo como mecanismo externo. Marina insiste en su dimensión pasional: deseo de prestigio, seguridad, expansión de la voluntad y necesidad de reconocimiento. Esa clave psicológica complejiza la lectura política."
+          },
+          {
+            "heading": "Dominación y legitimación",
+            "content": "El ensayo subraya que ningún poder duradero vive solo de la fuerza. Necesita relatos de legitimidad, aceptación social, hábitos de obediencia y dispositivos simbólicos que vuelvan razonable o natural lo que en otro contexto parecería abuso."
+          },
+          {
+            "heading": "Cruce entre filosofía y divulgación",
+            "content": "Marina escribe para un lector no especializado sin renunciar a preguntas densas. Esa combinación explica la eficacia del libro como puerta de entrada a debates de filosofía política, aunque su tono sintético deje fuera desarrollos académicos más minuciosos."
+          },
+          {
+            "heading": "Actualidad del problema del poder",
+            "content": "La vigencia del ensayo está en que ayuda a pensar fenómenos contemporáneos de liderazgo carismático, manipulación emocional y obediencia mediada por imágenes, discursos y miedos colectivos. Su marco no depende de una coyuntura única."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de filosofía política académica?",
+            "answer": "Es un ensayo de divulgación exigente. Dialoga con problemas clásicos de la filosofía política, pero lo hace con voluntad de claridad y con un tono pensado para lectores amplios."
+          },
+          {
+            "question": "¿Habla solo del poder estatal?",
+            "answer": "No. Aunque la política institucional es importante, Marina extiende el análisis a mecanismos sociales, psicológicos y culturales de influencia, obediencia y dominación."
+          },
+          {
+            "question": "¿Qué aporta frente a otros ensayos sobre poder?",
+            "answer": "Aporta una mirada que conecta instituciones y pasiones. No se limita a describir estructuras formales, sino que pregunta por los deseos y creencias que vuelven eficaz el mando."
+          },
+          {
+            "question": "¿Puede leerse sin formación previa en teoría política?",
+            "answer": "Sí, aunque exige atención. La prosa de Marina es clara, y precisamente esa claridad hace del libro una buena entrada para lectores interesados en autoridad, legitimidad y cultura democrática."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: La pasión del poder (obra)",
+            "url": "https://openlibrary.org/works/OL32827209W/La_pasi%C3%B3n_del_poder"
+          },
+          {
+            "label": "Open Library: Open Library: La pasión del poder",
+            "url": "https://openlibrary.org/works/OL32827209W"
+          },
+          {
+            "label": "WorldCat: La pasión del poder / José Antonio Marina",
+            "url": "https://search.worldcat.org/es/search?q=La+pasi%C3%B3n+del+poder+Jos%C3%A9+Antonio+Marina"
+          },
+          {
+            "label": "Sitio oficial de José Antonio Marina",
+            "url": "https://www.joseantoniomarina.net/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-piedra-lunar-de-wilkie-collins",
+      "title": "La Piedra Lunar",
+      "authorName": "Wilkie Collins",
+      "authorSlug": "wilkie-collins",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La piedra lunar",
+        "authorName": "Wilkie Collins",
+        "authorSlug": "wilkie-collins",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "clasicos"
+        ],
+        "year": 1868,
+        "pages": 528,
+        "summary": "La piedra lunar arranca con un robo cargado de culpa imperial, superstición y cálculo humano. Un diamante sagrado traído desde la India llega a una casa de campo inglesa como regalo envenenado para Rachel Verinder, y desaparece la misma noche de su cumpleaños. A partir de esa pérdida, la novela despliega una investigación coral narrada por distintas voces, cada una con prejuicios, lagunas y zonas de interés propio. Collins convierte el enigma en algo más que una pregunta policial: la búsqueda de la joya expone secretos familiares, afectos mal entendidos, adicciones, codicia, hipocresía social y el peso de la conciencia. El resultado es una intriga de largo aliento donde cada testimonio modifica el sentido de los hechos y donde la verdad aparece como una construcción paciente, nunca como una revelación simple.",
+        "aboutThisBook": "Publicada en 1868, esta novela ocupa un lugar decisivo en la historia de la ficción detectivesca en lengua inglesa. Fuentes de referencia como Wikipedia, Open Library y la Wilkie Collins Info Page coinciden en señalarla como una de las obras más famosas del autor y como un texto fundacional para el género por su detective profesional, sus pistas falsas y su estructura de testimonios. Además, combina el misterio con una mirada crítica sobre el legado colonial británico, la respetabilidad victoriana y la fragilidad de la evidencia.",
+        "forWhom": "Para lectores adultos o jóvenes avanzados que disfrutan los misterios clásicos, las novelas de varias voces, la narrativa victoriana y las historias donde la resolución del crimen importa tanto como la observación social y moral.",
+        "whyItMatters": "Importa porque ayudó a fijar muchas convenciones del relato detectivesco moderno: el investigador metódico, la acumulación de indicios, el narrador poco fiable y la solución que reorganiza toda la trama. También sigue siendo valiosa por su trasfondo colonial y por la complejidad psicológica de sus personajes.",
+        "editorialIntro": "Antes de que el policial se volviera un territorio plenamente codificado, Wilkie Collins ya había entendido que un misterio eficaz depende tanto de la información como de la perspectiva desde la que se cuenta. La piedra lunar no solo propone un robo célebre: construye un laboratorio narrativo donde sirvientes, familiares, testigos y expertos hablan desde intereses distintos. Esa variedad le da espesor humano al enigma y explica por qué la novela todavía se lee como una obra pionera y plenamente viva.",
+        "readingLevel": "Lectura media-alta: el lenguaje no es inaccesible, pero la extensión, la estructura en múltiples narradores y el contexto victoriano exigen atención sostenida para seguir los matices de la investigación.",
+        "whyReadToday": "Porque permite volver al origen de muchos mecanismos del thriller y, al mismo tiempo, revisar cómo la literatura del siglo XIX trató el colonialismo, la clase social, la reputación y el deseo de posesión.",
+        "studyNotes": [
+          "La estructura por testimonios no es un adorno formal: cada narrador ordena los hechos según su carácter, sus prejuicios y lo que decide callar.",
+          "El diamante funciona como motor argumental y como símbolo del saqueo colonial que retorna convertido en desorden moral dentro de la casa inglesa.",
+          "Sergeant Cuff anticipa rasgos del detective moderno, pero la novela no reduce todo a su genialidad; la verdad emerge de múltiples documentos, errores y rectificaciones.",
+          "La obra gana profundidad cuando se lee como misterio y también como crítica a la hipocresía respetable de la sociedad victoriana."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La herencia maldita",
+            "summary": "El diamante llega a Rachel Verinder como legado de un militar que lo obtuvo en la India mediante violencia y sacrilegio. Desde ese inicio, Collins liga la fortuna familiar con una culpa previa y prepara el terreno para un crimen que parece tener raíces más hondas que un simple robo doméstico."
+          },
+          {
+            "title": "El robo y la dispersión de las sospechas",
+            "summary": "La piedra desaparece la noche del cumpleaños de Rachel y la casa entera entra en un estado de sospecha permanente. Criados, invitados y familiares quedan bajo observación, mientras la conducta de Rachel, Rosanna Spearman y Franklin Blake oscurece todavía más el caso."
+          },
+          {
+            "title": "La investigación cambia de forma",
+            "summary": "Cuando la primera pesquisa no resuelve nada, la novela se transforma en una indagación más amplia sobre cartas perdidas, deudas, recuerdos incompletos y testimonios contradictorios. Cada nueva voz añade datos, pero también distorsiona la verdad, de modo que el lector debe reconstruir el rompecabezas junto con los personajes."
+          },
+          {
+            "title": "La revelación final y el retorno de la gema",
+            "summary": "El desenlace muestra que la desaparición del diamante estaba ligada a una mezcla de sonambulismo inducido, oportunismo y desesperación financiera. La resolución reordena retrospectivamente toda la novela y culmina con la devolución de la piedra a su contexto sagrado original, cerrando el círculo moral de la historia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un clásico fundador del policial",
+            "content": "La novela suele citarse como una de las matrices del relato detectivesco porque articula investigación, pistas, detective profesional y reconstrucción final con una precisión extraordinaria para su época. Más que inventar cada pieza por separado, Collins les da una forma narrativa durable."
+          },
+          {
+            "heading": "La casa inglesa como escenario de desorden imperial",
+            "content": "El misterio no entra desde fuera: llega incrustado en un objeto robado durante la expansión británica. Esa procedencia vuelve imposible leer la trama solo como juego intelectual, ya que la piedra arrastra una historia de violencia, expropiación y restitución pendiente."
+          },
+          {
+            "heading": "Narradores parciales y verdad fragmentada",
+            "content": "Uno de los grandes logros del libro es mostrar que la verdad no aparece en una sola conciencia. Betteredge, Miss Clack, Franklin y los demás narradores ofrecen versiones sesgadas, cómicas o emotivas, y el lector aprende a desconfiar incluso de la voz que parece más razonable."
+          },
+          {
+            "heading": "Afecto, dinero y reputación",
+            "content": "Bajo la intriga criminal late una red de pasiones muy concretas: amor no correspondido, ambición económica, necesidad de mantener el honor y miedo al escándalo. Collins entiende que los delitos interesantes casi nunca son puramente abstractos; nacen de emociones y presiones sociales reconocibles."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La piedra lunar es solo una novela de misterio?",
+            "answer": "No. Aunque el robo organiza toda la trama, la novela también funciona como retrato social victoriano, reflexión sobre el colonialismo y estudio de la percepción sesgada de los hechos."
+          },
+          {
+            "question": "¿Por qué se considera importante en la historia del género?",
+            "answer": "Porque consolidó recursos que luego serían centrales en la novela detectivesca: el investigador profesional, la cadena de indicios, los testimonios cruzados y una resolución que obliga a reinterpretar todo lo leído."
+          },
+          {
+            "question": "¿Es una lectura difícil hoy?",
+            "answer": "Exige paciencia por su extensión y por la sintaxis de época, pero su intriga sigue siendo clara y muy eficaz. La alternancia de voces ayuda a mantener la tensión narrativa."
+          },
+          {
+            "question": "¿Qué temas conviene observar además del enigma?",
+            "answer": "Conviene fijarse en el saqueo colonial que origina la historia, en la relación entre clase y credibilidad, y en cómo la novela asocia deseo, secreto y reputación social."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: The Moonstone",
+            "url": "https://en.wikipedia.org/wiki/The_Moonstone"
+          },
+          {
+            "label": "Wilkie Collins Info Page: The Moonstone",
+            "url": "https://www.wilkie-collins.info/books_moonstone.htm"
+          },
+          {
+            "label": "Open Library: The Moonstone",
+            "url": "https://openlibrary.org/works/OL176092W/The_Moonstone"
+          },
+          {
+            "label": "Google Libros: La piedra lunar (ISBN 8484502783)",
+            "url": "https://books.google.com/books?vid=ISBN8484502783"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-princesa-azteca-de-colin-falconer",
+      "title": "La Princesa Azteca",
+      "authorName": "Colin Falconer",
+      "authorSlug": "colin-falconer",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La princesa azteca",
+        "authorName": "Colin Falconer",
+        "authorSlug": "colin-falconer",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "aventura"
+        ],
+        "year": 2002,
+        "pages": 374,
+        "summary": "La princesa azteca, publicada en inglés como Aztec, recrea en clave novelesca la vida de Malinali, figura vinculada al derrumbe del imperio mexica y al avance de Hernán Cortés. A partir de las referencias bibliográficas consultadas, el libro se presenta como una gran narración histórica centrada en una mujer situada entre dos mundos: heredera de una tradición indígena y, al mismo tiempo, arrastrada por la conquista española. Falconer convierte ese cruce en una historia de supervivencia, aprendizaje político, desplazamiento cultural y redefinición íntima. Más que limitarse al fresco bélico, la novela se interesa por cómo una protagonista femenina negocia el poder, la identidad y el deseo en medio de un cambio histórico irreversible. El tono apunta al gran relato épico, pero su energía procede de la perspectiva personal de una mujer atrapada en el corazón de una catástrofe histórica.",
+        "aboutThisBook": "Open Library registra una edición Bantam de 2002 de 374 páginas, mientras Google Libros muestra otras ediciones posteriores de unas 450 páginas y describe a Malinali como hija de un profeta y esclava infantil del aventurero español Hernán Cortés. Goodreads resume la obra como la vida triunfante y controvertida de una mujer azteca convertida en una de las grandes leyendas de México. Con esos datos, puede entenderse como una novela histórica de amplio aliento que reimagina la figura de La Malinche desde una sensibilidad narrativa contemporánea, combinando romance, violencia política y choque de civilizaciones.",
+        "forWhom": "Para lectores adultos interesados en novela histórica ambientada en Mesoamérica, relatos sobre la conquista, protagonistas femeninas complejas y tramas donde la aventura se cruza con cuestiones de identidad, lengua y poder.",
+        "whyItMatters": "Sigue siendo relevante porque devuelve centralidad narrativa a una figura histórica discutida y porque obliga a mirar la conquista no solo como campaña militar, sino como transformación humana, cultural y lingüística vivida desde el cuerpo y la memoria de una mujer.",
+        "editorialIntro": "La novela histórica sobre la conquista de México suele quedar atrapada entre el exotismo decorativo y la lección escolar. Colin Falconer intenta otra vía: reconstruir un mundo en ruinas desde una protagonista cuya posición es simultáneamente íntima y política. La princesa azteca se lee así como una historia de imperios, pero también como una meditación sobre traducción, lealtad y supervivencia. Su atractivo no depende únicamente del contexto espectacular, sino de la pregunta moral que recorre todo el libro: qué significa seguir siendo alguien cuando la historia arrasa el suelo donde esa identidad había nacido.",
+        "readingLevel": "Lectura accesible para adultos habituales de novela histórica. El contexto requiere cierta atención a nombres, conflictos y referencias a la conquista, pero el enfoque narrativo privilegia la claridad y el avance dramático.",
+        "whyReadToday": "Porque las discusiones actuales sobre memoria colonial, mediación cultural y voces femeninas del pasado vuelven especialmente fértil una novela centrada en Malinali y en el precio humano de la conquista.",
+        "studyNotes": [
+          "El eje más productivo de lectura es Malinali como figura de mediación: no pertenece por completo a un solo bando y su valor narrativo nace de esa posición intermedia.",
+          "La novela puede leerse junto a debates históricos sobre La Malinche, la traducción y la construcción de traición o supervivencia en contextos coloniales.",
+          "Conviene distinguir entre el dato histórico verificable y la dramatización novelesca con la que Falconer da densidad emocional a su protagonista.",
+          "El libro gana interés cuando se analiza cómo convierte un gran proceso imperial en experiencia individual, corporal y afectiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Origen de Malinali",
+            "summary": "El primer movimiento sitúa a la protagonista dentro de un mundo indígena jerarquizado, ritual y políticamente tenso. Desde ahí se construye su identidad inicial y se establece el valor de su ascendencia, su educación y su vulnerabilidad ante los cambios de poder."
+          },
+          {
+            "title": "Cautiverio y contacto con los conquistadores",
+            "summary": "La historia entra luego en una fase de desarraigo, servidumbre y choque cultural cuando Malinali cae bajo dominio español. Ese tránsito no solo altera sus condiciones de vida: redefine su lengua, su margen de decisión y su relación con el futuro."
+          },
+          {
+            "title": "Entre dos imperios",
+            "summary": "En el núcleo del relato, la protagonista aprende a moverse en un espacio donde la inteligencia política importa tanto como la resistencia emocional. Su cercanía con Cortés y con el mundo conquistador convierte cada elección en un problema de lealtad, interpretación y supervivencia."
+          },
+          {
+            "title": "La caída y la leyenda",
+            "summary": "El tramo final vincula el destino personal de Malinali con el hundimiento de un orden histórico completo. La novela no presenta la conquista solo como victoria militar, sino como nacimiento traumático de una memoria ambigua en la que la protagonista quedará fijada para siempre."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Malinali como centro moral del relato",
+            "content": "La gran decisión de Falconer es desplazar el foco desde los héroes militares hacia una mujer cuya inteligencia consiste en leer fuerzas ajenas y sobrevivir entre ellas. Eso vuelve la novela menos celebratoria y más ambigua que muchas recreaciones épicas de la conquista."
+          },
+          {
+            "heading": "Conquista y traducción",
+            "content": "La historia sugiere que el poder colonial no se impone solo por las armas, sino también por la capacidad de traducir, negociar y reinterpretar mundos incomprensibles entre sí. En ese sentido, la protagonista encarna una forma de poder vulnerable pero decisiva."
+          },
+          {
+            "heading": "Épica histórica y experiencia íntima",
+            "content": "Aunque el telón de fondo es monumental, la novela funciona mejor cuando reduce la escala y observa miedo, deseo, cálculo y pérdida desde cerca. Esa combinación de frescos históricos y vida interior explica buena parte de su atractivo popular."
+          },
+          {
+            "heading": "Memoria controvertida de La Malinche",
+            "content": "Leer hoy esta novela implica asumir que trabaja sobre una figura históricamente polémica. Su interés no está en cerrar el debate sobre traición o colaboración, sino en dramatizar cómo esas categorías se vuelven insuficientes cuando alguien vive en medio del derrumbe de su mundo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La novela sigue fielmente la historia documentada de La Malinche?",
+            "answer": "No de manera estricta. Se apoya en una figura histórica real y en el contexto de la conquista, pero su forma es la de una novela histórica que dramatiza emociones, relaciones y escenas para construir una experiencia narrativa completa."
+          },
+          {
+            "question": "¿Qué tipo de libro es: histórico, romántico o de aventuras?",
+            "answer": "Es principalmente una novela histórica, aunque incorpora aventura, intriga política y una dimensión afectiva importante. Su mezcla de registros busca volver cercano un proceso histórico inmenso."
+          },
+          {
+            "question": "¿Por qué la protagonista resulta tan importante?",
+            "answer": "Porque permite observar la conquista desde un punto de vista femenino y mestizo en sentido cultural, marcado por la traducción, la mediación y el conflicto de lealtades más que por el simple heroísmo bélico."
+          },
+          {
+            "question": "¿Es adecuada para quien no sabe mucho sobre la conquista de México?",
+            "answer": "Sí. La novela puede leerse sin conocimientos previos, aunque se disfruta más si el lector acompaña la experiencia con alguna referencia histórica básica sobre Cortés, los mexicas y la figura de Malinali."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: Aztec",
+            "url": "https://openlibrary.org/works/OL11637621W/Aztec"
+          },
+          {
+            "label": "Open Library edición Bantam 2002",
+            "url": "https://openlibrary.org/books/OL15597094M/Aztec"
+          },
+          {
+            "label": "Google Libros: Aztec (edición asociada a ISBN 1863253416)",
+            "url": "https://books.google.com/books?vid=ISBN1863253416"
+          },
+          {
+            "label": "Goodreads: Aztec / Feathered Serpent",
+            "url": "https://www.goodreads.com/book/show/13208771-aztec"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-rubia-de-hormigon-de-michael-connelly",
+      "title": "La Rubia De Hormigon",
+      "authorName": "Michael Connelly",
+      "authorSlug": "michael-connelly",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La rubia de hormigón",
+        "authorName": "Michael Connelly",
+        "authorSlug": "michael-connelly",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller"
+        ],
+        "year": 1994,
+        "pages": 432,
+        "summary": "La rubia de hormigón combina dos tensiones muy eficaces: un juicio civil que cuestiona a Harry Bosch por haber matado al sospechoso equivocado y la reaparición de un asesinato con la firma del supuesto criminal ya muerto. Desde ese punto de partida, Michael Connelly arma una novela policial donde la investigación avanza en paralelo a la erosión pública del detective. Bosch debe enfrentar abogados, periodistas, errores propios y pistas que parecen demostrar que todo su prestigio se levantaba sobre una conclusión falsa. El libro alterna persecución criminal, presión mediática y conflicto institucional con una notable disciplina narrativa. Más que presentar a un héroe infalible, muestra a un investigador obstinado, intuitivo y dañado, obligado a defender su nombre mientras persigue a un asesino que conoce sus puntos ciegos. El resultado es un thriller seco, urbano y muy consciente de la violencia moral que acompaña a cada procedimiento policial.",
+        "aboutThisBook": "Publicada en 1994, es una de las primeras novelas clave del ciclo de Harry Bosch. Wikipedia y Open Library coinciden en su premisa central: el caso del Dollmaker regresa cuando aparece una nueva víctima, lo que hace tambalear el tiroteo con el que Bosch creyó cerrar la pesadilla años antes. Google Libros subraya el componente judicial del relato y la necesidad de que el detective encuentre al imitador para limpiar su nombre. Esa combinación de courtroom thriller y novela negra procedimental es parte esencial de su fuerza: no solo se busca a un asesino, también se examina el coste legal, mediático y psicológico de una investigación mal cerrada.",
+        "forWhom": "Para lectores adultos que disfrutan el noir contemporáneo, los detectives con fuerte desgaste moral, los casos seriales y las novelas policiales donde el trabajo de investigación se cruza con tribunales, prensa y burocracia institucional.",
+        "whyItMatters": "Importa porque consolidó a Harry Bosch como uno de los grandes detectives de la novela negra moderna y porque muestra con gran eficacia la relación entre verdad criminal, procedimiento policial, opinión pública y responsabilidad legal.",
+        "editorialIntro": "Michael Connelly entendió pronto que el mejor policial no consiste solo en descubrir al culpable, sino en someter al investigador a un sistema entero de presiones. La rubia de hormigón parte de una idea excelente: un detective que ya había dado por resuelto su gran caso debe admitir que tal vez estaba equivocado. Desde ahí, la novela se vuelve algo más que una cacería de serial killer. Es también un retrato de Los Ángeles, de sus instituciones y de la fragilidad profesional de un policía que puede perderlo todo aun antes de entender qué está pasando.",
+        "readingLevel": "Lectura accesible para adultos y lectores habituales de thriller. El estilo es directo y muy visual, aunque la trama exige atención a nombres, procedimientos, giros judiciales y conexiones entre casos antiguos y nuevos.",
+        "whyReadToday": "Porque sigue siendo una novela muy vigente sobre errores policiales, exposición mediática, violencia de género y la dificultad de sostener una verdad compleja dentro de instituciones presionadas por resultados rápidos.",
+        "studyNotes": [
+          "La novela gana fuerza al hacer que el conflicto externo del juicio refleje el conflicto interno de Bosch: su miedo a haber construido su identidad profesional sobre una falsa certeza.",
+          "Connelly mezcla subgéneros con precisión: procedural, thriller judicial y novela negra urbana sin que ninguno cancele al otro.",
+          "El caso del Follower muestra cómo la repetición de un modus operandi puede funcionar a la vez como pista forense y como manipulación dirigida a la policía y a la prensa.",
+          "Bosch no aparece como héroe puro; sus métodos dudosos y su obstinación son parte de la eficacia del personaje y también de su peligro moral."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El juicio reabre una vieja herida",
+            "summary": "Bosch llega al tribunal para responder por la muerte de Norman Church, el hombre al que identificó como el Dollmaker. La demanda no solo amenaza su carrera: instala la posibilidad insoportable de que el asesino verdadero haya seguido libre durante años."
+          },
+          {
+            "title": "Aparece una nueva víctima",
+            "summary": "La investigación cambia de escala cuando surge un crimen con rasgos casi idénticos a los del antiguo serial killer. La evidencia obliga a revisar el caso original y activa una persecución contrarreloj en la que Bosch ya no puede confiar ni en sus intuiciones pasadas."
+          },
+          {
+            "title": "Sospechosos, errores y presión mediática",
+            "summary": "Mientras la policía persigue posibles imitadores y figuras conectadas al submundo sexual de Los Ángeles, la novela incrementa la tensión con filtraciones, periodistas y maniobras judiciales. Cada pista parece abrir una explicación y, al mismo tiempo, desmontarla."
+          },
+          {
+            "title": "La revelación del Follower",
+            "summary": "El cierre descubre que el asesino operaba desde una posición de observación privilegiada y había convertido el caso en un espectáculo de manipulación. La resolución reafirma la lucidez de Bosch, pero también deja claro el precio humano y profesional de llegar tarde a la verdad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Harry Bosch contra su propia leyenda",
+            "content": "La novela funciona porque coloca al detective frente a la posibilidad de haber estado equivocado en el caso que definía su prestigio. Esa grieta introduce vulnerabilidad real y evita que el libro dependa solo del ingenio del rompecabezas criminal."
+          },
+          {
+            "heading": "Instituciones bajo presión",
+            "content": "Connelly retrata un sistema donde policía, tribunales y prensa compiten por imponer un relato rápido y utilizable. La verdad aparece entonces como algo difícil de preservar, sometido siempre a incentivos profesionales, ambiciones y miedo al escándalo."
+          },
+          {
+            "heading": "Los Ángeles como maquinaria narrativa",
+            "content": "La ciudad no es mero decorado. Sus barrios, su industria del sexo, sus medios y sus espacios anónimos producen el tipo de violencia que la novela investiga. El noir de Connelly depende de esa geografía social tanto como del caso policial."
+          },
+          {
+            "heading": "Procedimiento y obsesión",
+            "content": "El libro mantiene un equilibrio notable entre detalles de investigación y combustión emocional. Bosch sigue pistas, analiza patrones y arma hipótesis, pero lo hace impulsado por una necesidad casi obsesiva de reparar un error posible y proteger una identidad amenazada."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta leer otras novelas de Harry Bosch antes?",
+            "answer": "No es imprescindible. La novela ofrece el contexto necesario sobre el caso del Dollmaker y permite entrar al personaje desde un momento de crisis especialmente revelador."
+          },
+          {
+            "question": "¿Predomina más el juicio o la investigación criminal?",
+            "answer": "Ambos aspectos son importantes. El juicio crea presión y pone en duda a Bosch, mientras la investigación del nuevo asesinato devuelve al libro su energía de thriller policial."
+          },
+          {
+            "question": "¿Es una novela muy violenta?",
+            "answer": "Sí, contiene asesinatos seriales y un clima sombrío propio de la novela negra, aunque Connelly privilegia el procedimiento y la tensión antes que la exhibición gratuita del horror."
+          },
+          {
+            "question": "¿Qué distingue a Harry Bosch en esta entrega?",
+            "answer": "Su mezcla de intuición, terquedad y daño interior. Bosch resulta convincente porque trabaja al borde de la desobediencia, pero nunca deja de pagar un coste personal por ese modo de investigar."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: The Concrete Blonde",
+            "url": "https://en.wikipedia.org/wiki/The_Concrete_Blonde"
+          },
+          {
+            "label": "Open Library: The concrete blonde",
+            "url": "https://openlibrary.org/works/OL111729W/The_concrete_blonde"
+          },
+          {
+            "label": "Google Libros: The Concrete Blonde (ISBN 0752815423)",
+            "url": "https://books.google.com/books?vid=ISBN0752815423"
+          },
+          {
+            "label": "WorldCat search: The Concrete Blonde Michael Connelly",
+            "url": "https://search.worldcat.org/search?q=The+Concrete+Blonde+Michael+Connelly"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-ruta-sangrienta-de-sven-hassel",
+      "title": "La Ruta Sangrienta",
+      "authorName": "Sven Hassel",
+      "authorSlug": "sven-hassel",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La ruta sangrienta",
+        "authorName": "Sven Hassel",
+        "authorSlug": "sven-hassel",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "thriller"
+        ],
+        "year": 1984,
+        "pages": 322,
+        "summary": "La ruta sangrienta es una novela bélica de Sven Hassel centrada en los hombres del 27.º Regimiento Penal, veteranos endurecidos por el frente que avanzan por distintos escenarios de la guerra europea bajo mandos brutales y en condiciones límite. La obra combina combate, hambre, agotamiento físico y un humor negro persistente para retratar la degradación moral del conflicto. Más que exaltar la épica militar, sigue a soldados atrapados en una maquinaria que los utiliza como material desechable. Entre emboscadas, marchas imposibles, partisanos y decisiones tomadas al borde de la supervivencia, el libro muestra una guerra donde la obediencia no borra el miedo ni la rabia. Hassel convierte esa travesía en una crónica amarga sobre la violencia, el absurdo del mando y la deshumanización que produce la guerra total.",
+        "aboutThisBook": "La edición española reciente identifica el libro como parte de la serie bélica de Sven Hassel y lo vincula al título inglés Bloody Road to Death. En la bibliografía oficial del autor aparece además como la versión española de una novela publicada originalmente en danés bajo otro título y traducida a numerosas lenguas. Su núcleo temático es reconocible dentro del universo de Hassel: un grupo de soldados de castigo, combates en distintos frentes y una mirada ferozmente antibelicista, expresada a través de escenas duras, sátira de la jerarquía y camaradería degradada por el miedo, el cansancio y la necesidad.",
+        "forWhom": "Para lectores adultos interesados en novela bélica cruda, ficciones antibelicistas y relatos de soldados donde pesan tanto la brutalidad del frente como el humor negro y la crítica al mando militar.",
+        "whyItMatters": "Importa porque resume muy bien la fórmula que hizo célebre a Hassel: usar la aventura militar no para glorificar la guerra, sino para exhibir su brutalidad cotidiana, la arbitrariedad de la autoridad y la vulnerabilidad física y moral de quienes combaten.",
+        "editorialIntro": "Pocas novelas de guerra populares sostienen con tanta insistencia una mezcla de ferocidad, sarcasmo y agotamiento humano. La ruta sangrienta vuelve sobre uno de los núcleos más reconocibles de Sven Hassel: hombres enviados al frente como carne de cañón, obligados a sobrevivir entre oficiales incompetentes, violencia extrema y una fraternidad siempre amenazada. El resultado no es una epopeya limpia, sino un descenso áspero por la suciedad material y moral del conflicto.",
+        "readingLevel": "Lectura media. El estilo es directo y narrativo, pero la novela contiene violencia bélica explícita, referencias históricas de campaña y un tono cínico que conviene leer como crítica de guerra, no como glorificación del combate.",
+        "whyReadToday": "Sigue siendo una lectura pertinente para pensar cómo la ficción popular puede desmontar la retórica heroica y mostrar la guerra como experiencia de desgaste, obediencia forzada y ruina moral.",
+        "studyNotes": [
+          "La novela debe leerse como ficción bélica antibelicista: la acción no embellece el conflicto, sino que insiste en su brutalidad y absurdo.",
+          "El 27.º Regimiento Penal funciona como microcosmos de una institución militar que sacrifica a los individuos y degrada la moral de todos.",
+          "El humor negro no suaviza la violencia; al contrario, subraya la descomposición emocional de los personajes.",
+          "Conviene observar la tensión constante entre camaradería y mera supervivencia: los lazos entre soldados son reales, pero están sometidos a presión extrema."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primer movimiento: desgaste en el frente",
+            "summary": "Desde el arranque, los hombres del regimiento aparecen consumidos por el combate, las pérdidas y el cansancio. El frente no es un espacio heroico, sino una trituradora donde la unidad sobrevive a medias y cada orden puede equivaler a una sentencia."
+          },
+          {
+            "title": "Segundo movimiento: avance y emboscadas",
+            "summary": "La narración sigue a la tropa por escenarios cambiantes de campaña, donde partisanos, fuego cruzado y errores de mando vuelven cada desplazamiento más peligroso. La sensación dominante es la de avanzar hacia ninguna parte salvo hacia nuevas formas de desgaste."
+          },
+          {
+            "title": "Tercer movimiento: hambre, sed y brutalización",
+            "summary": "A medida que escasean los recursos, la novela acentúa el deterioro material y moral de los combatientes. La necesidad física extrema empuja a los personajes a decisiones desesperadas y muestra hasta qué punto la guerra destruye cualquier noción estable de decencia."
+          },
+          {
+            "title": "Tramo final: supervivencia sin redención",
+            "summary": "El cierre no ofrece una victoria limpia ni una lección heroica. Lo que permanece es la evidencia de que sobrevivir en la guerra deja cicatrices, resentimiento y una visión desencantada de las jerarquías y de la violencia organizada."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La guerra como maquinaria de desecho",
+            "content": "Hassel presenta el frente como un sistema que consume cuerpos y reemplaza a los hombres sin contemplaciones. El regimiento penal expresa con nitidez esa lógica: los soldados no son héroes elegidos, sino piezas prescindibles de un engranaje militar impersonal y cruel."
+          },
+          {
+            "heading": "Humor negro y desmitificación",
+            "content": "Uno de los rasgos más característicos del libro es su humor corrosivo. Las bromas, ocurrencias y salidas grotescas no alivian la violencia, sino que desmontan la retórica solemne de la guerra y revelan una humanidad golpeada que se defiende como puede."
+          },
+          {
+            "heading": "Movimiento, geografía y desorientación",
+            "content": "El paso por distintos escenarios de campaña transmite una guerra en perpetuo desplazamiento. La geografía no amplía horizontes, sino que multiplica el desarraigo y hace sentir que cada nuevo destino reproduce el mismo ciclo de combate, pérdida y agotamiento."
+          },
+          {
+            "heading": "Antibelicismo desde la ficción popular",
+            "content": "La novela demuestra que un libro de ritmo rápido y vocación comercial puede sostener una visión duramente crítica del conflicto. En lugar de una épica victoriosa, ofrece una experiencia marcada por el miedo, la arbitrariedad del mando y la erosión de cualquier ideal romántico sobre el combate."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La ruta sangrienta glorifica la guerra?",
+            "answer": "No. Aunque está llena de acción militar, su tono general es profundamente desmitificador: muestra la guerra como violencia, desgaste físico y ruina moral más que como escenario de heroísmo limpio."
+          },
+          {
+            "question": "¿Hace falta leer otros libros de Sven Hassel antes?",
+            "answer": "No es imprescindible. Comparte personajes, ambiente y tipo de experiencia con otras novelas del autor, pero puede leerse de forma autónoma como una inmersión en su universo bélico."
+          },
+          {
+            "question": "¿Qué lugar ocupa el humor en la novela?",
+            "answer": "Un lugar central. El humor negro actúa como mecanismo de resistencia, comentario satírico sobre el mando y forma de mostrar hasta qué punto los personajes han sido endurecidos por el frente."
+          },
+          {
+            "question": "¿Es una novela histórica estricta o una ficción de guerra?",
+            "answer": "Es una ficción bélica con trasfondo histórico y ambientación de Segunda Guerra Mundial. Su interés principal está menos en la reconstrucción documental exacta que en la experiencia humana y moral del combate."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Sven Hassel Official Site: Bloody Road to Death",
+            "url": "https://www.svenhassel.com/bloody-road-to-death/"
+          },
+          {
+            "label": "Amazon: La ruta sangrienta, edición española",
+            "url": "https://www.amazon.com/RUTA-SANGRIENTA-Edici%C3%B3n-espa%C3%B1ola-Spanish/dp/8771662189"
+          },
+          {
+            "label": "Google Books: The Bloody Road to Death",
+            "url": "https://books.google.com/books/about/The_Bloody_Road_To_Death.html?id=5CKmngEACAAJ"
+          },
+          {
+            "label": "Open Library: LA Ruta Sangrienta",
+            "url": "https://openlibrary.org/works/OL1416049W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-sabana-santa-fotografia-de-jesucristo-de-carmen-porter",
+      "title": "La Sabana Santa Fotografia De Jesucristo",
+      "authorName": "Carmen Porter",
+      "authorSlug": "carmen-porter",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La sábana santa: ¿fotografía de Jesucristo?",
+        "authorName": "Carmen Porter",
+        "authorSlug": "carmen-porter",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2005,
+        "pages": 193,
+        "summary": "La sábana santa: ¿fotografía de Jesucristo? es un libro de divulgación y periodismo de investigación en el que Carmen Porter aborda el célebre sudario de Turín como objeto histórico, religioso y científico. La autora no se limita a resumir el misterio, sino que organiza el tema en torno a preguntas sobre la formación de la imagen, la trayectoria histórica del lienzo, las pruebas técnicas realizadas sobre la pieza y las controversias que siguen abiertas. El libro insiste en el carácter enigmático de la reliquia y en la dificultad de ofrecer una explicación unánime, lo que lo sitúa entre la crónica de investigación y el ensayo divulgativo sobre creencias, hipótesis y debate científico. Su interés nace precisamente de esa tensión: la Sábana Santa es presentada como un caso donde convergen fe, laboratorio, tradición y curiosidad contemporánea.",
+        "aboutThisBook": "La obra fue publicada por Edaf y en catálogos bibliográficos aparece también con el subtítulo ¿Fotografía de Jesucristo?, que aclara mejor su enfoque. El propio material editorial la describe como una crónica sobre la historia de la reliquia, sus vicisitudes, análisis, restauraciones y desafíos interpretativos. Porter incorpora además el punto de vista de una periodista que convivió durante varios días con el objeto de estudio y ordena el libro alrededor de hallazgos, hipótesis y discusiones que han mantenido vivo el debate sobre la Síndone. No se trata de una monografía académica estricta, sino de una síntesis divulgativa que acerca un asunto complejo a lectores generales interesados en religión, misterio e historia cultural.",
+        "forWhom": "Para lectores adultos interesados en historia religiosa, reliquias cristianas, periodismo de misterio y divulgación sobre debates científicos que rozan cuestiones de fe y tradición.",
+        "whyItMatters": "Importa porque muestra cómo un mismo objeto puede ser leído simultáneamente como reliquia, problema histórico, caso científico y fenómeno cultural. El libro ayuda a entender por qué la Síndone sigue generando preguntas más allá del ámbito estrictamente devocional.",
+        "editorialIntro": "La sábana santa: ¿fotografía de Jesucristo? pertenece a una tradición de libros que intentan traducir grandes enigmas religiosos al lenguaje del lector contemporáneo. Carmen Porter lo hace desde una voz periodística que privilegia la pregunta, la visita al lugar, el resumen de pruebas y la exposición de controversias. Más que cerrar el caso, organiza el material para mostrar por qué la pieza conservada en Turín se ha convertido en uno de los objetos más discutidos del imaginario cristiano moderno.",
+        "readingLevel": "Lectura media. El libro está planteado para público general y combina explicación histórica con referencias a análisis técnicos, debates sobre autenticidad y vocabulario ligado a la tradición cristiana.",
+        "whyReadToday": "Sigue siendo útil hoy porque el interés por las reliquias, la relación entre ciencia y creencia y la circulación mediática de los grandes enigmas religiosos no ha desaparecido; al contrario, se ha desplazado a nuevos formatos y públicos.",
+        "studyNotes": [
+          "Conviene distinguir entre lo que el libro presenta como dato histórico, lo que resume de investigaciones técnicas y lo que permanece en el terreno de la hipótesis.",
+          "La voz de Porter es periodística y divulgativa: busca hacer inteligible el debate, no sustituir una edición crítica especializada sobre la Síndone.",
+          "El subtítulo ¿fotografía de Jesucristo? orienta la lectura hacia el problema de la imagen y su excepcionalidad material.",
+          "La relevancia cultural del libro está en mostrar cómo una reliquia se convierte también en fenómeno mediático y en caso permanente de controversia pública."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primer bloque: historia del lienzo",
+            "summary": "El libro presenta el recorrido histórico de la Sábana Santa, sus vicisitudes y su conservación en Turín. Esa base permite situar la reliquia antes de entrar en los debates técnicos y en las hipótesis sobre su autenticidad."
+          },
+          {
+            "title": "Segundo bloque: la imagen y sus enigmas",
+            "summary": "Una parte central se dedica a las singularidades visuales del sudario, en especial al carácter tridimensional de la imagen y a las explicaciones propuestas para su formación. Aquí se concentra buena parte del atractivo del volumen."
+          },
+          {
+            "title": "Tercer bloque: análisis y restauraciones",
+            "summary": "Porter resume investigaciones, pruebas y restauraciones efectuadas sobre la pieza, subrayando tanto los avances obtenidos como las preguntas que continúan sin consenso pleno entre expertos y divulgadores."
+          },
+          {
+            "title": "Cierre: fe, ciencia y persistencia del misterio",
+            "summary": "El tramo final deja ver que la fascinación de la Síndone no depende solo de una respuesta definitiva. El libro concluye sugiriendo que su fuerza cultural reside justamente en la convivencia entre evidencia parcial, devoción y disputa interpretativa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una reliquia leída desde varios marcos",
+            "content": "El interés del libro está en mostrar que la Sábana Santa no pertenece a un único discurso. Es reliquia para la tradición cristiana, objeto histórico para la investigación documental y problema técnico para quienes estudian la materialidad de la imagen."
+          },
+          {
+            "heading": "Periodismo de investigación y divulgación del misterio",
+            "content": "Porter trabaja desde una escritura orientada al lector general. La narración de hallazgos, viajes, observaciones y debates convierte un asunto especializado en un relato accesible sin perder del todo la complejidad del caso."
+          },
+          {
+            "heading": "La imagen como núcleo del debate",
+            "content": "El subtítulo del libro revela su foco principal: la posibilidad de pensar la Síndone como una imagen excepcional, difícil de reproducir y cargada de implicaciones teológicas y científicas. Esa tensión articula la mayor parte del volumen."
+          },
+          {
+            "heading": "El misterio como forma de permanencia cultural",
+            "content": "Más allá de la respuesta que cada lector prefiera, el libro ayuda a entender por qué la Sábana Santa sigue activa en el imaginario moderno. Su capacidad de convocar expertos, creyentes, escépticos y medios de comunicación la vuelve un caso cultural persistente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro religioso o periodístico?",
+            "answer": "Tiene elementos de ambos registros, pero su tono dominante es el de la divulgación periodística: organiza información histórica, técnica y cultural sobre la Sábana Santa para un lector no especializado."
+          },
+          {
+            "question": "¿Defiende una autenticidad definitiva de la reliquia?",
+            "answer": "El libro subraya el enigma y da relevancia a investigaciones que alimentan el debate, pero su principal atractivo está en exponer preguntas, análisis y controversias más que en resolver de forma concluyente todos los puntos discutidos."
+          },
+          {
+            "question": "¿Hace falta saber mucho de historia religiosa para leerlo?",
+            "answer": "No. Está pensado para público general y explica los aspectos esenciales del objeto, su contexto y las principales líneas del debate."
+          },
+          {
+            "question": "¿Por qué sigue siendo un tema atractivo?",
+            "answer": "Porque reúne dimensiones muy distintas en una sola pieza: fe, iconografía, ciencia, autenticidad histórica y poder simbólico. Esa combinación mantiene vivo el interés lector incluso décadas después de su publicación."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Editorial Edaf: La sábana santa",
+            "url": "https://www.edaf.net/libro/la-sabana-santa_87478/"
+          },
+          {
+            "label": "Open Library: La Sabana Santa / The Sacred Sheet",
+            "url": "https://openlibrary.org/books/OL13266854M"
+          },
+          {
+            "label": "WorldCat search: La Sábana Santa / Carmen Porter",
+            "url": "https://search.worldcat.org/es/search?q=ti:%22La+Sabana+Santa%22+au:%22Carmen+Porter%22"
+          },
+          {
+            "label": "Goodreads: La Sábana Santa",
+            "url": "https://www.goodreads.com/book/show/5944209-la-s-bana-santa"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-sombra-del-miedo-islandia-negra-1-de-ragnar-jonasson",
+      "title": "La Sombra Del Miedo Islandia Negra 1",
+      "authorName": "Ragnar Jonasson",
+      "authorSlug": "ragnar-jonasson",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La sombra del miedo",
+        "authorName": "Ragnar Jónasson",
+        "authorSlug": "ragnar-jonasson",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller"
+        ],
+        "year": 2019,
+        "pages": 384,
+        "summary": "La sombra del miedo abre la serie Islandia Negra con una historia ambientada en Siglufjördur, un aislado pueblo pesquero del norte de Islandia al que solo se accede por un túnel. Allí llega Ari Thór, un policía joven que afronta su primer destino profesional lejos de Reikiavik y de la vida que imaginaba para sí mismo. Lo que parecía una comunidad tranquila pronto se resquebraja cuando aparecen una joven herida en la nieve y la muerte de un escritor anciano muy respetado. La investigación obliga a Ari a moverse en un entorno pequeño, cerrado y lleno de silencios, donde la cercanía entre vecinos no genera confianza, sino sospecha. Jónasson convierte el aislamiento geográfico en presión psicológica y hace de la nieve, la oscuridad y los secretos compartidos los motores de un noir contenido, frío y muy atmosférico.",
+        "aboutThisBook": "La novela es la entrega inicial de la serie Islandia Negra, conocida en inglés como Dark Iceland, y corresponde al original islandés Snjóblinda, difundido internacionalmente como Snowblind. La edición española de Seix Barral apareció en 2019 dentro de la Biblioteca Formentor y presenta el libro como el primer caso del joven policía Ari Thór. Tanto las fichas editoriales como las descripciones bibliográficas coinciden en señalar el peso del enclave cerrado, la intriga comunitaria y el contraste entre apariencia apacible y violencia latente. Ese equilibrio entre procedural, suspense y paisaje hostil explica buena parte de su recepción dentro del auge del noir nórdico contemporáneo.",
+        "forWhom": "Para lectores adultos aficionados a la novela negra nórdica, a los thrillers de atmósfera cerrada y a los relatos policiales donde el entorno pesa tanto como el propio misterio criminal.",
+        "whyItMatters": "Importa porque inaugura una de las series policíacas islandesas más visibles de los últimos años y demuestra cómo el noir puede intensificarse cuando el escenario, el clima y la vida comunitaria actúan como formas adicionales de encierro y amenaza.",
+        "editorialIntro": "La sombra del miedo entra en la tradición del noir nórdico por una vía especialmente eficaz: no apuesta por el exceso, sino por la contención, el clima y la sospecha que se filtra en una comunidad aparentemente apacible. Ragnar Jónasson sitúa a un investigador inexperto en un lugar del que casi no se puede salir, y convierte esa limitación espacial en el verdadero corazón de la novela. El resultado es un debut sólido de serie, muy atento a la psicología del aislamiento y al modo en que los secretos cotidianos pueden adquirir una violencia inesperada.",
+        "readingLevel": "Lectura media. La prosa es accesible y el ritmo sostenido, pero la novela gana fuerza si se atiende a sus detalles de atmósfera, a la información dosificada y a la importancia del paisaje en la construcción del suspense.",
+        "whyReadToday": "Leerla hoy sigue teniendo sentido porque el noir contemporáneo continúa explorando comunidades cerradas, desconfianza social y miedo cotidiano, y esta novela lo hace con una precisión espacial y emocional muy reconocible.",
+        "studyNotes": [
+          "Siglufjördur no es solo un escenario: funciona como mecanismo narrativo de encierro, vigilancia mutua y presión psicológica.",
+          "Ari Thór entra en la historia como policía novato, de modo que la investigación es también una novela de aprendizaje profesional y personal.",
+          "La obra privilegia la atmósfera y la sospecha acumulativa por encima del efectismo; conviene leerla atendiendo a silencios, rutinas y relaciones vecinales.",
+          "Su pertenencia al noir nórdico se aprecia en la unión entre paisaje hostil, introspección y violencia soterrada."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: llegada al pueblo cerrado",
+            "summary": "Ari Thór se instala en Siglufjördur para asumir su primer puesto policial. La sensación inicial de aislamiento y extrañeza marca el tono de la novela y prepara el contraste entre apariencia tranquila y conflicto latente."
+          },
+          {
+            "title": "Nudo: dos hechos violentos alteran la rutina",
+            "summary": "La investigación se activa con la caída mortal de un escritor anciano y el hallazgo de una joven herida en la nieve. Desde ese momento, la vida del pueblo queda atravesada por la sospecha y por la idea de que nadie conoce del todo a sus vecinos."
+          },
+          {
+            "title": "Desarrollo: secretos, mentiras y comunidad",
+            "summary": "Ari avanza entre testimonios parciales, vínculos cruzados y silencios interesados. La novela explora cómo en un enclave pequeño la proximidad física no simplifica la verdad, sino que multiplica la opacidad y el miedo a hablar."
+          },
+          {
+            "title": "Desenlace: verdad bajo presión",
+            "summary": "El cierre reúne las piezas del caso y confirma que el verdadero peligro estaba escondido en la normalidad cotidiana del pueblo. La resolución también deja asentado el lugar de Ari Thór como figura central de la serie."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El aislamiento como dispositivo narrativo",
+            "content": "La novela explota el encierro físico de Siglufjördur para aumentar la tensión. El túnel, la nieve y la distancia respecto de Reikiavik limitan movimientos, reducen salidas y convierten cada relación local en una posible fuente de amenaza."
+          },
+          {
+            "heading": "Ari Thór y el aprendizaje del noir",
+            "content": "A diferencia del detective veterano y cínico, Ari Thór entra en escena como un policía joven y todavía inestable. Esa condición vuelve más interesante la investigación, porque cada descubrimiento es también una prueba de madurez, intuición y adaptación emocional."
+          },
+          {
+            "heading": "La comunidad pequeña y el miedo cotidiano",
+            "content": "Jónasson trabaja una idea central del noir: lo más inquietante no siempre llega desde fuera. En el pueblo, el asesino potencial puede ser alguien visible, familiar y hasta cortés, lo que vuelve más perturbadora la convivencia diaria."
+          },
+          {
+            "heading": "Paisaje, clima y tono nórdico",
+            "content": "La nieve, la oscuridad y el frío no funcionan como simple decoración. Dan espesor al tono, ralentizan la percepción y refuerzan la sensación de clausura emocional que define buena parte de la mejor novela negra escandinava reciente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario seguir el orden de la serie?",
+            "answer": "Sí es recomendable empezar por esta novela, porque presenta a Ari Thór, el pueblo de Siglufjördur y el tipo de atmósfera que sostendrá el resto de Islandia Negra."
+          },
+          {
+            "question": "¿Predomina más la acción o la atmósfera?",
+            "answer": "Predomina claramente la atmósfera. La intriga avanza de forma constante, pero la fuerza del libro está en la presión psicológica, el paisaje y la sensación de encierro."
+          },
+          {
+            "question": "¿Qué relación tiene con Snowblind?",
+            "answer": "Snowblind es el título con el que el original islandés Snjóblinda se difundió en inglés. La sombra del miedo es la edición española del primer título de la serie Islandia Negra."
+          },
+          {
+            "question": "¿Por qué suele asociarse al noir nórdico?",
+            "answer": "Porque comparte varios rasgos del género: clima hostil, introspección, investigación policial, violencia no espectacular y una comunidad donde los secretos privados tienen consecuencias criminales."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Casa del Libro: La sombra del miedo (Serie Islandia Negra 1)",
+            "url": "https://www.casadellibro.com/libro-la-sombra-del-miedo-serie-islandia-negra-1/9788432235610/9788494"
+          },
+          {
+            "label": "Open Library: Snjóblinda / Snowblind",
+            "url": "https://openlibrary.org/works/OL16020265W"
+          },
+          {
+            "label": "Amazon: Snowblind (The Dark Iceland Series, 1)",
+            "url": "https://www.amazon.com/Snowblind-Thriller-Iceland-Ragnar-Jonasson/dp/125014468X"
+          },
+          {
+            "label": "Ragnar Jónasson official website",
+            "url": "http://www.ragnarjonasson.com/"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-21T05:39:02Z"
+}

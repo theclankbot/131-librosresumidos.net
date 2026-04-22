@@ -1,0 +1,1474 @@
+{
+  "batchName": "replenish-20260418T225517Z",
+  "createdAt": "2026-04-18T22:55:18Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "cain-de-jose-saramago",
+      "title": "Cain",
+      "authorName": "Jose Saramago",
+      "authorSlug": "jose-saramago",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Caín",
+        "authorName": "José Saramago",
+        "authorSlug": "jose-saramago",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2009,
+        "pages": 189,
+        "summary": "En esta novela breve y afilada, José Saramago toma al Caín bíblico y lo convierte en un viajero errante que atraviesa episodios decisivos del Antiguo Testamento. Tras matar a Abel y cargar con la marca del castigo, Caín descubre que puede desplazarse por distintos tiempos y escenarios sagrados: presencia el sacrificio de Isaac, la destrucción de Sodoma, la prueba de Job, la Torre de Babel y el diluvio. En cada episodio, observa el sufrimiento humano y cuestiona a un Dios que actúa, a sus ojos, con arbitrariedad, vanidad y crueldad. La novela avanza como una relectura irreverente de los relatos bíblicos, pero también como una reflexión moral sobre la obediencia, la culpa y la responsabilidad de quien detenta el poder absoluto.",
+        "aboutThisBook": "Caín fue la última novela publicada en vida por José Saramago y dialoga de forma directa con la tradición bíblica desde una mirada crítica, irónica y profundamente literaria. No es una parodia fácil ni una provocación vacía: es una ficción filosófica en la que Saramago somete los grandes relatos religiosos a preguntas muy humanas sobre justicia, violencia y compasión. Su estilo, con frases largas, humor seco y voz narradora muy marcada, convierte la lectura en una experiencia tan reflexiva como narrativa.",
+        "forWhom": "Para lectores adultos interesados en novelas que discuten la religión, el poder y la moral, y para quienes disfrutan de Saramago cuando mezcla fábula, ironía y debate intelectual.",
+        "whyItMatters": "Importa porque demuestra cómo una novela puede intervenir en una tradición cultural milenaria sin perder fuerza literaria. Saramago no reescribe la Biblia para escandalizar solamente: la relee para preguntar quién responde por el dolor humano.",
+        "editorialIntro": "Pocas novelas contemporáneas entran con tanta libertad y tanta inteligencia en un territorio simbólico tan cargado como la Biblia. En Caín, Saramago convierte un mito fundador en una ruta de combate moral: cada episodio conocido regresa cambiado por la ironía, la compasión y la desconfianza ante cualquier autoridad que se crea indiscutible.",
+        "readingLevel": "Media-alta: la trama es clara, pero conviene atender a la ironía, al trasfondo bíblico y a la intención filosófica del narrador.",
+        "whyReadToday": "Porque sigue siendo una novela muy viva para pensar la violencia legitimada, el fanatismo y la obediencia ciega ante discursos sagrados o políticos.",
+        "studyNotes": [
+          "Observa cómo Saramago humaniza a Caín y, al mismo tiempo, somete a juicio moral las acciones divinas del relato bíblico.",
+          "La estructura funciona por episodios: cada encuentro con una escena del Antiguo Testamento reabre la pregunta por la justicia.",
+          "El tono irónico no rebaja la seriedad del libro; al contrario, es el instrumento con el que la novela desmonta la solemnidad del poder religioso."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El fratricidio y la marca",
+            "summary": "La novela arranca con el conflicto entre Caín, Abel y Dios. Tras el asesinato de su hermano y la condena a vagar, Caín queda definido como culpable, pero también como alguien que se resiste a aceptar una lectura simple de los hechos."
+          },
+          {
+            "title": "Los viajes por el Antiguo Testamento",
+            "summary": "En su errancia, Caín aparece en distintos episodios bíblicos y contempla sacrificios, castigos y destrucciones. Cada escena le permite discutir con Dios y señalar la desproporción entre culpa y castigo."
+          },
+          {
+            "title": "El arca y el cierre de la disputa",
+            "summary": "La llegada al episodio de Noé lleva la novela a su desenlace más radical. Saramago concentra allí su crítica a la lógica del exterminio y cierra el libro con una decisión que vuelve irreversible el enfrentamiento entre criatura y creador."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una relectura moral de la Biblia",
+            "content": "Saramago no discute la Biblia desde la exégesis, sino desde la novela. Eso le permite interrogar los relatos sagrados con criterios éticos contemporáneos: ¿puede llamarse justo un poder que exige sacrificios o tolera el sufrimiento como prueba?"
+          },
+          {
+            "heading": "Caín como testigo y acusador",
+            "content": "Más que héroe tradicional, Caín funciona como conciencia incómoda del libro. Es culpable, sí, pero también es el personaje que verbaliza lo que muchos callan: que el dolor de los inocentes no puede justificarse con facilidad."
+          },
+          {
+            "heading": "Ironía, estilo y provocación",
+            "content": "La fuerza de la novela no depende solo de su tema, sino del modo en que está contada. El humor seco, la sintaxis sinuosa y la distancia irónica de Saramago convierten la polémica en literatura de alta densidad, no en simple alegato."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Caín es una novela religiosa o antirreligiosa?",
+            "answer": "Es una novela literaria y crítica que relee la tradición bíblica desde una perspectiva escéptica. Más que atacar una fe concreta, discute la idea de un poder absoluto que se presenta como justo."
+          },
+          {
+            "question": "¿Hace falta conocer bien la Biblia para entenderla?",
+            "answer": "No es imprescindible, pero ayuda. La novela se sigue bien por su propia fuerza narrativa, aunque reconocer los episodios bíblicos enriquece mucho la lectura."
+          },
+          {
+            "question": "¿Se parece a El evangelio según Jesucristo?",
+            "answer": "Sí, en el sentido de que ambas novelas revisan materiales bíblicos con irreverencia e inteligencia. Caín es más breve, más concentrada y más abiertamente satírica."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Penguin Libros — Caín",
+            "url": "https://www.penguinlibros.com/mx/literatura-contemporanea/41893-libro-cain-9786073141352"
+          },
+          {
+            "label": "Wikipedia — Caín (novela)",
+            "url": "https://es.wikipedia.org/wiki/Ca%C3%ADn_(novela)"
+          },
+          {
+            "label": "Open Library — edición de Caín",
+            "url": "https://openlibrary.org/books/OL32935822M/Ca%C3%ADn"
+          },
+          {
+            "label": "The Nobel Prize — José Saramago",
+            "url": "https://www.nobelprize.org/prizes/literature/1998/saramago/facts/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cinco-5-semanas-en-globo-de-jules-verne",
+      "title": "Cinco 5 Semanas En Globo",
+      "authorName": "Jules Verne",
+      "authorSlug": "jules-verne",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cinco semanas en globo",
+        "authorName": "Jules Verne",
+        "authorSlug": "jules-verne",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "aventura"
+        ],
+        "year": 1863,
+        "pages": null,
+        "summary": "Publicada en 1863, Cinco semanas en globo fue la novela que lanzó a Jules Verne y fijó buena parte de su imaginario narrativo: aventura, divulgación científica, mapas todavía incompletos y una confianza ambivalente en el progreso. El doctor Samuel Fergusson emprende una travesía aérea sobre África en compañía de su amigo Dick Kennedy y de su leal Joe, decidido a cruzar territorios poco conocidos por la geografía europea de su tiempo gracias a un globo aerostático técnicamente innovador. El viaje enlaza exploración, peligro y asombro: tormentas, escasez, rescates, encuentros violentos y episodios de humor conviven con descripciones de ríos, lagos, climas y rutas. Más que una simple peripecia, la novela convierte el desplazamiento en una forma de conocimiento y en una reflexión temprana sobre la curiosidad científica y sus límites culturales.",
+        "aboutThisBook": "Esta fue la primera gran novela de Verne y el libro que convenció al editor Pierre-Jules Hetzel de apostar por él de manera sostenida. Su éxito abrió el camino de los Viajes extraordinarios y mostró una fórmula que después sería central en el autor: un artefacto sorprendente, una expedición a un territorio difícil, información científica integrada en la acción y personajes definidos por su relación con el riesgo, la razón y la lealtad. Aunque hoy se lee como una aventura clásica, también conserva el interés histórico de revelar cómo el siglo XIX imaginó África, la exploración y la ciencia aplicada al viaje.",
+        "forWhom": "Para lectores juveniles y adultos que disfrutan los clásicos de aventuras, los relatos de expedición y las novelas donde la ciencia todavía aparece unida al asombro, la geografía y el peligro físico.",
+        "whyItMatters": "Importa porque inaugura la gran etapa novelística de Verne y anticipa muchos rasgos de la ciencia ficción de aventuras. También permite leer críticamente la imaginación exploradora del siglo XIX y su mezcla de curiosidad, ingenio técnico y mirada europea sobre otros territorios.",
+        "editorialIntro": "Antes de Viaje al centro de la Tierra o Veinte mil leguas de viaje submarino, estuvo este globo suspendido sobre África. Cinco semanas en globo conserva algo muy atractivo: la sensación de que el mundo todavía podía narrarse como una frontera abierta al conocimiento. Verne convierte la expedición en espectáculo, pero también en método narrativo: cada tramo del viaje combina datos, tensión y maravilla. Por eso sigue siendo una puerta de entrada ideal a su universo.",
+        "readingLevel": "Lectura media para adolescentes y público general. El argumento avanza con claridad, pero incluye descripciones geográficas, referencias científicas y un contexto histórico que se aprovecha mejor con algo de paciencia lectora y mirada crítica.",
+        "whyReadToday": "Porque sigue ofreciendo aventura genuina y porque permite revisar cómo la literatura popular mezcló ciencia, espectáculo y deseo de exploración en un momento decisivo de la modernidad.",
+        "studyNotes": [
+          "Conviene leer la novela como aventura y, al mismo tiempo, como documento de la imaginación europea del siglo XIX sobre África y la exploración científica.",
+          "El globo no es solo un medio de transporte: funciona como símbolo de ingenio técnico, dominio del espacio y fe en la capacidad humana para atravesar lo desconocido.",
+          "La relación entre Fergusson, Kennedy y Joe organiza buena parte del ritmo narrativo: ciencia, escepticismo práctico y lealtad popular se equilibran continuamente.",
+          "Puede compararse con otras novelas de Verne para ver cómo ya aparecen aquí sus temas más persistentes: viaje, conocimiento, peligro, cálculo y espectáculo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Preparativos de la expedición",
+            "summary": "El doctor Samuel Fergusson presenta su proyecto de atravesar África en globo y convence, no sin resistencia, a Dick Kennedy de acompañarlo. Desde el inicio, la novela plantea la expedición como una apuesta científica arriesgada sostenida por la inventiva del protagonista y por una mezcla de escepticismo y fidelidad entre sus compañeros."
+          },
+          {
+            "title": "El viaje sobre lagos, montañas y regiones inexploradas",
+            "summary": "Una vez en el aire, el globo Victoria permite enlazar observación geográfica y peripecia. Los viajeros sobrevuelan regiones asociadas a la búsqueda de las fuentes del Nilo, enfrentan cambios de clima y descubren que el dominio técnico nunca elimina por completo la vulnerabilidad ante la naturaleza."
+          },
+          {
+            "title": "Sed, pérdida y supervivencia",
+            "summary": "En el tramo central, la aventura se vuelve más dura: aparecen la escasez, el agotamiento, la separación momentánea del grupo y varios episodios en los que el entusiasmo explorador queda puesto a prueba por la necesidad inmediata de sobrevivir. La novela gana intensidad precisamente cuando el cálculo científico parece insuficiente."
+          },
+          {
+            "title": "Regreso y consagración del viaje",
+            "summary": "Tras cruzar el Sahara y acercarse al Senegal, la expedición logra volver con vida y recibe reconocimiento público en Inglaterra. El cierre transforma la travesía en hazaña moderna y confirma uno de los impulsos centrales de Verne: convertir el conocimiento geográfico en relato heroico para un público amplio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El nacimiento de una fórmula verniana",
+            "content": "Aquí ya están casi todos los elementos que después harían reconocible a Verne: un sabio singular, un dispositivo técnico ingenioso, compañeros con funciones dramáticas distintas y una ruta que vuelve narrativa la curiosidad científica. La novela importa no solo por sí misma, sino por lo que inaugura dentro de la obra del autor."
+          },
+          {
+            "heading": "Ciencia, espectáculo y pedagogía",
+            "content": "Verne no separa explicación y entretenimiento. Los datos geográficos, los problemas de navegación y los detalles del globo se integran en la aventura para producir una lectura que instruye mientras mantiene la tensión. Esa combinación fue una de las claves de su éxito y sigue explicando su vigencia escolar y popular."
+          },
+          {
+            "heading": "África como escenario imaginado por Europa",
+            "content": "Leer hoy Cinco semanas en globo exige advertir que su representación de África está filtrada por el horizonte cultural europeo del siglo XIX. La novela fascina por su energía narrativa, pero también invita a pensar críticamente la relación entre exploración, saber geográfico y mirada colonial."
+          },
+          {
+            "heading": "La amistad como tecnología moral del viaje",
+            "content": "La expedición no depende solo del invento de Fergusson. También se sostiene en la cooperación entre tres personajes muy distintos. El saber del doctor sería insuficiente sin la valentía concreta de Kennedy y sin la entrega práctica de Joe, que aportan humor, emoción y una dimensión humana decisiva."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Cinco semanas en globo?",
+            "answer": "Relata la travesía del doctor Samuel Fergusson, Dick Kennedy y Joe sobre África en un globo aerostático diseñado para recorrer grandes distancias mientras buscan unir distintas exploraciones y atravesar territorios poco conocidos por la geografía europea de la época."
+          },
+          {
+            "question": "¿Es un libro de ciencia ficción o de aventuras?",
+            "answer": "De ambos modos puede leerse. Su núcleo es una novela de aventuras, pero el papel del invento técnico, la confianza en la ingeniería y la imaginación científica hacen que también sea una obra fundacional para la ciencia ficción verniana."
+          },
+          {
+            "question": "¿Fue importante en la carrera de Jules Verne?",
+            "answer": "Sí. Fue el libro que lo dio a conocer de forma decisiva y consolidó su relación editorial con Pierre-Jules Hetzel, abriendo la etapa de los Viajes extraordinarios."
+          },
+          {
+            "question": "¿Sigue siendo recomendable hoy?",
+            "answer": "Sí, especialmente para quienes buscan clásicos de aventura con contexto histórico. Conviene leerla con doble mirada: por su energía narrativa y por lo que revela sobre la mentalidad científica y geográfica del siglo XIX."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Cinco semanas en globo",
+            "url": "https://es.wikipedia.org/wiki/Cinco_semanas_en_globo"
+          },
+          {
+            "label": "Project Gutenberg: Five Weeks in a Balloon",
+            "url": "https://www.gutenberg.org/ebooks/3526"
+          },
+          {
+            "label": "Open Library: Cinco semanas en globo",
+            "url": "https://openlibrary.org/works/OL24210356W"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Jules Verne",
+            "url": "https://www.britannica.com/biography/Jules-Verne"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cisnes-salvajes-de-jung-chang",
+      "title": "Cisnes Salvajes",
+      "authorName": "Jung Chang",
+      "authorSlug": "jung-chang",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cisnes salvajes",
+        "authorName": "Jung Chang",
+        "authorSlug": "jung-chang",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1991,
+        "pages": 554,
+        "summary": "Cisnes salvajes es una memoria familiar que recorre casi todo el siglo XX chino a través de tres generaciones de mujeres: la abuela de Jung Chang, entregada de joven a un señor de la guerra; la madre, militante comunista convencida durante los años de la revolución; y la propia autora, criada entre la esperanza socialista, el fervor maoísta y el trauma de la Revolución Cultural. El libro combina testimonio íntimo e historia política para mostrar cómo los grandes procesos del país entraron en la vida privada, alteraron vínculos, destruyeron certezas y obligaron a reinventar la identidad. El resultado es un relato de formación, de supervivencia y de revisión crítica del mito revolucionario.",
+        "aboutThisBook": "Más que una autobiografía lineal, este libro funciona como un puente entre la experiencia personal y la historia contemporánea de China. Jung Chang escribe con claridad narrativa, pero también con voluntad de archivo moral: recoge humillaciones, entusiasmos, lealtades familiares y desengaños ideológicos. Su gran logro consiste en hacer visible cómo las decisiones del poder atraviesan el cuerpo, la educación, el matrimonio, la maternidad y la memoria. Por eso puede leerse a la vez como saga familiar, crónica histórica y testimonio político.",
+        "forWhom": "Para lectores interesados en memorias sólidas, historia del siglo XX, China moderna y relatos familiares atravesados por la política. También resulta muy valioso para clubes de lectura, estudiantes que necesiten una entrada narrativa al maoísmo y quienes buscan no solo datos históricos, sino una voz capaz de convertir la experiencia vivida en literatura legible y conmovedora.",
+        "whyItMatters": "Sigue siendo un libro decisivo porque humaniza procesos históricos que a menudo se explican de forma abstracta. Al poner el foco en tres mujeres, muestra el coste cotidiano del autoritarismo, la propaganda y la obediencia política sobre vidas concretas.",
+        "editorialIntro": "Hay libros que informan y libros que dejan huella; Cisnes salvajes pertenece con claridad al segundo grupo. Jung Chang no se limita a recordar su vida, sino que reconstruye una genealogía femenina golpeada por guerras, revoluciones y campañas ideológicas. La lectura avanza con la fuerza de una novela, pero mantiene el peso testimonial de una confesión histórica. De ahí su permanencia: convierte un siglo convulso en una experiencia íntima, legible y difícil de olvidar.",
+        "readingLevel": "Exige atención por la cantidad de contexto histórico, nombres y transformaciones políticas, pero su prosa es fluida y muy narrativa. Un lector adulto no especializado puede seguirla bien si entra dispuesto a leer despacio y relacionar la historia familiar con la historia de China.",
+        "whyReadToday": "Porque ayuda a pensar cómo los relatos oficiales moldean la vida privada y cómo la memoria personal puede discutir la versión del poder. En una época de polarización, propaganda y relecturas del siglo XX, conserva una lucidez incómoda y necesaria.",
+        "studyNotes": [
+          "Observa cómo cambia la posición social de las mujeres en cada generación y qué permanece pese a los discursos de emancipación.",
+          "Relaciona los episodios familiares con hitos históricos como la guerra civil china, el ascenso del comunismo y la Revolución Cultural.",
+          "Fíjate en el contraste entre ideal revolucionario y experiencia cotidiana: ahí se juega buena parte de la fuerza crítica del libro.",
+          "La estructura generacional permite leer el texto como memoria privada y como interpretación del siglo XX chino al mismo tiempo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La abuela y la China de los señores de la guerra",
+            "summary": "La primera gran sección reconstruye la juventud de la abuela de Jung Chang, marcada por los pies vendados, el concubinato y una sociedad jerárquica en la que el cuerpo femenino es moneda de intercambio. Esa experiencia inicial fija el punto de partida de una genealogía atravesada por la violencia y la falta de autonomía."
+          },
+          {
+            "title": "Parte 2: La madre revolucionaria",
+            "summary": "La vida de la madre muestra el atractivo moral del comunismo para una generación que vio en la revolución una promesa de justicia y renovación nacional. Sin embargo, el compromiso político pronto se enfrenta a la disciplina del partido, a la vigilancia y a la subordinación de la vida afectiva al ideal colectivo."
+          },
+          {
+            "title": "Parte 3: Infancia y fervor maoísta",
+            "summary": "Jung Chang narra su niñez dentro de un universo dominado por la adoración a Mao, los rituales de adhesión y la expectativa de pureza ideológica. La mirada infantil permite entender cómo la propaganda puede resultar seductora antes de volverse opresiva."
+          },
+          {
+            "title": "Parte 4: Revolución Cultural, caída y memoria",
+            "summary": "Con la persecución del padre, las humillaciones públicas y el trabajo forzado, el relato entra en su zona más dura. La autora registra la ruptura de la fe revolucionaria y el largo aprendizaje de mirar críticamente aquello que durante años se presentó como incuestionable."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria familiar como historia política",
+            "content": "Uno de los mayores aciertos del libro es que no separa lo íntimo de lo histórico. Las campañas del Estado, los cambios de régimen y las purgas no aparecen como telón de fondo, sino como fuerzas que reorganizan matrimonios, amistades, lealtades y expectativas de futuro."
+          },
+          {
+            "heading": "Tres generaciones de mujeres",
+            "content": "La estructura en torno a abuela, madre e hija permite medir cambios reales y límites persistentes. Aunque cada etapa promete una forma distinta de emancipación, el control sobre la vida femenina adopta nuevos lenguajes sin desaparecer del todo."
+          },
+          {
+            "heading": "La crítica del mito revolucionario",
+            "content": "Jung Chang no niega el poder de atracción de la revolución; muestra precisamente por qué resultó convincente para muchos. Su crítica gana fuerza porque nace desde dentro del entusiasmo y del desencanto, no desde una caricatura simplista de la historia china contemporánea."
+          },
+          {
+            "heading": "Legibilidad y densidad emocional",
+            "content": "Aunque es un libro voluminoso, avanza con gran claridad narrativa. Esa accesibilidad hace que la dureza de muchos episodios resulte aún más impactante: el lector entiende los procesos históricos porque antes ha aprendido a querer, temer y acompañar a quienes los padecen."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Cisnes salvajes es novela o testimonio?",
+            "answer": "Es una obra de no ficción, una memoria familiar con fuerte dimensión histórica y autobiográfica, escrita con ritmo narrativo pero basada en experiencias reales."
+          },
+          {
+            "question": "¿Hace falta saber historia de China antes de leerlo?",
+            "answer": "No es imprescindible. El libro ofrece suficiente contexto para orientarse, aunque conocer de antemano algunos hitos del siglo XX chino puede enriquecer la lectura."
+          },
+          {
+            "question": "¿Cuál es su foco principal?",
+            "answer": "El centro del libro está en la experiencia de tres generaciones de mujeres y en cómo la historia política de China transformó sus vidas privadas."
+          },
+          {
+            "question": "¿Por qué sigue siendo tan citado?",
+            "answer": "Porque convirtió una gran historia nacional en un relato personal poderoso y accesible, y porque su mirada crítica sobre el maoísmo alcanzó una enorme difusión internacional."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Jung Chang, página oficial de Wild Swans",
+            "url": "https://www.jungchang.net/wild-swans"
+          },
+          {
+            "label": "Wikipedia (EN): Wild Swans",
+            "url": "https://en.wikipedia.org/wiki/Wild_Swans"
+          },
+          {
+            "label": "Open Library: Wild Swans",
+            "url": "https://openlibrary.org/works/OL15845961W/Wild_Swans"
+          },
+          {
+            "label": "Wikipedia (ES): Jung Chang",
+            "url": "https://es.wikipedia.org/wiki/Jung_Chang"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cuando-ya-no-quede-nadie-de-esther-lopez-barcelo",
+      "title": "Cuando Ya No Quede Nadie",
+      "authorName": "Esther Lopez Barcelo",
+      "authorSlug": "esther-lopez-barcelo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cuando ya no quede nadie",
+        "authorName": "Esther López Barceló",
+        "authorSlug": "esther-lopez-barcelo",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica"
+        ],
+        "year": 2023,
+        "pages": 328,
+        "summary": "Ofelia regresa a su ciudad natal tras la muerte de su padre y lo que empieza como un duelo íntimo acaba convirtiéndose en una indagación sobre el silencio, la herencia familiar y la memoria de un país. En el funeral aparece un francés que sabe demasiado sobre ese hombre al que ella siempre creyó un ferroviario discreto y sobre esa madre que parecía haber llevado una vida sin relieve público. A partir de ahí, la novela despliega una búsqueda que enlaza secretos domésticos, heridas de la posguerra y la experiencia de varias mujeres obligadas a sobrevivir entre medias verdades. Esther López Barceló construye así una historia de revelaciones sucesivas donde la identidad personal solo puede entenderse al atravesar el territorio incómodo de la memoria histórica.",
+        "aboutThisBook": "Es una primera novela ambiciosa en la que Esther López Barceló lleva al terreno narrativo muchas de las preguntas que han marcado su trabajo ensayístico y divulgativo sobre memoria democrática. No se limita a contar un secreto familiar: convierte esa pesquisa en una reflexión sobre cómo los traumas colectivos se infiltran en la vida cotidiana, en los afectos y en lo que una familia decide callar para seguir adelante. El libro combina tensión emocional, reconstrucción histórica y una mirada muy atenta a la experiencia de las mujeres durante y después de la dictadura.",
+        "forWhom": "Para lectores de novela literaria e histórica que buscan historias familiares con trasfondo político, y para quienes se interesan por la memoria democrática española desde una mirada emocional y narrativa.",
+        "whyItMatters": "Importa porque muestra que la historia no queda atrás cuando cambia el calendario: permanece en los cuerpos, en los apellidos y en las omisiones. La novela conecta memoria privada y memoria pública con una sensibilidad poco complaciente.",
+        "editorialIntro": "Hay novelas que avanzan como una investigación y otras que avanzan como una herida que por fin se abre. Cuando ya no quede nadie pertenece a las dos tradiciones. Esther López Barceló parte de una muerte y de un regreso para entrar en un territorio donde el pasado familiar deja de ser refugio y se convierte en interrogación. El resultado es una narración de gran carga emocional que vincula la posguerra, el amor, la pérdida y la resistencia silenciosa de muchas mujeres.",
+        "readingLevel": "Lectura de complejidad media-alta, adecuada para lectores adultos habituados a novelas con varias capas temporales, peso emocional y referencias a la memoria histórica española.",
+        "whyReadToday": "Porque en un momento en que el debate sobre la memoria sigue abierto, esta novela recuerda que el pasado no es una consigna abstracta sino una experiencia heredada que condiciona la identidad y los vínculos.",
+        "studyNotes": [
+          "Analiza cómo el duelo de Ofelia funciona como motor narrativo y como puerta de entrada al pasado colectivo.",
+          "Observa la relación entre secreto familiar y memoria histórica: lo que la familia calla reproduce, en pequeño, los silencios de la dictadura.",
+          "Fíjate en el papel de las mujeres como guardianas, transmisoras o víctimas de la memoria.",
+          "Puede leerse como una novela de identidad: la protagonista necesita reinterpretar a sus padres para entenderse a sí misma.",
+          "El misterio no busca solo resolver una incógnita argumental, sino cuestionar la versión oficial de una vida y de una época."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El regreso y la pérdida",
+            "summary": "La muerte del padre obliga a Ofelia a volver al lugar del que procede. El funeral y el reencuentro con la casa familiar activan una sensación de extrañeza: la protagonista descubre que conoce mucho menos de sus padres de lo que creía."
+          },
+          {
+            "title": "Parte 2: El extraño que rompe el silencio",
+            "summary": "La aparición de un francés vinculado al pasado del difunto abre una grieta en la versión familiar de los hechos. Ofelia empieza a recomponer una historia marcada por omisiones, lealtades y heridas que atravesaron la posguerra."
+          },
+          {
+            "title": "Parte 3: La verdad heredada",
+            "summary": "La investigación personal desemboca en una revisión profunda de la identidad familiar. Al comprender quiénes fueron realmente sus padres, Ofelia también entiende de qué modo la historia del país ha modelado su propia vida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria histórica desde lo íntimo",
+            "content": "La novela evita el tono de tesis y prefiere mostrar cómo los grandes procesos históricos se depositan en gestos cotidianos, vacíos de información y afectos difíciles de nombrar. Esa estrategia vuelve más poderosa su reflexión sobre la dictadura y la posguerra."
+          },
+          {
+            "heading": "El secreto familiar como estructura",
+            "content": "El libro se sostiene sobre una pregunta central —quiénes fueron de verdad los padres de Ofelia— y organiza la tensión narrativa en torno a la revelación gradual. Cada hallazgo modifica la lectura de los anteriores y obliga a reinterpretar las identidades en juego."
+          },
+          {
+            "heading": "Mujeres, resistencia y transmisión",
+            "content": "Uno de los acentos más valiosos de la novela es su atención a la experiencia femenina. No presenta a las mujeres solo como testigos del pasado, sino como figuras decisivas en la conservación, deformación o supervivencia de la memoria."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Cuando ya no quede nadie?",
+            "answer": "Cuenta el regreso de Ofelia a su ciudad natal tras la muerte de su padre y la investigación que emprende al descubrir que la historia de sus padres está unida a secretos familiares y a la memoria de la posguerra española."
+          },
+          {
+            "question": "¿Es una novela histórica o una saga familiar?",
+            "answer": "Es ambas cosas en cierta medida: funciona como novela familiar y de identidad, pero su trasfondo es claramente histórico, centrado en la memoria democrática, la posguerra y los silencios heredados."
+          },
+          {
+            "question": "¿Hace falta conocer el contexto histórico para disfrutarla?",
+            "answer": "No, aunque conocer algo sobre la dictadura y la posguerra en España ayuda a apreciar mejor sus matices. La novela está construida para que el conflicto emocional sostenga también la lectura."
+          },
+          {
+            "question": "¿Qué tipo de lector suele conectar más con este libro?",
+            "answer": "Quien disfrute de novelas con investigación familiar, personajes atravesados por la historia y un enfoque literario sobre la memoria y los afectos."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "TodosTusLibros - ficha del libro",
+            "url": "https://www.todostuslibros.com/libros/cuando-ya-no-quede-nadie_9788425362842"
+          },
+          {
+            "label": "Open Library - edición 2023",
+            "url": "https://openlibrary.org/books/OL46124984M/Cuando_ya_no_quede_nadie"
+          },
+          {
+            "label": "Open Library - obra",
+            "url": "https://openlibrary.org/works/OL34061298W/Cuando_ya_no_quede_nadie"
+          },
+          {
+            "label": "WorldCat - búsqueda bibliográfica",
+            "url": "https://search.worldcat.org/es/search?q=Cuando%20ya%20no%20quede%20nadie%20Esther%20L%C3%B3pez%20Barcel%C3%B3"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cuarteto-de-manuel-vazquez-montalban",
+      "title": "Cuarteto",
+      "authorName": "Manuel Vazquez Montalban",
+      "authorSlug": "manuel-vazquez-montalban",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cuarteto",
+        "authorName": "Manuel Vázquez Montalbán",
+        "authorSlug": "manuel-vazquez-montalban",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 1988,
+        "pages": 112,
+        "summary": "Cuarteto es una novela breve, inquietante y muy concentrada en la que Manuel Vázquez Montalbán trabaja con materiales del género negro sin someterse del todo a sus reglas. En el centro hay dos parejas, un narrador íntimamente implicado en ese pequeño mundo y una investigación criminal que avanza entre sospechas, deseos cruzados y zonas de sombra. Más que una intriga de mecanismo perfecto, la novela propone una atmósfera de observación moral: el narrador, culto, irónico y emocionalmente desplazado, mira a Carlota, Pepa, Esteban Modolell y Luis mientras un inspector intenta cerrar el caso con eficiencia burocrática. El crimen importa, pero importa aún más la red de afectos, frustraciones y ambigüedades sexuales y sentimentales que hace del cuarteto una figura inestable.",
+        "aboutThisBook": "Lejos de la estructura más reconocible de la serie Carvalho, Cuarteto muestra a un Vázquez Montalbán más condensado, introspectivo y experimental. Es una novela corta que mezcla pesquisa, retrato psicológico y comentario social sin perder tensión narrativa. Su brevedad es engañosa: en pocas páginas instala personajes memorables, un narrador de rara complejidad y una sensación persistente de culpa, deseo y fracaso. Por eso suele leerse como una pieza singular dentro de la obra del autor.",
+        "forWhom": "Para lectores de novela negra poco convencional, de narrativa breve con densidad psicológica y de historias donde el misterio sirve también para explorar identidad, deseo y desencanto.",
+        "whyItMatters": "Importa porque condensa varias virtudes centrales de Vázquez Montalbán: inteligencia narrativa, mirada crítica y capacidad para usar el crimen como puerta de entrada a conflictos íntimos y sociales más profundos.",
+        "editorialIntro": "No todas las novelas negras necesitan un detective inolvidable o una gran conspiración para dejar huella. A veces basta un pequeño círculo de personajes, una voz narradora precisa y un crimen que actúe como detonante moral. Eso es lo que consigue Cuarteto: una novela breve, elegante y turbia, donde las relaciones pesan tanto como la pesquisa.",
+        "readingLevel": "Media-alta: el argumento puede seguirse con facilidad, pero el verdadero interés está en las insinuaciones, la voz del narrador y las tensiones psicológicas.",
+        "whyReadToday": "Porque su exploración del deseo, la identidad y la fragilidad de las relaciones sigue resultando moderna, y porque propone una novela negra más ambigua y literaria de lo habitual.",
+        "studyNotes": [
+          "Fíjate en que el crimen no es el único motor del relato: la novela se sostiene también en la tensión emocional entre los personajes.",
+          "El narrador no es neutral; su mirada condiciona cómo entendemos al cuarteto y añade capas de deseo, culpa y distancia.",
+          "Conviene leer la figura del inspector como contraste con el mundo interior del narrador: procedimiento frente a complejidad moral."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El cuarteto y la voz que observa",
+            "summary": "La novela presenta a las dos parejas y al narrador que las frecuenta, las interpreta y se deja afectar por ellas. Desde el inicio queda claro que la estabilidad del grupo es solo aparente."
+          },
+          {
+            "title": "El crimen y la investigación",
+            "summary": "La irrupción del hecho criminal ordena el relato en clave de pesquisa. Sin embargo, la investigación no elimina las ambigüedades: solo obliga a mirar con más atención las tensiones ya latentes entre los personajes."
+          },
+          {
+            "title": "Deseo, culpa y cierre inquietante",
+            "summary": "A medida que el caso se acerca a una resolución, la novela desplaza el foco desde la respuesta policial hacia el coste íntimo de lo ocurrido. El desenlace deja un poso moral más fuerte que la simple solución del enigma."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela negra desviada hacia lo íntimo",
+            "content": "Cuarteto utiliza un crimen y una investigación, pero su energía principal no procede del suspense puro. Vázquez Montalbán desplaza el interés hacia la textura emocional del grupo y convierte la intriga en un instrumento de revelación psicológica."
+          },
+          {
+            "heading": "La importancia del narrador",
+            "content": "El narrador es decisivo porque no se limita a contar: filtra, interpreta y se expone. Su bisexualidad, su ironía y su conciencia de fracaso dan al libro una perspectiva poco común en la narrativa criminal española de su momento."
+          },
+          {
+            "heading": "La brevedad como concentración",
+            "content": "La novela demuestra que la brevedad puede ser una forma de intensidad. En pocas páginas, el autor condensa retrato social, ambigüedad erótica, culpa y observación moral sin sacrificar claridad ni tensión."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de la serie Carvalho?",
+            "answer": "No. Aunque comparte con Vázquez Montalbán el gusto por el crimen como vía de análisis social, Cuarteto no pertenece a la serie de Pepe Carvalho y tiene un tono más concentrado e introspectivo."
+          },
+          {
+            "question": "¿Predomina la intriga o el retrato psicológico?",
+            "answer": "Ambos elementos están presentes, pero el libro destaca sobre todo por su retrato psicológico y por la complejidad de la voz narradora."
+          },
+          {
+            "question": "¿Es una buena puerta de entrada al autor?",
+            "answer": "Sí, especialmente para quien quiera descubrir una faceta más breve y literaria de Vázquez Montalbán. Después puede ser muy interesante pasar a las novelas de Carvalho para ampliar el mapa de su obra."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Casa del Libro — Cuarteto",
+            "url": "https://www.casadellibro.com/libro-cuarteto/9788439707646/769714"
+          },
+          {
+            "label": "Open Library — edición de Cuarteto",
+            "url": "https://openlibrary.org/books/OL1822332M/Cuarteto"
+          },
+          {
+            "label": "Internet Archive — Cuarteto",
+            "url": "https://archive.org/details/cuarteto0000vazq"
+          },
+          {
+            "label": "Novela negra y cine negro — reseña de Cuarteto",
+            "url": "https://novelanegraycinenegro.blogspot.com/2011/03/manuel-vazquez-montalban-cuarteto.html"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "dialogos-de-platon",
+      "title": "Dialogos",
+      "authorName": "Platon",
+      "authorSlug": "platon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Diálogos",
+        "authorName": "Platón",
+        "authorSlug": "platon",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": null,
+        "pages": null,
+        "summary": "Bajo el título Diálogos suele reunirse una parte fundamental de la obra de Platón: textos filosóficos escritos en forma dramática, casi siempre organizados alrededor de la figura de Sócrates, donde pensar significa preguntar, discutir, refutar y volver a empezar. No existe un único volumen canónico con el mismo contenido en todas las ediciones; algunas priorizan los diálogos socráticos iniciales y otras incorporan obras mayores como Fedón, Banquete, Fedro, Gorgias o República. Esa variedad no impide reconocer una unidad profunda: los Diálogos exploran qué es la justicia, cómo se forma el alma, qué puede llamarse conocimiento, qué lugar ocupa el amor en la búsqueda de la verdad y cómo debería organizarse la vida común. Su fuerza no reside solo en las ideas, sino en la escena misma del pensamiento en movimiento.",
+        "aboutThisBook": "Leer a Platón en sus Diálogos es entrar en uno de los grandes orígenes de la filosofía occidental. Frente al tratado sistemático, Platón elige una forma literaria en la que la verdad no se entrega como fórmula cerrada, sino que se persigue mediante conversación, tensión argumentativa, ironía y mito. Por eso estos textos siguen siendo decisivos tanto para estudiantes de filosofía como para lectores de literatura clásica. Más que ofrecer respuestas simples, enseñan un estilo de indagación. Además, permiten ver cómo cuestiones antiguas —la educación, el poder, el lenguaje, la amistad, la muerte o el deseo— siguen siendo preguntas radicalmente contemporáneas.",
+        "forWhom": "Para lectores adultos, estudiantes y clubes de lectura interesados en filosofía, clásicos y pensamiento político o ético; especialmente para quienes quieren una entrada seria pero viva a la obra de Platón.",
+        "whyItMatters": "Importa porque aquí se configuró una parte central del vocabulario filosófico de Occidente. Los Diálogos no solo transmiten doctrinas: muestran cómo se argumenta, cómo se desmonta una opinión y cómo una conversación puede convertirse en una forma exigente de búsqueda de verdad.",
+        "editorialIntro": "Pocas obras clásicas conservan tanta vitalidad intelectual como los Diálogos de Platón. Incluso cuando el lector no comparte todas sus conclusiones, queda atrapado por la energía del intercambio: voces que se contradicen, conceptos que se afinan, escenas memorables y una convicción profunda de que pensar exige diálogo. Esa forma híbrida entre literatura y filosofía explica su permanencia. No son únicamente textos para especialistas; son una experiencia de lectura donde el razonamiento aparece encarnado en personajes, gestos y situaciones.",
+        "readingLevel": "Lectura media-alta. Aunque muchas páginas son claras y conversacionales, los Diálogos exigen atención conceptual, paciencia con la argumentación y disposición para volver sobre ideas difíciles. Una buena edición anotada ayuda mucho en la primera lectura.",
+        "whyReadToday": "Porque ayudan a pensar mejor en tiempos de opiniones rápidas: obligan a distinguir entre creer, saber, persuadir y comprender, y muestran que discutir en serio es una forma de cuidado intelectual y moral.",
+        "studyNotes": [
+          "No hay un único libro titulado Diálogos con contenido fijo: conviene comprobar siempre qué selección incluye la edición concreta que se está leyendo.",
+          "La forma dialogada es parte del pensamiento platónico: el modo de preguntar y responder importa tanto como las tesis que finalmente se formulan.",
+          "Sócrates funciona en muchos textos como figura de examen crítico, ironía y refutación; no siempre habla en nombre de una doctrina cerrada.",
+          "Resulta útil distinguir entre diálogos de orientación ética, política, epistemológica o metafísica, aunque en Platón esos campos suelen entrecruzarse."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La pregunta socrática y el examen de las opiniones",
+            "summary": "En los diálogos tempranos o de entrada suele dominar la escena del interrogatorio socrático. Alguien cree saber qué es la piedad, la valentía o la justicia, y Sócrates muestra que las definiciones habituales se deshacen bajo examen. El lector descubre que la filosofía empieza cuando la certeza cómoda se vuelve problemática."
+          },
+          {
+            "title": "Amor, alma y conocimiento",
+            "summary": "En obras centrales de la tradición platónica, como Banquete, Fedón o Fedro, el diálogo se abre a cuestiones mayores: el deseo de belleza, la inmortalidad del alma, la relación entre cuerpo y verdad, y la posibilidad de elevarse desde lo sensible hacia lo inteligible. Aquí Platón combina razonamiento con imágenes inolvidables."
+          },
+          {
+            "title": "Justicia, ciudad y educación",
+            "summary": "En los diálogos políticos, especialmente alrededor de República, la conversación se desplaza del individuo a la polis. Platón pregunta qué hace justa a una comunidad, qué tipo de educación forma buenos ciudadanos y qué riesgos tiene dejar el gobierno en manos de la ignorancia o de la pura ambición."
+          },
+          {
+            "title": "El diálogo como forma abierta",
+            "summary": "Muchos volúmenes de Diálogos dejan al lector sin una conclusión totalmente clausurada. Esa aparente incompletud es parte de su potencia: Platón obliga a continuar el razonamiento más allá de la página y convierte la lectura en una prolongación de la discusión filosófica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Pensar conversando",
+            "content": "La gran invención formal de Platón consiste en hacer de la filosofía una escena. En lugar de exponer tesis como un manual, organiza situaciones de habla donde el pensamiento se corrige, se contradice y se depura. Esa estructura vuelve visibles los procedimientos de la argumentación y no solo sus resultados."
+          },
+          {
+            "heading": "Sócrates como personaje filosófico",
+            "content": "En muchos diálogos, Sócrates no es únicamente un portavoz doctrinal, sino una presencia incómoda que obliga a los demás a reconocer inconsistencias. Su ironía, su resistencia a dar definiciones demasiado rápidas y su insistencia en examinar la vida explican buena parte de la energía intelectual del corpus."
+          },
+          {
+            "heading": "La alianza entre mito y concepto",
+            "content": "Platón no separa de manera rígida razonamiento e imaginación. Mitos, alegorías y comparaciones conviven con análisis lógicos para aproximarse a cuestiones que exceden la experiencia inmediata, como el alma, el bien o la estructura de la realidad. Esa mezcla es una de las razones de su permanencia literaria."
+          },
+          {
+            "heading": "Una obra siempre contemporánea",
+            "content": "Los Diálogos siguen interpelando porque vuelven sobre problemas que no se agotan: cómo educar, qué es gobernar bien, cuándo una opinión merece confianza y por qué el deseo puede orientar o desviar la vida. Leerlos hoy no significa venerar un monumento, sino entrar en una disputa intelectual todavía abierta."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Diálogos de Platón es una novela?",
+            "answer": "No. Aunque están escritos con una forma literaria muy viva, los Diálogos son obras filosóficas. La dimensión dramática sirve para hacer visible el razonamiento, no para construir ficción en el sentido moderno del término."
+          },
+          {
+            "question": "¿Todos los volúmenes titulados Diálogos contienen las mismas obras?",
+            "answer": "No. El título suele designar selecciones editoriales distintas. Por eso conviene revisar siempre el índice de la edición concreta antes de estudiar o comentar el libro."
+          },
+          {
+            "question": "¿Por dónde conviene empezar a leer a Platón?",
+            "answer": "Muchos lectores comienzan por diálogos relativamente accesibles como Apología, Critón, Eutifrón o Banquete. Después resulta más fácil entrar en textos de mayor densidad argumentativa como Fedón, Gorgias o República."
+          },
+          {
+            "question": "¿Por qué siguen siendo importantes?",
+            "answer": "Porque enseñan a pensar en diálogo, a someter las opiniones a examen y a relacionar ética, política, lenguaje y conocimiento dentro de una misma experiencia intelectual."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Stanford Encyclopedia of Philosophy: Plato",
+            "url": "https://plato.stanford.edu/entries/plato/"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Plato",
+            "url": "https://www.britannica.com/biography/Plato"
+          },
+          {
+            "label": "Internet Encyclopedia of Philosophy: Plato",
+            "url": "https://iep.utm.edu/plato/"
+          },
+          {
+            "label": "Open Library: Dialogos De Platon (Biblioteca Clasica Gredos)",
+            "url": "https://openlibrary.org/works/OL379992W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "distancia-de-rescate-de-samanta-schweblin",
+      "title": "Distancia De Rescate",
+      "authorName": "Samanta Schweblin",
+      "authorSlug": "samanta-schweblin",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Distancia de rescate",
+        "authorName": "Samanta Schweblin",
+        "authorSlug": "samanta-schweblin",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2014,
+        "pages": 124,
+        "summary": "Distancia de rescate es una novela breve y perturbadora que convierte una conversación fragmentada en una experiencia de amenaza constante. Amanda, una madre al borde de la muerte, intenta reconstruir junto a David los hechos que la condujeron hasta una sala de urgencias rural. Mientras ambos buscan el llamado punto exacto en que todo se torció, el relato entrelaza la relación entre madres e hijos, el miedo a no llegar a tiempo y la sospecha de una contaminación que atraviesa el paisaje. Samanta Schweblin trabaja con silencios, repeticiones y desplazamientos de sentido para producir una sensación de asfixia moral. Lo que empieza como intriga se vuelve una reflexión inquietante sobre el cuidado, el cuerpo y el daño invisible.",
+        "aboutThisBook": "La fuerza del libro está en su forma. Schweblin prescinde de explicaciones extensas y construye la novela casi entera como un diálogo tenso, lleno de interrupciones y vacíos. Esa economía verbal no reduce la complejidad; al contrario, intensifica la incertidumbre y obliga a leer cada detalle como una pista. Al mismo tiempo, la obra articula un miedo muy reconocible: la fragilidad del vínculo entre una madre y su hija cuando el entorno deja de ser seguro. Por eso la novela funciona como thriller psicológico, relato de terror cotidiano y comentario sobre la contaminación rural.",
+        "forWhom": "Ideal para lectores de novelas breves pero intensas, para quienes disfrutan de la ambigüedad bien trabajada y para quienes buscan literatura latinoamericana contemporánea con riesgo formal. También interesa a clubes de lectura y estudiantes por su potencia simbólica, su estructura dialogada y la manera en que convierte una trama mínima en una experiencia de lectura muy densa.",
+        "whyItMatters": "Importa porque demuestra cuánto puede lograr una novela corta cuando encuentra una forma exacta. Además, aborda de manera literaria temores contemporáneos muy concretos: los tóxicos ambientales, la vulnerabilidad infantil y la culpa que acompaña al cuidado.",
+        "editorialIntro": "Pocas novelas recientes consiguen generar inquietud con tan pocos elementos visibles. Distancia de rescate empieza en voz baja, casi como un interrogatorio íntimo, y pronto instala una sensación de urgencia que no abandona al lector. Samanta Schweblin narra desde la elipsis y el desajuste, sin ofrecer un suelo completamente firme. Esa elección formal vuelve la experiencia más intensa: la amenaza no se explica del todo, pero se siente en cada página. Es una novela corta, sí, aunque su reverberación emocional y simbólica es mucho más amplia.",
+        "readingLevel": "La prosa es clara y la extensión breve, pero la estructura fragmentaria exige atención para reconstruir tiempos, voces y causalidades. Funciona muy bien para lectores adultos acostumbrados a aceptar zonas de ambigüedad sin pedir una resolución completamente cerrada.",
+        "whyReadToday": "Porque sigue dialogando con dos miedos muy presentes: la degradación ambiental y la sensación de que el peligro real puede ser invisible hasta que ya es tarde. También recuerda que el terror literario no necesita exceso, sino precisión.",
+        "studyNotes": [
+          "La idea de la distancia de rescate resume una ética del cuidado: piensa cuánto puede proteger una madre y en qué momento esa protección fracasa.",
+          "Observa cómo el diálogo con David organiza la novela: más que informar, guía la memoria de Amanda hacia los puntos de mayor intensidad moral.",
+          "El paisaje rural no aparece como refugio idílico, sino como espacio contaminado, ambiguo y amenazante.",
+          "La ambigüedad no es un adorno: forma parte del modo en que la novela representa el miedo, la culpa y la imposibilidad de comprender del todo el daño."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: La conversación en la sala de urgencias",
+            "summary": "Amanda, debilitada, intenta recordar lo ocurrido mientras David la obliga a concentrarse en los hechos decisivos. Desde el comienzo, la novela instala un tiempo quebrado y una atmósfera de urgencia que convierte la memoria en investigación."
+          },
+          {
+            "title": "Momento clave 2: Verano, maternidad y sospecha",
+            "summary": "El recuerdo lleva a la casa de campo, a la relación de Amanda con su hija Nina y a la inquietante cercanía con Carla y David. En ese entorno aparentemente cotidiano empieza a crecer la percepción de que algo en el paisaje y en los cuerpos ya está dañado."
+          },
+          {
+            "title": "Momento clave 3: El accidente y la lógica del traslado",
+            "summary": "La historia de David y el procedimiento al que su madre recurre para salvarlo introduce un quiebre decisivo en la novela. A partir de ahí, la maternidad se mezcla con lo inexplicable y el miedo adquiere una dimensión física y espiritual."
+          },
+          {
+            "title": "Momento clave 4: El punto exacto",
+            "summary": "La búsqueda del instante en que todo se perdió concentra la tensión final. Más que ofrecer una solución tranquilizadora, la novela revela la impotencia de llegar a comprender del todo una catástrofe que ya ha ocurrido."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela del cuidado y de la culpa",
+            "content": "El título condensa una experiencia emocional central: medir la distancia que separa a una madre de su hija para poder protegerla. Schweblin transforma ese cálculo afectivo en principio estructural y en metáfora de una vigilancia siempre insuficiente."
+          },
+          {
+            "heading": "Ambigüedad productiva",
+            "content": "La novela no aclara todo porque su apuesta consiste en sostener la incertidumbre. Esa ambigüedad no debilita el sentido; permite que convivan lectura psicológica, terror corporal y crítica ambiental sin reducir la obra a una sola explicación."
+          },
+          {
+            "heading": "Lenguaje comprimido, efecto expansivo",
+            "content": "Schweblin escribe con una economía extrema. Cada escena parece recortada al mínimo, pero la carga simbólica crece precisamente gracias a esa contención. La brevedad del libro multiplica, en lugar de limitar, su capacidad de inquietar."
+          },
+          {
+            "heading": "Naturaleza contaminada y amenaza invisible",
+            "content": "Uno de los logros más contemporáneos del libro es convertir la contaminación en forma narrativa. El peligro no siempre se ve, no siempre se entiende y, sin embargo, altera cuerpos, vínculos y percepciones de manera irreversible."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Distancia de rescate es terror, thriller o literatura psicológica?",
+            "answer": "Se mueve entre esos registros. Puede leerse como thriller psicológico con elementos de terror y como una novela literaria sobre maternidad, culpa y contaminación."
+          },
+          {
+            "question": "¿Es una novela difícil de leer?",
+            "answer": "No por el estilo, que es sobrio y accesible, sino por su intensidad y su estructura fragmentada. Exige atención, pero su brevedad ayuda a mantener el hilo."
+          },
+          {
+            "question": "¿Qué significa la expresión distancia de rescate?",
+            "answer": "Es la medida mental con la que Amanda calcula cuán lejos puede estar de su hija sin dejar de protegerla. En la novela, esa idea se vuelve una metáfora del cuidado y de sus límites."
+          },
+          {
+            "question": "¿Por qué tuvo tanta repercusión internacional?",
+            "answer": "Porque combina una voz muy personal con una forma narrativa precisa y perturbadora, y porque transforma preocupaciones contemporáneas en una ficción breve de gran potencia emocional."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia (ES): Distancia de rescate",
+            "url": "https://es.wikipedia.org/wiki/Distancia_de_rescate"
+          },
+          {
+            "label": "Open Library: Distancia de rescate",
+            "url": "https://openlibrary.org/works/OL17317216W/Distancia_de_rescate"
+          },
+          {
+            "label": "Sitio oficial de Samanta Schweblin",
+            "url": "https://samantaschweblin.com/start/"
+          },
+          {
+            "label": "Wikipedia (ES): Samanta Schweblin",
+            "url": "https://es.wikipedia.org/wiki/Samanta_Schweblin"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "donde-los-escorpiones-de-lorenzo-silva",
+      "title": "Donde Los Escorpiones",
+      "authorName": "Lorenzo Silva",
+      "authorSlug": "lorenzo-silva",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Donde los escorpiones",
+        "authorName": "Lorenzo Silva",
+        "authorSlug": "lorenzo-silva",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2016,
+        "pages": 352,
+        "summary": "En esta entrega de la serie Bevilacqua y Chamorro, Lorenzo Silva saca a sus investigadores del territorio habitual y los traslada a la base española de Herat, en Afganistán. Allí, en pleno verano de 2014, un militar aparece degollado junto a una hoz usada para cortar amapola, un detalle que abre varias hipótesis: atentado insurgente, ajuste interno o crimen nacido de un conflicto íntimo. El subteniente Bevilacqua, ya veterano y consciente del desgaste del tiempo, debe investigar en un espacio cerrado, sometido a jerarquías, desconfianzas y tensiones de guerra. La novela combina la pesquisa criminal con una mirada sobria sobre las misiones exteriores del ejército, la violencia y la fragilidad moral de quienes viven al límite.",
+        "aboutThisBook": "Donde los escorpiones destaca dentro de la saga por su desplazamiento geográfico y ético. Lorenzo Silva conserva la inteligencia procedimental que caracteriza a Bevilacqua y Chamorro, pero la coloca en un escenario bélico donde las reglas son más inestables y los intereses se cruzan con mayor opacidad. No es solo una novela de investigación: también es una exploración del poder, de la vida militar en misión y de la dificultad de distinguir entre deber, lealtad y responsabilidad personal. Esa combinación vuelve el libro especialmente rico para lectores de novela negra que buscan algo más que un enigma bien resuelto.",
+        "forWhom": "Ideal para lectores de novela negra contemporánea, seguidores de Bevilacqua y Chamorro y quienes aprecian thrillers donde el contexto político y militar importa tanto como la resolución del crimen.",
+        "whyItMatters": "Importa porque amplía el horizonte de la novela policial española y sitúa la investigación en un escenario de guerra donde la verdad depende también de estructuras de mando, intereses estratégicos y relatos oficiales.",
+        "editorialIntro": "Con Donde los escorpiones, Lorenzo Silva lleva a Bevilacqua a un terreno hostil en todos los sentidos. Afganistán no es aquí un decorado exótico, sino un espacio de presión moral donde cada gesto está atravesado por la violencia, la disciplina y la incertidumbre. La novela mantiene el pulso clásico de la serie, pero gana densidad al enfrentarse con una comunidad cerrada y militarizada en la que todo el mundo parece saber algo y nadie puede contarlo del todo.",
+        "readingLevel": "Lectura de complejidad media, apropiada para adultos y jóvenes lectores avanzados interesados en novela negra, con vocabulario accesible pero abundantes matices institucionales y morales.",
+        "whyReadToday": "Porque sigue siendo una novela muy eficaz para pensar cómo se investigan los hechos en contextos dominados por jerarquías, guerras remotas y versiones interesadas de la verdad.",
+        "studyNotes": [
+          "Observa cómo cambia la investigación policial cuando el escenario es una base militar en misión internacional.",
+          "Analiza la figura de Bevilacqua como investigador veterano: experiencia, ironía y cansancio conviven en su mirada.",
+          "El espacio cerrado de la base funciona casi como una novela de habitación cerrada, pero atravesada por la guerra.",
+          "La víctima no es un simple detonante: su biografía obliga a revisar la frontera entre conducta privada y responsabilidad pública.",
+          "La novela usa el caso criminal para reflexionar sobre España, sus instituciones y su presencia exterior."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Llamada a Herat",
+            "summary": "Bevilacqua recibe la orden de desplazarse a Afganistán para investigar el asesinato de un militar español. El traslado introduce un escenario extraordinario para la serie y sitúa desde el principio la pesquisa bajo presión institucional."
+          },
+          {
+            "title": "Parte 2: Una base llena de versiones",
+            "summary": "En la base, cada testimonio parece condicionado por la disciplina, el miedo o la conveniencia. La investigación avanza entre hipótesis contrapuestas mientras el crimen revela grietas personales y profesionales en quienes rodeaban a la víctima."
+          },
+          {
+            "title": "Parte 3: Verdad, jerarquía y desenlace",
+            "summary": "Las pesquisas llevan a Bevilacqua y a su equipo a revisar la biografía del muerto y la lógica interna de la misión. La resolución no solo identifica al culpable: obliga a medir el peso de las decisiones tomadas en un contexto de guerra."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela negra en territorio de guerra",
+            "content": "Silva desplaza el crimen desde el espacio urbano reconocible a un enclave militar en Afganistán. Ese cambio renueva la serie y convierte la investigación en una lectura sobre geopolítica, cadena de mando y excepcionalidad."
+          },
+          {
+            "heading": "Bevilacqua ante el desgaste del tiempo",
+            "content": "El protagonista aparece más consciente que nunca de su edad y de la experiencia acumulada. Esa autoconciencia le da al relato una profundidad melancólica que equilibra el suspense y vuelve más humana su mirada sobre la violencia."
+          },
+          {
+            "heading": "Moral privada y responsabilidad pública",
+            "content": "La novela insiste en que un asesinato no nace nunca en el vacío. La vida del muerto, las relaciones dentro de la base y la lógica de la misión muestran cómo las faltas individuales se entrelazan con estructuras colectivas de poder."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario haber leído otras novelas de Bevilacqua y Chamorro?",
+            "answer": "No. Aunque forma parte de una serie, la investigación principal se entiende de manera autónoma y el libro ofrece suficiente contexto sobre sus protagonistas."
+          },
+          {
+            "question": "¿Qué hace diferente a Donde los escorpiones dentro de la saga?",
+            "answer": "Su ambientación en Afganistán y en una base militar española, que añade una dimensión política y bélica muy marcada a la trama policial."
+          },
+          {
+            "question": "¿Predomina la acción o la investigación?",
+            "answer": "Predomina la investigación, pero el contexto de guerra aporta una tensión continua y un ambiente mucho más áspero que en otras entregas."
+          },
+          {
+            "question": "¿Qué temas trabaja además del crimen?",
+            "answer": "La novela aborda la jerarquía militar, la verdad institucional, el desgaste moral de las misiones exteriores y la complejidad de juzgar conductas en escenarios extremos."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - ficha del libro",
+            "url": "https://www.planetadelibros.com/libro-donde-los-escorpiones/213451"
+          },
+          {
+            "label": "Lorenzo Silva - página del libro",
+            "url": "https://www.lorenzo-silva.com/libros/donde-los-escorpiones/"
+          },
+          {
+            "label": "Open Library - edición",
+            "url": "https://openlibrary.org/books/OL25923421M/Donde_los_escorpiones"
+          },
+          {
+            "label": "Open Library - obra",
+            "url": "https://openlibrary.org/works/OL17346043W/Donde_los_escorpiones"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "dos-anos-de-vacaciones-de-julio-verne",
+      "title": "Dos Anos De Vacaciones",
+      "authorName": "Julio Verne",
+      "authorSlug": "julio-verne",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Dos años de vacaciones",
+        "authorName": "Julio Verne",
+        "authorSlug": "julio-verne",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "aventura",
+          "juvenil"
+        ],
+        "year": 1888,
+        "pages": 256,
+        "summary": "En Dos años de vacaciones, Julio Verne imagina la deriva de un grupo de muchachos del colegio Chairman de Auckland que, por un accidente, quedan a bordo de una goleta sin adultos y terminan naufragando en una isla desierta. Lo que podría ser solo una aventura de supervivencia se transforma en una novela de organización colectiva, rivalidad, aprendizaje y coraje. Los jóvenes deben encontrar refugio, repartir tareas, conseguir alimento, construir señales de rescate y sostener una convivencia frágil bajo presión. A eso se suman los choques entre Briant y Doniphan, dos modelos opuestos de liderazgo, y la aparición de una amenaza criminal que intensifica el peligro. Verne convierte la isla en un laboratorio moral donde la inteligencia, la disciplina y la solidaridad se ponen a prueba a cada paso.",
+        "aboutThisBook": "Publicada en 1888 dentro de los Viajes extraordinarios, esta novela combina aventura clásica, relato de formación y fantasía robinsoniana. Verne no se limita a narrar peripecias: muestra cómo un grupo de niños y adolescentes aprende a gobernarse, a resolver conflictos y a pasar del juego escolar a la responsabilidad real. Por eso el libro sigue funcionando muy bien tanto como lectura de evasión como en contextos educativos, donde permite hablar de liderazgo, cooperación, colonialismo, técnica y maduración.",
+        "forWhom": "Para lectores juveniles que disfrutan de islas desiertas, expediciones y desafíos de supervivencia, y para adultos que buscan un clásico de aventuras con un fuerte componente de aprendizaje colectivo.",
+        "whyItMatters": "Importa porque muestra una versión muy fértil del género de aventuras: no solo plantea peligros externos, sino también el problema de cómo convivir, decidir y crecer cuando desaparece la autoridad adulta.",
+        "editorialIntro": "Hay novelas de aventuras que se recuerdan por sus paisajes y otras por la fuerza de su conflicto humano. Dos años de vacaciones consigue ambas cosas. La isla, el naufragio y los peligros están ahí, pero lo que verdaderamente sostiene la historia es ver cómo un grupo de chicos pasa de la improvisación al sentido de comunidad.",
+        "readingLevel": "Media: el relato es accesible y muy dinámico, aunque su extensión y algunos pasajes descriptivos piden una lectura continuada y atenta.",
+        "whyReadToday": "Porque sigue siendo una historia magnífica sobre cooperación, liderazgo y resiliencia, y porque plantea con claridad cómo se construye una comunidad cuando no hay adultos que resuelvan los problemas.",
+        "studyNotes": [
+          "Compara los liderazgos de Briant y Doniphan: la novela los usa para discutir autoridad, orgullo y sentido práctico.",
+          "La isla funciona como espacio de aprendizaje: cada tarea material tiene también una dimensión moral y colectiva.",
+          "Además de aventura, el libro puede leerse como relato de formación, porque los personajes maduran al asumir responsabilidades reales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La deriva del Sloughi",
+            "summary": "Un accidente deja a los estudiantes solos en la goleta y los obliga a sobrevivir durante una travesía fuera de control. El naufragio inaugura la aventura y convierte a los muchachos en responsables de sí mismos."
+          },
+          {
+            "title": "La isla Chairman y la vida en común",
+            "summary": "Una vez instalados en la isla, los jóvenes exploran el territorio, organizan refugio y recursos y bautizan el lugar. La supervivencia depende tanto del ingenio como de la capacidad de convivir y repartir funciones."
+          },
+          {
+            "title": "La amenaza exterior y la resolución",
+            "summary": "La aparición de Kate, Evans y los amotinados cambia el sentido del peligro. La novela pasa de la supervivencia natural al enfrentamiento con criminales, y obliga al grupo a demostrar valentía, estrategia y cohesión."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una robinsonada colectiva",
+            "content": "A diferencia del modelo clásico del náufrago solitario, Verne imagina una supervivencia en grupo. Eso le permite explorar reparto de tareas, cooperación y conflicto, y dar a la aventura una dimensión social muy marcada."
+          },
+          {
+            "heading": "Liderazgo y maduración",
+            "content": "Briant y Doniphan encarnan dos modos de ejercer autoridad. La novela no simplifica el problema: muestra que mandar no consiste solo en imponerse, sino en sostener al grupo, escuchar y actuar con responsabilidad."
+          },
+          {
+            "heading": "Aventura, técnica y educación",
+            "content": "Como en otros libros de Verne, el conocimiento práctico importa. Orientarse, construir, administrar recursos o leer el territorio no son detalles accesorios: forman parte de una pedagogía narrativa que une emoción y aprendizaje."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro infantil o juvenil?",
+            "answer": "Se lee muy bien como literatura juvenil, aunque también interesa a lectores adultos por su construcción aventurera y por sus ideas sobre liderazgo, grupo y supervivencia."
+          },
+          {
+            "question": "¿Se parece a Robinson Crusoe o a El señor de las moscas?",
+            "answer": "Tiene parentesco con la tradición de la isla desierta y la supervivencia, pero su tono es distinto. Verne apuesta más por la cooperación, la técnica y la aventura clásica que por el pesimismo radical."
+          },
+          {
+            "question": "¿Qué hace especial a esta novela dentro de Verne?",
+            "answer": "Que sitúa a niños y adolescentes en el centro de la acción y convierte la aventura exterior en una escuela de autogobierno, trabajo en común y crecimiento personal."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia — Dos años de vacaciones",
+            "url": "https://es.wikipedia.org/wiki/Dos_a%C3%B1os_de_vacaciones"
+          },
+          {
+            "label": "Editorial Verbum — Dos años de vacaciones",
+            "url": "https://editorialverbum.es/libro/dos-anos-de-vacaciones/"
+          },
+          {
+            "label": "Casa del Libro — Dos años de vacaciones (Hetzel)",
+            "url": "https://latam.casadellibro.com/libro-dos-anos-de-vacaciones-hetzel/9788410983199/17980104"
+          },
+          {
+            "label": "Open Library — edición de Dos años de vacaciones",
+            "url": "https://openlibrary.org/books/OL13070157M/Dos_Anos_De_Vacaciones"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-descontento-de-beatriz-serrano",
+      "title": "El Descontento",
+      "authorName": "Beatriz Serrano",
+      "authorSlug": "beatriz-serrano",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El descontento",
+        "authorName": "Beatriz Serrano",
+        "authorSlug": "beatriz-serrano",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2023,
+        "pages": 240,
+        "summary": "El descontento retrata con sarcasmo y nervio una forma muy reconocible de malestar contemporáneo: la vida laboral que no llega a ser tragedia espectacular, pero erosiona cada día la inteligencia, el deseo y la estabilidad emocional. La protagonista, Marisa, sobrevive a la rutina de una agencia de publicidad en Madrid anestesiándose con fármacos, vídeos y pequeños mecanismos de evasión. Odia su trabajo, pero también necesita el dinero, la apariencia de normalidad y ciertos objetos de consumo que justifican seguir. La inminencia de un team building con compañeros a los que apenas soporta funciona como detonante de una crisis más profunda, ligada además a una herida del pasado. Beatriz Serrano convierte ese punto de partida en una novela ácida, divertida y triste a la vez, muy precisa en su observación del lenguaje corporativo, la precariedad afectiva y la máscara social con la que tantos adultos llegan al final del día.",
+        "aboutThisBook": "Publicado por Temas de Hoy en 2023, El descontento fue el debut novelístico de Beatriz Serrano tras una trayectoria en periodismo cultural y en proyectos de audio muy conocidos. La novela se inscribe en una línea de narrativa contemporánea interesada por el trabajo, la ansiedad, la autoimagen y el desgaste de la vida urbana, pero evita el ensayo disfrazado: funciona de verdad como ficción, con personaje, ritmo y tensión psicológica. Su principal acierto está en no idealizar a Marisa ni convertirla en simple víctima generacional. Serrano la muestra lúcida, hiriente, vulnerable y a veces ridícula, lo que vuelve su malestar mucho más convincente y literariamente fértil.",
+        "forWhom": "Para lectores adultos interesados en novela contemporánea, sátira laboral, personajes femeninos contradictorios y relatos sobre ansiedad, soledad urbana y desgaste emocional en la treintena.",
+        "whyItMatters": "Importa porque pone lenguaje literario a una experiencia muy extendida: la mezcla de cansancio, cinismo, dependencia económica y necesidad de sostener una identidad funcional dentro de entornos laborales vacíos. Lo hace, además, con humor negro y sin sentimentalismo fácil.",
+        "editorialIntro": "Hay novelas sobre el trabajo que describen oficinas; El descontento describe una forma de vivir dentro y fuera de ellas. Beatriz Serrano entiende que el malestar contemporáneo no siempre adopta la forma de una gran catástrofe: a veces es un cansancio administrado, una irritación sostenida, una tristeza que aprende a hablar en jerga corporativa. Esa lucidez vuelve la novela especialmente efectiva. Se lee con rapidez, pero deja un eco incómodo porque reconoce muy bien la violencia blanda del entorno laboral y emocional de nuestro tiempo.",
+        "readingLevel": "Lectura accesible para adultos. La prosa es ágil y directa, con ironía constante y referencias reconocibles a la cultura de oficina, pero también con un trasfondo emocional que invita a leer más allá del chiste o la identificación inmediata.",
+        "whyReadToday": "Porque pocas novelas recientes han captado con tanta claridad el vínculo entre trabajo, ansiedad, consumo, autoengaño y soledad urbana en la vida adulta contemporánea.",
+        "studyNotes": [
+          "La novela puede leerse como sátira del mundo corporativo, pero su ambición va más allá: indaga en cómo el trabajo coloniza la identidad y la vida afectiva.",
+          "Marisa no está escrita como heroína ejemplar. Su lucidez convive con mecanismos de evasión, autoboicot y una dureza defensiva que complejiza la lectura.",
+          "El team building funciona como dispositivo narrativo muy eficaz: concentra la violencia amable de la empresa y obliga a la protagonista a sostener una convivencia insoportable.",
+          "Resulta útil observar el contraste entre humor y angustia: muchas escenas son muy cómicas en la superficie, pero revelan una fuerte descomposición interior."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Marisa y la rutina anestesiada",
+            "summary": "La novela presenta a una protagonista en la treintena que sobrevive al trabajo mediante hábitos de evasión y una máscara de funcionalidad. Desde las primeras páginas, Serrano dibuja una vida sostenida por la ironía, el cansancio y una relación casi automática con la oficina."
+          },
+          {
+            "title": "La oficina como teatro de desgaste",
+            "summary": "A medida que se describen compañeros, dinámicas de agencia y lenguaje corporativo, el libro convierte la jornada laboral en un sistema de pequeñas humillaciones y absurdos. El malestar de Marisa no nace de un solo episodio, sino de la acumulación de rutinas que vacían el deseo y la paciencia."
+          },
+          {
+            "title": "La amenaza del team building",
+            "summary": "La proximidad de una convivencia empresarial fuera del horario normal intensifica la ansiedad de la protagonista. Lo que para la empresa se presenta como actividad cohesionadora se convierte, desde la mirada de Marisa, en una pesadilla de exposición continua y falsedad obligatoria."
+          },
+          {
+            "title": "Grietas, memoria y estallido",
+            "summary": "En el tramo final, el presente laboral se mezcla con una tragedia enterrada y la identidad cuidadosamente administrada por Marisa empieza a romperse. La novela gana espesor cuando el sarcasmo deja ver hasta qué punto el malestar viene también de una herida más antigua y más íntima."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela laboral después del entusiasmo",
+            "content": "El descontento pertenece a una narrativa que ya no cree en el trabajo como promesa de autorrealización. En su lugar aparece una experiencia marcada por la fatiga, el rendimiento emocional y la obligación de parecer disponible, creativa y sociable incluso cuando todo eso resulta falso o destructivo."
+          },
+          {
+            "heading": "Humor negro y precisión observacional",
+            "content": "Una de las virtudes del libro está en su oído para el detalle reconocible: frases de oficina, gestos automáticos, cortesías violentas, consumo aspiracional y estrategias de supervivencia mental. Serrano usa el humor negro no para aligerar el conflicto, sino para volverlo más cortante."
+          },
+          {
+            "heading": "Marisa como personaje de época",
+            "content": "La protagonista encarna un malestar generacional sin reducirse a emblema sociológico. Tiene conciencia crítica, pero también cinismo, deseo de comodidad, impulsos contradictorios y una fragilidad que nunca se ofrece de forma sentimental. Esa mezcla le da espesor literario y evita el panfleto."
+          },
+          {
+            "heading": "Soledad, consumo y máscara social",
+            "content": "La novela sugiere que el trabajo no agota el problema: se enlaza con la necesidad de sostener cierta imagen, comprar ciertas cosas, parecer integrada y aplazar cualquier derrumbe visible. El descontento, entonces, no es solo laboral; es un régimen afectivo entero."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El descontento?",
+            "answer": "Trata sobre Marisa, una mujer en la treintena que detesta su trabajo en una agencia de publicidad y atraviesa una crisis de ansiedad y desgaste emocional, agravada por un team building empresarial y por una tragedia del pasado que vuelve a hacerse presente."
+          },
+          {
+            "question": "¿Es una novela de oficina solamente?",
+            "answer": "No. La oficina es el escenario central, pero la novela también aborda ansiedad, soledad, autoimagen, consumo, memoria traumática y la dificultad de sostener una vida adulta mínimamente coherente."
+          },
+          {
+            "question": "¿Qué tono tiene el libro?",
+            "answer": "Predomina un tono irónico y satírico, muy atento al absurdo corporativo, pero debajo del humor hay una corriente de tristeza, rabia y fragilidad psicológica bastante seria."
+          },
+          {
+            "question": "¿Por qué ha conectado con tantos lectores?",
+            "answer": "Porque reconoce con precisión una experiencia muy extendida: sentir hastío, ansiedad y desconexión dentro de trabajos que exigen entusiasmo performativo y ocupan la vida mucho más de lo que admiten."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: El descontento",
+            "url": "https://www.planetadelibros.com/libro-el-descontento/381157"
+          },
+          {
+            "label": "PlanetadeLibros: autora Beatriz Serrano",
+            "url": "https://www.planetadelibros.com/autor/beatriz-serrano/000059939"
+          },
+          {
+            "label": "Open Library: El descontento",
+            "url": "https://openlibrary.org/books/OL50213355M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-dieciocho-brumario-de-luis-bonaparte-de-karl-marx",
+      "title": "El Dieciocho Brumario De Luis Bonaparte",
+      "authorName": "Karl Marx",
+      "authorSlug": "karl-marx",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El dieciocho brumario de Luis Bonaparte",
+        "authorName": "Karl Marx",
+        "authorSlug": "karl-marx",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1852,
+        "pages": 192,
+        "summary": "En El dieciocho brumario de Luis Bonaparte, Karl Marx analiza el golpe de Estado de 1851 con el que Luis Bonaparte liquidó la Segunda República francesa y abrió el camino al Segundo Imperio. Lejos de limitarse a narrar acontecimientos, el ensayo examina cómo interactúan clases sociales, partidos, instituciones, lenguaje político y memoria histórica. Marx explica por qué una revolución puede producir resultados contradictorios y cómo la fragmentación de las fuerzas sociales facilita la aparición de un poder aparentemente por encima de todos. El libro es célebre por su capacidad para unir coyuntura y teoría: lee un episodio muy concreto de la política francesa como laboratorio para pensar representación, crisis de la democracia, peso del campesinado y autonomía relativa del Estado.",
+        "aboutThisBook": "Se trata de uno de los textos políticos más influyentes del siglo XIX y también de uno de los más legibles de Marx fuera de su obra económica. Su energía proviene de la mezcla entre interpretación histórica, sátira política y análisis social. El ensayo no propone una cronología neutra, sino una lectura de fuerzas en conflicto: quién representa a quién, qué intereses se ocultan tras ciertas consignas y cómo una sociedad exhausta puede aceptar una salida autoritaria. Su vigencia nace de esa mirada estructural, capaz de iluminar crisis políticas posteriores muy distintas entre sí.",
+        "forWhom": "Muy recomendable para lectores de historia política, teoría social, pensamiento crítico y estudios sobre revoluciones, golpes de Estado o populismos autoritarios. También es útil para estudiantes universitarios que quieran entrar en Marx desde un texto histórico concreto y no solo desde conceptos abstractos. Conviene especialmente a quienes disfrutan del ensayo argumentativo con filo polémico.",
+        "whyItMatters": "Importa porque ofrece una de las explicaciones más influyentes sobre cómo una democracia erosionada puede desembocar en una concentración personal del poder. Además, muestra a Marx como analista del presente, no solo como teórico de la economía capitalista.",
+        "editorialIntro": "Pocas obras de teoría política han dejado frases tan citadas y, al mismo tiempo, un aparato de lectura tan fértil como El dieciocho brumario de Luis Bonaparte. Marx escribe al calor de los acontecimientos, pero no improvisa: convierte la crisis francesa de 1848-1851 en una investigación sobre la representación, las alianzas de clase y la teatralidad del poder. El libro conserva una extraña frescura porque no trata el autoritarismo como anomalía inexplicable, sino como resultado de conflictos, impotencias y cálculos perfectamente históricos.",
+        "readingLevel": "No requiere formación filosófica avanzada, pero sí atención a los actores políticos, a las referencias históricas francesas y a la ironía del estilo de Marx. Rinde más cuando se lee despacio, subrayando las alianzas y rupturas que explican el ascenso de Luis Bonaparte.",
+        "whyReadToday": "Porque ayuda a pensar las crisis de representación, el desgaste de los partidos y la facilidad con que un liderazgo personalista puede presentarse como solución al bloqueo político. Su marco histórico es decimonónico, pero sus preguntas siguen muy vivas.",
+        "studyNotes": [
+          "Ten presente el contexto: revoluciones de 1848, Segunda República francesa y golpe de Estado de 1851.",
+          "La famosa idea de la historia que se repite no es un adorno retórico; introduce una reflexión sobre memoria, imitación y fracaso político.",
+          "Observa cómo Marx distingue entre clases sociales, sus representantes políticos y las formas institucionales que median entre ambos.",
+          "El papel del campesinado y de la burocracia estatal es clave para entender por qué Bonaparte puede parecer un árbitro por encima de los conflictos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Sección 1: Repetición histórica y escenario político",
+            "summary": "Marx abre el ensayo con su célebre reflexión sobre la repetición de la historia y sitúa el golpe de Luis Bonaparte en relación con la herencia napoleónica. Desde el inicio, plantea que la política moderna se representa a sí misma mediante símbolos heredados."
+          },
+          {
+            "title": "Sección 2: De 1848 al desgaste republicano",
+            "summary": "El autor reconstruye la secuencia revolucionaria posterior a 1848 y muestra cómo las diferentes fracciones sociales y parlamentarias fueron debilitándose mutuamente. La república aparece como un campo de alianzas frágiles más que como un orden estable."
+          },
+          {
+            "title": "Sección 3: Clases, partidos y representación",
+            "summary": "Aquí Marx profundiza en la distancia entre intereses sociales y portavoces políticos. El análisis destaca cómo determinadas fuerzas dicen hablar en nombre de la nación mientras defienden intereses parciales y, al hacerlo, preparan sin querer el terreno para Bonaparte."
+          },
+          {
+            "title": "Sección 4: El ascenso de Luis Bonaparte",
+            "summary": "La figura de Bonaparte se consolida gracias al cansancio social, a la fragmentación del adversario y a su capacidad para explotar símbolos y promesas contradictorias. Marx muestra que su aparente autonomía depende de apoyos muy concretos."
+          },
+          {
+            "title": "Sección 5: El golpe y la forma del nuevo poder",
+            "summary": "El ensayo culmina con la descripción del golpe de Estado y con la interpretación de un poder ejecutivo reforzado, sostenido por burocracia, ejército y un vínculo particular con el campesinado. La resolución no es solo narrativa: fija una tesis sobre el bonapartismo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Historia inmediata con ambición teórica",
+            "content": "Marx escribe sobre acontecimientos recientes, pero no produce una simple crónica. Su objetivo es explicar qué mecanismos sociales e institucionales hicieron posible el golpe, y por eso el texto sigue siendo útil más allá del caso francés."
+          },
+          {
+            "heading": "La autonomía relativa del Estado",
+            "content": "Una de las intuiciones más fértiles del ensayo es que el poder estatal puede adquirir margen propio cuando las clases en conflicto se neutralizan o bloquean entre sí. Bonaparte parece elevarse por encima de todos precisamente porque nadie logra imponerse de manera estable."
+          },
+          {
+            "heading": "Lenguaje, símbolos y mascarada política",
+            "content": "El libro insiste en que la política no se compone solo de intereses materiales, sino también de emblemas, nombres heredados y escenas públicas. La invocación napoleónica no es una simple nostalgia: es un recurso activo de legitimación."
+          },
+          {
+            "heading": "Vigencia del concepto de bonapartismo",
+            "content": "Aunque surgió en un contexto muy específico, la noción de bonapartismo se ha usado para pensar regímenes en los que un líder concentra poder presentándose como árbitro entre fuerzas enfrentadas. Esa proyección explica la larga vida intelectual del ensayo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de historia o de teoría política?",
+            "answer": "Es ambas cosas. Parte de un episodio histórico concreto, pero lo interpreta con categorías que han influido profundamente en la teoría política y la sociología histórica."
+          },
+          {
+            "question": "¿Hace falta leer antes El capital para entenderlo?",
+            "answer": "No. De hecho, suele ser una muy buena puerta de entrada a Marx porque muestra su método aplicado a una crisis política específica y en un formato relativamente breve."
+          },
+          {
+            "question": "¿Qué significa bonapartismo en este contexto?",
+            "answer": "Designa una forma de poder en la que un líder se presenta como representante de la nación por encima de los partidos, apoyándose en el aparato estatal y en una sociedad políticamente fragmentada."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose hoy?",
+            "answer": "Porque ayuda a pensar cómo se vacían las instituciones representativas, cómo actúan los liderazgos personalistas y cómo las crisis sociales pueden desembocar en soluciones autoritarias."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Marxists Internet Archive: El dieciocho brumario de Luis Bonaparte",
+            "url": "https://www.marxists.org/espanol/m-e/1850s/brumaire/brum1.htm"
+          },
+          {
+            "label": "Britannica: The Eighteenth Brumaire of Louis Bonaparte",
+            "url": "https://www.britannica.com/topic/The-Eighteenth-Brumaire-of-Louis-Bonaparte"
+          },
+          {
+            "label": "Wikipedia (EN): The Eighteenth Brumaire of Louis Bonaparte",
+            "url": "https://en.wikipedia.org/wiki/The_Eighteenth_Brumaire_of_Louis_Bonaparte"
+          },
+          {
+            "label": "Open Library: El Dieciocho Brumario De Luis Bonaparte",
+            "url": "https://openlibrary.org/works/OL628489W/El_Dieciocho_Brumario_De_Luis_Bonaparte"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-galeon-de-los-gatos-piratas-stilton-8-de-geronimo-stilton",
+      "title": "El Galeon De Los Gatos Piratas Stilton 8",
+      "authorName": "Geronimo Stilton",
+      "authorSlug": "geronimo-stilton",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El galeón de los gatos piratas",
+        "authorName": "Geronimo Stilton",
+        "authorSlug": "geronimo-stilton",
+        "type": "ficcion",
+        "audience": "infantil",
+        "genres": [
+          "infantil",
+          "aventura",
+          "fantasia"
+        ],
+        "year": 2016,
+        "pages": 128,
+        "summary": "En esta aventura de la serie Geronimo Stilton, el tímido director de El Eco del Roedor se ve arrastrado a una peripecia marítima mucho menos tranquila de lo que le gustaría. La historia lo coloca en manos de una tripulación de gatos piratas y convierte el secuestro, la navegación y los peligros del viaje en una sucesión de episodios cómicos, sustos controlados y giros rápidos. Como es habitual en la colección, el humor visual, los juegos tipográficos y el ritmo breve hacen que la lectura sea muy dinámica. Más allá del enredo, el libro propone una aventura accesible para primeros lectores autónomos, con una combinación eficaz de intriga suave, imaginación y comicidad.",
+        "aboutThisBook": "El galeón de los gatos piratas forma parte del núcleo clásico de Geronimo Stilton y reúne casi todas las claves que han hecho tan popular la serie: un protagonista miedoso pero entrañable, un viaje lleno de incidentes, villanos exagerados, ilustraciones integradas y una puesta en página pensada para sostener el entusiasmo lector. Es un libro ideal para consolidar el hábito de lectura porque transforma cada capítulo en una pequeña recompensa narrativa y visual. Su tono nunca se vuelve amenazante de verdad, de modo que la aventura conserva emoción sin perder ligereza.",
+        "forWhom": "Muy recomendable para niños que ya leen solos o están dando el paso desde álbumes y libros ilustrados hacia novelas cortas con capítulos breves, humor y mucha acción visual.",
+        "whyItMatters": "Sigue siendo importante como ejemplo de literatura infantil que convierte la lectura en juego sin renunciar a una historia completa, con personajes reconocibles y una aventura fácil de seguir.",
+        "editorialIntro": "Pocos personajes han sabido introducir a tantos niños en la lectura como Geronimo Stilton. En El galeón de los gatos piratas, ese ratón nervioso, culto y siempre desafortunado vuelve a demostrar que el heroísmo infantil no necesita grandilocuencia: basta un protagonista que preferiría quedarse en casa pero que termina afrontando una travesía imposible. El libro apuesta por la velocidad, el humor y el encanto visual para convertir cada página en una invitación a seguir leyendo.",
+        "readingLevel": "Lectura infantil de dificultad baja a media, con capítulos breves, abundantes apoyos visuales y tipografías expresivas que facilitan la comprensión y mantienen la atención.",
+        "whyReadToday": "Porque sigue siendo una puerta de entrada excelente para lectores en formación: ofrece diversión inmediata y ayuda a asociar la lectura con aventura, humor y confianza.",
+        "studyNotes": [
+          "Fíjate en cómo la tipografía y las ilustraciones no adornan solo el texto, sino que participan activamente en la narración.",
+          "Geronimo funciona como protagonista cómico: su miedo constante hace avanzar la aventura y provoca identificación en lectores inseguros.",
+          "La estructura es episódica y muy clara, ideal para comentar cómo se construye una novela infantil de ritmo rápido.",
+          "Puede trabajarse en clase la oposición entre valentía real y valentía aparente.",
+          "El tono ligero permite hablar de secuestro, peligro o villanía sin volver la lectura angustiosa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Una travesía nada deseada",
+            "summary": "Geronimo se ve envuelto en una aventura marítima que rompe por completo su rutina. Lo que parecía un viaje complicado se convierte enseguida en un problema mucho mayor."
+          },
+          {
+            "title": "Parte 2: En manos de los gatos piratas",
+            "summary": "La aparición de la tripulación pirata introduce el conflicto principal. Entre persecuciones, malentendidos y momentos cómicos, Geronimo debe arreglárselas para sobrevivir sin dejar de ser él mismo."
+          },
+          {
+            "title": "Parte 3: Escape, ingenio y final feliz",
+            "summary": "La resolución combina tensión ligera y humor. El protagonista descubre recursos inesperados y la aventura concluye con la energía optimista característica de la serie."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una pedagogía del entretenimiento",
+            "content": "La novela está diseñada para que el placer de leer aparezca desde el primer momento. El texto corto, el humor visible y la segmentación clara reducen la sensación de esfuerzo y refuerzan la autonomía lectora."
+          },
+          {
+            "heading": "Humor y miedo controlado",
+            "content": "Geronimo es un personaje perfecto para lectores infantiles porque siente miedo, duda y protesta, pero sigue adelante. Eso permite que la aventura resulte emocionante sin ser intimidante."
+          },
+          {
+            "heading": "El valor del diseño narrativo",
+            "content": "En Geronimo Stilton el diseño de página forma parte del sentido. Las variaciones tipográficas, los colores y las ilustraciones acompañan el ritmo del relato y ayudan a traducir emociones, sonidos y sobresaltos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro adecuado para primeros lectores autónomos?",
+            "answer": "Sí. Su extensión moderada, la abundancia de apoyo visual y el ritmo ágil lo hacen muy apropiado para niños que están consolidando la lectura por capítulos."
+          },
+          {
+            "question": "¿Da miedo de verdad?",
+            "answer": "No. Hay peligros y persecuciones, pero todo está contado con humor y con un tono amable pensado para lectores infantiles."
+          },
+          {
+            "question": "¿Se puede leer sin conocer otros libros de Geronimo Stilton?",
+            "answer": "Sí. Cada aventura funciona por sí sola, aunque los lectores habituales disfrutarán reconociendo el carácter del protagonista y el estilo de la serie."
+          },
+          {
+            "question": "¿Qué aporta frente a otras novelas infantiles de aventuras?",
+            "answer": "Su mezcla de historia breve, comicidad muy visual y diseño tipográfico expresivo, que convierte la lectura en una experiencia especialmente accesible y juguetona."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - ficha del libro",
+            "url": "https://www.planetadelibros.com/libro-el-galeon-de-los-gatos-piratas/215652"
+          },
+          {
+            "label": "TodosTusLibros - ficha del libro",
+            "url": "https://www.todostuslibros.com/libros/el-galeon-de-los-gatos-piratas_9788408158639"
+          },
+          {
+            "label": "Open Library - edición en español",
+            "url": "https://openlibrary.org/books/OL39478768M/El_gale%C3%B3n_de_los_gatos_piratas"
+          },
+          {
+            "label": "Open Library - obra",
+            "url": "https://openlibrary.org/works/OL8115815W/El_gale%C3%B3n_de_los_Gatos_Piratas"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-18T23:23:36Z"
+}

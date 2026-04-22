@@ -1,0 +1,1461 @@
+{
+  "batchName": "replenish-20260419T122639Z",
+  "createdAt": "2026-04-19T12:26:45Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "entender-el-comic-el-arte-invisible-de-scott-mccloud",
+      "title": "Entender El Comic El Arte Invisible",
+      "authorName": "Scott Mccloud",
+      "authorSlug": "scott-mccloud",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Entender el cómic: El arte invisible",
+        "authorName": "Scott McCloud",
+        "authorSlug": "scott-mccloud",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1993,
+        "pages": 224,
+        "summary": "Scott McCloud convirtió un ensayo sobre teoría del cómic en un cómic en sí mismo y, con ese gesto, cambió la manera de estudiar el medio. En este libro explica qué es un cómic, cómo funciona la relación entre imagen y texto, de qué manera el lector completa lo que ocurre entre viñetas y por qué la simplificación visual puede producir una identificación tan poderosa. También recorre la historia del lenguaje secuencial, desde formas narrativas antiguas hasta la cultura popular contemporánea, y muestra que el cómic no es un entretenimiento menor sino una forma compleja de pensamiento visual. El resultado es una obra didáctica, provocadora y todavía fundamental para lectores, dibujantes, docentes y diseñadores.",
+        "aboutThisBook": "Publicado originalmente en 1993, este libro híbrido combina crítica, historia cultural y reflexión estética. McCloud usa la página dibujada para demostrar sus propias ideas: analiza la sintaxis de la viñeta, la economía del dibujo, la percepción del tiempo y la participación activa del lector. Por eso suele leerse tanto en escuelas de arte como en estudios de narrativa visual, comunicación y diseño.",
+        "forWhom": "Para lectores curiosos por el lenguaje visual, estudiantes de arte y comunicación, autores de historieta y cualquier persona que quiera entender por qué los cómics pueden ser tan expresivos.",
+        "whyItMatters": "Importa porque dio un vocabulario crítico muy influyente para hablar del cómic con seriedad. Conceptos como la clausura entre viñetas o la iconización siguen siendo referencias básicas en debates sobre narración visual.",
+        "editorialIntro": "Pocos ensayos explican tan bien su tema usando exactamente la forma que analizan. McCloud no se limita a defender el cómic: lo abre pieza por pieza para mostrar cómo produce sentido, emoción, ritmo y abstracción. Leerlo hoy sigue siendo una excelente entrada a la alfabetización visual contemporánea.",
+        "readingLevel": "Accesible para lectores generales, aunque resulta más rico si se lee con atención a ejemplos visuales y nociones básicas de narrativa.",
+        "whyReadToday": "En una cultura dominada por pantallas, memes, interfaces e historias visuales, el libro ayuda a leer imágenes con más conciencia y a entender cómo se construye el significado gráfico.",
+        "studyNotes": [
+          "McCloud define el cómic como arte secuencial y discute los límites de esa definición.",
+          "La idea de clausura explica cómo el lector completa mentalmente lo que no se muestra entre dos viñetas.",
+          "El libro relaciona estilo gráfico, identificación del lector y grado de abstracción visual.",
+          "Sus observaciones sirven también para animación, diseño de interfaces y narrativa digital."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Qué es un cómic",
+            "summary": "McCloud propone una definición amplia del medio y lo inserta en una historia más larga de imágenes secuenciales. Desde el principio combate prejuicios y distingue entre soporte, estilo y lenguaje narrativo."
+          },
+          {
+            "title": "Parte 2: Cómo leen los ojos y la mente",
+            "summary": "El libro estudia la simplificación del dibujo, la iconización y la famosa noción de clausura. Aquí muestra que leer cómics exige una participación mental constante y que el vacío entre viñetas también narra."
+          },
+          {
+            "title": "Parte 3: Tiempo, movimiento y palabra",
+            "summary": "McCloud examina cómo la página sugiere duración, velocidad, sonido y énfasis. También analiza la relación entre palabras e imágenes y las distintas combinaciones que producen matices expresivos."
+          },
+          {
+            "title": "Parte 4: El potencial del medio",
+            "summary": "En la recta final defiende al cómic como arte capaz de innovar y crecer. Su reflexión se abre hacia el futuro del medio y hacia la responsabilidad creativa de quienes lo practican."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un ensayo que se demuestra a sí mismo",
+            "content": "La mayor virtud del libro es formal: explica la gramática del cómic usando esa misma gramática. Esa autorreferencialidad vuelve más claras ideas que en prosa académica podrían parecer abstractas o excesivamente técnicas."
+          },
+          {
+            "heading": "La clausura como centro de la experiencia",
+            "content": "McCloud insiste en que el lector no recibe una historia cerrada, sino que la completa. Entre una imagen y otra inferimos movimiento, causalidad, violencia, humor o emoción. Esa participación convierte al cómic en una colaboración entre autor y lector."
+          },
+          {
+            "heading": "Influencia más allá de la historieta",
+            "content": "Muchas de sus categorías pasaron a discusiones sobre animación, videojuegos, experiencia de usuario y cultura digital. Aunque algunas tesis han sido debatidas, el libro conserva fuerza porque ofrece herramientas concretas para pensar la comunicación visual."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro teórico o una novela gráfica?",
+            "answer": "Es un ensayo teórico presentado como cómic. Su objetivo principal es explicar cómo funciona el medio, no contar una ficción continua."
+          },
+          {
+            "question": "¿Hace falta ser dibujante para disfrutarlo?",
+            "answer": "No. Está escrito para lectores generales y resulta útil tanto para aficionados como para estudiantes, docentes y creadores visuales."
+          },
+          {
+            "question": "¿Por qué sigue citándose tanto?",
+            "answer": "Porque ordenó debates dispersos sobre lenguaje visual y ofreció conceptos memorables, claros y aplicables a muchos campos creativos."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Scott McCloud — Understanding Comics",
+            "url": "https://scottmccloud.com/2-print/1-uc/"
+          },
+          {
+            "label": "Wikipedia — Understanding Comics",
+            "url": "https://en.wikipedia.org/wiki/Understanding_Comics"
+          },
+          {
+            "label": "Wikipedia — Scott McCloud",
+            "url": "https://en.wikipedia.org/wiki/Scott_McCloud"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "estambul-de-joseph-kanon",
+      "title": "Estambul",
+      "authorName": "Joseph Kanon",
+      "authorSlug": "joseph-kanon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Estambul",
+        "authorName": "Joseph Kanon",
+        "authorSlug": "joseph-kanon",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 2012,
+        "pages": 440,
+        "summary": "Estambul, conocida originalmente como Istanbul Passage, es una novela de espionaje histórico situada en la ciudad turca durante el invierno de 1945, cuando la Segunda Guerra Mundial ha terminado pero el orden moral y político de Europa sigue roto. Leon Bauer, un empresario estadounidense que durante la guerra ha servido como enlace oficioso en la red de refugiados, espías y contrabandistas de la ciudad, acepta un último encargo aparentemente simple: ayudar a sacar del país a un hombre perseguido. La operación fracasa y lo arrastra a una trama de intereses cruzados, dobles lealtades y culpas personales. Kanon convierte Estambul en un espacio fronterizo donde nadie es inocente del todo y donde cada decisión tiene un costo humano. Más que una intriga lineal, la novela es un estudio del desgaste moral que deja la guerra incluso después de su cierre oficial.",
+        "aboutThisBook": "Joseph Kanon es uno de los novelistas contemporáneos más reconocidos del espionaje histórico, y en este libro vuelve a un escenario decisivo: una gran ciudad de tránsito, llena de agentes, exiliados, criminales oportunistas y sobrevivientes. La página oficial del autor presenta la novela como la historia de un último trabajo que sale mal en una Estambul que fue imán de refugiados y espías. Las reseñas de Kirkus y Publishers Weekly subrayan la tensión, la complejidad del argumento y la densidad atmosférica del retrato urbano. Se trata de una obra que mezcla thriller, novela moral y reconstrucción histórica sin perder ritmo narrativo.",
+        "forWhom": "Para lectores adultos que disfrutan novelas de espionaje con trasfondo histórico, personajes ambiguos y dilemas éticos más importantes que la acción espectacular.",
+        "whyItMatters": "Importa porque muestra el fin de la guerra no como alivio limpio, sino como una zona gris donde continúan el miedo, el cálculo político y la precariedad de los desplazados. También confirma la habilidad de Kanon para narrar historia desde la conciencia quebrada de personajes atrapados entre deber, supervivencia y culpa.",
+        "editorialIntro": "No todas las novelas de espionaje entienden que el secreto más decisivo no siempre es un documento, sino una conciencia dañada. Estambul destaca precisamente por eso. Kanon usa una ciudad suspendida entre continentes para narrar el momento en que la guerra termina en el calendario pero sigue viva en los cuerpos, en la sospecha y en la memoria. El resultado combina suspense clásico, gran ambientación y una mirada profundamente humana sobre el precio de actuar cuando ya no existe una salida limpia.",
+        "readingLevel": "Lectura de nivel medio a alto para público adulto. El estilo es claro, pero la novela gana mucho cuando el lector sigue con atención las lealtades cambiantes, el contexto del final de la guerra y las zonas morales ambiguas de sus personajes.",
+        "whyReadToday": "Porque recuerda que el cierre formal de una guerra no resuelve de inmediato el trauma, la corrupción ni el destino de los desplazados, temas que siguen siendo plenamente actuales.",
+        "studyNotes": [
+          "La Estambul de 1945 funciona como personaje: puerto de tránsito, refugio precario y mercado clandestino donde se cruzan diplomacia, espionaje y supervivencia.",
+          "Leon Bauer no responde al héroe clásico del thriller; su interés está en la culpa, la prudencia y la erosión moral más que en la invulnerabilidad.",
+          "La novela puede leerse como espionaje histórico, pero también como relato sobre refugiados, posguerra y responsabilidades personales en contextos turbios.",
+          "Kanon construye tensión no solo con persecuciones, sino con información incompleta, silencios y relaciones marcadas por la desconfianza."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Un último encargo en una ciudad de espías",
+            "summary": "La novela abre en una Estambul saturada de refugiados, agentes y negocios opacos. Leon Bauer, que ha operado durante la guerra en esa frontera moral, acepta una misión final que parece manejable, pero desde el inicio se percibe que el equilibrio de la ciudad es demasiado frágil para permitir operaciones limpias."
+          },
+          {
+            "title": "La operación fallida y la red de lealtades rotas",
+            "summary": "Cuando el traslado sale mal, Bauer queda atrapado entre servicios de inteligencia, figuras del mercado negro y personas que esconden razones distintas para ayudar o traicionar. La intriga se vuelve más compleja a medida que descubre que en la posguerra nadie actúa por un único motivo y que la verdad llega siempre incompleta."
+          },
+          {
+            "title": "Culpa, supervivencia y decisiones sin pureza",
+            "summary": "En la parte final, la novela desplaza el foco desde el simple desenlace de la misión hacia el precio interior de las decisiones. Bauer debe escoger entre la seguridad propia, la compasión y la responsabilidad adquirida ante otros seres vulnerables, sabiendo que cualquier salida arrastra pérdidas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Estambul como frontera moral",
+            "content": "La ciudad no es un decorado exótico, sino un espacio bisagra entre Europa y Asia, guerra y posguerra, legalidad y clandestinidad. Esa condición fronteriza define el tono entero de la novela: nadie está del todo a salvo, nadie posee información suficiente y casi todos negocian con algún grado de compromiso moral."
+          },
+          {
+            "heading": "Espionaje histórico sin glamour",
+            "content": "Kanon se distancia de la fantasía heroica del espía impecable. Sus personajes actúan entre cansancio, miedo, deseo de huir y necesidad de proteger a otros. El resultado se parece menos a una aventura triunfal que a una exploración del deterioro ético producido por años de guerra encubierta."
+          },
+          {
+            "heading": "Refugiados y posguerra",
+            "content": "La novela adquiere profundidad al mostrar que detrás de cada operación hay desplazados, identidades precarias y personas cuya vida depende de papeles, rutas y favores. Así, la intriga individual se conecta con una realidad histórica más amplia: la de millones de europeos atrapados en el desorden posterior a 1945."
+          },
+          {
+            "heading": "La fuerza narrativa de la ambigüedad",
+            "content": "Buena parte del interés del libro proviene de que casi todos los vínculos admiten doble lectura. La desconfianza no es un recurso pasajero, sino la forma natural de relación en ese mundo. Por eso el suspense nace tanto de la acción como del problema de interpretar gestos, silencios y medias verdades."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Estambul es una novela histórica o un thriller de espionaje?",
+            "answer": "Es ambas cosas. Funciona como thriller por su trama de persecución, documentos y lealtades cruzadas, pero su mayor fuerza está en la reconstrucción de la Estambul de 1945 y en la dimensión moral de la posguerra."
+          },
+          {
+            "question": "¿Quién es el protagonista de la novela?",
+            "answer": "El protagonista es Leon Bauer, un estadounidense dedicado al comercio que durante la guerra ha realizado trabajos encubiertos en la ciudad y que acepta una última misión aparentemente rutinaria."
+          },
+          {
+            "question": "¿Qué distingue a Joseph Kanon dentro del género?",
+            "answer": "Su capacidad para combinar documentación histórica, ritmo de intriga y personajes psicológicamente complejos. En sus novelas, la historia no es simple marco, sino una presión constante sobre la conciencia de los personajes."
+          },
+          {
+            "question": "¿Por qué la ciudad de Estambul es tan importante en el libro?",
+            "answer": "Porque resume la condición de tránsito e incertidumbre del momento histórico. Su mezcla de diplomáticos, refugiados, comerciantes y espías permite que la trama muestre la posguerra como una continuidad del conflicto por otros medios."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Joseph Kanon: Istanbul Passage",
+            "url": "https://josephkanon.com/istanbul-passage/"
+          },
+          {
+            "label": "Kirkus Reviews: Istanbul Passage",
+            "url": "https://www.kirkusreviews.com/book-reviews/joseph-kanon/istanbul-passage/"
+          },
+          {
+            "label": "Publishers Weekly: Istanbul Passage by Joseph Kanon",
+            "url": "https://www.publishersweekly.com/9781439156414"
+          },
+          {
+            "label": "Casa del Libro: Estambul",
+            "url": "https://www.casadellibro.com/libro-estambul/9788490065938/2099898"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "estupor-y-temblores-de-amelie-nothomb",
+      "title": "Estupor Y Temblores",
+      "authorName": "Amelie Nothomb",
+      "authorSlug": "amelie-nothomb",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Estupor y temblores",
+        "authorName": "Amélie Nothomb",
+        "authorSlug": "amelie-nothomb",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 1999,
+        "pages": 174,
+        "summary": "Estupor y temblores es una novela breve, de fuerte tono autobiográfico, en la que Amélie, una joven belga criada en parte en Japón, entra a trabajar en la gran empresa japonesa Yumimoto con la esperanza de integrarse en una cultura que admira profundamente. Lo que encuentra no es una iniciación profesional luminosa, sino una cadena de humillaciones, descensos jerárquicos y malentendidos cada vez más ásperos. La narración sigue su progresiva degradación dentro de la oficina, desde tareas administrativas hasta trabajos absurdos y punitivos, mientras observa la rigidez del protocolo corporativo y el peso de la obediencia. Nothomb convierte esa experiencia en una sátira amarga sobre poder, identidad, pertenencia cultural y dignidad individual, sin renunciar al humor seco ni a la precisión psicológica.",
+        "aboutThisBook": "Publicada originalmente en francés como Stupeur et tremblements y premiada en 1999 con el Grand Prix du roman de l'Académie française, esta obra es uno de los libros más conocidos de Amélie Nothomb. Parte de una experiencia laboral inspirada en la biografía de la autora y la transforma en un relato muy controlado, irónico y feroz. La empresa japonesa donde trabaja la protagonista no aparece solo como escenario, sino como máquina de jerarquías, rituales y castigos simbólicos. El libro combina memoria, sátira social y novela de formación invertida: en vez de ascender, la protagonista desciende y descubre los límites de su admiración por Japón y de su propia resistencia.",
+        "forWhom": "Para lectores adultos interesados en novelas breves e intensas sobre trabajo, choque cultural, humillación burocrática, identidad y resistencia personal.",
+        "whyItMatters": "Importa porque convirtió una experiencia laboral concreta en una crítica literaria muy eficaz sobre la violencia de las jerarquías y sobre la distancia entre el Japón idealizado y la realidad institucional. También consolidó a Nothomb como una voz singular de la narrativa francófona contemporánea.",
+        "editorialIntro": "Hay novelas que hablan del trabajo como fondo y otras que entienden la oficina como un teatro de poder. Estupor y temblores pertenece a este segundo grupo. Amélie Nothomb narra la disciplina empresarial japonesa desde dentro, con una mezcla muy rara de precisión, ironía y desamparo. El resultado no es un simple testimonio exótico, sino una exploración literaria de la obediencia, la vergüenza y la necesidad de conservar una mínima dignidad cuando todo empuja a la sumisión.",
+        "readingLevel": "Lectura accesible para público adulto. La prosa es clara y ágil, pero el libro gana profundidad si se atiende a su ironía, a la construcción del poder y al matiz autobiográfico de la experiencia narrada.",
+        "whyReadToday": "Sigue siendo actual porque muchas de sus preguntas sobre abuso laboral, culturas corporativas rígidas y desgaste psicológico continúan plenamente vigentes.",
+        "studyNotes": [
+          "La novela puede leerse como sátira del mundo corporativo, pero también como relato de fascinación y desencanto con una cultura admirada desde la infancia.",
+          "El descenso de Amélie dentro de Yumimoto organiza la estructura del libro: cada degradación revela una nueva capa de poder, obediencia y violencia simbólica.",
+          "Fubuki Mori no funciona solo como antagonista; encarna el ideal de perfección jerárquica al que la protagonista nunca logra adaptarse por completo.",
+          "El humor seco de Nothomb evita que el libro se vuelva solemne y refuerza la crítica a los rituales absurdos de la organización empresarial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Entrada en Yumimoto",
+            "summary": "Amélie comienza a trabajar en una gran compañía japonesa convencida de que por fin podrá habitar el país que admira. Muy pronto descubre que la integración cultural y profesional será mucho más difícil de lo que imaginaba."
+          },
+          {
+            "title": "Errores, protocolos y degradaciones",
+            "summary": "Los malentendidos se acumulan y cada fallo, real o percibido, conduce a una pérdida de rango. La protagonista pasa de tareas razonables a funciones cada vez más humillantes, atrapada en una lógica jerárquica implacable."
+          },
+          {
+            "title": "La relación con Fubuki Mori",
+            "summary": "La supervisora directa de Amélie concentra admiración, miedo y rivalidad. Su vínculo revela la dureza del sistema interno de la empresa y la imposibilidad de que la protagonista encaje en él sin destruirse."
+          },
+          {
+            "title": "Humillación final y supervivencia íntima",
+            "summary": "En el tramo final, la oficina se convierte en un espacio casi absurdo donde ya no está en juego el éxito profesional, sino la conservación de una mínima dignidad. El cierre deja una mezcla de derrota práctica y lucidez moral."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Trabajo y violencia simbólica",
+            "content": "El libro muestra que la violencia laboral no necesita gritos permanentes ni castigos físicos. Basta con una red de jerarquías, silencios, desautorizaciones y tareas degradantes para erosionar a una persona. La novela vuelve visible esa violencia cotidiana con especial eficacia."
+          },
+          {
+            "heading": "Choque cultural sin simplismo",
+            "content": "Aunque el texto parte de la experiencia de una extranjera en Japón, su interés no reside en convertir la diferencia cultural en tópico exótico. Nothomb muestra admiración y herida a la vez: la protagonista no deja de amar Japón, pero descubre que su idealización no resiste el contacto con la institución."
+          },
+          {
+            "heading": "Autobiografía transformada en forma literaria",
+            "content": "La materia autobiográfica está tratada con un notable control narrativo. La autora no busca solo contar lo que sufrió, sino darle ritmo, ironía y densidad simbólica, convirtiendo una experiencia concreta en una fábula moderna sobre obediencia y humillación."
+          },
+          {
+            "heading": "El descenso como estructura",
+            "content": "A diferencia de muchas novelas laborales donde el conflicto consiste en ascender o fracasar, aquí el movimiento principal es el descenso. Esa inversión hace del libro una anti-novela de promoción y refuerza su carácter satírico y crítico."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Estupor y temblores es autobiográfica?",
+            "answer": "Está fuertemente inspirada en la experiencia laboral de Amélie Nothomb en Japón, aunque su forma final es claramente literaria y no un simple documento testimonial."
+          },
+          {
+            "question": "¿Qué papel tiene Fubuki Mori en la novela?",
+            "answer": "Es la superior directa de la protagonista y una figura decisiva para comprender la mezcla de admiración, disciplina, rivalidad y violencia jerárquica que organiza el libro."
+          },
+          {
+            "question": "¿La novela critica solo a Japón?",
+            "answer": "No. Aunque se sitúa en una empresa japonesa, la novela también habla de mecanismos universales del poder burocrático, la obediencia y la humillación en el trabajo."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose tanto?",
+            "answer": "Porque en muy pocas páginas consigue unir sátira social, experiencia íntima y crítica del mundo laboral con una voz irónica y muy reconocible."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Fear and Trembling (novel)",
+            "url": "https://en.wikipedia.org/wiki/Fear_and_Trembling_(novel)"
+          },
+          {
+            "label": "Google Books: Stupeur et tremblements",
+            "url": "https://books.google.com/books?id=-ZEkAQAAMAAJ"
+          },
+          {
+            "label": "Britannica: Amélie Nothomb",
+            "url": "https://www.britannica.com/biography/Amelie-Nothomb"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "extramuros-de-jesus-fernandez-santos",
+      "title": "Extramuros",
+      "authorName": "Jesus Fernandez Santos",
+      "authorSlug": "jesus-fernandez-santos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Extramuros",
+        "authorName": "Jesús Fernández Santos",
+        "authorSlug": "jesus-fernandez-santos",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "novela-historica",
+          "romance"
+        ],
+        "year": 1978,
+        "pages": 280,
+        "summary": "En un convento pobre y aislado de la España de Felipe II, dos monjas viven una relación amorosa secreta mientras la comunidad se hunde entre el hambre, la enfermedad y la falta de recursos. Para salvar a la congregación, ambas conciben una impostura: fingir que una de ellas ha sido tocada por signos sobrenaturales capaces de atraer devoción, donativos y prestigio. Jesús Fernández Santos convierte ese plan en una novela de encierro, deseo y poder, donde la religiosidad pública, la necesidad material y la represión de los cuerpos se cruzan sin descanso. El relato avanza como una historia de pasión prohibida y también como una exploración del miedo, la culpa y la fragilidad de un mundo cerrado que necesita creer para sobrevivir.",
+        "aboutThisBook": "Publicada originalmente en 1978 y recuperada en edición ilustrada por Lunwerg, Extramuros es una de las novelas más recordadas de Jesús Fernández Santos y fue presentada de nuevo por la editorial como un Premio Nacional de Literatura de plena vigencia. Su fuerza nace de la combinación entre marco histórico, intensidad psicológica y una mirada poco complaciente sobre las instituciones religiosas. La novela no usa el convento como simple decorado: lo convierte en un laboratorio de jerarquías, privaciones, simulacros de santidad y afectos perseguidos. Por eso puede leerse a la vez como novela histórica, tragedia íntima y reflexión sobre la manipulación de la fe.",
+        "forWhom": "Para lectores de novela literaria e histórica que valoran los ambientes cerrados, los conflictos morales y las historias de amor prohibido tratadas con densidad psicológica y estilo sobrio.",
+        "whyItMatters": "Importa porque muestra cómo la escasez material, la autoridad religiosa y la necesidad de creer pueden fabricar una ficción colectiva devastadora. Además, su tratamiento del deseo entre mujeres y de la represión institucional mantiene una actualidad evidente.",
+        "editorialIntro": "Extramuros sigue impresionando por la manera en que encierra a sus personajes en un espacio donde casi todo es carencia: falta comida, falta aire moral y falta libertad para nombrar el deseo. Jesús Fernández Santos narra ese asedio con una prosa contenida, sin convertir el convento en un símbolo abstracto. Lo que aparece es un mundo concreto, áspero y vulnerable, en el que la fe puede ser consuelo, disciplina o herramienta de supervivencia. De ahí nace la singularidad de esta novela: su capacidad para unir historia, pasión y crítica institucional sin perder tensión narrativa.",
+        "readingLevel": "Lectura de complejidad media-alta, recomendable para adultos habituados a novelas de atmósfera, trasfondo histórico y conflicto psicológico, con un ritmo más reflexivo que puramente argumental.",
+        "whyReadToday": "Porque permite releer desde el presente cuestiones como la represión del deseo, la fabricación de relatos milagrosos y la relación entre poder simbólico y precariedad material.",
+        "studyNotes": [
+          "El convento funciona como espacio de encierro, pero también como microcosmos político donde se disputan autoridad, obediencia y prestigio.",
+          "La impostura de los estigmas puede leerse como estrategia de supervivencia y como crítica a la credulidad social organizada alrededor de la santidad.",
+          "La historia amorosa entre las dos monjas no aparece como adorno romántico, sino como núcleo emocional y ético de la novela.",
+          "Conviene observar cómo la pobreza material condiciona casi todas las decisiones, incluso las espirituales.",
+          "La ambientación del siglo XVI intensifica el conflicto, pero muchas tensiones del libro siguen dialogando con debates contemporáneos sobre institución y deseo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El convento y la necesidad",
+            "summary": "La novela presenta una comunidad religiosa empobrecida, sometida al hambre y a la decadencia. En ese entorno opresivo se perfila la relación secreta entre dos monjas y la urgencia de encontrar una salida antes de que la miseria destruya al convento."
+          },
+          {
+            "title": "Parte 2: El milagro fabricado",
+            "summary": "Las protagonistas idean una ficción piadosa para atraer atención y recursos: convertir el sufrimiento de una de ellas en signo sobrenatural. El engaño empieza a alterar la vida interna del convento y a multiplicar las tensiones entre devoción, ambición y miedo."
+          },
+          {
+            "title": "Parte 3: Deseo, culpa y consecuencias",
+            "summary": "A medida que la impostura crece, también lo hacen los riesgos morales y afectivos. La novela conduce a sus personajes hacia un desenlace donde el amor clandestino, la presión institucional y la violencia del encierro revelan su verdadero coste."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La fe como economía simbólica",
+            "content": "Extramuros muestra que la religión no circula solo como creencia interior, sino también como sistema de prestigio, obediencia y recursos. El supuesto milagro produce capital espiritual y material, y por eso la novela examina cómo una comunidad desesperada puede convertir la santidad en estrategia de subsistencia."
+          },
+          {
+            "heading": "Erotismo y represión",
+            "content": "La relación amorosa entre las dos monjas está escrita sin morbo ni exotismo. Fernández Santos la coloca en el centro del conflicto para mostrar hasta qué punto una institución cerrada obliga a vivir el deseo como secreto, culpa y peligro."
+          },
+          {
+            "heading": "El convento como mundo cerrado",
+            "content": "El espacio conventual concentra buena parte de la fuerza de la novela. Allí cada gesto se amplifica, la vigilancia es constante y la pobreza vuelve más intensa la lucha por el sentido. Ese encierro permite que la novela funcione como drama histórico y como estudio de comportamiento colectivo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Extramuros?",
+            "answer": "Cuenta la historia de dos monjas enamoradas en un convento miserable de la España del siglo XVI que recurren a un falso milagro para salvar a su comunidad, desencadenando una trama de deseo, engaño y poder religioso."
+          },
+          {
+            "question": "¿Es una novela histórica o una novela psicológica?",
+            "answer": "Es ambas cosas. La ambientación histórica es muy importante, pero el centro del libro está en la tensión moral, afectiva y psicológica que viven sus protagonistas dentro del convento."
+          },
+          {
+            "question": "¿Por qué se sigue leyendo hoy?",
+            "answer": "Porque su crítica de la represión institucional, de la manipulación de la fe y del control sobre los cuerpos conserva una vigencia notable, especialmente en la forma en que trata el deseo y el simulacro religioso."
+          },
+          {
+            "question": "¿Tiene un tono devocional?",
+            "answer": "No. Aunque el mundo religioso estructura toda la novela, el enfoque es crítico y literario, interesado en mostrar cómo la necesidad, la autoridad y la credulidad deforman la vida de la comunidad."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - ficha de Extramuros",
+            "url": "https://www.planetadelibros.com/libro-extramuros/404770"
+          },
+          {
+            "label": "Google Libros - edición ilustrada de Extramuros",
+            "url": "https://books.google.com/books/about/Extramuros.html?hl=es&id=3_YoEQAAQBAJ"
+          },
+          {
+            "label": "EL PAÍS - presentación de la novela en 1978",
+            "url": "https://elpais.com/diario/1978/12/05/sociedad/281660415_850215.html"
+          },
+          {
+            "label": "Anika Entre Libros - reseña de Extramuros",
+            "url": "https://www.anikaentrelibros.com/extramuros"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "f-de-fugitivo-de-sue-grafton",
+      "title": "F De Fugitivo",
+      "authorName": "Sue Grafton",
+      "authorSlug": "sue-grafton",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "F de fugitivo",
+        "authorName": "Sue Grafton",
+        "authorSlug": "sue-grafton",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 1989,
+        "pages": 261,
+        "summary": "En la sexta entrega de la serie alfabética, la detective privada Kinsey Millhone acepta revisar un caso enterrado desde hace diecisiete años. Bailey Fowler fue condenado por el asesinato de Jean Timberlake, una adolescente embarazada de Floral Beach, pero ahora insiste en su inocencia. Kinsey viaja a esa pequeña comunidad costera y descubre un entramado de secretos familiares, viejas lealtades y recuerdos manipulados por el tiempo. A medida que reabre testimonios, examina rumores y soporta amenazas crecientes, la investigación deja de ser un simple intento de corregir una posible injusticia y se convierte en una indagación sobre los mecanismos sociales que protegen la apariencia de normalidad. Grafton combina ritmo policial, observación psicológica y una heroína metódica que avanza sin glamour, pero con una tenacidad implacable.",
+        "aboutThisBook": "Publicada en 1989 por Henry Holt and Company, la novela pertenece a la célebre serie de misterios protagonizada por Kinsey Millhone. Como otras entregas del alfabeto de Grafton, mezcla pesquisa clásica, humor seco y una protagonista independiente que trabaja más con intuición disciplinada y paciencia que con efectos espectaculares. La trama se apoya en el formato de caso reabierto, ideal para explorar memoria, culpa y reputación social.",
+        "forWhom": "Para lectores de novela negra que disfrutan investigaciones minuciosas, pueblos pequeños llenos de secretos y detectives con voz propia, ironía y sentido práctico.",
+        "whyItMatters": "Importa porque consolida a Kinsey Millhone como una de las grandes detectives de la ficción criminal contemporánea. Además, muestra cómo la novela policial puede examinar clase, género, deseo y autoengaño dentro de una comunidad aparentemente tranquila.",
+        "editorialIntro": "Sue Grafton encontró en Kinsey una investigadora muy distinta del detective duro tradicional: observadora, escéptica y persistente, pero también vulnerable al cansancio y a la confusión moral. En F de fugitivo, esa voz madura se despliega en un caso antiguo donde casi todos tienen algo que callar y nadie recuerda de forma inocente.",
+        "readingLevel": "Lectura fluida para público adulto, con estructura detectivesca clara y una red moderada de personajes y relaciones del pasado que conviene seguir con atención.",
+        "whyReadToday": "Sigue vigente porque habla de expedientes mal cerrados, sesgos comunitarios y la dificultad de separar verdad, rumor y conveniencia cuando un crimen se vuelve parte del folclore local.",
+        "studyNotes": [
+          "El caso reabierto permite comparar verdad judicial y verdad narrativa.",
+          "Floral Beach funciona como microcosmos donde todos observan y todos esconden algo.",
+          "Kinsey resuelve por acumulación de detalles, no por intuiciones milagrosas.",
+          "La novela examina cómo el pasado cambia según quién lo cuenta y qué desea proteger."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El encargo y el regreso al pasado",
+            "summary": "Kinsey acepta revisar la condena de Bailey Fowler y llega a Floral Beach para estudiar un crimen viejo que la comunidad cree resuelto. La aparente claridad del caso pronto empieza a agrietarse."
+          },
+          {
+            "title": "Parte 2: Un pueblo, muchas versiones",
+            "summary": "Mientras entrevista a familiares, antiguos compañeros y vecinos, la detective descubre una trama de relaciones íntimas, resentimientos y silencios. Cada testimonio agrega datos, pero también nuevas distorsiones."
+          },
+          {
+            "title": "Parte 3: Presiones, amenazas y nuevas muertes",
+            "summary": "La pesquisa incomoda a quienes necesitan mantener intacta la versión oficial. Las intimidaciones y la violencia obligan a Kinsey a entender que el caso sigue vivo para más de una persona."
+          },
+          {
+            "title": "Parte 4: La lógica oculta del crimen",
+            "summary": "En el tramo final, las piezas dispersas revelan que el asesinato original estaba ligado a deseos, celos y jerarquías familiares más profundas de lo que parecía. La resolución depende de leer las motivaciones detrás de los hechos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Kinsey Millhone y la ética del detalle",
+            "content": "Grafton construye una detective creíble porque su trabajo está hecho de tiempo, entrevistas, notas y pequeños indicios. Esa materialidad del oficio vuelve más convincente el suspenso y aleja la novela del detective infalible."
+          },
+          {
+            "heading": "El pueblo pequeño como máquina de rumor",
+            "content": "Floral Beach no es solo escenario: es un sistema social que premia la conformidad y castiga la diferencia. El crimen sobrevive deformado porque la comunidad lo ha absorbido dentro de sus prejuicios y conveniencias."
+          },
+          {
+            "heading": "El pasado nunca está quieto",
+            "content": "La novela muestra que un caso antiguo no permanece intacto, sino que se reescribe con el tiempo. Los recuerdos se vuelven estrategias de defensa, las omisiones pesan tanto como los hechos y la investigación consiste en desmontar relatos cristalizados."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer los libros anteriores de Kinsey Millhone?",
+            "answer": "No estrictamente. Aunque pertenece a una serie, el caso central puede seguirse de forma independiente y la novela ofrece el contexto básico de la protagonista."
+          },
+          {
+            "question": "¿Predomina más el misterio o la acción?",
+            "answer": "Predomina la investigación. Hay tensión y episodios de peligro, pero el motor principal es reconstruir un crimen antiguo mediante entrevistas, observación y deducción."
+          },
+          {
+            "question": "¿Qué distingue a Sue Grafton dentro del policial?",
+            "answer": "Su combinación de claridad narrativa, humor seco, perspectiva femenina muy definida y atención al trabajo real del detective, sin sacrificar ritmo ni intriga."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia — F Is for Fugitive",
+            "url": "https://en.wikipedia.org/wiki/F_is_for_Fugitive"
+          },
+          {
+            "label": "Kirkus Reviews — 'F' Is for Fugitive",
+            "url": "https://www.kirkusreviews.com/book-reviews/sue-grafton/f-is-for-fugitive/"
+          },
+          {
+            "label": "Britannica — Sue Grafton",
+            "url": "https://www.britannica.com/biography/Sue-Grafton"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fervor-de-buenos-aires-de-jorge-luis-borges",
+      "title": "Fervor De Buenos Aires",
+      "authorName": "Jorge Luis Borges",
+      "authorSlug": "jorge-luis-borges",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Fervor de Buenos Aires",
+        "authorName": "Jorge Luis Borges",
+        "authorSlug": "jorge-luis-borges",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "poesia"
+        ],
+        "year": 1923,
+        "pages": null,
+        "summary": "Fervor de Buenos Aires es el primer libro de poemas de Jorge Luis Borges y una de las entradas más reveladoras a su universo literario. Publicado en 1923 en una tirada pequeña, el libro no retrata la capital argentina desde el ruido moderno o la euforia urbana, sino desde una emoción íntima, meditativa y a menudo melancólica. Sus poemas recorren calles, patios, arrabales, plazas, cementerios y atardeceres, pero esos lugares nunca son simples postales: se convierten en espacios donde la memoria, la identidad, el tiempo y una temprana inquietud metafísica empiezan a tomar forma. Aunque el propio Borges revisó después el libro y suavizó algunos excesos juveniles, ya está aquí una parte decisiva de su voz: la ciudad como destino afectivo, la reflexión filosófica insinuada en la imagen cotidiana y una manera de mirar Buenos Aires que vuelve lo cercano extraño y memorable.",
+        "aboutThisBook": "Britannica lo identifica como el volumen de poemas con el que Borges debutó en 1923, y la página de Sheridan Libraries recuerda que aquella primera edición tuvo una tirada de 300 ejemplares, de los que sobreviven muy pocos en colecciones públicas. El artículo del Gobierno de la Ciudad de Buenos Aires subraya que la publicación inicial incluía 46 poemas dedicados a calles, barrios y lugares concretos de la capital. Leído hoy, el libro vale por dos razones simultáneas: como documento de un joven Borges todavía marcado por el ultraísmo y como obra ya sorprendentemente fiel a preocupaciones que más tarde dominarán su narrativa y sus ensayos.",
+        "forWhom": "Para lectores de poesía, estudiantes de literatura hispanoamericana y admiradores de Borges que quieran conocer el momento en que su imaginación filosófica empieza a unirse con una ciudad concreta y sentimentalmente decisiva.",
+        "whyItMatters": "Importa porque no es solo un debut: es el punto donde Borges descubre que Buenos Aires puede ser materia poética y que la experiencia urbana admite una hondura metafísica. También permite ver cómo se forma una de las voces fundamentales de la literatura del siglo XX antes de sus libros más famosos de cuentos y ensayos.",
+        "editorialIntro": "Entrar en Fervor de Buenos Aires es entrar en el laboratorio íntimo de Borges. Aquí todavía no aparece del todo el autor de los laberintos conceptuales que la crítica suele citar primero, pero sí un poeta que ya sabe convertir una esquina, un patio o un crepúsculo en reflexión sobre el tiempo y la identidad. El libro conserva algo juvenil y algo definitivo a la vez: la emoción del descubrimiento y la intuición temprana de una obra futura inmensa.",
+        "readingLevel": "Lectura de dificultad media a alta. Los poemas son breves y visuales, pero la experiencia mejora cuando el lector atiende a sus resonancias filosóficas, a sus referencias urbanas y al modo en que la emoción se condensa en imágenes sobrias más que en explicaciones directas.",
+        "whyReadToday": "Porque sigue ofreciendo una forma singular de pensar la ciudad, la memoria y la intimidad, y porque permite leer a Borges antes del mito, todavía próximo al temblor de su primer hallazgo poético.",
+        "studyNotes": [
+          "La primera edición fue una autoedición de 1923 con tirada reducida; su rareza material ayuda a entender la dimensión casi artesanal del debut borgiano.",
+          "El libro enlaza la observación de Buenos Aires con preguntas sobre tiempo, identidad y destino, anticipando el Borges posterior.",
+          "Aunque suele vincularse al ultraísmo, estos poemas ya muestran una voz menos programática y más meditativa que la de una simple vanguardia militante.",
+          "La revisión posterior del propio Borges es importante: leer el prólogo de 1969 permite ver cómo el autor reconsideró su juventud sin negarla del todo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La ciudad íntima: calles, patios y barrios",
+            "summary": "Un primer núcleo del libro transforma Buenos Aires en una experiencia afectiva. Las calles y los barrios aparecen como lugares de pertenencia y extrañeza a la vez: no son monumentos oficiales, sino espacios cotidianos cargados de una emoción silenciosa y personal."
+          },
+          {
+            "title": "Atardeceres, arrabales y memoria",
+            "summary": "Otro conjunto de poemas fija instantes de luz, crepúsculo y periferia para pensar el paso del tiempo. En estas piezas el paisaje urbano se vuelve memoria en acto: la ciudad es algo visto, recordado y perdido simultáneamente."
+          },
+          {
+            "title": "Meditación temprana sobre el yo y lo infinito",
+            "summary": "Hacia el fondo del poemario aparecen preguntas que luego serán centrales en Borges: la identidad, la continuidad del yo, la sospecha de lo eterno dentro de lo ordinario. La grandeza del libro está en insinuar esas cuestiones sin abandonar la concreción de la imagen urbana."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El primer Borges reconocible",
+            "content": "Aunque Fervor de Buenos Aires precede a los libros que hicieron mundialmente célebre a Borges, ya permite reconocer varios de sus rasgos decisivos: la preferencia por la intensidad intelectual sin grandilocuencia, el gusto por la condensación verbal y la capacidad de convertir una observación local en pregunta universal."
+          },
+          {
+            "heading": "Buenos Aires como mito personal",
+            "content": "El libro no describe la ciudad de forma turística ni sociológica. La inventa poéticamente como territorio del recuerdo, de la intimidad y de una ética de la mirada. Esa operación es fundamental: Borges no solo canta Buenos Aires, sino que ayuda a fundar una imagen literaria propia de la ciudad."
+          },
+          {
+            "heading": "Entre vanguardia y clasicismo interior",
+            "content": "El joven Borges venía marcado por la experiencia ultraísta, pero en estos poemas ya se percibe una tensión fértil entre modernidad formal y serenidad reflexiva. Por eso el libro interesa tanto: no es una simple pieza de escuela literaria, sino el comienzo de una voz que pronto desbordará a cualquier movimiento."
+          },
+          {
+            "heading": "La melancolía del título",
+            "content": "El propio título promete fervor, pero muchos poemas avanzan con tono contenido, casi meditativo. Esa distancia entre nombre y tono es reveladora: el fervor no es estruendo ni entusiasmo visible, sino una devoción interior por la ciudad y por la experiencia fugaz de habitarla."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué lugar ocupa este libro en la obra de Borges?",
+            "answer": "Es su primer libro de poesía y uno de los puntos de partida más importantes para entender cómo nacen sus grandes temas: la ciudad, la memoria, el tiempo y la identidad."
+          },
+          {
+            "question": "¿Fervor de Buenos Aires retrata la ciudad de manera realista?",
+            "answer": "No en un sentido documental. Parte de lugares concretos, pero los convierte en escenas íntimas y simbólicas, filtradas por la emoción y la memoria del poeta."
+          },
+          {
+            "question": "¿Es un libro difícil de leer?",
+            "answer": "Exige atención, pero no por oscuridad extrema. Sus poemas suelen ser breves y claros en la superficie; la dificultad está en sus ecos filosóficos y en la condensación expresiva."
+          },
+          {
+            "question": "¿Por qué Borges revisó más tarde este libro?",
+            "answer": "Porque veía en él los excesos de su juventud y quiso limarlos. Aun así, reconoció que el libro prefiguraba gran parte de su obra posterior, lo que confirma su valor fundacional."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Britannica: Fervor de Buenos Aires, poemas",
+            "url": "https://www.britannica.com/topic/Fervor-de-Buenos-Aires-poemas"
+          },
+          {
+            "label": "Wikipedia: Fervor de Buenos Aires",
+            "url": "https://es.wikipedia.org/wiki/Fervor_de_Buenos_Aires"
+          },
+          {
+            "label": "Sheridan Libraries: Fervor of Buenos Aires",
+            "url": "https://www.library.jhu.edu/give/sponsor-a-book/fervor-of-buenos-aires/"
+          },
+          {
+            "label": "Buenos Aires Ciudad: Cien años de Fervor de Buenos Aires",
+            "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/cien-anos-de-fervor-de-buenos-aires"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fuentes-de-la-historia-del-arte-i-de-joaquin-yarza-luaces",
+      "title": "Fuentes De La Historia Del Arte I",
+      "authorName": "Joaquin Yarza Luaces",
+      "authorSlug": "joaquin-yarza-luaces",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Fuentes de la historia del arte, I",
+        "authorName": "Joaquín Yarza Luaces",
+        "authorSlug": "joaquin-yarza-luaces",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1997,
+        "pages": 299,
+        "summary": "Fuentes de la historia del arte, I es un volumen de trabajo y estudio que reúne textos, testimonios y documentos fundamentales para aproximarse al arte antiguo y medieval desde sus propias fuentes. Joaquín Yarza Luaces no plantea una historia narrativa del arte en sentido tradicional, sino una herramienta crítica para leer cómo distintas épocas describieron, pensaron y justificaron las imágenes, los edificios y las prácticas artísticas. El libro pone en relación autores clásicos, referencias medievales, documentos de taller, textos religiosos y testimonios históricos que permiten reconstruir contextos de producción, recepción y valoración del arte. Su interés está en enseñar a leer la historia del arte con base documental y no solo desde interpretaciones posteriores. Por eso funciona a la vez como antología, guía metodológica y apoyo para la formación universitaria.",
+        "aboutThisBook": "Publicado por Historia 16 dentro de la colección Conocer el arte, este primer volumen se centra en la Antigüedad y la Edad Media. Distintas descripciones editoriales subrayan que su contenido podría haberse titulado más exactamente como un repertorio de fuentes y documentos para el arte antiguo y medieval, porque esa es su verdadera función: acercar al lector a materiales primarios o cercanos a los hechos artísticos. Yarza, medievalista e historiador del arte, organiza el volumen como una herramienta de acceso a textos que ayudan a entender obras, monumentos, ideas estéticas y problemas de interpretación. No es un manual elemental de estilos, sino un libro para aprender a fundamentar el análisis artístico en testimonios históricos concretos.",
+        "forWhom": "Para estudiantes universitarios, docentes y lectores adultos con interés serio en historia del arte, metodología, fuentes primarias y arte antiguo o medieval.",
+        "whyItMatters": "Importa porque enseña una disciplina básica de la historia del arte: no quedarse solo en la imagen final o en la explicación secundaria, sino volver a los textos, documentos y voces históricas que permiten comprender cómo se produjo y entendió el arte en su propio tiempo.",
+        "editorialIntro": "En historia del arte, saber mirar no basta: hay que saber leer. Fuentes de la historia del arte, I recuerda precisamente eso. Joaquín Yarza reúne documentos y testimonios que permiten reconstruir el sentido histórico de obras y tradiciones visuales de la Antigüedad y la Edad Media. El libro vale menos como repertorio de datos cerrados que como entrenamiento intelectual. Enseña a desconfiar de las simplificaciones, a distinguir entre fuente y comentario, y a estudiar el arte como una realidad inscrita en textos, usos sociales, creencias y debates de cada época.",
+        "readingLevel": "Lectura media-alta, adecuada para público universitario o lector adulto habituado al ensayo. Exige atención a contextos históricos y a la diferencia entre documento primario, comentario crítico e interpretación historiográfica.",
+        "whyReadToday": "Sigue siendo útil porque refuerza hábitos de lectura crítica y documental en un momento dominado por resúmenes rápidos e interpretaciones descontextualizadas de las imágenes.",
+        "studyNotes": [
+          "El valor principal del volumen está en su método: enseñar a estudiar arte a partir de fuentes y no solo mediante relatos panorámicos posteriores.",
+          "Conviene leer cada documento preguntando quién habla, desde qué contexto histórico y con qué finalidad describe o valora una obra o una práctica artística.",
+          "La amplitud cronológica del libro permite comparar la continuidad y la transformación de ideas sobre belleza, función, simbolismo y autoridad de las imágenes.",
+          "Su foco en Antigüedad y Edad Media lo vuelve especialmente útil para comprender cómo la distancia temporal y la pérdida documental condicionan el trabajo del historiador del arte."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Qué significa estudiar el arte desde sus fuentes",
+            "summary": "El libro arranca situando la importancia metodológica de los textos y documentos para la historia del arte. La propuesta no es memorizar autores, sino aprender a reconstruir contextos y sentidos a partir de testimonios históricos."
+          },
+          {
+            "title": "Parte 2: Fuentes para el arte antiguo",
+            "summary": "En esta zona del volumen se reúnen materiales vinculados al mundo clásico, donde las descripciones tardías, los textos literarios y los documentos conservados obligan a trabajar con cautela crítica. El lector comprende tanto lo que las fuentes ofrecen como sus límites."
+          },
+          {
+            "title": "Parte 3: Documentos y pensamiento medieval",
+            "summary": "La sección medieval acerca textos religiosos, crónicas, referencias teóricas y documentos que iluminan la función de la imagen, la arquitectura y el simbolismo en sociedades profundamente distintas de la moderna."
+          },
+          {
+            "title": "Parte 4: De la antología al método",
+            "summary": "Más allá de los materiales concretos, el volumen deja una lección metodológica: la historia del arte gana profundidad cuando se apoya en un trabajo cuidadoso con fuentes, transmisión textual y contexto cultural."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una historia del arte basada en documentos",
+            "content": "El libro combate una tendencia muy extendida en la divulgación: estudiar el arte solo por estilos o grandes nombres. Yarza insiste en que las obras también se comprenden leyendo testimonios, prescripciones, descripciones y documentos que revelan usos y sentidos históricos."
+          },
+          {
+            "heading": "La dificultad de las fuentes antiguas",
+            "content": "Uno de los puntos más fértiles del volumen es mostrar que una fuente no equivale automáticamente a una verdad transparente. En el arte antiguo y medieval, la distancia cronológica, la pérdida de materiales y la transmisión incompleta obligan a leer con mucha precaución crítica."
+          },
+          {
+            "heading": "Antología y manual a la vez",
+            "content": "La obra funciona en dos niveles: como recopilación útil de textos y como entrenamiento metodológico. Esa doble condición explica su valor docente, porque no solo ofrece materiales, sino una manera de trabajar con ellos."
+          },
+          {
+            "heading": "Vigencia académica",
+            "content": "Aunque el panorama bibliográfico haya crecido desde su publicación, el principio que sostiene el libro sigue siendo esencial. En una disciplina cada vez más visual y digital, recordar la centralidad de las fuentes escritas y documentales sigue siendo una lección imprescindible."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un manual general de historia del arte?",
+            "answer": "No exactamente. Es sobre todo una recopilación comentada de fuentes y documentos pensada para estudiar el arte con base histórica y metodológica."
+          },
+          {
+            "question": "¿Qué periodo cubre este volumen?",
+            "answer": "Se concentra en la Antigüedad y la Edad Media, mientras que un segundo volumen de la colección aborda las fuentes para el arte moderno y contemporáneo."
+          },
+          {
+            "question": "¿Hace falta ser especialista para aprovecharlo?",
+            "answer": "Ayuda tener interés académico o universitario, pero también puede servir a lectores constantes que quieran comprender cómo se construye el conocimiento histórico-artístico a partir de documentos."
+          },
+          {
+            "question": "¿Por qué es útil leer fuentes primarias en arte?",
+            "answer": "Porque permiten acercarse a cómo se describieron, entendieron o normaron las obras en su propio tiempo, algo que ninguna síntesis posterior puede sustituir del todo."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Books: Fuentes de la historia del arte",
+            "url": "https://books.google.com/books?id=4_i7AAAACAAJ"
+          },
+          {
+            "label": "La Tienda de Historia y Arte: Conocer el arte 21 Fuentes de la Historia del Arte I",
+            "url": "https://latiendadehistoriayarte.com/articulo/libros/conocer-el-arte/conocer-el-arte-21-fuentes-de-la-historia-del-arte-i/"
+          },
+          {
+            "label": "Wikipedia: Joaquín Yarza Luaces",
+            "url": "https://es.wikipedia.org/wiki/Joaqu%C3%ADn_Yarza_Luaces"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hijos-de-nuestro-barrio-de-naguib-mahfuz",
+      "title": "Hijos De Nuestro Barrio",
+      "authorName": "Naguib Mahfuz",
+      "authorSlug": "naguib-mahfuz",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Hijos de nuestro barrio",
+        "authorName": "Naguib Mahfuz",
+        "authorSlug": "naguib-mahfuz",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 1967,
+        "pages": 528,
+        "summary": "Hijos de nuestro barrio reimagina la historia de la humanidad y de las religiones monoteístas mediante la vida de un callejón de El Cairo dominado por la memoria de un patriarca remoto y por ciclos repetidos de abuso, esperanza y fracaso. Desde la expulsión inicial de Adham y la rebelión de Idrís, la novela sigue varias generaciones de personajes que evocan figuras proféticas y reformadoras, cada una enfrentada a caciques, injusticias y promesas de redención. Naguib Mahfuz construye así una gran alegoría sobre la violencia, la transmisión del poder, la fragilidad de la justicia y la persistente aspiración humana a una vida mejor. La obra combina relato popular, fábula filosófica y crítica social, y convierte el barrio en una miniatura del mundo.",
+        "aboutThisBook": "Es una de las novelas más célebres y discutidas de Mahfuz. Publicada tras una compleja trayectoria editorial y conocida por la polémica religiosa que provocó, la obra fue considerada blasfema en Egipto y permaneció prohibida allí durante décadas. Su importancia no radica solo en la controversia, sino en la audacia de su diseño narrativo: transformar historias reconocibles de la tradición bíblica y coránica en una novela coral sobre la opresión social, la memoria y la dificultad de instaurar una justicia duradera. El libro puede leerse como alegoría religiosa, como crónica del barrio cairota y como meditación sobre el fracaso repetido de las promesas emancipadoras.",
+        "forWhom": "Para lectores de clásicos del siglo XX, de alegorías morales y políticas, y para quienes disfrutan novelas amplias donde la dimensión filosófica y religiosa convive con conflictos sociales concretos.",
+        "whyItMatters": "Importa porque enlaza mito, historia y vida cotidiana para preguntarse por qué la humanidad repite la injusticia incluso después de cada reforma moral. Su ambición simbólica y su valentía intelectual la convierten en una obra decisiva de la narrativa árabe moderna.",
+        "editorialIntro": "Pocas novelas del siglo XX consiguen ser al mismo tiempo una gran parábola moral, una historia de barrio y una intervención cultural de enorme riesgo. Hijos de nuestro barrio pertenece a esa clase de libros. Mahfuz toma un espacio humilde y concreto, con sus peleas, patronos y miserias, y lo convierte en escenario de una pregunta inmensa: por qué el dolor y el dominio reaparecen una y otra vez incluso cuando surgen figuras llamadas a corregirlos. El resultado es un relato de enorme densidad simbólica que, sin dejar de ser alegórico, nunca abandona del todo la textura humana y social de la calle.",
+        "readingLevel": "Lectura de complejidad alta, adecuada para adultos y lectores avanzados interesados en novelas alegóricas, clásicas y filosóficas, con abundante simbolismo y una estructura generacional extensa.",
+        "whyReadToday": "Porque sigue siendo una forma poderosa de pensar la relación entre religión, poder, memoria y desigualdad, y porque su pregunta por la justicia colectiva sigue abierta en cualquier sociedad contemporánea.",
+        "studyNotes": [
+          "El barrio funciona como imagen condensada de la humanidad: todo conflicto local remite a una pregunta universal sobre poder, ley y redención.",
+          "Las distintas generaciones pueden analizarse como reescrituras narrativas de figuras religiosas y reformadoras, sin reducir la novela a un simple código de equivalencias.",
+          "Es clave observar cómo Mahfuz mezcla alegoría trascendente y realismo social del Cairo popular.",
+          "La prohibición y la recepción polémica forman parte de la historia del libro, pero no agotan su valor literario.",
+          "El papel del narrador y de la memoria oral es esencial para entender cómo el pasado sigue modelando el presente del barrio."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Origen, expulsión y herencia",
+            "summary": "La novela arranca con la figura del gran patriarca y con el conflicto entre sus hijos, que deja una herida fundacional en la comunidad. Desde ese primer quiebre nacen la exclusión, la rivalidad y la memoria del paraíso perdido."
+          },
+          {
+            "title": "Parte 2: Los reformadores del barrio",
+            "summary": "A lo largo de las generaciones aparecen personajes llamados a desafiar a los opresores y a renovar la vida común. Cada uno introduce una esperanza distinta, pero también tropieza con la violencia del poder y con los límites de la transformación histórica."
+          },
+          {
+            "title": "Parte 3: Ciencia, memoria y futuro incierto",
+            "summary": "En el tramo final, la novela desplaza su reflexión hacia nuevas formas de conocimiento y hacia la posibilidad de un cambio ya no fundado solo en la profecía. Sin embargo, Mahfuz mantiene abierta la pregunta sobre si la humanidad sabrá romper su ciclo de dominación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Alegoría religiosa y lectura política",
+            "content": "La novela es famosa por sus resonancias con las historias de Adán, Moisés, Jesús y Mahoma, pero su fuerza no depende solo de ese juego simbólico. Mahfuz usa esas correspondencias para interrogar también la autoridad, la violencia social y la repetición histórica de la injusticia en el mundo moderno."
+          },
+          {
+            "heading": "El barrio como escenario total",
+            "content": "Lejos de ser un fondo neutro, el callejón concentra la vida entera: trabajo, humillación, memoria, mito y conflicto. Esa escala reducida permite que la novela piense lo universal sin abandonar la materialidad de la pobreza y del dominio cotidiano."
+          },
+          {
+            "heading": "Memoria y fracaso de la justicia",
+            "content": "Cada nueva figura parece venir a corregir los males heredados, pero el barrio reincide una y otra vez en estructuras de abuso. La novela no niega la necesidad de los reformadores; lo que cuestiona es la facilidad con que las sociedades convierten la promesa moral en nuevo poder o en recuerdo impotente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Hijos de nuestro barrio?",
+            "answer": "Es una novela alegórica ambientada en un barrio de El Cairo que reescribe, mediante varias generaciones de personajes, la historia del poder, las religiones y la búsqueda humana de justicia."
+          },
+          {
+            "question": "¿Por qué fue una novela polémica?",
+            "answer": "Porque su uso de figuras y motivos vinculados a las tradiciones religiosas fue considerado blasfemo por sectores conservadores. Esa controversia marcó su recepción y contribuyó a su prolongada prohibición en Egipto."
+          },
+          {
+            "question": "¿Es necesario leerla solo como alegoría religiosa?",
+            "answer": "No. Esa dimensión es central, pero también puede leerse como una gran novela social sobre la opresión, la memoria colectiva y el fracaso reiterado de las promesas de emancipación."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutar más esta obra?",
+            "answer": "Quien aprecia los clásicos exigentes, las novelas simbólicas y los textos que combinan trama narrativa con reflexión filosófica, histórica y política."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - ficha de Hijos de nuestro barrio",
+            "url": "https://www.planetadelibros.com/libro-hijos-de-nuestro-barrio/228"
+          },
+          {
+            "label": "Wikipedia en español - Hijos de nuestro barrio",
+            "url": "https://es.wikipedia.org/wiki/Hijos_de_nuestro_barrio"
+          },
+          {
+            "label": "Nobel Prize - biografía de Naguib Mahfouz",
+            "url": "https://www.nobelprize.org/prizes/literature/1988/mahfouz/biographical/"
+          },
+          {
+            "label": "Wikipedia en inglés - Children of Gebelawi",
+            "url": "https://en.wikipedia.org/wiki/Children_of_Gebelawi"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hotel-silencio-de-audur-ava-olafsdottir",
+      "title": "Hotel Silencio",
+      "authorName": "Audur Ava Olafsdottir",
+      "authorSlug": "audur-ava-olafsdottir",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Hotel silencio",
+        "authorName": "Auður Ava Ólafsdóttir",
+        "authorSlug": "audur-ava-olafsdottir",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2016,
+        "pages": 224,
+        "summary": "Jónas Ebeneser atraviesa una crisis radical: su matrimonio se ha roto, descubre que la hija a la que ama no es biológicamente suya y siente que ha quedado sin lugar en el mundo. Con la intención de desaparecer lejos de casa, viaja a un país devastado por la guerra y se instala en un hotel semiderruido que acaba de reabrir. Lleva consigo una caja de herramientas casi por inercia, pero ese gesto termina cambiándolo todo. Al reparar puertas, cañerías y muros, empieza también a recomponer vínculos, escuchar historias ajenas y recuperar una forma de utilidad que la depresión le había negado. La novela avanza entre melancolía, humor contenido y una ternura poco sentimental para explorar cómo el cuidado material de las cosas puede devolver sentido a una vida quebrada.",
+        "aboutThisBook": "Publicada en islandés como Ör y conocida en inglés como Hotel Silence, esta novela de Auður Ava Ólafsdóttir une intimidad, posguerra y reconstrucción moral. La autora trabaja con una prosa sobria, de imágenes precisas y desplazamientos emocionales discretos. El viaje del protagonista no funciona como aventura exterior clásica, sino como un proceso de reparación interior reflejado en los espacios dañados que ayuda a restaurar.",
+        "forWhom": "Para lectores de narrativa contemporánea que buscan novelas breves, reflexivas y emotivas, interesadas en la fragilidad masculina, la posguerra y los gestos cotidianos de cuidado.",
+        "whyItMatters": "Importa porque trata el desaliento, la masculinidad herida y la posibilidad de recomenzar sin caer en moralejas fáciles. Su mirada sobre la reparación material y afectiva ofrece una respuesta literaria original al vacío contemporáneo.",
+        "editorialIntro": "Auður Ava Ólafsdóttir escribe desde la contención: evita el dramatismo excesivo y confía en objetos, silencios y pequeños actos para mover la novela. Hotel silencio parte de una situación extrema, pero pronto se vuelve una historia sobre utilidad, compasión y comunidad, donde arreglar una pared puede ser también una forma de volver a existir.",
+        "readingLevel": "Lectura accesible para adultos, más apoyada en la sensibilidad, la observación y los matices emocionales que en una trama de giros rápidos o gran complejidad formal.",
+        "whyReadToday": "Porque dialoga con temas muy actuales: aislamiento, crisis de sentido, trauma colectivo y la necesidad de encontrar una función humana en medio de ruinas físicas y personales.",
+        "studyNotes": [
+          "La caja de herramientas opera como símbolo de supervivencia práctica y de reconstrucción moral.",
+          "El contraste entre la ruina del país y la ruina íntima del protagonista organiza toda la novela.",
+          "La paternidad afectiva pesa más que la biología en la transformación de Jónas.",
+          "La autora trabaja la esperanza desde actos modestos, no desde discursos grandilocuentes."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La vida que se derrumba",
+            "summary": "Jónas enfrenta la separación, la pérdida de sentido y una revelación familiar que lo deja emocionalmente desfondado. Decide marcharse lejos para poner fin a su vida sin convertir su muerte en una carga para su hija."
+          },
+          {
+            "title": "Parte 2: El hotel en ruinas",
+            "summary": "Al llegar al país herido por la guerra, encuentra un hotel precario administrado por mujeres que necesitan ayuda práctica. Lo que iba a ser una despedida empieza a desviarse cuando sus habilidades manuales se vuelven necesarias."
+          },
+          {
+            "title": "Parte 3: Reparar para seguir",
+            "summary": "Las pequeñas tareas de arreglo lo vinculan con la comunidad local y lo sacan del encierro mental. Cada reparación concreta abre un espacio nuevo para la empatía, la memoria y una renovada voluntad de vivir."
+          },
+          {
+            "title": "Parte 4: Una forma distinta de regreso",
+            "summary": "La novela culmina mostrando que la reconstrucción no borra el dolor, pero sí permite habitarlo de otra manera. Jónas comprende que aún puede ofrecer cuidado, presencia y sentido a los demás."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La reparación como ética",
+            "content": "El núcleo simbólico de la novela está en reparar objetos y edificios. Esa labor humilde sustituye los grandes discursos sobre redención por una práctica concreta: arreglar lo dañado, escuchar lo roto y asumir una responsabilidad útil frente al sufrimiento ajeno."
+          },
+          {
+            "heading": "Masculinidad vulnerable",
+            "content": "Jónas no responde al modelo heroico tradicional. Está abatido, duda de sí mismo y no encuentra palabras para explicar su malestar. La novela le permite reconstruirse no mediante dominio o violencia, sino mediante cuidado, paciencia y trabajo manual."
+          },
+          {
+            "heading": "Ruina exterior, ruina interior",
+            "content": "Ólafsdóttir enlaza la destrucción causada por la guerra con la devastación privada del protagonista. El paralelismo nunca es mecánico: más bien sugiere que toda cura personal es parcial y siempre ocurre dentro de un mundo históricamente herido."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela triste?",
+            "answer": "Parte de una tristeza profunda, pero no se instala en la desesperación. Su tono mezcla dolor, ironía suave y una esperanza construida a partir de acciones concretas."
+          },
+          {
+            "question": "¿La guerra ocupa más espacio que la vida íntima del protagonista?",
+            "answer": "Ambas dimensiones están entrelazadas. El país en reconstrucción sirve como espejo y como contraste para la crisis personal de Jónas."
+          },
+          {
+            "question": "¿Qué hace especial la escritura de Auður Ava Ólafsdóttir?",
+            "answer": "Su capacidad para sugerir mucho con pocos elementos: escenas sobrias, simbolismo cotidiano y una emoción contenida que evita el sentimentalismo fácil."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Grove Atlantic — Hotel Silence",
+            "url": "https://groveatlantic.com/book/hotel-silence/"
+          },
+          {
+            "label": "Wikipedia — Hotel Silence",
+            "url": "https://en.wikipedia.org/wiki/Hotel_Silence"
+          },
+          {
+            "label": "Wikipedia — Auður Ava Ólafsdóttir",
+            "url": "https://en.wikipedia.org/wiki/Au%C3%B0ur_Ava_%C3%93lafsd%C3%B3ttir"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "impresiones-y-paisajes-de-federico-garcia-lorca",
+      "title": "Impresiones Y Paisajes",
+      "authorName": "Federico Garcia Lorca",
+      "authorSlug": "federico-garcia-lorca",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Impresiones y paisajes",
+        "authorName": "Federico García Lorca",
+        "authorSlug": "federico-garcia-lorca",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 1918,
+        "pages": 184,
+        "summary": "Impresiones y paisajes es el primer libro publicado por Federico García Lorca y el único enteramente escrito en prosa. Nació de los viajes de estudio que realizó siendo universitario por distintas ciudades españolas entre 1916 y 1917, y combina crónica, evocación lírica, reflexión estética y sensibilidad romántica. Más que un libro de viajes en sentido informativo, es una serie de estampas subjetivas donde el paisaje exterior se transforma a través de la emoción, la memoria cultural y la imaginación del joven autor. Madrid, Castilla, Galicia, Granada, los jardines y otros espacios aparecen filtrados por una mirada que todavía está formándose, pero que ya revela rasgos esenciales de la obra lorquiana: musicalidad, plasticidad verbal, atención al símbolo y una relación intensa entre naturaleza, historia y sentimiento. Leerlo hoy permite ver a Lorca antes de sus grandes poemarios y dramas, en el momento en que ensaya una voz propia mientras convierte el viaje en experiencia estética.",
+        "aboutThisBook": "La Biblioteca Virtual Miguel de Cervantes lo presenta como reproducción digital del original conservado en la Universidad de Granada, y Universo Lorca resume con claridad su estructura: descripciones de distintos lugares de España, una serie dedicada a Granada, otra a los jardines y una miscelánea final. Wikipedia recuerda además que se trata de un libro de 1918 derivado de los viajes de estudios del joven Lorca. Aunque después quedaría eclipsado por Romancero gitano, Poeta en Nueva York o su teatro, este volumen es esencial para estudiar el nacimiento de su sensibilidad artística y su temprana fusión entre prosa modernista, emoción autobiográfica y contemplación del paisaje.",
+        "forWhom": "Para lectores interesados en Lorca, en la prosa de viaje literaria y en los comienzos de un autor que todavía no ha alcanzado su forma madura pero ya revela una imaginación extraordinaria.",
+        "whyItMatters": "Importa porque permite observar el momento inicial de Lorca como escritor publicado y porque muestra que, desde muy temprano, su relación con el mundo era estética, musical y simbólica. También es una pieza clave para entender cómo el viaje, la historia de España y la experiencia del paisaje alimentaron su obra posterior.",
+        "editorialIntro": "Hay primeros libros que solo valen por curiosidad biográfica y hay otros que, además, contienen una promesa estética real. Impresiones y paisajes pertenece al segundo grupo. En estas páginas juveniles ya se escucha a un Lorca fascinado por la luz, los jardines, las ciudades antiguas y la emoción que dejan los lugares cuando pasan a la escritura. No es todavía el dramaturgo inmenso de Bodas de sangre, pero sí un prosista que empieza a descubrir que el mundo exterior puede volverse música verbal y visión interior.",
+        "readingLevel": "Lectura de dificultad media. La prosa es elegante y sensorial, con ecos modernistas y románticos; no exige aparato crítico para disfrutarse, aunque sí una disposición pausada para seguir descripciones, asociaciones culturales y pasajes más contemplativos que narrativos.",
+        "whyReadToday": "Porque devuelve valor a la mirada lenta sobre el paisaje y permite entender a Lorca desde su formación, no solo desde sus obras consagradas y más citadas.",
+        "studyNotes": [
+          "Es el único libro de Lorca escrito enteramente en prosa y su primer libro publicado, dato clave para situarlo dentro de su trayectoria.",
+          "No conviene leerlo como guía de viaje, sino como prosa lírica donde el paisaje se vuelve experiencia interior y memoria cultural.",
+          "La estructura señalada por Universo Lorca ayuda a organizar su lectura: viajes por España, núcleo granadino, sección de jardines y miscelánea final.",
+          "El libro deja ver temas futuros de Lorca: musicalidad verbal, gusto por lo popular y sensibilidad hacia el vínculo entre lugar, emoción e historia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Viajes de estudio por Castilla y otras ciudades",
+            "summary": "El primer gran bloque recoge la experiencia del desplazamiento por distintas localidades españolas. Lorca observa monumentos, plazas, caminos y atmósferas históricas, pero lo hace desde una sensibilidad subjetiva que convierte la descripción en meditación artística."
+          },
+          {
+            "title": "Granada como centro afectivo y estético",
+            "summary": "En la sección dedicada a Granada se percibe una intensidad distinta. La ciudad natal deja de ser simple paisaje visitado para convertirse en núcleo emocional, memoria viva y clave de una identidad literaria que Lorca seguirá elaborando durante toda su obra."
+          },
+          {
+            "title": "Jardines, contemplación y prosa lírica",
+            "summary": "Los textos sobre jardines condensan buena parte del tono del libro: quietud, musicalidad, color, símbolo y una mirada que se demora en lo aparentemente menor para extraer de allí belleza y reflexión. Son páginas fundamentales para entender la relación de Lorca con lo visual y lo sensorial."
+          },
+          {
+            "title": "Miscelánea final y búsqueda de una voz propia",
+            "summary": "La parte final reúne piezas diversas que muestran al joven autor probando registros, asociaciones y modulaciones de estilo. Más que cerrar de forma rígida, el libro termina dejando visible un proceso de búsqueda literaria ya extraordinariamente fértil."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El viaje como formación estética",
+            "content": "Impresiones y paisajes pertenece a una tradición de viaje cultural, pero su verdadero interés está en cómo convierte la salida al mundo en aprendizaje artístico. Lorca no acumula datos; selecciona impresiones y las reorganiza hasta hacer del recorrido una experiencia de sensibilidad."
+          },
+          {
+            "heading": "Prosa lírica y herencia modernista",
+            "content": "El libro revela la influencia del modernismo y de una sensibilidad romántica tardía, visible en la adjetivación, en la musicalidad de la frase y en la tendencia a espiritualizar el paisaje. Esa herencia no impide la originalidad: ya se adivina una voz que buscará símbolos propios y una relación intensa entre palabra e imagen."
+          },
+          {
+            "heading": "Granada y el origen de una mitología personal",
+            "content": "Cuando Lorca escribe sobre Granada, el libro adquiere un espesor singular. La ciudad aparece como lugar concreto, pero también como reserva de memoria, arte, infancia y destino. Esa centralidad granadina anticipa el papel decisivo que Andalucía tendrá en su poesía y en su teatro."
+          },
+          {
+            "heading": "La importancia de leer los comienzos",
+            "content": "Este libro demuestra que los textos juveniles no son meras curiosidades cuando contienen en germen una obra futura. Leerlo permite reconocer rasgos que luego madurarán: la visualidad, la música verbal, la tensión entre cultura popular y alta cultura, y la capacidad de transformar emoción en imagen perdurable."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué clase de libro es Impresiones y paisajes?",
+            "answer": "Es un libro de viajes literario y de prosa lírica. Parte de recorridos reales por España, pero no busca informar como una guía, sino transformar la experiencia del viaje en escritura estética y reflexiva."
+          },
+          {
+            "question": "¿Por qué es importante dentro de la obra de Lorca?",
+            "answer": "Porque fue su primer libro publicado y el único escrito por completo en prosa. Además, deja ver rasgos que luego serán centrales en su obra poética y dramática."
+          },
+          {
+            "question": "¿Se parece al Lorca de sus obras más famosas?",
+            "answer": "Sí, aunque de manera embrionaria. Aún no posee la concentración dramática ni la radicalidad de sus libros mayores, pero ya muestra musicalidad, imaginería visual y una intensa relación entre paisaje y emoción."
+          },
+          {
+            "question": "¿Es recomendable para empezar a leer a García Lorca?",
+            "answer": "Puede ser una buena puerta de entrada para lectores interesados en su formación y en su sensibilidad temprana. Si se busca su obra más representativa, conviene complementarlo con sus poemarios y su teatro."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Impresiones y paisajes",
+            "url": "https://www.cervantesvirtual.com/obra/impresiones-y-paisajes/"
+          },
+          {
+            "label": "Universo Lorca: Impresiones y paisajes",
+            "url": "https://www.universolorca.com/obra-literaria/impresiones-y-paisajes/"
+          },
+          {
+            "label": "Wikipedia: Impresiones y paisajes",
+            "url": "https://es.wikipedia.org/wiki/Impresiones_y_paisajes"
+          },
+          {
+            "label": "Grupo Editorial Sial Pigmalión: Impresiones y paisajes",
+            "url": "https://sialpigmalion.es/libro/impresiones-y-paisajes/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "jack-el-destripador-recapitulacion-y-veredicto-de-colin-wilsonrobin-odell",
+      "title": "Jack El Destripador Recapitulacion Y Veredicto",
+      "authorName": "Colin Wilsonrobin Odell",
+      "authorSlug": "colin-wilsonrobin-odell",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Jack el Destripador: recapitulación y veredicto",
+        "authorName": "Colin Wilson y Robin Odell",
+        "authorSlug": "colin-wilsonrobin-odell",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1990,
+        "pages": 365,
+        "summary": "Jack el Destripador: recapitulación y veredicto es un ensayo de investigación criminal dedicado a revisar el caso más célebre de la historia del crimen moderno. Colin Wilson y Robin Odell reconstruyen los asesinatos atribuidos a Jack the Ripper, el clima social del East End londinense, la actuación policial y la larga serie de sospechosos que alimentó el mito. El libro no se limita a narrar los hechos conocidos, sino que compara hipótesis, examina inconsistencias, sopesa testimonios y trata de separar documentación de leyenda. Su interés principal está en la recapitulación crítica: volver sobre un expediente saturado de teorías para valorar qué puede sostenerse con cierta solidez y qué pertenece más bien a la especulación. De ese modo, la obra funciona como crónica criminal, revisión documental y balance razonado de un enigma persistente.",
+        "aboutThisBook": "La edición en español publicada por Planeta sitúa este título dentro de la tradición de los grandes libros de true crime sobre Jack el Destripador. Frente a obras que explotan sobre todo el sensacionalismo del caso, esta propone una revisión amplia del material acumulado: escenas del crimen, informes, cartas atribuidas al asesino, contexto urbano y repertorio de sospechosos. El propio subtítulo, recapitulación y veredicto, indica el gesto central del libro: no empezar desde cero, sino reunir lo ya dicho para emitir un juicio argumentado sobre el valor de cada línea de investigación. Por eso interesa tanto a lectores del crimen histórico como a quienes estudian la construcción moderna de los mitos criminales.",
+        "forWhom": "Para lectores adultos interesados en criminología histórica, historia urbana del Londres victoriano, investigación documental y ensayos sobre casos criminales célebres.",
+        "whyItMatters": "Importa porque ejemplifica cómo un caso criminal puede transformarse en mito cultural sin dejar de exigir lectura crítica de pruebas, testimonios y versiones. Además, ayuda a distinguir entre la historia del expediente y la historia de sus interpretaciones sucesivas.",
+        "editorialIntro": "Pocos nombres del crimen histórico han generado tanta literatura como Jack el Destripador. Precisamente por eso, un libro que se proponga recapitular y dictar un veredicto parte de una tarea difícil: ordenar un archivo contaminado por rumores, prensa, teorías detectivescas y obsesiones posteriores. Colin Wilson y Robin Odell afrontan ese desafío con un enfoque de revisión: reconstruyen el caso, reexaminan a los sospechosos y miden la fuerza real de las hipótesis más repetidas. El resultado no clausura el misterio, pero sí ofrece una lectura más disciplinada del enigma.",
+        "readingLevel": "Lectura media para público adulto. El libro es narrativamente accesible, aunque gana interés cuando el lector presta atención a la diferencia entre hecho documentado, conjetura policial y elaboración posterior del mito ripperiano.",
+        "whyReadToday": "Sigue siendo pertinente porque muestra cómo nacen y se consolidan las narrativas del crimen mediático, un fenómeno muy reconocible también en la cultura contemporánea.",
+        "studyNotes": [
+          "El subtítulo del libro orienta su método: recopilar, comparar y valorar hipótesis antes de aventurar una conclusión sobre el caso.",
+          "Conviene distinguir siempre entre los asesinatos canónicos, los atribuidos de forma dudosa y la mitología posterior construida por prensa, libros y cultura popular.",
+          "La importancia del contexto victoriano es central: pobreza, hacinamiento, prostitución, policía metropolitana y prensa sensacionalista forman parte del caso tanto como el asesino mismo.",
+          "El libro es útil para estudiar cómo la investigación criminal histórica combina archivo, interpretación y un inevitable margen de incertidumbre."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Whitechapel y el nacimiento del caso",
+            "summary": "La obra sitúa los crímenes en el Londres victoriano y explica por qué el East End ofrecía el contexto perfecto para que un asesino desconocido se convirtiera en una figura de terror público y de fascinación periodística."
+          },
+          {
+            "title": "Parte 2: Los asesinatos y las pruebas",
+            "summary": "Wilson y Odell revisan los hechos atribuidos a Jack el Destripador, comparando escenas del crimen, informes, testimonios y cartas. El objetivo es discriminar entre lo comprobable y lo que fue creciendo por acumulación de rumores."
+          },
+          {
+            "title": "Parte 3: Sospechosos, teorías y veredicto",
+            "summary": "La zona final examina a los sospechosos más citados y sopesa el peso relativo de cada hipótesis. El libro avanza así hacia un veredicto razonado, consciente de que en este caso toda conclusión debe convivir con zonas irresueltas."
+          },
+          {
+            "title": "Parte 4: Del expediente al mito",
+            "summary": "Más allá del culpable posible, la obra muestra cómo Jack el Destripador pasó de ser un expediente policial a convertirse en un mito duradero de la modernidad urbana y mediática."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "True crime antes del auge contemporáneo del género",
+            "content": "El libro pertenece a una tradición de investigación criminal escrita para público amplio, pero con voluntad de documentación. Esa combinación ayuda a entender por qué el caso Jack el Destripador sigue funcionando a la vez como objeto histórico y como relato de gran consumo cultural."
+          },
+          {
+            "heading": "Archivo, prensa y leyenda",
+            "content": "Uno de los problemas centrales del caso es que los documentos conviven con una enorme producción periodística y sensacionalista. La obra gana interés cuando se lee como ejercicio de separación entre fuentes relativamente sólidas y relatos que magnificaron el misterio."
+          },
+          {
+            "heading": "El sospechoso como figura narrativa",
+            "content": "La proliferación de sospechosos revela que el caso no solo pide pruebas, sino también historias verosímiles. Cada candidato a ser Jack el Destripador funciona como una narración posible que intenta cerrar el vacío dejado por la falta de certeza definitiva."
+          },
+          {
+            "heading": "Persistencia cultural del enigma",
+            "content": "La importancia del libro no depende solo de resolver o no resolver el caso. También importa porque muestra cómo ciertos crímenes se convierten en espejos de ansiedades urbanas, obsesiones mediáticas y fantasías detectivescas de larga duración."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El libro identifica de forma concluyente a Jack el Destripador?",
+            "answer": "Propone una valoración y se inclina por ciertas hipótesis, pero el interés principal está en la recapitulación crítica de pruebas y sospechosos más que en una solución indiscutible."
+          },
+          {
+            "question": "¿Es un libro sensacionalista?",
+            "answer": "Aunque trata un caso muy asociado al sensacionalismo, intenta ordenar la documentación y evaluar teorías con un enfoque más analítico que puramente morboso."
+          },
+          {
+            "question": "¿Qué aporta frente a otras obras sobre Jack el Destripador?",
+            "answer": "Aporta una síntesis argumentada del caso y de sus principales interpretaciones, útil para quien busca una revisión amplia en vez de una sola teoría aislada."
+          },
+          {
+            "question": "¿Por qué sigue interesando este caso?",
+            "answer": "Porque combina misterio irresuelto, contexto social extremo, cobertura periodística intensa y una gran capacidad para transformarse en mito cultural duradero."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Books: Jack el Destripador recapitulación y veredicto",
+            "url": "https://books.google.com/books?id=lCVAAAAACAAJ"
+          },
+          {
+            "label": "Open Library: Jack El Destripador (Recapitulacion y Veredicto)",
+            "url": "https://openlibrary.org/books/OL13233977M/Jack_El_Destripador_%28Recapitulacion_y_Veredicto%29"
+          },
+          {
+            "label": "Goodreads: Jack el Destripador. Recapitulación y veredicto",
+            "url": "https://www.goodreads.com/book/show/25854631"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "justicia-de-javier-diez-carmona",
+      "title": "Justicia",
+      "authorName": "Javier Diez Carmona",
+      "authorSlug": "javier-diez-carmona",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Justicia",
+        "authorName": "Javier Díez Carmona",
+        "authorSlug": "javier-diez-carmona",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2021,
+        "pages": 464,
+        "summary": "Justicia arranca con el asesinato de Rosa, el gran amor de Antonio Arzamendi, un antiguo director bancario que esperaba retirarse con ella en el Caribe. Aunque la policía interpreta el crimen como un robo violento, un testigo cubano, Osmany Arechabala, sostiene que asistió a una ejecución. Desde ese punto la novela convierte Bilbao en escenario de una cadena de muertes marcadas por la palabra «Justicia» y por un ajuste de cuentas que mezcla dolor íntimo, corrupción, memoria de la crisis y deseos de venganza. Javier Díez Carmona construye un thriller de ritmo creciente donde se cruzan amistad, investigación amateur, violencia urbana y crítica social, sin renunciar al componente emocional de unos personajes heridos que buscan sentido en medio del castigo.",
+        "aboutThisBook": "Publicada por Grijalbo en 2021 y presentada como el inicio de la Trilogía Justicia, la novela se mueve entre la novela negra y el thriller social. Su punto de partida criminal sirve para abrir una discusión más amplia sobre los ganadores y perdedores de la crisis, la impunidad económica y la tentación de corregir por la fuerza lo que las instituciones no reparan. El propio autor la ha definido en entrevista como una novela sobre la venganza, y esa clave resulta útil: más que un simple enigma policial, el libro explora qué ocurre cuando el deseo de reparación moral se contamina con rabia, duelo y castigo ejemplar. Bilbao no es un telón de fondo neutro, sino una ciudad plenamente incorporada al conflicto.",
+        "forWhom": "Ideal para lectores de thriller español contemporáneo, novela negra urbana y tramas de investigación con trasfondo social, especialmente si buscan una historia intensa ambientada en Bilbao.",
+        "whyItMatters": "Importa porque lleva la pregunta por la justicia fuera del plano abstracto y la enfrenta con víctimas, vengadores y ciudadanos golpeados por la desigualdad. Su mezcla de intriga y crítica del malestar social le da un pulso reconocible y actual.",
+        "editorialIntro": "Hay thrillers que se limitan a encadenar cadáveres y otros que usan el crimen para interrogar una época. Justicia pertenece a los segundos. Javier Díez Carmona parte de un asesinato íntimo, casi privado, y enseguida lo inserta en una red de agravios donde aparecen la crisis económica, la corrupción, la fragilidad de las explicaciones oficiales y la tentación de tomarse la ley por cuenta propia. El resultado es una novela de lectura ágil, muy visual en su trazado urbano, que intenta no perder de vista el coste humano del dolor ni la ambigüedad moral de toda venganza.",
+        "readingLevel": "Lectura de complejidad media, apropiada para adultos y para lectores habituales de novela negra: el lenguaje es accesible, pero la trama combina varias líneas de investigación, personajes cruzados y referencias sociales concretas.",
+        "whyReadToday": "Porque conecta el suspense con preguntas todavía vivas sobre impunidad, crisis, memoria del daño económico y descrédito de las vías institucionales de reparación.",
+        "studyNotes": [
+          "La novela contrapone justicia legal y justicia vengativa, y obliga a preguntarse cuándo una reparación deja de ser ética para convertirse en castigo destructivo.",
+          "Bilbao aparece como espacio narrativo concreto, no solo como decorado, y ayuda a anclar el thriller en una geografía social reconocible.",
+          "Antonio y Osmany forman una alianza atravesada por pérdidas distintas, lo que da espesor emocional a la investigación.",
+          "La palabra «Justicia» funciona como emblema ambiguo: promete reparación, pero también encubre violencia y simplificación moral.",
+          "Puede leerse como novela negra social vinculada al malestar posterior a la crisis económica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El crimen de Rosa",
+            "summary": "Antonio Arzamendi queda devastado por el asesinato de Rosa y descubre que la versión policial no convence al único testigo. La investigación nace así de una herida personal y de una sospecha inmediata de que el caso es más complejo de lo que parece."
+          },
+          {
+            "title": "Parte 2: Bilbao bajo la palabra «Justicia»",
+            "summary": "Nuevos cadáveres y señales vinculadas a una lógica de castigo amplían el alcance del conflicto. Antonio y Osmany avanzan entre pistas, intereses ocultos y episodios que relacionan los crímenes con agravios económicos y cuentas pendientes."
+          },
+          {
+            "title": "Parte 3: Venganza, verdad y coste moral",
+            "summary": "El thriller acelera hacia una resolución donde se aclaran las motivaciones de la cadena criminal. La novela obliga entonces a valorar si la reparación buscada por algunos personajes puede llamarse justicia o si solo reproduce la violencia que pretende corregir."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Justicia frente a venganza",
+            "content": "El eje más visible de la novela es la distancia entre una justicia institucional lenta o insuficiente y la respuesta vengativa de quienes se sienten expulsados de ella. Díez Carmona explota esa tensión sin convertirla en consigna simple: el castigo extralegal puede resultar comprensible para algunos personajes, pero nunca deja de tener un precio moral alto."
+          },
+          {
+            "heading": "Thriller urbano con trasfondo social",
+            "content": "Bilbao aparece recorrida por fantasmas de crisis, corrupción y frustración ciudadana. Esa dimensión social amplía el interés de la trama porque los crímenes no parecen surgir de una psicología aislada, sino de un clima de desconfianza y resentimiento acumulado."
+          },
+          {
+            "heading": "La alianza entre Antonio y Osmany",
+            "content": "La relación entre ambos personajes sostiene buena parte del libro. Uno busca a la mujer que perdió; el otro, respuestas sobre su hijo. Esa convergencia convierte la investigación en algo más que una pesquisa: es también una forma de duelo compartido y de reconstrucción personal frente a la violencia."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Justicia, de Javier Díez Carmona?",
+            "answer": "Es un thriller ambientado en Bilbao que arranca con el asesinato de Rosa y sigue la investigación impulsada por Antonio Arzamendi y por un testigo cubano, mientras una serie de muertes marcadas por la palabra «Justicia» revela un entramado de venganza y malestar social."
+          },
+          {
+            "question": "¿Predomina la crítica social o la intriga?",
+            "answer": "Predominan ambas de forma bastante equilibrada. La novela se lee con el impulso de un thriller, pero sus crímenes están vinculados a temas como la crisis, la impunidad y la frustración de quienes se sienten abandonados por el sistema."
+          },
+          {
+            "question": "¿Es una novela policial clásica?",
+            "answer": "No exactamente. Tiene investigación y suspense, pero se acerca más al thriller negro contemporáneo, con un fuerte componente emocional y una discusión continua sobre venganza, castigo y justicia."
+          },
+          {
+            "question": "¿Forma parte de una serie?",
+            "answer": "Sí. La edición de Penguin la presenta como el inicio de la Trilogía Justicia, aunque esta primera novela puede leerse por sí sola como historia cerrada."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Penguin Libros - ficha de Justicia",
+            "url": "https://www.penguinlibros.com/es/novela-negra-misterio-y-thriller/238215-libro-justicia-trilogia-justicia-1-9788425360015"
+          },
+          {
+            "label": "Penguin Club de Lectura - Justicia",
+            "url": "https://penguinclubdelectura.com/libro/justicia-javier-diez-carmona/"
+          },
+          {
+            "label": "EITB - presentación de la novela ambientada en Bilbo",
+            "url": "https://www.eitb.eus/es/radio/radio-vitoria/programas/dejate-llevar/detalle/8168585/javier-diez-carmona-presenta-justicia-novela-ambientada-en-bilbo/"
+          },
+          {
+            "label": "Actualidad Literatura - entrevista al autor sobre Justicia",
+            "url": "https://www.actualidadliteratura.com/javier-diez-carmona-entrevista-al-autor-de-justicia/"
+          },
+          {
+            "label": "Anika Entre Libros - reseña de Justicia",
+            "url": "https://anikaentrelibros.com/justicia"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T12:52:39Z"
+}

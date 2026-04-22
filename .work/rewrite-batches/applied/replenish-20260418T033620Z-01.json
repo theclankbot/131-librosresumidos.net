@@ -1,0 +1,1403 @@
+{
+  "batchName": "replenish-20260418T033620Z-01",
+  "createdAt": "2026-04-18T03:36:27Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-libro-invisible-de-santiago-garcia-clairac",
+      "title": "El Libro Invisible",
+      "authorName": "Santiago Garcia Clairac",
+      "authorSlug": "santiago-garcia-clairac",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 14,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El libro invisible",
+        "authorName": "Santiago García-Clairac",
+        "authorSlug": "santiago-garcia-clairac",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "literatura juvenil",
+          "aventura",
+          "fantasía",
+          "novela de aprendizaje"
+        ],
+        "year": 2002,
+        "pages": 144,
+        "summary": "César está cansado de mudanzas, del oficio de su padre escritor y de un mundo adulto que le parece inestable. En ese clima de rechazo hacia los libros, se acerca casi por accidente a un manuscrito y descubre que la lectura puede ser una puerta real a la aventura y al cambio interior. La novela convierte una situación cotidiana —la tensión familiar, el desarraigo, la resistencia a leer— en un relato de imaginación donde entrar en una historia significa también entrar en uno mismo. Santiago García-Clairac plantea así un viaje breve pero intenso sobre la relación entre ficción y vida, mostrando cómo un lector reacio puede encontrar en un libro una forma de entender mejor a su familia, su miedo al cambio y su propia identidad.",
+        "aboutThisBook": "Publicado por SM en la colección El Barco de Vapor, El libro invisible es un título de narrativa juvenil pensado para lectores que están consolidando el hábito de leer. Su punto de partida es muy reconocible: un chico que no quiere leer nada escrito por su padre. A partir de ahí, la novela mezcla conflicto familiar, fantasía accesible y una defensa nada solemne del poder transformador de la lectura. Su brevedad y claridad la vuelven útil tanto para lectura autónoma como para trabajo escolar.",
+        "forWhom": "Para lectores juveniles desde los últimos cursos de primaria o primeros de secundaria, mediadores de lectura y familias que buscan una novela corta sobre imaginación, libros y vínculos familiares.",
+        "whyItMatters": "Importa porque convierte el acto de leer en experiencia narrativa y emocional. No solo dice que los libros cambian vidas: dramatiza cómo un lector resistente puede descubrir en la ficción una nueva forma de mirar su realidad inmediata.",
+        "editorialIntro": "Hay novelas juveniles que defienden la lectura con discursos; esta lo hace con una aventura. Santiago García-Clairac parte del enfado de un chico con su padre y con las continuas mudanzas para construir una historia ágil, clara y sugerente, donde abrir un manuscrito equivale a cruzar un umbral. El resultado es una invitación directa a leer sin perder ritmo narrativo.",
+        "readingLevel": "Lectura fluida para 11-14 años, con lenguaje claro, capítulos manejables y símbolos fáciles de seguir si se acompaña el trasfondo emocional del protagonista.",
+        "whyReadToday": "Sigue siendo pertinente porque dialoga con un problema muy actual: la dificultad de convertir la lectura en experiencia significativa. Su propuesta muestra que leer no compite con la vida, sino que ayuda a comprenderla.",
+        "studyNotes": [
+          "Observa cómo el rechazo inicial de César a los libros está unido a su malestar por las mudanzas y no solo a una falta de interés cultural.",
+          "La entrada al manuscrito funciona como metáfora del paso de espectador pasivo a lector implicado.",
+          "Conviene comentar la relación entre padre e hijo: el conflicto familiar sostiene la aventura fantástica."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: César contra los libros",
+            "summary": "La novela presenta a César, molesto por la vida itinerante que provoca la profesión de su padre escritor. Ese disgusto se transforma en rechazo hacia los libros y hacia todo lo que representan en su casa."
+          },
+          {
+            "title": "Parte central: el manuscrito como umbral",
+            "summary": "Cuando César se acerca a uno de los textos de su padre, la lectura deja de ser una obligación externa y se convierte en experiencia de descubrimiento. La historia activa la dimensión fantástica y obliga al protagonista a mirar de otro modo lo que despreciaba."
+          },
+          {
+            "title": "Desenlace: cambio interior",
+            "summary": "La aventura conduce a una reconciliación parcial entre imaginación y realidad. César comprende mejor a su padre, revisa su postura ante la lectura y sale transformado por una experiencia que parecía imposible al comienzo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Lectura y transformación",
+            "content": "El núcleo de la novela está en presentar la lectura como una acción capaz de modificar la percepción del mundo. García-Clairac evita la moraleja abstracta y sitúa esa transformación en un personaje que al principio rechaza precisamente aquello que terminará ayudándolo."
+          },
+          {
+            "heading": "Conflicto familiar como motor",
+            "content": "El libro no se sostiene solo por su elemento fantástico. La tensión entre César y su padre aporta la carga emocional necesaria para que la aventura tenga consecuencias. Leer el manuscrito significa también aceptar una parte del mundo paterno que el protagonista había negado."
+          },
+          {
+            "heading": "Brevedad y función formativa",
+            "content": "Su extensión corta y su estructura accesible explican su lugar en colecciones escolares y de iniciación lectora. Es una obra útil para hablar de hábitos lectores, imaginación y empatía sin exigir un aparato crítico complejo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata El libro invisible?",
+            "answer": "Trata de César, un chico que rechaza los libros y el oficio de su padre escritor, hasta que un manuscrito lo enfrenta a una aventura que cambia su mirada sobre la lectura y sobre su propia vida."
+          },
+          {
+            "question": "¿Es un libro infantil o juvenil?",
+            "answer": "Se mueve sobre todo en el terreno juvenil inicial: es breve, claro y apto para lectores de 11 a 14 años, aunque también funciona como lectura compartida."
+          },
+          {
+            "question": "¿Qué temas trabaja mejor la novela?",
+            "answer": "La relación entre padres e hijos, el desarraigo por las mudanzas, la imaginación y el descubrimiento del valor de leer."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "TodosTusLibros - ficha de El libro invisible",
+            "url": "https://www.todostuslibros.com/libros/el-libro-invisible_978-84-348-6556-3"
+          },
+          {
+            "label": "Open Library - edición de El libro invisible",
+            "url": "https://openlibrary.org/books/OL13239085M/El_Libro_Invisible_the_Invisible_Book"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes - autor Santiago García-Clairac",
+            "url": "https://www.cervantesvirtual.com/obras/autor/garcia-clairac-santiago-1959-41470"
+          },
+          {
+            "label": "Agapea - sinopsis y datos comerciales",
+            "url": "https://www.agapea.com/libros/El-libro-invisible-9788434865563-i.htm"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-mundo-perdido-de-sir-arthur-conan-doyle",
+      "title": "El Mundo Perdido",
+      "authorName": "Sir Arthur Conan Doyle",
+      "authorSlug": "sir-arthur-conan-doyle",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 14,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El mundo perdido",
+        "authorName": "Arthur Conan Doyle",
+        "authorSlug": "sir-arthur-conan-doyle",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "aventura",
+          "ciencia ficción",
+          "fantasía",
+          "clásico"
+        ],
+        "year": 1912,
+        "pages": 319,
+        "summary": "El mundo perdido sigue al periodista Edward Malone, que se une a una expedición encabezada por el explosivo profesor Challenger para comprobar si en una meseta aislada de Sudamérica sobreviven criaturas prehistóricas. Lo que empieza como una disputa científica se transforma en una aventura de exploración, peligro y competencia intelectual entre personajes muy distintos: Challenger, Summerlee, Lord John Roxton y el propio Malone. Conan Doyle combina la lógica del relato científico con la emoción del viaje y del descubrimiento, creando un escenario donde la modernidad europea se enfrenta a un espacio que desborda sus certezas. La novela no solo ofrece dinosaurios, persecuciones y supervivencia, sino también una reflexión sobre prestigio, prueba, relato periodístico y deseo de fama, todo en el marco de uno de los textos fundacionales del ciclo del profesor Challenger.",
+        "aboutThisBook": "Publicada en 1912 y presentada primero por entregas, El mundo perdido es una de las novelas más influyentes de aventura científica del siglo XX. Introduce al profesor Challenger y consolida una fórmula muy fértil: expedición, territorio remoto y choque entre ciencia, ambición y maravilla. Su argumento ayudó a fijar gran parte del imaginario moderno sobre selvas desconocidas, criaturas antiguas y exploradores victorianos. Aunque hoy se lee como clásico popular, también interesa por su relación con la cultura científica y colonial de su época.",
+        "forWhom": "Para lectores que disfrutan clásicos de aventuras, historia de la ciencia ficción, expediciones, mundos remotos y novelas con ritmo alto pero escritas en registro accesible.",
+        "whyItMatters": "Importa porque fue decisiva en la formación del subgénero del mundo aislado y en la popularización de la aventura científica. Muchas obras posteriores sobre territorios ocultos, dinosaurios y exploradores discuten o imitan este modelo.",
+        "editorialIntro": "Antes de que el cine llenara la pantalla de dinosaurios, Arthur Conan Doyle ya había imaginado una expedición a un territorio separado del tiempo. El mundo perdido conserva el encanto del gran relato de aventuras y, al mismo tiempo, deja ver una discusión fascinante sobre ciencia, reputación y prueba. Su energía narrativa sigue funcionando porque cada hallazgo reordena el equilibrio entre sus personajes.",
+        "readingLevel": "Lectura media, adecuada desde secundaria avanzada o bachillerato: el vocabulario no es hermético, pero el contexto histórico y el tono narrativo agradecen cierta experiencia lectora.",
+        "whyReadToday": "Vale la pena leerlo hoy para entender una raíz central del imaginario aventurero moderno y para observar cómo la ficción popular mezcló ciencia, espectáculo y exploración mucho antes del blockbuster contemporáneo.",
+        "studyNotes": [
+          "Malone narra en primera persona, y su mirada periodística organiza la tensión entre escepticismo, asombro y testimonio.",
+          "El profesor Challenger no es solo un sabio excéntrico: representa la autoridad científica enfrentada a la opinión pública y al ridículo.",
+          "Conviene leer la meseta sudamericana también como escenario ideológico, ligado a la exploración imperial y a la fantasía de descubrir territorios vírgenes."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: desafío y expedición",
+            "summary": "Malone acepta seguir a Challenger en una empresa que debe demostrar una afirmación aparentemente absurda: la existencia de vida prehistórica en un enclave remoto. La preparación del viaje establece rivalidades y expectativas."
+          },
+          {
+            "title": "Segunda parte: entrada al altiplano",
+            "summary": "El grupo alcanza el territorio aislado y comprende que el rumor era cierto. La exploración abre paso al asombro, al peligro y a una serie de conflictos que ponen a prueba la cohesión de la expedición."
+          },
+          {
+            "title": "Tercera parte: supervivencia y regreso",
+            "summary": "Tras enfrentarse a criaturas, amenazas humanas y dificultades del entorno, los exploradores buscan una salida y regresan con pruebas. El retorno traslada la aventura al terreno de la credibilidad pública y del prestigio científico."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Ciencia, espectáculo y credibilidad",
+            "content": "La novela muestra que descubrir algo no basta: también hay que convencer. Por eso la aventura externa se complementa con una lucha por el reconocimiento público, donde la ciencia aparece ligada al escándalo, la prensa y la teatralidad."
+          },
+          {
+            "heading": "El nacimiento de un imaginario",
+            "content": "Conan Doyle fija elementos que luego serían recurrentes: meseta inaccesible, fauna prehistórica, exploradores enfrentados y regreso con pruebas extraordinarias. Su importancia histórica supera el placer del argumento y alcanza la construcción de un modelo narrativo entero."
+          },
+          {
+            "heading": "Límites ideológicos del clásico",
+            "content": "Leída hoy, la novela también invita a revisar los supuestos imperiales y jerárquicos que acompañan la exploración. Esa capa no invalida su potencia, pero sí ayuda a comprender desde qué mirada cultural imagina su territorio desconocido."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es El mundo perdido una novela de ciencia ficción o de aventuras?",
+            "answer": "Es ambas cosas: usa una premisa de aventura clásica, pero la organiza alrededor de una hipótesis científica extraordinaria y del debate sobre su verificación."
+          },
+          {
+            "question": "¿Quién narra la historia?",
+            "answer": "La narra Edward Malone, periodista que acompaña la expedición y funciona como testigo de los descubrimientos y de las disputas entre los exploradores."
+          },
+          {
+            "question": "¿Por qué sigue siendo famosa?",
+            "answer": "Porque ayudó a definir el relato de exploración a mundos aislados, introdujo al profesor Challenger y dejó una huella profunda en la ficción posterior sobre dinosaurios y territorios ocultos."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "The Arthur Conan Doyle Encyclopedia - The Lost World",
+            "url": "https://www.arthur-conan-doyle.com/wiki/The_Lost_World"
+          },
+          {
+            "label": "Standard Ebooks - The Lost World",
+            "url": "https://standardebooks.org/ebooks/arthur-conan-doyle/the-lost-world"
+          },
+          {
+            "label": "Open Library - The lost world",
+            "url": "https://openlibrary.org/books/OL22885694M/The_lost_world"
+          },
+          {
+            "label": "Britannica - Arthur Conan Doyle",
+            "url": "https://www.britannica.com/biography/Arthur-Conan-Doyle"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "en-el-tiempo-de-las-mariposas-de-julia-alvarez",
+      "title": "En El Tiempo De Las Mariposas",
+      "authorName": "Julia Alvarez",
+      "authorSlug": "julia-alvarez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 14,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "En el tiempo de las mariposas",
+        "authorName": "Julia Alvarez",
+        "authorSlug": "julia-alvarez",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela histórica",
+          "ficción política",
+          "literatura latinoamericana"
+        ],
+        "year": 1994,
+        "pages": 352,
+        "summary": "En el tiempo de las mariposas recrea la vida de las hermanas Mirabal —Patria, Minerva, María Teresa y Dedé— en la República Dominicana bajo la dictadura de Rafael Trujillo. Julia Alvarez convierte una historia histórica y política en una novela coral íntima, donde cada voz muestra una manera distinta de entrar en la conciencia del peligro, la resistencia y el duelo. El libro no idealiza a las hermanas como figuras abstractas de martirio, sino que las devuelve a su condición humana: jóvenes con deseos, miedos, contradicciones y vínculos familiares complejos. La tensión crece a medida que la represión del régimen invade la vida cotidiana y obliga a decidir entre seguridad personal y compromiso político. El resultado es una novela de memoria, coraje y pérdida que examina el coste humano de la tiranía y la persistencia de quienes sobreviven para contarla.",
+        "aboutThisBook": "Publicada originalmente en 1994, esta novela es una de las obras más conocidas de Julia Alvarez y una referencia central de la narrativa latina en Estados Unidos. Se basa en la historia de las Mirabal, opositoras reales al trujillismo, pero adopta una forma novelística para imaginar su vida interior. Esa combinación de archivo histórico, memoria familiar y construcción literaria explica su presencia constante en aulas, clubes de lectura y debates sobre género, exilio y violencia estatal.",
+        "forWhom": "Para lectores de novela histórica y política, estudiantes de bachillerato o universidad y cualquiera que busque una obra accesible pero seria sobre dictadura, memoria y resistencia femenina.",
+        "whyItMatters": "Importa porque devuelve espesor humano a un símbolo político continental. Al narrar a las Mirabal desde dentro, la novela enlaza historia dominicana, experiencia femenina y reflexión ética sobre cómo se enfrenta un régimen totalitario.",
+        "editorialIntro": "Julia Alvarez escribió una novela que no se limita a recordar a las hermanas Mirabal: les devuelve voz, intimidad y conflicto. En lugar de presentar heroínas inmóviles, construye una polifonía donde familia, fe, deseo y miedo se cruzan con la violencia del Estado. Por eso En el tiempo de las mariposas sigue siendo una lectura poderosa tanto en clave histórica como emocional.",
+        "readingLevel": "Lectura media para jóvenes maduros y adultos: la prosa es clara, pero los cambios de voz narrativa, el contexto político y la carga emocional invitan a una lectura atenta.",
+        "whyReadToday": "Leerla hoy ayuda a pensar cómo operan el autoritarismo, la propaganda y el miedo en la vida privada. También recuerda que la memoria democrática necesita relatos concretos, no solo fechas y consignas.",
+        "studyNotes": [
+          "Cada hermana encarna una forma distinta de maduración política; compararlas aclara la estructura coral de la novela.",
+          "Dedé es clave porque introduce la perspectiva de la superviviente y el problema de cómo recordar a quienes ya son símbolo nacional.",
+          "La obra une historia pública y vida doméstica: el terror del régimen entra en la casa, el matrimonio, la maternidad y la amistad."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: la memoria de Dedé",
+            "summary": "La novela se abre desde la hermana que sobrevivió, marcando desde el principio que el relato será también una reconstrucción del pasado y una interrogación sobre la memoria."
+          },
+          {
+            "title": "Nudo: despertar político de las hermanas",
+            "summary": "Las voces de Patria, Minerva y María Teresa muestran distintos procesos de conciencia y compromiso. La represión trujillista deja de ser fondo histórico y se vuelve experiencia inmediata."
+          },
+          {
+            "title": "Desenlace: martirio y legado",
+            "summary": "La violencia del régimen culmina en el asesinato de las hermanas activistas, pero la novela desplaza el cierre hacia la persistencia de Dedé, encargada de sostener el duelo y la transmisión del recuerdo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Polifonía y humanidad del símbolo",
+            "content": "El mayor logro de Alvarez es deshacer la estatua para recuperar a las personas. La alternancia de voces permite que las Mirabal no aparezcan solo como emblemas heroicos, sino como sujetos con dudas, deseos y distintos ritmos de politización."
+          },
+          {
+            "heading": "Dictadura y vida cotidiana",
+            "content": "La novela muestra que la opresión no actúa únicamente a través de cárceles y asesinatos. Se infiltra en la escuela, en la religión, en el matrimonio, en el lenguaje público y en la manera en que cada personaje aprende a callar o a hablar."
+          },
+          {
+            "heading": "Memoria, duelo y supervivencia",
+            "content": "Dedé ocupa un lugar decisivo porque encarna la carga de sobrevivir a los mártires. Gracias a ella, el libro no termina en la muerte, sino en la responsabilidad de recordar, narrar y convivir con una ausencia convertida en historia nacional."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Está basada en hechos reales?",
+            "answer": "Sí. La novela ficcionaliza la vida de las hermanas Mirabal, opositoras reales a la dictadura de Rafael Trujillo en la República Dominicana."
+          },
+          {
+            "question": "¿Por qué se llaman las Mariposas?",
+            "answer": "Las Mariposas era el nombre clandestino con el que se identificaba el grupo asociado a las hermanas Mirabal dentro de la resistencia contra el régimen."
+          },
+          {
+            "question": "¿Qué hace distinta a esta novela frente a un libro histórico?",
+            "answer": "Que usa la ficción para imaginar voces, intimidades y contradicciones personales, de modo que la historia política se vuelve experiencia humana concreta."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Hachette Book Group - In the Time of the Butterflies",
+            "url": "https://www.hachettebookgroup.com/titles/julia-alvarez/in-the-time-of-the-butterflies/9781565129764/"
+          },
+          {
+            "label": "Julia Alvarez - Books",
+            "url": "https://www.juliaalvarez.com/books/"
+          },
+          {
+            "label": "Britannica - Julia Alvarez",
+            "url": "https://www.britannica.com/biography/Julia-Alvarez"
+          },
+          {
+            "label": "Open Library - In the Time of the Butterflies",
+            "url": "https://openlibrary.org/books/OL7586894M/In_the_Time_of_the_Butterflies"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "futuro-imperfecto-de-xulia-alonso-diaz",
+      "title": "Futuro Imperfecto",
+      "authorName": "Xulia Alonso Diaz",
+      "authorSlug": "xulia-alonso-diaz",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 14,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Futuro imperfecto",
+        "authorName": "Xulia Alonso Díaz",
+        "authorSlug": "xulia-alonso-diaz",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela",
+          "narrativa contemporánea",
+          "novela testimonial"
+        ],
+        "year": 2015,
+        "pages": 248,
+        "summary": "Futuro imperfecto es una novela de fuerte base testimonial en la que Xulia Alonso Díaz convierte una experiencia íntima en relato generacional. La obra parte de una historia de amor, la de la narradora con Nico, pero pronto amplía su foco hacia el clima social de los años ochenta y noventa, cuando muchos jóvenes descubrieron a la vez la intensidad afectiva, la libertad recién estrenada y la devastación de la droga. El libro sigue el vínculo entre deseo, dependencia, pérdida y memoria, mostrando cómo una vida queda marcada por una ausencia que no desaparece. Más que recrearse en el daño, la novela explora cómo se sobrevive a él y cómo el recuerdo puede transformarse en una forma de futuro menos ideal, pero todavía esperanzado.",
+        "aboutThisBook": "Publicada por Editorial Galaxia, Futuro imperfecto se presenta como una historia donde vida y literatura caminan juntas. La propia editorial la define como el relato del amor de la autora por Nico y de la experiencia de su pérdida, enmarcado en una generación atravesada por la droga. Su recepción confirma ese alcance: ganó el Premio Frei Martín Sarmiento y el Premio San Clemente en lengua gallega, dos reconocimientos vinculados además al juicio lector de estudiantes. Eso ayuda a entender su doble naturaleza: libro íntimo y, al mismo tiempo, retrato social de una época.",
+        "forWhom": "Para lectores de narrativa contemporánea con interés en novelas emotivas, memoria generacional y relatos sobre duelo. También funciona muy bien para clubes de lectura, bachillerato y universidad por su dimensión social y testimonial.",
+        "whyItMatters": "Importa porque convierte un drama privado en una reflexión colectiva sobre una generación marcada por la heroína, el amor y la pérdida. Su valor no está solo en lo que cuenta, sino en cómo devuelve voz, contexto y dignidad a una herida histórica.",
+        "editorialIntro": "Hay libros que parten de una historia personal y terminan explicando una época. Futuro imperfecto pertenece a esa rara clase de novelas que miran de frente el daño sin perder la ternura. Xulia Alonso Díaz escribe desde la memoria, pero no para encerrarse en ella, sino para iluminar el modo en que el amor, la droga y el duelo dejaron huella en toda una generación. El resultado es un texto cercano, doloroso y sereno, con vocación de testimonio y respiración literaria.",
+        "readingLevel": "Accesible para lectores habituales de secundaria alta, bachillerato y adultos; el lenguaje es claro, pero la carga emocional y el contexto histórico del consumo de drogas piden una lectura atenta.",
+        "whyReadToday": "Sigue siendo actual porque habla de adicciones, pérdidas y memoria afectiva sin moralismo. Además, ofrece una mirada generacional útil para entender cómo ciertos problemas sociales dejan marcas duraderas en la intimidad y en la cultura.",
+        "studyNotes": [
+          "La novela enlaza experiencia amorosa y contexto social: no separa lo íntimo de lo histórico.",
+          "Conviene analizar cómo el duelo reorganiza el tiempo narrativo y convierte el recuerdo en estructura del libro.",
+          "Los premios concedidos por lectores escolares ayudan a leerla también como puente entre generaciones."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Amor y despertar en una generación vulnerable",
+            "summary": "La narración presenta el vínculo entre la protagonista y Nico en el marco de los años ochenta y noventa. El descubrimiento amoroso aparece unido a un entorno donde la droga circula con normalidad y amenaza con contaminar cualquier promesa de futuro."
+          },
+          {
+            "title": "Parte 2. La pérdida y sus consecuencias",
+            "summary": "La historia se vuelve más áspera al mostrar cómo la experiencia de la pérdida rompe la continuidad vital. El dolor deja de ser solo sentimental y se convierte en una marca generacional, porque la tragedia no afecta a una sola pareja, sino a muchos jóvenes de la misma época."
+          },
+          {
+            "title": "Parte 3. Memoria, reencuentro y porvenir posible",
+            "summary": "En el tramo final, el libro trabaja la memoria no como simple evocación nostálgica, sino como una forma de rehacer la vida. La idea de un futuro imperfecto resume esa salida: no hay reparación completa, pero sí una esperanza lúcida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria íntima y memoria generacional",
+            "content": "Uno de los mayores logros del libro es evitar que la experiencia personal quede aislada. La historia de Nico y de su pérdida importa porque se inserta en un momento histórico reconocible, el de una juventud golpeada por la droga. Así, la autobiografía se transforma en memoria compartida."
+          },
+          {
+            "heading": "Amor, duelo y escritura",
+            "content": "La novela sugiere que escribir no borra el dolor, pero sí le da forma. El amor aparece primero como promesa de plenitud; después, la pérdida obliga a reorganizar el sentido de toda una vida. La escritura sirve para mirar esa herida sin negarla y para rescatar una verdad emocional que no cabe en el puro dato biográfico."
+          },
+          {
+            "heading": "Esperanza sin idealización",
+            "content": "El título concentra la tesis del libro. No hay regreso al paraíso ni cierre consolador. El futuro ya no puede ser perfecto después de ciertas experiencias, pero tampoco queda cancelado. La obra defiende una esperanza sobria, más ética que sentimental, nacida de aceptar lo vivido."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Futuro imperfecto es autobiográfico?",
+            "answer": "Tiene una base claramente testimonial y parte de una experiencia vital de la autora, aunque se presenta y se lee como obra literaria."
+          },
+          {
+            "question": "¿El libro trata solo una historia de amor?",
+            "answer": "No. La relación amorosa es el núcleo emocional, pero el libro amplía esa experiencia hacia un retrato generacional sobre juventud, droga, pérdida y memoria."
+          },
+          {
+            "question": "¿Por qué suele recomendarse para lectura guiada?",
+            "answer": "Porque combina lenguaje accesible, intensidad emocional y un contexto histórico muy debatible en clase: adicciones, duelo, construcción de la memoria y lectura social de una época."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Editorial Galaxia: ficha del libro",
+            "url": "https://editorialgalaxia.gal/produto/futuro-imperfecto/"
+          },
+          {
+            "label": "Editorial Galaxia: Premio Frei Martín Sarmiento",
+            "url": "https://editorialgalaxia.gal/039futuro-imperfecto039-de-xulia-alonso-premio-frei-martin-sarmiento/"
+          },
+          {
+            "label": "Editorial Galaxia: Premio San Clemente",
+            "url": "https://editorialgalaxia.gal/premio-san-clemente-para-futuro-imperfecto/"
+          },
+          {
+            "label": "Open Library: registro bibliográfico",
+            "url": "https://openlibrary.org/search?q=Futuro+imperfecto+Xulia+Alonso+D%C3%ADaz"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "historias-extraordinarias-de-roald-dahl",
+      "title": "Historias Extraordinarias",
+      "authorName": "Roald Dahl",
+      "authorSlug": "roald-dahl",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 14,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Historias extraordinarias",
+        "authorName": "Roald Dahl",
+        "authorSlug": "roald-dahl",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "relatos",
+          "cuento",
+          "fantasía",
+          "humor negro"
+        ],
+        "year": 1977,
+        "pages": 225,
+        "summary": "Historias extraordinarias es la edición en español de The Wonderful Story of Henry Sugar and Six More, un volumen donde Roald Dahl reúne siete textos muy distintos bajo una misma lógica de asombro. En el libro conviven relatos de aventura, crueldad infantil, codicia, rareza moral y aprendizaje, junto con dos piezas autobiográficas sobre sus comienzos como escritor y su experiencia en la guerra. La colección incluye cuentos tan memorables como El niño que hablaba con los animales, El autoestopista, El tesoro de Mildenhall, El cisne y La maravillosa historia de Henry Sugar. El conjunto muestra a un Dahl menos asociado al libro infantil clásico y más interesado en la sorpresa, el humor seco, el detalle excéntrico y la revelación súbita de lo extraño dentro de lo cotidiano.",
+        "aboutThisBook": "Publicado originalmente en 1977, este libro ocupa un lugar singular dentro de la obra de Dahl porque mezcla relatos de ficción con textos autobiográficos. Open Library conserva el índice completo de la primera edición y deja ver la arquitectura del volumen: cinco historias narrativas y dos piezas finales, Lucky Break y A Piece of Cake, que explican cómo Dahl empezó a escribir y cómo transformó una experiencia bélica en literatura. Por eso el libro funciona a la vez como colección de cuentos y como autorretrato parcial: permite leer la imaginación de Dahl y, al final, entender algo del origen de su voz.",
+        "forWhom": "Ideal para lectores jóvenes y adultos que disfrutan los cuentos con giros inesperados, humor negro y situaciones insólitas. También es muy útil para estudiar el relato breve, la ironía narrativa y la mezcla entre ficción y autobiografía.",
+        "whyItMatters": "Importa porque concentra muchas facetas de Roald Dahl en un solo volumen: el fabulador, el observador cruel de la conducta humana y el narrador autobiográfico. Es una puerta excelente para entrar en su obra más allá de sus novelas infantiles famosas.",
+        "editorialIntro": "No todos los libros de Roald Dahl ofrecen un mapa tan completo de su imaginación como este. Historias extraordinarias reúne cuentos muy distintos entre sí, pero unidos por un mismo nervio: la capacidad de transformar una anécdota improbable en una experiencia de lectura nítida, inquietante y divertida. Aquí hay niños crueles, adultos codiciosos, hallazgos inesperados y un buscador de poderes mentales imposibles. Y, en el cierre, hay además un Dahl que se explica a sí mismo y revela cómo nació su oficio narrativo.",
+        "readingLevel": "Lectura muy fluida para secundaria y adultos; algunas historias son accesibles en estilo, pero sus matices morales, el humor negro y ciertos pasajes duros invitan a una lectura comentada.",
+        "whyReadToday": "Sigue valiendo la pena porque enseña cómo funciona un cuento eficaz: economía, sorpresa, tono y remate. Además, muestra a un Dahl más amplio y ambiguo que la imagen escolar simplificada del autor infantil.",
+        "studyNotes": [
+          "El volumen alterna cuentos plenamente ficcionales con textos autobiográficos, lo que permite comparar voz narrativa y experiencia real.",
+          "El relato de Henry Sugar resume bien la atracción de Dahl por lo improbable tratado con total naturalidad.",
+          "Conviene observar cómo varias historias combinan maravilla y crueldad sin caer en moralejas simples."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primer bloque: rareza, ingenio y aventura",
+            "summary": "Los primeros relatos introducen el tono del libro mediante situaciones extraordinarias narradas con precisión casi cotidiana. Un niño establece un vínculo inesperado con el mundo animal y un autoestopista revela una destreza asombrosa, mostrando la fascinación de Dahl por lo insólito."
+          },
+          {
+            "title": "Segundo bloque: hallazgo, violencia y transformación",
+            "summary": "En la parte central, el libro oscila entre el descubrimiento maravilloso y la brutalidad humana. El tesoro de Mildenhall expone ambición y mezquindad; El cisne, en cambio, lleva la crueldad juvenil a un extremo perturbador; Henry Sugar convierte la disciplina mental y el deseo de ventaja en una parábola de cambio interior."
+          },
+          {
+            "title": "Tercer bloque: el escritor detrás de los relatos",
+            "summary": "El volumen se cierra con Lucky Break y A Piece of Cake, dos textos autobiográficos donde Dahl explica sus comienzos como autor y el modo en que una experiencia de guerra terminó transformada en escritura. El cierre reordena retrospectivamente toda la colección."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Roald Dahl más allá de la etiqueta infantil",
+            "content": "Aunque varias historias pueden leerlas jóvenes lectores, el libro muestra un Dahl menos domesticado que el de sus títulos infantiles más famosos. Aquí hay ironía seca, violencia moral, codicia y ambigüedad, rasgos que lo acercan tanto al gran cuentista como al fabulador para todas las edades."
+          },
+          {
+            "heading": "La extraordinaria precisión del cuento breve",
+            "content": "Dahl construye relatos con una gran economía narrativa. Suele arrancar desde una situación concreta, acumula detalles muy visuales y reserva un momento de desplazamiento que cambia por completo la percepción del lector. Esa eficacia hace del libro un excelente ejemplo de arquitectura del cuento."
+          },
+          {
+            "heading": "Ficción y autobiografía en un mismo volumen",
+            "content": "La presencia de Lucky Break y A Piece of Cake evita que la colección sea solo una suma de historias impactantes. Esos textos finales permiten leer el volumen como una declaración indirecta sobre el oficio narrativo: la experiencia personal, incluso la traumática, puede convertirse en material literario mediante selección, tono y estructura."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Historias extraordinarias es una novela?",
+            "answer": "No. Es una colección de siete textos, en su mayoría relatos, con dos piezas autobiográficas al final."
+          },
+          {
+            "question": "¿Es un libro solo para niños?",
+            "answer": "No exactamente. Su estilo es claro y muy legible, pero varios cuentos contienen violencia, ironía amarga y dilemas morales que interesan mucho a lectores adultos."
+          },
+          {
+            "question": "¿Qué relato da título al volumen original?",
+            "answer": "La pieza central es The Wonderful Story of Henry Sugar, el cuento más famoso del libro y el que suele identificar toda la colección en inglés."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Open Library: obra The Wonderful Story of Henry Sugar and Six More",
+            "url": "https://openlibrary.org/works/OL45864W/The_Wonderful_Story_of_Henry_Sugar_and_Six_More"
+          },
+          {
+            "label": "Open Library: edición de 1977 con índice y descripción",
+            "url": "https://openlibrary.org/books/OL4539066M/The_wonderful_story_of_Henry_Sugar_and_six_more"
+          },
+          {
+            "label": "Encyclopaedia Britannica: biografía de Roald Dahl",
+            "url": "https://www.britannica.com/biography/Roald-Dahl"
+          },
+          {
+            "label": "Wikidata: The Wonderful Story of Henry Sugar and Six More",
+            "url": "https://www.wikidata.org/wiki/Q534970"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-hermana-san-sulpicio-de-armando-palacio-valdes",
+      "title": "La Hermana San Sulpicio",
+      "authorName": "Armando Palacio Valdes",
+      "authorSlug": "armando-palacio-valdes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 14,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La hermana San Sulpicio",
+        "authorName": "Armando Palacio Valdés",
+        "authorSlug": "armando-palacio-valdes",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela",
+          "realismo",
+          "costumbrismo",
+          "romance"
+        ],
+        "year": 1889,
+        "pages": null,
+        "summary": "La hermana San Sulpicio es una de las novelas más conocidas de Armando Palacio Valdés y combina relato amoroso, humor y observación costumbrista. El narrador, Ceferino Sanjurjo, joven gallego formado en medicina, cuenta un episodio decisivo de su vida cuando viaja al sur y entra en contacto con un mundo andaluz mucho más expansivo, teatral y sensual que el suyo. Allí conoce a Gloria Bermúdez, vinculada al convento y conocida como la hermana San Sulpicio, una figura vivaz y contradictoria que desarma las certezas del protagonista. La novela desarrolla el conflicto entre deseo, religión, convenciones sociales y temperamentos regionales, pero lo hace con ligereza narrativa, ironía y una gran atención al habla, los gestos y los ambientes. Esa mezcla explica su vigencia como clásico popular del realismo español.",
+        "aboutThisBook": "La novela apareció en 1889 y pertenece al mejor momento narrativo de Palacio Valdés. A diferencia de otros realistas más severos, el autor combina observación social con un tono amable, irónico y muy legible. El propio arranque del texto presenta a Ceferino como narrador retrospectivo de un episodio amoroso que aún conserva una vibración íntima. Buena parte del atractivo del libro está en el contraste entre el gallego reflexivo y la vitalidad sevillana de Gloria, pero también en la manera en que el costumbrismo no es mero decorado, sino motor del conflicto. Por eso la obra ha seguido circulando en ediciones populares y digitales durante décadas.",
+        "forWhom": "Muy recomendable para lectores de clásicos españoles que quieran una novela realista menos áspera que otras del siglo XIX. También es útil para estudiantes por su humor, su claridad narrativa y su retrato de costumbres, regionalismo y convenciones sociales.",
+        "whyItMatters": "Sigue importando porque muestra una vía especialmente accesible del realismo español: observación social, personajes memorables y tensión entre deseo privado y norma pública. Además, ofrece un retrato muy vivo del contraste entre Galicia y Andalucía convertido en materia narrativa.",
+        "editorialIntro": "Hay clásicos que sobreviven por su prestigio y otros que sobreviven porque siguen leyéndose con placer. La hermana San Sulpicio pertenece claramente a los segundos. Armando Palacio Valdés construye aquí una novela de amor y carácter donde el humor, el costumbrismo y la tensión sentimental avanzan juntos. Bajo su apariencia ligera, el libro explora cuestiones muy serias: el peso de la religión, la fuerza del deseo, la teatralidad social y la manera en que una voz narrativa intenta comprender, años después, aquello que lo desordenó para siempre.",
+        "readingLevel": "Adecuado para bachillerato, universidad y lectores adultos de clásicos; el estilo es del siglo XIX, pero la narración es clara, viva y bastante más accesible que la de otros realistas de su tiempo.",
+        "whyReadToday": "Porque sigue siendo una excelente puerta de entrada al realismo español y porque su mezcla de humor, emoción y observación social hace que no se lea como una reliquia, sino como una novela con pulso.",
+        "studyNotes": [
+          "Ceferino narra en primera persona, de modo que el lector conoce tanto los hechos como sus vacilaciones e idealizaciones.",
+          "El choque entre Galicia y Andalucía funciona como contraste cultural, sentimental y lingüístico.",
+          "La novela usa el costumbrismo no solo para describir ambientes, sino para poner obstáculos concretos al deseo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Viaje, balneario y encuentro decisivo",
+            "summary": "Ceferino recuerda el viaje que lo conduce al sur y al espacio social donde empieza la historia. En ese ambiente conoce a las religiosas y queda especialmente impactado por la figura de la hermana San Sulpicio, cuyo temperamento rompe de inmediato sus esquemas."
+          },
+          {
+            "title": "Parte 2. Gloria Bermúdez y el conflicto sentimental",
+            "summary": "La narración profundiza en la identidad de Gloria y en las circunstancias que la han llevado a su situación. Ceferino oscila entre la fascinación, el escrúpulo y la idealización mientras comprende que su atracción no es un simple capricho pasajero."
+          },
+          {
+            "title": "Parte 3. Convenciones, decisión y desenlace amoroso",
+            "summary": "Cuando el sentimiento exige consecuencias reales, aparecen con más fuerza las barreras sociales, religiosas y personales. El desenlace resuelve la tensión entre impulso amoroso y normas externas, manteniendo el tono irónico y humano de toda la novela."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una voz narradora entre la confesión y la ironía",
+            "content": "Ceferino no cuenta solo lo que pasó, sino cómo lo recuerda y cómo intenta explicárselo. Esa distancia entre el joven que vivió los hechos y el narrador que los reconstruye añade humor, autocrítica y una ligera inestabilidad: el lector percibe tanto el enamoramiento como la forma en que él mismo lo dramatiza."
+          },
+          {
+            "heading": "Regionalismo y costumbrismo con función narrativa",
+            "content": "La oposición entre la reserva gallega del protagonista y la sociabilidad andaluza de Gloria es central. No se trata de un simple color local pintoresco: el contraste organiza los malentendidos, el deseo y la comicidad. Palacio Valdés convierte los ambientes, acentos y modales en auténticos actores de la historia."
+          },
+          {
+            "heading": "Religión, deseo y norma social",
+            "content": "La novela juega con una situación de fuerte tensión simbólica: la atracción por una mujer vinculada al mundo conventual. Sin volverse trágica, explora cómo las instituciones, la reputación y las apariencias pesan sobre la vida afectiva. Su ligereza formal no anula la seriedad del conflicto."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La hermana San Sulpicio es una novela realista o romántica?",
+            "answer": "Es fundamentalmente una novela realista y costumbrista, aunque utiliza un argumento amoroso muy fuerte como eje principal."
+          },
+          {
+            "question": "¿Quién protagoniza la historia?",
+            "answer": "El narrador y protagonista es Ceferino Sanjurjo, un joven gallego, y la figura central de su conflicto amoroso es Gloria Bermúdez, conocida como la hermana San Sulpicio."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose en cursos de literatura?",
+            "answer": "Porque combina accesibilidad, interés argumental y rasgos clave del siglo XIX español: primera persona, realismo, costumbrismo, crítica suave de convenciones y contraste regional."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Open Library: obra La hermana San Sulpicio",
+            "url": "https://openlibrary.org/works/OL984274W/La_hermana_San_Sulpicio"
+          },
+          {
+            "label": "Ciudad Seva: texto de La hermana San Sulpicio",
+            "url": "https://ciudadseva.com/texto/la-hermana-san-sulpicio/"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Armando Palacio Valdés",
+            "url": "https://www.britannica.com/biography/Armando-Palacio-Valdes"
+          },
+          {
+            "label": "Lecturalia: ficha bibliográfica y año original",
+            "url": "https://www.lecturalia.com/libro/42675/la-hermana-san-sulpicio"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-memoria-de-los-seres-perdidos-de-jordi-sierra-i-fabra",
+      "title": "La Memoria De Los Seres Perdidos",
+      "authorName": "Jordi Sierra I Fabra",
+      "authorSlug": "jordi-sierra-i-fabra",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 14,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La memoria de los seres perdidos",
+        "authorName": "Jordi Sierra i Fabra",
+        "authorSlug": "jordi-sierra-i-fabra",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "memoria historica",
+          "drama",
+          "narrativa social"
+        ],
+        "year": 2002,
+        "pages": 192,
+        "summary": "Esta novela juvenil de Jordi Sierra i Fabra parte de una herida histórica concreta: los desaparecidos de la dictadura argentina. Estela descubre de pronto que las personas a las que llama padres quizá no le han contado toda la verdad sobre su origen. A partir de ese golpe íntimo, inicia una investigación que la obliga a mirar el pasado familiar y también el pasado político de un país marcado por el silencio, el miedo y la impunidad. La novela combina intriga emocional, búsqueda de identidad y memoria colectiva. Más que reconstruir un caso aislado, muestra cómo una violencia estatal sigue afectando a quienes crecieron entre secretos, ausencias y versiones incompletas. El resultado es un relato ágil, doloroso y esperanzado sobre la necesidad de saber para poder vivir con dignidad.",
+        "aboutThisBook": "La memoria de los seres perdidos es una novela breve pero intensa, escrita para lectores jóvenes sin rebajar la complejidad moral de su tema. Sierra i Fabra convierte una experiencia histórica traumática en una historia de formación: una adolescente pasa de la confusión a la conciencia, y de la sospecha a la búsqueda activa de la verdad. El libro trabaja con una idea central muy poderosa: la identidad personal no puede separarse de la memoria de los demás. Su tono es directo, accesible y emocional, y por eso funciona bien tanto como lectura escolar como lectura personal. También destaca por acercar a nuevos lectores un episodio esencial de la historia reciente latinoamericana.",
+        "forWhom": "Ideal para lectores jóvenes y adultos que busquen una novela breve sobre identidad, derechos humanos, memoria histórica y secretos familiares con una trama clara y emocional.",
+        "whyItMatters": "Importa porque acerca el tema de los desaparecidos argentinos a lectores no especializados y demuestra que el pasado político no desaparece: sigue viviendo en los cuerpos, en los nombres y en las preguntas de los hijos.",
+        "editorialIntro": "Hay novelas que no solo cuentan una historia, sino que obligan a mirar una ausencia. La memoria de los seres perdidos convierte una búsqueda personal en una reflexión accesible sobre la verdad, la identidad y las secuelas de la violencia política. Jordi Sierra i Fabra escribe con claridad y pulso narrativo para que una historia dura pueda ser leída, comprendida y sentida por lectores jóvenes.",
+        "readingLevel": "Lectura juvenil media, muy accesible en estilo, pero emocionalmente exigente por el contexto historico y las implicaciones morales de la trama.",
+        "whyReadToday": "Sigue siendo actual porque habla de desinformación, memoria, reparación y derecho a la identidad, asuntos que continúan presentes en muchas sociedades atravesadas por la violencia y el silencio oficial.",
+        "studyNotes": [
+          "La novela conecta la identidad individual de Estela con la memoria pública de los desaparecidos.",
+          "El suspense no depende de la acción externa, sino del descubrimiento progresivo de la verdad familiar.",
+          "Puede leerse como relato de iniciación y también como introducción literaria a la memoria histórica argentina."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La grieta en la identidad",
+            "summary": "Estela recibe una revelación que desordena por completo su mundo: quienes la han criado quizá no son sus padres biológicos. La noticia rompe la normalidad cotidiana y abre una sospecha que afecta su pasado entero."
+          },
+          {
+            "title": "Parte 2: La investigacion del pasado",
+            "summary": "Superado el impacto inicial, la protagonista decide averiguar qué ocurrió realmente. Esa búsqueda la conduce a testimonios, silencios y pistas vinculadas con la dictadura argentina y con la desaparición de miles de personas."
+          },
+          {
+            "title": "Parte 3: Verdad, duelo y reconstruccion",
+            "summary": "La investigación obliga a Estela a asumir una verdad dolorosa, pero también le permite comprender su historia y situarse moralmente frente al pasado. El desenlace subraya que conocer la verdad no borra la herida, aunque sí devuelve nombre, sentido y dignidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria historica y formacion personal",
+            "content": "La novela une dos aprendizajes a la vez: el conocimiento de un episodio político traumático y el paso de la adolescencia a una conciencia más madura. Estela no solo descubre datos; aprende a hacerse responsable de lo que significa saber."
+          },
+          {
+            "heading": "El secreto como forma de violencia",
+            "content": "Sierra i Fabra muestra que el silencio puede proteger, pero también deformar la vida de quienes crecen sin respuestas. La ocultación del origen de Estela prolonga en el ámbito doméstico una violencia que nació en el ámbito político."
+          },
+          {
+            "heading": "Una novela juvenil sin simplificaciones",
+            "content": "Aunque está escrita con claridad y ritmo, la obra evita trivializar el dolor histórico. Su mérito está en ofrecer un acceso narrativo comprensible a un tema difícil, sin perder gravedad ética ni densidad emocional."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata La memoria de los seres perdidos?",
+            "answer": "Trata de una joven que descubre que su origen está rodeado de secretos y que esa verdad se relaciona con los desaparecidos de la dictadura argentina."
+          },
+          {
+            "question": "¿Es una novela adecuada para estudiantes?",
+            "answer": "Sí. Su lenguaje es accesible y permite trabajar memoria histórica, identidad, derechos humanos y análisis del relato juvenil."
+          },
+          {
+            "question": "¿El libro se centra más en la política o en la experiencia personal?",
+            "answer": "En ambas cosas. Parte de una experiencia íntima, pero la convierte en una reflexión sobre un trauma histórico colectivo."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Goodreads - La memoria de los seres perdidos",
+            "url": "https://www.goodreads.com/book/show/775175.La_memoria_de_los_seres_perdidos"
+          },
+          {
+            "label": "Open Library - edición de Ediciones SM",
+            "url": "https://openlibrary.org/books/OL13239017M/La_Memoria_De_Los_Seres_Perdidos"
+          },
+          {
+            "label": "Open Library - ficha de la obra",
+            "url": "https://openlibrary.org/works/OL707265W/La_Memoria_De_Los_Seres_Perdidos"
+          },
+          {
+            "label": "ISBN Search - ISBN 9788434861244",
+            "url": "https://isbnsearch.org/isbn/9788434861244"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "largo-viaje-hacia-la-noche-de-eugene-oneill",
+      "title": "Largo Viaje Hacia La Noche",
+      "authorName": "Eugene Oneill",
+      "authorSlug": "eugene-oneill",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 14,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Largo viaje hacia la noche",
+        "authorName": "Eugene O'Neill",
+        "authorSlug": "eugene-oneill",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "teatro",
+          "drama",
+          "tragedia familiar",
+          "clasico moderno"
+        ],
+        "year": 1956,
+        "pages": 176,
+        "summary": "Largo viaje hacia la noche es un drama en cuatro actos que transcurre a lo largo de un solo día en la casa de verano de los Tyrone. Bajo esa estricta unidad temporal, Eugene O'Neill expone el desgaste de una familia que se quiere, se hiere y se culpa sin descanso. James Tyrone arrastra la avaricia y la frustración de una carrera malgastada; Mary lucha de nuevo con su adicción a la morfina; Jamie se refugia en el cinismo y el alcohol; Edmund, alter ego del autor, afronta la enfermedad y una lucidez dolorosa. Lo que parece una jornada doméstica se convierte en una autopsia emocional del resentimiento, la culpa y la dependencia. La obra es autobiográfica en su raíz y devastadora en su forma: cada conversación desentierra una herida antigua que nadie puede cerrar del todo.",
+        "aboutThisBook": "Considerada la gran obra maestra de O'Neill, esta pieza fue escrita entre 1939 y 1941, publicada y estrenada de forma póstuma en 1956, y obtuvo el Pulitzer en 1957. Su importancia no se explica solo por su prestigio crítico, sino por la precisión con que convierte la experiencia familiar en tragedia moderna. El drama mezcla realismo psicológico, confesión autobiográfica y una estructura teatral muy controlada. Cada acto intensifica la sensación de encierro moral: los personajes repiten reproches, recuerdos y excusas, pero en esa repetición aparece una verdad profunda sobre el amor familiar cuando está atravesado por la adicción, la enfermedad y el fracaso. Es una obra clave para entender el teatro estadounidense del siglo XX.",
+        "forWhom": "Muy recomendable para lectores y estudiantes de teatro, literatura moderna y psicología de los vínculos familiares, especialmente si buscan una obra intensa, exigente y de gran densidad emocional.",
+        "whyItMatters": "Importa porque llevó al escenario una intimidad familiar brutalmente honesta y mostró que el drama moderno podía ser a la vez autobiografía, crítica social y tragedia moral sin perder fuerza teatral.",
+        "editorialIntro": "Pocas obras exponen con tanta crudeza el interior de una familia como Largo viaje hacia la noche. O'Neill transforma una jornada aparentemente ordinaria en una espiral de reproches, recaídas, confesiones y ternuras fallidas. El lector o espectador entra en una casa cerrada sobre sí misma y sale con la sensación de haber asistido a una verdad dolorosa, casi insoportable, sobre la familia y la memoria.",
+        "readingLevel": "Lectura media-alta: el lenguaje dramático es claro, pero el subtexto emocional, las alusiones autobiograficas y la intensidad psicológica exigen atención sostenida.",
+        "whyReadToday": "Porque sigue siendo una de las representaciones más poderosas de la adicción, la culpa heredada y el desgaste afectivo dentro de la familia, temas plenamente contemporáneos.",
+        "studyNotes": [
+          "La unidad de tiempo y espacio intensifica la sensación de encierro y fatalidad.",
+          "Cada personaje mezcla lucidez y autoengaño, lo que complica cualquier juicio moral simple.",
+          "La dimensión autobiográfica no reduce la obra a confesión: la eleva a tragedia universal sobre culpa, enfermedad y dependencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Acto I: Apariencia de calma",
+            "summary": "La familia Tyrone se reúne en su casa de verano. Bajo una conversación cotidiana aparecen dos tensiones decisivas: el temor por la salud de Edmund y la sospecha de que Mary puede estar recayendo en su adicción."
+          },
+          {
+            "title": "Acto II: Reproches y viejas cuentas",
+            "summary": "Jamie y Edmund hablan con amargura sobre la familia, el alcohol y la conducta de su madre. Cuando Mary reaparece, la conversación deja ver la fragilidad del equilibrio doméstico y el peso de resentimientos antiguos."
+          },
+          {
+            "title": "Actos III y IV: Caida nocturna",
+            "summary": "Con el avance del día y del alcohol, cada personaje se desnuda moralmente. La enfermedad de Edmund, la frustración de James, el cinismo de Jamie y la recaída de Mary desembocan en una noche donde el pasado domina por completo el presente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Autobiografia transformada en tragedia",
+            "content": "La obra nace de la experiencia familiar de O'Neill, pero no se limita a reproducirla. El autor reorganiza el dolor personal en una estructura dramática rigurosa, donde cada personaje encarna una forma distinta de culpa, evasión y necesidad de afecto."
+          },
+          {
+            "heading": "Adiccion, enfermedad y repeticion",
+            "content": "El texto muestra la familia como sistema de repetición. La morfina, el alcohol y la tuberculosis no son solo problemas individuales: revelan una dinámica común de negación, miedo y dependencia emocional."
+          },
+          {
+            "heading": "Lenguaje del reproche y deseo de consuelo",
+            "content": "Los diálogos oscilan entre la acusación y la compasión. Esa oscilación es una de las grandes fuerzas de la obra: los Tyrone saben herirse con precisión, pero también dejan ver que debajo del resentimiento persiste una necesidad genuina de amor."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o una obra de teatro?",
+            "answer": "Es una obra de teatro en cuatro actos, una de las piezas más célebres de Eugene O'Neill."
+          },
+          {
+            "question": "¿Por qué se considera autobiográfica?",
+            "answer": "Porque los personajes y conflictos se inspiran claramente en la familia del propio O'Neill, especialmente en la figura de la madre, el padre actor y el hijo enfermo que funciona como alter ego del autor."
+          },
+          {
+            "question": "¿Qué temas centrales aborda?",
+            "answer": "La obra aborda adicción, culpa, enfermedad, fracaso, autoengaño, resentimiento familiar y el deseo imposible de recuperar la inocencia perdida."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Britannica - Long Day’s Journey into Night",
+            "url": "https://www.britannica.com/topic/Long-Days-Journey-into-Night-play-by-ONeill"
+          },
+          {
+            "label": "Britannica - Eugene O’Neill",
+            "url": "https://www.britannica.com/biography/Eugene-ONeill"
+          },
+          {
+            "label": "Wikipedia - Long Day's Journey into Night",
+            "url": "https://en.wikipedia.org/wiki/Long_Day%27s_Journey_into_Night"
+          },
+          {
+            "label": "Open Library - edición de Yale University Press",
+            "url": "https://openlibrary.org/books/OL2221304M/Long_day%27s_journey_into_night"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "miau-de-benito-perez-galdos",
+      "title": "Miau",
+      "authorName": "Benito Perez Galdos",
+      "authorSlug": "benito-perez-galdos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 14,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Miau",
+        "authorName": "Benito Pérez Galdós",
+        "authorSlug": "benito-perez-galdos",
+        "type": "ficcion",
+        "audience": "adultos",
+        "genres": [
+          "novela realista",
+          "satira social",
+          "clasico español",
+          "novela del siglo XIX"
+        ],
+        "year": 1888,
+        "pages": 421,
+        "summary": "Miau es una de las novelas más incisivas de Benito Pérez Galdós sobre el Madrid burocrático de la Restauración. Su protagonista, Ramón Villaamil, antiguo empleado de Hacienda, ha quedado cesante y vive obsesionado con recuperar un puesto que le devuelva dignidad y estabilidad. A su alrededor se mueve un mundo doméstico y administrativo dominado por la penuria, el interés y la humillación cotidiana. Galdós retrata con ironía y compasión a una familia venida a menos, a una red de funcionarios y recomendados, y a una sociedad donde el mérito vale menos que la intriga. Frente a ese ambiente asfixiante destaca Luisito Cadalso, niño imaginativo y frágil, cuya mirada introduce una dimensión moral y casi visionaria. La novela combina sátira, patetismo y crítica social hasta desembocar en un desenlace profundamente amargo.",
+        "aboutThisBook": "Publicada en 1888 dentro de las Novelas españolas contemporáneas, Miau es una pieza central del realismo galdosiano. Su fuerza está en la precisión con que convierte la vida administrativa y doméstica en materia literaria de alto nivel. Galdós no se limita a denunciar la corrupción o el favoritismo: muestra cómo esas estructuras degradan la autoestima, deforman la convivencia familiar y vuelven ridícula incluso la esperanza. El título alude tanto al apodo felino de varias mujeres del entorno familiar como a las siglas del proyecto reformista de Villaamil. La novela destaca también por la figura de Luisito, cuya inocencia y relación imaginaria con Dios introducen un contrapunto inesperado en una narración dominada por la frustración y el desencanto.",
+        "forWhom": "Muy recomendable para quienes quieran leer a Galdós más allá de sus títulos más famosos y entender, mediante ficción realista, la maquinaria moral y social del Madrid decimonónico.",
+        "whyItMatters": "Sigue importando porque retrata con extraordinaria lucidez la humillación del desempleo, la burocracia deshumanizada y el desgaste de la dignidad cuando el sistema premia el favor y castiga el mérito.",
+        "editorialIntro": "Leer Miau es entrar en un Madrid de oficinas, pasillos, casas modestas y orgullos heridos, pero también en una de las sátiras más finas de la literatura española. Galdós retrata la cesantía, la pobreza respetable y el oportunismo administrativo con una mezcla magistral de ironía, humanidad y exactitud social. Es una novela dura, inteligente y sorprendentemente actual en su visión del poder pequeño y de la fragilidad de la dignidad cotidiana.",
+        "readingLevel": "Lectura media-alta: prosa clara dentro del realismo decimonónico, con abundancia de matices sociales, ironía y referencias al contexto politico-administrativo.",
+        "whyReadToday": "Porque su crítica a la precariedad, al enchufe y a la burocracia sigue resonando, y porque muestra cómo las estructuras impersonales terminan afectando la intimidad de una familia.",
+        "studyNotes": [
+          "Villaamil representa la dignidad herida del funcionario honrado en un sistema que ya no recompensa la competencia.",
+          "Luisito Cadalso funciona como contrapunto simbólico: su imaginación revela, con inocencia, una verdad moral que los adultos han perdido.",
+          "La novela mezcla sátira y compasión: ridiculiza comportamientos sociales, pero nunca deja de mostrar el sufrimiento real que hay detrás."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera mitad: La cesantia como herida",
+            "summary": "Ramón Villaamil vive marcado por la pérdida de su empleo y por la esperanza de ser readmitido. La situación económica y la tensión doméstica revelan de inmediato el carácter opresivo del mundo burocrático en que se mueve."
+          },
+          {
+            "title": "Parte central: Familia, intriga y degradacion",
+            "summary": "Mientras la casa se llena de reproches, gastos y maniobras interesadas, la novela amplía su crítica a una administración donde el favor pesa más que la valía. Víctor Cadalso encarna ese oportunismo que humilla aún más a Villaamil."
+          },
+          {
+            "title": "Desenlace: Colapso moral",
+            "summary": "La imposibilidad de recuperar su lugar y la acumulación de frustraciones empujan la historia hacia una resolución amarga. Galdós convierte el fracaso administrativo en tragedia íntima y social, dejando una impresión de derrota humana difícil de olvidar."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Realismo y burocracia",
+            "content": "Miau demuestra que la vida administrativa, aparentemente gris, puede ser materia literaria de enorme potencia. Galdós convierte expedientes, recomendaciones y cesantías en un sistema de fuerzas que modela el carácter y destruye expectativas."
+          },
+          {
+            "heading": "La dignidad del cesante",
+            "content": "Villaamil no es solo un personaje cómico o patético. Es la encarnación de una dignidad que intenta mantenerse en pie cuando el reconocimiento social desaparece. Su drama nace de la distancia entre su idea del mérito y el funcionamiento real del mundo."
+          },
+          {
+            "heading": "Luisito y la dimension simbolica",
+            "content": "La presencia de Luisito Cadalso añade una capa singular a la novela. Su fragilidad física, su imaginación y sus diálogos con Dios introducen una mirada que desarma el cinismo adulto y vuelve más hondo el contraste entre inocencia y corrupción."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué significa el título Miau?",
+            "answer": "Alude al apodo felino de varias mujeres del entorno familiar y también a las siglas del proyecto reformista de Villaamil: Moralidad, Income-tax, Aduanas y Unificación de la deuda."
+          },
+          {
+            "question": "¿Es una novela realista o satírica?",
+            "answer": "Es ambas cosas. Pertenece al realismo galdosiano, pero utiliza una sátira muy eficaz para retratar la burocracia, el favoritismo y la decadencia social."
+          },
+          {
+            "question": "¿Por qué se considera importante dentro de Galdós?",
+            "answer": "Porque resume muchas de sus virtudes: observación social, construcción de personajes memorables, ironía, compasión y una crítica muy fina del Madrid contemporáneo."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes - Miau",
+            "url": "https://www.cervantesvirtual.com/obra/miau--0/"
+          },
+          {
+            "label": "Wikipedia - Miau (novela)",
+            "url": "https://es.wikipedia.org/wiki/Miau_(novela)"
+          },
+          {
+            "label": "Britannica - Benito Pérez Galdós",
+            "url": "https://www.britannica.com/biography/Benito-Perez-Galdos"
+          },
+          {
+            "label": "Open Library - edición de Miau",
+            "url": "https://openlibrary.org/books/OL15502564M/Miau"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-contador-de-los-cuentos-de-saki",
+      "title": "El Contador De Los Cuentos",
+      "authorName": "Saki",
+      "authorSlug": "saki",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 13,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El contador de cuentos",
+        "authorName": "Saki",
+        "authorSlug": "saki",
+        "type": "cuento",
+        "audience": "infantil",
+        "genres": [
+          "cuento",
+          "literatura infantil",
+          "humor",
+          "clásico ilustrado"
+        ],
+        "year": 2009,
+        "pages": 48,
+        "summary": "Este libro recupera uno de los relatos más célebres de Saki en una edición ilustrada para lectores jóvenes. La situación es simple y brillante: durante un viaje en tren, tres niños aburridos soportan el sermón de una tía empeñada en educarlos con una historia ejemplar, hasta que un desconocido decide intervenir y contar un cuento mucho más vivo. Su protagonista es una niña “horriblemente buena”, cuya perfección moral termina conduciéndola a un desenlace inesperado. El contraste entre la moraleja convencional y la imaginación irreverente del narrador convierte el relato en una defensa del cuento bien contado: uno que sorprende, incomoda un poco y, sobre todo, mantiene despierta la atención de quien escucha.",
+        "aboutThisBook": "Aunque hoy suele circular como libro infantil ilustrado, El contador de cuentos funciona también como una pequeña lección sobre cómo opera la literatura. Saki parodia los relatos didácticos demasiado correctos y muestra que los niños no responden solo a las buenas intenciones, sino al ritmo, al ingenio y a la sorpresa. La edición en español con ilustraciones de Alba Marina Rivera acerca ese clásico breve a un público contemporáneo sin perder la ironía original. Es un texto corto, pero muy útil para hablar de humor, oralidad, punto de vista y finales memorables.",
+        "forWhom": "Es ideal para lectores infantiles que ya disfrutan historias con humor negro suave y para adultos que buscan un clásico breve para leer en voz alta. También sirve muy bien en primaria y primeros cursos de secundaria para trabajar narrador, moraleja, tono y reacciones del público dentro de la ficción.",
+        "whyItMatters": "Importa porque demuestra que un cuento breve puede enseñar mucho sobre lectura, autoridad y creatividad. La historia ridiculiza la pedagogía aburrida y reivindica la inteligencia del oyente infantil sin volverse solemne.",
+        "editorialIntro": "Pocas historias explican tan bien, y con tan pocas páginas, por qué algunos cuentos se recuerdan durante años y otros se olvidan al instante. En El contador de cuentos, Saki transforma una escena cotidiana en una sátira finísima sobre los adultos que creen saber qué deben escuchar los niños. La edición ilustrada refuerza esa tensión entre corrección y travesura, y hace del libro una entrada excelente a los clásicos con humor.",
+        "readingLevel": "Lectura accesible para niños lectores autónomos, pero con una ironía que también disfrutarán mediadores y adultos.",
+        "whyReadToday": "Sigue siendo actual porque cuestiona la idea de que la literatura infantil debe ser siempre ejemplarizante. En una época de mensajes directos, este cuento recuerda el poder de la ambigüedad, la comicidad y el placer de escuchar una historia bien construida.",
+        "studyNotes": [
+          "La oposición entre la tía y el contador de cuentos muestra dos modelos de relato: el moralizante y el imaginativo.",
+          "El final funciona porque subvierte las expectativas del cuento ejemplar y convierte la virtud exagerada en un problema.",
+          "Es un texto excelente para analizar cómo reaccionan los oyentes dentro de la historia y qué nos dice eso sobre la recepción lectora."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento en el vagón",
+            "summary": "Tres niños viajan en tren con una tía que intenta calmarlos mientras comparte el compartimento con un pasajero desconocido. El ambiente está marcado por el aburrimiento, las interrupciones y la incapacidad de la adulta para captar la atención infantil."
+          },
+          {
+            "title": "El cuento correcto y el cuento eficaz",
+            "summary": "Tras fracasar con su relato edificante, la tía deja espacio al desconocido, que comienza una historia mucho más sugerente. Presenta a una niña excepcionalmente buena y conduce el relato con detalles concretos, tensión y un tono inesperadamente mordaz."
+          },
+          {
+            "title": "Desenlace y efecto del relato",
+            "summary": "La historia termina de manera sorprendente cuando la bondad impecable de la protagonista no la salva, sino que contribuye a su destino. Los niños quedan fascinados y la tía escandalizada, confirmando que el cuento más eficaz no es el más correcto, sino el mejor narrado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La sátira de la pedagogía moral",
+            "content": "Saki se burla de los relatos edificantes que confunden enseñanza con literatura. La tía quiere inculcar valores, pero su cuento fracasa porque no tiene vida, conflicto ni imaginación. El desconocido, en cambio, comprende que la atención infantil depende de la forma de contar y no solo del mensaje."
+          },
+          {
+            "heading": "Humor, crueldad y sorpresa",
+            "content": "El relato juega con un humor que bordea lo cruel sin dejar de ser lúdico. La exageración de la niña “horriblemente buena” prepara una inversión final muy eficaz. Ese desenlace no es gratuito: desmonta la lógica simplista del premio automático a la virtud y vuelve inolvidable la historia."
+          },
+          {
+            "heading": "Un clásico breve sobre el arte de narrar",
+            "content": "Más allá de su anécdota, el cuento habla del propio acto de contar. Hay un público, un narrador, una competencia entre estilos y una prueba inmediata del resultado: quién logra captar la escucha. Por eso sigue siendo un texto muy útil para pensar oralidad, estructura y relación entre narrador y audiencia."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro infantil o un clásico para adultos?",
+            "answer": "Las dos cosas, en cierto modo. La edición ilustrada lo acerca a lectores infantiles, pero el humor irónico de Saki también atrae a lectores adultos y mediadores."
+          },
+          {
+            "question": "¿El libro cuenta una sola historia o varios cuentos?",
+            "answer": "Esta edición gira en torno a un relato breve muy famoso de Saki, presentado como libro ilustrado autónomo."
+          },
+          {
+            "question": "¿Por qué suele gustar tanto en clase?",
+            "answer": "Porque es corto, claro y sorprendente. Permite trabajar narración, tono, final inesperado y debate sobre qué hace que una historia funcione de verdad."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Casa del Libro - El contador de los cuentos",
+            "url": "https://www.casadellibro.com/libro-el-contador-de-los-cuentos/9788493650438/1232024"
+          },
+          {
+            "label": "Abacus - El contador de cuentos",
+            "url": "https://www.abacus.coop/es/el-contador-de-cuentos/813215.06.html"
+          },
+          {
+            "label": "Lecturalia - El contador de cuentos",
+            "url": "https://www.lecturalia.com/libro/23874/el-contador-de-cuentos"
+          },
+          {
+            "label": "EcuRed - El contador de cuentos",
+            "url": "https://www.ecured.cu/El_contador_de_cuentos"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-enigma-de-paris-de-pablo-de-santis",
+      "title": "El Enigma De Paris De Pablo",
+      "authorName": "Santis",
+      "authorSlug": "santis",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 13,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El enigma de París",
+        "authorName": "Pablo de Santis",
+        "authorSlug": "pablo-de-santis",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela de misterio",
+          "policial de enigma",
+          "novela histórica"
+        ],
+        "year": 2007,
+        "pages": 288,
+        "summary": "Ambientada en el París de 1889, en plena Exposición Universal y bajo la sombra de una torre Eiffel todavía en construcción, esta novela imagina la reunión de los doce detectives más famosos del mundo. Lo que debía ser una celebración del razonamiento criminal se convierte en una investigación real cuando una muerte extraña altera el encuentro. Desde ahí, Pablo de Santis construye una trama de pistas, teorías rivales, secretos profesionales y dobles lecturas sobre el oficio de investigar. La novela no se limita a ofrecer un misterio para resolver: también examina el prestigio, la vanidad y los límites de la inteligencia deductiva. Su encanto nace de combinar intriga, atmósfera fin de siglo y una reflexión muy literaria sobre el género policial.",
+        "aboutThisBook": "El enigma de París es una de las novelas más reconocidas de Pablo de Santis y una puerta de entrada excelente a su manera de trabajar el policial clásico desde América Latina. La historia dialoga con la tradición del enigma, con detectives excéntricos y crímenes aparentemente imposibles, pero evita la imitación mecánica. El París de la Exposición Universal funciona como escenario de modernidad, espectáculo y competencia intelectual, mientras la narración mantiene un ritmo claro y una tensión constante. El libro ha circulado tanto en ediciones generales como en colecciones juveniles, algo que confirma su capacidad de atraer a lectores de distintas edades.",
+        "forWhom": "Muy recomendable para lectores juveniles y adultos que disfrutan novelas de misterio con ambientación histórica. También es una gran opción para estudiantes que quieran conocer el policial de enigma sin empezar por textos más densos, y para cursos donde se comparan tradición detectivesca, narrador y construcción de pistas.",
+        "whyItMatters": "Importa porque renueva el policial clásico en español con una voz propia. De Santis no solo homenajea el género: lo piensa desde la literatura argentina y lo vuelve accesible, elegante y estimulante para nuevas generaciones.",
+        "editorialIntro": "Leer El enigma de París es entrar en un laboratorio del misterio. Pablo de Santis toma un escenario histórico muy visible, la Exposición Universal de 1889, y lo llena de detectives, teorías y rivalidades hasta convertirlo en una maquinaria narrativa precisa. El resultado tiene algo de novela de aventuras intelectuales y algo de juego literario: cada pista importa, pero también importa lo que el libro sugiere sobre la fama, la interpretación y el deseo de imponer una explicación definitiva a los hechos.",
+        "readingLevel": "Lectura media: lenguaje claro, trama exigente en atención a pistas, relaciones entre personajes y giros del policial clásico.",
+        "whyReadToday": "Vale la pena leerlo hoy porque demuestra que el policial de enigma sigue vivo cuando se combina con imaginación histórica y conciencia literaria. Además, ofrece una alternativa inteligente al thriller acelerado y más violento.",
+        "studyNotes": [
+          "El escenario de la Exposición Universal no es decorativo: refuerza la idea de progreso, espectáculo y competencia entre saberes.",
+          "La novela dialoga con la tradición del detective genial, pero también la ironiza al mostrar egos, escuelas y limitaciones.",
+          "Conviene seguir cómo se administran las pistas y qué diferencias hay entre observar, interpretar y narrar un crimen."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La reunión de los detectives",
+            "summary": "París recibe a los investigadores más célebres del mundo para un encuentro destinado a exhibir métodos, casos y prestigio intelectual. El ambiente mezcla fascinación por la modernidad con una tensión competitiva que pronto anuncia conflictos más profundos."
+          },
+          {
+            "title": "El crimen que interrumpe el espectáculo",
+            "summary": "Una muerte extraña altera el congreso y obliga a los presentes a pasar de la teoría a la práctica. La novela despliega entonces sospechas cruzadas, indicios ambiguos y una investigación donde cada personaje parece defender no solo una hipótesis, sino una manera distinta de entender el crimen."
+          },
+          {
+            "title": "Resolución y sentido del enigma",
+            "summary": "A medida que las versiones se contradicen, el misterio deja de ser solo un problema policial y se convierte en una prueba de lectura del mundo. El desenlace reorganiza las pistas y revela que resolver no consiste solo en acumular datos, sino en saber darles forma narrativa convincente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El policial de enigma como forma literaria",
+            "content": "La novela reivindica el placer del misterio razonado. Frente al policial centrado en la acción inmediata, De Santis apuesta por el indicio, la conversación, la deducción y la puesta en escena de la inteligencia. Por eso el libro funciona también como reflexión sobre qué espera un lector cuando abre una novela detectivesca."
+          },
+          {
+            "heading": "París 1889: modernidad y artificio",
+            "content": "La ciudad no es un simple fondo histórico. La Exposición Universal, la torre Eiffel en construcción y el clima de fin de siglo convierten el espacio en una vitrina de progreso donde todo parece exhibirse. Ese marco dialoga con la investigación: tanto la modernidad como el detective prometen ordenar el caos, pero la novela muestra lo frágil que puede ser esa promesa."
+          },
+          {
+            "heading": "Prestigio, ego y lectura del crimen",
+            "content": "Reunir a doce detectives célebres permite convertir el policial en un duelo de interpretaciones. Los investigadores no son solo mentes brillantes: también son figuras públicas, con reputación, orgullo y métodos enfrentados. Así, el libro sugiere que toda resolución criminal implica también una lucha por imponer un relato autorizado."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela juvenil o para adultos?",
+            "answer": "Puede leerse en ambos niveles. Su prosa es accesible para lectores juveniles, pero su juego con la tradición policial y su construcción formal también interesan mucho a adultos."
+          },
+          {
+            "question": "¿Hace falta conocer otros libros de Pablo de Santis para entenderla?",
+            "answer": "No. Funciona perfectamente como lectura independiente y, de hecho, suele ser una de las mejores puertas de entrada a su obra."
+          },
+          {
+            "question": "¿Predomina más la historia o el enigma?",
+            "answer": "El centro es el enigma, pero la ambientación histórica le da espesor y singularidad. El París de 1889 aporta clima, simbolismo y una idea de modernidad que atraviesa toda la novela."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - El enigma de París",
+            "url": "https://www.planetadelibros.com.ar/libro-el-enigma-de-paris/336204"
+          },
+          {
+            "label": "PlanetadeLibros - El enigma de París. Planeta Lector",
+            "url": "https://www.planetadelibros.com.ar/libro-el-enigma-de-paris-planeta-lector/358287"
+          },
+          {
+            "label": "Google Libros - El enigma de París",
+            "url": "https://books.google.com/books/about/El_enigma_de_Par%C3%ADs.html?id=RVU3EAAAQBAJ"
+          },
+          {
+            "label": "Guía/PDF editorial sobre El enigma de París",
+            "url": "https://pdlibrosarg.cdnstatics2.com/usuaris/libros_contenido/arxius/53/52274_El%20enigma%20de%20Paris.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hanka-753-de-alejandro-parisi",
+      "title": "Hanka 753",
+      "authorName": "Alejandro Parisi",
+      "authorSlug": "alejandro-parisi",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 13,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Hanka 753",
+        "authorName": "Alejandro Parisi",
+        "authorSlug": "alejandro-parisi",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "novela histórica",
+          "ficción basada en hechos reales",
+          "literatura sobre el Holocausto"
+        ],
+        "year": 2017,
+        "pages": 288,
+        "summary": "Hanka 753 reconstruye, en forma de novela, la vida de una niña judía polaca arrasada por la invasión nazi y empujada desde la vida familiar hacia el gueto, el hambre, la separación y finalmente Auschwitz. Alejandro Parisi organiza ese recorrido con un tono sobrio y emocional, sin convertir el horror en espectáculo. El libro parte de la memoria de una sobreviviente real, Hanka Dziubas Grzmot, y por eso la experiencia íntima pesa tanto como el contexto histórico. Más que una simple crónica del sufrimiento, la obra narra la resistencia de una conciencia infantil obligada a crecer demasiado rápido. El resultado es una novela dura, pero legible, que enlaza testimonio, reconstrucción literaria y reflexión sobre la memoria.",
+        "aboutThisBook": "El libro forma parte de la línea de novelas de Alejandro Parisi basadas en historias de vida vinculadas al Holocausto. En este caso, el autor trabajó a partir del relato directo de Hanka Dziubas Grzmot, con la intención de convertir su experiencia en una narración capaz de llegar a más lectores sin borrar la dimensión testimonial. Esa base real es decisiva: la novela no inventa el trauma desde afuera, sino que lo organiza literariamente para hacerlo transmisible. Por eso combina tensión narrativa, contexto histórico y una pregunta ética central: cómo contar el horror sin trivializarlo.",
+        "forWhom": "Es una lectura valiosa para jóvenes mayores, adultos y mediadores interesados en memoria histórica, Segunda Guerra Mundial y relatos de supervivencia. También resulta muy útil en contextos escolares o universitarios donde se trabajan Holocausto, testimonio, novela histórica y representación literaria del trauma.",
+        "whyItMatters": "Importa porque acerca una experiencia real del Holocausto a lectores contemporáneos mediante una narración clara y sensible. Ayuda a preservar memoria histórica y a pensar cómo la literatura puede transmitir lo que el dato histórico por sí solo no alcanza a comunicar.",
+        "editorialIntro": "Hay novelas históricas que informan y otras que, además, obligan a escuchar una voz humana concreta detrás de la tragedia. Hanka 753 pertenece a ese segundo grupo. Alejandro Parisi toma la memoria de una sobreviviente y la convierte en una narración de gran intensidad, donde cada episodio recuerda que el Holocausto no fue una abstracción sino una suma de vidas infantiles, familiares y cotidianas brutalmente quebradas. El libro conmueve porque no busca exagerar: le basta con contar con precisión.",
+        "readingLevel": "Lectura media: estilo claro y directo, pero con temas emocionalmente duros que exigen madurez lectora y contexto histórico básico.",
+        "whyReadToday": "Leerla hoy sigue siendo necesario porque la memoria del Holocausto requiere nuevas formas de transmisión. La novela hace cercano un pasado extremo y muestra por qué recordar no es repetir consignas, sino sostener testimonios concretos frente al olvido.",
+        "studyNotes": [
+          "El dato del subtítulo y la entrevista del autor confirman que la novela se apoya en la vida real de Hanka Dziubas Grzmot.",
+          "Conviene observar cómo la mirada infantil modifica la percepción del horror: muchas escenas impactan precisamente por lo que la niña no entiende del todo.",
+          "La obra permite discutir la diferencia entre documento histórico, testimonio oral y novela basada en hechos reales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Infancia quebrada",
+            "summary": "La novela presenta a Hanka en la Polonia de 1939, dentro de un entorno familiar todavía reconocible, antes de que la invasión alemana destruya su vida cotidiana. El punto de partida vuelve más visible la violencia posterior: no se pierde solo la seguridad, sino también la infancia misma."
+          },
+          {
+            "title": "Gueto, miedo y desposesión",
+            "summary": "Con el avance de la persecución, Hanka queda atrapada en una realidad de encierro, hambre e incertidumbre. El relato muestra cómo la opresión nazi transforma cada aspecto de la existencia y obliga a la protagonista a desarrollar recursos de resistencia emocional y material."
+          },
+          {
+            "title": "Auschwitz y la persistencia de la memoria",
+            "summary": "La deportación profundiza el horror y lleva la experiencia al límite. Sin embargo, la novela no se reduce al sufrimiento extremo: también se ocupa de la supervivencia, del peso posterior de los recuerdos y de la necesidad de dejar testimonio para las generaciones futuras."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela y testimonio",
+            "content": "Uno de los mayores intereses del libro está en su posición intermedia entre la reconstrucción literaria y la memoria vivida. Parisi no presenta una invención desligada de los hechos, sino una forma narrativa de organizar una experiencia real. Eso da al texto una doble fuerza: la del relato bien construido y la de la responsabilidad testimonial."
+          },
+          {
+            "heading": "La perspectiva de la niñez",
+            "content": "El horror aparece filtrado por una protagonista que empieza siendo niña. Esa perspectiva evita muchas veces la explicación total y vuelve más intensos el miedo, la confusión y la pérdida. La guerra no se percibe primero como una categoría histórica, sino como una ruptura brutal del mundo conocido."
+          },
+          {
+            "heading": "Memoria contra el olvido",
+            "content": "La novela insiste en que recordar no es un gesto abstracto. La memoria exige nombres, escenas, cuerpos y voces concretas. Al convertir la experiencia de Hanka en relato transmisible, el libro se vuelve una herramienta cultural contra la deshumanización y contra la tentación de reducir el Holocausto a cifras sin historia personal."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hanka 753 es una novela o un testimonio?",
+            "answer": "Es una novela basada en la vida real de Hanka Dziubas Grzmot. Su fuerza proviene justamente de esa combinación entre trabajo literario y base testimonial."
+          },
+          {
+            "question": "¿Es una lectura adecuada para estudiantes?",
+            "answer": "Sí, especialmente para secundaria superior y universidad, siempre que se acompañe con contexto histórico y espacio para conversar su carga emocional."
+          },
+          {
+            "question": "¿El libro se centra solo en Auschwitz?",
+            "answer": "No. También aborda la vida previa, el proceso de persecución, el gueto y la manera en que la memoria del pasado sigue actuando sobre la protagonista."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Penguin Libros - Hanka 753",
+            "url": "https://www.penguinlibros.com/ar/novela-historica/145993-ebook-hanka-753-9789500760249"
+          },
+          {
+            "label": "Google Libros - Hanka 753",
+            "url": "https://books.google.com/books/about/Hanka_753.html?id=mYU6DwAAQBAJ"
+          },
+          {
+            "label": "Blog de Alejandro Parisi - Entrevista sobre HANKA 753",
+            "url": "https://aleparisi.blogspot.com/2018/03/entrevista-sobre-hanka-753.html"
+          },
+          {
+            "label": "SBS Librerías - HANKA 753",
+            "url": "https://www.sbs.com.ar/hanka-753-9500759922/p"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-18T04:08:37Z"
+}

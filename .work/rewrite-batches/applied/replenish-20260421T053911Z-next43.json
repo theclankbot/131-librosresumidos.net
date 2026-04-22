@@ -1,0 +1,1516 @@
+{
+  "batchName": "replenish-20260421T053911Z-next43",
+  "createdAt": "2026-04-21T05:39:16Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "la-tentacion-de-existir-de-e-m-cioran",
+      "title": "La Tentacion De Existir",
+      "authorName": "E M Cioran",
+      "authorSlug": "e-m-cioran",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La tentación de existir",
+        "authorName": "Emil Cioran",
+        "authorSlug": "e-m-cioran",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 1956,
+        "pages": null,
+        "summary": "La tentación de existir es uno de los libros más representativos del Cioran francés: un volumen de ensayos breves y fragmentos donde la lucidez aparece como una fuerza a la vez liberadora y corrosiva. En estas páginas, el autor rumano examina la historia, el exilio, el fanatismo, la identidad colectiva, la escritura y la imposibilidad de instalarse con comodidad en ninguna certeza. Su prosa no construye un sistema filosófico; avanza por intuiciones agudas, negaciones, paradojas y ráfagas de ironía que convierten el pensamiento en experiencia. El libro no narra una trama, pero sí despliega un recorrido moral e intelectual: cómo seguir viviendo cuando la conciencia desconfía de toda consolación estable.",
+        "aboutThisBook": "Publicado originalmente en francés como La tentation d'exister en 1956, este libro ocupa un lugar central en la obra madura de Cioran. La edición española difundió el volumen como una pieza clave de su pensamiento escéptico, y la propia página de Wikipedia dedicada al libro resume varios de sus once apartados, entre ellos las reflexiones sobre la historia, el exilio, el estilo, la novela y el misticismo. Más que tratado académico, es un libro de ensayos de alta intensidad verbal, escrito desde la sospecha hacia las ideologías, la civilización fatigada y las promesas de redención. Leerlo exige aceptar que Cioran no pretende cerrar un argumento, sino abrir una herida crítica en casi todo lo que toca.",
+        "forWhom": "Para lectores adultos interesados en filosofía, ensayo literario, pesimismo moderno, crítica de la historia y escritura fragmentaria; especialmente útil para quien ya tenga cierta familiaridad con la tradición existencial o con el ensayo de ideas del siglo XX.",
+        "whyItMatters": "Importa porque muestra una forma singular de pensar contra los dogmas sin refugiarse en un nuevo sistema. Cioran convirtió la duda, el desencanto histórico y la contradicción en una poética del ensayo que influyó en lectores de filosofía, literatura y crítica cultural.",
+        "editorialIntro": "Hay libros que organizan el mundo y libros que lo desfondan. La tentación de existir pertenece a los segundos. Cioran escribe como si cada idea debiera ganarse el derecho a existir después de destruir una ilusión previa. Por eso este volumen sigue siendo tan perturbador: no ofrece alivio doctrinal, pero sí una inteligencia verbal extraordinaria para pensar la fatiga de la civilización, el exilio interior y la fragilidad de cualquier certeza humana.",
+        "readingLevel": "Lectura exigente para público adulto. El estilo es brillante y compacto, pero la densidad conceptual, la ironía y el carácter ensayístico fragmentario piden lectura lenta, relectura y atención a matices filosóficos e históricos.",
+        "whyReadToday": "Porque pocas obras ayudan tanto a pensar el cansancio cultural, la desconfianza frente a los absolutos y la tensión entre lucidez y vida en una época saturada de consignas, identidades rígidas y opinión instantánea.",
+        "studyNotes": [
+          "No conviene leer el libro como sistema filosófico cerrado: su fuerza está en la forma fragmentaria, la paradoja y el movimiento de pensamiento.",
+          "El exilio es una clave decisiva en Cioran: no solo como condición biográfica, sino como postura intelectual frente a patria, historia y pertenencia.",
+          "La crítica del fanatismo y de las grandes convicciones atraviesa el libro y explica su tono de sospecha permanente ante la política y la religión secularizadas.",
+          "El ensayo sobre el estilo y las páginas sobre la novela muestran que Cioran no separa reflexión filosófica y problema literario: pensar también es una cuestión de forma."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Apertura: pensar contra uno mismo",
+            "summary": "En el arranque del volumen, Cioran define una ética de la lucidez que sospecha de toda comodidad intelectual. Pensar significa no idolatrar las propias ideas y aceptar la corrosión que produce mirar sin consuelo las pasiones históricas y personales."
+          },
+          {
+            "title": "Historia, civilización y agotamiento",
+            "summary": "Una parte central del libro explora la historia como violencia, delirio y desgaste. Cioran observa una civilización exhausta, incapaz de sostener plenamente sus ideales, y convierte ese agotamiento en objeto de meditación moral antes que de simple diagnóstico político."
+          },
+          {
+            "title": "Exilio, pueblos y pertenencia",
+            "summary": "Los ensayos sobre el exilio y sobre identidades colectivas discuten qué significa vivir fuera de una patria estable, real o simbólica. Cioran examina la marginalidad, la extranjería y la distancia crítica como fuentes de percepción, pero también como formas de desarraigo incurable."
+          },
+          {
+            "title": "Arte, mística y tentación de seguir viviendo",
+            "summary": "En la parte final, el autor vuelve sobre la escritura, la novela, los místicos y el problema mismo de existir. El título resume la paradoja cioraniana: la vida no queda justificada, pero tampoco se abandona; persiste como hábito incierto, tentación y resistencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Ensayo filosófico sin sistema",
+            "content": "La originalidad del libro radica en que Cioran filosofa sin construir doctrina. No ofrece un edificio conceptual unificado, sino un pensamiento que avanza por negaciones, intuiciones y relámpagos expresivos. Esa forma abierta explica tanto su atractivo literario como la dificultad de reducirlo a escuela o programa."
+          },
+          {
+            "heading": "La lucidez como enfermedad y privilegio",
+            "content": "En estas páginas, la conciencia extrema aparece como una bendición envenenada. La lucidez permite desmontar ilusiones colectivas y personales, pero también dificulta la adhesión a proyectos, creencias o consuelos. Cioran convierte esa tensión en el verdadero drama interior del libro."
+          },
+          {
+            "heading": "Historia y fanatismo",
+            "content": "Buena parte del volumen puede leerse como una crítica del impulso histórico cuando se absolutiza. Las ideologías, los entusiasmos colectivos y las identidades cerradas resultan sospechosos porque prometen sentido total allí donde Cioran solo reconoce fractura, contingencia y desgaste."
+          },
+          {
+            "heading": "La prosa como pensamiento",
+            "content": "La fuerza del libro no depende solo de lo que dice, sino de cómo lo dice. Cioran convierte la frase afilada, la inversión paradójica y el tono sentencioso en instrumentos de conocimiento; por eso su obra importa también como literatura de ideas, no solo como filosofía."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La tentación de existir es una novela?",
+            "answer": "No. Es un libro de ensayos y textos reflexivos de tono filosófico y literario. Su estructura es fragmentaria y temática, no narrativa en sentido novelesco."
+          },
+          {
+            "question": "¿De qué trata en términos generales?",
+            "answer": "Trata sobre la dificultad de vivir con lucidez en medio de la historia, el exilio, el desgaste de la civilización y la desconfianza ante cualquier certeza total."
+          },
+          {
+            "question": "¿Hace falta formación filosófica previa?",
+            "answer": "Ayuda, pero no es imprescindible. Sí conviene tener paciencia con un estilo concentrado y aceptar que Cioran escribe por aproximaciones, paradojas y ensayos breves más que por exposición académica lineal."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose a Cioran hoy?",
+            "answer": "Porque su crítica del fanatismo, del optimismo histórico y de las identidades absolutas sigue resultando incómodamente actual, y porque su prosa conserva una intensidad literaria excepcional."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: La tentación de existir",
+            "url": "https://es.wikipedia.org/wiki/La_tentaci%C3%B3n_de_existir"
+          },
+          {
+            "label": "Wikipedia: Emil Cioran",
+            "url": "https://es.wikipedia.org/wiki/Emil_Cioran"
+          },
+          {
+            "label": "Wikidata: The Temptation to Exist (Q5968225)",
+            "url": "https://www.wikidata.org/wiki/Q5968225"
+          },
+          {
+            "label": "Open Library: Tentacion de Existir, La",
+            "url": "https://openlibrary.org/books/OL9137606M/Tentacion_de_Existir_La"
+          },
+          {
+            "label": "WorldCat: La tentación de existir",
+            "url": "https://search.worldcat.org/title/55307821"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-vida-breve-de-juan-carlos-onetti",
+      "title": "La Vida Breve",
+      "authorName": "Juan Carlos Onetti",
+      "authorSlug": "juan-carlos-onetti",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La vida breve",
+        "authorName": "Juan Carlos Onetti",
+        "authorSlug": "juan-carlos-onetti",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1950,
+        "pages": 318,
+        "summary": "La vida breve cuenta la crisis de Juan María Brausen, un publicista porteño cuya vida conyugal, laboral y emocional entra en descomposición. Mientras su esposa Gertrudis atraviesa una operación que agrava la distancia entre ambos y su trabajo se vuelve incierto, Brausen empieza a inventar la ciudad de Santa María y al doctor Díaz Grey, personaje que nace primero como material para un posible guion y termina convirtiéndose en una vía de fuga imaginaria. Al mismo tiempo, la irrupción de La Queca y el desdoblamiento del protagonista en la identidad de Arce hacen que la frontera entre vida real, fantasía, impostura y deseo se vuelva cada vez más inestable. Onetti construye así una novela donde la invención literaria no es ornamento, sino forma de supervivencia y de extravío.",
+        "aboutThisBook": "Publicada por Sudamericana en 1950, La vida breve es una obra clave de Juan Carlos Onetti y un punto de partida decisivo para la creación de Santa María, el espacio mítico que reaparecerá en gran parte de su narrativa posterior. La entrada de Wikipedia dedicada a la novela la presenta precisamente como el lugar de nacimiento de esa ciudad ficticia, mientras Open Library y WorldCat confirman su temprana edición rioplatense. La novela suele considerarse una de las grandes obras de la modernidad narrativa en español porque convierte la crisis del sujeto en un problema de forma: la realidad ya no se limita a lo que ocurre, sino también a lo que el protagonista imagina, escribe, escucha y suplanta.",
+        "forWhom": "Para lectores adultos, estudiantes de literatura hispanoamericana y clubes de lectura que busquen una novela compleja sobre identidad, deseo, ficción dentro de la ficción y crisis existencial.",
+        "whyItMatters": "Importa porque inaugura Santa María, radicaliza la exploración de la conciencia escindida y muestra a Onetti en una de sus formas más innovadoras. Es una novela decisiva para entender la modernización de la narrativa hispanoamericana antes del boom.",
+        "editorialIntro": "Pocas novelas hispanoamericanas muestran con tanta claridad que inventar también puede ser una manera de hundirse. En La vida breve, Onetti narra la quiebra de un hombre, pero sobre todo dramatiza el nacimiento de un mundo ficticio como respuesta a esa quiebra. El resultado es una obra sombría, sensual y técnicamente audaz, donde la imaginación no redime de forma limpia: complica, duplica y vuelve más turbia la experiencia de vivir.",
+        "readingLevel": "Lectura media-alta para público adulto o universitario. Exige atención a cambios de plano narrativo, desdoblamientos de identidad y ambigüedades entre lo vivido y lo imaginado, aunque su intensidad narrativa recompensa el esfuerzo.",
+        "whyReadToday": "Porque sigue siendo una novela fundamental para pensar la fabricación de identidades, la crisis masculina, la imaginación como refugio ambiguo y la potencia creadora y destructiva de las ficciones personales.",
+        "studyNotes": [
+          "Santa María no es solo un escenario inventado: es una respuesta narrativa a la crisis de Brausen y una pieza central de todo el universo onettiano posterior.",
+          "La novela trabaja el desdoblamiento del protagonista en varias capas: Brausen como hombre en ruina, Arce como máscara y Díaz Grey como figura imaginada.",
+          "Conviene leer la obra como un laboratorio de ficción dentro de la ficción, donde escribir no ordena la realidad, sino que la vuelve más ambigua y más peligrosa.",
+          "Su importancia histórica es grande: anticipa procedimientos de la novela latinoamericana moderna y consolida a Onetti como precursor del existencialismo narrativo en español."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera mitad: la crisis de Brausen",
+            "summary": "La novela abre con un protagonista agotado por la rutina, la enfermedad de su esposa y la amenaza laboral. Desde ese punto de fractura íntima, Onetti instala una conciencia vulnerable que empieza a mirar su vida como algo ajeno y casi irrecuperable."
+          },
+          {
+            "title": "La invención de Santa María",
+            "summary": "Brausen comienza a imaginar al doctor Díaz Grey y con él el espacio de Santa María. Lo que primero parece un recurso de trabajo o evasión se convierte en un territorio narrativo con creciente autonomía, donde la imaginación adquiere espesor casi material."
+          },
+          {
+            "title": "Arce, La Queca y la vida suplantada",
+            "summary": "El vínculo con La Queca y la adopción de la identidad de Arce profundizan el desdoblamiento del protagonista. La novela entra entonces en una zona más turbia, marcada por voyeurismo, deseo, mentira, violencia y una progresiva pérdida de centro moral."
+          },
+          {
+            "title": "Huida y final abierto",
+            "summary": "Tras el crimen y la fuga, la novela desemboca en Santa María como si la ficción hubiese absorbido la realidad. El cierre abierto no ofrece una resolución tranquilizadora: deja al lector ante una identidad que ya no puede separarse con nitidez de sus invenciones."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Nacimiento de Santa María",
+            "content": "Uno de los logros mayores de la novela es hacer visible el momento en que un mundo ficticio empieza a existir. Santa María no aparece como decorado ya terminado, sino como emanación de una conciencia en crisis. Ese origen le da a la ciudad una densidad simbólica excepcional dentro de la obra de Onetti."
+          },
+          {
+            "heading": "Identidad escindida y máscara",
+            "content": "Brausen no se limita a fantasear: se divide. La identidad de Arce y la figura de Díaz Grey muestran distintas formas de escapar de sí mismo, pero también de degradarse. La novela sugiere que toda máscara libera algo y al mismo tiempo compromete moralmente a quien la usa."
+          },
+          {
+            "heading": "Erotismo, decadencia y observación",
+            "content": "El deseo en La vida breve nunca aparece puramente idealizado. Está ligado a la humillación, al espionaje, a la mentira y a la degradación cotidiana. Onetti convierte así el erotismo en una vía de conocimiento sombrío sobre el cuerpo, la imaginación y el fracaso."
+          },
+          {
+            "heading": "Modernidad narrativa en español",
+            "content": "La estructura de planos, la ambigüedad ontológica y la interiorización de la experiencia sitúan la novela entre las obras decisivas de la narrativa hispanoamericana del siglo XX. Antes del boom, Onetti ya estaba ensayando una novela donde el sujeto, el relato y la realidad se vuelven inestables a la vez."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata La vida breve?",
+            "answer": "Trata sobre la crisis de Juan María Brausen y sobre cómo esa crisis da lugar a un mundo imaginario, Santa María, que termina mezclándose con su vida real hasta volverla irreconocible."
+          },
+          {
+            "question": "¿Por qué es una novela tan importante en Onetti?",
+            "answer": "Porque en ella nace Santa María, uno de los espacios míticos más importantes de su obra, y porque lleva muy lejos la exploración de la conciencia escindida y la ficción dentro de la ficción."
+          },
+          {
+            "question": "¿Es una lectura difícil?",
+            "answer": "Tiene una dificultad media-alta. No por el vocabulario, sino por la complejidad estructural, los cambios de plano y la ambigüedad deliberada entre imaginación, escritura y experiencia."
+          },
+          {
+            "question": "¿La novela tiene un final cerrado?",
+            "answer": "No del todo. El desenlace deja abiertas varias interpretaciones y conserva la incertidumbre sobre la suerte final del protagonista y sobre el estatuto de la realidad narrada."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Wikipedia: La vida breve (novela)",
+            "url": "https://es.wikipedia.org/wiki/La_vida_breve_(novela)"
+          },
+          {
+            "label": "Open Library: La vida breve",
+            "url": "https://openlibrary.org/books/OL9705012M/La_vida_breve"
+          },
+          {
+            "label": "WorldCat: La vida breve. [Novela]",
+            "url": "https://search.worldcat.org/title/2781835"
+          },
+          {
+            "label": "Instituto Cervantes: Juan Carlos Onetti, biografía",
+            "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/biografias/atenas_juan_carlos_onetti.htm"
+          },
+          {
+            "label": "Britannica: Juan Carlos Onetti",
+            "url": "https://www.britannica.com/biography/Juan-Carlos-Onetti"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-confesiones-de-un-pequeno-filosofo-de-azorin",
+      "title": "Las Confesiones De Un Pequeno Filosofo",
+      "authorName": "Azorin",
+      "authorSlug": "azorin",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las confesiones de un pequeño filósofo",
+        "authorName": "Azorín",
+        "authorSlug": "azorin",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1904,
+        "pages": 120,
+        "summary": "Las confesiones de un pequeño filósofo es una de las obras fundamentales del primer Azorín y una de las formas más delicadas de autobiografía literaria en la narrativa española de comienzos del siglo XX. El libro reconstruye la infancia, la escuela, la formación sentimental y la educación de la sensibilidad a través de escenas breves, recuerdos y observaciones minuciosas del entorno. Más que contar una peripecia fuerte, Azorín organiza una memoria del aprendizaje: el niño descubre el tiempo, la soledad, la disciplina escolar, la vida provinciana y el valor casi metafísico de los objetos cotidianos. Su interés no reside en el suspenso argumental, sino en la manera en que la conciencia aprende a mirar y a convertir la experiencia en estilo.",
+        "aboutThisBook": "La edición original de 1904, registrada en Open Library y WorldCat, presenta la obra como novela, pero la crítica la ha leído a menudo como una pieza autobiográfica muy cercana al ensayo lírico. En la Biblioteca Virtual Miguel de Cervantes aparecen estudios que la sitúan como parte de la peculiar trilogía iniciada con La voluntad y Antonio Azorín, y que la interpretan como una continuación espiritual del proceso de formación del personaje azoriniano. El propio título anuncia una falsa modestia significativa: el pequeño filósofo no teoriza en abstracto, sino que aprende a pensar desde la experiencia mínima, la memoria y la contemplación. Por eso el libro es clave para comprender la prosa impresionista y meditativa de Azorín y su lugar dentro de la Generación del 98.",
+        "forWhom": "Para lectores de clásicos españoles, estudiantes de literatura, opositores y quienes se interesen por la autobiografía literaria, la memoria de infancia y la prosa breve, reflexiva y sensorial.",
+        "whyItMatters": "Importa porque condensa la poética de Azorín: atención al detalle, tiempo interior, infancia como formación de la mirada y una prosa que vuelve filosófico lo cotidiano sin abandonar nunca la sencillez aparente.",
+        "editorialIntro": "Azorín logra aquí algo poco frecuente: convertir la educación sentimental e intelectual de un niño en una obra de una ligereza casi transparente y, al mismo tiempo, de gran densidad estética. Las confesiones de un pequeño filósofo no busca la épica del crecimiento, sino la vibración mínima de la memoria. Cada escena parece pequeña; juntas componen una de las grandes meditaciones españolas sobre la infancia, el tiempo y el nacimiento de una sensibilidad literaria.",
+        "readingLevel": "Lectura media para público adulto o bachillerato avanzado. La sintaxis suele ser clara, pero el valor del libro depende de captar su tono contemplativo, sus matices autobiográficos y la importancia de lo no espectacular.",
+        "whyReadToday": "Porque ofrece una alternativa fértil a las narraciones aceleradas: enseña a leer la infancia, la escuela y la formación personal como experiencias de percepción, memoria y tiempo, no solo de argumento.",
+        "studyNotes": [
+          "Aunque suele clasificarse como novela, conviene atender su cercanía con la autobiografía literaria y la novela lírica.",
+          "La crítica cervantina la relaciona con La voluntad y Antonio Azorín, de modo que puede estudiarse como parte de una secuencia formativa del personaje y de la sensibilidad del autor.",
+          "El libro no se apoya en grandes giros argumentales: su unidad nace de la memoria, la observación y la continuidad del tono.",
+          "Azorín convierte escuela, pueblo, objetos y horas del día en materiales de pensamiento; en su prosa, lo pequeño adquiere espesor moral y filosófico."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Infancia y nacimiento de la mirada",
+            "summary": "El comienzo del libro sitúa al lector en el mundo de la niñez y en una sensibilidad que aprende a registrar lugares, gestos y pequeños hechos con intensidad nueva. La experiencia infantil aparece menos como aventura que como despertar de la atención."
+          },
+          {
+            "title": "Escuela, disciplina y formación",
+            "summary": "Una zona importante de la obra está dedicada al ámbito escolar, a sus rutinas, miedos y aprendizajes. Azorín muestra cómo la educación no solo transmite contenidos, sino que moldea el carácter, la percepción del tiempo y la relación con la autoridad."
+          },
+          {
+            "title": "Pueblo, memoria y vida cotidiana",
+            "summary": "El entorno provinciano y sus objetos cotidianos adquieren una relevancia decisiva. El libro convierte calles, casas, campanas, comidas y escenas mínimas en materia de evocación y de pensamiento, como si en ellas estuviera la sustancia verdadera de una vida."
+          },
+          {
+            "title": "Conciencia, tiempo y pequeña filosofía",
+            "summary": "En la parte final se hace más visible la dimensión meditativa del texto. El niño que recuerda empieza a ser también una conciencia que interpreta, y la memoria se transforma en una reflexión sobria sobre el paso del tiempo y la identidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Autobiografía y ficción",
+            "content": "Una de las riquezas del libro está en su estatuto ambiguo. Se presenta como novela, pero se alimenta claramente de la memoria personal y de la autofiguración del autor. Esa mezcla permite a Azorín trabajar la verdad emocional sin someterse del todo a la obligación documental."
+          },
+          {
+            "heading": "La poética de lo mínimo",
+            "content": "Azorín convierte lo menudo en centro del relato. No necesita grandes peripecias para sostener interés porque su apuesta consiste en mostrar que la vida interior se forma a través de objetos humildes, escenas repetidas y lentas modulaciones del tiempo."
+          },
+          {
+            "heading": "Infancia como formación de la sensibilidad",
+            "content": "Más que una simple evocación nostálgica, el libro describe cómo se educa una mirada. La infancia aparece como el momento en que el mundo se vuelve legible y también enigmático, y donde empiezan a unirse percepción, melancolía y pensamiento."
+          },
+          {
+            "heading": "Azorín y la Generación del 98",
+            "content": "La obra ayuda a entender una de las vertientes más características del 98: la introspección, el paisaje interiorizado y la meditación sobre España desde espacios concretos y cotidianos. En Azorín, esa reflexión nunca es grandilocuente; se filtra en la textura misma de la prosa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las confesiones de un pequeño filósofo es autobiográfica?",
+            "answer": "Sí, en un sentido literario fuerte. Aunque suele editarse como novela, se apoya claramente en recuerdos de infancia y en una autofiguración muy cercana a la experiencia de Azorín."
+          },
+          {
+            "question": "¿Tiene mucha acción?",
+            "answer": "No. Es una obra de episodios, memoria y observación. Su interés principal está en la formación de la sensibilidad, la escuela, la vida cotidiana y el paso del tiempo."
+          },
+          {
+            "question": "¿Por qué se relaciona con otras novelas de Azorín?",
+            "answer": "Porque parte de la crítica la considera vinculada a La voluntad y Antonio Azorín, como una continuación del proceso de formación espiritual y estética del personaje azoriniano."
+          },
+          {
+            "question": "¿Sigue valiendo la pena leerla hoy?",
+            "answer": "Sí. Su prosa breve y contemplativa sigue siendo una excelente puerta de entrada a Azorín y a una manera de narrar donde la memoria, la atención y el tiempo importan más que la intriga."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Open Library: Las confesiones de un pequeño filósofo",
+            "url": "https://openlibrary.org/books/OL60304809M/Las_confesiones_de_un_peque%C3%B1o_fil%C3%B3sofo"
+          },
+          {
+            "label": "WorldCat: Las confesiones de un pequeño filósofo : novela",
+            "url": "https://search.worldcat.org/title/12225306"
+          },
+          {
+            "label": "Wikidata: Las confesiones de un pequeno filosofo (Q42188147)",
+            "url": "https://www.wikidata.org/wiki/Q42188147"
+          },
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Azorín y Gabriel Miró en la Literatura Española",
+            "url": "https://www.cervantesvirtual.com/obra-visor/azorin-y-gabriel-miro-en-la-literatura-espanola/html/88f60d01-da89-49c5-ac35-39c82e101665_5.html/marca/las+confesiones+de+un+pequeno+filosofo#V_54"
+          },
+          {
+            "label": "Britannica: Azorín",
+            "url": "https://www.britannica.com/biography/Azorin"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-cosas-que-perdimos-en-el-fuego-de-mariana-enriquez",
+      "title": "Las Cosas Que Perdimos En El Fuego",
+      "authorName": "Mariana Enriquez",
+      "authorSlug": "mariana-enriquez",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las cosas que perdimos en el fuego",
+        "authorName": "Mariana Enríquez",
+        "authorSlug": "mariana-enriquez",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 2016,
+        "pages": 200,
+        "summary": "Las cosas que perdimos en el fuego reúne doce cuentos en los que Mariana Enríquez convierte lo cotidiano en una zona de amenaza persistente. Sus historias parten de barrios urbanos, casas degradadas, amistades adolescentes, cuerpos vulnerables y violencias muy reales para llevar al lector hacia una dimensión inquietante donde lo sobrenatural nunca cancela lo social, sino que lo intensifica. El libro aborda desapariciones, obsesiones, miseria material, fanatismos, violencia machista, culpa y deseo de autodestrucción, siempre con una prosa sobria y de gran fuerza visual. Más que ofrecer sustos aislados, la colección construye un mapa del miedo contemporáneo en Argentina y en América Latina: un miedo ligado a la desigualdad, a la memoria del daño y a aquello que una sociedad prefiere no mirar de frente.",
+        "aboutThisBook": "Publicado por Anagrama en 2016, este volumen consolidó a Mariana Enríquez como una de las voces centrales del terror en español. La propia presentación editorial subraya que aquí la cotidianidad se vuelve pesadilla, y la recepción crítica ha destacado justamente esa combinación de realismo social, imaginación oscura y lenguaje contenido. El libro incluye relatos muy conocidos de la autora, entre ellos \"El chico sucio\", \"La casa de Adela\", \"Bajo el agua negra\" y el cuento final que da título al conjunto. Su circulación internacional fue muy amplia y ayudó a instalar a Enríquez como referencia contemporánea de la narrativa gótica y fantástica latinoamericana.",
+        "forWhom": "Para lectores adultos interesados en cuentos de terror con densidad literaria, atmósferas perturbadoras y una fuerte dimensión social; también para quienes estudian narrativa argentina contemporánea, gótico latinoamericano y cruces entre realismo y horror.",
+        "whyItMatters": "Importa porque demuestra que el terror puede ser una herramienta de lectura del presente y no solo un mecanismo de entretenimiento. Enríquez usa el género para pensar violencia de género, pobreza, adolescencia, marginalidad, memoria urbana y fascinación con lo monstruoso sin perder ambigüedad literaria.",
+        "editorialIntro": "Hay libros de cuentos que ofrecen variaciones de un mismo clima y otros que levantan un mundo entero. Las cosas que perdimos en el fuego pertenece al segundo grupo. Su logro no está solo en perturbar, sino en mostrar que el horror ya vive dentro de la vida ordinaria: en la ciudad, en el cuerpo, en las relaciones de poder y en los restos que deja la violencia cuando parece haberse vuelto normal.",
+        "readingLevel": "Lectura media-alta para público adulto. El estilo es claro, pero los temas son duros y la interpretación gana profundidad si el lector reconoce referencias sociales argentinas, ambigüedades del terror moderno y cambios de registro entre realismo y pesadilla.",
+        "whyReadToday": "Porque pocas obras recientes han mostrado con tanta claridad cómo el miedo colectivo, la violencia contra las mujeres y la degradación urbana pueden traducirse en literatura de alto voltaje imaginativo. Sigue siendo un libro muy vigente para pensar qué formas adopta hoy el horror.",
+        "studyNotes": [
+          "La colección trabaja el terror no como evasión sino como lectura extrema de problemas sociales concretos: pobreza, violencia machista, abandono infantil, adicciones y desigualdad.",
+          "Conviene observar cómo muchos cuentos empiezan en un registro realista y solo gradualmente dejan entrar lo siniestro; esa transición es una de las claves del efecto inquietante del libro.",
+          "Los espacios urbanos degradados, los cuerpos heridos y las comunidades marginales funcionan como escenarios y símbolos al mismo tiempo.",
+          "El volumen puede leerse dentro de una tradición gótica rioplatense, pero con una sensibilidad contemporánea muy ligada a la crónica, la cultura pop y la memoria social argentina."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: infancia, barrio y amenaza",
+            "summary": "Los relatos iniciales presentan un universo urbano donde la vulnerabilidad de niños, adolescentes y vecinos de barrio ya contiene una violencia latente. La pobreza, el deterioro y la fascinación por lo extraño preparan el tono de todo el libro."
+          },
+          {
+            "title": "Parte central: cuerpos obsesionados y vínculos dañados",
+            "summary": "En la zona media del volumen, Enríquez intensifica el trabajo sobre el cuerpo y la intimidad. Aparecen amistades asfixiantes, autolesiones, celos, aislamiento y modos de deseo que rozan lo monstruoso sin abandonar del todo lo reconocible."
+          },
+          {
+            "title": "Momentos clave: casas, ritos y espacios contaminados",
+            "summary": "Varios cuentos convierten casas abandonadas, patios, ríos o edificios arruinados en núcleos de contaminación moral y sobrenatural. El miedo no proviene solo de una presencia externa, sino del modo en que los personajes se sienten atraídos por ella."
+          },
+          {
+            "title": "Cierre: violencia social llevada al extremo",
+            "summary": "El tramo final empuja con más claridad la dimensión política del libro. En especial el cuento que da título al volumen convierte la violencia de género y la respuesta colectiva de las mujeres en una imagen feroz, inolvidable y deliberadamente incómoda."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Terror y realismo social",
+            "content": "Uno de los rasgos más estudiables del libro es que sus historias no se separan de la realidad material. El hambre, la marginalidad, los apagones, la violencia doméstica o la precariedad de ciertos barrios no son decorado: son la base desde la que lo siniestro gana credibilidad."
+          },
+          {
+            "heading": "El cuerpo como campo de conflicto",
+            "content": "Las heridas, quemaduras, mutilaciones, adicciones y deformaciones no aparecen solo para impactar. Enríquez usa el cuerpo como superficie donde se inscriben la vergüenza, el deseo, el trauma y la violencia estructural, de modo que el horror físico siempre tiene una resonancia moral y social."
+          },
+          {
+            "heading": "La ciudad como paisaje gótico contemporáneo",
+            "content": "Buenos Aires y otros espacios urbanos del libro funcionan como escenarios góticos renovados: no castillos aislados, sino casas tomadas, calles degradadas, edificios ruinosos y zonas periféricas donde el pasado traumático y el presente precario siguen conviviendo."
+          },
+          {
+            "heading": "La potencia del cuento final",
+            "content": "\"Las cosas que perdimos en el fuego\" resume la propuesta del libro al mezclar imaginación extrema y comentario social frontal. La idea de las mujeres que se queman a sí mismas para desactivar un canon de belleza y devolver la violencia a la mirada pública convierte el cierre en una alegoría feroz sobre género, espectáculo y resistencia."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro de cuentos?",
+            "answer": "Es un libro de cuentos. La edición de Anagrama y la entrada bibliográfica de Wikipedia coinciden en que se trata de una colección de doce relatos publicada en 2016."
+          },
+          {
+            "question": "¿Qué tipo de terror propone Mariana Enríquez aquí?",
+            "answer": "No es un terror de sobresalto fácil, sino una mezcla de horror psicológico, elementos sobrenaturales, violencia social y atmósferas urbanas degradadas. Lo inquietante nace de lo cotidiano tanto como de lo fantástico."
+          },
+          {
+            "question": "¿El cuento que da título al libro trata sobre violencia de género?",
+            "answer": "Sí. Es uno de los relatos más comentados del volumen porque transforma la violencia machista y los feminicidios por quemadura en una imagen colectiva y extrema de protesta y deformación del cuerpo."
+          },
+          {
+            "question": "¿Por qué se considera un libro importante dentro del terror en español?",
+            "answer": "Porque unió reconocimiento crítico, circulación internacional y una forma muy personal de mezclar tradición gótica, problemas sociales contemporáneos y lenguaje literario preciso. Ayudó a ampliar el prestigio del terror en la narrativa hispanoamericana reciente."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Editorial Anagrama: Las cosas que perdimos en el fuego",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/las-cosas-que-perdimos-en-el-fuego/9788433998064/NH_559"
+          },
+          {
+            "label": "Wikipedia en español: Las cosas que perdimos en el fuego",
+            "url": "https://es.wikipedia.org/wiki/Las_cosas_que_perdimos_en_el_fuego"
+          },
+          {
+            "label": "Open Library: edición de Las cosas que perdimos en el fuego",
+            "url": "https://openlibrary.org/books/OL25894501M"
+          },
+          {
+            "label": "Wikipedia en español: Mariana Enriquez",
+            "url": "https://es.wikipedia.org/wiki/Mariana_Enriquez"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-garras-de-la-muerte-de-peter-james",
+      "title": "Las Garras De La Muerte",
+      "authorName": "Peter James",
+      "authorSlug": "peter-james",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las garras de la muerte",
+        "authorName": "Peter James",
+        "authorSlug": "peter-james",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller"
+        ],
+        "year": 2013,
+        "pages": 432,
+        "summary": "Las garras de la muerte es un thriller policial protagonizado por Roy Grace en el que un accidente de tráfico aparentemente fortuito desata una cadena de venganzas. Tras la muerte de un ciclista universitario, varios de los conductores implicados empiezan a ser perseguidos y asesinados, lo que obliga a Grace a reconstruir no solo la mecánica del siniestro, sino también la red emocional y criminal que lo rodea. En el centro del peligro queda Carly Chase, una abogada que podría ser la siguiente víctima y que, en vez de esconderse, decide avanzar hacia el foco del conflicto. Peter James combina investigación, ritmo narrativo y tensión moral para mostrar cómo el dolor puede convertirse en impulso destructivo y cómo un caso policial se contamina con secretos familiares, crimen organizado y deseo de justicia por mano propia.",
+        "aboutThisBook": "Esta novela corresponde al ciclo de Roy Grace y apareció originalmente en inglés como Dead Man's Grip. La edición en español circuló en Roca Bolsillo y la ficha bibliográfica de Open Library la registra con 432 páginas en 2013. La presentación de Pan Macmillan destaca el caso central: un estudiante muerto en un accidente, dos conductores ya cazados por un asesino y una tercera implicada, Carly Chase, expuesta a un peligro inmediato. Como en otras entregas de la serie, James mezcla procedimiento policial, persecución y tramas internacionales con un detective que debe pensar a la vez en pruebas, tiempos y consecuencias humanas.",
+        "forWhom": "Para lectores adultos que disfrutan la novela negra británica, los procedimientos policiales claros, las investigaciones con cuenta regresiva y las historias donde la venganza personal complica el trabajo de la justicia formal.",
+        "whyItMatters": "Importa dentro de la serie porque muestra una de las capacidades más reconocibles de Peter James: transformar un hecho cotidiano y verosímil en una trama de alto voltaje donde cada decisión aumenta el riesgo. También es una buena puerta de entrada al mundo de Roy Grace por su claridad argumental y su tensión sostenida.",
+        "editorialIntro": "Peter James entiende muy bien una ley del thriller policial: el lector no solo quiere saber quién lo hizo, sino cuánto daño puede ocurrir antes de que alguien lo detenga. Las garras de la muerte trabaja justamente esa ansiedad. Parte de un accidente, pero muy pronto muestra que detrás del caso hay duelo, rabia, conexiones criminales y una persecución que obliga a Roy Grace a correr contra el reloj.",
+        "readingLevel": "Lectura accesible para público adulto habituado al suspense. La prosa es directa, la investigación se sigue con facilidad y el principal desafío no es formal sino la cantidad de líneas de riesgo, sospechosos y movimientos del caso.",
+        "whyReadToday": "Porque sigue funcionando como ejemplo eficaz de thriller contemporáneo: rápido, nítido y centrado en cómo el deseo de reparación puede deformarse hasta convertirse en violencia ciega. Además, mantiene vigente la pregunta por los límites entre duelo, castigo y justicia.",
+        "studyNotes": [
+          "La novela se organiza alrededor de una idea clásica del policial: un suceso ordinario se revela como detonante de una trama mucho más amplia y peligrosa.",
+          "Carly Chase funciona como personaje clave porque no es solo una posible víctima; su iniciativa modifica la investigación y desplaza la acción fuera del marco policial habitual.",
+          "Roy Grace encarna el modelo de detective procedimental que combina intuición, conocimiento del crimen y presión institucional.",
+          "El tema central no es únicamente descubrir al culpable, sino medir cómo el dolor y la sed de revancha erosionan el juicio moral de todos los involucrados."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera mitad: un accidente que no se cierra",
+            "summary": "La novela arranca con la muerte de un ciclista y con la impresión inicial de que se trata de una tragedia vial. Muy pronto, la aparición de nuevas víctimas demuestra que alguien está persiguiendo a los implicados y que el caso acaba de cambiar de escala."
+          },
+          {
+            "title": "Nudo central: Carly Chase en el punto de mira",
+            "summary": "Cuando Roy Grace entiende que Carly puede ser la próxima persona atacada, la investigación adquiere una urgencia personal. La decisión de ella de moverse, buscar respuestas y viajar en lugar de desaparecer aumenta el suspense y multiplica los riesgos."
+          },
+          {
+            "title": "Segunda parte: conexiones familiares y criminales",
+            "summary": "A medida que Grace profundiza, el accidente deja de ser un hecho aislado y empieza a conectarse con vínculos familiares, resentimientos y entornos delictivos capaces de actuar con enorme violencia. El caso se vuelve transnacional y más difícil de contener."
+          },
+          {
+            "title": "Desenlace: detener la venganza antes del último golpe",
+            "summary": "El tramo final se construye como una carrera contra el tiempo. Grace necesita anticipar el siguiente movimiento del agresor y evitar que la lógica de represalia termine cobrando otra vida antes de que la policía logre cerrar el círculo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La venganza como motor narrativo",
+            "content": "La novela explora cómo una pérdida traumática puede empujar a personajes aparentemente racionales hacia una cadena de castigos desmedidos. El thriller gana fuerza porque la motivación del perseguidor no nace del capricho, sino de un dolor reconocible que se vuelve destructivo."
+          },
+          {
+            "heading": "Roy Grace y el procedimiento policial",
+            "content": "Peter James destaca por hacer del trabajo policial un sistema de presión continua. Grace debe coordinar pistas, proteger a posibles víctimas, evaluar información incompleta y actuar antes de que el asesino vuelva a moverse. Esa lógica procedimental sostiene buena parte de la tensión."
+          },
+          {
+            "heading": "El accidente como detonante moral",
+            "content": "No se trata solo de resolver quién mata, sino de pensar qué responsabilidad nace de un accidente en cadena y cómo reaccionan los implicados cuando la culpa, el miedo y el duelo empiezan a mezclarse. La novela aprovecha ese punto de partida para discutir proporcionalidad y castigo."
+          },
+          {
+            "heading": "Ritmo comercial bien administrado",
+            "content": "La eficacia del libro viene de su claridad. James no busca experimentación formal, sino mantener al lector en una situación de peligro creciente mediante cambios de foco, desplazamientos geográficos y cierres de escena que impulsan la lectura."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las garras de la muerte pertenece a una serie?",
+            "answer": "Sí. Es una entrega de la serie policial protagonizada por Roy Grace, el detective creado por Peter James."
+          },
+          {
+            "question": "¿Cuál es el título original en inglés?",
+            "answer": "El título original es Dead Man's Grip, nombre con el que Pan Macmillan publica la novela en inglés."
+          },
+          {
+            "question": "¿Qué conflicto pone en marcha la historia?",
+            "answer": "La trama comienza con la muerte de un estudiante en un accidente de tráfico y con la posterior caza de las personas vinculadas al siniestro, lo que transforma el caso en una persecución por venganza."
+          },
+          {
+            "question": "¿Es una novela más de acción o más de investigación?",
+            "answer": "Combina ambas cosas, pero su esqueleto principal es el de una investigación policial con fuerte presión temporal, reforzada por escenas de persecución y riesgo físico."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Pan Macmillan: Dead Man's Grip",
+            "url": "https://www.panmacmillan.com/authors/peter-james/dead-mans-grip/9781035021307"
+          },
+          {
+            "label": "Peter James (sitio oficial): Dead Man's Grip, Indeed!",
+            "url": "https://www.peterjames.com/dead-mans-grip-indeed/"
+          },
+          {
+            "label": "Open Library: edición en español de Las garras de la muerte",
+            "url": "https://openlibrary.org/books/OL35633643M"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-hermanas-bunner-de-edith-wharton",
+      "title": "Las Hermanas Bunner",
+      "authorName": "Edith Wharton",
+      "authorSlug": "edith-wharton",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las hermanas Bunner",
+        "authorName": "Edith Wharton",
+        "authorSlug": "edith-wharton",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1916,
+        "pages": 156,
+        "summary": "Las hermanas Bunner es una novela corta de Edith Wharton centrada en Ana Elisa y Evelina, dos hermanas que sostienen una modesta tienda de costura en un barrio humilde de Nueva York. Su existencia parece gobernada por la rutina, la renuncia y una dependencia afectiva casi absoluta hasta que aparece el relojero Herman Ramy y rompe el equilibrio precario que las unía. Lo que en principio parece abrir una posibilidad de compañía y ascenso sentimental termina revelando desigualdades, autoengaños y una estructura de sacrificio que castiga sobre todo a la hermana mayor. Wharton observa con enorme precisión la pobreza digna, la fragilidad económica femenina y las ilusiones matrimoniales en un mundo donde las mujeres cuentan con muy pocos márgenes de decisión real. El resultado es una historia sobria, amarga y profundamente compasiva.",
+        "aboutThisBook": "Bunner Sisters fue escrita en la década de 1890 pero no se publicó hasta 1916, cuando apareció en la colección Xingu and Other Stories. La crítica posterior la ha recuperado como una pieza importante para entender el interés de Wharton por personajes de clase trabajadora y por los costos emocionales de la dependencia económica. La página de Project Gutenberg permite leer el texto completo en inglés y la ficha de Wikipedia resume tanto su historia editorial como su argumento central. En español circula, entre otras, una edición de Lecturia, que la presenta como una obra poco conocida pero muy reveladora sobre la condición de las mujeres a fines del siglo XIX.",
+        "forWhom": "Para lectores adultos interesados en clásicos breves, realismo psicológico, literatura escrita por mujeres y novelas que examinan con fineza las limitaciones económicas y sentimentales de la vida femenina en la modernidad urbana temprana.",
+        "whyItMatters": "Importa porque muestra una faceta menos citada de Edith Wharton: no la gran cronista exclusiva de las élites, sino una autora capaz de mirar la precariedad material y la soledad cotidiana con la misma exactitud moral. La obra ilumina la relación entre género, pobreza y sacrificio afectivo.",
+        "editorialIntro": "Las hermanas Bunner no necesita grandes giros para dejar una impresión duradera. Su fuerza está en la paciencia con que Wharton describe una vida estrecha, hecha de trabajo, espera y resignación, hasta revelar que bajo esa calma hay deseos frustrados, jerarquías invisibles y una profunda tragedia doméstica. Es una novela corta de superficie humilde y consecuencias emocionales devastadoras.",
+        "readingLevel": "Lectura media para público adulto. La prosa clásica exige atención a los matices psicológicos y sociales, pero la trama es lineal y la brevedad de la obra facilita una lectura concentrada.",
+        "whyReadToday": "Porque sigue siendo un texto muy lúcido sobre la desigualdad de oportunidades, la carga silenciosa de los cuidados y la manera en que el amor, cuando se mezcla con dependencia económica y autoanulación, puede volverse una forma de pérdida.",
+        "studyNotes": [
+          "La novela es especialmente útil para analizar la relación entre economía doméstica y vida emocional: la tienda no es solo escenario, sino condición material de la dependencia entre las hermanas.",
+          "Ann Eliza encarna una ética del sacrificio femenino que la obra observa con compasión, pero también con dureza crítica.",
+          "El personaje de Herman Ramy no funciona solo como interés amoroso: actúa como detonante que expone deseos latentes, ilusiones románticas y jerarquías dentro del vínculo fraternal.",
+          "Aunque Wharton es más conocida por retratar clases altas, aquí demuestra gran precisión para representar precariedad urbana y horizontes vitales muy limitados."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: la tienda y la alianza entre hermanas",
+            "summary": "La obra presenta a Ana Elisa y Evelina como dos mujeres unidas por el trabajo, la costumbre y una economía frágil. Su pequeña tienda define tanto su sustento como los límites de su mundo."
+          },
+          {
+            "title": "Nudo: la llegada del relojero",
+            "summary": "La compra de un reloj y el trato con Herman Ramy abren una expectativa de cambio. La aparición de un hombre amable y aparentemente estable altera el equilibrio emocional entre las hermanas y deja ver sus distintas formas de desear."
+          },
+          {
+            "title": "Giro central: matrimonio, separación y ruina",
+            "summary": "Cuando Evelina se casa y se marcha, Ana Elisa queda sola frente al negocio y a la pérdida de la compañía que sostenía su identidad cotidiana. La promesa de felicidad sentimental empieza entonces a mostrar su costado más incierto."
+          },
+          {
+            "title": "Desenlace: regreso y desengaño",
+            "summary": "El retorno de Evelina no restaura la armonía inicial. Al contrario, hace visibles las fracturas creadas por la experiencia, la desilusión y las distintas maneras en que cada hermana ha entendido el sacrificio, la fe y la supervivencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Dependencia afectiva y dependencia económica",
+            "content": "Wharton muestra que el lazo entre las hermanas es tierno, pero también estructuralmente asimétrico. Se necesitan porque se quieren, pero también porque su situación material les deja pocas alternativas. Esa doble dependencia vuelve cada decisión sentimental más costosa."
+          },
+          {
+            "heading": "El sacrificio femenino como norma social",
+            "content": "Ann Eliza representa una forma histórica de virtud femenina basada en ceder, cuidar y renunciar. La novela no glorifica por completo ese modelo: lo exhibe como una ética admirada en apariencia, pero devastadora para quien la encarna hasta el final."
+          },
+          {
+            "heading": "La ciudad modesta frente al mito del ascenso",
+            "content": "La Nueva York de la novela no es un espacio de movilidad brillante, sino un entramado de pequeños comercios, vecindarios y oportunidades estrechas. La ilusión de mejorar a través del matrimonio aparece como un camino incierto y, en el caso de Evelina, profundamente engañoso."
+          },
+          {
+            "heading": "Wharton fuera del mundo de la alta sociedad",
+            "content": "Leer esta obra junto con las novelas más famosas de Wharton permite ver la amplitud de su mirada. Aquí no domina la sátira social de las élites, sino una atención grave a las vidas humildes, a la soledad y a la injusticia callada que pesa sobre mujeres sin poder."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las hermanas Bunner es una novela o una novela corta?",
+            "answer": "Se la suele clasificar como novela corta o novella. La propia Wikipedia en inglés la presenta como una novella publicada en 1916."
+          },
+          {
+            "question": "¿Cuándo se escribió y cuándo se publicó?",
+            "answer": "Wharton la escribió en la década de 1890, pero no se publicó hasta 1916, después de haber sido rechazada previamente para serialización."
+          },
+          {
+            "question": "¿De qué trata en esencia?",
+            "answer": "Trata sobre dos hermanas pobres que comparten tienda y vida en Nueva York, y sobre cómo la llegada de un relojero altera su relación, sus expectativas sentimentales y su frágil equilibrio económico."
+          },
+          {
+            "question": "¿Por qué vale la pena leerla hoy?",
+            "answer": "Porque es una obra breve y muy intensa sobre cuidados, renuncia, desigualdad y desengaño, temas que siguen siendo plenamente legibles en el presente."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Project Gutenberg: Bunner Sisters",
+            "url": "https://www.gutenberg.org/ebooks/3331"
+          },
+          {
+            "label": "Wikipedia en inglés: Bunner Sisters",
+            "url": "https://en.wikipedia.org/wiki/Bunner_Sisters"
+          },
+          {
+            "label": "Britannica: Edith Wharton",
+            "url": "https://www.britannica.com/biography/Edith-Wharton"
+          },
+          {
+            "label": "Lecturia Editorial: Las hermanas Bunner",
+            "url": "https://lecturia.es/producto/las-hermanas-bunner/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-horas-robadas-de-maria-solar",
+      "title": "Las Horas Robadas",
+      "authorName": "Maria Solar",
+      "authorSlug": "maria-solar",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las horas robadas",
+        "authorName": "María Solar",
+        "authorSlug": "maria-solar",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "romance"
+        ],
+        "year": 2016,
+        "pages": 224,
+        "summary": "Las horas robadas es una novela coral ambientada en la España de 1979, cuando el divorcio todavía no había sido aprobado y muchas vidas seguían sujetas a convenciones familiares y morales muy rígidas. La muerte de un anciano que aprieta en la mano un mensaje —\"Dime que me quieres\"— abre una historia soterrada durante años y obliga a dos familias a mirar de frente un pasado que parecía clausurado. Desde ese detonante, María Solar entrelaza amores interrumpidos, infidelidades, rutinas que asfixian, secretos heredados y el despertar sentimental de los más jóvenes. La novela avanza como un fresco de tres generaciones que descubren, cada una a su manera, que el tiempo no borra aquello que quedó sin resolver. Más que un misterio puro, el libro trabaja la emoción, la memoria íntima y la pregunta por la libertad afectiva en una sociedad que estaba empezando a cambiar.",
+        "aboutThisBook": "Publicada por Grijalbo en 2016 y reconocida con el Premio Frei Martín Sarmiento a la mejor novela de ese año, esta obra confirmó la capacidad de María Solar para moverse del ámbito infantil y juvenil a una narrativa para adultos de tono emocional y estructura múltiple. Tanto la página de la autora como la ficha comercial de Casa del Libro insisten en su condición de novela coral y en su recorrido por tres generaciones. El libro sitúa el centro del conflicto en los años finales de la Transición, con especial atención al choque entre deseo personal, lealtad familiar y normas sociales todavía restrictivas.",
+        "forWhom": "Para lectores adultos interesados en novelas familiares, historias de amor marcadas por el pasado, retratos de la Transición y tramas donde el conflicto íntimo pesa más que la intriga externa.",
+        "whyItMatters": "Importa porque convierte un secreto amoroso en una reflexión sobre los límites que imponía la España de finales de los setenta y sobre la forma en que esos límites siguieron condicionando a quienes parecían haber seguido adelante. También destaca por mostrar que el cambio histórico no llega de la misma manera a todas las generaciones.",
+        "editorialIntro": "No todas las novelas sobre el pasado reciente español necesitan grandes gestos políticos para decir algo relevante. Las horas robadas lo hace desde la intimidad: una muerte, una frase mínima, un amor clandestino y varias vidas obligadas a reorganizarse. María Solar encuentra ahí una materia narrativa muy fértil, porque el secreto no sirve solo para sostener la trama, sino para iluminar la educación sentimental de toda una época.",
+        "readingLevel": "Lectura accesible para público adulto habitual. La prosa es clara y fluida, pero la estructura coral exige atención para seguir relaciones familiares, silencios acumulados y cambios de perspectiva emocional.",
+        "whyReadToday": "Porque sigue hablando con fuerza de asuntos muy vigentes: la dificultad de romper inercias afectivas, el peso de lo no dicho dentro de las familias y la distancia entre el cambio legal y la verdadera libertad personal.",
+        "studyNotes": [
+          "La novela se sitúa en 1979, dos años antes de la aprobación de la ley del divorcio en España; ese contexto no es decorativo, sino decisivo para entender las opciones de los personajes.",
+          "La muerte del anciano funciona como detonante narrativo y como símbolo: lo reprimido durante décadas vuelve a la superficie de manera irreversible.",
+          "El libro está planteado como novela coral y atraviesa tres generaciones, de modo que conviene leer cada conflicto individual como parte de una red familiar más amplia.",
+          "Aunque hay un secreto y una investigación emocional del pasado, el centro del libro no es el suspense, sino la vida afectiva, la culpa y la posibilidad —o imposibilidad— de cambiar a tiempo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El mensaje que rompe el silencio",
+            "summary": "La historia arranca con la muerte de un anciano y con la aparición de unas palabras que alteran el equilibrio de dos familias. Ese hallazgo obliga a revisar vínculos antiguos y abre la puerta a un amor que nunca quedó del todo clausurado."
+          },
+          {
+            "title": "La España de 1979 como marco del conflicto",
+            "summary": "En la primera mitad del libro se vuelve visible el contexto social: matrimonios sostenidos por costumbre, dependencia de las apariencias y escaso margen para rehacer la vida. El pasado sentimental de los adultos se entiende a la luz de ese orden moral todavía rígido."
+          },
+          {
+            "title": "Tres generaciones frente al deseo y la traición",
+            "summary": "A medida que avanzan los capítulos, la novela amplía su foco y muestra cómo el secreto antiguo repercute en padres, hijos y mayores. La experiencia del amor no aparece igual para todos: unos lo viven como renuncia, otros como descubrimiento y otros como una última oportunidad."
+          },
+          {
+            "title": "Cambiar demasiado tarde o cambiar por fin",
+            "summary": "En el tramo final, los personajes deben decidir si siguen obedeciendo a la inercia o si asumen el coste de modificar sus vidas. El cierre no reduce la historia a una revelación puntual, sino que la convierte en una reflexión sobre lo que ocurre cuando el pasado deja de aceptar silencio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela coral y memoria afectiva",
+            "content": "La fuerza principal del libro está en su construcción coral. María Solar no se limita a contar un amor antiguo, sino que analiza cómo una historia sentimental se incrusta en varias biografías y termina organizando la vida de quienes incluso no la conocieron del todo."
+          },
+          {
+            "heading": "La Transición en clave íntima",
+            "content": "En lugar de presentar la Transición desde el debate político explícito, la novela la traslada al terreno doméstico. El cambio histórico aparece medido por la posibilidad de amar, separarse, hablar y vivir sin tutela moral, y precisamente ahí gana densidad humana."
+          },
+          {
+            "heading": "Secretos, rutina y desgaste emocional",
+            "content": "El libro insiste en que no solo destruyen las grandes traiciones: también lo hace la rutina que apaga el deseo, la obediencia mantenida por costumbre y la incapacidad de nombrar a tiempo lo que duele. Ese enfoque vuelve más compleja la idea de culpa."
+          },
+          {
+            "heading": "Una narrativa de sentimientos sin sentimentalismo fácil",
+            "content": "Aunque la materia del relato es claramente emocional, la novela evita reducirlo todo a melodrama. Su interés reside en observar decisiones contradictorias, debilidades y renuncias con una mirada comprensiva, pero no ingenua, sobre los personajes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las horas robadas es una novela histórica?",
+            "answer": "No en un sentido estricto de reconstrucción histórica total, pero sí usa de forma muy importante el contexto de la España de 1979. La Transición y la cercanía todavía inexistente del divorcio condicionan directamente la trama y las decisiones afectivas."
+          },
+          {
+            "question": "¿Predomina el misterio o el drama familiar?",
+            "answer": "Predomina el drama familiar y sentimental. Hay un secreto inicial y una revelación progresiva del pasado, pero el verdadero centro del libro es cómo ese pasado altera relaciones, deseos y lealtades en varias generaciones."
+          },
+          {
+            "question": "¿Es una novela coral?",
+            "answer": "Sí. Tanto la autora como las fichas bibliográficas la presentan como una novela coral que atraviesa la vida de tres generaciones y reparte el peso del conflicto entre varios personajes."
+          },
+          {
+            "question": "¿Por qué se cita tanto el año 1979 en relación con el libro?",
+            "answer": "Porque la novela se sitúa justo antes de la aprobación de la ley del divorcio en España, y ese detalle explica por qué muchos personajes sienten que viven atrapados entre deseo personal, deber familiar y normas sociales difíciles de desafiar."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "María Solar: Las horas robadas",
+            "url": "https://mariasolar.com/portfolio-item/las-horas-robadas/"
+          },
+          {
+            "label": "Casa del Libro: Las horas robadas",
+            "url": "https://www.casadellibro.com/libro-las-horas-robadas/9788425354038/2948646"
+          },
+          {
+            "label": "Open Library: Las horas robadas",
+            "url": "https://openlibrary.org/works/OL17343085W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-hormigas-de-bernard-werber",
+      "title": "Las Hormigas",
+      "authorName": "Bernard Werber",
+      "authorSlug": "bernard-werber",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las hormigas",
+        "authorName": "Bernard Werber",
+        "authorSlug": "bernard-werber",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ciencia-ficcion",
+          "thriller"
+        ],
+        "year": 1991,
+        "pages": 329,
+        "summary": "Las hormigas, traducción habitual de Les Fourmis, fue el gran éxito inicial de Bernard Werber y el comienzo de la Trilogía de las Hormigas. La novela articula dos líneas narrativas que avanzan en paralelo y terminan rozándose: por un lado, la vida de una colonia de hormigas rojas, descrita como una civilización compleja, militarizada y asombrosamente sofisticada; por otro, la investigación de Jonathan Wells en torno al sótano de una casa heredada de su enigmático tío Edmond Wells. A medida que los humanos descienden hacia ese espacio prohibido y desaparecen, el libro construye un cruce entre misterio, divulgación científica y fantasía especulativa. Werber exagera con intención literaria la inteligencia, la organización y las capacidades comunicativas de las hormigas para proponer un cambio radical de perspectiva: el lector contempla a la humanidad desde abajo y descubre que aquello que solemos considerar inferior puede constituir, en realidad, una civilización rival.",
+        "aboutThisBook": "Publicada originalmente en Francia en 1991 por Albin Michel y traducida al español por Plaza & Janés, esta novela convirtió a Werber en una referencia popular de la narrativa especulativa francesa. La propia Open Library la define como el primer título de una trilogía de ciencia ficción y destaca sus dos historias paralelas: la del hormiguero y la del heredero que investiga una casa legada por un tío misterioso. La edición española consultada registra 329 páginas, mientras que la edición francesa original de Albin Michel aparece con 354 páginas. El libro mezcla observación entomológica, imaginación filosófica y suspense narrativo.",
+        "forWhom": "Para lectores adultos y jóvenes maduros atraídos por la ciencia ficción con base científica, las novelas de ideas, los relatos de mundos no humanos y las tramas de misterio con componente conceptual.",
+        "whyItMatters": "Sigue importando porque fue una de las novelas más visibles en llevar la perspectiva animal al centro de una trama popular sin abandonar el suspense. Además, pone en discusión la superioridad humana y convierte la organización social de las hormigas en espejo deformante de nuestras propias jerarquías, guerras y ambiciones.",
+        "editorialIntro": "Leer Las hormigas es aceptar un desplazamiento de escala. Bernard Werber no propone simplemente una aventura sobre insectos: construye una novela que obliga a pensar qué entendemos por inteligencia, civilización y dominio del mundo. Su mezcla de thriller, especulación científica y relato filosófico explica por qué el libro se convirtió en una puerta de entrada muy singular a la ciencia ficción francesa contemporánea.",
+        "readingLevel": "Nivel intermedio a alto para público general. La narración es ágil, pero alterna tramas, introduce información pseudoenciclopédica y exige aceptar un juego intelectual donde lo científico y lo fabulador se entrecruzan constantemente.",
+        "whyReadToday": "Porque en una época obsesionada con redes, comportamientos colectivos e inteligencias no humanas, la novela sigue ofreciendo una metáfora poderosa sobre cooperación, conflicto y puntos de vista que desestabilizan la centralidad del ser humano.",
+        "studyNotes": [
+          "El libro fue publicado en 1991 y abre la Trilogía de las Hormigas; conviene situarlo como inicio de un universo narrativo más amplio.",
+          "Su estructura se basa en dos mundos que avanzan en paralelo: el de Jonathan Wells y el de la colonia de Bel-o-kan.",
+          "La información sobre las hormigas se inspira en investigación científica, pero está deliberadamente exagerada para construir una civilización literaria verosímil y extraña a la vez.",
+          "El cambio de punto de vista es clave: la novela no usa a los insectos como simple decorado, sino como una forma de relativizar la supuesta superioridad humana."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La herencia y el sótano prohibido",
+            "summary": "El comienzo sitúa a Jonathan Wells ante la casa heredada de su tío Edmond y ante una advertencia póstuma que convierte el sótano en núcleo del enigma. La curiosidad humana abre la vía del suspense y de las primeras desapariciones."
+          },
+          {
+            "title": "Bel-o-kan y la lógica del hormiguero",
+            "summary": "En paralelo, la novela introduce la colonia de hormigas como una sociedad compleja, organizada y amenazada por fuerzas misteriosas. Werber presenta aquí su gran apuesta: narrar la vida animal como si fuese una epopeya política y militar."
+          },
+          {
+            "title": "Dos investigaciones, una misma amenaza",
+            "summary": "La parte media desarrolla la doble pesquisa. Mientras los humanos intentan comprender qué ocurrió con Edmond Wells y con quienes bajaron al sótano, las hormigas buscan explicar ataques y desequilibrios dentro de su propio mundo."
+          },
+          {
+            "title": "El cruce de escalas",
+            "summary": "Hacia el final, las dos líneas narrativas revelan su relación y el libro convierte el misterio en una reflexión más amplia sobre coexistencia, conflicto y percepción. La novela cierra menos como simple aventura que como provocación intelectual."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La civilización animal como espejo humano",
+            "content": "Werber atribuye a las hormigas rasgos de imperio, estrategia y tecnología para que el lector compare su organización con la nuestra. El procedimiento no busca realismo estricto, sino producir extrañeza: observar a la humanidad desde una inteligencia colectiva no humana."
+          },
+          {
+            "heading": "Ciencia, exageración y verosimilitud",
+            "content": "Uno de los logros del libro es combinar datos inspirados en la entomología con una amplificación claramente novelesca. Esa mezcla sostiene la ilusión de que el hormiguero podría ser comprendido como una civilización autónoma y rival."
+          },
+          {
+            "heading": "El sótano como espacio de descenso",
+            "content": "La intriga del sótano funciona como símbolo clásico de la literatura de misterio: bajar implica internarse en lo desconocido, en lo reprimido y en lo que desborda el saber cotidiano. El espacio cerrado enlaza la curiosidad científica con el temor a perder el control."
+          },
+          {
+            "heading": "Una ciencia ficción de punto de vista",
+            "content": "Más que imaginar una tecnología futura espectacular, la novela altera la escala desde la que se mira el mundo. Esa operación la acerca a una ciencia ficción de ideas: importa menos el aparato técnico que la pregunta filosófica sobre quién observa y quién es observado."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las hormigas es el primer libro de una serie?",
+            "answer": "Sí. Es el primer volumen de la llamada Trilogía de las Hormigas, continuada por Le Jour des fourmis y La Révolution des fourmis."
+          },
+          {
+            "question": "¿Es una novela científica o fantástica?",
+            "answer": "Es una novela de ciencia ficción y especulación que toma elementos de la entomología real, pero los exagera notablemente para construir una sociedad de hormigas compleja y narrativamente funcional."
+          },
+          {
+            "question": "¿Quién es Jonathan Wells en la historia?",
+            "answer": "Es el heredero de la casa de Edmond Wells y el principal punto de vista humano de la trama. Su investigación del sótano prohibido articula la línea de misterio que corre en paralelo a la historia del hormiguero."
+          },
+          {
+            "question": "¿Por qué la novela sigue siendo recordada?",
+            "answer": "Porque convirtió a las hormigas en protagonistas de una narración ambiciosa que combina thriller, ideas científicas y reflexión sobre la organización social. Ese cambio de perspectiva la volvió muy singular dentro de la narrativa popular de los noventa."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Éditions Albin Michel: Les Fourmis",
+            "url": "https://www.albin-michel.fr/les-fourmis-9782226052575"
+          },
+          {
+            "label": "Wikipedia en español: Las hormigas",
+            "url": "https://es.wikipedia.org/wiki/Las_hormigas"
+          },
+          {
+            "label": "Open Library: Les fourmis",
+            "url": "https://openlibrary.org/works/OL136531W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-largas-sombras-de-elia-barcelo",
+      "title": "Las Largas Sombras",
+      "authorName": "Elia Barcelo",
+      "authorSlug": "elia-barcelo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las largas sombras",
+        "authorName": "Elia Barceló",
+        "authorSlug": "elia-barcelo",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2009,
+        "pages": 456,
+        "summary": "Las largas sombras parte de una pregunta inquietante: si algo ocurrido hace más de treinta años puede seguir gobernando la vida presente. Elia Barceló construye la respuesta a través del regreso de Rita a su pueblo y de la muerte de Lena, una antigua amiga, justo después de una reunión que reúne a un viejo grupo de mujeres marcado por un secreto compartido. La investigación policial del presente se entrelaza con el viaje de fin de curso a Mallorca en 1974, momento en que comenzó la pesadilla que deformó los sueños de aquellas adolescentes. La novela combina misterio criminal, memoria generacional y retrato del final del franquismo, pero va más allá del simple enigma: examina cómo el miedo, la culpa, el deseo de libertad y la lealtad entre amigas pueden prolongarse durante décadas y contaminar cualquier futuro aparentemente construido. Con ese doble plano temporal, Barceló convierte el pasado en una sombra literal que sigue proyectándose sobre el presente.",
+        "aboutThisBook": "Publicada originalmente por Ámbar en 2009 y reeditada por Roca Editorial en 2018, esta novela ocupa un lugar singular dentro de la obra de Elia Barceló porque mezcla con naturalidad novela negra, memoria íntima y comentario social sobre los últimos años de la dictadura y el desencanto posterior. La propia autora subraya en su web que quería contrastar las esperanzas de un grupo de chicas de 1974 con su presente adulto para medir qué sueños llegaron a cumplirse y cuáles quedaron dañados. Casa del Libro resume bien esa amplitud: no se trata solo de un caso policial, sino también de una crónica sobre amistad, amor, libertad, respeto propio y choque entre expectativas juveniles y realidad.",
+        "forWhom": "Para lectores adultos que disfrutan del thriller con carga psicológica, las novelas de secretos del pasado, los relatos sobre amistad femenina y las ficciones que vinculan crimen, memoria y contexto histórico reciente.",
+        "whyItMatters": "Importa porque muestra cómo un hecho traumático puede modelar décadas enteras de vida privada y porque explora desde una perspectiva femenina el paso del final del franquismo a la adultez desengañada. También destaca por integrar investigación policial y novela de formación retrospectiva sin que una anule a la otra.",
+        "editorialIntro": "Hay novelas negras que preguntan quién mató a alguien y otras, más ambiciosas, que preguntan qué parte de una vida quedó destruida mucho antes del crimen. Las largas sombras pertenece a este segundo grupo. Elia Barceló usa el suspense para abrir una excavación emocional sobre la amistad, la culpa y el país que prometía cambiar mientras dejaba intactas muchas heridas privadas.",
+        "readingLevel": "Lectura media-alta para público adulto. La prosa es clara, pero la alternancia entre pasado y presente, el reparto coral y la densidad psicológica de las protagonistas exigen una lectura atenta.",
+        "whyReadToday": "Porque sigue dialogando con debates muy actuales sobre memoria, violencia silenciada, redes de complicidad, autoestima y la distancia entre la emancipación soñada en la juventud y la vida realmente conseguida.",
+        "studyNotes": [
+          "La novela alterna pasado y presente: el viaje de 1974 y la investigación policial actual se iluminan mutuamente.",
+          "El crimen funciona como reactivación de un trauma anterior; por eso la clave del libro no es solo descubrir qué pasó ahora, sino qué ocurrió entonces.",
+          "El contexto del final de la dictadura en España es central para entender los sueños de las protagonistas y la estrechez del mundo del que querían escapar.",
+          "Conviene leer la obra como mezcla de géneros: novela negra, drama psicológico, memoria generacional y relato sobre amistad femenina."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El regreso y la muerte de Lena",
+            "summary": "La apertura de la novela reúne a las antiguas amigas y activa el conflicto con el regreso de Rita al pueblo. La muerte de Lena rompe el equilibrio precario del grupo y obliga a la policía —y al lector— a sospechar que el pasado sigue muy vivo."
+          },
+          {
+            "title": "Mallorca 1974: el origen de la pesadilla",
+            "summary": "En los tramos retrospectivos se reconstruye el viaje de fin de curso que marcó a las protagonistas cuando tenían diecisiete años. Allí se forma el núcleo del secreto compartido y se entienden sus aspiraciones juveniles en los últimos años del franquismo."
+          },
+          {
+            "title": "Amistad, culpa y vidas construidas sobre silencio",
+            "summary": "La parte media muestra cómo cada mujer ha administrado de modo distinto la misma herida: unas a través del éxito, otras mediante la huida, otras por la negación. El caso policial deja ver entonces una red de afectos, vergüenzas y lealtades muy erosionada."
+          },
+          {
+            "title": "Iluminar la sombra",
+            "summary": "En la recta final, la investigación del presente y la memoria del pasado convergen. La novela plantea que solo sacar a la luz aquello que fue ocultado permite comprender la muerte actual y medir el verdadero coste vital de aquel secreto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El secreto como estructura temporal",
+            "content": "La novela se organiza alrededor de un secreto que no actúa únicamente como dato escondido, sino como principio de composición. Todo el libro depende de la dosificación de información entre 1974 y el presente, y esa forma reproduce la persistencia del trauma."
+          },
+          {
+            "heading": "Thriller y memoria generacional",
+            "content": "Barceló usa mecanismos de novela negra —muerte sospechosa, investigación, reconstrucción de hechos— para hablar en realidad de una generación femenina formada entre expectativas de libertad y límites muy concretos. El suspense es el vehículo, no el fin último."
+          },
+          {
+            "heading": "Amistad femenina sin idealización",
+            "content": "Uno de los mayores aciertos del libro es no romantizar el grupo de amigas. La amistad aparece como refugio, pero también como espacio de silencios, jerarquías, dependencias y culpas compartidas. Esa ambivalencia da espesor moral a la historia."
+          },
+          {
+            "heading": "Pasado político, daño íntimo",
+            "content": "Aunque la novela no se presenta como ensayo histórico, el fin de la dictadura y el desencanto posterior forman parte de su sentido. Elia Barceló sugiere que los grandes cambios de época no eliminan por sí mismos las formas privadas de violencia, miedo o sometimiento."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las largas sombras es solo una novela negra?",
+            "answer": "No. Tiene un crimen y una investigación, pero también funciona como novela psicológica, relato de memoria generacional y examen de la amistad femenina a lo largo de varias décadas."
+          },
+          {
+            "question": "¿Qué papel cumple el año 1974 en la historia?",
+            "answer": "Es el momento del viaje de fin de curso que origina el secreto central. Además, sitúa a las protagonistas en los últimos años del franquismo, cuando sus deseos de libertad chocaban con un entorno todavía restrictivo."
+          },
+          {
+            "question": "¿Quién es Rita dentro de la trama?",
+            "answer": "Es una de las antiguas amigas y su regreso al pueblo desencadena la reactivación del pasado. A través de ella, la novela enlaza el éxito exterior del presente con la herida no resuelta de la adolescencia."
+          },
+          {
+            "question": "¿Por qué sigue siendo una novela relevante?",
+            "answer": "Porque convierte un thriller en una exploración muy sólida sobre culpa, memoria, amistad y paso del tiempo. Su mirada sobre los sueños juveniles frustrados y sobre las consecuencias largas de un trauma sigue siendo muy actual."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Elia Barceló: Las largas sombras",
+            "url": "https://eliabarcelo.com/las-largas-sombras"
+          },
+          {
+            "label": "Casa del Libro: Las largas sombras",
+            "url": "https://www.casadellibro.com/libro-las-largas-sombras/9788492687084/1609747"
+          },
+          {
+            "label": "Open Library: Las largas sombras",
+            "url": "https://openlibrary.org/works/OL15462439W"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-leyes-de-la-frontera-de-javier-cercas",
+      "title": "Las Leyes De La Frontera",
+      "authorName": "Javier Cercas",
+      "authorSlug": "javier-cercas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las leyes de la frontera",
+        "authorName": "Javier Cercas",
+        "authorSlug": "javier-cercas",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2012,
+        "pages": 384,
+        "summary": "Las leyes de la frontera reconstruye la educación sentimental y moral de Ignacio Cañas, un adolescente apodado Gafitas que en el verano de 1978 entra en contacto con el Zarco y Tere, dos jóvenes delincuentes de la Girona marginal. A partir de ese encuentro, la novela sigue cómo un muchacho tímido y de clase media cruza una frontera social, afectiva y ética que lo arrastra hacia una vida de robos, fascinación y peligro. Javier Cercas no cuenta solo una historia de juventud desviada: también examina cómo la Transición española produjo zonas ambiguas donde la ley, el deseo, la pobreza y la ambición convivían sin límites claros. Décadas después, cuando el Zarco se ha convertido en un mito de la delincuencia juvenil y Gafitas es un abogado respetado, el relato vuelve sobre el pasado para preguntar qué hubo de verdad, de invención y de autoengaño en aquella historia compartida.",
+        "aboutThisBook": "Publicada en 2012, la novela se sitúa entre la memoria privada, la investigación narrativa y la crónica de una España en transformación. La agencia literaria de Javier Cercas la presenta como novela de formación y subraya su marco en los años ochenta, mientras que las ediciones de Penguin la destacan como una historia de amor, violencia, lealtades y traiciones. El libro dialoga además con la figura del delincuente quinqui y con la mitificación cultural de la Transición. Su estructura de testimonios, recuerdos y versiones parciales convierte la obra en una reflexión sobre cómo se fabrican las leyendas sociales y sobre el modo en que la literatura puede acercarse a una verdad siempre incompleta.",
+        "forWhom": "Para lectores de narrativa española contemporánea, clubes de lectura y estudiantes interesados en la Transición, la memoria, la marginalidad urbana y las novelas donde el relato del pasado se mezcla con investigación y revisión moral.",
+        "whyItMatters": "Importa porque convierte una historia de delincuencia juvenil en una indagación seria sobre clase social, deseo de pertenencia, construcción del mito y ambigüedad moral. Es una de las novelas con las que Cercas examina mejor la relación entre memoria individual e historia colectiva.",
+        "editorialIntro": "Javier Cercas parte de un triángulo inolvidable —Gafitas, Tere y el Zarco— para narrar el momento en que un adolescente descubre que la frontera entre el orden y la intemperie no siempre coincide con la ley. La novela mira la Girona marginal de finales de los setenta y, al mismo tiempo, la España que empezó a contarse a sí misma durante la Transición. De ahí sale un libro sobre juventud, fascinación y mentira, pero también sobre el modo en que una época fabrica a sus héroes oscuros.",
+        "readingLevel": "Lectura de complejidad media-alta. La prosa es clara, pero la novela gana profundidad cuando se siguen sus cambios temporales, su dimensión testimonial y el trasfondo histórico y social de la Transición española.",
+        "whyReadToday": "Porque sigue siendo una novela muy útil para pensar la mitificación del delincuente, la memoria de la Transición y la fragilidad de las fronteras entre integración social y exclusión. También muestra cómo una historia local puede explicar un clima entero de país.",
+        "studyNotes": [
+          "La novela puede leerse como Bildungsroman: Ignacio Cañas se forma no a través de instituciones estables, sino del riesgo, la fascinación y la mezcla de clases sociales.",
+          "La figura del Zarco remite al imaginario quinqui y a la fabricación mediática del delincuente carismático durante la Transición.",
+          "Tere no es un personaje accesorio: articula la atracción mutua y la tensión entre deseo, lealtad y ascenso social.",
+          "Conviene atender a la estructura de versiones y testimonios, porque Cercas no ofrece una verdad cerrada, sino una verdad disputada por la memoria y el relato."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El verano en que Gafitas cruza la frontera",
+            "summary": "Ignacio Cañas conoce al Zarco y a Tere en la Girona marginal de 1978. Ese encuentro lo saca de su mundo de adolescente aplicado y lo introduce en un espacio donde la aventura, la delincuencia y el deseo parecen inseparables."
+          },
+          {
+            "title": "Aprender la lealtad y el riesgo",
+            "summary": "En la parte central, Gafitas se integra en el grupo y descubre tanto la excitación de la transgresión como la violencia que la sostiene. La novela retrata así una educación sentimental atravesada por diferencias de clase, miedo y dependencia afectiva."
+          },
+          {
+            "title": "La caída del mito y el paso del tiempo",
+            "summary": "Con los años, el Zarco deja de ser solo un líder juvenil para convertirse en símbolo mediático de la delincuencia de la Transición. Gafitas, en cambio, entra en la legalidad y en el prestigio profesional, pero nunca logra desprenderse del todo del pasado compartido."
+          },
+          {
+            "title": "Revisar la historia desde la memoria",
+            "summary": "En el tramo final, el relato vuelve sobre testimonios, recuerdos y reencuentros para indagar qué significó realmente aquella amistad. El cierre no liquida la ambigüedad: la usa para mostrar que toda leyenda mezcla hechos, deseo y necesidad de explicación."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Transición española y periferia social",
+            "content": "La novela no presenta la Transición como relato limpio de consenso, sino como un tiempo poroso en el que convivieron cambio político, exclusión urbana y violencia juvenil. La Girona del libro funciona como laboratorio de una democracia todavía inestable en sus márgenes."
+          },
+          {
+            "heading": "Mito quinqui y fabricación del héroe oscuro",
+            "content": "El Zarco importa menos como retrato psicológico cerrado que como mito social. Cercas muestra cómo una comunidad, los medios y los propios recuerdos transforman a un delincuente en figura legendaria, a medio camino entre víctima, icono y amenaza."
+          },
+          {
+            "heading": "Memoria, relato y verdad incompleta",
+            "content": "Uno de los grandes logros del libro es su desconfianza hacia la versión única. El pasado aparece filtrado por entrevistas, reconstrucciones y silencios; por eso la verdad de la novela no es documental en sentido estricto, sino narrativa, conflictiva y siempre parcial."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las leyes de la frontera es una novela histórica?",
+            "answer": "Tiene una fuerte base histórica y social, porque retrata la España de la Transición, pero funciona ante todo como novela de formación y como revisión crítica de un mito de delincuencia juvenil."
+          },
+          {
+            "question": "¿Quién cuenta realmente la historia?",
+            "answer": "La novela articula varias voces y reconstrucciones, de modo que el lector no recibe una confesión transparente, sino una investigación sobre lo ocurrido y sobre cómo se recuerda lo ocurrido."
+          },
+          {
+            "question": "¿Qué papel cumple Tere en la novela?",
+            "answer": "Tere es decisiva porque conecta a Gafitas y al Zarco, y porque concentra deseo, ascenso social, libertad y ambigüedad. Su presencia impide que el libro sea solo un duelo masculino o una crónica delictiva."
+          },
+          {
+            "question": "¿Por qué sigue siendo un libro relevante?",
+            "answer": "Porque ayuda a pensar los márgenes de la Transición, la fascinación por el fuera de la ley y la fragilidad de las identidades sociales que parecen consolidadas cuando el pasado vuelve."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Penguin Libros — Las leyes de la frontera",
+            "url": "https://www.penguinlibros.com/es/literatura-contemporanea/29254-libro-las-leyes-de-la-frontera-9788439727637"
+          },
+          {
+            "label": "Agencia Literaria Carmen Balcells — Las leyes de la frontera",
+            "url": "https://www.agenciabalcells.com/autores/obra/javier-cercas/las-leyes-de-la-frontera/"
+          },
+          {
+            "label": "Wikipedia en español — Las leyes de la frontera",
+            "url": "https://es.wikipedia.org/wiki/Las_leyes_de_la_frontera"
+          },
+          {
+            "label": "Casa del Libro — Las leyes de la frontera",
+            "url": "https://www.casadellibro.com/libro-las-leyes-de-la-frontera/9788490326398/2249746"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-mil-y-una-noches-antologia-de-anonimo",
+      "title": "Las Mil Y Una Noches Antologia",
+      "authorName": "Anonimo",
+      "authorSlug": "anonimo",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las mil y una noches: antología",
+        "authorName": "Anónimo",
+        "authorSlug": "anonimo",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "fantasia",
+          "aventura"
+        ],
+        "year": 2017,
+        "pages": 520,
+        "summary": "Las mil y una noches: antología reúne una selección de relatos del gran ciclo narrativo árabe tradicional articulado por la historia de Shahrazad, que noche tras noche cuenta un nuevo cuento para aplazar su ejecución a manos del sultán Shahriar. Esa estructura enmarcada convierte la narración en una defensa de la inteligencia, de la palabra y de la imaginación frente a la violencia. Dentro de ese marco caben viajes maravillosos, fábulas, historias de amor, relatos criminales, episodios humorísticos y aventuras llenas de metamorfosis, disfraces y pruebas. Más que un libro unitario en sentido moderno, la obra funciona como una constelación de relatos de procedencias diversas, compilados durante siglos y abiertos a continuas reescrituras. La antología permite leer ese universo sin exigir la extensión de una edición íntegra, pero conserva lo esencial: la potencia narrativa del marco, el gusto por el asombro y la mezcla de entretenimiento, astucia y sabiduría práctica.",
+        "aboutThisBook": "La tradición de Las mil y una noches tiene autoría múltiple e incierta, y su formación se extendió a lo largo de siglos en el ámbito árabe, persa e indoislámico. La edición de Alianza Editorial consultada presenta una antología preparada y traducida por Julio Samsó, publicada en 2017, con 520 páginas. Britannica subraya que el conjunto es una colección de historias de fecha y autoría inciertas, mientras que la tradición crítica recuerda que algunos relatos célebres occidentales, como Aladino o Alí Babá, se incorporaron tardíamente en adaptaciones europeas. Leer esta obra hoy implica aceptar su condición compuesta: no es una novela lineal, sino un archivo vivo de cuentos, géneros y voces transmitidos y reformulados a través del tiempo.",
+        "forWhom": "Para lectores de clásicos universales, estudiantes de literatura comparada, docentes y curiosos de la tradición narrativa oriental que quieran una entrada sólida a un libro fundamental de la historia del cuento.",
+        "whyItMatters": "Importa porque es una de las grandes matrices del relato enmarcado y del cuento maravilloso. Su influencia alcanza la literatura, el folclore, el teatro, el cine y la imaginación occidental y oriental, y además convierte la narración misma en una forma de supervivencia.",
+        "editorialIntro": "Pocas obras explican tan bien por qué contar historias importa. Bajo la amenaza de muerte que pesa sobre Shahrazad, cada noche abre un mundo nuevo: viajes, engaños, prodigios, animales parlantes, crímenes, amores y pruebas de ingenio. Esta antología permite entrar en ese inmenso repertorio sin perder de vista la fuerza del marco narrativo, donde la palabra no solo entretiene, sino que salva.",
+        "readingLevel": "Lectura de complejidad media. El estilo depende de la traducción y de la edición, pero la principal exigencia está en aceptar una obra fragmentaria, acumulativa y diversa, más cercana al ciclo de relatos que a la novela moderna unitaria.",
+        "whyReadToday": "Porque ayuda a entender el origen de innumerables formas narrativas todavía vigentes y porque recuerda que contar, escuchar y enlazar historias es una práctica cultural central para organizar la experiencia humana.",
+        "studyNotes": [
+          "El marco de Shahrazad y Shahriar no es un simple prólogo: da sentido ético y político a toda la colección al mostrar la palabra como demora, inteligencia y resistencia.",
+          "La obra es heterogénea por definición; conviene leerla como compilación de materiales de distinta procedencia y época, no como libro de autor individual en sentido moderno.",
+          "La mezcla de géneros —maravilloso, picaresco, amoroso, didáctico, criminal— explica su enorme capacidad de influencia en tradiciones posteriores.",
+          "En una ficha de antología conviene distinguir entre la tradición general de Las mil y una noches y las decisiones concretas de cada edición o selección, como la de Julio Samsó."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El marco de Shahrazad",
+            "summary": "La colección se abre con la situación de crisis creada por el sultán Shahriar y con la decisión de Shahrazad de narrar una historia cada noche para interrumpir el ciclo de ejecuciones. Desde ahí, el acto de contar se vuelve el verdadero centro de la obra."
+          },
+          {
+            "title": "Viajes, maravillas y pruebas",
+            "summary": "Una gran parte de la antología despliega relatos de travesías, prodigios, peligros y cambios de fortuna. El lector entra en un mundo donde lo extraordinario convive con lo comercial, lo marítimo, lo cortesano y lo fantástico."
+          },
+          {
+            "title": "Amor, engaño y justicia",
+            "summary": "Otros cuentos exploran relaciones afectivas, celos, embustes, castigos y reparaciones. En ellos aparece una sabiduría práctica que combina ironía, astucia y observación de las pasiones humanas."
+          },
+          {
+            "title": "La continuidad infinita del relato",
+            "summary": "El efecto final de la obra no depende de un único desenlace, sino de la sensación de que siempre hay otra historia capaz de prolongar la noche siguiente. Esa lógica acumulativa hace de la colección un archivo narrativo potencialmente inagotable."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El relato enmarcado como dispositivo de supervivencia",
+            "content": "La estructura de Shahrazad es una de las más influyentes de la literatura universal porque convierte el acto de narrar en una necesidad vital. Cada historia pospone la muerte y demuestra que la palabra puede reordenar la violencia y modificar el poder."
+          },
+          {
+            "heading": "Obra colectiva, móvil y transnacional",
+            "content": "Las mil y una noches no responde al modelo de autor único. Su formación atraviesa lenguas, regiones y épocas, y por eso resulta fundamental leerla como tradición compuesta, abierta a interpolaciones, traducciones y reconfiguraciones culturales."
+          },
+          {
+            "heading": "Influencia y malentendidos occidentales",
+            "content": "La recepción europea convirtió muchos de sus relatos en emblemas del exotismo oriental y añadió episodios célebres en versiones tardías. Estudiar la obra hoy exige atender tanto a su potencia imaginativa como a los filtros históricos que han modelado su circulación moderna."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las mil y una noches tiene un único autor?",
+            "answer": "No. Se trata de una recopilación tradicional de autoría múltiple e incierta, formada durante siglos con materiales de distintas procedencias culturales y lingüísticas."
+          },
+          {
+            "question": "¿Qué significa que esta edición sea una antología?",
+            "answer": "Significa que no ofrece necesariamente el texto íntegro de todas las ramas de la tradición, sino una selección de relatos representativos organizada por un editor o traductor, en este caso Julio Samsó."
+          },
+          {
+            "question": "¿Aparecen siempre Aladino y Alí Babá en el corpus original?",
+            "answer": "No de la misma manera en todas las tradiciones. La crítica y las enciclopedias recuerdan que algunos relatos muy famosos en Occidente se incorporaron tardíamente a través de adaptaciones europeas."
+          },
+          {
+            "question": "¿Por qué sigue siendo importante leerla?",
+            "answer": "Porque es una obra decisiva para entender la historia del cuento, el poder del relato enmarcado y la circulación de imaginarios entre Oriente Próximo, Asia y Europa."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Encyclopaedia Britannica — The Thousand and One Nights",
+            "url": "https://www.britannica.com/topic/The-Thousand-and-One-Nights"
+          },
+          {
+            "label": "Wikipedia en español — Las mil y una noches",
+            "url": "https://es.wikipedia.org/wiki/Las_mil_y_una_noches"
+          },
+          {
+            "label": "Casa del Libro — Las mil y una noches: antología",
+            "url": "https://www.casadellibro.com/libro-las-mil-y-una-noches-antologia/9788491048220/5875815"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "las-palabras-justas-de-milena-busquets",
+      "title": "Las Palabras Justas",
+      "authorName": "Milena Busquets",
+      "authorSlug": "milena-busquets",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Las palabras justas",
+        "authorName": "Milena Busquets",
+        "authorSlug": "milena-busquets",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2022,
+        "pages": 136,
+        "summary": "Las palabras justas reúne entradas y apuntes diarísticos en los que Milena Busquets registra días tristes y días felices, escenas mínimas, recuerdos, lecturas, vínculos amorosos, maternidad, cuerpo, enfermedad y trabajo de escritura. No se trata de una novela con trama cerrada, sino de un libro de observación íntima donde lo cotidiano se vuelve materia literaria gracias a una prosa breve, afilada y muy consciente de su propia vulnerabilidad. La autora se expone sin solemnidad y trabaja con el tono de quien anota lo que ve para no dejar que la experiencia se vuelva opaca. Por eso el libro avanza por fragmentos y destellos más que por episodios argumentales. Lo que une esas piezas es una voz capaz de convertir la vida ordinaria en una secuencia de epifanías, dudas y pequeños sobresaltos afectivos, con una mezcla poco frecuente de ligereza, lucidez y riesgo personal.",
+        "aboutThisBook": "Editorial Anagrama presenta el libro como unos diarios donde Milena Busquets escribe sin trampa ni cartón y logra que de lo anodino emerja la epifanía. La edición consultada corresponde a 2022 y consta de 136 páginas. La propia autora, en su web, se presenta desde una trayectoria ligada a la edición, la traducción y la narrativa autobiográfica, contexto útil para situar este volumen dentro de una obra que trabaja la experiencia personal con gran elaboración literaria. Las reseñas y fichas consultadas coinciden en destacar que no estamos ante ficción narrativa convencional, sino ante un diario literario de fragmentos donde importan la mirada, el ritmo de la frase y la exposición emocional. Esa condición híbrida exige corregir la clasificación inicial del libro como ficción.",
+        "forWhom": "Para lectores de escritura autobiográfica, diarios literarios y prosa breve contemporánea, así como para quienes sigan la obra de Milena Busquets y busquen un libro íntimo, reflexivo y de lectura concentrada.",
+        "whyItMatters": "Importa porque muestra cómo la literatura del yo puede ser exigente y sutil sin convertirse en confesión banal. Busquets convierte la vida cotidiana en forma, y en ese gesto encuentra una manera muy contemporánea de pensar la fragilidad, el deseo y el oficio de escribir.",
+        "editorialIntro": "Milena Busquets escribe aquí desde una cercanía engañosa: parece que solo anota lo vivido, pero en realidad organiza una poética de la observación íntima. Hijos, amantes, miedo, alegría, mascarillas, cansancio, humor y escritura se mezclan en un diario que no busca la épica del trauma, sino la exactitud de una voz que quiere encontrar, justamente, las palabras justas.",
+        "readingLevel": "Lectura de complejidad media. El libro es breve y muy legible, pero su interés depende de percibir matices de tono, ironía y autoconciencia más que de seguir una trama convencional.",
+        "whyReadToday": "Porque ofrece una forma sobria y aguda de escribir la intimidad en tiempos de sobreexposición. Frente al ruido confesional, Busquets propone una voz que se arriesga, selecciona y afina.",
+        "studyNotes": [
+          "Es importante clasificar el libro como diario literario o no ficción autobiográfica, no como novela, porque su lógica interna depende del fragmento y de la observación de sí.",
+          "La aparente espontaneidad está muy trabajada: el efecto de naturalidad procede de una selección verbal precisa y de una sintaxis que busca ligereza sin perder densidad emocional.",
+          "Las escenas cotidianas no son decorativas; funcionan como pruebas de cómo la escritura transforma lo banal en revelación o en pensamiento.",
+          "Puede estudiarse junto a otras formas contemporáneas de literatura del yo, atendiendo a la relación entre sinceridad, estilo y construcción de una voz pública e íntima a la vez."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Comienzo del diario y pacto de franqueza",
+            "summary": "El libro se abre con una voz que asume la escritura como exposición y riesgo. Desde el principio, la autora fija un tono sin grandilocuencia: escribir es una manera de ponerse contra las cuerdas y de registrar la vida sin blindajes retóricos."
+          },
+          {
+            "title": "La vida cotidiana como materia literaria",
+            "summary": "En la parte central aparecen hijos, amores, yoga, visitas, recuerdos y rutinas atravesadas por observaciones muy breves. El interés no reside en la espectacularidad de los hechos, sino en la intensidad con que son mirados y convertidos en frase."
+          },
+          {
+            "title": "Fragilidad, miedo y lucidez",
+            "summary": "A medida que avanzan los fragmentos, el diario deja ver la proximidad entre euforia y ansiedad, plenitud y derrumbe. La autora trabaja ese vaivén emocional sin sentimentalismo, apoyándose en una voz que combina humor, vulnerabilidad y control formal."
+          },
+          {
+            "title": "Un cierre abierto sobre escribir y vivir",
+            "summary": "Como corresponde a un diario, el libro no concluye con una resolución argumental total. Termina más bien afirmando una forma de atención: seguir buscando la frase exacta para que la experiencia no se vuelva opaca o falsa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Diario literario y construcción de la voz",
+            "content": "Las palabras justas se apoya en la tradición del diario, pero evita la acumulación indiscriminada de apuntes. Cada fragmento parece leve, aunque está trabajado para sostener una voz reconocible: íntima, irónica, elegante y deliberadamente expuesta."
+          },
+          {
+            "heading": "Epifanía de lo cotidiano",
+            "content": "Anagrama y otras fichas críticas insisten en que Busquets extrae revelación de lo anodino. Ese procedimiento define el libro: no necesita grandes acontecimientos para producir sentido, porque la intensidad aparece en una mirada que selecciona y afina."
+          },
+          {
+            "heading": "Sinceridad y forma",
+            "content": "Uno de los puntos más interesantes del volumen es su tensión entre confesión y artificio. El libro busca honestidad, pero sabe que esa honestidad solo se vuelve literatura cuando encuentra una forma exacta, una distancia justa y un ritmo propio."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Las palabras justas es una novela?",
+            "answer": "No en sentido estricto. Las fuentes editoriales y críticas lo presentan como un libro de diarios o escritura autobiográfica fragmentaria, por lo que conviene clasificarlo como no ficción literaria."
+          },
+          {
+            "question": "¿Hace falta haber leído otras obras de Milena Busquets?",
+            "answer": "No. Puede leerse de forma independiente, aunque conocer También esto pasará o su trayectoria editorial ayuda a situar mejor su voz y sus temas recurrentes."
+          },
+          {
+            "question": "¿Qué tipo de lectura propone?",
+            "answer": "Una lectura breve pero atenta, centrada en el matiz de la frase, la observación íntima y la forma en que lo cotidiano adquiere espesor emocional y literario."
+          },
+          {
+            "question": "¿Por qué se habla de “palabras justas”?",
+            "answer": "Porque el libro persigue una exactitud expresiva: decir lo vivido sin pompa, sin coartadas y sin exceso, encontrando la frase precisa que vuelva habitable la experiencia."
+          }
+        ],
+        "reviewedAt": "2026-04-21",
+        "sources": [
+          {
+            "label": "Editorial Anagrama — Las palabras justas",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/las-palabras-justas/9788433946058/NH_697"
+          },
+          {
+            "label": "Milena Busquets — sitio oficial",
+            "url": "https://www.milenabusquets.com/"
+          },
+          {
+            "label": "Lecturalia — Las palabras justas",
+            "url": "https://www.lecturalia.com/libro/108381/las-palabras-justas"
+          },
+          {
+            "label": "Casa del Libro — Las palabras justas",
+            "url": "https://www.casadellibro.com/libro-las-palabras-justas/9788433999573/13029110"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-21T06:11:22Z"
+}

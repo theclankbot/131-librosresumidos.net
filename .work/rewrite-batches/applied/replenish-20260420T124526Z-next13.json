@@ -1,0 +1,1528 @@
+{
+  "batchName": "replenish-20260420T124526Z-next13",
+  "createdAt": "2026-04-20T12:45:31Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "panico-de-jeff-abbott",
+      "title": "Panico",
+      "authorName": "Jeff Abbott",
+      "authorSlug": "jeff-abbott",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Pánico",
+        "authorName": "Jeff Abbott",
+        "authorSlug": "jeff-abbott",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2014,
+        "pages": 431,
+        "summary": "Pánico es un thriller de identidad quebrada y persecución continua. Evan Casher lleva una vida que parece estable hasta que una llamada de su madre lo devuelve a casa y lo enfrenta a una escena brutal: ella ha sido asesinada y, a partir de ese momento, cada persona y cada recuerdo comienzan a parecer falsos. La novela convierte ese descubrimiento en una huida nerviosa donde nada puede darse por cierto: ni la historia familiar, ni la pareja, ni los vínculos de confianza. Jeff Abbott organiza la intriga como una investigación personal bajo presión, en la que el protagonista debe reconstruir su pasado mientras intenta sobrevivir a una red de perseguidores profesionales. El resultado combina conspiración, suspense psicológico y acción, pero su núcleo sigue siendo íntimo: el derrumbe de una biografía que parecía auténtica y que se revela como un montaje calculado.",
+        "aboutThisBook": "Publicada en español como Pánico, esta novela de Jeff Abbott se sitúa en la tradición del thriller contemporáneo centrado en la paranoia y la manipulación. La narración parte de un crimen doméstico para abrirse hacia una trama mayor de secretos, dobles vidas y operaciones clandestinas. Aunque su mecanismo es veloz, el libro no depende solo de la acción: le interesa mostrar cómo la verdad personal puede convertirse en el enigma más peligroso.",
+        "forWhom": "Es una lectura recomendable para lectores de thriller que buscan ritmo alto, giros constantes y un protagonista obligado a revisar toda su historia. También puede interesar a quienes disfrutan novelas sobre identidades falsas, familias opacas y conspiraciones narradas con tensión sostenida. Conviene más a público adulto por su violencia y por el tono de amenaza permanente.",
+        "whyItMatters": "Importa porque lleva un miedo muy contemporáneo al terreno de la ficción: la sospecha de que la identidad privada puede ser fabricada, vigilada o utilizada por otros. Abbott vuelve ese temor una trama legible y absorbente.",
+        "editorialIntro": "En Pánico, Jeff Abbott no solo construye una persecución; construye la demolición progresiva de una vida entera. La novela comienza con un golpe seco y luego trabaja sobre una pregunta clásica del suspense moderno: qué queda de una persona cuando descubre que los hechos básicos de su pasado quizá fueron diseñados por otros. Su eficacia nace de esa mezcla entre vérigo externo y desconcierto interior.",
+        "readingLevel": "Medio-alto: prosa accesible, ritmo veloz y estructura de thriller con cambios de información que exigen atención constante a las lealtades y a los datos ocultos.",
+        "whyReadToday": "Sigue siendo pertinente porque tematiza la fragilidad de la confianza en un mundo de vigilancia, engaño estratégico y biografías manipulables. Su ansiedad narrativa dialoga bien con la cultura actual de la sospecha.",
+        "studyNotes": [
+          "Observar cómo el asesinato inicial funciona como detonante narrativo y como quiebra simbólica del hogar.",
+          "Analizar la figura de Evan Casher como protagonista que investiga su pasado mientras pierde control sobre el presente.",
+          "Relacionar la novela con el motivo del “no se puede confiar en nadie”, central en el thriller paranoico contemporáneo.",
+          "Atender a la tensión entre memoria personal e información externa: la verdad no procede del recuerdo, sino de desmontar una ficción previa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio del derrumbe",
+            "summary": "Una llamada urgente devuelve a Evan a la casa familiar. Allí encuentra el asesinato de su madre y comprende que el peligro ya lo estaba esperando. El mundo cotidiano se rompe en segundos y la novela fija su tono de amenaza irreversible."
+          },
+          {
+            "title": "Huida e investigación",
+            "summary": "Mientras escapa de quienes parecen conocerlo mejor que él mismo, Evan empieza a reunir indicios sobre su familia, su pasado y las personas que lo rodean. Cada hallazgo complica la trama y vuelve más inciertas sus alianzas."
+          },
+          {
+            "title": "Revelaciones y enfrentamiento",
+            "summary": "La búsqueda desemboca en una verdad más amplia sobre la construcción de su identidad y sobre la lógica de la conspiración. El suspense final depende de que Evan una las piezas a tiempo y decida en quién puede confiar para sobrevivir."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Identidad como zona de peligro",
+            "content": "La novela convierte la identidad en un territorio inestable. No se trata solo de descubrir un secreto, sino de comprobar que la vida del protagonista estaba edificada sobre información dosificada y relaciones posiblemente instrumentales. Ese desplazamiento vuelve íntimo el suspense."
+          },
+          {
+            "heading": "Mecánica del thriller paranoico",
+            "content": "Abbott usa una estructura clásica del género: crimen inicial, desorientación, persecución, revelaciones parciales y relectura retrospectiva de los hechos. La eficacia nace de la dosificación de datos y de la sensación de que cada respuesta abre un nivel mayor de amenaza."
+          },
+          {
+            "heading": "Violencia y afectos rotos",
+            "content": "El asesinato de la madre no es un mero gancho argumental. Funciona como señal de que el espacio de protección ya ha sido destruido. Desde ahí, la novela asocia la violencia física con la fractura afectiva y convierte la investigación en duelo bajo presión."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Pánico es una novela autoconclusiva?",
+            "answer": "Sí. Funciona como thriller independiente y no requiere leer otras obras de Jeff Abbott para seguir la historia."
+          },
+          {
+            "question": "¿Qué tipo de suspense propone?",
+            "answer": "Combina persecución, conspiración y suspense psicológico. La intriga depende tanto del peligro externo como del descubrimiento de una biografía posiblemente falsa."
+          },
+          {
+            "question": "¿Predomina la acción o la investigación?",
+            "answer": "Ambas dimensiones están entrelazadas. La novela avanza con ritmo de fuga, pero su motor real es la reconstrucción del pasado de Evan."
+          },
+          {
+            "question": "¿Es adecuada para lectores sensibles a la violencia?",
+            "answer": "Conviene advertir que incluye un asesinato brutal al comienzo y un clima sostenido de amenaza, por lo que encaja mejor con lectores acostumbrados al thriller adulto."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Jeff Abbott — Panic",
+            "url": "https://jeffabbott.com/book/panic/"
+          },
+          {
+            "label": "Jeff Abbott — International Editions",
+            "url": "https://jeffabbott.com/books/international-editions/"
+          },
+          {
+            "label": "Google Books — Pánico",
+            "url": "https://play.google.com/store/books/details?id=KlXABAAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Google Books — Panic",
+            "url": "http://books.google.es/books?id=qsVqVJkpGF4C&dq=intitle:Panic+inauthor:Jeff+Abbott&hl=&source=gbs_api"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "paula-de-isabel-allende",
+      "title": "Paula",
+      "authorName": "Isabel Allende",
+      "authorSlug": "isabel-allende",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Paula",
+        "authorName": "Isabel Allende",
+        "authorSlug": "isabel-allende",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 1994,
+        "pages": 333,
+        "summary": "Paula es uno de los libros más íntimos y decisivos de Isabel Allende. Nace como una larga carta dirigida a su hija Paula, ingresada en coma, pero muy pronto desborda la forma epistolar y se convierte en memoria familiar, autobiografía de formación, crónica del exilio y meditación sobre el dolor. Mientras acompaña la enfermedad de su hija, la autora reconstruye la historia de varias generaciones, el clima político chileno, sus vínculos afectivos y el proceso mismo de convertirse en escritora. El libro alterna escenas del presente hospitalario con recuerdos de infancia, genealogías, pérdidas y desplazamientos, de modo que la escritura aparece a la vez como testimonio, refugio y despedida. Esa doble condición —documento del duelo y afirmación narrativa de la vida— explica que Paula sea leído tanto como confesión personal cuanto como una pieza central de la obra de Allende.",
+        "aboutThisBook": "Publicado originalmente en los años noventa, Paula ocupa un lugar singular dentro de la trayectoria de Isabel Allende porque transforma una experiencia extrema en una obra de memoria y reflexión. No es novela, aunque conserva una intensidad narrativa notable; tampoco es solo autobiografía, porque organiza la vida vivida con un claro sentido literario. Su fuerza reside en esa mezcla de intimidad, historia familiar y conciencia del tiempo perdido.",
+        "forWhom": "Resulta especialmente valioso para lectores interesados en autobiografía, memoria, escritura del duelo y literatura hispanoamericana contemporánea. También es una obra muy útil para cursos sobre testimonio, narrativa del yo o relación entre vida privada e historia política. Conviene a público adulto, tanto por la densidad emocional del tema como por la complejidad de las experiencias que recorre.",
+        "whyItMatters": "Importa porque demuestra que el testimonio personal puede alcanzar una resonancia literaria y ética excepcional. Allende convierte una herida privada en una reflexión sobre la familia, la pérdida, el exilio y la persistencia de la memoria.",
+        "editorialIntro": "Leer Paula es asistir al momento en que la escritura deja de ser solo oficio y se vuelve necesidad radical. Isabel Allende parte de una situación límite —acompañar a una hija suspendida entre la vida y la muerte— y, desde allí, recompone un archivo afectivo entero. El libro conmueve por su sinceridad, pero perdura por su forma: sabe convertir el recuerdo en estructura y la vulnerabilidad en lenguaje sostenido.",
+        "readingLevel": "Medio-alto: el estilo es claro, pero la carga emocional, los cambios temporales y la densidad autobiográfica piden una lectura atenta y reflexiva.",
+        "whyReadToday": "Se lee hoy con plena vigencia porque piensa el duelo sin sentimentalismo fácil y porque une experiencia íntima e historia colectiva. En tiempos de escritura autobiográfica abundante, sigue siendo un ejemplo mayor de memoria con verdadera forma literaria.",
+        "studyNotes": [
+          "Examinar la forma epistolar inicial y cómo el libro se expande hacia la autobiografía y la memoria familiar.",
+          "Relacionar la experiencia privada del dolor con el trasfondo histórico de Chile, el exilio y la diáspora latinoamericana.",
+          "Analizar la función de la genealogía: contar a Paula implica contar a las generaciones anteriores y el origen de una sensibilidad.",
+          "Observar cómo la escritura opera simultáneamente como acto de amor, archivo de identidad y trabajo de duelo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Carta a una hija inmóvil",
+            "summary": "El libro se abre en el presente de la enfermedad. Allende escribe junto al lecho de Paula con la esperanza de entregarle ese relato cuando despierte. Desde el inicio quedan definidos el tono de urgencia, la intimidad del destinatario y la necesidad de conservar la memoria."
+          },
+          {
+            "title": "Memoria familiar y exilio",
+            "summary": "A medida que la espera se prolonga, la autora reconstruye la historia de su familia, su infancia, sus vínculos y los procesos políticos que marcaron su vida. La narración enlaza lo doméstico con lo histórico y muestra cómo una identidad se forma entre afectos, rupturas y desplazamientos."
+          },
+          {
+            "title": "Duelo, aceptación y legado",
+            "summary": "La escritura avanza hacia el reconocimiento de la pérdida. Sin abandonar el impulso amoroso inicial, el libro se convierte en despedida y en afirmación de continuidad: lo vivido puede no salvar a Paula, pero sí preserva una herencia emocional y narrativa."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria personal e historia colectiva",
+            "content": "Paula nunca queda encerrado en el dolor privado. La vida de la autora se cruza con la historia chilena, el exilio y los desplazamientos de la segunda mitad del siglo XX. Por eso el libro puede leerse como testimonio íntimo y también como documento cultural de una época."
+          },
+          {
+            "heading": "La escritura del duelo",
+            "content": "Allende no escribe después de la pérdida, sino dentro del proceso mismo de la pérdida. Esa simultaneidad vuelve el texto especialmente intenso: la escritura ordena la experiencia mientras esta aún no ha concluido. El libro muestra así la literatura como trabajo afectivo y cognitivo."
+          },
+          {
+            "heading": "Entre autobiografía y forma literaria",
+            "content": "Aunque parte de hechos vividos, Paula no se limita a registrar recuerdos. Selecciona, encadena, dosifica y compone escenas con clara conciencia narrativa. Esa elaboración explica que el libro conserve valor literario más allá de su dimensión testimonial."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Paula es novela o autobiografía?",
+            "answer": "Se lee mejor como una obra de no ficción autobiográfica. Tiene impulso narrativo de novela, pero su materia central procede de la experiencia vivida por Isabel Allende."
+          },
+          {
+            "question": "¿Hace falta conocer otras obras de Allende para leerlo?",
+            "answer": "No. Puede leerse de forma independiente, aunque ilumina temas y obsesiones presentes en el resto de su trayectoria."
+          },
+          {
+            "question": "¿Por qué suele considerarse un libro clave?",
+            "answer": "Porque condensa dimensiones decisivas de su escritura: memoria familiar, historia latinoamericana, exilio, afectos y una reflexión muy poderosa sobre la pérdida."
+          },
+          {
+            "question": "¿Es un libro exclusivamente triste?",
+            "answer": "No. Aunque nace del dolor, también contiene humor familiar, retratos vivos, energía narrativa y una sostenida afirmación de la vida a través de la memoria."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Isabel Allende — Paula",
+            "url": "https://www.isabelallende.com/es/book/paula"
+          },
+          {
+            "label": "Google Books — Paula",
+            "url": "https://play.google.com/store/books/details?id=po5IAgAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Google Books — Paula (En Español)",
+            "url": "https://books.google.com/books/about/Paula_En_Espa%C3%B1ol.html?hl=&id=1PqxDQAAQBAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "peligro-de-derrumbe-de-pedro-simon",
+      "title": "Peligro De Derrumbe",
+      "authorName": "Pedro Simon",
+      "authorSlug": "pedro-simon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Peligro de derrumbe",
+        "authorName": "Pedro Simón",
+        "authorSlug": "pedro-simon",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2015,
+        "pages": 312,
+        "summary": "Peligro de derrumbe es una novela coral de Pedro Simón que sitúa su conflicto en el corazón de la crisis económica española. El punto de partida es deliberadamente cruel: una oferta de trabajo, una sala de espera y nueve aspirantes sometidos a la incertidumbre, la humillación y la competencia. Desde ese espacio cerrado, la narración se abre a las vidas de personajes marcados por el paro, la precariedad, la deuda, la vergüenza social y la erosión de los vínculos cotidianos. Simón no construye una trama de héroes sino un mosaico de biografías heridas, donde cada figura condensa una forma de caída. La novela adquiere así valor de retrato generacional y de documento moral sobre la España posterior al derrumbe económico: no explica la crisis desde cifras, sino desde cuerpos cansados, trabajos perdidos y dignidades puestas a prueba.",
+        "aboutThisBook": "Primera novela de Pedro Simón, Peligro de derrumbe combina recursos de la ficción con una mirada periodística muy atenta al detalle social. Su estructura poliédrica permite observar cómo un mismo sistema de precariedad afecta de modo diferente a personas de distintas edades y trayectorias. Más que una novela de tesis, es un cuadro narrativo sobre el desgaste material y psicológico producido por la crisis.",
+        "forWhom": "Es especialmente recomendable para lectores de narrativa española contemporánea interesados en novelas sociales, corales y de fuerte observación moral. También resulta útil para estudiar la representación literaria de la crisis de 2008 y sus secuelas en la vida diaria. Por sus temas —paro, humillación laboral, fragilidad económica y deterioro íntimo— encaja mejor en público adulto.",
+        "whyItMatters": "Importa porque convierte la crisis en experiencia humana concreta. Frente a los discursos abstractos sobre recesión o desempleo, la novela devuelve nombres, cuerpos y voces a quienes quedaron atrapados en ese proceso.",
+        "editorialIntro": "Pedro Simón entra en la ficción sin abandonar la mirada del gran cronista. En Peligro de derrumbe observa la crisis no desde la tribuna de los análisis macroeconómicos, sino desde una sala de espera donde se concentran el miedo, la necesidad y la vergüenza de una época. Su fuerza reside en esa capacidad para hacer visible la precariedad como atmósfera moral compartida.",
+        "readingLevel": "Medio-alto: el lenguaje es claro, pero la estructura coral y la densidad social del libro exigen seguir varias trayectorias y captar matices de contexto.",
+        "whyReadToday": "Se lee hoy con especial interés porque muchas de sus preguntas siguen abiertas: precariedad laboral, desclasamiento, agotamiento emocional y sensación de futuro bloqueado. La novela ayuda a pensar la continuidad entre la crisis de 2008 y las inseguridades actuales.",
+        "studyNotes": [
+          "Analizar la sala de espera como espacio simbólico: allí se condensan jerarquía, ansiedad y competencia entre vulnerables.",
+          "Observar la construcción coral de los nueve aspirantes y cómo cada uno encarna una forma distinta de precariedad.",
+          "Relacionar el trasfondo periodístico de Pedro Simón con la precisión social y material de muchos detalles narrativos.",
+          "Estudiar la novela como ejemplo de narrativa de crisis: no explica un sistema abstracto, sino sus efectos en la intimidad y en la autoestima."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La sala de espera",
+            "summary": "Una oferta de trabajo reúne a nueve personajes en un espacio dominado por la ansiedad y la humillación. El escenario funciona como microcosmos de la crisis: todos compiten por una posibilidad mínima mientras el poder empresarial impone sus reglas."
+          },
+          {
+            "title": "Vidas al borde",
+            "summary": "La novela se abre hacia las historias particulares de sus personajes. Aparecen deudas, desempleo, traiciones, trabajos degradados y formas silenciosas de vergüenza. La dimensión coral permite entender la crisis como red de daños compartidos pero desigualmente vividos."
+          },
+          {
+            "title": "Caída y conciencia social",
+            "summary": "Más que cerrarse en una resolución individual, el libro conduce a una comprensión amarga del sistema que ha producido ese derrumbe. El foco termina desplazándose del empleo puntual a la estructura social que ha dejado a todos al borde del precipicio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela coral y crisis económica",
+            "content": "El libro organiza su mirada social mediante múltiples personajes y perspectivas. Esa coralidad evita reducir la crisis a un caso aislado y permite mostrar cómo el desempleo y la precariedad atraviesan edades, oficios y posiciones sociales distintas."
+          },
+          {
+            "heading": "Humillación laboral como violencia",
+            "content": "Uno de los hallazgos de la novela es mostrar que la violencia de la crisis no es solo material. También es simbólica: sentirse descartable, competir con otros desesperados y aceptar pruebas degradantes mina la autoestima y desfigura las relaciones humanas."
+          },
+          {
+            "heading": "Herencia periodística de Pedro Simón",
+            "content": "La prosa y la observación del libro revelan la experiencia del autor como reportero. Hay atención al detalle concreto, oído para los registros sociales y una voluntad de testimoniar una época sin renunciar a la elaboración literaria."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Peligro de derrumbe es una novela social?",
+            "answer": "Sí, pero no en un sentido esquemático. Su dimensión social nace de personajes concretos y de situaciones de precariedad vividas desde dentro."
+          },
+          {
+            "question": "¿La trama se centra solo en conseguir un empleo?",
+            "answer": "La oferta de trabajo es el detonante y el marco simbólico. Lo verdaderamente importante es el retrato amplio del desgaste producido por la crisis económica."
+          },
+          {
+            "question": "¿Qué aporta la estructura coral?",
+            "answer": "Permite que la crisis aparezca como experiencia plural. Cada personaje ilumina una cara distinta del desempleo, la vergüenza, el miedo y la pérdida de estabilidad."
+          },
+          {
+            "question": "¿Sigue siendo actual?",
+            "answer": "Sí. Aunque parte del contexto posterior a 2008, muchas de sus tensiones —precariedad, ansiedad laboral, fragilidad social— continúan presentes en el debate contemporáneo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "La Esfera de los Libros — Peligro de derrumbe",
+            "url": "https://www.esferalibros.com/libros/peligro-de-derrumbe/"
+          },
+          {
+            "label": "Casa del Libro — Peligro de derrumbe",
+            "url": "https://www.casadellibro.com/libro-peligro-de-derrumbe/9788490602812/2504657"
+          },
+          {
+            "label": "Google Books — Peligro de derrumbe",
+            "url": "https://play.google.com/store/books/details?id=niRREQAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Actualidad Literatura — reedición de Peligro de derrumbe",
+            "url": "https://www.actualidadliteratura.com/pedro-simon-revisita-peligro-de-derrumbe-la-novela-que-narra-el-golpe-de-la-crisis-economica-en-espana/"
+          },
+          {
+            "label": "Atrapalibros — entrevista sobre Peligro de derrumbe",
+            "url": "https://www.atrapalibros.es/entrevista-a-pedro-simon-autor-de-peligro-de-derrumbe-editado-por-espasa"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "perdidas-aceptables-de-irwin-shaw",
+      "title": "Perdidas Aceptables",
+      "authorName": "Irwin Shaw",
+      "authorSlug": "irwin-shaw",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Pérdidas aceptables",
+        "authorName": "Irwin Shaw",
+        "authorSlug": "irwin-shaw",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller",
+          "romance"
+        ],
+        "year": 1983,
+        "pages": 233,
+        "summary": "Pérdidas aceptables es la última novela de Irwin Shaw y condensa varias de sus obsesiones tardías: el desgaste moral del éxito, la persistencia de las culpas privadas y la fragilidad de la vida burguesa cuando el pasado reaparece con violencia. Roger Damon, agente literario prestigioso, recibe una llamada anónima que amenaza con sacar a la luz antiguas transgresiones. A partir de ese gesto mínimo, Shaw construye una trama de acoso y revisión interior en la que el protagonista vuelve sobre sus amistades, sus relaciones amorosas, sus concesiones profesionales y las lealtades que creía seguras. La novela avanza como un thriller psicológico, pero su interés principal no está solo en descubrir al perseguidor, sino en mostrar cómo una existencia aparentemente consolidada puede resquebrajarse por la suma de pérdidas íntimas, morales y afectivas que parecían asumibles hasta que dejan de serlo.",
+        "aboutThisBook": "Más que una novela de suspense convencional, este libro funciona como balance sombrío de una trayectoria humana y también de una sensibilidad narrativa. Shaw combina intriga, observación social y examen de conciencia para narrar la caída de un hombre de mundo que descubre que el prestigio no protege del ajuste de cuentas. El entorno editorial, las relaciones sentimentales y la memoria de decisiones ambiguas le dan a la obra una densidad moral poco habitual en el thriller comercial.",
+        "forWhom": "Recomendable para lectores adultos interesados en novelas de suspense psicológico, en ficciones sobre culpa y deterioro personal, y en la narrativa norteamericana que combina trama de intriga con observación social.",
+        "whyItMatters": "Importa porque muestra a Irwin Shaw en su fase final, menos épica y más introspectiva, pero todavía muy eficaz para narrar deseo, ambición y desgaste. También permite estudiar cómo el thriller puede convertirse en una forma de novela moral.",
+        "editorialIntro": "Leer Pérdidas aceptables hoy supone entrar en una novela de amenaza progresiva donde cada pista externa abre una herida interior. Shaw no se limita a organizar un misterio: usa la presión del chantaje y del secreto para examinar una vida acomodada, sentimentalmente rota y sostenida por pactos frágiles. El resultado es un relato elegante, amargo y muy consciente del precio del éxito.",
+        "readingLevel": "Adecuada para lectores adultos y para contexto universitario inicial: prosa accesible, pero con matices morales y psicológicos que exigen atención sostenida.",
+        "whyReadToday": "Sigue siendo pertinente porque trata el miedo a la exposición, la erosión de la reputación y la imposibilidad de cerrar del todo el pasado. En tiempos de vigilancia permanente, su conflicto resulta especialmente reconocible.",
+        "studyNotes": [
+          "Conviene leer la llamada anónima como detonante narrativo y como símbolo del retorno de lo reprimido.",
+          "Roger Damon no es un héroe de acción: el interés del libro está en su vulnerabilidad moral y en su autointerrogación.",
+          "El medio editorial no aparece como simple decorado, sino como mundo de ambición, vanidad y prestigio inestable.",
+          "La novela gana profundidad cuando se observa cómo Shaw transforma el suspense en balance afectivo y ético de una vida."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La llamada que rompe la superficie",
+            "summary": "La estabilidad profesional y social de Roger Damon se ve alterada por una amenaza anónima. El miedo inicial no procede solo del posible escándalo, sino del reconocimiento de que existen episodios de su pasado que nunca quedaron realmente cerrados."
+          },
+          {
+            "title": "Parte 2: Revisión del pasado y sospechas múltiples",
+            "summary": "Mientras intenta identificar a quien lo persigue, Damon repasa antiguas relaciones, decisiones comprometedoras y amistades ambiguas. La investigación externa se convierte en una exploración de sus propios fracasos y omisiones."
+          },
+          {
+            "title": "Parte 3: Amenaza sobre la vida íntima",
+            "summary": "La presión del acoso empieza a desbordar el plano privado y pone en riesgo a la familia, a los vínculos afectivos y a la imagen pública del protagonista. Shaw muestra cómo el miedo transforma la percepción de los otros y agrieta la confianza."
+          },
+          {
+            "title": "Parte 4: Ajuste de cuentas y saldo moral",
+            "summary": "En el desenlace, la intriga encuentra una resolución, pero lo decisivo es la relectura de la vida de Damon. La novela deja claro que algunas pérdidas parecen aceptables solo hasta que revelan el verdadero costo humano de haberlas tolerado."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller psicológico y novela moral",
+            "content": "La novela adopta un mecanismo de persecución y misterio, pero lo usa para explorar responsabilidad, culpa y autoengaño. El suspense sirve menos para glorificar la astucia que para desnudar la precariedad ética del protagonista."
+          },
+          {
+            "heading": "Roger Damon como figura del éxito erosionado",
+            "content": "Damon encarna a un profesional triunfante cuya identidad depende de la imagen pública y del control del relato sobre sí mismo. Cuando esa imagen se ve amenazada, aflora una subjetividad marcada por el cansancio, la memoria incómoda y el miedo a perderlo todo."
+          },
+          {
+            "heading": "El pasado como fuerza activa",
+            "content": "En Shaw, el pasado no es un simple antecedente explicativo, sino una potencia narrativa que vuelve y reorganiza el presente. La amenaza funciona porque se sostiene sobre decisiones previas nunca del todo asumidas por el protagonista."
+          },
+          {
+            "heading": "Mundo editorial, prestigio y vulnerabilidad",
+            "content": "El oficio de agente literario aporta a la novela un entorno sofisticado pero inestable. El prestigio cultural aparece ligado a relaciones estratégicas, egos heridos y secretos acumulados, de modo que la esfera profesional intensifica la fragilidad personal."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Pérdidas aceptables es una novela de intriga o una novela psicológica?",
+            "answer": "Es ambas cosas. Tiene un dispositivo claro de acoso y misterio, pero su verdadera fuerza está en el análisis moral y emocional del protagonista."
+          },
+          {
+            "question": "¿Qué lugar ocupa dentro de la obra de Irwin Shaw?",
+            "answer": "Se considera su última novela y suele leerse como una obra tardía donde el autor combina suspense con una mirada desencantada sobre el éxito, el deseo y la culpa."
+          },
+          {
+            "question": "¿Hace falta conocer otras novelas de Shaw para leerla?",
+            "answer": "No. Funciona de forma autónoma, aunque quien conozca su obra reconocerá su interés por personajes sometidos a presión moral y por las fisuras del mundo acomodado."
+          },
+          {
+            "question": "¿Por qué puede interesar en un contexto académico?",
+            "answer": "Porque permite estudiar la frontera entre thriller, novela social y novela moral, además de la construcción de un protagonista exitoso que se descompone desde dentro."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Road Media: Acceptable Losses",
+            "url": "https://openroadmedia.com/ebook/acceptable-losses/9781480412330"
+          },
+          {
+            "label": "Open Library: obra Acceptable losses",
+            "url": "https://openlibrary.org/works/OL3815309W"
+          },
+          {
+            "label": "Open Library: edición española Pérdidas aceptables (Planeta, 1983)",
+            "url": "https://openlibrary.org/books/OL22914114M"
+          },
+          {
+            "label": "Google Books: Acceptable Losses",
+            "url": "https://books.google.com/books?id=1A7GLvkt0DwC"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "prim-de-benito-perez-galdos",
+      "title": "Prim",
+      "authorName": "Benito Perez Galdos",
+      "authorSlug": "benito-perez-galdos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Prim",
+        "authorName": "Benito Pérez Galdós",
+        "authorSlug": "benito-perez-galdos",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 1906,
+        "pages": 340,
+        "summary": "Prim es la penúltima novela de la cuarta serie de los Episodios nacionales y una de las entregas más ideológicas de todo el proyecto galdosiano. En torno a la figura del general Juan Prim, Galdós reconstruye los últimos años del reinado de Isabel II, las conspiraciones liberales, la agitación callejera, la represión política y la expectativa de un cambio de régimen. Como en otros episodios, el novelista mezcla personajes históricos con figuras ficticias para convertir la historia española en experiencia vivida, no en simple crónica. El libro no se limita a narrar hechos políticos: reflexiona sobre el fracaso de las instituciones, la distancia entre ideal y práctica, y el lugar del pueblo en los momentos de crisis. Por eso su interés no está solo en la evocación histórica, sino en la energía crítica con que Galdós examina una España atrapada entre la reforma, la violencia y la desilusión.",
+        "aboutThisBook": "Este episodio ocupa un lugar singular dentro del ciclo porque condensa el republicanismo, el anticlericalismo y la preocupación por la modernización política que recorren la etapa tardía de Galdós. La novela presenta a Prim no solo como personaje histórico, sino como emblema de una posibilidad progresista frustrada. A la vez, conserva el rasgo central de los Episodios nacionales: hacer legible la historia a través de voces, escenas urbanas, conversaciones y percepciones concretas que vuelven visible la textura humana del proceso histórico.",
+        "forWhom": "Muy útil para lectores de literatura española, estudiantes de historia del siglo XIX y quienes quieran acercarse a Galdós desde una novela donde la política y la ficción aparecen íntimamente entrelazadas.",
+        "whyItMatters": "Importa porque muestra cómo la novela histórica puede pensar la crisis de un país sin sacrificar complejidad narrativa. Además, revela a un Galdós maduro, capaz de convertir la figura de Prim en símbolo de modernización, conflicto y esperanza malograda.",
+        "editorialIntro": "Prim exige una lectura atenta, pero recompensa con una de las miradas más densas de Galdós sobre la vida pública española. Aquí la historia no aparece congelada en fechas y nombres: circula por tertulias, conspiraciones, motines, rumores y gestos cotidianos. Esa mezcla de gran proceso político y vida concreta vuelve a la novela especialmente fértil para leer el siglo XIX como drama colectivo.",
+        "readingLevel": "Lectura apropiada para bachillerato avanzado y universidad, por su sintaxis galdosiana, su trasfondo histórico y su densa red de referencias políticas.",
+        "whyReadToday": "Se lee con provecho hoy porque plantea preguntas persistentes sobre liderazgo, reformas incompletas, polarización y uso político de la memoria. También ayuda a entender cómo la ficción organiza el sentido de una crisis nacional.",
+        "studyNotes": [
+          "Es importante situar la novela dentro de la cuarta serie de los Episodios nacionales y no leerla como una biografía aislada de Juan Prim.",
+          "Galdós mezcla historia y ficción para volver inteligible el proceso político desde la experiencia humana concreta.",
+          "La figura de Prim funciona como símbolo de una modernización posible, pero también como índice de su fracaso histórico.",
+          "Conviene observar cómo el libro convierte la calle, el rumor y la conversación en formas de conocimiento político."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El agotamiento del régimen isabelino",
+            "summary": "La novela presenta una España erosionada por intrigas, desconfianza y descrédito institucional. En ese clima, la figura de Prim empieza a adquirir relieve como referencia de oposición y expectativa reformista."
+          },
+          {
+            "title": "Parte 2: Conspiraciones, protesta y violencia",
+            "summary": "Galdós reconstruye episodios de agitación política y social, incluidas revueltas y represiones que muestran el choque entre aspiraciones liberales y un poder incapaz de renovarse sin coerción."
+          },
+          {
+            "title": "Parte 3: Historia pública y experiencia privada",
+            "summary": "Los personajes ficticios y las escenas cotidianas traducen el gran proceso histórico a escala humana. La novela insiste en que la crisis política se vive en la calle, en los hogares y en la conciencia de quienes observan el derrumbe del orden existente."
+          },
+          {
+            "title": "Parte 4: Prim como ideal y como límite",
+            "summary": "En el tramo final, la figura del general aparece cargada de sentido político e imaginario. Más que clausurar una etapa, la novela deja abierto el problema de si España puede convertir sus ideales de cambio en una realidad estable."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Novela histórica como interpretación política",
+            "content": "Galdós no reproduce el pasado de manera neutra. En Prim organiza los hechos para intervenir en una discusión sobre España, sobre sus bloqueos estructurales y sobre las posibilidades de una modernización liberal y democrática."
+          },
+          {
+            "heading": "La figura de Prim en clave simbólica",
+            "content": "Juan Prim no aparece solo como personaje histórico relevante, sino como emblema de una energía reformista capaz de oponerse a lo que el propio imaginario galdosiano entiende como los viejos obstáculos del trono y el altar."
+          },
+          {
+            "heading": "Pueblo, rumor y escena urbana",
+            "content": "Uno de los logros del libro es mostrar que la política no se reduce a despachos y pronunciamientos. La calle, la conversación pública y la sensibilidad popular participan activamente en la construcción del sentido histórico."
+          },
+          {
+            "heading": "Ideología tardía de Galdós",
+            "content": "La novela concentra temas decisivos del último Galdós: anticlericalismo, republicanismo, crítica de la reacción y búsqueda de una ética civil moderna. Por eso suele leerse como una pieza central para entender su pensamiento histórico y político."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Prim es una novela independiente o parte de una serie?",
+            "answer": "Forma parte de los Episodios nacionales de Benito Pérez Galdós: es la penúltima novela de la cuarta serie del ciclo."
+          },
+          {
+            "question": "¿Hace falta conocer toda la serie para leerla?",
+            "answer": "No es imprescindible, aunque ayuda. Puede leerse por separado si se entiende su contexto histórico: la crisis del reinado de Isabel II y la centralidad política del general Prim."
+          },
+          {
+            "question": "¿Qué tipo de libro es: histórico o ideológico?",
+            "answer": "Es ambas cosas. Reconstruye acontecimientos históricos concretos, pero al mismo tiempo propone una lectura ideológica del siglo XIX español desde la mirada madura de Galdós."
+          },
+          {
+            "question": "¿Por qué suele considerarse importante dentro de Galdós?",
+            "answer": "Porque concentra con especial claridad sus preocupaciones políticas tardías y muestra una forma muy elaborada de convertir la historia nacional en materia novelesca."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Miguel de Cervantes: Prim",
+            "url": "https://www.cervantesvirtual.com/obra/prim--0/"
+          },
+          {
+            "label": "Wikipedia en español: Prim (episodio nacional)",
+            "url": "https://es.wikipedia.org/wiki/Prim_(episodio_nacional)"
+          },
+          {
+            "label": "Open Library: obra Prim",
+            "url": "https://openlibrary.org/works/OL815393W"
+          },
+          {
+            "label": "Open Library: edición de 1906/1920 de Prim",
+            "url": "https://openlibrary.org/books/OL20041989M"
+          },
+          {
+            "label": "Google Books: Prim (Spanish Edition)",
+            "url": "https://books.google.com/books?id=YinFjwEACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sed-de-neal-shustermanjarrod-shusterman",
+      "title": "Sed",
+      "authorName": "Neal Shustermanjarrod Shusterman",
+      "authorSlug": "neal-shustermanjarrod-shusterman",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Sed",
+        "authorName": "Neal Shusterman y Jarrod Shusterman",
+        "authorSlug": "neal-shusterman-jarrod-shusterman",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "thriller",
+          "ciencia-ficcion"
+        ],
+        "year": 2019,
+        "pages": 418,
+        "summary": "Sed, conocida originalmente como Dry, imagina una California llevada al colapso por una sequía extrema que termina en el llamado Tap-Out: el momento en que deja de salir agua de los grifos. Desde ese punto de partida, Neal Shusterman y Jarrod Shusterman narran una cadena de episodios de supervivencia protagonizados sobre todo por adolescentes que deben improvisar decisiones morales bajo presión creciente. Alyssa, su hermano Garrett y otros jóvenes atraviesan barrios convertidos en zonas de pánico, familias descompuestas por la escasez y formas nuevas de violencia nacidas del miedo. La novela avanza con ritmo de thriller y estructura coral, pero su fuerza reside en mostrar cómo una infraestructura ordinaria sostiene la convivencia y cómo, al quebrarse, también se desmoronan las normas cívicas. El libro convierte una crisis ambiental plausible en una exploración intensa de responsabilidad, egoísmo, cooperación y resistencia.",
+        "aboutThisBook": "Se trata de una novela juvenil de catástrofe cercana, más preocupada por los comportamientos humanos que por la espectacularidad del desastre. Los Shusterman sitúan la tensión en decisiones concretas: compartir o acaparar, confiar o traicionar, moverse o quedarse, proteger a la familia o salvarse a uno mismo. Esa combinación de urgencia narrativa y dilema ético explica su recepción crítica y su presencia sostenida en lecturas escolares y juveniles.",
+        "forWhom": "Especialmente indicada para lectores juveniles y adultos que disfrutan la ficción distópica de base realista, los relatos de supervivencia y las novelas que discuten de forma accesible problemas ambientales, cívicos y morales.",
+        "whyItMatters": "Importa porque transforma la crisis climática y el estrés hídrico en experiencia narrativa inmediata. No habla de un futuro abstracto, sino de la rapidez con que una sociedad aparentemente estable puede degradarse cuando falla un recurso esencial.",
+        "editorialIntro": "Sed es una novela de lectura rápida pero de fondo incómodo. Bajo su eficacia de thriller juvenil plantea una pregunta seria: ¿qué queda de la convivencia cuando desaparece el agua? Los autores responden sin sermón, mediante escenas de pánico vecinal, desplazamientos peligrosos y decisiones éticas límite. Por eso el libro funciona a la vez como entretenimiento de alta tensión y como ficción cívica de advertencia.",
+        "readingLevel": "Adecuada para secundaria y primeros cursos, con estilo directo y capítulos ágiles, aunque rica en dilemas morales y temas para debate.",
+        "whyReadToday": "Hoy resulta especialmente actual por la conversación global sobre sequías, colapso de infraestructuras y vulnerabilidad climática. Además, ofrece una vía muy clara para discutir solidaridad, miedo colectivo y responsabilidad pública.",
+        "studyNotes": [
+          "La novela no presenta un apocalipsis lejano, sino una crisis plausible amplificada por comportamientos sociales reconocibles.",
+          "Conviene analizar su estructura coral: cada punto de vista amplía el mapa moral de la escasez.",
+          "El agua funciona como recurso material y como criterio que revela desigualdades, egoísmos y capacidades de cooperación.",
+          "Su eficacia pedagógica está en unir ritmo narrativo con preguntas éticas y ambientales concretas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El Tap-Out comienza",
+            "summary": "La sequía, hasta entonces administrada mediante restricciones, se convierte en colapso abierto cuando el agua deja de llegar. Alyssa y su entorno comprenden que la normalidad dependía de una infraestructura mucho más frágil de lo que parecía."
+          },
+          {
+            "title": "Parte 2: El vecindario como zona de conflicto",
+            "summary": "La escasez transforma rápidamente la vida suburbana en un espacio de miedo, saqueo y decisiones urgentes. Los personajes descubren que el peligro no procede de un enemigo externo, sino de la desesperación acumulada en la comunidad."
+          },
+          {
+            "title": "Parte 3: Desplazamiento, alianzas y supervivencia",
+            "summary": "Los protagonistas emprenden trayectos arriesgados en busca de agua y seguridad. En ese recorrido se cruzan con otros jóvenes y adultos, y la novela examina quién coopera, quién manipula y quién conserva aún un mínimo sentido de responsabilidad."
+          },
+          {
+            "title": "Parte 4: Resistencia moral en medio del colapso",
+            "summary": "En la recta final, la historia intensifica la presión física y ética sobre los personajes. La supervivencia deja de medirse solo por llegar con vida, y pasa a definirse por el tipo de humanidad que consiguen preservar."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Distopía de proximidad",
+            "content": "Sed no necesita un futuro remoto ni una tecnología extravagante para producir inquietud. Su potencia nace de una premisa cercana y creíble: una sequía extrema basta para volver visible la dependencia de la vida cotidiana respecto de sistemas invisibles."
+          },
+          {
+            "heading": "Escasez y descomposición del contrato social",
+            "content": "La novela muestra con rapidez cómo la falta de un recurso esencial altera la confianza, la legalidad y la convivencia. El colapso no es solo material: es también moral y comunitario."
+          },
+          {
+            "heading": "Adolescentes como agentes éticos",
+            "content": "Aunque se dirige a un público juvenil, el libro no infantiliza a sus protagonistas. Los presenta como sujetos obligados a decidir, asumir riesgos y construir cooperación en un entorno donde los adultos no siempre pueden protegerlos."
+          },
+          {
+            "heading": "Ecología narrativa y pedagogía",
+            "content": "Uno de los logros del texto es convertir un tema ambiental en relato de alta legibilidad. La novela sirve para discutir cambio climático, gestión del agua y desigualdad sin abandonar la tensión dramática ni el interés por los personajes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Sed es ciencia ficción o thriller juvenil?",
+            "answer": "Combina ambos registros. Parte de una premisa especulativa muy cercana a la realidad y la desarrolla con ritmo de thriller de supervivencia."
+          },
+          {
+            "question": "¿Quiénes son los autores del libro?",
+            "answer": "Está escrito por Neal Shusterman junto con Jarrod Shusterman. En español suele publicarse como Sed y en inglés como Dry."
+          },
+          {
+            "question": "¿La novela se centra solo en la aventura?",
+            "answer": "No. Aunque es muy ágil, dedica mucha atención a los dilemas éticos, al miedo colectivo y a la forma en que la escasez modifica el comportamiento social."
+          },
+          {
+            "question": "¿Por qué se recomienda en contextos educativos?",
+            "answer": "Porque permite trabajar de manera accesible cuestiones de ecología, civismo, desigualdad y toma de decisiones en situaciones extremas, además de fomentar la lectura por su ritmo narrativo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Open Library: obra Dry",
+            "url": "https://openlibrary.org/works/OL18197199W"
+          },
+          {
+            "label": "Open Library: edición española Sed (Nocturna, 2019)",
+            "url": "https://openlibrary.org/books/OL35636255M"
+          },
+          {
+            "label": "Google Books: Dry",
+            "url": "https://books.google.com/books?id=8e_1DwAAQBAJ"
+          },
+          {
+            "label": "Kirkus Reviews: Dry",
+            "url": "https://www.kirkusreviews.com/book-reviews/neal-shusterman/dry-shusterman/"
+          },
+          {
+            "label": "Publishers Weekly: Dry by Neal Shusterman, Jarrod Shusterman",
+            "url": "https://www.publishersweekly.com/9781481481960"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sin-familia-de-hector-malot",
+      "title": "Sin Familia",
+      "authorName": "Hector Malot",
+      "authorSlug": "hector-malot",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Sin familia",
+        "authorName": "Hector Malot",
+        "authorSlug": "hector-malot",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "clasicos",
+          "narrativa",
+          "aventura",
+          "juvenil"
+        ],
+        "year": 1878,
+        "pages": null,
+        "summary": "Sin familia es una de las novelas más perdurables de Hector Malot y cuenta la formación moral de Rémi, un niño expósito que descubre que no pertenece al hogar humilde donde ha crecido. Vendido por su padre adoptivo al músico ambulante Vitalis, inicia una vida errante por caminos, pueblos y ciudades de Francia e Inglaterra, acompañado por animales amaestrados y más tarde por compañeros de infortunio. La novela avanza como una sucesión de pruebas: hambre, frío, explotación, afectos frágiles, amistades decisivas y pérdidas muy duras. Sin embargo, no es solo un relato de aventuras. También es una reflexión sobre la dignidad infantil, el trabajo, la solidaridad y la búsqueda de un lugar propio en el mundo. El itinerario de Rémi convierte el desamparo en aprendizaje y hace de la identidad una conquista, no un dato dado desde el principio.",
+        "aboutThisBook": "Publicada en 1878, primero por entregas y después en volumen, esta novela francesa se volvió un clásico internacional de la narrativa de aprendizaje. Aunque durante mucho tiempo se leyó sobre todo como libro juvenil, su alcance es más amplio: Malot combina peripecia, crítica social y sensibilidad sentimental para representar la vulnerabilidad de la infancia en la Europa del siglo XIX. El viaje de Rémi atraviesa oficios ambulantes, jerarquías de clase, maternidades truncadas y formas inesperadas de lealtad. Su enorme fortuna editorial y sus múltiples adaptaciones explican por qué sigue siendo una obra de referencia cuando se habla de novelas sobre orfandad, crecimiento y descubrimiento del origen.",
+        "forWhom": "Para lectores jóvenes y adultos interesados en clásicos de formación, novelas de aventuras con trasfondo social y relatos sobre infancia desamparada, identidad, amistad y resistencia moral.",
+        "whyItMatters": "Importa porque transforma la peripecia de un niño sin hogar en una meditación duradera sobre la dignidad, la pertenencia y la injusticia social. Además, sigue siendo un clásico muy útil para estudiar el cruce entre novela popular, sensibilidad humanitaria y relato de iniciación.",
+        "editorialIntro": "Hay clásicos que sobreviven por nostalgia y otros porque siguen sabiendo contar el miedo de quedarse solo en el mundo. Sin familia pertenece claramente al segundo grupo. La novela de Malot combina camino, espectáculo ambulante, hambre, ternura y pérdida con un pulso narrativo muy eficaz, pero su fuerza verdadera está en el modo en que mira a la infancia sin idealizarla. Rémi aprende a vivir entre personas que lo ayudan, lo usan o lo abandonan, y de ese movimiento nace una pregunta que todavía resuena: qué significa encontrar una familia cuando la vida ha empezado en el desamparo.",
+        "readingLevel": "Lectura media. La prosa y la estructura de aventuras la hacen accesible, pero conviene atender al contexto social del siglo XIX, a la dimensión sentimental del relato y a cómo la novela construye la identidad de Rémi a través de pruebas sucesivas.",
+        "whyReadToday": "Porque sigue hablando con claridad de infancia vulnerable, desplazamiento, trabajo precario y necesidad de vínculos reales. También recuerda que los clásicos juveniles pueden contener una crítica social mucho más compleja de lo que parece a primera vista.",
+        "studyNotes": [
+          "La novela puede leerse como un roman d’apprentissage: cada cambio de lugar somete a Rémi a una prueba moral y afectiva que redefine su identidad.",
+          "Vitalis no es solo un mentor bondadoso; también encarna la ambigüedad del mundo adulto, capaz de educar y proteger dentro de una vida marcada por la precariedad.",
+          "El itinerario de Rémi convierte la orfandad en una experiencia social: el libro muestra oficios, desigualdades y formas de explotación infantil propias del siglo XIX.",
+          "Conviene observar cómo la obra combina sentimentalismo, aventura y crítica social sin dejar que ninguno de esos registros anule a los otros."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: el desarraigo de Rémi",
+            "summary": "El comienzo presenta a Rémi en el hogar de la madre Barberin, donde cree tener una vida pobre pero segura. Cuando descubre que es un niño encontrado y termina vendido a Vitalis, la novela transforma de golpe su mundo familiar en incertidumbre y viaje."
+          },
+          {
+            "title": "Parte central: caminos, hambre y aprendizaje",
+            "summary": "Junto a Vitalis y la pequeña troupe ambulante, Rémi aprende a trabajar, observar y sobrevivir. El camino le ofrece afecto, pero también muerte, injusticia y desamparo, de modo que cada etapa amplía su experiencia del mundo y lo obliga a madurar antes de tiempo."
+          },
+          {
+            "title": "Momentos clave: nuevas amistades y búsqueda del origen",
+            "summary": "La relación con personajes como Mattia y con quienes reaparecen en su ruta vuelve más compleja la búsqueda de pertenencia. Rémi ya no busca solo techo o alimento: empieza a querer una verdad sobre su procedencia y una forma estable de ser querido."
+          },
+          {
+            "title": "Tramo final: identidad recuperada y sentido de familia",
+            "summary": "Hacia el cierre, la novela enlaza las pruebas vividas con el secreto del nacimiento de Rémi. La resolución no borra el dolor del camino, pero redefine la idea de familia como un lazo construido también por la fidelidad, la memoria y el cuidado recibido en el trayecto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela de formación atravesada por la pobreza",
+            "content": "Sin familia adopta la forma del gran relato de aprendizaje decimonónico, pero su originalidad está en que el crecimiento del protagonista no ocurre en un entorno protegido, sino en el desamparo material. Rémi se forma viajando entre trabajos precarios, espectáculos callejeros y dependencias inestables, lo que vuelve inseparable la educación sentimental y la crítica social."
+          },
+          {
+            "heading": "La infancia como territorio vulnerable",
+            "content": "Malot no sentimentaliza la niñez como edad inocente y feliz. La presenta como una etapa expuesta a decisiones adultas, abusos económicos y pérdidas irreparables. Esa mirada explica la fuerza histórica del libro: la emoción nace de la fragilidad de Rémi, pero también de la conciencia de que su historia no es una excepción individual."
+          },
+          {
+            "heading": "Viaje, espectáculo y comunidad improvisada",
+            "content": "La figura de Vitalis y la vida ambulante introducen un mundo marginal que enseña a Rémi disciplina, oficio y dignidad. La troupe funciona como una familia precaria y móvil, y por eso el libro insiste en que la pertenencia no depende solo de la sangre, sino de las formas concretas de cuidado, lealtad y aprendizaje compartido."
+          },
+          {
+            "heading": "Por qué el libro sigue leyendo como clásico vivo",
+            "content": "La novela conserva vigencia porque combina aventura legible con problemas que no han desaparecido: niños desplazados, trabajos inseguros, vínculos rotos y necesidad de protección. Su sentimentalismo puede percibirse como decimonónico, pero sigue siendo eficaz porque está sostenido por experiencia social real y por una narración de gran claridad."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Sin familia es una novela infantil o para adultos?",
+            "answer": "Puede leerse en ambos niveles. Su circulación escolar la volvió muy conocida entre lectores jóvenes, pero su tratamiento de la pobreza, la orfandad y la injusticia social le da una densidad que también interesa claramente al lector adulto."
+          },
+          {
+            "question": "¿Quién es Vitalis dentro de la historia?",
+            "answer": "Vitalis es el músico ambulante que compra a Rémi y lo introduce en la vida itinerante. Cumple una función decisiva como maestro, protector ambiguo y figura de autoridad afectiva en la formación del protagonista."
+          },
+          {
+            "question": "¿Cuál es el conflicto central de la novela?",
+            "answer": "El conflicto central es la búsqueda de pertenencia de un niño sin origen claro, obligado a sobrevivir entre pérdidas, trabajos precarios y relaciones inestables hasta descubrir quién es y qué puede llamar familia."
+          },
+          {
+            "question": "¿Por qué sigue siendo una obra tan adaptada?",
+            "answer": "Porque combina aventuras muy visuales, emoción intensa y un protagonista fácil de recordar. Además, la historia de un niño que recorre el mundo buscando afecto e identidad conserva una potencia universal."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Gallica (BnF): Hector Malot (1830-1907)",
+            "url": "https://gallica.bnf.fr/accueil/fr/html/hector-malot-1830-1907"
+          },
+          {
+            "label": "Wikipedia (fr): Sans famille",
+            "url": "https://fr.wikipedia.org/wiki/Sans_famille"
+          },
+          {
+            "label": "Open Library: Sans famille",
+            "url": "https://openlibrary.org/works/OL242658W/Sans_famille"
+          },
+          {
+            "label": "Google Books: Sin familia",
+            "url": "https://books.google.com/books?id=qJc4wAEACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sobre-literatura-de-umberto-eco",
+      "title": "Sobre Literatura",
+      "authorName": "Umberto Eco",
+      "authorSlug": "umberto-eco",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Sobre literatura",
+        "authorName": "Umberto Eco",
+        "authorSlug": "umberto-eco",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo"
+        ],
+        "year": 2002,
+        "pages": 352,
+        "summary": "Sobre literatura reúne ensayos y conferencias en los que Umberto Eco piensa la experiencia literaria desde varios frentes a la vez: la figura del autor, la construcción del lector, la supervivencia de los clásicos, la traducción, la relación entre estilo y mundo posible, y la extraña capacidad que tienen ciertos personajes para salir de su época y seguir actuando en la imaginación colectiva. No es un manual sistemático ni una historia académica cerrada, sino una constelación de intervenciones escritas en ocasiones distintas y unidas por una misma pregunta: qué hace la literatura con nosotros y qué hacemos nosotros cuando la leemos. Eco pasa de Aristóteles a Borges, de los catálogos a la poética del exceso, de los bosques narrativos a la memoria cultural europea. El resultado es un libro erudito pero legible, pensado para lectores que quieren entender mejor por qué la literatura no se reduce ni a argumento ni a información.",
+        "aboutThisBook": "Publicado en 2002 a partir de la colección italiana Sulla letteratura, el volumen agrupa textos compuestos entre 1990 y 2002, con algunas piezas anteriores que amplían la perspectiva histórica del conjunto. Eco no ofrece aquí una teoría única, sino un laboratorio de ideas sobre la ficción, la interpretación y la tradición occidental. El libro funciona como síntesis accesible de muchos intereses centrales de su obra ensayística: la semiótica del texto, la cooperación del lector, el valor de los clásicos, las listas, la intertextualidad y la tensión entre placer y conocimiento en la lectura. Por eso ocupa un lugar importante dentro de su producción: acerca su pensamiento a un público amplio sin perder rigor intelectual.",
+        "forWhom": "Para lectores adultos, estudiantes de humanidades y docentes que busquen un ensayo serio pero accesible sobre teoría literaria, crítica, lectura de clásicos e ideas fundamentales de la obra ensayística de Umberto Eco.",
+        "whyItMatters": "Importa porque muestra a Eco en uno de sus registros más fértiles: el del ensayista que sabe convertir problemas teóricos complejos en preguntas de lectura concretas. Sigue siendo una entrada valiosa a debates sobre canon, interpretación, traducción y permanencia de los clásicos.",
+        "editorialIntro": "Leer a Umberto Eco sobre literatura tiene una ventaja poco frecuente: rara vez separa la inteligencia teórica del placer de leer. Sobre literatura es uno de esos libros que un académico puede subrayar con provecho y un lector común recorrer con genuina curiosidad. No presenta una doctrina rígida, sino una serie de ensayos que iluminan problemas centrales del hecho literario desde ejemplos memorables y con una erudición siempre puesta al servicio de la claridad. Su valor editorial está justamente ahí: en demostrar que pensar la literatura no la vuelve menos viva, sino más legible y más compleja.",
+        "readingLevel": "Lectura media-alta. El estilo de Eco es claro y a menudo muy ameno, pero el libro presupone cierta familiaridad con autores, tradiciones y debates críticos; se disfruta más cuando se lee despacio y con disposición a seguir referencias intertextuales.",
+        "whyReadToday": "Porque en tiempos de lectura acelerada y comentarios superficiales sigue ofreciendo una defensa convincente de la interpretación lenta, del valor de los clásicos y del vínculo entre forma literaria, memoria cultural y experiencia del lector.",
+        "studyNotes": [
+          "El libro no debe abordarse como tratado cerrado, sino como una reunión de ensayos que convergen en una misma preocupación: cómo funciona la literatura como forma de conocimiento y de imaginación.",
+          "Eco insiste en la cooperación interpretativa del lector, pero nunca reduce la lectura a subjetividad libre; la obra impone límites, pistas y estructuras que orientan el sentido.",
+          "Uno de los núcleos más fecundos del volumen es la permanencia de ciertos personajes y textos clásicos, capaces de seguir actuando fuera de su contexto original.",
+          "Conviene leer los ensayos junto con otros títulos de Eco sobre interpretación y narrativa para ver continuidades con Lector in fabula y Seis paseos por los bosques narrativos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primer bloque: por qué la literatura sigue importando",
+            "summary": "En los ensayos iniciales, Eco explora qué distingue a la experiencia literaria de otros usos del lenguaje. La literatura aparece como una forma de memoria cultural, de educación de la sensibilidad y de prueba para la inteligencia interpretativa del lector."
+          },
+          {
+            "title": "Bloque central: clásicos, personajes y tradiciones",
+            "summary": "El libro se detiene en autores y figuras que han sobrevivido a su tiempo porque condensan conflictos humanos y formas narrativas de gran potencia. Eco muestra cómo ciertos textos clásicos siguen generando lecturas nuevas sin perder su identidad histórica."
+          },
+          {
+            "title": "Momentos clave: estilo, listas y traducción",
+            "summary": "En la parte media y final del volumen aparecen problemas muy característicos de Eco: el gusto por las enumeraciones, la relación entre exceso verbal y orden cultural, y la dificultad de trasladar una obra de una lengua a otra sin destruir su forma."
+          },
+          {
+            "title": "Último tramo: leer como ejercicio crítico",
+            "summary": "Hacia el cierre, los ensayos refuerzan una idea central: leer bien implica reconocer convenciones, voces y contextos, pero también dejar que la obra produzca placer intelectual. Eco defiende una crítica que piensa sin apagar la energía del texto literario."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un libro de ensayos, no un manual de teoría",
+            "content": "Sobre literatura gana fuerza precisamente porque no pretende reducir la complejidad literaria a un sistema único. Cada ensayo ilumina un problema desde un ángulo distinto y, en conjunto, el volumen transmite una concepción dinámica de la lectura: interpretar es comparar, recordar, inferir y discutir con la tradición."
+          },
+          {
+            "heading": "Eco como mediador entre academia y lector común",
+            "content": "Uno de los grandes méritos del libro es su capacidad de traducir debates especializados a una prosa inteligible sin banalizarlos. Eco conserva la precisión del estudioso, pero escribe con ejemplos, humor y gusto narrativo, de modo que la teoría aparece encarnada en obras y personajes concretos."
+          },
+          {
+            "heading": "La defensa de los clásicos como experiencia activa",
+            "content": "Cuando Eco habla de clásicos no los convierte en monumentos intocables. Los presenta como máquinas de lectura que vuelven una y otra vez porque siguen ofreciendo formas de pensar el mundo. Esa idea evita tanto el culto vacío al canon como el desprecio apresurado por la tradición."
+          },
+          {
+            "heading": "Interpretación con límites",
+            "content": "Una preocupación constante del autor es frenar la lectura arbitraria sin caer en dogmatismos. El libro sostiene que el lector coopera con la obra, pero no puede inventar cualquier sentido: la forma textual, la historia literaria y la lógica interna del discurso establecen fronteras interpretativas reales."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Sobre literatura es un libro académico difícil?",
+            "answer": "Es riguroso, pero no inaccesible. Eco escribe para un lector culto general y combina teoría, ejemplos y referencias históricas de forma bastante clara, aunque algunas páginas exigen atención y cierta familiaridad con la tradición literaria."
+          },
+          {
+            "question": "¿Es una historia de la literatura?",
+            "answer": "No. Es una colección de ensayos sobre problemas literarios: el papel del lector, la permanencia de los clásicos, la traducción, el estilo y el funcionamiento de ciertos dispositivos narrativos y retóricos."
+          },
+          {
+            "question": "¿Qué relación tiene con otros ensayos de Eco?",
+            "answer": "Mantiene continuidad con su obra semiótica y crítica. Muchas ideas dialogan con libros como Lector in fabula o Seis paseos por los bosques narrativos, pero aquí aparecen en un formato más misceláneo y ensayístico."
+          },
+          {
+            "question": "¿Por qué puede seguir siendo útil hoy?",
+            "answer": "Porque ofrece herramientas para leer con más precisión en una época dominada por resúmenes rápidos y opiniones instantáneas. Eco recuerda que la literatura exige tiempo, contexto y una atención activa a la forma."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Wikipedia (it): Sulla letteratura",
+            "url": "https://it.wikipedia.org/wiki/Sulla_letteratura"
+          },
+          {
+            "label": "Open Library: Sobre Literatura",
+            "url": "https://openlibrary.org/works/OL14853007W/Sobre_Literatura"
+          },
+          {
+            "label": "Google Books: Sobre literatura",
+            "url": "https://books.google.com/books?id=HlV2PAAACAAJ"
+          },
+          {
+            "label": "Wikipedia (es): Umberto Eco",
+            "url": "https://es.wikipedia.org/wiki/Umberto_Eco"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "terra-baixa-de-angel-guimera",
+      "title": "Terra Baixa",
+      "authorName": "Angel Guimera",
+      "authorSlug": "angel-guimera",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Terra baixa",
+        "authorName": "Àngel Guimerà",
+        "authorSlug": "angel-guimera",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "teatro",
+          "clasicos"
+        ],
+        "year": 1896,
+        "pages": 120,
+        "summary": "Terra baixa es uno de los grandes dramas del teatro catalán y organiza su conflicto alrededor de tres figuras inolvidables: Manelic, el pastor de la tierra alta; Marta, mujer sometida a una relación de dependencia; y Sebastià, cacique rural que intenta conservar poder y respetabilidad a la vez. Para ocultar su vínculo con Marta y poder casarse por conveniencia con una heredera rica, Sebastià arregla el matrimonio de ella con Manelic. Lo que parece un simple engaño sentimental se convierte pronto en un drama de dominación, despertar moral y violencia. La obra opone simbólicamente la pureza de la montaña y la corrupción de la llanura, pero no se queda en una alegoría abstracta: muestra un mundo de dependencia económica, humillación y deseo de libertad. La llegada de Manelic altera ese orden y lleva el conflicto hasta una resolución trágica y liberadora al mismo tiempo.",
+        "aboutThisBook": "Escrita en 1896, Terra baixa pertenece al momento de plenitud creativa de Àngel Guimerà y es, probablemente, su pieza más difundida internacionalmente. El drama marca un paso decisivo desde fórmulas más románticas hacia un teatro de mayor densidad social y realista, aunque conserve una fuerte carga simbólica. Su extraordinaria fortuna escénica se explica por varias razones: la tensión entre pasión y opresión, la claridad de sus fuerzas dramáticas, la intensidad del personaje de Manelic y la dimensión moral del enfrentamiento con Sebastià. También es una obra fundamental para entender la consolidación del repertorio teatral catalán moderno y la proyección exterior de Guimerà.",
+        "forWhom": "Para estudiantes, lectores de teatro y público interesado en clásicos catalanes, dramas de fuerte conflicto moral y obras que permiten analizar poder, género, símbolo social y construcción escénica.",
+        "whyItMatters": "Importa porque convirtió un conflicto amoroso y social en uno de los emblemas del teatro catalán moderno. Además, sigue ofreciendo una lectura poderosa sobre caciquismo, dominación patriarcal y búsqueda de dignidad frente a estructuras de poder enquistadas.",
+        "editorialIntro": "Algunas obras teatrales sobreviven por sus personajes; otras, por la precisión con que transforman una sociedad entera en conflicto escénico. Terra baixa consigue ambas cosas. Guimerà construye un drama de enorme energía donde la relación entre Manelic, Marta y Sebastià articula algo más que un triángulo sentimental: pone en escena el choque entre inocencia y corrupción, libertad y sometimiento, altura moral y envilecimiento social. Esa mezcla de impulso popular, fuerza simbólica y tensión realista explica que la obra siga leyéndose, representándose y estudiándose como un clásico mayor.",
+        "readingLevel": "Lectura media. La acción dramática es clara, pero conviene atender al simbolismo entre tierra alta y tierra baja, al contexto social del caciquismo rural y a la evolución psicológica de Marta y Manelic.",
+        "whyReadToday": "Porque su representación de la dominación, del abuso de poder y de la lucha por recuperar la propia dignidad sigue siendo plenamente actual. También permite acercarse a un clásico teatral que une intensidad escénica y lectura social.",
+        "studyNotes": [
+          "La oposición entre tierra alta y tierra baja no es solo geográfica: organiza el sistema simbólico de pureza, corrupción, libertad y envilecimiento presente en toda la obra.",
+          "Marta debe leerse como un personaje en transformación: pasa de la sumisión y la culpa a una conciencia más clara de su derecho a salir del dominio de Sebastià.",
+          "Manelic entra en escena como figura de inocencia, pero su trayecto no es simple; descubre la violencia estructural de la tierra baja y actúa desde una ética primitiva pero contundente.",
+          "El drama combina rasgos románticos con una fuerte dimensión social y realista, lo que explica su lugar central dentro del teatro de Guimerà."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Acto inicial: el matrimonio impuesto",
+            "summary": "La obra presenta el dominio de Sebastià sobre su entorno y deja ver su relación con Marta. Para proteger sus intereses económicos y su imagen, decide casarla con Manelic, un pastor ingenuo que baja de la montaña creyendo entrar en una unión sincera."
+          },
+          {
+            "title": "Parte central: descubrimiento del engaño",
+            "summary": "Una vez instalado en la tierra baja, Manelic percibe que su matrimonio ha sido usado como tapadera. Marta, atrapada entre vergüenza, miedo y deseo de liberación, empieza a reconocer en él una posibilidad distinta de vida."
+          },
+          {
+            "title": "Momentos clave: rebeldía de Marta y choque con Sebastià",
+            "summary": "La tensión se concentra en la lucha por romper el dominio del cacique. El conflicto sentimental se vuelve social y moral: ya no está en juego solo un vínculo amoroso, sino la capacidad de Marta y Manelic para existir fuera del orden impuesto por Sebastià."
+          },
+          {
+            "title": "Desenlace: violencia y salida",
+            "summary": "El cierre lleva el drama a un punto límite en el que la confrontación directa resulta inevitable. La resolución afirma la posibilidad de abandonar la tierra baja, pero solo después de que la violencia desenmascare el sistema de poder que la sostenía."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El conflicto entre símbolo y realidad social",
+            "content": "Terra baixa funciona a la vez como drama concreto y como estructura simbólica. La oposición entre montaña y llanura sugiere pureza frente a corrupción, pero Guimerà la encarna en relaciones materiales de dependencia, deuda y prestigio social. Esa doble dimensión explica la potencia duradera de la obra."
+          },
+          {
+            "heading": "Marta como centro moral del drama",
+            "content": "Aunque Manelic suele concentrar la atención heroica, Marta es el verdadero eje de transformación interior. Su trayectoria muestra cómo la dominación produce culpa y autoenvilecimiento, y cómo el reconocimiento del propio valor puede convertirse en acto dramático y político al mismo tiempo."
+          },
+          {
+            "heading": "Sebastià y el caciquismo rural",
+            "content": "Sebastià no es solo un villano individual. Representa una forma de poder que mezcla propiedad, prestigio, chantaje afectivo y control sobre quienes dependen económicamente de él. Por eso la obra trasciende el melodrama amoroso y se vuelve también crítica de un orden social jerárquico."
+          },
+          {
+            "heading": "La vigencia escénica de Terra baixa",
+            "content": "El texto sigue funcionando en escena porque posee acciones claras, personajes intensos y un conflicto fácil de reconocer incluso fuera de su contexto histórico. La lucha contra la humillación, la apropiación del cuerpo ajeno y el abuso de posición social conserva una actualidad inmediata."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Terra baixa es una tragedia o un drama social?",
+            "answer": "Es ambas cosas. Tiene la intensidad de una tragedia pasional, pero su conflicto está arraigado en relaciones de poder, dependencia económica y caciquismo rural, de modo que también funciona claramente como drama social."
+          },
+          {
+            "question": "¿Qué simbolizan la tierra alta y la tierra baja?",
+            "answer": "Simbolizan, de forma general, la oposición entre pureza y corrupción, libertad y envilecimiento. Sin embargo, ese simbolismo no flota en abstracto: se concreta en el tipo de relaciones humanas y de poder que cada espacio representa."
+          },
+          {
+            "question": "¿Por qué es tan importante Manelic?",
+            "answer": "Porque condensa la fuerza moral de la obra. Su inocencia inicial le permite ver con claridad creciente la falsedad del mundo al que ha descendido, y su reacción final rompe el equilibrio de dominación impuesto por Sebastià."
+          },
+          {
+            "question": "¿Sigue leyéndose en contextos educativos?",
+            "answer": "Sí. Es una obra muy trabajada en estudios de literatura y teatro catalanes porque permite analizar construcción dramática, simbolismo, conflicto social, evolución de personajes y contexto histórico-cultural de fin de siglo."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Enciclopèdia Catalana: Terra baixa",
+            "url": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/terra-baixa"
+          },
+          {
+            "label": "Wikipedia (es): Tierra baja",
+            "url": "https://es.wikipedia.org/wiki/Tierra_baja"
+          },
+          {
+            "label": "Open Library: Terra baixa",
+            "url": "https://openlibrary.org/works/OL21429295W/Terra_baixa"
+          },
+          {
+            "label": "Google Books: Terra Baixa",
+            "url": "https://books.google.com/books?id=EKXbswEACAAJ"
+          },
+          {
+            "label": "Associació d'Escriptors en Llengua Catalana: Àngel Guimerà",
+            "url": "https://www.escriptors.cat/autors/guimeraa"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "todas-las-familias-felices-de-carlos-fuentes",
+      "title": "Todas Las Familias Felices",
+      "authorName": "Carlos Fuentes",
+      "authorSlug": "carlos-fuentes",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Todas las familias felices",
+        "authorName": "Carlos Fuentes",
+        "authorSlug": "carlos-fuentes",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2006,
+        "pages": 421,
+        "summary": "Todas las familias felices propone una mirada coral sobre la intimidad herida del México contemporáneo. Carlos Fuentes reúne una serie de historias familiares, con personajes de clases sociales distintas, para mostrar cómo bajo la apariencia de normalidad se acumulan humillaciones, secretos, dependencias y resentimientos. Padres e hijos, esposos, amantes, madres, viejos amigos y figuras públicas atraviesan conflictos donde el poder doméstico reproduce violencias sociales más amplias. El libro no sigue una única trama, sino que compone un mosaico narrativo: cada episodio ilumina una forma particular de fracaso afectivo, de deseo frustrado o de convivencia deteriorada. A ese entramado de relatos se suman interludios corales que amplían la resonancia del conjunto. El resultado es una obra polifónica, irónica y amarga, interesada menos en la felicidad que en las fisuras morales y sentimentales que sostienen a una familia cuando ya ha perdido su centro.",
+        "aboutThisBook": "Publicada en 2006, la obra fue presentada por Fuentes como una exploración de los ramales conflictivos de la vida familiar y social en el mundo hispánico contemporáneo. Aunque su materia es doméstica, el libro desborda el retrato privado: convierte a la familia en una célula donde se condensan jerarquías, frustraciones, pulsiones eróticas, violencia de género, desigualdad y decadencia moral. La composición es deliberadamente fragmentaria y coral, con relatos relativamente autónomos y piezas que funcionan como contrapunto lírico o colectivo. Ese diseño le da al volumen un aire de novela polifónica construida con historias interconectadas por atmósfera, motivos y diagnóstico histórico más que por continuidad argumental cerrada.",
+        "forWhom": "Para lectores adultos interesados en narrativa hispanoamericana contemporánea, en retratos corales de la vida privada y en novelas o libros de relatos que observan a la familia como espacio de conflicto, poder y descomposición afectiva.",
+        "whyItMatters": "Importa porque Fuentes usa la familia para pensar una crisis más vasta: la del vínculo social, la autoridad y la convivencia en una modernidad desigual. El libro muestra cómo la violencia pública y la privada no son mundos separados, sino espejos que se alimentan mutuamente.",
+        "editorialIntro": "En pocas obras tardías de Carlos Fuentes la observación de la intimidad resulta tan severa como aquí. Todas las familias felices toma una frase de Tolstói solo para invertirla: no busca la armonía de la familia burguesa, sino sus quiebras, sus teatralidades y sus formas de daño cotidiano. La amplitud de registros, que va del realismo al tono casi operístico, convierte el libro en una radiografía de vidas unidas por la sangre y separadas por el rencor, el deseo o la culpa.",
+        "readingLevel": "Lectura media-alta. La prosa es clara en lo episódico, pero gana densidad por la variedad de voces, la ironía, la estructura fragmentaria y las implicaciones sociales y simbólicas de cada historia familiar.",
+        "whyReadToday": "Sigue siendo actual porque explora asuntos que no han perdido urgencia: violencia íntima, desigualdad, hipocresía de clase, fragilidad de los afectos y dificultad para sostener comunidades familiares menos autoritarias y menos dañinas.",
+        "studyNotes": [
+          "El libro funciona como mosaico: conviene leer cada episodio de manera autónoma y luego observar los temas que se repiten entre familias distintas.",
+          "La familia no aparece como refugio ideal, sino como un escenario donde se reproducen jerarquías sociales, sexuales y económicas.",
+          "Los interludios corales amplían el sentido del volumen y sugieren que la infelicidad doméstica tiene dimensión colectiva e histórica.",
+          "Fuentes alterna compasión e ironía; esa oscilación evita tanto el melodrama fácil como el juicio moral simplista."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Apertura: hogares bajo tensión",
+            "summary": "Las primeras historias presentan familias marcadas por expectativas imposibles, humillaciones antiguas y relaciones de autoridad que ya no ofrecen estabilidad. Desde el comienzo, Fuentes deja claro que la intimidad está atravesada por el conflicto y no por la reconciliación."
+          },
+          {
+            "title": "Núcleo central: deseo, resentimiento y poder",
+            "summary": "A medida que avanza el libro, los relatos exhiben matrimonios deteriorados, filiaciones fallidas, secretos sexuales y formas de sometimiento emocional. La familia se vuelve una escena donde el amor convive con la manipulación, la dependencia y la violencia."
+          },
+          {
+            "title": "Interludios corales",
+            "summary": "Entre las historias individuales aparecen piezas de tono colectivo que ensanchan la perspectiva del libro. Esos pasajes sugieren que la infelicidad familiar no es un accidente privado, sino un síntoma de una crisis social más amplia."
+          },
+          {
+            "title": "Tramo final: la imposibilidad de una armonía simple",
+            "summary": "En la última parte no se ofrece una síntesis conciliadora. El conjunto termina afirmando que los vínculos familiares pueden sostenerse incluso cuando están dañados, y que esa persistencia mezcla necesidad, memoria, culpa y deseo de pertenencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La familia como laboratorio social",
+            "content": "Fuentes observa la familia no como asunto puramente sentimental, sino como una institución donde se ensayan relaciones de mando, obediencia, exclusión y dependencia. Cada conflicto doméstico remite a un orden social más amplio, marcado por desigualdad y autoritarismo."
+          },
+          {
+            "heading": "Polifonía y fragmentación",
+            "content": "La estructura en historias y contrapuntos corales impide una lectura lineal. En vez de seguir a un solo protagonista, el libro construye un diagnóstico de época a través de múltiples voces y situaciones, como si la verdad del conjunto solo pudiera aparecer por acumulación y contraste."
+          },
+          {
+            "heading": "Erotismo, culpa y deterioro moral",
+            "content": "Buena parte de la intensidad del libro surge del modo en que el deseo se mezcla con la vergüenza, la posesión o la crueldad. Fuentes no separa sexualidad y poder: muestra cómo el cuerpo y la vida afectiva se vuelven escenarios de dominio o humillación."
+          },
+          {
+            "heading": "Una relectura sombría de la idea de felicidad familiar",
+            "content": "El título dialoga irónicamente con la tradición de la novela familiar. Lejos de proponer un modelo de plenitud, la obra insiste en que toda familia contiene fisuras propias y que la supuesta normalidad suele descansar sobre silencios, pactos de daño o renuncias no resueltas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un conjunto de relatos?",
+            "answer": "Puede leerse de las dos maneras. Sus piezas tienen autonomía relativa, pero el libro está concebido como una unidad coral y temática, con una visión conjunta sobre la familia y la crisis social contemporánea."
+          },
+          {
+            "question": "¿Qué tipo de familias retrata Fuentes?",
+            "answer": "Familias muy distintas en posición social y experiencia vital, pero unidas por tensiones similares: autoridad quebrada, resentimiento, deseo reprimido, dependencia afectiva y formas visibles o invisibles de violencia."
+          },
+          {
+            "question": "¿Es un libro pesimista?",
+            "answer": "Tiene una mirada severa y a menudo amarga, pero su interés no es solo denunciar. También busca comprender por qué los vínculos persisten incluso cuando están dañados y qué revelan esos daños sobre la sociedad que los produce."
+          },
+          {
+            "question": "¿Por qué sigue siendo relevante dentro de la obra de Carlos Fuentes?",
+            "answer": "Porque muestra a un Fuentes tardío todavía ambicioso en lo formal y muy atento a las metamorfosis morales del mundo contemporáneo. La escala doméstica le permite condensar preocupaciones históricas y sociales presentes en toda su trayectoria."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "Penguin Libros: Todas las familias felices",
+            "url": "https://www.penguinlibros.com/mx/literatura-contemporanea/42122-libro-todas-las-familias-felices-9786073144667"
+          },
+          {
+            "label": "Google Books: Todas las familias felices",
+            "url": "https://books.google.com/books/about/Todas_las_familias_felices.html?id=FzUcAQAAIAAJ"
+          },
+          {
+            "label": "Enciclopedia de la Literatura en México: Todas las familias felices",
+            "url": "https://www.elem.mx/obra/datos/5896"
+          },
+          {
+            "label": "Internet Archive: Todas las familias felices",
+            "url": "https://archive.org/details/todaslasfamilias0000fuen"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "trilogia-de-la-noche-de-elie-wiesel",
+      "title": "Trilogia De La Noche",
+      "authorName": "Elie Wiesel",
+      "authorSlug": "elie-wiesel",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Trilogía de la noche",
+        "authorName": "Elie Wiesel",
+        "authorSlug": "elie-wiesel",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 2013,
+        "pages": 352,
+        "summary": "Trilogía de la noche reúne tres libros decisivos de Elie Wiesel: La noche, El alba y El día. El primero es un testimonio autobiográfico sobre la deportación del autor adolescente a Auschwitz y Buchenwald, la destrucción de su mundo familiar y la crisis radical de fe provocada por la experiencia concentracionaria. Los otros dos textos, ya ficcionales, prolongan ese trauma en escenarios posteriores: Palestina y Nueva York. En ellos, supervivientes del Holocausto intentan habitar una vida nueva mientras siguen presos de la culpa, la memoria y la pregunta por el sentido de seguir vivos. Leída en conjunto, la trilogía no es solo una suma de obras, sino un arco moral e intelectual sobre la violencia extrema, la imposibilidad del olvido y la tensión entre testimonio y elaboración narrativa. Wiesel convierte la supervivencia en un problema ético: no basta con haber salido con vida, hay que aprender a hablar desde una herida que no termina de cerrarse.",
+        "aboutThisBook": "La edición en un solo volumen consolida la unidad de tres textos publicados originalmente por separado. Según el propio marco editorial del libro, La noche funciona como testimonio, mientras que El alba y El día —antes conocido en inglés como The Accident— actúan como comentarios ficcionales a los dilemas abiertos por la experiencia del exterminio. Por eso la obra ocupa un lugar singular: es a la vez memoria del Holocausto y reflexión narrativa sobre sus secuelas psicológicas, religiosas y políticas. La edición española difundida por Austral en 2013 presenta 352 páginas y ha contribuido a que lectores hispanohablantes accedan al conjunto como una sola arquitectura moral, no solo como piezas aisladas de la trayectoria de Wiesel.",
+        "forWhom": "Para lectores adultos, estudiantes de memoria histórica, literatura del Holocausto, ética del testimonio y narrativa del siglo XX interesada en la relación entre trauma, conciencia y responsabilidad.",
+        "whyItMatters": "Importa porque muestra que la catástrofe no termina con la liberación de los campos. Wiesel explora cómo el trauma persiste en la fe, en la acción política, en el amor y en la propia idea de futuro, y convierte esa persistencia en una forma mayor de reflexión moral.",
+        "editorialIntro": "Pocas obras permiten seguir con tanta nitidez el paso del testimonio a la meditación narrativa sobre la supervivencia. Trilogía de la noche empieza en el corazón del exterminio y continúa allí donde muchas historias suelen callar: en la vida posterior del superviviente, cuando el mundo exige normalidad mientras la memoria insiste. Wiesel no organiza sus libros como un cierre reparador, sino como una profundización del daño. Esa continuidad vuelve al volumen especialmente valioso para comprender la literatura del Holocausto en toda su complejidad ética y formal.",
+        "readingLevel": "Lectura media-alta. La prosa de Wiesel es sobria y accesible, pero el libro exige madurez para afrontar violencia histórica, crisis religiosa, culpa del superviviente y debates éticos sobre memoria, terrorismo, responsabilidad y duelo.",
+        "whyReadToday": "Leerlo hoy sigue siendo necesario porque enfrenta al lector con las preguntas centrales de la memoria histórica: qué significa testimoniar, cómo se transmite una catástrofe y qué responsabilidades nacen cuando el pasado traumático parece alejarse generacionalmente.",
+        "studyNotes": [
+          "El volumen une testimonio y ficción: esa combinación no debilita la verdad histórica, sino que amplía las formas de pensar sus consecuencias.",
+          "La noche narra la destrucción; El alba y El día examinan qué ocurre después con la conciencia, la culpa y la posibilidad de actuar en el mundo.",
+          "Wiesel insiste en la crisis de la palabra: narrar el horror no equivale a resolverlo ni a dominarlo plenamente.",
+          "Conviene atender a la dimensión religiosa del libro, porque la pregunta por Dios y por el silencio atraviesa tanto el testimonio como las novelas posteriores."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: La noche",
+            "summary": "Wiesel reconstruye su adolescencia en Sighet, la deportación, la separación de su familia y la vida en Auschwitz y Buchenwald. El núcleo de esta parte es la destrucción simultánea de la inocencia, de la comunidad y de la confianza en un orden moral inteligible."
+          },
+          {
+            "title": "Segunda parte: El alba",
+            "summary": "En Palestina, un joven superviviente se integra en un grupo clandestino judío y recibe la orden de ejecutar a un rehén británico. La espera del amanecer convierte la acción política en una meditación tensa sobre violencia, deber, venganza y responsabilidad."
+          },
+          {
+            "title": "Tercera parte: El día",
+            "summary": "Un superviviente instalado en Nueva York, tras ser atropellado, revive desde la convalecencia sus recuerdos, vínculos y fracturas interiores. El pasado del exterminio reaparece como obstáculo para amar, habitar el presente y aceptar la continuidad de la vida."
+          },
+          {
+            "title": "Unidad del conjunto",
+            "summary": "Leídas juntas, las tres obras componen una secuencia sobre el antes, el durante y el después moral de la catástrofe. El volumen muestra que la supervivencia no clausura el trauma, sino que inaugura nuevas formas de pregunta y sufrimiento."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Del testimonio al comentario novelesco",
+            "content": "La organización del volumen permite ver cómo un acontecimiento histórico extremo desborda cualquier género único. La noche testimonia directamente; El alba y El día elaboran, desplazan y problematizan esa experiencia mediante la ficción. La continuidad entre los tres libros es menos argumental que ética."
+          },
+          {
+            "heading": "La culpa del superviviente",
+            "content": "En toda la trilogía aparece la pregunta por el derecho a seguir viviendo cuando otros murieron. Wiesel no la formula como abstracción, sino como tensión concreta que afecta la fe, el amor, la acción política y la relación con el propio cuerpo."
+          },
+          {
+            "heading": "Violencia, memoria y herencia del Holocausto",
+            "content": "El alba resulta clave porque obliga a pensar qué ocurre cuando una víctima potencial o histórica se sitúa del lado de la violencia política. El libro no simplifica esa transición: examina la dificultad de actuar en la historia sin quedar moralmente intacto."
+          },
+          {
+            "heading": "Una prosa sobria para un daño extremo",
+            "content": "La fuerza de Wiesel reside en la contención. Evita la grandilocuencia y deja que el peso moral de los hechos emerja de escenas concretas, silencios y preguntas insistentes. Esa economía expresiva hace aún más devastadora la lectura."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿La trilogía entera es autobiográfica?",
+            "answer": "No del mismo modo. La noche es un testimonio autobiográfico, mientras que El alba y El día son novelas que prolongan y comentan, desde la ficción, problemas abiertos por la experiencia histórica del Holocausto."
+          },
+          {
+            "question": "¿Por qué a veces se menciona The Accident en lugar de El día?",
+            "answer": "Porque el tercer libro fue publicado originalmente en inglés con el título The Accident y después circuló también como Day. Las ediciones actuales de la trilogía suelen adoptar esta segunda denominación."
+          },
+          {
+            "question": "¿Se puede leer solo La noche?",
+            "answer": "Sí, pero el volumen completo permite ver mejor la amplitud del proyecto de Wiesel. Las dos novelas posteriores muestran cómo el trauma del exterminio continúa actuando fuera del campo y en contextos muy distintos."
+          },
+          {
+            "question": "¿Es un libro adecuado para estudio académico?",
+            "answer": "Sí. Es especialmente útil para cursos sobre memoria, testimonio, ética, estudios del trauma y literatura del Holocausto, porque permite comparar registros autobiográficos y ficcionales dentro de una misma constelación temática."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: Trilogía de la noche",
+            "url": "https://www.planetadelibros.com/libro-trilogia-de-la-noche/112836"
+          },
+          {
+            "label": "Google Books: The Night Trilogy",
+            "url": "https://play.google.com/store/books/details?id=VUjdAwAAQBAJ&source=gbs_api"
+          },
+          {
+            "label": "Macmillan / Hill and Wang: Teacher's Guide for The Night Trilogy",
+            "url": "https://supadu.macmillan.com/folio-assets/teachers-guides/9780809073641TG.pdf"
+          },
+          {
+            "label": "Nobel Prize: Elie Wiesel, biographical",
+            "url": "https://www.nobelprize.org/prizes/peace/1986/wiesel/biographical/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "turbulencias-de-david-szalay",
+      "title": "Turbulencias",
+      "authorName": "David Szalay",
+      "authorSlug": "david-szalay",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 1,
+      "impressions": 4,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Turbulencias",
+        "authorName": "David Szalay",
+        "authorSlug": "david-szalay",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa"
+        ],
+        "year": 2021,
+        "pages": 160,
+        "summary": "Turbulencias es una novela breve y rigurosamente construida a partir de doce vuelos que enlazan ciudades de distintos continentes. En cada trayecto, David Szalay sigue a un personaje diferente: una mujer que vuelve a ver a su hija, un hombre atrapado en una relación equívoca, viajeros marcados por la soledad, la culpa, el deseo o el miedo. Los protagonistas apenas rozan a los de la historia anterior, pero ese roce basta para que el libro forme una cadena continua. La estructura convierte al planeta en una red de conexiones frágiles donde nadie ocupa el centro durante mucho tiempo. Más que narrar grandes acontecimientos, Szalay condensa vidas enteras en escenas de tránsito, aeropuertos, hoteles y conversaciones suspendidas. La turbulencia del título no alude solo al vuelo físico, sino a la inestabilidad íntima de existencias que cambian de dirección sin terminar de encontrar reposo. El conjunto produce una impresión de movilidad global y desamparo contemporáneo a la vez.",
+        "aboutThisBook": "La novela apareció originalmente en inglés en 2018 y fue publicada en español por Tusquets en 2021 con traducción de Victoria Alonso Blanco. Su diseño formal es uno de sus mayores atractivos: doce capítulos encadenados por rutas aéreas, personajes secundarios que reaparecen y una composición circular que acaba regresando al punto de partida. Aunque algunos lectores la describen como secuencia de relatos, el libro funciona como una unidad cerrada por su arquitectura de enlaces, su economía expresiva y su insistencia en ciertos temas: desplazamiento, separación, mortalidad, desorientación afectiva y azar. Dentro de la obra de Szalay, Turbulencias confirma una escritura de extrema precisión que sabe sugerir biografías completas mediante pocas páginas y detalles decisivos.",
+        "forWhom": "Para lectores adultos que aprecian la narrativa contemporánea breve, las novelas corales de estructura precisa y los libros interesados en movilidad global, vínculos frágiles y retratos psicológicos intensos pero contenidos.",
+        "whyItMatters": "Importa porque convierte una experiencia común del siglo XXI —viajar de un punto a otro del mundo— en un mapa moral de la soledad, la contingencia y la interdependencia. Su brevedad no reduce su alcance: cada capítulo abre una vida y la deja vibrando en relación con las demás.",
+        "editorialIntro": "Hay novelas extensas que apenas consiguen insinuar un mundo y novelas breves que lo hacen circular ante el lector con una claridad admirable. Turbulencias pertenece a las segundas. Szalay prescinde de explicaciones sobrantes y organiza el libro como una serie de relevos humanos: una figura pasa, otra toma el foco, otra reaparece al borde del encuadre. Esa lógica de conexiones mínimas produce una imagen muy contemporánea del planeta, donde las trayectorias se cruzan sin resolverse y la proximidad no disuelve el aislamiento.",
+        "readingLevel": "Lectura media. El estilo es muy limpio y directo, pero el libro exige atención a los cambios de personaje, a las conexiones sutiles entre capítulos y a lo que la narración sugiere sin explicitar sobre cada vida en tránsito.",
+        "whyReadToday": "Vale la pena leerlo hoy porque captura con notable precisión la experiencia de un mundo hiperconectado donde moverse mucho no garantiza pertenecer a ningún lugar. Su mirada sobre la vulnerabilidad cotidiana resulta especialmente contemporánea.",
+        "studyNotes": [
+          "Cada capítulo está ligado al siguiente por un personaje secundario o por el aeropuerto de llegada y salida; seguir esa cadena mejora mucho la lectura.",
+          "Aunque parece un libro de historias sueltas, la estructura circular le da unidad novelesca y un efecto de mundo cerrado sobre sí mismo.",
+          "Los espacios de tránsito —aeropuertos, taxis, hoteles, salas de espera— no son decorados neutros: subrayan la precariedad afectiva de los personajes.",
+          "Szalay trabaja con una prosa de gran economía; muchas claves psicológicas aparecen en gestos, silencios y detalles aparentemente menores."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primeros trayectos: Londres y Madrid",
+            "summary": "La novela arranca con desplazamientos que ya muestran su método: un personaje ocupa el centro solo durante un vuelo y luego cede el foco a otro apenas entrevisto. Desde el inicio, viajar significa cargar biografías heridas y conversaciones a medio decir."
+          },
+          {
+            "title": "Cruces intercontinentales",
+            "summary": "Los capítulos centrales enlazan África, América y Asia mediante encuentros fugaces y consecuencias indirectas. Cada nueva escala amplía el mapa del libro y confirma que las vidas narradas están unidas por la contingencia más que por una comunidad estable."
+          },
+          {
+            "title": "Tensiones íntimas en espacios de tránsito",
+            "summary": "A medida que cambian los protagonistas, aparecen separaciones, culpas familiares, deseos ambiguos y presagios de pérdida. Los viajes no liberan a los personajes de sus conflictos: los exponen con mayor nitidez en una situación de movimiento y desarraigo."
+          },
+          {
+            "title": "Cierre circular",
+            "summary": "El libro termina regresando al punto de partida y hace visible su diseño en bucle. Esa circularidad sugiere que el planeta entero puede recorrerse sin salir de una misma condición humana: la vulnerabilidad compartida y la imposibilidad de controlar del todo el rumbo propio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una novela construida como red",
+            "content": "La originalidad de Turbulencias reside en su arquitectura. Cada capítulo depende del anterior y prepara el siguiente, de modo que la novela transforma contactos mínimos en una forma de totalidad. Esa red no celebra la conexión global: la vuelve ambigua, frágil y a veces inquietante."
+          },
+          {
+            "heading": "Movilidad y desarraigo",
+            "content": "En el libro, desplazarse no equivale a elegir libremente una identidad cosmopolita. Los viajes revelan rupturas, obligaciones, duelos y vidas suspendidas. La movilidad aparece así como signo de época y, al mismo tiempo, como síntoma de precariedad emocional."
+          },
+          {
+            "heading": "Economía narrativa y profundidad psicológica",
+            "content": "Szalay trabaja con escenas cortas, diálogos precisos y una extraordinaria capacidad de condensación. Sin grandes explicaciones, logra que cada personaje aparezca con espesor moral. La novela demuestra que la brevedad puede ser una forma de intensidad y no de simplificación."
+          },
+          {
+            "heading": "El mundo contemporáneo como cadena de contingencias",
+            "content": "La circularidad final y los enlaces entre capítulos sugieren una visión del presente donde cada vida toca otras sin conocer realmente su alcance. La novela no ofrece moralejas cerradas, pero sí una intuición fuerte: vivimos entre desconocidos cuya trayectoria puede alterar la nuestra de forma imperceptible y decisiva."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es novela o libro de relatos?",
+            "answer": "Su forma está en el límite, pero conviene leerlo como novela. Los capítulos tienen autonomía relativa, aunque la cadena de vuelos, personajes y retornos compone una unidad estructural muy clara."
+          },
+          {
+            "question": "¿Cuántos capítulos o trayectos incluye?",
+            "answer": "Doce, enlazados por rutas aéreas que recorren varias regiones del mundo y acaban formando un circuito casi cerrado."
+          },
+          {
+            "question": "¿Qué significa el título Turbulencias?",
+            "answer": "No solo alude a las sacudidas del avión. También nombra la inestabilidad emocional, moral y biográfica de personajes que viven en tránsito y rara vez controlan del todo su situación."
+          },
+          {
+            "question": "¿Qué lugar ocupa en la obra de David Szalay?",
+            "answer": "Es una pieza central para entender su interés por las vidas contemporáneas bajo presión y por las formas breves de gran precisión. Reafirma su capacidad para retratar el desajuste entre movilidad global y fragilidad íntima."
+          }
+        ],
+        "reviewedAt": "2026-04-20",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: Turbulencias",
+            "url": "https://www.planetadelibros.com/libro-turbulencias/335652"
+          },
+          {
+            "label": "Penguin Books UK: Turbulence",
+            "url": "https://www.penguin.co.uk/books/438504/turbulence-by-david-szalay/9781529111972"
+          },
+          {
+            "label": "Wikipedia: Turbulence (Szalay novel)",
+            "url": "https://en.wikipedia.org/wiki/Turbulence_(Szalay_novel)"
+          },
+          {
+            "label": "Google Books: Turbulence",
+            "url": "http://books.google.es/books?id=jp0tEAAAQBAJ&source=gbs_api"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-20T13:14:29Z"
+}

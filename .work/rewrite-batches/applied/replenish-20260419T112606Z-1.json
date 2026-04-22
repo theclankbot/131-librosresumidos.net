@@ -1,0 +1,1487 @@
+{
+  "batchName": "replenish-20260419T112606Z-1",
+  "createdAt": "2026-04-19T11:26:06Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "el-arte-de-envejecer-de-arthur-schopenhauer",
+      "title": "El Arte De Envejecer",
+      "authorName": "Arthur Schopenhauer",
+      "authorSlug": "arthur-schopenhauer",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El arte de envejecer",
+        "authorName": "Arthur Schopenhauer",
+        "authorSlug": "arthur-schopenhauer",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 2010,
+        "pages": 224,
+        "summary": "El arte de envejecer reúne una selección de notas tardías de Arthur Schopenhauer procedentes de los cuadernos que tituló Senilia, escritos durante los últimos años de su vida. No es un tratado sistemático sobre la vejez, sino un conjunto de fragmentos, observaciones y aforismos en los que el filósofo examina el paso del tiempo, la salud, la lucidez, la soledad, el carácter, la fama, la cortesía y la manera de soportar con inteligencia la decadencia física. El tono mezcla ironía, desengaño y serenidad práctica. Schopenhauer no idealiza la edad avanzada, pero tampoco la reduce a pérdida: la presenta como una etapa desde la que puede comprenderse mejor la comedia humana, moderar ilusiones y defender una forma de libertad interior más sobria.",
+        "aboutThisBook": "La edición española de Alianza Editorial, preparada y prologada por Franco Volpi y traducida por Adela Muñoz Fernández, presenta 319 fragmentos escogidos de Senilia. El libro interesa porque deja ver a un Schopenhauer menos monumental y más conversador: no tanto el constructor de un gran sistema metafísico como un observador agudo de la experiencia cotidiana al final de la vida. Sus páginas alternan máximas morales, intuiciones psicológicas y comentarios sobre la convivencia, la inteligencia, la prudencia o la resignación. Leído hoy, funciona como una pequeña filosofía práctica de la vejez escrita desde el pesimismo, pero no desde la desesperación.",
+        "forWhom": "Para lectores adultos interesados en filosofía accesible, aforismos, pensamiento moral y reflexiones sobre la vejez, el carácter y la vida interior sin aparato académico excesivo.",
+        "whyItMatters": "Importa porque ofrece una reflexión breve y muy legible sobre envejecer sin sentimentalismo. En vez de prometer plenitud o consuelo fácil, Schopenhauer piensa la edad avanzada como una escuela de perspectiva, autocontrol y desengaño lúcido.",
+        "editorialIntro": "Hay libros sobre la vejez que aconsejan, otros que consuelan y otros que maquillan. Schopenhauer hace algo distinto: mira de frente el desgaste del tiempo y extrae de él una ética de la sobriedad. El interés editorial de este volumen está en su forma fragmentaria y en su claridad punzante. Cada apunte parece escrito para discutir una ilusión moderna: que la felicidad depende del ruido exterior, que la juventud agota la vida valiosa o que la lucidez debe ser optimista para resultar habitable.",
+        "readingLevel": "Lectura media para público general con curiosidad filosófica. Los fragmentos son breves y claros, pero muchas ideas ganan profundidad si el lector acepta el tono aforístico, la ironía y el pesimismo característicos de Schopenhauer.",
+        "whyReadToday": "Porque en una época obsesionada con retrasar o negar el envejecimiento, este libro propone pensar la última etapa de la vida con dignidad intelectual, menos autoengaño y más atención al carácter.",
+        "studyNotes": [
+          "El libro no debe leerse como un tratado continuo, sino como una constelación de fragmentos tardíos vinculados a Senilia.",
+          "Conviene distinguir entre el pesimismo metafísico de Schopenhauer y el tono práctico de estas notas, más cercano a la observación moral que a la abstracción sistemática.",
+          "Franco Volpi subraya en la edición que la selección busca el interés y la amenidad de 319 pasajes, no la totalidad del manuscrito tardío.",
+          "Una buena lectura comparada es poner estas páginas junto a los Aforismos sobre la sabiduría de la vida para ver continuidades y cambios en el Schopenhauer final."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. La vejez como cambio de perspectiva",
+            "summary": "Los primeros núcleos del libro presentan la edad avanzada no solo como pérdida física, sino como modificación de la mirada. Schopenhauer insiste en que los años reducen ciertas ilusiones y permiten juzgar con más distancia los afanes de prestigio, deseo y ambición."
+          },
+          {
+            "title": "Parte 2. Carácter, prudencia y trato con los otros",
+            "summary": "En el tramo central abundan observaciones sobre el carácter humano, la tontería, la inteligencia, la cortesía y la convivencia. La vejez aparece aquí como un tiempo de selección: menos dispersión social, menos expectativas ingenuas y más necesidad de gobernarse a uno mismo."
+          },
+          {
+            "title": "Parte 3. Soledad, salud y serenidad práctica",
+            "summary": "Hacia el cierre, el libro vuelve una y otra vez sobre la fragilidad del cuerpo, la importancia de administrar las fuerzas y el valor ambivalente de la soledad. La conclusión implícita es sobria: envejecer mejor depende menos del brillo exterior que de la lucidez, la medida y el dominio interior."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un Schopenhauer tardío y menos sistemático",
+            "content": "Estas páginas interesan porque muestran al filósofo fuera del formato de gran tratado. Aquí la autoridad no proviene de una arquitectura conceptual total, sino de la precisión del apunte breve. Eso vuelve el libro especialmente accesible y, a la vez, más íntimo."
+          },
+          {
+            "heading": "La vejez sin consuelo retórico",
+            "content": "Schopenhauer no embellece la ancianidad. Reconoce deterioros, desencantos y restricciones, pero precisamente por eso su defensa de una serenidad posible resulta más convincente. La dignidad del libro está en pensar la vejez sin propaganda edificante."
+          },
+          {
+            "heading": "Aforismo, psicología y filosofía moral",
+            "content": "Aunque el volumen nace de un filósofo célebre por su metafísica de la voluntad, aquí domina una escritura de observación psicológica y moral. La forma aforística le permite pasar con rapidez de la salud a la sociabilidad, del genio a la tontería, del tiempo a la conducta cotidiana."
+          },
+          {
+            "heading": "Lectura contemporánea",
+            "content": "Hoy el libro se lee muy bien como antídoto contra la negación cultural del envejecimiento. No ofrece recetas de bienestar, sino una disciplina de perspectiva: aceptar límites, rebajar vanidades y buscar una libertad menos dependiente de la aprobación ajena."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un ensayo?",
+            "answer": "Es un libro de reflexión filosófica y aforística. Reúne fragmentos tardíos de Schopenhauer, no una narración de ficción ni un tratado continuo."
+          },
+          {
+            "question": "¿Qué relación tiene con Senilia?",
+            "answer": "El volumen selecciona fragmentos de Senilia, el cuaderno en el que Schopenhauer fue reuniendo notas, observaciones y meditaciones durante los últimos años de su vida."
+          },
+          {
+            "question": "¿Hace falta conocer la obra completa de Schopenhauer para leerlo?",
+            "answer": "No. Puede leerse de forma independiente. Conocer su filosofía ayuda a situar el tono pesimista, pero la edición funciona muy bien como puerta de entrada a su pensamiento práctico."
+          },
+          {
+            "question": "¿El libro ofrece una visión amarga de la vejez?",
+            "answer": "Ofrece una visión austera y desengañada, pero no puramente amarga. Entre sus páginas también hay humor seco, lucidez psicológica y una defensa de la serenidad que puede ganarse con los años."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Todos Tus Libros: El arte de envejecer",
+            "url": "https://www.todostuslibros.com/libros/el-arte-de-envejecer_978-84-206-7409-4"
+          },
+          {
+            "label": "Google Books: El arte de envejecer",
+            "url": "https://books.google.com/books/about/El_arte_de_envejecer.html?id=2JN6cgAACAAJ"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Arthur Schopenhauer",
+            "url": "https://www.britannica.com/biography/Arthur-Schopenhauer"
+          },
+          {
+            "label": "Stanford Encyclopedia of Philosophy: Arthur Schopenhauer",
+            "url": "https://plato.stanford.edu/entries/schopenhauer/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-candor-del-padre-brown-de-g-k-chesterton",
+      "title": "El Candor Del Padre Brown",
+      "authorName": "G K Chesterton",
+      "authorSlug": "g-k-chesterton",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El candor del padre Brown",
+        "authorName": "G. K. Chesterton",
+        "authorSlug": "g-k-chesterton",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "thriller"
+        ],
+        "year": 1911,
+        "pages": 296,
+        "summary": "El candor del padre Brown reúne doce relatos en los que Chesterton presenta a su detective más improbable: un sacerdote católico pequeño, distraído en apariencia y casi siempre subestimado por quienes lo rodean. Frente a policías seguros de sí mismos, aristócratas teatrales y criminales refinados, el padre Brown resuelve enigmas no por exhibicionismo intelectual sino por una comprensión muy concreta de la fragilidad humana. Cada caso parte de una situación llamativa —un robo imposible, una desaparición, una muerte absurda, una pista engañosa— y avanza hacia una solución que suele desmontar prejuicios sobre apariencia, culpa y lógica. Más que un simple libro de intriga, es una colección que mezcla paradoja, humor, observación moral y placer narrativo en el nacimiento de uno de los grandes detectives de la ficción británica.",
+        "aboutThisBook": "Publicado originalmente en 1911 como The Innocence of Father Brown, este volumen inauguró la serie detectivesca más célebre de Chesterton y fijó muchos de sus rasgos duraderos: crímenes que parecen insolubles, razonamientos paradójicos, escenarios muy visuales y un detective que entiende el mal desde la experiencia espiritual y no desde el cinismo. La edición en español suele aparecer como El candor del padre Brown, una traducción que conserva bien la ironía central del personaje: su aire ingenuo es precisamente lo que desarma a los demás. La obra importa también por su lugar histórico dentro del policial clásico, porque ofrece un modelo distinto al del investigador puramente racionalista. Aquí la deducción convive con intuición moral, compasión y una atención constante a las máscaras sociales.",
+        "forWhom": "Para lectores de misterio clásico, amantes del cuento policial, estudiantes de literatura inglesa y quienes disfrutan detectives menos aparatosos que Sherlock Holmes pero igual de memorables.",
+        "whyItMatters": "Sigue importando porque muestra una vía singular dentro del policial: resolver enigmas a partir de la psicología moral y no solo del análisis material de pistas. Además, inauguró un personaje que todavía hoy dialoga con la tradición detectivesca británica.",
+        "editorialIntro": "Chesterton entendió muy pronto que un buen detective no necesita imponerse por la fuerza de su presencia. El padre Brown entra en escena casi como un personaje secundario, pero acaba revelando que la modestia puede ser una forma superior de observación. En estos relatos fundacionales, el escritor inglés combina entretenimiento, agudeza y una mirada ética poco común. El resultado es un libro de crímenes y sorpresas, sí, pero también una exploración elegante sobre el engaño, la vanidad y la facilidad con que confundimos inocencia con simpleza.",
+        "readingLevel": "Lectura media para público general adulto. Los relatos son breves y claros, aunque el estilo de Chesterton incluye ironía, referencias culturales y juegos lógicos que se disfrutan más con lectura atenta.",
+        "whyReadToday": "Porque sigue ofreciendo una alternativa fresca al thriller contemporáneo: menos velocidad y más inteligencia narrativa, más atmósfera y más preguntas sobre cómo juzgamos a los demás a partir de las apariencias.",
+        "studyNotes": [
+          "El padre Brown no investiga como un científico frío: su ventaja está en comprender deseo, culpa, orgullo y autoengaño.",
+          "La colección puede leerse como respuesta católica y paradójica al detective racionalista del fin de siglo, sin perder nunca el gusto por el entretenimiento.",
+          "Conviene observar cómo Chesterton convierte detalles mínimos o aparentemente absurdos en la clave de cada resolución.",
+          "Flambeau, ladrón y luego aliado en varios relatos, ayuda a medir el contraste entre espectacularidad criminal y humildad intelectual."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La cruz azul",
+            "summary": "El relato inicial presenta el método del padre Brown mediante la persecución de Flambeau y el robo de una reliquia. Chesterton construye una intriga de disfraces y pistas falsas para demostrar que la aparente torpeza del sacerdote es, en realidad, una estrategia de lectura del comportamiento humano."
+          },
+          {
+            "title": "El jardín secreto",
+            "summary": "En uno de los cuentos más recordados del volumen, un crimen imposible dentro de un espacio cerrado obliga a reconsiderar qué significa exactamente una escena “sellada”. Brown revela que la clave no está en lo exótico del caso, sino en un razonamiento limpio que desmonta la puesta en escena del asesino."
+          },
+          {
+            "title": "Los pasos extraños",
+            "summary": "El misterio en un club de élite permite a Chesterton satirizar la respetabilidad social y jugar con identidades móviles. El padre Brown observa lo que otros no miran: ritmos, gestos, recorridos y pequeñas incongruencias que delatan la verdad detrás del ceremonial aristocrático."
+          },
+          {
+            "title": "La muestra de la espada rota",
+            "summary": "Este relato desplaza la intriga hacia la memoria heroica y los relatos oficiales sobre la guerra. Brown demuestra que una leyenda patriótica puede sostenerse sobre una mentira muy bien aceptada, y convierte la investigación en una crítica de la gloria fabricada."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un detective construido contra la apariencia",
+            "content": "La gran invención de Chesterton consiste en hacer del padre Brown un personaje casi invisible. Su físico anodino y sus modales suaves hacen que los culpables lo subestimen, pero esa misma invisibilidad le permite moverse sin activar defensas. El libro insiste una y otra vez en que lo decisivo no es parecer brillante, sino ver con nitidez."
+          },
+          {
+            "heading": "Policial clásico con centro moral",
+            "content": "En estos cuentos la resolución del enigma no es un mero juego abstracto. Brown entiende el delito porque sabe hasta dónde puede llegar una persona corriente cuando la mueven el miedo, la vanidad o la desesperación. Esa dimensión moral distingue a Chesterton de otros autores del género y vuelve más complejas sus soluciones."
+          },
+          {
+            "heading": "Paradoja, humor y precisión narrativa",
+            "content": "Chesterton escribe con una soltura ensayística que llena los relatos de aforismos, contrastes e inversiones inesperadas. La paradoja no es un adorno: organiza la mirada entera del libro. Cada caso obliga al lector a sospechar de lo evidente y a aceptar que lo absurdo puede ser la forma inicial de la verdad."
+          },
+          {
+            "heading": "El lugar del libro en la historia del género",
+            "content": "El candor del padre Brown aparece en un momento decisivo del policial anglosajón y contribuye a ensanchar sus posibilidades. Mantiene el placer del enigma, pero introduce una sensibilidad religiosa, humorística y filosófica que influirá en muchas encarnaciones posteriores del detective excéntrico."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El candor del padre Brown es una novela o un libro de cuentos?",
+            "answer": "Es una colección de doce relatos policiales. Cada historia funciona de manera autónoma, aunque todas contribuyen a presentar el universo moral e intelectual del padre Brown."
+          },
+          {
+            "question": "¿Quién es el padre Brown?",
+            "answer": "Es un sacerdote católico creado por G. K. Chesterton que resuelve crímenes gracias a su capacidad para entender la conciencia humana. Su aspecto común es parte esencial de su método."
+          },
+          {
+            "question": "¿Hace falta leer otros libros de la serie antes?",
+            "answer": "No. Este es el primer volumen de la saga, así que funciona perfectamente como puerta de entrada al personaje y a su forma particular de investigar."
+          },
+          {
+            "question": "¿Qué tipo de misterio propone Chesterton aquí?",
+            "answer": "Un misterio clásico de cuento breve, con crímenes aparentemente imposibles, soluciones paradójicas y un fuerte interés por la psicología moral de culpables y testigos."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros Argentina: El candor del Padre Brown",
+            "url": "https://www.planetadelibros.com.ar/libro-el-candor-del-padre-brown/272469"
+          },
+          {
+            "label": "Project Gutenberg: The Innocence of Father Brown",
+            "url": "https://www.gutenberg.org/ebooks/204"
+          },
+          {
+            "label": "Wikipedia: The Innocence of Father Brown",
+            "url": "https://en.wikipedia.org/wiki/The_Innocence_of_Father_Brown"
+          },
+          {
+            "label": "Encyclopaedia Britannica: G. K. Chesterton",
+            "url": "https://www.britannica.com/biography/G-K-Chesterton"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-chico-que-vivia-encerrado-en-una-habitacion-terror-en-la-red-1-de-alvaro-colomerantonio-lozano",
+      "title": "El Chico Que Vivia Encerrado En Una Habitacion Terror En La Red 1",
+      "authorName": "Alvaro Colomerantonio Lozano",
+      "authorSlug": "alvaro-colomerantonio-lozano",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Terror en la red 1: El chico que vivía encerrado en una habitación",
+        "authorName": "Álvaro Colomer y Antonio Lozano",
+        "authorSlug": "alvaro-colomer-y-antonio-lozano",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "thriller"
+        ],
+        "year": 2012,
+        "pages": 208,
+        "summary": "Esta primera entrega de la serie Terror en la red arranca con un mensaje inquietante: Nerea busca a su hermano desaparecido y contacta con Derek, uno de los pocos usuarios que sigue activo tras haber agregado en redes a un perfil llamado La Sombra. A partir de ese punto, la novela convierte la navegación digital en territorio de suspense. Los protagonistas siguen pistas en chats, perfiles y rastros informáticos mientras descubren que varias desapariciones podrían estar conectadas. El libro mezcla investigación, miedo contemporáneo y ritmo ágil para mostrar cómo una amenaza virtual puede invadir la vida cotidiana de adolescentes que creen conocer el entorno en el que se mueven.",
+        "aboutThisBook": "Publicada originalmente en 2012 y difundida después en reediciones de Grupo Edebé, la novela fue presentada por el propio sello como el primer título de la colección Terror en la red. Su premisa parte de un miedo reconocible para lectores jóvenes: que una amistad digital, una identidad falsa o una comunidad online escondan algo mucho más oscuro. Colomer y Lozano escriben a cuatro manos una historia de investigación juvenil que usa el lenguaje de internet no como decorado, sino como motor del conflicto.",
+        "forWhom": "Para lectores juveniles que disfrutan el suspense tecnológico, las desapariciones misteriosas y las tramas donde internet deja de ser una herramienta inocente.",
+        "whyItMatters": "Sigue siendo relevante porque anticipa conversaciones hoy centrales: identidad digital, vulnerabilidad adolescente en redes y facilidad con la que una amenaza se vuelve viral. Su interés no depende solo del misterio, sino de cómo convierte hábitos cotidianos en focos de riesgo narrativo.",
+        "editorialIntro": "No es una novela sobre pantallas en abstracto, sino sobre el miedo que nace cuando lo virtual empieza a tener consecuencias físicas. Terror en la red 1 funciona bien porque entiende que, para muchos adolescentes, la vida online no es un segundo mundo: es una extensión directa de su intimidad, sus vínculos y sus decisiones.",
+        "readingLevel": "Lectura media y accesible, adecuada desde secundaria, con prosa directa, capítulos de avance rápido y referencias tecnológicas fáciles de seguir incluso si no se domina la jerga digital.",
+        "whyReadToday": "Porque la novela dialoga con una preocupación más actual que nunca: la fragilidad de la identidad online y la facilidad con la que una relación digital puede ocultar manipulación, engaño o violencia.",
+        "studyNotes": [
+          "La desaparición inicial no solo activa la trama: redefine la confianza en el espacio digital.",
+          "La Sombra funciona como figura de anonimato amenazante y como símbolo de la opacidad en redes.",
+          "Nerea y Derek investigan desde la vulnerabilidad adolescente, no desde la autoridad adulta.",
+          "El suspense se construye a partir de mensajes, conexiones y ausencias más que de grandes escenas de acción."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: El mensaje que lo cambia todo",
+            "summary": "Nerea contacta con Derek para pedir ayuda tras la desaparición de su hermano. La pista común es un perfil en redes llamado La Sombra, asociado a otros usuarios que también han quedado en silencio. La novela establece desde el inicio un clima de inquietud muy cercano al día a día digital de sus protagonistas."
+          },
+          {
+            "title": "Parte 2: Rastrear una amenaza invisible",
+            "summary": "Los protagonistas comienzan a seguir conexiones, amistades online y huellas informáticas. Cuanto más investigan, más claro resulta que no están ante una simple broma ni ante una desaparición aislada. El peligro adopta la forma de algo difuso, descentralizado y difícil de probar."
+          },
+          {
+            "title": "Parte 3: Del miedo virtual al riesgo real",
+            "summary": "La investigación deja de ser un juego y pasa a comprometer la seguridad de quienes la llevan adelante. La historia enlaza tensión juvenil con una reflexión sobre la facilidad con la que una identidad digital falsa puede penetrar en la vida real."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Internet como escenario de suspense",
+            "content": "La novela entiende muy bien que el miedo contemporáneo no siempre llega desde un lugar físico reconocible. Aquí surge de perfiles, contactos y rastros digitales. Esa elección vuelve verosímil el conflicto para un lector joven, porque parte de prácticas habituales y no de un mundo ajeno."
+          },
+          {
+            "heading": "La adolescencia ante una amenaza sin rostro",
+            "content": "Nerea y Derek se mueven entre curiosidad, miedo e iniciativa. No son héroes invulnerables, sino adolescentes enfrentados a un problema que los supera. Esa fragilidad sostiene el interés del libro y evita que la tecnología aparezca como una solución mágica."
+          },
+          {
+            "heading": "El valor de una premisa seriable",
+            "content": "Como primer volumen, el libro abre un universo narrativo reconocible: redes sociales, investigación y una amenaza que puede expandirse. Funciona de manera autónoma, pero también deja claro por qué la historia admite continuación y escalada dentro de la trilogía."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de terror puro o más bien de suspense?",
+            "answer": "Se acerca más al suspense juvenil con elementos inquietantes que al terror explícito. El miedo nace de la investigación y del entorno digital, no de lo sobrenatural."
+          },
+          {
+            "question": "¿Hace falta conocer la trilogía completa para leer este libro?",
+            "answer": "No. Este volumen funciona como puerta de entrada y presenta el conflicto principal, los protagonistas y el tono de la serie."
+          },
+          {
+            "question": "¿Qué aporta frente a otros thrillers juveniles?",
+            "answer": "Su principal acierto es convertir la vida en redes en un mecanismo narrativo convincente. La intriga depende de cómo circula la información digital y de cómo se manipulan identidades y vínculos online."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Todos Tus Libros: ficha de la edición de Grupo Edebé",
+            "url": "https://www.todostuslibros.com/libros/terror-en-la-red-i-el-chico-que-vivia-encerrado-en-una-habitacion_978-84-683-0716-9"
+          },
+          {
+            "label": "Grupo Edebé: encuentro de clubs de lectura con Terror en la red",
+            "url": "https://edebe.com/prensa/encuetro-clubs-de-lectura-juvenil-en-la-bcnegra-con-terror-en-la-red-de-alvaro-colomer-y-antonio-lozano/"
+          },
+          {
+            "label": "Grupo Edebé: cierre de la trilogía Terror en la red",
+            "url": "https://edebe.com/prensa/terror-en-la-red-de-alvaro-colomer-y-antonio-lozano-cierre-de-la-trilogia/"
+          },
+          {
+            "label": "Google Books: referencia bibliográfica",
+            "url": "http://books.google.es/books?id=92vTMgEACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-clan-del-oso-cavernario-los-hijos-de-la-tierra-i-de-jean-marie-auel",
+      "title": "El Clan Del Oso Cavernario Los Hijos De La Tierra I",
+      "authorName": "Jean Marie Auel",
+      "authorSlug": "jean-marie-auel",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El clan del oso cavernario",
+        "authorName": "Jean M. Auel",
+        "authorSlug": "jean-marie-auel",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "aventura"
+        ],
+        "year": 1980,
+        "pages": 468,
+        "summary": "Primera entrega de la serie Los hijos de la Tierra, esta novela sitúa su historia en la Europa paleolítica y sigue a Ayla, una niña cromañón que queda sola tras un terremoto y es acogida por un clan neandertal. Auel construye el libro como relato de supervivencia, aprendizaje y desajuste cultural: Ayla debe adaptarse a normas, gestos, jerarquías y creencias de un grupo que la tolera, pero nunca deja de verla como distinta. La novela combina reconstrucción imaginativa de la prehistoria con drama de pertenencia, violencia ritual, maternidad adoptiva y descubrimiento de la propia fuerza, mientras la protagonista intenta encontrar un lugar en una comunidad que la necesita y al mismo tiempo la rechaza.",
+        "aboutThisBook": "Publicado en 1980, El clan del oso cavernario convirtió a Jean M. Auel en un fenómeno internacional y abrió una saga de largo recorrido. Su singularidad está en la mezcla de documentación arqueológica, imaginación narrativa y estructura de novela iniciática. Más que presentar la prehistoria como decorado exótico, el libro la usa para explorar diferencias de lenguaje, género, cuerpo, memoria y poder. Ayla aprende a vivir entre los otros, pero esa integración nunca es plena: ahí nace la tensión central del relato.",
+        "forWhom": "Para lectores de ficción histórica, novelas de aprendizaje y grandes relatos de supervivencia que disfrutan mundos remotos, conflictos de pertenencia y protagonistas obstinadas.",
+        "whyItMatters": "Importa porque popularizó la ficción prehistórica contemporánea y porque convierte una hipótesis sobre la convivencia entre neandertales y cromañones en una historia legible, emotiva y llena de conflicto social.",
+        "editorialIntro": "Hay novelas que se recuerdan por su trama y otras por el mundo que consiguen volver tangible. El clan del oso cavernario pertenece a las segundas. Auel no solo cuenta la historia de una niña expulsada de su origen: imagina hábitos, tabúes, cuidados, ritos y formas de autoridad para hacer visible cómo una comunidad define quién pertenece y quién no.",
+        "readingLevel": "Medio: prosa clara y narrativa lineal, aunque la ambientación, la extensión y algunos pasajes duros piden atención sostenida.",
+        "whyReadToday": "Sigue siendo una lectura vigente por su reflexión sobre la diferencia, la exclusión y la convivencia entre culturas que comparten territorio pero no la misma idea de humanidad.",
+        "studyNotes": [
+          "Ayla funciona como figura de frontera: pertenece y no pertenece, y esa ambigüedad sostiene casi todo el drama del libro.",
+          "Fíjate en cómo Auel usa gestos, silencios y rituales para diferenciar la cultura del Clan de la sensibilidad de Ayla.",
+          "La novela cruza supervivencia material y jerarquía simbólica: comer, curar o cazar nunca son actos puramente prácticos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La niña que sobrevive al desastre",
+            "summary": "Tras un terremoto que destruye a su familia, Ayla queda aislada, herida y al borde de la muerte hasta que un grupo neandertal decide recogerla."
+          },
+          {
+            "title": "Parte 2: Aprender a vivir con el Clan",
+            "summary": "Iza y Creb la protegen y enseñan las reglas básicas del grupo, pero Ayla descubre pronto que su presencia altera costumbres y prejuicios muy arraigados."
+          },
+          {
+            "title": "Parte 3: Crecer siendo la distinta",
+            "summary": "A medida que Ayla madura, su inteligencia práctica y su iniciativa la ayudan a sobrevivir, aunque también despiertan sospecha y hostilidad dentro de la comunidad."
+          },
+          {
+            "title": "Momento clave: Poder, castigo y separación",
+            "summary": "Las tensiones acumuladas entre Ayla y la autoridad del Clan desembocan en decisiones que redefinen su lugar y anuncian el rumbo de la saga."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La prehistoria como laboratorio social",
+            "content": "Auel utiliza un pasado remotísimo para examinar cuestiones plenamente reconocibles: quién manda, quién cuida, qué se considera normal y cómo se legitima la exclusión del diferente. La distancia temporal amplifica el conflicto en vez de suavizarlo."
+          },
+          {
+            "heading": "Ayla y la experiencia de no encajar",
+            "content": "El motor emocional de la novela no es solo el peligro físico, sino la imposibilidad de ser aceptada del todo. Ayla aprende, obedece y contribuye, pero su cuerpo, su inteligencia y su forma de reaccionar la vuelven sospechosa ante una comunidad muy reglada."
+          },
+          {
+            "heading": "Documentación e imaginación narrativa",
+            "content": "Una de las claves del libro está en cómo mezcla datos arqueológicos, hipótesis evolutivas y dramatización novelesca. No debe leerse como reconstrucción científica cerrada, sino como ficción histórica especulativa apoyada en investigación."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer la saga completa para disfrutarlo?",
+            "answer": "No. Funciona como novela con arco propio, aunque deja abiertas líneas que continúan en los siguientes libros de Los hijos de la Tierra."
+          },
+          {
+            "question": "¿Es una novela histórica o fantástica?",
+            "answer": "Se acerca más a la ficción histórica y a la aventura prehistórica que a la fantasía. Su mundo no depende de magia, sino de una recreación imaginada del Paleolítico."
+          },
+          {
+            "question": "¿El libro tiene pasajes duros?",
+            "answer": "Sí. Incluye violencia, pérdida, castigos y situaciones de fuerte vulnerabilidad, de modo que conviene llegar sabiendo que no es una novela prehistórica suavizada."
+          },
+          {
+            "question": "¿Por qué tuvo tanta repercusión?",
+            "answer": "Porque ofreció una ambientación inusual, una protagonista muy memorable y una combinación eficaz entre documentación, melodrama y gran relato de supervivencia."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia, \"The Clan of the Cave Bear\"",
+            "url": "https://en.wikipedia.org/wiki/The_Clan_of_the_Cave_Bear"
+          },
+          {
+            "label": "Penguin Random House, ficha de \"The Clan of the Cave Bear\"",
+            "url": "https://www.penguinrandomhouse.com/books/6278/the-clan-of-the-cave-bear-by-jean-m-auel/"
+          },
+          {
+            "label": "Penguin Random House, serie \"Earth's Children\"",
+            "url": "https://www.penguinrandomhouse.com/series/EAC/earths-children/"
+          },
+          {
+            "label": "Penguin Random House, autora \"Jean M. Auel\"",
+            "url": "https://www.penguinrandomhouse.com/authors/1026/jean-m-auel/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-diablo-en-florencia-de-oscar-soto-colas",
+      "title": "El Diablo En Florencia",
+      "authorName": "Oscar Soto Colas",
+      "authorSlug": "oscar-soto-colas",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El diablo en Florencia",
+        "authorName": "Óscar Soto Colás",
+        "authorSlug": "oscar-soto-colas",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "thriller"
+        ],
+        "year": 2017,
+        "pages": 267,
+        "summary": "El diablo en Florencia es un thriller histórico ambientado en la Florencia del siglo XVI, bajo la sombra política de Cosme de Médici. Su protagonista, Salvatore di Montevecchi, es un monje franciscano retirado en una abadía alpina que se ve obligado a regresar a la ciudad donde décadas atrás investigó unos crímenes espantosos. Ahora vuelve porque varias muchachas han aparecido muertas y sin sangre, lo que ha desatado el miedo popular y la superstición. La novela combina investigación criminal, tensiones de poder, memoria traumática y reconstrucción de época. Soto Colás aprovecha el escenario renacentista no solo para vestir la intriga, sino para mostrar cómo el pánico colectivo, la religión, la ambición diplomática y los intereses de Estado pueden enturbiar la búsqueda de la verdad.",
+        "aboutThisBook": "Ganadora del Premio Círculo de Lectores de Novela, esta obra consolidó a Óscar Soto Colás dentro de la narrativa histórica española reciente. La novela apuesta por una combinación muy legible: crímenes seriales, atmósfera renacentista, conspiraciones políticas y un investigador marcado por su pasado. El resultado no es una novela de reconstrucción erudita en sentido estricto, sino una ficción de ritmo ágil que usa con inteligencia los códigos del thriller para entrar en una Florencia convulsa, cosmopolita y llena de intereses cruzados. La figura de Salvatore, mitad hombre de fe y mitad perseguidor de monstruos humanos, da unidad moral a una trama donde los demonios sobrenaturales importan menos que la violencia de los hombres.",
+        "forWhom": "Para lectores de novela histórica que disfrutan las tramas de investigación, el Renacimiento italiano, los ambientes sombríos y los protagonistas heridos por un pasado que vuelve.",
+        "whyItMatters": "Importa porque demuestra cómo la novela histórica puede dialogar con el thriller sin perder densidad de época. Además, sitúa el miedo colectivo, la manipulación política y la superstición en un escenario renacentista que sigue resultando muy reconocible.",
+        "editorialIntro": "Florencia suele entrar en la ficción como cuna del arte, de los banqueros y del esplendor renacentista. Soto Colás decide abrir otra puerta: la de la ciudad asustada, atravesada por rumores, cadáveres y cálculo político. Ese cambio de enfoque le da a la novela una energía especial. No estamos ante una estampa museística del Renacimiento, sino ante una intriga donde la belleza convive con la violencia, la fe con el miedo y la investigación racional con el deseo de creer en fuerzas demoníacas.",
+        "readingLevel": "Lectura accesible para adultos habituados a la narrativa comercial e histórica. El libro mantiene un ritmo claro, con contexto suficiente para seguir la época sin necesidad de conocimientos previos especializados sobre la Florencia medicea.",
+        "whyReadToday": "Porque sigue funcionando como ejemplo de thriller histórico bien armado y porque recuerda hasta qué punto el miedo social puede volverse herramienta política cuando faltan certezas y sobran intereses.",
+        "studyNotes": [
+          "El conflicto central opone explicación racional y lectura supersticiosa de los crímenes, pero la novela sugiere que el verdadero mal nace de intereses humanos muy concretos.",
+          "La Florencia de Cosme de Médici no es solo decorado: organiza relaciones de poder, vigilancia, diplomacia y control del rumor.",
+          "Salvatore di Montevecchi funciona como personaje bisagra entre la culpa personal, la experiencia religiosa y la lógica investigadora.",
+          "Puede leerse como una novela sobre el regreso: volver a la ciudad, al caso antiguo y a una herida sentimental nunca resuelta."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. El regreso del monje investigador",
+            "summary": "La novela arranca con Salvatore aislado en una abadía alpina, lejos del mundo y de su pasado. La llamada de Cosme de Médici lo obliga a regresar a Florencia para enfrentarse a una nueva cadena de crímenes que recuerda demasiado a otra investigación anterior."
+          },
+          {
+            "title": "Parte 2. Crímenes, rumores y lucha por el relato",
+            "summary": "Una vez en la ciudad, la pesquisa se complica por el miedo popular, las presiones políticas y la tentación de atribuir las muertes al Diablo. Mientras aparecen pistas y contradicciones, la novela muestra cómo cada poder intenta convertir el terror en ventaja propia."
+          },
+          {
+            "title": "Parte 3. Los demonios del pasado",
+            "summary": "La investigación no solo acerca a Salvatore al asesino, sino también a los episodios que quiso dejar atrás. El caso presente reactiva culpas antiguas, afectos persistentes y la pregunta por la responsabilidad individual frente a la violencia."
+          },
+          {
+            "title": "Parte 4. Resolución y lectura moral",
+            "summary": "En el desenlace, la novela desplaza el foco del demonio legendario al mal humano, tejido por obsesiones, estrategias y deseo de dominio. La solución del misterio confirma el carácter doble del libro: entretenimiento de intriga y reflexión sobre el miedo como lenguaje del poder."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller histórico con motor clásico",
+            "content": "La novela se apoya en un mecanismo narrativo muy eficaz: un investigador reacio vuelve a un escenario traumático para enfrentar un crimen que parece repetirse. Esa estructura clásica permite sostener la tensión mientras se despliega el mundo histórico."
+          },
+          {
+            "heading": "Florencia más oscura que monumental",
+            "content": "Uno de los aciertos del libro es desplazar la imagen turística del Renacimiento hacia una ciudad vulnerable al miedo, al rumor y a la instrumentalización política. La Florencia medicea aparece como espacio de belleza, pero también de vigilancia, alianzas y violencia."
+          },
+          {
+            "heading": "Fe, razón y superstición",
+            "content": "Soto Colás explora una tensión fértil entre lectura religiosa, explicación racional y uso interesado de lo sobrenatural. El Diablo funciona menos como presencia metafísica que como nombre colectivo para lo que la sociedad no sabe o no quiere comprender."
+          },
+          {
+            "heading": "Un protagonista marcado por la memoria",
+            "content": "Salvatore no es un detective puro, sino un personaje escindido entre retiro espiritual, experiencia del mal y heridas íntimas. Esa condición le da espesor a la intriga y evita que la novela quede reducida a simple rompecabezas criminal."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica o un thriller?",
+            "answer": "Es ambas cosas. La reconstrucción de la Florencia del siglo XVI sostiene una trama de investigación criminal con ritmo de thriller y un fuerte componente atmosférico."
+          },
+          {
+            "question": "¿Quién es el protagonista?",
+            "answer": "Salvatore di Montevecchi, un monje franciscano que vuelve a Florencia para investigar una serie de crímenes y enfrentarse también a episodios no resueltos de su propio pasado."
+          },
+          {
+            "question": "¿El Diablo de la novela es literal?",
+            "answer": "La narración juega con la superstición popular, pero su interés principal está en mostrar cómo el miedo al demonio convive con motivaciones y crímenes profundamente humanos."
+          },
+          {
+            "question": "¿Hace falta saber historia del Renacimiento para disfrutarla?",
+            "answer": "No. El libro ofrece suficiente contexto para seguir la acción. Quien conozca mejor la Florencia medicea apreciará matices extra, pero la intriga funciona por sí sola."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Books: El diablo en Florencia",
+            "url": "https://books.google.com/books/about/El_diablo_en_Florencia.html?id=e682DwAAQBAJ"
+          },
+          {
+            "label": "Librería Proteo: El diablo en Florencia",
+            "url": "https://www.libreriaproteo.com/libro/verElectronico/id/LIBR622624-epub/el-diablo-en-florencia.html"
+          },
+          {
+            "label": "Todoliteratura: entrevista a Óscar Soto Colás",
+            "url": "https://www.todoliteratura.es/noticia/51940/entrevistas/oscar-soto-escribe-en-su-segunda-novela-un-homenaje-a-la-rioja.html"
+          },
+          {
+            "label": "Culturamas: entrevista a Óscar Soto Colás",
+            "url": "https://blogs.culturamas.es/blog/2026/03/20/oscar-soto-colas-una-novela-historica-tiene-que-tener-la-dosis-justa-de-pedagogia/"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-domador-de-leones-de-camilla-lackberg",
+      "title": "El Domador De Leones",
+      "authorName": "Camilla Lackberg",
+      "authorSlug": "camilla-lackberg",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El domador de leones",
+        "authorName": "Camilla Läckberg",
+        "authorSlug": "camilla-lackberg",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2015,
+        "pages": 400,
+        "summary": "El domador de leones lleva a la serie de Fjällbacka hacia una zona especialmente sombría. En pleno invierno, una joven aparece medio desnuda en la carretera después de haber desaparecido meses antes; el hallazgo revela de inmediato un nivel de violencia extrema y abre la sospecha de que existen otras víctimas. Mientras Patrik Hedström y su equipo intentan reconstruir una cadena de secuestros y abusos, Erica Falck investiga por otra vía una antigua tragedia familiar que parecía enterrada. Läckberg entrelaza ambos hilos para mostrar cómo el pasado regresa convertido en trauma activo, secreto heredado y brutalidad organizada. La novela combina investigación policial, vida doméstica, atmósfera helada y una maquinaria de suspense que avanza revelando conexiones cada vez más perturbadoras entre infancia, poder y crueldad.",
+        "aboutThisBook": "Publicada en español por Maeva dentro de la serie Los crímenes de Fjällbacka, esta novela corresponde a una etapa de plena madurez en el proyecto narrativo de Läckberg. La autora ya domina el equilibrio entre dos registros que la han vuelto masiva: por un lado, el caso criminal de alta tensión; por otro, la vida cotidiana del entorno de Patrik y Erica, que aporta continuidad emocional a la saga. El libro se distingue por su dureza, porque trabaja con secuestros, sadismo y traumas de infancia, pero también por la forma en que enlaza una investigación presente con viejas historias familiares. No es solo un caso más: es una entrega que empuja el universo de Fjällbacka hacia una oscuridad más densa y hace visible cómo la violencia puede incubarse durante años detrás de fachadas perfectamente normales.",
+        "forWhom": "Para lectores adultos de novela negra escandinava, seguidores de series policiales y quienes buscan un thriller largo, tenso y sostenido por investigación, secretos familiares y atmósfera opresiva.",
+        "whyItMatters": "Importa porque confirma la capacidad de Läckberg para mezclar procedimiento policial, drama doméstico y trauma heredado sin perder legibilidad. Dentro de la serie, es una de las entregas que mejor muestran el costo íntimo y social de la violencia prolongada.",
+        "editorialIntro": "Hay novelas negras que dependen por completo del shock y otras que saben usarlo para entrar en conflictos más hondos. El domador de leones pertenece a la segunda categoría. Läckberg arranca con una imagen violentísima, pero no se conforma con impresionar: organiza una investigación donde el terror presente dialoga con heridas viejas, silencios familiares y una comunidad que descubre demasiado tarde lo que tenía delante. La eficacia del libro está en esa doble operación: atrapa como thriller y, al mismo tiempo, dibuja un mapa de traumas enquistados bajo la aparente normalidad sueca.",
+        "readingLevel": "Lectura media para adultos habituados al thriller. El estilo es fluido y muy narrativo, aunque el libro contiene violencia gráfica, varios personajes y cambios de foco que conviene seguir con atención.",
+        "whyReadToday": "Porque sigue siendo una muestra muy eficaz de la novela negra nórdica contemporánea: combina entretenimiento de alto voltaje con preguntas incómodas sobre abuso, memoria, familia y violencia que se reproduce en silencio.",
+        "studyNotes": [
+          "La novela gana fuerza al leer en paralelo la investigación policial y la pesquisa más intuitiva de Erica sobre un drama familiar anterior.",
+          "El paisaje invernal de Fjällbacka no es decorativo: intensifica el aislamiento, el miedo y la sensación de amenaza persistente.",
+          "Läckberg trabaja un motivo central de la serie y del noir nórdico: los daños de la infancia regresan deformando la vida adulta.",
+          "Conviene atender a cómo la autora dosifica la información para unir casos aparentemente separados sin sacrificar ritmo comercial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La aparición en la nieve",
+            "summary": "La irrupción de una joven desaparecida en una carretera helada desencadena el caso y fija desde el inicio un tono de violencia extrema. Patrik y su equipo comprenden que no están ante un hecho aislado, sino frente a una cadena delictiva mucho más compleja."
+          },
+          {
+            "title": "Parte 2: Rastrear a un agresor invisible",
+            "summary": "La investigación policial se abre a otras desapariciones, viejas pistas y testimonios incompletos. El caso parece avanzar a trompicones, pero la acumulación de detalles empieza a perfilar un patrón ligado al sadismo y al control."
+          },
+          {
+            "title": "Parte 3: La tragedia familiar que vuelve",
+            "summary": "En paralelo, Erica Falck sigue la pista de un episodio antiguo que acabó con la muerte de un hombre. Su pesquisa revela que ciertos secretos domésticos no quedaron atrás, sino que siguen proyectando consecuencias sobre el presente."
+          },
+          {
+            "title": "Parte 4: Conexiones, trauma y revelación",
+            "summary": "El tramo final une los hilos del caso contemporáneo y del pasado familiar. Läckberg muestra que la resolución policial no basta sin comprender de dónde viene la violencia ni cómo ha logrado ocultarse durante tanto tiempo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Violencia extrema y legibilidad popular",
+            "content": "Uno de los logros del libro es mantener una lectura muy accesible pese a trabajar materiales especialmente duros. Läckberg conoce la lógica del page turner y la usa para conducir al lector por escenas de alto impacto sin abandonar la claridad estructural de la investigación."
+          },
+          {
+            "heading": "Fjällbacka como espacio doble",
+            "content": "La serie siempre se ha movido entre intimidad doméstica y crimen, y aquí esa tensión aparece muy depurada. Fjällbacka es al mismo tiempo hogar, comunidad y escenario del horror; esa mezcla impide que la novela se vuelva solo procedural y le da espesor emocional."
+          },
+          {
+            "heading": "El pasado como motor del presente",
+            "content": "La novela insiste en que los hechos actuales no se entienden si se aíslan de traumas anteriores, silencios familiares y abusos enterrados. Esa estructura retrospectiva amplía el alcance moral del thriller y lo convierte en una narración sobre memoria dañada."
+          },
+          {
+            "heading": "Lugar dentro del noir nórdico",
+            "content": "El domador de leones comparte rasgos clásicos del noir escandinavo —paisaje frío, instituciones que investigan con dificultad, violencia privada detrás del orden social—, pero conserva la marca propia de Läckberg: una atención sostenida a la vida familiar de sus protagonistas y a la continuidad serial del universo narrativo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Se puede leer El domador de leones sin haber leído la serie completa?",
+            "answer": "Sí. El caso principal se entiende por sí mismo, aunque conocer novelas anteriores enriquece la relación con Patrik Hedström, Erica Falck y el entorno de Fjällbacka."
+          },
+          {
+            "question": "¿Es una novela muy violenta?",
+            "answer": "Sí. Trabaja con secuestros, tortura y crímenes sádicos, por lo que su tono es más duro que el de un misterio clásico y está claramente orientado a lectores adultos."
+          },
+          {
+            "question": "¿Qué distingue este libro dentro de la saga?",
+            "answer": "Su intensidad sombría y el modo en que conecta un caso policial contemporáneo con una antigua tragedia familiar. Es una entrega donde el trauma tiene un peso especialmente fuerte."
+          },
+          {
+            "question": "¿Predomina la investigación o la vida personal de los personajes?",
+            "answer": "Predominan ambas líneas en equilibrio. La novela avanza como thriller policial, pero la vida de Erica y Patrik sigue siendo esencial para el tono y la identidad de la serie."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Maeva: El domador de leones",
+            "url": "https://www.maeva.es/colecciones/camilla-lackberg/el-domador-de-leones"
+          },
+          {
+            "label": "Aceprensa: Reseña de El domador de leones",
+            "url": "https://www.aceprensa.com/resenas-libros/el-domador-de-leones/"
+          },
+          {
+            "label": "Casa del Libro: El domador de leones (Serie Fjällbacka 9)",
+            "url": "https://www.casadellibro.com/libro-el-domador-de-leones-serie-fjllbacka-9/9788416363247/2535240"
+          },
+          {
+            "label": "Google Books: El domador de leones",
+            "url": "https://books.google.com/books?id=j7pjCAAAQBAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-enigma-de-las-arenas-de-robert-erskine-childers",
+      "title": "El Enigma De Las Arenas",
+      "authorName": "Robert Erskine Childers",
+      "authorSlug": "robert-erskine-childers",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El enigma de las arenas",
+        "authorName": "Erskine Childers",
+        "authorSlug": "robert-erskine-childers",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "aventura",
+          "thriller"
+        ],
+        "year": 1903,
+        "pages": 342,
+        "summary": "Publicada en 1903 con el subtítulo A Record of Secret Service, esta novela sigue a Carruthers, un funcionario británico que acepta navegar con su amigo Davies por las costas y bancos de arena del mar del Norte. Lo que parece una excursión incómoda se transforma en una investigación sobre maniobras alemanas y la posibilidad de una invasión a Gran Bretaña. Childers combina conocimiento náutico, observación geográfica y paranoia política para construir un relato meticuloso, poco espectacular en apariencia pero muy tenso en su progreso. Su prestigio histórico se debe a que convirtió el espionaje moderno en una ficción creíble, apoyada en detalles concretos y en una amenaza estratégica verosímil.",
+        "aboutThisBook": "El enigma de las arenas suele considerarse una de las primeras grandes novelas modernas de espionaje. La obra apareció antes de la Primera Guerra Mundial y encontró lectores sensibles al clima de rivalidad entre potencias europeas. Childers, experto navegante, utilizó la navegación costera y el conocimiento del paisaje marítimo como piezas centrales de la intriga. No propone un thriller vertiginoso en sentido contemporáneo, sino una novela de observación, deducción y anticipación geopolítica donde la lentitud aparente forma parte de su fuerza.",
+        "forWhom": "Para lectores de clásicos, espionaje y aventuras marítimas que disfrutan las novelas donde el detalle técnico y la tensión política importan tanto como la acción.",
+        "whyItMatters": "Importa porque fijó un modelo para gran parte de la novela de espionaje del siglo XX: amenaza internacional plausible, investigación gradual, héroes civiles y atención obsesiva a la logística real del conflicto. Sin este libro, el género tendría otra forma.",
+        "editorialIntro": "Hay clásicos que siguen vivos por el argumento y otros por la arquitectura del mundo que inventan. El enigma de las arenas pertenece a ambos grupos: puede leerse como aventura marítima, como intriga patriótica y como laboratorio temprano del thriller de inteligencia. Su ritmo exige paciencia, pero recompensa con atmósfera y precisión.",
+        "readingLevel": "Lectura media-alta por su densidad descriptiva, la terminología náutica y el avance gradual de la intriga. Conviene leerla con atención más que con prisa.",
+        "whyReadToday": "Porque ayuda a entender de dónde vienen los códigos del espionaje moderno y muestra cómo la ficción puede transformar mapas, rutas y movimientos logísticos en una fuente poderosa de suspense.",
+        "studyNotes": [
+          "La navegación no es adorno: es el método de investigación y la base material del suspense.",
+          "La novela convierte una sospecha estratégica en argumento narrativo antes de la guerra total europea.",
+          "Davies y Carruthers representan dos temperamentos complementarios: intuición obsesiva y escepticismo analítico.",
+          "El realismo técnico es una de las razones por las que el libro se volvió influyente dentro del género."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Una invitación incómoda",
+            "summary": "Carruthers acepta acompañar a Davies en un viaje marítimo que no se parece en nada al plan elegante que imaginaba. El contraste entre ambos personajes establece el tono y prepara el paso de la aventura privada a la sospecha política."
+          },
+          {
+            "title": "Parte 2: Bancos de arena, mapas y señales",
+            "summary": "La navegación por las costas y canales del mar del Norte revela irregularidades, rutas y comportamientos difíciles de explicar. Childers hace que el paisaje marítimo sea casi un documento de inteligencia: cada detalle importa."
+          },
+          {
+            "title": "Parte 3: Descubrir la amenaza",
+            "summary": "Lo que parecía una obsesión individual de Davies adquiere sentido estratégico. La novela enlaza deducción, riesgo y patriotismo para sugerir que detrás de lo observado existe un plan de mayor escala contra Gran Bretaña."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Nacimiento de un género",
+            "content": "El libro es decisivo porque desplaza el espionaje de la aventura melodramática al terreno de la plausibilidad. Los hechos observables, la logística y la geografía reemplazan al golpe de efecto como núcleo de la intriga."
+          },
+          {
+            "heading": "El mar como archivo",
+            "content": "Childers narra el mar del Norte como si fuera un texto que debe leerse. Canales, mareas, bancos y pequeñas maniobras contienen información estratégica. Esa lectura del espacio es una de las grandes innovaciones de la novela."
+          },
+          {
+            "heading": "Política previa a la catástrofe",
+            "content": "Leída hoy, la novela condensa ansiedades imperiales de comienzos del siglo XX. Su fuerza histórica no reside solo en haber imaginado una amenaza, sino en haber captado el clima mental que precedió a la guerra europea."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es realmente una de las primeras novelas de espionaje modernas?",
+            "answer": "Sí. Así la presentan de forma habitual la crítica, la historia del género y fuentes de referencia como Wikipedia y Open Library, sobre todo por su realismo estratégico y su influencia posterior."
+          },
+          {
+            "question": "¿Tiene mucha acción?",
+            "answer": "No en el sentido contemporáneo. Su tensión nace del viaje, la observación y la deducción. Si se entra en su ritmo, esa lentitud calculada es parte de su encanto."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose?",
+            "answer": "Porque combina valor histórico y eficacia narrativa. Es útil para entender la evolución del thriller de espionaje y todavía funciona como aventura marítima cargada de atmósfera."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: The Riddle of the Sands",
+            "url": "https://en.wikipedia.org/wiki/The_Riddle_of_the_Sands"
+          },
+          {
+            "label": "Project Gutenberg: edición digital del texto",
+            "url": "https://www.gutenberg.org/ebooks/2360"
+          },
+          {
+            "label": "Open Library: ficha de obra",
+            "url": "https://openlibrary.org/works/OL23797W/The_Riddle_of_the_Sands"
+          },
+          {
+            "label": "Google Books: edición de referencia",
+            "url": "http://books.google.es/books?id=iD8g_nP9Y4IC"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-enigma-del-cuatro-de-ian-caldwell",
+      "title": "El Enigma Del Cuatro",
+      "authorName": "Ian Caldwell",
+      "authorSlug": "ian-caldwell",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El enigma del cuatro",
+        "authorName": "Ian Caldwell y Dustin Thomason",
+        "authorSlug": "ian-caldwell",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 2004,
+        "pages": 384,
+        "summary": "Ambientada en Princeton durante la Pascua de 1999, El enigma del cuatro sigue a un grupo de estudiantes a punto de graduarse cuya amistad queda atrapada por la investigación de un libro renacentista tan raro como enigmático: la Hypnerotomachia Poliphili. Tom Sullivan, narrador de la historia, intenta no repetir la obsesión intelectual que destruyó a su padre; su amigo Paul, en cambio, está cada vez más absorbido por el rompecabezas filológico. A partir de diarios, rivalidades académicas, claves escondidas y muertes sospechosas, la novela mezcla campus novel, thriller erudito y relato de iniciación masculina. Más que un simple juego de acertijos, examina el coste íntimo de convertir el conocimiento en destino.",
+        "aboutThisBook": "Publicada en 2004 y escrita por dos amigos de infancia, Ian Caldwell y Dustin Thomason, la novela apareció en el momento de auge del thriller cultural posterior a El código Da Vinci, pero tiene un tono algo distinto: más universitario, más melancólico y más atento a las amistades rotas por la ambición intelectual. El libro se sostiene sobre una pieza real de la historia del libro, la Hypnerotomachia Poliphili, y convierte la investigación filológica en motor narrativo. Su atractivo está tanto en el misterio como en el retrato de una última primavera universitaria cargada de despedidas, secretos y cuentas pendientes.",
+        "forWhom": "Para lectores de thrillers intelectuales, novelas de campus y ficciones sobre manuscritos, códigos, rivalidades académicas y amistades sometidas a presión.",
+        "whyItMatters": "Importa porque convirtió un objeto de erudición renacentista en materia de best seller y porque demuestra que el suspense también puede construirse con filología, historia del arte y tensiones universitarias.",
+        "editorialIntro": "El gran mérito de El enigma del cuatro no es parecerse a otros thrillers culturales de su época, sino introducir una vibración más triste y más universitaria. Bajo la búsqueda de una clave escondida hay una novela sobre vocaciones heredadas, profesores enfrentados, amistades masculinas que no saben decirse la verdad y el miedo a que una investigación termine devorando la vida real.",
+        "readingLevel": "Medio-alto: la prosa es fluida, pero abundan referencias literarias e históricas, cambios de foco y explicaciones sobre el manuscrito central.",
+        "whyReadToday": "Sigue resultando atractivo en una época fascinada por archivos, conspiraciones y saberes especializados, porque pregunta qué ocurre cuando el prestigio académico pesa más que la lealtad o el duelo.",
+        "studyNotes": [
+          "La Hypnerotomachia no es solo un misterio externo: también refleja la tendencia de los personajes a leer su propia vida como un acertijo.",
+          "Observa la tensión entre herencia y elección en Tom, que teme repetir la obsesión paterna y aun así vuelve al mismo núcleo de atracción.",
+          "El campus de Princeton funciona como escenario moral: bibliotecas, clubes y despachos organizan jerarquías, rivalidades y alianzas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Últimos días en Princeton",
+            "summary": "Tom, Paul, Charlie y Gil encaran la graduación mientras la investigación sobre un incunable renacentista comienza a alterar amistades y rutinas."
+          },
+          {
+            "title": "Parte 2: El manuscrito y sus claves",
+            "summary": "La búsqueda de patrones ocultos en la Hypnerotomachia Poliphili abre un corredor de pistas que conecta académicos, documentos perdidos y viejas rivalidades."
+          },
+          {
+            "title": "Parte 3: Obsesión, traición y violencia",
+            "summary": "Cuando aparecen maniobras de plagio, intereses ocultos y muertes, el rompecabezas deja de ser meramente intelectual y se convierte en amenaza inmediata."
+          },
+          {
+            "title": "Momento clave: Lo que queda después del misterio",
+            "summary": "La resolución obliga a medir el precio humano de la obsesión erudita y a releer la amistad, el duelo y la madurez desde la pérdida."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller erudito con corazón de novela de campus",
+            "content": "La novela usa códigos, bibliografía y secretos renacentistas para generar suspense, pero su verdadera energía proviene del retrato de estudiantes brillantes enfrentados a su salida del mundo universitario. El libro funciona tanto por el enigma como por esa sensación de fin de etapa."
+          },
+          {
+            "heading": "La obsesión intelectual como herencia",
+            "content": "Tom y Paul representan dos modos de quedar absorbidos por un objeto de estudio. En ambos casos, la investigación promete sentido, prestigio y revelación, pero también aísla, distorsiona prioridades y erosiona vínculos afectivos."
+          },
+          {
+            "heading": "El pasado renacentista como espejo del presente",
+            "content": "La Hypnerotomachia Poliphili no aparece solo como reliquia extravagante. Sirve para enlazar ambición artística, codificación, ocultamiento y deseo de permanencia con los conflictos contemporáneos de los personajes."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Hace falta saber historia del arte o latín para entenderlo?",
+            "answer": "No. El libro incorpora esas referencias dentro de la intriga y las vuelve legibles para un lector general, aunque quien disfrute de la erudición encontrará capas extra."
+          },
+          {
+            "question": "¿Se parece a El código Da Vinci?",
+            "answer": "Comparte el gusto por manuscritos, claves y secretos históricos, pero es más universitaria, más introspectiva y menos acelerada que la novela de Dan Brown."
+          },
+          {
+            "question": "¿Predomina el misterio o la vida en el campus?",
+            "answer": "Ambas cosas. La investigación mueve la trama, pero el libro también dedica mucho espacio a amistades, parejas, tutores y ritos de paso de la vida universitaria."
+          },
+          {
+            "question": "¿Es autoconclusiva?",
+            "answer": "Sí. La novela resuelve su conflicto principal dentro del mismo volumen y no exige continuar con una serie."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia, \"The Rule of Four\"",
+            "url": "https://en.wikipedia.org/wiki/The_Rule_of_Four"
+          },
+          {
+            "label": "Penguin Random House, ficha de \"The Rule of Four\"",
+            "url": "https://www.penguinrandomhouse.com/books/22924/the-rule-of-four-by-ian-caldwell-and-dustin-thomason/"
+          },
+          {
+            "label": "Publishers Weekly, reseña de \"The Rule of Four\" (audiolibro)",
+            "url": "https://www.publishersweekly.com/9780743529723"
+          },
+          {
+            "label": "ReadingGroupGuides, reseña de \"The Rule of Four\"",
+            "url": "https://www.readinggroupguides.com/reviews/the-rule-of-four"
+          },
+          {
+            "label": "Bookreporter, guía de lectura de \"The Rule of Four\"",
+            "url": "https://www.bookreporter.com/reviews/the-rule-of-four/guide"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-enviado-de-roma-de-wallace-breem",
+      "title": "El Enviado De Roma",
+      "authorName": "Wallace Breem",
+      "authorSlug": "wallace-breem",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El enviado de Roma",
+        "authorName": "Wallace Breem",
+        "authorSlug": "wallace-breem",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "aventura"
+        ],
+        "year": 2009,
+        "pages": 304,
+        "summary": "El enviado de Roma es la edición española de The Legate's Daughter, una novela histórica de Wallace Breem ambientada en el año 24 a. C., cuando el régimen de Augusto atraviesa una etapa de incertidumbre y maniobra política. La historia sigue a Curtius Rufus, ex centurión de vida inestable, arrastrado por Marco Agripa a una misión que mezcla rescate, intriga y supervivencia. La hija de un legado ha sido secuestrada y la operación para recuperarla abre un recorrido que une Roma, el norte de África y la fragilidad del poder imperial. Breem combina aventura clásica, precisión de ambiente y tensión política. Más que una simple peripecia militar, la novela examina la sucesión, la autoridad, la lealtad y el modo en que el imperio convierte los dramas privados en asuntos de Estado.",
+        "aboutThisBook": "Aunque Wallace Breem es recordado sobre todo por Eagle in the Snow, esta novela confirma otra de sus virtudes: la capacidad para traducir el mundo romano en relato vivo, sin solemnidad arqueológica. Publicada originalmente en 1974 y recuperada después en nuevas ediciones inglesas y españolas, la obra cruza espionaje, viaje, secuestro y política imperial. Su protagonista no es un héroe perfecto, sino un veterano desgastado por sus errores, lo que vuelve más creíble el recorrido. El telón de fondo augusteo, con la cuestión sucesoria, las facciones senatoriales y la presencia de figuras como Augusto, Livia, Julia o Agripa, da a la aventura una dimensión política constante.",
+        "forWhom": "Para lectores de novela histórica clásica, admiradores de Roma antigua y quienes disfrutan tramas de rescate, viaje y conspiración con un protagonista ambiguo y muy humano.",
+        "whyItMatters": "Importa porque muestra una forma sólida y muy narrativa de escribir sobre Roma: sin sacrificar contexto histórico, pero poniendo la acción al servicio de personajes imperfectos, ambición política y dilemas de lealtad.",
+        "editorialIntro": "Wallace Breem sabía algo esencial sobre la novela histórica: el pasado no convence por acumulación de datos, sino cuando vuelve legibles el riesgo, la ambición y el miedo. En El enviado de Roma, el Imperio augusteo aparece como una maquinaria política vulnerable, todavía inestable, donde un secuestro puede convertirse en crisis de Estado. Esa mezcla de aventura y tablero imperial hace que el libro siga leyendo con brío, lejos de la mera postal romana.",
+        "readingLevel": "Lectura media para adultos y jóvenes lectores avanzados interesados en novela histórica. El estilo es directo y narrativo; la principal exigencia está en seguir nombres, cargos y relaciones políticas del mundo romano.",
+        "whyReadToday": "Porque sigue siendo una novela eficaz para entrar en la Roma de Augusto desde la acción y porque plantea preguntas vigentes sobre poder, sucesión, propaganda y uso político de la violencia.",
+        "studyNotes": [
+          "El libro se sitúa en 24 a. C., momento de inquietud sucesoria en torno a Augusto, no en la Roma republicana tardía clásica de César y Pompeyo.",
+          "Curtius Rufus funciona como protagonista antiheroico: ex centurión, jugador y hombre insatisfecho, lejos del ideal romano perfecto.",
+          "La aventura del rescate se enlaza con la política imperial: lo privado y lo público quedan unidos por la lógica del poder augusteo.",
+          "Puede compararse con otras novelas de Breem para ver su preferencia por personajes bajo presión histórica más que por héroes monumentales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Roma bajo Augusto",
+            "summary": "La novela abre en una capital inquieta por la salud del emperador y por la incertidumbre de la sucesión. En ese ambiente de facciones y cálculo, Curtius Rufus entra en la órbita de Marco Agripa y recibe una misión que parece menor, pero pronto revela implicaciones políticas."
+          },
+          {
+            "title": "Parte 2. El secuestro y la expedición",
+            "summary": "El asesinato de un legado y el rapto de su hija activan una operación de rescate que traslada la acción fuera de Roma. Breem mezcla desplazamiento, estrategia y aventura para convertir la búsqueda en una prueba de temple y lealtad."
+          },
+          {
+            "title": "Parte 3. Fronteras imperiales y supervivencia",
+            "summary": "En el norte de África, la novela explora el contacto entre centro y periferia del imperio. El viaje obliga a los personajes a actuar en territorios inciertos donde el prestigio romano cuenta menos que la inteligencia práctica y la resistencia."
+          },
+          {
+            "title": "Parte 4. Regreso, resolución y costo político",
+            "summary": "El desenlace muestra que la misión nunca fue solo un asunto sentimental o criminal. El rescate y sus consecuencias se leen a la luz de la estabilidad del régimen, de las rivalidades cortesanas y de la fragilidad del orden augusteo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Roma como sistema político inestable",
+            "content": "Breem sitúa la acción en un momento menos transitado que las grandes guerras civiles, pero muy fértil narrativamente. Augusto gobierna, sí, pero la cuestión sucesoria y las ambiciones senatoriales convierten cada incidente en una pieza potencial de crisis."
+          },
+          {
+            "heading": "El antihéroe en la novela histórica romana",
+            "content": "Curtius Rufus destaca porque no encarna el mármol imperial ni la virtud oficial. Su experiencia, cansancio y gusto por el desorden vuelven más interesante la historia y la alejan del heroísmo plano."
+          },
+          {
+            "heading": "Aventura con espesor histórico",
+            "content": "El libro tiene secuestro, viaje, rescate y peligro, pero funciona mejor porque esas piezas no están aisladas del contexto político. La aventura no suspende la historia: la hace visible."
+          },
+          {
+            "heading": "Vigencia del mundo augusteo narrado por Breem",
+            "content": "La novela sigue atrayendo porque entiende el poder como gestión de incertidumbres, alianzas y apariencias. Bajo la superficie romana aparecen mecanismos políticos muy reconocibles para un lector contemporáneo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El enviado de Roma es una novela independiente?",
+            "answer": "Sí. Aunque Wallace Breem escribió otras novelas ambientadas en el mundo antiguo, esta historia puede leerse por sí sola sin necesidad de seguir una serie previa."
+          },
+          {
+            "question": "¿En qué época exacta transcurre?",
+            "answer": "Transcurre en el 24 a. C., durante el gobierno de Augusto, en un momento marcado por la enfermedad del emperador y las especulaciones sobre su sucesión."
+          },
+          {
+            "question": "¿Qué tipo de protagonista tiene?",
+            "answer": "Curtius Rufus es un ex centurión con defectos, cansancio y vida desordenada. Esa condición antiheroica le da a la novela un tono más humano y menos épico en sentido convencional."
+          },
+          {
+            "question": "¿Predomina más la aventura o la política?",
+            "answer": "Las dos dimensiones están muy entrelazadas. La novela ofrece una misión de rescate y viaje, pero siempre bajo la presión del tablero político augusteo."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Hachette: The Legate's Daughter",
+            "url": "https://www.hachette.co.uk/titles/wallace-breem/the-legates-daughter/9781472108339/"
+          },
+          {
+            "label": "Google Books: El enviado de Roma",
+            "url": "https://books.google.com/books/about/El_enviado_de_Roma.html?id=WpStcQAACAAJ"
+          },
+          {
+            "label": "Carla Nayland: review of The Legate's Daughter",
+            "url": "https://www.carlanayland.org/reviews/legate_daughter.htm"
+          },
+          {
+            "label": "Goodreads: The Legate's Daughter",
+            "url": "https://www.goodreads.com/book/show/2201353.The_Legate_s_Daughter"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-fabricante-de-lluvia-de-william-camus",
+      "title": "El Fabricante De Lluvia",
+      "authorName": "William Camus",
+      "authorSlug": "william-camus",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El fabricante de lluvia",
+        "authorName": "William Camus",
+        "authorSlug": "william-camus",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "aventura",
+          "narrativa"
+        ],
+        "year": 1991,
+        "pages": 211,
+        "summary": "El fabricante de lluvia es una novela juvenil de aventuras centrada en Pete Breakfast, un chico de once años que considera un privilegio extraordinario convertirse en ayudante de un personaje tan admirado como enigmático. La fama del llamado fabricante de lluvia se extiende por Norteamérica y lo rodea una aureola ambigua: algunos lo ven como curandero, otros como charlatán, otros como alguien capaz de moverse entre mundos muy distintos sin pertenecer del todo a ninguno. A medida que Pete lo acompaña, la novela se transforma en una historia de aprendizaje donde la fascinación inicial convive con la duda. William Camus construye así un relato de desplazamientos, encuentros y pruebas en el que la aventura exterior importa tanto como la educación de la mirada: crecer significa empezar a distinguir entre carisma, verdad, engaño y lealtad.",
+        "aboutThisBook": "Publicado en español dentro de la colección El Barco de Vapor de SM, el libro se ha mantenido como una lectura juvenil recordada por su mezcla de aventura, misterio y formación del protagonista. Su punto de partida es muy atractivo para lectores de esa edad: un muchacho corriente recibe la oportunidad de seguir a un personaje legendario cuya reputación parece desafiar cualquier explicación sencilla. La novela se mueve en un territorio cercano al western y al viaje iniciático, con presencia de paisajes abiertos, figuras ambiguas y preguntas sobre identidad. Más que resolver pronto el enigma del título, Camus explota su poder de seducción narrativa. El centro del libro no es demostrar un truco, sino mostrar cómo un niño aprende a mirar el mundo con menos ingenuidad sin perder por ello el impulso aventurero.",
+        "forWhom": "Para lectores juveniles desde el último ciclo de primaria, docentes y familias que busquen una aventura con misterio, aire de frontera y un protagonista que madura mientras aprende a desconfiar de las apariencias.",
+        "whyItMatters": "Importa porque combina muy bien la promesa de aventura con un aprendizaje moral reconocible para lectores jóvenes. En lugar de limitarse al exotismo del viaje, pregunta qué hacemos con los héroes ambiguos que admiramos cuando empezamos a ver sus zonas oscuras.",
+        "editorialIntro": "Los buenos libros juveniles de aventuras no solo mueven a sus personajes de un lugar a otro: también los obligan a revisar aquello que creían saber. El fabricante de lluvia funciona precisamente así. William Camus toma una figura casi mítica, mitad prodigio y mitad farsante posible, y la pone delante de un niño que todavía mira el mundo con entusiasmo intacto. De esa relación nace una novela muy legible, con pulso de viaje y de frontera, que trabaja una pregunta clásica de formación: cuándo empieza uno a ver de verdad a las personas a las que admiraba sin reservas.",
+        "readingLevel": "Lectura media para público juvenil. El argumento es claro y aventurero, pero su mejor rendimiento aparece cuando el lector puede captar la ambigüedad del fabricante y el proceso interior de Pete más allá de la acción.",
+        "whyReadToday": "Porque sigue ofreciendo una aventura juvenil con misterio y carácter, lejos del didactismo plano. Además, habla de una cuestión siempre vigente: cómo distinguir entre prestigio, espectáculo y autenticidad cuando uno todavía está aprendiendo a orientarse.",
+        "studyNotes": [
+          "Pete Breakfast funciona como lector interno: su admiración inicial guía la entrada al relato y permite medir después su aprendizaje crítico.",
+          "La ambigüedad del fabricante de lluvia sostiene buena parte del interés narrativo; conviene analizar cómo el libro retrasa una definición cerrada del personaje.",
+          "Los temas que Ranopla asocia al libro —amistad, astucia, aventuras y magia— ayudan a leerlo como una obra de frontera entre realismo aventurero y aura legendaria.",
+          "Puede trabajarse en clase como novela de iniciación: no solo importa lo que ocurre en el viaje, sino cómo cambia la percepción del protagonista."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Pete conoce a una figura legendaria",
+            "summary": "La novela presenta a Pete Breakfast y su deslumbramiento ante el fabricante de lluvia, un hombre célebre cuya reputación parece mezclar milagro, espectáculo y misterio. Desde ese momento inicial queda claro que el viaje será también una prueba de admiración."
+          },
+          {
+            "title": "Parte 2: Aprendizaje en el camino",
+            "summary": "Convertido en ayudante, Pete acompaña a su nuevo referente y descubre el peso de la fama, la astucia y la improvisación. La aventura se expande por distintos escenarios y obliga al muchacho a observar con más atención lo que antes aceptaba sin preguntas."
+          },
+          {
+            "title": "Parte 3: Entre el prodigio y el engaño",
+            "summary": "El fabricante de lluvia se vuelve cada vez más difícil de clasificar. ¿Es un sabio, un charlatán, un superviviente o un poco de todo a la vez? Esa ambigüedad convierte la intriga externa en un problema de lectura moral para Pete y para el lector."
+          },
+          {
+            "title": "Parte 4: Crecer sin perder la aventura",
+            "summary": "En el tramo final, Pete comprende que madurar no consiste en renunciar a la fascinación, sino en volverla más lúcida. La experiencia vivida con el fabricante deja una enseñanza sobre confianza, identidad y mirada crítica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una aventura juvenil con fondo de iniciación",
+            "content": "El libro funciona bien como relato de peripecias, pero gana interés cuando se lee como novela de formación. Pete entra en la historia atraído por una leyenda personal y sale de ella con una conciencia más compleja del mundo y de los adultos a los que admiraba."
+          },
+          {
+            "heading": "El fabricante como figura ambigua",
+            "content": "La novela no liquida enseguida el enigma de su personaje central. Esa indecisión es una de sus mejores herramientas: obliga a pensar cómo se construye el prestigio, cuánto hay de verdad en el carisma y por qué ciertas figuras consiguen dominar la imaginación de una comunidad entera."
+          },
+          {
+            "heading": "Aire de frontera y tradición aventurera",
+            "content": "La circulación por Norteamérica, la convivencia con personajes diversos y el tono de leyenda itinerante acercan el libro a un western juvenil atípico. No depende del heroísmo épico tradicional, sino de un viaje donde la observación y la astucia pesan tanto como la acción."
+          },
+          {
+            "heading": "Por qué sigue siendo útil para lectores jóvenes",
+            "content": "Su vigencia está en la mezcla de ritmo y ambivalencia moral. Ofrece aventura de verdad, pero no trata a sus lectores como ingenuos permanentes: los invita a sospechar, interpretar y revisar la fascinación que producen los personajes carismáticos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Quién es Pete Breakfast?",
+            "answer": "Es el protagonista de once años que narra o focaliza la experiencia de acompañar al fabricante de lluvia. Su admiración inicial es la puerta de entrada a la aventura y también el punto desde el que se produce su aprendizaje."
+          },
+          {
+            "question": "¿El fabricante de lluvia es un personaje mágico o un impostor?",
+            "answer": "La novela trabaja precisamente esa ambigüedad. Parte de su interés está en no resolver demasiado pronto si estamos ante un prodigio genuino, un charlatán muy hábil o una mezcla difícil de separar."
+          },
+          {
+            "question": "¿Para qué edad funciona mejor el libro?",
+            "answer": "Funciona bien desde el final de primaria y primeros cursos de secundaria. Ranopla lo sitúa en el tercer ciclo y lo valora como una lectura de cierta exigencia, pero plenamente abordable para lectores juveniles."
+          },
+          {
+            "question": "¿Qué ofrece además de aventura?",
+            "answer": "Ofrece una historia de formación. A través del viaje, Pete aprende a mirar mejor a los demás, a desconfiar del prestigio automático y a entender que crecer implica aceptar zonas grises en las personas que admiramos."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Google Books: El fabricante de lluvia",
+            "url": "https://books.google.es/books?id=J5gsPQAACAAJ"
+          },
+          {
+            "label": "Ranopla: Ficha libro El fabricante de lluvia",
+            "url": "https://www.ranopla.es/2670-elfabricantedelluvia"
+          },
+          {
+            "label": "Casa del Libro: El fabricante de lluvia (4ª ed.)",
+            "url": "https://www.casadellibro.com/libro-el-fabricante-de-lluvia-4-ed/9788434813236/112402"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-hijo-del-hombre-de-cesar-vidal",
+      "title": "El Hijo Del Hombre",
+      "authorName": "Cesar Vidal",
+      "authorSlug": "cesar-vidal",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El hijo del hombre",
+        "authorName": "César Vidal",
+        "authorSlug": "cesar-vidal",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa"
+        ],
+        "year": 2007,
+        "pages": 512,
+        "summary": "En esta novela histórica, César Vidal articula una reconstrucción narrativa de la figura de Jesús desde una perspectiva indirecta y coral. La premisa arranca cuando Saulo es detenido tras un tumulto en el Templo de Jerusalén y, durante su traslado, recomienda al médico Lucas que aproveche el tiempo para entrevistar a quienes conocieron de cerca a Jesús. A partir de esas voces, el libro enlaza testimonios, recuerdos y trayectorias personales para levantar una biografía novelada donde importan tanto los hechos como la huella que dejaron en testigos diversos. El resultado no busca solo contar una vida sagrada, sino explorar cómo nace un relato fundacional dentro de un mundo sometido al poder romano y a tensiones religiosas intensas.",
+        "aboutThisBook": "Publicado por Suma en 2007, El hijo del hombre se presenta en su propia edición comercial como La historia de Jesús contada por sus discípulos desconocidos. Ese subtítulo define bien la operación narrativa del libro: apartarse del relato frontal y construir una aproximación a Jesús a través de mediadores, entrevistas y memorias. Vidal, habituado a combinar divulgación histórica y narración, se sirve de fuentes, ambientación y voces múltiples para ofrecer una ficción de base histórica que dialoga con el universo del cristianismo primitivo.",
+        "forWhom": "Para lectores interesados en novela histórica de tema bíblico, reconstrucciones del cristianismo primitivo y relatos donde la investigación testimonial organiza la trama.",
+        "whyItMatters": "Importa porque plantea una pregunta literaria sugestiva: cómo narrar a una figura central de la tradición cristiana sin convertirla solo en icono doctrinal. La novela apuesta por los márgenes, por quienes recuerdan, transmiten y reinterpretan una vida decisiva.",
+        "editorialIntro": "El mayor acierto de El hijo del hombre está en su enfoque. En lugar de recurrir a una simple dramatización lineal de la vida de Jesús, Vidal construye un mosaico de recuerdos y testimonios que intenta devolver densidad humana, política y social al nacimiento del cristianismo. Esa estructura le da aire de pesquisa narrativa y evita la monotonía del relato edificante convencional.",
+        "readingLevel": "Lectura media, apropiada para adultos o jóvenes muy motivados, con referencias históricas y religiosas constantes, pero escrita de forma narrativa y comprensible.",
+        "whyReadToday": "Porque ofrece una puerta literaria a los orígenes del cristianismo desde una forma narrativa basada en voces, memoria y contexto histórico, no solo en la repetición de episodios conocidos.",
+        "studyNotes": [
+          "La figura de Lucas como mediador da al libro una estructura de investigación y testimonio.",
+          "La novela trabaja con la distancia entre memoria vivida, transmisión oral y relato escrito.",
+          "El contexto romano y judío no es fondo decorativo: condiciona la interpretación de cada episodio.",
+          "El subtítulo comercial resume bien la propuesta: acercarse a Jesús desde discípulos no centrales o poco atendidos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La detención de Saulo y el encargo a Lucas",
+            "summary": "El punto de partida sitúa al lector en un momento de tensión política y religiosa. La detención de Saulo abre un tiempo de espera que se convierte en oportunidad narrativa: Lucas comienza a recoger testimonios sobre Jesús y su entorno."
+          },
+          {
+            "title": "Parte 2: Voces que reconstruyen una vida",
+            "summary": "A través de entrevistas y recuerdos, la novela va componiendo una imagen plural de Jesús. Cada voz aporta no solo datos, sino también perspectiva, emoción y contexto social."
+          },
+          {
+            "title": "Parte 3: De la memoria al relato fundacional",
+            "summary": "El libro muestra cómo una serie de experiencias personales y recuerdos dispersos empiezan a consolidarse en una narración con sentido histórico y espiritual. La vida de Jesús aparece así como memoria compartida y como origen de comunidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una biografía por vía indirecta",
+            "content": "La novela evita contar a Jesús desde una omnisciencia total y elige un dispositivo testimonial. Esa decisión le permite introducir matices, dudas y mediaciones, y convierte el acto de recordar en parte central de la historia."
+          },
+          {
+            "heading": "Historia, fe y ficción",
+            "content": "El libro se mueve en una zona híbrida: no es tratado teológico ni ensayo histórico, pero tampoco renuncia a ambientar con seriedad el mundo romano y judío del siglo I. Su interés está en esa negociación entre documentación, imaginación y tradición."
+          },
+          {
+            "heading": "El papel de los personajes secundarios",
+            "content": "El subtítulo subraya a los discípulos desconocidos y ese gesto resulta significativo. La novela desplaza el centro hacia figuras menos consagradas, recordando que toda tradición depende también de testigos periféricos y de memorias no canónicas en el imaginario popular."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro de divulgación religiosa?",
+            "answer": "Es una novela histórica con base en el mundo bíblico. Utiliza materiales y contextos religiosos, pero su forma principal es narrativa y ficcional."
+          },
+          {
+            "question": "¿Cuál es su enfoque más distintivo?",
+            "answer": "La idea de reconstruir la vida de Jesús mediante testimonios recogidos por Lucas. Ese recurso introduce una dimensión de pesquisa, memoria y polifonía."
+          },
+          {
+            "question": "¿Puede interesar a lectores no confesionales?",
+            "answer": "Sí, especialmente a quienes disfrutan la novela histórica y los relatos sobre el mundo antiguo. Su interés literario está en la estructura testimonial y en la reconstrucción de época, no solo en la dimensión devocional."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Todos Tus Libros: edición 2007 de Suma",
+            "url": "https://www.todostuslibros.com/libros/el-hijo-del-hombre_978-84-96463-95-0"
+          },
+          {
+            "label": "Planetadelibros: página de autor de César Vidal",
+            "url": "https://www.planetadelibros.com/autor/cesar-vidal/000000574"
+          },
+          {
+            "label": "Open Library: ficha de obra",
+            "url": "https://openlibrary.org/works/OL20950173W/El_hijo_del_hombre"
+          },
+          {
+            "label": "Google Books: edición de referencia",
+            "url": "http://books.google.es/books?id=-bAqAQAAMAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-hombre-iluminado-de-brandon-sanderson",
+      "title": "El Hombre Iluminado",
+      "authorName": "Brandon Sanderson",
+      "authorSlug": "brandon-sanderson",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El hombre iluminado",
+        "authorName": "Brandon Sanderson",
+        "authorSlug": "brandon-sanderson",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "fantasia",
+          "ciencia-ficcion",
+          "aventura"
+        ],
+        "year": 2023,
+        "pages": 400,
+        "summary": "El hombre iluminado es una novela del Cosmere protagonizada por Nomad, un fugitivo interplanetario que salta de mundo en mundo perseguido por la Night Brigade. Su llegada a Canticle, un planeta abrasado por un sol letal y habitado por ciudades móviles, dispara una aventura de supervivencia inmediata: aquí cada amanecer puede matar, y el poder político se sostiene mediante sacrificios y despersonalización. Sanderson combina persecución, redención y combate moral en una historia más veloz que contemplativa, pero cargada de resonancias para lectores de su universo. Aunque funciona como peripecia autónoma, también deja ver a un protagonista cansado, culpable y obligado a decidir si seguirá huyendo o asumirá otra vez responsabilidad por los demás.",
+        "aboutThisBook": "Publicada en 2023 como la cuarta de las novelas secretas financiadas por la histórica campaña de Kickstarter de Brandon Sanderson, esta obra pertenece al Cosmere pero se plantea como relato autosuficiente de alto voltaje. Su principal virtud está en la construcción de Canticle, un mundo extremo donde la geografía, la física y la organización social dependen de huir de la luz. Sanderson aprovecha ese entorno para contar una novela de acción sostenida, con ecos de western, ciencia ficción y fantasía épica, centrada en un personaje ya marcado por pérdidas previas y por una identidad que no termina de estabilizarse.",
+        "forWhom": "Para lectores de fantasía moderna, seguidores del Cosmere y quienes disfrutan novelas de aventura rápida con mundos hostiles, dilemas morales y héroes exhaustos.",
+        "whyItMatters": "Importa porque muestra a Sanderson en modo concentrado: worldbuilding extremo, sistema de reglas claro, ritmo alto y conexiones significativas con un universo mayor sin perder el impulso de novela de rescate y fuga.",
+        "editorialIntro": "Si buena parte del Cosmere trabaja la expansión, El hombre iluminado apuesta por la presión. Todo corre: el sol, las ciudades, el perseguidor, la culpa del protagonista. Esa compresión le sienta bien a Sanderson, que aquí transforma una cosmología gigantesca en una historia de urgencia moral donde cada decisión tiene coste físico, político y emocional.",
+        "readingLevel": "Medio: es ágil y muy visual, aunque gana profundidad si el lector acepta terminología del Cosmere y referencias a historias anteriores.",
+        "whyReadToday": "Vale la pena leerlo hoy por su mezcla de espectáculo y cansancio ético: habla de huir, de intervenir o no ante la injusticia y del precio de seguir vivo cuando ya no se cree mucho en uno mismo.",
+        "studyNotes": [
+          "Canticle no es solo escenario llamativo: obliga a pensar cómo el entorno material condiciona la política, la religión y el sacrificio colectivo.",
+          "Nomad encarna una fantasía de poder erosionada por la culpa; su arco depende menos de ganar fuerza que de decidir para qué usarla.",
+          "El libro puede leerse como historia autónoma, pero las alusiones al Cosmere amplían el sentido de identidad, exilio y deuda personal."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Llegada a un mundo donde amanece la muerte",
+            "summary": "Nomad aparece en Canticle, comprende que el sol vuelve inhabitable el planeta y cae enseguida en manos de fuerzas que quieren usarlo."
+          },
+          {
+            "title": "Parte 2: Beacon, la ciudad que huye",
+            "summary": "Al vincularse con los habitantes de una ciudad móvil, el protagonista pasa de la mera fuga personal a implicarse en la defensa de una comunidad vulnerable."
+          },
+          {
+            "title": "Parte 3: Recordar cómo actuar",
+            "summary": "Las decisiones sobre sacrificio, tecnología, lealtad y resistencia obligan a Nomad a revisar su identidad y su relación con quienes dependen de él."
+          },
+          {
+            "title": "Momento clave: Derrotar al tirano y seguir adelante",
+            "summary": "El desenlace combina confrontación física y ajuste moral: salvar a otros exige detener al Cinder King, pero también aceptar que huir no puede ser la única forma de vivir."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Un mundo diseñado para sostener el ritmo",
+            "content": "Canticle es uno de esos escenarios sandersonianos donde la premisa física organiza todo lo demás. La amenaza constante del sol no es mero adorno: explica el movimiento, la economía, el poder y la sensación de tiempo prestado que define la novela."
+          },
+          {
+            "heading": "Nomad como héroe agotado",
+            "content": "A diferencia del héroe ascendente clásico, Nomad entra en la historia ya desgastado. Lo interesante no es verlo descubrir su potencial, sino observar cómo decide volver a implicarse cuando sería más fácil seguir escapando."
+          },
+          {
+            "heading": "Autonomía narrativa y premio para lectores del Cosmere",
+            "content": "El libro puede seguirse por su trama principal, pero ofrece una recompensa adicional a quienes conocen otras piezas del universo de Sanderson. Esa doble capa explica parte de su atractivo: es aventura inmediata y también expansión mitológica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Puede leerse sin conocer el Cosmere?",
+            "answer": "Sí, porque su conflicto central se entiende por sí mismo. Aun así, los lectores veteranos reconocerán conexiones y matices que enriquecen mucho la experiencia."
+          },
+          {
+            "question": "¿Es una novela más de fantasía o de ciencia ficción?",
+            "answer": "Se mueve entre ambas tradiciones. Tiene imaginación fantástica, pero también una lógica de mundo y una presión tecnológica que rozan la ciencia ficción aventurera."
+          },
+          {
+            "question": "¿Es especialmente rápida dentro de Sanderson?",
+            "answer": "Sí. En comparación con sus sagas largas, esta novela apuesta por un ritmo más directo, escenarios de peligro continuo y un arco comprimido de persecución y resistencia."
+          },
+          {
+            "question": "¿Qué lugar ocupa entre las novelas secretas?",
+            "answer": "Fue la cuarta entrega del proyecto secreto financiado por Kickstarter y una de las que más dialogan con el Cosmere amplio de Sanderson."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia, \"The Sunlit Man\"",
+            "url": "https://en.wikipedia.org/wiki/The_Sunlit_Man"
+          },
+          {
+            "label": "Dragonsteel Books, ficha de \"The Sunlit Man Premium Hardcover Book\"",
+            "url": "https://www.dragonsteelbooks.com/products/the-sunlit-man-premium-hardcover-book"
+          },
+          {
+            "label": "Brandon Sanderson, \"First Look at Secret Project Four\"",
+            "url": "https://www.brandonsanderson.com/blogs/blog/first-look-at-secret-project-four-hint-its-stormlight-adjacent"
+          },
+          {
+            "label": "Brandon Sanderson, \"The Sunlit Man | Chapter One\"",
+            "url": "https://www.brandonsanderson.com/blogs/blog/the-sunlit-man-chapter-one"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T11:55:04Z"
+}

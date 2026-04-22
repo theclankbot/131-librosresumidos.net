@@ -1,0 +1,1526 @@
+{
+  "batchName": "replenish-20260418T1220Z-01",
+  "createdAt": "2026-04-18T12:40:13Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "psicopatologia-de-la-vida-cotidiana-de-sigmund-freud",
+      "title": "Psicopatologia De La Vida Cotidiana",
+      "authorName": "Sigmund Freud",
+      "authorSlug": "sigmund-freud",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Psicopatología de la vida cotidiana",
+        "authorName": "Sigmund Freud",
+        "authorSlug": "sigmund-freud",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "psicologia",
+          "ensayo",
+          "clasicos"
+        ],
+        "year": 1901,
+        "pages": null,
+        "summary": "Psicopatología de la vida cotidiana es uno de los libros más influyentes de Sigmund Freud y, probablemente, la vía de entrada más accesible a su modo de pensar. Publicado en 1901, examina olvidos, lapsus, errores de habla, actos fallidos y pequeñas confusiones aparentemente triviales para sostener una tesis ambiciosa: en la vida psíquica casi nada es casual. Freud propone que esas fallas diarias no son simples accidentes mecánicos, sino manifestaciones indirectas de deseos reprimidos, conflictos internos, recuerdos activos y asociaciones inconscientes. El libro avanza mediante ejemplos, autoobservaciones y análisis de casos breves, con un tono menos sistemático que otros textos metapsicológicos, pero muy eficaz para mostrar cómo lo inconsciente irrumpe en la vida ordinaria. Su importancia no reside solo en popularizar el célebre “lapsus freudiano”, sino en extender el campo del psicoanálisis a los gestos mínimos de la experiencia cotidiana.",
+        "aboutThisBook": "Este libro ocupa un lugar central en la primera etapa del psicoanálisis. Freud reunió observaciones sobre el olvido de nombres, la pérdida de palabras extranjeras, los errores de lectura y escritura, las acciones equivocadas y las supersticiones para demostrar que la mente no funciona como una superficie transparente para sí misma. A diferencia de obras clínicas más especializadas, aquí su método se apoya en incidentes reconocibles por cualquier lector, lo que explica su enorme circulación cultural. La edición inglesa temprana de A. A. Brill y su posterior difusión en editoriales generales convirtieron el texto en uno de los títulos freudianos más leídos fuera del ámbito médico.",
+        "forWhom": "Para estudiantes de psicología, lectores de historia de las ideas, cursos de humanidades y cualquier persona interesada en entender por qué Freud convirtió olvidos y lapsus comunes en material teórico decisivo.",
+        "whyItMatters": "Importa porque desplaza la frontera entre lo significativo y lo trivial. Freud obliga a mirar la vida diaria como un escenario en el que aparecen, deformados pero legibles, los conflictos de la vida inconsciente. Esa intuición cambió la cultura del siglo XX y sigue influyendo en la psicología, la crítica literaria y la conversación común.",
+        "editorialIntro": "Pocos libros han logrado volver sospechosa la rutina con tanta eficacia. Psicopatología de la vida cotidiana parte de olvidos menores, palabras mal dichas y torpezas aparentemente sin importancia, pero termina proponiendo una revolución interpretativa: aquello que solemos despachar como accidente puede revelar un conflicto profundo. Freud escribe aquí con un pie en la observación clínica y otro en la experiencia ordinaria, y por eso el libro conserva una extraña vitalidad.",
+        "readingLevel": "Lectura de complejidad media-alta. El estilo expositivo es claro, pero la argumentación gana profundidad si se lee con atención a los ejemplos, a sus asociaciones y a los supuestos del primer psicoanálisis.",
+        "whyReadToday": "Porque sigue siendo un texto decisivo para pensar la relación entre lenguaje, memoria, deseo y autoengaño. Incluso cuando se discuten sus conclusiones, su manera de leer los síntomas mínimos continúa siendo intelectualmente fértil.",
+        "studyNotes": [
+          "El concepto clave es la parapraxis: error, lapsus u olvido que no debe entenderse como puro azar, sino como formación de compromiso.",
+          "Freud combina observación autobiográfica, casos breves y análisis lingüístico, de modo que el libro funciona tanto como ensayo teórico como repertorio de ejemplos interpretativos.",
+          "La tesis del determinismo psíquico organiza todo el volumen: incluso las fallas menores tienen causas y conexiones internas.",
+          "Conviene leerlo junto a los límites de su época: su poder interpretativo es enorme, pero también invita a debatir hasta dónde puede extenderse una explicación basada en el inconsciente."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Olvidos con sentido",
+            "summary": "Freud abre el libro estudiando el olvido de nombres propios, palabras extranjeras y secuencias verbales. A partir de ejemplos aparentemente banales, sostiene que el fallo de memoria no es vacío puro, sino el efecto de asociaciones reprimidas o interferencias inconscientes."
+          },
+          {
+            "title": "Parte 2: Recuerdos encubridores y memoria infantil",
+            "summary": "El análisis se desplaza hacia esos recuerdos nítidos pero aparentemente insignificantes que sobreviven desde la infancia. Freud plantea que muchas veces operan como pantallas: conservan algo menor para ocultar un contenido psíquicamente más cargado."
+          },
+          {
+            "title": "Parte 3: Lapsus de habla, lectura y escritura",
+            "summary": "En esta zona del libro aparecen los errores verbales más célebres. Los tropiezos del lenguaje, la lectura desviada o la escritura equivocada dejan ver deseos, temores o pensamientos que la conciencia no controla del todo."
+          },
+          {
+            "title": "Parte 4: Actos fallidos, superstición y determinismo",
+            "summary": "El cierre amplía el campo de observación hacia acciones mal ejecutadas, gestos sintomáticos y creencias en la casualidad. Freud concluye defendiendo que la vida psíquica está regida por conexiones causales, incluso allí donde la experiencia común cree ver simple accidente."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La vida diaria como archivo del inconsciente",
+            "content": "El gran hallazgo del libro es metodológico: Freud no reserva lo inconsciente para sueños o neurosis graves, sino que lo rastrea en la superficie misma de la vida ordinaria. Ese gesto ensancha radicalmente el alcance del psicoanálisis y vuelve interpretable lo mínimo."
+          },
+          {
+            "heading": "El lapsus freudiano más allá del cliché",
+            "content": "La cultura popular redujo a menudo el libro a la idea caricaturesca del “lapsus freudiano”. Sin embargo, el texto es mucho más amplio: propone una teoría de los olvidos, los errores y las acciones fallidas como fenómenos estructurados por conflicto psíquico, censura y deseo."
+          },
+          {
+            "heading": "Un libro de ejemplos, no de sistema cerrado",
+            "content": "A diferencia de obras más densamente doctrinales, aquí Freud persuade por acumulación de casos. Esa forma fragmentaria facilita la lectura, pero también obliga al lector crítico a preguntarse por el alcance real de cada interpretación y por la relación entre evidencia anecdótica y teoría general."
+          },
+          {
+            "heading": "Vigencia y discusión contemporánea",
+            "content": "Aunque muchas tesis del primer psicoanálisis han sido revisadas, el libro sigue siendo importante porque enseña a sospechar de la transparencia del yo. Su valor actual reside tanto en lo que afirma como en la actitud hermenéutica que inaugura: leer síntomas pequeños como puertas de acceso a estructuras psíquicas más complejas."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Psicopatología de la vida cotidiana?",
+            "answer": "Trata sobre olvidos, lapsus, errores y actos fallidos de la vida diaria, interpretados por Freud como manifestaciones del inconsciente y no como simples accidentes sin sentido."
+          },
+          {
+            "question": "¿Es un libro técnico o accesible?",
+            "answer": "Es uno de los libros más accesibles de Freud. No deja de ser exigente, pero se apoya en ejemplos reconocibles y en una prosa menos abstracta que la de sus textos más teóricos."
+          },
+          {
+            "question": "¿Aquí aparece la idea del “lapsus freudiano”?",
+            "answer": "Sí. El libro ayudó decisivamente a popularizar la idea de que ciertos errores del habla revelan conflictos o deseos inconscientes, aunque su alcance va bastante más allá de ese fenómeno."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose hoy?",
+            "answer": "Porque cambió la manera moderna de pensar la memoria, el lenguaje y el autoengaño. Incluso quienes cuestionan a Freud encuentran aquí un modelo potente de lectura de los síntomas cotidianos."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Project Gutenberg: Psychopathology of Everyday Life",
+            "url": "https://www.gutenberg.org/ebooks/67332"
+          },
+          {
+            "label": "Wikipedia: The Psychopathology of Everyday Life",
+            "url": "https://en.wikipedia.org/wiki/The_Psychopathology_of_Everyday_Life"
+          },
+          {
+            "label": "Internet Archive: Psychopathology of everyday life",
+            "url": "https://archive.org/details/psychopathologyo00freu"
+          },
+          {
+            "label": "Google Books: The Psychopathology of Everyday Life",
+            "url": "https://books.google.com/books?id=KyDKcV2su0MC"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ultimo-acto-en-palmira-la-vi-novela-de-marco-didio-falco-de-lindsey-davis",
+      "title": "Ultimo Acto En Palmira La Vi Novela De Marco Didio Falco",
+      "authorName": "Lindsey Davis",
+      "authorSlug": "lindsey-davis",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Último acto en Palmira",
+        "authorName": "Lindsey Davis",
+        "authorSlug": "lindsey-davis",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "misterio",
+          "narrativa"
+        ],
+        "year": 1994,
+        "pages": 384,
+        "summary": "Último acto en Palmira es la sexta entrega de la serie de Marco Didio Falco y una de las novelas donde Lindsey Davis explota mejor la mezcla de investigación criminal, novela histórica romana y comedia de viaje. La trama arranca con la desaparición de un valioso músico hidráulico y con la intervención interesada del siempre incómodo Anacrites, que empuja a Falco hacia Oriente. Para seguir las pistas, el investigador termina vinculado a una compañía teatral ambulante y recorre escenarios que van de Roma a Petra y Palmira. El resultado es una pesquisa llena de cambios de registro: intriga, sátira del mundo del espectáculo, observación de la vida imperial y aventura por las rutas del este romano. Davis usa el carisma cansado pero ingenioso de Falco para narrar no solo un crimen, sino también los mecanismos del poder, el comercio y la representación en el mundo antiguo.",
+        "aboutThisBook": "Publicada en 1994, Last Act in Palmyra pertenece al momento de consolidación de la serie Falco. Ya no se trata solo de novelas detectivescas ambientadas en Roma, sino de un proyecto narrativo que amplía el mapa del Imperio y lo vuelve vivible. Según la propia página de Lindsey Davis, esta entrega envía a Falco a Nabatea y lo hace infiltrarse en un entorno teatral; Wikipedia la describe además como una historical mystery crime novel situada en Roma, Nabatea y Palmira. Esa combinación de exotismo geográfico, humor ácido y procedimiento detectivesco convierte el libro en una pieza especialmente representativa de la autora.",
+        "forWhom": "Para lectores de novela histórica con intriga, seguidores de detectives clásicos, aficionados al mundo romano y quienes disfruten relatos de viaje donde la investigación se mezcla con humor, observación social y reconstrucción de época.",
+        "whyItMatters": "Importa porque muestra hasta qué punto la serie de Falco puede ser algo más que un simple whodunit de ambientación antigua. Davis convierte la movilidad imperial, el teatro ambulante y las tensiones entre centro y periferia en parte esencial del misterio, enriqueciendo el género con cultura material e ironía histórica.",
+        "editorialIntro": "Entre las muchas virtudes de Lindsey Davis, una destaca con nitidez en esta novela: su capacidad para hacer que el Imperio romano parezca a la vez vasto, sucio, cómico y peligrosamente humano. Último acto en Palmira toma una investigación de apariencia excéntrica y la convierte en un recorrido por rutas comerciales, escenarios teatrales y zonas fronterizas del poder romano. Falco, como siempre, llega cansado, sospechando de todos y dispuesto a seguir adelante aunque preferiría estar en otra parte.",
+        "readingLevel": "Lectura de complejidad media. El ritmo es ágil, pero la novela se disfruta más si el lector aprecia las referencias al mundo romano, el humor irónico y la estructura de investigación por etapas.",
+        "whyReadToday": "Porque sigue siendo un excelente ejemplo de cómo la novela histórica puede entretener sin sacrificar inteligencia contextual. Además, ofrece una visión muy eficaz de la cultura del espectáculo, la burocracia y las periferias del imperio.",
+        "studyNotes": [
+          "La compañía teatral no es un simple decorado: introduce máscaras, actuación y engaño como extensión simbólica del propio misterio.",
+          "Falco funciona menos como héroe épico que como observador irónico del Imperio, lo que da a la serie un tono distintivo.",
+          "El desplazamiento hacia Petra y Palmira ensancha la escala de la saga y permite ver la diversidad cultural del mundo romano.",
+          "Anacrites cumple una función narrativa importante: su presencia obliga a leer cada encargo oficial como una trampa potencial."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Un encargo sospechoso",
+            "summary": "La desaparición de un músico valioso y la intervención del jefe de espionaje Anacrites ponen en marcha una pesquisa que desde el principio huele a manipulación. Falco acepta a regañadientes y comprende que el caso lo sacará de sus coordenadas habituales."
+          },
+          {
+            "title": "Parte 2: Infiltración en el mundo del espectáculo",
+            "summary": "La investigación conduce a una troupe teatral itinerante. Davis aprovecha ese entorno para mezclar comicidad, rivalidades profesionales, identidades inestables y una cadena de testimonios poco fiables que complican la búsqueda del culpable."
+          },
+          {
+            "title": "Parte 3: Rutas orientales del Imperio",
+            "summary": "Cuando la acción se desplaza hacia Nabatea, Petra y Palmira, el caso adquiere dimensión geopolítica y comercial. El viaje amplía el campo del misterio y convierte el paisaje oriental en parte activa del suspense."
+          },
+          {
+            "title": "Parte 4: El último acto",
+            "summary": "El desenlace reúne revelaciones criminales, dobles juegos y una resolución escénica muy acorde con el tema del teatro. Falco no solo identifica al responsable, sino que desenmascara un conjunto de intereses ocultos que daban forma al caso desde el principio."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El teatro como metáfora del crimen",
+            "content": "La novela convierte el mundo escénico en una extensión natural de la investigación. Actuar, fingir, improvisar y ocultar móviles son operaciones comunes tanto al teatro como al misterio detectivesco, y Davis explota esa afinidad con gran eficacia."
+          },
+          {
+            "heading": "Una Roma imperial descentrada",
+            "content": "Aunque Falco procede del corazón del poder romano, esta entrega lo obliga a leer el Imperio desde sus márgenes orientales. Petra y Palmira no aparecen como decorados exóticos vacíos, sino como espacios de comercio, tránsito y complejidad cultural."
+          },
+          {
+            "heading": "Falco entre cinismo y humanidad",
+            "content": "El atractivo del protagonista reside en su mezcla de ironía defensiva y compromiso práctico. Nunca parece un héroe solemne; más bien un profesional cansado que sobrevive entre jefes manipuladores, clientes dudosos y peligros muy concretos. Esa voz sostiene el tono entero del libro."
+          },
+          {
+            "heading": "La novela histórica como entretenimiento inteligente",
+            "content": "Davis demuestra que la reconstrucción del pasado no exige pesadez didáctica. La información sobre el mundo romano está integrada en el movimiento narrativo, en los diálogos y en la logística del viaje, de modo que la ambientación aporta densidad sin frenar la intriga."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Último acto en Palmira?",
+            "answer": "Trata sobre una investigación de Marco Didio Falco que comienza con la desaparición de un músico y termina llevándolo con una compañía teatral hasta Petra y Palmira, donde debe resolver un caso lleno de engaños y maniobras políticas."
+          },
+          {
+            "question": "¿Es necesario leer antes otros libros de Falco?",
+            "answer": "Puede leerse de forma independiente, porque el caso central se entiende por sí solo, aunque conocer entregas previas ayuda a apreciar mejor las relaciones recurrentes y la evolución del protagonista."
+          },
+          {
+            "question": "¿Predomina más la intriga o la ambientación histórica?",
+            "answer": "La novela equilibra ambas dimensiones. Hay un misterio bien articulado, pero gran parte de su encanto está en la recreación del viaje, del teatro ambulante y del Oriente romano."
+          },
+          {
+            "question": "¿Qué distingue esta entrega dentro de la serie?",
+            "answer": "Sobre todo su componente itinerante y teatral. El desplazamiento hacia Palmira y el uso de una troupe como vehículo de investigación le dan un aire de aventura imperial especialmente marcado."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Lindsey Davis: Last Act in Palmyra",
+            "url": "https://lindseydavis.co.uk/book/last-act-in-palmyra/"
+          },
+          {
+            "label": "Wikipedia: Last Act in Palmyra",
+            "url": "https://en.wikipedia.org/wiki/Last_Act_in_Palmyra"
+          },
+          {
+            "label": "Open Library: Last act in Palmyra",
+            "url": "https://openlibrary.org/works/OL176297W"
+          },
+          {
+            "label": "Goodreads: Last Act in Palmyra",
+            "url": "https://www.goodreads.com/book/show/44156.Last_Act_in_Palmyra"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "un-mundo-desbocado-los-efectos-de-la-globlalizacion-en-nuestras-vidas-de-anthony-giddens",
+      "title": "Un Mundo Desbocado Los Efectos De La Globlalizacion En Nuestras Vidas",
+      "authorName": "Anthony Giddens",
+      "authorSlug": "anthony-giddens",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un mundo desbocado: los efectos de la globalización en nuestras vidas",
+        "authorName": "Anthony Giddens",
+        "authorSlug": "anthony-giddens",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "sociologia",
+          "ensayo",
+          "politica"
+        ],
+        "year": 1999,
+        "pages": null,
+        "summary": "Un mundo desbocado es un ensayo breve y muy influyente en el que Anthony Giddens explica la globalización no como una consigna económica, sino como una transformación profunda de la experiencia social. Basado en las Reith Lectures de la BBC de 1999, el libro examina cómo los cambios globales alteran la noción de riesgo, la autoridad de la tradición, la estructura familiar y las posibilidades de la democracia. Giddens insiste en que la globalización no actúa únicamente “fuera”, en mercados o instituciones lejanas: entra en la vida íntima, modifica hábitos, expectativas y formas de relación. Lejos del triunfalismo simple, su enfoque combina oportunidades y amenazas, subrayando tanto la interdependencia mundial como sus lados oscuros: terrorismo, crimen transnacional, incertidumbre y desanclaje. El valor del libro reside en su capacidad para traducir teoría social compleja a un lenguaje público sin perder densidad analítica.",
+        "aboutThisBook": "Runaway World apareció a partir de las prestigiosas conferencias Reith de la BBC y se convirtió en uno de los textos de divulgación sociológica más conocidos de Giddens. La página de la BBC conserva la serie original de cinco conferencias —Globalisation, Risk, Tradition, Family y Democracy—, mientras que Profile Books presenta el libro como una reflexión sobre nuestra nueva interdependencia global, actualizada más tarde con un prefacio y un capítulo adicional tras el 11-S. Esa doble condición, entre intervención pública y ensayo sociológico, explica su éxito: es un libro corto, pero ambicioso, pensado para lectores no especializados sin renunciar a preguntas estructurales sobre la modernidad tardía.",
+        "forWhom": "Para lectores de sociología, ciencias políticas, estudios culturales y debate público que busquen una introducción sólida y breve a los efectos sociales de la globalización más allá de los eslóganes económicos.",
+        "whyItMatters": "Importa porque ofrece una de las formulaciones más claras de la idea de que la globalización reordena simultáneamente las instituciones y la vida privada. También porque anticipa debates que siguen plenamente vigentes: inseguridad global, crisis de la tradición, transformación de la familia y necesidad de renovar la democracia.",
+        "editorialIntro": "Hay ensayos que envejecen mal porque solo capturan una coyuntura; Un mundo desbocado sigue leyéndose porque detectó un cambio de escala histórica. Giddens entendió temprano que la globalización no debía pensarse solo en términos de comercio o finanzas, sino como una mutación del tejido social entero. Lo decisivo del libro es esa mirada de doble nivel: observa instituciones globales, pero también cómo esas fuerzas alteran la intimidad, el riesgo cotidiano y la idea misma de pertenencia.",
+        "readingLevel": "Lectura de complejidad media-alta. El lenguaje es accesible y conferencial, pero los conceptos de modernidad, riesgo y democracia exigen una lectura atenta y con interés por la teoría social.",
+        "whyReadToday": "Porque muchos de sus diagnósticos siguen en el centro del presente: interdependencia mundial, fragilidad democrática, transformación de la familia, circulación transnacional de amenazas y tensiones entre apertura global y reacción identitaria.",
+        "studyNotes": [
+          "Giddens define la globalización como un proceso multidimensional que afecta economía, política, cultura y vida íntima.",
+          "La noción de riesgo ocupa un lugar clave: las sociedades contemporáneas viven organizadas en torno a peligros fabricados por la propia modernización.",
+          "El libro vincula cambios macrosociales con experiencias cotidianas, especialmente en familia, tradición y relaciones personales.",
+          "La propuesta de “democratizar la democracia” resume su intento de pensar respuestas políticas a una modernidad global inestable."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Conferencia 1: Globalización",
+            "summary": "Giddens abre el libro argumentando que la globalización no es una moda ni un simple programa neoliberal, sino una reorganización real del tiempo y el espacio sociales. Las decisiones tomadas en un punto del planeta tienen consecuencias inmediatas en otros lugares y en la vida diaria de millones de personas."
+          },
+          {
+            "title": "Conferencia 2: Riesgo",
+            "summary": "La modernidad avanzada produce nuevas clases de inseguridad: ya no solo riesgos naturales, sino amenazas creadas por la propia acción humana, desde la tecnología hasta las finanzas o el crimen transnacional. El autor explica cómo la percepción del riesgo se vuelve constitutiva de la vida contemporánea."
+          },
+          {
+            "title": "Conferencia 3: Tradición",
+            "summary": "En lugar de desaparecer sin más, la tradición cambia de estatuto. Giddens muestra que en una sociedad global ya no se obedece automáticamente a la costumbre: las tradiciones deben justificarse, negociarse y coexistir con formas de vida reflexivas y a veces conflictivas."
+          },
+          {
+            "title": "Conferencia 4: Familia",
+            "summary": "Uno de los pasajes más conocidos del libro aborda la transformación de la intimidad. La familia deja de responder a moldes rígidos y entra en un terreno de negociación, igualdad inestable y redefinición de vínculos, con efectos ambivalentes sobre libertad y vulnerabilidad."
+          },
+          {
+            "title": "Conferencia 5: Democracia",
+            "summary": "El cierre sostiene que la globalización exige renovar las instituciones democráticas. Giddens defiende una democracia más participativa y reflexiva, capaz de responder a problemas que ya no caben dentro del marco exclusivo del Estado nacional."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Globalización más allá de la economía",
+            "content": "Uno de los mayores méritos del libro es negarse a reducir la globalización a mercados o tratados comerciales. Giddens la entiende como un proceso de reestructuración social total que modifica costumbres, identidades, autoridades y expectativas cotidianas."
+          },
+          {
+            "heading": "La sociedad del riesgo como horizonte cotidiano",
+            "content": "El ensayo dialoga con una preocupación central de la sociología tardomoderna: vivimos en un mundo más reflexivo, pero también más expuesto a peligros producidos por nosotros mismos. Ese desplazamiento explica por qué el miedo contemporáneo se organiza de modo distinto al de épocas anteriores."
+          },
+          {
+            "heading": "Tradición, intimidad y cambio moral",
+            "content": "El libro es especialmente útil cuando muestra que la globalización no solo mueve capitales: reordena la autoridad moral y la vida privada. La transformación de la familia y de las relaciones personales aparece así como parte del mismo proceso que altera la política y la economía."
+          },
+          {
+            "heading": "Un ensayo público con ambición teórica",
+            "content": "Aunque nace de conferencias radiofónicas, Runaway World no es una mera simplificación periodística. Su forma breve obliga a condensar ideas, pero debajo hay un programa intelectual coherente: pensar la modernidad avanzada como una época de interdependencia radical, reflexividad y necesidad de reforma democrática."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata Un mundo desbocado?",
+            "answer": "Trata sobre los efectos sociales de la globalización en la política, el riesgo, la tradición, la familia y la democracia, mostrando cómo un proceso global altera también la vida cotidiana."
+          },
+          {
+            "question": "¿Es un libro académico difícil?",
+            "answer": "No especialmente. Tiene base sociológica sólida, pero fue concebido para un público amplio a partir de las Reith Lectures, por lo que su exposición es clara y muy legible."
+          },
+          {
+            "question": "¿Qué idea central propone Giddens?",
+            "answer": "Que la globalización debe entenderse como una transformación multidimensional de la modernidad: crea oportunidades, pero también riesgos nuevos, desestabiliza tradiciones y obliga a replantear la democracia."
+          },
+          {
+            "question": "¿Por qué sigue siendo relevante?",
+            "answer": "Porque muchos de los problemas que identifica continúan vigentes: interdependencia mundial, amenazas transnacionales, tensiones identitarias, cambios en la familia y crisis de representación política."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "BBC Radio 4: Reith Lectures 1999 - Runaway World",
+            "url": "https://www.bbc.co.uk/radio4/reith1999/"
+          },
+          {
+            "label": "Profile Books: Runaway World",
+            "url": "https://www.profilebooks.com/work/runaway-world/"
+          },
+          {
+            "label": "Open Library: Runaway world",
+            "url": "https://openlibrary.org/works/OL38109W/Runaway_world"
+          },
+          {
+            "label": "Google Books: Runaway World",
+            "url": "https://books.google.com/books?id=KPMtVIsNo-wC"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "un-rio-un-amor-los-placeres-prohibidos-de-luis-cernuda",
+      "title": "Un Rio Un Amor Los Placeres Prohibidos",
+      "authorName": "Luis Cernuda",
+      "authorSlug": "luis-cernuda",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un río, un amor / Los placeres prohibidos",
+        "authorName": "Luis Cernuda",
+        "authorSlug": "luis-cernuda",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "poesia",
+          "clasicos",
+          "literatura-espanola",
+          "surrealismo"
+        ],
+        "year": 2002,
+        "pages": 173,
+        "summary": "Un río, un amor / Los placeres prohibidos reúne dos libros decisivos de la etapa juvenil de Luis Cernuda y permite seguir, casi sin interrupción, el momento en que su poesía se vuelve más rebelde, más desgarrada y más abiertamente erótica. En Un río, un amor aparece ya la ruptura con la dicción más contenida de sus primeros poemas y una entrada franca en el imaginario surrealista: imágenes de desposesión, deseo insatisfecho, extrañeza urbana y un yo que se siente expulsado del orden común. Los placeres prohibidos intensifica ese movimiento y convierte el deseo amoroso, también en su dimensión homosexual, en núcleo de afirmación y de conflicto. Leídos juntos, ambos poemarios muestran una poesía que no solo canta el amor imposible, sino que discute con la moral, con la sociedad y con la propia dificultad de existir fiel a un deseo que el mundo condena.",
+        "aboutThisBook": "La edición conjunta de Cátedra publicada en 2002 reúne dos títulos originalmente aparecidos en 1929 y 1931 dentro del itinerario que luego desembocaría en La realidad y el deseo. Es un volumen especialmente útil porque deja ver la continuidad entre ambos libros: el primero abre la fase surrealista de Cernuda y el segundo la lleva hacia una formulación más nítida del conflicto entre deseo y norma social. Son poemarios breves, pero fundamentales para entender no solo al autor, sino también una parte central de la poesía española del siglo XX, donde la experiencia íntima se convierte en crítica de la realidad histórica, moral y afectiva.",
+        "forWhom": "Para lectores de poesía española moderna, estudiantes de la Generación del 27 y quienes busquen una lectura intensa sobre deseo, identidad, rebeldía y lenguaje surrealista.",
+        "whyItMatters": "Importa porque en estos libros Cernuda encuentra una voz capaz de unir intimidad, insumisión y modernidad formal. Su tratamiento del deseo amoroso y de la exclusión social sigue siendo una referencia mayor de la poesía española contemporánea.",
+        "editorialIntro": "Pocas combinaciones resultan tan reveladoras como esta. Al leer juntos Un río, un amor y Los placeres prohibidos, se asiste al momento en que Cernuda deja atrás cualquier comodidad expresiva y convierte la poesía en un espacio de confrontación. El surrealismo no aparece aquí como simple ornamento estético, sino como instrumento para decir una verdad interior que el orden social preferiría mantener en silencio. Por eso el libro conserva una energía crítica tan viva: habla de amor, pero también de marginación, de desajuste y de la necesidad de nombrarse contra la norma.",
+        "readingLevel": "Lectura media-alta. El lenguaje no siempre es difícil por vocabulario, pero exige atención a las imágenes, a los cambios de tono y al peso simbólico del deseo y la negación.",
+        "whyReadToday": "Porque sigue ofreciendo una de las formulaciones más lúcidas y valientes del choque entre deseo personal y disciplina social, un conflicto que continúa siendo plenamente contemporáneo.",
+        "studyNotes": [
+          "Conviene leer ambos poemarios como un arco continuo: en el primero domina la irrupción surrealista y en el segundo la afirmación más explícita del deseo prohibido.",
+          "El imaginario de Cernuda no busca la oscuridad gratuita; usa la imagen violenta o inesperada para expresar una subjetividad en conflicto con el mundo.",
+          "La importancia del libro no es solo estética: también es histórica, porque articula una protesta contra la represión afectiva y social en la España de su tiempo.",
+          "La relación entre eros, pérdida y rebeldía organiza buena parte de la experiencia de lectura y ayuda a entender su lugar dentro de La realidad y el deseo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Bloque 1: La irrupción del desajuste",
+            "summary": "Los poemas asociados a Un río, un amor presentan un yo que percibe el mundo como distancia, extrañamiento y carencia. El deseo todavía no se formula siempre de manera frontal, pero ya altera la percepción de la ciudad, del cuerpo y del tiempo."
+          },
+          {
+            "title": "Bloque 2: El surrealismo como liberación",
+            "summary": "A medida que avanza el conjunto, la lógica de la imagen rompe con la dicción más regulada de la etapa anterior. El poema se vuelve un espacio de choque donde sueño, eros y rebelión permiten decir lo que el discurso ordinario no puede asumir."
+          },
+          {
+            "title": "Bloque 3: El deseo se nombra contra la norma",
+            "summary": "En Los placeres prohibidos el amor deja de ser solo melancolía y se convierte en afirmación conflictiva. El libro hace visible la oposición entre deseo y moral dominante, y esa tensión dota a los poemas de una fuerza ética además de lírica."
+          },
+          {
+            "title": "Bloque 4: De la intimidad a la crítica del mundo",
+            "summary": "El cierre del volumen sugiere que la herida amorosa no es exclusivamente privada. La exclusión del amante, la soledad y la rebeldía revelan una crítica más amplia de la civilización, de sus máscaras y de sus prohibiciones."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Surrealismo y verdad interior",
+            "content": "La etapa surrealista de Cernuda no debe entenderse como adhesión decorativa a una moda. En estos poemas, la imagen libre sirve para sacar a la luz una verdad psíquica y afectiva que el lenguaje socialmente aceptable no consigue contener."
+          },
+          {
+            "heading": "Deseo, eros y conflicto social",
+            "content": "La novedad histórica de Los placeres prohibidos reside en que el deseo amoroso, incluido su componente homosexual, se vuelve núcleo de la obra sin pedir legitimación externa. El poema registra así una experiencia íntima y, al mismo tiempo, una protesta contra el orden represivo."
+          },
+          {
+            "heading": "Del yo herido al mundo hostil",
+            "content": "Aunque la escritura parte de una vivencia emocional intensa, Cernuda nunca se limita al lamento sentimental. El dolor amoroso revela una incompatibilidad más profunda entre el individuo y una sociedad que castiga la diferencia."
+          },
+          {
+            "heading": "Lugar central en la poesía española del siglo XX",
+            "content": "Leídos juntos, estos libros permiten entender por qué Cernuda ocupa un sitio singular dentro de la Generación del 27. Aquí confluyen modernidad formal, conciencia histórica, tensión erótica y una ética de la insumisión que marcará su obra posterior."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Son dos libros distintos o un único poemario?",
+            "answer": "Son dos poemarios distintos de Luis Cernuda, pero esta edición los reúne en un solo volumen porque forman una secuencia clave de su etapa surrealista y juvenil."
+          },
+          {
+            "question": "¿Hace falta experiencia previa en poesía para leerlo?",
+            "answer": "No es imprescindible, aunque ayuda leer despacio y aceptar que el sentido no siempre se presenta de forma lineal. La intensidad de las imágenes pide relectura más que erudición previa."
+          },
+          {
+            "question": "¿Qué temas dominan el libro?",
+            "answer": "Predominan el deseo amoroso, la frustración, la rebeldía contra la norma, la soledad y la búsqueda de una voz propia frente a una sociedad hostil."
+          },
+          {
+            "question": "¿Por qué se considera una obra importante de Cernuda?",
+            "answer": "Porque en estos libros cristalizan varias de sus notas decisivas: el surrealismo, la oposición entre realidad y deseo, la reivindicación del eros y la conciencia dolorosa de la exclusión."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Los placeres prohibidos",
+            "url": "https://es.wikipedia.org/wiki/Los_placeres_prohibidos"
+          },
+          {
+            "label": "Wikipedia: Luis Cernuda",
+            "url": "https://es.wikipedia.org/wiki/Luis_Cernuda"
+          },
+          {
+            "label": "Britannica: Luis Cernuda",
+            "url": "https://www.britannica.com/biography/Luis-Cernuda"
+          },
+          {
+            "label": "Open Library: Un Rio, Un Amor, Los Placeres Prohibidos / A River, A Love, The Forbidden Pleasures",
+            "url": "https://openlibrary.org/works/OL1299018W/Un_Rio_Un_Amor_Los_Placeres_Prohibidos_A_River_A_Love_The_Forbidden_Pleasures"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "yo-otro-cronica-del-cambio-de-imre-kertesz",
+      "title": "Yo Otro Cronica Del Cambio",
+      "authorName": "Imre Kertesz",
+      "authorSlug": "imre-kertesz",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 3,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Yo, otro: crónica del cambio",
+        "authorName": "Imre Kertész",
+        "authorSlug": "imre-kertesz",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "memorias",
+          "ensayo",
+          "autobiografia"
+        ],
+        "year": 2002,
+        "pages": 144,
+        "summary": "Yo, otro: crónica del cambio es uno de los libros más incisivos de Imre Kertész sobre la identidad después de la catástrofe. No se trata de unas memorias lineales ni de un diario convencional, sino de una meditación fragmentaria en la que el autor húngaro examina cómo se transforma el yo tras Auschwitz, el estalinismo, la vida intelectual tardía y la circulación por la Europa posterior a 1989. Kertész no presenta un sujeto estable que recuerda desde la serenidad, sino una conciencia escindida que se interroga sin descanso: qué queda de uno mismo después de haber sido objeto de la historia, cómo se vive con la fama literaria, qué significa seguir escribiendo cuando la identidad parece una construcción siempre amenazada. El libro avanza entre notas de viaje, reflexión filosófica y observación moral, y ofrece una prosa seca, lúcida y radicalmente honesta.",
+        "aboutThisBook": "Publicado en español por Acantilado, con traducción de Adan Kovacsics, el libro ocupa un lugar singular dentro de la obra tardía de Kertész. Dialoga con sus novelas más conocidas, pero desplaza el centro hacia una escritura de frontera entre cuaderno personal, autobiografía intelectual y ensayo existencial. Lo decisivo aquí no es la reconstrucción cronológica de una vida, sino la indagación sobre el cambio interior: el paso de una subjetividad marcada por la persecución y el totalitarismo hacia otra que debe soportar reconocimiento público, desplazamientos europeos y una extraña sensación de ajenidad respecto de sí misma. Es, en ese sentido, un laboratorio del pensamiento kertésziano sobre la fragilidad del individuo.",
+        "forWhom": "Para lectores de memorias intelectuales, literatura centroeuropea, ensayo autobiográfico y obras que examinan la identidad después del trauma histórico y político.",
+        "whyItMatters": "Importa porque convierte la experiencia histórica extrema en una pregunta sostenida por el yo, sin sentimentalismo ni consuelo. Kertész muestra que sobrevivir no garantiza una identidad estable y que la conciencia moderna vive atravesada por fracturas difíciles de suturar.",
+        "editorialIntro": "Este no es un libro de confesión tranquila, sino de vigilancia interior. Kertész escribe como quien se observa cambiar y desconfía de cualquier fórmula demasiado sólida sobre la identidad. De ahí su fuerza. Cada nota, cada desplazamiento y cada observación parecen preguntar si todavía es posible hablar en primera persona después de haber atravesado el siglo de los campos, las dictaduras y la mercantilización de la cultura. Leído hoy, Yo, otro mantiene una intensidad rara: combina la precisión moral del testigo con la incomodidad intelectual de quien no quiere estabilizar su experiencia en un relato tranquilizador.",
+        "readingLevel": "Lectura media-alta. La prosa es clara, pero exige atención porque el libro avanza por fragmentos reflexivos, alusiones culturales y cambios de registro entre memoria, viaje y pensamiento.",
+        "whyReadToday": "Porque sigue siendo una reflexión extraordinaria sobre la identidad en tiempos de trauma, desplazamiento y exposición pública, asuntos que continúan definiendo gran parte de la experiencia contemporánea.",
+        "studyNotes": [
+          "No conviene leerlo como autobiografía cerrada, sino como cuaderno de autointerrogación donde el yo nunca aparece del todo fijado.",
+          "La experiencia de Auschwitz está presente como trasfondo decisivo, pero el libro se ocupa sobre todo de sus efectos prolongados sobre la conciencia y la escritura.",
+          "Los viajes y ciudades europeas no son simple escenario: funcionan como estaciones de una subjetividad desplazada y escindida.",
+          "La obra dialoga con el resto de Kertész porque transforma en reflexión explícita varios de sus grandes temas: libertad, historia, máscara social y responsabilidad individual."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento 1: El yo como problema",
+            "summary": "Desde las primeras páginas, Kertész plantea que la identidad no es una esencia, sino una zona inestable atravesada por la memoria y el cambio. El libro se abre, así, como examen de una primera persona sospechosa de sí misma."
+          },
+          {
+            "title": "Momento 2: Europa, viajes y extrañamiento",
+            "summary": "Los desplazamientos por distintas ciudades europeas permiten observar cómo el escritor se confronta con lenguas, públicos y contextos que lo reconocen y, al mismo tiempo, lo vuelven extraño. La circulación externa intensifica la fractura interior."
+          },
+          {
+            "title": "Momento 3: Trauma, memoria y supervivencia",
+            "summary": "Aun cuando no sea un libro centrado exclusivamente en Auschwitz, la experiencia del campo y de los totalitarismos sigue determinando la mirada del autor. Cada reflexión sobre el presente se mide contra esa herida histórica persistente."
+          },
+          {
+            "title": "Momento 4: Escritura y mutación de la conciencia",
+            "summary": "El tramo final convierte la literatura en lugar de prueba. Escribir ya no significa fijar una identidad, sino aceptar su precariedad y someterla a un análisis continuo, a veces severo, siempre lúcido."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Autobiografía sin estabilidad",
+            "content": "Kertész subvierte la idea tradicional de memorias como relato ordenado de una vida. Aquí el yo aparece como proceso, fisura y cambio, y esa inestabilidad formal responde a una experiencia histórica que ha destruido la confianza en las narraciones coherentes del sujeto."
+          },
+          {
+            "heading": "Después de Auschwitz",
+            "content": "La gran cuestión del libro no es solo recordar el horror, sino pensar cómo se vive después de él. Kertész insiste en que el trauma no pertenece únicamente al pasado: modifica la percepción del presente, de la fama, del lenguaje y de la propia interioridad."
+          },
+          {
+            "heading": "La Europa posterior al totalitarismo",
+            "content": "Las ciudades, congresos, hoteles y encuentros que atraviesan el libro dibujan una Europa aparentemente abierta, pero llena de tensiones nuevas. El autor observa cómo el reconocimiento cultural convive con la persistencia de viejas sombras históricas y con una subjetividad que no logra instalarse cómodamente en la normalidad."
+          },
+          {
+            "heading": "Ética de la lucidez",
+            "content": "Uno de los mayores valores del libro es su negativa a la autocomplacencia. Kertész no se presenta como héroe de la supervivencia, sino como conciencia vulnerable que examina sus máscaras, sus contradicciones y sus mutaciones con un rigor poco frecuente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro autobiográfico?",
+            "answer": "Se sitúa en la zona de las memorias y del ensayo autobiográfico. No desarrolla una ficción novelesca convencional, sino una reflexión fragmentaria sobre la identidad y la experiencia histórica."
+          },
+          {
+            "question": "¿Hace falta haber leído Sin destino para entenderlo?",
+            "answer": "No es obligatorio, pero ayuda. Quien conozca la obra previa de Kertész reconocerá mejor cómo este libro transforma en reflexión explícita temas ya presentes en sus novelas."
+          },
+          {
+            "question": "¿Qué tipo de escritura utiliza Kertész aquí?",
+            "answer": "Una prosa sobria, analítica y fragmentaria que mezcla notas de viaje, meditación filosófica, memoria personal y observación cultural."
+          },
+          {
+            "question": "¿Por qué el título insiste en la idea de “otro”?",
+            "answer": "Porque el libro explora la experiencia de sentirse desplazado respecto de uno mismo. El sujeto no aparece como unidad fija, sino como conciencia alterada por la historia, el trauma y el paso del tiempo."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Editorial Acantilado: Yo, otro",
+            "url": "https://www.acantilado.es/catalogo/yo-otro/"
+          },
+          {
+            "label": "NobelPrize.org: Imre Kertész – Facts",
+            "url": "https://www.nobelprize.org/prizes/literature/2002/kertesz/facts/"
+          },
+          {
+            "label": "Wikipedia: Imre Kertész",
+            "url": "https://es.wikipedia.org/wiki/Imre_Kert%C3%A9sz"
+          },
+          {
+            "label": "Google Books: Yo, otro",
+            "url": "https://play.google.com/store/books/details?id=SJKHDwAAQBAJ&source=gbs_api"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "alas-de-plata-de-camilla-lackberg",
+      "title": "Alas De Plata",
+      "authorName": "Camilla Lackberg",
+      "authorSlug": "camilla-lackberg",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 2,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Alas de plata",
+        "authorName": "Camilla Läckberg",
+        "authorSlug": "camilla-lackberg",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "novela-negra",
+          "suspense"
+        ],
+        "year": 2021,
+        "pages": 337,
+        "summary": "Alas de plata retoma a Faye Adelheim después de los acontecimientos de Una jaula de oro y convierte su aparente reconstrucción en un nuevo escenario de amenaza. Lejos de limitarse a un thriller de venganza, Camilla Läckberg trabaja aquí con una protagonista que ha rehecho su vida y su empresa, pero sigue habitada por la violencia del pasado y por la necesidad de proteger a su hija a cualquier precio. La novela se mueve entre el suspense empresarial, el conflicto familiar y la persecución psicológica: cuando el exmarido de Faye vuelve a alterar el equilibrio que ella creía conquistado, el relato se acelera hacia una confrontación en la que supervivencia, poder y memoria traumática quedan estrechamente unidos. El resultado es una historia de ritmo ágil, marcada por giros eficaces y por una protagonista que ya no acepta el papel de víctima, aunque esa transformación tenga un coste moral considerable.",
+        "aboutThisBook": "Publicada en español en 2021, Alas de plata corresponde a la segunda entrega de la serie protagonizada por Faye. Aunque puede seguirse por sí misma en lo esencial, gana relieve cuando se entiende como continuación del proyecto narrativo iniciado en Una jaula de oro: explorar la violencia íntima, la manipulación y la respuesta feroz de una mujer que decide reapropiarse de su vida. Läckberg desplaza parte de la intriga desde el crimen clásico hacia un territorio más ligado al thriller de poder, al ajuste de cuentas y a la identidad femenina bajo presión. El libro combina escenas de alta tensión con una lectura contemporánea de la autonomía, la maternidad y la revancha.",
+        "forWhom": "Para lectores de thriller contemporáneo, suspense nórdico de ritmo rápido y novelas con protagonistas femeninas fuertes, ambivalentes y dispuestas a cruzar límites para sobrevivir.",
+        "whyItMatters": "Importa porque muestra una variante interesante del noir actual: menos centrada en la investigación policial y más en la relación entre trauma, poder económico, violencia de género y construcción estratégica de la identidad.",
+        "editorialIntro": "Camilla Läckberg sabe que el suspense no depende solo del peligro externo, sino también del modo en que una protagonista se reinventa para no volver a ser destruida. Esa es la clave de Alas de plata. Faye no entra en la novela como inocente amenazada, sino como mujer que ya ha aprendido a defenderse y que, precisamente por eso, se mueve en una zona moral mucho más incómoda y más atractiva. El libro funciona como thriller, pero también como relato sobre lo que cuesta conservar la libertad cuando el pasado violento sigue teniendo cuerpo, nombre y capacidad de regreso.",
+        "readingLevel": "Lectura accesible. La novela prioriza el ritmo, la tensión y los giros, aunque se disfruta más si se presta atención a la evolución psicológica de Faye y a sus dilemas de poder.",
+        "whyReadToday": "Porque dialoga con debates muy presentes sobre violencia íntima, control, imagen pública y autonomía femenina, y lo hace desde un thriller eficaz que no renuncia a la ambigüedad moral.",
+        "studyNotes": [
+          "Faye debe leerse como una protagonista de poder ambiguo: su fortaleza nace del daño sufrido, pero también la empuja a estrategias cada vez más extremas.",
+          "La novela desplaza el foco del policial clásico hacia el thriller de confrontación, donde importa menos descubrir al agresor que medir cómo se responde a la amenaza.",
+          "El pasado no actúa como simple antecedente narrativo, sino como fuerza activa que condiciona cada decisión del presente.",
+          "La dimensión empresarial del relato amplía el conflicto y muestra que el control sobre la propia vida también pasa por el dinero, la reputación y la capacidad de influencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: Una calma que no puede durar",
+            "summary": "Faye parece haber conseguido una nueva vida estable junto a su hija y el éxito de su empresa. Sin embargo, la novela deja claro desde el inicio que esa seguridad es frágil y que el pasado sigue demasiado cerca."
+          },
+          {
+            "title": "Parte 2: El regreso de la amenaza",
+            "summary": "La irrupción del exmarido y de viejos fantasmas reabre heridas que Faye creía controladas. La protagonista comprende que defender lo ganado exigirá volver al terreno de la confrontación y del cálculo."
+          },
+          {
+            "title": "Parte 3: Estrategias, alianzas y contraataque",
+            "summary": "La novela se convierte entonces en una partida de poder. Faye moviliza recursos personales, afectivos y empresariales para proteger a su familia y neutralizar a quienes quieren destruirla."
+          },
+          {
+            "title": "Parte 4: Ajuste final de cuentas",
+            "summary": "El cierre reúne suspense, violencia y resolución emocional. Más que un simple triunfo, la confrontación final obliga a medir qué ha tenido que convertirse Faye para sobrevivir y conservar aquello que ama."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Thriller de supervivencia y poder",
+            "content": "Läckberg se aparta aquí del esquema detectivesco más clásico para narrar una guerra personal donde la información, el dinero y la capacidad de anticipación pesan tanto como la fuerza física. Esa mezcla vuelve especialmente contemporánea la novela."
+          },
+          {
+            "heading": "Faye como figura ambivalente",
+            "content": "Uno de los mayores atractivos del libro es que su protagonista no queda fijada como víctima ejemplar ni como vengadora pura. Faye es ambas cosas y algo más: una conciencia marcada por el daño que aprende a usar el poder sin dejar de pagar por ello un precio psicológico."
+          },
+          {
+            "heading": "Violencia íntima y memoria traumática",
+            "content": "El relato muestra que salir de una relación destructiva no equivale a cerrar el conflicto. La violencia persiste como memoria corporal, como temor por la hija y como necesidad de vigilancia permanente, de modo que el thriller traduce una experiencia muy reconocible del abuso prolongado."
+          },
+          {
+            "heading": "Serie y continuidad temática",
+            "content": "Como segunda entrega de la saga de Faye, la novela amplía el universo iniciado en Una jaula de oro. Mantiene la tensión del suspense, pero profundiza sobre todo en la pregunta por la autonomía femenina y por las zonas oscuras que esa autonomía puede generar cuando nace del trauma."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer antes Una jaula de oro?",
+            "answer": "No es indispensable para seguir la intriga principal, pero sí muy recomendable, porque Alas de plata prolonga la historia personal de Faye y gana intensidad cuando se conoce su origen."
+          },
+          {
+            "question": "¿Es una novela policíaca tradicional?",
+            "answer": "No exactamente. Tiene suspense y crimen, pero funciona más como thriller de confrontación y supervivencia que como investigación detectivesca clásica."
+          },
+          {
+            "question": "¿Qué destaca más en el libro: la acción o la psicología?",
+            "answer": "La acción es importante y sostiene el ritmo, pero el interés duradero de la novela está en la evolución psicológica de Faye y en su manera de administrar miedo, poder y venganza."
+          },
+          {
+            "question": "¿Qué tipo de lector suele disfrutarla más?",
+            "answer": "Quien busque un thriller ágil, con protagonista femenina fuerte, conflictos de poder contemporáneos y una tensión constante ligada al pasado traumático."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Camilla Läckberg: Silver Tears",
+            "url": "https://camillalackberg.se/en/book/silver-tears/"
+          },
+          {
+            "label": "Google Books: Alas de plata",
+            "url": "http://books.google.es/books?id=1bmHzgEACAAJ"
+          },
+          {
+            "label": "Wikipedia: Camilla Läckberg",
+            "url": "https://es.wikipedia.org/wiki/Camilla_L%C3%A4ckberg"
+          },
+          {
+            "label": "Goodreads: Silver Tears",
+            "url": "https://www.goodreads.com/book/show/57094252-silver-tears"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "asesinato-en-fleat-house-de-lucinda-riley",
+      "title": "Asesinato En Fleat House",
+      "authorName": "Lucinda Riley",
+      "authorSlug": "lucinda-riley",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 2,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Asesinato en Fleat House",
+        "authorName": "Lucinda Riley",
+        "authorSlug": "lucinda-riley",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "misterio",
+          "thriller",
+          "novela negra"
+        ],
+        "year": 2022,
+        "pages": 416,
+        "summary": "En esta novela póstuma, Lucinda Riley se aparta de la saga histórica y familiar que la hizo célebre para construir un misterio clásico de internado inglés con pulso contemporáneo. La historia arranca cuando Charlie Cavendish, alumno problemático del colegio St Stephen’s, aparece muerto en circunstancias sospechosas dentro de Fleat House, una de las residencias del centro. Lo que en un principio parece un accidente pronto revela capas de violencia, secretos escolares y relaciones marcadas por el abuso de poder, la humillación y la impunidad. La detective Jazz Hunter, retirada de la policía y reacia a volver, acepta investigar y entra en un microcosmos cerrado donde casi todos ocultan algo. Riley articula la intriga mediante sospechosos creíbles, giros medidos y una atmósfera de opacidad moral. El resultado es una novela de crimen muy legible, más interesada en las tensiones humanas del internado que en el mero artificio del enigma.",
+        "aboutThisBook": "Publicada en español por Plaza & Janés en 2022, Asesinato en Fleat House corresponde a la novela The Murders at Fleat House, presentada por la web oficial de Lucinda Riley como un relato de suspense centrado en la investigación de Jazz Hunter. Los registros bibliográficos de Open Library y TodosTusLibros coinciden en situarla en 2022 y en una extensión de 416 páginas para la edición española consultada. Tiene un interés particular dentro de la obra de Riley porque muestra una faceta menos asociada a las grandes sagas familiares y más próxima al policial británico de espacios cerrados, donde el internado funciona como comunidad hermética, con jerarquías, traumas y silencios propios.",
+        "forWhom": "Para lectores adultos de novela criminal británica, internados oscuros, investigaciones con atmósfera cerrada y thrillers donde importan tanto los secretos personales como la resolución del caso.",
+        "whyItMatters": "Importa porque amplía la imagen pública de Lucinda Riley y demuestra que su eficacia narrativa no dependía solo de la ficción histórica. Aquí trabaja con solvencia el misterio de cámara, el retrato de una institución opaca y la tensión entre fachada respetable y corrupción íntima.",
+        "editorialIntro": "Hay novelas de crimen que se apoyan en la velocidad y otras que prefieren encerrar al lector en un sistema de relaciones envenenadas. Asesinato en Fleat House pertenece a esta segunda clase. Bajo la apariencia del internado tradicional, Lucinda Riley dispone un escenario de privilegio, miedo y resentimiento donde cada pasillo guarda una versión interesada de los hechos. La intriga funciona, pero lo que la vuelve memorable es la atmósfera de comunidad cerrada y moralmente resquebrajada.",
+        "readingLevel": "Lectura accesible para adultos. La prosa es fluida y el suspense está construido de manera clásica, aunque la novela gana densidad cuando se atiende a sus jerarquías escolares, a los dobles motivos de los personajes y al contexto emocional de la investigación.",
+        "whyReadToday": "Porque sigue dialogando muy bien con el interés actual por las instituciones prestigiosas que esconden violencia, abusos y silencios. Además, ofrece una entrada clara a la faceta más detectivesca de Lucinda Riley sin perder amplitud narrativa ni tensión emocional.",
+        "studyNotes": [
+          "El internado no es solo un decorado: concentra relaciones de clase, disciplina, humillación y prestigio social que condicionan la investigación.",
+          "Jazz Hunter funciona como investigadora competente pero emocionalmente vulnerable, lo que da profundidad humana al procedimiento detectivesco.",
+          "Conviene observar cómo la novela convierte un caso aparentemente simple en una red de secretos acumulados y versiones parciales.",
+          "La muerte de Charlie importa menos como choque aislado que como síntoma de una comunidad que llevaba tiempo deteriorándose por dentro."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: la muerte en el internado",
+            "summary": "La novela se abre con la aparición del cadáver de Charlie Cavendish en Fleat House. Desde el inicio, la explicación oficial resulta insuficiente y el internado aparece como un espacio dado a controlar el relato antes que a esclarecer la verdad."
+          },
+          {
+            "title": "Momento clave 2: Jazz Hunter entra en escena",
+            "summary": "La detective Jazz Hunter acepta volver a investigar y empieza a interrogar a profesores, alumnos y responsables del centro. Cada testimonio amplía la sospecha de que la víctima no era querida y de que el colegio encubría conflictos previos."
+          },
+          {
+            "title": "Momento clave 3: secretos, alianzas y nuevos indicios",
+            "summary": "A medida que la investigación avanza, surgen conexiones inesperadas entre la muerte del alumno y otras zonas oscuras del colegio. Riley dosifica la información para mostrar que el caso no depende de un único culpable moral, sino de un clima entero de silencio y manipulación."
+          },
+          {
+            "title": "Momento clave 4: resolución y verdad incómoda",
+            "summary": "En el tramo final, Jazz reconstruye los hechos y obliga a mirar de frente aquello que la institución prefería ocultar. La solución del enigma cierra la trama criminal, pero también deja una lectura amarga sobre la fragilidad ética de los entornos privilegiados."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El internado como mundo cerrado",
+            "content": "La novela aprovecha una tradición muy reconocible del policial británico: el recinto aislado donde todo el mundo se conoce y, por eso mismo, todo el mundo miente mejor. Fleat House funciona como laboratorio de obediencias, resentimientos y secretos compartidos."
+          },
+          {
+            "heading": "Lucinda Riley fuera de su registro más conocido",
+            "content": "Quien llegue desde Las siete hermanas encuentra aquí otra faceta de la autora. Aunque permanece su habilidad para dosificar información y sostener múltiples líneas de interés, el centro ya no es la saga familiar sino el procedimiento detectivesco y la atmósfera opresiva."
+          },
+          {
+            "heading": "La figura de Jazz Hunter",
+            "content": "Jazz no es una mera recolectora de pistas. Su presencia organiza el ritmo moral del libro: observa la violencia de la institución con distancia profesional, pero también con una sensibilidad que impide reducir el caso a puro rompecabezas."
+          },
+          {
+            "heading": "Crimen, prestigio y encubrimiento",
+            "content": "Uno de los temas más productivos del libro es la relación entre reputación institucional y ocultación. El internado quiere proteger su imagen, y esa necesidad de preservar prestigio alimenta la cadena de silencios que hace posible el crimen."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela típica de Lucinda Riley?",
+            "answer": "No del todo. Mantiene su capacidad para enganchar y administrar secretos, pero se aparta de la gran saga histórica y se acerca más al misterio criminal de tradición británica."
+          },
+          {
+            "question": "¿Hace falta conocer otros libros de la autora?",
+            "answer": "No. Funciona de manera independiente y puede leerse como puerta de entrada a una faceta distinta de Riley, centrada en el suspense y la investigación."
+          },
+          {
+            "question": "¿Predomina el thriller o el retrato del internado?",
+            "answer": "Ambas dimensiones están muy ligadas. El caso policial sostiene el ritmo, pero gran parte del interés procede del retrato del colegio como espacio jerárquico, hermético y moralmente dañado."
+          },
+          {
+            "question": "¿Es una novela muy dura?",
+            "answer": "Tiene temas oscuros y un clima tenso, pero su escritura es comercial y clara. Más que por violencia gráfica, impacta por la acumulación de secretos y por la descomposición ética del entorno."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Lucinda Riley: The Murders at Fleat House",
+            "url": "https://lucindariley.co.uk/books/the-murders-at-fleat-house/"
+          },
+          {
+            "label": "TodosTusLibros: Asesinato en Fleat House",
+            "url": "https://www.todostuslibros.com/libros/asesinato-en-fleat-house_978-84-01-02880-9"
+          },
+          {
+            "label": "Open Library: Asesinato en Fleat House (edición OL37876753M)",
+            "url": "https://openlibrary.org/books/OL37876753M/Asesinato_en_Fleat_House"
+          },
+          {
+            "label": "Google Books: Asesinato en Fleat House / The Murders at Fleat House",
+            "url": "http://books.google.es/books?id=1My6zwEACAAJ&hl=&source=gbs_api"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cuentos-espaciales-de-ray-bradbury",
+      "title": "Cuentos Espaciales",
+      "authorName": "Ray Bradbury",
+      "authorSlug": "ray-bradbury",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 2,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cuentos espaciales",
+        "authorName": "Ray Bradbury",
+        "authorSlug": "ray-bradbury",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ciencia ficcion",
+          "cuentos",
+          "literatura fantastica"
+        ],
+        "year": 1994,
+        "pages": 240,
+        "summary": "Cuentos espaciales reúne a un Bradbury especialmente reconocible: el escritor que usa cohetes, planetas y futuros cercanos no para celebrar la conquista técnica, sino para interrogar el miedo, la soledad, la infancia, la violencia y la fragilidad moral del ser humano. En esta clase de volumen, lo cósmico funciona menos como despliegue científico que como escenario imaginario donde la experiencia cotidiana aparece extrañada. Los relatos alternan asombro y amenaza, humor negro y melancolía, y convierten el espacio exterior en espejo de deseos muy terrestres: huir, dominar, recordar, empezar de nuevo o comprobar que la civilización viaja con nosotros, incluidas sus miserias. La lectura avanza por piezas breves pero intensas, cada una construida alrededor de una situación especulativa clara. Más que una colección homogénea de aventuras, el libro ofrece una constelación de parábolas sobre el porvenir y sobre la persistencia de lo humano en contextos extraordinarios.",
+        "aboutThisBook": "La edición española consultada aparece en el catálogo de Lumen y en TodosTusLibros con fecha de 1994, 240 páginas y traducción de Beatriz Podestá. Google Books también registra una edición española de Cuentos espaciales y Open Library conserva la referencia bibliográfica de la obra en castellano. Como ocurre con muchas recopilaciones de Bradbury, su interés no depende de una única trama, sino de la reunión de relatos donde la imaginación espacial sirve para tensar preguntas éticas y emocionales. Bradbury fue decisivo para una ciencia ficción más lírica y simbólica, y este título permite ver cómo el espacio, en sus manos, deja de ser solo frontera tecnológica para convertirse en territorio de extrañeza moral y de imaginación poética.",
+        "forWhom": "Para lectores adultos de ciencia ficción clásica, aficionados al cuento literario y personas que prefieran mundos futuristas con densidad simbólica, imaginación poética y reflexión sobre la condición humana.",
+        "whyItMatters": "Importa porque muestra una de las grandes virtudes de Bradbury: convertir la ciencia ficción en literatura de atmósfera, intuición moral y potencia metafórica. Sus relatos siguen recordando que el futuro no anula las pasiones humanas; apenas las vuelve más visibles.",
+        "editorialIntro": "Leer a Bradbury en formato de cuentos es asistir a una de las operaciones más influyentes de la literatura del siglo XX: desplazar la ciencia ficción desde la pura fascinación tecnológica hacia una imaginación más lírica, crítica y emocional. Cuentos espaciales condensa muy bien ese gesto. Aquí el espacio no es solo aventura, sino un laboratorio de miedos íntimos, nostalgias y dilemas éticos. Cada relato abre una hipótesis y la lleva, con notable economía, hacia una imagen inquietante o memorable.",
+        "readingLevel": "Lectura media para adultos y jóvenes avanzados. Los relatos suelen ser breves y claros en superficie, pero su fuerza está en la sugerencia, la ironía y la dimensión alegórica, por lo que conviene leerlos con atención a símbolos, tonos y dobles sentidos.",
+        "whyReadToday": "Porque muchas de sus preguntas siguen plenamente vigentes: qué hacemos con la tecnología, cómo imaginamos al otro y qué parte de nuestra violencia o nuestra ternura sobrevive a cualquier salto hacia el futuro. Bradbury envejece bien cuando se lo lee como fabulador moral, no como profeta técnico.",
+        "studyNotes": [
+          "En Bradbury, el espacio suele funcionar como escenario emocional y moral antes que como demostración científica detallada.",
+          "El libro se disfruta mejor si se leen los cuentos como variaciones de una misma preocupación: qué ocurre con lo humano cuando cambia radicalmente el entorno.",
+          "Conviene fijarse en la mezcla de maravilla y amenaza, rasgo central de una ciencia ficción más poética que ingenieril.",
+          "La brevedad de cada pieza no implica simpleza: muchas terminan abriendo una pregunta ética o existencial que excede la anécdota."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: el asombro ante lo desconocido",
+            "summary": "Los primeros relatos suelen presentar viajes, encuentros o situaciones espaciales que activan la maravilla inicial. Bradbury usa ese impulso para abrir el libro hacia una imaginación del futuro donde lo extraordinario convive con emociones muy reconocibles."
+          },
+          {
+            "title": "Parte 2: peligros, distorsiones y paranoia",
+            "summary": "En la zona central, la exploración espacial deja ver su costado inquietante: amenazas invisibles, desajustes psicológicos, violencia latente y malentendidos entre especies o entre seres humanos desplazados a escenarios hostiles."
+          },
+          {
+            "title": "Parte 3: memoria, infancia y nostalgia del hogar",
+            "summary": "Varios cuentos introducen una sensibilidad típicamente bradburiana: incluso en mundos remotos, los personajes arrastran recuerdos, pérdidas y deseos de pertenencia. El futuro aparece así atravesado por la melancolía del pasado."
+          },
+          {
+            "title": "Parte 4: parábolas morales del porvenir",
+            "summary": "Hacia el cierre, los relatos se leen como pequeñas alegorías sobre poder, miedo y responsabilidad. El espacio termina revelando menos lo ajeno que los límites éticos de nuestra propia civilización."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La ciencia ficción como literatura de atmósfera",
+            "content": "Bradbury no necesita explicar en detalle cada dispositivo o planeta para producir extrañamiento. Su apuesta consiste en crear climas, imágenes y conflictos breves donde la tecnología es el marco y no el verdadero protagonista."
+          },
+          {
+            "heading": "Lo espacial como espejo de lo humano",
+            "content": "El libro sugiere que llevar cohetes al cosmos no nos libera de nuestras obsesiones. Prejuicio, deseo, miedo, soledad y necesidad de afecto reaparecen en cada situación, como si el viaje exterior intensificara el viaje interior."
+          },
+          {
+            "heading": "El cuento breve y la economía del impacto",
+            "content": "Una de las marcas de Bradbury es su capacidad para instalar un mundo en pocas páginas y cerrar con una imagen, una ironía o una torsión moral duradera. La forma breve refuerza el carácter parabólico de muchos relatos."
+          },
+          {
+            "heading": "Vigencia de Bradbury",
+            "content": "Aunque parte de una imaginación de mediados del siglo XX, Bradbury sigue leyéndose con provecho porque sus relatos no dependen solo de la precisión futurista. Lo que permanece es su exploración de la vulnerabilidad humana frente a lo desconocido."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o un libro de relatos?",
+            "answer": "Es un volumen de relatos. Su unidad no procede de una sola historia continua, sino de la recurrencia de motivos espaciales, futuros y dilemas humanos característicos de Bradbury."
+          },
+          {
+            "question": "¿Hace falta ser lector habitual de ciencia ficción para disfrutarlo?",
+            "answer": "No necesariamente. Bradbury suele ser una buena puerta de entrada porque privilegia la atmósfera, la emoción y la imaginación moral por encima del tecnicismo duro."
+          },
+          {
+            "question": "¿Qué tipo de ciencia ficción ofrece?",
+            "answer": "Una ciencia ficción clásica, lírica y alegórica. El interés está menos en la plausibilidad científica estricta que en los efectos humanos, simbólicos y éticos de las situaciones imaginadas."
+          },
+          {
+            "question": "¿Puede leerse de forma fragmentaria?",
+            "answer": "Sí. Cada cuento tiene autonomía, aunque el conjunto gana fuerza cuando se aprecia la repetición de temas como la soledad, el miedo a lo desconocido, la memoria y la ambigüedad del progreso."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "TodosTusLibros: Cuentos espaciales",
+            "url": "https://www.todostuslibros.com/libros/cuentos-espaciales_978-84-264-2986-5"
+          },
+          {
+            "label": "Google Books: Cuentos espaciales",
+            "url": "https://books.google.com/books?id=q5pNxgEACAAJ&hl=es"
+          },
+          {
+            "label": "Open Library: Cuentos Espaciales (edición OL9119679M)",
+            "url": "https://openlibrary.org/books/OL9119679M/Cuentos_Espaciales"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "diario-de-un-zombie-de-sergi-llauger",
+      "title": "Diario De Un Zombie",
+      "authorName": "Sergi Llauger",
+      "authorSlug": "sergi-llauger",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 2,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Diario de un zombi",
+        "authorName": "Sergi Llauger",
+        "authorSlug": "sergi-llauger",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "terror",
+          "postapocaliptica",
+          "zombis"
+        ],
+        "year": 2013,
+        "pages": 614,
+        "summary": "Diario de un zombi parte de una premisa muy eficaz dentro del subgénero: narrar el apocalipsis no desde el superviviente humano, sino desde un muerto viviente que, por razones inicialmente opacas, conserva la conciencia tras su transformación. Esa inversión del punto de vista le permite a Sergi Llauger desplazar el interés desde la mera carnicería hacia una reflexión narrativa sobre identidad, memoria y degradación en una Barcelona devastada. El protagonista recorre un paisaje urbano cubierto por cenizas, ruinas y restos de civilización mientras intenta entender qué queda de sí mismo y qué clase de criatura se ha convertido en un mundo donde casi no quedan humanos. La novela combina horror, aventura y observación de un entorno postapocalíptico, pero destaca sobre todo por su voluntad de humanizar la monstruosidad sin neutralizarla. El resultado es un relato extenso, atmosférico y muy centrado en la voz narrativa del zombi consciente.",
+        "aboutThisBook": "La edición consultada figura en TodosTusLibros y Open Library como publicada en 2013 dentro de la colección Dolmen Express, con 614 páginas. La ficha comercial de TodosTusLibros la presenta como una de las novelas destacadas del género z y subraya tanto su éxito como el tratamiento de los personajes. Esa combinación ayuda a entender su recepción: no se limita al impulso gore o a la acción mecánica, sino que explora el apocalipsis desde una perspectiva inusual, la del monstruo que todavía piensa. Dentro del panorama español de ficción zombi, el libro sobresale por trasladar la devastación a Barcelona y por construir una voz protagonista que vuelve filosófico, melancólico e incluso ambiguamente emotivo un material que a menudo se reduce a puro impacto visual.",
+        "forWhom": "Para lectores adultos de terror y ficción postapocalíptica, aficionados al subgénero zombi que busquen una variación original del punto de vista y lectores interesados en monstruos narrados desde dentro.",
+        "whyItMatters": "Importa porque demuestra que el imaginario zombi todavía admite desplazamientos fértiles. Al entregar la voz al muerto viviente consciente, la novela transforma un motivo muy explotado en una exploración de identidad, ruina urbana y persistencia de la subjetividad tras la catástrofe.",
+        "editorialIntro": "La mayoría de las novelas de zombis obligan al lector a temer al monstruo. Sergi Llauger toma una decisión más arriesgada: pedirle que piense con él. Diario de un zombi cambia la perspectiva habitual del apocalipsis y convierte a la criatura en narrador de su propia errancia por una Barcelona devastada. Ese simple giro reorganiza todo el libro: la violencia sigue presente, pero ahora está atravesada por memoria, extrañeza corporal y una pregunta persistente por lo que queda de humano cuando la humanidad prácticamente ha desaparecido.",
+        "readingLevel": "Lectura media para adultos. La prosa es directa y narrativa, pero la extensión del libro, su ambientación sombría y el interés por la conciencia del protagonista hacen que funcione mejor con lectores dispuestos a seguir una inmersión larga en el mundo postapocalíptico.",
+        "whyReadToday": "Porque sigue ofreciendo una variante poco común del relato zombi: no solo sobrevivir a la catástrofe, sino habitarla desde el cuerpo del monstruo. Además, su Barcelona arrasada añade una localización concreta y reconocible a un imaginario a menudo dominado por escenarios anglosajones.",
+        "studyNotes": [
+          "La principal originalidad del libro está en el punto de vista: el monstruo conserva conciencia y eso obliga a replantear la frontera entre sujeto y criatura.",
+          "Barcelona no actúa como fondo neutro, sino como paisaje de ruina cuya materialidad urbana organiza la experiencia del apocalipsis.",
+          "Conviene leer la novela no solo como terror, sino como relato de identidad degradada, memoria persistente y extrañeza corporal.",
+          "El volumen muestra cómo el género zombi puede ampliarse hacia registros más introspectivos sin renunciar a la tensión narrativa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: despertar tras la devastación",
+            "summary": "El protagonista asume que se ha convertido en zombi, pero descubre que conserva conciencia y capacidad de observación. Ese hallazgo reconfigura de inmediato el pacto del género y abre una experiencia de extrañamiento radical."
+          },
+          {
+            "title": "Momento clave 2: recorrer la Barcelona postapocalíptica",
+            "summary": "La novela avanza por una ciudad devastada donde casi no queda rastro de normalidad. El espacio urbano, cubierto por cenizas y ruinas, refuerza la sensación de fin del mundo y a la vez sirve para medir lo que se ha perdido."
+          },
+          {
+            "title": "Momento clave 3: memoria, instinto y conciencia",
+            "summary": "A lo largo del relato, el zombi narrador se enfrenta a la contradicción entre sus restos de subjetividad y las pulsiones propias de su nueva condición. La tensión entre pensar y descomponerse impulsa el corazón del libro."
+          },
+          {
+            "title": "Momento clave 4: comprender el nuevo orden",
+            "summary": "En la parte final, la novela deja ver que el apocalipsis no es solo destrucción material, sino reordenación de toda idea de comunidad, lenguaje y humanidad. El protagonista debe decidir cómo situarse dentro de ese mundo ya irreversible."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El zombi como conciencia narrativa",
+            "content": "La gran apuesta del libro consiste en desplazar la identificación del lector hacia el muerto viviente. Gracias a esa elección, el monstruo deja de ser mera amenaza externa y se vuelve sujeto de experiencia, memoria y lenguaje."
+          },
+          {
+            "heading": "Barcelona arrasada y localización del género",
+            "content": "Frente a tantos relatos apocalípticos genéricos, la novela trabaja una ciudad concreta. Eso aporta materialidad cultural y espacial al desastre: las ruinas no son abstractas, sino reconocibles, próximas y por ello más perturbadoras."
+          },
+          {
+            "heading": "Entre el horror y la introspección",
+            "content": "Aunque pertenece de lleno al imaginario zombi, el libro no vive solo del impacto. Llauger introduce una reflexión constante sobre cuerpo, deseo, memoria y pérdida, ampliando el género hacia zonas más introspectivas."
+          },
+          {
+            "heading": "Una variación fértil del género z",
+            "content": "El éxito de la premisa está en que no contradice el género, sino que lo reordena. Sigue habiendo devastación, violencia y supervivencia, pero vistos desde una conciencia monstruosa que obliga a repensar quién merece ser llamado humano."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué diferencia a esta novela de otras historias de zombis?",
+            "answer": "Sobre todo, el punto de vista. Aquí el narrador es un zombi consciente, y eso convierte la historia en una exploración de identidad y memoria además de en un relato de horror postapocalíptico."
+          },
+          {
+            "question": "¿Predomina la acción o la reflexión?",
+            "answer": "Hay acción y atmósfera de devastación, pero el rasgo más distintivo es la reflexión derivada de habitar la mente del monstruo. La novela busca más que el simple impacto gore."
+          },
+          {
+            "question": "¿Es adecuada para lectores ajenos al subgénero zombi?",
+            "answer": "Puede serlo si aceptan su oscuridad y su extensión. La originalidad del enfoque la vuelve interesante incluso para quienes no buscan únicamente escenas de supervivencia o violencia."
+          },
+          {
+            "question": "¿Qué papel juega Barcelona en el libro?",
+            "answer": "Un papel central. La ciudad devastada no es decorativa: da identidad a la novela y convierte el apocalipsis en algo cercano, concreto y visualmente muy poderoso."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "TodosTusLibros: Diario de un zombi",
+            "url": "https://www.todostuslibros.com/libros/diario-de-un-zombi_978-84-941128-0-5"
+          },
+          {
+            "label": "Open Library: Diario de un zombi (edición OL35623004M)",
+            "url": "https://openlibrary.org/books/OL35623004M/Diario_de_un_zombi"
+          },
+          {
+            "label": "Google Books: Diario de un zombi",
+            "url": "http://books.google.es/books?id=1X3fngEACAAJ&hl=&source=gbs_api"
+          },
+          {
+            "label": "Dolmen Editorial: resultados para Diario de un zombi",
+            "url": "https://www.dolmeneditorial.com/?s=diario+de+un+zombi"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-diente-y-la-una-de-bill-ballinger",
+      "title": "El Diente Y La Una",
+      "authorName": "Bill Ballinger",
+      "authorSlug": "bill-ballinger",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 2,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El diente y la uña",
+        "authorName": "Bill Ballinger",
+        "authorSlug": "bill-ballinger",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa",
+          "clasicos"
+        ],
+        "year": 1955,
+        "pages": 244,
+        "summary": "Publicada originalmente como The Tooth and the Nail, esta novela policial de Bill Ballinger se apoya en una estructura de suspense muy característica del autor: capítulos en primera persona alternan con otros que parecen contar un proceso criminal distinto, hasta que ambos hilos empiezan a rozarse de manera inquietante. Por un lado, seguimos a Lew Mountain, un mago profesional cuya voz mezcla cansancio, ironía y desconcierto; por otro, asistimos a un juicio por asesinato en el que falta el elemento más decisivo: no aparece el cadáver, aunque sí abundan los indicios de una muerte violenta y de su ocultación. El interés del libro no reside solo en descubrir quién mató a quién, sino en observar cómo Ballinger administra la información, convierte cada escena en una trampa narrativa y hace del lector un investigador obligado.",
+        "aboutThisBook": "Bill Ballinger fue uno de los narradores de intriga más ingeniosos del paperback norteamericano de posguerra, y esta novela resume bien sus virtudes. En lugar de confiar únicamente en la sorpresa final, construye una tensión sostenida mediante dos relatos que parecen separados y que se iluminan mutuamente a medida que avanzan. El resultado es una obra breve, precisa y muy eficaz, situada entre el procedural, el noir psicológico y el thriller de identidad. También interesa como ejemplo de una novela de crimen que entiende el suspense como problema formal, no solo como asunto argumental.",
+        "forWhom": "Para lectores de novela negra clásica, amantes de los mecanismos de suspense bien calibrados y curiosos por descubrir a un autor menos citado que Chandler o Highsmith, pero muy hábil en la manipulación del punto de vista.",
+        "whyItMatters": "Importa porque muestra una vía distinta dentro del policial de los años cincuenta: menos apoyada en el detective heroico y más centrada en la arquitectura del relato. Ballinger convierte la forma en parte esencial del enigma.",
+        "editorialIntro": "El diente y la uña merece recuperarse no solo como rareza de época, sino como lección de ingeniería narrativa. Ballinger sabía que el suspense no depende de esconder datos sin más, sino de decidir cuándo, desde dónde y con qué tono se ofrecen. Aquí alterna una voz personal, casi confesional, con la mirada externa de un caso judicial, y obtiene un efecto de extrañeza muy moderno. Cada capítulo obliga a reajustar hipótesis. Por eso la novela funciona tanto como entretenimiento criminal como pequeño laboratorio sobre la percepción, la culpa y la fragilidad de cualquier versión de los hechos.",
+        "readingLevel": "Lectura media: el estilo es directo y ágil, pero pide atención a la alternancia de voces y tiempos narrativos para captar cómo se arma el rompecabezas.",
+        "whyReadToday": "Porque anticipa recursos de los thrillers contemporáneos de estructura fragmentada y demuestra que la novela de enigma puede ser formalmente audaz sin perder claridad ni ritmo.",
+        "studyNotes": [
+          "La alternancia entre primera y tercera persona no es un adorno: organiza la incertidumbre y obliga a leer cada escena como una pieza incompleta del mismo problema.",
+          "Lew Mountain importa menos como héroe clásico que como conciencia narrativa vulnerable, a medio camino entre testigo, sospechoso y lector de su propia desgracia.",
+          "La ausencia del cadáver en el proceso judicial desplaza el misterio desde la prueba material hacia la interpretación de indicios, testimonios y silencios.",
+          "Conviene observar cómo Ballinger administra finales de capítulo breves y cortantes para sostener la tensión sin recurrir a prosa excesiva."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Momento clave 1: la voz de Lew Mountain",
+            "summary": "La novela presenta a Lew Mountain en primera persona y lo sitúa en una red de recuerdos, sospechas y movimientos aparentemente desconectados de la historia judicial paralela. Su tono introduce incertidumbre desde el principio."
+          },
+          {
+            "title": "Momento clave 2: el juicio sin cuerpo",
+            "summary": "Los capítulos alternos muestran un proceso por asesinato en el que las pruebas sugieren una muerte y un ocultamiento, aunque falta el cadáver. El lector entiende que el verdadero enigma está en la relación entre esa causa y la experiencia de Lew."
+          },
+          {
+            "title": "Momento clave 3: convergencia y revelación",
+            "summary": "A medida que ambos planos narrativos se acercan, Ballinger reordena retrospectivamente lo leído y revela la lógica común del caso. El cierre no solo resuelve la intriga, sino que redefine el sentido de muchas escenas previas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Suspense como montaje",
+            "content": "La principal fuerza del libro reside en su construcción. Ballinger monta dos líneas narrativas para que cada una plantee preguntas que la otra demora. El suspense nace así del montaje y no únicamente del secreto final, lo que vuelve la lectura especialmente activa."
+          },
+          {
+            "heading": "Identidad y percepción",
+            "content": "El uso de perspectivas diferenciadas convierte la identidad en problema narrativo. El lector nunca posee una posición soberana: debe reconstruir motivaciones y vínculos a partir de versiones parciales. Esa estrategia acerca la novela al noir psicológico, donde ver no equivale a comprender."
+          },
+          {
+            "heading": "Un clásico menor que merece relectura",
+            "content": "Aunque no ocupa el centro del canon criminal estadounidense, la novela ilustra una tradición de bolsillo muy inventiva. Su valor actual está en recordar que la literatura de género de mediados del siglo XX produjo experimentos formales compactos y sorprendentemente modernos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela negra o una novela de juicio?",
+            "answer": "Es ambas cosas en parte. Combina un relato criminal de tono noir con escenas ligadas a un proceso judicial, y hace de esa mezcla una fuente central de tensión."
+          },
+          {
+            "question": "¿Qué tiene de especial frente a otros thrillers de los años cincuenta?",
+            "answer": "Su rasgo más distintivo es la estructura en capítulos alternos y el modo en que dos historias aparentemente separadas se entrelazan hasta producir una resolución sorpresiva pero preparada."
+          },
+          {
+            "question": "¿Se puede leer hoy sin sentirla envejecida?",
+            "answer": "Sí. Algunos códigos son propios de su época, pero el mecanismo narrativo sigue resultando eficaz y bastante moderno para cualquier lector interesado en intrigas bien armadas."
+          },
+          {
+            "question": "¿Es un buen punto de entrada a Bill Ballinger?",
+            "answer": "Sí, porque reúne varios de sus recursos más celebrados: economía expresiva, manipulación del punto de vista y gusto por las revelaciones estructurales."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Open Library: The tooth and the nail",
+            "url": "https://openlibrary.org/books/OL6175340M/The_tooth_and_the_nail."
+          },
+          {
+            "label": "Internet Archive: The tooth and the nail",
+            "url": "https://archive.org/details/toothnail0000ball"
+          },
+          {
+            "label": "Bill S. Ballinger official fan/collector site",
+            "url": "https://www.billsballinger.com/"
+          },
+          {
+            "label": "Google Books: The Tooth and the Nail / The Wife of the Red-Haired Man",
+            "url": "https://books.google.com/books/about/The_Tooth_and_the_Nail_The_Wife_of_the_R.html?id=JNk-zQEACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-lejano-pais-de-los-estanques-de-lorenzo-silva",
+      "title": "El Lejano Pais De Los Estanques",
+      "authorName": "Lorenzo Silva",
+      "authorSlug": "lorenzo-silva",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 2,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El lejano país de los estanques",
+        "authorName": "Lorenzo Silva",
+        "authorSlug": "lorenzo-silva",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "narrativa"
+        ],
+        "year": 1998,
+        "pages": 243,
+        "summary": "Esta primera entrega de la serie de Bevilacqua y Chamorro abre con una imagen poderosa: en una urbanización del sur de Mallorca aparece asesinada Eva Heydrich, una joven extranjera colgada desnuda de una viga, mientras su amiga Regina Bolzano desaparece sin dejar rastro. La Guardia Civil envía al entonces sargento Rubén Bevilacqua a investigar de incógnito, acompañado por la novata Virginia Chamorro, que debuta aquí como contrapunto de inteligencia fría y observación silenciosa. Lo que al principio parece un crimen pasional o una fuga sospechosa se complica con presiones diplomáticas, testimonios ambiguos y un paisaje turístico donde lujo, marginalidad y ocio nocturno conviven de forma turbia. Lorenzo Silva combina intriga policial con retrato social, ironía y una atención constante a la relación profesional, moral y humana entre sus dos protagonistas.",
+        "aboutThisBook": "El lejano país de los estanques es importante porque funda una de las series policíacas españolas más sólidas de las últimas décadas. Ya están aquí varias de sus marcas: el humor reflexivo de Bevilacqua, la contención de Chamorro, la mirada crítica sobre las instituciones y una investigación que no separa del todo el delito de su contexto social. Aunque se lee con fluidez como novela de caso, también funciona como arranque de un universo narrativo duradero. El Premio Ojo Crítico de Narrativa confirmó, además, que Silva no trabajaba solo dentro del entretenimiento genérico, sino en una zona donde el policial sirve para pensar la España contemporánea.",
+        "forWhom": "Para lectores de novela policíaca española, seguidores de series de investigación con desarrollo de personajes y estudiantes interesados en cómo el género negro puede retratar tensiones sociales, turísticas e institucionales sin perder ritmo narrativo.",
+        "whyItMatters": "Sigue importando porque inaugura una pareja investigadora decisiva en la narrativa española reciente y porque muestra cómo el crimen permite leer zonas enteras de la vida pública: turismo, clase, extranjería, deseo y autoridad.",
+        "editorialIntro": "Leer hoy El lejano país de los estanques es volver al nacimiento literario de Bevilacqua y Chamorro, pero también a un momento clave de la novela negra española posterior a la Transición. Silva entiende que una investigación no se agota en descubrir al culpable: importa igualmente el mundo que vuelve visible. Mallorca aparece aquí no como postal, sino como escenario donde confluyen riqueza, desarraigo, consumo y violencia. Esa amplitud de mirada, unida a una prosa sobria con ironía de fondo, explica por qué la serie no tardó en consolidarse. La novela ofrece crimen, pesquisa y atmósfera, pero también una reflexión nada ingenua sobre el país que empezaba a entrar en el nuevo siglo.",
+        "readingLevel": "Lectura media: la prosa es clara y narrativa, aunque gana profundidad si se presta atención al subtexto social y al modo en que se construye la relación entre los investigadores.",
+        "whyReadToday": "Porque muchas de sus preguntas siguen vigentes: qué revela un crimen sobre una sociedad turística, cómo opera la autoridad en contextos complejos y de qué manera se cruzan clase, género y violencia en espacios aparentemente idílicos.",
+        "studyNotes": [
+          "La novela presenta a Bevilacqua y Chamorro como una pareja complementaria: experiencia e ironía frente a método, paciencia y reserva.",
+          "Mallorca no es un fondo decorativo; el entorno turístico condiciona la circulación de dinero, cuerpos, apariencias y coartadas.",
+          "Silva emplea el caso criminal para observar la España de finales de los noventa, especialmente sus zonas de contacto entre cosmopolitismo, negocio y precariedad moral.",
+          "El tono evita tanto el tremendismo como la idealización institucional: la Guardia Civil aparece con eficacia, pero también con tensiones y limitaciones humanas."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: hallazgo del cadáver y entrada en el caso",
+            "summary": "La aparición del cuerpo de Eva Heydrich y la desaparición de Regina Bolzano ponen en marcha la investigación. Bevilacqua recibe el encargo y conoce a Chamorro, con quien debe infiltrarse en Mallorca bajo apariencia de turistas."
+          },
+          {
+            "title": "Parte 2: entrevistas, pistas y doble fondo social",
+            "summary": "La pesquisa avanza a través de interrogatorios, observación del entorno y reconstrucción de los movimientos de víctima y sospechosa. Pronto se revela que la vida nocturna, las relaciones económicas y las identidades extranjeras del caso son más complejas de lo esperado."
+          },
+          {
+            "title": "Parte 3: resolución del caso y definición de la pareja investigadora",
+            "summary": "La novela conduce a una aclaración gradual del crimen mientras perfila la dinámica intelectual y ética entre Bevilacqua y Chamorro. La resolución importa tanto por el culpable como por la forma en que ambos aprenden a trabajar juntos."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Fundación de una serie",
+            "content": "Como primera novela de Bevilacqua y Chamorro, el libro cumple una doble tarea: resolver un caso y fijar una alianza narrativa. Silva presenta a sus investigadores sin grandilocuencia, dejando que su relación profesional se construya a partir del trabajo, la observación y pequeñas fricciones."
+          },
+          {
+            "heading": "Mallorca como espacio moral",
+            "content": "La isla aparece menos como destino paradisíaco que como zona de tránsito, anonimato y consumo. Ese marco permite que el delito no sea una anomalía aislada, sino un síntoma de relaciones sociales donde el dinero, el deseo y la extranjería alteran las jerarquías habituales."
+          },
+          {
+            "heading": "La renovación de la novela negra española",
+            "content": "Silva se inscribe en la tradición del policial crítico, pero con un tono propio, más sobrio y menos programático que el de etapas anteriores. El libro ayuda a entender cómo la novela negra española de fin de siglo se abre a nuevas geografías, nuevos lenguajes institucionales y nuevas formas de desencanto."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer la serie en orden?",
+            "answer": "No es obligatorio, pero sí muy recomendable empezar por esta novela porque aquí nace la relación entre Bevilacqua y Chamorro y se establecen sus rasgos básicos."
+          },
+          {
+            "question": "¿Predomina más la intriga o el retrato social?",
+            "answer": "La intriga sostiene la lectura, pero una parte importante del interés del libro está en el retrato del entorno mallorquín, de sus contradicciones sociales y de la mirada moral del narrador."
+          },
+          {
+            "question": "¿Qué distingue a Bevilacqua de otros investigadores del género?",
+            "answer": "Su mezcla de ironía, cultura, intuición y escepticismo. No actúa como héroe infalible, sino como observador inteligente que intenta comprender personas y ambientes además de resolver hechos."
+          },
+          {
+            "question": "¿Es una novela violenta?",
+            "answer": "Parte de un crimen duro, pero la narración no se recrea de forma gratuita en lo macabro. Prefiere el procedimiento, la atmósfera y la complejidad moral del caso."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia (API): El lejano país de los estanques",
+            "url": "https://es.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=El_lejano_pa%C3%ADs_de_los_estanques&format=json"
+          },
+          {
+            "label": "Web oficial de Lorenzo Silva: El lejano país de los estanques",
+            "url": "https://www.lorenzo-silva.com/libros/el-lejano-pais-de-los-estanques/"
+          },
+          {
+            "label": "Casa del Libro: El lejano país de los estanques",
+            "url": "https://www.casadellibro.com/libro-el-lejano-pais-de-los-estanques-serie-bevilacqua-chamorro-1/9788423357826/11549822"
+          },
+          {
+            "label": "Google Books: El lejano país de los estanques",
+            "url": "https://books.google.com/books/about/El_lejano_pa%C3%ADs_de_los_estanques.html?id=xQxXqgJk9iYC"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "el-libro-de-la-risa-y-el-olvido-de-milan-kundera",
+      "title": "El Libro De La Risa Y El Olvido",
+      "authorName": "Milan Kundera",
+      "authorSlug": "milan-kundera",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 2,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "El libro de la risa y el olvido",
+        "authorName": "Milan Kundera",
+        "authorSlug": "milan-kundera",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1979,
+        "pages": 312,
+        "summary": "Publicado por primera vez en Francia en 1979, El libro de la risa y el olvido es una de las obras decisivas de Milan Kundera y quizá la que mejor muestra su modo singular de novelar: mezclar relato, ensayo, memoria histórica, erotismo, humor y meditación política sin convertir el texto en tratado. El libro se compone de siete partes relativamente autónomas, unidas por la reflexión sobre la memoria y por la experiencia de una Checoslovaquia sometida a la manipulación ideológica. Personajes como Mirek o Tamina viven no solo pérdidas íntimas, sino también el borrado de sus huellas por parte del poder, del deseo o del tiempo. Kundera no organiza una intriga única, sino una constelación narrativa donde la risa puede ser liberadora o cruel y donde olvidar puede significar descanso, traición o aniquilación de la identidad.",
+        "aboutThisBook": "Esta novela ocupa un lugar central en la trayectoria de Kundera porque condensa casi todos sus grandes temas: la fragilidad del yo, la erotización de la existencia, la intervención de la historia en la vida privada y la lucha entre memoria y borrado. Su estructura fragmentaria no responde a un capricho experimental; permite mostrar que la experiencia moderna ya no llega como relato lineal, sino como serie de escenas, ideas y retornos. Fue además una obra crucial en la proyección internacional del autor, escrita en el contexto de su salida de Checoslovaquia y de una Europa todavía marcada por la Guerra Fría.",
+        "forWhom": "Para lectores de novela literaria exigente, estudiantes de literatura europea del siglo XX y quienes busquen una obra capaz de unir reflexión política, invención formal y preguntas íntimas sobre memoria, cuerpo e identidad.",
+        "whyItMatters": "Importa porque convierte la manipulación de la memoria en problema histórico y existencial al mismo tiempo. Pocas novelas han mostrado con tanta claridad que el olvido puede ser una herramienta del poder y también una tentación privada.",
+        "editorialIntro": "El libro de la risa y el olvido no se deja resumir como una novela de argumento único, y justamente ahí radica una parte de su fuerza. Kundera construye una obra de variaciones, ecos y retornos donde cada episodio parece discutir con los demás. Lo político nunca aparece aislado de lo íntimo: una fotografía retocada, una carta, un recuerdo amoroso o una escena erótica pueden revelar la misma violencia que un discurso oficial. Leerla hoy exige aceptar una forma narrativa móvil, ensayística y a veces desconcertante, pero la recompensa es enorme: pocas obras consiguen pensar con tanta precisión la relación entre historia pública, deseo y memoria personal.",
+        "readingLevel": "Lectura media-alta: la prosa es transparente, pero la estructura fragmentaria, las digresiones ensayísticas y la densidad de sus temas piden lectura atenta y, a menudo, relectura.",
+        "whyReadToday": "Porque vivimos en una época atravesada por archivos inestables, guerras de relato y borrados selectivos. Kundera ayuda a pensar cómo el poder reorganiza el pasado y cómo cada individuo negocia con sus propias pérdidas.",
+        "studyNotes": [
+          "Las siete partes no son episodios sueltos: forman una red temática donde la memoria, la risa, el exilio y el cuerpo reaparecen bajo distintas modulaciones.",
+          "El ejemplo de la fotografía borrada muestra de manera inmediata cómo la política totalitaria intenta gobernar no solo el presente, sino también el pasado visible.",
+          "La novela combina narración y comentario autoral; Kundera interviene para pensar sus personajes y para cuestionar cualquier lectura puramente realista.",
+          "La risa tiene un valor ambiguo: puede ser resistencia, alivio, burla metafísica o instrumento de humillación."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: memoria perseguida",
+            "summary": "Las primeras secciones introducen con fuerza el vínculo entre recuerdo personal y represión histórica. La historia de Mirek y el célebre episodio de la fotografía alterada sitúan el olvido como operación política y moral."
+          },
+          {
+            "title": "Parte 2: deseo, fragilidad y exilio",
+            "summary": "En el centro del libro, diversas historias exploran relaciones amorosas, cuerpos, humillaciones y desplazamientos. Kundera muestra que la pérdida no afecta solo a los países y a los archivos, sino también a la intimidad y al lenguaje del afecto."
+          },
+          {
+            "title": "Parte 3: Tamina y el reino del borrado",
+            "summary": "La trayectoria de Tamina concentra el drama más conmovedor del libro. Su esfuerzo por retener cartas, recuerdos y signos del pasado deriva hacia una experiencia casi alegórica del desamparo, donde el olvido adquiere una dimensión existencial radical."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Memoria contra poder",
+            "content": "Uno de los núcleos de la novela es la idea de que los regímenes autoritarios no se contentan con controlar cuerpos e instituciones: también reescriben imágenes, nombres y relatos. Kundera convierte esa intuición histórica en una reflexión literaria sobre la vulnerabilidad de todo recuerdo compartido."
+          },
+          {
+            "heading": "La forma fragmentaria como verdad de la experiencia",
+            "content": "La estructura en siete partes permite que el libro funcione a la vez como novela, suite de variaciones y ensayo narrativo. La discontinuidad no desordena el sentido; lo multiplica. Cada relato agrega una perspectiva nueva sobre las mismas obsesiones fundamentales."
+          },
+          {
+            "heading": "Erotismo, ironía y metafísica",
+            "content": "Kundera nunca separa del todo el pensamiento del cuerpo. El erotismo, la comicidad y la vergüenza son caminos para examinar la identidad humana en su dimensión más frágil. Por eso la novela evita tanto la solemnidad política como la pura abstracción filosófica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o una colección de relatos?",
+            "answer": "Es una novela compuesta por siete partes relativamente autónomas. Pueden parecer relatos enlazados, pero comparten temas, símbolos y una concepción unitaria de la memoria y el olvido."
+          },
+          {
+            "question": "¿Hay que conocer la historia de Checoslovaquia para leerla?",
+            "answer": "No es imprescindible, aunque ayuda. Kundera proporciona suficientes claves para seguir la dimensión política, y la novela también funciona como exploración universal de la memoria, la pérdida y la identidad."
+          },
+          {
+            "question": "¿Por qué se considera una obra clave de Kundera?",
+            "answer": "Porque articula con gran claridad sus temas centrales y su forma característica de mezclar ficción, reflexión filosófica y comentario histórico sin renunciar a la intensidad literaria."
+          },
+          {
+            "question": "¿Es un libro difícil?",
+            "answer": "Exige atención más por su estructura y densidad conceptual que por el lenguaje. No es opaco, pero sí pide un lector dispuesto a aceptar digresiones y cambios de registro."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia (API): The Book of Laughter and Forgetting",
+            "url": "https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=The_Book_of_Laughter_and_Forgetting&format=json"
+          },
+          {
+            "label": "Encyclopaedia Britannica: The Book of Laughter and Forgetting",
+            "url": "https://www.britannica.com/topic/The-Book-of-Laughter-and-Forgetting"
+          },
+          {
+            "label": "Encyclopaedia Britannica: Milan Kundera",
+            "url": "https://www.britannica.com/biography/Milan-Kundera"
+          },
+          {
+            "label": "Google Books: The Book of Laughter and Forgetting",
+            "url": "https://books.google.com/books/about/The_Book_of_Laughter_and_Forgetting.html?id=HoK9QgAACAAJ"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-18T13:08:44Z"
+}

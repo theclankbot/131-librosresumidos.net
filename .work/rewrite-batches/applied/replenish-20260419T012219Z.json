@@ -1,0 +1,1482 @@
+{
+  "batchName": "replenish-20260419T012219Z",
+  "createdAt": "2026-04-19T01:22:27Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "teatro-completo-de-oscar-wilde",
+      "title": "Teatro Completo",
+      "authorName": "Oscar Wilde",
+      "authorSlug": "oscar-wilde",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Teatro completo",
+        "authorName": "Oscar Wilde",
+        "authorSlug": "oscar-wilde",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "teatro",
+          "clasicos"
+        ],
+        "year": 2008,
+        "pages": 834,
+        "summary": "Teatro completo reúne la producción dramática de Oscar Wilde y permite seguir la evolución de una de las voces más brillantes del fin de siglo victoriano. En estas obras conviven tragedia, melodrama histórico, comedia de salón y sátira social, pero en todas aparece la misma inteligencia verbal: diálogos afilados, paradojas memorables y una mirada crítica sobre la moral respetable de su tiempo. Leído como conjunto, el volumen muestra cómo Wilde pasa de piezas más solemnes o experimentales a las grandes comedias que lo hicieron célebre, donde el matrimonio, el prestigio, la apariencia y el deseo se convierten en materia de ironía. No es solo un repertorio teatral: es también un retrato del artificio social y de la fragilidad de la respetabilidad victoriana.",
+        "aboutThisBook": "Bajo el título Teatro completo suelen reunirse las piezas teatrales de Wilde en un solo volumen, incluida su etapa temprana y sus comedias maduras. La edición registrada por Open Library para Valdemar aparece publicada en 2008 con 834 páginas, lo que da idea de un corpus amplio y útil tanto para lectura continua como para consulta. Más que un libro unitario con una sola trama, es una puerta de entrada al Wilde dramaturgo: el autor que convirtió la conversación elegante en instrumento de crítica moral y que llevó la comedia de costumbres inglesa a un nivel excepcional de precisión, ritmo e ingenio.",
+        "forWhom": "Para lectores adultos, estudiantes de literatura, amantes del teatro y clubes de lectura que quieran conocer a Wilde más allá de sus citas famosas y entender cómo funciona su sátira social en escena.",
+        "whyItMatters": "Importa porque permite leer a Wilde en conjunto y no solo a través de una obra aislada. Así se perciben mejor la constancia de sus temas, la agudeza de su humor y la manera en que desmonta las máscaras sociales de la cultura victoriana.",
+        "editorialIntro": "Leer el teatro completo de Wilde es comprobar que su ingenio no era un adorno, sino una forma de pensamiento. Sus frases deslumbran, sí, pero además exponen el teatro de la vida social: la impostura del prestigio, la rigidez moral y el precio de vivir según apariencias. Reunidas en un solo volumen, sus piezas dejan ver una obra dramática más amplia y más seria de lo que su fama de autor ingenioso a veces sugiere.",
+        "readingLevel": "Lectura de dificultad media a alta. El diálogo es brillante y muy fluido, pero abundan la ironía, la alusión social y los matices de tono; conviene una lectura atenta y, si es posible, con algo de contexto sobre la sociedad victoriana.",
+        "whyReadToday": "Porque su crítica a la hipocresía social, a la respetabilidad vacía y a las identidades construidas para agradar sigue resultando reconocible en el presente.",
+        "studyNotes": [
+          "Conviene leer el volumen como una trayectoria: de los intentos dramáticos iniciales a las comedias de sociedad donde Wilde alcanza su máxima precisión verbal.",
+          "La paradoja no es solo un chiste ingenioso; en Wilde funciona como herramienta crítica para revelar contradicciones morales y sociales.",
+          "Muchas piezas enfrentan apariencia y verdad, reputación y deseo, deber social y libertad individual, un núcleo temático que atraviesa toda su dramaturgia.",
+          "Si se trabaja en clase, ayuda comparar la lectura en página con la representación escénica: el ritmo, las pausas y la réplica rápida son esenciales en su efecto."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primeras obras y búsqueda de tono",
+            "summary": "La primera zona del volumen suele reunir piezas de juventud y experimentos dramáticos donde Wilde prueba registros más solemnes, históricos o trágicos. Allí ya se advierten su gusto por la frase brillante y su interés por personajes atrapados entre deseo, poder y representación social."
+          },
+          {
+            "title": "Comedias de sociedad y crítica de las apariencias",
+            "summary": "En el núcleo más conocido de su teatro aparecen las comedias de salón, donde visitas, compromisos, secretos y conversaciones elegantes revelan la fragilidad de la moral victoriana. Wilde convierte la cortesía y el ingenio en armas para exhibir oportunismo, doblez y autoengaño."
+          },
+          {
+            "title": "Madurez satírica y permanencia escénica",
+            "summary": "La parte final confirma la maestría dramática de Wilde: las tramas se afinan, los diálogos ganan musicalidad y la sátira se vuelve más precisa. El resultado es un teatro que sigue vivo en escena porque combina entretenimiento, inteligencia crítica y una extraordinaria economía verbal."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El ingenio como método de crítica",
+            "content": "Wilde no usa el brillo verbal como simple ornamentación. Sus paradojas invierten lugares comunes para mostrar que muchas certezas morales descansan sobre convenciones frágiles. La risa, en sus obras, casi siempre viene acompañada de una corrección de perspectiva."
+          },
+          {
+            "heading": "Apariencia, identidad y vida social",
+            "content": "Uno de los ejes más fértiles del volumen es la distancia entre lo que los personajes son y lo que necesitan parecer. Títulos, modales, matrimonios convenientes y reputaciones impecables organizan una vida pública donde la sinceridad rara vez coincide con el prestigio."
+          },
+          {
+            "heading": "Del repertorio histórico a la comedia perfecta",
+            "content": "Leído en conjunto, el teatro de Wilde permite apreciar una evolución formal. Las obras más tempranas resultan más irregulares, mientras que las comedias maduras alcanzan una ligereza muy controlada, donde cada réplica define personaje, conflicto y atmósfera al mismo tiempo."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un solo libro con una única historia?",
+            "answer": "No. Es un volumen recopilatorio que reúne las obras teatrales de Oscar Wilde, por lo que ofrece varias piezas y no una sola trama continua."
+          },
+          {
+            "question": "¿Cuál es el principal atractivo de leer a Wilde en teatro?",
+            "answer": "Su combinación de ingenio, ritmo escénico y crítica social. Wilde consigue que los diálogos sean divertidos y, al mismo tiempo, revelen hipocresías y tensiones de la sociedad victoriana."
+          },
+          {
+            "question": "¿Hace falta saber mucho del siglo XIX para disfrutarlo?",
+            "answer": "No es imprescindible, pero ayuda. Incluso sin contexto, las obras funcionan por su humor y su precisión dramática; con contexto victoriano, la sátira se vuelve todavía más rica."
+          },
+          {
+            "question": "¿Es recomendable para estudiantes?",
+            "answer": "Sí, especialmente para cursos de teatro, literatura inglesa y sátira social. Permite estudiar diálogo, ironía, construcción de personajes y crítica de costumbres."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Open Library: Teatro completo (edición Valdemar, 2008)",
+            "url": "https://openlibrary.org/books/OL35642308M/Teatro_completo"
+          },
+          {
+            "label": "Open Library: Complete Plays",
+            "url": "https://openlibrary.org/works/OL14877774W/Complete_Plays"
+          },
+          {
+            "label": "Britannica: Oscar Wilde",
+            "url": "https://www.britannica.com/biography/Oscar-Wilde"
+          },
+          {
+            "label": "Wikipedia: Oscar Wilde bibliography",
+            "url": "https://en.wikipedia.org/wiki/Oscar_Wilde_bibliography"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "terror-en-winnipeg-de-eric-wilson",
+      "title": "Terror En Winnipeg",
+      "authorName": "Eric Wilson",
+      "authorSlug": "eric-wilson",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Terror en Winnipeg",
+        "authorName": "Eric Wilson",
+        "authorSlug": "eric-wilson",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "juvenil",
+          "thriller",
+          "aventura"
+        ],
+        "year": 1979,
+        "pages": 97,
+        "summary": "Terror en Winnipeg es una novela breve de intriga juvenil perteneciente a la serie de misterios protagonizada por Tom Austen. La historia arranca con violencia y rapidez: una explosión, hombres armados y un secuestro vinculado aparentemente a una denuncia ambiental contra un poderoso industrial. Desde ese punto, Eric Wilson construye un relato de persecución, pistas engañosas y decisiones tomadas bajo presión, con un protagonista joven que debe observar mejor que los adultos para distinguir entre causa legítima y manipulación criminal. El escenario canadiense no es un simple decorado: Winnipeg y su entorno aportan una atmósfera concreta, urbana y tensa. El resultado es un thriller para preadolescentes que combina aventura, suspenso y un conflicto moral sobre verdad, propaganda y responsabilidad.",
+        "aboutThisBook": "Open Library identifica la obra como parte de los Tom and Liz Austen Mysteries y la sitúa por primera vez en 1979, mientras que la edición de HarperTrophyCanada disponible allí corresponde a 2005 y tiene 97 páginas. El propio registro de HarperCollins Canada presenta la novela como una aventura para pre-teens centrada en un secuestro y en las falsas alegaciones de un grupo llamado DEMON. Eso la ubica claramente dentro de la tradición del misterio juvenil canadiense: narraciones ágiles, con peligro real pero lenguaje accesible, donde el joven investigador debe resolver lo que los adultos no alcanzan a comprender a tiempo.",
+        "forWhom": "Para lectores juveniles desde los 10 u 11 años, familias que buscan novelas cortas de suspenso y docentes que quieran trabajar intriga, pistas falsas, acción y toma de decisiones en narrativa accesible.",
+        "whyItMatters": "Importa porque muestra una forma eficaz de thriller juvenil: breve, clara y tensa, pero no simplista. Además, introduce preguntas valiosas sobre cómo distinguir una causa pública legítima de su uso como cobertura para la violencia y la extorsión.",
+        "editorialIntro": "No todas las novelas juveniles de misterio logran empezar con tanta energía. Aquí Wilson abre con explosión, secuestro y amenaza organizada, y desde ahí no abandona el ritmo. Pero el interés del libro no está solo en la acción: también en la sospecha constante de que una explicación aparentemente noble puede esconder intereses muy distintos. Esa mezcla de aventura y desconfianza le da una eficacia especial para lectores jóvenes.",
+        "readingLevel": "Lectura accesible para público juvenil. La extensión es corta, el vocabulario es claro y la narración avanza con rapidez, aunque exige atención para seguir los indicios, las motivaciones del grupo antagonista y el cambio de sospechas.",
+        "whyReadToday": "Porque sigue funcionando como una puerta de entrada muy ágil al suspense y porque su conflicto sobre discursos públicos, miedo y manipulación sigue siendo sorprendentemente actual.",
+        "studyNotes": [
+          "La novela trabaja con un esquema clásico de misterio juvenil: un hecho violento inicial, pistas contradictorias, jóvenes en peligro y una resolución basada en observación e interpretación.",
+          "El grupo antagonista usa un discurso ambiental como fachada; eso permite discutir la diferencia entre denuncia social genuina y coartada criminal.",
+          "La brevedad del libro obliga a Wilson a narrar con mucha economía: casi cada escena empuja la acción o modifica la comprensión del lector.",
+          "Puede compararse con otras series de detectives juveniles para ver cómo el contexto canadiense aporta identidad propia al relato."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El atentado y el secuestro",
+            "summary": "La historia se pone en marcha con una explosión en la entrada de la casa de un industrial de Winnipeg y con la aparición de hombres armados. Tom Austen queda atrapado desde el comienzo en una situación que ya no puede mirar como simple testigo."
+          },
+          {
+            "title": "DEMON y la pista de la causa pública",
+            "summary": "Pronto emerge la supuesta explicación del conflicto: un grupo llamado DEMON afirma actuar contra la contaminación causada por la empresa del padre de Dianne Dorchester. La novela convierte esa versión inicial en una pista ambigua que el lector debe aprender a desconfiar."
+          },
+          {
+            "title": "Descubrir la verdad antes de que sea tarde",
+            "summary": "En la parte final, Tom comprende que tras las consignas del grupo hay una verdad más compleja y peligrosa. El desenlace depende de que logre interpretar correctamente lo que ha visto y convencer a otros antes de que la violencia se imponga por completo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Suspense juvenil con riesgo real",
+            "content": "Wilson no infantiliza el peligro. Hay secuestro, armas, explosivos y miedo, pero todo está narrado con claridad y control para que el lector joven sienta tensión sin perder orientación en la trama."
+          },
+          {
+            "heading": "La pista falsa como motor narrativo",
+            "content": "El libro se sostiene sobre una maniobra típica del thriller: ofrecer una explicación plausible para luego revelar que esa explicación sirve para ocultar otra agenda. Esa estructura enseña a leer con sospecha y a valorar los detalles por encima de los eslóganes."
+          },
+          {
+            "heading": "Tom Austen como investigador en formación",
+            "content": "El protagonista no resuelve el misterio por genialidad abstracta, sino por atención, coraje y capacidad para unir indicios bajo presión. Eso lo vuelve un personaje cercano para lectores jóvenes: no es invulnerable, pero sí perseverante y lúcido."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro de miedo o un misterio de aventuras?",
+            "answer": "Se acerca más al misterio de aventuras con suspense. Hay peligro y tensión, pero el centro del libro es la investigación y la huida, no el terror sobrenatural."
+          },
+          {
+            "question": "¿Hace falta leer otros libros de Tom Austen antes?",
+            "answer": "No necesariamente. Funciona por sí solo, aunque conocer la serie ayuda a ubicar mejor el tipo de protagonista y el tono general de las aventuras."
+          },
+          {
+            "question": "¿Qué tema de fondo trabaja la novela?",
+            "answer": "Además del suspense, trabaja la diferencia entre una causa pública aparentemente justa y su uso como máscara para intereses violentos o engañosos."
+          },
+          {
+            "question": "¿Para qué edad es recomendable?",
+            "answer": "Por ritmo, extensión y claridad, resulta apropiado para lectores juveniles y preadolescentes que ya disfrutan historias de detectives o acción breve."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "HarperCollins Canada: Terror In Winnipeg",
+            "url": "https://www.harpercollins.ca/9780006395454/terror-in-winnipeg/"
+          },
+          {
+            "label": "Open Library: Terror in Winnipeg (edición 2005)",
+            "url": "https://openlibrary.org/books/OL32146704M/Terror_in_Winnipeg"
+          },
+          {
+            "label": "Open Library: Terror in Winnipeg (obra)",
+            "url": "https://openlibrary.org/works/OL257705W/Terror_in_Winnipeg"
+          },
+          {
+            "label": "Wikipedia: Eric Wilson (author)",
+            "url": "https://en.wikipedia.org/wiki/Eric_Wilson_(author)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tiempos-dificiles-de-charles-dickens",
+      "title": "Tiempos Dificiles",
+      "authorName": "Charles Dickens",
+      "authorSlug": "charles-dickens",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Tiempos difíciles",
+        "authorName": "Charles Dickens",
+        "authorSlug": "charles-dickens",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "narrativa"
+        ],
+        "year": 1854,
+        "pages": null,
+        "summary": "Tiempos difíciles es una de las novelas más concentradas y abiertamente críticas de Charles Dickens. Ambientada en la ciudad industrial ficticia de Coketown, sigue las consecuencias humanas de una educación basada solo en hechos, utilidad y cálculo. Thomas Gradgrind, defensor del racionalismo utilitario, intenta ordenar la vida de sus hijos y de sus alumnos según principios estrictos de productividad y disciplina, pero el resultado es devastador. A medida que se cruzan las historias de Louisa, Tom, Sissy Jupe y el obrero Stephen Blackpool, la novela muestra cómo el desprecio por la imaginación, la compasión y la singularidad convierte a las personas en piezas de un sistema. Dickens mezcla sátira social, melodrama y denuncia moral para ofrecer un retrato duro de la industrialización victoriana.",
+        "aboutThisBook": "Britannica señala que la novela apareció primero por entregas en Household Words entre abril y agosto de 1854, y luego en libro ese mismo año, con el título Hard Times: For These Times. Es la décima novela de Dickens y una de las más breves, pero también una de las más directas en su ataque contra los efectos deshumanizadores del industrialismo y de ciertas interpretaciones utilitaristas de la educación. Penguin destaca además que el mundo de Coketown gira en torno a Gradgrind, cuya obsesión con los hechos arruina la vida emocional de su familia. Por su estructura compacta y su intención polémica, es una obra clave para entender la dimensión social del novelista.",
+        "forWhom": "Para lectores adultos, estudiantes de secundaria avanzada o universidad y clubes de lectura interesados en clásicos sociales, crítica de la educación, Revolución Industrial y novelas con fuerte dimensión ética.",
+        "whyItMatters": "Importa porque sigue planteando una pregunta incómoda: qué ocurre cuando una sociedad valora la eficiencia por encima de la imaginación, la empatía y la dignidad humana. Su crítica a la educación reducida a datos y a la lógica productivista conserva plena vigencia.",
+        "editorialIntro": "Pocas novelas de Dickens son tan tajantes como Tiempos difíciles. Aquí no hay un gran despliegue coral como en otras obras suyas, sino una maquinaria narrativa más severa y concentrada, hecha para golpear una idea central: la vida humana se empobrece cuando todo se mide por utilidad. Coketown, con su humo, sus fábricas y su disciplina moral, no es solo una ciudad victoriana; es una imagen poderosa de cualquier mundo que confunda formación con adiestramiento y progreso con deshumanización.",
+        "readingLevel": "Lectura media a exigente. Aunque la trama es relativamente breve, hay ironía, crítica social, referencias al contexto industrial y un estilo dickensiano que gana profundidad cuando se atienden sus símbolos, contrastes y tonos satíricos.",
+        "whyReadToday": "Porque obliga a pensar en debates todavía abiertos sobre educación utilitaria, desigualdad laboral, tecnocracia y el lugar de la imaginación en sociedades obsesionadas con el rendimiento.",
+        "studyNotes": [
+          "La oposición entre hechos e imaginación organiza toda la novela: no es un detalle pedagógico, sino el principio que define el daño moral de Coketown.",
+          "Stephen Blackpool permite leer la dimensión obrera del libro y la crítica a una organización social que deja sin salida a los más vulnerables.",
+          "Louisa Gradgrind encarna las consecuencias íntimas de una formación sin afecto ni fantasía; su conflicto es emocional, moral y social al mismo tiempo.",
+          "La novela se divide en tres libros, Sowing, Reaping y Garnering, una estructura que subraya la relación entre ideas sembradas, consecuencias sufridas y resultados finales."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Libro I: La siembra",
+            "summary": "En la primera parte se establecen los principios de Gradgrind y el ambiente rígido de Coketown. La educación basada únicamente en hechos y el rechazo de la fantasía quedan presentados como semillas de futuros conflictos personales y sociales."
+          },
+          {
+            "title": "Libro II: La cosecha",
+            "summary": "La parte central muestra los efectos de esa siembra ideológica. Louisa queda atrapada en un matrimonio sin amor, Tom deriva hacia la irresponsabilidad y Stephen Blackpool afronta la dureza de un sistema que no ofrece justicia ni movilidad real."
+          },
+          {
+            "title": "Libro III: La recolección",
+            "summary": "En el cierre, las decisiones previas producen sus consecuencias más claras. La novela no propone una solución simple, pero sí una corrección moral: reconocer que la compasión, la imaginación y la humanidad no son lujos, sino condiciones de una vida digna."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Crítica del utilitarismo y de la educación mecánica",
+            "content": "Dickens dirige una sátira intensa contra la idea de que la formación humana pueda reducirse a datos verificables y cálculo práctico. Gradgrind representa una pedagogía que desprecia la fantasía y, al hacerlo, incapacita a las personas para una vida emocional y ética plena."
+          },
+          {
+            "heading": "Coketown como símbolo industrial",
+            "content": "La ciudad no es solo escenario; funciona como condensación imaginaria de la Inglaterra fabril. Humo, monotonía, ruido mecánico y jerarquía económica producen una atmósfera donde la repetición material se traduce en empobrecimiento moral."
+          },
+          {
+            "heading": "La compasión como correctivo moral",
+            "content": "Frente a la lógica del cálculo, la novela defiende la necesidad de la simpatía, la imaginación y el reconocimiento del otro. Personajes como Sissy Jupe introducen un modo alternativo de comprender la vida, menos eficaz en apariencia, pero más humano y más verdadero."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela difícil de leer?",
+            "answer": "No tanto por extensión, que es moderada, sino por su densidad moral y satírica. Con un poco de contexto sobre la Inglaterra industrial, se vuelve mucho más clara y rica."
+          },
+          {
+            "question": "¿Cuál es su tema principal?",
+            "answer": "La crítica a una sociedad que absolutiza los hechos, la utilidad y la productividad, olvidando imaginación, afecto y dignidad humana."
+          },
+          {
+            "question": "¿Por qué Coketown es tan importante?",
+            "answer": "Porque resume en una sola ciudad imaginaria los problemas que Dickens quiere denunciar: monotonía industrial, desigualdad, disciplina social y deshumanización."
+          },
+          {
+            "question": "¿Sirve para estudiar la Revolución Industrial?",
+            "answer": "Sí, aunque no como documento histórico neutral, sino como novela crítica. Permite ver cómo un gran escritor tradujo en ficción los efectos morales y sociales del industrialismo victoriano."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Britannica: Hard Times",
+            "url": "https://www.britannica.com/topic/Hard-Times-novel-by-Dickens"
+          },
+          {
+            "label": "Penguin Classics: Hard Times",
+            "url": "https://www.penguin.co.uk/books/56169/hard-times-by-charles-dickens-intro-and-notes-kate-flint/9780141198347"
+          },
+          {
+            "label": "Wikipedia: Hard Times (novel)",
+            "url": "https://en.wikipedia.org/wiki/Hard_Times_(novel)"
+          },
+          {
+            "label": "Open Library",
+            "url": "https://openlibrary.org/works/OL8193387W/Hard_Times"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "un-corazon-desconocido-de-charlotte-valandrey",
+      "title": "Un Corazon Desconocido",
+      "authorName": "Charlotte Valandrey",
+      "authorSlug": "charlotte-valandrey",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un corazón desconocido",
+        "authorName": "Charlotte Valandrey",
+        "authorSlug": "charlotte-valandrey",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "narrativa"
+        ],
+        "year": 2012,
+        "pages": 352,
+        "summary": "Un corazón desconocido parte de una experiencia real de Charlotte Valandrey: después de haber contado su seropositividad y su trasplante cardíaco, recibe una carta anónima que afirma conocer el corazón que ahora late en su pecho. Desde allí, el libro mezcla testimonio personal, pesquisa emocional y reflexión sobre identidad. La narradora intenta entender por qué siente cambios interiores, sueños insistentes y una inquietud que no logra reducir a una explicación médica sencilla. En esa búsqueda aparecen médicos, especialistas, recuerdos, intuiciones y preguntas sobre la memoria del cuerpo, el duelo y la posibilidad de rehacerse después de una operación extrema. Más que ofrecer respuestas concluyentes, el texto sigue un itinerario íntimo en el que vivir con un órgano ajeno obliga a reconsiderar qué significa seguir siendo una misma persona.",
+        "aboutThisBook": "Publicado en 2012, este libro prolonga la dimensión autobiográfica que Charlotte Valandrey ya había explorado en textos anteriores. No es una novela convencional, aunque utiliza recursos narrativos de suspenso y confidencia para contar una vivencia límite: la vida después de un trasplante de corazón. El interés del libro está en cómo convierte una experiencia médica y afectiva en una investigación sobre la memoria, la identidad y la transformación personal.",
+        "forWhom": "Para lectores adultos interesados en memorias de enfermedad y superación, relatos sobre identidad corporal, testimonios de trasplante y libros donde la experiencia íntima se cruza con preguntas psicológicas y existenciales.",
+        "whyItMatters": "Importa porque transforma un episodio médico de enorme fragilidad en una reflexión legible sobre cuerpo, memoria, miedo y deseo de seguir viviendo. También muestra cómo el testimonio personal puede adoptar forma de investigación emocional sin perder honestidad.",
+        "editorialIntro": "Hay libros autobiográficos que se limitan a contar un sufrimiento, y otros que convierten ese sufrimiento en una pregunta difícil de olvidar. Un corazón desconocido pertenece a la segunda clase. Charlotte Valandrey escribe desde la experiencia concreta del trasplante, pero el verdadero centro del libro es la extrañeza de seguir viva con un corazón que también perteneció a otra historia. Esa tensión le da al texto una fuerza singular.",
+        "readingLevel": "Lectura media para público adulto. El estilo es ágil, confesional y accesible, pero las preguntas sobre enfermedad, duelo, memoria corporal e identidad emocional exigen una lectura atenta y abierta a la ambigüedad.",
+        "whyReadToday": "Porque sigue siendo un testimonio potente sobre supervivencia, vulnerabilidad y reconstrucción personal en una época que debate mucho sobre salud, trauma e identidad del cuerpo.",
+        "studyNotes": [
+          "Conviene leer el libro como testimonio autobiográfico con recursos narrativos, no como demostración científica sobre la llamada memoria celular.",
+          "El motivo del corazón trasplantado organiza tanto la intriga como la reflexión sobre identidad, continuidad personal y duelo.",
+          "La carta anónima funciona como detonante dramático: abre una investigación emocional más que policial.",
+          "El valor del texto está en cómo articula fragilidad física y voluntad de seguir viviendo sin caer por completo en el sentimentalismo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Antesala de una nueva vida",
+            "summary": "La autora recuerda el peso de la enfermedad y el trasplante como un corte radical en su biografía. Sobre ese pasado reciente se instala la idea de que seguir con vida no significa haber resuelto el miedo ni la sensación de extrañeza ante el propio cuerpo."
+          },
+          {
+            "title": "La carta que rompe el equilibrio",
+            "summary": "El libro se pone en marcha cuando Charlotte recibe un mensaje anónimo de alguien que dice conocer el corazón que ahora late en ella. Esa irrupción altera su calma precaria y convierte sus intuiciones, sueños y desajustes interiores en una pregunta urgente."
+          },
+          {
+            "title": "Búsqueda entre razón e intuición",
+            "summary": "En la parte central, la narradora consulta médicos, especialistas y voces cercanas mientras intenta ordenar sus sensaciones. El texto no abandona la racionalidad, pero tampoco niega la dimensión subjetiva de lo vivido: la duda se vuelve el verdadero motor del relato."
+          },
+          {
+            "title": "Aceptar la transformación",
+            "summary": "Hacia el cierre, la investigación importa menos que el modo en que la autora aprende a convivir con su nueva condición. El libro apunta a una forma de aceptación: no borrar el misterio, sino vivir con él sin dejar de amar ni de proyectarse hacia el futuro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Testimonio y suspense íntimo",
+            "content": "Aunque el material de base es autobiográfico, Valandrey organiza la experiencia como una búsqueda cargada de tensión. La carta inicial, los sueños y las consultas sucesivas sostienen una intriga que acerca el libro a la narrativa de investigación personal."
+          },
+          {
+            "heading": "El cuerpo como archivo incierto",
+            "content": "Uno de los temas más sugestivos del libro es la sospecha de que el cuerpo guarda memorias difíciles de traducir. El texto no ofrece pruebas definitivas, pero explora con honestidad el desconcierto de sentir que la identidad ya no coincide del todo con la vieja idea del yo."
+          },
+          {
+            "heading": "Supervivencia sin consuelo fácil",
+            "content": "La autora evita presentar la recuperación como una victoria limpia. Sobrevivir aparece como un proceso ambiguo, atravesado por gratitud, culpa, miedo y deseo. Esa complejidad le da espesor literario a un relato que podría haberse quedado en simple ejemplo de superación."
+          },
+          {
+            "heading": "Lectura crítica del libro",
+            "content": "Hoy conviene valorar su fuerza testimonial y, al mismo tiempo, distinguir entre la experiencia subjetiva de la autora y cualquier afirmación médica fuerte. El interés del libro reside sobre todo en la dimensión humana de la pregunta, no en convertir una intuición en certeza científica."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es novela o autobiografía?",
+            "answer": "Se lee principalmente como un relato autobiográfico y testimonial. Utiliza recursos narrativos de intriga, pero parte de la experiencia real de Charlotte Valandrey tras un trasplante cardíaco."
+          },
+          {
+            "question": "¿El libro defiende como hecho probado la memoria celular?",
+            "answer": "No debería leerse así. El texto explora una vivencia subjetiva y una hipótesis que inquieta a la autora, pero su fuerza está en la pregunta íntima y existencial más que en una demostración científica."
+          },
+          {
+            "question": "¿Qué tema domina el libro?",
+            "answer": "La identidad después del trasplante. Todo el relato gira en torno a cómo seguir siendo una misma persona cuando el cuerpo, el miedo y la percepción de uno mismo han cambiado de manera radical."
+          },
+          {
+            "question": "¿Es una lectura dura?",
+            "answer": "Sí, toca enfermedad, fragilidad y muerte, pero también está atravesada por energía vital. No es un libro clínico, sino una búsqueda emocional escrita con voluntad de comprensión y de esperanza."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Open Library",
+            "url": "https://openlibrary.org/works/OL35237473W/Un_coraz%C3%B3n_desconocido"
+          },
+          {
+            "label": "Goodreads: De cœur inconnu",
+            "url": "https://www.goodreads.com/book/show/15804093-de-coeur-inconnu"
+          },
+          {
+            "label": "Wikipedia: Charlotte Valandrey",
+            "url": "https://en.wikipedia.org/wiki/Charlotte_Valandrey"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "un-piano-en-bahia-desolacion-de-libertad-demitropulos",
+      "title": "Un Piano En Bahia Desolacion",
+      "authorName": "Libertad Demitropulos",
+      "authorSlug": "libertad-demitropulos",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Un piano en Bahía Desolación",
+        "authorName": "Libertad Demitrópulos",
+        "authorSlug": "libertad-demitropulos",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "narrativa",
+          "aventura"
+        ],
+        "year": 1994,
+        "pages": 220,
+        "summary": "Un piano en Bahía Desolación sitúa su historia en el extremo austral, en un mundo áspero atravesado por intereses económicos, comercio humano y violencia patriarcal. Nancy, una joven inglesa de origen humilde, es enviada desde Liverpool a Punta Arenas para convertirse en esposa de un ganadero austríaco, en una operación donde el matrimonio funciona como transacción. A partir de su llegada, la novela despliega un paisaje social duro, poblado por mineros, loberos, prestamistas, hombres de campo y prostitutas, todos movidos por el dinero y por jerarquías que reducen a las mujeres a mercancía o instrumento. El piano y la música aparecen como un espacio de sensibilidad y resistencia dentro de ese orden brutal. Más que una trama lineal de aventuras, la novela construye un fresco de época sobre la Patagonia, la formación del Estado y los pactos de poder que sostienen una sociedad profundamente desigual.",
+        "aboutThisBook": "Publicada en 1994, esta novela de Libertad Demitrópulos prolonga su interés por revisar episodios y márgenes de la historia argentina desde voces desplazadas. El libro combina reconstrucción histórica, intensidad verbal y mirada crítica sobre la colonización económica y sexual de los territorios australes. No se apoya sólo en la peripecia de Nancy: usa su experiencia para iluminar una región, una época y una red de relaciones de dominio.",
+        "forWhom": "Para lectores adultos interesados en novela histórica argentina, literatura sobre la Patagonia, relatos con perspectiva crítica sobre género y poder, y obras donde el lenguaje importa tanto como la trama.",
+        "whyItMatters": "Importa porque vincula historia territorial, economía agroexportadora y violencia sobre los cuerpos femeninos en una sola imagen narrativa. También confirma a Demitrópulos como una autora capaz de leer la nación desde sus bordes y desde quienes pagan el costo humano del progreso.",
+        "editorialIntro": "Libertad Demitrópulos no escribe la Patagonia como postal ni como pura aventura. En Un piano en Bahía Desolación, el sur aparece como un escenario de fundación violenta, atravesado por negocios, desplazamientos y relaciones de dominio que afectan especialmente a las mujeres. La novela vale por su capacidad de contar una historia individual y, al mismo tiempo, levantar un friso social donde cada personaje revela una economía moral brutal. Su prosa convierte ese mundo en materia viva.",
+        "readingLevel": "Lectura media-alta para público adulto. La trama es comprensible, pero la prosa tiene densidad literaria, resonancias históricas y un ritmo que conviene leer sin apuro para apreciar su trabajo verbal y su construcción de ambiente.",
+        "whyReadToday": "Porque ayuda a pensar la violencia de género, la explotación económica y las narrativas del progreso desde una novela que mira los márgenes de la historia argentina en vez de repetir sus versiones heroicas.",
+        "studyNotes": [
+          "Nancy no debe leerse sólo como personaje individual: también concentra la experiencia de las mujeres convertidas en objeto de intercambio dentro de un orden patriarcal y colonial.",
+          "El piano funciona como símbolo de interioridad, memoria y refugio frente a un entorno donde casi todo se rige por el dinero.",
+          "La novela puede estudiarse como un friso histórico: más que seguir una sola peripecia, compone un panorama social de la Patagonia de fines del siglo XIX y comienzos del XX.",
+          "Ricardo Piglia destacó la importancia del lenguaje en la obra; conviene atender a cómo la prosa produce sensación de verdad sin depender sólo de datos históricos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Del puerto inglés al extremo austral",
+            "summary": "La novela abre con el traslado de Nancy desde Liverpool hacia el sur americano, en un viaje que ya encierra desposesión y engaño. El movimiento geográfico introduce una lógica central del libro: los cuerpos femeninos viajan como parte de transacciones decididas por otros."
+          },
+          {
+            "title": "Llegada a un territorio regido por el dinero",
+            "summary": "Una vez en Punta Arenas y su entorno, Nancy descubre un mundo áspero en el que conviven ganaderos, mineros, comerciantes, prostitutas y aventureros. La narración expone de inmediato que las jerarquías económicas ordenan también los vínculos íntimos y la distribución de la violencia."
+          },
+          {
+            "title": "La música como resguardo y memoria",
+            "summary": "En la parte media, el piano y la formación musical reaparecen como aquello que todavía permite a Nancy sostener una sensibilidad propia. La música no anula la opresión, pero ofrece un espacio interior desde el cual resistir la cosificación y recordar otra forma de vida."
+          },
+          {
+            "title": "Un paisaje histórico de pactos patriarcales",
+            "summary": "Hacia el cierre, la novela se amplía más allá del destino individual y se afirma como retrato de una región y una época. Lo decisivo no es sólo qué le ocurre a Nancy, sino cómo ese mundo entero se organiza sobre alianzas masculinas, explotación y violencia legitimada."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Patagonia sin romanticismo",
+            "content": "Demitropulos desarma la imagen épica o pintoresca del sur. La Patagonia aparece como zona de negocio, extracción y tránsito humano, donde las promesas del progreso conviven con una economía feroz y con la subordinación de quienes ocupan posiciones más vulnerables."
+          },
+          {
+            "heading": "Mujeres como mercancía y como conciencia del relato",
+            "content": "La novela subraya que el orden patriarcal no es sólo doméstico, sino económico. Nancy llega literalmente vendida como esposa, y esa condición ilumina la manera en que el sistema transforma a las mujeres en objetos de intercambio. Desde ahí, la experiencia femenina se vuelve clave para leer el conjunto histórico."
+          },
+          {
+            "heading": "La música verbal de la prosa",
+            "content": "El propio libro insiste, y la crítica lo ha señalado, en que el efecto de verdad no nace sólo de la documentación histórica. La fuerza de Demitrópulos está en el ritmo, la respiración de las frases y el modo en que la prosa convierte el paisaje y la violencia en experiencia sensorial."
+          },
+          {
+            "heading": "Novela histórica desde los márgenes",
+            "content": "En lugar de reconstruir grandes gestas nacionales, la autora mira la consolidación del Estado y del modelo agroexportador desde el borde austral y desde los sujetos subordinados. Esa decisión estética y política vuelve la novela especialmente fértil para releer la historia argentina."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela histórica en sentido estricto?",
+            "answer": "Sí, aunque no depende sólo de fechas o referencias documentales. Usa una trama ficcional para reconstruir una región, una época y relaciones de poder ligadas a la consolidación del Estado y de la economía agroexportadora."
+          },
+          {
+            "question": "¿Quién es Nancy dentro del libro?",
+            "answer": "Es la joven inglesa trasladada desde Liverpool a Punta Arenas para ser entregada en matrimonio. Su experiencia concentra la crítica de la novela a la compraventa simbólica y material de las mujeres."
+          },
+          {
+            "question": "¿Qué papel cumple el piano?",
+            "answer": "No es un adorno. Representa sensibilidad, formación, memoria y un espacio de resistencia interior frente a un mundo dominado por el dinero, la rudeza y la violencia."
+          },
+          {
+            "question": "¿Por qué se considera una obra importante de Demitrópulos?",
+            "answer": "Porque combina mirada histórica, crítica social y una prosa de gran personalidad. Además, prolonga la capacidad de la autora para narrar la nación desde sus bordes geográficos y simbólicos."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Open Library",
+            "url": "https://openlibrary.org/works/OL2590492W/Un_Piano_en_Bahi%CC%81a_desolacio%CC%81n"
+          },
+          {
+            "label": "Casa del Libro: sinopsis de Un piano en Bahía Desolación",
+            "url": "https://www.casadellibro.com/ebook-un-piano-en-bahia-desolacion-ebook/9789877194562/14449230"
+          },
+          {
+            "label": "Wikipedia: Libertad Demitrópulos",
+            "url": "https://es.wikipedia.org/wiki/Libertad_Demitr%C3%B3pulos"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "vuelo-nocturno-de-antoine-de-saint-exupery",
+      "title": "Vuelo Nocturno De Antoine",
+      "authorName": "Saint Exupery",
+      "authorSlug": "saint-exupery",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 5,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Vuelo nocturno",
+        "authorName": "Antoine de Saint-Exupéry",
+        "authorSlug": "antoine-de-saint-exupery",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "clasicos",
+          "aventura",
+          "narrativa"
+        ],
+        "year": 1931,
+        "pages": null,
+        "summary": "Vuelo nocturno narra una noche decisiva en la aviación postal sudamericana, cuando el correo debe seguir circulando pese al riesgo extremo. La figura central es Rivière, jefe de la red aérea, obsesionado con sostener la disciplina y demostrar que el avión puede imponerse al tiempo del tren si también se vuela de noche. Mientras varios aparatos avanzan en rutas peligrosas, uno de los pilotos, Fabien, queda atrapado por una tormenta en el trayecto desde la Patagonia hacia Buenos Aires. La novela alterna la tensión técnica del vuelo, la espera en tierra y el conflicto moral entre el deber profesional, el sacrificio humano y la soledad de quienes sostienen una empresa colectiva. Saint-Exupéry convierte una situación concreta de la aviación temprana en una meditación breve y poderosa sobre responsabilidad, heroísmo, obediencia y sentido del trabajo.",
+        "aboutThisBook": "Publicado como Vol de nuit en 1931, este fue uno de los libros que consolidó la reputación de Saint-Exupéry antes de El principito. La novela nace de su experiencia real como aviador y director en la Aeroposta Argentina, por lo que su conocimiento del mundo aeronáutico no es decorativo, sino estructural. Aun así, el libro trasciende la crónica profesional: su tema mayor es el precio humano de una misión colectiva asumida casi como credo.",
+        "forWhom": "Para lectores juveniles avanzados y adultos que disfrutan clásicos breves, literatura de aviación, novelas de trabajo y mando, y relatos donde la aventura exterior se convierte en reflexión ética sobre sacrificio y responsabilidad.",
+        "whyItMatters": "Sigue importando porque muestra cómo una novela muy breve puede pensar con intensidad el vínculo entre técnica, deber y fragilidad humana. También ayuda a entender una faceta central de Saint-Exupéry: su admiración por el riesgo asumido al servicio de algo más grande que el individuo.",
+        "editorialIntro": "Antes de volverse un autor universal por El principito, Saint-Exupéry escribió una de las novelas más tensas y concentradas sobre la aviación moderna. Vuelo nocturno no glorifica el peligro de forma ingenua: examina el costo de exigir heroísmo cotidiano a pilotos, jefes y operadores que trabajan contra el clima y contra el tiempo. La experiencia de vuelo sirve aquí para pensar obediencia, liderazgo y sacrificio con una prosa sobria y poética a la vez.",
+        "readingLevel": "Lectura media. La extensión es breve y el argumento se sigue con claridad, pero el peso del libro está en sus dilemas morales, en su tono reflexivo y en una prosa que combina precisión técnica con resonancia poética.",
+        "whyReadToday": "Porque en tiempos de fascinación por la eficiencia y la tecnología, esta novela recuerda que toda organización exige decisiones humanas y que el progreso también produce víctimas, dudas y responsabilidades difíciles de compartir.",
+        "studyNotes": [
+          "Rivière no es un villano simple: encarna la tensión entre compasión privada y exigencia institucional.",
+          "Fabien representa la dimensión humana del riesgo técnico; su vuelo convierte la aventura en experiencia límite y no en simple espectáculo.",
+          "La novela puede leerse como reflexión sobre el trabajo moderno, donde la misión colectiva justifica sacrificios individuales.",
+          "Conviene relacionarla con la biografía aeronáutica de Saint-Exupéry, porque esa experiencia real sostiene la credibilidad del libro."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La red aérea y la exigencia del mando",
+            "summary": "El comienzo presenta el sistema de correo aéreo nocturno y a Rivière como jefe decidido a imponer continuidad y disciplina. Desde el inicio queda claro que la novela no tratará sólo de aviones, sino del costo moral de mantener una empresa que depende del coraje ajeno."
+          },
+          {
+            "title": "Fabien en la tormenta",
+            "summary": "La tensión principal surge cuando Fabien, piloto de la ruta patagónica, entra en una situación meteorológica cada vez más adversa. El vuelo deja de ser rutina profesional y se convierte en una lucha contra la oscuridad, el aislamiento y los límites materiales de la aeronave."
+          },
+          {
+            "title": "La espera en tierra",
+            "summary": "Mientras el peligro crece en el aire, la novela muestra a quienes esperan noticias y deben decidir desde oficinas y radios. Esa alternancia entre el cielo y la base convierte la historia en un drama colectivo, donde cada orden y cada silencio pesan sobre varias vidas."
+          },
+          {
+            "title": "Sacrificio y continuidad",
+            "summary": "El desenlace confirma que la misión postal sólo puede mantenerse mediante una disciplina que no elimina el sufrimiento. Saint-Exupéry cierra el relato subrayando la paradoja central del libro: el progreso técnico se sostiene gracias a individuos concretos capaces de arriesgarlo todo."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La épica del trabajo moderno",
+            "content": "Vuelo nocturno eleva una tarea profesional muy precisa —transportar correo— a la altura de una epopeya contemporánea. No lo hace mediante grandilocuencia, sino mostrando cómo la rutina técnica puede adquirir densidad moral cuando está atravesada por riesgo, disciplina y sentido de misión."
+          },
+          {
+            "heading": "Rivière y el problema del mando",
+            "content": "El personaje de Rivière concentra el dilema más incómodo del libro: para que la red aérea exista, alguien debe exigir a otros una dureza que también lo hiere. Saint-Exupéry no resuelve del todo esa contradicción, y justamente por eso el personaje mantiene su fuerza."
+          },
+          {
+            "heading": "Naturaleza, técnica y fragilidad",
+            "content": "La tormenta no aparece sólo como obstáculo físico, sino como recordatorio de que la técnica moderna sigue siendo vulnerable. El avión acerca distancias y promete dominio, pero la noche y el clima devuelven al ser humano a una condición de precariedad esencial."
+          },
+          {
+            "heading": "Una poética del sacrificio",
+            "content": "El libro fue leído a menudo como una defensa del sacrificio por una causa superior. Esa idea explica su fuerza histórica, aunque hoy también invita a una lectura crítica: ¿qué clase de instituciones merecen ese sacrificio y quién decide el precio humano de sostenerlas?"
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿De qué trata en pocas palabras?",
+            "answer": "Trata sobre una red de correo aéreo nocturno en Sudamérica y sobre la crisis que se desata cuando uno de los pilotos, Fabien, queda atrapado en una tormenta mientras su jefe, Rivière, sostiene la misión pese al riesgo."
+          },
+          {
+            "question": "¿Está basada en experiencias reales del autor?",
+            "answer": "Sí. Saint-Exupéry fue aviador y trabajó en la Aeroposta Argentina, de modo que la novela nace de un conocimiento directo del mundo de los vuelos postales y de sus peligros."
+          },
+          {
+            "question": "¿Es sólo una novela de aventuras?",
+            "answer": "No. Tiene tensión y riesgo, pero su verdadero centro es ético: examina mando, responsabilidad, disciplina y sacrificio en el contexto de la aviación moderna."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose?",
+            "answer": "Porque es un clásico breve que combina experiencia técnica, intensidad poética y reflexión moral. Además, permite conocer a un Saint-Exupéry menos fabulista y más atento al heroísmo ambiguo del trabajo y del deber."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Night Flight (novel)",
+            "url": "https://en.wikipedia.org/wiki/Night_Flight_(novel)"
+          },
+          {
+            "label": "Wikipedia en francés: Vol de nuit",
+            "url": "https://fr.wikipedia.org/wiki/Vol_de_nuit"
+          },
+          {
+            "label": "Britannica: Antoine de Saint-Exupéry",
+            "url": "https://www.britannica.com/biography/Antoine-de-Saint-Exupery"
+          },
+          {
+            "label": "Open Library",
+            "url": "https://openlibrary.org/works/OL10267W/Vol_de_nuit"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "amanecer-rojo-de-pierce-brown",
+      "title": "Amanecer Rojo",
+      "authorName": "Pierce Brown",
+      "authorSlug": "pierce-brown",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Amanecer rojo",
+        "authorName": "Pierce Brown",
+        "authorSlug": "pierce-brown",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "ciencia-ficcion",
+          "juvenil",
+          "aventura"
+        ],
+        "year": 2014,
+        "pages": 382,
+        "summary": "Amanecer rojo abre una saga de ciencia ficción distópica situada en una sociedad futura organizada por castas de color. Darrow, un minero rojo en Marte, ha crecido creyendo que su trabajo subterráneo sirve para preparar un mundo habitable para las generaciones venideras. Cuando descubre que esa promesa era una mentira y que los Rojos viven explotados para sostener el lujo de los Gold, la casta dominante, su duelo personal se convierte en conciencia política. Reclutado por una resistencia clandestina, Darrow acepta transformar su cuerpo y su identidad para infiltrarse entre los opresores. La novela mezcla entrenamiento brutal, intriga social, violencia ritual y una reflexión constante sobre el precio de la revolución: para destruir un sistema injusto, Darrow debe aprender a pensar, mentir y combatir como quienes gobiernan ese sistema.",
+        "aboutThisBook": "Publicado en 2014, Red Rising fue el inicio de la saga más conocida de Pierce Brown y se presentó desde el principio como una combinación de distopía juvenil, épica de rebelión y relato de supervivencia. La novela sitúa gran parte de su tensión en Marte y en la formación de élites dentro del mundo de los Gold, donde la competencia y la crueldad funcionan como método educativo. Su fuerza no depende solo del ritmo, sino del contraste entre una injusticia estructural muy visible y el conflicto moral de un protagonista obligado a infiltrarse hasta el punto de parecerse a sus enemigos.",
+        "forWhom": "Para lectores juveniles y adultos que disfrutan la ciencia ficción distópica, las historias de rebelión contra sistemas jerárquicos, los protagonistas sometidos a pruebas extremas y las novelas de ritmo alto con trasfondo político.",
+        "whyItMatters": "Importa porque renovó la distopía de comienzos de siglo con una energía más violenta y épica, llevando el conflicto social a una escala de guerra de castas. También plantea una pregunta duradera: cuánto puede deformarse una persona cuando lucha por liberar a otros desde dentro del mismo aparato de poder.",
+        "editorialIntro": "No es solo una novela de futuros opresivos ni solo una historia de pruebas despiadadas entre jóvenes ambiciosos. Amanecer rojo funciona porque convierte una premisa muy reconocible —una sociedad dividida y una rebelión imposible— en una narración con impulso trágico. Pierce Brown entiende que la rabia de su protagonista no basta: necesita estrategia, máscara y una capacidad cada vez más inquietante para habitar el mundo del enemigo.",
+        "readingLevel": "Lectura media para público juvenil y adulto. El estilo es directo y ágil, pero incluye violencia, jerarquías políticas, traiciones y cambios de identidad que conviene seguir con atención.",
+        "whyReadToday": "Porque sigue dialogando con debates actuales sobre desigualdad extrema, propaganda, movilidad social ficticia y radicalización política dentro de sistemas cerrados.",
+        "studyNotes": [
+          "La novela contrapone mito de progreso y explotación real: los Rojos creen sacrificarse por el futuro, pero sostienen un orden ya consolidado.",
+          "Darrow no actúa solo como héroe de acción; su mayor conflicto consiste en infiltrarse sin perder del todo la memoria moral de su origen.",
+          "El libro combina rasgos de distopía juvenil con elementos de epopeya militar, novela de iniciación y crítica de clase.",
+          "Conviene observar cómo el lenguaje de honor, mérito y excelencia entre los Gold encubre una estructura fundada en dominación y violencia ritual."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1: La mentira bajo la tierra",
+            "summary": "El comienzo presenta a Darrow como miembro de la casta Roja en Marte, orgulloso de un trabajo que cree necesario para el porvenir humano. La muerte y la revelación posterior destruyen esa fe inicial: el orden social no es un sacrificio compartido, sino una maquinaria de servidumbre cuidadosamente maquillada."
+          },
+          {
+            "title": "Parte 2: Transformación e infiltración",
+            "summary": "Tras entrar en contacto con la resistencia, Darrow acepta una metamorfosis física y simbólica para pasar por Gold. Esta fase convierte la venganza personal en proyecto político y subraya el costo de asumir otra identidad para combatir desde dentro."
+          },
+          {
+            "title": "Parte 3: El laboratorio del poder",
+            "summary": "En el espacio de formación de las élites, Darrow descubre que el mundo Gold educa mediante competencia extrema, humillación y guerra simulada. La novela intensifica alianzas, rivalidades y traiciones mientras el protagonista aprende que vencer exige algo más que fuerza: lectura estratégica de las personas y del sistema."
+          },
+          {
+            "title": "Parte 4: Victoria incierta, guerra abierta",
+            "summary": "Hacia el cierre, los logros de Darrow no resuelven la injusticia general, sino que abren un conflicto mayor. El final afirma que la rebelión apenas comienza y que cualquier triunfo obtenido dentro de la estructura dominante deja secuelas morales profundas."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Distopía de castas y colonialismo interno",
+            "content": "El sistema de colores no es un simple decorado futurista: organiza trabajo, prestigio, información y acceso a la verdad. La novela muestra cómo una jerarquía aparentemente natural puede sostenerse mediante mito fundacional, aislamiento social y pedagogías de obediencia."
+          },
+          {
+            "heading": "La identidad como campo de batalla",
+            "content": "Darrow debe representar una versión convincente del enemigo para combatirlo. Esa tensión vuelve ambigua la idea de heroísmo: cada avance político exige ocultamiento, manipulación y aprendizaje de códigos aristocráticos que amenazan con transformar su propia conciencia."
+          },
+          {
+            "heading": "Ritmo juvenil, ambición épica",
+            "content": "Aunque comparte elementos con otras distopías para jóvenes, Amanecer rojo empuja el tono hacia lo marcial y lo trágico. Su mezcla de competencia, guerra de facciones y revolución social explica por qué atrajo tanto a lectores juveniles como a públicos de ciencia ficción más amplia."
+          },
+          {
+            "heading": "Violencia y legitimidad revolucionaria",
+            "content": "El libro no presenta la revuelta como una empresa limpia. Insiste en que derrocar un orden injusto puede exigir métodos contaminados por el mismo sistema que se combate, y esa incomodidad moral le da más densidad que a una simple fantasía de ascenso social."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Amanecer rojo es una novela juvenil o adulta?",
+            "answer": "Se suele leer como cruce entre distopía juvenil y ciencia ficción para adultos. Su protagonista es joven y la estructura tiene rasgos de novela de formación, pero la violencia y la ambición política son más duras que en muchas sagas juveniles convencionales."
+          },
+          {
+            "question": "¿Es necesario leer toda la saga para entender este libro?",
+            "answer": "No. La novela funciona como inicio con conflicto propio, aunque deja claro que la historia de Darrow y de la rebelión continúa en volúmenes posteriores."
+          },
+          {
+            "question": "¿Qué distingue a la novela de otras distopías de castas?",
+            "answer": "Su principal diferencia está en el tono épico y militar, en la centralidad de la infiltración y en la manera en que convierte la lucha de clases en una guerra de civilización dentro de Marte y más allá."
+          },
+          {
+            "question": "¿El libro idealiza la violencia revolucionaria?",
+            "answer": "No del todo. Aunque la narración es intensa y combativa, también subraya que cada acto de ascenso, engaño o combate deja una huella ética sobre Darrow y complica la idea de justicia."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Pierce Brown: Red Rising Saga",
+            "url": "https://www.piercebrown.com/redrisingsaga"
+          },
+          {
+            "label": "Wikipedia: Red Rising",
+            "url": "https://en.wikipedia.org/wiki/Red_Rising"
+          },
+          {
+            "label": "Open Library",
+            "url": "https://openlibrary.org/works/OL17076473W/Red_Rising"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "anibal-el-orgullo-de-cartago-de-david-anthony-durham",
+      "title": "Anibal El Orgullo De Cartago",
+      "authorName": "David Anthony Durham",
+      "authorSlug": "david-anthony-durham",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Aníbal: el orgullo de Cartago",
+        "authorName": "David Anthony Durham",
+        "authorSlug": "david-anthony-durham",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela-historica",
+          "aventura",
+          "narrativa"
+        ],
+        "year": 2005,
+        "pages": 592,
+        "summary": "Aníbal: el orgullo de Cartago es una recreación novelística de la Segunda Guerra Púnica centrada en la figura de Hannibal Barca. David Anthony Durham parte de un personaje sobradamente conocido por la historia militar y lo devuelve a la incertidumbre humana: estratega brillante, heredero de una tradición familiar de guerra, político obligado a negociar alianzas frágiles y hombre marcado por pérdidas íntimas. La novela sigue su campaña desde la península ibérica, el cruce de montañas y ríos con un ejército enorme y elefantes, hasta los grandes choques con Roma. Pero no se limita a enumerar gestas bélicas. Durham alterna la perspectiva del general con la de soldados, familiares, aliados y enemigos para mostrar el desgaste del mando, la dificultad de sostener una visión imperial distinta de la romana y la distancia entre la leyenda del conquistador y la vida concreta de quienes marchan con él.",
+        "aboutThisBook": "Publicada en 2005, Pride of Carthage confirmó la amplitud histórica de David Anthony Durham antes de que se consolidara también como novelista de fantasía. El libro se apoya en un registro épico, pero no abandona el detalle cotidiano ni la complejidad política. Su interés principal está en tomar un episodio muy narrado de la Antigüedad y evitar la versión escolar simplificada: Cartago no aparece solo como antagonista de Roma, y Aníbal no queda reducido a genio táctico. Durham lo presenta como figura carismática y vulnerable, capaz de inspirar fidelidades extraordinarias mientras soporta dudas, cálculo, pérdidas y límites materiales.",
+        "forWhom": "Para lectores adultos interesados en novela histórica exigente, campañas militares antiguas, relecturas de la historia mediterránea y personajes célebres tratados con espesor humano y político.",
+        "whyItMatters": "Importa porque ofrece una de las recreaciones novelísticas más ambiciosas de Aníbal y desplaza el foco habitual centrado en Roma. Al hacerlo, recuerda que la historia clásica también puede releerse desde los vencidos, desde las alianzas periféricas y desde la fragilidad real de toda gloria militar.",
+        "editorialIntro": "Las novelas históricas sobre grandes generales suelen caer en dos trampas: convertir al protagonista en estatua o diluir la historia en puro espectáculo. David Anthony Durham evita ambas. Su Aníbal conserva dimensión legendaria, pero camina, duda, calcula, pierde hombres y necesita persuadir a pueblos enteros para que su guerra siga viva. Ese equilibrio entre amplitud épica y respiración humana vuelve a este libro especialmente valioso para lectores que buscan historia narrada con pulso literario.",
+        "readingLevel": "Lectura media-alta para público adulto. La extensión, la variedad de personajes y el trasfondo histórico exigen atención, aunque la prosa mantiene buen impulso narrativo y escenas de batalla muy claras.",
+        "whyReadToday": "Porque ayuda a pensar imperios, propaganda histórica y liderazgo carismático sin repetir una visión romana automática del pasado mediterráneo ni de sus memorias posteriores.",
+        "studyNotes": [
+          "La novela reelabora la Segunda Guerra Púnica desde una óptica que descentra a Roma y devuelve agencia narrativa a Cartago y sus aliados.",
+          "Durham combina gran estrategia militar con escenas íntimas para impedir que Aníbal quede reducido a mito sin interioridad.",
+          "Es útil comparar el libro con fuentes históricas sobre Sagunto, el cruce de los Alpes y Cannae para ver cómo funciona la ficción histórica cuando rellena silencios documentales.",
+          "La obra insiste en el costo humano de la campaña: hambre, clima, lealtades quebradas y desgaste moral del ejército acompañan cada victoria."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: España y el inicio de la campaña",
+            "summary": "El relato arranca en el espacio hispano donde Aníbal prepara y justifica su avance contra la influencia romana. Desde allí se define su ambición militar y política, así como la necesidad de convertir un proyecto familiar y estatal en una guerra capaz de movilizar ejércitos diversos."
+          },
+          {
+            "title": "Segunda parte: El cruce imposible",
+            "summary": "La marcha por los Pirineos, el Ródano y los Alpes concentra el núcleo épico del libro. Durham muestra tanto el brillo legendario de la empresa como sus pérdidas brutales, subrayando que cada paso hacia Italia erosiona al ejército y multiplica la incertidumbre."
+          },
+          {
+            "title": "Tercera parte: Victorias, alianzas y desgaste",
+            "summary": "Ya en territorio italiano, la novela desarrolla las campañas decisivas y la fama militar de Aníbal. Sin embargo, el triunfo no se presenta como solución automática: sostener alianzas, administrar recursos y traducir el genio táctico en resultado político estable resulta cada vez más difícil."
+          },
+          {
+            "title": "Cuarta parte: El peso de la leyenda",
+            "summary": "En el tramo final, la figura heroica del general convive con la conciencia de los límites históricos de su proyecto. La novela deja ver cómo una vida destinada a cambiar el mundo también puede quedar atrapada entre memoria gloriosa, pérdidas personales y derrota estratégica."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Humanizar al estratega",
+            "content": "Una de las mayores virtudes del libro es apartarse de la simple admiración militar. Durham no niega la grandeza táctica de Aníbal, pero la acompaña con miedo, deseo de continuidad familiar, tensiones diplomáticas y percepción del cansancio colectivo."
+          },
+          {
+            "heading": "Novela histórica contra relato escolar",
+            "content": "La obra trabaja sobre hechos conocidos, pero utiliza la ficción para abrir espacios allí donde la historia conserva huecos. Ese procedimiento permite imaginar voces cartaginesas, iberas o numidias y enriquecer una época que a menudo se resume desde la documentación romana."
+          },
+          {
+            "heading": "Imperio, lealtad y logística",
+            "content": "El libro recuerda que ninguna campaña se sostiene solo con heroísmo. Marchas interminables, alianzas inestables, geografía hostil y administración del miedo son factores tan decisivos como las batallas célebres, y Durham los incorpora con notable constancia narrativa."
+          },
+          {
+            "heading": "La tragedia del vencedor incompleto",
+            "content": "Aníbal aparece como una figura trágica porque sus triunfos no garantizan la traducción política de su genio. La novela explora esa distancia entre victoria táctica y resultado histórico, una tensión que vuelve más amarga y más compleja su grandeza."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario conocer la historia de Roma para leer esta novela?",
+            "answer": "No, aunque ayuda. Durham ofrece suficiente contexto para seguir la campaña de Aníbal, y precisamente una de sus virtudes es volver comprensible y viva una etapa histórica compleja sin depender de conocimientos previos extensos."
+          },
+          {
+            "question": "¿La novela idealiza a Aníbal?",
+            "answer": "Lo admira, pero no lo convierte en figura plana. Lo muestra brillante y carismático, aunque también sometido a pérdidas, límites materiales y decisiones que afectan a miles de personas."
+          },
+          {
+            "question": "¿Predomina la batalla o la construcción de personajes?",
+            "answer": "Ambas dimensiones pesan mucho. Hay campañas y escenas militares importantes, pero la novela también dedica espacio a vínculos familiares, rivalidades políticas y puntos de vista de personajes cercanos al conflicto."
+          },
+          {
+            "question": "¿Por qué se considera una novela histórica relevante?",
+            "answer": "Porque reimagina un episodio decisivo del mundo antiguo con ambición literaria, atención al detalle humano y una perspectiva menos romanocéntrica que la habitual en relatos populares sobre la época."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "David Anthony Durham: Pride of Carthage",
+            "url": "https://www.davidanthonydurham.com/pride-of-carthage"
+          },
+          {
+            "label": "Wikipedia: Pride of Carthage",
+            "url": "https://en.wikipedia.org/wiki/Pride_of_Carthage"
+          },
+          {
+            "label": "Open Library",
+            "url": "https://openlibrary.org/works/OL5727923W/Pride_of_Carthage"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "arsenio-lupin-caballero-ladron-de-maurice-leblanc",
+      "title": "Arsenio Lupin Caballero Ladron",
+      "authorName": "Maurice Leblanc",
+      "authorSlug": "maurice-leblanc",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Arsène Lupin, caballero ladrón",
+        "authorName": "Maurice Leblanc",
+        "authorSlug": "maurice-leblanc",
+        "type": "ficcion",
+        "audience": "todos",
+        "genres": [
+          "clasicos",
+          "aventura",
+          "thriller"
+        ],
+        "year": 1907,
+        "pages": null,
+        "summary": "Arsène Lupin, caballero ladrón es la primera colección de relatos dedicada al célebre personaje de Maurice Leblanc y reúne las aventuras iniciales con las que el autor definió su estilo: inteligencia criminal, elegancia social, humor ligero y gusto por el desafío público. A diferencia del delincuente sombrío o puramente violento, Lupin actúa como ladrón brillante, maestro del disfraz y estratega que disfruta tanto del robo como del espectáculo de humillar a la policía y a la alta sociedad. Los cuentos lo muestran en arrestos inesperados, estancias en prisión, fugas, engaños sobre identidades, joyas desaparecidas y duelos de ingenio con investigadores. El libro importa menos por una sola trama continua que por la construcción de una figura inolvidable: un criminal encantador que convierte el delito en juego de inteligencia, teatro y prestigio personal.",
+        "aboutThisBook": "Publicado en 1907, este volumen recoge los primeros nueve relatos de Arsène Lupin, aparecidos antes en la revista francesa Je sais tout. Allí nace el modelo narrativo que haría famoso al personaje: historias breves, muy móviles, donde el misterio convive con la comedia, el disfraz y la inversión de jerarquías sociales. Lupin no es simplemente un ladrón, sino una fantasía de libertad elegante frente a instituciones solemnes que siempre llegan tarde. El libro ocupa un lugar importante dentro de la literatura popular francesa de comienzos del siglo XX y explica por qué el personaje siguió generando secuelas, adaptaciones y relecturas durante décadas.",
+        "forWhom": "Para lectores que disfrutan los clásicos de aventura y misterio, los relatos breves con ingenio narrativo, los personajes carismáticos más importantes que la moral policial estricta y las obras fundacionales de la literatura popular francesa.",
+        "whyItMatters": "Importa porque fijó uno de los grandes arquetipos del ladrón caballeresco del siglo XX. Lupin abrió un camino distinto al detective tradicional: el centro ya no está solo en resolver el crimen, sino en admirar la astucia de quien lo comete y en seguir el placer de la máscara, la fuga y el engaño.",
+        "editorialIntro": "Antes de convertirse en figura de series, películas y continuaciones, Arsène Lupin fue una invención literaria de enorme precisión tonal. Maurice Leblanc entendió que el crimen podía narrarse con ligereza, ironía y encanto sin perder tensión. Este primer volumen conserva intacta esa frescura: cada historia parece una demostración de inteligencia escénica, y el personaje entra en la tradición no como villano absoluto, sino como artista del robo y del desplazamiento de identidades.",
+        "readingLevel": "Lectura accesible para público amplio. Al ser una colección de relatos breves, puede leerse por episodios, aunque conviene prestar atención al tono irónico, a las trampas narrativas y al contexto de la literatura popular francesa de inicios del siglo XX.",
+        "whyReadToday": "Porque sigue siendo un modelo perfecto de entretenimiento elegante y porque ayuda a entender el origen de muchos antihéroes criminales admirados por su ingenio más que por su moral.",
+        "studyNotes": [
+          "El libro presenta a Lupin como ladrón, actor social y estratega narrativo: casi siempre controla no solo el golpe, sino también la manera en que será contado o recordado.",
+          "Su interés histórico reside en cómo desplaza el foco del detective al criminal carismático, anticipando la fascinación moderna por el antihéroe refinado.",
+          "Los relatos combinan misterio y humor; conviene observar cómo la ironía rebaja la solemnidad policial y vuelve simpática la transgresión.",
+          "La presencia inicial de Sherlock Holmes en una de las historias muestra el diálogo competitivo de Leblanc con la gran tradición detectivesca inglesa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primeros golpes: arresto, prisión y fuga",
+            "summary": "Los relatos iniciales fijan la leyenda de Lupin mediante situaciones que deberían neutralizarlo —ser descubierto, encarcelado o vigilado— pero que terminan confirmando su superioridad teatral e intelectual sobre sus perseguidores."
+          },
+          {
+            "title": "Joyas, engaños y prestigio social",
+            "summary": "En la parte central aparecen robos célebres, collares, cajas fuertes y viajes atravesados por identidades falsas. Leblanc muestra que Lupin triunfa porque entiende los códigos de la alta sociedad mejor que quienes pretenden defenderla."
+          },
+          {
+            "title": "El ladrón frente al detective",
+            "summary": "Hacia el cierre, el libro subraya el placer del duelo de ingenios y la dimensión metanarrativa del personaje. Más que escapar por azar, Lupin parece disfrutar el desafío de demostrar que siempre va un paso por delante de la investigación oficial."
+          },
+          {
+            "title": "Nacimiento de un mito serial",
+            "summary": "Al terminar el volumen queda claro que no se ha agotado una historia, sino inaugurado un universo. Cada relato cierra su intriga particular y, al mismo tiempo, consolida una figura literaria lista para regresar una y otra vez."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El ladrón como héroe de simpatía",
+            "content": "Leblanc invierte una expectativa básica del policial: el lector no se alinea primero con la ley, sino con quien la ridiculiza. Lupin resulta atractivo porque su inteligencia, estilo y sentido del espectáculo pesan más que la condena moral del robo."
+          },
+          {
+            "heading": "Ritmo breve y eficacia serial",
+            "content": "La forma de colección favorece entradas rápidas, golpes de efecto y finales memorables. Cada episodio puede disfrutarse por separado, pero el conjunto acumula rasgos que vuelven a Lupin reconocible y adictivo como personaje recurrente."
+          },
+          {
+            "heading": "Clase social, máscara y teatralidad",
+            "content": "Buena parte del encanto del libro nace de la facilidad con que Lupin circula entre aristócratas, viajeros, policías y víctimas. El disfraz no es solo recurso argumental: expresa un mundo en el que la identidad social también es representación."
+          },
+          {
+            "heading": "Puente entre folletín y novela policial moderna",
+            "content": "Estas historias conservan el sabor del folletín y de la literatura popular por entregas, pero ya anuncian obsesiones plenamente modernas: el criminal fascinante, la inteligencia performativa y el detective convertido en rival escénico del delincuente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela o una colección de relatos?",
+            "answer": "Es una colección de relatos. El volumen reúne las primeras aventuras de Lupin y construye al personaje por acumulación de episodios más que mediante una sola trama larga."
+          },
+          {
+            "question": "¿Por qué Arsène Lupin sigue siendo tan popular?",
+            "answer": "Porque combina misterio, humor, elegancia y desafío a la autoridad. Es un criminal carismático que gana por inteligencia y estilo, no solo por fuerza o violencia."
+          },
+          {
+            "question": "¿Se parece a Sherlock Holmes?",
+            "answer": "Más que parecerse, dialoga con ese universo desde el reverso: Holmes representa la lógica investigadora; Lupin, el ingenio del delincuente que convierte cada caso en espectáculo. En una de las historias incluso aparece un detective inspirado directamente en Holmes."
+          },
+          {
+            "question": "¿Sigue siendo fácil de leer hoy?",
+            "answer": "Sí. Su estructura episódica y su tono juguetón lo vuelven muy accesible, aunque algunos detalles de estilo y contexto responden a la sensibilidad literaria de principios del siglo XX."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Project Gutenberg: The Extraordinary Adventures of Arsène Lupin, Gentleman-Burglar",
+            "url": "https://www.gutenberg.org/ebooks/6133"
+          },
+          {
+            "label": "Wikipedia: Arsène Lupin, Gentleman Burglar",
+            "url": "https://en.wikipedia.org/wiki/Ars%C3%A8ne_Lupin,_Gentleman_Burglar"
+          },
+          {
+            "label": "Open Library",
+            "url": "https://openlibrary.org/works/OL31786011W/Arsene_Lupin_Gentleman_Burglar"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "calzados-lola-de-suso-de-toro",
+      "title": "Calzados Lola De Suso",
+      "authorName": "Toro",
+      "authorSlug": "toro",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Calzados Lola",
+        "authorName": "Suso de Toro",
+        "authorSlug": "suso-de-toro",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "narrativa",
+          "thriller"
+        ],
+        "year": 1997,
+        "pages": 408,
+        "summary": "Calzados Lola es una novela de Suso de Toro que mezcla intriga, relato de formación y exploración de la memoria familiar. La historia sigue a Manuel, un hombre que ha querido escapar de su origen y de los silencios de su casa, pero que termina regresando a Finisterre cuando comprende que su vacío personal no puede resolverse solo con distancia. La quiebra de una empresa, la investigación de hechos oscuros del pasado y la reconstrucción de una genealogía rota avanzan al mismo tiempo. El libro trabaja con la tensión entre identidad y ocultamiento: quiénes somos, qué heredamos y qué ocurre cuando el relato familiar sobre el que crecimos empieza a desmoronarse. La intriga nunca es solo policial; funciona sobre todo como un camino hacia un conocimiento más doloroso y más profundo de uno mismo.",
+        "aboutThisBook": "Publicada originalmente en gallego y reconocida con el Premio Blanco Amor de Novela de 1997, esta obra ocupa un lugar importante dentro de la narrativa de Suso de Toro. Distintas referencias editoriales la presentan como una historia de iniciación atravesada por el misterio y por la caída de varios órdenes a la vez: el económico, el familiar y el íntimo. Su interés no depende únicamente de saber qué ocurrió, sino de observar cómo una investigación exterior obliga al protagonista a revisar los relatos con los que había intentado entender su vida. Por eso la novela puede leerse tanto como thriller de atmósfera como como indagación sobre linaje, culpa y construcción de la identidad.",
+        "forWhom": "Para lectores adultos que disfrutan la narrativa contemporánea con misterio, memoria familiar, secretos heredados y una dimensión psicológica más importante que la simple resolución de la trama.",
+        "whyItMatters": "Importa porque convierte una historia de investigación en una reflexión sobre identidad, pertenencia y pasado oculto. Además, muestra a un Suso de Toro capaz de unir pulso narrativo, ambición simbólica y una mirada muy precisa sobre los vínculos familiares.",
+        "editorialIntro": "Hay novelas de intriga que preguntan quién cometió un hecho y otras, más inquietantes, que preguntan quién es en realidad la persona que investiga. Calzados Lola pertenece a ese segundo grupo. Suso de Toro usa el derrumbe de una empresa y la vuelta del protagonista a su origen para construir un relato donde cada hallazgo externo abre una grieta interior. El resultado es una obra de misterio, sí, pero también una novela sobre lo que heredamos sin comprenderlo del todo.",
+        "readingLevel": "Lectura media-alta para público adulto. El argumento es accesible, pero la novela gana mucho cuando se atiende a sus capas simbólicas, a la memoria familiar y a la manera en que el suspense se mezcla con una búsqueda de identidad.",
+        "whyReadToday": "Porque sigue siendo una novela muy eficaz para pensar cómo el pasado familiar, la ruina económica y los relatos heredados moldean la idea que cada uno tiene de sí mismo.",
+        "studyNotes": [
+          "La investigación externa y la búsqueda interior avanzan juntas: descubrir un secreto equivale aquí a descubrir una identidad incompleta.",
+          "Las referencias editoriales describen la obra como relato de iniciación y como novela de misterio, una doble naturaleza útil para analizar su estructura.",
+          "El regreso a Finisterre funciona como descenso al origen y también como confrontación con una memoria familiar que había quedado reprimida.",
+          "Puede estudiarse cómo el colapso de la empresa sirve de metáfora para el derrumbe de una versión estable del pasado."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: la huida y el vacío",
+            "summary": "El comienzo presenta a Manuel como alguien que ha intentado alejarse del tedio, del pueblo y de la familia. Esa aparente liberación, sin embargo, no resuelve una falta interior que el personaje todavía no sabe nombrar. La novela instala así la pregunta por aquello que se ha perdido incluso antes de iniciar la investigación formal."
+          },
+          {
+            "title": "Segunda parte: el regreso y la pesquisa",
+            "summary": "Cuando Manuel vuelve a Finisterre, la historia se convierte en una exploración del pasado familiar y de los restos de una empresa en ruina. La intriga avanza entre silencios, huecos de memoria y relaciones dañadas, de modo que cada dato nuevo amplía el misterio en lugar de cerrarlo rápidamente."
+          },
+          {
+            "title": "Tercera parte: identidad, herencia y revelación",
+            "summary": "En el tramo final, lo descubierto obliga a reinterpretar tanto la historia familiar como la imagen que Manuel tenía de sí mismo. El cierre no importa solo por la revelación de los hechos, sino por el coste emocional de reconocer de dónde viene el protagonista y qué significa asumir esa herencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La intriga como forma de conocimiento",
+            "content": "La novela usa mecanismos de thriller, pero su objetivo profundo no es el efecto sorpresa aislado. Cada pista cumple la función de acercar al protagonista a una verdad más íntima, de manera que investigar equivale a desmontar una identidad construida sobre silencios y omisiones."
+          },
+          {
+            "heading": "Memoria familiar y derrumbe de los relatos heredados",
+            "content": "Uno de los ejes más fértiles del libro es la idea de que la familia transmite no solo afectos y bienes, sino también versiones interesadas del pasado. Cuando esas versiones se rompen, el personaje debe rehacer el sentido de su propia biografía."
+          },
+          {
+            "heading": "Un relato de iniciación en clave oscura",
+            "content": "Las referencias editoriales describen Calzados Lola como una historia mítica de iniciación. Esa definición resulta útil porque el protagonista no madura por acumulación de experiencias felices, sino atravesando ruina, secreto, culpa y desengaño hasta ganar una forma más dura de conocimiento."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Calzados Lola es una novela policiaca pura?",
+            "answer": "No exactamente. Tiene suspense e investigación, pero el centro del libro está en la identidad del protagonista, los secretos familiares y el peso del pasado, más que en la lógica clásica de un caso policial cerrado."
+          },
+          {
+            "question": "¿Qué temas dominan la novela?",
+            "answer": "Destacan la memoria familiar, la herencia emocional, la búsqueda de identidad, la ruina de un mundo conocido y la relación entre verdad íntima y verdad narrativa."
+          },
+          {
+            "question": "¿Por qué se la considera una historia de iniciación?",
+            "answer": "Porque el recorrido del protagonista lo obliga a descubrir quién es realmente a través de un conocimiento doloroso sobre su origen. Ese aprendizaje transforma la novela de misterio en una experiencia de maduración."
+          },
+          {
+            "question": "¿Con qué lector conecta mejor?",
+            "answer": "Suele conectar con lectores que prefieren novelas de intriga con atmósfera, dimensión psicológica y peso simbólico, más que thrillers centrados únicamente en la acción."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Edicións Xerais: Calzados Lola",
+            "url": "https://www.xerais.gal/libro.php?id=990221"
+          },
+          {
+            "label": "Asterisc Agents: Calzados Lola",
+            "url": "https://www.asteriscagents.com/es/llibres/276/calzados-lola"
+          },
+          {
+            "label": "Casa del Libro: Calzados Lola",
+            "url": "https://www.casadellibro.com/libro-calzados-lola/9788498677485/1684309"
+          },
+          {
+            "label": "Dialnet: Calzados Lola",
+            "url": "https://dialnet.unirioja.es/servlet/libro?codigo=296931"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "celia-en-la-revolucion-de-elena-fortun",
+      "title": "Celia En La Revolucion",
+      "authorName": "Elena Fortun",
+      "authorSlug": "elena-fortun",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Celia en la revolución",
+        "authorName": "Elena Fortún",
+        "authorSlug": "elena-fortun",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela-historica",
+          "juvenil",
+          "narrativa"
+        ],
+        "year": 1987,
+        "pages": null,
+        "summary": "Celia en la revolución muestra a la célebre protagonista de Elena Fortún en un momento radicalmente distinto al de sus primeras aventuras. Aquí ya no domina la travesura infantil, sino la experiencia devastadora de la Guerra Civil española vivida desde la retaguardia madrileña. A través de Celia, el libro registra hambre, colas, bombardeos, desplazamientos, miedo, pérdida de hogar y fractura familiar, pero lo hace sin grandilocuencia épica. La guerra aparece como descomposición de la vida cotidiana y como destrucción de una inocencia anterior. Ese cambio de tono convierte la novela en una obra singular dentro de la serie: conserva la cercanía de la voz juvenil, pero la enfrenta a una realidad histórica brutal. Más que narrar grandes gestas, el libro documenta cómo una muchacha observa el derrumbe moral y material del mundo que conocía y aprende, a la fuerza, a mirar de otra manera.",
+        "aboutThisBook": "Elena Fortún escribió esta novela en los años cuarenta, pero el manuscrito permaneció oculto durante décadas y solo se publicó por primera vez en 1987, muchos años después de la muerte de la autora. Esa historia editorial explica parte de su importancia: no es una continuación ligera de la saga, sino una pieza decisiva para comprender la madurez de Celia y el alcance literario de Fortún. La propia información editorial de Renacimiento insiste en que se trata de la gran novela del miedo y del hambre en la retaguardia, mientras que instituciones como el Instituto Cervantes la presentan como uno de los testimonios más lúcidos sobre la Guerra Civil vistos desde la vida cotidiana. Su valor literario e histórico nace justamente de esa doble condición.",
+        "forWhom": "Para lectores juveniles avanzados, estudiantes de bachillerato, clubes de lectura y adultos interesados en novelas de formación, memoria histórica y representaciones no heroicas de la Guerra Civil española.",
+        "whyItMatters": "Importa porque convierte la guerra en experiencia humana concreta: hambre, miedo, desplazamiento, pérdida y aprendizaje moral. También porque amplía la imagen habitual de Elena Fortún y demuestra que la serie de Celia podía dialogar con la gran historia sin perder intimidad narrativa.",
+        "editorialIntro": "Quien llegue a este libro esperando la ligereza de las primeras historias de Celia encontrará otra cosa: una novela de crecimiento atravesada por la catástrofe histórica. Esa sorpresa es precisamente una de sus mayores virtudes. Fortún no escribe desde la retórica heroica, sino desde la observación de la vida quebrada en la retaguardia. Por eso Celia en la revolución sigue leyendo con tanta fuerza: convierte la Historia con mayúscula en experiencia cotidiana, vulnerable y profundamente humana.",
+        "readingLevel": "Adecuado para lectores juveniles y adultos. El estilo es claro y narrativo, pero la densidad emocional, el trasfondo histórico y la evolución del personaje piden una lectura atenta y contextualizada.",
+        "whyReadToday": "Porque ofrece una mirada íntima y nada propagandística sobre la guerra, muy útil para leer historia a través de la vida diaria y para entender cómo la violencia transforma una conciencia joven.",
+        "studyNotes": [
+          "La novela fue escrita antes de su publicación y permaneció inédita durante décadas, dato clave para situarla en la trayectoria de Elena Fortún.",
+          "Su gran originalidad está en narrar la Guerra Civil desde la retaguardia y desde una protagonista joven, no desde la épica militar.",
+          "Celia deja de ser únicamente un personaje infantil y se convierte en una observadora de la pérdida, el hambre y la descomposición del mundo doméstico.",
+          "Puede leerse a la vez como novela histórica, testimonio literario de época y relato de formación marcado por una brusca pérdida de inocencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: del desconcierto al estallido",
+            "summary": "El inicio sitúa a Celia ante una realidad que deja de ser estable. La incertidumbre política y social empieza a invadir su vida y el tono del libro se aparta de la aventura infantil para entrar en un terreno de perplejidad, miedo y transformación."
+          },
+          {
+            "title": "Segunda parte: Madrid en guerra",
+            "summary": "La zona central de la novela muestra la retaguardia madrileña: colas, refugios, bombardeos, desplazamientos y convivencia precaria. Fortún convierte los gestos cotidianos de supervivencia en el verdadero argumento del libro y retrata cómo la guerra penetra en todos los espacios domésticos."
+          },
+          {
+            "title": "Tercera parte: pérdida de inocencia y mirada nueva",
+            "summary": "Hacia el final, Celia comprende que el conflicto no solo ha destruido casas y rutinas, sino también formas de entender a los demás y de entenderse a sí misma. La novela culmina como un aprendizaje doloroso: la protagonista ya no puede volver a mirar el mundo con la misma ingenuidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La Guerra Civil sin épica",
+            "content": "Una de las mayores virtudes del libro es que evita la grandilocuencia. La guerra se muestra como hambre, espera, miedo, rumores, huidas y deterioro de la vida cotidiana. Esa decisión estética le da una fuerza documental y emocional muy singular."
+          },
+          {
+            "heading": "La transformación de Celia",
+            "content": "La protagonista funciona como eje de continuidad con la saga anterior, pero aquí su mirada se vuelve más dura y más reflexiva. El paso de la niñez curiosa a una conciencia herida por la historia convierte la novela en un relato de formación excepcional."
+          },
+          {
+            "heading": "Historia editorial y recuperación del manuscrito",
+            "content": "El hecho de que el texto permaneciera oculto y se publicara décadas después añade una capa importante de lectura. No solo recupera una pieza central de Elena Fortún, sino que muestra cómo ciertas memorias literarias de la guerra tardaron mucho en circular públicamente."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario haber leído otros libros de Celia?",
+            "answer": "No es imprescindible, aunque ayuda a percibir con más intensidad el cambio de tono y la maduración del personaje. Puede leerse de manera independiente como novela histórica y de formación."
+          },
+          {
+            "question": "¿La novela está dirigida solo a jóvenes?",
+            "answer": "No. Aunque la protagonista y la claridad del estilo la acercan a lectores juveniles, su valor histórico, emocional y literario la hacen muy relevante también para lectores adultos."
+          },
+          {
+            "question": "¿Qué imagen de la guerra ofrece el libro?",
+            "answer": "Ofrece una imagen cotidiana y civil, centrada en la retaguardia madrileña: hambre, miedo, bombardeos, desplazamientos y fractura de la vida doméstica, más que batallas o heroísmo militar."
+          },
+          {
+            "question": "¿Por qué es un libro tan citado dentro de la obra de Elena Fortún?",
+            "answer": "Porque muestra el lado más serio y complejo de la autora, amplía decisivamente el universo de Celia y constituye uno de los testimonios narrativos más valiosos sobre la experiencia civil de la Guerra Civil."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "Wikipedia: Celia en la revolución",
+            "url": "https://es.wikipedia.org/wiki/Celia_en_la_revoluci%C3%B3n"
+          },
+          {
+            "label": "Editorial Renacimiento: Celia en la revolución",
+            "url": "https://www.editorialrenacimiento.com/biblioteca-elena-fortun/3246-celia-en-la-revolucion.html"
+          },
+          {
+            "label": "Instituto Cervantes: Celia en la revolución",
+            "url": "https://cultura.cervantes.es/munich/es/celia-en-la-revoluci%C3%B3n/187217"
+          },
+          {
+            "label": "Comunidad de Madrid: cartografía de Celia en la revolución",
+            "url": "https://www.madrid.org/celia-revolucion/"
+          },
+          {
+            "label": "Biblioteca Nacional de España: Celia en la revolución",
+            "url": "https://datos.bne.es/obra/XX5934951.html"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "como-detectar-mentiras-una-guia-para-utilizar-en-el-trabajo-la-politica-y-la-familia-de-paul-ekman",
+      "title": "Como Detectar Mentiras Una Guia Para Utilizar En El Trabajo La Politica Y La Familia",
+      "authorName": "Paul Ekman",
+      "authorSlug": "paul-ekman",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 2,
+      "impressions": 4,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Cómo detectar mentiras: una guía para utilizar en el trabajo, la política y la familia",
+        "authorName": "Paul Ekman",
+        "authorSlug": "paul-ekman",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo",
+          "desarrollo-personal"
+        ],
+        "year": 2021,
+        "pages": null,
+        "summary": "Este libro de Paul Ekman es un ensayo de psicología aplicada sobre el engaño y las señales que pueden acompañarlo. El autor no promete una fórmula mágica para descubrir a un mentiroso, sino un marco para observar mejor el comportamiento verbal y no verbal, valorar el contexto y reconocer que detectar una mentira exige prudencia. A partir de su trabajo sobre expresión facial, emociones y microindicios, Ekman examina por qué la gente miente, qué errores cometen quienes intentan ocultar información y qué pistas pueden aparecer en el rostro, la voz, el cuerpo o la incoherencia del relato. El enfoque combina ejemplos, discusión de casos y advertencias metodológicas. El resultado es un libro útil no porque simplifique la mentira en un truco visual, sino porque enseña a desconfiar de las certezas rápidas y a leer la conducta humana con más atención, matiz y sentido crítico.",
+        "aboutThisBook": "El título español traduce Telling Lies, una de las obras más conocidas de Paul Ekman, psicólogo ampliamente citado por sus investigaciones sobre emoción, expresión facial y conducta no verbal. Las ediciones en español han circulado durante años en Paidós y otras sellos del grupo Planeta, y la edición reciente se presenta como recuperación de una obra central del autor. La descripción editorial insiste en que Ekman enseña a comprender mejor lo que las personas quieren comunicar y a distinguir indicadores que pueden ayudar a separar realidad y ficción. Conviene subrayar, sin embargo, que el propio enfoque de Ekman no reduce la detección del engaño a un gesto único: insiste en la observación contextual, en las limitaciones del método y en la dificultad real de interpretar una conducta de manera responsable.",
+        "forWhom": "Para lectores adultos interesados en psicología, comunicación no verbal, análisis del engaño, negociación, entrevistas, liderazgo y pensamiento crítico aplicado a situaciones cotidianas o profesionales.",
+        "whyItMatters": "Sigue importando porque popularizó muchas discusiones sobre microexpresiones, engaño y lectura del comportamiento, pero también porque recuerda que interpretar a los demás exige cautela y no simples recetas de sobremesa.",
+        "editorialIntro": "Pocos libros de psicología aplicada han influido tanto en la imaginación popular sobre las mentiras como este. Su fama ha generado una lectura simplificada, casi detectivesca, pero el interés real del texto está en otra parte. Ekman no ofrece un detector infalible de embustes; propone observar con más rigor, entender mejor las emociones y distinguir entre indicio, contexto e interpretación. Leído así, el libro sigue siendo provocador y útil.",
+        "readingLevel": "Lectura accesible para adultos sin formación especializada. El lenguaje es divulgativo y los ejemplos ayudan, aunque el lector saca más provecho si mantiene una actitud crítica y evita convertir cada gesto ajeno en prueba concluyente.",
+        "whyReadToday": "Porque en una época saturada de diagnósticos rápidos sobre lenguaje corporal, este libro permite volver a una discusión más seria sobre señales, contexto, error interpretativo y límites de la observación.",
+        "studyNotes": [
+          "Ekman no plantea que exista una señal infalible de mentira; insiste en patrones, probabilidades y contexto.",
+          "El libro es útil para diferenciar entre indicios emocionales y pruebas concluyentes: ver una señal no equivale a demostrar un engaño.",
+          "Puede estudiarse junto con debates contemporáneos sobre pseudociencia del lenguaje corporal para separar lo sustentado por investigación de las simplificaciones comerciales.",
+          "La popularidad del texto ayudó a difundir el interés por las microexpresiones, pero también favoreció lecturas demasiado seguras de herramientas que requieren prudencia."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte: qué es mentir y por qué mentimos",
+            "summary": "El arranque del libro delimita el problema del engaño y examina sus motivaciones. Ekman distingue situaciones, intenciones y costes de la mentira, de modo que el lector entiende desde el principio que no todas las falsedades responden al mismo patrón ni producen las mismas huellas emocionales."
+          },
+          {
+            "title": "Segunda parte: señales verbales y no verbales",
+            "summary": "En la parte central aparecen los aspectos más conocidos del libro: rostro, voz, cuerpo, tensión, incoherencias y microindicios. Ekman explica qué clases de cambios pueden levantar sospechas, pero subraya que ningún signo aislado basta por sí solo para emitir un juicio fiable."
+          },
+          {
+            "title": "Tercera parte: interpretación prudente y aplicación práctica",
+            "summary": "El tramo final desplaza el foco desde la fascinación por detectar mentiras hacia el uso responsable de esa información. El autor insiste en los errores frecuentes del observador y en la necesidad de leer cada conducta dentro de un contexto profesional, personal o político concreto."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La promesa y el límite de leer rostros",
+            "content": "Buena parte del atractivo del libro proviene de la idea de que el rostro delata lo que la palabra intenta ocultar. Sin embargo, el texto es más prudente de lo que suele recordarse: Ekman habla de pistas, no de garantías, y esa distinción es crucial para leerlo con rigor."
+          },
+          {
+            "heading": "Psicología aplicada frente a simplificación popular",
+            "content": "La influencia cultural del libro fue enorme y ayudó a expandir el interés por la comunicación no verbal. Al mismo tiempo, esa popularidad favoreció versiones simplificadas según las cuales bastaría con observar un gesto para saber la verdad. Precisamente por eso conviene volver al texto y recuperar sus matices."
+          },
+          {
+            "heading": "Utilidad práctica en contextos reales",
+            "content": "El libro resulta fértil cuando se aplica con cautela en entrevistas, negociación, liderazgo o análisis interpersonal. Su valor no está en convertir al lector en detector infalible, sino en entrenarlo para escuchar mejor, comparar versiones, observar inconsistencias y reconocer el papel de las emociones en el engaño."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿El libro enseña a descubrir mentiras con certeza absoluta?",
+            "answer": "No. El propio planteamiento de Ekman se basa en indicios y contexto, no en señales infalibles. El libro mejora la observación, pero no elimina la posibilidad de error."
+          },
+          {
+            "question": "¿Hace falta saber psicología para leerlo?",
+            "answer": "No necesariamente. Está escrito en tono divulgativo y puede leerlo cualquier adulto interesado en conducta humana, aunque conviene mantener una actitud crítica ante las conclusiones rápidas."
+          },
+          {
+            "question": "¿El tema central son solo las microexpresiones?",
+            "answer": "No. Aunque las expresiones faciales son importantes, el libro también aborda voz, contexto, relato, motivación para mentir y errores del observador."
+          },
+          {
+            "question": "¿Sigue siendo actual?",
+            "answer": "Sí, sobre todo como punto de partida para discutir engaño, emociones y lectura del comportamiento. Su lectura actual gana cuando se contrasta con investigaciones posteriores y con críticas a los usos simplistas del lenguaje corporal."
+          }
+        ],
+        "reviewedAt": "2026-04-19",
+        "sources": [
+          {
+            "label": "PlanetadeLibros: Cómo detectar mentiras",
+            "url": "https://www.planetadelibros.com/libro-como-detectar-mentiras/312835"
+          },
+          {
+            "label": "Casa del Libro: Cómo detectar mentiras",
+            "url": "https://www.casadellibro.com/libro-como-detectar-mentiras/9788449337093/11405210"
+          },
+          {
+            "label": "Open Library",
+            "url": "https://openlibrary.org/works/OL3858313W/Telling_Lies"
+          },
+          {
+            "label": "Internet Archive: Cómo detectar mentiras",
+            "url": "https://archive.org/details/cmodetectarmenti0000ekma"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-19T01:52:14Z"
+}

@@ -1,0 +1,1496 @@
+{
+  "batchName": "replenish-20260418T104202Z-01",
+  "createdAt": "2026-04-18T10:42:02Z",
+  "source": "clicked-current-books",
+  "instructions": {
+    "goal": "Convertir cada ficha en un resumen editorial profundo, útil para estudio y lectura real.",
+    "rules": [
+      "No tocar slug, autor ni métricas.",
+      "Escribir en español natural, sin tono robótico.",
+      "Si no hay capítulos claros, usar partes o momentos clave equivalentes.",
+      "No inventar datos bibliográficos dudosos.",
+      "Cada item debe incluir 3-5 FAQs y 3-5 fuentes útiles."
+    ],
+    "minimums": {
+      "summary_words": 90,
+      "about_words": 60,
+      "chapter_items": 3,
+      "analysis_items": 3,
+      "study_notes": 3,
+      "faqs": 3,
+      "sources": 3
+    }
+  },
+  "items": [
+    {
+      "slug": "la-guerra-de-guerrillas-de-ernesto-guevara",
+      "title": "La Guerra De Guerrillas",
+      "authorName": "Ernesto Guevara",
+      "authorSlug": "ernesto-guevara",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 1,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La guerra de guerrillas",
+        "authorName": "Ernesto Guevara",
+        "authorSlug": "ernesto-guevara",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ensayo político",
+          "teoría militar",
+          "historia revolucionaria"
+        ],
+        "year": 1960,
+        "pages": 160,
+        "summary": "La guerra de guerrillas es un manual político-militar en el que Ernesto Guevara extrae lecciones de la experiencia de la Revolución cubana y las presenta como doctrina de lucha irregular. El libro combina reflexión estratégica, organización práctica y justificación ideológica. Guevara sostiene que una fuerza insurgente pequeña, disciplinada y arraigada en el campesinado puede desgastar a un ejército regular si opera en condiciones políticas favorables. A partir de esa premisa desarrolla cuestiones como movilidad, abastecimiento, inteligencia, propaganda, papel de la población civil, sanidad, sabotaje y formación del combatiente. No es un tratado neutral de historia militar, sino un texto escrito para intervenir en debates revolucionarios de su tiempo. Su importancia reside tanto en su influencia sobre movimientos armados de América Latina, África y Asia como en la claridad con que formula la teoría del foco guerrillero y su vínculo entre violencia política, reforma social y toma del poder.",
+        "aboutThisBook": "Publicado originalmente en Cuba en 1960, poco después del triunfo revolucionario, este libro fue concebido por Guevara como una síntesis de experiencia, doctrina y orientación para militantes. Su tono es directo, pedagógico y normativo: no describe la guerrilla desde fuera, sino desde la perspectiva de quien busca convertir una experiencia concreta en modelo exportable. La obra circuló ampliamente en décadas de polarización ideológica y fue leída tanto por admiradores como por aparatos estatales interesados en comprender la insurgencia. Más allá de la adhesión o el rechazo político que provoque, constituye un documento clave del pensamiento revolucionario latinoamericano del siglo XX y una pieza central para estudiar la relación entre estrategia militar, campesinado, voluntarismo político y mito del Che.",
+        "forWhom": "Para lectores de historia latinoamericana, ciencias políticas, estudios militares, teoría revolucionaria y movimientos insurgentes que necesiten una fuente primaria breve pero muy influyente.",
+        "whyItMatters": "Importa porque fijó una de las formulaciones más célebres de la guerrilla rural moderna en América Latina. También permite entender cómo una experiencia histórica concreta fue convertida en doctrina general y en imaginario político internacional.",
+        "editorialIntro": "Pocos libros del siglo XX latinoamericano condensan de manera tan nítida la unión entre experiencia revolucionaria y prescripción estratégica. La guerra de guerrillas no solo relata aprendizajes de campaña: convierte esos aprendizajes en método, en horizonte político y en lenguaje de intervención continental. Leerlo hoy exige distancia crítica, pero también atención histórica, porque su influencia excedió con mucho el caso cubano y ayudó a moldear la gramática de numerosas insurgencias.",
+        "readingLevel": "Nivel medio-alto. La prosa es clara y relativamente breve, pero el libro presupone interés por historia política, estrategia irregular y vocabulario revolucionario. Se lee bien en cursos universitarios de historia, política o estudios latinoamericanos.",
+        "whyReadToday": "Porque sigue siendo una fuente primaria decisiva para entender la difusión del guevarismo, la teoría del foco y la relación entre lucha armada, legitimidad política y movilización social en la Guerra Fría.",
+        "studyNotes": [
+          "Conviene distinguir entre la experiencia cubana que sirve de base al libro y la pretensión de Guevara de volverla modelo generalizable.",
+          "El texto une estrategia militar y programa social: el guerrillero aparece como combatiente, organizador y reformador al mismo tiempo.",
+          "Es útil leerlo junto con críticas posteriores al foquismo para medir sus alcances reales y sus límites históricos.",
+          "La dimensión propagandística del libro es tan importante como la táctica: busca convencer, no solo instruir."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Principios generales de la guerra de guerrillas",
+            "summary": "Guevara abre definiendo la lógica básica de la guerra irregular, insistiendo en la movilidad, el conocimiento del terreno y la asimetría frente a ejércitos superiores. La guerrilla es presentada como método viable cuando existe crisis política y apoyo popular suficiente."
+          },
+          {
+            "title": "La guerrilla como fuerza social y militar",
+            "summary": "Una segunda zona del libro describe al combatiente, la disciplina del grupo, la organización interna y la relación entre mando, moral y capacidad ofensiva. El guerrillero no es solo un soldado improvisado, sino un militante sometido a una ética y a una finalidad revolucionaria."
+          },
+          {
+            "title": "Frente guerrillero, abastecimiento y propaganda",
+            "summary": "Guevara dedica una parte amplia a problemas prácticos: sanidad, inteligencia, sabotaje, industria de guerra, papel de las mujeres, redes civiles y propaganda. La guerra aparece como una trama social compleja, no como una simple sucesión de emboscadas."
+          },
+          {
+            "title": "De la resistencia local a la toma del poder",
+            "summary": "En el cierre, la lucha guerrillera es pensada como proceso de crecimiento político y militar que debe desembocar en la derrota del régimen. La cuestión central ya no es resistir, sino convertir la guerra irregular en vía para conquistar el poder estatal."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Del testimonio a la doctrina",
+            "content": "Uno de los rasgos más importantes del libro es su paso de la experiencia al modelo. Guevara toma un caso histórico específico, la guerra cubana, y lo transforma en método prescriptivo para otros contextos. Esa generalización explica tanto su enorme influencia como muchas críticas posteriores."
+          },
+          {
+            "heading": "La figura del campesinado",
+            "content": "El texto presupone que el medio rural ofrece condiciones políticas y logísticas decisivas para la insurgencia. Por eso la relación con el campesinado no es un detalle táctico, sino el fundamento social de la legitimidad guerrillera."
+          },
+          {
+            "heading": "Manual práctico e intervención ideológica",
+            "content": "La guerra de guerrillas funciona a la vez como manual de operaciones y como pieza de persuasión revolucionaria. Enseña procedimientos concretos, pero también construye una imagen moral del combatiente y una teoría de la necesidad histórica de la lucha armada."
+          },
+          {
+            "heading": "Recepción e impacto en la Guerra Fría",
+            "content": "Su circulación internacional convirtió al libro en referencia obligada para simpatizantes, adversarios y analistas. Fue leído por movimientos insurgentes y por fuerzas contrainsurgentes, lo que muestra hasta qué punto se volvió un texto estratégico del siglo XX."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro histórico o un manual?",
+            "answer": "Es ambas cosas, pero sobre todo un manual político-militar basado en una experiencia histórica concreta. No se limita a narrar la Revolución cubana: intenta extraer de ella reglas de acción para otras insurgencias."
+          },
+          {
+            "question": "¿Qué idea central asocia hoy al libro?",
+            "answer": "Principalmente la idea de que un foco guerrillero pequeño y decidido puede iniciar un proceso revolucionario si encuentra condiciones sociales y políticas favorables, especialmente en el ámbito rural."
+          },
+          {
+            "question": "¿Se puede leer sin compartir la posición de Guevara?",
+            "answer": "Sí. Como documento histórico e ideológico es fundamental incluso para lectores críticos, porque permite estudiar desde una fuente primaria la lógica interna del guevarismo y de la lucha armada en la Guerra Fría."
+          },
+          {
+            "question": "¿Por qué sigue citándose?",
+            "answer": "Porque condensó en pocas páginas una doctrina de gran impacto internacional. Sigue siendo ineludible para entender debates sobre foquismo, insurgencia rural, violencia revolucionaria y cultura política latinoamericana."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Penguin Random House / Siete Cuentos: La Guerra de Guerrillas",
+            "url": "https://www.penguinrandomhouse.com/books/691363/la-guerra-de-guerrillas-by-ernesto-che-guevara/"
+          },
+          {
+            "label": "Google Books: La guerra de guerrillas",
+            "url": "https://books.google.com/books/about/La_guerra_de_guerrillas.html?id=wxKtDwAAQBAJ"
+          },
+          {
+            "label": "Wikipedia: Guerrilla Warfare (Che Guevara book)",
+            "url": "https://en.wikipedia.org/wiki/Guerrilla_Warfare_(Che_Guevara_book)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "la-selva-prohibida-de-heinz-delam",
+      "title": "La Selva Prohibida",
+      "authorName": "Heinz Delam",
+      "authorSlug": "heinz-delam",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 2,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "La selva prohibida",
+        "authorName": "Heinz Delam",
+        "authorSlug": "heinz-delam",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "aventuras",
+          "ficcion juvenil",
+          "novela de iniciacion"
+        ],
+        "year": 2022,
+        "pages": 147,
+        "summary": "La selva prohibida es una novela de aventuras ambientada en un espacio africano atravesado por leyendas, tensiones tribales y fuerzas que los personajes interpretan como mágicas. El centro del relato es Kabindji, un muchacho marginado dentro de su propio poblado que descubre que su origen esconde un secreto capaz de alterar su lugar en la comunidad. Decidido a entender quién es realmente, emprende un viaje hacia un poblado temido por todos, acompañado por una muchacha que comparte el riesgo de internarse en un territorio prohibido. A partir de esa expedición, Heinz Delam combina peripecia, misterio y aprendizaje moral. La novela enfrenta a sus protagonistas con el odio racial, la ambición de poder y los mecanismos de exclusión, pero también con la necesidad de leer críticamente los mitos que ordenan una sociedad.",
+        "aboutThisBook": "Editada por Bruño y disponible también en edición digital en Google Libros, la obra se inscribe en la narrativa juvenil de aventuras con trasfondo ético. No se limita a encadenar peligros exóticos: organiza el viaje de Kabindji como un proceso de conocimiento de sí mismo y de revisión de los prejuicios que sostienen a la comunidad. Por eso puede leerse a la vez como relato de selva, novela de iniciación y fábula sobre identidad, pertenencia y manipulación del miedo colectivo.",
+        "forWhom": "Adecuada para lectores jóvenes desde secundaria, clubes de lectura escolar y mediadores que busquen una aventura accesible con conflicto identitario, suspense y cuestiones éticas claras.",
+        "whyItMatters": "Importa porque usa una trama aventurera para tratar exclusión, linaje, poder y superstición sin perder ritmo narrativo. Es útil además para trabajar cómo el miedo colectivo puede ser utilizado para legitimar jerarquías y violencias.",
+        "editorialIntro": "No toda novela juvenil de aventuras se contenta con llevar a sus personajes de un peligro a otro. La selva prohibida intenta algo más: transformar la expedición física en una indagación sobre origen, diferencia y autoridad. Heinz Delam sitúa a Kabindji en el borde de su comunidad, lo vuelve sospechoso incluso antes de que conozca la verdad sobre su pasado y convierte la selva en un espacio donde el enigma personal se cruza con conflictos de poder más amplios.",
+        "readingLevel": "Nivel medio: la prosa y la intriga resultan accesibles para lectores jóvenes, aunque el libro gana interés cuando se atiende al simbolismo del viaje, a la construcción del miedo y a los conflictos de identidad.",
+        "whyReadToday": "Sigue siendo una lectura pertinente porque enlaza aventura y formación personal con asuntos todavía actuales: la estigmatización del diferente, el uso político del mito y la necesidad de revisar narraciones heredadas sobre origen y pertenencia.",
+        "studyNotes": [
+          "Kabindji funciona como protagonista de iniciación: su desplazamiento por la selva es también un desplazamiento respecto de la imagen que otros han construido sobre él.",
+          "El componente mágico debe leerse no solo como adorno fantástico, sino como lenguaje cultural que expresa temores, jerarquías y luchas de poder dentro del mundo narrado.",
+          "La novela permite discutir cómo los secretos de origen condicionan la identidad individual y cómo una comunidad protege sus relatos cuando estos sostienen privilegios o exclusiones."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Planteamiento: un muchacho apartado",
+            "summary": "Kabindji vive marcado por el desprecio y por una posición incierta dentro del poblado bowassi. Desde el inicio, la novela establece que su conflicto no es solo social, sino también íntimo: presiente que su pasado contiene una verdad que nadie quiere nombrar."
+          },
+          {
+            "title": "Viaje hacia el territorio prohibido",
+            "summary": "El descubrimiento de indicios sobre su origen empuja al protagonista a internarse en una zona temida y rodeada de relatos espeluznantes. El viaje con su compañera convierte la curiosidad inicial en una prueba de valentía, lealtad y lectura crítica de las apariencias."
+          },
+          {
+            "title": "Revelación, poder y enfrentamiento",
+            "summary": "A medida que el secreto sale a la luz, las fuerzas que parecían puramente sobrenaturales muestran también intereses humanos concretos: odio racial, ambición y control. El desenlace reorganiza la identidad de Kabindji y obliga a reconsiderar las bases morales de la comunidad."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Aventura y novela de formacion",
+            "content": "La estructura responde al modelo del viaje iniciático: el héroe sale del espacio conocido, atraviesa pruebas y regresa con un conocimiento que ya no puede integrarse ingenuamente en el orden anterior. Esa lógica da al libro una función formativa clara para lectores jóvenes."
+          },
+          {
+            "heading": "El secreto del origen",
+            "content": "Buena parte de la tensión depende de la relación entre identidad personal y relato comunitario. Kabindji no solo busca datos sobre su pasado; busca un lugar legible en un sistema social que lo ha definido desde la sospecha y la exclusión."
+          },
+          {
+            "heading": "Mito, miedo y dominacion",
+            "content": "La novela sugiere que lo prohibido y lo monstruoso pueden servir para gobernar conductas. El miedo a la selva y a sus fuerzas oscuras no es solamente atmósfera: es también una tecnología simbólica de poder que protege intereses concretos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela infantil o juvenil?",
+            "answer": "Encaja mejor en el ámbito juvenil: el lenguaje es accesible, pero los conflictos de identidad, exclusión y poder piden un lector ya capaz de seguir capas morales algo más complejas."
+          },
+          {
+            "question": "¿Predomina la aventura o el componente fantastico?",
+            "answer": "Predomina la aventura con un fuerte componente de misterio y una ambientación donde la magia y lo legendario forman parte de la percepción de los personajes."
+          },
+          {
+            "question": "¿Que temas conviene observar durante la lectura?",
+            "answer": "Conviene seguir especialmente la construcción del origen de Kabindji, el rechazo comunitario, la función del miedo y la relación entre mito, autoridad y ambición."
+          },
+          {
+            "question": "¿Puede trabajarse en contextos escolares?",
+            "answer": "Sí. Ofrece un argumento dinámico y, al mismo tiempo, permite debatir identidad, prejuicio, pertenencia y uso social de las creencias."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Editorial Bruño - La selva prohibida",
+            "url": "https://www.brunolibros.es/libro/la-selva-prohibida/9788469666234/"
+          },
+          {
+            "label": "Google Libros - La selva prohibida",
+            "url": "https://books.google.com/books/about/La_selva_prohibida.html?hl=es&id=bQ-gEQAAQBAJ"
+          },
+          {
+            "label": "Google Play Books - La selva prohibida",
+            "url": "https://play.google.com/store/books/details?id=bQ-gEQAAQBAJ"
+          },
+          {
+            "label": "Google Libros - edición catalogada de La Selva Prohibida (Heinz Delam Lagarde)",
+            "url": "https://books.google.com/books/about/La_Selva_Prohibida.html?hl=es&id=1lAmPQAACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "liberalismo-de-john-gray",
+      "title": "Liberalismo",
+      "authorName": "John Gray",
+      "authorSlug": "john-gray",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 3,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Liberalismo",
+        "authorName": "John Gray",
+        "authorSlug": "john-gray",
+        "type": "ensayo",
+        "audience": "adulto",
+        "genres": [
+          "filosofía política",
+          "teoría política",
+          "historia de las ideas"
+        ],
+        "year": 1986,
+        "pages": 128,
+        "summary": "En este breve pero denso ensayo, John Gray presenta el liberalismo no como una doctrina única y cerrada, sino como una tradición intelectual plural que ha cambiado con el tiempo. El libro recorre los principios que suelen asociarse con esa familia de ideas —libertad individual, tolerancia, limitación del poder, derechos, mercado, reforma institucional— y muestra que, bajo el mismo nombre, conviven versiones muy distintas e incluso tensas entre sí. Gray explica cómo el liberalismo clásico, el liberalismo reformista y las formulaciones del siglo XX no responden del mismo modo a preguntas sobre igualdad, Estado, propiedad o moralidad pública. Por eso el valor del libro está menos en ofrecer una consigna ideológica que en ordenar un campo de debate y señalar sus contradicciones internas con claridad analítica y perspectiva histórica.",
+        "aboutThisBook": "Publicado originalmente en 1986 y reeditado después en versiones revisadas, Liberalismo pertenece a la etapa temprana de John Gray como estudioso de la tradición liberal occidental. Su formato es sintético, casi de introducción exigente, pero no simplificador. Gray se mueve entre historia intelectual y teoría política para explicar de dónde vienen las distintas corrientes liberales y por qué no pueden reducirse a un solo credo. Es un libro útil para cursos universitarios porque define conceptos, compara autores y sitúa debates duraderos sobre libertad negativa, intervención estatal, individualismo, pluralismo moral y reformas sociales. Más que una defensa militante del liberalismo, ofrece un mapa razonado de sus variantes y dilemas.",
+        "forWhom": "Para estudiantes de ciencia política, filosofía, derecho e historia de las ideas, y para lectores que quieran una introducción seria a las distintas tradiciones liberales sin propaganda partidista.",
+        "whyItMatters": "Importa porque ayuda a distinguir entre usos muy distintos de la palabra “liberalismo” y obliga a leer la tradición liberal como un debate interno, no como un bloque homogéneo. Esa precisión sigue siendo decisiva en la discusión pública actual.",
+        "editorialIntro": "Pocas palabras políticas se usan tanto y se entienden tan mal como “liberalismo”. John Gray aborda ese problema con un libro breve, pero intelectualmente muy concentrado, que desarma tópicos y devuelve complejidad al término. Su mérito no consiste en repetir un catecismo doctrinal, sino en mostrar la historia de una tradición llena de matices, bifurcaciones y conflictos. Leído hoy, funciona como guía de orientación conceptual para no confundir etiquetas contemporáneas con la trama real de las ideas políticas modernas.",
+        "readingLevel": "Nivel medio-alto: el libro es corto, pero maneja conceptos de teoría política e historia intelectual que exigen atención, vocabulario abstracto y cierta familiaridad con autores y corrientes modernas.",
+        "whyReadToday": "Porque el debate sobre libertad, Estado, derechos, pluralismo y mercado sigue organizando la política contemporánea. Leer a Gray permite discutir ese vocabulario con más rigor y menos simplificaciones ideológicas.",
+        "studyNotes": [
+          "Gray insiste en que el liberalismo es una familia de tradiciones, no una doctrina monolítica ni una consigna electoral simple.",
+          "Conviene distinguir entre liberalismo clásico, liberalismo social y versiones más recientes centradas en derechos, neutralidad estatal o pluralismo.",
+          "El libro funciona especialmente bien como mapa conceptual: ordena debates más que ofrecer un programa político cerrado.",
+          "Puede leerse junto con autores como Locke, Mill, Tocqueville, Isaiah Berlin o Rawls para ver cómo cambian las prioridades liberales según época y contexto."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Qué significa hablar de liberalismo",
+            "summary": "Gray abre el campo definiendo el liberalismo como tradición histórica y filosófica. Desde el inicio deja claro que su identidad no depende de una sola tesis, sino de un conjunto de preocupaciones compartidas sobre libertad, poder y orden civil."
+          },
+          {
+            "title": "Parte 2. Del liberalismo clásico a las revisiones modernas",
+            "summary": "El núcleo del libro compara distintas formulaciones liberales, desde las versiones más centradas en la limitación del Estado y la propiedad hasta corrientes posteriores que integran igualdad de oportunidades, reforma social y nuevas justificaciones de los derechos."
+          },
+          {
+            "title": "Parte 3. Tensiones internas y vigencia contemporánea",
+            "summary": "En la parte final aparecen las fricciones duraderas del liberalismo: individuo y comunidad, mercado y justicia, tolerancia y verdad, neutralidad pública y conflicto moral. El libro concluye mostrando que esas tensiones no son anomalías, sino parte de su historia constitutiva."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una tradición, no un eslogan",
+            "content": "El principal acierto del libro es desmontar la idea de que “liberalismo” nombra una sola doctrina coherente e idéntica en todos los países. Gray muestra que la tradición liberal está hecha de continuidades, rectificaciones y disputas sobre fines y medios."
+          },
+          {
+            "heading": "Historia intelectual con utilidad presente",
+            "content": "Aunque el libro mira hacia autores y corrientes del pasado, su interés no es arqueológico. Sirve para interpretar discusiones actuales sobre libertades civiles, intervención estatal, pluralismo moral y legitimidad institucional con categorías mejor afinadas."
+          },
+          {
+            "heading": "El valor de la brevedad",
+            "content": "Gray escribe un texto corto, pero concentrado. Esa brevedad obliga a una exposición selectiva y clara, muy útil para estudio universitario, aunque también exige del lector una participación activa para completar el contexto histórico de cada referencia."
+          },
+          {
+            "heading": "Por qué sigue siendo útil",
+            "content": "Sigue siendo útil porque enseña a no usar palabras políticas como etiquetas vacías. Quien termina el libro entiende mejor por qué distintas corrientes pueden llamarse liberales y, al mismo tiempo, discrepar en asuntos fundamentales."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es un libro a favor del liberalismo o un estudio sobre él?",
+            "answer": "Es sobre todo un estudio analítico e histórico. Gray explica y compara tradiciones liberales más que convertir el libro en un panfleto de adhesión."
+          },
+          {
+            "question": "¿Sirve como introducción universitaria?",
+            "answer": "Sí. Su formato breve y su claridad conceptual lo hacen muy útil como introducción exigente para cursos de teoría política, filosofía o historia de las ideas."
+          },
+          {
+            "question": "¿El libro identifica una sola definición de liberalismo?",
+            "answer": "No. Una de sus tesis centrales es precisamente que el liberalismo contiene versiones distintas y a veces incompatibles entre sí."
+          },
+          {
+            "question": "¿Qué aporta leerlo hoy?",
+            "answer": "Aporta vocabulario histórico y precisión conceptual para discutir temas contemporáneos como derechos, pluralismo, mercado, Estado y tolerancia sin caer en caricaturas."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Internet Archive: Liberalism",
+            "url": "https://archive.org/details/liberalism00gray"
+          },
+          {
+            "label": "Foundation for Economic Education: Book Review: Liberalism by John Gray",
+            "url": "https://fee.org/articles/book-review-liberalism-by-john-gray/"
+          },
+          {
+            "label": "Wikipedia: John Gray (philosopher)",
+            "url": "https://en.wikipedia.org/wiki/John_Gray_(philosopher)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-lagartos-terribles-de-isaac-asimov",
+      "title": "Los Lagartos Terribles",
+      "authorName": "Isaac Asimov",
+      "authorSlug": "isaac-asimov",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 4,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los lagartos terribles y otros ensayos científicos",
+        "authorName": "Isaac Asimov",
+        "authorSlug": "isaac-asimov",
+        "type": "no-ficcion",
+        "audience": "todos",
+        "genres": [
+          "divulgación científica",
+          "ensayo",
+          "ciencias naturales"
+        ],
+        "year": 1978,
+        "pages": 110,
+        "summary": "Esta edición reúne una serie de ensayos breves de Isaac Asimov sobre química, paleontología, biología, geografía y lenguaje científico. Lejos de presentar la ciencia como un conjunto de datos aislados, el autor muestra cómo una pregunta lleva a otra y cómo los fenómenos más distintos —los metales antiguos, los dinosaurios, los cromosomas, las islas o la puntuación— pueden entenderse mediante la misma curiosidad racional. El ensayo que da título al volumen se concentra en criaturas extinguidas y en la reconstrucción científica del pasado, pero el libro en conjunto funciona como una demostración del método de Asimov: partir de un detalle concreto, desplegar contexto histórico y extraer una explicación clara sin perder amenidad. Es una obra de divulgación clásica, escrita para lectores generales y todavía útil como ejemplo de pensamiento científico narrado con sencillez.",
+        "aboutThisBook": "La edición española de Alianza Editorial, publicada en 1978, presenta extractos de libros ensayísticos previos de Asimov y los organiza en un volumen breve de trece piezas. El índice va desde textos sobre metales y tabla periódica hasta artículos sobre dinosaurios, genética, relieve terrestre e incluso signos de puntuación. Esa variedad no es un defecto sino la marca del autor: un divulgador capaz de conectar ramas del saber aparentemente lejanas. Más que manual especializado, el libro es una muestra de cultura científica en formato ensayístico, pensada para despertar preguntas y ordenar conocimientos dispersos.",
+        "forWhom": "Para lectores curiosos, estudiantes y docentes que busquen divulgación científica clara, breve y transversal, especialmente útil como puerta de entrada a temas de química, evolución e historia natural.",
+        "whyItMatters": "Importa porque muestra un modelo de divulgación hoy menos frecuente: preciso sin tecnicismo innecesario, ambicioso sin volverse opaco y capaz de relacionar ciencia, historia e imaginación intelectual en pocas páginas.",
+        "editorialIntro": "Asimov no solo escribió ficción científica memorable; también fue uno de los grandes ensayistas de divulgación del siglo XX. En este volumen breve se aprecia muy bien su talento para convertir asuntos especializados en conversaciones comprensibles. El libro no pretende agotar ningún tema, pero sí enseñar una forma de mirar: observar un problema, rastrear su origen y seguir sus conexiones hasta volverlo inteligible.",
+        "readingLevel": "Lectura accesible para bachillerato, universidad inicial y público general interesado en ciencia. El vocabulario técnico aparece explicado y cada ensayo puede leerse de forma independiente, aunque conviene cierta atención para seguir comparaciones históricas y químicas.",
+        "whyReadToday": "Porque sigue siendo un excelente ejemplo de alfabetización científica humanista: enseña contenidos, pero sobre todo enseña a formular preguntas, comparar escalas y pensar con claridad sobre el mundo material y biológico.",
+        "studyNotes": [
+          "El volumen tiene una estructura miscelánea, pero la unidad real está en el método expositivo de Asimov: partir de un dato concreto y expandirlo hacia un marco histórico o conceptual más amplio.",
+          "El ensayo 'Los lagartos terribles' no agota el libro; conviene leer el título como puerta de entrada a una colección más amplia sobre evolución, química y geografía.",
+          "La edición española indica que los textos proceden de libros anteriores de Asimov, lo que explica la variedad temática y el tono de ensayo autónomo.",
+          "Es útil analizar cómo Asimov combina explicación científica con anécdota histórica para sostener el interés sin sacrificar rigor divulgativo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Metales, antigüedad y tabla periódica",
+            "summary": "Los primeros ensayos examinan metales conocidos desde la antigüedad, sus propiedades y su lugar en la historia de la química. Asimov convierte cuestiones como la abundancia, la oxidación o la metalurgia en relatos sobre descubrimiento humano y desarrollo técnico."
+          },
+          {
+            "title": "Fósiles y criaturas extinguidas",
+            "summary": "En 'Los lagartos terribles' y 'Monstruos agonizantes', el autor se detiene en especies desaparecidas y en la manera en que la ciencia reconstruye mundos perdidos. Lo importante no es solo el asombro ante los dinosaurios, sino el razonamiento que permite inferir su existencia y su contexto evolutivo."
+          },
+          {
+            "title": "Biología, herencia y anatomía",
+            "summary": "Textos como 'Contando cromosomas' y 'Orificios en la cabeza' desplazan la atención hacia la genética y la morfología. Asimov muestra cómo la observación comparada del cuerpo y de la herencia ayuda a entender parentescos, funciones y cambios evolutivos."
+          },
+          {
+            "title": "La Tierra como sistema legible",
+            "summary": "La parte final aborda agua, relieve, islas y hasta el signo de admiración. El recorrido deja ver que la curiosidad científica no se limita al laboratorio: también interpreta paisajes, lenguaje y formas cotidianas de ordenar la experiencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La ciencia como conversación enlazada",
+            "content": "Uno de los rasgos más valiosos del libro es que ningún tema aparece aislado. Un metal conduce a otro, una propiedad química lleva a una reflexión histórica y una observación biológica abre hacia la evolución. Asimov enseña que el conocimiento científico avanza por conexiones, no por compartimentos cerrados."
+          },
+          {
+            "heading": "Rigor sin solemnidad",
+            "content": "El autor evita el tono profesoral pesado y prefiere una voz cercana, irónica y argumentativa. Esa ligereza estilística no elimina precisión; al contrario, la vuelve más eficaz. El lector comprende porque el razonamiento está narrado paso a paso."
+          },
+          {
+            "heading": "Divulgación científica con imaginación histórica",
+            "content": "Muchos ensayos funcionan gracias a la reconstrucción del pasado: la antigüedad de los metales, la desaparición de especies, los cambios geológicos. Asimov no trata la ciencia como inventario inmóvil, sino como historia del mundo y de las preguntas humanas sobre él."
+          },
+          {
+            "heading": "Un libro breve pero formativo",
+            "content": "Aunque no es un tratado extenso, el volumen sirve muy bien para enseñanza porque ofrece textos cortos, autónomos y analíticamente ricos. Cada ensayo puede usarse para introducir una disciplina o para estudiar estrategias de divulgación."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela de Isaac Asimov?",
+            "answer": "No. Es un libro de divulgación científica compuesto por ensayos breves sobre temas de química, paleontología, biología y geografía."
+          },
+          {
+            "question": "¿El libro trata solo sobre dinosaurios?",
+            "answer": "No. El ensayo que da título al volumen se ocupa de criaturas extinguidas, pero el libro incluye también textos sobre metales, cromosomas, relieve terrestre, agua e islas, entre otros asuntos."
+          },
+          {
+            "question": "¿Hace falta formación científica previa para leerlo?",
+            "answer": "No demasiada. Está escrito para público general y explica los conceptos técnicos a medida que aparecen, aunque algunos pasajes rinden mejor con lectura atenta."
+          },
+          {
+            "question": "¿Qué distingue la divulgación de Asimov en este libro?",
+            "answer": "Su capacidad para enlazar datos, historia e hipótesis de forma clara. Más que simplificar en exceso, ordena el pensamiento y muestra cómo se construye una explicación científica."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Internet Archive: Los lagartos terribles y otros ensayos científicos (PDF escaneado)",
+            "url": "https://archive.org/download/As-405995/Los%20lagartos%20terribles.pdf"
+          },
+          {
+            "label": "Lecturalia: Los lagartos terribles y otros ensayos científicos",
+            "url": "https://www.lecturalia.com/libro/43640/los-lagartos-terribles-y-otros-ensayos-cientificos"
+          },
+          {
+            "label": "Isliada: Los lagartos terribles y otros ensayos científicos",
+            "url": "https://www.isliada.org/libros/los-lagartos-terribles-y-otros-ensayos-cientificos/"
+          },
+          {
+            "label": "Goodreads: Los lagartos terribles",
+            "url": "https://www.goodreads.com/book/show/3513893-los-lagartos-terribles"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "los-trenes-se-van-al-purgatorio-de-hernan-rivera-letelier",
+      "title": "Los Trenes Se Van Al Purgatorio",
+      "authorName": "Hernan Rivera Letelier",
+      "authorSlug": "hernan-rivera-letelier",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 5,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Los trenes se van al purgatorio",
+        "authorName": "Hernán Rivera Letelier",
+        "authorSlug": "hernan-rivera-letelier",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela chilena",
+          "narrativa histórica",
+          "novela coral"
+        ],
+        "year": 2000,
+        "pages": 191,
+        "summary": "Los trenes se van al purgatorio reconstruye, con la mezcla de oralidad, humor, melancolía y memoria característica de Hernán Rivera Letelier, un viaje de cuatro días y cuatro noches en el Longino, el tren Longitudinal Norte que cruza la pampa salitrera. El convoy transporta pasajeros anónimos, buscavidas, soñadores, trabajadores, músicos, mujeres excéntricas y personajes heridos por pérdidas o ilusiones. Más que organizarse alrededor de una intriga única, la novela convierte ese trayecto en un escenario de historias que se cruzan, se interrumpen y se iluminan entre sí. El tren funciona como hogar ambulante, teatro popular y metáfora de un mundo en tránsito durante la edad de oro del salitre. Rivera Letelier retrata la vida pampina sin idealizarla: hay precariedad, deseo, superstición, miseria, comicidad y una profunda dignidad de los personajes menores. El resultado es una novela coral donde viajar equivale a compartir relatos antes de volver a dispersarse en el desierto.",
+        "aboutThisBook": "Publicada en 2000 y luego reeditada por Alfaguara, esta novela pertenece al ciclo de obras con las que Rivera Letelier convirtió la pampa salitrera en un territorio literario singular dentro de la narrativa chilena contemporánea. Su centro no está en un héroe individual, sino en una comunidad pasajera. El Longino reúne voces populares, recuerdos, hablas regionales y escenas que oscilan entre lo grotesco y lo entrañable. La estructura se apoya en el viaje ferroviario como dispositivo narrativo: cada vagón y cada parada permiten incorporar nuevas biografías, rumores y pequeñas leyendas. El libro interesa tanto por su valor narrativo como por su capacidad de preservar un imaginario social ligado al norte salitrero, a sus desplazamientos y a su cultura oral.",
+        "forWhom": "Para lectores de narrativa chilena y latinoamericana que disfruten novelas corales, ambientes populares, memoria del norte salitrero y relatos donde el viaje sirve para reunir muchas vidas menores.",
+        "whyItMatters": "Importa porque convierte el ferrocarril pampino en archivo narrativo de una comunidad. En lugar de contar una sola aventura, rescata un mundo social, un habla y una sensibilidad ligados a la historia del salitre y de sus desplazamientos humanos.",
+        "editorialIntro": "Hernán Rivera Letelier ha sido uno de los grandes narradores del imaginario pampino, y esta novela muestra bien por qué. El tren no es solo escenario: es la forma misma del relato. En su marcha lenta por el desierto recoge voces, oficios, supersticiones, amores truncos y humor popular, hasta construir una pequeña sociedad provisional. La novela seduce por esa capacidad de volver entrañable a un grupo de desconocidos y de hacer del tránsito una memoria compartida.",
+        "readingLevel": "Nivel medio. La prosa es fluida y muy oral, con personajes numerosos y referencias al mundo salitrero chileno. Resulta accesible para lectores generales, aunque gana riqueza si se conoce algo del norte grande y de su historia laboral.",
+        "whyReadToday": "Porque ofrece una manera poderosa de pensar la memoria de los territorios periféricos: no desde grandes discursos, sino desde viajes, voces populares y vidas aparentemente secundarias que sostienen una cultura entera.",
+        "studyNotes": [
+          "El tren funciona como estructura narrativa: cada tramo del viaje permite abrir y cerrar historias sin perder la unidad del conjunto.",
+          "La novela es coral; conviene leerla como un mosaico de voces y no como una intriga clásica centrada en un solo protagonista.",
+          "Rivera Letelier convierte la oralidad popular y el humor en herramientas de memoria histórica, no en simples adornos estilísticos.",
+          "El paisaje pampino no es un fondo neutro: condiciona el lenguaje, la imaginación y la forma de habitar el tiempo."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El Longino como mundo en miniatura",
+            "summary": "La novela presenta el tren longitudinal que atraviesa la pampa y establece desde el comienzo que el viaje será también un espacio de convivencia forzada. Pasajeros muy distintos comparten estrechez, expectativas y tiempo suspendido."
+          },
+          {
+            "title": "Aparición de voces, oficios y pequeñas leyendas",
+            "summary": "A medida que avanzan los vagones, el relato va incorporando personajes de diversa condición social y afectiva. Historias sentimentales, supersticiones, recuerdos y anécdotas populares convierten el trayecto en una colección viva de relatos pampinos."
+          },
+          {
+            "title": "El desierto como marco moral y emocional",
+            "summary": "La pampa no aparece solo como paisaje, sino como fuerza que modela la precariedad y la imaginación. La dureza del entorno realza la fragilidad de los pasajeros y vuelve más intenso el valor de la conversación, la memoria y la compañía ocasional."
+          },
+          {
+            "title": "Llegada, dispersión y persistencia de la memoria",
+            "summary": "Hacia el final, el viaje concluye pero las historias no se resuelven de forma cerrada. Queda la impresión de haber asistido al paso fugaz de una comunidad improvisada, unida por el trayecto y luego devuelta a la intemperie del mundo pampino."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La novela coral como archivo popular",
+            "content": "Rivera Letelier trabaja con una multitud de personajes para producir un efecto de comunidad narrativa. Lo decisivo no es la biografía excepcional, sino la acumulación de voces que permite rescatar un mundo social entero."
+          },
+          {
+            "heading": "El ferrocarril como metáfora del purgatorio",
+            "content": "El título sugiere un espacio intermedio: ni redención plena ni condena absoluta. El tren encarna ese estado transitorio donde los personajes todavía esperan algo, recuerdan algo o intentan rehacer una vida incompleta."
+          },
+          {
+            "heading": "Oralidad, humor y melancolía",
+            "content": "Uno de los mayores logros del libro es combinar comicidad popular y tristeza histórica sin cancelar ninguna de las dos. El humor hace visibles la dignidad, la astucia y la resistencia simbólica de personajes marcados por la precariedad."
+          },
+          {
+            "heading": "Memoria del norte salitrero",
+            "content": "La obra participa de un proyecto más amplio del autor: transformar la experiencia pampina en materia literaria perdurable. El tren reúne trayectorias dispersas y vuelve audible una cultura ligada al desierto, al trabajo y a la migración interna."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Tiene un protagonista único?",
+            "answer": "No en sentido estricto. La novela está construida como relato coral y reparte la atención entre numerosos pasajeros, de modo que el verdadero protagonista acaba siendo el viaje mismo y la comunidad provisoria que forma el tren."
+          },
+          {
+            "question": "¿Es una novela histórica?",
+            "answer": "Sí, aunque no en el sentido de gran frescura documental o de reconstrucción política centralizada. Su historicidad pasa por la evocación del mundo salitrero, del ferrocarril pampino y de las formas de vida del norte chileno."
+          },
+          {
+            "question": "¿Por qué el tren es tan importante en el libro?",
+            "answer": "Porque organiza toda la narración. Es transporte, escenario, refugio y metáfora de tránsito. Permite que personajes desconocidos compartan historias durante un tiempo limitado antes de separarse."
+          },
+          {
+            "question": "¿Qué tono domina la novela?",
+            "answer": "Predomina una mezcla muy característica de Rivera Letelier: humor popular, ternura, oralidad, extrañeza y una melancolía persistente vinculada a la memoria pampina y a la condición pasajera de sus personajes."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Google Libros: Los trenes se van al purgatorio",
+            "url": "https://books.google.com/books/about/Los_trenes_se_van_al_purgatorio.html?id=sVu_CttGphUC"
+          },
+          {
+            "label": "WorldCat: Los trenes se van al purgatorio : novela",
+            "url": "https://search.worldcat.org/title/44887192"
+          },
+          {
+            "label": "Wikipedia: Hernán Rivera Letelier",
+            "url": "https://es.wikipedia.org/wiki/Hern%C3%A1n_Rivera_Letelier"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "luna-de-lobos-de-julio-llamazares",
+      "title": "Luna De Lobos",
+      "authorName": "Julio Llamazares",
+      "authorSlug": "julio-llamazares",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 6,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Luna de lobos",
+        "authorName": "Julio Llamazares",
+        "authorSlug": "julio-llamazares",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "ficcion historica",
+          "posguerra española",
+          "novela literaria"
+        ],
+        "year": 1985,
+        "pages": 224,
+        "summary": "Luna de lobos narra la vida clandestina de varios combatientes republicanos que, tras el avance franquista en León, se refugian en las montañas para sobrevivir. La novela sigue sobre todo a Ángel y al pequeño grupo que lo acompaña mientras pasan de la guerra abierta a una existencia cada vez más precaria, marcada por el hambre, el miedo, la intemperie y la progresiva erosión de la esperanza. Julio Llamazares convierte la experiencia del maquis en una historia de resistencia material y de degradación moral, donde la persecución política convive con una dimensión casi física del tiempo, el frío y la noche. El interés del libro no reside solo en su trasfondo histórico, sino en la intensidad con que muestra cómo el instinto de supervivencia transforma la relación con los otros, con el paisaje y con uno mismo.",
+        "aboutThisBook": "Publicada en 1985 y presentada por PlanetadeLibros como una novela pionera en descriminalizar la guerrilla antifranquista dentro de la literatura española, Luna de lobos ocupa un lugar central en la narrativa de la memoria de posguerra. La crítica universitaria ha subrayado además su estructura en partes fechadas y su poderosa combinación de sequedad expresiva y lirismo. Más que una novela bélica, es una obra sobre la vida acosada: el monte, la cueva, la nieve y la noche no son decorado, sino condiciones existenciales que moldean la conciencia de los personajes.",
+        "forWhom": "Muy recomendable para lectores de narrativa española contemporánea, estudiantes de literatura e historia del franquismo y quienes busquen una novela breve, intensa y de alta densidad simbólica.",
+        "whyItMatters": "Importa porque ofreció una representación literaria decisiva del maquis como experiencia humana concreta, no como simple emblema ideológico. Su mirada sobre la supervivencia, el miedo y la derrota sigue siendo una referencia en la narrativa española reciente.",
+        "editorialIntro": "Hay novelas históricas que explican una época y otras que la hacen respirar. Luna de lobos pertenece a las segundas. Julio Llamazares parte de la guerrilla antifranquista en los montes leoneses, pero desplaza el centro del relato hacia la intemperie moral de quienes viven escondidos, perseguidos y cada vez más aislados. Con una prosa sobria y lírica a la vez, convierte el paisaje en destino y la supervivencia en una forma extrema de conciencia.",
+        "readingLevel": "Nivel medio-alto: el libro es breve y claro en su superficie narrativa, pero exige atender a su simbolismo, a la presión del paisaje y a la relación entre experiencia histórica y depuración estilística.",
+        "whyReadToday": "Leerla hoy sigue siendo necesario porque devuelve espesor humano a un episodio de la posguerra que a menudo se simplifica. Ayuda a pensar memoria, violencia política y exclusión desde la experiencia concreta de los vencidos.",
+        "studyNotes": [
+          "El paisaje no actúa como fondo neutral: la montaña condiciona ritmo, percepción, lenguaje y conducta, hasta convertirse en una prolongación del estado interior de los personajes.",
+          "La novela está organizada en tramos temporales que muestran no solo el avance de la represión, sino el desgaste físico y moral de quienes resisten fuera de la historia oficial.",
+          "Conviene leer a Ángel como narrador de supervivencia: su voz no idealiza la resistencia, sino que registra el miedo, la suciedad, la culpa y la animalización progresiva de la vida clandestina."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "1937: huida al monte",
+            "summary": "Con León en manos de los sublevados, varios republicanos se ven obligados a refugiarse en la montaña. El paso del frente al escondite marca el inicio de una vida dominada por la precariedad y por la incertidumbre sobre el futuro inmediato."
+          },
+          {
+            "title": "1939: la derrota convertida en intemperie",
+            "summary": "Terminada oficialmente la guerra, la paz no llega para los huidos. La victoria franquista endurece su aislamiento, reduce sus apoyos y convierte la mera continuidad de la vida en una tarea cada vez más cercana a la animalidad."
+          },
+          {
+            "title": "1943: resistencia y desgaste",
+            "summary": "La clandestinidad se prolonga más de lo imaginable. El grupo ya no solo lucha contra la persecución, sino contra el tiempo, la desconfianza y la erosión de sus propios vínculos, en un entorno donde cualquier contacto puede suponer una traición o una condena."
+          },
+          {
+            "title": "1946: final de una supervivencia",
+            "summary": "El cierre del relato muestra el agotamiento extremo de una resistencia sin horizonte claro. Más que clausurar una aventura, la novela exhibe el coste humano de haber quedado fuera de la historia vencedora y fuera también de una vida común posible."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El maquis como experiencia existencial",
+            "content": "Llamazares no presenta a los huidos como figuras épicas estables. Los muestra sometidos a hambre, miedo y pérdida de identidad social. Esa desidealización hace que la novela sea más fuerte: la resistencia aparece como experiencia humana límite, no como consigna."
+          },
+          {
+            "heading": "Paisaje, noche y deshumanizacion",
+            "content": "La montaña, la nieve y la oscuridad articulan una poética del cerco. El título mismo sugiere una condición casi lupina: los personajes sobreviven al margen, guiados por el instinto, y esa deriva altera radicalmente su relación con el mundo civil."
+          },
+          {
+            "heading": "Memoria de la posguerra",
+            "content": "La novela abrió un camino importante para representar literariamente a la guerrilla antifranquista sin criminalizarla. Su valor histórico no depende de una reconstrucción exhaustiva, sino de haber devuelto densidad emocional, moral y corporal a los vencidos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela historica en sentido estricto?",
+            "answer": "Tiene un marco histórico muy definido, pero su centro está en la experiencia de supervivencia y en la transformación interior de los personajes, más que en la explicación panorámica de la guerra."
+          },
+          {
+            "question": "¿Quienes son los protagonistas?",
+            "answer": "El narrador principal es Ángel, acompañado por otros huidos republicanos como Ramiro, Gildo y Juan, con quienes comparte el refugio en los montes leoneses tras la caída del frente."
+          },
+          {
+            "question": "¿Por que suele considerarse una obra clave sobre la posguerra?",
+            "answer": "Porque dio una forma literaria muy influyente a la vida de los maquis y a la represión posterior a la guerra civil, combinando memoria histórica con una prosa de gran intensidad poética."
+          },
+          {
+            "question": "¿Resulta una lectura accesible para estudiantes?",
+            "answer": "Sí, aunque conviene acompañarla de contexto histórico sobre la guerra civil y el primer franquismo para apreciar mejor el alcance político y memorialístico del relato."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "PlanetadeLibros - Luna de lobos",
+            "url": "https://www.planetadelibros.com/libro-luna-de-lobos/396096"
+          },
+          {
+            "label": "Wikipedia en español - Luna de lobos",
+            "url": "https://es.wikipedia.org/wiki/Luna_de_lobos"
+          },
+          {
+            "label": "Casa del Libro - Luna de lobos",
+            "url": "https://www.casadellibro.com/libro-luna-de-lobos/9788432243646/15991067"
+          },
+          {
+            "label": "SEDICI (UNLP) - Luna de lobos; Julio Llamazares",
+            "url": "https://sedici.unlp.edu.ar/handle/10915/48211"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mi-hermana-vive-sobre-la-repisa-de-la-chimenea-de-annabel-pitcher",
+      "title": "Mi Hermana Vive Sobre La Repisa De La Chimenea",
+      "authorName": "Annabel Pitcher",
+      "authorSlug": "annabel-pitcher",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 7,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Mi hermana vive sobre la repisa de la chimenea",
+        "authorName": "Annabel Pitcher",
+        "authorSlug": "annabel-pitcher",
+        "type": "ficcion",
+        "audience": "juvenil",
+        "genres": [
+          "novela juvenil",
+          "drama familiar",
+          "realismo contemporáneo"
+        ],
+        "year": 2011,
+        "pages": 240,
+        "summary": "La primera novela de Annabel Pitcher cuenta, desde la mirada de Jamie, un niño de diez años, la descomposición de una familia marcada por la muerte de Rose, su hermana, en un atentado ocurrido años antes. El título resume de forma brutal y conmovedora la situación: parte de las cenizas de la niña permanecen en una urna sobre la repisa de la chimenea, convertidas en presencia doméstica del duelo. A partir de ahí, la novela aborda el dolor, la culpa, la islamofobia del padre, la soledad de la hermana superviviente y la necesidad infantil de entender un mundo que los adultos ya no saben ordenar. Pitcher combina humor, ternura y observación moral para construir una historia accesible para lectores jóvenes, pero emocionalmente compleja y muy consciente del daño que deja la violencia pública dentro de la vida privada.",
+        "aboutThisBook": "Publicada en 2011, esta novela debut de Annabel Pitcher obtuvo el Branford Boase Award y llamó la atención por tratar un tema durísimo desde una voz infantil creíble, lúcida y a veces involuntariamente cómica. El libro se sitúa en el terreno de la ficción juvenil contemporánea que no subestima a su lector: habla de duelo, prejuicio, fractura familiar, identidad religiosa y crecimiento emocional sin perder claridad narrativa. Su estructura es lineal y su lenguaje muy legible, pero la novela gana densidad por el contraste entre la perspectiva de Jamie y lo que el lector adulto alcanza a comprender detrás de sus palabras. Esa doble lectura explica parte de su fuerza y de su permanencia en ámbitos escolares y clubes de lectura juvenil.",
+        "forWhom": "Para lectores juveniles desde los últimos cursos de primaria o secundaria inicial, mediadores de lectura, docentes y adultos interesados en novelas breves que trabajan el duelo familiar con sensibilidad y precisión narrativa.",
+        "whyItMatters": "Importa porque muestra cómo una tragedia colectiva se filtra en la vida cotidiana de una familia rota. También importa por su capacidad para hablar de prejuicio, pérdida y empatía desde una voz infantil nada sentimentalista.",
+        "editorialIntro": "Annabel Pitcher eligió un punto de vista difícil y lo sostuvo con enorme eficacia: hacer que un niño narre una historia atravesada por duelo, violencia y fanatismo sin convertirla ni en melodrama ni en lección moral simplista. Esa decisión le da a la novela su tono singular. Lo doloroso aparece filtrado por una mirada incompleta, y justamente por eso golpea más. Mi hermana vive sobre la repisa de la chimenea es una lectura breve, pero deja preguntas serias sobre la familia, la pérdida y la forma en que el miedo contamina la convivencia.",
+        "readingLevel": "Nivel medio: el lenguaje es claro y la perspectiva infantil facilita la lectura, pero los temas de duelo, trauma, racismo y conflicto familiar requieren madurez emocional y lectura acompañada en algunos contextos escolares.",
+        "whyReadToday": "Porque sigue siendo una novela muy útil para hablar con lectores jóvenes sobre duelo, prejuicio y convivencia. Su mezcla de accesibilidad y profundidad moral la mantiene plenamente vigente.",
+        "studyNotes": [
+          "La voz narrativa de Jamie organiza toda la novela: entendemos el mundo a través de lo que ve, pero también de lo que todavía no puede comprender del todo.",
+          "El libro trabaja el duelo no como sentimiento único, sino como experiencia fragmentada: cada miembro de la familia reacciona de manera distinta a la misma pérdida.",
+          "La amistad con Sunya obliga a confrontar el prejuicio del padre y abre uno de los ejes éticos más importantes del relato.",
+          "Puede estudiarse como ejemplo de ficción juvenil que trata temas socialmente complejos sin renunciar a la legibilidad ni a la emoción narrativa."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Primera parte. La familia rota y el peso de la ausencia",
+            "summary": "La novela presenta a Jamie, su padre y su hermana Jas viviendo bajo la sombra de Rose. La urna sobre la chimenea materializa un duelo que no ha terminado y condiciona toda la vida familiar."
+          },
+          {
+            "title": "Segunda parte. Escuela nueva, secretos y amistad",
+            "summary": "En su nuevo entorno escolar, Jamie encuentra una relación importante que le permite salir del encierro emocional de su casa. Esa amistad introduce el conflicto entre inocencia infantil y prejuicio heredado."
+          },
+          {
+            "title": "Tercera parte. Comprender la pérdida y seguir adelante",
+            "summary": "El tramo final empuja a Jamie a ver con más claridad las fisuras de los adultos que lo rodean. Sin ofrecer soluciones fáciles, la novela avanza hacia una forma modesta pero real de recomposición afectiva."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La eficacia del punto de vista infantil",
+            "content": "Pitcher consigue que la voz de Jamie sea verosímil y, al mismo tiempo, literariamente productiva. El lector percibe la tragedia tanto por lo que el niño cuenta como por lo que no alcanza a interpretar del todo."
+          },
+          {
+            "heading": "Duelo privado y violencia pública",
+            "content": "Uno de los mayores aciertos del libro es mostrar que un atentado no termina en la noticia ni en la cifra de víctimas. Sus efectos se prolongan en los cuerpos, las relaciones y las ideas deformadas con las que una familia intenta seguir viviendo."
+          },
+          {
+            "heading": "Prejuicio, miedo y aprendizaje moral",
+            "content": "La novela explora la islamofobia no desde la abstracción política, sino desde la vida diaria y el vínculo entre un padre herido y un hijo que empieza a formar su propio juicio. Esa dimensión le da relevancia ética sin volverla sermoneadora."
+          },
+          {
+            "heading": "Una novela juvenil que no simplifica",
+            "content": "Aunque su lenguaje sea accesible, el libro no reduce sus conflictos a una moraleja elemental. Su mérito está en tratar a los lectores jóvenes como lectores capaces de sostener ambigüedades emocionales y sociales."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela únicamente para adolescentes?",
+            "answer": "No. Está pensada para lectores jóvenes, pero su tratamiento del duelo, del prejuicio y de la familia rota también interesa mucho a lectores adultos."
+          },
+          {
+            "question": "¿El libro trata directamente el atentado o sus consecuencias?",
+            "answer": "Se centra sobre todo en las consecuencias íntimas y familiares de la muerte de Rose varios años después del atentado."
+          },
+          {
+            "question": "¿Por qué funciona tan bien la narración de Jamie?",
+            "answer": "Porque combina inocencia, humor involuntario y sensibilidad. Esa mirada permite que los temas duros aparezcan con claridad emocional sin exceso melodramático."
+          },
+          {
+            "question": "¿Es útil para lectura escolar?",
+            "answer": "Sí, especialmente si se acompaña con conversación sobre duelo, prejuicio, empatía y narración en primera persona."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Hachette Book Group: My Sister Lives on the Mantelpiece",
+            "url": "https://www.hachettebookgroup.com/titles/annabel-pitcher/my-sister-lives-on-the-mantelpiece/9780316176897/"
+          },
+          {
+            "label": "Wikipedia: My Sister Lives on the Mantelpiece",
+            "url": "https://en.wikipedia.org/wiki/My_Sister_Lives_on_the_Mantelpiece"
+          },
+          {
+            "label": "ReadingZone: My Sister Lives on the Mantelpiece",
+            "url": "https://www.readingzone.com/books/my-sister-lives-on-the-mantelpiece/"
+          },
+          {
+            "label": "LoveReading4Kids: My Sister Lives on the Mantelpiece",
+            "url": "https://www.lovereading4kids.co.uk/book/6186/My-Sister-Lives-on-the-Mantelpiece-by-Annabel-Pitcher.html"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "nuestra-senora-de-la-soledad-de-marcela-serrano",
+      "title": "Nuestra Senora De La Soledad",
+      "authorName": "Marcela Serrano",
+      "authorSlug": "marcela-serrano",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 8,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Nuestra Señora de la Soledad",
+        "authorName": "Marcela Serrano",
+        "authorSlug": "marcela-serrano",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela",
+          "novela policíaca",
+          "narrativa latinoamericana"
+        ],
+        "year": 1999,
+        "pages": 300,
+        "summary": "La novela parte de una desaparición: Carmen Ávila, escritora chilena, se esfuma y deja tras de sí una red de afectos, secretos y versiones parciales. La investigación recae en Rosa Alvallay, detective de 54 años, divorciada y marcada por el exilio, cuya búsqueda la obliga a reconstruir no solo los últimos pasos de Carmen sino también el mundo emocional e ideológico que la rodeó. Las pistas principales son los hombres decisivos en la vida de la desaparecida —su marido, un escritor mexicano y un antiguo amante guerrillero—, pero la pesquisa pronto excede el mecanismo clásico del enigma. A medida que avanza, la novela se convierte en una exploración de la memoria, la madurez, la soledad femenina y las huellas políticas y sentimentales de una generación latinoamericana. Serrano usa la intriga como dispositivo narrativo para examinar vidas fracturadas más que para resolver un simple caso.",
+        "aboutThisBook": "Publicada en 1999 por Alfaguara, esta fue la quinta novela de Marcela Serrano para esa editorial. Distintas fuentes la presentan como una intriga policial que rebasa el molde del género negro para acercarse a una novela de aprendizaje. La acción se desarrolla sobre todo en Chile, con pasajes vinculados a México y Estados Unidos, y el propio título tiene una resonancia significativa: remite a la advocación oaxaqueña de Nuestra Señora de la Soledad y al núcleo afectivo del libro, donde la soledad aparece como experiencia íntima, femenina y difícil de nombrar por completo. Es una obra breve para los estándares de la autora, pero muy concentrada en atmósfera, voces y memoria sentimental.",
+        "forWhom": "Para lectores de narrativa latinoamericana contemporánea, novela policial atípica y estudios de género, así como para quienes buscan ficciones donde el enigma funcione como vía de exploración psicológica y política.",
+        "whyItMatters": "Sigue importando porque combina investigación detectivesca con una mirada seria sobre exilio, identidad femenina, memoria afectiva y violencia histórica. Su interés no depende solo del misterio, sino del modo en que interroga una generación y sus pérdidas.",
+        "editorialIntro": "Marcela Serrano utiliza aquí una fórmula muy eficaz: tomar la promesa narrativa del policial —una mujer desaparecida, una investigadora, un rastro de pistas— y desplazarla hacia un terreno más íntimo y reflexivo. El resultado no es una novela de procedimientos ni de suspenso puro, sino una indagación sobre la soledad, los vínculos y las biografías rotas que deja la historia latinoamericana reciente. Por eso el libro se recuerda menos por su resolución que por la densidad emocional que construye durante la búsqueda.",
+        "readingLevel": "Lectura accesible para público adulto y universitario inicial. La prosa es clara, pero gana profundidad cuando el lector atiende a los desplazamientos temporales, a los matices psicológicos y al trasfondo político del relato.",
+        "whyReadToday": "Porque muchos de sus temas siguen vigentes: la fragilidad de la memoria, las marcas del exilio, la violencia de género implícita en ciertas relaciones y la necesidad de leer la experiencia femenina más allá de estereotipos sentimentales.",
+        "studyNotes": [
+          "La novela puede leerse como policial, pero su núcleo más fuerte está en la reconstrucción de una subjetividad femenina ausente a través de testimonios incompletos.",
+          "Rosa Alvallay no es una detective clásica: su edad, su biografía y su relación con el exilio modifican la lógica del género y aportan espesor emocional a la pesquisa.",
+          "El título no solo tiene resonancia religiosa y geográfica; también condensa el tema central de la novela: distintas formas de soledad femenina y sus máscaras sociales.",
+          "Conviene prestar atención a cómo las figuras masculinas funcionan como pistas narrativas, pero no agotan la identidad de Carmen Ávila."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "La desaparición de Carmen Ávila",
+            "summary": "El punto de partida instala el enigma: una escritora conocida desaparece sin explicación clara. Desde ese vacío, la novela arma una búsqueda en la que la ausencia pesa tanto como las escasas huellas materiales."
+          },
+          {
+            "title": "Rosa Alvallay toma el caso",
+            "summary": "La detective asume la investigación y el libro perfila su mirada particular: una mujer madura, divorciada y atravesada por su propia historia. La pesquisa se vuelve así también una lectura de sí misma y de su tiempo."
+          },
+          {
+            "title": "Los hombres y las versiones de Carmen",
+            "summary": "Las pistas principales pasan por los vínculos amorosos y políticos de la desaparecida. Cada testimonio aporta información, pero también revela deformaciones, silencios y modos interesados de recordar a Carmen."
+          },
+          {
+            "title": "La verdad emocional detrás del enigma",
+            "summary": "En el tramo final, la novela desplaza el interés desde la resolución estricta del caso hacia la comprensión de una vida marcada por deseo, exilio, escritura y desamparo. La investigación se vuelve aprendizaje sobre los límites de conocer a otro."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Más allá del género negro",
+            "content": "La novela usa recursos del policial —desaparición, pistas, interrogatorios— pero no busca la eficacia mecánica del enigma clásico. Serrano emplea esa estructura para indagar carácter, memoria y experiencia femenina, de modo que el suspense queda subordinado a la exploración moral y afectiva."
+          },
+          {
+            "heading": "Soledad femenina y subjetividad",
+            "content": "El título orienta la lectura hacia una soledad que no es simple aislamiento, sino una condición compleja atravesada por deseo, edad, maternidad, pérdida y escritura. La novela examina cómo una mujer puede ser vista por otros sin ser realmente comprendida."
+          },
+          {
+            "heading": "Exilio, política y memoria generacional",
+            "content": "Las referencias a Chile, México y Estados Unidos sitúan la historia en una experiencia latinoamericana marcada por desplazamientos, rupturas y consecuencias políticas duraderas. El libro no convierte ese trasfondo en consigna, pero lo deja operar sobre vidas íntimas."
+          },
+          {
+            "heading": "La detective como figura de lectura",
+            "content": "Rosa Alvallay investiga documentos y personas, pero sobre todo interpreta relatos ajenos. En ese sentido, la detective funciona como metáfora del lector: alguien que arma una verdad parcial a partir de voces sesgadas y fragmentos discontinuos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela policial en sentido estricto?",
+            "answer": "Solo en parte. Tiene un caso de desaparición y una detective, pero varias fuentes la describen como una intriga que excede el género negro para convertirse en una novela de aprendizaje y exploración psicológica."
+          },
+          {
+            "question": "¿Quién investiga la desaparición de Carmen Ávila?",
+            "answer": "La detective Rosa Alvallay, una mujer de 54 años, divorciada y con una biografía marcada por el exilio, que aborda el caso desde una mirada poco convencional dentro del policial."
+          },
+          {
+            "question": "¿Qué papel tiene México en la novela?",
+            "answer": "Aunque la trama se desarrolla principalmente en Chile, la obra incorpora una dimensión mexicana relevante y el título remite también a la advocación de Nuestra Señora de la Soledad en Oaxaca, ciudad donde Serrano residía al escribirla."
+          },
+          {
+            "question": "¿Qué temas predominan además del misterio?",
+            "answer": "La soledad femenina, la memoria, el exilio, los vínculos amorosos, la escritura y las huellas políticas de una generación latinoamericana."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Wikipedia: Nuestra Señora de la Soledad (novela)",
+            "url": "https://es.wikipedia.org/wiki/Nuestra_Se%C3%B1ora_de_la_Soledad_(novela)"
+          },
+          {
+            "label": "Casa del Libro: Nuestra Señora de la Soledad",
+            "url": "https://www.casadellibro.com/libro-nuestra-senora-de-la-soledad/9788420442013/668316"
+          },
+          {
+            "label": "Lecturalia: Nuestra Señora de la Soledad",
+            "url": "https://www.lecturalia.com/libro/2511/nuestra-senora-de-la-soledad"
+          },
+          {
+            "label": "Internet Archive: Nuestra Señora de la Soledad",
+            "url": "https://archive.org/details/nuestrasetildeno00serr"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "que-es-la-propiedad-de-pierre-joseph-proudhon",
+      "title": "Que Es La Propiedad",
+      "authorName": "Pierre Joseph Proudhon",
+      "authorSlug": "pierre-joseph-proudhon",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 9,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "¿Qué es la propiedad?",
+        "authorName": "Pierre-Joseph Proudhon",
+        "authorSlug": "pierre-joseph-proudhon",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "filosofía política",
+          "ensayo económico",
+          "pensamiento social"
+        ],
+        "year": 1840,
+        "pages": 232,
+        "summary": "¿Qué es la propiedad? es uno de los textos fundacionales del socialismo y del anarquismo modernos. En esta obra Pierre-Joseph Proudhon somete a crítica las justificaciones jurídicas, morales y económicas de la propiedad privada, distinguiéndola de la posesión y formulando su célebre provocación: la propiedad es un robo. Lejos de ser un simple eslogan, la frase resume una argumentación extensa en la que el autor discute el derecho natural, la ocupación, el trabajo, la prescripción y la soberanía como bases insuficientes para legitimar la apropiación exclusiva. Proudhon intenta demostrar que la propiedad, tal como funciona en la sociedad moderna, produce desigualdad, renta injustificada, dominación y contradicción entre libertad e igualdad. El libro combina análisis conceptual, polémica, ironía y ambición sistemática. Aunque muchas de sus tesis han sido discutidas o reformuladas, sigue siendo una obra decisiva para entender el nacimiento de una crítica radical del orden económico liberal en el siglo XIX.",
+        "aboutThisBook": "Publicado en 1840 bajo el subtítulo Investigación sobre el principio del derecho y del gobierno, este ensayo convirtió a Proudhon en una figura polémica de primer orden. No es un tratado académico desapasionado, sino una intervención combativa en debates sobre derecho, economía política y legitimidad del Estado. Su método mezcla discusión filosófica, análisis de principios jurídicos y ataque directo a las consecuencias sociales de la desigualdad patrimonial. El libro debe leerse en el contexto de la Francia posrevolucionaria y de la temprana industrialización europea, pero su influencia desbordó ese marco y alcanzó tradiciones mutualistas, anarquistas, socialistas y críticas de la renta. También importa por su lenguaje: es una obra que piensa a través de la controversia y de fórmulas destinadas a romper consensos.",
+        "forWhom": "Para estudiantes y lectores de filosofía política, historia de las ideas, economía crítica y teoría social que quieran acercarse a una fuente primaria decisiva del siglo XIX.",
+        "whyItMatters": "Importa porque puso en cuestión, con una fuerza extraordinaria, una de las instituciones centrales del orden liberal moderno. Muchas discusiones posteriores sobre propiedad, explotación, mutualismo y justicia social dialogan directa o indirectamente con este libro.",
+        "editorialIntro": "Hay libros que no solo intervienen en un debate, sino que cambian su vocabulario. ¿Qué es la propiedad? pertenece a esa clase. Proudhon entra en la cuestión de la propiedad privada no para administrarla mejor, sino para desarmar sus fundamentos teóricos y mostrar sus efectos de dominación. El resultado es un ensayo polémico, desigual y poderosamente vivo, cuya audacia conceptual sigue obligando a pensar la relación entre libertad, igualdad, trabajo y apropiación.",
+        "readingLevel": "Nivel alto. Aunque algunas fórmulas son célebres y directas, el desarrollo argumental exige atención a conceptos jurídicos, filosóficos y económicos. Es una lectura universitaria provechosa, especialmente con apoyo de contexto histórico.",
+        "whyReadToday": "Porque las discusiones sobre desigualdad patrimonial, renta, acceso a la vivienda, concentración económica y legitimidad de la propiedad siguen abiertas. Leer a Proudhon ayuda a entender uno de sus orígenes teóricos más incisivos.",
+        "studyNotes": [
+          "La frase la propiedad es un robo no niega toda relación con los bienes, sino una forma específica de apropiación exclusiva que genera dominación y renta sin trabajo equivalente.",
+          "Conviene distinguir en Proudhon entre propiedad y posesión; esa diferencia evita lecturas simplistas que lo presentan como enemigo de cualquier uso individual de las cosas.",
+          "El libro mezcla filosofía, derecho y economía política, por lo que su fuerza reside tanto en la crítica conceptual como en la provocación pública.",
+          "Leerlo históricamente no reduce su vigencia: muchas de sus preguntas reaparecen en debates contemporáneos sobre deuda, alquiler, monopolio y acceso desigual a recursos."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Método y problema político",
+            "summary": "Proudhon comienza delimitando su investigación y anunciando que la propiedad no debe aceptarse como hecho natural o institución intocable. Desde el inicio, el libro vincula la cuestión económica con una teoría del derecho y del gobierno."
+          },
+          {
+            "title": "Crítica de los fundamentos jurídicos de la propiedad",
+            "summary": "Una parte central examina y discute los argumentos que legitiman la propiedad como derecho natural, ocupación originaria o institución sancionada por la ley civil. Proudhon intenta mostrar que ninguno resiste una evaluación rigurosa."
+          },
+          {
+            "title": "Trabajo, igualdad y contradicción",
+            "summary": "Después el autor aborda la tesis según la cual el trabajo funda por sí mismo la propiedad. Su conclusión es que el trabajo, correctamente entendido, conduce más bien a criterios de igualdad y reciprocidad que a la acumulación excluyente."
+          },
+          {
+            "title": "La propiedad como imposibilidad social y moral",
+            "summary": "En la parte más famosa del libro, Proudhon formula distintas proposiciones para demostrar que la propiedad es imposible o contradictoria en sus propios términos. Lo hace porque, a su juicio, convierte la libertad de unos en servidumbre de otros."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "La fuerza de una fórmula polémica",
+            "content": "La celebridad del libro se debe en parte a una consigna memorable, pero reducirlo a ella es empobrecerlo. La frase la propiedad es un robo condensa una cadena argumental extensa contra la renta, la apropiación exclusiva y la desigualdad legitimada por el derecho."
+          },
+          {
+            "heading": "Propiedad y posesión",
+            "content": "Una de las distinciones más importantes de Proudhon separa la posesión ligada al uso y al trabajo de la propiedad entendida como poder absoluto de exclusión y beneficio. Esa diferencia será decisiva para el mutualismo posterior."
+          },
+          {
+            "heading": "Ensayo de transición entre liberalismo y socialismo",
+            "content": "El libro discute con categorías del derecho liberal, pero lo hace para revelar su insuficiencia frente a la desigualdad real. Por eso ocupa un lugar de bisagra en la historia intelectual del siglo XIX: hereda un lenguaje de derechos y lo vuelve críticamente contra el orden propietario."
+          },
+          {
+            "heading": "Vigencia en debates contemporáneos",
+            "content": "Aunque muchas soluciones proudhonianas son discutibles, su pregunta central sigue resonando: ¿cómo justificar moral y políticamente la apropiación desigual de recursos comunes o socialmente producidos? Esa cuestión atraviesa hoy debates sobre vivienda, plataformas, patentes y concentración de riqueza."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué significa exactamente la frase la propiedad es un robo?",
+            "answer": "Significa que cierta forma de propiedad privada, entendida como derecho absoluto de apropiación y renta, descansa en una expropiación de la riqueza social producida por otros. No equivale a negar toda posesión o todo uso personal de bienes."
+          },
+          {
+            "question": "¿Es un libro anarquista?",
+            "answer": "Sí, en sentido fundacional. Aunque anterior a formulaciones anarquistas posteriores, es una obra clave en la genealogía del anarquismo y del mutualismo por su crítica del Estado, la autoridad y la propiedad como dominación."
+          },
+          {
+            "question": "¿Hace falta formación filosófica para leerlo?",
+            "answer": "Ayuda bastante. El libro es accesible por momentos, pero desarrolla argumentos jurídicos y filosóficos exigentes. Para un primer acercamiento conviene acompañarlo con introducciones históricas o notas críticas."
+          },
+          {
+            "question": "¿Por qué sigue leyéndose hoy?",
+            "answer": "Porque ataca un problema que no ha desaparecido: cómo se legitiman las desigualdades patrimoniales y qué relación guardan con la libertad, el trabajo y la justicia. Su radicalidad sigue siendo intelectualmente provocadora."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Biblioteca Virtual Antorcha: ¿Qué es la propiedad?",
+            "url": "https://www.antorcha.net/biblioteca_virtual/politica/proudhon/indice.html"
+          },
+          {
+            "label": "Marxists Internet Archive: What is Property?",
+            "url": "https://www.marxists.org/reference/subject/economics/proudhon/property/index.htm"
+          },
+          {
+            "label": "Internet Archive: ¿Qué es la propiedad? Pierre Joseph Proudhon",
+            "url": "https://archive.org/details/QueEsLaPropiedad-Proudhon"
+          },
+          {
+            "label": "Google Libros: Que Es La Propiedad?",
+            "url": "https://books.google.com/books/about/Que_Es_La_Propiedad.html?id=sKcrswEACAAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "reina-roja-de-juan-gomez-jurado",
+      "title": "Reina Roja",
+      "authorName": "Juan Gomez Jurado",
+      "authorSlug": "juan-gomez-jurado",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 10,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Reina Roja",
+        "authorName": "Juan Gómez-Jurado",
+        "authorSlug": "juan-gomez-jurado",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "thriller",
+          "novela negra",
+          "suspense"
+        ],
+        "year": 2018,
+        "pages": 497,
+        "summary": "Reina Roja abre la serie protagonizada por Antonia Scott, una mujer de inteligencia extraordinaria que ha colaborado en la resolución de crímenes, pero que vive recluida y emocionalmente devastada cuando la novela comienza. La irrupción del policía Jon Gutiérrez, obligado a buscarla y convencerla de volver a actuar, pone en marcha una investigación que enlaza asesinato, secuestro, redes de poder y persecución por Madrid. Juan Gómez-Jurado construye el relato con capítulos breves, presión constante y un equilibrio muy calculado entre acción, deducción y química entre personajes. El libro no solo propone un caso de alto voltaje narrativo: presenta una pareja investigadora muy marcada por el contraste entre la brillantez casi inhumana de Antonia y la humanidad torpe, leal y vulnerable de Jon. De ese contraste surge buena parte de la energía del thriller.",
+        "aboutThisBook": "Publicada el 8 de noviembre de 2018, la novela es el primer volumen de la trilogía de Antonia Scott, completada por Loba Negra y Rey Blanco. La página oficial del autor la presenta como la entrada a un universo de suspense construido alrededor de un personaje excepcional, mientras Google Libros destaca la combinación de caso criminal, reclusión psicológica y ritmo adictivo. Reina Roja ocupa un lugar destacado dentro del thriller español reciente porque mezcla eficacia comercial, estructura serial y una clara voluntad de crear un imaginario propio reconocible por voz, atmósfera y personajes.",
+        "forWhom": "Muy adecuada para lectores de thriller contemporáneo, novela negra de ritmo veloz y sagas criminales guiadas por personajes fuertes y por una intriga sostenida casi sin descanso.",
+        "whyItMatters": "Importa porque consolidó una de las series más visibles del thriller español reciente y porque logró convertir a Antonia Scott en una protagonista distintiva dentro del género. También mostró la potencia serial y audiovisual del universo narrativo de Gómez-Jurado.",
+        "editorialIntro": "Reina Roja está escrita para no soltar al lector, pero su eficacia no depende solo de la velocidad. Juan Gómez-Jurado entiende que un thriller memorable necesita una inteligencia narrativa reconocible y una pareja de personajes capaz de sostener algo más que la resolución de un caso. Antonia Scott y Jon Gutiérrez cumplen justamente esa función: ella aporta excepcionalidad, cálculo y herida; él, fricción humana, humor y arraigo. A partir de esa tensión, la novela organiza un mecanismo de suspense de gran rendimiento popular.",
+        "readingLevel": "Nivel medio: la lectura es ágil y muy guiada por la acción, aunque el libro se disfruta más si se observa cómo administra la información, construye tensión y perfila el vínculo entre Antonia y Jon.",
+        "whyReadToday": "Sigue siendo una lectura vigente porque ejemplifica muy bien la evolución del thriller comercial en español hacia sagas de alta serialidad, personajes icónicos y narrativas preparadas para dialogar con el ecosistema audiovisual contemporáneo.",
+        "studyNotes": [
+          "La novela presenta a Antonia Scott como una figura extraordinaria, pero evita volverla abstracta gracias a su fragilidad emocional y al contrapunto constante que ofrece Jon Gutiérrez.",
+          "El ritmo depende de capítulos cortos, cambios de foco y revelaciones parciales; por eso resulta útil analizarla como maquinaria de tensión además de como relato policial.",
+          "Más allá del caso, el libro trabaja una pregunta central del género: qué coste personal tiene convertir la inteligencia o la eficacia investigadora en forma de vida."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Inicio: Jon encuentra a Antonia",
+            "summary": "El policía Jon Gutiérrez recibe la misión de localizar a Antonia Scott y sacarla de su reclusión. Ese encuentro inicial establece el tono de la novela y la dinámica entre dos personajes radicalmente distintos que deberán aprender a trabajar juntos."
+          },
+          {
+            "title": "Nudo: una investigacion contrarreloj",
+            "summary": "La aparición de un crimen de gran impacto y de una amenaza que desborda los procedimientos ordinarios obliga a la nueva pareja a moverse entre pistas, secretos y presiones crecientes. Madrid se convierte en un tablero de persecución y cálculo."
+          },
+          {
+            "title": "Desenlace: revelaciones y apertura de saga",
+            "summary": "La resolución del caso aclara la lógica criminal del conflicto, pero también deja abiertas zonas decisivas del pasado y del futuro de Antonia Scott. El final cumple así una doble función: cerrar el primer gran enfrentamiento y preparar la continuidad de la serie."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Antonia Scott como protagonista de excepcion",
+            "content": "El principal hallazgo del libro es su protagonista. Antonia combina rasgos del detective genial con una vulnerabilidad muy visible, lo que impide que quede reducida a mero artificio intelectual. El thriller gana así una figura memorable y serializable."
+          },
+          {
+            "heading": "La pareja investigadora",
+            "content": "Jon Gutiérrez no es un simple acompañante. Su presencia introduce humor, corporeidad y una medida ética de la realidad que compensa la frialdad analítica de Antonia. El vínculo entre ambos organiza la lectura tanto como el enigma criminal."
+          },
+          {
+            "heading": "Ritmo y arquitectura comercial",
+            "content": "Reina Roja está diseñada con gran conciencia de ritmo: capítulos cortos, escenas con objetivo claro y dosificación constante de la información. Esa arquitectura explica buena parte de su alcance popular y de su facilidad para expandirse a otros formatos."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es necesario leer otros libros antes de Reina Roja?",
+            "answer": "No. Es el punto de entrada a la trilogía de Antonia Scott y funciona por sí sola, aunque deja líneas abiertas que continúan en los siguientes volúmenes."
+          },
+          {
+            "question": "¿Que tipo de thriller propone?",
+            "answer": "Combina investigación criminal, persecución urbana y suspense de alta velocidad, con un fuerte énfasis en personajes carismáticos y en giros pensados para sostener la serialidad."
+          },
+          {
+            "question": "¿Quien es Antonia Scott?",
+            "answer": "Es una mujer de inteligencia excepcional ligada a la resolución de crímenes, recluida al inicio de la novela y empujada de nuevo a actuar cuando un caso especialmente grave exige sus capacidades."
+          },
+          {
+            "question": "¿Por que tuvo tanta repercusion?",
+            "answer": "Porque reunió una protagonista muy reconocible, un ritmo adictivo y un planteamiento fácilmente expandible a saga, lo que amplificó su circulación entre lectores habituales y públicos nuevos del thriller."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Juan Gómez-Jurado - Reina Roja",
+            "url": "https://juangomezjurado.com/libro/reina-roja/"
+          },
+          {
+            "label": "Wikipedia en español - Reina Roja (novela)",
+            "url": "https://es.wikipedia.org/wiki/Reina_Roja_(novela)"
+          },
+          {
+            "label": "Google Libros - Reina roja (Antonia Scott 1)",
+            "url": "https://books.google.com/books/about/Reina_roja_Antonia_Scott_1.html?hl=es&id=SilxDwAAQBAJ"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "son-de-mar-de-manuel-vicent",
+      "title": "Son De Mar",
+      "authorName": "Manuel Vicent",
+      "authorSlug": "manuel-vicent",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 11,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Son de mar",
+        "authorName": "Manuel Vicent",
+        "authorSlug": "manuel-vicent",
+        "type": "ficcion",
+        "audience": "adulto",
+        "genres": [
+          "novela contemporánea",
+          "ficción literaria",
+          "realismo poético"
+        ],
+        "year": 1999,
+        "pages": 333,
+        "summary": "Son de mar es una novela de amor, deseo, naufragio y regreso construida con un tono mediterráneo, sensual y a la vez irónico. Manuel Vicent parte de una situación casi mítica —un hombre que desaparece en el mar y vuelve años después— para explorar cómo la pasión, la memoria y la identidad cambian cuando el tiempo ha seguido avanzando para todos los demás. El libro juega deliberadamente con ecos homéricos, pero no para escribir una simple relectura culta de la Odisea, sino para mezclar mito clásico, costumbrismo litoral y observación mordaz de la España contemporánea. El mar no aparece como mero decorado: es fuerza erótica, destino, amenaza y promesa de resurrección. De ese cruce nace una novela breve en extensión relativa, pero muy cargada de atmósfera, imágenes y símbolos sobre el cuerpo, el deseo y la imposibilidad de regresar intacto a la propia vida.",
+        "aboutThisBook": "Publicada en 1999, Son de mar es una de las novelas más conocidas de Manuel Vicent y fue llevada al cine por Bigas Luna en 2001. Su recepción se apoyó en esa rara combinación de legibilidad narrativa y densidad literaria que caracteriza buena parte de la obra de Vicent: prosa brillante, sensualidad mediterránea, referencias clásicas y una mirada escéptica sobre las máscaras sociales. La trama de naufragio y retorno permite leerla como historia amorosa, como fábula sobre la reinvención del yo y como variación contemporánea sobre el mito del héroe que vuelve. El resultado no es una novela de aventuras en sentido estricto, sino una ficción literaria donde paisaje, deseo y lenguaje tienen casi tanto peso como la intriga argumental.",
+        "forWhom": "Para lectores de novela literaria española contemporánea, interesados en relatos de pasión, identidad y retorno, y en ficciones donde la atmósfera simbólica importa tanto como la historia narrada.",
+        "whyItMatters": "Importa porque condensa rasgos centrales de la prosa de Manuel Vicent: sensualidad, ironía, cultura clásica y observación social. Además, convierte un motivo arcaico —el regreso del náufrago— en una reflexión moderna sobre deseo y memoria.",
+        "editorialIntro": "Manuel Vicent escribe aquí una novela donde el Mediterráneo es mucho más que paisaje: es una forma de imaginar el cuerpo, el destino y la tentación de empezar de nuevo. Son de mar seduce por su superficie luminosa, pero debajo de esa belleza verbal hay una pregunta inquietante: qué vuelve realmente cuando alguien regresa del pasado. La novela se sostiene en ese equilibrio entre mito y actualidad, entre erotismo y desencanto, entre resurrección amorosa y fracaso del retorno. Por eso sigue siendo una pieza singular dentro de la narrativa española reciente.",
+        "readingLevel": "Nivel medio-alto: la prosa es fluida, pero el lector aprecia mejor la novela si atiende a sus símbolos marítimos, sus resonancias clásicas y su constante cruce entre ironía, erotismo y mito.",
+        "whyReadToday": "Porque sigue ofreciendo una forma muy poderosa de pensar el amor, el cuerpo y el regreso en tiempos de identidades inestables. También porque muestra cómo la novela contemporánea puede dialogar con los mitos sin volverse académica.",
+        "studyNotes": [
+          "El mar funciona como símbolo estructural: no sólo separa y reúne, también redefine identidad, deseo y memoria.",
+          "La novela dialoga con la Odisea y con la figura del regreso imposible, pero lo hace desde una sensibilidad plenamente contemporánea y mediterránea.",
+          "Vicent combina lirismo y observación irónica: la prosa busca belleza sensorial sin abandonar una mirada crítica sobre el entorno social.",
+          "Conviene leer el libro como una historia de amor, pero también como una reflexión sobre la resurrección narrativa y sobre la imposibilidad de recuperar intacto el pasado."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "Parte 1. Llegada, seducción y promesa de plenitud",
+            "summary": "La novela presenta un mundo costero donde el deseo parece capaz de reorganizar la vida. En ese marco, el vínculo amoroso adquiere un brillo casi legendario, sostenido por la fascinación y la sensualidad del entorno mediterráneo."
+          },
+          {
+            "title": "Parte 2. Pérdida, naufragio y tiempo suspendido",
+            "summary": "La desaparición en el mar transforma la historia amorosa en ausencia y mito. El relato empieza a girar sobre lo que queda después del cuerpo perdido: recuerdo, espera, reconstrucción y versiones contradictorias del pasado."
+          },
+          {
+            "title": "Parte 3. El regreso y la verdad incómoda del deseo",
+            "summary": "Cuando el retorno parece cumplir la fantasía de la resurrección, la novela muestra que volver no significa restaurar lo vivido. El desenlace enfrenta amor, memoria y realidad hasta revelar el costo profundo del regreso."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "Una Odisea mediterránea y contemporánea",
+            "content": "El libro toma motivos del imaginario clásico —naufragio, espera, retorno— y los traslada a una geografía reconocible y moderna. Esa operación le permite a Vicent escribir una novela culta sin perder ligereza narrativa ni vitalidad sensorial."
+          },
+          {
+            "heading": "El mar como fuerza narrativa",
+            "content": "En Son de mar el mar no es fondo escénico, sino agente decisivo. Ordena el erotismo, marca la pérdida, hace posible el milagro del regreso y termina por recordar que toda resurrección literaria lleva consigo una zona de amenaza."
+          },
+          {
+            "heading": "Sensualidad e ironía",
+            "content": "La prosa de Vicent avanza entre imágenes corporales, brillo mediterráneo y una ironía que impide la idealización completa. Gracias a esa mezcla, la novela evita tanto el sentimentalismo como el mero ejercicio estilístico."
+          },
+          {
+            "heading": "Vigencia de la novela",
+            "content": "Sigue siendo vigente porque convierte un argumento antiguo en una reflexión moderna sobre identidad, deseo y reinvención. Además, ofrece un ejemplo muy claro de cómo la ficción española reciente puede ser al mismo tiempo accesible y literariamente ambiciosa."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Es una novela realista o una fábula mítica?",
+            "answer": "Es ambas cosas a la vez. Parte de un entorno reconocible, pero trabaja con símbolos y estructuras de resonancia mítica, especialmente ligadas al mar y al regreso."
+          },
+          {
+            "question": "¿Hace falta conocer la Odisea para disfrutarla?",
+            "answer": "No, aunque reconocer esas resonancias enriquece mucho la lectura. La novela funciona por sí sola como historia de amor, pérdida y retorno."
+          },
+          {
+            "question": "¿Qué rasgo destaca más en la escritura de Manuel Vicent aquí?",
+            "answer": "La combinación de sensualidad verbal, imaginería mediterránea e ironía crítica, una mezcla que vuelve muy singular el tono de la novela."
+          },
+          {
+            "question": "¿La adaptación cinematográfica sustituye bien al libro?",
+            "answer": "No del todo. La película amplió la visibilidad de la historia, pero la prosa de Vicent y su trabajo con símbolos, ritmo y atmósfera hacen que la experiencia de lectura tenga un valor propio."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Google Libros: Son de mar",
+            "url": "https://books.google.com/books/about/Son_de_mar.html?id=WuXDAAAACAAJ"
+          },
+          {
+            "label": "Internet Archive: Son de mar",
+            "url": "https://archive.org/details/sondemarthesongo00manu"
+          },
+          {
+            "label": "Wikipedia: Manuel Vicent",
+            "url": "https://es.wikipedia.org/wiki/Manuel_Vicent"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "una-luna-de-martin-caparros",
+      "title": "Una Luna",
+      "authorName": "Martin Caparros",
+      "authorSlug": "martin-caparros",
+      "type": "ficcion",
+      "audience": "todos",
+      "genres": [
+        "narrativa"
+      ],
+      "year": null,
+      "pages": null,
+      "clicks": 3,
+      "impressions": 4,
+      "priority": 12,
+      "current": {
+        "summary": "Pendiente de desarrollo editorial.",
+        "aboutThisBook": "Ficha en expansión a partir de señal histórica de clicks.",
+        "centralConflict": "",
+        "themes": [],
+        "keyIdeas": [],
+        "forWhom": "Pendiente de revisión editorial.",
+        "whyItMatters": "Pendiente de revisión editorial.",
+        "tone": "",
+        "escpilar": false
+      },
+      "rewritten": {
+        "title": "Una luna",
+        "authorName": "Martín Caparrós",
+        "authorSlug": "martin-caparros",
+        "type": "no-ficcion",
+        "audience": "adulto",
+        "genres": [
+          "crónica",
+          "periodismo narrativo",
+          "literatura de viajes"
+        ],
+        "year": 2009,
+        "pages": 192,
+        "summary": "Una luna es una crónica de desplazamiento extremo: durante veintiocho días, Martín Caparrós recorre ocho países en tres continentes y convierte ese trayecto frenético en un laboratorio de observación sobre migraciones, destierro y desigualdad global. Enviado por una agencia de Naciones Unidas, el autor recoge historias de jóvenes migrantes y víctimas de violencia estructural: mujeres traficadas, refugiados de guerra, deportados, personas atravesadas por el sida, quienes intentan cruzar fronteras o rehacer una vida en condiciones muy precarias. El libro no se limita a acumular testimonios; los entreteje con las reflexiones del cronista sobre el viaje contemporáneo, la velocidad de la información y el modo en que el mundo se enlaza por hipervínculos materiales y humanos. El resultado es una obra híbrida, intensamente móvil, donde la geografía global se vuelve experiencia moral y forma literaria.",
+        "aboutThisBook": "Publicado por Anagrama en 2009, el libro ha circulado también con el subtítulo Diario de hiperviaje en ediciones posteriores. La propia presentación editorial lo define como el registro de un mes de saltos entre ciudades como Kishinau, Monrovia, Ámsterdam, Lusaka, Pittsburgh, París, Madrid, Barcelona y Johannesburgo. Esa velocidad no es un simple recurso espectacular: sirve para pensar una época en la que personas, noticias, expulsiones y deseos se conectan de forma vertiginosa. Caparrós, uno de los grandes cronistas hispanoamericanos contemporáneos, usa el desplazamiento como estructura y como argumento; cada encuentro concreto abre una reflexión sobre el mapa desigual del presente.",
+        "forWhom": "Para lectores de crónica latinoamericana, periodismo narrativo y estudios sobre migración, así como para quienes buscan no ficción literaria con alcance internacional y reflexión ética.",
+        "whyItMatters": "Importa porque condensa, en un formato relativamente breve, muchos de los problemas centrales del siglo XXI: movilidad forzada, fronteras, trata, violencia, salud global e inequidad entre regiones conectadas pero profundamente desiguales.",
+        "editorialIntro": "En Caparrós, viajar nunca significa solo desplazarse. Significa comparar escalas, detectar jerarquías y dejar que las historias ajenas alteren la manera de mirar el mundo. Una luna es una de sus crónicas más intensas en ese sentido: un libro rápido en la superficie, pero lleno de fricción moral. A través de un itinerario casi delirante, muestra cómo la literatura documental puede capturar la simultaneidad brutal del presente global.",
+        "readingLevel": "Lectura adecuada para público adulto, universitario y lectores acostumbrados a la no ficción. El estilo es claro pero exigente por su densidad reflexiva, sus cambios de escena y la carga ética de los testimonios que incorpora.",
+        "whyReadToday": "Porque las migraciones forzadas, las expulsiones y la desigualdad transnacional no han perdido urgencia. El libro ayuda a pensar esos procesos sin reducirlos a estadísticas ni a consignas abstractas.",
+        "studyNotes": [
+          "El concepto de 'hiperviaje' es central: no describe solo rapidez física, sino una forma contemporánea de saltar entre mundos inconexos que, sin embargo, pertenecen al mismo sistema global.",
+          "La obra combina testimonio, diario de viaje y ensayo, por lo que conviene leerla como un texto híbrido más que como reportaje lineal o memoir tradicional.",
+          "Los casos individuales no funcionan como ejemplos decorativos; son el núcleo ético del libro y sostienen la crítica a las desigualdades del orden mundial.",
+          "Caparrós narra desde una primera persona consciente de sus límites, lo que abre preguntas sobre representación, distancia y responsabilidad del cronista."
+        ],
+        "chapterSummaries": [
+          {
+            "title": "El dispositivo del hiperviaje",
+            "summary": "El libro se organiza alrededor de un mes de desplazamientos continuos. Desde el comienzo, Caparrós convierte esa aceleración en una forma de pensar: viajar como quien abre enlaces sucesivos y descubre la violencia de las conexiones globales."
+          },
+          {
+            "title": "Historias de migración y destierro",
+            "summary": "En el centro del relato aparecen jóvenes migrantes y víctimas de múltiples sistemas de expulsión: guerra, pobreza, trata, enfermedad o deportación. Cada encuentro amplía el mapa humano del libro y evita que la globalización quede en abstracción."
+          },
+          {
+            "title": "Ciudades, fronteras y contrastes",
+            "summary": "El paso por ciudades de Europa, África y América permite comparar regímenes de riqueza, miedo, burocracia y precariedad. El viaje muestra que la frontera no es solo una línea, sino una experiencia cotidiana de desigualdad."
+          },
+          {
+            "title": "La reflexión del cronista",
+            "summary": "Hacia el cierre, el texto afirma con más fuerza su dimensión ensayística. Las historias recogidas durante la ruta se entrecruzan con preguntas sobre el lugar del narrador, la representación del sufrimiento y la imposibilidad de mirar el mundo global con inocencia."
+          }
+        ],
+        "analysisSections": [
+          {
+            "heading": "El hiperviaje como forma narrativa",
+            "content": "La velocidad del recorrido no es mero adorno contemporáneo. Organiza la experiencia del libro y reproduce una sensación propia del mundo globalizado: pasar de un escenario a otro sin tiempo suficiente para asimilarlo del todo, mientras las desigualdades aparecen encadenadas."
+          },
+          {
+            "heading": "Crónica y ética del testimonio",
+            "content": "Caparrós no habla de migración en abstracto, sino a través de voces y trayectorias concretas. Esa decisión vuelve el libro más incisivo, pero también obliga a pensar la responsabilidad del cronista cuando transforma sufrimiento real en relato literario."
+          },
+          {
+            "heading": "Geografía moral de la globalización",
+            "content": "Los trayectos del libro dibujan un mapa del presente donde riqueza, exclusión, control fronterizo y movilidad forzada se tocan constantemente. La crónica revela que la globalización no iguala experiencias; más bien acelera sus contrastes."
+          },
+          {
+            "heading": "Una obra clave del periodismo narrativo hispanoamericano",
+            "content": "La recepción editorial posterior ha insistido en que el libro explica el peso de la crónica en las últimas décadas. Esa valoración se entiende al ver cómo Caparrós une observación, reflexión, estructura formal y ambición literaria sin dejar de sostener una base documental fuerte."
+          }
+        ],
+        "faqs": [
+          {
+            "question": "¿Una luna es novela o crónica?",
+            "answer": "Es un libro de no ficción, cercano a la crónica y al periodismo narrativo. Su materia principal son los viajes, los testimonios y la reflexión ensayística sobre migración y desigualdad."
+          },
+          {
+            "question": "¿Qué significa 'hiperviaje' en el libro?",
+            "answer": "Se refiere al viaje acelerado y fragmentario de veintiocho días por varios países y continentes, comparable al salto entre hipervínculos. El término resume tanto la forma del recorrido como la lógica del mundo contemporáneo que el libro examina."
+          },
+          {
+            "question": "¿Qué temas aborda además de la migración?",
+            "answer": "Destierro, trata, guerra, deportación, sida, fronteras, desigualdad global y el papel del cronista frente a historias de sufrimiento y movilidad forzada."
+          },
+          {
+            "question": "¿Por qué se sigue leyendo hoy?",
+            "answer": "Porque sus preguntas sobre movilidad, violencia y desigualdad internacional siguen siendo centrales. El libro ofrece una mirada concreta y literaria sobre problemas que continúan definiendo el presente."
+          }
+        ],
+        "reviewedAt": "2026-04-18",
+        "sources": [
+          {
+            "label": "Editorial Anagrama: Una luna",
+            "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/una-luna/9788433971906/NH_451"
+          },
+          {
+            "label": "Penguin Libros: Una luna",
+            "url": "https://www.penguinlibros.com/es/libro-de-biografias/325745-ebook-una-luna-9788439742845"
+          },
+          {
+            "label": "Lecturalia: Una luna",
+            "url": "https://www.lecturalia.com/libro/30013/una-luna"
+          },
+          {
+            "label": "Goodreads: Una luna",
+            "url": "https://www.goodreads.com/book/show/135728292-una-luna"
+          }
+        ]
+      }
+    }
+  ],
+  "appliedAt": "2026-04-18T11:10:19Z"
+}
