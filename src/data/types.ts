@@ -53,6 +53,13 @@ export interface Book {
   audience: AudienceLevel;
   year?: number;
   pages?: number;
+  publisher?: string;
+  isbn?: string;
+  isbnDigital?: string;
+  externalGenreLabel?: string;
+  amazonUrl?: string;
+  amazonEbookUrl?: string;
+  coverImageUrl?: string;
   summary: string;
   aboutThisBook: string;
   characters?: Character[];

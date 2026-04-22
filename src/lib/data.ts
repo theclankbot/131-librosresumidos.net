@@ -3,9 +3,21 @@ import expansionBooks from "@/data/expansion-books.json";
 import { authors } from "@/data/authors";
 import { genres } from "@/data/genres";
 import editorialOverrides from "@/data/editorial-overrides.json";
+import bookMetadata from "@/data/book-metadata.json";
 import { Book, Author, GenreInfo, Genre } from "@/data/types";
 
 const overrides = editorialOverrides as Record<string, Partial<Book>>;
+const rawMetadataBySlug = bookMetadata as Record<string, Record<string, string | number | null>>;
+const metadataBySlug: Record<string, Partial<Book>> = Object.fromEntries(
+  Object.entries(rawMetadataBySlug).map(([slug, meta]) => [
+    slug,
+    Object.fromEntries(
+      Object.entries(meta).filter(
+        ([key, value]) => value !== null && key !== "metadataMatchMethod"
+      )
+    ),
+  ])
+);
 const extraBooks: Book[] = expansionBooks.map((book) => ({
   ...book,
   year: book.year ?? undefined,
@@ -15,6 +27,7 @@ const allBooks = [...books, ...extraBooks];
 
 const mergedBooks: Book[] = allBooks.map((book) => ({
   ...book,
+  ...(metadataBySlug[book.slug] ?? {}),
   ...(overrides[book.slug] ?? {}),
 }));
 

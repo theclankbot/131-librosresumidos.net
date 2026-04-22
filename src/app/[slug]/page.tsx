@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import BookCard from "@/components/BookCard";
@@ -85,23 +86,107 @@ export default async function BookPage({
           )}
         </div>
 
-        <h1 className="font-serif text-3xl md:text-4xl font-bold text-foreground leading-tight">
-          {book.title}
-        </h1>
-        <p className="mt-2 text-lg text-muted">
-          <Link
-            href={`/autor/${book.authorSlug}`}
-            className="hover:text-accent transition-colors"
-          >
-            {book.authorName}
-          </Link>
-          {book.year && <span className="ml-2">({book.year})</span>}
-          {book.pages && (
-            <span className="ml-2 text-sm">
-              &middot; {book.pages} páginas
-            </span>
-          )}
-        </p>
+        <div className="grid gap-6 md:grid-cols-[220px_minmax(0,1fr)] items-start">
+          <div className="mx-auto md:mx-0 w-full max-w-[220px]">
+            <div className="relative aspect-[2/3] overflow-hidden rounded-2xl border border-border bg-stone-100 shadow-sm">
+              {book.coverImageUrl ? (
+                <Image
+                  src={book.coverImageUrl}
+                  alt={`Portada de ${book.title}`}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 180px, 220px"
+                />
+              ) : (
+                <div className="absolute inset-0 flex items-center justify-center p-6 text-center text-sm text-muted">
+                  Portada no disponible
+                </div>
+              )}
+            </div>
+          </div>
+
+          <div>
+            <h1 className="font-serif text-3xl md:text-4xl font-bold text-foreground leading-tight">
+              {book.title}
+            </h1>
+            <p className="mt-2 text-lg text-muted">
+              <Link
+                href={`/autor/${book.authorSlug}`}
+                className="hover:text-accent transition-colors"
+              >
+                {book.authorName}
+              </Link>
+            </p>
+
+            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="bg-card border border-border rounded-lg p-4">
+                <span className="text-xs text-muted block mb-1">Autor</span>
+                <span className="text-sm font-medium text-foreground">{book.authorName}</span>
+              </div>
+              {book.year && (
+                <div className="bg-card border border-border rounded-lg p-4">
+                  <span className="text-xs text-muted block mb-1">Año</span>
+                  <span className="text-sm font-medium text-foreground">{book.year}</span>
+                </div>
+              )}
+              {book.publisher && (
+                <div className="bg-card border border-border rounded-lg p-4">
+                  <span className="text-xs text-muted block mb-1">Editorial</span>
+                  <span className="text-sm font-medium text-foreground">{book.publisher}</span>
+                </div>
+              )}
+              {book.externalGenreLabel && (
+                <div className="bg-card border border-border rounded-lg p-4">
+                  <span className="text-xs text-muted block mb-1">Género</span>
+                  <span className="text-sm font-medium text-foreground">{book.externalGenreLabel}</span>
+                </div>
+              )}
+              {book.pages && (
+                <div className="bg-card border border-border rounded-lg p-4">
+                  <span className="text-xs text-muted block mb-1">Páginas</span>
+                  <span className="text-sm font-medium text-foreground">{book.pages}</span>
+                </div>
+              )}
+              {book.isbn && (
+                <div className="bg-card border border-border rounded-lg p-4">
+                  <span className="text-xs text-muted block mb-1">ISBN</span>
+                  <span className="text-sm font-medium text-foreground break-all">{book.isbn}</span>
+                </div>
+              )}
+              {book.isbnDigital && (
+                <div className="bg-card border border-border rounded-lg p-4">
+                  <span className="text-xs text-muted block mb-1">ISBN digital</span>
+                  <span className="text-sm font-medium text-foreground break-all">{book.isbnDigital}</span>
+                </div>
+              )}
+            </div>
+
+            {(book.amazonUrl || book.amazonEbookUrl) && (
+              <div className="mt-5 flex flex-wrap gap-3">
+                {book.amazonUrl && (
+                  <a
+                    href={book.amazonUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center justify-center rounded-lg bg-foreground px-4 py-2 text-sm font-medium text-background hover:opacity-90 transition-opacity"
+                  >
+                    Ver libro
+                  </a>
+                )}
+                {book.amazonEbookUrl && (
+                  <a
+                    href={book.amazonEbookUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center justify-center rounded-lg border border-border px-4 py-2 text-sm font-medium text-foreground hover:bg-stone-50 transition-colors"
+                  >
+                    Ver ebook
+                  </a>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
       </header>
 
       {/* Quick info */}
