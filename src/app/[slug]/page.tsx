@@ -343,23 +343,9 @@ export default async function BookPage({
         </section>
       )}
 
-      {book.sources && book.sources.length > 0 && (
+      {book.reviewedAt && (
         <section className="mb-10 bg-stone-50 border border-border rounded-lg p-6">
-          <div className="flex flex-col gap-1 mb-4">
-            <h2 className="font-serif text-xl font-bold text-foreground">Fuentes consultadas</h2>
-            {book.reviewedAt && (
-              <p className="text-xs text-muted">Revisado editorialmente: {book.reviewedAt}</p>
-            )}
-          </div>
-          <ul className="space-y-2">
-            {book.sources.map((source) => (
-              <li key={source.url} className="text-sm text-stone-700 leading-relaxed">
-                <a href={source.url} className="text-accent hover:underline break-all" target="_blank" rel="noreferrer">
-                  {source.label}
-                </a>
-              </li>
-            ))}
-          </ul>
+          <p className="text-xs text-muted">Revisado editorialmente: {book.reviewedAt}</p>
         </section>
       )}
 
