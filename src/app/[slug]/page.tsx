@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import BookCard from "@/components/BookCard";
@@ -90,12 +89,13 @@ export default async function BookPage({
           <div className="mx-auto md:mx-0 w-full max-w-[220px]">
             <div className="relative aspect-[2/3] overflow-hidden rounded-2xl border border-border bg-stone-100 shadow-sm">
               {book.coverImageUrl ? (
-                <Image
+                <img
                   src={book.coverImageUrl}
                   alt={`Portada de ${book.title}`}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 180px, 220px"
+                  className="absolute inset-0 h-full w-full object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  referrerPolicy="no-referrer"
                 />
               ) : (
                 <div className="absolute inset-0 flex items-center justify-center p-6 text-center text-sm text-muted">
