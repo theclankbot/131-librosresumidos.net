@@ -41,31 +41,31 @@ export function getBookBySlug(slug: string): Book | undefined {
 }
 
 export function getBooksByGenre(genre: Genre): Book[] {
-  return books.filter((b) => b.genres.includes(genre));
+  return mergedBooks.filter((b) => b.genres.includes(genre));
 }
 
 export function getBooksByAuthor(authorSlug: string): Book[] {
-  return books.filter((b) => b.authorSlug === authorSlug);
+  return mergedBooks.filter((b) => b.authorSlug === authorSlug);
 }
 
 export function getSchoolBooks(): Book[] {
-  return books.filter((b) => b.escpilar);
+  return mergedBooks.filter((b) => b.escpilar);
 }
 
 export function getPopularBooks(): Book[] {
-  return books.slice(0, 12);
+  return mergedBooks.slice(0, 12);
 }
 
 export function getRelatedBooks(book: Book): Book[] {
   return book.relatedSlugs
-    .map((slug) => books.find((b) => b.slug === slug))
+    .map((slug) => mergedBooks.find((b) => b.slug === slug))
     .filter((b): b is Book => b !== undefined);
 }
 
 export function searchBooks(query: string): Book[] {
   const q = query.toLowerCase().trim();
   if (!q) return [];
-  return books.filter(
+  return mergedBooks.filter(
     (b) =>
       b.title.toLowerCase().includes(q) ||
       b.authorName.toLowerCase().includes(q) ||
@@ -96,7 +96,7 @@ export function getGenresWithBooks(): (GenreInfo & { count: number })[] {
   return genres
     .map((g) => ({
       ...g,
-      count: books.filter((b) => b.genres.includes(g.slug)).length,
+      count: mergedBooks.filter((b) => b.genres.includes(g.slug)).length,
     }))
     .filter((g) => g.count > 0)
     .sort((a, b) => b.count - a.count);
